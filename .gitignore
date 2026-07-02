@@ -11,3 +11,6 @@ cache/
 
 # Node (kept off the repo for now)
 node_modules/
+web/dist/
+web/node_modules/
+web/.vite-ssg-temp/
