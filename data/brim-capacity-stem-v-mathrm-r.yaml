@@ -1,0 +1,22 @@
+---
+data:
+  identifier: '01984'
+  term: brim capacity, stem:[V_{\mathrm{r}}]
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 138:2007
+    publication_id: OIML R138:2007
+    tc_sc: ''
+    year: 2007
+    clause: '2.7'
+    link: https://www.oiml.org/en/files/pdf_R/r138-e07.pdf
+    g18_entry: '01984'
+    definition: volume that the vessel is meant to contain when filled to the brim
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: ea2320dd-eb0d-5371-a87c-0fa74ac47ea4
+schema_version: '3'
+related: []

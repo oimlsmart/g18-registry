@@ -1,0 +1,36 @@
+---
+data:
+  identifier: '00248'
+  term: durability protection facility
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML D 11:2004
+    publication_id: OIML D011:2004
+    tc_sc: ''
+    year: 2004
+    clause: '3.19'
+    link: https://www.oiml.org/en/files/pdf_D/d011-e04.pdf
+    g18_entry: '00248'
+    definition: facility that is incorporated in a measuring instrument and which
+      enables significant durability errors to be detected and acted upon
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 135:2004
+    publication_id: OIML R135:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.35'
+    link: https://www.oiml.org/en/files/pdf_R/r135-e04.pdf
+    g18_entry: '01874'
+    definition: facility that is incorporated in a measuring instrument which enables
+      the detection of and action upon significant durability errors
+    notes:
+    - "[OIML D 11, 3.19]"
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: dadbfd4a-fe2f-57a7-8c44-cba4dfd081ba
+schema_version: '3'
+related: []

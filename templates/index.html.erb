@@ -1,0 +1,60 @@
+<% stats = dataset %>
+<section class="hero">
+  <h1>G 18 — OIML Term-Usage Registry</h1>
+  <p class="lede">
+    A <strong>usage registry</strong>, not a vocabulary: where OIML terms
+    appear, in which publication, with which definition, and how each
+    instance compares to the official VIM/VIML definition.
+  </p>
+</section>
+
+<section class="stats grid grid-4">
+  <a class="stat-card" href="<%= rel_root %>terms/index.html">
+    <div class="stat-value"><%= stats.term_count %></div>
+    <div class="stat-label">unique terms</div>
+  </a>
+  <a class="stat-card" href="<%= rel_root %>publications/index.html">
+    <div class="stat-value"><%= stats.publication_count %></div>
+    <div class="stat-label">source publications</div>
+  </a>
+  <a class="stat-card" href="<%= rel_root %>terms/index.html">
+    <div class="stat-value"><%= stats.instance_count %></div>
+    <div class="stat-label">term instances</div>
+  </a>
+  <a class="stat-card" href="<%= rel_root %>leaderboard.html">
+    <div class="stat-value"><%= stats.divergent_term_count %></div>
+    <div class="stat-label">terms with divergent definitions</div>
+  </a>
+</section>
+
+<section class="card">
+  <h2>What this registry is for</h2>
+  <ul>
+    <li><strong>TC editor</strong> — identify which terms in your Recommendation diverge from the official VIM/VIML definition.</li>
+    <li><strong>TC chair</strong> — see which TC/SC has the most drift from the official vocabulary.</li>
+    <li><strong>Authoring a new Recommendation</strong> — search for a term; if it's in VIM/VIML, get the official definition; if it's already in G 18 from other Recs, see how others defined it.</li>
+    <li><strong>OIML secretariat</strong> — maintain a consistency dashboard across all Recommendations.</li>
+  </ul>
+</section>
+
+<section class="card">
+  <h2>Start browsing</h2>
+  <ul>
+    <li><a href="<%= rel_root %>terms/index.html">All terms (alphabetical)</a> — <%= stats.term_count %> entries, one page per term with every publication instance.</li>
+    <li><a href="<%= rel_root %>tc/index.html">By Technical Committee / Subcommittee</a> — see which TC owns which terms. <em><%= stats.attributed_publication_count %> of <%= stats.publication_count %> publications currently attributed.</em></li>
+    <li><a href="<%= rel_root %>publications/index.html">By publication</a> — start from a Recommendation and see all terms it defines.</li>
+    <li><a href="<%= rel_root %>leaderboard.html">Divergence leaderboard</a> — the 20 terms with the most distinct definitions across publications.</li>
+  </ul>
+</section>
+
+<section class="card note">
+  <h2>Source data &amp; integrity</h2>
+  <p>
+    The canonical source lives in
+    <a href="https://github.com/oimlsmart/vocab/tree/main/datasets/g18/"><code>oimlsmart/vocab</code> <code>datasets/g18/</code></a>
+    (2132 entries, never modified by this registry). This repo consumes it,
+    regroups by unique term, and renders the browsing views. See
+    <a href="https://github.com/oimlsmart/g18-registry/blob/main/migration-report.md">the migration report</a>
+    for counts and invariant checks.
+  </p>
+</section>

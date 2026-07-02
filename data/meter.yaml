@@ -1,0 +1,53 @@
+---
+data:
+  identifier: '01014'
+  term: meter
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 139:2007
+    publication_id: OIML R139:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.1.1
+    link: https://www.oiml.org/en/files/pdf_R/r139-e07.pdf
+    g18_entry: '01988'
+    definition: instrument intended to measure, memorize and display the quantity
+      of gas passing through the measurement transducer at metering conditions
+    notes:
+    - A meter includes at least a transducer, a calculator (including adjustment or
+      correction devices if present) and an indicating device.
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 140:2007
+    publication_id: OIML R140:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.1.1
+    link: https://www.oiml.org/en/files/pdf_R/r140-e07.pdf
+    g18_entry: '02039'
+    definition: instrument intended to measure, memorize and display the volume or
+      mass of gas passing through the flow measuring device at metering conditions
+    notes:
+    - The display may be a remote indicating device.
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 81:1998
+    publication_id: OIML R081:1998
+    tc_sc: ''
+    year: 1998
+    clause: '3.5'
+    link: https://www.oiml.org/en/files/pdf_R/r081-e98.pdf
+    g18_entry: '01014'
+    definition: an instrument designed to measure continuously, memorize and display
+      the quantity that passes through the measurement transducer
+    notes:
+    - a meter includes at least a measurement transducer, a calculator (including
+      adjustment or correction devices if present), a conversio device (if necessary),
+      and an indicating device.
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 4a3bf4e8-ea19-52ad-9e4f-7d684d3a8606
+schema_version: '3'
+related: []

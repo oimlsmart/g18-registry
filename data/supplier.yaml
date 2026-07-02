@@ -1,0 +1,25 @@
+---
+data:
+  identifier: '02158'
+  term: supplier
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML D 29:2008
+    publication_id: OIML D029:2008
+    tc_sc: ''
+    year: 2008
+    clause: '3'
+    link: https://www.oiml.org/en/files/pdf_D/d029-e08.pdf
+    g18_entry: '02158'
+    definition: '- G.3-3 -- For this application, "supplier" must be'
+    notes:
+    - understood as "applicant" for type evaluation or for OIML Type Evaluation. Although
+      the instrument may be manufactured by another company, the applicant has to
+      assume responsibility for compliance.
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 07b3d877-f7a2-5941-a67e-938d12f70854
+schema_version: '3'
+related: []

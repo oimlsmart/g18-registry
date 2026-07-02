@@ -1,0 +1,28 @@
+---
+data:
+  identifier: '01864'
+  term: catalytic activity concentration; catalytic concentration
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 135:2004
+    publication_id: OIML R135:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.25'
+    link: https://www.oiml.org/en/files/pdf_R/r135-e04.pdf
+    g18_entry: '01864'
+    definition: catalytic activity of a component divided by the volume of the 1.
+      The derived coherent SI unit is the mole per original system
+    notes:
+    - second per cubic metre (mol/(s × m3)), also called kat/m
+    - 3. In laboratory medicine the mole per second per litre (mol/(s × L)) is also
+      frequently used.
+    - 2. Throughout this Recommendation the "component" is an enzyme and the "original
+      system" can be, e.g., the plasma of a blood sample. [ISO/DIS 18153, clause 3.3]
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: f232291a-39b8-5eb7-a8b7-db32a715d61e
+schema_version: '3'
+related: []

@@ -1,0 +1,34 @@
+---
+data:
+  identifier: '00623'
+  term: maximum capacity, Max
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 107-1:2007
+    publication_id: OIML R107-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.3.3.1
+    link: https://www.oiml.org/en/files/pdf_R/r107-1-e07.pdf
+    g18_entry: '01362'
+    definition: largest discrete load that can be weighed automatically
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 51-1:2006
+    publication_id: OIML R051-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.3.1.1
+    link: https://www.oiml.org/en/files/pdf_R/r051-1-e06.pdf
+    g18_entry: '00623'
+    definition: maximum weighing capacity, not taking into account the additive tare
+      capacity
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 49682e0a-adb5-5bec-bb90-d844a27fd60c
+schema_version: '3'
+related: []

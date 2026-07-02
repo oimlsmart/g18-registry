@@ -1,0 +1,26 @@
+---
+data:
+  identifier: '02340'
+  term: semi-automatic adjustment facility
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 99-1:2008
+    publication_id: OIML R099-1:2008
+    tc_sc: ''
+    year: 2008
+    clause: '3.8'
+    link: https://www.oiml.org/en/files/pdf_R/r099-1-e08.pdf
+    g18_entry: '02340'
+    definition: facility allowing the user to initiate an adjustment of the instrument
+      without having the possibility of influencing its magnitude, whether or not
+      the adjustment is automatically required
+    notes:
+    - For those instruments that require the values of the volume fractions of the
+      reference gas to be entered manually, the facility is considered to be semi-automatic.
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 0d086406-11e7-5731-b476-70725ea2262e
+schema_version: '3'
+related: []

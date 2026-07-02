@@ -1,0 +1,26 @@
+---
+data:
+  identifier: '00516'
+  term: weigh length (L)
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 50-1:1997
+    publication_id: OIML R050-1:1997
+    tc_sc: ''
+    year: 1997
+    clause: T.4.2
+    link: https://www.oiml.org/en/files/pdf_R/r050-1-e97.pdf
+    g18_entry: '00516'
+    definition: the distance between the two imaginary lines at the half distance
+      between the axes of the end weighing rollers and the axes of the nearest carrying
+      rollers. When there is only one weighing roller, the weigh length is equal to
+      half the distance between the axes of the nearest carrying rollers on either
+      side of the weighing roller
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 5478c30c-5239-55ce-9138-0cf977291a57
+schema_version: '3'
+related: []

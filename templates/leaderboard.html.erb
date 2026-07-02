@@ -1,0 +1,50 @@
+<section class="page-head">
+  <div class="breadcrumb">
+    <a href="<%= rel_root %>index.html">Registry</a> /
+    <span>Divergence leaderboard</span>
+  </div>
+  <h1>Divergence leaderboard</h1>
+  <p class="lede">
+    The top 20 terms with the most distinct definitions across the publications that use them.
+    A high count here is a strong signal that the term needs editorial harmonisation.
+  </p>
+</section>
+
+<section class="card">
+  <table class="leaderboard-table">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Term</th>
+        <th>Vocabulary</th>
+        <th>Instances</th>
+        <th>Distinct definitions</th>
+      </tr>
+    </thead>
+    <tbody>
+    <% dataset.leaderboard(20).each_with_index do |t, i| %>
+      <tr>
+        <td class="num"><%= i + 1 %></td>
+        <td><a href="<%= rel_root %><%= t.path %>"><%= h t.name %></a></td>
+        <td><%= kind_badge(t) %></td>
+        <td class="num"><%= t.publications.size %></td>
+        <td class="num"><span class="divergence-count"><%= t.distinct_definitions.size %></span></td>
+      </tr>
+    <% end %>
+    </tbody>
+  </table>
+</section>
+
+<section class="card note">
+  <h2>How "divergence" is measured here</h2>
+  <p>
+    Today, divergence counts <em>distinct verbatim definitions</em>. Two
+    publications may use the same words and rank as non-divergent, even
+    when one adds or drops a clause. The AI consistency check
+    (<code>scripts/check_consistency.rb</code>) provides a semantic
+    comparison against the official VIM/VIML definition, surfacing
+    <code>ok</code> / <code>partial</code> / <code>ko</code> per instance;
+    once that has been run, this leaderboard can be retitled to surface
+    semantic drift instead.
+  </p>
+</section>

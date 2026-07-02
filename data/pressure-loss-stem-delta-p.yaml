@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '00448'
+  term: pressure loss,stem:[\Delta p]
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 49-1:2006
+    publication_id: OIML R049-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: 2.3.11
+    link: https://www.oiml.org/en/files/pdf_R/r049-1-e06.pdf
+    g18_entry: '00448'
+    definition: pressure loss, at a given flowrate, caused by the presence of the
+      water meter in the pipeline. The maximum pressure loss can differ from the pressure
+      loss at the permanent flowrate Q3 and at the overload flowrate Q4
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: e9e209bb-5ac3-5797-8aff-555afc6925c6
+schema_version: '3'
+related: []

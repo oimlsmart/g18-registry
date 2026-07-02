@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '01440'
+  term: pressure reference level
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 110:1994
+    publication_id: OIML R110:1994
+    tc_sc: ''
+    year: 1994
+    clause: 2.6.2
+    link: https://www.oiml.org/en/files/pdf_R/r110-e94.pdf
+    g18_entry: '01440'
+    definition: the vertical level, with respect to a clearly defined part of the
+      support column or the base of a pressure balance, to which a measured pressure
+      is related when the piston is at a specific operating level
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: db2c636d-6569-50e1-a3e0-44bf75af4632
+schema_version: '3'
+related: []

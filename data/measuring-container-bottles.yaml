@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '01980'
+  term: measuring container bottles
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 138:2007
+    publication_id: OIML R138:2007
+    tc_sc: ''
+    year: 2007
+    clause: '2.3'
+    link: https://www.oiml.org/en/files/pdf_R/r138-e07.pdf
+    g18_entry: '01980'
+    definition: bottles intended to be filled either at constant level or at constant
+      ullage with sufficient accuracy without the need to use an independent measuring
+      instrument
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: c9e8d428-39ed-50d0-ac3d-8bc0b47c43cc
+schema_version: '3'
+related: []

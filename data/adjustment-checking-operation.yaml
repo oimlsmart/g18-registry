@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '01672'
+  term: adjustment-checking operation
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 126:1998
+    publication_id: OIML R126:1998
+    tc_sc: ''
+    year: 1998
+    clause: '3.11'
+    link: https://www.oiml.org/en/files/pdf_R/r126-e98.pdf
+    g18_entry: '01672'
+    definition: an operation involving all relevant internal elements which verifies
+      that the EBA is suitably adjusted
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 5a7aad8f-6b15-579d-9dab-f9efd32a2a21
+schema_version: '3'
+related: []

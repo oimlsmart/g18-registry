@@ -1,0 +1,56 @@
+---
+data:
+  identifier: '00085'
+  term: type (pattern) evaluation
+  kind: defined_in_viml
+  official_concept:
+    source: urn:oiml:pub:v:1:2000
+    id: '2.5'
+    url: https://oimlsmart.github.io/vocab/viml-2000/concept/2.5
+  publications:
+  - publication: OIML B 3:2003
+    publication_id: OIML B003:2003
+    tc_sc: ''
+    year: 2003
+    clause: '2.7'
+    link: https://www.oiml.org/en/files/pdf_B/b003-e03.pdf
+    g18_entry: '00085'
+    definition: systematic examination and testing of the performance of one or more
+      specimens of an identified type (pattern) of measuring instrument against documented
+      requirements, the results of which are contained in an evaluation report, in
+      order to determine whether the type may be approved. (VIML 2.5)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+    related:
+    - type: see
+      ref: &1
+        source: urn:oiml:pub:v:1:2000
+        id: '2.5'
+  - publication: OIML D 27:2001
+    publication_id: OIML D027:2001
+    tc_sc: ''
+    year: 2001
+    clause: '2.3'
+    link: https://www.oiml.org/en/files/pdf_D/d027-e01.pdf
+    g18_entry: '00165'
+    definition: systematic examination and testing of the performance of one or "Pattern"
+      is used in legal metrology with the more specimens of an identified type (pattern)
+      of measuring same me instruments against documented requirements, the results
+      of only "t which are contained in the evaluation report, in order to determine
+      whether the type may be approved [VIML, 2.5]
+    notes:
+    - aning as "type"; in the entries below, ype" is used.
+    consistency: pending
+    consistency_reason: ''
+    related:
+    - type: see
+      ref:
+        source: urn:oiml:pub:v:1:2000
+        id: '2.5'
+status: current
+id: 6818c82b-103b-542d-874b-1cb1eadf8b75
+schema_version: '3'
+related:
+- type: see
+  ref: *1

@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '01880'
+  term: measuring
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 136-1:2004
+    publication_id: OIML R136-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: T.1.1
+    link: https://www.oiml.org/en/files/pdf_R/r136-1-e04.pdf
+    g18_entry: '01880'
+    definition: set of operations, performed manually, semi-automatically or automatically,
+      having the object of determining a value of a quantity
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: d8665f28-e41d-5186-8de7-1a7d231a8546
+schema_version: '3'
+related: []

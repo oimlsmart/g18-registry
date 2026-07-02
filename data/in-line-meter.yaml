@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '00467'
+  term: in-line meter
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 49-2:2006
+    publication_id: OIML R049-2:2006
+    tc_sc: ''
+    year: 2006
+    clause: '2.2'
+    link: https://www.oiml.org/en/files/pdf_R/r049-2-e06.pdf
+    g18_entry: '00467'
+    definition: type of water meter fitted into a closed conduit by means of the meter
+      end connections (either threaded or flanged) provided
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: e26d48b0-b03b-5229-8daa-e027946443d9
+schema_version: '3'
+related: []

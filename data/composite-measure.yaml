@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '00369'
+  term: composite measure
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 35-1:2007
+    publication_id: OIML R035-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: 2.2.3
+    link: https://www.oiml.org/en/files/pdf_R/r035-1-e07.pdf
+    g18_entry: '00369'
+    definition: length measure which has one of the principal scale marks formed by
+      an end surface or edge and the other by a line, hole or mark
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 2e15ed73-f497-51c4-b090-9d9fa370cb1b
+schema_version: '3'
+related: []

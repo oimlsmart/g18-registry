@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '00784'
+  term: reference particle mass of a product
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 61-1:2004
+    publication_id: OIML R061-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: T.3.2
+    link: https://www.oiml.org/en/files/pdf_R/r061-1-e04.pdf
+    g18_entry: '00784'
+    definition: mass equal to the mean of ten of the largest particles or pieces of
+      the product taken from one or more fills
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 36d6dcbf-4938-5707-8b70-cb4127af445f
+schema_version: '3'
+related: []

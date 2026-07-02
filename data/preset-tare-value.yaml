@@ -1,0 +1,25 @@
+---
+data:
+  identifier: '00970'
+  term: preset tare value
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 76-1:2006
+    publication_id: OIML R076-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.5.3.1
+    link: https://www.oiml.org/en/files/pdf_R/r076-1-e06.pdf
+    g18_entry: '00970'
+    definition: 'numerical value, representing a weight, that is introduced into the
+      instrument and is intended to be applied to other weighings without determining
+      individual tares. "Introduced" includes procedures such as: keying in, recalling
+      from a data storage device, or inserting via an interface'
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 69294078-507f-5d52-b338-c35ef846dc8e
+schema_version: '3'
+related: []

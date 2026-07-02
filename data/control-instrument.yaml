@@ -1,0 +1,78 @@
+---
+data:
+  identifier: '00570'
+  term: control instrument
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 107-1:2007
+    publication_id: OIML R107-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.1.5
+    link: https://www.oiml.org/en/files/pdf_R/r107-1-e07.pdf
+    g18_entry: '01319'
+    definition: weighing instrument used to determine the conventional true value
+      of the mass of the test loads during material tests
+    notes:
+    - 'Control instruments used for testing may be: * separate from the instrument
+      being tested; or * integral, when a non-automatic (static) weighing mode is
+      provided b the instrument being tested, which allows the weighing cycle to be
+      interrupted (see 6.3).'
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 51-1:2006
+    publication_id: OIML R051-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.1.7
+    link: https://www.oiml.org/en/files/pdf_R/r051-1-e06.pdf
+    g18_entry: '00570'
+    definition: "- - Weighing instrument used to determine the conventional true value
+      of the mass of the test load(s). Control instruments used for testing may be:
+      separate from the instrument being tested; or integral, when a static weighing
+      mode is provided by the instrument being tested"
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 61-1:2004
+    publication_id: OIML R061-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: T.1.9
+    link: https://www.oiml.org/en/files/pdf_R/r061-1-e04.pdf
+    g18_entry: '00761'
+    definition: "• • weighing instrument used to determine the mass of the test fill(s)
+      delivered by the filling instrument. The control instrument used during testing
+      may be: Separate from the instrument being tested; or Integral, when the instrument
+      being tested is used as the control instrument"
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 134:2003
+    publication_id: OIML R134:2003
+    tc_sc: ''
+    year: 2003
+    clause: T.1.5
+    link: https://www.oiml.org/en/files/pdf_R/r134-e03.pdf
+    g18_entry: '01788'
+    definition: weighing instrument used to determine the mass of a reference vehicle
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 106-1:1997
+    publication_id: OIML R106-1:1997
+    tc_sc: ''
+    year: 1997
+    clause: T.1.5
+    link: https://www.oiml.org/en/files/pdf_R/r106-1-e97.pdf
+    g18_entry: '01258'
+    definition: a non-automatic weighing instrument used to determine the mass ofa
+      reference wagon
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 2d93e387-7049-5041-a3b0-c5658e27b4d9
+schema_version: '3'
+related: []

@@ -1,0 +1,26 @@
+---
+data:
+  identifier: '01669a'
+  term: measuring mode
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 126:1998
+    publication_id: OIML R126:1998
+    tc_sc: ''
+    year: 1998
+    clause: '3.8'
+    link: https://www.oiml.org/en/files/pdf_R/r126-e98.pdf
+    g18_entry: '01669a'
+    definition: the clearly marked mode in which the EBA can make measurements at
+      the rate normally expected in service and in which it shall meet the performance
+      requirements of this Recommendation
+    notes:
+    - The measuring mode and the stand-by mode (3.7) are modes of normal operation
+      (3.6).
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 58b0bac2-9f1a-5acc-8991-b35e002d7bfd
+schema_version: '3'
+related: []

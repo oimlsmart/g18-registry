@@ -1,0 +1,22 @@
+---
+data:
+  identifier: '01775'
+  term: bulb
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 133:2002
+    publication_id: OIML R133:2002
+    tc_sc: ''
+    year: 2002
+    clause: '3.2'
+    link: https://www.oiml.org/en/files/pdf_R/r133-e02.pdf
+    g18_entry: '01775'
+    definition: reservoir for the thermometer liquid
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 44faf227-5f7a-5a1e-965f-3b4f38ecb626
+schema_version: '3'
+related: []

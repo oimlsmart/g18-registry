@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '01557'
+  term: endurance
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 117-1:2007
+    publication_id: OIML R117-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.e.2
+    link: https://www.oiml.org/en/files/pdf_R/r117-1-e07.pdf
+    g18_entry: '01557'
+    definition: capability of the measuring system to keep its performance characteristics
+      over a period of use
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 24f3ca9f-63d0-5d04-8e2b-ac24bd16b9c4
+schema_version: '3'
+related: []

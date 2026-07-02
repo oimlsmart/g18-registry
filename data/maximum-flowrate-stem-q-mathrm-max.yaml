@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '00519'
+  term: maximum flowrate(stem:[Q_{\mathrm{max}}])
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 50-1:1997
+    publication_id: OIML R050-1:1997
+    tc_sc: ''
+    year: 1997
+    clause: T.4.5.1
+    link: https://www.oiml.org/en/files/pdf_R/r050-1-e97.pdf
+    g18_entry: '00519'
+    definition: the flowrate obtained with the maximum capacity of the weighing unit
+      and the maximum speed of the belt
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 3b585c5f-3c0d-5a31-9d26-1f7415f0b8b9
+schema_version: '3'
+related: []

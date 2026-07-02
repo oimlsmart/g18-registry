@@ -1,0 +1,29 @@
+---
+data:
+  identifier: '02165'
+  term: OIML Evaluation Report
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML D 30:2008
+    publication_id: OIML D030:2008
+    tc_sc: ''
+    year: 2008
+    clause: '3'
+    link: https://www.oiml.org/en/files/pdf_D/d030-e08.pdf
+    g18_entry: '02165'
+    definition: "- G.3-1 report, drawn up according to the Test Report Format specified
+      1. The OIML Evaluation Report is issued by in the relevant Recommendation that
+      includes the Partial Test Reports or the Test Report and assesses the conformity
+      of the type of measuring instrument to all the requirements in the relevant
+      OIML Recommendation"
+    notes:
+    - the OIML Issuing Authority.
+    - 2. The OIML Evaluation Report is currently designated as "Test Report" in OIML
+      B 3 an as "OIML Test Report" in OIML B 10-1.
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: aff6e9ec-cefb-5a5f-aa31-012c392163ac
+schema_version: '3'
+related: []

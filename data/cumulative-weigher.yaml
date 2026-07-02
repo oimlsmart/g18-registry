@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '00759'
+  term: cumulative weigher
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 61-1:2004
+    publication_id: OIML R061-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: T.1.8.2
+    link: https://www.oiml.org/en/files/pdf_R/r061-1-e04.pdf
+    g18_entry: '00759'
+    definition: automatic gravimetric filling instrument with one weighing unit with
+      the facility to effect the fill by more than one weighing cycle
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: de462f3e-505f-518d-9dbb-15ce16c6f3aa
+schema_version: '3'
+related: []

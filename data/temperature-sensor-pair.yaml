@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '00848'
+  term: temperature sensor pair
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 75-1:2002
+    publication_id: OIML R075-1:2002
+    tc_sc: ''
+    year: 2002
+    clause: 3.4.2
+    link: https://www.oiml.org/en/files/pdf_R/r075-1-e02.pdf
+    g18_entry: '00848'
+    definition: a sub-assembly (for mounting with or without pockets), which senses
+      the temperatures of the heatconveying liquid at the flow and return of a heatexchange
+      circuit
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: f07c9842-8270-582a-95e2-99ea287e01d4
+schema_version: '3'
+related: []

@@ -1,0 +1,35 @@
+---
+data:
+  identifier: '00141'
+  term: test object
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 129:2000
+    publication_id: OIML R129:2000
+    tc_sc: ''
+    year: 2000
+    clause: 2.33.4
+    link: https://www.oiml.org/en/files/pdf_R/r129-e00.pdf
+    g18_entry: '01738'
+    definition: an object whose dimensions are verified by appropriate reference standards
+      and intended to verify the compliance of the EUT with certain metrological requirements
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML D 20:1988
+    publication_id: OIML D020:1988
+    tc_sc: ''
+    year: 1988
+    clause: 1.2.7
+    link: https://www.oiml.org/en/files/pdf_D/d020-e88.pdf
+    g18_entry: '00141'
+    definition: a physical object, device, or material that is subject to a measurement
+      and embodies the physical quantity to be measured or calibrated
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 69e32c6d-3223-5b94-b9a4-f9845af1317f
+schema_version: '3'
+related: []

@@ -1,0 +1,28 @@
+---
+data:
+  identifier: '02177'
+  term: cryptographic certificate
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML D 31:2008
+    publication_id: OIML D031:2008
+    tc_sc: ''
+    year: 2008
+    clause: 3.1.10
+    link: https://www.oiml.org/en/files/pdf_D/d031-e08.pdf
+    g18_entry: '02177'
+    definition: data set containing the public key belonging to a measuring instrument
+      or a person plus a unique identification of the subject, e.g. serial number
+      of the measuring instrument or name or Personal Identification Number (PIN)
+      of the person. The data set is signed by a trustworthy institution with an electronic
+      signature. The assignment of a public key to a subject can be verified by using
+      the public key of the trustworthy institution and decrypting the signature of
+      the certificate
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: fb6b42f5-322f-58ca-803b-4d30be3418d0
+schema_version: '3'
+related: []

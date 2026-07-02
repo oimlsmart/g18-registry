@@ -1,0 +1,59 @@
+---
+data:
+  identifier: '00456'
+  term: endurance test
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 117-1:2007
+    publication_id: OIML R117-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.e.3
+    link: https://www.oiml.org/en/files/pdf_R/r117-1-e07.pdf
+    g18_entry: '01558'
+    definition: test intended to verify whether the meter or the measuring system
+      is able to maintain its performance characteristics over a period of use
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 139:2007
+    publication_id: OIML R139:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.4.7
+    link: https://www.oiml.org/en/files/pdf_R/r139-e07.pdf
+    g18_entry: '02028'
+    definition: test intended to verify whether the meter or the measuring system
+      is able to maintain its performance characteristics over a period of use
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 140:2007
+    publication_id: OIML R140:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.3.7
+    link: https://www.oiml.org/en/files/pdf_R/r140-e07.pdf
+    g18_entry: '02098'
+    definition: test intended to verify whether the metering module is able to maintain
+      its performance characteristics over a period of use
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 49-1:2006
+    publication_id: OIML R049-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: 2.4.8
+    link: https://www.oiml.org/en/files/pdf_R/r049-1-e06.pdf
+    g18_entry: '00456'
+    definition: test intended to verify whether the water meter is able to maintain
+      its performance characteristics over a period of use
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 21149f63-504c-55b1-8baf-a90e665394a7
+schema_version: '3'
+related: []

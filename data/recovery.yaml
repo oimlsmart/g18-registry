@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '00478'
+  term: recovery
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 49-2:2006
+    publication_id: OIML R049-2:2006
+    tc_sc: ''
+    year: 2006
+    clause: '2.13'
+    link: https://www.oiml.org/en/files/pdf_R/r049-2-e06.pdf
+    g18_entry: '00478'
+    definition: treatment of the equipment under test, after conditioning, in order
+      that the properties of the equipment under test may be stabilized before measurement
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 7d75d1ef-cf07-5a51-be56-aafab8ebd0f7
+schema_version: '3'
+related: []

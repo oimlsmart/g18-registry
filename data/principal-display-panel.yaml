@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '00996'
+  term: principal display panel
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 79:1997
+    publication_id: OIML R079:1997
+    tc_sc: ''
+    year: 1997
+    clause: '2.4'
+    link: https://www.oiml.org/en/files/pdf_R/r079-e97.pdf
+    g18_entry: '00996'
+    definition: the part of a package that is most likely to be displayed, presented,
+      shown or examined under normal and customary conditions of display
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 1fdc7097-389f-5cbe-9836-86833c93b943
+schema_version: '3'
+related: []

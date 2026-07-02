@@ -1,0 +1,25 @@
+---
+data:
+  identifier: '01760'
+  term: EPR spectroscopy
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 132:2001
+    publication_id: OIML R132:2001
+    tc_sc: ''
+    year: 2001
+    clause: '3.3'
+    link: https://www.oiml.org/en/files/pdf_R/r132-e01.pdf
+    g18_entry: '01760'
+    definition: measurement of resonant absorption of electromagnetic energy, resulting
+      from the transition of unpaired electrons between different energy levels, upon
+      application of usually microwave frequency energy to a paramagnetic substance
+      in the presence of a magnetic field
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: a57349ab-e886-5416-856c-1b95fd33b63c
+schema_version: '3'
+related: []

@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '00222'
+  term: recognition of a standard
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML D 8:2004
+    publication_id: OIML D008:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.2'
+    link: https://www.oiml.org/en/files/pdf_D/d008-e04.pdf
+    g18_entry: '00222'
+    definition: formal approval performed by the national (legal) metrology body (depending
+      on national legislation), that the metrological and technical characteristics
+      of a standard meet the statutory requirements for its intended use
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 5a611575-3ec8-5e13-b0d0-ddddd9125adc
+schema_version: '3'
+related: []

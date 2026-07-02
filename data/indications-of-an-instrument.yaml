@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '00889'
+  term: indications of an instrument
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 76-1:2006
+    publication_id: OIML R076-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.1.3
+    link: https://www.oiml.org/en/files/pdf_R/r076-1-e06.pdf
+    g18_entry: '00889'
+    definition: value of a quantity provided by a measuring instrument
+    notes:
+    - '"Indication", "indicate" or "indicating" includes both displaying and/or printing.'
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 6a1e995f-6d9d-54f7-98d8-21f3524f46b1
+schema_version: '3'
+related: []

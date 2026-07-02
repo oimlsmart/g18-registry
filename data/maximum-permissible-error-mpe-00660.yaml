@@ -1,0 +1,49 @@
+---
+data:
+  identifier: '00660'
+  term: maximum permissible error, MPE
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 107-1:2007
+    publication_id: OIML R107-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.4.5.8
+    link: https://www.oiml.org/en/files/pdf_R/r107-1-e07.pdf
+    g18_entry: '01394'
+    definition: "[V extreme values of an error permitted by specifications, regulations,
+      etc. for a given instrument IM: 1993, 5.21]"
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 51-1:2006
+    publication_id: OIML R051-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.4.3.7
+    link: https://www.oiml.org/en/files/pdf_R/r051-1-e06.pdf
+    g18_entry: '00660'
+    definition: "[V extreme value of an error permitted by specifications, regulations,
+      etc. for a given instrument IM:1993, 5.21 ]"
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 76-1:2006
+    publication_id: OIML R076-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.5.5.4
+    link: https://www.oiml.org/en/files/pdf_R/r076-1-e06.pdf
+    g18_entry: '00980'
+    definition: maximum difference, positive or negative, allowed by regulation between
+      the indication of an instrument and the corresponding true value, as determined
+      by reference standard masses or standard weights, with the instrument being
+      at zero at no-load, in the reference position
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 02f923c0-7a09-53fc-869b-33e858ec1c64
+schema_version: '3'
+related: []

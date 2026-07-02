@@ -1,0 +1,113 @@
+---
+data:
+  identifier: '00417'
+  term: correction device
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 117-1:2007
+    publication_id: OIML R117-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.c.5
+    link: https://www.oiml.org/en/files/pdf_R/r117-1-e07.pdf
+    g18_entry: '01550'
+    definition: device connected to or incorporated in the meter for automatically
+      correcting the measured quantity at the time of measurement, by taking into
+      account the flowrate and/or the characteristics of the liquid to be measured
+      (viscosity, temperature, pressure, etc.) and the pre-established calibration
+      curves. The characteristics of the liquid shall either be measured using associated
+      measuring devices, or stored in the memory of the instrument
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 139:2007
+    publication_id: OIML R139:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.1.12
+    link: https://www.oiml.org/en/files/pdf_R/r139-e07.pdf
+    g18_entry: '02000'
+    definition: device connected to or incorporated in the meter for automatically
+      correcting the mass, by taking into account the flowrate and/or the characteristics
+      of the gas to be measured (viscosity, temperature, pressure, etc.) and the pre-established
+      calibration curves
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 140:2007
+    publication_id: OIML R140:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.1.11.2
+    link: https://www.oiml.org/en/files/pdf_R/r140-e07.pdf
+    g18_entry: '02052'
+    definition: device connected to or incorporated in the meter/and or a calculator
+      for automatically correcting the volume at metering conditions, by taking into
+      account the flowrate and/or the characteristics of the gas to be measured (temperature,
+      pressure, gas composition, etc.) and by also taking into account pre- established
+      calibration curves
+    notes:
+    - The characteristics of the gas may either be measured using associated measuring
+      instruments, or stored in a memory in the instrument.
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 49-1:2006
+    publication_id: OIML R049-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: 2.1.7
+    link: https://www.oiml.org/en/files/pdf_R/r049-1-e06.pdf
+    g18_entry: '00417'
+    definition: device connected to or incorporated in the meter for automatically
+      correcting the volume at metering conditions, by taking into account the flowrate
+      and/or the characteristics of the water to be measured (e.g. temperature and
+      pressure) and the pre-established calibration curves. The characteristics of
+      the water to be measured may either be measured using associated measuring instruments,
+      or be stored in a memory in the instrument
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 137-1:2006
+    publication_id: OIML R137-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: 2.1.9
+    link: https://www.oiml.org/en/files/pdf_R/r137-1-e06.pdf
+    g18_entry: '01932'
+    definition: e. device intended for correction of known errors as a function of
+      g. flowrate, Reynolds number (curve linearization), or pressure and/or temperature
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 61-1:2004
+    publication_id: OIML R061-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: T.2.1.4.4
+    link: https://www.oiml.org/en/files/pdf_R/r061-1-e04.pdf
+    g18_entry: '00770'
+    definition: device which automatically corrects the setting of the filling instrument
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 81:1998
+    publication_id: OIML R081:1998
+    tc_sc: ''
+    year: 1998
+    clause: '3.10'
+    link: https://www.oiml.org/en/files/pdf_R/r081-e98.pdf
+    g18_entry: '01019'
+    definition: a device connected to or incorporated in the meter for automatically
+      correcting the volume in metering conditions, by taking account of the flowrate
+      and/or the characteristics of the liquid to be measured (viscosity, temperature,
+      pressure, etc.) and pre-established calibration curves. The characteristics
+      of the liquid may either be measured using associated measuring instruments,
+      or stored in a memory within the instrument
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: ef8ddd40-fc45-5967-934f-9fdcd2264c8c
+schema_version: '3'
+related: []

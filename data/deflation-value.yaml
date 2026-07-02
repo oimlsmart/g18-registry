@@ -1,0 +1,22 @@
+---
+data:
+  identifier: '00318'
+  term: deflation value
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 16-1:2002
+    publication_id: OIML R016-1:2002
+    tc_sc: ''
+    year: 2002
+    clause: '2.13'
+    link: https://www.oiml.org/en/files/pdf_R/r016-1-e02.pdf
+    g18_entry: '00318'
+    definition: valve for controlled exhaust of the pneumatic system during measurement
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: c8c9ae8e-9ae5-580f-a759-2fda16f6526b
+schema_version: '3'
+related: []

@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '00221'
+  term: documentation for a standard
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML D 8:2004
+    publication_id: OIML D008:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.1'
+    link: https://www.oiml.org/en/files/pdf_D/d008-e04.pdf
+    g18_entry: '00221'
+    definition: set of documents concerning the choice, recognition, use and conservation
+      of a particular standard
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 56798f5c-869b-5c13-9944-2d7c6fad9c0a
+schema_version: '3'
+related: []

@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '00173'
+  term: quality control
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML D 27:2001
+    publication_id: OIML D027:2001
+    tc_sc: ''
+    year: 2001
+    clause: '2.11'
+    link: https://www.oiml.org/en/files/pdf_D/d027-e01.pdf
+    g18_entry: '00173'
+    definition: part of quality management, focused on fulfilling quality requirements
+      [ISO 9000:2000, 3.2.10]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: b1be86fa-007e-57e2-81bd-00b2d87cd98b
+schema_version: '3'
+related: []

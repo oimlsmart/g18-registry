@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '01227'
+  term: power supply
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 105:1993
+    publication_id: OIML R105:1993
+    tc_sc: ''
+    year: 1993
+    clause: T.13.4
+    link: https://www.oiml.org/en/files/pdf_R/r105-e93.pdf
+    g18_entry: '01227'
+    definition: a device that provides the electronic devices with the required electrical
+      energy, using one or several sources of D.C. or A.C
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 1716808f-d58e-5cdf-9cb6-c22482bba0da
+schema_version: '3'
+related: []

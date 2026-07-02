@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '00305'
+  term: reference value (of the hectolitre mass of a cereal grain)
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 15:1974
+    publication_id: OIML R015:1974
+    tc_sc: ''
+    year: 1974
+    clause: '1.2'
+    link: https://www.oiml.org/en/files/pdf_R/r015-e74.pdf
+    g18_entry: '00305'
+    definition: the 'reference value' of the hectolitre mass of a cereal grain is
+      that obtained by making the measurement with a national Standard Instrument
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 101b4966-c3ce-5b66-ae2a-9de0184d2d80
+schema_version: '3'
+related: []

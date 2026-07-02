@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '00802'
+  term: maximum permissible deviation of each fill (MPD)
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 61-1:2004
+    publication_id: OIML R061-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: T.4.2.4.1
+    link: https://www.oiml.org/en/files/pdf_R/r061-1-e04.pdf
+    g18_entry: '00802'
+    definition: maximum permissible deviation of each fill from the average value
+      of all the fills of a test sequence
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: a28c3542-75df-56bd-bd6b-6971110fa3d1
+schema_version: '3'
+related: []

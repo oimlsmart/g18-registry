@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '01401'
+  term: normal weighing conditions
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 107-1:2007
+    publication_id: OIML R107-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.5.4
+    link: https://www.oiml.org/en/files/pdf_R/r107-1-e07.pdf
+    g18_entry: '01401'
+    definition: conditions of use prescribed for the instrument including types ofmaterial,
+      site and method of operation
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 7c915b15-ac1a-5875-a5dc-9fbcd171f930
+schema_version: '3'
+related: []

@@ -1,0 +1,36 @@
+---
+data:
+  identifier: '02068'
+  term: uncertainty of measurement
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 142:2008
+    publication_id: OIML R142:2008
+    tc_sc: ''
+    year: 2008
+    clause: 2.4(annex 6)
+    link: https://www.oiml.org/en/files/pdf_R/r142-e08.pdf
+    g18_entry: '02120'
+    definition: parameter characterizing the dispersion of the quantity values being
+      attributed to a measurand, based on the information used
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 140:2007
+    publication_id: OIML R140:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.2.2
+    link: https://www.oiml.org/en/files/pdf_R/r140-e07.pdf
+    g18_entry: '02068'
+    definition: parameter, associated with the result of a measurement, that characterizes
+      the dispersion of the values that could reasonably be attributed to the measurand
+    notes:
+    - "(adapted from VIM:2007, 2.26)"
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: f42dfd1d-9642-563f-bd9d-88d9bbee67bd
+schema_version: '3'
+related: []

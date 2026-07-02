@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '00496'
+  term: displacement transducer
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 50-1:1997
+    publication_id: OIML R050-1:1997
+    tc_sc: ''
+    year: 1997
+    clause: T.3.5
+    link: https://www.oiml.org/en/files/pdf_R/r050-1-e97.pdf
+    g18_entry: '00496'
+    definition: a device on the conveyor providing information either corresponding
+      to the displacement of a defined length of the belt orproportional to the speed
+      of the belt
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: de0710f5-af4b-5148-b34b-4a516afcd53d
+schema_version: '3'
+related: []

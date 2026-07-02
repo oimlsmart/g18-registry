@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '02214'
+  term: source code
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML D 31:2008
+    publication_id: OIML D031:2008
+    tc_sc: ''
+    year: 2008
+    clause: 3.1.47
+    link: https://www.oiml.org/en/files/pdf_D/d031-e08.pdf
+    g18_entry: '02214'
+    definition: computer program written in a form (programming language) that is
+      legible and editable. Source code is compiled or interpreted into executable
+      code
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 92cb28e0-d335-576a-b94d-0bdd212b629e
+schema_version: '3'
+related: []

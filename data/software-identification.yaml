@@ -1,0 +1,72 @@
+---
+data:
+  identifier: '00354'
+  term: software identification
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML D 31:2008
+    publication_id: OIML D031:2008
+    tc_sc: ''
+    year: 2008
+    clause: 3.1.42
+    link: https://www.oiml.org/en/files/pdf_D/d031-e08.pdf
+    g18_entry: '02209'
+    definition: sequence of readable characters (e.g. version number, checksum) that
+      is inextricably linked to the software or software module under consideration.
+      It can be checked on an instrument whilst in use
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 21:2007
+    publication_id: OIML R021:2007
+    tc_sc: ''
+    year: 2007
+    clause: 2.2.8.4
+    link: https://www.oiml.org/en/files/pdf_R/r021-e07.pdf
+    g18_entry: '00354'
+    definition: sequence of readable characters of software, and that is inextricably
+      linked to the software (e.g. version number, checksum)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 107-1:2007
+    publication_id: OIML R107-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.2.7.7.5
+    link: https://www.oiml.org/en/files/pdf_R/r107-1-e07.pdf
+    g18_entry: '01352'
+    definition: sequence of readable characters of software that is inextricably linked
+      to the software (e.g. version number, checksum)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 51-1:2006
+    publication_id: OIML R051-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.2.7.8.4
+    link: https://www.oiml.org/en/files/pdf_R/r051-1-e06.pdf
+    g18_entry: '00595'
+    definition: sequence of readable characters of software, inextricably linked tothe
+      software (e.g. version number, checksum)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 76-1:2006
+    publication_id: OIML R076-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.2.8.6
+    link: https://www.oiml.org/en/files/pdf_R/r076-1-e06.pdf
+    g18_entry: '00937'
+    definition: sequence of readable characters of software that is inextricably linked
+      to the software (e.g. version number, checksum)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: f683bb51-6f97-526b-b54b-9620b93c85bf
+schema_version: '3'
+related: []

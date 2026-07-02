@@ -1,0 +1,25 @@
+---
+data:
+  identifier: '02216'
+  term: sub-assembly
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML D 31:2008
+    publication_id: OIML D031:2008
+    tc_sc: ''
+    year: 2008
+    clause: 3.1.49
+    link: https://www.oiml.org/en/files/pdf_D/d031-e08.pdf
+    g18_entry: '02216'
+    definition: part of an electronic device employing electronic components and having
+      a recognizable function of its own
+    notes:
+    - '1'
+    - 2. [OIML D 11:2004, 3.3]
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 483100f2-688c-5cb4-a107-15b6cf52a369
+schema_version: '3'
+related: []

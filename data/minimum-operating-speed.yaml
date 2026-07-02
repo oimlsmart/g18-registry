@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '01287'
+  term: minimum operating speed
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 106-1:1997
+    publication_id: OIML R106-1:1997
+    tc_sc: ''
+    year: 1997
+    clause: T.3.5.2
+    link: https://www.oiml.org/en/files/pdf_R/r106-1-e97.pdf
+    g18_entry: '01287'
+    definition: the lowest velocity of a wagon that the instrument is designed to
+      weigh-in- motion and below which the weighing results may be subject to an excessive
+      relative error
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: dd271b19-d9fc-5d27-8dec-3e1fa127ab9b
+schema_version: '3'
+related: []

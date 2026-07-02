@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '02112'
+  term: instantaneous field of view (IFOV)
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 141:2008
+    publication_id: OIML R141:2008
+    tc_sc: ''
+    year: 2008
+    clause: '2.8'
+    link: https://www.oiml.org/en/files/pdf_R/r141-e08.pdf
+    g18_entry: '02112'
+    definition: space angle within which the infrared radiation is detected by one
+      photosensitive element of the photodetector
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 182d9e9e-b435-5d4a-90e5-68a4127361b2
+schema_version: '3'
+related: []

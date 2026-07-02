@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '00419'
+  term: tariff control device
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 49-1:2006
+    publication_id: OIML R049-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: 2.1.9
+    link: https://www.oiml.org/en/files/pdf_R/r049-1-e06.pdf
+    g18_entry: '00419'
+    definition: device that allocates measurement results into different registers
+      depending on tariff or other criteria, each register having the possibility
+      to be displayed individually
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: aba5c22d-500a-5f4d-b132-2efc22aebee2
+schema_version: '3'
+related: []

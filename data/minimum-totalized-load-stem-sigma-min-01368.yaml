@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '01368'
+  term: minimum totalized load,stem:[\Sigma_{\min}]
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 107-1:2007
+    publication_id: OIML R107-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.3.6
+    link: https://www.oiml.org/en/files/pdf_R/r107-1-e07.pdf
+    g18_entry: '01368'
+    definition: value of the smallest bulk load that can be totalized without exceeding
+      the maximum permissible error when the automatic operation is comprised of discrete
+      loads, each within the automatic weighing range
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 812c7301-0a44-512f-8867-6a13e72defb0
+schema_version: '3'
+related: []

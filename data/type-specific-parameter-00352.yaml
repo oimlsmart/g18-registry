@@ -1,0 +1,67 @@
+---
+data:
+  identifier: '00352'
+  term: type-specific parameter
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML D 31:2008
+    publication_id: OIML D031:2008
+    tc_sc: ''
+    year: 2008
+    clause: 3.1.53
+    link: https://www.oiml.org/en/files/pdf_D/d031-e08.pdf
+    g18_entry: '02220'
+    definition: 'legally relevant parameter with a value that depends on the type
+      Example: Considering a measuring system of of instrument only. Type-specific
+      parameters are part of the legally relevant software'
+    notes:
+    - liquids other than water, the range of kinematic viscosity of a turbine is a
+      type- specific parameter fixed by the type approval of the turbine. All the
+      manufactured turbines of the same type have the same range of viscosity.
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 21:2007
+    publication_id: OIML R021:2007
+    tc_sc: ''
+    year: 2007
+    clause: 2.2.8.2
+    link: https://www.oiml.org/en/files/pdf_R/r021-e07.pdf
+    g18_entry: '00352'
+    definition: legally relevant parameter with a value that depends on the type of
+      taximeter only. They are fixed at type approval of the taximeter. Examples of
+      type-specific parameters include software identification and parameters used
+      for fare calculation and rounding
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 107-1:2007
+    publication_id: OIML R107-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.2.7.7.3
+    link: https://www.oiml.org/en/files/pdf_R/r107-1-e07.pdf
+    g18_entry: '01350'
+    definition: legally relevant parameter with a value that depends on the type ofinstrument
+      only Type-specific parameters are part of the legally relevant software. They
+      are fixed at type approval of the instrument.
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 76-1:2006
+    publication_id: OIML R076-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.2.8.3
+    link: https://www.oiml.org/en/files/pdf_R/r076-1-e06.pdf
+    g18_entry: '00934'
+    definition: legally relevant parameter with a value that depends on the type ofinstrument
+      only. Type-specific parameters are part of the legally relevant software. They
+      are fixed at type approval of the instrument
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 5dc8941a-82dd-5f2d-8b7a-9b01b7e096cf
+schema_version: '3'
+related: []

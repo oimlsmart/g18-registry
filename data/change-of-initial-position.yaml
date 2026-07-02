@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '00688'
+  term: change of initial position
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 53:1982
+    publication_id: OIML R053:1982
+    tc_sc: ''
+    year: 1982
+    clause: T
+    link: https://www.oiml.org/en/files/pdf_R/r053-e82.pdf
+    g18_entry: '00688'
+    definition: displacement of the initial position after the elastic sensing element
+      has been submitted to nominal pressure, to overload pressure, or to another
+      pressure over a certain period of time
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: fccdd57b-c619-5c7c-9fea-8e44d42a6127
+schema_version: '3'
+related: []

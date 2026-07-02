@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '00998'
+  term: consumer package
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 79:1997
+    publication_id: OIML R079:1997
+    tc_sc: ''
+    year: 1997
+    clause: '2.6'
+    link: https://www.oiml.org/en/files/pdf_R/r079-e97.pdf
+    g18_entry: '00998'
+    definition: a package that is customarily produced or distributed for sale to
+      final purchasers through retail sales agencies or other means
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 9a63d141-354b-5c51-8924-4b5925b3a71a
+schema_version: '3'
+related: []

@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '02302'
+  term: liquid level sensor
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 85-1:2008
+    publication_id: OIML R085-1:2008
+    tc_sc: ''
+    year: 2008
+    clause: '3.4'
+    link: https://www.oiml.org/en/files/pdf_R/r085-1-e08.pdf
+    g18_entry: '02302'
+    definition: element that senses the presence of the liquid surface and gives information
+      on its level
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 2b484d06-a0be-55ae-b437-f167449f1e48
+schema_version: '3'
+related: []

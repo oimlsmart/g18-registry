@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '02256'
+  term: reference height (H)
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 80-1:2009
+    publication_id: OIML R080-1:2009
+    tc_sc: ''
+    year: 2009
+    clause: '2.17'
+    link: https://www.oiml.org/en/files/pdf_R/r080-1-e09.pdf
+    g18_entry: '02256'
+    definition: distance, measured along the vertical measurement axis, between the
+      reference point top and the reference point bottom
+    notes:
+    - "(see figure 1)"
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 87ad91cc-c718-5680-8e89-4d73c0d9cf15
+schema_version: '3'
+related: []

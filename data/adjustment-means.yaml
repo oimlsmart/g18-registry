@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '02131'
+  term: adjustment means
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 143:2009
+    publication_id: OIML R143:2009
+    tc_sc: ''
+    year: 2009
+    clause: 2.7.2
+    link: https://www.oiml.org/en/files/pdf_R/r143-e09.pdf
+    g18_entry: '02131'
+    definition: means allowing the adjustment of the gas analytical system by the
+      user
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 3a7a283e-3e81-5ed4-a6d1-11e2a2b43990
+schema_version: '3'
+related: []

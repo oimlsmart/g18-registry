@@ -1,0 +1,38 @@
+---
+data:
+  identifier: '00958'
+  term: discrimination
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 85-1:2008
+    publication_id: OIML R085-1:2008
+    tc_sc: ''
+    year: 2008
+    clause: '3.34'
+    link: https://www.oiml.org/en/files/pdf_R/r085-1-e08.pdf
+    g18_entry: '02332'
+    definition: largest change in a stimulus that produces no detectable change inthe
+      response of a measuring instrument, the change in the stimulus taking place
+      slowly and monotonically
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 76-1:2006
+    publication_id: OIML R076-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.4.2
+    link: https://www.oiml.org/en/files/pdf_R/r076-1-e06.pdf
+    g18_entry: '00958'
+    definition: ability of an instrument to react to small variations of load. The
+      discrimination threshold, for a given load, is the value of the smallest additional
+      load that, when gently deposited on or removed from the load receptor, causes
+      a perceptible change in the indication
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: adc13354-ff50-5421-97e7-8fd42a8282c2
+schema_version: '3'
+related: []

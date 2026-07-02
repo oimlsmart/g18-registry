@@ -1,0 +1,25 @@
+---
+data:
+  identifier: '01849'
+  term: sample flux (stem:[Phi]s)
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 135:2004
+    publication_id: OIML R135:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.10'
+    link: https://www.oiml.org/en/files/pdf_R/r135-e04.pdf
+    g18_entry: '01849'
+    definition: radiant luminous flux of monochromatic radiation transmitted by 1.
+      ISO 6286, Table 2, No. 17. an optical cell containing the solution on which
+      the measurement 2. is made and reaching the detector
+    notes:
+    - The coherent SI unit is the watt (W).
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: f80afe25-9730-5f66-b6ba-8507137e03c4
+schema_version: '3'
+related: []

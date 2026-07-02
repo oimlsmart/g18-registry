@@ -1,0 +1,25 @@
+---
+data:
+  identifier: '00335'
+  term: patient simulator
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 16-2:2002
+    publication_id: OIML R016-2:2002
+    tc_sc: ''
+    year: 2002
+    clause: '2.15'
+    link: https://www.oiml.org/en/files/pdf_R/r016-2-e02.pdf
+    g18_entry: '00335'
+    definition: device for simulating the oscillometric cuff pulses and/or auscultatory
+      sounds during inflation and deflation
+    notes:
+    - This device is not used for testing accuracy but is required in assessing stability
+      of performance.
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: d0d0ff68-dcc5-552d-8fae-756185d20de9
+schema_version: '3'
+related: []

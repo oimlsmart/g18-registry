@@ -1,0 +1,48 @@
+---
+data:
+  identifier: '00087'
+  term: conformity
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML D 30:2008
+    publication_id: OIML D030:2008
+    tc_sc: ''
+    year: 2008
+    clause: '3'
+    link: https://www.oiml.org/en/files/pdf_D/d030-e08.pdf
+    g18_entry: '02161'
+    definition: "- G.3-1 fulfilment by a measuring instrument type of metrological
+      and technical requirements as specified in the relevant Recommendation"
+    notes:
+    - "(OIML B 3)"
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML B 10-1:2004
+    publication_id: OIML B010-1:2004
+    tc_sc: TC 3/SC 2
+    year: 2004
+    clause: '3.6'
+    link: https://www.oiml.org/en/files/pdf_B/b010-1-e04.pdf
+    g18_entry: '00097'
+    definition: "(I fulfilment by the measuring instrument type of specified requirements
+      SO/IEC Guide 2, 12.1)"
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML B 3:2003
+    publication_id: OIML B003:2003
+    tc_sc: ''
+    year: 2003
+    clause: '2.9'
+    link: https://www.oiml.org/en/files/pdf_B/b003-e03.pdf
+    g18_entry: '00087'
+    definition: fulfilment by a measuring instrument type of metrological and technical
+      requirements as specified in the relevant Recommendation
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 3263026b-d3db-5e00-86c4-00b1da16a29f
+schema_version: '3'
+related: []

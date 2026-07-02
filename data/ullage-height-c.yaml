@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '02257'
+  term: ullage height (C)
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 80-1:2009
+    publication_id: OIML R080-1:2009
+    tc_sc: ''
+    year: 2009
+    clause: '2.18'
+    link: https://www.oiml.org/en/files/pdf_R/r080-1-e09.pdf
+    g18_entry: '02257'
+    definition: distance between the free surface of the liquid and the reference
+      point top, measured along the vertical measurement axis
+    notes:
+    - "(see figure 1)"
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 29c7ede9-3977-5964-8721-823c5503485c
+schema_version: '3'
+related: []

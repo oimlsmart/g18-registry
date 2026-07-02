@@ -1,0 +1,29 @@
+---
+data:
+  identifier: '00102'
+  term: OIML Issuing Authority
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML B 10-1:2004
+    publication_id: OIML B010-1:2004
+    tc_sc: TC 3/SC 2
+    year: 2004
+    clause: '3.11'
+    link: https://www.oiml.org/en/files/pdf_B/b010-1-e04.pdf
+    g18_entry: '00102'
+    definition: C certifying body in an OIML Member State, designated by its The OIML
+      Issuing Authority may or may not IML Member, that issues OIML Certificates of
+      Conformity for be th aparticular category of instruments Issui gover term docum
+      both Issui
+    notes:
+    - e same organization as the National ng Authority whose responsibilities are
+      ned by national regulations. When the "Issuing Authority" is used in this ent
+      without being further qualified, "OIML Issuing Authority" and "National ng Authority"
+      are assumed.
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 791c019d-c458-58f7-ae9c-cda23a34e9aa
+schema_version: '3'
+related: []

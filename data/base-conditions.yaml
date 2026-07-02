@@ -1,0 +1,97 @@
+---
+data:
+  identifier: '01026'
+  term: base conditions
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 80-1:2009
+    publication_id: OIML R080-1:2009
+    tc_sc: ''
+    year: 2009
+    clause: '2.41'
+    link: https://www.oiml.org/en/files/pdf_R/r080-1-e09.pdf
+    g18_entry: '02280'
+    definition: 'specified conditions under which the measured volume of liquid isconverted
+      (example: temperature, density, pressure).'
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 117-1:2007
+    publication_id: OIML R117-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.c.3.1
+    link: https://www.oiml.org/en/files/pdf_R/r117-1-e07.pdf
+    g18_entry: '01545'
+    definition: 'specified values of the conditions to which the measured quantity
+      of liquid is converted (example: base temperature and base pressure of the liquid)'
+    notes:
+    - Metering and base conditions (which refer only to the volume of liquid to be
+      measured or indicated) should not be confused with the "rated operating conditions"
+      and "reference conditions" which apply to influence quantities
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 140:2007
+    publication_id: OIML R140:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.1.14
+    link: https://www.oiml.org/en/files/pdf_R/r140-e07.pdf
+    g18_entry: '02057'
+    definition: specified conditions to which the measured quantities of gas are The
+      terms "reference conditions" are converted
+    notes:
+    - frequently used instead of "base conditions".
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 137-1:2006
+    publication_id: OIML R137-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: 2.2.17
+    link: https://www.oiml.org/en/files/pdf_R/r137-1-e06.pdf
+    g18_entry: '01953'
+    definition: "( conditions to which the measured volume of gas is converted examples:
+      base temperature and base pressure)."
+    notes:
+    - Operating and base conditions relate to the volume of gas to be measured or
+      indicated only and should not be confused with "rated operating conditions"
+      and "reference conditions" (VIM:1993, 5.05 and 5.07) which refer to influence
+      quantities.
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 81:1998
+    publication_id: OIML R081:1998
+    tc_sc: ''
+    year: 1998
+    clause: '3.17'
+    link: https://www.oiml.org/en/files/pdf_R/r081-e98.pdf
+    g18_entry: '01026'
+    definition: the specified conditions of temperature and pressure to which the
+      measured volume is converted
+    notes:
+    - Although the term "reference conditions" is often used instead of "base conditions",
+      metering and base conditions (that refer only to the volume of the liquid to
+      be measured or indicated), should not be confused with the "rated operating
+      conditions" and "reference conditions" that apply to influence quantities.
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 125:1998
+    publication_id: OIML R125:1998
+    tc_sc: ''
+    year: 1998
+    clause: T.32
+    link: https://www.oiml.org/en/files/pdf_R/r125-e98.pdf
+    g18_entry: '01651'
+    definition: the specified conditions to which a measured quantity is converted,
+      e.g. base temperature and base pressure
+    notes:
+    - The values chosen as base conditions should preferably be 15 °C or 20 °C and
+      101 325 Pa.
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: db27e545-3313-5002-9c5f-c492b880989b
+schema_version: '3'
+related: []

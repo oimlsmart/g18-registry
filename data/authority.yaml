@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '00197'
+  term: authority
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML D 9:2004
+    publication_id: OIML D009:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.15'
+    link: https://www.oiml.org/en/files/pdf_D/d009-e04.pdf
+    g18_entry: '00197'
+    definition: public (government or local government) body authorized by law on
+      a national level to be responsible for metrological supervision as a whole or
+      in part
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: a271477a-35ba-55c6-a77e-79cbe42639d5
+schema_version: '3'
+related: []

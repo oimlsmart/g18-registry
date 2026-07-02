@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '00876'
+  term: graduated instrument
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 76-1:2006
+    publication_id: OIML R076-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.1.2.1
+    link: https://www.oiml.org/en/files/pdf_R/r076-1-e06.pdf
+    g18_entry: '00876'
+    definition: instrument allowing the direct reading of the complete or partial
+      weighing result
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: eb85646a-5650-5d8e-8b2f-606e392a713b
+schema_version: '3'
+related: []

@@ -1,0 +1,35 @@
+---
+data:
+  identifier: '00637'
+  term: verification scale interval, e
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 51-1:2006
+    publication_id: OIML R051-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.3.3.2
+    link: https://www.oiml.org/en/files/pdf_R/r051-1-e06.pdf
+    g18_entry: '00637'
+    definition: value, expressed in units of mass, used for the classification and
+      verification of an instrument
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 76-1:2006
+    publication_id: OIML R076-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.3.2.3
+    link: https://www.oiml.org/en/files/pdf_R/r076-1-e06.pdf
+    g18_entry: '00949'
+    definition: value, expressed in units of mass, used for the classification and
+      verification of an instrument
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 4b98b6de-81b0-5e7f-bb53-4e8c0bf93ce1
+schema_version: '3'
+related: []

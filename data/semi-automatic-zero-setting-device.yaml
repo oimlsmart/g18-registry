@@ -1,0 +1,35 @@
+---
+data:
+  identifier: '00505'
+  term: semi-automatic zero setting device
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 51-1:2006
+    publication_id: OIML R051-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.2.10.8.2
+    link: https://www.oiml.org/en/files/pdf_R/r051-1-e06.pdf
+    g18_entry: '00613'
+    definition: device for setting the indication to zero automatically following
+      amanual command
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 50-1:1997
+    publication_id: OIML R050-1:1997
+    tc_sc: ''
+    year: 1997
+    clause: T.3.8.1.2
+    link: https://www.oiml.org/en/files/pdf_R/r050-1-e97.pdf
+    g18_entry: '00505'
+    definition: a zero-setting device that operates automatically following a manual
+      command or indicates the value of the adjustment required
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: b138ab9c-05cf-54fb-9551-c9a56c6f661a
+schema_version: '3'
+related: []

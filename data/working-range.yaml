@@ -1,0 +1,52 @@
+---
+data:
+  identifier: '01072'
+  term: working range
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 83:2006
+    publication_id: OIML R083:2006
+    tc_sc: ''
+    year: 2006
+    clause: '3.12'
+    link: https://www.oiml.org/en/files/pdf_R/r083-e06.pdf
+    g18_entry: '01072'
+    definition: range of concentrations of a component of interest in solution that
+      can be measured with a repeatability within specified limits
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 116:2006
+    publication_id: OIML R116:2006
+    tc_sc: ''
+    year: 2006
+    clause: '3.12'
+    link: https://www.oiml.org/en/files/pdf_R/r116-e06.pdf
+    g18_entry: '01525'
+    definition: range of concentrations over which the output signal of the instrument
+      is directly proportional to the concentration of the element being measured
+      to within specified limits
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 100:1991
+    publication_id: OIML R100:1991
+    tc_sc: ''
+    year: 1991
+    clause: '3.7'
+    link: https://www.oiml.org/en/files/pdf_R/r100-e91.pdf
+    g18_entry: '01199'
+    definition: the range of concentrations of an element of interest in solution
+      Dilution, or concentration, of a sample that can be measured with repeatability
+      within specified limits
+    notes:
+    - solution may be necessary to bring the element of interest within the working
+      range. The zero absorbance of the spectrometer is adjusted using a blank reference
+      solution.
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 2b51eb46-8df0-5a46-89c7-ab26523188d6
+schema_version: '3'
+related: []

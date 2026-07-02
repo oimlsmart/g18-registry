@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '00470'
+  term: complete meter
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 49-2:2006
+    publication_id: OIML R049-2:2006
+    tc_sc: ''
+    year: 2006
+    clause: '2.5'
+    link: https://www.oiml.org/en/files/pdf_R/r049-2-e06.pdf
+    g18_entry: '00470'
+    definition: "(i meter that does not have separable measurement transducer ncluding
+      flow or volume sensor) and calculator (including indicating device)"
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: ae83d8f1-6ed2-5dc6-8b47-266cbdd64c76
+schema_version: '3'
+related: []

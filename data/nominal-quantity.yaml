@@ -1,0 +1,25 @@
+---
+data:
+  identifier: '01117'
+  term: nominal quantity
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 87:2004
+    publication_id: OIML R087:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.8'
+    link: https://www.oiml.org/en/files/pdf_R/r087-e04.pdf
+    g18_entry: '01117'
+    definition: quantity of product in a prepackage declared on the label by the (1)
+      The symbol 'Qn' is used to designate the packager
+    notes:
+    - nominal quantity. (2) The nominal quantity must be declared in accordance with
+      OIML R 79.
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: faf19bda-1d92-51d0-b133-baac861c6754
+schema_version: '3'
+related: []

@@ -1,0 +1,46 @@
+---
+data:
+  identifier: '00090'
+  term: test report
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML B 10-1:2004
+    publication_id: OIML B010-1:2004
+    tc_sc: TC 3/SC 2
+    year: 2004
+    clause: '3.9'
+    link: https://www.oiml.org/en/files/pdf_B/b010-1-e04.pdf
+    g18_entry: '00100'
+    definition: in the present publication, "Test Report" means a report comprised
+      of the OIML Test Report (see 3.8) and, when applicable, a complementary Test
+      Report containing test results for any agreed upon additional requirements
+    notes:
+    - "(1) The Test Report gives the results of the examinations and testing carried
+      out during type evaluation on an identified sample or samples of a given type
+      and a conclusion as to whether the sample(s) meet the specified requirements.
+      (2) The Test Report constitutes the evaluation report referred to in 3."
+    - 4. (3) The complementary Test Report may be validated by a letter from the OIML
+      Issuing Authority.
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML B 3:2003
+    publication_id: OIML B003:2003
+    tc_sc: ''
+    year: 2003
+    clause: '2.12'
+    link: https://www.oiml.org/en/files/pdf_B/b003-e03.pdf
+    g18_entry: '00090'
+    definition: Report, prepared according to the Test Report Format specified For
+      the implementation of the System, the in the relevant Recommendation, that gives
+      the results of the Test examinations and testing carried out during type evaluation
+      on refe an identified sample or samples of a given type and a conclusion as
+      to whether the sample or samples meet the specified requirements
+    notes:
+    - Report constitutes the evaluation report rred to in 2.7.
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: fdc4e638-c296-5fc8-a2e8-36070849a482
+schema_version: '3'
+related: []

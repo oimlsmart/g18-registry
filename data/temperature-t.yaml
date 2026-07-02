@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '01462'
+  term: temperature (t)
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 111-1:2004
+    publication_id: OIML R111-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.14'
+    link: https://www.oiml.org/en/files/pdf_R/r111-1-e04.pdf
+    g18_entry: '01462'
+    definition: In degrees Celsius, is related to the absolute thermodynamic temperature
+      scale, called the Kelvin scale, by t = T – 273.15 K.
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: deafcb11-8b03-5b00-b6ab-9132029d347a
+schema_version: '3'
+related: []

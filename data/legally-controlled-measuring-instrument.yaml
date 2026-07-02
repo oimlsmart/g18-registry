@@ -1,0 +1,38 @@
+---
+data:
+  identifier: '00185'
+  term: legally controlled measuring instrument
+  kind: defined_in_viml
+  official_concept:
+    source: urn:oiml:pub:v:1:2000
+    id: '4.3'
+    url: https://oimlsmart.github.io/vocab/viml-2000/concept/4.3
+  publications:
+  - publication: OIML D 9:2004
+    publication_id: OIML D009:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.3'
+    link: https://www.oiml.org/en/files/pdf_D/d009-e04.pdf
+    g18_entry: '00185'
+    definition: '(hereinafter referred to as "measuring instrument"): measuring instrument
+      which conforms to prescribed requirements, in particular legal metrological
+      requirements [VIML, 4.3]'
+    notes:
+    - 'for the purposes of this Document the following instruments may fall under
+      legal control according to national regulations: measuring instruments, coin
+      counting machines, medical measuring instruments, water dispensing machines,
+      timing instruments in vehicle washes.'
+    consistency: pending
+    consistency_reason: ''
+    related:
+    - type: see
+      ref: &1
+        source: urn:oiml:pub:v:1:2000
+        id: '4.3'
+status: current
+id: 06efb05d-3315-5eea-842a-ef2f76039ab4
+schema_version: '3'
+related:
+- type: see
+  ref: *1

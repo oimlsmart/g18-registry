@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '02164'
+  term: Evaluation Report
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML D 30:2008
+    publication_id: OIML D030:2008
+    tc_sc: ''
+    year: 2008
+    clause: '3'
+    link: https://www.oiml.org/en/files/pdf_D/d030-e08.pdf
+    g18_entry: '02164'
+    definition: "- G.3-1 report, issued by an Issuing Authority, that includes the
+      Partial Test Reports or the Test Report and assesses the conformity of the measuring
+      instrument to the stated requirements"
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 250d9726-362b-52ad-9063-e28c492c96c7
+schema_version: '3'
+related: []

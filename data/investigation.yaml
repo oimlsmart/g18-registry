@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '00188'
+  term: investigation
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML D 9:2004
+    publication_id: OIML D009:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.6'
+    link: https://www.oiml.org/en/files/pdf_D/d009-e04.pdf
+    g18_entry: '00188'
+    definition: function of metrological supervision consisting of a systematic examination
+      to determine compliance with legal requirements
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: b5e27662-151d-5f74-ac00-386fea474226
+schema_version: '3'
+related: []

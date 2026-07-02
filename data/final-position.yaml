@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '00687'
+  term: final position
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 53:1982
+    publication_id: OIML R053:1982
+    tc_sc: ''
+    year: 1982
+    clause: T
+    link: https://www.oiml.org/en/files/pdf_R/r053-e82.pdf
+    g18_entry: '00687'
+    definition: position of the reference point at a pressure equal to the nominal
+      pressure
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: bc8c2948-fd32-55de-b126-dc4ec0be7987
+schema_version: '3'
+related: []

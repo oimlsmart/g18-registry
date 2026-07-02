@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '01790'
+  term: apron
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 134:2003
+    publication_id: OIML R134:2003
+    tc_sc: ''
+    year: 2003
+    clause: T.1.6.1
+    link: https://www.oiml.org/en/files/pdf_R/r134-e03.pdf
+    g18_entry: '01790'
+    definition: part of the weigh zone that is not the load receptor but which is
+      located on either end of the load receptor
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 14af04c8-55d1-5032-b03a-f4d31168c0da
+schema_version: '3'
+related: []

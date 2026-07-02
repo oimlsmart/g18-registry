@@ -1,0 +1,22 @@
+---
+data:
+  identifier: '00363'
+  term: nominal length
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 35-1:2007
+    publication_id: OIML R035-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: 2.1.2
+    link: https://www.oiml.org/en/files/pdf_R/r035-1-e07.pdf
+    g18_entry: '00363'
+    definition: length by which the measure is designated
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: ef6c051d-4827-57dd-8678-f62b4993ed65
+schema_version: '3'
+related: []

@@ -1,0 +1,37 @@
+---
+data:
+  identifier: '00421'
+  term: associated measuring instruments
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 139:2007
+    publication_id: OIML R139:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.1.11
+    link: https://www.oiml.org/en/files/pdf_R/r139-e07.pdf
+    g18_entry: '01999'
+    definition: instruments connected to the calculator or the correction device,
+      for measuring certain quantities which are characteristic of the gas, with a
+      view to making a correction
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 49-1:2006
+    publication_id: OIML R049-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: 2.1.11
+    link: https://www.oiml.org/en/files/pdf_R/r049-1-e06.pdf
+    g18_entry: '00421'
+    definition: instruments connected to the calculator, the correction device or
+      the conversion device, for measuring certain quantities which are characteristic
+      of water, with a view to making a correction and/or a conversion
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: bef739f8-dc2e-5d66-bc7e-2307cbb86547
+schema_version: '3'
+related: []

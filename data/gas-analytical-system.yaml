@@ -1,0 +1,31 @@
+---
+data:
+  identifier: '02123'
+  term: gas analytical system
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 143:2009
+    publication_id: OIML R143:2009
+    tc_sc: ''
+    year: 2009
+    clause: '2.1'
+    link: https://www.oiml.org/en/files/pdf_R/r143-e09.pdf
+    g18_entry: '02123'
+    definition: assembly to carry out specified gas analytical measurements
+    notes:
+    - 1. In this Recommendation a gas analytical system means a system that continuously
+      measures the volume fraction of sulfur dioxide by analyzing the gas samples
+      taken directly from the pipe or gas duct of an industrial enterprise, which
+      includes a means for sampling and sample preparation (in the case of extractive
+      sampling), a gas analyzer, means for accumulation, processing and storage of
+      measurement results, means for control and adjustment of the main components
+      of the system, an interface to connect devices measuring the gas flow parameters
+      of exhaust emissions, and gas and electric lines of communication.
+    - 2. (ISO 7504:2001)
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: b73e8734-a847-5fd5-b2c3-ce729a2931e6
+schema_version: '3'
+related: []

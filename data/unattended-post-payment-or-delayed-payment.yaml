@@ -1,0 +1,25 @@
+---
+data:
+  identifier: '02008'
+  term: unattended post-payment (or delayed payment)
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 139:2007
+    publication_id: OIML R139:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.2.7
+    link: https://www.oiml.org/en/files/pdf_R/r139-e07.pdf
+    g18_entry: '02008'
+    definition: type of payment in unattended service mode in which payment for the
+      delivered quantity is required after the delivery, but in which the transaction
+      is not settled when the customer leaves the site, following an implicit agreement
+      with the supplier
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 98eb44e7-496f-5b59-9a11-349f1fa0c284
+schema_version: '3'
+related: []

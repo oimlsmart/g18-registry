@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '01628'
+  term: internal floating roof
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 125:1998
+    publication_id: OIML R125:1998
+    tc_sc: ''
+    year: 1998
+    clause: T.12
+    link: https://www.oiml.org/en/files/pdf_R/r125-e98.pdf
+    g18_entry: '01628'
+    definition: a tank roof which floats freely on the surface of the liquid in a
+      tank fitted with a fixed external roof. At low levels the weight of the roof
+      is taken on its supports on the tank bottom
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: f97b0f33-ec23-508c-9f51-85a542854693
+schema_version: '3'
+related: []

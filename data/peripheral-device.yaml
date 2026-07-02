@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '00908'
+  term: peripheral device
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 76-1:2006
+    publication_id: OIML R076-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.2.3.5
+    link: https://www.oiml.org/en/files/pdf_R/r076-1-e06.pdf
+    g18_entry: '00908'
+    definition: additional device which repeats or further processes the weighing
+      result and other primary indications
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 1447ac9d-47e8-5e49-9a88-04e5936f44c4
+schema_version: '3'
+related: []

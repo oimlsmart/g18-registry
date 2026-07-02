@@ -1,0 +1,22 @@
+---
+data:
+  identifier: '00679'
+  term: elastic characteristic
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 53:1982
+    publication_id: OIML R053:1982
+    tc_sc: ''
+    year: 1982
+    clause: T
+    link: https://www.oiml.org/en/files/pdf_R/r053-e82.pdf
+    g18_entry: '00679'
+    definition: relation between the displacement of the reference point and pressure
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: aed70b97-e082-512f-ae5e-607dc6f72098
+schema_version: '3'
+related: []

@@ -1,0 +1,47 @@
+---
+data:
+  identifier: '01673'
+  term: drift
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 140:2007
+    publication_id: OIML R140:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.2.18
+    link: https://www.oiml.org/en/files/pdf_R/r140-e07.pdf
+    g18_entry: '02087'
+    definition: slow change in a metrological characteristic of a measuring instrument
+    notes:
+    - "(VIM:1993, 5.16)"
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 137-1:2006
+    publication_id: OIML R137-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: 2.2.10
+    link: https://www.oiml.org/en/files/pdf_R/r137-1-e06.pdf
+    g18_entry: '01956'
+    definition: slow change of a metrological characteristic of a measuring instrument
+    notes:
+    - "(VIM:1993, 5.16)"
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 126:1998
+    publication_id: OIML R126:1998
+    tc_sc: ''
+    year: 1998
+    clause: '3.12'
+    link: https://www.oiml.org/en/files/pdf_R/r126-e98.pdf
+    g18_entry: '01673'
+    definition: the change in the indication which occurs during a stated period of
+      time at a given mass concentration of ethanol in air
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 3be42be2-e3f9-5c5f-9f45-35efa2a029ac
+schema_version: '3'
+related: []

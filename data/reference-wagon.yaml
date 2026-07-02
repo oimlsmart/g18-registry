@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '01312'
+  term: reference wagon
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 106-1:1997
+    publication_id: OIML R106-1:1997
+    tc_sc: ''
+    year: 1997
+    clause: T.7.2
+    link: https://www.oiml.org/en/files/pdf_R/r106-1-e97.pdf
+    g18_entry: '01312'
+    definition: a wagon of known weight that is typical of those to be used for weighing
+      on the instrument and which has been selected for the purposes of in-motion
+      testing
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 97ae4e9f-9269-519f-8f56-d19235a24578
+schema_version: '3'
+related: []

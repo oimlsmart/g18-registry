@@ -1,0 +1,36 @@
+---
+data:
+  identifier: '01580'
+  term: measuring device
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 117-1:2007
+    publication_id: OIML R117-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.m.1
+    link: https://www.oiml.org/en/files/pdf_R/r117-1-e07.pdf
+    g18_entry: '01580'
+    definition: part of the meter converting the flow, the volume or the mass of the
+      liquid to be measured into signals, representing volume or mass, destined for
+      the calculator. It consists of a meter sensor and a transduce
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 129:2000
+    publication_id: OIML R129:2000
+    tc_sc: ''
+    year: 2000
+    clause: '2.3'
+    link: https://www.oiml.org/en/files/pdf_R/r129-e00.pdf
+    g18_entry: '01702'
+    definition: a device which measures the dimensions of an object and provides a
+      signal to the processor from which the associated quantities are calculated
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 79510bb3-907d-51be-bdc9-056945c7c590
+schema_version: '3'
+related: []

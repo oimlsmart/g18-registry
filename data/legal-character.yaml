@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '00136'
+  term: legal character
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML D 20:1988
+    publication_id: OIML D020:1988
+    tc_sc: ''
+    year: 1988
+    clause: 1.2.2
+    link: https://www.oiml.org/en/files/pdf_D/d020-e88.pdf
+    g18_entry: '00136'
+    definition: the attribute of a measuring instrument whereby, having fulfilled
+      all the administrative, metrological, and technical requirements of regulations,
+      it is officially recognized to be legal for use in approved applications
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 9a7008c1-387e-582b-ae4e-d222eefabbfb
+schema_version: '3'
+related: []

@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '02261'
+  term: baffle
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 80-1:2009
+    publication_id: OIML R080-1:2009
+    tc_sc: ''
+    year: 2009
+    clause: '2.22'
+    link: https://www.oiml.org/en/files/pdf_R/r080-1-e09.pdf
+    g18_entry: '02261'
+    definition: internal device of the tank or compartment, e.g. a partition wall
+      orobstacle inside the tank, intended to damp the movement of liquid during transport
+      and to increase the mechanical stability ofthe tank
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 06e9cf48-495e-5291-98c4-85d606cd05f1
+schema_version: '3'
+related: []

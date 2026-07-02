@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '01858'
+  term: Beer's factor (Kstem:[epsilon] = stem:[epsilon]b = Ac/c)
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 135:2004
+    publication_id: OIML R135:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.19'
+    link: https://www.oiml.org/en/files/pdf_R/r135-e04.pdf
+    g18_entry: '01858'
+    definition: characteristic partial internal absorbance divided by the amount of
+      substance concentration of the analyte. The Beer's factor is constant for specified
+      experimental conditions
+    notes:
+    - 1. The coherent SI unit is the cubic metre per mole (m3/mol) but often the litre
+      per mole (l/mol, L/mol) is preferred.
+    - 2. For conditions of validity see 2.9.
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 6d1e1eef-de16-570a-b126-ebe99b92bcf2
+schema_version: '3'
+related: []

@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '01585'
+  term: post-payment or delayed payment
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 117-1:2007
+    publication_id: OIML R117-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.p.1.2
+    link: https://www.oiml.org/en/files/pdf_R/r117-1-e07.pdf
+    g18_entry: '01585'
+    definition: "(d type of payment requiring payment after the delivery, either before
+      leaving the site (post-payment) or after leaving the site elayed payment)"
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: a8c1dfdb-1e07-5ab9-9b1c-8bb9405efa2f
+schema_version: '3'
+related: []

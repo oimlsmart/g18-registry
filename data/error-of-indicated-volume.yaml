@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '02250'
+  term: error of indicated volume
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 80-1:2009
+    publication_id: OIML R080-1:2009
+    tc_sc: ''
+    year: 2009
+    clause: '2.11'
+    link: https://www.oiml.org/en/files/pdf_R/r080-1-e09.pdf
+    g18_entry: '02250'
+    definition: difference between the indicated volume (Vi) of the tank or compartment
+      and the true volume (Vt).
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: bc078e92-66b9-5a29-a13b-6e0d4f53d5a5
+schema_version: '3'
+related: []

@@ -1,0 +1,38 @@
+---
+data:
+  identifier: '00824'
+  term: resolution
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 65:2006
+    publication_id: OIML R065:2006
+    tc_sc: ''
+    year: 2006
+    clause: '3.7'
+    link: https://www.oiml.org/en/files/pdf_R/r065-e06.pdf
+    g18_entry: '00824'
+    definition: smallest difference between indicated values or smallest change of
+      force in the measuring range that can be observed or recorded and quantified
+      at any applied force
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 116:2006
+    publication_id: OIML R116:2006
+    tc_sc: ''
+    year: 2006
+    clause: '3.14'
+    link: https://www.oiml.org/en/files/pdf_R/r116-e06.pdf
+    g18_entry: '01527'
+    definition: measure of a spectrometer's ability to separate two adjacent spectral
+      lines
+    notes:
+    - It usually indicates the smallest distance between two adjacent spectral lines
+      at which they can be distinguished one from the another.
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: be0a8ff4-83b6-58eb-aeb4-2a516abd1c4b
+schema_version: '3'
+related: []

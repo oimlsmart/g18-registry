@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title><%= h site_title %><%= " · #{h current_page}" unless current_page == "index" %></title>
+  <link rel="stylesheet" href="<%= rel_root %>style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-bar">
+    <a class="brand" href="<%= rel_root %>index.html">
+      <span class="brand-mark">G 18</span>
+      <span class="brand-sub">OIML Term-Usage Registry</span>
+    </a>
+    <nav class="site-nav">
+      <a href="<%= rel_root %>terms/index.html">Terms</a>
+      <a href="<%= rel_root %>tc/index.html">TC / SC</a>
+      <a href="<%= rel_root %>publications/index.html">Publications</a>
+      <a href="<%= rel_root %>leaderboard.html">Divergence</a>
+    </nav>
+  </div>
+</header>
+<main class="container main">
+<%= body %>
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <p>
+      Generated from
+      <a href="https://github.com/oimlsmart/vocab/tree/main/datasets/g18">oimlsmart/vocab <code>datasets/g18/</code></a>
+      by <a href="https://github.com/oimlsmart/g18-registry">g18-registry</a>.
+      VIM/VIML links point to <a href="https://oimlsmart.github.io/vocab/">oimlsmart.github.io/vocab</a>.
+    </p>
+  </div>
+</footer>
+</body>
+</html>

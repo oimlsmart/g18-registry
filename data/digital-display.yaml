@@ -1,0 +1,43 @@
+---
+data:
+  identifier: '00591'
+  term: digital display
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 51-1:2006
+    publication_id: OIML R051-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.2.7.7
+    link: https://www.oiml.org/en/files/pdf_R/r051-1-e06.pdf
+    g18_entry: '00591'
+    definition: "(i either incorporated in the indicator housing or in the computer
+      terminal housing or realized as a display in a separate housing .e. terminal
+      without keys), e.g. for use in combination with a weighing module"
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 76-1:2006
+    publication_id: OIML R076-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.2.2.6
+    link: https://www.oiml.org/en/files/pdf_R/r076-1-e06.pdf
+    g18_entry: '00902'
+    definition: 'b) a) a digital display can be realized as a primary display or as
+      a secondary display: primary display: Either incorporated in the indicator housing
+      orin the terminal housing or realized as a display in a separate housing (i.e.
+      terminal without keys), e.g. for use in combination with a weighing module.
+      secondary display: Additional peripheral device (optional) which repeats the
+      weighing result and any other primary indication, or provides further, non-metrological
+      information'
+    notes:
+    - The terms "primary display" and "secondary display" should not be confused with
+      the terms "primary indication" and "secondary indication" (T.1.3.1 and T.1.3.2)
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: cf476aca-68f2-5bf9-9251-a8bebea076bc
+schema_version: '3'
+related: []

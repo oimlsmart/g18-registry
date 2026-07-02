@@ -1,0 +1,154 @@
+---
+data:
+  identifier: '00428'
+  term: maximum permissible error (mpe)
+  kind: defined_in_vim
+  official_concept:
+    source: urn:oiml:pub:v:2:1993
+    id: '5.21'
+    url: https://oimlsmart.github.io/vocab/vim-1993/concept/5.21
+  publications:
+  - publication: OIML R 142:2008
+    publication_id: OIML R142:2008
+    tc_sc: ''
+    year: 2008
+    clause: 2.4(annex 6)
+    link: https://www.oiml.org/en/files/pdf_R/r142-e08.pdf
+    g18_entry: '02119'
+    definition: extreme value of the measurement error, with respect to a known reference
+      quantity value, permitted by specifications or regulations for a given measurement,
+      measuring instrument, or measuring system
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 140:2007
+    publication_id: OIML R140:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.2.6
+    link: https://www.oiml.org/en/files/pdf_R/r140-e07.pdf
+    g18_entry: '02072'
+    definition: extreme values permitted by this Recommendation for an error
+    notes:
+    - "(adapted from VIM:2007, 4.26)"
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 49-1:2006
+    publication_id: OIML R049-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: 2.2.6
+    link: https://www.oiml.org/en/files/pdf_R/r049-1-e06.pdf
+    g18_entry: '00428'
+    definition: "[a extreme values of the relative error (of indication) of a water
+      meter permitted by this Recommendation dapted from VIM:1993, 5.21]"
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+    related:
+    - type: see
+      ref: &1
+        source: urn:oiml:pub:v:2:1993
+        id: '5.21'
+  - publication: OIML R 65:2006
+    publication_id: OIML R065:2006
+    tc_sc: ''
+    year: 2006
+    clause: '3.9'
+    link: https://www.oiml.org/en/files/pdf_R/r065-e06.pdf
+    g18_entry: '00826'
+    definition: maximum value of the error permitted by laws, regulations, or specifications
+      for a given measuring instrument
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 137-1:2006
+    publication_id: OIML R137-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: 2.2.11
+    link: https://www.oiml.org/en/files/pdf_R/r137-1-e06.pdf
+    g18_entry: '01947'
+    definition: extreme values permitted by the present Recommendation for an [VIM:1993,
+      5.21] error
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+    related:
+    - type: see
+      ref:
+        source: urn:oiml:pub:v:2:1993
+        id: '5.21'
+  - publication: OIML R 61-1:2004
+    publication_id: OIML R061-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: T.4.2.4
+    link: https://www.oiml.org/en/files/pdf_R/r061-1-e04.pdf
+    g18_entry: '00801'
+    definition: "[b extreme value of an error permitted by specifications or regulations
+      between the indication of a weighing instrument and the corresponding true value,
+      as determined by reference standard masses, at zero or no load, in the reference
+      position ased on VIM:1993, 5.21]"
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+    related:
+    - type: see
+      ref:
+        source: urn:oiml:pub:v:2:1993
+        id: '5.21'
+  - publication: OIML R 136-1:2004
+    publication_id: OIML R136-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: T.4.3
+    link: https://www.oiml.org/en/files/pdf_R/r136-1-e04.pdf
+    g18_entry: '01906'
+    definition: extreme value of an error permitted by specifications or regulations
+      between the indication of a measuring instrument and the corresponding true
+      value
+    notes:
+    - "[VIM:1993, 5.21]"
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 75-1:2002
+    publication_id: OIML R075-1:2002
+    tc_sc: ''
+    year: 2002
+    clause: 4.9.5
+    link: https://www.oiml.org/en/files/pdf_R/r075-1-e02.pdf
+    g18_entry: '00863'
+    definition: "[a extreme values of the error (positive or negative) permitted by
+      this Recommendation dapted from VIM:1993, 5.21]."
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+    related:
+    - type: see
+      ref:
+        source: urn:oiml:pub:v:2:1993
+        id: '5.21'
+  - publication: OIML R 60:2000
+    publication_id: OIML R060:2000
+    tc_sc: ''
+    year: 2000
+    clause: 2.4.9
+    link: https://www.oiml.org/en/files/pdf_R/r060-e00.pdf
+    g18_entry: '00736'
+    definition: extreme values of an error permitted by this Recommendation (refer
+      to clause 5) for a load cell [Adapted from VIM:1993, 5.21]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+    related:
+    - type: see
+      ref:
+        source: urn:oiml:pub:v:2:1993
+        id: '5.21'
+status: current
+id: a9bd8014-ab09-5aa5-af27-dfa81897d89b
+schema_version: '3'
+related:
+- type: see
+  ref: *1

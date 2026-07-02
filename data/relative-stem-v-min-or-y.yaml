@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '00725'
+  term: relative stem:[v_{\min}] or Y
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 60:2000
+    publication_id: OIML R060:2000
+    tc_sc: ''
+    year: 2000
+    clause: 2.3.14
+    link: https://www.oiml.org/en/files/pdf_R/r060-e00.pdf
+    g18_entry: '00725'
+    definition: ratio of the maximum capacity, Emax, to the minimum load cell verification
+      interval, vmin. This ratio describes the resolution of the load cell independent
+      from the load cell capacity
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: c29e6f23-3042-5d01-a871-a3428a14957b
+schema_version: '3'
+related: []

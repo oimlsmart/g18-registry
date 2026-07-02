@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '00475'
+  term: temperature stability
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 49-2:2006
+    publication_id: OIML R049-2:2006
+    tc_sc: ''
+    year: 2006
+    clause: '2.10'
+    link: https://www.oiml.org/en/files/pdf_R/r049-2-e06.pdf
+    g18_entry: '00475'
+    definition: temperature stability has been reached when all parts of the equipment
+      under test are within 3 °C of each other, or as otherwise specified in the relevant
+      specification of its final temperature
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: b8fe89fd-9f4d-5ff9-bf17-a51652e12b83
+schema_version: '3'
+related: []

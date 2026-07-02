@@ -1,0 +1,25 @@
+---
+data:
+  identifier: '01569'
+  term: full hose measuring system
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 117-1:2007
+    publication_id: OIML R117-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.f.5
+    link: https://www.oiml.org/en/files/pdf_R/r117-1-e07.pdf
+    g18_entry: '01569'
+    definition: measuring system in which the transfer point consists of a closing
+      device located at or near the end of the delivery hose in measuring systems
+      designed to deliver product (or near the beginning of the receiving hose in
+      a measuring system designed toreceive product)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 4d5370b6-55b9-516b-9360-437e336b01f4
+schema_version: '3'
+related: []

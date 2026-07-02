@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '00337'
+  term: self-linearizing deflation valve
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 16-2:2002
+    publication_id: OIML R016-2:2002
+    tc_sc: ''
+    year: 2002
+    clause: '2.17'
+    link: https://www.oiml.org/en/files/pdf_R/r016-2-e02.pdf
+    g18_entry: '00337'
+    definition: valve for controlled linearizing exhaust of the pneumatic system during
+      measurement
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: eedeb68a-0ff2-566a-a47c-770da901641b
+schema_version: '3'
+related: []

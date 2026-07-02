@@ -1,0 +1,35 @@
+---
+data:
+  identifier: '01755'
+  term: absorbed dose working range
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 131:2001
+    publication_id: OIML R131:2001
+    tc_sc: ''
+    year: 2001
+    clause: '3.14'
+    link: https://www.oiml.org/en/files/pdf_R/r131-e01.pdf
+    g18_entry: '01755'
+    definition: set of values of absorbed dose for which the error of the dosimetry
+      system is intended to lie within specified limits
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 132:2001
+    publication_id: OIML R132:2001
+    tc_sc: ''
+    year: 2001
+    clause: '3.14'
+    link: https://www.oiml.org/en/files/pdf_R/r132-e01.pdf
+    g18_entry: '01771'
+    definition: set of values of absorbed dose for which the error of the dosimetry
+      system is intended to lie within specified limits
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: b19ac602-64c4-51ad-8626-6587cfe618d1
+schema_version: '3'
+related: []

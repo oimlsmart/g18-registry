@@ -1,0 +1,22 @@
+---
+data:
+  identifier: '01359'
+  term: control scale interval, d
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 107-1:2007
+    publication_id: OIML R107-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.3.1.2
+    link: https://www.oiml.org/en/files/pdf_R/r107-1-e07.pdf
+    g18_entry: '01359'
+    definition: scale interval of a control indicating device
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 154789f8-5415-5d25-bfc5-3fcde813e304
+schema_version: '3'
+related: []

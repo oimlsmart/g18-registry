@@ -1,0 +1,35 @@
+---
+data:
+  identifier: '00190'
+  term: inspection
+  kind: defined_in_viml
+  official_concept:
+    source: urn:oiml:pub:v:1:2022
+    id: A.11
+    url: https://oimlsmart.github.io/vocab/viml-2022/concept/A.11
+  publications:
+  - publication: OIML D 9:2004
+    publication_id: OIML D009:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.8'
+    link: https://www.oiml.org/en/files/pdf_D/d009-e04.pdf
+    g18_entry: '00190'
+    definition: function of an investigation to ascertain that the legal requirements
+      related to the matter under investigation are observed.
+    notes:
+    - A more general form of the definition is given in the VIML under 2.21 for inspection
+      of a measuring instrument)
+    consistency: pending
+    consistency_reason: ''
+    related:
+    - type: see
+      ref: &1
+        id: A.11
+        source: urn:oiml:pub:v:1:2022
+status: current
+id: 0fbf74e5-68d1-52b9-b3db-23541bdde475
+schema_version: '3'
+related:
+- type: see
+  ref: *1

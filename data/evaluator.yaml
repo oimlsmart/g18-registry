@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '02156'
+  term: evaluator
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML D 29:2008
+    publication_id: OIML D029:2008
+    tc_sc: ''
+    year: 2008
+    clause: '3'
+    link: https://www.oiml.org/en/files/pdf_D/d029-e08.pdf
+    g18_entry: '02156'
+    definition: "- G.3-2 person on the staff of the certification body who is in charge
+      of the type evaluation of a measuring instrument"
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: febfb3f5-7d76-545e-9b46-daace157c606
+schema_version: '3'
+related: []

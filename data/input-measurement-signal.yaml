@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '02127'
+  term: input measurement signal
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 143:2009
+    publication_id: OIML R143:2009
+    tc_sc: ''
+    year: 2009
+    clause: '2.5'
+    link: https://www.oiml.org/en/files/pdf_R/r143-e09.pdf
+    g18_entry: '02127'
+    definition: measurement signal functionally related to the measurand – the volume
+      fraction of a component to be measured, which enters the input of a measuring
+      instrument, a measuring channel or a separate converter component
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 2aba5477-1d0a-5bea-a1fe-77a59bd2b9d6
+schema_version: '3'
+related: []

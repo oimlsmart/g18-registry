@@ -1,0 +1,36 @@
+---
+data:
+  identifier: '00501'
+  term: partial totalization indicating device
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 107-1:2007
+    publication_id: OIML R107-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.4.3.2
+    link: https://www.oiml.org/en/files/pdf_R/r107-1-e07.pdf
+    g18_entry: '01382'
+    definition: totalization indicating device that indicates the sum of the weight
+      values of a limited number of consecutive loads delivered to bulk. This device
+      is resettable to zero by the user
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 50-1:1997
+    publication_id: OIML R050-1:1997
+    tc_sc: ''
+    year: 1997
+    clause: T.3.7.2
+    link: https://www.oiml.org/en/files/pdf_R/r050-1-e97.pdf
+    g18_entry: '00501'
+    definition: a device that indicates the mass of the loads conveyed over a limited
+      period
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: cbcec419-0f62-58ef-8aa7-0c00a7170f7f
+schema_version: '3'
+related: []

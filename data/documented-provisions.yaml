@@ -1,0 +1,26 @@
+---
+data:
+  identifier: '02063'
+  term: documented provisions
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 140:2007
+    publication_id: OIML R140:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.1.20
+    link: https://www.oiml.org/en/files/pdf_R/r140-e07.pdf
+    g18_entry: '02063'
+    definition: provisions established by the user of a measuring system in order
+      to give confidence to the National Authority that qua operations are performed
+      according to metrological expectations when they are not performed using associated
+      measuring instruments subject to control and/or secured communications
+    notes:
+    - Documented provisions may be part of a lity assurance system.
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: ef7123b5-aa9f-5045-bdca-6829709b9687
+schema_version: '3'
+related: []

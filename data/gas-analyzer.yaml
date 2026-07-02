@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '02126'
+  term: gas analyzer
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 143:2009
+    publication_id: OIML R143:2009
+    tc_sc: ''
+    year: 2009
+    clause: '2.4'
+    link: https://www.oiml.org/en/files/pdf_R/r143-e09.pdf
+    g18_entry: '02126'
+    definition: assembly which enables qualitative and/or quantitative determinations
+      (measurements) of substances on the basis of their chemical or physical properties
+    notes:
+    - "(ISO 7504: 2001)"
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: b381a81c-5694-5187-8c16-d8cffc5fc1e5
+schema_version: '3'
+related: []

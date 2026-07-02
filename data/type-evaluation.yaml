@@ -1,0 +1,112 @@
+---
+data:
+  identifier: '00095'
+  term: type evaluation
+  kind: defined_in_viml
+  official_concept:
+    source: urn:oiml:pub:v:1:2000
+    id: '2.5'
+    url: https://oimlsmart.github.io/vocab/viml-2000/concept/2.5
+  publications:
+  - publication: OIML D 29:2008
+    publication_id: OIML D029:2008
+    tc_sc: ''
+    year: 2008
+    clause: '3'
+    link: https://www.oiml.org/en/files/pdf_D/d029-e08.pdf
+    g18_entry: '02154'
+    definition: "- G.3-2 systematic examination and testing of the performance of
+      one or (VIML 2.5) more specimens of an identified type of measuring instruments
+      against documented requirements, the results of which are contained in the evaluation
+      report, in order to determine whether the type may be approved"
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+    related:
+    - type: see
+      ref: &1
+        source: urn:oiml:pub:v:1:2000
+        id: '2.5'
+  - publication: OIML D 30:2008
+    publication_id: OIML D030:2008
+    tc_sc: ''
+    year: 2008
+    clause: '3'
+    link: https://www.oiml.org/en/files/pdf_D/d030-e08.pdf
+    g18_entry: '02159'
+    definition: "- G.3-1 systematic examination and testing of the performance of
+      one or (VIML 2.5) more specimens of an identified type of measuring instrument
+      against documented requirements, the results of which are contained in the evaluation
+      report, in order to determine whether the type may be approved"
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+    related:
+    - type: see
+      ref:
+        source: urn:oiml:pub:v:1:2000
+        id: '2.5'
+  - publication: OIML D 31:2008
+    publication_id: OIML D031:2008
+    tc_sc: ''
+    year: 2008
+    clause: 3.1.19
+    link: https://www.oiml.org/en/files/pdf_D/d031-e08.pdf
+    g18_entry: '02186'
+    definition: systematic examination and testing of the performance of one or [OIML
+      V 1:2000, 2.5] more specimens of an identified type (pattern) of measuring instruments
+      against documented requirements, the results of which are contained in the evaluation
+      report, in order to determine whether the type may be approved
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML B 10-1:2004
+    publication_id: OIML B010-1:2004
+    tc_sc: TC 3/SC 2
+    year: 2004
+    clause: '3.4'
+    link: https://www.oiml.org/en/files/pdf_B/b010-1-e04.pdf
+    g18_entry: '00095'
+    definition: "(V systematic examination and testing of the performance of one or
+      more specimens of an identified type of measuring instrument against documented
+      requirements, the results of which are contained in an evaluation report, in
+      order to determine whether the type may be approved IML 2.5)"
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 111-1:2004
+    publication_id: OIML R111-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: 2.17.1
+    link: https://www.oiml.org/en/files/pdf_R/r111-1-e04.pdf
+    g18_entry: '01466'
+    definition: systematic examination and testing of the performance of a type ofweights
+      or weight sets against the documented requirements ofthis Recommendation, the
+      results of which are contained in a test report
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 135:2004
+    publication_id: OIML R135:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.38'
+    link: https://www.oiml.org/en/files/pdf_R/r135-e04.pdf
+    g18_entry: '01877'
+    definition: systematic examination and testing of the performance of one or The
+      term "pattern" is used in legal metrology more samples of an identified type
+      of measuring instrument against documented requirements, the results of which
+      are contained in the evaluation report, in order to determine whether the type
+      may be approved
+    notes:
+    - with the same meaning as "type"; below only the term "type" is used. [VIML,
+      2.5]
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: bb3e9e11-f379-5fba-b61f-c8b816856e34
+schema_version: '3'
+related:
+- type: see
+  ref: *1

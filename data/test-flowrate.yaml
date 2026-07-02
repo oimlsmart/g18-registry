@@ -1,0 +1,25 @@
+---
+data:
+  identifier: '00466'
+  term: test flowrate
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 49-2:2006
+    publication_id: OIML R049-2:2006
+    tc_sc: ''
+    year: 2006
+    clause: '2.1'
+    link: https://www.oiml.org/en/files/pdf_R/r049-2-e06.pdf
+    g18_entry: '00466'
+    definition: mean flowrate during a test, calculated from the indications of a
+      calibrated reference device. The quotient of the actual volume passing through
+      the water meter divided by the time for that volume to pass through the water
+      meter
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 524434e1-03bb-5afa-8173-f66ef0921910
+schema_version: '3'
+related: []

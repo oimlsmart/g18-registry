@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '01214'
+  term: motor fuel dispenser
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 105:1993
+    publication_id: OIML R105:1993
+    tc_sc: ''
+    year: 1993
+    clause: T.4
+    link: https://www.oiml.org/en/files/pdf_R/r105-e93.pdf
+    g18_entry: '01214'
+    definition: a measuring system intended for filling the tanks of motor vehicles
+      authorized for road traffic, pleasure boats, and small aircraft with liquid
+      fuel
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 7ca8890b-2c05-5a2c-b29e-3afcc89819d0
+schema_version: '3'
+related: []

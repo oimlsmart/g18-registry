@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '01671'
+  term: device for adjustment by simulation
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 126:1998
+    publication_id: OIML R126:1998
+    tc_sc: ''
+    year: 1998
+    clause: '3.10'
+    link: https://www.oiml.org/en/files/pdf_R/r126-e98.pdf
+    g18_entry: '01671'
+    definition: a device for adjusting the EBA by a procedure other than that specified
+      in 3.9, notably by the simulation of the effects of the passage of a standard
+      mixture of gases as described in 3.9
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 6958cc65-d7a4-5d1d-ad05-184f9562dbee
+schema_version: '3'
+related: []

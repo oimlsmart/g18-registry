@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '02138'
+  term: response time
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 143:2009
+    publication_id: OIML R143:2009
+    tc_sc: ''
+    year: 2009
+    clause: '2.12'
+    link: https://www.oiml.org/en/files/pdf_R/r143-e09.pdf
+    g18_entry: '02138'
+    definition: time interval between the instant of a stepwise concentration change
+      of the substance (SO2) being measured and the instant at which the signal reaches
+      90 % of its stable value
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: ba6711f9-89e4-5034-80dd-5c286b444dea
+schema_version: '3'
+related: []

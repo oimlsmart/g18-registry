@@ -1,0 +1,22 @@
+---
+data:
+  identifier: '00686'
+  term: initial position
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 53:1982
+    publication_id: OIML R053:1982
+    tc_sc: ''
+    year: 1982
+    clause: T
+    link: https://www.oiml.org/en/files/pdf_R/r053-e82.pdf
+    g18_entry: '00686'
+    definition: position of the reference point at a pressure equal to zero
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 06ce35cd-12cc-5358-814b-883f7650d3bb
+schema_version: '3'
+related: []

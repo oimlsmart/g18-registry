@@ -1,0 +1,22 @@
+---
+data:
+  identifier: '01449'
+  term: density of a body
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 111-1:2004
+    publication_id: OIML R111-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.8'
+    link: https://www.oiml.org/en/files/pdf_R/r111-1-e04.pdf
+    g18_entry: '01449'
+    definition: Mass divided by volume, given by the formula
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: a68a5efa-9655-5040-a99c-88ec19b2cdd9
+schema_version: '3'
+related: []

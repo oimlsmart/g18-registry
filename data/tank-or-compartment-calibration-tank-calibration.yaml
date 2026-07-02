@@ -1,0 +1,28 @@
+---
+data:
+  identifier: '02251'
+  term: tank or compartment calibration (tank calibration)
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 80-1:2009
+    publication_id: OIML R080-1:2009
+    tc_sc: ''
+    year: 2009
+    clause: '2.12'
+    link: https://www.oiml.org/en/files/pdf_R/r080-1-e09.pdf
+    g18_entry: '02251'
+    definition: set of operations to determine the capacity of a tank or compartment,
+      using methods satisfying the technical and metrological requirements, such as
+      measurement at one or several filling levels by means of geometric size measurement,
+      gravimetric, or volumetric method. The gravimetric method determines the volume
+      of liquid in the tank by means of weighing; the volumetric method determines
+      the volume of liquid in the tank by means of measuring the volume of liquid
+      entered in or emptied from the tank
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: '03954336-6d2c-5f69-9353-cf9735bf8e29'
+schema_version: '3'
+related: []

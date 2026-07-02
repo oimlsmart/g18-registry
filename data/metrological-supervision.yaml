@@ -1,0 +1,72 @@
+---
+data:
+  identifier: '00178'
+  term: metrological supervision
+  kind: defined_in_viml
+  official_concept:
+    source: urn:oiml:pub:v:1:2000
+    id: '2.3'
+    url: https://oimlsmart.github.io/vocab/viml-2000/concept/2.3
+  publications:
+  - publication: OIML D 9:2004
+    publication_id: OIML D009:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.5'
+    link: https://www.oiml.org/en/files/pdf_D/d009-e04.pdf
+    g18_entry: '00187'
+    definition: control exercised in respect of the manufacture, import, installation,
+      use, maintenance and repair of a measuring instrument and/or in respect of its
+      use, performed in order to check that it is used correctly as regards the observance
+      of metrology laws and regulations [VIML, 2.3]
+    notes:
+    - Metrological supervision includes checking the correctness of the quantities
+      indicated on and contained in prepackages.
+    consistency: pending
+    consistency_reason: ''
+    related:
+    - type: see
+      ref:
+        source: urn:oiml:pub:v:1:2000
+        id: '2.3'
+  - publication: OIML D 27:2001
+    publication_id: OIML D027:2001
+    tc_sc: ''
+    year: 2001
+    clause: '2.16'
+    link: https://www.oiml.org/en/files/pdf_D/d027-e01.pdf
+    g18_entry: '00178'
+    definition: control exercised in respect of the manufacture, import, installation,
+      maintenance and repair of measuring instruments and/or in respect of their use,
+      performed in order to check that they are used correctly as regards the observance
+      of metrology laws and regulations [VIML 2.3]
+    notes:
+    - Metrological supervision includes checking the correctness of the quantities
+      indicated on and contained in prepackages.
+    consistency: pending
+    consistency_reason: ''
+    related:
+    - type: see
+      ref: &1
+        source: urn:oiml:pub:v:1:2000
+        id: '2.3'
+  - publication: OIML D 15:1986
+    publication_id: OIML D015:1986
+    tc_sc: ''
+    year: 1986
+    clause: '2.9'
+    link: https://www.oiml.org/en/files/pdf_D/d015-e86.pdf
+    g18_entry: '00266'
+    definition: procedures for control exercised in respect of the manufacture, installation
+      and repair of measuring instruments, or in respect of their use, to check that
+      they are used correctly and honestly. It extends also to control of correctness
+      of the quantities indicated on prepacked articles [VML 2.6].
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 782df2d5-023c-5202-a9a1-12597ccc49ad
+schema_version: '3'
+related:
+- type: see
+  ref: *1

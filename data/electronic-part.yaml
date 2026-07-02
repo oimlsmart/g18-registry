@@ -1,0 +1,22 @@
+---
+data:
+  identifier: '02244'
+  term: electronic part
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 80-1:2009
+    publication_id: OIML R080-1:2009
+    tc_sc: ''
+    year: 2009
+    clause: '2.5'
+    link: https://www.oiml.org/en/files/pdf_R/r080-1-e09.pdf
+    g18_entry: '02244'
+    definition: any device, component or measuring element containing electronics
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: e23b9f76-3441-584c-b5a5-d8590d378602
+schema_version: '3'
+related: []

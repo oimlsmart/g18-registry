@@ -1,0 +1,62 @@
+---
+data:
+  identifier: '00199'
+  term: manufacturer
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML D 9:2004
+    publication_id: OIML D009:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.17'
+    link: https://www.oiml.org/en/files/pdf_D/d009-e04.pdf
+    g18_entry: '00199'
+    definition: business responsible for designing and manufacturing a measuring instrument
+      or a pre-packaged product with a view to produ placing it lawfully on the market
+      nationally or within a free trade area, on its own behalf
+    notes:
+    - The instrument or other product can be ced by another business but it shall
+      be placed on the market by and under the full responsibility of the manufacturer.
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 131:2001
+    publication_id: OIML R131:2001
+    tc_sc: ''
+    year: 2001
+    clause: '3.16'
+    link: https://www.oiml.org/en/files/pdf_R/r131-e01.pdf
+    g18_entry: '01757'
+    definition: producer of the PMMA dosimeter to be evaluated unless the term is
+      otherwise specified
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 132:2001
+    publication_id: OIML R132:2001
+    tc_sc: ''
+    year: 2001
+    clause: '3.16'
+    link: https://www.oiml.org/en/files/pdf_R/r132-e01.pdf
+    g18_entry: '01773'
+    definition: producer of the PMMA dosimeter to be evaluated unless the term is
+      otherwise specified
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 127:1999
+    publication_id: OIML R127:1999
+    tc_sc: ''
+    year: 1999
+    clause: '4.17'
+    link: https://www.oiml.org/en/files/pdf_R/r127-e99.pdf
+    g18_entry: '01691'
+    definition: the producer of the radiochromic film dosimeter to be evaluated, unless
+      the term is otherwise specified
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 04ff5ed3-ce55-5fe8-b169-67733acf9822
+schema_version: '3'
+related: []

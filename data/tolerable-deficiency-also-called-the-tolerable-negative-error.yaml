@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '01123'
+  term: tolerable deficiency (also called the tolerable negative error)
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 87:2004
+    publication_id: OIML R087:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.14'
+    link: https://www.oiml.org/en/files/pdf_R/r087-e04.pdf
+    g18_entry: '01123'
+    definition: deficiency in the quantity of product permitted in a prepackage
+    notes:
+    - The symbol 'T' means tolerable deficiency.
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: c116f2a8-7e4e-5b51-8d83-5e4020648546
+schema_version: '3'
+related: []

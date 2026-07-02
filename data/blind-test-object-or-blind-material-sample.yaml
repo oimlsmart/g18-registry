@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '00142'
+  term: blind test object (or blind material sample)
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML D 20:1988
+    publication_id: OIML D020:1988
+    tc_sc: ''
+    year: 1988
+    clause: 1.2.8
+    link: https://www.oiml.org/en/files/pdf_D/d020-e88.pdf
+    g18_entry: '00142'
+    definition: an unknown test object (or material sample) submitted for measurement
+      to an organization in connection with an assessment of that organization's measurement
+      capabilities
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: ed0b1f4b-0611-5630-a089-a44a8c00dc94
+schema_version: '3'
+related: []

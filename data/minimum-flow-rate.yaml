@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '01221'
+  term: minimum flow rate
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 105:1993
+    publication_id: OIML R105:1993
+    tc_sc: ''
+    year: 1993
+    clause: T.11
+    link: https://www.oiml.org/en/files/pdf_R/r105-e93.pdf
+    g18_entry: '01221'
+    definition: the lowest flow rate at which the measuring system is required to
+      meet the applicable maximum permissible errors
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 8325e055-a3ac-5ee4-bfa6-9b3d29efc7d2
+schema_version: '3'
+related: []

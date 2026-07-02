@@ -1,0 +1,26 @@
+---
+data:
+  identifier: '02211'
+  term: software module
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML D 31:2008
+    publication_id: OIML D031:2008
+    tc_sc: ''
+    year: 2008
+    clause: 3.1.44
+    link: https://www.oiml.org/en/files/pdf_D/d031-e08.pdf
+    g18_entry: '02211'
+    definition: logic entities such as programs, subroutines, libraries, and objects
+      including their data domains that may be in relationship with other entities.
+      The software of measuring instruments, electronic devices or sub-assemblies
+      consists of one or more software modules
+    notes:
+    - "[similar IEC 61508-4:1998, 3.3.7]"
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 14411e3f-27ae-529f-ad85-aa5dd431996e
+schema_version: '3'
+related: []

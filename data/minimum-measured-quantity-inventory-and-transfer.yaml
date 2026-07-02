@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '01631'
+  term: minimum measured quantity (inventory and transfer)
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 125:1998
+    publication_id: OIML R125:1998
+    tc_sc: ''
+    year: 1998
+    clause: T.15
+    link: https://www.oiml.org/en/files/pdf_R/r125-e98.pdf
+    g18_entry: '01631'
+    definition: the quantity of indicated mass below which the maximum permissible
+      error may be exceeded. This quantity applies to liquid contained in the tank
+      (inventory) or transferred into or out of the tank (transfer)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 00c589fb-5db9-583a-94dc-dcd84bbefe22
+schema_version: '3'
+related: []

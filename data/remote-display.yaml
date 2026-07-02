@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '01347'
+  term: remote display
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 107-1:2007
+    publication_id: OIML R107-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.2.7.6
+    link: https://www.oiml.org/en/files/pdf_R/r107-1-e07.pdf
+    g18_entry: '01347'
+    definition: terminal without keys that can be used for the primary indications
+      or for their repetition
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 4edab61c-86d0-50d3-a071-c570ba13f2da
+schema_version: '3'
+related: []

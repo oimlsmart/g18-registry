@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '02355'
+  term: expanded (measurement) uncertainty
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 99-1:2008
+    publication_id: OIML R099-1:2008
+    tc_sc: ''
+    year: 2008
+    clause: '3.22'
+    link: https://www.oiml.org/en/files/pdf_R/r099-1-e08.pdf
+    g18_entry: '02355'
+    definition: factor product of a combined standard measurement uncertainty and
+      a larger than the number one
+    notes:
+    - "(VIM:2007, 2.35)"
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 467d44d5-87cb-58bc-af81-a41186f01c0b
+schema_version: '3'
+related: []

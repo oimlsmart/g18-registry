@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '02348a'
+  term: conventional true quantity value
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 99-1:2008
+    publication_id: OIML R099-1:2008
+    tc_sc: ''
+    year: 2008
+    clause: '3.15'
+    link: https://www.oiml.org/en/files/pdf_R/r099-1-e08.pdf
+    g18_entry: '02348a'
+    definition: quantity value attributed by agreement to a quantity for a given purpose
+    notes:
+    - "(VIM:2007, 2.12)"
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: b28f3520-ee5b-52bc-b89f-95d0ef2c8c08
+schema_version: '3'
+related: []

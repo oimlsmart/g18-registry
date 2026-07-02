@@ -1,0 +1,25 @@
+---
+data:
+  identifier: '01251'
+  term: durability protection feature
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 105:1993
+    publication_id: OIML R105:1993
+    tc_sc: ''
+    year: 1993
+    clause: T.32
+    link: https://www.oiml.org/en/files/pdf_R/r105-e93.pdf
+    g18_entry: '01251'
+    definition: a feature that is incorporated in a measuring system and that enables
+      the detection of, and acting upon significant durability errors. The same classification
+      for types P, I or N applies to durability protection features. Certain devices
+      may be employed simultaneously, for checking and for durability protection
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 2016e819-e207-5278-954c-c5c045f25199
+schema_version: '3'
+related: []

@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '01537'
+  term: authorized person
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 117-1:2007
+    publication_id: OIML R117-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.a.11
+    link: https://www.oiml.org/en/files/pdf_R/r117-1-e07.pdf
+    g18_entry: '01537'
+    definition: person that is allowed to perform specified activities on legally
+      controlled measuring systems or components, under applicable national laws
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: b844a07a-6e73-5fa1-99c6-d747348c7f1b
+schema_version: '3'
+related: []

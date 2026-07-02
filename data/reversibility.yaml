@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '00823'
+  term: reversibility
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 65:2006
+    publication_id: OIML R065:2006
+    tc_sc: ''
+    year: 2006
+    clause: '3.6'
+    link: https://www.oiml.org/en/files/pdf_R/r065-e06.pdf
+    g18_entry: '00823'
+    definition: difference in values of indicated force obtained for discrete force
+      values first from measurements with increasing forces and then with decreasing
+      forces
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: ce2ec7b3-0a0b-53b1-b03c-9f8d71a9f119
+schema_version: '3'
+related: []

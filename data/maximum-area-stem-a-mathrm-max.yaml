@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '01901'
+  term: maximum area(stem:[A_{\mathrm{max}}])
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 136-1:2004
+    publication_id: OIML R136-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: T.3.3
+    link: https://www.oiml.org/en/files/pdf_R/r136-1-e04.pdf
+    g18_entry: '01901'
+    definition: highest value of the marked range on the indicator for an analogue
+      display. Nominally the highest value that can be detected by the digital indicator
+      plus one scale interval for electronic displays
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: ae722205-b5ad-54b6-be2a-2dcd2611a4ce
+schema_version: '3'
+related: []

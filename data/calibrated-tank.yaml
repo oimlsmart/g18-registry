@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '01617'
+  term: calibrated tank
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 125:1998
+    publication_id: OIML R125:1998
+    tc_sc: ''
+    year: 1998
+    clause: T.3
+    link: https://www.oiml.org/en/files/pdf_R/r125-e98.pdf
+    g18_entry: '01617'
+    definition: a container which is calibrated and for which the results are given
+      in a tank calibration table. This table is used in conjunction with the mass
+      measurement transducer to determine the mass contained in the tank
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 54c7d47f-cf05-585d-bfb9-08257be268a4
+schema_version: '3'
+related: []

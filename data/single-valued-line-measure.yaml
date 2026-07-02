@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '01155'
+  term: single-valued line measure
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 98:1991
+    publication_id: OIML R098:1991
+    tc_sc: ''
+    year: 1991
+    clause: '2.5'
+    link: https://www.oiml.org/en/files/pdf_R/r098-e91.pdf
+    g18_entry: '01155'
+    definition: a line measure with two scale marks representing one value of length
+      only
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 6372ef77-694b-5c30-bcb0-47499dfffe35
+schema_version: '3'
+related: []

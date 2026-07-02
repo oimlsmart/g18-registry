@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '01263'
+  term: aprons
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 106-1:1997
+    publication_id: OIML R106-1:1997
+    tc_sc: ''
+    year: 1997
+    clause: T.2.1.2
+    link: https://www.oiml.org/en/files/pdf_R/r106-1-e97.pdf
+    g18_entry: '01263'
+    definition: the parts of the weigh zone that are not the load receptor nor part
+      ofthe load receptor
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 7d893be1-ef3a-5aa3-860c-a075d686ab37
+schema_version: '3'
+related: []

@@ -1,0 +1,141 @@
+---
+data:
+  identifier: '00151'
+  term: detection limit
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 82:2006
+    publication_id: OIML R082:2006
+    tc_sc: ''
+    year: 2006
+    clause: '3.11'
+    link: https://www.oiml.org/en/files/pdf_R/r082-e06.pdf
+    g18_entry: '01055'
+    definition: mass flow rate (for mass flow rate dependent detectors) or concentration
+      (for concentration-dependent detectors) yielding a signal equal to three times
+      the short-term noise level as determined on a statistical basis
+    notes:
+    - This term is also referred to as "minimum detectability", or "minimum detectable
+      limit (MDL)", in some references and manufacturer's literature. It is sometimes
+      defined as an output signal equal to some other multiple (two or ten) of the
+      noise level and depends somewhat on whether the gas chromatograph is used for
+      quantitative or qualitative analysis.
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 83:2006
+    publication_id: OIML R083:2006
+    tc_sc: ''
+    year: 2006
+    clause: '3.9'
+    link: https://www.oiml.org/en/files/pdf_R/r083-e06.pdf
+    g18_entry: '01069'
+    definition: minimum amount of a specific compound which, when injected Some compounds
+      do not give a molecular ion, into the gas chromatograph, produces a signal-to-noise
+      ratio of at bu least 3 for a characteristic base peak of that compound in depending
+      on the mode of ionization and over a specified mass intense range
+    notes:
+    - t all amenable compounds have a base peak their spectra; the base peak is the
+      most or abundant ion in a mass spectrum.
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 116:2006
+    publication_id: OIML R116:2006
+    tc_sc: ''
+    year: 2006
+    clause: '3.11'
+    link: https://www.oiml.org/en/files/pdf_R/r116-e06.pdf
+    g18_entry: '01524'
+    definition: concentration of an element that provides an output signal equivalent
+      to three times the standard deviation of the mean of the output signal of a
+      blank solution and is the minimum quantity measured before it can be concluded
+      that an element has been detected
+    notes:
+    - In this Recommendation, this term refers to the determination of an element
+      in a reference solution free of interfering elements. The baseline noise is
+      established by measuring the output signal of several aliquots of the blank
+      test solution.
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 123:1997
+    publication_id: OIML R123:1997
+    tc_sc: ''
+    year: 1997
+    clause: '3.2'
+    link: https://www.oiml.org/en/files/pdf_R/r123-e97.pdf
+    g18_entry: '01606'
+    definition: 'concentration of an element which provides an output signal equivalent
+      to three times the standard deviation of the background. It is the minimum quantity
+      of an element that can be detected. For this Recommendation, it may be derived
+      from the statistical variation in the background using the following equation:
+      D = 3 (B/t)1/2/S where: D = detection limit (unit of concentration); B = background
+      (counts per second); t = measurement time (seconds); S = sensitivity (counts
+      per second per unit of concentration).'
+    notes:
+    - When applied in a measurement method or for an analysis, the limit of quantitation
+      of t instrument is an important parameter. It is defined as being a value equal
+      to 10 times standard deviation of the background and al would include the variations
+      associated wit sampling and analysis
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 113:1994
+    publication_id: OIML R113:1994
+    tc_sc: ''
+    year: 1994
+    clause: '3.9'
+    link: https://www.oiml.org/en/files/pdf_R/r113-e94.pdf
+    g18_entry: '01496'
+    definition: 'the smallest quantity of a sample component which yields a detector
+      output signal that is three times greater than the short- term noise. Note:'
+    notes:
+    - This term is also referred to as «minimum detectability» or «minimum detectable
+      limit (MDL)» in references and manufacturer's literature. The detection limit
+      is sometimes defined as the output signal equal to some other multiple (for
+      example, two or ten) of th noise level and may depend somewhat on whether the
+      gas chromatograph is being used for quantitative or qualitative analysis
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML D 22:1991
+    publication_id: OIML D022:1991
+    tc_sc: ''
+    year: 1991
+    clause: '3.6'
+    link: https://www.oiml.org/en/files/pdf_D/d022-e91.pdf
+    g18_entry: '00151'
+    definition: the concentration of a substance that will yield a mean output signal
+      equal to three times the mean short term noise level, as determined on a statistical
+      basis
+    notes:
+    - "(1) The detection limit is sometimes defined as an output signal equal to some
+      other multiple (e.g., two or ten) of the noise level [2]. The noise level is
+      the random background output signal of an instrument when sampling a blank or
+      clean filtered air. (2) In this Document, the concentration of an airborne pollutant
+      in either a gas or vapor phase is most often expressed in terms of the volume
+      fraction of the pollutant in air: parts- per-million (ppm) [v/v (10-6)]. Conditions
+      of temperature and pressure shall be specified for conversions to units of mass
+      per unit volume (usually mg/m3). Standard conditions may be specified, and for
+      temperature may be 0 oC or 20 oC and for pressure one atmosphere or 101 325
+      Pa."
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 100:1991
+    publication_id: OIML R100:1991
+    tc_sc: ''
+    year: 1991
+    clause: '3.6'
+    link: https://www.oiml.org/en/files/pdf_R/r100-e91.pdf
+    g18_entry: '01198'
+    definition: the concentration of an element that provides a signal equivalent
+      In this Recommendation, this term refers to to three times the standard deviation
+      of the baseline noise as determined on a statistical basis. It is the minimum
+      quantity measured before it can be concluded that an element has been detected
+    notes:
+    - the determination of an element in a reference solution free of interferents.
+      The baseline noise is established by measuring the output signal of several
+      aliquots of a blank test solution.
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: a473f906-89b5-5a3d-ac19-06cf865363c6
+schema_version: '3'
+related: []

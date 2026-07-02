@@ -1,0 +1,26 @@
+---
+data:
+  identifier: '00110'
+  term: Associate
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML B 10-1:2004
+    publication_id: OIML B010-1:2004
+    tc_sc: TC 3/SC 2
+    year: 2004
+    clause: '3.19'
+    link: https://www.oiml.org/en/files/pdf_B/b010-1-e04.pdf
+    g18_entry: '00110'
+    definition: Do an National Issuing Authority and/or National Responsible Body
+      of Associates receive information from, but do OIML Corresponding Member that
+      voluntarily takes part in a not parti MC by indicating in writing its willingness
+      to accept and Particip utilize Test Reports
+    notes:
+    - cipate in, the Committee on ation Review.
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 16301d70-27ff-5922-8e35-b9c0045ca0f9
+schema_version: '3'
+related: []

@@ -1,0 +1,25 @@
+---
+data:
+  identifier: '00444'
+  term: minimum and maximum admissible temperature (mAT and MAT)
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 49-1:2006
+    publication_id: OIML R049-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: 2.3.7
+    link: https://www.oiml.org/en/files/pdf_R/r049-1-e06.pdf
+    g18_entry: '00444'
+    definition: M minimum and maximum water temperatures that a water meter can withstand
+      permanently, within its rated operating conditions, without deterioration of
+      its metrological performance. mAT and AT are respectively the lower and upper
+      of the rated operating conditions (ROC)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: d5307282-62d3-5f1d-a4ea-d702492f636c
+schema_version: '3'
+related: []

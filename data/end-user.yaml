@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '00202'
+  term: end user
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML D 9:2004
+    publication_id: OIML D009:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.20'
+    link: https://www.oiml.org/en/files/pdf_D/d009-e04.pdf
+    g18_entry: '00202'
+    definition: business or individual that acquires a measuring instrument with the
+      intention of using it himself or herself and not reselling it
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 15ba63ff-d681-5574-9e2d-eac95d053dfe
+schema_version: '3'
+related: []

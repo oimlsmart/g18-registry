@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '00500'
+  term: general totalization indicating device
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 50-1:1997
+    publication_id: OIML R050-1:1997
+    tc_sc: ''
+    year: 1997
+    clause: T.3.7.1
+    link: https://www.oiml.org/en/files/pdf_R/r050-1-e97.pdf
+    g18_entry: '00500'
+    definition: a device that indicates the overall total of the mass of all the loads
+      conveyed
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 491587ea-1275-5222-8e50-414e3403f267
+schema_version: '3'
+related: []

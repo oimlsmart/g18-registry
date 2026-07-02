@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '01699'
+  term: absorbed braking power
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 128:2000
+    publication_id: OIML R128:2000
+    tc_sc: ''
+    year: 2000
+    clause: '3.8'
+    link: https://www.oiml.org/en/files/pdf_R/r128-e00.pdf
+    g18_entry: '01699'
+    definition: the absorbed braking power is the mechanical input power of the ergometer
+      at the crankshaft and is measured and displayed by the test equipment
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 0af8b2a7-af50-5077-9125-7bfc5c6bab67
+schema_version: '3'
+related: []

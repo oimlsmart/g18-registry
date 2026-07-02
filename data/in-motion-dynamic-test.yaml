@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '01307'
+  term: in-motion (dynamic) test
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 106-1:1997
+    publication_id: OIML R106-1:1997
+    tc_sc: ''
+    year: 1997
+    clause: T.6.2
+    link: https://www.oiml.org/en/files/pdf_R/r106-1-e97.pdf
+    g18_entry: '01307'
+    definition: a test with reference wagons that are in motion on the load receptor
+      to determine an error
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 46b84780-2d27-580e-8d82-166a9726760b
+schema_version: '3'
+related: []

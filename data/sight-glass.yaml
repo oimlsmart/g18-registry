@@ -1,0 +1,25 @@
+---
+data:
+  identifier: '01601'
+  term: sight glass
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 117-1:2007
+    publication_id: OIML R117-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.s.6
+    link: https://www.oiml.org/en/files/pdf_R/r117-1-e07.pdf
+    g18_entry: '01601'
+    definition: device for checking, before start-up and after shut-down, that all
+      orpart of the measuring system is either filled completely with liquid (full
+      hose measuring systems) or completely empty of liquid (empty hose measuring
+      system)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 0a36bef4-6407-5093-8235-3ce6ed10f9d6
+schema_version: '3'
+related: []

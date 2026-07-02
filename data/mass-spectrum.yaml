@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '01068'
+  term: mass spectrum
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 83:2006
+    publication_id: OIML R083:2006
+    tc_sc: ''
+    year: 2006
+    clause: '3.8'
+    link: https://www.oiml.org/en/files/pdf_R/r083-e06.pdf
+    g18_entry: '01068'
+    definition: either a graphical or tabular presentation form of the measured mass-to-charge
+      (m/z) ratios of separated ions and corresponding intensities of these ratios
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 8c82166e-77d4-5b3b-a299-55a952d1a2fc
+schema_version: '3'
+related: []

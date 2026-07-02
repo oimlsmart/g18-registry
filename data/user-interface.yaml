@@ -1,0 +1,52 @@
+---
+data:
+  identifier: '00349'
+  term: user interface
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML D 31:2008
+    publication_id: OIML D031:2008
+    tc_sc: ''
+    year: 2008
+    clause: 3.1.55
+    link: https://www.oiml.org/en/files/pdf_D/d031-e08.pdf
+    g18_entry: '02222'
+    definition: interface that enables information to be interchanged between a human
+      and the measuring instrument or its hardware or software components, e.g. switches,
+      keyboard, mouse, display, monitor, printer, touch-screen, software window on
+      a screen including the software that generates it
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 21:2007
+    publication_id: OIML R021:2007
+    tc_sc: ''
+    year: 2007
+    clause: 2.2.6
+    link: https://www.oiml.org/en/files/pdf_R/r021-e07.pdf
+    g18_entry: '00349'
+    definition: interface that enables information to be interchanged between a human
+      user and the measuring instrument or its hardware or software components, e.g.
+      switches, keyboard, mouse, display, monitor, printer, touch-screen, or a window
+      on a screen including the software that generates it
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 107-1:2007
+    publication_id: OIML R107-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.2.10
+    link: https://www.oiml.org/en/files/pdf_R/r107-1-e07.pdf
+    g18_entry: '01355'
+    definition: e. interface that enables information to be passed between a user
+      and the instrument or its hardware or software components, as, g. switch, keyboard,
+      mouse, display, monitor, printer, touch- screen
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 6a94b1d0-dea9-579c-9663-b55d63f071cd
+schema_version: '3'
+related: []

@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '01453'
+  term: magnetic force (F1, F2, Fa, Fb, Fmax
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 111-1:2004
+    publication_id: OIML R111-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: 2.9.3
+    link: https://www.oiml.org/en/files/pdf_R/r111-1-e04.pdf
+    g18_entry: '01453'
+    definition: force produced on magnetic or magnetically susceptible material byexternal
+      magnetic fields
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 1e912e4d-00a4-5ca6-88ef-4c59ae2dfb99
+schema_version: '3'
+related: []

@@ -1,0 +1,22 @@
+---
+data:
+  identifier: '01193'
+  term: atomizer
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 100:1991
+    publication_id: OIML R100:1991
+    tc_sc: ''
+    year: 1991
+    clause: '3.2'
+    link: https://www.oiml.org/en/files/pdf_R/r100-e91.pdf
+    g18_entry: '01193'
+    definition: a device for converting the analyte into an atomic vapor
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 00be063b-4011-579b-8a22-c9cf6da750be
+schema_version: '3'
+related: []

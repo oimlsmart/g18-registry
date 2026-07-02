@@ -1,0 +1,25 @@
+---
+data:
+  identifier: '01889'
+  term: mechanical device
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 136-1:2004
+    publication_id: OIML R136-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: T.2.1
+    link: https://www.oiml.org/en/files/pdf_R/r136-1-e04.pdf
+    g18_entry: '01889'
+    definition: device employing mechanical sub-assemblies and performing a specific
+      function (e.g. a mechanical pinwheel comprising of a drive roller and embedded
+      pins for detecting presence of leather and providing area measurement with analogue
+      indication)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: e3fa6a17-bc97-537c-b302-e8c9e21226bb
+schema_version: '3'
+related: []

@@ -1,0 +1,25 @@
+---
+data:
+  identifier: '00174'
+  term: quality manual
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML D 27:2001
+    publication_id: OIML D027:2001
+    tc_sc: ''
+    year: 2001
+    clause: '2.12'
+    link: https://www.oiml.org/en/files/pdf_D/d027-e01.pdf
+    g18_entry: '00174'
+    definition: document specifying the quality management system of an organization
+      [ISO 9000:2000, 3.7.4]
+    notes:
+    - Quality manuals can vary in detail and format to suit the size and complexity
+      of an individual organization.
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 70b3f894-e2e8-52dc-8e52-adddedb63687
+schema_version: '3'
+related: []

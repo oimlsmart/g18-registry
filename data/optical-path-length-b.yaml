@@ -1,0 +1,26 @@
+---
+data:
+  identifier: '01845'
+  term: optical path length (b)
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 135:2004
+    publication_id: OIML R135:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.6'
+    link: https://www.oiml.org/en/files/pdf_R/r135-e04.pdf
+    g18_entry: '01845'
+    definition: distance covered by the radiation flux between the entry and exit
+      1. ISO 6286, Table 2, No. 13. surfaces of a solution contained in an optical
+      cell 2 t u
+    notes:
+    - ". The coherent SI unit is the metre (m), but he centimetre (cm) or millimetre
+      (mm) are sually preferred."
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 1d4da1f6-98f1-5f89-8d0f-82cca5b7afd2
+schema_version: '3'
+related: []

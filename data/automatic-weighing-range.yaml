@@ -1,0 +1,22 @@
+---
+data:
+  identifier: '01361'
+  term: automatic weighing range
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 107-1:2007
+    publication_id: OIML R107-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.3.3
+    link: https://www.oiml.org/en/files/pdf_R/r107-1-e07.pdf
+    g18_entry: '01361'
+    definition: range from minimum capacity to maximum capacity
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 77f4a69c-db73-5056-8c72-29b3ab24b850
+schema_version: '3'
+related: []

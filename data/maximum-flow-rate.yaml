@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '01220'
+  term: maximum flow rate
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 105:1993
+    publication_id: OIML R105:1993
+    tc_sc: ''
+    year: 1993
+    clause: T.10
+    link: https://www.oiml.org/en/files/pdf_R/r105-e93.pdf
+    g18_entry: '01220'
+    definition: the highest flow rate at which the measuring system is required to
+      meet the applicable maximum permissible errors
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: a2f12048-7db8-556d-9c49-2ffc0a0bf1d6
+schema_version: '3'
+related: []

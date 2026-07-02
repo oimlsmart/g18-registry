@@ -1,0 +1,22 @@
+---
+data:
+  identifier: '01358'
+  term: totalization scale interval,d stem:[t]
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 107-1:2007
+    publication_id: OIML R107-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.3.1.1
+    link: https://www.oiml.org/en/files/pdf_R/r107-1-e07.pdf
+    g18_entry: '01358'
+    definition: scale interval of a principal totalization indicating device
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: a7e399d4-d0cc-5868-a6ee-169797ede5df
+schema_version: '3'
+related: []

@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '02030'
+  term: sequential control device
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 139:2007
+    publication_id: OIML R139:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.4.9
+    link: https://www.oiml.org/en/files/pdf_R/r139-e07.pdf
+    g18_entry: '02030'
+    definition: device which allows switching from one bank to another. This device
+      may be included in a measuring system or may be part of the refueling station
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: c582cef9-e633-59c2-a23b-9d6c523deab4
+schema_version: '3'
+related: []

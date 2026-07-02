@@ -1,0 +1,26 @@
+---
+data:
+  identifier: '00170'
+  term: quality
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML D 27:2001
+    publication_id: OIML D027:2001
+    tc_sc: ''
+    year: 2001
+    clause: '2.8'
+    link: https://www.oiml.org/en/files/pdf_D/d027-e01.pdf
+    g18_entry: '00170'
+    definition: degree to which a set of inherent characteristics fulfils requirements
+      [ISO 9000:2000, 3.1.1]
+    notes:
+    - (1) The term "quality" can be used with adjectives such as poor, good or excellent.
+      (2) "Inherent" as opposed to "assigned" means existing in something, especially
+      as a permanent characteristic.
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: f1370df2-b6f0-5fe3-a5f3-9a6ee1202fcc
+schema_version: '3'
+related: []

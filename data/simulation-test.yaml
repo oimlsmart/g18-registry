@@ -1,0 +1,95 @@
+---
+data:
+  identifier: '00536'
+  term: simulation test
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 107-1:2007
+    publication_id: OIML R107-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.6.2
+    link: https://www.oiml.org/en/files/pdf_R/r107-1-e07.pdf
+    g18_entry: '01403'
+    definition: test carried out on a complete instrument or part of an instrument
+      inwhich any part of the weighing operation is simulate
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 51-1:2006
+    publication_id: OIML R051-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.6.2
+    link: https://www.oiml.org/en/files/pdf_R/r051-1-e06.pdf
+    g18_entry: '00670'
+    definition: test carried out on a complete instrument or part of an instrument
+      inwhich any part of the weighing operation is simulated
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 61-1:2004
+    publication_id: OIML R061-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: T.6.2
+    link: https://www.oiml.org/en/files/pdf_R/r061-1-e04.pdf
+    g18_entry: '00815'
+    definition: test carried out on a complete filling instrument or part of a filling
+      instrument in which any part of the weighing operation is simulated
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 136-1:2004
+    publication_id: OIML R136-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: T.6.2
+    link: https://www.oiml.org/en/files/pdf_R/r136-1-e04.pdf
+    g18_entry: '01922'
+    definition: test carried out on a complete measuring instrument or part of an
+      instrument in which any part of the measurement operation is simulated
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 134:2003
+    publication_id: OIML R134:2003
+    tc_sc: ''
+    year: 2003
+    clause: T.6.3
+    link: https://www.oiml.org/en/files/pdf_R/r134-e03.pdf
+    g18_entry: '01835'
+    definition: test carried out on a complete instrument or part of an instrument
+      in which any part of the weighing operation is simulated
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 50-1:1997
+    publication_id: OIML R050-1:1997
+    tc_sc: ''
+    year: 1997
+    clause: T.7.2
+    link: https://www.oiml.org/en/files/pdf_R/r050-1-e97.pdf
+    g18_entry: '00536'
+    definition: a test carried out with standard weights on a test unit consisting
+      ofa complete belt weigher without the belt conveyor
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 106-1:1997
+    publication_id: OIML R106-1:1997
+    tc_sc: ''
+    year: 1997
+    clause: T.6.3
+    link: https://www.oiml.org/en/files/pdf_R/r106-1-e97.pdf
+    g18_entry: '01308'
+    definition: a test carried out on a complete instrument or part of an instrument
+      in which any part of the weighing operation is simulated
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 207cf836-4131-557c-9597-4d1fcea38a11
+schema_version: '3'
+related: []

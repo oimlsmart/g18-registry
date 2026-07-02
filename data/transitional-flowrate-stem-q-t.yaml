@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '01960'
+  term: transitional flowrate,stem:[Q_{t}]
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 137-1:2006
+    publication_id: OIML R137-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: 2.3.4
+    link: https://www.oiml.org/en/files/pdf_R/r137-1-e06.pdf
+    g18_entry: '01960'
+    definition: flowrate which occurs between the maximum flowrate Qmax and theminimum
+      flowrate Qmin that divides the flowrate range into twozones, the "upper zone"
+      and the "lower zone", each characterized by its own maximum permissible error
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 29d68ac3-654b-5c3b-a0eb-a2b46b6af96d
+schema_version: '3'
+related: []

@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '00659'
+  term: standard deviation of the error, s
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 51-1:2006
+    publication_id: OIML R051-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.4.3.6
+    link: https://www.oiml.org/en/files/pdf_R/r051-1-e06.pdf
+    g18_entry: '00659'
+    definition: 'standard deviation of the error (of indication) for a number of consecutive
+      automatic weighings of a load, or similar loads, passed over the load receptor,
+      expressed mathematically as: stem:[Sigma] (xi - x ) n 2 i -1 s] n -1'
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 5056d0a0-fe07-58fc-8681-4032e46a3bb6
+schema_version: '3'
+related: []

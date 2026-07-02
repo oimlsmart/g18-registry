@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '00481'
+  term: continuous totalizing automatic weighing instrument (belt weigher)
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 50-1:1997
+    publication_id: OIML R050-1:1997
+    tc_sc: ''
+    year: 1997
+    clause: T.1.3
+    link: https://www.oiml.org/en/files/pdf_R/r050-1-e97.pdf
+    g18_entry: '00481'
+    definition: an automatic weighing instrument for continuously weighing a bulk
+      product on a conveyor belt, without systematic subdivision ofthe mass and without
+      interrupting the movement of the conveyor belt
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 0f8b7963-a1a2-50d5-b672-1f2c58471943
+schema_version: '3'
+related: []

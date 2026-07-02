@@ -1,0 +1,47 @@
+---
+data:
+  identifier: '01058'
+  term: chromatogram
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 82:2006
+    publication_id: OIML R082:2006
+    tc_sc: ''
+    year: 2006
+    clause: '3.14'
+    link: https://www.oiml.org/en/files/pdf_R/r082-e06.pdf
+    g18_entry: '01058'
+    definition: record of the detector output signal versus time that has peaks corresponding
+      to specific components of the sample
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 112:1994
+    publication_id: OIML R112:1994
+    tc_sc: ''
+    year: 1994
+    clause: '2.13'
+    link: https://www.oiml.org/en/files/pdf_R/r112-e94.pdf
+    g18_entry: '01485'
+    definition: a record of the detector output signal versus time that has specific
+      peaks associated with measured components of a sample
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 113:1994
+    publication_id: OIML R113:1994
+    tc_sc: ''
+    year: 1994
+    clause: '3.14'
+    link: https://www.oiml.org/en/files/pdf_R/r113-e94.pdf
+    g18_entry: '01501'
+    definition: a record of the detector output signal versus time that has peaks
+      corresponding to components of a sample
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: a3c2b46f-59f1-5a55-95f5-978302b7357c
+schema_version: '3'
+related: []

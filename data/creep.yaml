@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '00728'
+  term: creep
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 60:2000
+    publication_id: OIML R060:2000
+    tc_sc: ''
+    year: 2000
+    clause: 2.4.1
+    link: https://www.oiml.org/en/files/pdf_R/r060-e00.pdf
+    g18_entry: '00728'
+    definition: change in load cell output occurring with time while under constant
+      load and with all environmental conditions and other variables also remaining
+      constant
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: d4b29e14-e137-5e06-a624-52936c37b864
+schema_version: '3'
+related: []

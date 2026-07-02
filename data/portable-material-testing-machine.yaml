@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '00819'
+  term: portable material testing machine
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 65:2006
+    publication_id: OIML R065:2006
+    tc_sc: ''
+    year: 2006
+    clause: '3.2'
+    link: https://www.oiml.org/en/files/pdf_R/r065-e06.pdf
+    g18_entry: '00819'
+    definition: material testing machine that is specifically designed to be moved
+      from place to place without major disassembly and adjustments to its performance
+      characteristics
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: be549e36-5aed-500e-adac-5cbc20b2b777
+schema_version: '3'
+related: []

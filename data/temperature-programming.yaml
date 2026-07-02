@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '01202'
+  term: temperature programming
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 100:1991
+    publication_id: OIML R100:1991
+    tc_sc: ''
+    year: 1991
+    clause: '3.10'
+    link: https://www.oiml.org/en/files/pdf_R/r100-e91.pdf
+    g18_entry: '01202'
+    definition: a means of automatically controlling the rate and duration of the
+      temperature rise of a furnace-type AAS system
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 61016a3e-41a6-5444-88a8-7c535ae37abd
+schema_version: '3'
+related: []

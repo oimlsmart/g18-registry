@@ -1,0 +1,22 @@
+---
+data:
+  identifier: '01419'
+  term: lower limit of measuring range (Pmin)
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 110:1994
+    publication_id: OIML R110:1994
+    tc_sc: ''
+    year: 1994
+    clause: 2.1.1.2
+    link: https://www.oiml.org/en/files/pdf_R/r110-e94.pdf
+    g18_entry: '01419'
+    definition: the minimum pressure to be measured
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: acde5b0c-df0e-5a27-94a6-8d689b26602b
+schema_version: '3'
+related: []

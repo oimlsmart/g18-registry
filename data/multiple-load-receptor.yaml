@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '01792'
+  term: multiple load receptor
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 134:2003
+    publication_id: OIML R134:2003
+    tc_sc: ''
+    year: 2003
+    clause: T.2.1.1
+    link: https://www.oiml.org/en/files/pdf_R/r134-e03.pdf
+    g18_entry: '01792'
+    definition: two or more load receptors placed in series that are used as a single
+      load receptor for full draught weighing
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 0d8e41b2-b9a7-5cc7-a67f-0a9434c83dc7
+schema_version: '3'
+related: []

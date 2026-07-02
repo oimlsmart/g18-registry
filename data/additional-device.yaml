@@ -1,0 +1,87 @@
+---
+data:
+  identifier: '01528'
+  term: additional device
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 80-1:2009
+    publication_id: OIML R080-1:2009
+    tc_sc: ''
+    year: 2009
+    clause: '2.4'
+    link: https://www.oiml.org/en/files/pdf_R/r080-1-e09.pdf
+    g18_entry: '02243'
+    definition: 'part or device, other than an ancillary device, required to ensure
+      Examples of additional devices: correct measurement or intended to facilitate
+      the measuring operations, or which could in any way affect the measurement'
+    notes:
+    - "- manifold; - sampling device; - gas indicator; - sight glass; - filter, pump;
+      - gas elimination device; - device used for the transfer point; - anti-swirl
+      device; - branches or bypasses; - valves, hoses."
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 117-1:2007
+    publication_id: OIML R117-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.a.2
+    link: https://www.oiml.org/en/files/pdf_R/r117-1-e07.pdf
+    g18_entry: '01528'
+    definition: 'part or device, other than an ancillary device, required to ensure
+      Main additional devices are: correct measurement or intended to facilitate the
+      measuring operations, or which could in any way affect the measurement'
+    notes:
+    - "* gas elimination device, * gas indicator, * sight glass, * filter, * pump,
+      * device used for the transfer point, * anti-swirl device, * branches or bypasses,
+      * valves, hoses."
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 139:2007
+    publication_id: OIML R139:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.1.6
+    link: https://www.oiml.org/en/files/pdf_R/r139-e07.pdf
+    g18_entry: '01994'
+    definition: 'part or device, other than an ancillary device, required to ensure
+      correct measurement or intended to facilitate the measuring operations, or which
+      could in any way affect the measurement Main additional devices are: - filter;
+      - device used for the transfer point; - anti-swirl device; - branches or bypasses;
+      - valves, hoses, and in general, all the gaseous piping.'
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 140:2007
+    publication_id: OIML R140:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.1.6
+    link: https://www.oiml.org/en/files/pdf_R/r140-e07.pdf
+    g18_entry: '02046'
+    definition: 'element or device, other than ancillary, required to ensure correct
+      measurement or intended to facilitate the measuring operations, or which could
+      in any way affect the measurement. Examples of additional devices are: - filter;
+      - flow conditioning device; - branch or by-pass line; - valves; - pressure reduction
+      devices located upstream or downstream of the meter; - sampling systems; - piping.'
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 125:1998
+    publication_id: OIML R125:1998
+    tc_sc: ''
+    year: 1998
+    clause: T.9.2
+    link: https://www.oiml.org/en/files/pdf_R/r125-e98.pdf
+    g18_entry: '01625'
+    definition: a device other than an ancillary device, required to ensure the correct
+      metrological performance of the system, e.g. valves allowing verification of
+      pressure transducers, atmospheric pressure balancing pipes between pressure
+      transducers, etc.
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 349a0041-91f1-5a34-ba98-b21930d851b1
+schema_version: '3'
+related: []

@@ -1,0 +1,22 @@
+---
+data:
+  identifier: '01938'
+  term: indicated value (of a quantity)
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 137-1:2006
+    publication_id: OIML R137-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: 2.2.2
+    link: https://www.oiml.org/en/files/pdf_R/r137-1-e06.pdf
+    g18_entry: '01938'
+    definition: value Yi of a quantity, as indicated by the meter
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 5f714197-9f74-5271-b7ff-87214d48ea74
+schema_version: '3'
+related: []

@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '02157'
+  term: supervisor
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML D 29:2008
+    publication_id: OIML D029:2008
+    tc_sc: ''
+    year: 2008
+    clause: '3'
+    link: https://www.oiml.org/en/files/pdf_D/d029-e08.pdf
+    g18_entry: '02157'
+    definition: "- G.3-2 person on the managerial staff or appropriate internal committee
+      of the certification body who is in charge of validating the work of evaluators
+      and who has an appropriate knowledge of legal metrology"
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 2ad83436-95e9-5886-a0d7-9738a38bbb96
+schema_version: '3'
+related: []

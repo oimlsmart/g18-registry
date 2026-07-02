@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '01109'
+  term: average error
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 87:2004
+    publication_id: OIML R087:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.2'
+    link: https://www.oiml.org/en/files/pdf_R/r087-e04.pdf
+    g18_entry: '01109'
+    definition: sum of individual prepackage errors considering their arithmetic sign
+      divided by the number of prepackages in the sample
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 0d758cde-a356-56e7-8b2f-d160af0f7c48
+schema_version: '3'
+related: []

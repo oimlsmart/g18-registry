@@ -1,0 +1,28 @@
+---
+data:
+  identifier: '01848'
+  term: law of Bouguer-Lambert and Beer (A = lg(1/stem:[tau]) = stem:[epsilon]bc)
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 135:2004
+    publication_id: OIML R135:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.9'
+    link: https://www.oiml.org/en/files/pdf_R/r135-e04.pdf
+    g18_entry: '01848'
+    definition: 'absorbance A is proportional to the optical pathlength b and the
+      1. Conditions for validity: A beam of parallel amount of substance concentration
+      c'
+    notes:
+    - monochromatic radiation traverses, at normal incidence, an absorbing medium
+      with planeparallel surfaces and which is homogeneous, isotropic, non-luminescent
+      and non-scattering.
+    - 2. Adapted from ISO 6286, clause 3.3.
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 3bd49101-b865-5a45-848d-34f07a650435
+schema_version: '3'
+related: []

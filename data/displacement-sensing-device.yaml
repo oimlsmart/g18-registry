@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '00497'
+  term: displacement sensing device
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 50-1:1997
+    publication_id: OIML R050-1:1997
+    tc_sc: ''
+    year: 1997
+    clause: T.3.5.1
+    link: https://www.oiml.org/en/files/pdf_R/r050-1-e97.pdf
+    g18_entry: '00497'
+    definition: the part of the displacement transducer that is in permanent contact
+      with the belt or integral with a non-drive pulley
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 06c1b650-8152-5537-b37d-5eaafb47180e
+schema_version: '3'
+related: []

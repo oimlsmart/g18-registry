@@ -1,0 +1,37 @@
+---
+data:
+  identifier: '01216'
+  term: minimum measured quantity
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 140:2007
+    publication_id: OIML R140:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.2.11
+    link: https://www.oiml.org/en/files/pdf_R/r140-e07.pdf
+    g18_entry: '02077'
+    definition: smallest quantity for which the measurement is metrologically acceptable
+      for that system
+    notes:
+    - A measuring system has a minimum measured quantity for each principal measurand
+      it processes (volumes, mass or energy).
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 105:1993
+    publication_id: OIML R105:1993
+    tc_sc: ''
+    year: 1993
+    clause: T.6
+    link: https://www.oiml.org/en/files/pdf_R/r105-e93.pdf
+    g18_entry: '01216'
+    definition: the smallest quantity for which the measurement is metrologically
+      acceptable for the system
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 173beafc-29e4-5a05-8a59-c32a80e5cbaa
+schema_version: '3'
+related: []

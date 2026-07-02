@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '01629'
+  term: measured mass
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 125:1998
+    publication_id: OIML R125:1998
+    tc_sc: ''
+    year: 1998
+    clause: T.13
+    link: https://www.oiml.org/en/files/pdf_R/r125-e98.pdf
+    g18_entry: '01629'
+    definition: the mass of liquid determined from the signals obtained from the measurement
+      transducer(s)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 9947ff2b-3e51-54df-95ba-f58f5ef78b53
+schema_version: '3'
+related: []

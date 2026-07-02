@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '01299'
+  term: maximum span stability error
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 106-1:1997
+    publication_id: OIML R106-1:1997
+    tc_sc: ''
+    year: 1997
+    clause: T.4.2.7
+    link: https://www.oiml.org/en/files/pdf_R/r106-1-e97.pdf
+    g18_entry: '01299'
+    definition: a span stability error greater than one half of the absolute value
+      ofthe maximum permissible error applicable to the load
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 5646c24e-3487-510b-a721-02b23230e52c
+schema_version: '3'
+related: []

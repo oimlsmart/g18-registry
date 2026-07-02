@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '02007'
+  term: attended post-payment (or post- payment)
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 139:2007
+    publication_id: OIML R139:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.2.6
+    link: https://www.oiml.org/en/files/pdf_R/r139-e07.pdf
+    g18_entry: '02007'
+    definition: type of payment in attended service mode requiring payment for the
+      delivered quantity after the delivery but before the customer leaves the site
+      of the delivery
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: ff54dece-088e-5e61-85be-883dc165af5c
+schema_version: '3'
+related: []

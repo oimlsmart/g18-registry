@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '00843'
+  term: complete instrument
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 75-1:2002
+    publication_id: OIML R075-1:2002
+    tc_sc: ''
+    year: 2002
+    clause: '3.1'
+    link: https://www.oiml.org/en/files/pdf_R/r075-1-e02.pdf
+    g18_entry: '00843'
+    definition: a heat meter which does not have separable subassemblies as defined
+      in 3.4.
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: e3238976-0910-5109-ac53-ec753967b5bf
+schema_version: '3'
+related: []

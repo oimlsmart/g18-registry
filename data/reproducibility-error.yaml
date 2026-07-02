@@ -1,0 +1,26 @@
+---
+data:
+  identifier: '01913'
+  term: reproducibility error
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 136-1:2004
+    publication_id: OIML R136-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: T.4.10
+    link: https://www.oiml.org/en/files/pdf_R/r136-1-e04.pdf
+    g18_entry: '01913'
+    definition: 'closeness of the agreement between the results of successive The
+      changed conditions may include: leather area measurements carried out under
+      changed conditions • lea ofmeasurement mecha • lea • ope • loc • tim'
+    notes:
+    - ther-measuring instrument (e.g. use of a nical or electronic pinwheel, etc.);
+      ther material; rator; ation; and e.
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 884c19ec-1312-52a9-8477-a73b84fa28a0
+schema_version: '3'
+related: []

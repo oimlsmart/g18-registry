@@ -1,0 +1,44 @@
+---
+data:
+  identifier: '00427'
+  term: relative error (of indication)
+  kind: defined_in_vim
+  official_concept:
+    source: urn:oiml:pub:v:2:1993
+    id: '3.12'
+    url: https://oimlsmart.github.io/vocab/vim-1993/concept/3.12
+  publications:
+  - publication: OIML R 117-1:2007
+    publication_id: OIML R117-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.e.4.2
+    link: https://www.oiml.org/en/files/pdf_R/r117-1-e07.pdf
+    g18_entry: '01560'
+    definition: error (of indication) divided by the reference (true) quantity
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 49-1:2006
+    publication_id: OIML R049-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: 2.2.5
+    link: https://www.oiml.org/en/files/pdf_R/r049-1-e06.pdf
+    g18_entry: '00427'
+    definition: "[a error (of indication) divided by the actual volume dapted from
+      VIM:1993, 3.12]"
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+    related:
+    - type: see
+      ref: &1
+        source: urn:oiml:pub:v:2:1993
+        id: '3.12'
+status: current
+id: bae90887-1bf9-598d-9b9b-563c165f0533
+schema_version: '3'
+related:
+- type: see
+  ref: *1

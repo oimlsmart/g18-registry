@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '00390'
+  term: maximum permissible error (of a Rockwell hardness machine)
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 39:2006
+    publication_id: OIML R039:2006
+    tc_sc: ''
+    year: 2006
+    clause: '2.12'
+    link: https://www.oiml.org/en/files/pdf_R/r039-e06.pdf
+    g18_entry: '00390'
+    definition: extreme value of error in a measured Rockwell hardness value permitted
+      by specifications, regulations, etc., such as this Recommendation, for a given
+      Rockwell hardness machine
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 97b9ee0c-4fce-5fb5-aea3-cda5312d2166
+schema_version: '3'
+related: []

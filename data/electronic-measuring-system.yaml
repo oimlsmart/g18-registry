@@ -1,0 +1,22 @@
+---
+data:
+  identifier: '01222'
+  term: electronic measuring system
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 105:1993
+    publication_id: OIML R105:1993
+    tc_sc: ''
+    year: 1993
+    clause: T.12
+    link: https://www.oiml.org/en/files/pdf_R/r105-e93.pdf
+    g18_entry: '01222'
+    definition: a measuring system equipped with electronic devices
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 37e94c13-4475-571a-9694-073dcc05cbab
+schema_version: '3'
+related: []

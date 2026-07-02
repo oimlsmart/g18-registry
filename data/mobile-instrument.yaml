@@ -1,0 +1,26 @@
+---
+data:
+  identifier: '00886'
+  term: mobile instrument
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 76-1:2006
+    publication_id: OIML R076-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.1.2.11
+    link: https://www.oiml.org/en/files/pdf_R/r076-1-e06.pdf
+    g18_entry: '00886'
+    definition: non-automatic weighing instrument mounted on or incorporated (1) A
+      vehicle-mounted instrument is a into a vehicle complet mounted for tha mounted
+      (2) A v parts o instrum patient chair w
+    notes:
+    - e weighing instrument which is firmly on a vehicle, and which is designed t
+      special purpose
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 9d622ab8-04d6-53c7-b1a4-223d586b823c
+schema_version: '3'
+related: []

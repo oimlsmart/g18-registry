@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '00999'
+  term: non-consumer package
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 79:1997
+    publication_id: OIML R079:1997
+    tc_sc: ''
+    year: 1997
+    clause: '2.7'
+    link: https://www.oiml.org/en/files/pdf_R/r079-e97.pdf
+    g18_entry: '00999'
+    definition: any package intended solely for industrial or institutional use or
+      for wholesale distribution
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: d57448c0-d51e-52a5-af46-13470816009c
+schema_version: '3'
+related: []

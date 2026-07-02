@@ -1,0 +1,35 @@
+---
+data:
+  identifier: '00495'
+  term: weighing unit
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 61-1:2004
+    publication_id: OIML R061-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: T.2.1.1
+    link: https://www.oiml.org/en/files/pdf_R/r061-1-e04.pdf
+    g18_entry: 00763b
+    definition: device which provides information on the mass of the load to be measured.
+      This device may consist of all or part of a non- automatic weighing instrument
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 50-1:1997
+    publication_id: OIML R050-1:1997
+    tc_sc: ''
+    year: 1997
+    clause: T.3.4
+    link: https://www.oiml.org/en/files/pdf_R/r050-1-e97.pdf
+    g18_entry: '00495'
+    definition: the part of a belt weigher providing information on the mass of the
+      load to be measured
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 49338a4c-b458-5247-aa75-a57509aa5d86
+schema_version: '3'
+related: []

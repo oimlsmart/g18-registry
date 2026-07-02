@@ -1,0 +1,49 @@
+---
+data:
+  identifier: '00361'
+  term: maximum permissible error
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 85-1:2008
+    publication_id: OIML R085-1:2008
+    tc_sc: ''
+    year: 2008
+    clause: '3.29'
+    link: https://www.oiml.org/en/files/pdf_R/r085-1-e08.pdf
+    g18_entry: '02327'
+    definition: extreme permitted value by the present Recommendation for the error
+      of indication
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 117-1:2007
+    publication_id: OIML R117-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.e.4.3
+    link: https://www.oiml.org/en/files/pdf_R/r117-1-e07.pdf
+    g18_entry: '01561'
+    definition: extreme value for an error permitted by this Recommendation
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 24:1975
+    publication_id: OIML R024:1975
+    tc_sc: ''
+    year: 1975
+    clause: '2.1'
+    link: https://www.oiml.org/en/files/pdf_R/r024-e75.pdf
+    g18_entry: '00361'
+    definition: maximum error, positive or negative, allowed on Verification Officers'
+      metre standard on initial or subsequent verification when compared at the reference
+      temperature of 20 °C with the corresponding standard of length of higher accuracy
+      (in the statutory hierarchy of standards), assuming that this standard of higher
+      accuracy has a negligible error for the purpose of this comparison
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 14198c1d-2b8c-51df-b9ca-99246db752f9
+schema_version: '3'
+related: []

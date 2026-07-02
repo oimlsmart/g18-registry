@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '00309'
+  term: diastolic blood pressure (value)
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 16-1:2002
+    publication_id: OIML R016-1:2002
+    tc_sc: ''
+    year: 2002
+    clause: '2.4'
+    link: https://www.oiml.org/en/files/pdf_R/r016-1-e02.pdf
+    g18_entry: '00309'
+    definition: minimum value of the arterial blood pressure as a result of relaxation
+      of the systemic ventricle
+    notes:
+    - Because of hydrostatic effects, this value should be measured with the cuff
+      at the heart level.
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 16-2:2002
+    publication_id: OIML R016-2:2002
+    tc_sc: ''
+    year: 2002
+    clause: '2.4'
+    link: https://www.oiml.org/en/files/pdf_R/r016-2-e02.pdf
+    g18_entry: '00324'
+    definition: minimum value of the arterial blood pressure as a result of relaxation
+      of the systemic ventricle
+    notes:
+    - Because of hydrostatic effects, this value should be measured with the cuff
+      at the heart level.
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: ae3a56a6-1c66-58bc-862e-84be689333e7
+schema_version: '3'
+related: []

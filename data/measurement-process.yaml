@@ -1,0 +1,51 @@
+---
+data:
+  identifier: '00120'
+  term: measurement process
+  kind: defined_in_vim
+  official_concept:
+    source: urn:oiml:pub:v:2:1993
+    id: '2.8'
+    url: https://oimlsmart.github.io/vocab/vim-1993/concept/2.8
+  publications:
+  - publication: OIML D 20:1988
+    publication_id: OIML D020:1988
+    tc_sc: ''
+    year: 1988
+    clause: 1.2.6
+    link: https://www.oiml.org/en/files/pdf_D/d020-e88.pdf
+    g18_entry: '00140'
+    definition: all the information, equipment and operations relevant to a given
+      This concept embraces all aspects relating to measurement the pe (VIM:1993,
+      2.08) measur princi influe standa
+    notes:
+    - rformance and quality of the ement ; it includes, for example, the ple, method,
+      procedure, values of the nce quantities and the measurement rds.
+    consistency: pending
+    consistency_reason: ''
+    related:
+    - type: see
+      ref: &1
+        source: urn:oiml:pub:v:2:1993
+        id: '2.8'
+  - publication: OIML D 16:1986
+    publication_id: OIML D016:1986
+    tc_sc: ''
+    year: 1986
+    clause: 1.1.2
+    link: https://www.oiml.org/en/files/pdf_D/d016-e86.pdf
+    g18_entry: '00120'
+    definition: all the information, equipment and operations relevant to a given
+      This concept embraces all aspects relating to measurement the pe measur princi
+      influe standa
+    notes:
+    - rformance and quality of the ement; it includes for example the ple, method,
+      procedure, values of the nce quantities and the measurement rds (VIM:1993, 2.08).
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 3d9e93c7-879d-5f59-a69f-34b3a484d66a
+schema_version: '3'
+related:
+- type: see
+  ref: *1

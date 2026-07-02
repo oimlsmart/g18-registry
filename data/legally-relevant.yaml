@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '00342'
+  term: legally relevant
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 21:2007
+    publication_id: OIML R021:2007
+    tc_sc: ''
+    year: 2007
+    clause: 2.1.5
+    link: https://www.oiml.org/en/files/pdf_R/r021-e07.pdf
+    g18_entry: '00342'
+    definition: part of a measuring instrument, device or software subject to legal
+      control
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: dcef5635-e2d3-54c5-b760-38eb11b94c97
+schema_version: '3'
+related: []

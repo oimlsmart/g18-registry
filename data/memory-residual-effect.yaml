@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '01674'
+  term: memory (residual) effect
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 126:1998
+    publication_id: OIML R126:1998
+    tc_sc: ''
+    year: 1998
+    clause: '3.13'
+    link: https://www.oiml.org/en/files/pdf_R/r126-e98.pdf
+    g18_entry: '01674'
+    definition: the difference between the indications obtained with two inputs of
+      gas of a given mass concentration, a gas of a specified higher mass concentration
+      being injected between these two inputs
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 2db92161-230a-55d4-a7ee-0d5bbc0bcb21
+schema_version: '3'
+related: []

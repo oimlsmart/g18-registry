@@ -1,0 +1,35 @@
+---
+data:
+  identifier: '00907'
+  term: digital device
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 107-1:2007
+    publication_id: OIML R107-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.2.2.4
+    link: https://www.oiml.org/en/files/pdf_R/r107-1-e07.pdf
+    g18_entry: '01331'
+    definition: electronic device that only performs digital functions and that provides
+      a digitized output or display.
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 76-1:2006
+    publication_id: OIML R076-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.2.3.4
+    link: https://www.oiml.org/en/files/pdf_R/r076-1-e06.pdf
+    g18_entry: '00907'
+    definition: electronic device that only performs digital functions and provides
+      a digitized output or display
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 97f95f9a-dce7-567f-82ed-8d68e423939d
+schema_version: '3'
+related: []

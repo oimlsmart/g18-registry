@@ -1,0 +1,26 @@
+---
+data:
+  identifier: '02132'
+  term: semi-automatic adjustment means
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 143:2009
+    publication_id: OIML R143:2009
+    tc_sc: ''
+    year: 2009
+    clause: 2.7.3
+    link: https://www.oiml.org/en/files/pdf_R/r143-e09.pdf
+    g18_entry: '02132'
+    definition: means allowing the user to adjust the gas analytical system without
+      having the possibility of changing the input measurement signal, whether the
+      automatic adjustment is required or not
+    notes:
+    - For those gas analytical systems that require the calibration gas mixture to
+      be entered manually, the adjustment means are considered to be semi-automatic.
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: cab721fe-95e6-5ec7-91f6-04c1e3868a04
+schema_version: '3'
+related: []

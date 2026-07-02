@@ -1,0 +1,25 @@
+---
+data:
+  identifier: '00115'
+  term: Customer
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML B 10-1:2004
+    publication_id: OIML B010-1:2004
+    tc_sc: TC 3/SC 2
+    year: 2004
+    clause: '3.24'
+    link: https://www.oiml.org/en/files/pdf_B/b010-1-e04.pdf
+    g18_entry: '00115'
+    definition: a manufacturer and/or an authorized representative who submits an
+      application for type evaluation of a measuring instrument to an Issuing Authority
+      participating in a DoMC in order to receive Test Report and OIML Certificate
+      for that instrument type
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: c53d6ecc-0e0e-529f-bdc7-e49ec70e7575
+schema_version: '3'
+related: []

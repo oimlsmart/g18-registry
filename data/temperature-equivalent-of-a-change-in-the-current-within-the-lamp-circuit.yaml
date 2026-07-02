@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '00410'
+  term: temperature equivalent of a change in the current within the lamp circuit
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 48:2004
+    publication_id: OIML R048:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.10'
+    link: https://www.oiml.org/en/files/pdf_R/r048-e04.pdf
+    g18_entry: '00410'
+    definition: change in a value of radiance temperature (in °C) of the tungsten
+      ribbon caused by a given change in the current within its circuit
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 59f16ddf-6a3f-5cee-a00c-9688719d7fc8
+schema_version: '3'
+related: []

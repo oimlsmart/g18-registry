@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '01713'
+  term: weight (Wt)
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 129:2000
+    publication_id: OIML R129:2000
+    tc_sc: ''
+    year: 2000
+    clause: '2.14'
+    link: https://www.oiml.org/en/files/pdf_R/r129-e00.pdf
+    g18_entry: '01713'
+    definition: for this Recommendation, the weight of the object measured on a weighing
+      instrument
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 56ac56bd-7f40-5495-93f7-b9a3b9063363
+schema_version: '3'
+related: []

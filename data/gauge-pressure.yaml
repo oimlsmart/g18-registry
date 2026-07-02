@@ -1,0 +1,34 @@
+---
+data:
+  identifier: '01203'
+  term: gauge pressure
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 109:1993
+    publication_id: OIML R109:1993
+    tc_sc: ''
+    year: 1993
+    clause: '2.1'
+    link: https://www.oiml.org/en/files/pdf_R/r109-e93.pdf
+    g18_entry: '01411'
+    definition: a pressure greater than ambient pressure
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 101:1991
+    publication_id: OIML R101:1991
+    tc_sc: ''
+    year: 1991
+    clause: T.1
+    link: https://www.oiml.org/en/files/pdf_R/r101-e91.pdf
+    g18_entry: '01203'
+    definition: a pressure greater than ambient pressure, the latter being considered
+      as the datum point
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 95363ff1-ddb9-57c6-a145-4cd4eba6291e
+schema_version: '3'
+related: []

@@ -1,0 +1,38 @@
+---
+data:
+  identifier: '00168'
+  term: subsequent verification of a measuring instrument
+  kind: defined_in_viml
+  official_concept:
+    source: urn:oiml:pub:v:1:2000
+    id: '2.16'
+    url: https://oimlsmart.github.io/vocab/viml-2000/concept/2.16
+  publications:
+  - publication: OIML D 27:2001
+    publication_id: OIML D027:2001
+    tc_sc: ''
+    year: 2001
+    clause: '2.6'
+    link: https://www.oiml.org/en/files/pdf_D/d027-e01.pdf
+    g18_entry: '00168'
+    definition: 'any verification of a measuring instrument after a previous verification
+      and including: • mandatory periodic verification; • verification after repair.
+      [VIML, 2.16]'
+    notes:
+    - Subsequent verification of a measuring instrument may be carried out before
+      expiry of the period of validity of a previous verification either at the request
+      of the user (owner) or when its verification mark is declared to be no longer
+      valid.
+    consistency: pending
+    consistency_reason: ''
+    related:
+    - type: see
+      ref: &1
+        source: urn:oiml:pub:v:1:2000
+        id: '2.16'
+status: current
+id: 4ce3cb74-2a86-5ad8-b286-56b51e0bb1ed
+schema_version: '3'
+related:
+- type: see
+  ref: *1

@@ -1,0 +1,22 @@
+---
+data:
+  identifier: '02204'
+  term: program code
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML D 31:2008
+    publication_id: OIML D031:2008
+    tc_sc: ''
+    year: 2008
+    clause: 3.1.37
+    link: https://www.oiml.org/en/files/pdf_D/d031-e08.pdf
+    g18_entry: '02204'
+    definition: source code or executable code
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: fdbbd37e-b70a-57ed-b6c8-94ac873cc50e
+schema_version: '3'
+related: []

@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '00724'
+  term: relative DR or Z
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 60:2000
+    publication_id: OIML R060:2000
+    tc_sc: ''
+    year: 2000
+    clause: 2.3.13
+    link: https://www.oiml.org/en/files/pdf_R/r060-e00.pdf
+    g18_entry: '00724'
+    definition: ratio of the maximum capacity, Emax, to two times the minimum dead
+      load output return, DR. This ratio is used to describe multi- interval instruments
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 4d6925b5-4ae0-545f-8b09-b11b2fb4505f
+schema_version: '3'
+related: []

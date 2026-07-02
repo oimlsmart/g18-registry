@@ -1,0 +1,25 @@
+---
+data:
+  identifier: '00149'
+  term: control charts for an instrument
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML D 22:1991
+    publication_id: OIML D022:1991
+    tc_sc: ''
+    year: 1991
+    clause: '3.4'
+    link: https://www.oiml.org/en/files/pdf_D/d022-e91.pdf
+    g18_entry: '00149'
+    definition: graphical plots of test results from the same or similar samples or
+      processes with respect to time or a sequence of such measurements, together
+      with the limits within which the measurement values are expected to lie, when
+      the instrument is in a state of statistical control
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 44170006-7d26-5027-a88e-9105a57bd19e
+schema_version: '3'
+related: []

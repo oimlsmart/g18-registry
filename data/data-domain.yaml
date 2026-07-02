@@ -1,0 +1,30 @@
+---
+data:
+  identifier: '02179'
+  term: data domain
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML D 31:2008
+    publication_id: OIML D031:2008
+    tc_sc: ''
+    year: 2008
+    clause: 3.1.12
+    link: https://www.oiml.org/en/files/pdf_D/d031-e08.pdf
+    g18_entry: '02179'
+    definition: 'location in memory that each program needs for processing data. Depending
+      on the kind of programming language used, this location is defined by hardware
+      addresses or by symbolic names (variable names). The size of the smallest addressable
+      domain is typically one byte, but the size is nearly not limited: it ranges
+      from 1 bit (e.g. a flag of a register) to arbitrary data structures which may
+      be as large as the needs of the programmer are. Data domains may belong to one
+      software module only, or to several. For high level languages (such as JAVA,
+      C/C++, etc.) it is easy to separate the data domain of one software module from
+      access by any other software modules by means of the language'
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: '09380b6f-1488-54a6-94f9-a4781dda788f'
+schema_version: '3'
+related: []

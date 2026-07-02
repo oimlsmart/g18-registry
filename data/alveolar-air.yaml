@@ -1,0 +1,22 @@
+---
+data:
+  identifier: '01666'
+  term: alveolar air
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 126:1998
+    publication_id: OIML R126:1998
+    tc_sc: ''
+    year: 1998
+    clause: '3.5'
+    link: https://www.oiml.org/en/files/pdf_R/r126-e98.pdf
+    g18_entry: '01666'
+    definition: air contained in the pulmonary alveoli
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 6dc65ede-15b5-5195-95f6-8215991e38b9
+schema_version: '3'
+related: []

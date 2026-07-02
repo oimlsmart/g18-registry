@@ -1,0 +1,63 @@
+---
+data:
+  identifier: '01020'
+  term: conversion device
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 117-1:2007
+    publication_id: OIML R117-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.c.4
+    link: https://www.oiml.org/en/files/pdf_R/r117-1-e07.pdf
+    g18_entry: '01549'
+    definition: '(t device, which automatically converts: * the volume measured at
+      metering conditions into a volume at base conditions, or * the volume measured
+      at metering conditions into a mass, or * the measured mass into a volume at
+      metering conditions, or * the measured mass into a volume at base conditions,
+      or * the volume at metering conditions or the measured mass of a mixture of
+      pure ethanol (ethyl alcohol) and water into a volume or the mass of pure ethanol
+      contained in that mixture, bytaking account of the characteristics of the liquid
+      emperature, pressure, density, relative density, etc.) measured using associated
+      measuring devices, or stored in a memory. The ratio of the converted quantity
+      to the quantity at metering conditions is referred to as the "conversion factor."'
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 140:2007
+    publication_id: OIML R140:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.1.12
+    link: https://www.oiml.org/en/files/pdf_R/r140-e07.pdf
+    g18_entry: '02053'
+    definition: "-- 1. In this Recommendation the wording"
+    notes:
+    - '"conversion device" covers conversion devices as such, as well as the conversion
+      function in a calculator.'
+    - 2. A calculator, a correction device and a conversion device may be combined
+      in a single unit.
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 81:1998
+    publication_id: OIML R081:1998
+    tc_sc: ''
+    year: 1998
+    clause: '3.11'
+    link: https://www.oiml.org/en/files/pdf_R/r081-e98.pdf
+    g18_entry: '01020'
+    definition: a device that automatically converts the volume measured at metering
+      conditions into a volume at base conditions or into a mass, by taking account
+      of the characteristics of the measured liquid (temperature, pressure, density,
+      relative density, etc.) using associated measuring instruments, or associated
+      values stored in a memory. The quotient of the volume at base conditions, or
+      of the mass, to the volume at metering conditions is referred to as the "conversion
+      factor"
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: f8beb419-c4a5-5f47-8bc8-2899e8834f5b
+schema_version: '3'
+related: []

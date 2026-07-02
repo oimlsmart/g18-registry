@@ -1,0 +1,25 @@
+---
+data:
+  identifier: '01115'
+  term: inspection lot (also called a batch)
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 87:2004
+    publication_id: OIML R087:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.6'
+    link: https://www.oiml.org/en/files/pdf_R/r087-e04.pdf
+    g18_entry: '01115'
+    definition: definite quantity of prepackages produced at one time under conditions
+      that are presumed to be uniform and from which a sample is drawn and inspected
+      to determine conformance with specified criteria for acceptance or rejection
+      of the inspection lot as a whole
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 39ba4d60-e218-5404-91ff-251e91a845c6
+schema_version: '3'
+related: []

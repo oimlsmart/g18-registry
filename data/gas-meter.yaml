@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '01924'
+  term: gas meter
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 137-1:2006
+    publication_id: OIML R137-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: 2.1.1
+    link: https://www.oiml.org/en/files/pdf_R/r137-1-e06.pdf
+    g18_entry: '01924'
+    definition: instrument intended to measure, memorize and display the quantity
+      of gas passing the flow sensor at operating conditions
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 68eaea1b-43f9-580f-a4d9-5f026589c613
+schema_version: '3'
+related: []

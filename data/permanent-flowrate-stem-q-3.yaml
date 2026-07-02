@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '00439'
+  term: permanent flowrate, stem:[Q_{3}]
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 49-1:2006
+    publication_id: OIML R049-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: 2.3.2
+    link: https://www.oiml.org/en/files/pdf_R/r049-1-e06.pdf
+    g18_entry: '00439'
+    definition: m3 highest flowrate within the rated operating conditions, at which
+      the water meter is required to operate in a satisfactory manner within the maximum
+      permissible error. Flowrate is expressed in /h in this Recommendation
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: aec7c802-6993-5d2f-8685-75fc00503794
+schema_version: '3'
+related: []

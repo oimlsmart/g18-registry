@@ -1,0 +1,25 @@
+# Editorial aliases for G 18 terms.
+#
+# Some G 18 source entries use variant designations that refer to the same
+# concept: singular vs plural ("reference condition" vs "reference
+# conditions"), or editorial variants. Without an alias, the migration
+# groups these into separate files, fragmenting the per-term view.
+#
+# Format:
+#   <canonical>:
+#     - <variant>
+#     - <variant>
+#
+# Comparison is case-insensitive (downcased). Canonical casing is preserved
+# as written here. Each variant is merged into its canonical; the canonical
+# also self-maps so it groups together with its variants.
+#
+# To extend: search the migration report for "slug collisions" or for
+# singular/plural pairs that share a VIM/VIML concept reference, then add
+# the merge below.
+
+reference conditions:
+  - reference condition
+
+rated operating conditions:
+  - rated operating condition

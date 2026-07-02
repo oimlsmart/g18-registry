@@ -1,0 +1,22 @@
+---
+data:
+  identifier: '02342'
+  term: zero-setting facility
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 99-1:2008
+    publication_id: OIML R099-1:2008
+    tc_sc: ''
+    year: 2008
+    clause: '3.10'
+    link: https://www.oiml.org/en/files/pdf_R/r099-1-e08.pdf
+    g18_entry: '02342'
+    definition: facility to set the indication of the instrument to zero
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: ca1f3a64-5522-5792-a281-23cba7988e6f
+schema_version: '3'
+related: []

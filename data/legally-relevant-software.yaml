@@ -1,0 +1,69 @@
+---
+data:
+  identifier: '00351'
+  term: legally relevant software
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 99-1:2008
+    publication_id: OIML R099-1:2008
+    tc_sc: ''
+    year: 2008
+    clause: '3.31'
+    link: https://www.oiml.org/en/files/pdf_R/r099-1-e08.pdf
+    g18_entry: '02366'
+    definition: any part of the software, including stored parameters, which has aninfluence
+      on the calculated, displayed, transmitted, or stored measurement result
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 21:2007
+    publication_id: OIML R021:2007
+    tc_sc: ''
+    year: 2007
+    clause: 2.2.8.1
+    link: https://www.oiml.org/en/files/pdf_R/r021-e07.pdf
+    g18_entry: '00351'
+    definition: programs, data, type-specific and device-specific parameters that
+      belong to the taximeter, and define or fulfill functions that are subject to
+      legal control
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 107-1:2007
+    publication_id: OIML R107-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.2.7.7.1
+    link: https://www.oiml.org/en/files/pdf_R/r107-1-e07.pdf
+    g18_entry: '01348'
+    definition: 'programs, data, type specific and device specific parameters that
+      Examples of legally relevant software are: belong to the measuring instrument
+      or module, and that define or fina fulfill functions which are subject to legal
+      control dec wei sev'
+    notes:
+    - l results of the weighing including the imal sign and the unit, identification
+      of the ghing range and the load receptor (if eral load receptors have been used).
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 76-1:2006
+    publication_id: OIML R076-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.2.8.1
+    link: https://www.oiml.org/en/files/pdf_R/r076-1-e06.pdf
+    g18_entry: '00932'
+    definition: 'programs, data, type-specific and device-specific parameters that
+      Examples: Final results of the measurement, belong to the measuring instrument
+      or module, and define or i.e. fulfil functions which are subject to legal control
+      (inc iden load been'
+    notes:
+    - gross, net and tare / preset tare value luding the decimal sign and the unit),
+      tification of the weighing range and the receptor (if several load receptors
+      have used), software identification.
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 8418b344-a6df-5b55-80fd-cd04ca383acc
+schema_version: '3'
+related: []

@@ -1,0 +1,25 @@
+---
+data:
+  identifier: '02266'
+  term: longitudinal axis and pitch angle
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 80-1:2009
+    publication_id: OIML R080-1:2009
+    tc_sc: ''
+    year: 2009
+    clause: '2.27'
+    link: https://www.oiml.org/en/files/pdf_R/r080-1-e09.pdf
+    g18_entry: '02266'
+    definition: symmetry axis of the tank parallel to the main direction of travel,
+      when the tank is in normal position. The vertical angle by which this axis is
+      rotated is referred to as the pitch angle. It is positive ifthe front part of
+      the tank is lifted
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: c45979d0-dd37-5db7-8d48-c33a5a2e97a7
+schema_version: '3'
+related: []

@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '00487'
+  term: variable speed beltweigher
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 50-1:1997
+    publication_id: OIML R050-1:1997
+    tc_sc: ''
+    year: 1997
+    clause: T.2.2.2
+    link: https://www.oiml.org/en/files/pdf_R/r050-1-e97.pdf
+    g18_entry: '00487'
+    definition: a belt weigher that is installed with a conveyor belt designed to
+      operate at more than one speed
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 43ae38c0-45bf-586e-9301-6a93d0a04bdd
+schema_version: '3'
+related: []

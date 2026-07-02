@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '01311'
+  term: wagon
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 106-1:1997
+    publication_id: OIML R106-1:1997
+    tc_sc: ''
+    year: 1997
+    clause: T.7.1
+    link: https://www.oiml.org/en/files/pdf_R/r106-1-e97.pdf
+    g18_entry: '01311'
+    definition: a loaded or unloaded railway goods vehicle that is recognized by the
+      instrument as a vehicle to be weighed
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 4332b8dd-2f3e-5d59-a1d6-119fa3fcdae5
+schema_version: '3'
+related: []

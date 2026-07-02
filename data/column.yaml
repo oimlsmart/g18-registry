@@ -1,0 +1,59 @@
+---
+data:
+  identifier: '01047'
+  term: column
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 82:2006
+    publication_id: OIML R082:2006
+    tc_sc: ''
+    year: 2006
+    clause: '3.3'
+    link: https://www.oiml.org/en/files/pdf_R/r082-e06.pdf
+    g18_entry: '01047'
+    definition: tube within the gas chromatograph that contains the stationary phase
+      and through which the gaseous mobile phase flows
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 83:2006
+    publication_id: OIML R083:2006
+    tc_sc: ''
+    year: 2006
+    clause: '3.5'
+    link: https://www.oiml.org/en/files/pdf_R/r083-e06.pdf
+    g18_entry: '01065'
+    definition: tube within the gas chromatograph that contains the stationary phase
+      and through which the gaseous mobile phase flows
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 112:1994
+    publication_id: OIML R112:1994
+    tc_sc: ''
+    year: 1994
+    clause: '2.2'
+    link: https://www.oiml.org/en/files/pdf_R/r112-e94.pdf
+    g18_entry: '01474'
+    definition: a tube that contains the stationary phase through which the mobile
+      phase flows
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 113:1994
+    publication_id: OIML R113:1994
+    tc_sc: ''
+    year: 1994
+    clause: '3.2'
+    link: https://www.oiml.org/en/files/pdf_R/r113-e94.pdf
+    g18_entry: '01489'
+    definition: a tube that contains the stationary phase through which the gaseous
+      mobile phase flows
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: f8a681de-87fc-520f-a117-9b9ae3255a7a
+schema_version: '3'
+related: []

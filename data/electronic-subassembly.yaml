@@ -1,0 +1,52 @@
+---
+data:
+  identifier: '00226'
+  term: electronic subassembly
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML D 11:2004
+    publication_id: OIML D011:2004
+    tc_sc: ''
+    year: 2004
+    clause: '3.3'
+    link: https://www.oiml.org/en/files/pdf_D/d011-e04.pdf
+    g18_entry: '00226'
+    definition: 'part of an electronic device, employing electronic components OIML
+      B 3 [2] contains the following and having a recognizable function of its own.
+      Examples: amplifiers, comparators, power converters'
+    notes:
+    - 'definition of a "module": Identifiable part of measuring instrument or of a
+      family of measuring instruments that performs a specific function or functions
+      and that can be separately evaluated according to prescribed metrological and
+      technical performance requirements in the relevant Recommendation.'
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 106-1:1997
+    publication_id: OIML R106-1:1997
+    tc_sc: ''
+    year: 1997
+    clause: T.2.2.1
+    link: https://www.oiml.org/en/files/pdf_R/r106-1-e97.pdf
+    g18_entry: '01265'
+    definition: a part of an electronic device comprised of electronic components
+      and having a recognizable function of its own
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 105:1993
+    publication_id: OIML R105:1993
+    tc_sc: ''
+    year: 1993
+    clause: T.14
+    link: https://www.oiml.org/en/files/pdf_R/r105-e93.pdf
+    g18_entry: '01229'
+    definition: a part of an electronic device employing electronic components that
+      has a recognizable function of its own
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 61340a41-a946-587d-854a-718db02df1d7
+schema_version: '3'
+related: []

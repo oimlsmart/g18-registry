@@ -1,0 +1,35 @@
+---
+data:
+  identifier: '00435'
+  term: first element of an indicating device
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 117-1:2007
+    publication_id: OIML R117-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.f.3
+    link: https://www.oiml.org/en/files/pdf_R/r117-1-e07.pdf
+    g18_entry: '01567'
+    definition: element which, in an indicating device comprising several elements,
+      carries the graduated scale with the smallest scale interval
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 49-1:2006
+    publication_id: OIML R049-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: 2.2.13
+    link: https://www.oiml.org/en/files/pdf_R/r049-1-e06.pdf
+    g18_entry: '00435'
+    definition: element which, in an indicating device comprising several elements,
+      carries the graduated scale with the verification scale interval
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: d97faef4-d112-5e40-80c3-43a83ddcd511
+schema_version: '3'
+related: []

@@ -1,0 +1,22 @@
+---
+data:
+  identifier: '01986'
+  term: gauge mark
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 138:2007
+    publication_id: OIML R138:2007
+    tc_sc: ''
+    year: 2007
+    clause: '2.9'
+    link: https://www.oiml.org/en/files/pdf_R/r138-e07.pdf
+    g18_entry: '01986'
+    definition: mark, generally a line that indicates the nominal capacity Vn
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 5f6ef2e4-10e2-5399-8b37-8bd1609cd06a
+schema_version: '3'
+related: []

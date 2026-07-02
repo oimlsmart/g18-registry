@@ -1,0 +1,35 @@
+---
+data:
+  identifier: '00628'
+  term: gross value, G or B
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 51-1:2006
+    publication_id: OIML R051-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.3.2.1
+    link: https://www.oiml.org/en/files/pdf_R/r051-1-e06.pdf
+    g18_entry: '00628'
+    definition: indication of the weight value of a load on an instrument, with notare
+      or preset tare device in operation
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 76-1:2006
+    publication_id: OIML R076-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.5.2.1
+    link: https://www.oiml.org/en/files/pdf_R/r076-1-e06.pdf
+    g18_entry: '00967'
+    definition: indication of the weight value of a load on an instrument, with notare
+      or preset tare device in operation
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 89bc20b2-6cb2-5c7f-abd8-a6b4fe8229db
+schema_version: '3'
+related: []

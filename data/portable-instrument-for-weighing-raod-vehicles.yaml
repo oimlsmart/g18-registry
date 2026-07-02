@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '00887'
+  term: portable instrument for weighing raod vehicles
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 76-1:2006
+    publication_id: OIML R076-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.1.2.12
+    link: https://www.oiml.org/en/files/pdf_R/r076-1-e06.pdf
+    g18_entry: '00887'
+    definition: non-automatic weighing instrument having a load receptor, in one or
+      several parts, which determines the total mass of road vehicles, and which is
+      designed to be moved to other locations
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: a50be36c-aca4-59a4-89d8-3ea26f68acb7
+schema_version: '3'
+related: []

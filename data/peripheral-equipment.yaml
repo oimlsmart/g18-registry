@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '01228'
+  term: peripheral equipment
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 105:1993
+    publication_id: OIML R105:1993
+    tc_sc: ''
+    year: 1993
+    clause: T.13.5
+    link: https://www.oiml.org/en/files/pdf_R/r105-e93.pdf
+    g18_entry: '01228'
+    definition: 'auxiliary devices such as: – repeating indicating devices – ticket
+      printers – daily report printers – devices to read key cards, magnetic cards
+      or bank-notes – self-service equipment, etc.'
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: e1ab679c-94fb-570b-9c5f-520dd671955a
+schema_version: '3'
+related: []

@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '02054'
+  term: volume conversion device
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 140:2007
+    publication_id: OIML R140:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.1.12.1
+    link: https://www.oiml.org/en/files/pdf_R/r140-e07.pdf
+    g18_entry: '02054'
+    definition: device which automatically converts the volume measured at metering
+      conditions into a volume at base conditions or into a mass by taking into account
+      the gas characteristics (i.e. pressure, temperature, composition, density) measured
+      using associated measuring instruments or stored in a memory
+    notes:
+    - The quotient of the volume at base conditions or of the mass to the volume at
+      metering conditions is referred to as the "conversion factor".
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: bba689fb-e69a-56b5-a892-68211d9ad845
+schema_version: '3'
+related: []

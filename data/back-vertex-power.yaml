@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '01131'
+  term: back vertex power
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 93:1999
+    publication_id: OIML R093:1999
+    tc_sc: ''
+    year: 1999
+    clause: 3.7.1
+    link: https://www.oiml.org/en/files/pdf_R/r093-e99.pdf
+    g18_entry: '01131'
+    definition: reciprocal of the paraxial value of the back vertex focal length measured
+      in metres
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 1c4f0652-b975-57ac-8bdb-d82948b5dbb5
+schema_version: '3'
+related: []

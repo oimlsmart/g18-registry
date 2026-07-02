@@ -1,0 +1,25 @@
+---
+data:
+  identifier: '00331'
+  term: electro-mechanical blood pressure measuring system
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 16-2:2002
+    publication_id: OIML R016-2:2002
+    tc_sc: ''
+    year: 2002
+    clause: '2.11'
+    link: https://www.oiml.org/en/files/pdf_R/r016-2-e02.pdf
+    g18_entry: '00331'
+    definition: "• system that consists of: at least one cuff, which is connected
+      to the pneumatic system; • at least one electro-mechanical transducer to measure
+      cuff pressure; • at least one measured value display; and • if needed, signal
+      inputs and outputs"
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 71100367-2697-574e-868a-8be464618e69
+schema_version: '3'
+related: []

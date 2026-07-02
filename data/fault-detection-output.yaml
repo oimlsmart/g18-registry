@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '00732'
+  term: fault detection output
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 60:2000
+    publication_id: OIML R060:2000
+    tc_sc: ''
+    year: 2000
+    clause: 2.4.5
+    link: https://www.oiml.org/en/files/pdf_R/r060-e00.pdf
+    g18_entry: '00732'
+    definition: electrical representation issued by the load cell indicating that
+      a fault condition exists
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: f3c1393c-51a9-509c-9040-24993731e8b3
+schema_version: '3'
+related: []

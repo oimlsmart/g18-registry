@@ -1,0 +1,102 @@
+---
+data:
+  identifier: '00082'
+  term: module
+  kind: defined_in_viml
+  official_concept:
+    source: urn:oiml:pub:v:1:2022
+    id: '4.04'
+    url: https://oimlsmart.github.io/vocab/viml-2022/concept/4.04
+  publications:
+  - publication: OIML R 107-1:2007
+    publication_id: OIML R107-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.2.7
+    link: https://www.oiml.org/en/files/pdf_R/r107-1-e07.pdf
+    g18_entry: '01341'
+    definition: identifiable part of an instrument or device that performs a specific
+      function or functions, and that can be separately cell evaluated according to
+      the metrological and technical weig performance requirements in the relevant
+      Recommendation. The modules of a weighing instrument are subject to specified
+      partial error limits
+    notes:
+    - 'Typical modules of an instrument are: load , indicator, analog or digital processors,
+      hing module, remote display, software.'
+    consistency: pending
+    consistency_reason: ''
+    related:
+    - type: see
+      ref:
+        id: '4.04'
+        source: urn:oiml:pub:v:1:2022
+  - publication: OIML R 51-1:2006
+    publication_id: OIML R051-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.2.7
+    link: https://www.oiml.org/en/files/pdf_R/r051-1-e06.pdf
+    g18_entry: '00584'
+    definition: identifiable part of an instrument that performs a specific function
+      or functions, and that can be separately evaluated ins according to the metrological
+      and technical performance dig requirements in the relevant Recommendation. The
+      modules of a termina weighing instrument are subject to specified partial error
+      limits
+    notes:
+    - 'typical modules of an automatic weighing trument are: load cell, indicator,
+      analog or ital data processing device, computer l, weighing module, digital
+      display.'
+    consistency: pending
+    consistency_reason: ''
+    related:
+    - type: see
+      ref:
+        id: '4.04'
+        source: urn:oiml:pub:v:1:2022
+  - publication: OIML R 76-1:2006
+    publication_id: OIML R076-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.2.2
+    link: https://www.oiml.org/en/files/pdf_R/r076-1-e06.pdf
+    g18_entry: '00896'
+    definition: identifiable part of an instrument that performs a specific function
+      or functions, and that can be separately evaluated are according to specific
+      metrological and technical performance pro requirements in the relevant Recommendation.
+      The modules of a primary weighing instrument are subject to specified partial
+      error limits
+    notes:
+    - 'Typical modules of a weighing instrument : load cell, indicator, analog or
+      digital data cessing device, weighing module, terminal, display.'
+    consistency: pending
+    consistency_reason: ''
+    related:
+    - type: see
+      ref:
+        id: '4.04'
+        source: urn:oiml:pub:v:1:2022
+  - publication: OIML B 3:2003
+    publication_id: OIML B003:2003
+    tc_sc: ''
+    year: 2003
+    clause: '2.4'
+    link: https://www.oiml.org/en/files/pdf_B/b003-e03.pdf
+    g18_entry: '00082'
+    definition: identifiable part of a measuring instrument or of a family of measuring
+      instruments that performs a specific function or functions and that can be separately
+      evaluated according to prescribed metrological and technical performance requirements
+      in the relevant Recommendation
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+    related:
+    - type: see
+      ref: &1
+        id: '4.04'
+        source: urn:oiml:pub:v:1:2022
+status: current
+id: 485b48d4-f3cc-5ea5-9a90-301d016ff074
+schema_version: '3'
+related:
+- type: see
+  ref: *1

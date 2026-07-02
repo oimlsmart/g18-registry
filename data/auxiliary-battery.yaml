@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '00256'
+  term: auxiliary battery
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML D 11:2004
+    publication_id: OIML D011:2004
+    tc_sc: ''
+    year: 2004
+    clause: '3.23'
+    link: https://www.oiml.org/en/files/pdf_D/d011-e04.pdf
+    g18_entry: '00256'
+    definition: 'battery that is: • Mounted in, or connected to, an instrument that
+      can be powered by the mains power as well; and • Capable of completely powering
+      the instrument for a reasonable period of time'
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: bac0692a-1621-5422-93dc-4c9d4ba01cf3
+schema_version: '3'
+related: []

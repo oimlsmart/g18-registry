@@ -1,0 +1,138 @@
+---
+data:
+  identifier: '00524'
+  term: warm-up time
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 143:2009
+    publication_id: OIML R143:2009
+    tc_sc: ''
+    year: 2009
+    clause: '2.11'
+    link: https://www.oiml.org/en/files/pdf_R/r143-e09.pdf
+    g18_entry: '02137'
+    definition: time between the instant at which power is applied to a gas analytical
+      system and the instant at which the system is capable of complying with the
+      metrological requirements
+    notes:
+    - For a gas analyzer this is the time between the instant at which power is applied
+      to it and th instant at which the measurement result of the volume fraction,
+      a CGM being supplied to the input, is within the permissible limits.
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 99-1:2008
+    publication_id: OIML R099-1:2008
+    tc_sc: ''
+    year: 2008
+    clause: '3.13'
+    link: https://www.oiml.org/en/files/pdf_R/r099-1-e08.pdf
+    g18_entry: '02348b'
+    definition: elapsed time between the moment power is applied to an instrument
+      and the moment at which the instrument is capable of complying with the metrological
+      requirements
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 107-1:2007
+    publication_id: OIML R107-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.3.7
+    link: https://www.oiml.org/en/files/pdf_R/r107-1-e07.pdf
+    g18_entry: '01369'
+    definition: time between the moment that power is applied to an instrument and
+      the moment at which the instrument is capable of complying with the requirements
+      of this Recommendation
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 51-1:2006
+    publication_id: OIML R051-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.3.4.2
+    link: https://www.oiml.org/en/files/pdf_R/r051-1-e06.pdf
+    g18_entry: '00642'
+    definition: time between the moment at which power is applied to the instrument
+      and the moment at which the instrument is capable of complying with the requirements
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 76-1:2006
+    publication_id: OIML R076-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.4.5
+    link: https://www.oiml.org/en/files/pdf_R/r076-1-e06.pdf
+    g18_entry: '00961'
+    definition: time between the moment power is applied to an instrument and the
+      moment at which the instrument is capable of complying with the requirements
+      of this Recommendation
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 61-1:2004
+    publication_id: OIML R061-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: T.3.13
+    link: https://www.oiml.org/en/files/pdf_R/r061-1-e04.pdf
+    g18_entry: '00795'
+    definition: time between the moment at which power is applied to an instrument
+      and the moment at which the instrument is capable of complying with the requirements.
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 134:2003
+    publication_id: OIML R134:2003
+    tc_sc: ''
+    year: 2003
+    clause: T.3.5
+    link: https://www.oiml.org/en/files/pdf_R/r134-e03.pdf
+    g18_entry: '01818'
+    definition: time between the moment that power is applied to an instrument and
+      the moment at which the instrument is capable of complying with the requirements
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 60:2000
+    publication_id: OIML R060:2000
+    tc_sc: ''
+    year: 2000
+    clause: 2.3.16
+    link: https://www.oiml.org/en/files/pdf_R/r060-e00.pdf
+    g18_entry: '00727'
+    definition: time between the moment power is applied to a load cell and the moment
+      at which the load cell is capable of complying with the requirements
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 50-1:1997
+    publication_id: OIML R050-1:1997
+    tc_sc: ''
+    year: 1997
+    clause: T.4.9
+    link: https://www.oiml.org/en/files/pdf_R/r050-1-e97.pdf
+    g18_entry: '00524'
+    definition: the time between the moment that power is applied to a belt weigher
+      and the moment that the belt weigher is capable of complying with the requirements
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 106-1:1997
+    publication_id: OIML R106-1:1997
+    tc_sc: ''
+    year: 1997
+    clause: T.3.6
+    link: https://www.oiml.org/en/files/pdf_R/r106-1-e97.pdf
+    g18_entry: '01290'
+    definition: the time between the moment that power is applied to an instrument
+      and the moment at which the instrument is capable of complying with the requirements
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 15954647-e34b-5870-9d2c-13f1c4da653e
+schema_version: '3'
+related: []

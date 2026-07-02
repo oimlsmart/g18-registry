@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '00401'
+  term: radiance temperature
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 48:2004
+    publication_id: OIML R048:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.1'
+    link: https://www.oiml.org/en/files/pdf_R/r048-e04.pdf
+    g18_entry: '00401'
+    definition: temperature of a black body which has a radiance equal to the radiance
+      of the object at a particular wavelength or narrow wavelength band
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: bb4f6909-81e9-5b13-a1d8-5872b36456ce
+schema_version: '3'
+related: []

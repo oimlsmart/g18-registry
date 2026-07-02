@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '01127'
+  term: lens support
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 93:1999
+    publication_id: OIML R093:1999
+    tc_sc: ''
+    year: 1999
+    clause: '3.4'
+    link: https://www.oiml.org/en/files/pdf_R/r093-e99.pdf
+    g18_entry: '01127'
+    definition: aperture on the instrument against which the lens or contact lens
+      The focimeter measures the vertex power is placed for measurement r s
+    notes:
+    - elative to the surface placed against the lens upport.
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 71f76c46-bd91-51a7-bee1-5ab8bdd49bfd
+schema_version: '3'
+related: []

@@ -1,0 +1,22 @@
+---
+data:
+  identifier: '00319'
+  term: rapid exhaust valve
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 16-1:2002
+    publication_id: OIML R016-1:2002
+    tc_sc: ''
+    year: 2002
+    clause: '2.14'
+    link: https://www.oiml.org/en/files/pdf_R/r016-1-e02.pdf
+    g18_entry: '00319'
+    definition: valve for rapidly exhausting the pneumatic system
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 38b9f2ff-8983-55a2-952d-cf2935317fd0
+schema_version: '3'
+related: []

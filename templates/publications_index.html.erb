@@ -1,0 +1,39 @@
+<section class="page-head">
+  <div class="breadcrumb">
+    <a href="<%= rel_root %>index.html">Registry</a> /
+    <span>Publications</span>
+  </div>
+  <h1>Source publications</h1>
+  <p class="lede">The <%= dataset.publication_count %> OIML publications cited by G 18, sorted by year (newest first).</p>
+</section>
+
+<section class="card">
+  <table class="pubs-table">
+    <thead>
+      <tr>
+        <th>Year</th>
+        <th>Publication</th>
+        <th>TC/SC</th>
+        <th>Terms</th>
+        <th>PDF</th>
+      </tr>
+    </thead>
+    <tbody>
+    <% dataset.publications.each do |p| %>
+      <tr>
+        <td class="num"><%= h p.year || "—" %></td>
+        <td><a href="<%= rel_root %><%= p.path %>"><%= h p.reference %></a></td>
+        <td>
+          <% if p.attributed? %>
+            <a href="<%= rel_root %>tc/<%= h G18::Site::TcSc.slugify(p.tc_sc) %>.html"><%= h p.tc_sc %></a>
+          <% else %>
+            <span class="muted">—</span>
+          <% end %>
+        </td>
+        <td class="num"><%= dataset.terms_for_publication(p.id).size %></td>
+        <td><% if p.link %><a class="pdf-link" href="<%= h p.link %>">PDF ↗</a><% end %></td>
+      </tr>
+    <% end %>
+    </tbody>
+  </table>
+</section>

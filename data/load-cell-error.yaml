@@ -1,0 +1,34 @@
+---
+data:
+  identifier: '00734'
+  term: load cell error
+  kind: defined_in_vim
+  official_concept:
+    source: urn:oiml:pub:v:2:1993
+    id: '5.20'
+    url: https://oimlsmart.github.io/vocab/vim-1993/concept/5.20
+  publications:
+  - publication: OIML R 60:2000
+    publication_id: OIML R060:2000
+    tc_sc: ''
+    year: 2000
+    clause: 2.4.7
+    link: https://www.oiml.org/en/files/pdf_R/r060-e00.pdf
+    g18_entry: '00734'
+    definition: difference between the load cell measurement result and the true value
+      of the measurand (the applied force expressed in mass) [Adapted from VIM:1993,
+      5.20]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+    related:
+    - type: see
+      ref: &1
+        source: urn:oiml:pub:v:2:1993
+        id: '5.20'
+status: current
+id: fcf9a004-4cd0-56a9-ad0d-2e628664b9c8
+schema_version: '3'
+related:
+- type: see
+  ref: *1

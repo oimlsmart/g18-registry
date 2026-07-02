@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '00689'
+  term: stability of elastic characteristic
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 53:1982
+    publication_id: OIML R053:1982
+    tc_sc: ''
+    year: 1982
+    clause: T
+    link: https://www.oiml.org/en/files/pdf_R/r053-e82.pdf
+    g18_entry: '00689'
+    definition: aptitude of the elastic sensing element to retain a constant elastic
+      characteristic
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: c68f4444-57a5-5b81-97ed-2c752a22a5dd
+schema_version: '3'
+related: []

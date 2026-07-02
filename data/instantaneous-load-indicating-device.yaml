@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '00508'
+  term: instantaneous load indicating device
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 50-1:1997
+    publication_id: OIML R050-1:1997
+    tc_sc: ''
+    year: 1997
+    clause: T.3.8.3
+    link: https://www.oiml.org/en/files/pdf_R/r050-1-e97.pdf
+    g18_entry: '00508'
+    definition: "( a device that indicates the percentage of the maximum capacity
+      Max) or the mass of the load acting on the weighing unit at a given time"
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 3c05c0ba-e923-5b86-bb57-91c68d79f1c3
+schema_version: '3'
+related: []

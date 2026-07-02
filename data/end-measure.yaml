@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '00367'
+  term: end measure
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 35-1:2007
+    publication_id: OIML R035-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: 2.2.1
+    link: https://www.oiml.org/en/files/pdf_R/r035-1-e07.pdf
+    g18_entry: '00367'
+    definition: length measure which has the principal scale marks formed by two end
+      surfaces or edges of the measure
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 50e393a9-d6d2-527c-857e-5364d00c42ff
+schema_version: '3'
+related: []

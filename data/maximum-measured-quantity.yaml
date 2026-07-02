@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '01632'
+  term: maximum measured quantity
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 125:1998
+    publication_id: OIML R125:1998
+    tc_sc: ''
+    year: 1998
+    clause: T.16
+    link: https://www.oiml.org/en/files/pdf_R/r125-e98.pdf
+    g18_entry: '01632'
+    definition: the maximum measurable quantity as specified by the manufacturer of
+      the measurement transducer (for testing of devices) or of the calibrated tank
+      for installed instruments
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: e168ebf8-88ac-5186-af77-4187f6d50f83
+schema_version: '3'
+related: []

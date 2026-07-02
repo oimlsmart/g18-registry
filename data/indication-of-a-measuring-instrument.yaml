@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '01374'
+  term: indication (of a measuring instrument)
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 107-1:2007
+    publication_id: OIML R107-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.4.1
+    link: https://www.oiml.org/en/files/pdf_R/r107-1-e07.pdf
+    g18_entry: '01374'
+    definition: "[V value of a quantity provided by a measuring instrument IM: 1993,
+      3.2]"
+    notes:
+    - '"Indication", "indicate" or "indicating" include both displaying, and/or printing.'
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: e6337630-aa50-54b5-998d-145452df2549
+schema_version: '3'
+related: []

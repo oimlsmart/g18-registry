@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '00878'
+  term: self-indicating instrument
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 76-1:2006
+    publication_id: OIML R076-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.1.2.3
+    link: https://www.oiml.org/en/files/pdf_R/r076-1-e06.pdf
+    g18_entry: '00878'
+    definition: instrument in which the position of equilibrium is obtained without
+      the intervention of an operator
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 76042758-82ed-5efd-9775-e47f174cfdc8
+schema_version: '3'
+related: []

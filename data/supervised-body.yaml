@@ -1,0 +1,26 @@
+---
+data:
+  identifier: '00198'
+  term: supervised body
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML D 9:2004
+    publication_id: OIML D009:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.16'
+    link: https://www.oiml.org/en/files/pdf_D/d009-e04.pdf
+    g18_entry: '00198'
+    definition: body under supervision - a business involved in activities being the
+      subject of public interest, e.g. manufacture, repair, distribution, installation
+      and/or use of a measuring instrument and prepackages in trade transactions,
+      health protection and protection of private property, work safety and protection
+      of the environment, as specified by national metrological legislation
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 7f64f3cf-fa86-53b8-9184-6df9ecf54f12
+schema_version: '3'
+related: []

@@ -1,0 +1,25 @@
+---
+data:
+  identifier: '00729'
+  term: apportionment factor(stem:[p_{LC}])
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 60:2000
+    publication_id: OIML R060:2000
+    tc_sc: ''
+    year: 2000
+    clause: 2.4.2
+    link: https://www.oiml.org/en/files/pdf_R/r060-e00.pdf
+    g18_entry: '00729'
+    definition: the value of a dimensionless fraction expressed as a decimal (for
+      example, 0.7) used in determining mpe (see 2.4.9). It represents that apportionment
+      of a whole error (as may apply to a weighing instrument) which has been assigned
+      to the load cell alone
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: a6d82e83-d1d8-527d-95ee-073536725ed8
+schema_version: '3'
+related: []

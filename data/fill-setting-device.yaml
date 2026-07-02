@@ -1,0 +1,22 @@
+---
+data:
+  identifier: '00768'
+  term: fill setting device
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 61-1:2004
+    publication_id: OIML R061-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: T.2.4.1.2
+    link: https://www.oiml.org/en/files/pdf_R/r061-1-e04.pdf
+    g18_entry: '00768'
+    definition: device which allows the setting of the preset value of the fill
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 3f066292-9962-5bc2-bd35-a9d44d9c3bdb
+schema_version: '3'
+related: []

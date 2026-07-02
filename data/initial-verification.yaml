@@ -1,0 +1,54 @@
+---
+data:
+  identifier: '00194'
+  term: initial verification
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML D 9:2004
+    publication_id: OIML D009:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.12'
+    link: https://www.oiml.org/en/files/pdf_D/d009-e04.pdf
+    g18_entry: '00194'
+    definition: verification of a measuring instrument which has not been verified
+      previously [VIML, 15]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 111-1:2004
+    publication_id: OIML R111-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: 2.18.1
+    link: https://www.oiml.org/en/files/pdf_R/r111-1-e04.pdf
+    g18_entry: '01469'
+    definition: "(A series of tests and visual examinations carried out before the
+      equipment/weight is put into service to determine whether a weight or weight
+      set has been manufactured to replicate a given type and conforms to that type
+      and to regulations, and that its metrological characteristics lie within the
+      limits required for initial verification of copies of that type. If the weights
+      or weight set pass all the tests and examinations, it is given legal character
+      byits acceptance as evidenced by stamping and/or the issuing of acertificate
+      of verification dapted from OIML D 20 Initial and subsequent verification of
+      measuring instruments and processes (1988))"
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML D 15:1986
+    publication_id: OIML D015:1986
+    tc_sc: ''
+    year: 1986
+    clause: '2.5'
+    link: https://www.oiml.org/en/files/pdf_D/d015-e86.pdf
+    g18_entry: '00262'
+    definition: the verification of a new measuring instrument which has not been
+      verified previously [VML 2.4.2].
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: dc13a5ed-bb76-5eb7-a60c-3c6776fc1ce3
+schema_version: '3'
+related: []

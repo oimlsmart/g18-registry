@@ -1,0 +1,22 @@
+---
+data:
+  identifier: '00573'
+  term: indication of an instrument
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 51-1:2006
+    publication_id: OIML R051-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.1.10
+    link: https://www.oiml.org/en/files/pdf_R/r051-1-e06.pdf
+    g18_entry: '00573'
+    definition: value of a quantity provided by a measuring instrument
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: f64becbc-6b2e-51ca-8b13-66e64d7bafc8
+schema_version: '3'
+related: []

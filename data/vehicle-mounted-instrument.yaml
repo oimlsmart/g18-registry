@@ -1,0 +1,26 @@
+---
+data:
+  identifier: '00565'
+  term: vehicle mounted instrument
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 51-1:2006
+    publication_id: OIML R051-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.1.3.4
+    link: https://www.oiml.org/en/files/pdf_R/r051-1-e06.pdf
+    g18_entry: '00565'
+    definition: complete instrument that is firmly mounted on a vehicle, and that
+      is designed for that special purpose
+    notes:
+    - For example, a garbage weigher (waste collecting vehicle) that determines the
+      quantity of loose material emptied from a container (supported by the load receptor)
+      into the body of the vehicle.
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 457877c8-07d1-5fb9-bce5-009268081ca1
+schema_version: '3'
+related: []

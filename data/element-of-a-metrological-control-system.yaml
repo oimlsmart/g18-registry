@@ -1,0 +1,25 @@
+---
+data:
+  identifier: '00122'
+  term: element of a metrological control system
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML D 16:1986
+    publication_id: OIML D016:1986
+    tc_sc: ''
+    year: 1986
+    clause: 1.1.4
+    link: https://www.oiml.org/en/files/pdf_D/d016-e86.pdf
+    g18_entry: '00122'
+    definition: a particular procedure used or requirement imposed to accomplish one
+      of the objectives of a service of legal metrology. Thus, pattern evaluation
+      may be one element of a metrological control system; periodic verification may
+      be another element, etc.
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 8f5cb401-5ba0-5fc9-b14b-88e8c46e952a
+schema_version: '3'
+related: []

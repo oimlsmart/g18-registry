@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '01962'
+  term: minimum and maximum working temperatures, tmin and tmax
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 137-1:2006
+    publication_id: OIML R137-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: 2.3.6
+    link: https://www.oiml.org/en/files/pdf_R/r137-1-e06.pdf
+    g18_entry: '01962'
+    definition: minimum and maximum gas temperature that a gas meter can withstand,
+      within its rated operating conditions, without deterioration of its metrological
+      performance
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 3c22f224-12ca-5685-9407-ed463f01c3d2
+schema_version: '3'
+related: []

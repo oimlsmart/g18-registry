@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '00636'
+  term: actual scale division
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 51-1:2006
+    publication_id: OIML R051-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.3.3.1
+    link: https://www.oiml.org/en/files/pdf_R/r051-1-e06.pdf
+    g18_entry: '00636'
+    definition: "- - value expressed in units of mass of: the difference between the
+      values corresponding to two consecutive scale marks, for analog indication;
+      or the difference between two consecutive indicated values, for digital indication"
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 7ec0a32b-20db-5925-9691-4237ef28cd2e
+schema_version: '3'
+related: []

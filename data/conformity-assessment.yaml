@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '00111'
+  term: conformity assessment
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML B 10-1:2004
+    publication_id: OIML B010-1:2004
+    tc_sc: TC 3/SC 2
+    year: 2004
+    clause: '3.20'
+    link: https://www.oiml.org/en/files/pdf_B/b010-1-e04.pdf
+    g18_entry: '00111'
+    definition: "(I any activity concerned with determining directly or indirectly
+      that relevant requirements are fulfilled. SO/IEC Guide 2, 12.2)"
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 50e2e316-24ba-526a-b454-1d64b256fd12
+schema_version: '3'
+related: []

@@ -1,0 +1,36 @@
+---
+data:
+  identifier: '02124'
+  term: sampling probe
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 143:2009
+    publication_id: OIML R143:2009
+    tc_sc: ''
+    year: 2009
+    clause: '2.2'
+    link: https://www.oiml.org/en/files/pdf_R/r143-e09.pdf
+    g18_entry: '02124'
+    definition: 'device inserted into the gas, designed to take a representative (ISO
+      7504: 2001) sample thereof, to which a sample line or a sample container is
+      connected'
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 99-1:2008
+    publication_id: OIML R099-1:2008
+    tc_sc: ''
+    year: 2008
+    clause: '3.1'
+    link: https://www.oiml.org/en/files/pdf_R/r099-1-e08.pdf
+    g18_entry: '02333'
+    definition: tube that is introduced into the exhaust tail pipe of a vehicle to
+      take gas samples
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: a09ad7d7-0197-5a42-ba56-0c6c3958e09f
+schema_version: '3'
+related: []

@@ -1,0 +1,136 @@
+<% pubs = dataset.publications_for_term(term) %>
+<section class="page-head">
+  <div class="breadcrumb">
+    <a href="<%= rel_root %>index.html">Registry</a> /
+    <a href="<%= rel_root %>terms/index.html">Terms</a> /
+    <span><%= h term.name %></span>
+  </div>
+  <h1><%= h term.name %></h1>
+  <p class="lede">
+    <%= kind_badge(term) %>
+    G 18 #<%= h term.identifier %> · <%= pubs.size %> publication instance<%= pubs.size == 1 ? '' : 's' %>
+  </p>
+</section>
+
+<section class="card">
+  <h2>Official definition</h2>
+  <% if term.defined? && term.official_concept %>
+    <p>
+      Defined in <strong><%= term.vocabulary_label %></strong>
+      (<%= h term.official_concept["source"] %>), concept
+      <strong>#<%= h term.official_concept["id"] %></strong>.
+    </p>
+    <p>
+      <a class="external" href="<%= h term.official_concept["url"] %>">View concept on oimlsmart.github.io/vocab →</a>
+    </p>
+  <% elsif term.defined? %>
+    <p class="muted">Marked as <%= h term.kind %> but no concept reference found.</p>
+  <% else %>
+    <p class="muted">Not defined in VIM or VIML.</p>
+  <% end %>
+
+  <% if term.related.any? %>
+    <h3>Related (VIM/VIML)</h3>
+    <ul class="related-list">
+      <% term.related.each do |edge| %>
+        <% ref = edge["ref"] || {} %>
+        <li>
+          <code><%= h edge["type"] %></code> →
+          <%= h ref["source"] %>/concept/<%= h ref["id"] %>
+          <% if ref["source"] && ref["id"] && (url = G18::Migration.vocab_concept_url(ref["source"], ref["id"])) %>
+            <a class="external" href="<%= h url %>">view ↗</a>
+          <% end %>
+        </li>
+      <% end %>
+    </ul>
+  <% end %>
+</section>
+
+<section class="card">
+  <h2>Consistency</h2>
+  <p>
+    <% if term.consistency_counts.keys.all? { |k| k == "pending" } %>
+      <span class="badge badge-pending">Not yet assessed</span>
+      Run <code>scripts/check_consistency.rb</code> to compare each publication's definition against the official one.
+    <% else %>
+      <span class="badge"><%= h term.consistency_badge %></span>
+    <% end %>
+  </p>
+  <% if term.diverges? %>
+    <p class="warn">⚠ <%= term.distinct_definitions.size %> distinct definitions across this term's publications.</p>
+  <% end %>
+</section>
+
+<section class="card">
+  <div class="card-head">
+    <h2>Publication instances</h2>
+    <label class="inline-check">
+      <input type="checkbox" id="only-divergent" onchange="toggleRows()">
+      Show only divergent definitions
+    </label>
+  </div>
+  <table class="pubs-table">
+    <thead>
+      <tr>
+        <th>Year</th>
+        <th>Publication</th>
+        <th>TC/SC</th>
+        <th>Clause</th>
+        <th>Definition</th>
+        <th>Consistency</th>
+      </tr>
+    </thead>
+    <tbody>
+    <% pubs.each_with_index do |p, idx| %>
+      <% pub = dataset.publication_by_id[p["publication_id"]] %>
+      <% defn = (p["definition"] || "").strip %>
+      <% canonical_def = term.distinct_definitions.first %>
+      <% divergent = term.diverges? && defn != canonical_def %>
+      <tr class="pub-row <%= divergent ? 'row-divergent' : '' %>" data-divergent="<%= divergent ? 1 : 0 %>">
+        <td class="num"><%= h p["year"] || "—" %></td>
+        <td>
+          <a href="<%= rel_root %><%= pub&.path || '#' %>"><%= h p["publication"] %></a>
+          <div class="g18-ref">G 18 #<%= h p["g18_entry"] %></div>
+          <% if pub&.link %>
+            <a class="pdf-link" href="<%= h pub.link %>">PDF ↗</a>
+          <% end %>
+        </td>
+        <td>
+          <% if pub&.attributed? %>
+            <a href="<%= rel_root %><%= G18::Site::TcSc.slugify(pub.tc_sc) == '' ? 'tc/index.html' : "tc/#{G18::Site::TcSc.slugify(pub.tc_sc)}.html" %>"><%= h pub.tc_sc %></a>
+          <% else %>
+            <span class="muted">—</span>
+          <% end %>
+        </td>
+        <td class="num"><%= h p["clause"] || "—" %></td>
+        <td class="definition">
+          <div class="def-text"><%= h defn.empty? ? "(no definition recorded)" : defn %></div>
+          <% if p["notes"] && !p["notes"].empty? %>
+            <div class="def-notes">Notes: <%= h p["notes"].join("; ") %></div>
+          <% end %>
+          <% if p["related"] && !p["related"].empty? %>
+            <div class="def-edges">
+              Cross-refs:
+              <% p["related"].each do |e| %>
+                <% r = e["ref"] || {} %>
+                <code><%= h r["source"] %>/#<%= h r["id"] %></code>
+              <% end %>
+            </div>
+          <% end %>
+        </td>
+        <td><span class="<%= consistency_badge_class(p["consistency"]) %>"><%= h p["consistency"] || "pending" %></span></td>
+      </tr>
+    <% end %>
+    </tbody>
+  </table>
+</section>
+
+<script>
+function toggleRows() {
+  var only = document.getElementById('only-divergent').checked;
+  document.querySelectorAll('.pub-row').forEach(function(r) {
+    if (only && r.dataset.divergent !== '1') r.style.display = 'none';
+    else r.style.display = '';
+  });
+}
+</script>

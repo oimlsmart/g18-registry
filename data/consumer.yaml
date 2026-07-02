@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '00201'
+  term: consumer
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML D 9:2004
+    publication_id: OIML D009:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.19'
+    link: https://www.oiml.org/en/files/pdf_D/d009-e04.pdf
+    g18_entry: '00201'
+    definition: each individual or business acquiring or purchasing products with
+      a view to using them. (In some countries this applies only to individuals)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 7cdbad31-426f-57ca-a0ad-4eebe5b9baef
+schema_version: '3'
+related: []

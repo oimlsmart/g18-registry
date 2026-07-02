@@ -1,0 +1,51 @@
+---
+data:
+  identifier: '00437'
+  term: resolution (of an indicating device)
+  kind: defined_in_vim
+  official_concept:
+    source: urn:oiml:pub:v:2:1993
+    id: '5.12'
+    url: https://oimlsmart.github.io/vocab/vim-1993/concept/5.12
+  publications:
+  - publication: OIML R 49-1:2006
+    publication_id: OIML R049-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: 2.2.15
+    link: https://www.oiml.org/en/files/pdf_R/r049-1-e06.pdf
+    g18_entry: '00437'
+    definition: "[ smallest difference between indications of an indicating device
+      that can be meaningfully distinguished adapted from VIM:1993, 5.12]."
+    notes:
+    - For a digital device, this is the change in the indication when the least significant
+      digit changes by one step.
+    consistency: pending
+    consistency_reason: ''
+    related:
+    - type: see
+      ref: &1
+        source: urn:oiml:pub:v:2:1993
+        id: '5.12'
+  - publication: OIML R 137-1:2006
+    publication_id: OIML R137-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: 2.2.19
+    link: https://www.oiml.org/en/files/pdf_R/r137-1-e06.pdf
+    g18_entry: '01955'
+    definition: smallest difference between indications of an indicating device that
+      can be meaningfully distinguished
+    notes:
+    - 1. For a digital device, this is the change in the indication when the least
+      significant digit changes by one step. For an analogue device, this is half
+      the difference between subsequent scale marks.
+    - 2. (VIM:1993, 5.12)
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 9f5b2349-feee-5eb9-89f0-c03ea2a0a092
+schema_version: '3'
+related:
+- type: see
+  ref: *1

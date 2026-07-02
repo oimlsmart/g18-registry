@@ -1,0 +1,25 @@
+---
+data:
+  identifier: '02196'
+  term: legally relevent
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML D 31:2008
+    publication_id: OIML D031:2008
+    tc_sc: ''
+    year: 2008
+    clause: 3.1.29
+    link: https://www.oiml.org/en/files/pdf_D/d031-e08.pdf
+    g18_entry: '02196'
+    definition: software/hardware/data or part of the software/hardware/data of a
+      measuring instrument which interferes with properties regulated by legal metrology,
+      e.g. the accuracy of the measurement or the correct functioning of the measuring
+      instrument
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 1d40489e-22de-5b8a-a9e2-08758dbbd5db
+schema_version: '3'
+related: []

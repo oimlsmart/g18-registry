@@ -1,0 +1,26 @@
+---
+data:
+  identifier: '00693'
+  term: constant k of odometer or chronotachograph
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 55:1981
+    publication_id: OIML R055:1981
+    tc_sc: ''
+    year: 1981
+    clause: '1.4'
+    link: https://www.oiml.org/en/files/pdf_R/r055-e81.pdf
+    g18_entry: '00693'
+    definition: characteristic quantity showing the type (revolutions of the driving
+      shaft or impulses) and number of signals which the odometer or chronotachograph
+      must receive so that the indicated and/or recorded distance increases by 1 km.
+      The constant k may be expressed in revolutions per kilometre, rev/km, or impulses
+      per kilometre, imp/km
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: f31f48b4-b7c5-5ef6-8b7f-43e1bfd68486
+schema_version: '3'
+related: []

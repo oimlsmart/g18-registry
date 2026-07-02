@@ -1,0 +1,36 @@
+---
+data:
+  identifier: '00627'
+  term: weighing results
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 51-1:2006
+    publication_id: OIML R051-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.3.2
+    link: https://www.oiml.org/en/files/pdf_R/r051-1-e06.pdf
+    g18_entry: '00627'
+    definition: "(-) The following definitions apply only for"
+    notes:
+    - instruments that weigh pre-assembled discrete loads (see T.1.3) and when the
+      indication has been set to zero before the load has been applied to the instrument.
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 76-1:2006
+    publication_id: OIML R076-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.5.2
+    link: https://www.oiml.org/en/files/pdf_R/r076-1-e06.pdf
+    g18_entry: '00966'
+    definition: "(--) The definitions in T.5.2 apply only when the"
+    notes:
+    - indication has been zero before the load has been applied to the instrument.
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 2534f057-1bf1-59bc-ad27-be6393faa3c1
+schema_version: '3'
+related: []

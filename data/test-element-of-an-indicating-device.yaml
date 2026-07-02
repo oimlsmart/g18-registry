@@ -1,0 +1,22 @@
+---
+data:
+  identifier: '01954'
+  term: test element of an indicating device
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 137-1:2006
+    publication_id: OIML R137-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: 2.2.18
+    link: https://www.oiml.org/en/files/pdf_R/r137-1-e06.pdf
+    g18_entry: '01954'
+    definition: device to enable precise reading of the measured gas quantity
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: f86845ba-e5c9-5380-9c21-7118e17c6249
+schema_version: '3'
+related: []

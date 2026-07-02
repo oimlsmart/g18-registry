@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '01444'
+  term: calibration certificate (report)
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 111-1:2004
+    publication_id: OIML R111-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: 2.3.1
+    link: https://www.oiml.org/en/files/pdf_R/r111-1-e04.pdf
+    g18_entry: '01444'
+    definition: certificate issued only by authorized or accredited laboratories that
+      record the results of a calibration
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 896343f0-4183-58d9-ba6f-c911b7019abc
+schema_version: '3'
+related: []

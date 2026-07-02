@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '00205'
+  term: putting into service (use)
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML D 9:2004
+    publication_id: OIML D009:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.23'
+    link: https://www.oiml.org/en/files/pdf_D/d009-e04.pdf
+    g18_entry: '00205'
+    definition: moment of the first use by the end-user of a measuring instrument
+      for the purposes for which it was designed
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: d45f89d4-f473-50b5-930f-206e272977d0
+schema_version: '3'
+related: []

@@ -1,0 +1,22 @@
+---
+data:
+  identifier: '02265'
+  term: inclination sensor
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 80-1:2009
+    publication_id: OIML R080-1:2009
+    tc_sc: ''
+    year: 2009
+    clause: '2.26'
+    link: https://www.oiml.org/en/files/pdf_R/r080-1-e09.pdf
+    g18_entry: '02265'
+    definition: measuring device for the pitch and roll angles
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 3215ed1d-c464-5c32-a1b3-975c5b5a4b02
+schema_version: '3'
+related: []

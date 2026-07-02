@@ -1,0 +1,163 @@
+---
+data:
+  identifier: '00372'
+  term: ancillary device
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 80-1:2009
+    publication_id: OIML R080-1:2009
+    tc_sc: ''
+    year: 2009
+    clause: '2.3'
+    link: https://www.oiml.org/en/files/pdf_R/r080-1-e09.pdf
+    g18_entry: '02242'
+    definition: device intended to perform a particular function, directly involved
+      in elaborating, transmitting or displaying measurement - z results - r - p -
+      m - p - c
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 85-1:2008
+    publication_id: OIML R085-1:2008
+    tc_sc: ''
+    year: 2008
+    clause: '3.3'
+    link: https://www.oiml.org/en/files/pdf_R/r085-1-e08.pdf
+    g18_entry: '02301'
+    definition: "- - - - device intended to perform a particular function, directly
+      involved in elaborating, transmitting or displaying measurement results. Examples:
+      repeating indicating device; printing device; memory device; conversion device."
+    notes:
+    - for the purpose of this Recommendation ancillary equipment, in so far as it
+      is subject t metrological control, is considered to be part of the ALG.
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 35-1:2007
+    publication_id: OIML R035-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: 2.2.6
+    link: https://www.oiml.org/en/files/pdf_R/r035-1-e07.pdf
+    g18_entry: '00372'
+    definition: device intended to perform a particular function, directly involved
+      in elaborating, transmitting or displaying results
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 117-1:2007
+    publication_id: OIML R117-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.a.6
+    link: https://www.oiml.org/en/files/pdf_R/r117-1-e07.pdf
+    g18_entry: '01532'
+    definition: device intended to perform a particular function, directly involved
+      in elaborating, transmitting or displaying measurement * zer results
+    notes:
+    - 'Main ancillary devices are: o-setting device, * repeating indicating device,
+      * printing device, * memory device, * price indicating device, * totalizing
+      indicating device, * correction device, * conversion device, * pre-setting device,
+      * self-service device.'
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 139:2007
+    publication_id: OIML R139:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.1.5
+    link: https://www.oiml.org/en/files/pdf_R/r139-e07.pdf
+    g18_entry: '01993'
+    definition: 'device intended to perform a particular function, directly involved
+      in elaborating, transmitting or displaying measurement results Main ancillary
+      devices are: - zero setting device; - repeating indicating device; - printing
+      device; - memory device; - price indicating device; - totalizing indicating
+      device; - pre-setting device; - self-service device.'
+    notes:
+    - An ancillary device may or may not be subject to legal metrology control according
+      to its function in the measuring system or to national regulations.
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 140:2007
+    publication_id: OIML R140:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.1.5
+    link: https://www.oiml.org/en/files/pdf_R/r140-e07.pdf
+    g18_entry: '02045'
+    definition: 'device, other than the main indicating device, connected to a calculator,
+      intended to perform a particular function, directly involved in elaborating,
+      transmitting or displaying measurement results Main ancillary devices are: -
+      repeating indicating device; - printing device; - memory device; - totalizing
+      indicating device; - conversion device.'
+    notes:
+    - 1. An ancillary device may or may not be subject to legal metrology control
+      according to its function in the measuring system or to national regulations.
+    - 2. An ancillary device may be integrated into the calculator, into the meter,
+      or constitutes peripheral equipment linked to the calculator by means of an
+      interface.
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 49-1:2006
+    publication_id: OIML R049-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: 2.1.8 T
+    link: https://www.oiml.org/en/files/pdf_R/r049-1-e06.pdf
+    g18_entry: '00418'
+    definition: "( ( ( ( ( ( ( ( device intended to perform a particular function,
+      directly involved in elaborating, transmitting or displaying measurement to
+      results. nat he main ancillary devices are: a) zero setting device; b) price
+      indicating device; c) repeating indicating device; d) printing device; e) memory
+      device; f) tariff control device; g) pre-setting device; and h) self service
+      device"
+    notes:
+    - An ancillary device may or may not be subject legal metrological control according
+      to ional regulations.
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 137-1:2006
+    publication_id: OIML R137-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: 2.1.10 T
+    link: https://www.oiml.org/en/files/pdf_R/r137-1-e06.pdf
+    g18_entry: '01933'
+    definition: 'd c b a device intended to perform a particular function, directly
+      involved in elaborating, transmitting or displaying measurement results. he
+      main ancillary devices are: ) repeating indicating device; ) printing device;
+      ) memory device; and ) communication device'
+    notes:
+    - 1. An ancillary device is not necessarily subject to metrological control.
+    - 2. An ancillary device may be integrated in the gas meter.
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 81:1998
+    publication_id: OIML R081:1998
+    tc_sc: ''
+    year: 1998
+    clause: '3.9'
+    link: https://www.oiml.org/en/files/pdf_R/r081-e98.pdf
+    g18_entry: '01018'
+    definition: a device intended to perform a particular function, directly involved
+      in elaborating, memorizing, transmitting or displaying the measurement result
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 125:1998
+    publication_id: OIML R125:1998
+    tc_sc: ''
+    year: 1998
+    clause: T.9.1
+    link: https://www.oiml.org/en/files/pdf_R/r125-e98.pdf
+    g18_entry: '01624'
+    definition: a device associated with the instrument which is intended to perform
+      a specific function, e.g. a repeat indication device, ticket printer, card reader,
+      data input terminal, etc.
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: a57da5e6-ce9d-5eef-ae54-4a5bb609eed6
+schema_version: '3'
+related: []

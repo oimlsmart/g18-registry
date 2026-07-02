@@ -1,0 +1,25 @@
+---
+data:
+  identifier: '02218'
+  term: time stamp
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML D 31:2008
+    publication_id: OIML D031:2008
+    tc_sc: ''
+    year: 2008
+    clause: 3.1.51
+    link: https://www.oiml.org/en/files/pdf_D/d031-e08.pdf
+    g18_entry: '02218'
+    definition: unique monotonically increasing time value, e.g. in seconds or a date
+      and time string denoting the date and/or time at which a certain event or fault
+      occurred. This data is presented in a consistent format, allowing for easy comparison
+      of two different records and tracking progress over time
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 0e05ddbc-f9be-5ed0-84d5-693d39b30484
+schema_version: '3'
+related: []

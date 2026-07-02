@@ -1,0 +1,25 @@
+---
+data:
+  identifier: '01451'
+  term: magnetic dipole moment (md)
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 111-1:2004
+    publication_id: OIML R111-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: 2.9.1
+    link: https://www.oiml.org/en/files/pdf_R/r111-1-e04.pdf
+    g18_entry: '01451'
+    definition: parameter of a magnetic dipole. The magnetic field strength generated
+      by a dipole, also the force between the dipole and a magnetized sample, is proportional
+      to this dipole moment. The force between the dipole and a sample having a magnetic
+      susceptibility is proportional to the square of the dipole moment
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 104d4b53-8727-5a8a-9b3b-1966589d279e
+schema_version: '3'
+related: []

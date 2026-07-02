@@ -1,0 +1,25 @@
+---
+data:
+  identifier: '02185'
+  term: error log
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML D 31:2008
+    publication_id: OIML D031:2008
+    tc_sc: ''
+    year: 2008
+    clause: 3.1.18
+    link: https://www.oiml.org/en/files/pdf_D/d031-e08.pdf
+    g18_entry: '02185'
+    definition: continuous data file containing an information record of failures/faults
+      that have an influence on the metrological characteristics. This especially
+      applies to volatile failures that are not recognizable afterwards when the measurement
+      values are used
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 67f71768-8b30-5b98-9b43-0109b4512c09
+schema_version: '3'
+related: []

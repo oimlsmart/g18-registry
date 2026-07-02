@@ -1,0 +1,36 @@
+---
+data:
+  identifier: '00454'
+  term: limiting conditions
+  kind: defined_in_vim
+  official_concept:
+    source: urn:oiml:pub:v:2:1993
+    id: '5.6'
+    url: https://oimlsmart.github.io/vocab/vim-1993/concept/5.6
+  publications:
+  - publication: OIML R 49-1:2006
+    publication_id: OIML R049-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: 2.4.6
+    link: https://www.oiml.org/en/files/pdf_R/r049-1-e06.pdf
+    g18_entry: '00454'
+    definition: "[a extreme conditions, including flowrate, temperature, pressure,
+      humidity and electromagnetic interference, that a water meter is required to
+      withstand without damage, and without degradation ofits error (of indication),
+      when it is subsequently operated within its rated operating conditions dapted
+      from VIM:1993, 5.6]."
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+    related:
+    - type: see
+      ref: &1
+        source: urn:oiml:pub:v:2:1993
+        id: '5.6'
+status: current
+id: b7a871ba-c33c-5ace-ae55-a56d48c7c680
+schema_version: '3'
+related:
+- type: see
+  ref: *1

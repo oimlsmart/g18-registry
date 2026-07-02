@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '00131'
+  term: jurisdiction
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML D 19:1988
+    publication_id: OIML D019:1988
+    tc_sc: ''
+    year: 1988
+    clause: 1.1.7
+    link: https://www.oiml.org/en/files/pdf_D/d019-e88.pdf
+    g18_entry: '00131'
+    definition: the sphere within which a particular government or a given agency
+      of such a government has power to make or enforce law or regulation
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: c74d3949-b2df-5fd7-b5b4-ba1eee003487
+schema_version: '3'
+related: []

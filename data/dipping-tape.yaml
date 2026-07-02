@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '02239'
+  term: dipping tape
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 71:2008
+    publication_id: OIML R071:2008
+    tc_sc: ''
+    year: 2008
+    clause: '3.15'
+    link: https://www.oiml.org/en/files/pdf_R/r071-e08.pdf
+    g18_entry: '02239'
+    definition: material measure of length for measuring the liquid level
+    notes:
+    - See OIML Recommendation R 35-1 for general requirements.
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 12af301e-edfb-5f4d-81b6-e8e28e853182
+schema_version: '3'
+related: []

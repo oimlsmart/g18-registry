@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '00601'
+  term: indicating device (of a weighing instrument)
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 51-1:2006
+    publication_id: OIML R051-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.2.9
+    link: https://www.oiml.org/en/files/pdf_R/r051-1-e06.pdf
+    g18_entry: '00601'
+    definition: "- - part of the load-measuring device that displays the value of
+      a weighing result in units of mass and may additionally display: the difference
+      between the mass of an article and a reference value; the mean value and/or
+      the standard deviation of a number of consecutive weighings"
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 61-1:2004
+    publication_id: OIML R061-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: T.2.3
+    link: https://www.oiml.org/en/files/pdf_R/r061-1-e04.pdf
+    g18_entry: '00775'
+    definition: 'part of the load measuring device that displays the value of a weighing
+      result in units of mass and which may additionally display: The difference between
+      the mass of a load and a reference value; and/or The value of the fill(s) and/or
+      related quantities or parameters of a number of consecutive weighings'
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 46bc5884-a187-50d9-bb11-0f98c694bb6b
+schema_version: '3'
+related: []

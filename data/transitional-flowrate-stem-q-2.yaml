@@ -1,0 +1,25 @@
+---
+data:
+  identifier: '00441'
+  term: transitional flowrate, stem:[Q_{2}]
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 49-1:2006
+    publication_id: OIML R049-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: 2.3.4
+    link: https://www.oiml.org/en/files/pdf_R/r049-1-e06.pdf
+    g18_entry: '00441'
+    definition: flowrate which occurs between the permanent flowrate Q3, and theminimum
+      flowrate Q1, that divides the flowrate range into twozones, the upper flowrate
+      zone and the lower flowrate zone, each characterized by its own maximum permissible
+      error
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: a0f19af8-5bd0-57d5-9730-5d77c06ea481
+schema_version: '3'
+related: []

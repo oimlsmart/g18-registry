@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '00404'
+  term: slope of the calibration characteristic
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 48:2004
+    publication_id: OIML R048:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.4'
+    link: https://www.oiml.org/en/files/pdf_R/r048-e04.pdf
+    g18_entry: '00404'
+    definition: ratio of a small change in the current in the lamp circuit to the
+      corresponding change in its radiance temperature
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 0aeee146-12cb-565b-a996-3480e1bcb76f
+schema_version: '3'
+related: []

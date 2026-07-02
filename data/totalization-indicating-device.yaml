@@ -1,0 +1,35 @@
+---
+data:
+  identifier: '00499'
+  term: totalization indicating device
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 107-1:2007
+    publication_id: OIML R107-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.4.3
+    link: https://www.oiml.org/en/files/pdf_R/r107-1-e07.pdf
+    g18_entry: '01380'
+    definition: device that indicates the sum of the weight values of consecutive
+      loads weighed and discharged to bulk
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 50-1:1997
+    publication_id: OIML R050-1:1997
+    tc_sc: ''
+    year: 1997
+    clause: T.3.7
+    link: https://www.oiml.org/en/files/pdf_R/r050-1-e97.pdf
+    g18_entry: '00499'
+    definition: a device that receives information from the totalization device and
+      indicates the mass of the loads conveyed
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 528ba39b-c142-5d1c-a442-a363a6e5abf0
+schema_version: '3'
+related: []

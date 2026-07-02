@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '01575'
+  term: gas indicator
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 117-1:2007
+    publication_id: OIML R117-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.g.2
+    link: https://www.oiml.org/en/files/pdf_R/r117-1-e07.pdf
+    g18_entry: '01575'
+    definition: device that allows easy detection of any air or gas bubbles that maybe
+      present in the liquid flow
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: c29ace23-8b16-53fd-8d4b-f7c49a581da7
+schema_version: '3'
+related: []

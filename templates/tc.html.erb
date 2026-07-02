@@ -1,0 +1,60 @@
+<section class="page-head">
+  <div class="breadcrumb">
+    <a href="<%= rel_root %>index.html">Registry</a> /
+    <a href="<%= rel_root %>tc/index.html">TC / SC</a> /
+    <span><%= h tc.name %></span>
+  </div>
+  <h1><%= h tc.name %></h1>
+  <p class="lede">
+    <% if tc.attributed? %>
+      Owns <%= tc.publications.size %> publication<%= tc.publications.size == 1 ? '' : 's' %>
+      touching <%= tc.terms.size %> term<%= tc.terms.size == 1 ? '' : 's' %>.
+    <% else %>
+      <%= tc.publications.size %> publication<%= tc.publications.size == 1 ? '' : 's' %>
+      with no TC/SC attribution yet. <a href="https://github.com/oimlsmart/g18-registry/blob/main/tc-sc/README.md">Help attribute them →</a>
+    <% end %>
+  </p>
+</section>
+
+<section class="card">
+  <h2>Publications owned</h2>
+  <% if tc.publications.any? %>
+  <ul class="pub-list">
+    <% tc.publications.each do |p| %>
+      <li>
+        <a href="<%= rel_root %><%= p.path %>"><%= h p.reference %></a>
+        (<%= h p.year || "—" %>)
+        <% if p.link %>
+          <a class="pdf-link" href="<%= h p.link %>">PDF ↗</a>
+        <% end %>
+      </li>
+    <% end %>
+  </ul>
+  <% else %>
+  <p class="muted">None.</p>
+  <% end %>
+</section>
+
+<section class="card">
+  <h2>Terms (<%= tc.terms.size %>)</h2>
+  <% if tc.terms.any? %>
+  <table class="terms-table">
+    <thead>
+      <tr><th>Term</th><th>Vocabulary</th><th>Instances in this TC</th><th>Consistency</th></tr>
+    </thead>
+    <tbody>
+    <% tc.terms.each do |t| %>
+      <% instances_in_tc = t.publications.count { |p| (dataset.publication_by_id[p["publication_id"]]&.tc_sc) == tc.name } %>
+      <tr>
+        <td><a href="<%= rel_root %><%= t.path %>"><%= h t.name %></a></td>
+        <td><%= kind_badge(t) %></td>
+        <td class="num"><%= instances_in_tc %></td>
+        <td><span class="<%= consistency_badge_class(t.consistency_counts.keys.first) %>"><%= h t.consistency_badge %></span></td>
+      </tr>
+    <% end %>
+    </tbody>
+  </table>
+  <% else %>
+  <p class="muted">No terms attributed yet.</p>
+  <% end %>
+</section>

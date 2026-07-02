@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '01759'
+  term: alanine dosimeter
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 132:2001
+    publication_id: OIML R132:2001
+    tc_sc: ''
+    year: 2001
+    clause: '3.2'
+    link: https://www.oiml.org/en/files/pdf_R/r132-e01.pdf
+    g18_entry: '01759'
+    definition: specified quantity of alanine in a defined physical form in which
+      ionizing radiation produces an identifiable EPR signal that can be related to
+      absorbed dose
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 6ac52711-5f27-5908-8c77-9b5dca7718d1
+schema_version: '3'
+related: []

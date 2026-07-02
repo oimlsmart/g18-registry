@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '01447'
+  term: comparison
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 111-1:2004
+    publication_id: OIML R111-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.6'
+    link: https://www.oiml.org/en/files/pdf_R/r111-1-e04.pdf
+    g18_entry: '01447'
+    definition: method of measurement based on comparing the value of a quantity to
+      be measured with a known value of the same quantity
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 605117b1-7901-5287-ad7b-2697873b5eaa
+schema_version: '3'
+related: []

@@ -1,0 +1,53 @@
+---
+data:
+  identifier: '01141'
+  term: dipping datum point
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 71:2008
+    publication_id: OIML R071:2008
+    tc_sc: ''
+    year: 2008
+    clause: '3.6'
+    link: https://www.oiml.org/en/files/pdf_R/r071-e08.pdf
+    g18_entry: '02230'
+    definition: intersection of the vertical measurement axis with the upper surface
+      of the dipping datum plate, or with the bottom surface of the tank if a dipping
+      datum plate is not provided. It constitutes the origin for the measurement of
+      liquid levels (zero reference or dipping reference point)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 85-1:2008
+    publication_id: OIML R085-1:2008
+    tc_sc: ''
+    year: 2008
+    clause: '3.16'
+    link: https://www.oiml.org/en/files/pdf_R/r085-1-e08.pdf
+    g18_entry: '02314'
+    definition: intersection of the vertical measurement axis with the upper surface
+      of the dip plate, or with the bottom surface of the tank if adip plate is not
+      provided. It constitutes the origin for the measurement of liquid levels (zero
+      reference or dipping reference point)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 95:1990
+    publication_id: OIML R095:1990
+    tc_sc: ''
+    year: 1990
+    clause: T.5
+    link: https://www.oiml.org/en/files/pdf_R/r095-e90.pdf
+    g18_entry: '01141'
+    definition: the intersection of the vertical measurement axis with the upper surface
+      of the dip plate, or with the bottom surface of the tank if a dip plate is not
+      provided. It constitutes the origin for the measurement of liquid levels (zero
+      reference for innage height)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 4f07d015-ddb7-513a-a3da-6168bd501223
+schema_version: '3'
+related: []

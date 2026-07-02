@@ -1,0 +1,22 @@
+---
+data:
+  identifier: '02264'
+  term: temperature sensor
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 80-1:2009
+    publication_id: OIML R080-1:2009
+    tc_sc: ''
+    year: 2009
+    clause: '2.25'
+    link: https://www.oiml.org/en/files/pdf_R/r080-1-e09.pdf
+    g18_entry: '02264'
+    definition: measuring device for the temperature of the liquid
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: b6073dbe-fbe1-5b03-8361-55d2320b0acb
+schema_version: '3'
+related: []

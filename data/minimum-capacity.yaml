@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '00941'
+  term: minimum capacity
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 76-1:2006
+    publication_id: OIML R076-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.3.1.2
+    link: https://www.oiml.org/en/files/pdf_R/r076-1-e06.pdf
+    g18_entry: '00941'
+    definition: value of the load below which the weighing results may be subject
+      to an excessive relative error
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: a968622e-b6ba-5977-a173-37b46913687c
+schema_version: '3'
+related: []

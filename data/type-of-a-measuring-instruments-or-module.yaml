@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '00084'
+  term: type of a measuring instruments or module
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML B 3:2003
+    publication_id: OIML B003:2003
+    tc_sc: ''
+    year: 2003
+    clause: '2.6'
+    link: https://www.oiml.org/en/files/pdf_B/b003-e03.pdf
+    g18_entry: '00084'
+    definition: Definitive model of a measuring instrument or module (including a
+      family of instruments or modules) of which all of the elements affecting its
+      metrological properties are suitably defined
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 5cf47c82-6f56-58f9-89c9-ed9836b890fa
+schema_version: '3'
+related: []

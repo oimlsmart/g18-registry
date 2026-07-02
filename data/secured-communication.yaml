@@ -1,0 +1,26 @@
+---
+data:
+  identifier: '02062'
+  term: secured communication
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 140:2007
+    publication_id: OIML R140:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.1.19
+    link: https://www.oiml.org/en/files/pdf_R/r140-e07.pdf
+    g18_entry: '02062'
+    definition: communication, physical or not, between elements of a measuring system
+      ensuring that information transferred from one of these elements to another
+      may not be tampered with by the user, by external influences or by fault of
+      the system
+    notes:
+    - This is accomplished by sealing devices and/or checking facilities.
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 5df548bd-7bd4-5f6d-a4be-2fd6e03505c1
+schema_version: '3'
+related: []

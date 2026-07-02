@@ -1,0 +1,22 @@
+---
+data:
+  identifier: '01136'
+  term: centration error of the instrument
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 93:1999
+    publication_id: OIML R093:1999
+    tc_sc: ''
+    year: 1999
+    clause: '3.11'
+    link: https://www.oiml.org/en/files/pdf_R/r093-e99.pdf
+    g18_entry: '01136'
+    definition: residual prismatic error of the instrument with no lens in place
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 48466b3d-bc8c-5af8-a305-3d4faf7128bb
+schema_version: '3'
+related: []
