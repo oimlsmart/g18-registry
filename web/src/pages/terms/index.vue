@@ -46,18 +46,32 @@ const filtered = computed(() => {
 function kindLabel(k: string) { return k === "defined_in_vim" ? "VIM" : k === "defined_in_viml" ? "VIML" : "—"; }
 function distinctDefs(pubs: any[]) { return new Set(pubs.map(p => (p.definition || "").trim()).filter(Boolean)).size; }
 function tcCount(t: any): number { return t.publications?.filter((p: any) => p.tc_sc === onlyTC.value).length || 0; }
+
+const pageTitle = computed(() => {
+  if (onlyEdition.value === "2010-only") return "Terms removed in 202X (2010 only)";
+  if (onlyEdition.value === "202X-only") return "Terms added in 202X (not in 2010)";
+  if (onlyEdition.value === "2010") return "Terms in 2010";
+  if (onlyEdition.value === "202X") return "Terms in 202X";
+  return "All terms";
+});
 </script>
 
 <template>
   <div class="page-head">
     <div class="breadcrumb"><RouterLink to="/">Registry</RouterLink> / <span>Terms</span></div>
-    <h1>All terms</h1>
-    <p class="lede">{{ terms.length }} unique terms, {{ (terms as any[]).reduce((s, t) => s + t.publications.length, 0) }} instances.</p>
+    <h1>{{ pageTitle }}</h1>
+    <p class="lede">{{ filtered.length }} of {{ terms.length }} terms, {{ (terms as any[]).reduce((s, t) => s + t.publications.length, 0) }} instances.</p>
   </div>
   <section class="card">
     <form style="display:flex;gap:1em;flex-wrap:wrap;align-items:center;margin-bottom:0.5em" @submit.prevent>
       <input v-model="search" type="search" placeholder="Search…" style="padding:0.3em 0.5em;min-width:16em;border:1px solid var(--rule);border-radius:3px" />
-      <select v-model="onlyEdition"><option value="">All editions</option><option value="2010">2010 only</option><option value="202X">202X only</option></select>
+      <select v-model="onlyEdition">
+        <option value="">All editions</option>
+        <option value="2010">2010 (all)</option>
+        <option value="202X">202X (all)</option>
+        <option value="2010-only">Removed: in 2010 only (not in 202X)</option>
+        <option value="202X-only">Added: in 202X only (not in 2010)</option>
+      </select>
       <select v-model="onlyTC">
         <option value="">All TC/SCs</option>
         <option v-for="tc in allTCs" :key="tc" :value="tc">{{ tc }}</option>
