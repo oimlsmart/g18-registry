@@ -21,7 +21,7 @@ function summary(ed: string) {
 
 <template>
   <div class="page-head">
-    <div class="breadcrumb"><RouterLink to="/">Registry</RouterLink> / <span>ID Conflicts</span></div>
+    <div class="breadcrumb"><SLink to="/">Registry</SLink> / <span>ID Conflicts</span></div>
     <h1>Duplicate & conflicting G 18 IDs</h1>
     <p class="lede">
       Two types of ID issues across editions:
@@ -121,7 +121,7 @@ function summary(ed: string) {
         <tbody>
           <tr v-for="c in ((conflictsData.designation_collisions as any)[ed] || []).slice(0, 30)" :key="c.designation">
             <td>
-              <RouterLink :to="`/terms/${c.designation.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '')}/`">{{ c.designation }}</RouterLink>
+              <SLink :to="`/terms/${c.designation.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '')}/`">{{ c.designation }}</SLink>
             </td>
             <td class="num"><strong>{{ c.ids.length }}</strong></td>
             <td class="num">{{ c.count }}</td>
@@ -142,7 +142,7 @@ function summary(ed: string) {
           <li><strong>Keep separate</strong>: document why each publication uses a deliberately different definition.</li>
         </ul>
       </li>
-      <li>The <RouterLink to="/harmonization/">harmonisation worklist</RouterLink> shows every term with divergent definitions for side-by-side comparison.</li>
+      <li>The <SLink to="/harmonization/">harmonisation worklist</SLink> shows every term with divergent definitions for side-by-side comparison.</li>
     </ul>
   </section>
 </template>

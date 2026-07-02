@@ -58,7 +58,7 @@ const pageTitle = computed(() => {
 
 <template>
   <div class="page-head">
-    <div class="breadcrumb"><RouterLink to="/">Registry</RouterLink> / <span>Terms</span></div>
+    <div class="breadcrumb"><SLink to="/">Registry</SLink> / <span>Terms</span></div>
     <h1>{{ pageTitle }}</h1>
     <p class="lede">{{ filtered.length }} of {{ terms.length }} terms, {{ (terms as any[]).reduce((s, t) => s + t.publications.length, 0) }} instances.</p>
   </div>
@@ -91,7 +91,7 @@ const pageTitle = computed(() => {
       </thead>
       <tbody>
         <tr v-for="t in filtered" :key="t.slug">
-          <td><RouterLink :to="`/terms/${t.slug}/`">{{ t.name }}</RouterLink></td>
+          <td><SLink :to="`/terms/${t.slug}/`">{{ t.name }}</SLink></td>
           <td><span :class="['kind', `kind-${t.kind}`]">{{ kindLabel(t.kind) }}</span></td>
           <td><span v-for="e in t.editions_present" :key="e" :class="['edition-pill', `edition-${e.toLowerCase()}`]">{{ e }}</span></td>
           <td class="num">{{ t.publications.length }}</td>

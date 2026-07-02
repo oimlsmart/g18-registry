@@ -7,7 +7,7 @@ function slug(name: string) { return name.toLowerCase().replace(/[^a-z0-9]+/g, "
 </script>
 <template>
   <div class="page-head">
-    <div class="breadcrumb"><RouterLink to="/">Registry</RouterLink> / <span>TC / SC</span></div>
+    <div class="breadcrumb"><SLink to="/">Registry</SLink> / <span>TC / SC</span></div>
     <h1>Technical Committees</h1>
   </div>
   <section class="card">
@@ -15,7 +15,7 @@ function slug(name: string) { return name.toLowerCase().replace(/[^a-z0-9]+/g, "
       <thead><tr><th>TC / SC</th><th>Publications</th><th>Terms</th></tr></thead>
       <tbody>
         <tr v-for="t in (tcData as string[])" :key="t">
-          <td><RouterLink :to="`/tc/${slug(t)}/`">{{ t }}</RouterLink></td>
+          <td><SLink :to="`/tc/${slug(t)}/`">{{ t }}</SLink></td>
           <td class="num">{{ pubCount(t) }}</td>
           <td class="num">{{ termCount(t) }}</td>
         </tr>

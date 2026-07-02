@@ -1,20 +1,16 @@
 <script setup lang="ts">
-import { useRoute } from "vue-router";
-
-const route = useRoute();
-const base = import.meta.env.BASE_URL; // "/g18-registry/" in prod, "/" in dev
+const base = import.meta.env.BASE_URL;
 const logoSrc = `${base}oiml-logo.svg`;
 const navItems = [
-  { to: "/actions/", label: "Actions" },
-  { to: "/terms/", label: "Terms" },
-  { to: "/tc/", label: "TC / SC" },
-  { to: "/publications/", label: "Publications" },
-  { to: "/editions/", label: "Editions" },
-  { to: "/harmonization/", label: "Harmonise" },
-  { to: "/conflicts/", label: "ID Conflicts" },
-  { to: "/leaderboard/", label: "Divergence" },
+  { href: "actions/", label: "Actions" },
+  { href: "terms/", label: "Terms" },
+  { href: "tc/", label: "TC / SC" },
+  { href: "publications/", label: "Publications" },
+  { href: "editions/", label: "Editions" },
+  { href: "harmonization/", label: "Harmonise" },
+  { href: "conflicts/", label: "ID Conflicts" },
+  { href: "leaderboard/", label: "Divergence" },
 ];
-const isActive = (path: string) => path === "/" ? route.path === "/" : route.path.startsWith(path);
 </script>
 
 <template>
@@ -28,12 +24,12 @@ const isActive = (path: string) => path === "/" ? route.path === "/" : route.pat
         </span>
       </a>
       <nav class="site-nav">
-        <RouterLink v-for="n in navItems" :key="n.to" :to="n.to" :class="{ 'router-link-active': isActive(n.to) }">{{ n.label }}</RouterLink>
+        <a v-for="n in navItems" :key="n.href" :href="base + n.href">{{ n.label }}</a>
       </nav>
     </div>
   </header>
   <main class="container main">
-    <RouterView />
+    <slot />
   </main>
   <footer class="site-footer">
     <div class="container footer-grid">

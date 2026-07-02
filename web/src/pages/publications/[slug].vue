@@ -13,7 +13,7 @@ function kindLabel(k: string) { return k === "defined_in_vim" ? "VIM" : k === "d
   <div v-if="!pub" class="card"><p>Not found.</p></div>
   <template v-else>
     <div class="page-head">
-      <div class="breadcrumb"><RouterLink to="/">Registry</RouterLink> / <RouterLink to="/publications/">Publications</RouterLink> / <span>{{ pub.reference || pub.id }}</span></div>
+      <div class="breadcrumb"><SLink to="/">Registry</SLink> / <SLink to="/publications/">Publications</SLink> / <span>{{ pub.reference || pub.id }}</span></div>
       <h1>{{ pub.reference || pub.id }}</h1>
     </div>
     <section class="card">
@@ -22,7 +22,7 @@ function kindLabel(k: string) { return k === "defined_in_vim" ? "VIM" : k === "d
         <thead><tr><th>Term</th><th>VIM</th><th>Definition</th></tr></thead>
         <tbody>
           <tr v-for="t in pubTerms" :key="t.slug">
-            <td><RouterLink :to="`/terms/${t.slug}/`">{{ t.name }}</RouterLink></td>
+            <td><SLink :to="`/terms/${t.slug}/`">{{ t.name }}</SLink></td>
             <td><span :class="['kind', `kind-${t.kind}`]">{{ kindLabel(t.kind) }}</span></td>
             <td style="max-width:540px">{{ t.publications.find((p: any) => p.publication_id === pubId)?.definition }}</td>
           </tr>

@@ -3,7 +3,7 @@ import editionStats from "@/data/edition-stats.json";
 </script>
 <template>
   <div class="page-head">
-    <div class="breadcrumb"><RouterLink to="/">Registry</RouterLink> / <span>Editions</span></div>
+    <div class="breadcrumb"><SLink to="/">Registry</SLink> / <span>Editions</span></div>
     <h1>Edition comparison</h1>
     <p class="lede">Side-by-side view of OIML G 18:2010 (published) and G 18:202X (draft, being validated by TC 1).</p>
   </div>
@@ -21,10 +21,10 @@ import editionStats from "@/data/edition-stats.json";
   <section class="card">
     <h2>What changed between editions</h2>
     <ul>
-      <li><RouterLink to="/harmonization/">Harmonisation worklist →</RouterLink></li>
-      <li><RouterLink to="/terms/?only=2010-only">Terms removed: in 2010 but deleted in 202X →</RouterLink></li>
-      <li><RouterLink to="/terms/?only=202X-only">Terms added: new in 202X, not in 2010 →</RouterLink></li>
-      <li><RouterLink to="/conflicts/">ID conflicts →</RouterLink></li>
+      <li><SLink to="/harmonization/">Harmonisation worklist →</SLink></li>
+      <li><SLink to="/terms/?only=2010-only">Terms removed: in 2010 but deleted in 202X →</SLink></li>
+      <li><SLink to="/terms/?only=202X-only">Terms added: new in 202X, not in 2010 →</SLink></li>
+      <li><SLink to="/conflicts/">ID conflicts →</SLink></li>
     </ul>
   </section>
 </template>

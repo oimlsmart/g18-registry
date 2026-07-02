@@ -19,7 +19,7 @@ function termCount(pubId: string, ed: string) {
 </script>
 <template>
   <div class="page-head">
-    <div class="breadcrumb"><RouterLink to="/">Registry</RouterLink> / <span>Publications</span></div>
+    <div class="breadcrumb"><SLink to="/">Registry</SLink> / <span>Publications</span></div>
     <h1>Publications</h1>
     <p class="lede">{{ (publications as any[]).length }} publications.</p>
   </div>
@@ -33,7 +33,7 @@ function termCount(pubId: string, ed: string) {
       <tbody>
         <tr v-for="p in filtered" :key="p.id">
           <td><code>{{ p.id }}</code></td>
-          <td><RouterLink :to="`/publications/${p.id}/`">{{ p.reference || p.id }}</RouterLink></td>
+          <td><SLink :to="`/publications/${p.id}/`">{{ p.reference || p.id }}</SLink></td>
           <td class="num">{{ (p.id || '').match(/(\d{4})/)?.[1] || "—" }}</td>
           <td>{{ p.tc_sc || "—" }}</td>
           <td class="num">{{ termCount(p.id, onlyEdition) }}</td>

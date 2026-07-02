@@ -75,19 +75,19 @@ const topDivergent = computed(() =>
     <h2 style="color: var(--oiml-brand-700);">How to use this registry</h2>
     <ol style="margin: 0; padding-left: 1.4em; line-height: 1.7;">
       <li><strong>Review priority actions below</strong> — terms needing immediate attention (outdated VIM refs, divergent definitions).</li>
-      <li><strong>Open the <RouterLink to="/harmonization/">harmonisation worklist</RouterLink></strong> — every term cited by multiple OIML publications, sorted by divergence.</li>
+      <li><strong>Open the <SLink to="/harmonization/">harmonisation worklist</SLink></strong> — every term cited by multiple OIML publications, sorted by divergence.</li>
       <li><strong>For each term</strong>, review the grouped definitions (identical wording is collapsed) and decide: merge into one definition, or document why divergence is intentional.</li>
       <li><strong>Check the latest edition</strong> — the registry automatically verifies whether each term still exists in VIM 2012 / VIML 2022.</li>
-      <li><strong>Filter by your TC/SC</strong> on the <RouterLink to="/terms/">terms page</RouterLink> to review only the publications your committee is responsible for.</li>
+      <li><strong>Filter by your TC/SC</strong> on the <SLink to="/terms/">terms page</SLink> to review only the publications your committee is responsible for.</li>
       <li><strong>Submit changes</strong> to <a href="https://github.com/oimlsmart/vocab/tree/main/datasets/g18-202X"><code>oimlsmart/vocab datasets/g18-202X/</code></a>.</li>
     </ol>
   </section>
 
   <section class="grid grid-4">
-    <RouterLink class="stat-card" to="/terms/"><div class="stat-value">{{ terms.length }}</div><div class="stat-label">unique terms</div></RouterLink>
-    <RouterLink class="stat-card" to="/harmonization/"><div class="stat-value">{{ divergentCount }}</div><div class="stat-label">divergent terms</div></RouterLink>
-    <RouterLink class="stat-card" to="/editions/"><div class="stat-value">{{ okCount }}/{{ totalInstances }}</div><div class="stat-label">consistent</div></RouterLink>
-    <RouterLink class="stat-card" to="/conflicts/"><div class="stat-value">{{ rawConflictCount }}</div><div class="stat-label">raw ID conflicts</div></RouterLink>
+    <SLink class="stat-card" to="/terms/"><div class="stat-value">{{ terms.length }}</div><div class="stat-label">unique terms</div></SLink>
+    <SLink class="stat-card" to="/harmonization/"><div class="stat-value">{{ divergentCount }}</div><div class="stat-label">divergent terms</div></SLink>
+    <SLink class="stat-card" to="/editions/"><div class="stat-value">{{ okCount }}/{{ totalInstances }}</div><div class="stat-label">consistent</div></SLink>
+    <SLink class="stat-card" to="/conflicts/"><div class="stat-value">{{ rawConflictCount }}</div><div class="stat-label">raw ID conflicts</div></SLink>
   </section>
 
   <section class="card">
@@ -98,10 +98,10 @@ const topDivergent = computed(() =>
       <tbody>
         <tr v-for="(a, i) in priorityActions" :key="i">
           <td><span :class="['action-pill', `action-pill-${a.priority}`]">{{ a.priority.toUpperCase() }}</span></td>
-          <td><RouterLink :to="`/terms/${a.slug}/`">{{ a.term }}</RouterLink></td>
+          <td><SLink :to="`/terms/${a.slug}/`">{{ a.term }}</SLink></td>
           <td>{{ a.reason }}</td>
           <td class="num">{{ a.count || '' }}</td>
-          <td><RouterLink :to="`/terms/${a.slug}/`">Open →</RouterLink></td>
+          <td><SLink :to="`/terms/${a.slug}/`">Open →</SLink></td>
         </tr>
       </tbody>
     </table>
@@ -110,14 +110,14 @@ const topDivergent = computed(() =>
   <section class="card">
     <div class="card-head">
       <h2>Most divergent terms</h2>
-      <RouterLink to="/harmonization/" class="muted">Full worklist →</RouterLink>
+      <SLink to="/harmonization/" class="muted">Full worklist →</SLink>
     </div>
     <table>
       <thead><tr><th>#</th><th>Term</th><th>VIM</th><th>Ed.</th><th>Inst.</th><th>Distinct</th></tr></thead>
       <tbody>
         <tr v-for="(t, i) in topDivergent" :key="t.slug">
           <td class="num">{{ i + 1 }}</td>
-          <td><RouterLink :to="`/terms/${t.slug}/`">{{ t.name }}</RouterLink></td>
+          <td><SLink :to="`/terms/${t.slug}/`">{{ t.name }}</SLink></td>
           <td><span :class="['kind', `kind-${t.kind}`]">{{ kindLabel(t.kind) }}</span></td>
           <td><span v-for="e in t.editions_present" :key="e" :class="['edition-pill', `edition-${e.toLowerCase()}`]">{{ e }}</span></td>
           <td class="num">{{ t.publications.length }}</td>
@@ -139,7 +139,7 @@ const topDivergent = computed(() =>
         </tr>
       </tbody>
     </table>
-    <p style="margin-top:0.7em"><RouterLink to="/editions/">Full comparison →</RouterLink></p>
+    <p style="margin-top:0.7em"><SLink to="/editions/">Full comparison →</SLink></p>
   </section>
 
   <section class="card">
@@ -148,6 +148,6 @@ const topDivergent = computed(() =>
       <div><strong>Raw ID conflicts</strong> (same ID → different concepts)<br /><span class="stat-value">{{ rawConflictCount }}</span></div>
       <div><strong>Designation collisions</strong> (same concept → multiple IDs)<br /><span class="stat-value">{{ collisionCount }}</span></div>
     </div>
-    <p style="margin-top:0.7em"><RouterLink to="/conflicts/">Full analysis →</RouterLink></p>
+    <p style="margin-top:0.7em"><SLink to="/conflicts/">Full analysis →</SLink></p>
   </section>
 </template>

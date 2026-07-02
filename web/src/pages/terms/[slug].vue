@@ -112,7 +112,7 @@ function rowVisible(p: any) {
   <div v-if="!term" class="card"><p>Term not found.</p></div>
   <template v-else>
     <div class="page-head">
-      <div class="breadcrumb"><RouterLink to="/">Registry</RouterLink> / <RouterLink to="/terms/">Terms</RouterLink> / <span>{{ term.name }}</span></div>
+      <div class="breadcrumb"><SLink to="/">Registry</SLink> / <SLink to="/terms/">Terms</SLink> / <span>{{ term.name }}</span></div>
       <h1>{{ term.name }}</h1>
       <p class="lede">
         <span :class="['kind', `kind-${term.kind}`]">{{ kindLabel(term.kind) }}</span>
@@ -189,7 +189,7 @@ function rowVisible(p: any) {
               <tr v-for="p in g.publications" :key="p.g18_entry">
                 <td><span :class="['edition-pill', `edition-${p.edition?.toLowerCase()}`]">{{ p.edition }}</span></td>
                 <td class="num">{{ p.year }}</td>
-                <td><RouterLink :to="`/publications/${p.publication_id}/`">{{ p.publication }}</RouterLink></td>
+                <td><SLink :to="`/publications/${p.publication_id}/`">{{ p.publication }}</SLink></td>
                 <td class="num">{{ p.clause }}</td>
                 <td class="num">{{ p.g18_entry }}</td>
                 <td><span :class="['badge', `badge-${p.consistency || 'pending'}`]">{{ p.consistency || "pending" }}</span></td>
@@ -207,7 +207,7 @@ function rowVisible(p: any) {
               <tr v-for="g in uniqueGroups" :key="g.publications[0].g18_entry" class="row-divergent">
                 <td><span :class="['edition-pill', `edition-${g.publications[0].edition?.toLowerCase()}`]">{{ g.publications[0].edition }}</span></td>
                 <td class="num">{{ g.publications[0].year }}</td>
-                <td><RouterLink :to="`/publications/${g.publications[0].publication_id}/`">{{ g.publications[0].publication }}</RouterLink></td>
+                <td><SLink :to="`/publications/${g.publications[0].publication_id}/`">{{ g.publications[0].publication }}</SLink></td>
                 <td class="num">{{ g.publications[0].clause }}</td>
                 <td class="num">{{ g.publications[0].g18_entry }}</td>
                 <td style="max-width:400px"><div style="white-space:pre-wrap;font-size:0.9em">{{ g.definition }}</div></td>
@@ -226,7 +226,7 @@ function rowVisible(p: any) {
             <tr v-for="p in term.publications" :key="p.g18_entry" v-show="rowVisible(p)" :class="{ 'row-divergent': distinctDefs.length > 1 && p.definition?.trim() !== distinctDefs[0] }">
               <td><span :class="['edition-pill', `edition-${p.edition?.toLowerCase()}`]">{{ p.edition }}</span></td>
               <td class="num">{{ p.year }}</td>
-              <td><RouterLink :to="`/publications/${p.publication_id}/`">{{ p.publication }}</RouterLink></td>
+              <td><SLink :to="`/publications/${p.publication_id}/`">{{ p.publication }}</SLink></td>
               <td class="num">{{ p.clause }}</td>
               <td style="max-width:540px"><div style="white-space:pre-wrap">{{ p.definition }}</div></td>
               <td><span :class="['badge', `badge-${p.consistency || 'pending'}`]">{{ p.consistency || "pending" }}</span></td>

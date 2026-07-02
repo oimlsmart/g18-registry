@@ -15,7 +15,7 @@ const top = computed(() => (terms as any[])
 </script>
 <template>
   <div class="page-head">
-    <div class="breadcrumb"><RouterLink to="/">Registry</RouterLink> / <span>Divergence</span></div>
+    <div class="breadcrumb"><SLink to="/">Registry</SLink> / <span>Divergence</span></div>
     <h1>Divergence leaderboard</h1>
   </div>
   <section class="card">
@@ -24,7 +24,7 @@ const top = computed(() => (terms as any[])
       <tbody>
         <tr v-for="(t, i) in top" :key="t.slug">
           <td class="num">{{ i + 1 }}</td>
-          <td><RouterLink :to="`/terms/${t.slug}/`">{{ t.name }}</RouterLink></td>
+          <td><SLink :to="`/terms/${t.slug}/`">{{ t.name }}</SLink></td>
           <td><span :class="['kind', `kind-${t.kind}`]">{{ kindLabel(t.kind) }}</span></td>
           <td class="num">{{ t.publications.length }}</td>
           <td class="num"><span class="divergence-count">{{ t.distinct }}</span></td>

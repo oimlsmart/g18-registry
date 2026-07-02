@@ -80,7 +80,7 @@ function kindLabel(k: string) { return k === "defined_in_vim" ? "VIM" : k === "d
 
 <template>
   <div class="page-head">
-    <div class="breadcrumb"><RouterLink to="/">Registry</RouterLink> / <span>Priority actions</span></div>
+    <div class="breadcrumb"><SLink to="/">Registry</SLink> / <span>Priority actions</span></div>
     <h1>Priority actions for TC 1</h1>
     <p class="lede">{{ allActions.length }} total actions across {{ terms.length }} terms.</p>
   </div>
@@ -118,11 +118,11 @@ function kindLabel(k: string) { return k === "defined_in_vim" ? "VIM" : k === "d
       <tbody>
         <tr v-for="(a, i) in filtered" :key="i">
           <td><span :class="['action-pill', `action-pill-${a.priority}`]">{{ a.priority.toUpperCase() }}</span></td>
-          <td><RouterLink :to="`/terms/${a.slug}/`">{{ a.term }}</RouterLink></td>
+          <td><SLink :to="`/terms/${a.slug}/`">{{ a.term }}</SLink></td>
           <td><span :class="['kind', `kind-${a.kind}`]">{{ kindLabel(a.kind) }}</span></td>
           <td>{{ a.reason }}</td>
           <td class="num">{{ a.pubs }}</td>
-          <td><RouterLink :to="`/terms/${a.slug}/`">Open →</RouterLink></td>
+          <td><SLink :to="`/terms/${a.slug}/`">Open →</SLink></td>
         </tr>
       </tbody>
     </table>

@@ -5,7 +5,7 @@ function distinctDefs(pubs: any[]) { return new Set(pubs.map(p => (p.definition 
 </script>
 <template>
   <div class="page-head">
-    <div class="breadcrumb"><RouterLink to="/">Registry</RouterLink> / <span>Harmonisation</span></div>
+    <div class="breadcrumb"><SLink to="/">Registry</SLink> / <span>Harmonisation</span></div>
     <h1>Harmonisation worklist</h1>
     <p class="lede">Every term cited by ≥ 2 distinct OIML publications. Core TC 1 worklist for validating 202X.</p>
   </div>
@@ -15,7 +15,7 @@ function distinctDefs(pubs: any[]) { return new Set(pubs.map(p => (p.definition 
       <tbody>
         <tr v-for="(t, i) in (harmonization as any[]).slice(0, 200)" :key="t.slug">
           <td class="num">{{ i + 1 }}</td>
-          <td><RouterLink :to="`/terms/${t.slug}/`">{{ t.name }}</RouterLink></td>
+          <td><SLink :to="`/terms/${t.slug}/`">{{ t.name }}</SLink></td>
           <td><span :class="['kind', `kind-${t.kind}`]">{{ kindLabel(t.kind) }}</span></td>
           <td class="num">{{ t.publications.length }}</td>
           <td class="num">{{ distinctDefs(t.publications) }}</td>
