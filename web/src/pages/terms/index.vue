@@ -1,10 +1,14 @@
 <script setup lang="ts">
-import { ref, computed } from "vue";
+import { ref, computed, watch } from "vue";
+import { useRoute } from "vue-router";
 import terms from "@/data/terms.json";
 
+const route = useRoute();
 const search = ref("");
-const onlyEdition = ref("");
+const onlyEdition = ref((route.query.only as string) || "");
 const onlyTC = ref("");
+
+watch(() => route.query.only, (val) => { onlyEdition.value = (val as string) || ""; });
 
 // Build list of distinct TC/SCs from publication data
 const allTCs = computed(() => {
