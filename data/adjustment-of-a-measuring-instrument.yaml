@@ -29,8 +29,9 @@ data:
       3.11) provides prescribed indications corresponding to given values of aquantity
       to be measured
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: ok
+    consistency_reason: The publication adds a VIM citation reference and has a minor
+      typo, but the semantic content is identical.
     related:
     - type: see
       ref:
@@ -48,8 +49,8 @@ data:
       prescribed indications corresponding to given values of a quantity to be measured
       [VIM:2007, 3.11]
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: ok
+    consistency_reason: The definitions are semantically identical word for word.
 status: current
 id: 42b962cc-1a9b-5559-b520-cb2b8bd54f28
 schema_version: '3'

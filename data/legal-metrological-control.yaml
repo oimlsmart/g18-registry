@@ -30,8 +30,9 @@ data:
     notes:
     - 'Legal metrological control includes: - legal control of measuring instruments;
       - metrological supervision; - metrological expertise.'
-    consistency: pending
-    consistency_reason: ''
+    consistency: ok
+    consistency_reason: The publication's definition is identical in wording to the
+      official definition, differing only by the addition of a source citation.
     related:
     - type: see
       ref:
@@ -50,8 +51,10 @@ data:
     notes:
     - 'Legal metrological control includes: legal control of measuring instruments,
       metrological supervision, metrological assessment.'
-    consistency: pending
-    consistency_reason: ''
+    consistency: ok
+    consistency_reason: The publication's definition is semantically identical to
+      the official definition, differing only by the leading article 'the' and the
+      source citation.
     related:
     - type: see
       ref:
@@ -72,8 +75,10 @@ data:
       and demonstrating, e.g. to testify in a court of law, the conditio of measuring
       instrument and to determine itd. metrological properties, amongst others by
       reference to the relevant astatutoey requirements'
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Publication drops the defining clause 'which contribute to
+      metrological assurance' that distinguishes this concept from legal metrology
+      activities in general.
   - edition: 202X
     publication: OIML D034:2019
     publication_id: OIML D034:2019
@@ -89,8 +94,9 @@ data:
       demonstrating, e.g. to testify in a court of law, the conditio of measuring
       instrument and to determine itd. metrological properties, amongst others by
       reference to the relevant astatutoey requirements.'
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Drops the key qualifier 'which contribute to metrological
+      assurance' that defines the scope of the activities.
   - edition: 202X
     publication: OIML D001:2012
     publication_id: OIML D001:2012
@@ -103,8 +109,9 @@ data:
     notes:
     - 'Note: Legal metrological control includes legal control of measuring instruments,
       legal metrological supervision, and legal metrological expertise.'
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Publication drops the qualifying clause 'which contribute
+      to metrological assurance,' losing a key semantic restriction.
   - edition: 202X
     publication: OIML D016:2011
     publication_id: OIML D016:2011
@@ -118,8 +125,9 @@ data:
     notes:
     - 'Note:Legal metrological control includes: legal control of measuring instruments;
       metrological supervision; metrological expertise.'
-    consistency: pending
-    consistency_reason: ''
+    consistency: ok
+    consistency_reason: The publication's definition is verbatim identical to the
+      official definition.
   - edition: 202X
     publication: OIML D 9:2004
     publication_id: OIML D009:2004
@@ -133,8 +141,9 @@ data:
     notes:
     - 'Note:Legal metrological control includes: - legal control of measuring instruments;
       -  metrological supervision; -  metrological expertise.'
-    consistency: pending
-    consistency_reason: ''
+    consistency: ok
+    consistency_reason: The publication's definition is identical in wording to the
+      official definition, differing only by the addition of a source citation.
   - edition: 202X
     publication: OIML D 27:2001
     publication_id: OIML D027:2001
@@ -148,8 +157,10 @@ data:
     notes:
     - 'Note:Legal metrological control includes: legal control of measuring instruments,
       metrological supervision, metrological assessment.'
-    consistency: pending
-    consistency_reason: ''
+    consistency: ok
+    consistency_reason: The publication's definition is semantically identical to
+      the official definition, differing only by the leading article 'the' and the
+      source citation.
 status: current
 id: 7c6f1eb8-c3d5-5e3e-9f94-19b9ff7f6d8b
 schema_version: '3'

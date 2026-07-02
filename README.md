@@ -36,54 +36,153 @@ Step 1 (removing G 18 from the vocab concept-browser) was done in [`oimlsmart/vo
 
 ```
 oimlsmart/vocab         (existing, read-only)
-  └─ datasets/g18/        ← canonical source data, NOT to be deleted
-        │
-        │ consumed by scripts/migrate_from_vocab.rb
-        ▼
+  └─ datasets/
+        ├─ g18-2010/      ← published edition (2125 concepts)
+        ├─ g18-202X/      ← draft edition being validated (2813 concepts)
+        ├─ vim-1993/ ... vim-2012/   ← VIM editions (authoritative baseline)
+        └─ viml-1968/ ... viml-2022/ ← VIML editions
+              │
+              │ consumed by scripts/migrate_from_vocab.rb (run locally)
+              ▼
 oimlsmart/g18-registry  (this repo)
   ├─ TODO/                ← step-by-step plan (historical)
-  ├─ data/                ← per-term model: one YAML per unique term
+  ├─ data/                ← COMMITTED: per-term YAML with edition tags,
+  │                         VIM/VIML enrichment, and consistency results
   ├─ tc-sc/
   │   ├─ publications.yaml     ← bibliography + TC/SC attribution
   │   └─ term-aliases.yaml     ← editorial merges (singular/plural, etc.)
   ├─ lib/g18/             ← migration, site, consistency logic
   ├─ scripts/
-  │   ├─ migrate_from_vocab.rb   ← vocab → data/ (run on source changes)
-  │   ├─ build_site.rb           ← data/ → _site/ (run on every deploy)
-  │   ├─ check_consistency.rb    ← LLM-based consistency classification (TODO 05)
+  │   ├─ migrate_from_vocab.rb   ← vocab → data/ (run locally, commit result)
+  │   ├─ build_site.rb           ← data/ → _site/ (runs in CI)
+  │   ├─ check_consistency.rb    ← LLM-based classification (run locally, commit result)
   │   ├─ sync_tc_sc.rb           ← pull bibliography updates from vocab
   │   └─ validate_tc_sc.rb       ← integrity check for tc-sc/
   ├─ templates/           ← ERB templates for the static site
-  ├─ static/              ← CSS and other static assets
+  ├─ static/              ← CSS + OIML logos
   ├─ _site/               ← rendered site (gitignored; built by build_site.rb)
-  └─ cache/               ← consistency cache (gitignored)
+  └─ cache/               ← consistency cache (gitignored; rebuilds as needed)
 ```
 
-URN cross-references to VIM/VIML stay the same: `urn:oiml:pub:v:1:2022`, `urn:oiml:pub:v:2:1993`, etc. G 18 entries link to VIM/VIML via `related: - type: see` edges.
+## Editor workflow (local → commit → CI deploys)
 
-## Local development
+The CI workflow only builds the site from the committed `data/`. Editors
+must run migration and consistency check locally and commit the results.
 
 ```bash
-# Rebuild data/ from ../vocab/datasets/g18 (run when aliases or source data change)
+# 1. Rebuild data/ from ../vocab/datasets/g18-{2010,202X} with VIM/VIML enrichment
 ruby scripts/migrate_from_vocab.rb
 
-# Rebuild the static site into _site/
-ruby scripts/build_site.rb
+# 2. Run the AI consistency check (requires LLM API key)
+source ~/.zai-api-key   # or: export ANTHROPIC_API_KEY=...
+ruby scripts/check_consistency.rb \
+  --run \
+  --base-url https://api.z.ai/api/anthropic \
+  --model glm-5.2 \
+  --api-key "$Z_AI_API_KEY"
 
-# Open the registry locally
+# 3. Rebuild the site locally to verify
+ruby scripts/build_site.rb
 open _site/index.html
 
-# (Optional) Run consistency check in dry-run mode
-ruby scripts/check_consistency.rb
+# 4. Commit data/ with the new consistency values baked in
+git add data/ migration-report.md
+git commit -m "data: refresh from <edition> + consistency results"
 ```
 
-The migration reads the sibling `oimlsmart/vocab` checkout at `../vocab/datasets/g18`. Set `VOCAB_G18_DIR` to point elsewhere.
+## When G 18 is updated upstream
+
+When `oimlsmart/vocab` ships a new edition of G 18 (e.g., a 202X revision,
+a new published edition, or simply more concepts added to an existing
+edition), refresh the registry:
+
+### 1. Pull the vocab repo
+
+```bash
+cd ../vocab
+git pull origin main
+cd -
+```
+
+### 2. Make sure `scripts/migrate_from_vocab.rb` knows about the new edition
+
+The script's default `--editions` list is hard-coded in
+`scripts/migrate_from_vocab.rb` (search for `options[:editions]`). Add a
+new entry there for any brand-new edition, e.g.:
+
+```ruby
+options[:editions] = [
+  { name: "202X", path: File.join(v, "g18-202X"), primary: true },
+  { name: "2030", path: File.join(v, "g18-2030"), primary: true },  # ← new
+  { name: "2010", path: File.join(v, "g18-2010"), primary: false },
+]
+```
+
+Only one edition should have `primary: true` (the one TC 1 is currently
+validating). Convention: the newest draft is primary; older editions are
+secondary (kept for historical comparison).
+
+### 3. Refresh `data/`
+
+```bash
+ruby scripts/migrate_from_vocab.rb
+```
+
+The migration reads every concept in every configured edition dir, tags
+each instance with its `edition`, groups by canonicalized designation,
+and writes per-term YAML files into `data/`. Existing files are
+overwritten (the migration does `FileUtils.rm_rf("data")` first).
+
+### 4. Re-run the AI consistency check
+
+```bash
+source ~/.zai-api_key   # or: export ANTHROPIC_API_KEY=...
+ruby scripts/check_consistency.rb \
+  --run \
+  --base-url https://api.z.ai/api/anthropic \
+  --model glm-5.2 \
+  --api-key "$Z_AI_API_KEY"
+```
+
+The cache (`cache/consistency.jsonl`) is keyed by hash of
+(official_definition, publication_definition). Already-cached entries are
+skipped, so only new or changed publications trigger LLM calls. Typical
+cost: a few cents per run after the initial population.
+
+### 5. Rebuild the site locally and verify
+
+```bash
+ruby scripts/build_site.rb
+open _site/index.html
+```
+
+Spot-check the index page stats, the editions comparison page, and a few
+per-term pages (especially the new edition's terms-only page).
+
+### 6. Commit the snapshot
+
+```bash
+git add data/ migration-report.md
+git commit -m "data: refresh after <edition> update
+
+- <edition>: <N> source concepts (<delta> vs previous)
+- <M> new harmonisation candidates
+- consistency: <X> ok / <Y> partial / <Z> ko"
+```
+
+Push to a feature branch and open a PR. After merge to `main`, the CI
+workflow rebuilds the site from the committed `data/` and deploys — no
+LLM calls happen in CI.
 
 ## Deployment
 
-GitHub Pages via [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml). On every push to `main`, the workflow runs `scripts/build_site.rb` and deploys `_site/`. The committed `data/` is the source of truth for the build — migration is run locally when editors pull new vocab data or extend `tc-sc/term-aliases.yaml`.
+GitHub Pages via [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml).
+On every push to `main`, the workflow runs `scripts/build_site.rb` against
+the committed `data/` and deploys `_site/`. **No LLM calls and no migration
+happen in CI** — editors run those locally and commit the snapshot.
 
 ## Related
 
 - Issue: [oimlsmart/vocab#42 — G 18 future direction](https://github.com/oimlsmart/vocab/issues/42)
-- Source data: [`oimlsmart/vocab` `datasets/g18/`](https://github.com/oimlsmart/vocab/tree/main/datasets/g18/)
+- Source data (published): [`oimlsmart/vocab` `datasets/g18-2010/`](https://github.com/oimlsmart/vocab/tree/main/datasets/g18-2010/)
+- Source data (draft): [`oimlsmart/vocab` `datasets/g18-202X/`](https://github.com/oimlsmart/vocab/tree/main/datasets/g18-202X/)

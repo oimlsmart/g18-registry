@@ -89,8 +89,10 @@ data:
     notes:
     - by the instrument (luminous or acoustic signal, blocking of process, etc.);
     - 2. Adapted from OIML D 11:2004, 3.18.
-    consistency: pending
-    consistency_reason: ''
+    consistency: ok
+    consistency_reason: Semantically equivalent; minor wording differences like 'operating
+      condition' vs 'conditions of use' and 'measuring system' vs 'instrument' do
+      not change the meaning.
   - edition: '2010'
     publication: OIML R 117-1:2007
     publication_id: OIML R117-1:2007

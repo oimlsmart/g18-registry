@@ -21,8 +21,10 @@ data:
       of the software according to the specific procedure (e.g. analysis of technical
       documentation or running the program under controlled conditions)
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Drops the key clause 'ascertains and confirms that the measuring
+      instrument complies with the statutory requirements' and replaces 'type approval'
+      with 'type evaluation'.
   - edition: 202X
     publication: OIML R142-1:2025
     publication_id: OIML R142-1:2025

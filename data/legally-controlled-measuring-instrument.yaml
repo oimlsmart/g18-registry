@@ -33,8 +33,9 @@ data:
       legal control according to national regulations: measuring instruments, coin
       counting machines, medical measuring instruments, water dispensing machines,
       timing instruments in vehicle washes.'
-    consistency: pending
-    consistency_reason: ''
+    consistency: ok
+    consistency_reason: The definitional text is identical; the only addition is an
+      administrative parenthetical alias and a source citation.
     related:
     - type: see
       ref:
@@ -56,8 +57,9 @@ data:
       counting machines, medical measuring instruments, water dispensing machines,
       timing instruments in vehicle washers. Note 2:Legally controlled measuring instrument
       is hereafter referred to as a “measuring instrument”.'
-    consistency: pending
-    consistency_reason: ''
+    consistency: ok
+    consistency_reason: The publication's definition is identical to the official
+      definition in both wording and meaning.
   - edition: 202X
     publication: OIML D 9:2004
     publication_id: OIML D009:2004
@@ -74,8 +76,9 @@ data:
       under legal control according to national regulations: measuring instruments,
       coin countingmachines, medical measuring instruments, water dispensing machines,
       timing instruments in vehicle washes.'
-    consistency: pending
-    consistency_reason: ''
+    consistency: ok
+    consistency_reason: The definitional text is identical; the only addition is an
+      administrative parenthetical alias and a source citation.
 status: current
 id: 06efb05d-3315-5eea-842a-ef2f76039ab4
 schema_version: '3'
