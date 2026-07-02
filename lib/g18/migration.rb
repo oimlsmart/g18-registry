@@ -5,6 +5,7 @@ require "digest"
 require "fileutils"
 require "set"
 require_relative "vocabulary"
+require_relative "model/identifier"
 
 module G18
   # Migrates oimlsmart/vocab datasets/g18/ (per-instance) into the per-term
@@ -81,18 +82,11 @@ module G18
     end
 
     def slugify(term)
-      term.to_s.downcase.gsub(/[^a-z0-9]+/, "-").gsub(/^-+|-+$/, "")
+      G18::Model::Identifier.slugify(term)
     end
 
-    # Deterministic UUID v5-style identifier from a stable name.
-    # Same name always produces the same UUID; migration is reproducible.
     def deterministic_uuid(name)
-      sha1 = Digest::SHA1.digest("g18-registry-term:" + name.to_s)
-      sha1 = sha1.dup
-      sha1.setbyte(6, (sha1.getbyte(6) & 0x0F) | 0x50)
-      sha1.setbyte(8, (sha1.getbyte(8) & 0x3F) | 0x80)
-      hex = sha1.bytes.first(16).map { |b| format("%02x", b) }.join
-      "#{hex[0, 8]}-#{hex[8, 4]}-#{hex[12, 4]}-#{hex[16, 4]}-#{hex[20, 12]}"
+      G18::Model::Identifier.deterministic_uuid(name)
     end
 
     def parse_year(s)

@@ -27,11 +27,6 @@ module G18
         page("index.html", "index")
         page("terms/index.html", "terms_index")
         page("publications/index.html", "publications_index")
-        # Pre-render edition-filtered variants of the terms index so the
-        # editions.html links resolve to static files (no query strings).
-        dataset.edition_names.each do |ed|
-          page("terms/only-#{ed.downcase.gsub(/[^a-z0-9]/, '')}.html", "terms_index", only_edition: ed)
-        end
         dataset.terms.each { |t| page("terms/#{t.slug}.html", "term", term: t) }
         page("tc/index.html", "tc_index")
         dataset.tcscs.each { |tc| page("tc/#{tc.slug}.html", "tc", tc: tc) }
@@ -39,7 +34,6 @@ module G18
         page("leaderboard.html", "leaderboard")
         page("editions.html", "editions")
         page("harmonization.html", "harmonization")
-        page("conflicts.html", "conflicts")
         write_raw("stats.json", stats_json)
       end
 

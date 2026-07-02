@@ -31,9 +31,8 @@ data:
       3.11) provides prescribed indications corresponding to given values of aquantity
       to be measured
     notes: []
-    consistency: ok
-    consistency_reason: The publication adds a VIM citation reference and has a minor
-      typo, but the semantic content is identical.
+    consistency: pending
+    consistency_reason: ''
     related:
     - type: see
       ref:

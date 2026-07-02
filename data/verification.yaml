@@ -36,10 +36,8 @@ data:
       or IEC 61508-4, clause 3.8.
     - '1.'
     - '2. [OIML V 1: 2000, 2.13]'
-    consistency: partial
-    consistency_reason: Publication focuses on marking/certification and compliance
-      confirmation but omits the broader purpose of determining metrological properties
-      and testifying e.g. in court.
+    consistency: pending
+    consistency_reason: ''
   - edition: '2010'
     publication: OIML R 111-1:2004
     publication_id: OIML R111-1:2004
@@ -54,10 +52,8 @@ data:
       of the regulations for verification. Verification includes both examination
       and stamping. Adapted from VIML 2.4 and 2.13)"
     notes: []
-    consistency: partial
-    consistency_reason: Publication narrows scope to weights and stamping, omits broader
-      metrological properties and judicial purpose, though core concept of examining
-      conformity is retained.
+    consistency: pending
+    consistency_reason: ''
     related:
     - type: see
       ref:
@@ -74,10 +70,8 @@ data:
     definition: provision of objective evidence that a given item fulfils specified
       requirements [adapted from OIML V 2-200:2012, 2.44]
     notes: []
-    consistency: ko
-    consistency_reason: Publication gives a generic conformity-assessment definition,
-      omitting the legal context, examination of measuring instruments, and determination
-      of metrological properties.
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML D005:2022
     publication_id: OIML D005:2022
@@ -94,11 +88,8 @@ data:
       Example 3:  Confirmation that a target measurement uncertainty can be met.'
     notes:
     - For notes see [VIM, 2.44].
-    consistency: ko
-    consistency_reason: The official definition describes legal metrology examination
-      of measuring instruments for court testimony; the publication defines generic
-      verification providing objective evidence of conformance, which is a different
-      concept.
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML D034:2019
     publication_id: OIML D034:2019
@@ -110,11 +101,8 @@ data:
     definition: provision of objective evidence that a given item fulfils specified
       requirements (from VIM, 2.44)
     notes: []
-    consistency: ko
-    consistency_reason: The official definition describes legal metrology examination
-      of measuring instruments for court testimony and statutory compliance, while
-      the publication quotes a generic VIM definition of 'verification' applicable
-      to any item.
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML R147:2016
     publication_id: OIML R147:2016
@@ -127,10 +115,8 @@ data:
       requirement [OIML V2-200:2012; 2.44] [2] confirmation that performance properties
       or legal requirements of a measuring system are achieved
     notes: []
-    consistency: partial
-    consistency_reason: The publication drops the legal/forensic context and statutory
-      requirements emphasis, and blends a general verification definition with a narrower
-      legal metrology confirmation concept.
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML R 111-1:2004
     publication_id: OIML R111-1:2004
@@ -145,10 +131,8 @@ data:
       of the regulations for verification. Verification includes both examination
       and stamping. (Adapted from VIML 2.4 and 2.13)
     notes: []
-    consistency: partial
-    consistency_reason: Publication narrows scope to weights and stamping, omits broader
-      metrological properties and judicial purpose, though core concept of examining
-      conformity is retained.
+    consistency: pending
+    consistency_reason: ''
 status: current
 id: db855584-f972-5488-b570-2a87a2753de9
 schema_version: '3'

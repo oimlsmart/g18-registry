@@ -30,9 +30,8 @@ data:
     notes:
     - For a digital device, this is the change in the indication when the least significant
       digit changes by one step.
-    consistency: ok
-    consistency_reason: '"Displaying device" and "indicating device" are semantically
-      equivalent terms for the same concept.'
+    consistency: pending
+    consistency_reason: ''
     related:
     - type: see
       ref:
@@ -53,9 +52,8 @@ data:
       significant digit changes by one step. For an analogue device, this is half
       the difference between subsequent scale marks.
     - 2. (VIM:1993, 5.12)
-    consistency: ok
-    consistency_reason: '"Displaying device" and "indicating device" are semantically
-      equivalent terms for the same concept.'
+    consistency: pending
+    consistency_reason: ''
 status: current
 id: 9f5b2349-feee-5eb9-89f0-c03ea2a0a092
 schema_version: '3'

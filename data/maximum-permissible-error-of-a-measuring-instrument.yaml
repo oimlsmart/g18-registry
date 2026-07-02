@@ -19,9 +19,8 @@ data:
     definition: the extreme values of an error permitted by specifications, regulations,
       etc. for a given measuring instrument [VIM:1993, 5.21]
     notes: []
-    consistency: ok
-    consistency_reason: The definitions are semantically identical, differing only
-      in a leading article.
+    consistency: pending
+    consistency_reason: ''
 status: current
 id: 6b7d0368-b547-5e31-96b9-a5912399bf35
 schema_version: '3'

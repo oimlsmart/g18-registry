@@ -31,9 +31,8 @@ data:
       3.11) provides prescribed indications corresponding to given values of a quantity
       to be measured
     notes: []
-    consistency: ok
-    consistency_reason: The publication's definition is identical in wording and meaning
-      to the official definition.
+    consistency: pending
+    consistency_reason: ''
     related:
     - type: see
       ref:
@@ -50,8 +49,8 @@ data:
     definition: set of operations carried out on a measuring system so that it provides
       prescribed indications corresponding to given values of a quantity to be measured
     notes: []
-    consistency: ok
-    consistency_reason: The definitions are identical in wording and meaning.
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML R059-1:2016
     publication_id: OIML R059-1:2016
@@ -66,9 +65,8 @@ data:
     notes:
     - 'Additional note: A change in the value of any of a device’s sealable calibration
       parameters or sealable configuration parameters.'
-    consistency: ok
-    consistency_reason: The publication's definition is identical in wording and meaning
-      to the official definition.
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML R146-1:2016
     publication_id: OIML R146-1:2016
@@ -91,9 +89,8 @@ data:
       that require a higher level of expertise (e.g. adjustment of the calibration
       equation slope, modification of hardware/ software components or settings) may
       be less accessible due to increased security requirements."
-    consistency: ok
-    consistency_reason: The definition text is identical to the official definition;
-      the only addition is the term name and VIM reference in braces.
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML R144-1:2013
     publication_id: OIML R144-1:2013
@@ -106,8 +103,8 @@ data:
       prescribed indications corresponding to given values of a quantity to be measured
       [VIM, 3.11] [1]
     notes: []
-    consistency: ok
-    consistency_reason: The definitions are identical in wording and meaning.
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML R 143:2009
     publication_id: OIML R143:2009
@@ -120,9 +117,8 @@ data:
       prescribed indications corresponding to given values of a quantity to be measured
       [VIM:2007, 3.11]
     notes: []
-    consistency: ok
-    consistency_reason: The publication's definition is identical in wording and meaning
-      to the official definition.
+    consistency: pending
+    consistency_reason: ''
 status: current
 id: 462342cb-b390-515c-b4b6-1b42455c007e
 schema_version: '3'

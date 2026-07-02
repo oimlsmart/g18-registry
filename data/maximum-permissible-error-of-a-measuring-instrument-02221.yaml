@@ -30,9 +30,8 @@ data:
       etc. for a given measuring instrument
     notes:
     - "[VIM:1993, 5.21; OIML D 11:2004, 3.6]"
-    consistency: ok
-    consistency_reason: Only difference is singular vs plural 'values/value', which
-      does not change the semantic meaning of the definition.
+    consistency: pending
+    consistency_reason: ''
   - edition: '2010'
     publication: OIML D 11:2004
     publication_id: OIML D011:2004
@@ -44,9 +43,8 @@ data:
     definition: extreme value of an error permitted by specifications, regulations,
       etc. for a given measuring instrument [VIM, 5.21]
     notes: []
-    consistency: partial
-    consistency_reason: Publication uses singular 'value' instead of plural 'values',
-      losing the concept that there are typically both upper and lower extreme limits.
+    consistency: pending
+    consistency_reason: ''
     related:
     - type: see
       ref:
@@ -63,9 +61,8 @@ data:
     definition: the extreme values of an error permitted by specifications, regulations,
       etc. for a given measuring instrument (VIM:1993, 5.21)
     notes: []
-    consistency: ok
-    consistency_reason: The definitions are semantically identical, differing only
-      in a leading article.
+    consistency: pending
+    consistency_reason: ''
     related:
     - type: see
       ref:
@@ -83,9 +80,8 @@ data:
       quantity value, permitted by specifications or regulations for a given measurement,  measuring
       instrument, or measuring system adapted from [OIML V 1:2022, 0.05]
     notes: []
-    consistency: partial
-    consistency_reason: Publication adds 'known reference quantity value' and 'measurement'/'measuring
-      system' which are irrelevant details not in the official definition.
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML D011:2013
     publication_id: OIML D011:2013
@@ -98,10 +94,8 @@ data:
       quantity value, permitted by specifications or regulations for a given measurement,
       measuring instrument, or measuring system [VIM 4.26]
     notes: []
-    consistency: partial
-    consistency_reason: Adds 'measuring system' and 'reference quantity value' which
-      narrow meaning beyond the official definition's broader 'error' and scope limited
-      to measuring instrument.
+    consistency: pending
+    consistency_reason: ''
 status: current
 id: ba0087be-471c-5180-833d-d7f38781f50a
 schema_version: '3'
