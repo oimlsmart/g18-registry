@@ -28,8 +28,9 @@ data:
     definition: "[ error of a measuring instrument, determined under reference conditions
       VIM:1993, 5.24]."
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: ok
+    consistency_reason: The definitions are identical; the publication merely adds
+      the source citation.
     related:
     - type: see
       ref:
@@ -46,8 +47,9 @@ data:
     definition: error of a measuring instrument, determined under reference conditions
       [VIM:1993, 5.24].
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: ok
+    consistency_reason: The definitions are identical; the publication merely adds
+      the source citation.
 status: current
 id: c4fdc3a6-aa1f-5b23-92d6-f50ff330a515
 schema_version: '3'

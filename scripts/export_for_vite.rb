@@ -5,8 +5,14 @@
 # frontend. Reads from `data/` and `tc-sc/publications.yaml`, writes
 # one JSON file per entity into `web/src/data/`.
 #
+# Also builds a "latest edition check" for every term whose official_concept
+# references a superseded VIM/VIML edition: looks up the term's designation
+# in the latest edition's concept files and embeds the result so the UI can
+# show definitively whether the term is current, rather than asking the user
+# to "verify".
+#
 # Usage:
-#   scripts/export_for_vite.rb [--data-dir DIR] [--out-dir DIR]
+#   scripts/export_for_vite.rb [--data-dir DIR] [--out-dir DIR] [--vocab-root DIR]
 #
 # Defaults: data/ and web/src/data/ relative to repo root.
 
@@ -14,12 +20,15 @@ require "optparse"
 require "yaml"
 require "json"
 require "fileutils"
+require_relative "../lib/g18/vocabulary"
 
 repo_root = File.expand_path("..", __dir__)
+default_vocab_root = File.expand_path("vocab/datasets", File.join(repo_root, ".."))
 options = {
   data_dir: File.join(repo_root, "data"),
   bib_path: File.join(repo_root, "tc-sc", "publications.yaml"),
   out_dir: File.join(repo_root, "web", "src", "data"),
+  vocab_root: ENV.fetch("VOCAB_ROOT", default_vocab_root),
 }
 
 OptionParser.new do |opts|
@@ -27,9 +36,82 @@ OptionParser.new do |opts|
   opts.on("--data-dir DIR", String) { |v| options[:data_dir] = v }
   opts.on("--bib-path PATH", String) { |v| options[:bib_path] = v }
   opts.on("--out-dir DIR", String) { |v| options[:out_dir] = v }
+  opts.on("--vocab-root DIR", String) { |v| options[:vocab_root] = v }
 end.parse!
 
 FileUtils.mkdir_p(options[:out_dir])
+
+# ── Build latest-edition designation index ────────────────────────────────
+# For each vocabulary (VIM/VIML), load the LATEST edition's concepts and
+# build a { designation_downcase => { id:, definition: } } index. Used to
+# definitively check whether a term still exists in the latest edition.
+
+LATEST_DATASETS = {
+  vim:  { urn: G18::Vocabulary::LATEST_VIM_URN,  dir: "vim-2012",  label: "VIM 2012" },
+  viml: { urn: G18::Vocabulary::LATEST_VIML_URN, dir: "viml-2022", label: "VIML 2022" },
+}.freeze
+
+def load_latest_designation_index(vocab_root, dataset_dir)
+  idx = {}
+  concepts_dir = File.join(vocab_root, dataset_dir, "concepts")
+  return idx unless Dir.exist?(concepts_dir)
+  Dir.glob(File.join(concepts_dir, "*.yaml")).each do |path|
+    docs = YAML.safe_load_stream(File.read(path), aliases: true)
+    loc = docs.find { |d| d && d.is_a?(Hash) && d.dig("data", "definition") }
+    next unless loc
+    terms = loc.dig("data", "terms") || []
+    pref = terms.find { |t| t["normative_status"] == "preferred" } || terms.first
+    next unless pref && pref["designation"]
+    designation = pref["designation"].to_s.downcase.strip
+    defs = loc.dig("data", "definition") || []
+    defn_text = defs.map { |d| d["content"] if d.is_a?(Hash) }.compact.join("\n").strip
+    meta = docs.find { |d| d && d.is_a?(Hash) && d.dig("data", "identifier") }
+    id = meta&.dig("data", "identifier")
+    idx[designation] = { id: id, definition: defn_text } if id && !defn_text.empty?
+  end
+  idx
+end
+
+latest_indices = {}
+LATEST_DATASETS.each do |vocab, info|
+  path = File.join(options[:vocab_root], info[:dir], "concepts")
+  if Dir.exist?(path)
+    latest_indices[vocab] = load_latest_designation_index(options[:vocab_root], info[:dir])
+    warn "  Latest #{info[:label]}: #{latest_indices[vocab].size} designations indexed"
+  else
+    warn "  Latest #{info[:label]}: concepts dir not found at #{path} — latest_check will be skipped"
+  end
+end
+
+def check_latest_edition(term_name, official_urn, latest_indices)
+  return nil unless official_urn && term_name
+  vocab = G18::Vocabulary.vocab(official_urn)
+  return nil unless vocab
+  info = LATEST_DATASETS[vocab]
+  return nil unless info
+  idx = latest_indices[vocab]
+  return nil unless idx&.any?
+  lookup = term_name.to_s.downcase.strip
+  entry = idx[lookup]
+  if entry
+    {
+      "found" => true,
+      "vocab" => vocab.to_s,
+      "latest_label" => info[:label],
+      "latest_urn" => info[:urn],
+      "concept_id" => entry[:id],
+      "definition" => entry[:definition],
+      "url" => "https://oimlsmart.github.io/vocab/#{info[:dir]}/concept/#{entry[:id]}",
+    }
+  else
+    {
+      "found" => false,
+      "vocab" => vocab.to_s,
+      "latest_label" => info[:label],
+      "latest_urn" => info[:urn],
+    }
+  end
+end
 
 # ── Publications ──────────────────────────────────────────────────────────
 publications = File.exist?(options[:bib_path]) ?
@@ -44,6 +126,7 @@ Dir.glob(File.join(options[:data_dir], "*.yaml")).sort.each do |path|
   next unless docs.first.is_a?(Hash)
   hash = docs.find { |d| d.is_a?(Hash) && d["data"] && d["data"]["term"] } || docs.first
   data = hash["data"] || {}
+  oc_urn = data["official_concept"]&.dig("source")
   term = {
     "slug" => File.basename(path, ".yaml"),
     "identifier" => data["identifier"],
@@ -52,6 +135,7 @@ Dir.glob(File.join(options[:data_dir], "*.yaml")).sort.each do |path|
     "official_concept" => data["official_concept"],
     "editions_present" => data["editions_present"],
     "primary_edition" => data["primary_edition"],
+    "latest_check" => oc_urn ? check_latest_edition(data["term"], oc_urn, latest_indices) : nil,
     "publications" => (data["publications"] || []).map do |p|
       p.merge(
         "defined" => data["kind"] == "defined_in_vim" || data["kind"] == "defined_in_viml",

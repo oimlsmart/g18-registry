@@ -29,8 +29,8 @@ data:
     definition: verification of a measuring instrument which has not been verified
       previously [VIML, 2.15]
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: ok
+    consistency_reason: The definitions are identical in wording and meaning.
     related:
     - type: see
       ref:
@@ -47,8 +47,8 @@ data:
     definition: verification of a measuring instrument which has not been verified
       previously [VIML 2.15]
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: ok
+    consistency_reason: The definitions are identical in wording and meaning.
 status: current
 id: 41ec4249-e9d2-5f8a-a1de-62fbd692e186
 schema_version: '3'

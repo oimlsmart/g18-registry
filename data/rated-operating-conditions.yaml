@@ -30,8 +30,10 @@ data:
       for which the specified metrological characteristics of ameasuring instrument
       are intended to lie within given limits
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Publication adds 'range of values of influence quantities'
+      which narrows the concept to influence quantities specifically rather than general
+      conditions of use.
   - edition: '2010'
     publication: OIML R 143:2009
     publication_id: OIML R143:2009
@@ -44,8 +46,9 @@ data:
       order that a measuring instrument or measuring system perform as designed
     notes:
     - "(VIM:2007, 4.9)"
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Publication replaces 'characteristics lie within given limits'
+      with vague 'perform as designed' and shifts from intended-use to mandatory conditions.
   - edition: '2010'
     publication: OIML R 85-1:2008
     publication_id: OIML R085-1:2008
@@ -60,8 +63,9 @@ data:
     notes:
     - The rated operating conditions generally ify intervals of values for the quantity
       g measured and for any influence tity.
-    consistency: pending
-    consistency_reason: ''
+    consistency: ok
+    consistency_reason: Both define conditions of use where metrological characteristics
+      stay within specified limits; influence quantities range is an equivalent elaboration.
   - edition: '2010'
     publication: OIML R 99-1:2008
     publication_id: OIML R099-1:2008
@@ -73,8 +77,10 @@ data:
     definition: operating condition that must be fulfilled during measurement in (VIM:2007,
       4.9) order that a measuring instrument or measuring system perform asdesigned
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: ko
+    consistency_reason: Publication describes a quantity affecting the indication-result
+      relation rather than the measurement result itself, a substantively different
+      concept.
     related:
     - type: see
       ref:
@@ -92,8 +98,10 @@ data:
       for which the metrological characteristics are intended tolie within the specified
       maximum permissible errors
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Narrows 'given limits' to 'maximum permissible errors' and
+      restricts to 'range of values of influence quantities' rather than general conditions
+      of use.
   - edition: '2010'
     publication: OIML R 107-1:2007
     publication_id: OIML R107-1:2007
@@ -108,8 +116,9 @@ data:
     - These conditions of use are the range of weight values and the range of influence
       quantity values for which the indication of an instrument is intended to lie
       within maximum permissible errors.
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Drops the qualifier 'measuring' from 'measuring instrument,'
+      slightly broadening the scope beyond the official definition.
   - edition: '2010'
     publication: OIML R 117-1:2007
     publication_id: OIML R117-1:2007
@@ -122,8 +131,10 @@ data:
       for which the metrological characteristics are intended tobe within the maximum
       permissible errors
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Restricts metrological characteristics specifically to maximum
+      permissible errors rather than the broader official concept of lying within
+      given limits.
   - edition: '2010'
     publication: OIML R 139:2007
     publication_id: OIML R139:2007
@@ -136,8 +147,10 @@ data:
       for which the metrological characteristics are intended to be within the maximum
       permissible errors
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Publication adds 'range of values of influence quantities'
+      and equates 'given limits' specifically to 'maximum permissible errors', narrowing
+      the concept.
   - edition: '2010'
     publication: OIML R 140:2007
     publication_id: OIML R140:2007
@@ -151,8 +164,10 @@ data:
       permissible errors
     notes:
     - "(adapted from VIM:2007, 4.9)"
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Narrows 'specified metrological characteristics' to 'maximum
+      permissible errors' and restricts 'conditions of use' to 'range of values of
+      influence quantities' rather than general conditions.
   - edition: '2010'
     publication: OIML R 51-1:2006
     publication_id: OIML R051-1:2006
@@ -166,8 +181,10 @@ data:
       to lie within the maximum permissible errors specified in this Recommendation
       IM:1993, 5.5]"
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Publication restricts the concept to maximum permissible errors
+      per a specific Recommendation and adds ranges of measurand and influence quantities,
+      narrowing the general definition.
   - edition: '2010'
     publication: OIML R 76-1:2006
     publication_id: OIML R076-1:2006
@@ -180,8 +197,10 @@ data:
       for which the metrological characteristics are intended tolie within the specified
       maximum permissible errors IM: 1993, 5.5]"
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Publication narrows 'given limits' to 'maximum permissible
+      errors' and adds 'range of values of influence quantities' as an explanatory
+      detail not present in the official definition.
   - edition: '2010'
     publication: OIML R 137-1:2006
     publication_id: OIML R137-1:2006
@@ -195,8 +214,10 @@ data:
       to be within the limits of the maximum permissible error
     notes:
     - "[adapted from VIM:1993, 5.5]"
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Publication narrows the concept to 'maximum permissible error'
+      and restricts to gas meters, but the core meaning of conditions keeping errors
+      within specified limits is preserved.
   - edition: '2010'
     publication: OIML D 11:2004
     publication_id: OIML D011:2004
@@ -209,8 +230,10 @@ data:
       for which specified metrological characteristics of a measuring instrument are
       intended to lie within given limits [Adapted from VIM:1993, 5.5]
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Publication adds 'range of values of influence quantities'
+      which narrows the official definition to only influence quantities rather than
+      general conditions of use.
     related:
     - type: see
       ref:
@@ -229,8 +252,9 @@ data:
       to lie within the maximum permissible deviations specified in this Recommendation
       ased on VIM:1993, 5.5]"
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Adds specifics about measurand and influence quantities ranges
+      and ties limits to a specific Recommendation, narrowing the general VIM concept.
     related:
     - type: see
       ref:
@@ -262,8 +286,9 @@ data:
       for which the metrological characteristics are intended to lie within the specified
       maximum permissible errors
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Publication adds 'ranges of influence quantities' and replaces
+      'given limits' with 'specified maximum permissible errors', narrowing the concept.
   - edition: '2010'
     publication: OIML R 75-1:2002
     publication_id: OIML R075-1:2002
@@ -276,8 +301,9 @@ data:
       of a measuring instrument are intended to lie within the specified maximum permissible
       errors dapted from VIM:1993, 5.5]"
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Replaces 'given limits' with the more specific 'specified
+      maximum permissible errors', narrowing the concept unnecessarily.
     related:
     - type: see
       ref:
@@ -297,8 +323,9 @@ data:
     notes:
     - specify ranges or rated values of the measurand and of the influence quantities
       [Adapted from VIM:1993, 5.5]
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Adds specific references to load cells and MPE, and inserts
+      a stray title fragment, narrowing and cluttering the general definition.
   - edition: '2010'
     publication: OIML R 129:2000
     publication_id: OIML R129:2000
@@ -311,8 +338,10 @@ data:
       for which the metrological characteristics are intended to lie within the specified
       maximum permissible errors
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Publication narrows metrological characteristics to maximum
+      permissible errors and adds range of influence quantities, which relates to
+      rated operating conditions rather than rated conditions.
   - edition: '2010'
     publication: OIML R 81:1998
     publication_id: OIML R081:1998
@@ -325,8 +354,10 @@ data:
       for which the metrological characteristics are intended to be within the maximum
       permissible errors
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Narrows 'given limits' to 'maximum permissible errors' and
+      restricts conditions to 'range of values of influence quantities' rather than
+      general conditions of use.
   - edition: '2010'
     publication: OIML R 125:1998
     publication_id: OIML R125:1998
@@ -339,8 +370,10 @@ data:
       for which the metrological characteristics are intended to lie within the specified
       maximum permissible errors (adapted from VIM:1993, 5.5)
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Publication adds specificity about 'range of values of influence
+      quantities' and equates limits to 'maximum permissible errors', narrowing the
+      official definition.
     related:
     - type: see
       ref:
@@ -359,8 +392,10 @@ data:
       to lie within the maximum permissible errors specified in this Recommendation
       dapted from VIM:1993, 5.5]"
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Adds specificity about ranges of measurand and influence quantities
+      and ties MPE to a specific Recommendation rather than keeping general 'given
+      limits'.
     related:
     - type: see
       ref:
@@ -378,8 +413,10 @@ data:
       for which the metrological characteristics are intended tolie within the specified
       maximum permissible errors
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Replaces 'given limits' with 'specified maximum permissible
+      errors' and introduces 'influence quantities,' narrowing and partially redefining
+      the concept.
   - edition: '2010'
     publication: OIML R 124:1997
     publication_id: OIML R124:1997
@@ -392,8 +429,10 @@ data:
       for which the metrological characteristics are intended tobe within the specified
       maximum permissible errors 11 clause T.13)."
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: ok
+    consistency_reason: Semantically equivalent; both describe conditions under which
+      metrological characteristics remain within specified limits, with the publication
+      adding clarifying detail about influence quantities and MPEs.
   - edition: '2010'
     publication: OIML R 110:1994
     publication_id: OIML R110:1994
@@ -406,8 +445,10 @@ data:
       characteristics are intended to meet the requirements concerning maximum permissible
       errors
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Replaces the general 'lie within given limits' with the narrower
+      'meet requirements concerning maximum permissible errors' and restricts to pressure
+      balance.
   - edition: '2010'
     publication: OIML R 105:1993
     publication_id: OIML R105:1993
@@ -420,8 +461,10 @@ data:
       for which the metrological characteristics are intended to lie within the maximum
       permissible errors [adapted from VIM:1993, 5.05]
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Publication incorrectly equates 'given limits' specifically
+      with 'maximum permissible errors' and conflates 'range of values of influence
+      quantities' with 'conditions of use'.
     related:
     - type: see
       ref:
@@ -439,8 +482,9 @@ data:
       that a measuring instrument or measuring system perform as designed [OIML V
       2-200:2012, 4.9] [OIML V 1:2013, 0.08]
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Publication drops the key specificity about metrological characteristics
+      lying within given limits, replacing it with a vague 'perform as designed' phrasing.
   - edition: 202X
     publication: OIML R060-1:2021
     publication_id: OIML R060-1:2021
@@ -466,8 +510,10 @@ data:
     definition: operating condition that must be fulfilled during measurement in order
       that a measuring instrument or measuring system perform as designed [VIM 4.9]
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: ko
+    consistency_reason: The publication refers to mandatory conditions required during
+      measurement, while the official defines rated conditions under which characteristics
+      stay within given limits.
   - edition: 202X
     publication: OIML R150-1:2020
     publication_id: OIML R150-1:2020
@@ -482,8 +528,10 @@ data:
     notes:
     - 'Note: Rated operating conditions generally specify intervals of values for
       a quantity being measured and for any influence quantity.'
-    consistency: pending
-    consistency_reason: ''
+    consistency: ko
+    consistency_reason: The publication describes conditions that must be fulfilled
+      for proper performance, whereas the official defines the conditions under which
+      characteristics lie within given limits.
   - edition: 202X
     publication: OIML R117-1:2019
     publication_id: OIML R117-1:2019
@@ -511,8 +559,9 @@ data:
     notes:
     - 'Note: Rated operating conditions generally specify intervals of values for
       a quantity being measured and for any influence quantity.'
-    consistency: pending
-    consistency_reason: ''
+    consistency: ko
+    consistency_reason: Publication shifts from rated/nominal operating conditions
+      to required conditions, changing the concept entirely.
   - edition: 202X
     publication: OIML R080-2:2017
     publication_id: OIML R080-2:2017
@@ -540,8 +589,10 @@ data:
     notes:
     - 'Note:  Rated operating conditions generally specify intervals of values for
       a quantity being measured and for any influence quantity.'
-    consistency: pending
-    consistency_reason: ''
+    consistency: ko
+    consistency_reason: Publication incorrectly frames it as a requirement that must
+      be fulfilled rather than the conditions under which metrological characteristics
+      stay within given limits.
   - edition: 202X
     publication: OIML R146-1:2016
     publication_id: OIML R146-1:2016
@@ -556,8 +607,9 @@ data:
     notes:
     - "{NOTE Rated operating conditions generally specify intervals of values for
       a quantity being measured and for any influence quantity}"
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Publication focuses on conditions for proper performance rather
+      than specifying that metrological characteristics must lie within given limits.
   - edition: 202X
     publication: OIML R050-1:2014
     publication_id: OIML R050-1:2014
@@ -572,8 +624,11 @@ data:
     notes:
     - 'Note: Rated operating conditions generally specify intervals of values for
       a quantity being measured and for any influence quantity.'
-    consistency: pending
-    consistency_reason: ''
+    consistency: ko
+    consistency_reason: Official definition refers to conditions under which specified
+      metrolical characteristics lie within given limits (rated conditions), while
+      the publication describes conditions required for the instrument to perform
+      as designed (reference operating conditions), which is a distinct concept.
   - edition: 202X
     publication: OIML D011:2013
     publication_id: OIML D011:2013
@@ -588,8 +643,11 @@ data:
     notes:
     - Note:Rated operating conditions generally specify intervals of values for a
       quantity being measured and for any influence quantity.
-    consistency: pending
-    consistency_reason: ''
+    consistency: ko
+    consistency_reason: The publication describes conditions required for proper operation,
+      while the official defines conditions under which metrological characteristics
+      stay within given limits—related but distinct concepts (rated vs. reference
+      operating conditions).
   - edition: 202X
     publication: OIML R144-1:2013
     publication_id: OIML R144-1:2013
@@ -602,8 +660,11 @@ data:
       order that a measuring instrument or measuring system perform as designed [VIM,
       4.9] [1]
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: ko
+    consistency_reason: The publication defines operating conditions during measurement
+      (rated operating conditions), whereas the official defines conditions under
+      which metrological characteristics stay within given limits (reference operating
+      conditions).
   - edition: 202X
     publication: OIML R046-1:2012
     publication_id: OIML R046-1:2012
@@ -619,8 +680,10 @@ data:
       a quantity being measured and for any influence quantity. [OIML V2-200:2012,
       4.9] Note 2: For the application of this Recommendation, the terms “measuring
       instrument” and “measuring system” mean: electricity meter.'
-    consistency: pending
-    consistency_reason: ''
+    consistency: ko
+    consistency_reason: Publication shifts from intended operating conditions to mandatory
+      conditions required for proper performance, changing the concept from design
+      specification to usage requirement.
   - edition: 202X
     publication: OIML R137:2012
     publication_id: OIML R137:2012
@@ -647,8 +710,10 @@ data:
       for which the metrological characteristics are intended to lie within the specified
       maximum permissible errors
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Publication adds 'ranges of influence quantities' which is
+      a different conceptual framing, and replaces 'given limits' with the more specific
+      'specified maximum permissible errors'.
   - edition: 202X
     publication: OIML R 80-1:2009
     publication_id: OIML R080-1:2009
@@ -661,8 +726,9 @@ data:
       for which the specified metrological characteristics of a measuring instrument
       are intended to lie within given limits
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Publication adds 'range of values of influence quantities,'
+      which is an elaboration not present in the official definition.
   - edition: 202X
     publication: OIML R 143:2009
     publication_id: OIML R143:2009
@@ -675,8 +741,9 @@ data:
       order that a measuring instrument or measuring system perform as designed [VIM:2007,
       4.9]
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Publication replaces 'characteristics lie within given limits'
+      with vague 'perform as designed' and shifts from intended-use to mandatory conditions.
   - edition: 202X
     publication: OIML R 85-1:2008
     publication_id: OIML R085-1:2008
@@ -691,8 +758,10 @@ data:
     notes:
     - 'Note: The rated operating conditions generally specify intervals of values
       for the quantity being measured and for any influence quantity.'
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Publication shifts focus from 'specified metrological characteristics
+      lying within given limits' to 'metrological characteristics lying within specified
+      permissible errors,' which conflates metrological characteristics with errors.
   - edition: 202X
     publication: OIML R 99-1:2008
     publication_id: OIML R099-1:2008
@@ -705,8 +774,10 @@ data:
       that a measuring instrument or measuring system perform as designed [VIM:2007,
       4.9]
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: ko
+    consistency_reason: The publication refers to conditions that must be fulfilled
+      during measurement, whereas the official definition refers to conditions under
+      which specified metrological characteristics remain within given limits.
   - edition: 202X
     publication: OIML R 35-1:2007
     publication_id: OIML R035-1:2007
@@ -719,8 +790,10 @@ data:
       for which the metrological characteristics are intended to lie within the specified
       maximum permissible errors
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Narrows 'given limits' to 'maximum permissible errors' and
+      restricts to 'range of values of influence quantities' rather than general conditions
+      of use.
   - edition: 202X
     publication: OIML R 107-1:2007
     publication_id: OIML R107-1:2007
@@ -735,8 +808,9 @@ data:
     - 'Note: These conditions of use are the range of weight values and the range
       of influence quantity values for which the indication of an instrument is intended
       to lie within maximum permissible errors.'
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Drops the qualifier 'measuring' from 'measuring instrument,'
+      slightly broadening the scope beyond the official definition.
   - edition: 202X
     publication: OIML R 140:2007
     publication_id: OIML R140:2007
@@ -749,8 +823,10 @@ data:
       for which the metrological characteristics are intended to lie within the maximum
       permissible errors [adapted from VIM:2007, 4.9]
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Narrows 'specified metrological characteristics' to 'maximum
+      permissible errors' and restricts 'conditions of use' to 'range of values of
+      influence quantities' rather than general conditions.
   - edition: 202X
     publication: OIML R 51-1:2006
     publication_id: OIML R051-1:2006
@@ -763,8 +839,10 @@ data:
       quantities for which the metrological characteristics are intended to lie within
       the maximum permissible errors specified in this Recommendation [VIM:1993, 5.5]
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Publication restricts the concept to maximum permissible errors
+      per a specific Recommendation and adds ranges of measurand and influence quantities,
+      narrowing the general definition.
   - edition: 202X
     publication: OIML R 76-1:2006
     publication_id: OIML R076-1:2006
@@ -777,8 +855,10 @@ data:
       for which the metrological characteristics are intended to lie within the specified
       maximum permissible errors [VIM: 1993, 5.5]'
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Publication narrows 'given limits' to 'maximum permissible
+      errors' and adds 'range of values of influence quantities' as an explanatory
+      detail not present in the official definition.
   - edition: 202X
     publication: OIML R134:2006
     publication_id: OIML R134:2006
@@ -819,8 +899,9 @@ data:
       of a measuring instrument are intended to lie within the specified maximum permissible
       errors [adapted from VIM:1993, 5.5]
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Replaces 'given limits' with the more specific 'specified
+      maximum permissible errors', narrowing the concept unnecessarily.
   - edition: 202X
     publication: OIML R 81:1998
     publication_id: OIML R081:1998
@@ -833,8 +914,10 @@ data:
       for which the metrological characteristics are intended to be within the maximum
       permissible errors
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Narrows 'given limits' to 'maximum permissible errors' and
+      restricts conditions to 'range of values of influence quantities' rather than
+      general conditions of use.
   - edition: 202X
     publication: OIML R 125:1998
     publication_id: OIML R125:1998
@@ -847,8 +930,10 @@ data:
       for which the metrological characteristics are intended to lie within the specified
       maximum permissible errors (adapted from VIM:1993, 5.5)
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Publication adds specificity about 'range of values of influence
+      quantities' and equates limits to 'maximum permissible errors', narrowing the
+      official definition.
   - edition: 202X
     publication: OIML R 124:1997
     publication_id: OIML R124:1997
@@ -861,8 +946,10 @@ data:
       for which the metrological characteristics are intended to be within the specified
       maximum permissible errors (D 11 clause T.13).
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: ok
+    consistency_reason: Semantically equivalent; both describe conditions under which
+      metrological characteristics remain within specified limits, with the publication
+      adding clarifying detail about influence quantities and MPEs.
   - edition: 202X
     publication: OIML R 110:1994
     publication_id: OIML R110:1994
@@ -875,8 +962,10 @@ data:
       characteristics are intended to meet the requirements concerning maximum permissible
       errors
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Replaces the general 'lie within given limits' with the narrower
+      'meet requirements concerning maximum permissible errors' and restricts to pressure
+      balance.
 status: current
 id: 6c3a7cdd-f0af-5950-b0d7-9ac5cb2f0614
 schema_version: '3'

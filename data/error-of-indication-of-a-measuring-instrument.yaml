@@ -29,8 +29,9 @@ data:
     definition: "[a indication of the measuring instrument minus the conventional
       true value of the corresponding input quantity dapted from VIM:1993, 5.20]."
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Publication adds 'conventional' which narrows 'true value'
+      to a specific type of true value.
     related:
     - type: see
       ref:
@@ -47,8 +48,9 @@ data:
     definition: indication of the measuring instrument minus the conventional true
       value of the corresponding input quantity [adapted from VIM:1993, 5.20].
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Publication adds 'conventional' which narrows 'true value'
+      to a specific type of true value.
 status: current
 id: 9baf0e53-f88b-5703-b806-1616d58af0e7
 schema_version: '3'

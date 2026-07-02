@@ -53,8 +53,10 @@ data:
       statutory requirements
     notes:
     - "[VIML, 2.13] s"
-    consistency: pending
-    consistency_reason: ''
+    consistency: ok
+    consistency_reason: The publication conveys the same meaning; 'establishes' vs
+      'ascertains' and minor rewording of the scope of marking/certification are semantically
+      equivalent.
   - edition: '2010'
     publication: OIML D 27:2001
     publication_id: OIML D027:2001
@@ -68,8 +70,9 @@ data:
       confirms that the measuring instrument complies with the statutory requirements
       [VIML, 2.13]
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: ok
+    consistency_reason: The publication's definition is verbatim identical to the
+      official VIML definition, with only the addition of the source citation.
     related:
     - type: see
       ref:
@@ -88,8 +91,10 @@ data:
       certificate
     notes:
     - 'Note: See also OIML V 2-200:2012, 2.44.'
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Publication omits the essential purpose clause that the procedure
+      'ascertains and confirms that the measuring instrument complies with the statutory
+      requirements'.
   - edition: 202X
     publication: OIML D031:2023
     publication_id: OIML D031:2023
@@ -103,8 +108,10 @@ data:
       certificate adapted form [OIML V 1:2022, 2.09]
     notes:
     - 'Note: See also OIML V 2-200:2012, 2.44.'
-    consistency: pending
-    consistency_reason: ''
+    consistency: ok
+    consistency_reason: Both definitions convey the same concept of statutory verification
+      of measuring instruments, with only minor wording variations such as 'type evaluation'
+      vs 'type approval' and 'affixing' vs 'marking'.
   - edition: 202X
     publication: OIML D005:2022
     publication_id: OIML D005:2022
@@ -118,8 +125,9 @@ data:
       certificate [VIML, 2.09]
     notes:
     - 'Note: See also OIML V 2-200:2012, 2.44.'
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Publication drops the purpose clause 'ascertains and confirms
+      that the measuring instrument complies with the statutory requirements.'
   - edition: 202X
     publication: OIML R126-1:2021
     publication_id: OIML R126-1:2021
@@ -133,8 +141,9 @@ data:
       certificate (OIML V 1, 2.09)
     notes:
     - 'Note: See OIML V 2-200:2012, 2.44 for more information.'
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Publication drops the purpose clause 'ascertains and confirms
+      that the measuring instrument complies with the statutory requirements.'
   - edition: 202X
     publication: OIML D034:2019
     publication_id: OIML D034:2019
@@ -147,8 +156,10 @@ data:
       results in the affixing of a verification mark and/or issuing of a verification
       certificate [form VIML, 2.09]
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Drops the core semantic element of ascertaining and confirming
+      compliance with statutory requirements, replacing it only with the procedural
+      outputs (marking/certificate).
   - edition: 202X
     publication: OIML R059-1:2016
     publication_id: OIML R059-1:2016
@@ -162,8 +173,10 @@ data:
       certificate [VIML 2.09]
     notes:
     - 'Note: See also OIML V2-200:2010, 2.44.'
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Publication omits the core semantic content that the procedure
+      'ascertains and confirms that the measuring instrument complies with the statutory
+      requirements.'
   - edition: 202X
     publication: OIML R146-1:2016
     publication_id: OIML R146-1:2016
@@ -177,8 +190,9 @@ data:
       certificate [VIML 2.09]}"
     notes:
     - "{Note See also OIML V2-200:2012, 2.44.}"
-    consistency: pending
-    consistency_reason: ''
+    consistency: ok
+    consistency_reason: Semantically equivalent; type evaluation/type approval are
+      synonymous and affixing/marking are equivalent actions.
   - edition: 202X
     publication: OIML D001:2012
     publication_id: OIML D001:2012
@@ -191,8 +205,10 @@ data:
       (other than type evaluation) which results in the affixing of a verification
       mark and/or issuing of a verification certificate [VIML 2.10]
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Drops the key clause 'ascertains and confirms that the measuring
+      instrument complies with the statutory requirements' and replaces 'type approval'
+      with 'type evaluation'.
   - edition: 202X
     publication: OIML D016:2011
     publication_id: OIML D016:2011
@@ -206,8 +222,9 @@ data:
       confirms that the measuring instrument complies with the statutory requirements
       [VIML 2.13]
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: ok
+    consistency_reason: The publication's definition is verbatim and includes the
+      correct VIML reference.
   - edition: 202X
     publication: OIML D 9:2004
     publication_id: OIML D009:2004
@@ -236,8 +253,10 @@ data:
       that establishes and confirms that the measuring instrument complies with the
       statutory requirements [VIML, 2.13]
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: ok
+    consistency_reason: The publication conveys the same meaning; 'establishes' vs
+      'ascertains' and minor rewording of the scope of marking/certification are semantically
+      equivalent.
   - edition: 202X
     publication: OIML D 27:2001
     publication_id: OIML D027:2001
@@ -251,8 +270,9 @@ data:
       confirms that the measuring instrument complies with the statutory requirements
       [VIML  2.13]
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: ok
+    consistency_reason: The publication's definition is verbatim identical to the
+      official VIML definition, with only the addition of the source citation.
 status: current
 id: 780125ef-b5ce-5062-98cd-a81fd2e7d39a
 schema_version: '3'

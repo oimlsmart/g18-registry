@@ -32,8 +32,10 @@ data:
     notes:
     - rformance and quality of the ement ; it includes, for example, the ple, method,
       procedure, values of the nce quantities and the measurement rds.
-    consistency: pending
-    consistency_reason: ''
+    consistency: ko
+    consistency_reason: The publication defines 'measuring system/measurement procedure'
+      (information, equipment, operations), not the concept of a quantity functionally
+      related to the measurand.
     related:
     - type: see
       ref:
@@ -53,8 +55,10 @@ data:
     notes:
     - rformance and quality of the ement; it includes for example the ple, method,
       procedure, values of the nce quantities and the measurement rds (VIM:1993, 2.08).
-    consistency: pending
-    consistency_reason: ''
+    consistency: ko
+    consistency_reason: The publication's text is garbled and appears to describe
+      a measurement system or process rather than a quantity functionally related
+      to the measurand.
   - edition: 202X
     publication: OIML D 20:1988
     publication_id: OIML D020:1988
@@ -69,8 +73,10 @@ data:
     - 'Note: This concept embraces all aspects relating to the performance and quality
       of the measurement ; it includes, for example, the principle, method, procedure,
       values of the influence quantities and the measurement standards.'
-    consistency: pending
-    consistency_reason: ''
+    consistency: ko
+    consistency_reason: The publication defines 'measuring system/measurement procedure'
+      (information, equipment, operations), not the concept of a quantity functionally
+      related to the measurand.
 status: current
 id: 3d9e93c7-879d-5f59-a69f-34b3a484d66a
 schema_version: '3'

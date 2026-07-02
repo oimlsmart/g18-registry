@@ -29,8 +29,9 @@ data:
       of the measurand (the applied force expressed in mass) [Adapted from VIM:1993,
       5.20]
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Narrows the general concept to load cells specifically and
+      conflates 'indication' with 'measurement result'.
     related:
     - type: see
       ref:

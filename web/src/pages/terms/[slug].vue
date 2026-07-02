@@ -56,8 +56,13 @@ const actions = computed(() => {
   if (!term.value) return [];
   const a: any[] = [];
   const oc = term.value.official_concept;
-  if (oc && oc.source && isSuperseded(oc.source)) {
-    a.push({ priority: "high", text: `Verify this term still appears in ${latestLabel(oc.source)}.` });
+  const lc = term.value.latest_check;
+  if (oc && oc.source && isSuperseded(oc.source) && lc) {
+    if (lc.found) {
+      a.push({ priority: "info", text: `✓ This term IS in ${lc.latest_label} (concept #${lc.concept_id}). Definition may differ from ${oc.edition_label}.`, link: lc.url, label: `View ${lc.latest_label} entry` });
+    } else {
+      a.push({ priority: "high", text: `✗ This term is NOT in ${lc.latest_label}. It may have been removed, renamed, or superseded by a different concept.` });
+    }
   }
   if (term.value.kind === "undefined") {
     a.push({ priority: "high", text: "No authoritative definition in VIM or VIML." });

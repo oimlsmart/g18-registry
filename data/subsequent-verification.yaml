@@ -34,8 +34,9 @@ data:
     - Subsequent verification of a measuring instrument may be carried out before
       expiry of the period of validity of a previous verification either at the request
       of the user (owner) or when its verification is declared t be no longer valid.
-    consistency: pending
-    consistency_reason: ''
+    consistency: ok
+    consistency_reason: Both definitions list the same two sub-items (mandatory periodic
+      verification and verification after repair) with identical overall meaning.
     related:
     - type: see
       ref:
@@ -56,8 +57,9 @@ data:
       the stamp is no longer valid for the remainder of this period of validity [VML
       2.4.3]'
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Publication adds extra subcategories (verification before
+      expiry at user request or invalid stamp) not present in the official definition.
   - edition: 202X
     publication: OIML R126-1:2021
     publication_id: OIML R126-1:2021
@@ -86,8 +88,9 @@ data:
     g18_entry: '03542'
     definition: verification of measuring instrument after a previous verification
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Drops the enumerative clause specifying what subsequent verification
+      includes (mandatory periodic verification, verification after repair).
   - edition: 202X
     publication: OIML D016:2011
     publication_id: OIML D016:2011
@@ -103,8 +106,10 @@ data:
     - Note:Subsequent verification of a measuring instrument may be carried out before
       expiry of the period of validity of a previous verification either at the request
       of the user (owner) or when its verification is declared to be no longer valid.
-    consistency: pending
-    consistency_reason: ''
+    consistency: ok
+    consistency_reason: 'Both definitions list the same three components: verification
+      after a previous verification, mandatory periodic verification, and verification
+      after repair.'
   - edition: 202X
     publication: OIML D 9:2004
     publication_id: OIML D009:2004
@@ -120,8 +125,9 @@ data:
     - Note:Subsequent verification of a measuring instrument may be carried out before
       expiry of the period of validity of a previous  verification either at the request
       of the user (owner) or when its verification is declared to be no longer valid.
-    consistency: pending
-    consistency_reason: ''
+    consistency: ok
+    consistency_reason: Both definitions list the same two sub-items (mandatory periodic
+      verification and verification after repair) with identical overall meaning.
   - edition: 202X
     publication: OIML D 15:1986
     publication_id: OIML D015:1986
@@ -137,8 +143,9 @@ data:
       the stamp is no longer valid for the remainder of this period of validity [VML
       2.4.3'
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Publication adds extra subcategories (verification before
+      expiry at user request or invalid stamp) not present in the official definition.
 status: current
 id: 7b61e5d6-b467-5cb6-be13-4ac6cf2b2f16
 schema_version: '3'

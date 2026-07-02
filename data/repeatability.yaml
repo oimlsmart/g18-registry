@@ -33,8 +33,10 @@ data:
       3.6] condit"
     notes:
     - ng results that agree one with the other the same or constant operating ions.
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Publication refers to 'results of successive measurements'
+      rather than the instrument's ability to provide 'closely similar indications,'
+      shifting focus from instrument performance to measurement outcomes.
   - edition: '2010'
     publication: OIML R 39:2006
     publication_id: OIML R039:2006
@@ -48,8 +50,10 @@ data:
       measurements carried out by the same observer using the same test procedures
       at the same location under similar ambient conditions
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Publication adds unnecessary specificity (observer, procedures,
+      location, ambient conditions) and replaces 'measurand' with 'uniform test sample'
+      and 'indications' with 'results of successive measurements'.
   - edition: '2010'
     publication: OIML R 51-1:2006
     publication_id: OIML R051-1:2006
@@ -78,8 +82,10 @@ data:
       under similar ambient conditions, using the same measuring instrument and test
       procedures'
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Publication ends with 'according to the following conditions:'
+      suggesting additional listed conditions, and omits 'measuring instrument' framing
+      by focusing on 'results of successive measurements.'
   - edition: '2010'
     publication: OIML R 76-1:2006
     publication_id: OIML R076-1:2006
@@ -92,8 +98,10 @@ data:
       other when the same load is deposited several times and in a practically identical
       way on the load receptor under reasonably constant test conditions
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Uses specific terminology ('load', 'load receptor') suited
+      to weighing instruments rather than the general concept, and 'reasonably constant'
+      weakens 'same conditions of measurement'.
   - edition: '2010'
     publication: OIML R 82:2006
     publication_id: OIML R082:2006
@@ -106,8 +114,9 @@ data:
       of the same measurand carried out under the same conditions and within a relatively
       short period of time
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Publication omits that precision is an ability of a measuring
+      instrument and uses 'results of successive measurements' instead of 'indications'.
   - edition: '2010'
     publication: OIML R 83:2006
     publication_id: OIML R083:2006
@@ -120,8 +129,9 @@ data:
       of the same measurand carried out under the same conditions and within a relative
       short period of time
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Shifts focus from instrument indications to measurement results
+      and omits the notion of a measuring instrument's ability.
   - edition: '2010'
     publication: OIML R 116:2006
     publication_id: OIML R116:2006
@@ -136,8 +146,10 @@ data:
     notes:
     - ethod of measurement, the operator, the ring instrument, the location, and the
       onmental condition
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Publication describes closeness of agreement between measurements
+      rather than indications of a measuring instrument, and adds 'within a short
+      period of time' which is a specific condition not in the official definition.
   - edition: '2010'
     publication: OIML R 136-1:2004
     publication_id: OIML R136-1:2004
@@ -156,8 +168,10 @@ data:
       over a short period of time. Repeatability may be expressed quantitatively in
       terms of the dispersion characteristics of th results."
     - 2. [VIM:1993, 3.6]
-    consistency: pending
-    consistency_reason: ''
+    consistency: ko
+    consistency_reason: The publication defines repeatability as a specific numerical
+      difference (Amax – Amin) rather than the ability to provide closely similar
+      indications, conflating the concept with a particular quantification method.
   - edition: '2010'
     publication: OIML R 131:2001
     publication_id: OIML R131:2001
@@ -186,8 +200,10 @@ data:
       of the same sample carried out under the same conditions and within a relatively
       short period of time.
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Publication uses 'results of successive measurements' and
+      'same sample' rather than 'indications of a measuring instrument' and 'measurand',
+      and omits the concept of repeated applications to the instrument.
   - edition: '2010'
     publication: OIML R 60:2000
     publication_id: OIML R060:2000
@@ -200,8 +216,10 @@ data:
       when the same load is applied several times and applied in the same manner on
       the load cell under constant test conditions [Adapted from VIM:1993, 5.27]
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: ok
+    consistency_reason: Publication correctly generalizes the VIM definition to load
+      cells with equivalent meaning including repeated measurand, same manner of application,
+      and constant conditions.
     related:
     - type: see
       ref:
@@ -221,8 +239,11 @@ data:
     notes:
     - The same conditions would include the same method of measurement, measuring
       instrument, operator, location, and ambient environmental conditions.
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Publication shifts from instrument indications to measurement
+      results, and replaces 'measurand' with 'sample'; also adds 'relatively short
+      period of time' implying repeatability rather than the broader reproducibility
+      context.
   - edition: '2010'
     publication: OIML R 81:1998
     publication_id: OIML R081:1998
@@ -235,8 +256,9 @@ data:
       for repeated applications of the same measurand under the same conditions of
       measurement [VIM:1993, 5.27]
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: ok
+    consistency_reason: The definitions are semantically identical, differing only
+      by the addition of the source citation.
     related:
     - type: see
       ref:
@@ -254,8 +276,10 @@ data:
       of the same measurand carried out under the same conditions of measurement (VIM:1993,
       3.6)
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Publication says 'results of successive measurements' instead
+      of 'indications of a measuring instrument', shifting from instrument property
+      to broader measurement outcomes.
     related:
     - type: see
       ref:
@@ -273,8 +297,10 @@ data:
       measured pressure for multiple applications of the same load under constant
       conditions of measurement
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: ok
+    consistency_reason: 'Semantically equivalent: applies the general VIM definition
+      of repeatability specifically to a pressure balance with measurand as measured
+      pressure and measurand application as load.'
   - edition: '2010'
     publication: OIML R 112:1994
     publication_id: OIML R112:1994
@@ -305,8 +331,10 @@ data:
     notes:
     - 'The same conditions include the following: ethod of measurement, the operator,
       the ring instrument, the location, and the onmental conditions.'
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Publication refers to 'results of successive measurements'
+      rather than 'indications of a measuring instrument', shifting the concept from
+      instrument behavior to measurement outcomes.
   - edition: '2010'
     publication: OIML D 22:1991
     publication_id: OIML D022:1991
@@ -320,8 +348,9 @@ data:
       the same conditions of use within a relatively short period of time. Repeatability
       is synonymous with the term "precision" for an instrument
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Adds incorrect claim that repeatability is synonymous with
+      precision, which is a distinct concept in metrology.
   - edition: '2010'
     publication: OIML R 100:1991
     publication_id: OIML R100:1991
@@ -334,8 +363,9 @@ data:
       of the same quantity being measured using the same instrument and under the
       same defined conditions within a relatively short period of time
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Publication adds 'relatively short period of time' and says
+      'successive measurements' rather than 'repeated applications' to the instrument.
   - edition: 202X
     publication: OIML R100-1:2013
     publication_id: OIML R100-1:2013
@@ -348,8 +378,10 @@ data:
       of the same quantity being measured using the same instrument and under the
       same defined conditions within a relatively short period of time
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Adds 'relatively short period of time' and 'results of successive
+      measurements' rather than 'indications of the instrument,' slightly shifting
+      emphasis from instrument behavior to measurement results.
   - edition: 202X
     publication: OIML R137:2012
     publication_id: OIML R137:2012
@@ -361,8 +393,10 @@ data:
     definition: measurement precision under a set of repeatability conditions of measurement
       [VIM 2.21]
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: ok
+    consistency_reason: The publication correctly identifies the concept by its formal
+      VIM term and references repeatability conditions, which semantically matches
+      the official definition.
   - edition: 202X
     publication: OIML R106-1:2011
     publication_id: OIML R106-1:2011
@@ -374,8 +408,9 @@ data:
     definition: ability of an instrument to provide results that agree one with the
       other under the same operating conditions of measurement [based on VIM 3.6]
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Drops 'repeated applications of the same measurand' and replaces
+      'measuring instrument' with generic 'instrument'.
   - edition: 202X
     publication: OIML R 107-1:2007
     publication_id: OIML R107-1:2007
@@ -390,8 +425,10 @@ data:
     notes:
     - 'Note:  For an instrument, this is its ability to provide weighing results that
       agree one with the other under the same or constant operating conditions.'
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Publication refers to 'results of successive measurements'
+      rather than the instrument's ability to provide 'closely similar indications,'
+      shifting focus from instrument performance to measurement outcomes.
   - edition: 202X
     publication: OIML R 39:2006
     publication_id: OIML R039:2006
@@ -405,8 +442,10 @@ data:
       measurements carried out by the same observer using the same test procedures
       at the same location under similar ambient conditions
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Publication adds unnecessary specificity (observer, procedures,
+      location, ambient conditions) and replaces 'measurand' with 'uniform test sample'
+      and 'indications' with 'results of successive measurements'.
   - edition: 202X
     publication: OIML R 51-1:2006
     publication_id: OIML R051-1:2006
@@ -432,8 +471,10 @@ data:
     definition: 'closeness of agreement among the results of successive measurements
       of the same measurand according to the following conditions:'
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Publication ends with 'according to the following conditions:'
+      suggesting additional listed conditions, and omits 'measuring instrument' framing
+      by focusing on 'results of successive measurements.'
   - edition: 202X
     publication: OIML R 76-1:2006
     publication_id: OIML R076-1:2006
@@ -446,8 +487,10 @@ data:
       other when the same load is deposited several times and in a practically  identical
       way on the load receptor under reasonably constant test conditions
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Uses specific terminology ('load', 'load receptor') suited
+      to weighing instruments rather than the general concept, and 'reasonably constant'
+      weakens 'same conditions of measurement'.
   - edition: 202X
     publication: OIML R 82:2006
     publication_id: OIML R082:2006
@@ -460,8 +503,9 @@ data:
       of the same measurand carried out under the same conditions and within a relatively
       short period of time
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Publication omits that precision is an ability of a measuring
+      instrument and uses 'results of successive measurements' instead of 'indications'.
   - edition: 202X
     publication: OIML R 83:2006
     publication_id: OIML R083:2006
@@ -474,8 +518,9 @@ data:
       of the same measurand carried out under the same conditions and within a relative
       short period of time
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Shifts focus from instrument indications to measurement results
+      and omits the notion of a measuring instrument's ability.
   - edition: 202X
     publication: OIML R 116:2006
     publication_id: OIML R116:2006
@@ -490,8 +535,10 @@ data:
     notes:
     - 'Note: The same conditions include the following: the method of measurement,
       the operator, the measuring instrument, the location, and the environmental  condition'
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Publication describes closeness of agreement between measurements
+      rather than indications of a measuring instrument, and adds 'within a short
+      period of time' which is a specific condition not in the official definition.
   - edition: 202X
     publication: OIML R 136-1:2004
     publication_id: OIML R136-1:2004
@@ -509,8 +556,10 @@ data:
       the same location; and repetition over a short period of time. Repeatability
       may be expressed quantitatively in terms of the dispersion characteristics of
       the results. Note 2:  [VIM:1993, 3.6]'
-    consistency: pending
-    consistency_reason: ''
+    consistency: ko
+    consistency_reason: The publication defines repeatability as a specific numerical
+      difference (Amax – Amin) rather than the ability to provide closely similar
+      indications, conflating the concept with a particular quantification method.
   - edition: 202X
     publication: OIML R 131:2001
     publication_id: OIML R131:2001
@@ -539,8 +588,10 @@ data:
       of the same sample carried out under the same conditions and within a relatively
       short period of time.
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Publication uses 'results of successive measurements' and
+      'same sample' rather than 'indications of a measuring instrument' and 'measurand',
+      and omits the concept of repeated applications to the instrument.
   - edition: 202X
     publication: OIML R 127:1999
     publication_id: OIML R127:1999
@@ -555,8 +606,11 @@ data:
     notes:
     - 'Note:  The same conditions would include the same method of measurement, measuring
       instrument, operator, location, and ambient environmental  conditions.'
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Publication shifts from instrument indications to measurement
+      results, and replaces 'measurand' with 'sample'; also adds 'relatively short
+      period of time' implying repeatability rather than the broader reproducibility
+      context.
   - edition: 202X
     publication: OIML R 81:1998
     publication_id: OIML R081:1998
@@ -569,8 +623,9 @@ data:
       for repeated applications of the same measurand under the same conditions of
       measurement [VIM:1993, 5.27]
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: ok
+    consistency_reason: The definitions are semantically identical, differing only
+      by the addition of the source citation.
   - edition: 202X
     publication: OIML R 125:1998
     publication_id: OIML R125:1998
@@ -583,8 +638,10 @@ data:
       of the same measurand carried out under the same conditions of measurement (VIM:1993,
       3.6)
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Publication says 'results of successive measurements' instead
+      of 'indications of a measuring instrument', shifting from instrument property
+      to broader measurement outcomes.
   - edition: 202X
     publication: OIML R 123:1997
     publication_id: OIML R123:1997
@@ -600,8 +657,9 @@ data:
     - 'Note:  The same defined conditions would include the following: method of measurement,
       the measuring instrument, the operator, the location and the ambient environmental
       conditions.'
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Publication narrows scope to 'same sample' and 'same instrument'
+      (repeatability) rather than 'same measurand' and 'measuring instrument' generally.
   - edition: 202X
     publication: OIML R 110:1994
     publication_id: OIML R110:1994
@@ -614,8 +672,10 @@ data:
       measured pressure for multiple applications of the same load under constant
       conditions of measurement
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: ok
+    consistency_reason: 'Semantically equivalent: applies the general VIM definition
+      of repeatability specifically to a pressure balance with measurand as measured
+      pressure and measurand application as load.'
   - edition: 202X
     publication: OIML R 112:1994
     publication_id: OIML R112:1994
@@ -648,8 +708,10 @@ data:
     - 'Note: The same conditions include the following: the method of measurement,
       the operator, the measuring instrument, the location, and the environmental
       conditions.'
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Publication refers to 'results of successive measurements'
+      rather than 'indications of a measuring instrument', shifting the concept from
+      instrument behavior to measurement outcomes.
   - edition: 202X
     publication: OIML D 22:1991
     publication_id: OIML D022:1991
@@ -663,8 +725,9 @@ data:
       the same conditions of use within a relatively short period of time. Repeatability
       is synonymous with the term "precision" for an instrument
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Adds incorrect claim that repeatability is synonymous with
+      precision, which is a distinct concept in metrology.
 status: current
 id: 96d9f55d-8d67-5f69-9f58-b85fca8f65e1
 schema_version: '3'

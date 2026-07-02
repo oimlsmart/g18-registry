@@ -36,8 +36,10 @@ data:
     - 'Conformity assessment does not only concern metrological requirements but may
       also cover requirements relating to: - safety; - EMC; - software identification;
       - ease of use; - marking; - etc.'
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Publication replaces 'measuring instruments' with 'a measuring
+      instrument,' creating a grammatical mismatch with the subsequent clause covering
+      single instruments, lots, and series.
     related:
     - type: see
       ref:
@@ -60,8 +62,9 @@ data:
       but may also cover requirements relating to: safety; EMC; software identification;
       ease of use; marking, etc. Note 2:Conformity assessment of a measuring instrument
       is hereafter referred to as “conformity assessment”.'
-    consistency: pending
-    consistency_reason: ''
+    consistency: ok
+    consistency_reason: The publication's definition is identical in semantic content,
+      differing only by the addition of the source citation [VIML 2.11].
   - edition: 202X
     publication: OIML D 9:2004
     publication_id: OIML D009:2004
@@ -78,8 +81,10 @@ data:
     - 'Note: Conformity assessment does not only concern metrological requirements
       but may also cover requirements relating to: safety; EMC; software identification;
       ease of use; marking; etc.'
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Publication replaces 'measuring instruments' with 'a measuring
+      instrument,' creating a grammatical mismatch with the subsequent clause covering
+      single instruments, lots, and series.
 status: current
 id: e77bb262-4dc8-5f9a-8ec0-dc2dfc1fdca2
 schema_version: '3'

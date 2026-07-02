@@ -35,8 +35,9 @@ data:
     notes:
     - Metrological supervision includes checking the correctness of the quantities
       indicated on and contained in prepackages.
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Adds redundant emphasis on 'in respect of its use' which duplicates
+      the already-stated 'use' in the list, slightly distorting the original structure.
     related:
     - type: see
       ref:
@@ -57,8 +58,9 @@ data:
     notes:
     - Metrological supervision includes checking the correctness of the quantities
       indicated on and contained in prepackages.
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: The publication separates 'use' with 'and/or' and omits it
+      from the main list, subtly altering the scope of control activities covered.
     related:
     - type: see
       ref:
@@ -77,8 +79,9 @@ data:
       they are used correctly and honestly. It extends also to control of correctness
       of the quantities indicated on prepacked articles [VML 2.6].
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Drops 'import' from the list of controlled activities and
+      adds prepacked articles content not in the official definition.
   - edition: 202X
     publication: OIML R060-1:2021
     publication_id: OIML R060-1:2021
@@ -91,8 +94,10 @@ data:
       metrology laws and regulations
     notes:
     - "(For notes, refer to the VIML)"
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Drops the enumeration of activities (manufacture, import,
+      installation, use, maintenance, repair) and the object (measuring instruments),
+      keeping only the general purpose.
   - edition: 202X
     publication: OIML D001:2012
     publication_id: OIML D001:2012
@@ -108,8 +113,10 @@ data:
       quantities indicated on and contained in pre-packages and the correct use of
       units of measurement. Note 2: For achieving these purposes, means and methods
       such as market surveillance and quality management may be utilized.'
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Drops the enumeration of specific activities (manufacture,
+      import, installation, use, maintenance, repair) and the object (measuring instruments),
+      retaining only the general purpose.
   - edition: 202X
     publication: OIML D016:2011
     publication_id: OIML D016:2011
@@ -125,8 +132,9 @@ data:
     notes:
     - Note:Metrological supervision includes checking the correctness of the quantities
       indicated on and contained in prepackages.
-    consistency: pending
-    consistency_reason: ''
+    consistency: ok
+    consistency_reason: The publication's definition is identical in wording and meaning
+      to the official definition, with an appropriate VIML citation appended.
   - edition: 202X
     publication: OIML D 9:2004
     publication_id: OIML D009:2004
@@ -142,8 +150,9 @@ data:
     notes:
     - 'Note: Metrological supervision includes checking the correctness of the quantities
       indicated on and contained in prepackages.'
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Adds redundant emphasis on 'in respect of its use' which duplicates
+      the already-stated 'use' in the list, slightly distorting the original structure.
   - edition: 202X
     publication: OIML D 27:2001
     publication_id: OIML D027:2001
@@ -159,8 +168,9 @@ data:
     notes:
     - 'Note: Metrological supervision includes checking the correctness of the quantities
       indicated on and contained in prepackages.'
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: The publication separates 'use' with 'and/or' and omits it
+      from the main list, subtly altering the scope of control activities covered.
   - edition: 202X
     publication: OIML D 15:1986
     publication_id: OIML D015:1986
@@ -174,8 +184,9 @@ data:
       they are used correctly and honestly. It extends also to control of correctness
       of the quantities indicated on prepacked articles [VML 2.6].
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Drops 'import' from the list of controlled activities and
+      adds prepacked articles content not in the official definition.
 status: current
 id: 782df2d5-023c-5202-a9a1-12597ccc49ad
 schema_version: '3'
