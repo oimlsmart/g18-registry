@@ -29,7 +29,7 @@ const navItems = [
     </div>
   </header>
   <main class="container main">
-    <slot />
+    <RouterView />
   </main>
   <footer class="site-footer">
     <div class="container footer-grid">
