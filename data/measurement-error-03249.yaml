@@ -1,0 +1,83 @@
+---
+data:
+  identifier: '03249'
+  term: measurement error
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML D031:2023
+    publication_id: OIML D031:2023
+    tc_sc: ''
+    year: 2023
+    clause: 3.2.36
+    link:
+    g18_entry: '03253'
+    definition: measured quantity value minus reference quantity value adapted from
+      [OIML V-2-200:2012, 2.16]
+    notes:
+    - 'Note 1: The concept of ‘measurement error’ can be used both when there is single
+      reference quantity value to refer to, which occurs if a calibration is made
+      by means of measurement standard with a measured quantity value having a negligible
+      measurement uncertainty or if a conventinal quantity value is given, in which
+      case the measurement error is known, and if a measurand is supposed to be represented
+      by a unique true quantity calue or set of true quantity calues of negligibly
+      range, in which case the measurement error is not known. Note 2: Measurement
+      implies compsrison of quantities or counting entities. Note 3: See Annex C for
+      clarification regarding measurement-related terms.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R060-1:2021
+    publication_id: OIML R060-1:2021
+    tc_sc: ''
+    year: 2021
+    clause: 3.7.11
+    link:
+    g18_entry: '03254'
+    definition: measured quantity minus a reference quantity value [VIM 2.16]
+    notes:
+    - 'Note: The term “measurement error” in this Recommendation refers to load cell
+      measurement errors. (For additional notes, refer to the VIM)'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R126-1:2021
+    publication_id: OIML R126-1:2021
+    tc_sc: ''
+    year: 2021
+    clause: '2.12'
+    link:
+    g18_entry: '03249'
+    definition: measured quantity value minus a reference quantity value (OIML V 2-200,
+      2.16)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R061-1:2017
+    publication_id: OIML R061-1:2017
+    tc_sc: ''
+    year: 2017
+    clause: 3.5.2.1
+    link:
+    g18_entry: '03671'
+    definition: measured quantity value minus a reference quantity value (VIM, 2.16)
+    notes:
+    - 'Note 1: The concept of ‘measurement error’ can be used both when there is single
+      reference quantity value to refer to, which occurs if a calibration is made
+      by means of measurement standard with a measured quantity value having a negligible
+      measurement uncertainty or if a conventinal quantity value is given, in which
+      case the measurement error is known, and if a measurand is supposed to be represented
+      by a unique true quantity calue or set of true quantity calues of negligibly
+      range, in which case the measurement error is not known. Note 2: Measurement
+      error should not be confused with production error or mistake..'
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: cebff6e1-780b-5a9a-9e6d-ec5779e63bd5
+schema_version: '3'
+related: []

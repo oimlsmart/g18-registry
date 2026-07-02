@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '02830'
+  term: pyrometer
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R147:2016
+    publication_id: OIML R147:2016
+    tc_sc: ''
+    year: 2016
+    clause: 2.2.9
+    link:
+    g18_entry: '02830'
+    definition: thermometer using the optical radiation of a source and indicating
+      temperature values which are calibrated and traceable to (inter)national standards
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: bc8e108d-b123-56a8-811b-3a53769df5d2
+schema_version: '3'
+related: []

@@ -1,0 +1,27 @@
+---
+data:
+  identifier: 02272-D016
+  term: end user (of a measuring instrument)
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML D016:2011
+    publication_id: OIML D016:2011
+    tc_sc: ''
+    year: 2011
+    clause: '2.19'
+    link:
+    g18_entry: 02272-D016
+    definition: legal person who acquires a measuring instrument with the intention
+      to use it and not to sell it
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 49df7d4d-eebb-5160-b9f3-f06909818675
+schema_version: '3'
+related: []

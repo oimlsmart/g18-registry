@@ -7,8 +7,18 @@ data:
     source: urn:oiml:pub:v:2:1993
     id: '1.20'
     url: https://oimlsmart.github.io/vocab/vim-1993/concept/1.20
+    definition_text:
+    edition_label: VIM 1993
+    vocab: vim
+    role: legacy
+    year: 1993
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 107-1:2007
+  - edition: '2010'
+    publication: OIML R 107-1:2007
     publication_id: OIML R107-1:2007
     tc_sc: ''
     year: 2007
@@ -20,7 +30,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 140:2007
+  - edition: '2010'
+    publication: OIML R 140:2007
     publication_id: OIML R140:2007
     tc_sc: ''
     year: 2007
@@ -35,10 +46,11 @@ data:
     consistency_reason: ''
     related:
     - type: see
-      ref: &2
+      ref:
         source: urn:oiml:pub:v:2:2007
         id: '2.12'
-  - publication: OIML R 51-1:2006
+  - edition: '2010'
+    publication: OIML R 51-1:2006
     publication_id: OIML R051-1:2006
     tc_sc: ''
     year: 2006
@@ -51,7 +63,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 137-1:2006
+  - edition: '2010'
+    publication: OIML R 137-1:2006
     publication_id: OIML R137-1:2006
     tc_sc: ''
     year: 2006
@@ -64,7 +77,8 @@ data:
     - "[VIM:1993, 1.20]"
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 136-1:2004
+  - edition: '2010'
+    publication: OIML R 136-1:2004
     publication_id: OIML R136-1:2004
     tc_sc: ''
     year: 2004
@@ -79,14 +93,97 @@ data:
     consistency_reason: ''
     related:
     - type: see
-      ref: &1
+      ref:
         source: urn:oiml:pub:v:2:1993
         id: '1.20'
+  - edition: 202X
+    publication: OIML R106-1:2011
+    publication_id: OIML R106-1:2011
+    tc_sc: ''
+    year: 2011
+    clause: 0.1.12
+    link:
+    g18_entry: '02533'
+    definition: value attributed to a particular quantity and accepted, sometimes
+      by convention, as having an uncertainty appropriate for a given purpose [VIM
+      1.20]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 107-1:2007
+    publication_id: OIML R107-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.1.6
+    link: https://www.oiml.org/en/files/pdf_R/r107-1-e07.pdf
+    g18_entry: '01320'
+    definition: value attributed to a particular quantity and accepted, by convention,
+      as having an uncertainty appropriate for a given purpose [VIM:1993, 1.20]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 140:2007
+    publication_id: OIML R140:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.2.3
+    link: https://www.oiml.org/en/files/pdf_R/r140-e07.pdf
+    g18_entry: '02069'
+    definition: value attributed to a particular quantity and accepted, sometimes
+      by convention, as having an uncertainty appropriate for a given purpose [VIM:2007,
+      2.12]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 51-1:2006
+    publication_id: OIML R051-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.1.8
+    link: https://www.oiml.org/en/files/pdf_R/r051-1-e06.pdf
+    g18_entry: '00571'
+    definition: value attributed to a particular quantity (mass of a body) and accepted,
+      by convention, as having an uncertainty appropriate for a given purpose [VIM:1993,
+      1.20]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 136-1:2004
+    publication_id: OIML R136-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: T.1.9
+    link: https://www.oiml.org/en/files/pdf_R/r136-1-e04.pdf
+    g18_entry: '01888'
+    definition: value attributed to a particular quantity (e.g. area of leather) and
+      accepted, by convention, as having an uncertainty appropriate for a given purpose
+      [VIM:1993, 1.20]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
 status: current
 id: a7467654-5c29-5b41-a154-c6dd316f1ac9
 schema_version: '3'
 related:
 - type: see
-  ref: *1
+  ref:
+    source: urn:oiml:pub:v:2:1993
+    id: '1.20'
+    definition_text:
+    edition_label: VIM 1993
+    vocab: vim
+    role: legacy
+    year: 1993
 - type: see
-  ref: *2
+  ref:
+    source: urn:oiml:pub:v:2:2007
+    id: '2.12'
+    definition_text:
+    edition_label: VIM 2007
+    vocab: vim
+    role: prior
+    year: 2007

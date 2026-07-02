@@ -1,0 +1,28 @@
+---
+data:
+  identifier: '03738-R091-1'
+  term: angle measurement
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R091-1:2025
+    publication_id: OIML R091-1:2025
+    tc_sc: ''
+    year: 2025
+    clause: 3.4.8
+    link:
+    g18_entry: '03738-R091-1'
+    definition: measurement of the horizontal component of the measurement angle
+    notes:
+    - 'Note: The measurement of the vertical component of the measurement angle is
+      referred to as vertical angle measurement.'
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: ad973167-d534-5d1d-9bc5-1cacd68b5a52
+schema_version: '3'
+related: []

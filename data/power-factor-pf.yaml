@@ -1,0 +1,29 @@
+---
+data:
+  identifier: 02313-R046-1
+  term: power factor (PF)
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R046-1:2012
+    publication_id: OIML R046-1:2012
+    tc_sc: ''
+    year: 2012
+    clause: 2.2.14
+    link:
+    g18_entry: 02313-R046-1
+    definition: ratio of the active power to the apparent power
+    notes:
+    - Note:At sinusoidal and either one-phase or symmetrical three-phase conditions,
+      the power factor = cos  = the cosine of the phase difference   between voltage
+      U and current I.
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 63b880a6-9db5-5b26-97de-2264f6a262b2
+schema_version: '3'
+related: []

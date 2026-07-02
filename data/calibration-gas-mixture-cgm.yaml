@@ -4,8 +4,43 @@ data:
   term: calibration gas mixture (CGM)
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 143:2009
+  - edition: '2010'
+    publication: OIML R 143:2009
+    publication_id: OIML R143:2009
+    tc_sc: ''
+    year: 2009
+    clause: '2.25'
+    link: https://www.oiml.org/en/files/pdf_R/r143-e09.pdf
+    g18_entry: '02151'
+    definition: stable gas mixture of known SO2 concentration (volume fraction) used
+      for periodic calibration and adjustment of the gas analyzer, as well as for
+      tests of its metrological characteristics for compliance with the requirements
+      of normative documents
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R144-1:2013
+    publication_id: OIML R144-1:2013
+    tc_sc: ''
+    year: 2013
+    clause: '2.24'
+    link:
+    g18_entry: '02779'
+    definition: stable gas mixture of known concentration (volume fraction) of a component
+      being determined and used for periodic calibration and adjustment of the gas
+      analyzer, as well as for tests of its metrological characteristics for compliance
+      with the requirements of normative documents
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 143:2009
     publication_id: OIML R143:2009
     tc_sc: ''
     year: 2009

@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '00245'
+  identifier: '01038'
   term: permanent automatic checking facility (type P)
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 80-1:2009
+  - edition: '2010'
+    publication: OIML R 80-1:2009
     publication_id: OIML R080-1:2009
     tc_sc: ''
     year: 2009
@@ -16,7 +21,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 85-1:2008
+  - edition: '2010'
+    publication: OIML R 85-1:2008
     publication_id: OIML R085-1:2008
     tc_sc: ''
     year: 2008
@@ -27,7 +33,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 99-1:2008
+  - edition: '2010'
+    publication: OIML R 99-1:2008
     publication_id: OIML R099-1:2008
     tc_sc: ''
     year: 2008
@@ -39,7 +46,8 @@ data:
     - Adapted from OIML D 11:2004, 3.18.1.1
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 117-1:2007
+  - edition: '2010'
+    publication: OIML R 117-1:2007
     publication_id: OIML R117-1:2007
     tc_sc: ''
     year: 2007
@@ -51,7 +59,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 139:2007
+  - edition: '2010'
+    publication: OIML R 139:2007
     publication_id: OIML R139:2007
     tc_sc: ''
     year: 2007
@@ -63,7 +72,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 140:2007
+  - edition: '2010'
+    publication: OIML R 140:2007
     publication_id: OIML R140:2007
     tc_sc: ''
     year: 2007
@@ -75,7 +85,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 49-1:2006
+  - edition: '2010'
+    publication: OIML R 49-1:2006
     publication_id: OIML R049-1:2006
     tc_sc: ''
     year: 2006
@@ -87,7 +98,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML D 11:2004
+  - edition: '2010'
+    publication: OIML D 11:2004
     publication_id: OIML D011:2004
     tc_sc: ''
     year: 2004
@@ -98,7 +110,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 81:1998
+  - edition: '2010'
+    publication: OIML R 81:1998
     publication_id: OIML R081:1998
     tc_sc: ''
     year: 1998
@@ -110,7 +123,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 125:1998
+  - edition: '2010'
+    publication: OIML R 125:1998
     publication_id: OIML R125:1998
     tc_sc: ''
     year: 1998
@@ -121,7 +135,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 105:1993
+  - edition: '2010'
+    publication: OIML R 105:1993
     publication_id: OIML R105:1993
     tc_sc: ''
     year: 1993
@@ -129,6 +144,131 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r105-e93.pdf
     g18_entry: '01248'
     definition: an automatic checking facility operating during all the measurement
+      operation
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R060:2021
+    publication_id: OIML R060:2021
+    tc_sc: ''
+    year: 2021
+    clause: A.1.6
+    link:
+    g18_entry: '03409'
+    definition: automatic checking facility that operates at each measurement cycle
+      (OIML D 11, 3.19.1.1)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R117-1:2019
+    publication_id: OIML R117-1:2019
+    tc_sc: ''
+    year: 2019
+    clause: T.c.2.2
+    link:
+    g18_entry: '03366'
+    definition: automatic checking facility operating during the entire measurement
+      operation
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R080-2:2017
+    publication_id: OIML R080-2:2017
+    tc_sc: ''
+    year: 2017
+    clause: '2'
+    link:
+    g18_entry: '03365'
+    definition: automatic checking facility that operates at each measurement cycle
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D011:2013
+    publication_id: OIML D011:2013
+    tc_sc: ''
+    year: 2013
+    clause: 3.19.1.1
+    link:
+    g18_entry: 02237-D011
+    definition: automatic checking facility that operates at each measurement cycle
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 80-1:2009
+    publication_id: OIML R080-1:2009
+    tc_sc: ''
+    year: 2009
+    clause: '2.58'
+    link: https://www.oiml.org/en/files/pdf_R/r080-1-e09.pdf
+    g18_entry: '02297-R080-1'
+    definition: automatic checking facility that operates at each measurement cycle
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 85-1:2008
+    publication_id: OIML R085-1:2008
+    tc_sc: ''
+    year: 2008
+    clause: '3.12'
+    link: https://www.oiml.org/en/files/pdf_R/r085-1-e08.pdf
+    g18_entry: 02310-R085-1
+    definition: automatic checking facility that operates at each measurement cycle
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 99-1:2008
+    publication_id: OIML R099-1:2008
+    tc_sc: ''
+    year: 2008
+    clause: 3.30.1
+    link: https://www.oiml.org/en/files/pdf_R/r099-1-e08.pdf
+    g18_entry: '02365'
+    definition: automatic checking facility operating during each measurement cycle
+      [adapted from OIML D 11:2004, 3.18.1.1]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 140:2007
+    publication_id: OIML R140:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.4.4
+    link: https://www.oiml.org/en/files/pdf_R/r140-e07.pdf
+    g18_entry: '02102'
+    definition: automatic checking facility operating continuously during the entire
+      measurement operation
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 125:1998
+    publication_id: OIML R125:1998
+    tc_sc: ''
+    year: 1998
+    clause: T.34.1.1
+    link: https://www.oiml.org/en/files/pdf_R/r125-e98.pdf
+    g18_entry: '01655'
+    definition: an automatic checking facility operating at each measurement cycle
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication:
+    publication_id:
+    tc_sc: ''
+    year:
+    clause:
+    link:
+    g18_entry: '01038'
+    definition: an automatic checking facility that operates during the entire measurement
       operation
     notes: []
     consistency: pending

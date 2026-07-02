@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '00489'
+  identifier: '02906'
   term: belt conveyor
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 50-1:1997
+  - edition: '2010'
+    publication: OIML R 50-1:1997
     publication_id: OIML R050-1:1997
     tc_sc: ''
     year: 1997
@@ -14,6 +19,19 @@ data:
     g18_entry: '00489'
     definition: the equipment for conveying the product by means of a belt resting
       on rollers turning about their axis
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R050-1:2014
+    publication_id: OIML R050-1:2014
+    tc_sc: ''
+    year: 2014
+    clause: 2.2.2
+    link:
+    g18_entry: '02906'
+    definition: equipment for conveying the product by means of a belt (e.g. by resting
+      on rollers or idlers turning about their axis or by other devices)
     notes: []
     consistency: pending
     consistency_reason: ''

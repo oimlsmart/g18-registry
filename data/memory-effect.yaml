@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '03286'
+  term: memory effect
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R126-1:2021
+    publication_id: OIML R126-1:2021
+    tc_sc: ''
+    year: 2021
+    clause: '2.16'
+    link:
+    g18_entry: '03286'
+    definition: effect on true alcohol concentration of the sample caused by previous
+      samples
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: c6f57b1c-b1bf-5f64-aa34-70275e90cce1
+schema_version: '3'
+related: []

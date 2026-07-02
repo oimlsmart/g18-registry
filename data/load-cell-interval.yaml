@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '00712'
+  identifier: '03200'
   term: load cell interval
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 60:2000
+  - edition: '2010'
+    publication: OIML R 60:2000
     publication_id: OIML R060:2000
     tc_sc: ''
     year: 2000
@@ -13,6 +18,18 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r060-e00.pdf
     g18_entry: '00712'
     definition: part of the load cell measuring range into which that range is divided
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R060-1:2021
+    publication_id: OIML R060-1:2021
+    tc_sc: ''
+    year: 2021
+    clause: 2.5.1
+    link:
+    g18_entry: '03200'
+    definition: subdivision of the load cell measuring range
     notes: []
     consistency: pending
     consistency_reason: ''

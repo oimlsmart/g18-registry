@@ -4,8 +4,13 @@ data:
   term: interface
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML D 31:2008
+  - edition: '2010'
+    publication: OIML D 31:2008
     publication_id: OIML D031:2008
     tc_sc: ''
     year: 2008
@@ -19,7 +24,8 @@ data:
     - "[ISO 2382-9:1995]"
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 21:2007
+  - edition: '2010'
+    publication: OIML R 21:2007
     publication_id: OIML R021:2007
     tc_sc: ''
     year: 2007
@@ -32,7 +38,91 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 107-1:2007
+  - edition: '2010'
+    publication: OIML R 107-1:2007
+    publication_id: OIML R107-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.2.9
+    link: https://www.oiml.org/en/files/pdf_R/r107-1-e07.pdf
+    g18_entry: '01354'
+    definition: electronic, optical, radio or other hardware or software that enables
+      information to be automatically passed between instruments and modules
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D031:2023
+    publication_id: OIML D031:2023
+    tc_sc: ''
+    year: 2023
+    clause: 3.2.26
+    link:
+    g18_entry: '03150'
+    definition: shared boundary between two functional units, defined by various characteristics
+      pertaining to the functions, physical interconnections, signal exchanges, and
+      other characteristics of the units, as appropriate [ISO 2382-9:2015] [4]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R126-1:2021
+    publication_id: OIML R126-1:2021
+    tc_sc: ''
+    year: 2021
+    clause: 3.3.7
+    link:
+    g18_entry: '03160'
+    definition: shared boundary between two functional units, defined by various characteristics
+      pertaining to the functions, physical interconnections, signal exchanges, and
+      other characteristics of the units, as appropriate [OIML D 31, 3.1.22]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R150-1:2020
+    publication_id: OIML R150-1:2020
+    tc_sc: ''
+    year: 2020
+    clause: 2.2.11
+    link:
+    g18_entry: '03157'
+    definition: shared boundary between two functional units, defined by various characteristics
+      pertaining to the functions, physical interconnections, signal exchanges, and
+      other characteristics of the units, as appropriate [OIML D 31, 3.1.27]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R061-1:2017
+    publication_id: OIML R061-1:2017
+    tc_sc: ''
+    year: 2017
+    clause: 3.3.8
+    link:
+    g18_entry: '03665'
+    definition: shared boundary between two functional units, defined by various characteristics
+      pertaining to the functions, physical interconnections, signal exchanges, and
+      other characteristics of the units, as appropriate (OIML D 31)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 21:2007
+    publication_id: OIML R021:2007
+    tc_sc: ''
+    year: 2007
+    clause: 2.2.5
+    link: https://www.oiml.org/en/files/pdf_R/r021-e07.pdf
+    g18_entry: '00348'
+    definition: electronic, optical, radio or other hardware and software connection
+      means that enables information to be automatically passed between several measuring
+      instruments or devices or between several different software modules
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 107-1:2007
     publication_id: OIML R107-1:2007
     tc_sc: ''
     year: 2007

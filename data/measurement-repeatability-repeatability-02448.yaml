@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '02448'
+  term: measurement repeatability repeatability
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R059-1:2016
+    publication_id: OIML R059-1:2016
+    tc_sc: ''
+    year: 2016
+    clause: 2.1.7
+    link:
+    g18_entry: '02448'
+    definition: measurement precision under a set of repeatability conditions of measurement
+      [VIM 2.21]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 4db1b70a-0af1-563b-b214-8bafc5ec8d8f
+schema_version: '3'
+related: []

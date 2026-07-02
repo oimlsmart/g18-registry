@@ -1,0 +1,28 @@
+---
+data:
+  identifier: '03406'
+  term: minimum totalised quantity, Σmin
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R150-1:2020
+    publication_id: OIML R150-1:2020
+    tc_sc: ''
+    year: 2020
+    clause: 2.3.6
+    link:
+    g18_entry: '03406'
+    definition: totalised quantity, in units of mass, below which totalised values
+      may be subject to errors exceeding the applicable maximum permissible errors
+      (mpe)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 8f29c3ad-b6ff-5b01-a7ea-9ad8b776495f
+schema_version: '3'
+related: []

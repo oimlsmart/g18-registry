@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '03113'
+  term: infeed device
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R150-1:2020
+    publication_id: OIML R150-1:2020
+    tc_sc: ''
+    year: 2020
+    clause: 2.2.12
+    link:
+    g18_entry: '03113'
+    definition: device which provides a supply of product from bulk to the weighing
+      module that may operate in one or more stages
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: d8caf33e-9e79-53c6-a453-d59ef639cd54
+schema_version: '3'
+related: []

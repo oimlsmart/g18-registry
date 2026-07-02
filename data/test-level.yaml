@@ -1,0 +1,26 @@
+---
+data:
+  identifier: 02244-D011
+  term: test level
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML D011:2013
+    publication_id: OIML D011:2013
+    tc_sc: ''
+    year: 2013
+    clause: 3.21.3
+    link:
+    g18_entry: 02244-D011
+    definition: required (simulated) influence quantity value for performing the test
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: b72a3740-affa-59d8-9f3b-180d4274da2a
+schema_version: '3'
+related: []

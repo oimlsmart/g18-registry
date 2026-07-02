@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '02202'
+  identifier: '02463'
   term: open network
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML D 31:2008
+  - edition: '2010'
+    publication: OIML D 31:2008
     publication_id: OIML D031:2008
     tc_sc: ''
     year: 2008
@@ -16,6 +21,39 @@ data:
       functions). The number, identity and location of a participant can be dynamic
       and unknown to the other participants (see also Closed network)
     notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R059-1:2016
+    publication_id: OIML R059-1:2016
+    tc_sc: ''
+    year: 2016
+    clause: 2.2.6
+    link:
+    g18_entry: '02463'
+    definition: network of arbitrary participants (electronic devices with arbitrary
+      functions). The number, identity and location of a participant can be dynamic
+      and unknown to the other participants. This is in contrast to a closed network
+      [D 31, 3.1.6] which is a network of a fixed number of participants with a known
+      identity functionality and location [OIML D 31, 3.1.35]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R146-1:2016
+    publication_id: OIML R146-1:2016
+    tc_sc: ''
+    year: 2016
+    clause: 2.2.12
+    link:
+    g18_entry: '02810'
+    definition: network of arbitrary participants (electronic devices with arbitrary
+      functions) [OIML D31:2008, 3.1.35]
+    notes:
+    - Note:The number, identity and location of a participant can be dynamic and unknown
+      to the other participants. This is in contrast to a closed network [OIML D 31:2008,
+      3.1.6] which is a network of a fixed number of participants with a known identity
+      functionality and location.
     consistency: pending
     consistency_reason: ''
 status: current

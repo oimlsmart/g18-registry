@@ -1,0 +1,28 @@
+---
+data:
+  identifier: '03450'
+  term: relative minimum dead load output return (Z)
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R060-1:2021
+    publication_id: OIML R060-1:2021
+    tc_sc: ''
+    year: 2021
+    clause: 3.5.14
+    link:
+    g18_entry: '03450'
+    definition: ratio of the maximum measuring range, to two times the minimum dead
+      load output return, DR
+    notes:
+    - Note:This ratio is used to describe multi-interval instruments.
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: c1690da9-2dc1-5168-8cb5-bef6da505471
+schema_version: '3'
+related: []

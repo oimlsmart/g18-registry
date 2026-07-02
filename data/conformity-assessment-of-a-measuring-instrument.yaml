@@ -7,8 +7,18 @@ data:
     source: urn:oiml:pub:v:1:2000
     id: '2.11'
     url: https://oimlsmart.github.io/vocab/viml-2000/concept/2.11
+    definition_text:
+    edition_label: VIML 2000
+    vocab: viml
+    role: prior
+    year: 2000
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML D 9:2004
+  - edition: '2010'
+    publication: OIML D 9:2004
     publication_id: OIML D009:2004
     tc_sc: ''
     year: 2004
@@ -27,12 +37,56 @@ data:
     consistency_reason: ''
     related:
     - type: see
-      ref: &1
+      ref:
         source: urn:oiml:pub:v:1:2000
         id: '2.11'
+  - edition: 202X
+    publication: OIML D016:2011
+    publication_id: OIML D016:2011
+    tc_sc: ''
+    year: 2011
+    clause: '2.8'
+    link:
+    g18_entry: 02261-D016
+    definition: testing and evaluation of measuring instruments to ascertain whether
+      or not a single instrument, an instrument lot or a production series of instruments
+      comply with all statutory requirements applicable to this instrument type [VIML
+      2.11]
+    notes:
+    - 'Note 1:Conformity assessment does not only concern metrological requirements
+      but may also cover requirements relating to: safety; EMC; software identification;
+      ease of use; marking, etc. Note 2:Conformity assessment of a measuring instrument
+      is hereafter referred to as “conformity assessment”.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D 9:2004
+    publication_id: OIML D009:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.9'
+    link: https://www.oiml.org/en/files/pdf_D/d009-e04.pdf
+    g18_entry: '00191'
+    definition: testing and evaluation of a measuring instrument to ascertain whether
+      or not a single instrument, an instrument lot or a production series of instruments
+      comply with all statutory requirements applicable to this instrument type [VIML
+      2.11]
+    notes:
+    - 'Note: Conformity assessment does not only concern metrological requirements
+      but may also cover requirements relating to: safety; EMC; software identification;
+      ease of use; marking; etc.'
+    consistency: pending
+    consistency_reason: ''
 status: current
 id: e77bb262-4dc8-5f9a-8ec0-dc2dfc1fdca2
 schema_version: '3'
 related:
 - type: see
-  ref: *1
+  ref:
+    source: urn:oiml:pub:v:1:2000
+    id: '2.11'
+    definition_text:
+    edition_label: VIML 2000
+    vocab: viml
+    role: prior
+    year: 2000

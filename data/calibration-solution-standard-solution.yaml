@@ -1,11 +1,15 @@
 ---
 data:
   identifier: '01853'
-  term: calibration solution, standard solution
+  term: calibration solution standard solution
   kind: undefined
   official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 135:2004
+  - edition: 202X
+    publication: OIML R 135:2004
     publication_id: OIML R135:2004
     tc_sc: ''
     year: 2004
@@ -18,6 +22,6 @@ data:
     consistency: pending
     consistency_reason: ''
 status: current
-id: 0d6a75cb-9375-5e4e-9867-fa700eee5aee
+id: 84f16f0f-947f-544e-9dc5-641d5a147af2
 schema_version: '3'
 related: []

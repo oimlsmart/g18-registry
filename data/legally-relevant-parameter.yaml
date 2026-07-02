@@ -4,8 +4,13 @@ data:
   term: legally relevant parameter
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML D 31:2008
+  - edition: '2010'
+    publication: OIML D 31:2008
     publication_id: OIML D031:2008
     tc_sc: ''
     year: 2008
@@ -18,7 +23,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 107-1:2007
+  - edition: '2010'
+    publication: OIML R 107-1:2007
     publication_id: OIML R107-1:2007
     tc_sc: ''
     year: 2007
@@ -31,7 +37,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 51-1:2006
+  - edition: '2010'
+    publication: OIML R 51-1:2006
     publication_id: OIML R051-1:2006
     tc_sc: ''
     year: 2006
@@ -46,7 +53,8 @@ data:
     - "(under T.2.8: Software)"
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 76-1:2006
+  - edition: '2010'
+    publication: OIML R 76-1:2006
     publication_id: OIML R076-1:2006
     tc_sc: ''
     year: 2006
@@ -55,6 +63,124 @@ data:
     g18_entry: '00933'
     definition: 'parameter of a measuring instrument or a module subject to legal
       control. The following types of legally relevant parameters can bedistinguished:
+      type-specific parameters and device-specific parameters'
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R142-1:2025
+    publication_id: OIML R142-1:2025
+    tc_sc: ''
+    year: 2025
+    clause: '3.29'
+    link:
+    g18_entry: '03719'
+    definition: parameter of a measuring instrument/component, (electronic) device,
+      software or a module subject to legal control
+    notes:
+    - 'Note: The following types of legally relevant parameters can be distinguished:
+      type-specific parameters and device-specific parameters.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D031:2023
+    publication_id: OIML D031:2023
+    tc_sc: ''
+    year: 2023
+    clause: 3.2.30
+    link:
+    g18_entry: '03186'
+    definition: parameter of a measuring instrument, component, and/or module(s) subject
+      to legal control
+    notes:
+    - 'Note: The following types of legally relevant parameters can be distinguished:
+      type-specific parameters and device-specific parameters.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R150-1:2020
+    publication_id: OIML R150-1:2020
+    tc_sc: ''
+    year: 2020
+    clause: 2.2.9.2
+    link:
+    g18_entry: '03187'
+    definition: parameter of a measuring instrument (electronic) device, sub-assembly,
+      software or a module subject to legal control
+    notes:
+    - 'Note: The following types of legally relevant parameters can be distinguished:
+      type-specific parameters and device-specific parameters.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R061-1:2017
+    publication_id: OIML R061-1:2017
+    tc_sc: ''
+    year: 2017
+    clause: 3.3.6.2
+    link:
+    g18_entry: '03666'
+    definition: parameter of a measuring instrument (electronic) device, sub-assembly,
+      software or a module subject to legal control
+    notes:
+    - 'Note: The following types of legally relevant parameters can be distinguished:
+      type-specific parameters and device-specific parameters (VIML, 4.10).'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R106-1:2011
+    publication_id: OIML R106-1:2011
+    tc_sc: ''
+    year: 2011
+    clause: 0.2.8.2
+    link:
+    g18_entry: '02554'
+    definition: 'parameter of a measuring instrument or a module subject to legal
+      control the following types of legally relevant parameters can be distinguished:
+      type-specific parameters and device-specific parameters'
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 107-1:2007
+    publication_id: OIML R107-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.2.7.7.2
+    link: https://www.oiml.org/en/files/pdf_R/r107-1-e07.pdf
+    g18_entry: '01349'
+    definition: 'parameter of a measuring instrument or a module subject to legal
+      control. The following types of legally relevant parameters can be distinguished:
+      type-specific parameter and device-specific parameter'
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 51-1:2006
+    publication_id: OIML R051-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.2.8.1
+    link: https://www.oiml.org/en/files/pdf_R/r051-1-e06.pdf
+    g18_entry: '00592'
+    definition: 'parameter that belongs to the measuring instrument or device, and
+      defines or fulfils functions which are subject to legal control. The following
+      types of legally relevant parameter can be distinguished: type-specific and
+      device-specific'
+    notes:
+    - "(under T.2.8: Software)"
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 76-1:2006
+    publication_id: OIML R076-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.2.8.2
+    link: https://www.oiml.org/en/files/pdf_R/r076-1-e06.pdf
+    g18_entry: '00933'
+    definition: 'parameter of a measuring instrument or a module subject to legal
+      control. The following types of legally relevant parameters can be distinguished:
       type-specific parameters and device-specific parameters'
     notes: []
     consistency: pending

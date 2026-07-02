@@ -4,8 +4,13 @@ data:
   term: transfer point
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 80-1:2009
+  - edition: '2010'
+    publication: OIML R 80-1:2009
     publication_id: OIML R080-1:2009
     tc_sc: ''
     year: 2009
@@ -16,7 +21,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 117-1:2007
+  - edition: '2010'
+    publication: OIML R 117-1:2007
     publication_id: OIML R117-1:2007
     tc_sc: ''
     year: 2007
@@ -27,7 +33,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 139:2007
+  - edition: '2010'
+    publication: OIML R 139:2007
     publication_id: OIML R139:2007
     tc_sc: ''
     year: 2007
@@ -38,7 +45,70 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 81:1998
+  - edition: '2010'
+    publication: OIML R 81:1998
+    publication_id: OIML R081:1998
+    tc_sc: ''
+    year: 1998
+    clause: '3.18'
+    link: https://www.oiml.org/en/files/pdf_R/r081-e98.pdf
+    g18_entry: '01027'
+    definition: the point at which the quantity of liquid measured is defined as being
+      delivered or received
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R139-1:2022
+    publication_id: OIML R139-1:2022
+    tc_sc: ''
+    year: 2022
+    clause: 3.2.13
+    link:
+    g18_entry: '03602'
+    definition: point (physical location) in the measuring system downstream of the
+      meter after which the gas is defined as being delivered
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R117-1:2019
+    publication_id: OIML R117-1:2019
+    tc_sc: ''
+    year: 2019
+    clause: T.t.2
+    link:
+    g18_entry: '03579'
+    definition: point at which the liquid is defined as being delivered or received
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 80-1:2009
+    publication_id: OIML R080-1:2009
+    tc_sc: ''
+    year: 2009
+    clause: '2.30'
+    link: https://www.oiml.org/en/files/pdf_R/r080-1-e09.pdf
+    g18_entry: '03580'
+    definition: point at which the liquid is defined as being delivered or received
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 80-1:2009
+    publication_id: OIML R080-1:2009
+    tc_sc: ''
+    year: 2009
+    clause: '2.30'
+    link: https://www.oiml.org/en/files/pdf_R/r080-1-e09.pdf
+    g18_entry: '02269-R080-1'
+    definition: point at which the liquid is defined as being delivered or received
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 81:1998
     publication_id: OIML R081:1998
     tc_sc: ''
     year: 1998

@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '02781'
+  term: intraocular pressure (IOP)
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R145-1:2015
+    publication_id: OIML R145-1:2015
+    tc_sc: ''
+    year: 2015
+    clause: '1.2'
+    link:
+    g18_entry: '02781'
+    definition: pressure within the eye front chamber, given in millimetres of mercury
+      (mmHg) or kilopascals (kPa)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: d3bbf158-027e-54c6-bceb-22affe181160
+schema_version: '3'
+related: []

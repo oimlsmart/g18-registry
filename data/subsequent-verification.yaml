@@ -7,8 +7,18 @@ data:
     source: urn:oiml:pub:v:1:2000
     id: '2.16'
     url: https://oimlsmart.github.io/vocab/viml-2000/concept/2.16
+    definition_text:
+    edition_label: VIML 2000
+    vocab: viml
+    role: prior
+    year: 2000
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML D 9:2004
+  - edition: '2010'
+    publication: OIML D 9:2004
     publication_id: OIML D009:2004
     tc_sc: ''
     year: 2004
@@ -26,10 +36,11 @@ data:
     consistency_reason: ''
     related:
     - type: see
-      ref: &1
+      ref:
         source: urn:oiml:pub:v:1:2000
         id: '2.16'
-  - publication: OIML D 15:1986
+  - edition: '2010'
+    publication: OIML D 15:1986
     publication_id: OIML D015:1986
     tc_sc: ''
     year: 1986
@@ -45,9 +56,97 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
+  - edition: 202X
+    publication: OIML R126-1:2021
+    publication_id: OIML R126-1:2021
+    tc_sc: ''
+    year: 2021
+    clause: 3.1.6
+    link:
+    g18_entry: '03543'
+    definition: verification of measuring instrument after a previous verification
+    notes:
+    - 'Note 1: Subsequent verification of a measuring instrument includes mandatory
+      periodic verification, verification after repair, and voluntary verification.
+      Note 2: Subsequent verification of a measuring instrument may be carried out
+      before expiry of the period of validity of a previous  verification either at
+      the request of the user (owner) or when its verification mark is declared to
+      be no longer valid.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D034:2019
+    publication_id: OIML D034:2019
+    tc_sc: ''
+    year: 2019
+    clause: 3.1.12
+    link:
+    g18_entry: '03542'
+    definition: verification of measuring instrument after a previous verification
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D016:2011
+    publication_id: OIML D016:2011
+    tc_sc: ''
+    year: 2011
+    clause: '2.12'
+    link:
+    g18_entry: 02265-D016
+    definition: any verification of a measuring instrument after a previous verification
+      and including mandatory periodic verification and verification after repair
+      [VIML 2.16]
+    notes:
+    - Note:Subsequent verification of a measuring instrument may be carried out before
+      expiry of the period of validity of a previous verification either at the request
+      of the user (owner) or when its verification is declared to be no longer valid.
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D 9:2004
+    publication_id: OIML D009:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.13'
+    link: https://www.oiml.org/en/files/pdf_D/d009-e04.pdf
+    g18_entry: '00195'
+    definition: 'any verification of a measuring instrument after a previous verification
+      and including: mandatory periodic verification; verification after repair [VIML,
+      2.16]'
+    notes:
+    - Note:Subsequent verification of a measuring instrument may be carried out before
+      expiry of the period of validity of a previous  verification either at the request
+      of the user (owner) or when its verification is declared to be no longer valid.
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D 15:1986
+    publication_id: OIML D015:1986
+    tc_sc: ''
+    year: 1986
+    clause: '2.6'
+    link: https://www.oiml.org/en/files/pdf_D/d015-e86.pdf
+    g18_entry: '00263'
+    definition: 'any verification of a measuring instrument which follows the initial
+      verification: mandatory periodic verification, verification after repair, or
+      verification made before the expiry of the period of validity of the periodical
+      verification made either : at the request of the user, or because for some reason
+      the stamp is no longer valid for the remainder of this period of validity [VML
+      2.4.3'
+    notes: []
+    consistency: pending
+    consistency_reason: ''
 status: current
 id: 7b61e5d6-b467-5cb6-be13-4ac6cf2b2f16
 schema_version: '3'
 related:
 - type: see
-  ref: *1
+  ref:
+    source: urn:oiml:pub:v:1:2000
+    id: '2.16'
+    definition_text:
+    edition_label: VIML 2000
+    vocab: viml
+    role: prior
+    year: 2000

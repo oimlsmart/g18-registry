@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '00417'
+  identifier: '01019'
   term: correction device
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 117-1:2007
+  - edition: '2010'
+    publication: OIML R 117-1:2007
     publication_id: OIML R117-1:2007
     tc_sc: ''
     year: 2007
@@ -21,7 +26,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 139:2007
+  - edition: '2010'
+    publication: OIML R 139:2007
     publication_id: OIML R139:2007
     tc_sc: ''
     year: 2007
@@ -35,7 +41,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 140:2007
+  - edition: '2010'
+    publication: OIML R 140:2007
     publication_id: OIML R140:2007
     tc_sc: ''
     year: 2007
@@ -52,7 +59,8 @@ data:
       instruments, or stored in a memory in the instrument.
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 49-1:2006
+  - edition: '2010'
+    publication: OIML R 49-1:2006
     publication_id: OIML R049-1:2006
     tc_sc: ''
     year: 2006
@@ -68,7 +76,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 137-1:2006
+  - edition: '2010'
+    publication: OIML R 137-1:2006
     publication_id: OIML R137-1:2006
     tc_sc: ''
     year: 2006
@@ -80,7 +89,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 61-1:2004
+  - edition: '2010'
+    publication: OIML R 61-1:2004
     publication_id: OIML R061-1:2004
     tc_sc: ''
     year: 2004
@@ -91,7 +101,119 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 81:1998
+  - edition: '2010'
+    publication: OIML R 81:1998
+    publication_id: OIML R081:1998
+    tc_sc: ''
+    year: 1998
+    clause: '3.10'
+    link: https://www.oiml.org/en/files/pdf_R/r081-e98.pdf
+    g18_entry: '01019'
+    definition: a device connected to or incorporated in the meter for automatically
+      correcting the volume in metering conditions, by taking account of the flowrate
+      and/or the characteristics of the liquid to be measured (viscosity, temperature,
+      pressure, etc.) and pre-established calibration curves. The characteristics
+      of the liquid may either be measured using associated measuring instruments,
+      or stored in a memory within the instrument
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R049-1:2024
+    publication_id: OIML R049-1:2024
+    tc_sc: ''
+    year: 2024
+    clause: 3.1.7
+    link:
+    g18_entry: 02346-R049-1
+    definition: device connected to or incorporated in the meter for automatic correction
+      of the volume of water at metering conditions (3.2.11), by taking into account
+      the flow rate (3.3.1) and/or the characteristics of the water to be measured
+      and the pre-established calibration curves
+    notes:
+    - Note:For the definition of the term “correction”, see ISO?IEC Guide 99:2007/OIML
+      V2-200:2012 (VIM), 2.53, [1].
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R139-1:2022
+    publication_id: OIML R139-1:2022
+    tc_sc: ''
+    year: 2022
+    clause: 3.2.14
+    link:
+    g18_entry: '02961'
+    definition: device connected to or incorporated in the meter for automatically
+      correcting the mass, by taking into account the flow rate and/or the characteristics
+      of the gas to be measured (viscosity, temperature, pressure, etc.) and the pre-established
+      calibration curves
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R117-1:2019
+    publication_id: OIML R117-1:2019
+    tc_sc: ''
+    year: 2019
+    clause: T.c.6
+    link:
+    g18_entry: '02959'
+    definition: device connected to or incorporated in the meter for automatically
+      correcting the measured quantity at the time of measurement, by taking into
+      account the flowrate and/or the characteristics of the liquid to be measured
+      (viscosity, temperature, pressure, etc.) and the pre-established calibration
+      curves.
+    notes:
+    - 'Note: The characteristics of the liquid shall either be measured using associated
+      measuring devices, or stored in a memory in the instrument'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R061-1:2017
+    publication_id: OIML R061-1:2017
+    tc_sc: ''
+    year: 2017
+    clause: 3.3.1.3.4
+    link:
+    g18_entry: '02960'
+    definition: device which automatically corrects the setting of the AGFI
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R137:2012
+    publication_id: OIML R137:2012
+    tc_sc: ''
+    year: 2012
+    clause: 3.1.7
+    link:
+    g18_entry: '02652'
+    definition: device intended for correction of known errors as a function of e.g.
+      flow rate, Reynolds number (curve linearization), or density, pressure and/or
+      temperature
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 140:2007
+    publication_id: OIML R140:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.1.11.2
+    link: https://www.oiml.org/en/files/pdf_R/r140-e07.pdf
+    g18_entry: '02052'
+    definition: device connected to or incorporated in the meter/and or a calculator
+      for automatically correcting the volume at metering conditions, by taking into
+      account the flowrate and/or the characteristics of the gas to be measured (temperature,
+      pressure, gas composition, etc.) and by also taking into account pre-established
+      calibration curves
+    notes:
+    - 'Note: The characteristics of the gas may either be measured using associated
+      measuring instruments, or stored in a memory in the instrument.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 81:1998
     publication_id: OIML R081:1998
     tc_sc: ''
     year: 1998

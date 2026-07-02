@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '00232'
+  identifier: '00661'
   term: fault
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 80-1:2009
+  - edition: '2010'
+    publication: OIML R 80-1:2009
     publication_id: OIML R080-1:2009
     tc_sc: ''
     year: 2009
@@ -22,7 +27,8 @@ data:
       relative value, for instance in %.
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 143:2009
+  - edition: '2010'
+    publication: OIML R 143:2009
     publication_id: OIML R143:2009
     tc_sc: ''
     year: 2009
@@ -37,7 +43,8 @@ data:
     - 2. (OIML D 11:2004, 3.9)
     consistency: pending
     consistency_reason: ''
-  - publication: OIML D 31:2008
+  - edition: '2010'
+    publication: OIML D 31:2008
     publication_id: OIML D031:2008
     tc_sc: ''
     year: 2008
@@ -50,7 +57,8 @@ data:
     - "[adapted from OIML D 11:2004, 3.9]"
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 85-1:2008
+  - edition: '2010'
+    publication: OIML R 85-1:2008
     publication_id: OIML R085-1:2008
     tc_sc: ''
     year: 2008
@@ -64,7 +72,8 @@ data:
       or flowing through an ALG.
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 99-1:2008
+  - edition: '2010'
+    publication: OIML R 99-1:2008
     publication_id: OIML R099-1:2008
     tc_sc: ''
     year: 2008
@@ -77,7 +86,8 @@ data:
     - "(OIML D 11:2004, 3.9)"
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 107-1:2007
+  - edition: '2010'
+    publication: OIML R 107-1:2007
     publication_id: OIML R107-1:2007
     tc_sc: ''
     year: 2007
@@ -93,7 +103,8 @@ data:
       numerical value.
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 139:2007
+  - edition: '2010'
+    publication: OIML R 139:2007
     publication_id: OIML R139:2007
     tc_sc: ''
     year: 2007
@@ -105,7 +116,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 140:2007
+  - edition: '2010'
+    publication: OIML R 140:2007
     publication_id: OIML R140:2007
     tc_sc: ''
     year: 2007
@@ -117,7 +129,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 49-1:2006
+  - edition: '2010'
+    publication: OIML R 49-1:2006
     publication_id: OIML R049-1:2006
     tc_sc: ''
     year: 2006
@@ -129,7 +142,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 51-1:2006
+  - edition: '2010'
+    publication: OIML R 51-1:2006
     publication_id: OIML R051-1:2006
     tc_sc: ''
     year: 2006
@@ -143,7 +157,8 @@ data:
       in or flowing through an electronic instrument.
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 76-1:2006
+  - edition: '2010'
+    publication: OIML R 76-1:2006
     publication_id: OIML R076-1:2006
     tc_sc: ''
     year: 2006
@@ -157,7 +172,8 @@ data:
       in or flowing through an electronic instrument.
     consistency: pending
     consistency_reason: ''
-  - publication: OIML D 11:2004
+  - edition: '2010'
+    publication: OIML D 11:2004
     publication_id: OIML D011:2004
     tc_sc: ''
     year: 2004
@@ -173,7 +189,8 @@ data:
       a relative value, for instance as a percentage.
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 61-1:2004
+  - edition: '2010'
+    publication: OIML R 61-1:2004
     publication_id: OIML R061-1:2004
     tc_sc: ''
     year: 2004
@@ -187,7 +204,8 @@ data:
       in or flowing through an electronic instrument.
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 135:2004
+  - edition: '2010'
+    publication: OIML R 135:2004
     publication_id: OIML R135:2004
     tc_sc: ''
     year: 2004
@@ -200,7 +218,8 @@ data:
     - "[OIML D 11, 3.9]"
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 136-1:2004
+  - edition: '2010'
+    publication: OIML R 136-1:2004
     publication_id: OIML R136-1:2004
     tc_sc: ''
     year: 2004
@@ -214,7 +233,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 134:2003
+  - edition: '2010'
+    publication: OIML R 134:2003
     publication_id: OIML R134:2003
     tc_sc: ''
     year: 2003
@@ -229,7 +249,8 @@ data:
       numerical value.'
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 75-1:2002
+  - edition: '2010'
+    publication: OIML R 75-1:2002
     publication_id: OIML R075-1:2002
     tc_sc: ''
     year: 2002
@@ -241,7 +262,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 60:2000
+  - edition: '2010'
+    publication: OIML R 60:2000
     publication_id: OIML R060:2000
     tc_sc: ''
     year: 2000
@@ -253,7 +275,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 129:2000
+  - edition: '2010'
+    publication: OIML R 129:2000
     publication_id: OIML R129:2000
     tc_sc: ''
     year: 2000
@@ -267,7 +290,8 @@ data:
       or flowing through, an electronic measuring instrument.
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 81:1998
+  - edition: '2010'
+    publication: OIML R 81:1998
     publication_id: OIML R081:1998
     tc_sc: ''
     year: 1998
@@ -279,7 +303,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 125:1998
+  - edition: '2010'
+    publication: OIML R 125:1998
     publication_id: OIML R125:1998
     tc_sc: ''
     year: 1998
@@ -293,7 +318,8 @@ data:
     - hange of data contained in, or flowing hrough, an electronic measuring instrument.
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 50-1:1997
+  - edition: '2010'
+    publication: OIML R 50-1:1997
     publication_id: OIML R050-1:1997
     tc_sc: ''
     year: 1997
@@ -307,7 +333,8 @@ data:
       in or flowing through an electronic instrument.
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 106-1:1997
+  - edition: '2010'
+    publication: OIML R 106-1:1997
     publication_id: OIML R106-1:1997
     tc_sc: ''
     year: 1997
@@ -322,7 +349,8 @@ data:
       that in this Recommendation a "fault" is a numerical value.
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 105:1993
+  - edition: '2010'
+    publication: OIML R 105:1993
     publication_id: OIML R105:1993
     tc_sc: ''
     year: 1993
@@ -332,6 +360,504 @@ data:
     definition: the difference between the error of indication and the intrinsic error
       of a measuring system
     notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R142-1:2025
+    publication_id: OIML R142-1:2025
+    tc_sc: ''
+    year: 2025
+    clause: '3.25'
+    link:
+    g18_entry: '03716'
+    definition: difference between the error of indication and the intrinsic error
+      of a measuring instrument
+    notes:
+    - Note 1:Principally, a fault is the result of an undesired change of data contained
+      in or flowing through an electronic measuring instrument. Note 2:From the definition
+      it follows a “fault” is a numerical value which is expressed either in a unit
+      of measurement or as a relative value, for instance as a percentage.
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R049-1:2024
+    publication_id: OIML R049-1:2024
+    tc_sc: ''
+    year: 2024
+    clause: 3.2.8
+    link:
+    g18_entry: '02400'
+    definition: 'difference between the error (3.2.4) (of indication) and the intrinsic
+      error (3.2.6) of a meter [SOURCE: OIML D 11:2013, 3.10 [8], , modified — “of
+      indication” placed in parentheses; “meter” replaces “measuring instrument”;
+      original notes removed]'
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D031:2023
+    publication_id: OIML D031:2023
+    tc_sc: ''
+    year: 2023
+    clause: 3.2.23
+    link:
+    g18_entry: '03064'
+    definition: difference between the error of indication and the intrinsic error
+      of a measuring instrument [OIML V 1:202, 5.12]
+    notes:
+    - Note 1:Principally, a fault is the result of an undesired change of data contained
+      in or flowing through an electronic measuring instrument. Note 2:From the definition
+      it follows a “fault” is a numerical value which is expressed either in a unit
+      of measurement or as a relative value, for instance as a percentage.
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R139-1:2022
+    publication_id: OIML R139-1:2022
+    tc_sc: ''
+    year: 2022
+    clause: 3.1.10
+    link:
+    g18_entry: '03067'
+    definition: difference between the error of indication and the intrinsic error
+      of a measuring instrument [OIML V1:2013, 5.12]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R060-1:2021
+    publication_id: OIML R060-1:2021
+    tc_sc: ''
+    year: 2021
+    clause: 3.7.5
+    link:
+    g18_entry: '03060'
+    definition: difference between the  error of indication and the  intrinsic error  of
+      measuring instrument [VIML 5.12]
+    notes:
+    - "(For notes, refer to the VIML)"
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R126-1:2020
+    publication_id: OIML R126-1:2020
+    tc_sc: ''
+    year: 2020
+    clause: 3.1.11
+    link:
+    g18_entry: '03066'
+    definition: difference between the error of indication and the intrinsic error
+      of a measuring instrument (OIML V1, 5.12)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R129-1:2020
+    publication_id: OIML R129-1:2020
+    tc_sc: ''
+    year: 2020
+    clause: '2.27'
+    link:
+    g18_entry: '03062'
+    definition: the difference between the error of indication and the intrinsic error
+      of a measuring instrument [VIML 5.12]
+    notes:
+    - 'Note 1: Principally, a fault is the result of an undesired change of data contained
+      in, or flowing through, an electronic measuring instrument. Note 2: From the
+      definition, it folloes that a “fault” is a numerical value which is expressed
+      either in a unit of measurement or as a relative value, for as a percentage.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R150-1:2020
+    publication_id: OIML R150-1:2020
+    tc_sc: ''
+    year: 2020
+    clause: 2.4.5.3
+    link:
+    g18_entry: '03065'
+    definition: difference between the error of indication and the intrinsic error
+      of a measuring instrument [VIML:2013, 5.12]
+    notes:
+    - Note 1:Principally, a fault is the result of an undesired change of data contained
+      in or flowing through an electronic measuring instrument. Note 2:From the definition
+      it follows a “fault” is a numerical value which is expressed either in a unit
+      of measurement or as a relative value, for instance as a percentage.
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R061-1:2017
+    publication_id: OIML R061-1:2017
+    tc_sc: ''
+    year: 2017
+    clause: 3.5.2.5
+    link:
+    g18_entry: '03061'
+    definition: difference between the error of indication and the intrinsic error
+      of a measuring instrument [VIML, 5.12]
+    notes:
+    - 'Note 1: Principally, a fault is the result of an undesired change of data contained
+      in or flowing through an electronic instrument. Note 2: From the definition
+      it follows that a “fault” is a numerical value which is expressed either in
+      a unit of measurement or as a relative value, for instance as a percentage.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R080-2:2017
+    publication_id: OIML R080-2:2017
+    tc_sc: ''
+    year: 2017
+    clause: '2'
+    link:
+    g18_entry: '03059'
+    definition: difference between the error of indication and the intrinsic error
+      of a measuring instrument
+    notes:
+    - 'Note 1:  Principally, a fault is the result of an undesired change of data
+      contained in or flowing through an electronic measuring instrument. Note 2:  From
+      the definition it follows that in this Recommendation, a "fault" is a numerical
+      value which is expressed either in a unit of measurement or as a relative value,
+      for instance in %.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R059-1:2016
+    publication_id: OIML R059-1:2016
+    tc_sc: ''
+    year: 2016
+    clause: 2.2.3
+    link:
+    g18_entry: '02460'
+    definition: "[with reference to a certified measurement standard]: difference
+      between the error of indication [during or after exposure to a disturbance]
+      and the mean intrinsic error of a measuring instrument [OIML D 11, 3.10]"
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R146-1:2016
+    publication_id: OIML R146-1:2016
+    tc_sc: ''
+    year: 2016
+    clause: 2.2.6
+    link:
+    g18_entry: '02804'
+    definition: difference between the error of indication (during or after exposure
+      to a disturbance) and the mean intrinsic error of a measuring instrument with
+      reference to a certified measurement standard [OIML D 11:2013, 3.9]
+    notes:
+    - 'OIML D 11:2013 Notes 1 Principally, a fault is the result of an undesired change
+      of data contained in or flowing through an electronic measuring instrument.
+      2 From the definition it follows that a ‘fault’ is a numerical value which is
+      expressed either in a unit of measurement or as a relative value. Note:  Refer
+      to Table 3 for the relevant measured values in the calculation of errors. Note:If
+      a certified measurement standard is not used, a fault is the difference between
+      a single indication during or after a disturbance and the mean indication at
+      reference conditions prior to test.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R050-1:2014
+    publication_id: OIML R050-1:2014
+    tc_sc: ''
+    year: 2014
+    clause: 2.4.5.3
+    link:
+    g18_entry: '03063'
+    definition: difference between the error of indication and the intrinsic error
+      of a measuring instrument [OIML D 11, 3.7]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D011:2013
+    publication_id: OIML D011:2013
+    tc_sc: ''
+    year: 2013
+    clause: '3.10'
+    link:
+    g18_entry: 02224-D011
+    definition: difference between the error of indication and the intrinsic error
+      of a measuring instrument [VIML 5.12]
+    notes:
+    - Note 1:Principally, a fault is the result of an undesired change of data contained
+      in or flowing through an electronic measuring instrument. Note 2:From the definition
+      it follows that in this Document, a “fault” is a numerical value which is expressed
+      either in a unit of measurement or as a relative value, for instance as a percentage.
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R144-1:2013
+    publication_id: OIML R144-1:2013
+    tc_sc: ''
+    year: 2013
+    clause: '2.16'
+    link:
+    g18_entry: '02771'
+    definition: difference between the error of indication and the intrinsic error
+      of the measuring instrument [VIML 2012 (V 1), 5.11] [25]
+    notes:
+    - Note:Random errors presenting momentary variations in the indication but which
+      cannot be interpreted, recorded or transmitted as measuring results are considered
+      to be insignificant faults.
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R046-1:2012
+    publication_id: OIML R046-1:2012
+    tc_sc: ''
+    year: 2012
+    clause: 2.2.30
+    link:
+    g18_entry: '02329-R046-1'
+    definition: difference between the error of indication and the intrinsic error
+      of a measuring instrument
+    notes:
+    - 'Note 1: Principally, a fault is the result of an undesired change of data contained
+      in or flowing through a measuring instrument. Note 2: From the definition it
+      follows that a "fault" is a numerical value which is expressed either in a unit
+      of measurement or as a relative value, for instance as a percentage. [OIML D11:2004,
+      3.9] Note 3: In this Recommendation, the above definition does not apply to
+      the term ‘earth fault’, in which the word ‘fault’ has its usual dictionary meaning.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R137:2012
+    publication_id: OIML R137:2012
+    tc_sc: ''
+    year: 2012
+    clause: 3.2.7
+    link:
+    g18_entry: '02663'
+    definition: difference between the error of indication and the intrinsic error
+      of a measuring instrument [OIML D11, 3.9]
+    notes:
+    - 'Note 1:In practice this is the difference between the error of the meter observed
+      during or after a test, and the error of the meter prior to this test, performed
+      under reference conditions. Note 2: “measuring instrument” is to be interpreted
+      as a “gas meter” within the scope of this Recommendation.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R106-1:2011
+    publication_id: OIML R106-1:2011
+    tc_sc: ''
+    year: 2011
+    clause: 0.4.4.5
+    link:
+    g18_entry: '02611'
+    definition: difference between the error of indication and the intrinsic error
+      of a weighing instrument
+    notes:
+    - Note:Principally, a fault is the result of an undesired change of data contained
+      in or flowing through an electronic instrument. In this Recommendation, a "fault"
+      is a numerical value.
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 80-1:2009
+    publication_id: OIML R080-1:2009
+    tc_sc: ''
+    year: 2009
+    clause: '2.48'
+    link: https://www.oiml.org/en/files/pdf_R/r080-1-e09.pdf
+    g18_entry: '02287-R080-1'
+    definition: difference between the error of indication and the intrinsic error
+      of a measuring instrument
+    notes:
+    - 'Note 1:  Principally, a fault is the result of an undesired change of data
+      contained in or flowing through an electronic measuring instrument. Note 2:  From
+      the definition it follows that in this Recommendation, a "fault" is a numerical
+      value which is expressed either in a unit of measurement or as a relative value,
+      for instance in %.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 143:2009
+    publication_id: OIML R143:2009
+    tc_sc: ''
+    year: 2009
+    clause: '2.17'
+    link: https://www.oiml.org/en/files/pdf_R/r143-e09.pdf
+    g18_entry: '02143'
+    definition: difference between the error of indication and the intrinsic error
+      of measuring instrument
+    notes:
+    - 'Note 1: Random errors presenting momentary variations in the indication but
+      which cannot be interpreted, recorded or transmitted as measuring results are
+      considered to be insignificant faults. Note 2: [OIML D 11:2004, 3.9]'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 85-1:2008
+    publication_id: OIML R085-1:2008
+    tc_sc: ''
+    year: 2008
+    clause: '3.32'
+    link: https://www.oiml.org/en/files/pdf_R/r085-1-e08.pdf
+    g18_entry: 02330-R085-1
+    definition: difference between the error of indication and the intrinsic error
+      of an ALG
+    notes:
+    - principally a fault is the result of an undesired change of data contained in
+      or flowing through an ALG.
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 99-1:2008
+    publication_id: OIML R099-1:2008
+    tc_sc: ''
+    year: 2008
+    clause: '3.20'
+    link: https://www.oiml.org/en/files/pdf_R/r099-1-e08.pdf
+    g18_entry: '02354'
+    definition: difference between the error of indication and the intrinsic error
+      of the instrument [OIML D 11:2004, 3.9]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 107-1:2007
+    publication_id: OIML R107-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.4.5.5
+    link: https://www.oiml.org/en/files/pdf_R/r107-1-e07.pdf
+    g18_entry: '01391'
+    definition: 'difference between the error of indication and the intrinsic error
+      of an instrument [OIML D 11: 2004, 3.9]'
+    notes:
+    - 'Note 1: Principally, a fault is the result of an undesired change of data contained
+      in or flowing through an electronic instrument. Note 2: From the definition
+      it follows that in this Recommendation a “fault” is a numerical value.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 140:2007
+    publication_id: OIML R140:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.2.16
+    link: https://www.oiml.org/en/files/pdf_R/r140-e07.pdf
+    g18_entry: '02082'
+    definition: difference between the error of indication and the intrinsic error
+      of a measuring system or of its constituent elements
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 51-1:2006
+    publication_id: OIML R051-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.4.3.8
+    link: https://www.oiml.org/en/files/pdf_R/r051-1-e06.pdf
+    g18_entry: '00661'
+    definition: difference between the error of indication of an instrument and the
+      intrinsic error
+    notes:
+    - Note:Principally, a fault is the result of an undesired change of data contained
+      in or flowing through an electronic instrument.
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 76-1:2006
+    publication_id: OIML R076-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.5.5.5
+    link: https://www.oiml.org/en/files/pdf_R/r076-1-e06.pdf
+    g18_entry: '00981'
+    definition: difference between the error of indication and the intrinsic error
+      of an instrument
+    notes:
+    - 'Note: Principally, a fault is the result of an undesired change of data contained
+      in or flowing  through an electronic instrument.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 135:2004
+    publication_id: OIML R135:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.29'
+    link: https://www.oiml.org/en/files/pdf_R/r135-e04.pdf
+    g18_entry: '01868'
+    definition: difference between the error and the intrinsic error of a measuring
+      instrument (here a spectrophotometer) [OIML D 11, 3.9]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 136-1:2004
+    publication_id: OIML R136-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: T.4.5
+    link: https://www.oiml.org/en/files/pdf_R/r136-1-e04.pdf
+    g18_entry: '01908'
+    definition: difference between the error of indication and the intrinsic error
+      of a measuring instrument Principally, a fault is the result of an undesired
+      change of data contained in or flowing through an electronic instrument. In
+      this Recommendation a “fault” is a numerical value.
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 134:2003
+    publication_id: OIML R134:2003
+    tc_sc: ''
+    year: 2003
+    clause: T.4.2.4
+    link: https://www.oiml.org/en/files/pdf_R/r134-e03.pdf
+    g18_entry: '01824'
+    definition: difference between the error of indication and the intrinsic error
+      of a weighing instrument
+    notes:
+    - 'Note 1: Principally, a fault is the result of an undesired change of data contained
+      in or flowing through an electronic instrument. Note 2:  From the definition
+      it follows that in this Recommendation a “fault” is a numerical value.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 75-1:2002
+    publication_id: OIML R075-1:2002
+    tc_sc: ''
+    year: 2002
+    clause: 4.10.1
+    link: https://www.oiml.org/en/files/pdf_R/r075-1-e02.pdf
+    g18_entry: '00864'
+    definition: difference between the error of indication and the intrinsic error
+      of the instrument
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 81:1998
+    publication_id: OIML R081:1998
+    tc_sc: ''
+    year: 1998
+    clause: '3.23'
+    link: https://www.oiml.org/en/files/pdf_R/r081-e98.pdf
+    g18_entry: '01032'
+    definition: the difference between the error of indication and the intrinsic error
+      of a measuring system
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 125:1998
+    publication_id: OIML R125:1998
+    tc_sc: ''
+    year: 1998
+    clause: T.27
+    link: https://www.oiml.org/en/files/pdf_R/r125-e98.pdf
+    g18_entry: '01644'
+    definition: the difference between the error indication and the intrinsic error
+      of a measuring instrument
+    notes:
+    - Principally a fault is the result of an undesired change of data contained in,
+      or flowing through, an electronic measuring instrument.
     consistency: pending
     consistency_reason: ''
 status: current

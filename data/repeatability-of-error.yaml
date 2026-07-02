@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '02669'
+  term: repeatability of error
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R137:2012
+    publication_id: OIML R137:2012
+    tc_sc: ''
+    year: 2012
+    clause: 3.2.13
+    link:
+    g18_entry: '02669'
+    definition: repeatability under reference conditions and not changing the flow
+      rate between the measurements
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: b0605189-81b0-5b6d-ae1e-faaef15422fa
+schema_version: '3'
+related: []

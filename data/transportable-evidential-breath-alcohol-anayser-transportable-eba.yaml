@@ -1,0 +1,29 @@
+---
+data:
+  identifier: '03583'
+  term: transportable evidential breath alcohol anayser (transportable EBA)
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R126-1:2021
+    publication_id: OIML R126-1:2021
+    tc_sc: ''
+    year: 2021
+    clause: 3.2.3
+    link:
+    g18_entry: '03583'
+    definition: easily transportable evidential breath alcohol anayser intended for
+      use in mobile applications (e.g. in vehicles)
+    notes:
+    - 'Note:  In scope of this Recommendation, transportable EBAs are designated as
+      use-case 2.'
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 6a492600-c891-587b-a7d8-57fd6d2a46b9
+schema_version: '3'
+related: []

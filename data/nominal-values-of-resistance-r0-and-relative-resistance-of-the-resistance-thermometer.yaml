@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '03328'
+  term: nominal values of resistance R0 and relative resistance  of the resistance
+    thermometer
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R084:2003
+    publication_id: OIML R084:2003
+    tc_sc: ''
+    year: 2003
+    clause: '2.4'
+    link:
+    g18_entry: '03328'
+    definition: Those specified in 4.1 and Table 1.
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 228fe43d-a8b9-5cab-af57-7f078ae1e5b6
+schema_version: '3'
+related: []

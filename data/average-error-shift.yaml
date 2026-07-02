@@ -1,0 +1,65 @@
+---
+data:
+  identifier: '02467'
+  term: average error shift
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R142-1:2025
+    publication_id: OIML R142-1:2025
+    tc_sc: ''
+    year: 2025
+    clause: '3.32'
+    link:
+    g18_entry: '03710'
+    definition: the resulting ‘average’ value is indicative of average variation over
+      the encompassed measurement range, as opposed to the variation in measured values
+      at one point of the range
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R059-1:2016
+    publication_id: OIML R059-1:2016
+    tc_sc: ''
+    year: 2016
+    clause: 2.3.2
+    link:
+    g18_entry: '02467'
+    definition: algebraic mean of error shift values calculated from samples of the
+      same grain type with different moisture levels. The resulting ‘average’ value
+      is indicative of the average variation over the encompassed measurement range,
+      as opposed to the variation in measured values at one point of the range
+    notes:
+    - 'Note: In this Recommendation, reference to a resulting ‘mean’ value is reserved
+      for the mean of replicated measurements, i.e. the mean of measured values on
+      the same test sample (usually taken under repeatability conditions).'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R146-1:2016
+    publication_id: OIML R146-1:2016
+    tc_sc: ''
+    year: 2016
+    clause: 2.2.2
+    link:
+    g18_entry: '02800'
+    definition: algebraic mean of error shift values calculated from samples of the
+      same grain type with different protein (PMB) levels
+    notes:
+    - Note:The resulting ‘average’ value is indicative of the average variation over
+      the encompassed measurement range, as opposed to the variation in measured values
+      at one point of the range. In this Recommendation, reference to a resulting
+      ‘mean’ value is reserved for the mean of replicated measurements, i.e. the mean
+      of measured values on the same test sample (usually taken under repeatability
+      conditions).
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 3014599a-7577-5638-a708-3a3a5af0a26b
+schema_version: '3'
+related: []

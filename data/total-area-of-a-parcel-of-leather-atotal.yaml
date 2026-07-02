@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '01902'
+  term: total area of a parcel of leather (Atotal)
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R 136-1:2004
+    publication_id: OIML R136-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: T.3.4
+    link: https://www.oiml.org/en/files/pdf_R/r136-1-e04.pdf
+    g18_entry: '01902'
+    definition: sum of the areas of pieces of leather individually measured and bundled
+      into a parcel
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 39ca616a-07f6-5e45-8217-4c9f00dc8ade
+schema_version: '3'
+related: []

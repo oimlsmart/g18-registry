@@ -4,8 +4,13 @@ data:
   term: foot crank ergometers with controlled braking power
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 128:2000
+  - edition: '2010'
+    publication: OIML R 128:2000
     publication_id: OIML R128:2000
     tc_sc: ''
     year: 2000
@@ -14,6 +19,20 @@ data:
     g18_entry: '01693'
     definition: foot crank ergometers with controlled braking power are ergometers
       whose input power at the crankshaft is independent of the rotational frequency
+      within a specified working range
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 128:2000
+    publication_id: OIML R128:2000
+    tc_sc: ''
+    year: 2000
+    clause: '3.2'
+    link: https://www.oiml.org/en/files/pdf_R/r128-e00.pdf
+    g18_entry: '01693'
+    definition: foot crank ergometers with controlled braking power are ergometers
+      whose input power at the crankshaft is independent  of the rotational frequency
       within a specified working range
     notes: []
     consistency: pending

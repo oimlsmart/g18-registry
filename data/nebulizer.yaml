@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '01200'
+  identifier: '01517'
   term: nebulizer
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 116:2006
+  - edition: '2010'
+    publication: OIML R 116:2006
     publication_id: OIML R116:2006
     tc_sc: ''
     year: 2006
@@ -19,7 +24,8 @@ data:
       waste.
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 100:1991
+  - edition: '2010'
+    publication: OIML R 100:1991
     publication_id: OIML R100:1991
     tc_sc: ''
     year: 1991
@@ -28,6 +34,33 @@ data:
     g18_entry: '01200'
     definition: A device that converts a liquid sample into an aerosol
     notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R100-1:2013
+    publication_id: OIML R100-1:2013
+    tc_sc: ''
+    year: 2013
+    clause: '3.8'
+    link:
+    g18_entry: '02519'
+    definition: device that converts a liquid sample into an aerosol
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 116:2006
+    publication_id: OIML R116:2006
+    tc_sc: ''
+    year: 2006
+    clause: '3.4'
+    link: https://www.oiml.org/en/files/pdf_R/r116-e06.pdf
+    g18_entry: '01517'
+    definition: device used to transform the liquid sample into an aerosol
+    notes:
+    - 'Note: The nebulizer produces droplets of varying sizes that pass through the
+      spray chamber where larger droplets remain on the chamber walls and are removed
+      as waste.'
     consistency: pending
     consistency_reason: ''
 status: current

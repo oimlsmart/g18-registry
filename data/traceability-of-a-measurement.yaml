@@ -4,8 +4,13 @@ data:
   term: traceability of a measurement
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 140:2007
+  - edition: '2010'
+    publication: OIML R 140:2007
     publication_id: OIML R140:2007
     tc_sc: ''
     year: 2007
@@ -17,6 +22,21 @@ data:
       standards, through an unbroken chain of comparisons all having stated uncertainties
     notes:
     - "(adapted from VIM:2007, 2.41)"
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 140:2007
+    publication_id: OIML R140:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.2.7
+    link: https://www.oiml.org/en/files/pdf_R/r140-e07.pdf
+    g18_entry: '02073'
+    definition: property of the result of a measurement or the value of a standard
+      whereby it can be related to stated references, usually national or international
+      standards, through an unbroken chain of comparisons all having stated uncertainties
+      (adapted from VIM:2007, 2.41)
+    notes: []
     consistency: pending
     consistency_reason: ''
 status: current

@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '02189'
+  identifier: '03054'
   term: executable code
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML D 31:2008
+  - edition: '2010'
+    publication: OIML D 31:2008
     publication_id: OIML D031:2008
     tc_sc: ''
     year: 2008
@@ -17,6 +22,22 @@ data:
       by the microprocessor and transposed into certain logical, arithmetical, decoding,
       or data transporting operations
     notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D031:2023
+    publication_id: OIML D031:2023
+    tc_sc: ''
+    year: 2023
+    clause: 3.2.22
+    link:
+    g18_entry: '03054'
+    definition: digital information installed in the measuring instrument or component
+      (EPROM, hard disk, etc.)
+    notes:
+    - 'Note: This code interpreted by the central processing unit (CPU) of the measuring
+      instrument and converted into certain logical, arithmetical, decoding or data
+      transporting operations.'
     consistency: pending
     consistency_reason: ''
 status: current

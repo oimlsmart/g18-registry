@@ -1,0 +1,29 @@
+---
+data:
+  identifier: '02280-R046-1'
+  term: electricity meter
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R046-1:2012
+    publication_id: OIML R046-1:2012
+    tc_sc: ''
+    year: 2012
+    clause: 2.1.1
+    link:
+    g18_entry: '02280-R046-1'
+    definition: instrument intended to measure electrical energy continuously by integrating
+      power with respect to time and to store the result
+    notes:
+    - 'Note: It is recognized that “continuously” may also cover meters with a sampling
+      rate sufficiently high to fulfil the requirements of this Recommendation.'
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 0b936838-3000-569e-9857-1a210a578b0b
+schema_version: '3'
+related: []

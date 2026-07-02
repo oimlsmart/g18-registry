@@ -4,8 +4,26 @@ data:
   term: tank calibration table
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 125:1998
+  - edition: '2010'
+    publication: OIML R 125:1998
+    publication_id: OIML R125:1998
+    tc_sc: ''
+    year: 1998
+    clause: T.5
+    link: https://www.oiml.org/en/files/pdf_R/r125-e98.pdf
+    g18_entry: '01619'
+    definition: a table which shows the relation between the height of the liquid
+      level and the volume contained in the tank at that level under specified conditions
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 125:1998
     publication_id: OIML R125:1998
     tc_sc: ''
     year: 1998

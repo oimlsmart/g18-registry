@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '00256'
+  identifier: 02250-D011
   term: auxiliary battery
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML D 11:2004
+  - edition: '2010'
+    publication: OIML D 11:2004
     publication_id: OIML D011:2004
     tc_sc: ''
     year: 2004
@@ -15,6 +20,62 @@ data:
     definition: 'battery that is: • Mounted in, or connected to, an instrument that
       can be powered by the mains power as well; and • Capable of completely powering
       the instrument for a reasonable period of time'
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R142-1:2025
+    publication_id: OIML R142-1:2025
+    tc_sc: ''
+    year: 2025
+    clause: '3.33'
+    link:
+    g18_entry: '03709'
+    definition: battery that is (a)mounted in, or connected to, an instrument that
+      can also be powered by the mains power, and (b)capable of completely powering
+      the instrument for a reasonable period of time.
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R060:2021
+    publication_id: OIML R060:2021
+    tc_sc: ''
+    year: 2021
+    clause: A.1.15
+    link:
+    g18_entry: '02897'
+    definition: battery that is mounted in, or connected to, an instrument that can
+      also be powered by the mains power as well, and capable of supplying powering
+      to the complete instrument for a reasonable period of time. (OIML D 11, 3.25)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R059-1:2016
+    publication_id: OIML R059-1:2016
+    tc_sc: ''
+    year: 2016
+    clause: 2.3.3
+    link:
+    g18_entry: '02468'
+    definition: battery that is (a)mounted in, or connected to, an instrument that
+      can also be powered by the mains power, and (b)capable of completely powering
+      the instrument for a reasonable period of time.
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D011:2013
+    publication_id: OIML D011:2013
+    tc_sc: ''
+    year: 2013
+    clause: '3.25'
+    link:
+    g18_entry: 02250-D011
+    definition: battery that is mounted in, or connected to, an instrument that can
+      be powered by the mains power as well, and capable of supplying power to the
+      complete instrument for a reasonable period of time.
     notes: []
     consistency: pending
     consistency_reason: ''

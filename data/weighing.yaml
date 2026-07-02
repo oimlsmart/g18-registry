@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '00754'
+  identifier: '03633'
   term: weighing
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 61-1:2004
+  - edition: '2010'
+    publication: OIML R 61-1:2004
     publication_id: OIML R061-1:2004
     tc_sc: ''
     year: 2004
@@ -13,6 +18,19 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r061-1-e04.pdf
     g18_entry: '00754'
     definition: process of determining the mass of a load from the effect of gravity
+      on that load
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R061-1:2017
+    publication_id: OIML R061-1:2017
+    tc_sc: ''
+    year: 2017
+    clause: 3.1.4
+    link:
+    g18_entry: '03633'
+    definition: process of determining the mass of a load using the effect of gravity
       on that load
     notes: []
     consistency: pending

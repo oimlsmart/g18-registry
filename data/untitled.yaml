@@ -1,0 +1,28 @@
+---
+data:
+  identifier: '02836'
+  term: "(untitled)"
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R084:2003
+    publication_id: OIML R084:2003
+    tc_sc: ''
+    year: 2003
+    clause: '2.6'
+    link:
+    g18_entry: '02836'
+    definition: the three types of resistance thermometers have the designations,
+      nominal values of relative resistance , and tolerance classes specified in Table
+      1
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 2c0c1486-00ba-5f81-81da-df0dc4d7969d
+schema_version: '3'
+related: []

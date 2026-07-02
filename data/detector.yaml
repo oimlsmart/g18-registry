@@ -4,8 +4,13 @@ data:
   term: detector
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 82:2006
+  - edition: '2010'
+    publication: OIML R 82:2006
     publication_id: OIML R082:2006
     tc_sc: ''
     year: 2006
@@ -17,7 +22,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 83:2006
+  - edition: '2010'
+    publication: OIML R 83:2006
     publication_id: OIML R083:2006
     tc_sc: ''
     year: 2006
@@ -30,7 +36,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 116:2006
+  - edition: '2010'
+    publication: OIML R 116:2006
     publication_id: OIML R116:2006
     tc_sc: ''
     year: 2006
@@ -42,7 +49,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 123:1997
+  - edition: '2010'
+    publication: OIML R 123:1997
     publication_id: OIML R123:1997
     tc_sc: ''
     year: 1997
@@ -54,7 +62,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 112:1994
+  - edition: '2010'
+    publication: OIML R 112:1994
     publication_id: OIML R112:1994
     tc_sc: ''
     year: 1994
@@ -66,7 +75,104 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 113:1994
+  - edition: '2010'
+    publication: OIML R 113:1994
+    publication_id: OIML R113:1994
+    tc_sc: ''
+    year: 1994
+    clause: '3.7'
+    link: https://www.oiml.org/en/files/pdf_R/r113-e94.pdf
+    g18_entry: '01494'
+    definition: a device that responds to sample components in the eluate of the column
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D036:2020
+    publication_id: OIML D036:2020
+    tc_sc: ''
+    year: 2020
+    clause: '3.3'
+    link:
+    g18_entry: '02977'
+    definition: contact sensor or non-contact (optical or mechanical) sensor that
+      is used to detect the position of the displacer
+    notes:
+    - 'Note: A mechanical detector using a cantilever is often employed in certain
+      pipe provers. The lever is pushed by the displacer and actuates an electrical
+      switch installed outside the pipe wall. A linear encoder is used for a piston
+      prover to transmit a pulse signal that is proportional to the displacement of
+      the displacer.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 82:2006
+    publication_id: OIML R082:2006
+    tc_sc: ''
+    year: 2006
+    clause: '3.8'
+    link: https://www.oiml.org/en/files/pdf_R/r082-e06.pdf
+    g18_entry: '01052'
+    definition: device that can respond to eluted sample components in the carrier
+      gas emerging from the column
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 83:2006
+    publication_id: OIML R083:2006
+    tc_sc: ''
+    year: 2006
+    clause: '3.7'
+    link: https://www.oiml.org/en/files/pdf_R/r083-e06.pdf
+    g18_entry: '01067'
+    definition: device that can respond to eluted sample components in the carrier
+      gas emerging from the gas chromatographic column and that is contained within
+      the mass spectrometer in a GC/MS system
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 116:2006
+    publication_id: OIML R116:2006
+    tc_sc: ''
+    year: 2006
+    clause: '3.10'
+    link: https://www.oiml.org/en/files/pdf_R/r116-e06.pdf
+    g18_entry: '01523'
+    definition: device that responds to light signals passing through the exit slit
+      of the polychromator or scanning monochromator of the ICP system
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 123:1997
+    publication_id: OIML R123:1997
+    tc_sc: ''
+    year: 1997
+    clause: '3.3'
+    link: https://www.oiml.org/en/files/pdf_R/r123-e97.pdf
+    g18_entry: '01607'
+    definition: device that converts the energy absorbed from the X-rays emitted by
+      a sample into electric signals
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 112:1994
+    publication_id: OIML R112:1994
+    tc_sc: ''
+    year: 1994
+    clause: '2.7'
+    link: https://www.oiml.org/en/files/pdf_R/r112-e94.pdf
+    g18_entry: '01479'
+    definition: the device that responds to the presence of sample components eluting
+      from the column
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 113:1994
     publication_id: OIML R113:1994
     tc_sc: ''
     year: 1994

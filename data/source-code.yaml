@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '02214'
+  identifier: '03526'
   term: source code
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML D 31:2008
+  - edition: '2010'
+    publication: OIML D 31:2008
     publication_id: OIML D031:2008
     tc_sc: ''
     year: 2008
@@ -16,6 +21,20 @@ data:
       legible and editable. Source code is compiled or interpreted into executable
       code
     notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication:
+    publication_id:
+    tc_sc: ''
+    year:
+    clause:
+    link:
+    g18_entry: '03526'
+    definition: computer program written in a form (programming language) that is
+      legible and editable.
+    notes:
+    - 'Note: Source code is compiled or interpreted into executable code.'
     consistency: pending
     consistency_reason: ''
 status: current

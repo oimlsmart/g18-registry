@@ -1,24 +1,28 @@
 ---
 data:
-  identifier: '02193'
-  term: integrity of programs, data, or parameters
+  identifier: '03161'
+  term: integrity (of programs, data, or parameters)
   kind: undefined
   official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML D 31:2008
-    publication_id: OIML D031:2008
+  - edition: 202X
+    publication: OIML R126-1:2021
+    publication_id: OIML R126-1:2021
     tc_sc: ''
-    year: 2008
-    clause: 3.1.26
-    link: https://www.oiml.org/en/files/pdf_D/d031-e08.pdf
-    g18_entry: '02193'
+    year: 2021
+    clause: 3.3.7
+    link:
+    g18_entry: '03161'
     definition: assurance that the programs, data, or parameters have not been subjected
-      to any unauthorized or unintended changes while in use, transfer, storage, repair
-      or maintenance
+      to any unauthorised or unintended changes while in use, transfer, storage, repair
+      or maintenance (OIML D 31, 3.1.21)
     notes: []
     consistency: pending
     consistency_reason: ''
 status: current
-id: aa22b05b-287b-5374-baa7-d70ff3d38562
+id: 81a007f0-cfb8-582b-ba54-a562dced3d5d
 schema_version: '3'
 related: []

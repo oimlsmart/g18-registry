@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '03593'
+  term: type approval mark
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R060-1:2021
+    publication_id: OIML R060-1:2021
+    tc_sc: ''
+    year: 2021
+    clause: 3.7.21
+    link:
+    g18_entry: '03593'
+    definition: mark applied to a measuring instrument certifying its conformity to
+      the approved type [VIML 3.07]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: b2ecd44d-fe84-5fcc-a614-5f611a02d6a6
+schema_version: '3'
+related: []

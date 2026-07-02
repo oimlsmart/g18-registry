@@ -4,8 +4,27 @@ data:
   term: instability of the calibration characteristic
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 48:2004
+  - edition: '2010'
+    publication: OIML R 48:2004
+    publication_id: OIML R048:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.6'
+    link: https://www.oiml.org/en/files/pdf_R/r048-e04.pdf
+    g18_entry: '00406'
+    definition: variation in the temperature of a tungsten ribbon. The temperature
+      instability is characterized by a temperature equivalent to the current change
+      in the lamp circuit per 1 hour
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 48:2004
     publication_id: OIML R048:2004
     tc_sc: ''
     year: 2004

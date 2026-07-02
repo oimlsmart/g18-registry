@@ -4,8 +4,13 @@ data:
   term: astigmatic power lens
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 93:1999
+  - edition: '2010'
+    publication: OIML R 93:1999
     publication_id: OIML R093:1999
     tc_sc: ''
     year: 1999
@@ -18,6 +23,23 @@ data:
     notes:
     - corresponding focal line at infinity. Lenses referred to as toric lenses, sphero-cylindrical
       lenses and cylinder lenses are all astigmatic.
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 93:1999
+    publication_id: OIML R093:1999
+    tc_sc: ''
+    year: 1999
+    clause: '3.10'
+    link: https://www.oiml.org/en/files/pdf_R/r093-e99.pdf
+    g18_entry: '01135'
+    definition: lens bringing a paraxial pencil of parallel rays to two separate line
+      foci mutually at right angles and hence, unlike a spherical lens, having two
+      principal powers
+    notes:
+    - 'Note: One of these powers may be zero, with the corresponding focal line at
+      infinity. Lenses referred to as toric lenses, sphero-cylindrical lenses and
+      cylinder lenses are all astigmatic.'
     consistency: pending
     consistency_reason: ''
 status: current

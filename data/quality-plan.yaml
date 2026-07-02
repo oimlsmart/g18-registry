@@ -4,8 +4,13 @@ data:
   term: quality plan
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML D 27:2001
+  - edition: '2010'
+    publication: OIML D 27:2001
     publication_id: OIML D027:2001
     tc_sc: ''
     year: 2001
@@ -20,6 +25,24 @@ data:
       processes and to product realization processes. (2) A quality plan often makes
       reference to parts of the quality manual or to procedure documents. (3) A quality
       plan is generally one of the results of quality planning."
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D 27:2001
+    publication_id: OIML D027:2001
+    tc_sc: ''
+    year: 2001
+    clause: '2.13'
+    link: https://www.oiml.org/en/files/pdf_D/d027-e01.pdf
+    g18_entry: '00175'
+    definition: document specifying which procedures and associated resources shall
+      be applied by whom and when to a specific project, product, process or contract
+      [ISO 9000:2000, 3.7.5]
+    notes:
+    - 'Note: These procedures generally include those referring to quality management
+      processes and to product realization processes. A quality plan often makes reference
+      to parts of the quality manual or to procedure documents. A quality plan is
+      generally one of the results of quality planning.'
     consistency: pending
     consistency_reason: ''
 status: current

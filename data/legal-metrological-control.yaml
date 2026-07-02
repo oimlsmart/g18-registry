@@ -7,8 +7,18 @@ data:
     source: urn:oiml:pub:v:1:2000
     id: '2.1'
     url: https://oimlsmart.github.io/vocab/viml-2000/concept/2.1
+    definition_text:
+    edition_label: VIML 2000
+    vocab: viml
+    role: prior
+    year: 2000
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML D 9:2004
+  - edition: '2010'
+    publication: OIML D 9:2004
     publication_id: OIML D009:2004
     tc_sc: ''
     year: 2004
@@ -27,7 +37,8 @@ data:
       ref:
         source: urn:oiml:pub:v:1:2000
         id: '2.1'
-  - publication: OIML D 27:2001
+  - edition: '2010'
+    publication: OIML D 27:2001
     publication_id: OIML D027:2001
     tc_sc: ''
     year: 2001
@@ -43,12 +54,112 @@ data:
     consistency_reason: ''
     related:
     - type: see
-      ref: &1
+      ref:
         source: urn:oiml:pub:v:1:2000
         id: '2.1'
+  - edition: 202X
+    publication: OIML D034:2019
+    publication_id: OIML D034:2019
+    tc_sc: ''
+    year: 2019
+    clause: 3.1.8
+    link:
+    g18_entry: '03178'
+    definition: the whole of legal metrology activities (from VIML, 2.01)
+    notes:
+    - 'Note:Legal metrological control includes: legal control of measuring instruments,
+      metrological supervision, and all the operations for the purpose of examining
+      and demonstrating, e.g. to testify in a court of law, the conditio of measuring
+      instrument and to determine itd. metrological properties, amongst others by
+      reference to the relevant astatutoey requirements'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D034:2019
+    publication_id: OIML D034:2019
+    tc_sc: ''
+    year: 2019
+    clause: '3.24'
+    link:
+    g18_entry: '03179'
+    definition: the whole of legal metrology activities [VIML, 2.01]
+    notes:
+    - 'Note:Legal metrological control includes: legal control of measuring instruments,
+      metrological supervision, all the operations for the purpose of examining and
+      demonstrating, e.g. to testify in a court of law, the conditio of measuring
+      instrument and to determine itd. metrological properties, amongst others by
+      reference to the relevant astatutoey requirements.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D001:2012
+    publication_id: OIML D001:2012
+    tc_sc: ''
+    year: 2012
+    clause: 3.1.9
+    link:
+    g18_entry: '02209'
+    definition: the whole of legal metrology activities [VIML 2.01]
+    notes:
+    - 'Note: Legal metrological control includes legal control of measuring instruments,
+      legal metrological supervision, and legal metrological expertise.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D016:2011
+    publication_id: OIML D016:2011
+    tc_sc: ''
+    year: 2011
+    clause: '2.2'
+    link:
+    g18_entry: 02255-D016
+    definition: the whole of legal metrology activities which contribute to metrological
+      assurance [VIML 2.1]
+    notes:
+    - 'Note:Legal metrological control includes: legal control of measuring instruments;
+      metrological supervision; metrological expertise.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D 9:2004
+    publication_id: OIML D009:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.4'
+    link: https://www.oiml.org/en/files/pdf_D/d009-e04.pdf
+    g18_entry: '00186'
+    definition: the whole of legal metrology activities which contribute to metrological
+      assurance [VIML, 2.1]
+    notes:
+    - 'Note:Legal metrological control includes: - legal control of measuring instruments;
+      -  metrological supervision; -  metrological expertise.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D 27:2001
+    publication_id: OIML D027:2001
+    tc_sc: ''
+    year: 2001
+    clause: '2.2'
+    link: https://www.oiml.org/en/files/pdf_D/d027-e01.pdf
+    g18_entry: '00164'
+    definition: whole of legal metrology activities which contribute to metrological  assurance
+      [VIML, 2.1]
+    notes:
+    - 'Note:Legal metrological control includes: legal control of measuring instruments,
+      metrological supervision, metrological assessment.'
+    consistency: pending
+    consistency_reason: ''
 status: current
 id: 7c6f1eb8-c3d5-5e3e-9f94-19b9ff7f6d8b
 schema_version: '3'
 related:
 - type: see
-  ref: *1
+  ref:
+    source: urn:oiml:pub:v:1:2000
+    id: '2.1'
+    definition_text:
+    edition_label: VIML 2000
+    vocab: viml
+    role: prior
+    year: 2000

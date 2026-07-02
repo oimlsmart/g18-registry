@@ -1,0 +1,46 @@
+---
+data:
+  identifier: '02465'
+  term: software) validation
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R059-1:2016
+    publication_id: OIML R059-1:2016
+    tc_sc: ''
+    year: 2016
+    clause: 2.2.1
+    link:
+    g18_entry: '02465'
+    definition: confirmation by examination and provision of objective evidence (i.e.
+      information that can be proved true, based on facts obtained from observations,
+      measurement, test, etc.) that the particular requirements for the specific intended
+      use are fulfilled. In the present case the related requirements are those of
+      this Recommendation [OIML D31, 3.1.56]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R146-1:2016
+    publication_id: OIML R146-1:2016
+    tc_sc: ''
+    year: 2016
+    clause: 2.2.18
+    link:
+    g18_entry: '02816'
+    definition: confirmation by examination and provision of objective evidence (i.e.
+      information that can be proved true, based on facts obtained from observations,
+      measurement, tests, etc.) that the particular requirements for the specific
+      intended use are fulfilled [OIML D 31:2008, 3.1.56]
+    notes:
+    - 'Note: In the present case the related requirements are those of this Recommendation.'
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 258a61b2-171e-5c85-8f53-072391bc0ca5
+schema_version: '3'
+related: []

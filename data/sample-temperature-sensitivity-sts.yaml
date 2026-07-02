@@ -1,0 +1,48 @@
+---
+data:
+  identifier: '02478'
+  term: sample temperature sensitivity (STS)
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R059-1:2016
+    publication_id: OIML R059-1:2016
+    tc_sc: ''
+    year: 2016
+    clause: 2.3.13
+    link:
+    g18_entry: '02478'
+    definition: measurement variation (relative to the moisture values obtained at
+      reference conditions) resulting from the range of grain sample temperatures
+      permitted in commercial measurements
+    notes:
+    - 'Note:  STS is controlled in approved moisture calibrations. During assessment,
+      a limit is placed on the value of the average error shift caused by allowable
+      temperature variations.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R146-1:2016
+    publication_id: OIML R146-1:2016
+    tc_sc: ''
+    year: 2016
+    clause: 2.2.15
+    link:
+    g18_entry: '02813'
+    definition: measurement variation (relative to the PMB values obtained at reference
+      conditions) resulting from the range of grain sample temperatures permitted
+      in commercial measurements
+    notes:
+    - 'Note: STS is controlled in approved PMB calibrations. During assessment, a
+      limit is placed on the value of the average error shift caused by allowable
+      temperature variations.'
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 2313475e-5899-52b9-af18-53b41c887e59
+schema_version: '3'
+related: []

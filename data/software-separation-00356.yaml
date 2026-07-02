@@ -1,0 +1,155 @@
+---
+data:
+  identifier: '00356'
+  term: software separation
+  kind: undefined
+  official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: '2010'
+    publication: OIML D 31:2008
+    publication_id: OIML D031:2008
+    tc_sc: ''
+    year: 2008
+    clause: 3.1.46
+    link: https://www.oiml.org/en/files/pdf_D/d031-e08.pdf
+    g18_entry: '02213'
+    definition: software in measuring instruments/electronic devices/sub- assemblies
+      can be divided into a legally relevant part and a legally non-relevant part.
+      These parts communicate via a software interface
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: '2010'
+    publication: OIML R 21:2007
+    publication_id: OIML R021:2007
+    tc_sc: ''
+    year: 2007
+    clause: 2.2.8.6
+    link: https://www.oiml.org/en/files/pdf_R/r021-e07.pdf
+    g18_entry: '00356'
+    definition: software in measuring devices can be divided into a legally relevant
+      part and a legally irrelevant part. These parts communicate via an interface
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: '2010'
+    publication: OIML R 51-1:2006
+    publication_id: OIML R051-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.2.7.8.6
+    link: https://www.oiml.org/en/files/pdf_R/r051-1-e06.pdf
+    g18_entry: '00597'
+    definition: unambiguous separation of software into legally relevant software
+      and non-legally relevant software. If no software separation exists, the whole
+      software is to be considered as legally relevant
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: '2010'
+    publication: OIML R 76-1:2006
+    publication_id: OIML R076-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.2.8.7
+    link: https://www.oiml.org/en/files/pdf_R/r076-1-e06.pdf
+    g18_entry: '00938'
+    definition: unambiguous separation of software into legally relevant software
+      and non-legally relevant software. If no software separation exists, the whole
+      software is to be considered as legally relevant
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D031:2023
+    publication_id: OIML D031:2023
+    tc_sc: ''
+    year: 2023
+    clause: 3.2.63
+    link:
+    g18_entry: '03524'
+    definition: separation of software in measuring instruments, which can be divided
+      into a legally relevant module(s) and legally non-relevant module(s) adapted
+      form [OIML V 1:2022, 6.02]
+    notes:
+    - 'Note: These module(s) communicate via a software interface.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R150-1:2020
+    publication_id: OIML R150-1:2020
+    tc_sc: ''
+    year: 2020
+    clause: 2.2.9.6
+    link:
+    g18_entry: '03525'
+    definition: separation of software in measuring instruments, which can be divided
+      into a legally relevant part and a legally non-relevant part [VIML:2013, 6.02]
+    notes:
+    - 'Note: These padt communicate via a software interface.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R106-1:2011
+    publication_id: OIML R106-1:2011
+    tc_sc: ''
+    year: 2011
+    clause: 0.2.8.6
+    link:
+    g18_entry: '02558'
+    definition: unambiguous separation of software into legally relevant software
+      and non-legally relevant software
+    notes:
+    - 'Note: if no software separation exists, the whole software is to be considered
+      as legally relevant'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 21:2007
+    publication_id: OIML R021:2007
+    tc_sc: ''
+    year: 2007
+    clause: 2.2.8.6
+    link: https://www.oiml.org/en/files/pdf_R/r021-e07.pdf
+    g18_entry: '00356'
+    definition: software in measuring devices can be divided into a legally relevant
+      part and a legally irrelevant part. These parts communicate via an interface
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 51-1:2006
+    publication_id: OIML R051-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.2.7.8.6
+    link: https://www.oiml.org/en/files/pdf_R/r051-1-e06.pdf
+    g18_entry: '00597'
+    definition: unambiguous separation of software into legally relevant software
+      and non-legally relevant software. If no software separation exists, the whole
+      software is to be considered as legally relevant
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 76-1:2006
+    publication_id: OIML R076-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.2.8.7
+    link: https://www.oiml.org/en/files/pdf_R/r076-1-e06.pdf
+    g18_entry: '00938'
+    definition: unambiguous separation of software into legally relevant software
+      and non-legally relevant software. If no software separation exists, the whole
+      software is to be considered as legally relevant
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: f8a808dd-7bc5-560c-922a-55ecf2176ad9
+schema_version: '3'
+related: []

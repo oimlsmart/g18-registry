@@ -4,8 +4,13 @@ data:
   term: combined instrument
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 75-1:2002
+  - edition: '2010'
+    publication: OIML R 75-1:2002
     publication_id: OIML R075-1:2002
     tc_sc: ''
     year: 2002
@@ -13,6 +18,18 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r075-1-e02.pdf
     g18_entry: '00844'
     definition: 3 a heat meter which has separable sub-assemblies as defined in .4
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 75-1:2002
+    publication_id: OIML R075-1:2002
+    tc_sc: ''
+    year: 2002
+    clause: '3.2'
+    link: https://www.oiml.org/en/files/pdf_R/r075-1-e02.pdf
+    g18_entry: '00844'
+    definition: a heat meter which has separable sub-assemblies as defined in 3.4
     notes: []
     consistency: pending
     consistency_reason: ''

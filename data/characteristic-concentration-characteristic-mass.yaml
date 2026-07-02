@@ -1,25 +1,29 @@
 ---
 data:
-  identifier: '01197'
-  term: characteristic concentration, characteristic mass
+  identifier: '02516'
+  term: characteristic concentration characteristic mass
   kind: undefined
   official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 100:1991
-    publication_id: OIML R100:1991
+  - edition: 202X
+    publication: OIML R100-1:2013
+    publication_id: OIML R100-1:2013
     tc_sc: ''
-    year: 1991
+    year: 2013
     clause: '3.5'
-    link: https://www.oiml.org/en/files/pdf_R/r100-e91.pdf
-    g18_entry: '01197'
-    definition: the concentration/mass of the element being determined needed to produce
-      a signal of 0.0044 absorbance which is equivalent to a 1 % decrease in transmitted
-      radiation
+    link:
+    g18_entry: '02516'
+    definition: concentration or mass of an element which produces a change from the
+      blank test solution of 0.004 4 absorbance units (1 % absorption) at the wavelength
+      of the absorption line employed
     notes:
-    - Sensitivity has historically been used for this term.
+    - 'Note: Historically, sensitivity has been used for this term in this field.'
     consistency: pending
     consistency_reason: ''
 status: current
-id: 44a19f4d-4125-57c8-9f8f-b9f8629428ba
+id: a971cca4-b138-50f7-b777-a79277d31023
 schema_version: '3'
 related: []

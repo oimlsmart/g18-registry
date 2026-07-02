@@ -4,12 +4,31 @@ data:
   term: process refractometer
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 108:1993
+  - edition: '2010'
+    publication: OIML R 108:1993
     publication_id: OIML R108:1993
     tc_sc: ''
     year: 1993
     clause: '2.6'
+    link: https://www.oiml.org/en/files/pdf_R/r108-e93.pdf
+    g18_entry: '01410'
+    definition: process refractometers are instruments in which the liquid is continuously
+      supplied as a function of product transport but not as a feature of the instrument.
+      The measuring procedure is performed independently of the liquid transport
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 108:1993
+    publication_id: OIML R108:1993
+    tc_sc: ''
+    year: 1993
+    clause: '2.5'
     link: https://www.oiml.org/en/files/pdf_R/r108-e93.pdf
     g18_entry: '01410'
     definition: process refractometers are instruments in which the liquid is continuously

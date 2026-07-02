@@ -4,8 +4,13 @@ data:
   term: weighing module
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 107-1:2007
+  - edition: '2010'
+    publication: OIML R 107-1:2007
     publication_id: OIML R107-1:2007
     tc_sc: ''
     year: 2007
@@ -20,7 +25,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 51-1:2006
+  - edition: '2010'
+    publication: OIML R 51-1:2006
     publication_id: OIML R051-1:2006
     tc_sc: ''
     year: 2006
@@ -35,7 +41,118 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 76-1:2006
+  - edition: '2010'
+    publication: OIML R 76-1:2006
+    publication_id: OIML R076-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.2.2.7
+    link: https://www.oiml.org/en/files/pdf_R/r076-1-e06.pdf
+    g18_entry: '00903'
+    definition: part of the weighing instrument that comprises all mechanical and
+      electronic devices (i.e. load receptor, load-transmitting device, load cell,
+      and analog data processing device or digital data processing device) but not
+      having the means to display the weighing result. It may optionally have devices
+      for further processing (digital) data and operating the instrument
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R060-1:2021
+    publication_id: OIML R060-1:2021
+    tc_sc: ''
+    year: 2021
+    clause: A.2.1
+    link:
+    g18_entry: '03638'
+    definition: part of the weighing instrument that comprises all mechanical and
+      electronic devices (i.e. load receptor, load-transmitting device, load cell,
+      and analog data processing device or digital data processing device) but not
+      having the means to display the weighing result. It may optionally have devices
+      for further processing (digital) data and operating the instrument (OIML R 76-1,
+      T.2.2.7)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R150-1:2020
+    publication_id: OIML R150-1:2020
+    tc_sc: ''
+    year: 2020
+    clause: 2.2.8.6
+    link:
+    g18_entry: '03637'
+    definition: part of an instrument providing information on the mass of the load
+      to be measured. It may optionally have devices for further processing (digital)
+      data and operating instrument
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R061-1:2017
+    publication_id: OIML R061-1:2017
+    tc_sc: ''
+    year: 2017
+    clause: 3.3.11.7
+    link:
+    g18_entry: '03687'
+    definition: part of the weighing instrument that comprises all mechanical and
+      electronic devices (i.e. load receptor, load-transmitting device, load cell,
+      and analog data processing device or digital data processing device) but not
+      having the means to display the weighing result. It may optionally have devices
+      for further processing (digital) data and operating the instrument
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R106-1:2011
+    publication_id: OIML R106-1:2011
+    tc_sc: ''
+    year: 2011
+    clause: 0.2.6.5
+    link:
+    g18_entry: '02549'
+    definition: part of the weighing instrument that comprises all mechanical and
+      electronic devices (i.e. load receptor, load cell, and the analogue data processing
+      device) but that does not have the means to display the weighing results it
+      may optionally have devices for further processing (digital) data
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 107-1:2007
+    publication_id: OIML R107-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.2.7.5
+    link: https://www.oiml.org/en/files/pdf_R/r107-1-e07.pdf
+    g18_entry: 02346-R107-1
+    definition: part of the weighing instrument that comprises all mechanical and
+      electronic devices (i.e. load receptor, load-transmitting device, load cell,
+      and analog data processing device or digital data processing device) but not
+      having the means to display the weighing result. It may optionally have devices
+      for further processing (digital) data and operating the instrument
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 51-1:2006
+    publication_id: OIML R051-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.2.7.5
+    link: https://www.oiml.org/en/files/pdf_R/r051-1-e06.pdf
+    g18_entry: '00589'
+    definition: part of the weighing instrument that comprises all mechanical and
+      electronic devices (i.e. load receptor, load-transmitting device, load cell,
+      and analog data processing device) but not having the means to display the weighing
+      result. It may optionally have devices for further processing (digital) data
+      and operating the instrument
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 76-1:2006
     publication_id: OIML R076-1:2006
     tc_sc: ''
     year: 2006

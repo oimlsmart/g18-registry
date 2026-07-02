@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '01970'
+  identifier: '02692'
   term: overload conditions
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 137-1:2006
+  - edition: '2010'
+    publication: OIML R 137-1:2006
     publication_id: OIML R137-1:2006
     tc_sc: ''
     year: 2006
@@ -16,6 +21,20 @@ data:
       and electromagnetic interference that a gas meter is required to withstand without
       damage. When it is subsequently operated within its rated operating conditions,
       it must do so within the limits of its maximum permissible error
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R137:2012
+    publication_id: OIML R137:2012
+    tc_sc: ''
+    year: 2012
+    clause: 3.4.3
+    link:
+    g18_entry: '02692'
+    definition: conditions outside the rated operating conditions (including flow
+      rate, temperature, pressure, humidity and electromagnetic interference) that
+      a gas meter is required to withstand without deterioration.
     notes: []
     consistency: pending
     consistency_reason: ''

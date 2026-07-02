@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '00995'
+  identifier: '02480'
   term: label
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 79:1997
+  - edition: '2010'
+    publication: OIML R 79:1997
     publication_id: OIML R079:1997
     tc_sc: ''
     year: 1997
@@ -19,6 +24,22 @@ data:
       an inspector's tag or other non-promotional text affixed to or appearing on
       a product shall not be deemed to be a label that requires the label information
       prescribed by this Recommendation
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R079:2015
+    publication_id: OIML R079:2015
+    tc_sc: ''
+    year: 2015
+    clause: '2.1'
+    link:
+    g18_entry: '02480'
+    definition: written, printed, or graphic matter affixed to, applied to, attached
+      to, blown into, formed or molded into, embossed on, appearing upon, included
+      in, belonging to, or accompanying a prepackage containing any product for purposes
+      of branding, identifying, or giving any information with respect to the product
+      or to the contents of the prepackage
     notes: []
     consistency: pending
     consistency_reason: ''

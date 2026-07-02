@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '01194'
+  identifier: '02513'
   term: blank reference solution
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 100:1991
+  - edition: '2010'
+    publication: OIML R 100:1991
     publication_id: OIML R100:1991
     tc_sc: ''
     year: 1991
@@ -14,6 +19,19 @@ data:
     g18_entry: '01194'
     definition: a solution that is used to set the zero absorbance on the spectrometer
       and that normally consists of a pure solvent such as deionized water
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R100-1:2013
+    publication_id: OIML R100-1:2013
+    tc_sc: ''
+    year: 2013
+    clause: 3.3.1
+    link:
+    g18_entry: '02513'
+    definition: solution used to set the zero absorbance on the spectrometer and that
+      normally consists of a pure solvent such as de-ionized water
     notes: []
     consistency: pending
     consistency_reason: ''

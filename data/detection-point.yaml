@@ -1,0 +1,26 @@
+---
+data:
+  identifier: '03748'
+  term: detection point
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R091-1:2025
+    publication_id: OIML R091-1:2025
+    tc_sc: ''
+    year: 2025
+    clause: 3.3.9
+    link:
+    g18_entry: '03748'
+    definition: point on the road at which passing vehicles are detected
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: df174ca8-9543-514a-8016-0bd7171e3e97
+schema_version: '3'
+related: []

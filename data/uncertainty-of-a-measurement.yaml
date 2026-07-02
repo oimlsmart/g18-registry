@@ -1,0 +1,30 @@
+---
+data:
+  identifier: '03608'
+  term: uncertainty of a measurement
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R126-1:2021
+    publication_id: OIML R126-1:2021
+    tc_sc: ''
+    year: 2021
+    clause: 3.1.24
+    link:
+    g18_entry: '03608'
+    definition: non-negative parameter characterizing the dispersion of the quantity
+      values being attributed to a measurand, based on the information used [OIML
+      V 2-200, 2.26]
+    notes:
+    - 'Note: For more information, see OIML G 1-100 Evaluation of measurement data
+      – Guide to the expression of uncertainty in measurement.'
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 68559120-4ac6-5d1b-873e-31f15f4f446e
+schema_version: '3'
+related: []

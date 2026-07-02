@@ -1,0 +1,29 @@
+---
+data:
+  identifier: '03335'
+  term: non-interruptible cumulative measurement
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML D031:2023
+    publication_id: OIML D031:2023
+    tc_sc: ''
+    year: 2023
+    clause: 3.2.48
+    link:
+    g18_entry: '03335'
+    definition: cumulative measuring process with no definite and that cannot be stopped
+      and continued again by a user/operator without falsifying the result of measurement
+    notes:
+    - 'Note 1: Examples include: a) continuous totalising automatic weighing instrument,
+      b) heat meter. Note 2: See also interruptible cumulative measurement (3.2.27)'
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 50d3d3a2-b636-5707-8e87-6ce34f2b20c7
+schema_version: '3'
+related: []

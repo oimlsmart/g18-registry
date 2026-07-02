@@ -4,8 +4,26 @@ data:
   term: quality management system
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML D 27:2001
+  - edition: '2010'
+    publication: OIML D 27:2001
+    publication_id: OIML D027:2001
+    tc_sc: ''
+    year: 2001
+    clause: '2.10'
+    link: https://www.oiml.org/en/files/pdf_D/d027-e01.pdf
+    g18_entry: '00172'
+    definition: management system to direct and control an organization with regard
+      to quality [ISO 9000:2000, 3.2.3]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D 27:2001
     publication_id: OIML D027:2001
     tc_sc: ''
     year: 2001

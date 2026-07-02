@@ -4,8 +4,13 @@ data:
   term: error (of a measuring instrument)
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 135:2004
+  - edition: '2010'
+    publication: OIML R 135:2004
     publication_id: OIML R135:2004
     tc_sc: ''
     year: 2004
@@ -19,6 +24,23 @@ data:
     - 1. Since a true value is indeterminable by ure, a conventional true value, i.e.
       an igned value or best estimate of the value is d in practice. For a material
       measure, the indication is th ue assigned to it. [Adapted from :1993, 5.20]
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 135:2004
+    publication_id: OIML R135:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.27'
+    link: https://www.oiml.org/en/files/pdf_R/r135-e04.pdf
+    g18_entry: '01866'
+    definition: difference between the indication of a measuring instrument (here
+      a spectrophotometer) and a true value of the corresponding input quantity
+    notes:
+    - Note:Since a true value is indeterminable by nature, a conventional true value,
+      i.e. an assigned value or best estimate of the value is used in practice. For
+      a material measure, the indication is the value assigned to it. [Adapted from
+      VIM:1993, 5.20]
     consistency: pending
     consistency_reason: ''
 status: current

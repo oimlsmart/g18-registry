@@ -1,0 +1,30 @@
+---
+data:
+  identifier: '03749'
+  term: disturbance (OIML V 1
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R091-1:2025
+    publication_id: OIML R091-1:2025
+    tc_sc: ''
+    year: 2025
+    clause: 3.5.9
+    link:
+    g18_entry: '03749'
+    definition: influence quantity having a value within the limits specified in Part
+      2 of this Recommendation, but outside the specified rated operating conditions
+      of the measuring instrument
+    notes:
+    - 'Note: An influence quantity is a disturbance if the rated operating conditions
+      for that influence quantity are not specified.'
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 8258b16e-1edb-599a-b2cc-4d1b95669a5f
+schema_version: '3'
+related: []

@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '03780'
+  term: section distance
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R091-1:2025
+    publication_id: OIML R091-1:2025
+    tc_sc: ''
+    year: 2025
+    clause: 3.3.11
+    link:
+    g18_entry: '03780'
+    definition: closest driving distance between entry and exit detection fields of
+      fixed-distance speed meters
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: c17ca263-c7d0-5b8a-aa61-ca103bde1f2f
+schema_version: '3'
+related: []

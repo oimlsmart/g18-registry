@@ -4,8 +4,13 @@ data:
   term: optical path length (b)
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 135:2004
+  - edition: '2010'
+    publication: OIML R 135:2004
     publication_id: OIML R135:2004
     tc_sc: ''
     year: 2004
@@ -18,6 +23,21 @@ data:
     notes:
     - ". The coherent SI unit is the metre (m), but he centimetre (cm) or millimetre
       (mm) are sually preferred."
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 135:2004
+    publication_id: OIML R135:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.6'
+    link: https://www.oiml.org/en/files/pdf_R/r135-e04.pdf
+    g18_entry: '01845'
+    definition: distance covered by the radiation flux between the entry and exit
+      surfaces of a solution contained in an optical cell
+    notes:
+    - 'Note: ISO 6286, Table 2, No. 13.The coherent SI unit is the metre (m), but
+      the centimetre (cm) or millimetre (mm) are usually preferred.'
     consistency: pending
     consistency_reason: ''
 status: current

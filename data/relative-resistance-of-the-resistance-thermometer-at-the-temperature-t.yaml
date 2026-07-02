@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '03453'
+  term: relative resistance   of the resistance thermometer at the temperature t
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R084:2003
+    publication_id: OIML R084:2003
+    tc_sc: ''
+    year: 2003
+    clause: '2.3'
+    link:
+    g18_entry: '03453'
+    definition: Ratio of the thermometer resistance at the temperature t to its resistance
+      at the temperature 0 °C.
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 9f5a3a01-bfc0-5362-8952-9a9cc94b10eb
+schema_version: '3'
+related: []

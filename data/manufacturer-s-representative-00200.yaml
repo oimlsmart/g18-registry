@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '00200'
+  term: manufacturer’s  representative
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML D 9:2004
+    publication_id: OIML D009:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.18'
+    link: https://www.oiml.org/en/files/pdf_D/d009-e04.pdf
+    g18_entry: '00200'
+    definition: any business designated by the manufacturer to act on its behalf for
+      specified tasks
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: d9673f5a-4cb9-5db1-bcca-668dfa714dc2
+schema_version: '3'
+related: []

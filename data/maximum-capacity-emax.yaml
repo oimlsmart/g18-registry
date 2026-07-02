@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '03221'
+  term: maximum capacity (Emax)
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R060-1:2021
+    publication_id: OIML R060-1:2021
+    tc_sc: ''
+    year: 2021
+    clause: 3.5.5
+    link:
+    g18_entry: '03221'
+    definition: largest value of a quantity expressed in units of mass, which may
+      be applied to a load cell
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 6cd3800c-3cb9-5c6e-b8ff-fb4d7424f46b
+schema_version: '3'
+related: []

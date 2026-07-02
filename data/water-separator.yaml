@@ -1,17 +1,35 @@
 ---
 data:
-  identifier: '02334'
+  identifier: 02334-R099-1
   term: water separator
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 99-1:2008
+  - edition: '2010'
+    publication: OIML R 99-1:2008
     publication_id: OIML R099-1:2008
     tc_sc: ''
     year: 2008
     clause: '3.2'
     link: https://www.oiml.org/en/files/pdf_R/r099-1-e08.pdf
     g18_entry: '02334'
+    definition: device that removes water from the exhaust gas sample to a level that
+      prevents condensation within the gas handling system downstream from its location
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 99-1:2008
+    publication_id: OIML R099-1:2008
+    tc_sc: ''
+    year: 2008
+    clause: '3.2'
+    link: https://www.oiml.org/en/files/pdf_R/r099-1-e08.pdf
+    g18_entry: 02334-R099-1
     definition: device that removes water from the exhaust gas sample to a level that
       prevents condensation within the gas handling system downstream from its location
     notes: []

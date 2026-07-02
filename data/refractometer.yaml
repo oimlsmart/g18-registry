@@ -4,8 +4,13 @@ data:
   term: refractometer
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 142:2008
+  - edition: '2010'
+    publication: OIML R 142:2008
     publication_id: OIML R142:2008
     tc_sc: ''
     year: 2008
@@ -21,7 +26,40 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 108:1993
+  - edition: '2010'
+    publication: OIML R 108:1993
+    publication_id: OIML R108:1993
+    tc_sc: ''
+    year: 1993
+    clause: '2.1'
+    link: https://www.oiml.org/en/files/pdf_R/r108-e93.pdf
+    g18_entry: '01406'
+    definition: refractometers are instruments for measuring the refractive index.
+      If they are provided with appropriate scales, they are used to determine the
+      content of sugar in liquids, in which case the relation between the mass fraction
+      and the refractive index shall have been specified (see 3)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R142-1:2025
+    publication_id: OIML R142-1:2025
+    tc_sc: ''
+    year: 2025
+    clause: '3.1'
+    link:
+    g18_entry: '02116'
+    definition: instrument for measuring the refractive index.
+    notes:
+    - 'Note: If the refractometer is provided with another scale or an additional
+      scale calibrated in the units of the fraction of soluble dry substances in aqueous
+      solutions, which are recognized by the international organizations, e.g. the
+      International Sucrose Mass Fraction Scale, %mass (Brix), then the refractometer
+      shall be accompanied by a conversion table for the refractive index values'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 108:1993
     publication_id: OIML R108:1993
     tc_sc: ''
     year: 1993

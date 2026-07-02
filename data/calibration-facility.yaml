@@ -4,8 +4,13 @@ data:
   term: calibration facility
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 131:2001
+  - edition: '2010'
+    publication: OIML R 131:2001
     publication_id: OIML R131:2001
     tc_sc: ''
     year: 2001
@@ -19,7 +24,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 132:2001
+  - edition: '2010'
+    publication: OIML R 132:2001
     publication_id: OIML R132:2001
     tc_sc: ''
     year: 2001
@@ -33,7 +39,53 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 127:1999
+  - edition: '2010'
+    publication: OIML R 127:1999
+    publication_id: OIML R127:1999
+    tc_sc: ''
+    year: 1999
+    clause: '4.9'
+    link: https://www.oiml.org/en/files/pdf_R/r127-e99.pdf
+    g18_entry: '01683'
+    definition: combination of an ionizing radiation source and associated instrumentation
+      that provide uniform and reproducible absorbed dose, or absorbed dose rates,
+      at specified locations within a specific material. The absorbed dose shall be
+      traceable to national or international standards.
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 131:2001
+    publication_id: OIML R131:2001
+    tc_sc: ''
+    year: 2001
+    clause: '3.8'
+    link: https://www.oiml.org/en/files/pdf_R/r131-e01.pdf
+    g18_entry: '01749'
+    definition: combination of either a photon or an electron source and associated
+      instrumentation that provides uniform and reproducible absorbed dose, or absorbed
+      dose rates, at specified locations within a specific material. The absorbed
+      dose shall be traceable to national or international standards
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 132:2001
+    publication_id: OIML R132:2001
+    tc_sc: ''
+    year: 2001
+    clause: '3.8'
+    link: https://www.oiml.org/en/files/pdf_R/r132-e01.pdf
+    g18_entry: '01765'
+    definition: combination of either a photon or an electron source and associated
+      instrumentation that provides uniform and reproducible absorbed dose, or absorbed
+      dose rates, at specified locations within a specific material. The absorbed
+      dose shall be traceable to national or international standards
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 127:1999
     publication_id: OIML R127:1999
     tc_sc: ''
     year: 1999

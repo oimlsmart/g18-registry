@@ -1,0 +1,29 @@
+---
+data:
+  identifier: '02973'
+  term: Declaration
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML D030:2020
+    publication_id: OIML D030:2020
+    tc_sc: ''
+    year: 2020
+    clause: G.3-2
+    link:
+    g18_entry: '02973'
+    definition: Document that is signed by OIML Issuing Authorities, Utilizers and
+      Associates accepting to abide by the rules of OIML-CS. The scope of certification
+      and/or acceptance of OIML type evaluation reports issued with an OIML Certificate
+      under SchemeA or B are detailed in separate annexes which part of Declaration
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 1f907c41-5269-57bd-9077-4feb13de8b45
+schema_version: '3'
+related: []

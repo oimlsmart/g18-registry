@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '03317'
+  term: minimum totalized load (Σmin)
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R050-1:2014
+    publication_id: OIML R050-1:2014
+    tc_sc: ''
+    year: 2014
+    clause: 2.3.7
+    link:
+    g18_entry: '03317'
+    definition: totalized quantity, in units of mass, below which a totalization may
+      be subject to excessive relative errors
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: f073951e-3d80-55a1-ad00-e141a5a06ad7
+schema_version: '3'
+related: []

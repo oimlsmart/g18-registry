@@ -4,8 +4,13 @@ data:
   term: carrier gas
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 82:2006
+  - edition: '2010'
+    publication: OIML R 82:2006
     publication_id: OIML R082:2006
     tc_sc: ''
     year: 2006
@@ -20,7 +25,40 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 83:2006
+  - edition: '2010'
+    publication: OIML R 83:2006
+    publication_id: OIML R083:2006
+    tc_sc: ''
+    year: 2006
+    clause: '3.1'
+    link: https://www.oiml.org/en/files/pdf_R/r083-e06.pdf
+    g18_entry: '01061'
+    definition: gas introduced in order to transport a sample for analytical purposes.
+      In gas chromatography it is the gas which is passed continuously through the
+      column and whose passage promotes the elution of the components of the sample.
+      The carrier gas, together with the portions of the sample present in this phase,
+      constitute the mobile phase
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 82:2006
+    publication_id: OIML R082:2006
+    tc_sc: ''
+    year: 2006
+    clause: '3.1'
+    link: https://www.oiml.org/en/files/pdf_R/r082-e06.pdf
+    g18_entry: '01045'
+    definition: gas introduced in order to transport a sample for analytical purposes.
+      In gas chromatography it is the gas which is passed continuously through the
+      column and whose passage promotes the elution of the components of the sample.
+      The carrier gas, together with the portions of the sample present in this phase,
+      constitute the mobile phase
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 83:2006
     publication_id: OIML R083:2006
     tc_sc: ''
     year: 2006

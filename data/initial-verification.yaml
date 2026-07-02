@@ -4,8 +4,13 @@ data:
   term: initial verification
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML D 9:2004
+  - edition: '2010'
+    publication: OIML D 9:2004
     publication_id: OIML D009:2004
     tc_sc: ''
     year: 2004
@@ -17,7 +22,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 111-1:2004
+  - edition: '2010'
+    publication: OIML R 111-1:2004
     publication_id: OIML R111-1:2004
     tc_sc: ''
     year: 2004
@@ -36,7 +42,93 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML D 15:1986
+  - edition: '2010'
+    publication: OIML D 15:1986
+    publication_id: OIML D015:1986
+    tc_sc: ''
+    year: 1986
+    clause: '2.5'
+    link: https://www.oiml.org/en/files/pdf_D/d015-e86.pdf
+    g18_entry: '00262'
+    definition: the verification of a new measuring instrument which has not been
+      verified previously [VML 2.4.2].
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R126-1:2021
+    publication_id: OIML R126-1:2021
+    tc_sc: ''
+    year: 2021
+    clause: 3.1.5
+    link:
+    g18_entry: '03139'
+    definition: verification of a measuring instrument which has not been verified
+      previously (OIML V 1, 2.12)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D034:2019
+    publication_id: OIML D034:2019
+    tc_sc: ''
+    year: 2019
+    clause: 3.1.6
+    link:
+    g18_entry: '03138'
+    definition: verification of a measuring instrument which has not been verified
+      previously [from VIML, 2.12 [3]]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D016:2011
+    publication_id: OIML D016:2011
+    tc_sc: ''
+    year: 2011
+    clause: '2.11'
+    link:
+    g18_entry: 02264-D016
+    definition: verification of a measuring instrument which has not been verified
+      previously [VIML 2.15]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D 9:2004
+    publication_id: OIML D009:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.12'
+    link: https://www.oiml.org/en/files/pdf_D/d009-e04.pdf
+    g18_entry: '00194'
+    definition: verification of a measuring instrument which has not been verified
+      previously [VIML, 15]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 111-1:2004
+    publication_id: OIML R111-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: 2.18.1
+    link: https://www.oiml.org/en/files/pdf_R/r111-1-e04.pdf
+    g18_entry: '01469'
+    definition: series of tests and visual examinations carried out before the equipment/weight
+      is put into service to determine whether a weight or weight set has been manufactured
+      to replicate a given type and conforms to that type and to regulations, and
+      that its metrological characteristics lie within the limits required for initial
+      verification of copies of that type. If the weights or weight set pass all the
+      tests and examinations, it is given legal character by its acceptance as evidenced
+      by stamping and/or the issuing of a certificate of verification (Adapted from
+      OIML D 20 Initial and subsequent verification of measuring instruments and processes
+      (1988))
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D 15:1986
     publication_id: OIML D015:1986
     tc_sc: ''
     year: 1986

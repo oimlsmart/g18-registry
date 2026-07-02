@@ -1,0 +1,26 @@
+---
+data:
+  identifier: '02956'
+  term: conversion factor
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R117-1:2019
+    publication_id: OIML R117-1:2019
+    tc_sc: ''
+    year: 2019
+    clause: T.c.5
+    link:
+    g18_entry: '02956'
+    definition: ratio of the converted quantity to the quantity at metering conditions
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 15b183e6-0975-5206-8fc7-4b49a1c5e961
+schema_version: '3'
+related: []

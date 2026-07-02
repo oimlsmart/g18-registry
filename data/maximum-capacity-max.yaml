@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '00518'
+  identifier: '00940'
   term: maximum capacity (Max)
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 76-1:2006
+  - edition: '2010'
+    publication: OIML R 76-1:2006
     publication_id: OIML R076-1:2006
     tc_sc: ''
     year: 2006
@@ -17,7 +22,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 61-1:2004
+  - edition: '2010'
+    publication: OIML R 61-1:2004
     publication_id: OIML R061-1:2004
     tc_sc: ''
     year: 2004
@@ -29,7 +35,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 134:2003
+  - edition: '2010'
+    publication: OIML R 134:2003
     publication_id: OIML R134:2003
     tc_sc: ''
     year: 2003
@@ -41,7 +48,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 50-1:1997
+  - edition: '2010'
+    publication: OIML R 50-1:1997
     publication_id: OIML R050-1:1997
     tc_sc: ''
     year: 1997
@@ -53,7 +61,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 106-1:1997
+  - edition: '2010'
+    publication: OIML R 106-1:1997
     publication_id: OIML R106-1:1997
     tc_sc: ''
     year: 1997
@@ -62,6 +71,45 @@ data:
     g18_entry: '01280'
     definition: the largest load that an instrument is designed to weigh-in- motion
       without totalizing
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R050-1:2014
+    publication_id: OIML R050-1:2014
+    tc_sc: ''
+    year: 2014
+    clause: 2.3.4
+    link:
+    g18_entry: '03222'
+    definition: maximum net load (load applied by the bulk product, not including
+      load applied by the belt) that the weighing module is intended to weigh on the
+      portion of the conveyor belt representing the weigh length
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 76-1:2006
+    publication_id: OIML R076-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.3.1.1
+    link: https://www.oiml.org/en/files/pdf_R/r076-1-e06.pdf
+    g18_entry: '00940'
+    definition: maximum weighing capacity, not taking into account the additive tare
+      capacity
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R134-1:2003
+    publication_id: OIML R134-1:2003
+    tc_sc: ''
+    year: 2003
+    clause: T.3.2.1
+    link:
+    g18_entry: '01809'
+    definition: largest load that an instrument is designed to weigh in motion without  totalizing
     notes: []
     consistency: pending
     consistency_reason: ''

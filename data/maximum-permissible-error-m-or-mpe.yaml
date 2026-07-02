@@ -1,0 +1,28 @@
+---
+data:
+  identifier: '01458'
+  term: maximum permissible error (m or mpe)
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R 111-1:2004
+    publication_id: OIML R111-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.10'
+    link: https://www.oiml.org/en/files/pdf_R/r111-1-e04.pdf
+    g18_entry: '01458'
+    definition: maximum absolute value of the difference allowed by national regulation,
+      between the measured conventional mass and the nominal value of a weight, as
+      determined by corresponding reference weights
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 0da22769-c297-5521-9a7b-f81a098a9644
+schema_version: '3'
+related: []

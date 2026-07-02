@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '00786'
+  identifier: '03535'
   term: static set point
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 61-1:2004
+  - edition: '2010'
+    publication: OIML R 61-1:2004
     publication_id: OIML R061-1:2004
     tc_sc: ''
     year: 2004
@@ -14,6 +19,19 @@ data:
     g18_entry: '00786'
     definition: value of the test weights or masses which, in static tests, balance
       the value selected on the indication of the fill setting device
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R061-1:2017
+    publication_id: OIML R061-1:2017
+    tc_sc: ''
+    year: 2017
+    clause: 3.4.4
+    link:
+    g18_entry: '03535'
+    definition: value of the test weights which, in static tests, balance the value
+      selected on the indication of the fill setting device
     notes: []
     consistency: pending
     consistency_reason: ''

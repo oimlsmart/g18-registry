@@ -4,8 +4,27 @@ data:
   term: base temperature coefficient of the lamp
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 48:2004
+  - edition: '2010'
+    publication: OIML R 48:2004
+    publication_id: OIML R048:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.9'
+    link: https://www.oiml.org/en/files/pdf_R/r048-e04.pdf
+    g18_entry: '00409'
+    definition: dimensionless quantity numerically equal to a change in the radiance
+      temperature of the tungsten ribbon (in °C) under changes in the base temperature
+      by 1 °C at constant lamp current
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 48:2004
     publication_id: OIML R048:2004
     tc_sc: ''
     year: 2004

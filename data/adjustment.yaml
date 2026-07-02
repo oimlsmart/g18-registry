@@ -7,8 +7,18 @@ data:
     source: urn:oiml:pub:v:2:2007
     id: '3.11'
     url: https://oimlsmart.github.io/vocab/vim-2007/concept/3.11
+    definition_text:
+    edition_label: VIM 2007
+    vocab: vim
+    role: prior
+    year: 2007
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 143:2009
+  - edition: '2010'
+    publication: OIML R 143:2009
     publication_id: OIML R143:2009
     tc_sc: ''
     year: 2009
@@ -23,12 +33,100 @@ data:
     consistency_reason: ''
     related:
     - type: see
-      ref: &1
+      ref:
         source: urn:oiml:pub:v:2:2007
         id: '3.11'
+  - edition: 202X
+    publication: OIML R142-1:2025
+    publication_id: OIML R142-1:2025
+    tc_sc: ''
+    year: 2025
+    clause: '3.5'
+    link:
+    g18_entry: '03706'
+    definition: set of operations carried out on a measuring system so that it provides
+      prescribed indications corresponding to given values of a quantity to be measured
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R059-1:2016
+    publication_id: OIML R059-1:2016
+    tc_sc: ''
+    year: 2016
+    clause: 2.1.1
+    link:
+    g18_entry: '02442'
+    definition: set of operations carried out on a measuring system so that it provides
+      prescribed indications corresponding to given values of a quantity to be measured
+      [VIM, 3.11]
+    notes:
+    - 'Additional note: A change in the value of any of a device’s sealable calibration
+      parameters or sealable configuration parameters.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R146-1:2016
+    publication_id: OIML R146-1:2016
+    tc_sc: ''
+    year: 2016
+    clause: '2.1'
+    link:
+    g18_entry: '02783'
+    definition: "{adjustment of a measuring system adjustment set of operations carried
+      out on a measuring system so that it provides prescribed indications corresponding
+      to given values of a quantity to be measured [VIM, 3.11]}"
+    notes:
+    - "{NOTE 1 Types of adjustment of a measuring system include zero adjustment of
+      a measuring system, offset adjustment, and span adjustment (sometimes called
+      gain adjustment). NOTE 2 Adjustment of a measuring system should not be confused
+      with calibration, which is a prerequisite for adjustment. NOTE 3 After an adjustment
+      of a measuring system, the measuring system must usually be recalibrated.} For
+      protein measuring instruments, alignment with the reference method is typically
+      accomplished through a bias adjustment to the calibration equation. Other mechanisms
+      that require a higher level of expertise (e.g. adjustment of the calibration
+      equation slope, modification of hardware/ software components or settings) may
+      be less accessible due to increased security requirements."
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R144-1:2013
+    publication_id: OIML R144-1:2013
+    tc_sc: ''
+    year: 2013
+    clause: T.2.7
+    link:
+    g18_entry: '02758'
+    definition: set of operations carried out on a measuring system so that it provides
+      prescribed indications corresponding to given values of a quantity to be measured
+      [VIM, 3.11] [1]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 143:2009
+    publication_id: OIML R143:2009
+    tc_sc: ''
+    year: 2009
+    clause: '2.7'
+    link: https://www.oiml.org/en/files/pdf_R/r143-e09.pdf
+    g18_entry: '02129'
+    definition: set of operations carried out on a measuring system so that it provides
+      prescribed indications corresponding to given values of a quantity to be measured
+      [VIM:2007, 3.11]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
 status: current
 id: 462342cb-b390-515c-b4b6-1b42455c007e
 schema_version: '3'
 related:
 - type: see
-  ref: *1
+  ref:
+    source: urn:oiml:pub:v:2:2007
+    id: '3.11'
+    definition_text:
+    edition_label: VIM 2007
+    vocab: vim
+    role: prior
+    year: 2007

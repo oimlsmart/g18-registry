@@ -1,0 +1,26 @@
+---
+data:
+  identifier: '01982'
+  term: nominal capacity, Vn
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R 138:2007
+    publication_id: OIML R138:2007
+    tc_sc: ''
+    year: 2007
+    clause: '2.5'
+    link: https://www.oiml.org/en/files/pdf_R/r138-e07.pdf
+    g18_entry: '01982'
+    definition: volume indicated on the vessel
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 65a45541-93de-588d-b9eb-f32eca441735
+schema_version: '3'
+related: []

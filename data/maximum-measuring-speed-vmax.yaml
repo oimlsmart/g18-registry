@@ -1,0 +1,28 @@
+---
+data:
+  identifier: '03242'
+  term: maximum measuring speed (Vmax)
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R129-1:2020
+    publication_id: OIML R129-1:2020
+    tc_sc: ''
+    year: 2020
+    clause: 2.1.9
+    link:
+    g18_entry: '03242'
+    definition: maximum speed at which the instrument will measure correctly
+    notes:
+    - 'Note: Only applicable to instruments where measurements are affected by means
+      of relative movement between the object and the instrument.'
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 391f3c93-4a6a-54a0-b43c-71ddd4f312af
+schema_version: '3'
+related: []

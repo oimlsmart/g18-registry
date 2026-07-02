@@ -1,0 +1,30 @@
+---
+data:
+  identifier: '03744'
+  term: centre line
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R091-1:2025
+    publication_id: OIML R091-1:2025
+    tc_sc: ''
+    year: 2025
+    clause: 3.4.1
+    link:
+    g18_entry: '03744'
+    definition: line starting from the speed meter lying in the centre of the region
+      monitored by the speed meter (see Figure 2)
+    notes:
+    - 'Note 1: For a speed meter with a fixed beam, the centre line is in the centre
+      of the beam. Note 2: For a speed meter with a scanning beam, the centre line
+      is in the centre of the scanning region.'
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: d0768c81-3b31-5150-a45d-338cc4f0ee17
+schema_version: '3'
+related: []

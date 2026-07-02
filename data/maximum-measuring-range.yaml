@@ -1,0 +1,29 @@
+---
+data:
+  identifier: '03228'
+  term: maximum measuring range
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R060-1:2021
+    publication_id: OIML R060-1:2021
+    tc_sc: ''
+    year: 2021
+    clause: 2.5.7
+    link:
+    g18_entry: '03228'
+    definition: range of values of the quantity expressed in units of mass that may
+      be applied to a load cell
+    notes:
+    - 'Note: maximum measuring range is the reange between maximum capacity Emax and
+      minimum dead load Emin maximum measuring range = (Emax - Emin)'
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: ae65b6f7-f6aa-5744-a192-c9788819465c
+schema_version: '3'
+related: []

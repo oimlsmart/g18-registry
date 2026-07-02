@@ -4,8 +4,25 @@ data:
   term: injection device for the instrument
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 112:1994
+  - edition: '2010'
+    publication: OIML R 112:1994
+    publication_id: OIML R112:1994
+    tc_sc: ''
+    year: 1994
+    clause: '2.1'
+    link: https://www.oiml.org/en/files/pdf_R/r112-e94.pdf
+    g18_entry: '01473'
+    definition: the means of introducing a sample into the column
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 112:1994
     publication_id: OIML R112:1994
     tc_sc: ''
     year: 1994

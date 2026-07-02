@@ -1,0 +1,33 @@
+---
+data:
+  identifier: '02794'
+  term: reproducibility measurement reproducibility
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R146-1:2016
+    publication_id: OIML R146-1:2016
+    tc_sc: ''
+    year: 2016
+    clause: 2.1 Tab. 1.13
+    link:
+    g18_entry: '02794'
+    definition: "{measurement precision under reproducibility conditions of measurement
+      [VIM 2.25]}"
+    notes:
+    - "{NOTE Relevant statistical terms are given in ISO 5725-1:1994 and ISO 5725-2:1994.}
+      In this Recommendation, the reproducibility of measurements between units of
+      the same type of instrument under reference conditions is assessed by the standard
+      deviation of differences (SDDI). The reproducibility of measurements from one
+      instrument when selected influence factors are varied is assessed by the magnitude
+      of the error shift or fault."
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 96bb7be7-87b5-510f-a049-c9d952f782ec
+schema_version: '3'
+related: []

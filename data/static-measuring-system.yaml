@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '02241'
+  identifier: 02241-R080-1
   term: static measuring system
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 80-1:2009
+  - edition: '2010'
+    publication: OIML R 80-1:2009
     publication_id: OIML R080-1:2009
     tc_sc: ''
     year: 2009
@@ -18,6 +23,38 @@ data:
       or at base conditions
     notes:
     - Hereafter referred to as measuring system.
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R080-2:2017
+    publication_id: OIML R080-2:2017
+    tc_sc: ''
+    year: 2017
+    clause: '2'
+    link:
+    g18_entry: '03534'
+    definition: system that comprises a measuring tank, fitted with its ancillary
+      and additional devices. Static measuring systems can also be utilized for measuring
+      the quantity of the liquid in the tank suchas the volume at working conditions
+      or at base conditions
+    notes:
+    - 'Note: Hereafter referred to as measuring system.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 80-1:2009
+    publication_id: OIML R080-1:2009
+    tc_sc: ''
+    year: 2009
+    clause: '2.2'
+    link: https://www.oiml.org/en/files/pdf_R/r080-1-e09.pdf
+    g18_entry: 02241-R080-1
+    definition: system that comprises a measuring tank, fitted with its ancillary
+      and additional devices. Static measuring systems can also be utilized for measuring
+      the quantity of the liquid in the tank suchas the volume at working conditions
+      or at base conditions
+    notes:
+    - 'Note: Hereafter referred to as measuring system.'
     consistency: pending
     consistency_reason: ''
 status: current

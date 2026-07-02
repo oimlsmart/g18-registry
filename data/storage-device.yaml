@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '02215'
+  identifier: '03541'
   term: storage device
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML D 31:2008
+  - edition: '2010'
+    publication: OIML D 31:2008
     publication_id: OIML D031:2008
     tc_sc: ''
     year: 2008
@@ -16,6 +21,20 @@ data:
       the measurement for later legally relevant purposes (e.g. the conclusion of
       a commercial transaction)
     notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D031:2023
+    publication_id: OIML D031:2023
+    tc_sc: ''
+    year: 2023
+    clause: 3.2.65
+    link:
+    g18_entry: '03541'
+    definition: devoice used for storing measurement that are necessary to construct
+      the measurement result adaptd form [OIML V 1:2022, 6.07]
+    notes:
+    - 'Note: See Annex C for clarification regarding measurement-related terms.'
     consistency: pending
     consistency_reason: ''
 status: current

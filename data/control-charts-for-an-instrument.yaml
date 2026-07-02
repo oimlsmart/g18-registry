@@ -4,8 +4,28 @@ data:
   term: control charts for an instrument
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML D 22:1991
+  - edition: '2010'
+    publication: OIML D 22:1991
+    publication_id: OIML D022:1991
+    tc_sc: ''
+    year: 1991
+    clause: '3.4'
+    link: https://www.oiml.org/en/files/pdf_D/d022-e91.pdf
+    g18_entry: '00149'
+    definition: graphical plots of test results from the same or similar samples or
+      processes with respect to time or a sequence of such measurements, together
+      with the limits within which the measurement values are expected to lie, when
+      the instrument is in a state of statistical control
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D 22:1991
     publication_id: OIML D022:1991
     tc_sc: ''
     year: 1991

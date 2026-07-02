@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '01706'
+  identifier: '03482'
   term: semi-automatic instrument
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 129:2000
+  - edition: '2010'
+    publication: OIML R 129:2000
     publication_id: OIML R129:2000
     tc_sc: ''
     year: 2000
@@ -14,6 +19,19 @@ data:
     g18_entry: '01706'
     definition: an instrument which requires the intervention of an operator to carry
       out the measurements but automatically determines the results
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R129-1:2020
+    publication_id: OIML R129-1:2020
+    tc_sc: ''
+    year: 2020
+    clause: '2.7'
+    link:
+    g18_entry: '03482'
+    definition: instrument requiring the intervention of an operator to carry out
+      the measurements but that automatically determines the results
     notes: []
     consistency: pending
     consistency_reason: ''

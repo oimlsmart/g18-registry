@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '00442'
+  term: minimum flowrate of the measuring system Qmin
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R 140:2007
+    publication_id: OIML R140:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.2.10
+    link: https://www.oiml.org/en/files/pdf_R/r140-e07.pdf
+    g18_entry: '00442'
+    definition: lowest flowrate at which the water meter is required to operate within
+      the maximum permissible error
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 53f80ac9-0efd-5ddf-84e5-fe13def8e241
+schema_version: '3'
+related: []

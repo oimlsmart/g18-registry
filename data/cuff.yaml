@@ -4,8 +4,13 @@ data:
   term: cuff
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 16-1:2002
+  - edition: '2010'
+    publication: OIML R 16-1:2002
     publication_id: OIML R016-1:2002
     tc_sc: ''
     year: 2002
@@ -17,7 +22,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 16-2:2002
+  - edition: '2010'
+    publication: OIML R 16-2:2002
     publication_id: OIML R016-2:2002
     tc_sc: ''
     year: 2002
@@ -25,6 +31,64 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r016-2-e02.pdf
     g18_entry: '00323'
     definition: component of the sphygmomanometer, comprising a bladder and asleeve,
+      which is wrapped around the limb of the patient
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R148-1:2020
+    publication_id: OIML R148-1:2020
+    tc_sc: ''
+    year: 2020
+    clause: '2.3'
+    link:
+    g18_entry: '02967'
+    definition: component of the non-invasive non-automated sphygmomanometer, comprising
+      a bladder and a sleeve, which is wrapped around the limb of the patient
+    notes:
+    - 'Note: A cuff might comprise a bladder and inelastic part that encloses the
+      bladder, or have an integral bladder (i.e. the cuff including the bladder are
+      fixed together or are one piece).'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R149-1:2020
+    publication_id: OIML R149-1:2020
+    tc_sc: ''
+    year: 2020
+    clause: '2.3'
+    link:
+    g18_entry: '02968'
+    definition: component of the non-invasive non-automated sphygmomanometer, comprising
+      a bladder and a sleeve, which is wrapped around the limb of the patient
+    notes:
+    - 'Note: A cuff might comprise a bladder and inelastic part that encloses the
+      bladder, or have an integral bladder (i.e. the cuff including the bladder are
+      fixed together or are one piece).'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 16-1:2002
+    publication_id: OIML R016-1:2002
+    tc_sc: ''
+    year: 2002
+    clause: '2.3'
+    link: https://www.oiml.org/en/files/pdf_R/r016-1-e02.pdf
+    g18_entry: '00308'
+    definition: component of the sphygmomanometer, comprising a bladder and a sleeve,
+      which is wrapped around the limb of the patient
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 16-2:2002
+    publication_id: OIML R016-2:2002
+    tc_sc: ''
+    year: 2002
+    clause: '2.3'
+    link: https://www.oiml.org/en/files/pdf_R/r016-2-e02.pdf
+    g18_entry: '00323'
+    definition: component of the sphygmomanometer, comprising a bladder and a sleeve,
       which is wrapped around the limb of the patient
     notes: []
     consistency: pending

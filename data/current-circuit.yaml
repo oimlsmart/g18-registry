@@ -1,0 +1,28 @@
+---
+data:
+  identifier: '02289-1'
+  term: current circuit
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication:
+    publication_id:
+    tc_sc: ''
+    year:
+    clause:
+    link:
+    g18_entry: '02289-1'
+    definition: internal connections of the meter and part of the measuring element
+      through which flows the current of the circuit to which the meter is connected
+      [IEC 62052-11:2003, 3.2.6]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 311dd8ca-b91a-5fc0-8d78-3e26e328a8a8
+schema_version: '3'
+related: []

@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '01533'
+  identifier: '02865'
   term: associated measuring device
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 117-1:2007
+  - edition: '2010'
+    publication: OIML R 117-1:2007
     publication_id: OIML R117-1:2007
     tc_sc: ''
     year: 2007
@@ -14,6 +19,23 @@ data:
     g18_entry: '01533'
     definition: device, connected to the calculator, the correction device or the
       conversion device, and converting, during the measurement the characteristic
+      quantities (temperature, pressure, density, viscosity, etc.) of the liquid into
+      signals destined for the calculator, with a view to making a correction and/or
+      a conversion. It includes an associated measuring sensor and an associated measuring
+      transduce
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R117-1:2019
+    publication_id: OIML R117-1:2019
+    tc_sc: ''
+    year: 2019
+    clause: T.a.7
+    link:
+    g18_entry: '02865'
+    definition: device, connected to the calculator, the correction device or the
+      conversion device, and converting, during the measurement, the characteristic
       quantities (temperature, pressure, density, viscosity, etc.) of the liquid into
       signals destined for the calculator, with a view to making a correction and/or
       a conversion. It includes an associated measuring sensor and an associated measuring

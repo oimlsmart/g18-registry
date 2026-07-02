@@ -4,8 +4,26 @@ data:
   term: line measure of length
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 98:1991
+  - edition: '2010'
+    publication: OIML R 98:1991
+    publication_id: OIML R098:1991
+    tc_sc: ''
+    year: 1991
+    clause: '2.1'
+    link: https://www.oiml.org/en/files/pdf_R/r098-e91.pdf
+    g18_entry: '01151'
+    definition: a measure representing one or several values of length determined
+      by the shortest distance between the centers of two scale marks
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 98:1991
     publication_id: OIML R098:1991
     tc_sc: ''
     year: 1991

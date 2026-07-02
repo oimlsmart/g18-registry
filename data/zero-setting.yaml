@@ -4,8 +4,13 @@ data:
   term: zero setting
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 16-2:2002
+  - edition: '2010'
+    publication: OIML R 16-2:2002
     publication_id: OIML R016-2:2002
     tc_sc: ''
     year: 2002
@@ -14,6 +19,19 @@ data:
     g18_entry: '00334'
     definition: 'mm procedure that corrects a deviation of the pressure reading to
       0 kPa (0 mmHg) at atmospheric pressure (gauge pressure: 0 kPa (0 Hg))'
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 16-2:2002
+    publication_id: OIML R016-2:2002
+    tc_sc: ''
+    year: 2002
+    clause: '2.14'
+    link: https://www.oiml.org/en/files/pdf_R/r016-2-e02.pdf
+    g18_entry: '00334'
+    definition: 'procedure that corrects a deviation of the pressure reading to 0
+      kPa (0 mmHg) at atmospheric pressure (gauge pressure: 0 kPa (0 mmHg))'
     notes: []
     consistency: pending
     consistency_reason: ''

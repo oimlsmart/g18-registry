@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '01114'
+  identifier: '02493'
   term: individual prepackage error
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 87:2004
+  - edition: '2010'
+    publication: OIML R 87:2004
     publication_id: OIML R087:2004
     tc_sc: ''
     year: 2004
@@ -15,6 +20,22 @@ data:
     definition: difference between the actual quantity of product in a prepackage
       and its nominal quantity
     notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R087:2016
+    publication_id: OIML R087:2016
+    tc_sc: ''
+    year: 2016
+    clause: 2.1.2.2
+    link:
+    g18_entry: '02493'
+    definition: difference between the actual quantity of product in a prepackage
+      and the nominal quantity of that prepackage
+    notes:
+    - Note:The individual prepackage error for a prepackage “i” is designated by the
+      symbol Ei or ei and can be calculated by Ei = Qi – Qnom or by ei = qi – Qnom
+      where Qnom is the nominal quantity.
     consistency: pending
     consistency_reason: ''
 status: current

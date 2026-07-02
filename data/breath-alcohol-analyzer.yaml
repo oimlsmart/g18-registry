@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '02627'
+  term: breath alcohol analyzer
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R126:2012
+    publication_id: OIML R126:2012
+    tc_sc: ''
+    year: 2012
+    clause: '2.1'
+    link:
+    g18_entry: '02627'
+    definition: instrument that measures and displays the breath alcohol mass concentration
+      of exhaled human breath within specified error limits
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: f23183ad-8141-5295-a55d-40d154ad7231
+schema_version: '3'
+related: []

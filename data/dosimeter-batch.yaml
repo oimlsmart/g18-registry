@@ -4,8 +4,13 @@ data:
   term: dosimeter batch
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 131:2001
+  - edition: '2010'
+    publication: OIML R 131:2001
     publication_id: OIML R131:2001
     tc_sc: ''
     year: 2001
@@ -18,7 +23,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 132:2001
+  - edition: '2010'
+    publication: OIML R 132:2001
     publication_id: OIML R132:2001
     tc_sc: ''
     year: 2001
@@ -31,7 +37,50 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 127:1999
+  - edition: '2010'
+    publication: OIML R 127:1999
+    publication_id: OIML R127:1999
+    tc_sc: ''
+    year: 1999
+    clause: '4.3'
+    link: https://www.oiml.org/en/files/pdf_R/r127-e99.pdf
+    g18_entry: '01677'
+    definition: quantity of dosimeters made from a specific mass of material having
+      a uniform composition, fabricated in a single production run under controlled
+      and consistent conditions, and assigned a unique identification code
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 131:2001
+    publication_id: OIML R131:2001
+    tc_sc: ''
+    year: 2001
+    clause: '3.3'
+    link: https://www.oiml.org/en/files/pdf_R/r131-e01.pdf
+    g18_entry: '01741'
+    definition: quantity of dosimeters made from a specific mass of material having
+      a uniform composition, fabricated in a single production run under controlled
+      and consistent conditions, and assigned a unique identification code
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 132:2001
+    publication_id: OIML R132:2001
+    tc_sc: ''
+    year: 2001
+    clause: '3.5'
+    link: https://www.oiml.org/en/files/pdf_R/r132-e01.pdf
+    g18_entry: '01762'
+    definition: quantity of dosimeters made from a specific mass of material having
+      a uniform composition, fabricated in a single production run under controlled
+      and consistent conditions, and assigned a unique identification code
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 127:1999
     publication_id: OIML R127:1999
     tc_sc: ''
     year: 1999

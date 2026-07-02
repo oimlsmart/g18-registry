@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '03352'
+  term: partial totalisation indicating device
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R150-1:2020
+    publication_id: OIML R150-1:2020
+    tc_sc: ''
+    year: 2020
+    clause: 2.4.2.5
+    link:
+    g18_entry: '03352'
+    definition: device that indicates the mass of the loads conveyed over a limited
+      period of time
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 1d1965a5-4a42-51e6-b129-5e62161279bf
+schema_version: '3'
+related: []

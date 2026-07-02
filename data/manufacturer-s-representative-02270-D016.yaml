@@ -1,0 +1,27 @@
+---
+data:
+  identifier: 02270-D016
+  term: manufacturer’s representative
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML D016:2011
+    publication_id: OIML D016:2011
+    tc_sc: ''
+    year: 2011
+    clause: '2.17'
+    link:
+    g18_entry: 02270-D016
+    definition: any natural or legal person designated by the manufacturer to act
+      on his behalf for specified tasks
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 92fc61e4-90e4-501e-8c3c-47d1b77ff1f2
+schema_version: '3'
+related: []

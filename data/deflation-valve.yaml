@@ -1,0 +1,50 @@
+---
+data:
+  identifier: '00318'
+  term: deflation valve
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R148-1:2020
+    publication_id: OIML R148-1:2020
+    tc_sc: ''
+    year: 2020
+    clause: '2.4'
+    link:
+    g18_entry: '02974'
+    definition: valve for controlled exhaust of the pneumatic system during measurement
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R149-1:2020
+    publication_id: OIML R149-1:2020
+    tc_sc: ''
+    year: 2020
+    clause: '2.4'
+    link:
+    g18_entry: '02975'
+    definition: valve for controlled exhaust of the pneumatic system during measurement
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 16-1:2002
+    publication_id: OIML R016-1:2002
+    tc_sc: ''
+    year: 2002
+    clause: '2.13'
+    link: https://www.oiml.org/en/files/pdf_R/r016-1-e02.pdf
+    g18_entry: '00318'
+    definition: valve for controlled exhaust of the pneumatic system during measurement
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 2abfb909-1ff8-5f5d-9090-b1e6a151072f
+schema_version: '3'
+related: []

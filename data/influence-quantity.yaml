@@ -1,14 +1,24 @@
 ---
 data:
-  identifier: '00236'
+  identifier: '00374'
   term: influence quantity
   kind: defined_in_vim
   official_concept:
     source: urn:oiml:pub:v:2:1993
     id: '2.7'
     url: https://oimlsmart.github.io/vocab/vim-1993/concept/2.7
+    definition_text:
+    edition_label: VIM 1993
+    vocab: vim
+    role: legacy
+    year: 1993
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 80-1:2009
+  - edition: '2010'
+    publication: OIML R 80-1:2009
     publication_id: OIML R080-1:2009
     tc_sc: ''
     year: 2009
@@ -20,7 +30,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 143:2009
+  - edition: '2010'
+    publication: OIML R 143:2009
     publication_id: OIML R143:2009
     tc_sc: ''
     year: 2009
@@ -34,7 +45,8 @@ data:
     - "(VIM:2007, 2.52)"
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 85-1:2008
+  - edition: '2010'
+    publication: OIML R 85-1:2008
     publication_id: OIML R085-1:2008
     tc_sc: ''
     year: 2008
@@ -46,7 +58,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 99-1:2008
+  - edition: '2010'
+    publication: OIML R 99-1:2008
     publication_id: OIML R099-1:2008
     tc_sc: ''
     year: 2008
@@ -60,7 +73,8 @@ data:
     - "(VIM:2007, 2.52)"
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 35-1:2007
+  - edition: '2010'
+    publication: OIML R 35-1:2007
     publication_id: OIML R035-1:2007
     tc_sc: ''
     year: 2007
@@ -72,7 +86,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 107-1:2007
+  - edition: '2010'
+    publication: OIML R 107-1:2007
     publication_id: OIML R107-1:2007
     tc_sc: ''
     year: 2007
@@ -86,7 +101,8 @@ data:
       but affects the value (weighing result) indicated by the instrument.
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 117-1:2007
+  - edition: '2010'
+    publication: OIML R 117-1:2007
     publication_id: OIML R117-1:2007
     tc_sc: ''
     year: 2007
@@ -98,7 +114,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 139:2007
+  - edition: '2010'
+    publication: OIML R 139:2007
     publication_id: OIML R139:2007
     tc_sc: ''
     year: 2007
@@ -110,7 +127,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 140:2007
+  - edition: '2010'
+    publication: OIML R 140:2007
     publication_id: OIML R140:2007
     tc_sc: ''
     year: 2007
@@ -127,7 +145,8 @@ data:
       ref:
         source: urn:oiml:pub:v:2:1993
         id: '2.7'
-  - publication: OIML R 49-1:2006
+  - edition: '2010'
+    publication: OIML R 49-1:2006
     publication_id: OIML R049-1:2006
     tc_sc: ''
     year: 2006
@@ -139,7 +158,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 51-1:2006
+  - edition: '2010'
+    publication: OIML R 51-1:2006
     publication_id: OIML R051-1:2006
     tc_sc: ''
     year: 2006
@@ -151,7 +171,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 76-1:2006
+  - edition: '2010'
+    publication: OIML R 76-1:2006
     publication_id: OIML R076-1:2006
     tc_sc: ''
     year: 2006
@@ -163,7 +184,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 137-1:2006
+  - edition: '2010'
+    publication: OIML R 137-1:2006
     publication_id: OIML R137-1:2006
     tc_sc: ''
     year: 2006
@@ -180,7 +202,8 @@ data:
       ref:
         source: urn:oiml:pub:v:2:1993
         id: '2.7'
-  - publication: OIML D 11:2004
+  - edition: '2010'
+    publication: OIML D 11:2004
     publication_id: OIML D011:2004
     tc_sc: ''
     year: 2004
@@ -192,7 +215,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 61-1:2004
+  - edition: '2010'
+    publication: OIML R 61-1:2004
     publication_id: OIML R061-1:2004
     tc_sc: ''
     year: 2004
@@ -210,7 +234,8 @@ data:
       ref:
         source: urn:oiml:pub:v:2:1993
         id: '2.7'
-  - publication: OIML R 136-1:2004
+  - edition: '2010'
+    publication: OIML R 136-1:2004
     publication_id: OIML R136-1:2004
     tc_sc: ''
     year: 2004
@@ -223,7 +248,8 @@ data:
     - "[VIM:1993, 2.7]"
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 134:2003
+  - edition: '2010'
+    publication: OIML R 134:2003
     publication_id: OIML R134:2003
     tc_sc: ''
     year: 2003
@@ -235,7 +261,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 75-1:2002
+  - edition: '2010'
+    publication: OIML R 75-1:2002
     publication_id: OIML R075-1:2002
     tc_sc: ''
     year: 2002
@@ -247,7 +274,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 60:2000
+  - edition: '2010'
+    publication: OIML R 60:2000
     publication_id: OIML R060:2000
     tc_sc: ''
     year: 2000
@@ -265,7 +293,8 @@ data:
       ref:
         source: urn:oiml:pub:v:2:1993
         id: '2.7'
-  - publication: OIML R 129:2000
+  - edition: '2010'
+    publication: OIML R 129:2000
     publication_id: OIML R129:2000
     tc_sc: ''
     year: 2000
@@ -277,7 +306,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 81:1998
+  - edition: '2010'
+    publication: OIML R 81:1998
     publication_id: OIML R081:1998
     tc_sc: ''
     year: 1998
@@ -295,7 +325,8 @@ data:
       ref:
         source: urn:oiml:pub:v:2:1993
         id: '2.7'
-  - publication: OIML R 125:1998
+  - edition: '2010'
+    publication: OIML R 125:1998
     publication_id: OIML R125:1998
     tc_sc: ''
     year: 1998
@@ -313,7 +344,8 @@ data:
       ref:
         source: urn:oiml:pub:v:2:1993
         id: '2.7'
-  - publication: OIML R 50-1:1997
+  - edition: '2010'
+    publication: OIML R 50-1:1997
     publication_id: OIML R050-1:1997
     tc_sc: ''
     year: 1997
@@ -328,10 +360,11 @@ data:
     consistency_reason: ''
     related:
     - type: see
-      ref: &1
+      ref:
         source: urn:oiml:pub:v:2:1993
         id: '2.7'
-  - publication: OIML R 106-1:1997
+  - edition: '2010'
+    publication: OIML R 106-1:1997
     publication_id: OIML R106-1:1997
     tc_sc: ''
     year: 1997
@@ -343,7 +376,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 124:1997
+  - edition: '2010'
+    publication: OIML R 124:1997
     publication_id: OIML R124:1997
     tc_sc: ''
     year: 1997
@@ -356,7 +390,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 105:1993
+  - edition: '2010'
+    publication: OIML R 105:1993
     publication_id: OIML R105:1993
     tc_sc: ''
     year: 1993
@@ -369,9 +404,433 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
+  - edition: 202X
+    publication: OIML R049-1:2024
+    publication_id: OIML R049-1:2024
+    tc_sc: ''
+    year: 2024
+    clause: 3.4.1
+    link:
+    g18_entry: '02421'
+    definition: 'quantity that, in a direct measurement, does not affect the quantity
+      that is actually measured, but affects the relation between the indication and
+      the measurement result [SOURCE: ISO/IEC Guide 99:2007/OIML V2-200:2012 (VIM)
+      2.52 [1],.modified – original exampes and notes removed; “EXAMPLE” added] EXAMPLE:The
+      ambient temperature of the meter is an influence quantity, whereas the temperature
+      of the water passing through the meter affects the measurand.'
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R139-1:2022
+    publication_id: OIML R139-1:2022
+    tc_sc: ''
+    year: 2022
+    clause: 3.4.1
+    link:
+    g18_entry: '03123'
+    definition: quantity that, in a direct measurement, does not affect the quantity
+      that is actually measured, but affects the relation between the indication and
+      the measurement result [OIML V 2-200:2012, 2.52] [OIML V 1:2013, 0.07]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R060-1:2021
+    publication_id: OIML R060-1:2021
+    tc_sc: ''
+    year: 2021
+    clause: 3.8.3
+    link:
+    g18_entry: '03124'
+    definition: quantity that, in a direct measurement, does not affect the quantity
+      that is actually measured, but affects the relation between the indication and
+      the measurement result [VIM 2.52]
+    notes:
+    - "(For examples and notes, refer to the VIM [2])"
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R129-1:2020
+    publication_id: OIML R129-1:2020
+    tc_sc: ''
+    year: 2020
+    clause: 2.3.8
+    link:
+    g18_entry: '03128'
+    definition: quantity that, in a direct measurement, does not affect the quantity
+      that is actually measured, but affects the relation between the indication and
+      the measurement result [VIM 2.52]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R150-1:2020
+    publication_id: OIML R150-1:2020
+    tc_sc: ''
+    year: 2020
+    clause: 2.5.1
+    link:
+    g18_entry: '03129'
+    definition: quantity that, in a direct measurement, does not affect the quantity
+      that is actually measured, but affects the relation between the indication and
+      the measurement result [VIM 2.52]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R061-1:2017
+    publication_id: OIML R061-1:2017
+    tc_sc: ''
+    year: 2017
+    clause: 3.6.1
+    link:
+    g18_entry: '03125'
+    definition: quantity that, in a direct measurement, does not affect the quantity
+      that is actually measured, but affects the relation between the indication and
+      the measurement result (VIM 2.52)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R080-2:2017
+    publication_id: OIML R080-2:2017
+    tc_sc: ''
+    year: 2017
+    clause: '2'
+    link:
+    g18_entry: '03122'
+    definition: quantity which is not the object of the measurement but which influences
+      the value of the measurand or the indication of the Tank
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R050-1:2014
+    publication_id: OIML R050-1:2014
+    tc_sc: ''
+    year: 2014
+    clause: 2.5.1
+    link:
+    g18_entry: '03126'
+    definition: quantity that, in a direct measurement, does not affect the quantity
+      that is actually measured, but that affects the relation between the indication
+      and the measurement result [VIM, 2.52]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D011:2013
+    publication_id: OIML D011:2013
+    tc_sc: ''
+    year: 2013
+    clause: '3.15'
+    link:
+    g18_entry: '02229-D011'
+    definition: quantity that, in a direct measurement, does not affect the quantity
+      that is actually measured, but affects the relation between the indication and
+      the measurement result [VIM 2.52][VIML 0.07
+    notes:
+    - 'Note:An influence quantity is not related to the measurand but is a quantity
+      that affects the result of the measurement as indicated by the equipment under
+      test (EUT). Example: The temperature of a measuring instrument is an influence
+      quantity, but the temperature of the measured object (used as a reference for
+      determining the fault or the error) is not. This influence of the environment
+      on this measured object may need to be taken into consideration as a contributor
+      in the definition of the measurand.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R144-1:2013
+    publication_id: OIML R144-1:2013
+    tc_sc: ''
+    year: 2013
+    clause: '2.17'
+    link:
+    g18_entry: '02772'
+    definition: quantity that, in a direct measurement, does not affect the quantity
+      that is actually measured, but that affects the relation between the indication
+      and the measurement result [VIM, 2.52] [1]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R046-1:2012
+    publication_id: OIML R046-1:2012
+    tc_sc: ''
+    year: 2012
+    clause: 2.2.23
+    link:
+    g18_entry: 02322-R046-1
+    definition: quantity that, in direct measurement, does not affect the quantity
+      that is actually measured, but affects the relation between the indication and
+      the measurement result [OIML V2:200:2012, 2.52]
+    notes:
+    - 'Note 1: The concept of influence quantity is understood to include values associated
+      with measurement standards, reference materials and reference data upon which
+      the result of a measurement may depend, as well as phenomena such as short-term
+      measuring instrument fluctuations and quantities such as ambient temperature,
+      barometric pressure and humidity. Note 2: In the GUM [5], the concept ‘influence
+      quantity’ is defined as in the second edition of the VIM, covering not only
+      the quantities affecting the measuring system, as in the definition above, but
+      also those quantities that affect the quantities actually measured. Also, in
+      the GUM this concept is not restricted to direct measurements. [OIML V2-200:2012,
+      2.52, Note 2]'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R137:2012
+    publication_id: OIML R137:2012
+    tc_sc: ''
+    year: 2012
+    clause: 3.4.1
+    link:
+    g18_entry: '02690'
+    definition: quantity that, in a direct measurement, does not affect the quantity
+      that is actually measured, but that affects the relation between the indication
+      and the measurement result (VIM 2.52)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R106-1:2011
+    publication_id: OIML R106-1:2011
+    tc_sc: ''
+    year: 2011
+    clause: 0.5.1
+    link:
+    g18_entry: '02616'
+    definition: quantity that is not the measurand but that affects the result of
+      the measurement
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 80-1:2009
+    publication_id: OIML R080-1:2009
+    tc_sc: ''
+    year: 2009
+    clause: '2.46'
+    link: https://www.oiml.org/en/files/pdf_R/r080-1-e09.pdf
+    g18_entry: '02285-R080-1'
+    definition: quantity which is not the object of the measurement but which influences
+      the value of the measurand or the indication of the Tank
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 143:2009
+    publication_id: OIML R143:2009
+    tc_sc: ''
+    year: 2009
+    clause: '2.18'
+    link: https://www.oiml.org/en/files/pdf_R/r143-e09.pdf
+    g18_entry: '02144'
+    definition: quantity that, in a direct measurement, does not affect the quantity
+      that is actually measured, but that affects the relation between the indication
+      and the measurement result [VIM:2007, 2.5]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 85-1:2008
+    publication_id: OIML R085-1:2008
+    tc_sc: ''
+    year: 2008
+    clause: '3.23'
+    link: https://www.oiml.org/en/files/pdf_R/r085-1-e08.pdf
+    g18_entry: 02321-R085-1
+    definition: quantity which is not the subject of the measurement but which influences
+      the value of the measurand or the indication of the ALG
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 99-1:2008
+    publication_id: OIML R099-1:2008
+    tc_sc: ''
+    year: 2008
+    clause: '3.24'
+    link: https://www.oiml.org/en/files/pdf_R/r099-1-e08.pdf
+    g18_entry: '02358'
+    definition: quantity that, in a direct measurement, does not affect the quantity
+      that is actually measured, but affects the relation between the indication and
+      the measurement result [VIM:2007, 2.52]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 35-1:2007
+    publication_id: OIML R035-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: 2.3.1
+    link: https://www.oiml.org/en/files/pdf_R/r035-1-e07.pdf
+    g18_entry: '00374'
+    definition: quantity that is not the subject of the measurement but which influences
+      the values of the measurand or the indication of the instrument
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 107-1:2007
+    publication_id: OIML R107-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.5.1
+    link: https://www.oiml.org/en/files/pdf_R/r107-1-e07.pdf
+    g18_entry: '01396'
+    definition: 'quantity that is not the measurand but that affects the result of
+      the measurement [VIM: 1993, 2.10]'
+    notes:
+    - 'Note: An influence quantity does not affect the actual mass of the load being
+      weighed, but affects the value  (weighing result) indicated by the instrument.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 117-1:2007
+    publication_id: OIML R117-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.i.2
+    link: https://www.oiml.org/en/files/pdf_R/r117-1-e07.pdf
+    g18_entry: '03127'
+    definition: quantity which is not the subject of the measurement but which influences
+      the value of the measurand or the indication of the measuring system
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 140:2007
+    publication_id: OIML R140:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.3.1
+    link: https://www.oiml.org/en/files/pdf_R/r140-e07.pdf
+    g18_entry: '02092'
+    definition: quantity that is not the measurand but which affects the result of
+      the measurement [VIM:1993, 2.7]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 51-1:2006
+    publication_id: OIML R051-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.5.1
+    link: https://www.oiml.org/en/files/pdf_R/r051-1-e06.pdf
+    g18_entry: '00664'
+    definition: quantity that is not the measurand but that affects the result of
+      the measurement [VIM:1993, 2.7]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 76-1:2006
+    publication_id: OIML R076-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.6.1
+    link: https://www.oiml.org/en/files/pdf_R/r076-1-e06.pdf
+    g18_entry: '00986'
+    definition: quantity that is not the subject of the measurement but which influences
+      the values of the measurand or the indication of the Instrument
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 136-1:2004
+    publication_id: OIML R136-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: T.5.1
+    link: https://www.oiml.org/en/files/pdf_R/r136-1-e04.pdf
+    g18_entry: '01915'
+    definition: quantity that is not the subject of the measurement but which influences
+      the value of the measurand or the indication of the measurement  instrument
+      [VIM:1993, 2.7]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 134:2003
+    publication_id: OIML R134:2003
+    tc_sc: ''
+    year: 2003
+    clause: T.5.1
+    link: https://www.oiml.org/en/files/pdf_R/r134-e03.pdf
+    g18_entry: '01828'
+    definition: quantity that is not the subject of the measurement but which influences
+      the value of the measurand or the indication of the instrument
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 75-1:2002
+    publication_id: OIML R075-1:2002
+    tc_sc: ''
+    year: 2002
+    clause: '4.6'
+    link: https://www.oiml.org/en/files/pdf_R/r075-1-e02.pdf
+    g18_entry: '00856'
+    definition: quantity that is not the measurand but that affects the result of
+      the measurement [VIM:1993, 2.7]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 81:1998
+    publication_id: OIML R081:1998
+    tc_sc: ''
+    year: 1998
+    clause: '3.25'
+    link: https://www.oiml.org/en/files/pdf_R/r081-e98.pdf
+    g18_entry: '01034'
+    definition: a quantity that is not the subject of the measurement but that can
+      influence the value of the measurand or the indication of the measuring system
+      (VIM:1993, 2.7).
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 125:1998
+    publication_id: OIML R125:1998
+    tc_sc: ''
+    year: 1998
+    clause: T.29
+    link: https://www.oiml.org/en/files/pdf_R/r125-e98.pdf
+    g18_entry: '01646'
+    definition: a quantity which is not the subject of the measurement but which influences
+      the value of the measurand or the indication of the measuring instrument (VIM:1993,
+      2.7)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 124:1997
+    publication_id: OIML R124:1997
+    tc_sc: ''
+    year: 1997
+    clause: '3'
+    link: https://www.oiml.org/en/files/pdf_R/r124-e97.pdf
+    g18_entry: '01608'
+    definition: a quantity which is not the subject of the measurement but which influences
+      the value of the measurand or the indication of the measuring  instrument (VIM:1993,
+      clause 2.7 or D 11 clause T.12)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
 status: current
 id: '09a7f082-a12b-56a0-bb09-ea28d893bb57'
 schema_version: '3'
 related:
 - type: see
-  ref: *1
+  ref:
+    source: urn:oiml:pub:v:2:1993
+    id: '2.7'
+    definition_text:
+    edition_label: VIM 1993
+    vocab: vim
+    role: legacy
+    year: 1993

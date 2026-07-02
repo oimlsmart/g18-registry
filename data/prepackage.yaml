@@ -4,8 +4,13 @@ data:
   term: prepackage
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML D 9:2004
+  - edition: '2010'
+    publication: OIML D 9:2004
     publication_id: OIML D009:2004
     tc_sc: ''
     year: 2004
@@ -17,7 +22,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 87:2004
+  - edition: '2010'
+    publication: OIML R 87:2004
     publication_id: OIML R087:2004
     tc_sc: ''
     year: 2004
@@ -25,6 +31,71 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r087-e04.pdf
     g18_entry: '01119'
     definition: combination of a product and the packing material in which it is prepacked
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R087:2016
+    publication_id: OIML R087:2016
+    tc_sc: ''
+    year: 2016
+    clause: 2.1.9
+    link:
+    g18_entry: '02502'
+    definition: single item for presentation as such to a consumer, consisting of
+      a product and its packing material, made up before being offered for sale and
+      in which the quantity of the product has a predetermined value, whether the
+      packing material encloses the product completely or only partially, but in any
+      case in such a way that the actual quantity of product cannot be altered without
+      the packing material either being opened or undergoing a perceptible modification
+    notes:
+    - 'Note 1:  For the purpose of this Recommendation “prepackage” includes those
+      prepackages marked with a constant nominal quantity and thus excludes those
+      prepackages marked with random nominal quantities. The term “predetermined value”
+      refers to the value determined prior to the prepackage being offered for sale.
+      Note 2:  The actual quantity of some products may change after packing due to
+      desiccation or chemical reactions.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R079:2015
+    publication_id: OIML R079:2015
+    tc_sc: ''
+    year: 2015
+    clause: '2.7'
+    link:
+    g18_entry: '02486'
+    definition: ''
+    notes:
+    - 'Note: For the purpose of this Recommendation prepackages include prepackages
+      marked with a constant nominal quantity or random nominal quantities. The term
+      “predetermined value” refers to the value determined prior to the prepackage
+      being offered for sale.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D016:2011
+    publication_id: OIML D016:2011
+    tc_sc: ''
+    year: 2011
+    clause: '2.4'
+    link:
+    g18_entry: 02257-D016
+    definition: combination of a product and the packing material in which it is prepacked
+    notes:
+    - "(see OIML R 87)"
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D 9:2004
+    publication_id: OIML D009:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.2'
+    link: https://www.oiml.org/en/files/pdf_D/d009-e04.pdf
+    g18_entry: '00184'
+    definition: combination of a product and the packing material in which it is prepacked
+      (see OIML R 87 [5])
     notes: []
     consistency: pending
     consistency_reason: ''

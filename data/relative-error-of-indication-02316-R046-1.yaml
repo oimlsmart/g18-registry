@@ -1,0 +1,30 @@
+---
+data:
+  identifier: 02316-R046-1
+  term: relative error of indication
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R046-1:2012
+    publication_id: OIML R046-1:2012
+    tc_sc: ''
+    year: 2012
+    clause: 2.2.17
+    link:
+    g18_entry: 02316-R046-1
+    definition: indication minus reference quantity value, divided by the reference
+      quantity value
+    notes:
+    - 'Note 1:  The relative error is usually expressed as a percentage of the reference
+      quantity value. Note 2:    Since this Recommendation deals only with relative
+      error, the short form “error” is used for relative error.'
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 5c4440ed-1da5-53c2-926f-4fae04f021f0
+schema_version: '3'
+related: []

@@ -1,0 +1,28 @@
+---
+data:
+  identifier: '02291-R046-1'
+  term: indicating device, display
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R046-1:2012
+    publication_id: OIML R046-1:2012
+    tc_sc: ''
+    year: 2012
+    clause: 2.1.12
+    link:
+    g18_entry: '02291-R046-1'
+    definition: part of the meter that displays the measurement results either continuously
+      or on demand
+    notes:
+    - 'Note: An indicating device may also be used to display other relevant information.'
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 4d001b50-0a32-5b59-a6f5-560e423bcae2
+schema_version: '3'
+related: []

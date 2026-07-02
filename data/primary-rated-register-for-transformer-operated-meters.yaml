@@ -1,0 +1,28 @@
+---
+data:
+  identifier: '02293-R046-1'
+  term: primary rated register (for transformer operated meters)
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R046-1:2012
+    publication_id: OIML R046-1:2012
+    tc_sc: ''
+    year: 2012
+    clause: 2.1.14
+    link:
+    g18_entry: '02293-R046-1'
+    definition: register where the scale factor(s) due to the used instrument transformer(s)
+      is considered such that the measured energy on the primary side of the instrument
+      transformer(s) is indicated
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 65917626-7591-5ca5-a5ad-12618853bb0f
+schema_version: '3'
+related: []

@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '00112'
+  identifier: '02817'
   term: accreditation
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML B 10-1:2004
+  - edition: '2010'
+    publication: OIML B 10-1:2004
     publication_id: OIML B010-1:2004
     tc_sc: TC 3/SC 2
     year: 2004
@@ -15,6 +20,34 @@ data:
     definition: "( procedure by which an authoritative body gives formal recognition
       that a body or person is competent to carry out specific tasks ISO/IEC Guide
       2, 12.11)"
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D034:2019
+    publication_id: OIML D034:2019
+    tc_sc: ''
+    year: 2019
+    clause: 3.1.1
+    link:
+    g18_entry: '02837'
+    definition: third-party attestation related to a conformity assessment body conveying
+      formal demonstration of its competence to carry out specific conformity assessment
+      tasks (from ISO/IEC 17000:2004, 5.6 [2] and VIML, a.19 [3])
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R147:2016
+    publication_id: OIML R147:2016
+    tc_sc: ''
+    year: 2016
+    clause: 1.1.1
+    link:
+    g18_entry: '02817'
+    definition: third-party attestation related to a conformity assessment body conveying
+      formal demonstration of its competence to carry out specific conformity assessment
+      tasks [ISO/IEC 17000:2004; 5.6] [1]
     notes: []
     consistency: pending
     consistency_reason: ''

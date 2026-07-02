@@ -4,8 +4,39 @@ data:
   term: apron
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 134:2003
+  - edition: '2010'
+    publication: OIML R 134:2003
+    publication_id: OIML R134:2003
+    tc_sc: ''
+    year: 2003
+    clause: T.1.6.1
+    link: https://www.oiml.org/en/files/pdf_R/r134-e03.pdf
+    g18_entry: '01790'
+    definition: part of the weigh zone that is not the load receptor but which is
+      located on either end of the load receptor
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R106-1:2011
+    publication_id: OIML R106-1:2011
+    tc_sc: ''
+    year: 2011
+    clause: 0.2.3
+    link:
+    g18_entry: '02539'
+    definition: part of the rails that is not the load receptor but which is located
+      on either end of the load receptor and which serves as approach rails
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 134:2003
     publication_id: OIML R134:2003
     tc_sc: ''
     year: 2003

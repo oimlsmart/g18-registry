@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '00255'
+  identifier: '02248-D011'
   term: power converter (power supply device)
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 99-1:2008
+  - edition: '2010'
+    publication: OIML R 99-1:2008
     publication_id: OIML R099-1:2008
     tc_sc: ''
     year: 2008
@@ -18,7 +23,8 @@ data:
     - "(OIML D 11:2004, 3.22)"
     consistency: pending
     consistency_reason: ''
-  - publication: OIML D 11:2004
+  - edition: '2010'
+    publication: OIML D 11:2004
     publication_id: OIML D011:2004
     tc_sc: ''
     year: 2004
@@ -27,6 +33,45 @@ data:
     g18_entry: '00255'
     definition: sub-assembly converting the voltage from the mains power to a voltage
       suitable for other sub-assemblies
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R060:2021
+    publication_id: OIML R060:2021
+    tc_sc: ''
+    year: 2021
+    clause: A.1.14
+    link:
+    g18_entry: '03411'
+    definition: sub-assembly converting the voltage from the mains power to a voltage
+      suitable for other sub-assemblies
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D011:2013
+    publication_id: OIML D011:2013
+    tc_sc: ''
+    year: 2013
+    clause: '3.23'
+    link:
+    g18_entry: '02248-D011'
+    definition: sub-assembly converting the voltage from the mains power to a voltage
+      suitable for other sub-assemblies
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 99-1:2008
+    publication_id: OIML R099-1:2008
+    tc_sc: ''
+    year: 2008
+    clause: '3.38'
+    link: https://www.oiml.org/en/files/pdf_R/r099-1-e08.pdf
+    g18_entry: '02374'
+    definition: sub assembly converting the voltage from the mains power to a voltage
+      suitable for other sub-assemblies [OIML D 11:2004, 3.22]
     notes: []
     consistency: pending
     consistency_reason: ''

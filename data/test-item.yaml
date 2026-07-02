@@ -1,0 +1,29 @@
+---
+data:
+  identifier: '03700'
+  term: test item
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML D031:2023
+    publication_id: OIML D031:2023
+    tc_sc: ''
+    year: 2023
+    clause: 3.2.66
+    link:
+    g18_entry: '03700'
+    definition: property or function of software module that may be subject to a test
+    notes:
+    - 'Note 1: Test items are typically examined and tested as part of remote verification
+      procedures. Note 2: Examples of potential test items include correctness of
+      algorithms, software identity and software integrity.'
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: ce76bfc4-d594-5e8a-a697-892c57df8e68
+schema_version: '3'
+related: []

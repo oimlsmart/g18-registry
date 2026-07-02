@@ -4,8 +4,13 @@ data:
   term: calibration table
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 71:2008
+  - edition: '2010'
+    publication: OIML R 71:2008
     publication_id: OIML R071:2008
     tc_sc: ''
     year: 2008
@@ -18,7 +23,37 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 95:1990
+  - edition: '2010'
+    publication: OIML R 95:1990
+    publication_id: OIML R095:1990
+    tc_sc: ''
+    year: 1990
+    clause: T.12
+    link: https://www.oiml.org/en/files/pdf_R/r095-e90.pdf
+    g18_entry: '01148'
+    definition: the expression, in the form of a table, of the mathematical function
+      V(h) that represents the relation between the height h (independent variable)
+      and the volume V (dependent variable) when the ship is on an even keel and has
+      no list
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 71:2008
+    publication_id: OIML R071:2008
+    tc_sc: ''
+    year: 2008
+    clause: '3.13'
+    link: https://www.oiml.org/en/files/pdf_R/r071-e08.pdf
+    g18_entry: 02237-R071
+    definition: expression in the form of a table, of the mathematical function V(h)
+      which represents the relation between the height h (independent variable) and
+      the volume V (dependent variable)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 95:1990
     publication_id: OIML R095:1990
     tc_sc: ''
     year: 1990

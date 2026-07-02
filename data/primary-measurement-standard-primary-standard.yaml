@@ -1,0 +1,28 @@
+---
+data:
+  identifier: '03385'
+  term: primary measurement standard primary standard
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML D005:2022
+    publication_id: OIML D005:2022
+    tc_sc: ''
+    year: 2022
+    clause: '3.17'
+    link:
+    g18_entry: '03385'
+    definition: measurement standard established using a primary reference measurement
+      procedure, or crated as an artifact, chosen by convention For examples see [VIM,
+      5.4] [VIM, 5.4]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 84d04cae-4ec7-5fd1-b038-2e8518c2bf47
+schema_version: '3'
+related: []

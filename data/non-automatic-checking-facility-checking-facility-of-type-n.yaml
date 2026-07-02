@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '03329'
+  term: non-automatic checking facility checking facility of type N
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R139-1:2022
+    publication_id: OIML R139-1:2022
+    tc_sc: ''
+    year: 2022
+    clause: 3.2.16
+    link:
+    g18_entry: '03329'
+    definition: checking facility, requiring the intervention of an operator [OIML
+      D 11:2013, 3.19.2]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: d922becc-87f9-5a6e-b715-e44c56e3ef37
+schema_version: '3'
+related: []

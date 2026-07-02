@@ -1,0 +1,29 @@
+---
+data:
+  identifier: '02206'
+  term: type of a measuring instrument
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML D001:2012
+    publication_id: OIML D001:2012
+    tc_sc: ''
+    year: 2012
+    clause: 3.1.6
+    link:
+    g18_entry: '02206'
+    definition: type of a measuring instrument or module definitive model of a measuring
+      instrument or module (including a family of instruments or modules) of which
+      all the elements affecting its metrological properties are suitably defined
+      [VIML 4.06]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 48a66ef7-85b4-53d9-b393-603541634247
+schema_version: '3'
+related: []

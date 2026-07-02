@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '00785'
+  identifier: '03378'
   term: preset value
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 61-1:2004
+  - edition: '2010'
+    publication: OIML R 61-1:2004
     publication_id: OIML R061-1:2004
     tc_sc: ''
     year: 2004
@@ -14,6 +19,20 @@ data:
     g18_entry: '00785'
     definition: value, expressed in units of mass, preset by the operator by means
       of the fill setting device, in order to define the nominal value of the fills
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R061-1:2017
+    publication_id: OIML R061-1:2017
+    tc_sc: ''
+    year: 2017
+    clause: 3.4.3
+    link:
+    g18_entry: '03378'
+    definition: value, expressed in units of mass, preset by the operator by means
+      of the fill setting device, in order to define the nominal value of the mass
+      of the fills
     notes: []
     consistency: pending
     consistency_reason: ''

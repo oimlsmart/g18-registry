@@ -1,0 +1,26 @@
+---
+data:
+  identifier: '02526'
+  term: railway vehicle
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R106-1:2011
+    publication_id: OIML R106-1:2011
+    tc_sc: ''
+    year: 2011
+    clause: 0.1.5
+    link:
+    g18_entry: '02526'
+    definition: wagon or train to be weighed on an automatic rail-weighbridge
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 9dd75848-5d20-5161-bfc6-201be862b37a
+schema_version: '3'
+related: []

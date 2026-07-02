@@ -4,8 +4,29 @@ data:
   term: long term storage of measurement data
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 76-1:2006
+  - edition: '2010'
+    publication: OIML R 76-1:2006
+    publication_id: OIML R076-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.2.8.5
+    link: https://www.oiml.org/en/files/pdf_R/r076-1-e06.pdf
+    g18_entry: '00936'
+    definition: storage used for keeping measurement data ready after completion of
+      the measurement for later legally relevant purposes (e.g. conclusion of a trading
+      transaction at a later date, when the customer is not present for the determination
+      of the amount, or for special applications identified and legislated by the
+      state)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 76-1:2006
     publication_id: OIML R076-1:2006
     tc_sc: ''
     year: 2006

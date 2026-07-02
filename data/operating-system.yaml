@@ -1,0 +1,29 @@
+---
+data:
+  identifier: '03696'
+  term: operating system
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML D031:2023
+    publication_id: OIML D031:2023
+    tc_sc: ''
+    year: 2023
+    clause: 3.2.50
+    link:
+    g18_entry: '03696'
+    definition: software to control program operation and to provide the services
+      for resource allocation, task scheduling, I/O control, and data management as
+      well such task as access control and security adapted from [ISO 16484-2:2004,
+      3.140]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: bc3ea612-461b-5953-abab-3e28866b99ed
+schema_version: '3'
+related: []

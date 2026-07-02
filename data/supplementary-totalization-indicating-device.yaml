@@ -4,8 +4,13 @@ data:
   term: supplementary totalization indicating device
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 107-1:2007
+  - edition: '2010'
+    publication: OIML R 107-1:2007
     publication_id: OIML R107-1:2007
     tc_sc: ''
     year: 2007
@@ -19,7 +24,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 50-1:1997
+  - edition: '2010'
+    publication: OIML R 50-1:1997
     publication_id: OIML R050-1:1997
     tc_sc: ''
     year: 1997
@@ -29,6 +35,49 @@ data:
     definition: an indicating device with a scale interval greater than that of the
       general totalization indicating device and intended to indicate themass of the
       loads conveyed over a fairly long period of operation
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R150-1:2020
+    publication_id: OIML R150-1:2020
+    tc_sc: ''
+    year: 2020
+    clause: 2.4.2.6
+    link:
+    g18_entry: '03545'
+    definition: indicating device with a scale interval greater than that of the general
+      totalization indicating device and  intended to indicate the mass of the loads
+      conveyed over a fairly long period of operation
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 107-1:2007
+    publication_id: OIML R107-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.4.3.3
+    link: https://www.oiml.org/en/files/pdf_R/r107-1-e07.pdf
+    g18_entry: '01383'
+    definition: totalization indicating device with a scale interval greater than
+      that of the principal totalization indicating device and indicating the sum
+      of the weight values of consecutive loads weighed over a long period of time.
+      This device may be resettable to zero by the user
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 50-1:1997
+    publication_id: OIML R050-1:1997
+    tc_sc: ''
+    year: 1997
+    clause: T.3.7.3
+    link: https://www.oiml.org/en/files/pdf_R/r050-1-e97.pdf
+    g18_entry: '00502'
+    definition: an indicating device with a scale interval greater than that of the
+      general totalization indicating device and intended to indicate the mass of
+      the loads conveyed over a fairly long period of operation
     notes: []
     consistency: pending
     consistency_reason: ''

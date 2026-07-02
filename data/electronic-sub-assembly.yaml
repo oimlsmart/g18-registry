@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '00458'
+  identifier: '00599'
   term: electronic sub-assembly
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 107-1:2007
+  - edition: '2010'
+    publication: OIML R 107-1:2007
     publication_id: OIML R107-1:2007
     tc_sc: ''
     year: 2007
@@ -17,7 +22,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 139:2007
+  - edition: '2010'
+    publication: OIML R 139:2007
     publication_id: OIML R139:2007
     tc_sc: ''
     year: 2007
@@ -29,7 +35,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 49-1:2006
+  - edition: '2010'
+    publication: OIML R 49-1:2006
     publication_id: OIML R049-1:2006
     tc_sc: ''
     year: 2006
@@ -41,7 +48,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 51-1:2006
+  - edition: '2010'
+    publication: OIML R 51-1:2006
     publication_id: OIML R051-1:2006
     tc_sc: ''
     year: 2006
@@ -53,7 +61,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 76-1:2006
+  - edition: '2010'
+    publication: OIML R 76-1:2006
     publication_id: OIML R076-1:2006
     tc_sc: ''
     year: 2006
@@ -65,7 +74,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 137-1:2006
+  - edition: '2010'
+    publication: OIML R 137-1:2006
     publication_id: OIML R137-1:2006
     tc_sc: ''
     year: 2006
@@ -77,7 +87,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 61-1:2004
+  - edition: '2010'
+    publication: OIML R 61-1:2004
     publication_id: OIML R061-1:2004
     tc_sc: ''
     year: 2004
@@ -89,7 +100,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 134:2003
+  - edition: '2010'
+    publication: OIML R 134:2003
     publication_id: OIML R134:2003
     tc_sc: ''
     year: 2003
@@ -101,7 +113,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 129:2000
+  - edition: '2010'
+    publication: OIML R 129:2000
     publication_id: OIML R129:2000
     tc_sc: ''
     year: 2000
@@ -113,7 +126,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 125:1998
+  - edition: '2010'
+    publication: OIML R 125:1998
     publication_id: OIML R125:1998
     tc_sc: ''
     year: 1998
@@ -125,7 +139,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 50-1:1997
+  - edition: '2010'
+    publication: OIML R 50-1:1997
     publication_id: OIML R050-1:1997
     tc_sc: ''
     year: 1997
@@ -134,6 +149,100 @@ data:
     g18_entry: '00493'
     definition: a part of an electronic device, employing electronic components and
       having a recognizable function of its own
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R050-1:2014
+    publication_id: OIML R050-1:2014
+    tc_sc: ''
+    year: 2014
+    clause: 2.2.3.2
+    link:
+    g18_entry: '03034'
+    definition: a part of an electronic device, employing electronic components and
+      having a recognizable function of its own
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R049-1:2013
+    publication_id: OIML R049-1:2013
+    tc_sc: ''
+    year: 2013
+    clause: 3.5.2
+    link:
+    g18_entry: '02435'
+    definition: part of an electronic device (3.5.1), employing electronic component(s)
+      (3.5.3) and having a recognizable function of its own
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 107-1:2007
+    publication_id: OIML R107-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.2.2.2
+    link: https://www.oiml.org/en/files/pdf_R/r107-1-e07.pdf
+    g18_entry: '01329'
+    definition: 'part of an electronic device employing electronic components and
+      having a recognizable function of its own Examples: A/D converter, display.
+      [OIML D 11: 2004, 3.3]'
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 51-1:2006
+    publication_id: OIML R051-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.2.8.2
+    link: https://www.oiml.org/en/files/pdf_R/r051-1-e06.pdf
+    g18_entry: '00599'
+    definition: 'part of an electronic device, employing electronic components and
+      having a recognizable function of its own Examples: A/D converter, display.
+      [OIML D 11: 2004, 3.3]'
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 76-1:2006
+    publication_id: OIML R076-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.2.3.2
+    link: https://www.oiml.org/en/files/pdf_R/r076-1-e06.pdf
+    g18_entry: '00905'
+    definition: 'part of an electronic device, employing electronic components and
+      having a recognizable function of its own Examples: A/D converter, display [OIML
+      D 11: 2004, 3.3]'
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R134:2006
+    publication_id: OIML R134:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.2.4.2
+    link:
+    g18_entry: '03033'
+    definition: part of an electronic device comprized of electronic components and  that
+      has a recognizable function of its own
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication:
+    publication_id:
+    tc_sc: ''
+    year:
+    clause:
+    link:
+    g18_entry: '01636'
+    definition: part of an electronic device employing electronic components and having
+      a recognizable function of its own
     notes: []
     consistency: pending
     consistency_reason: ''

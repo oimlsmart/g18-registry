@@ -1,0 +1,30 @@
+---
+data:
+  identifier: 02233-D011
+  term: reference operating condition
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML D011:2013
+    publication_id: OIML D011:2013
+    tc_sc: ''
+    year: 2013
+    clause: '3.17'
+    link:
+    g18_entry: 02233-D011
+    definition: operating condition prescribed for evaluating the performance of a
+      measuring instrument or measuring system or for comparison of measurement results
+      [VIM 4.11][VIML 0.09]
+    notes:
+    - 'Note: Reference operating conditions specify intervals of values of the measurand
+      and of the influence quantities.'
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: a404d498-0366-50c9-ae74-5150269ea94d
+schema_version: '3'
+related: []

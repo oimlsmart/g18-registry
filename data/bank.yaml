@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '02029'
+  identifier: '02902'
   term: bank
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 139:2007
+  - edition: '2010'
+    publication: OIML R 139:2007
     publication_id: OIML R139:2007
     tc_sc: ''
     year: 2007
@@ -18,6 +23,21 @@ data:
       sequential control device (see T.4.9 below)
     notes:
     - Testing using banks generates transient flowrates.
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R139-1:2022
+    publication_id: OIML R139-1:2022
+    tc_sc: ''
+    year: 2022
+    clause: 3.4.5
+    link:
+    g18_entry: '02902'
+    definition: reservoir or set of reservoirs connected together, which form(s) part
+      of a multi-segment gas storage system and for which the segments operate at
+      different pressure levels from one another in refueling systems fitted with
+      or using a sequential control device (see 3.4.6)
+    notes: []
     consistency: pending
     consistency_reason: ''
 status: current

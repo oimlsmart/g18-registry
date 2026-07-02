@@ -4,8 +4,12 @@ data:
   term: double -blind test object (or double - blind material sample)
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  primary_edition: 202X
   publications:
-  - publication: OIML D 20:1988
+  - edition: '2010'
+    publication: OIML D 20:1988
     publication_id: OIML D020:1988
     tc_sc: ''
     year: 1988

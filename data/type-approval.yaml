@@ -1,14 +1,24 @@
 ---
 data:
-  identifier: '00096'
+  identifier: '00192'
   term: type approval
   kind: defined_in_viml
   official_concept:
     source: urn:oiml:pub:v:1:2000
     id: '2.6'
     url: https://oimlsmart.github.io/vocab/viml-2000/concept/2.6
+    definition_text:
+    edition_label: VIML 2000
+    vocab: viml
+    role: prior
+    year: 2000
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML D 29:2008
+  - edition: '2010'
+    publication: OIML D 29:2008
     publication_id: OIML D029:2008
     tc_sc: ''
     year: 2008
@@ -25,7 +35,8 @@ data:
       sense of this Document includes examination, tests and decision.
     consistency: pending
     consistency_reason: ''
-  - publication: OIML B 10-1:2004
+  - edition: '2010'
+    publication: OIML B 10-1:2004
     publication_id: OIML B010-1:2004
     tc_sc: TC 3/SC 2
     year: 2004
@@ -39,7 +50,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML D 9:2004
+  - edition: '2010'
+    publication: OIML D 9:2004
     publication_id: OIML D009:2004
     tc_sc: ''
     year: 2004
@@ -56,10 +68,11 @@ data:
     consistency_reason: ''
     related:
     - type: see
-      ref: &1
+      ref:
         source: urn:oiml:pub:v:1:2000
         id: '2.6'
-  - publication: OIML R 111-1:2004
+  - edition: '2010'
+    publication: OIML R 111-1:2004
     publication_id: OIML R111-1:2004
     tc_sc: ''
     year: 2004
@@ -73,7 +86,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 135:2004
+  - edition: '2010'
+    publication: OIML R 135:2004
     publication_id: OIML R135:2004
     tc_sc: ''
     year: 2004
@@ -93,9 +107,222 @@ data:
       ref:
         source: urn:oiml:pub:v:1:2000
         id: '2.6'
+  - edition: 202X
+    publication: OIML R142-1:2025
+    publication_id: OIML R142-1:2025
+    tc_sc: ''
+    year: 2025
+    clause: '3.19'
+    link:
+    g18_entry: '03732'
+    definition: decision of legal relevance, based on the review of type evaluation
+      report, that the type of e measuring instrument complies with the relevant statutory
+      requirements and results in the issuance of the type approval certificate
+    notes:
+    - 'Note:  See olso VIML A.25'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R049-1:2024
+    publication_id: OIML R049-1:2024
+    tc_sc: ''
+    year: 2024
+    clause: 3.4.13
+    link:
+    g18_entry: '02433'
+    definition: decision of legal relevance, based on the evaluation report, that
+      the type of a measuring instrument complies with the relevant statutory requirements
+      and is suitable for use in the regulated area in such a way that it is expected
+      to provide reliable measurement results over a defined period of time
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D005:2022
+    publication_id: OIML D005:2022
+    tc_sc: ''
+    year: 2022
+    clause: '3.26'
+    link:
+    g18_entry: '03591'
+    definition: decision of legal relevance, based on the review of type evaluation
+      report, that the type of e measuring instrument complies with the relevant statutory
+      requirements and results in the issuance of the type approval certificate [VIML,
+      2.05]
+    notes:
+    - 'Note:  See also VIML, A.25'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D037:2022
+    publication_id: OIML D037:2022
+    tc_sc: ''
+    year: 2022
+    clause: G.3-2
+    link:
+    g18_entry: '03592'
+    definition: decision of legal relevance, based on the review of type evaluation
+      report, that the type of e measuring instrument complies with the relevant statutory
+      requirements and results in the issuance of the type approval certificate (VIML
+      2.05)
+    notes:
+    - 'Note:  For the purposes of the OIML-CS, “type approval certificate” should
+      be read as “OIML certificate”.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R060-1:2021
+    publication_id: OIML R060-1:2021
+    tc_sc: ''
+    year: 2021
+    clause: 3.1.11
+    link:
+    g18_entry: '03590'
+    definition: decision of legal relevance, based on the review of type evaluation
+      report, that the type of e measuring instrument complies with the relevant statutory
+      requirements and results in the issuance of the type approval certificate [VIML,
+      2.05]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D034:2019
+    publication_id: OIML D034:2019
+    tc_sc: ''
+    year: 2019
+    clause: 3.1.15
+    link:
+    g18_entry: '03589'
+    definition: decision of legal relevance, based on the review of type evaluation
+      report, that the type of e measuring instrument complies with the relevant statutory
+      requirements and results in the issuance of the type approval certificate (form
+      VIML, 2.05)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R059-1:2016
+    publication_id: OIML R059-1:2016
+    tc_sc: ''
+    year: 2016
+    clause: 2.1.14
+    link:
+    g18_entry: '02455'
+    definition: decision of legal relevance, based on the review of the type evaluation
+      report, that the type of a measuring instrument complies with the relevant statutory
+      requirements and results in the issuance of the type approval certificate [VIML
+      2.05]
+    notes:
+    - 'Note:  See also VIML A.25'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R146-1:2016
+    publication_id: OIML R146-1:2016
+    tc_sc: ''
+    year: 2016
+    clause: '2.1'
+    link:
+    g18_entry: '02796'
+    definition: "{decision of legal relevance, based on the review of the type evaluation
+      report, that the type of a measuring instrument complies with the relevant statutory
+      requirements and results in the issuance of the type approval certificate [VIML
+      2.05]}"
+    notes:
+    - "{Note See also A.25}"
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D016:2011
+    publication_id: OIML D016:2011
+    tc_sc: ''
+    year: 2011
+    clause: '2.9'
+    link:
+    g18_entry: 02262-D016
+    definition: decision of legal relevance, based on the evaluation report, that
+      the type of measuring instrument complies with the respective statutory requirements
+      and is suitable for use in the regulated area in such a way that it is expected
+      to provide reliable measurement results over a defined period of time [VIML
+      2.6]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D 29:2008
+    publication_id: OIML D029:2008
+    tc_sc: ''
+    year: 2008
+    clause: 3-G.3-2
+    link: https://www.oiml.org/en/files/pdf_D/d029-e08.pdf
+    g18_entry: '02155'
+    definition: decision of legal relevance, based on the evaluation report that the
+      type of a measuring instrument complies with the relevant statutory requirements
+      and is suitable for use in the regulated area in such a way that it is expected
+      to provide reliable measurement results over a defined period of time
+    notes:
+    - 'Note:  For the purpose of this Document, the “type approval” is named “type
+      evaluation”. Consequently “Type evaluation” in the sense of this Document includes
+      examination, tests and decision.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D 9:2004
+    publication_id: OIML D009:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.10'
+    link: https://www.oiml.org/en/files/pdf_D/d009-e04.pdf
+    g18_entry: '00192'
+    definition: decision of legal relevance, based on the evaluation report, that
+      the type of measuring instrument complies with the respective statutory requirements
+      and is suitable for use in the regulated area in such a way that it is expected
+      to provide reliable measurement results over a defined period of time [VIML,
+      2.6]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 111-1:2004
+    publication_id: OIML R111-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: 2.17.2
+    link: https://www.oiml.org/en/files/pdf_R/r111-1-e04.pdf
+    g18_entry: '01467'
+    definition: process of making a decision by a responsible body, based on a review
+      of a type evaluation test report for the type of weights or weight set and professional
+      judgment, that the type is in conformity with the mandatory requirements of
+      this Recommendation for legal applications
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 135:2004
+    publication_id: OIML R135:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.39'
+    link: https://www.oiml.org/en/files/pdf_R/r135-e04.pdf
+    g18_entry: '01878'
+    definition: decision of legal relevance, based on the evaluation report, that
+      the type of measuring instrument complies with the relevant statutory requirements
+      and is suitable for use in the regulated area in such a way that it is expected
+      to provide reliable measurement results over a defined period of time [VIML,
+      2.6]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
 status: current
 id: 2e5135d6-a955-5400-aeee-ac4f085b07c2
 schema_version: '3'
 related:
 - type: see
-  ref: *1
+  ref:
+    source: urn:oiml:pub:v:1:2000
+    id: '2.6'
+    definition_text:
+    edition_label: VIML 2000
+    vocab: viml
+    role: prior
+    year: 2000

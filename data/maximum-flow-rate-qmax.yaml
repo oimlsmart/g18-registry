@@ -1,0 +1,28 @@
+---
+data:
+  identifier: '02680'
+  term: maximum flow rate, Qmax
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R137:2012
+    publication_id: OIML R137:2012
+    tc_sc: ''
+    year: 2012
+    clause: 3.3.2
+    link:
+    g18_entry: '02680'
+    definition: highest flow rate at which a gas meter is required to operate within
+      the limits of its maximum permissible error, whilst operated within its rated
+      operating conditions
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: ca55b72f-1d59-5fe5-9e66-2d9815e4ff63
+schema_version: '3'
+related: []

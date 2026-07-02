@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '03084'
+  term: force simulation platform
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R150-1:2020
+    publication_id: OIML R150-1:2020
+    tc_sc: ''
+    year: 2020
+    clause: 2.2.1.2
+    link:
+    g18_entry: '03084'
+    definition: platform designed to be loaded with standard weights for the purpose
+      of simulating a force on the force receptor
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 025277eb-85bc-5fec-b431-2f924fdaa0fc
+schema_version: '3'
+related: []

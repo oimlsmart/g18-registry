@@ -7,8 +7,18 @@ data:
     source: urn:oiml:pub:v:1:2000
     id: '2.4'
     url: https://oimlsmart.github.io/vocab/viml-2000/concept/2.4
+    definition_text:
+    edition_label: VIML 2000
+    vocab: viml
+    role: prior
+    year: 2000
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML D 31:2008
+  - edition: '2010'
+    publication: OIML D 31:2008
     publication_id: OIML D031:2008
     tc_sc: ''
     year: 2008
@@ -25,7 +35,8 @@ data:
     - '2. [OIML V 1: 2000, 2.13]'
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 111-1:2004
+  - edition: '2010'
+    publication: OIML R 111-1:2004
     publication_id: OIML R111-1:2004
     tc_sc: ''
     year: 2004
@@ -42,12 +53,93 @@ data:
     consistency_reason: ''
     related:
     - type: see
-      ref: &1
+      ref:
         source: urn:oiml:pub:v:1:2000
         id: '2.4'
+  - edition: 202X
+    publication: OIML D031:2023
+    publication_id: OIML D031:2023
+    tc_sc: ''
+    year: 2023
+    clause: 3.2.73
+    link:
+    g18_entry: 02224-D031
+    definition: provision of objective evidence that a given item fulfils specified
+      requirements [adapted from OIML V 2-200:2012, 2.44]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D005:2022
+    publication_id: OIML D005:2022
+    tc_sc: ''
+    year: 2022
+    clause: '3.10'
+    link:
+    g18_entry: '03619'
+    definition: 'provision of objective evidence that a given item fulfils specified
+      requirements [VIM, 2.44] Example 1: Confirmation that a given reference material
+      as claimed is homogeneous for the quantity value and measurement procedure concerned,
+      down to a measurement portion having a mass of 10 mg. Example 2: Confirmation
+      that performence properties or legal requirements of measuring system are achived.
+      Example 3:  Confirmation that a target measurement uncertainty can be met.'
+    notes:
+    - For notes see [VIM, 2.44].
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D034:2019
+    publication_id: OIML D034:2019
+    tc_sc: ''
+    year: 2019
+    clause: 3.1.17
+    link:
+    g18_entry: '03618'
+    definition: provision of objective evidence that a given item fulfils specified
+      requirements (from VIM, 2.44)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R147:2016
+    publication_id: OIML R147:2016
+    tc_sc: ''
+    year: 2016
+    clause: 1.1.5
+    link:
+    g18_entry: '02821'
+    definition: provision of objective evidence that a given item fulfils a specified
+      requirement [OIML V2-200:2012; 2.44] [2] confirmation that performance properties
+      or legal requirements of a measuring system are achieved
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 111-1:2004
+    publication_id: OIML R111-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.18'
+    link: https://www.oiml.org/en/files/pdf_R/r111-1-e04.pdf
+    g18_entry: '01468'
+    definition: all the operations carried out by an organ of the national service
+      of legal metrology (or other legally authorized organization) having the object
+      of ascertaining and confirming that the weight entirely satisfies the requirements
+      of the regulations for verification. Verification includes both examination
+      and stamping. (Adapted from VIML 2.4 and 2.13)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
 status: current
 id: db855584-f972-5488-b570-2a87a2753de9
 schema_version: '3'
 related:
 - type: see
-  ref: *1
+  ref:
+    source: urn:oiml:pub:v:1:2000
+    id: '2.4'
+    definition_text:
+    edition_label: VIML 2000
+    vocab: viml
+    role: prior
+    year: 2000

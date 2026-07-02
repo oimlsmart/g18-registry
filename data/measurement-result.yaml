@@ -1,0 +1,47 @@
+---
+data:
+  identifier: '03259'
+  term: measurement result
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML D031:2023
+    publication_id: OIML D031:2023
+    tc_sc: ''
+    year: 2023
+    clause: 3.2.41
+    link:
+    g18_entry: '03259'
+    definition: set of quantity values being attributed to a measurand together with
+      any other available relevant information adapted from [V 2-200:2012, 2.9]
+    notes:
+    - 'Note 1: The relevant information may consist of e.g. measurement uncertainty,
+      date and time of measurement, number of measurement, identification of sensor
+      and in the case where price calculation is part of legally relevant software,
+      unit price and price to pay. Note 2: The measurement result (including the measured
+      quantity value according to V 2:200:2012) is used for the legally relevant purpousae,
+      e.g. conclusion of transaction. Note 3: See Annex C for clarification regarding
+      measurement-related terms.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R061-1:2017
+    publication_id: OIML R061-1:2017
+    tc_sc: ''
+    year: 2017
+    clause: 3.1.6
+    link:
+    g18_entry: '03672'
+    definition: set of quantity values being attributed to a measurand together with
+      any other available relevant information (VIM 2.9)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 7d0c3f95-9222-5356-9b2b-f76433aebae7
+schema_version: '3'
+related: []

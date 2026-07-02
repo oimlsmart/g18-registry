@@ -1,0 +1,26 @@
+---
+data:
+  identifier: '03642'
+  term: weighing segment length
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R150-1:2020
+    publication_id: OIML R150-1:2020
+    tc_sc: ''
+    year: 2020
+    clause: 2.3.12
+    link:
+    g18_entry: '03642'
+    definition: length of weighing part of the arched chute
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 6d386ab2-0c13-5d01-bba5-0e1dfd92234e
+schema_version: '3'
+related: []

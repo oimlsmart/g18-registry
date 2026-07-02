@@ -4,8 +4,13 @@ data:
   term: maximum permissible error
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 85-1:2008
+  - edition: '2010'
+    publication: OIML R 85-1:2008
     publication_id: OIML R085-1:2008
     tc_sc: ''
     year: 2008
@@ -17,7 +22,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 117-1:2007
+  - edition: '2010'
+    publication: OIML R 117-1:2007
     publication_id: OIML R117-1:2007
     tc_sc: ''
     year: 2007
@@ -28,7 +34,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 24:1975
+  - edition: '2010'
+    publication: OIML R 24:1975
     publication_id: OIML R024:1975
     tc_sc: ''
     year: 1975
@@ -36,6 +43,62 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r024-e75.pdf
     g18_entry: '00361'
     definition: maximum error, positive or negative, allowed on Verification Officers'
+      metre standard on initial or subsequent verification when compared at the reference
+      temperature of 20 °C with the corresponding standard of length of higher accuracy
+      (in the statutory hierarchy of standards), assuming that this standard of higher
+      accuracy has a negligible error for the purpose of this comparison
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R139-1:2022
+    publication_id: OIML R139-1:2022
+    tc_sc: ''
+    year: 2022
+    clause: 3.1.5
+    link:
+    g18_entry: '03231'
+    definition: extreme value of measurement error, with respect to a known reference
+      quantity value, permitted by specifications or regulations for a given measurement,
+      measuring instrument, or measuring system [OIML V2-200:2012, 4.26] [OIML V1:2013,
+      0.05]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R117-1:2019
+    publication_id: OIML R117-1:2019
+    tc_sc: ''
+    year: 2019
+    clause: T.e.4.3
+    link:
+    g18_entry: '03232'
+    definition: extreme value for an error permitted by this Recommendation
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 85-1:2008
+    publication_id: OIML R085-1:2008
+    tc_sc: ''
+    year: 2008
+    clause: '3.29'
+    link: https://www.oiml.org/en/files/pdf_R/r085-1-e08.pdf
+    g18_entry: 02327-R085-1
+    definition: extreme permitted value by the present Recommendation for the error
+      of indication
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 24:1975
+    publication_id: OIML R024:1975
+    tc_sc: ''
+    year: 1975
+    clause: '2.1'
+    link: https://www.oiml.org/en/files/pdf_R/r024-e75.pdf
+    g18_entry: '00361'
+    definition: maximum error, positive or negative, allowed on Verification Officers’
       metre standard on initial or subsequent verification when compared at the reference
       temperature of 20 °C with the corresponding standard of length of higher accuracy
       (in the statutory hierarchy of standards), assuming that this standard of higher

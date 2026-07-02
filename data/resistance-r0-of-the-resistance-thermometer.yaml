@@ -1,0 +1,26 @@
+---
+data:
+  identifier: '03462'
+  term: Resistance R0 of the resistance thermometer
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R084:2003
+    publication_id: OIML R084:2003
+    tc_sc: ''
+    year: 2003
+    clause: '2.2'
+    link:
+    g18_entry: '03462'
+    definition: Resistance of the resistance thermometer at the temperature 0 °C.
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 4eaff793-fcc5-5c67-9940-33e994bd10c1
+schema_version: '3'
+related: []

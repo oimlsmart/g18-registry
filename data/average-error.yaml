@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '01109'
+  identifier: '02492'
   term: average error
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 87:2004
+  - edition: '2010'
+    publication: OIML R 87:2004
     publication_id: OIML R087:2004
     tc_sc: ''
     year: 2004
@@ -15,6 +20,22 @@ data:
     definition: sum of individual prepackage errors considering their arithmetic sign
       divided by the number of prepackages in the sample
     notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R087:2016
+    publication_id: OIML R087:2016
+    tc_sc: ''
+    year: 2016
+    clause: 2.1.2.1
+    link:
+    g18_entry: '02492'
+    definition: sum of individual prepackage errors considering their arithmetic signs
+      divided by the number of prepackages in the inspection lot or sample
+    notes:
+    - 'Note 1: The average error for all prepackages in a sample with sample size
+      n is designated by the symbol eave. Note 2: The average error for all prepackages
+      in an inspection lot with N prepackages is designated by the symbol Eave.'
     consistency: pending
     consistency_reason: ''
 status: current

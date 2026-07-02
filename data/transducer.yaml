@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '01602'
+  identifier: 02303-R085-1
   term: transducer
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 85-1:2008
+  - edition: '2010'
+    publication: OIML R 85-1:2008
     publication_id: OIML R085-1:2008
     tc_sc: ''
     year: 2008
@@ -17,7 +22,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 117-1:2007
+  - edition: '2010'
+    publication: OIML R 117-1:2007
     publication_id: OIML R117-1:2007
     tc_sc: ''
     year: 2007
@@ -31,6 +37,37 @@ data:
       the calculator.
     notes:
     - "(See also T.a.8)"
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 85-1:2008
+    publication_id: OIML R085-1:2008
+    tc_sc: ''
+    year: 2008
+    clause: '3.5'
+    link: https://www.oiml.org/en/files/pdf_R/r085-1-e08.pdf
+    g18_entry: 02303-R085-1
+    definition: device that provides an output quantity, having a determined relationship
+      to the input quantity
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 117-1:2007
+    publication_id: OIML R117-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.t.1
+    link: https://www.oiml.org/en/files/pdf_R/r117-1-e07.pdf
+    g18_entry: '03578'
+    definition: part of the measuring device that provides an output signal, representing
+      volume or mass, having a determined relationship to the input signal (See also
+      T.a.8)
+    notes:
+    - 'Note 1:  The transducer can either be incorporated with the meter sensor or
+      be external to the meter sensor. In the latter case, it can be approved either
+      with the sensor or with the calculator. Note 2:  A pulser id a specific type
+      of measuring transducer.'
     consistency: pending
     consistency_reason: ''
 status: current

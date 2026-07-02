@@ -7,8 +7,18 @@ data:
     source: urn:oiml:pub:v:1:2000
     id: '2.3'
     url: https://oimlsmart.github.io/vocab/viml-2000/concept/2.3
+    definition_text:
+    edition_label: VIML 2000
+    vocab: viml
+    role: prior
+    year: 2000
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML D 9:2004
+  - edition: '2010'
+    publication: OIML D 9:2004
     publication_id: OIML D009:2004
     tc_sc: ''
     year: 2004
@@ -29,7 +39,8 @@ data:
       ref:
         source: urn:oiml:pub:v:1:2000
         id: '2.3'
-  - publication: OIML D 27:2001
+  - edition: '2010'
+    publication: OIML D 27:2001
     publication_id: OIML D027:2001
     tc_sc: ''
     year: 2001
@@ -47,10 +58,108 @@ data:
     consistency_reason: ''
     related:
     - type: see
-      ref: &1
+      ref:
         source: urn:oiml:pub:v:1:2000
         id: '2.3'
-  - publication: OIML D 15:1986
+  - edition: '2010'
+    publication: OIML D 15:1986
+    publication_id: OIML D015:1986
+    tc_sc: ''
+    year: 1986
+    clause: '2.9'
+    link: https://www.oiml.org/en/files/pdf_D/d015-e86.pdf
+    g18_entry: '00266'
+    definition: procedures for control exercised in respect of the manufacture, installation
+      and repair of measuring instruments, or in respect of their use, to check that
+      they are used correctly and honestly. It extends also to control of correctness
+      of the quantities indicated on prepacked articles [VML 2.6].
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R060-1:2021
+    publication_id: OIML R060-1:2021
+    tc_sc: ''
+    year: 2021
+    clause: 3.1.5
+    link:
+    g18_entry: '03293'
+    definition: activity of legal metrological control to check the observance of
+      metrology laws and regulations
+    notes:
+    - "(For notes, refer to the VIML)"
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D001:2012
+    publication_id: OIML D001:2012
+    tc_sc: ''
+    year: 2012
+    clause: 3.1.11
+    link:
+    g18_entry: '02211'
+    definition: activity of legal metrological control to check the observance of
+      metrology laws and regulations [VIML 2.03]
+    notes:
+    - 'Note 1: Metrological supervision also includes checking the correctness of
+      quantities indicated on and contained in pre-packages and the correct use of
+      units of measurement. Note 2: For achieving these purposes, means and methods
+      such as market surveillance and quality management may be utilized.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D016:2011
+    publication_id: OIML D016:2011
+    tc_sc: ''
+    year: 2011
+    clause: '2.5'
+    link:
+    g18_entry: '02258-D016'
+    definition: control exercised in respect of the manufacture, import, installation,
+      use, maintenance and repair of measuring instruments, performed in order to
+      check that they are used correctly as regards the observance of metrology laws
+      and regulations [VIML 2.3]
+    notes:
+    - Note:Metrological supervision includes checking the correctness of the quantities
+      indicated on and contained in prepackages.
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D 9:2004
+    publication_id: OIML D009:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.5'
+    link: https://www.oiml.org/en/files/pdf_D/d009-e04.pdf
+    g18_entry: '00187'
+    definition: control exercised in respect of the manufacture, import, installation,
+      use, maintenance and repair of a measuring instrument and/or in respect of its
+      use, performed in order to check that it is used correctly as regards the observance
+      of metrology laws and regulations [VIML 2.3]
+    notes:
+    - 'Note: Metrological supervision includes checking the correctness of the quantities
+      indicated on and contained in prepackages.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D 27:2001
+    publication_id: OIML D027:2001
+    tc_sc: ''
+    year: 2001
+    clause: '2.16'
+    link: https://www.oiml.org/en/files/pdf_D/d027-e01.pdf
+    g18_entry: '00178'
+    definition: control exercised in respect of the manufacture, import, installation,
+      use, maintenance and repair of a measuring instrument and/or in respect of its
+      use, performed in order to check that it is used correctly as regards the observance
+      of metrology laws and regulations [VIML, 2.3]
+    notes:
+    - 'Note: Metrological supervision includes checking the correctness of the quantities
+      indicated on and contained in prepackages.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D 15:1986
     publication_id: OIML D015:1986
     tc_sc: ''
     year: 1986
@@ -69,4 +178,11 @@ id: 782df2d5-023c-5202-a9a1-12597ccc49ad
 schema_version: '3'
 related:
 - type: see
-  ref: *1
+  ref:
+    source: urn:oiml:pub:v:1:2000
+    id: '2.3'
+    definition_text:
+    edition_label: VIML 2000
+    vocab: viml
+    role: prior
+    year: 2000

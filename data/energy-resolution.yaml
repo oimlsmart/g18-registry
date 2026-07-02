@@ -1,0 +1,30 @@
+---
+data:
+  identifier: '03040'
+  term: energy resolution
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R 123:1997
+    publication_id: OIML R123:1997
+    tc_sc: ''
+    year: 1997
+    clause: '3.6'
+    link: https://www.oiml.org/en/files/pdf_R/r123-e97.pdf
+    g18_entry: '03040'
+    definition: A parameter used as a measure of the ability of a detector to distinguish
+      between two adjacent energy peaks arising from elements in a sample.
+    notes:
+    - 'Note: For this Recommendation, it is expressed as the full width at half maximum
+      height of the manganese K-alpha line (5.9 keV) in units of energy or in percent
+      as related to the energy of the peak.'
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 0ca07e4e-185a-5e7c-97ca-262d8bc143f2
+schema_version: '3'
+related: []

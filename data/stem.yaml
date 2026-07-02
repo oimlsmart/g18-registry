@@ -4,8 +4,26 @@ data:
   term: stem
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 133:2002
+  - edition: '2010'
+    publication: OIML R 133:2002
+    publication_id: OIML R133:2002
+    tc_sc: ''
+    year: 2002
+    clause: '3.1'
+    link: https://www.oiml.org/en/files/pdf_R/r133-e02.pdf
+    g18_entry: '01774'
+    definition: tube containing the capillary through which the thermometric liquid
+      moves with a change of temperature
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 133:2002
     publication_id: OIML R133:2002
     tc_sc: ''
     year: 2002

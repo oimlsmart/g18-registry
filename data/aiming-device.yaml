@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '03737'
+  term: aiming device
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R091-1:2025
+    publication_id: OIML R091-1:2025
+    tc_sc: ''
+    year: 2025
+    clause: 3.4.12
+    link:
+    g18_entry: '03737'
+    definition: Device to orient the speed meter such that the azimuth and/or elevation
+      are correct
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: e0d71199-a492-5396-9630-3429b8d25b39
+schema_version: '3'
+related: []

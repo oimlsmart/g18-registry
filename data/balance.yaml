@@ -4,8 +4,13 @@ data:
   term: balance
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 111-1:2004
+  - edition: '2010'
+    publication: OIML R 111-1:2004
     publication_id: OIML R111-1:2004
     tc_sc: ''
     year: 2004
@@ -21,6 +26,26 @@ data:
       balance is calibrated with reference weights of well known mass, the balance
       can be used to indicate the conventional mass, mc, of a body under conventionally
       chosen conditions'
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 111-1:2004
+    publication_id: OIML R111-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.2'
+    link: https://www.oiml.org/en/files/pdf_R/r111-1-e04.pdf
+    g18_entry: '01442'
+    definition: 'instrument indicating apparent mass that is sensitive to the following
+      forces: gravity air buoyancy equal to the weight of the displaced air vertical
+      component of the magnetic interaction between the weight and the balance and/or
+      the                                           environment H and M are vectors;
+      z is the vertical Cartesian coordinate. If magnetic effects are negligible,
+      i.e. the permanent magnetization (M) of the weight and the magnetic susceptibility
+      () are sufficiently small, and the balance is calibrated with reference weights
+      of well known mass, the balance can be used to indicate the conventional mass,
+      mc, of a body under conventionally chosen conditions'
     notes: []
     consistency: pending
     consistency_reason: ''

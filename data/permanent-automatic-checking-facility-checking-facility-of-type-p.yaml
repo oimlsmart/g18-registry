@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '03364'
+  term: permanent automatic checking facility checking facility of type P
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R139-1:2022
+    publication_id: OIML R139-1:2022
+    tc_sc: ''
+    year: 2022
+    clause: 3.2.15.1
+    link:
+    g18_entry: '03364'
+    definition: automatic checking facility that operates at each measurement cycle
+      [OIML D 11:2013, 3.19.1.1]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 146a59fb-bcbf-5fef-9b03-02b6f87ad16d
+schema_version: '3'
+related: []

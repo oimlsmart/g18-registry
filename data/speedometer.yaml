@@ -4,8 +4,26 @@ data:
   term: speedometer
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 55:1981
+  - edition: '2010'
+    publication: OIML R 55:1981
+    publication_id: OIML R055:1981
+    tc_sc: ''
+    year: 1981
+    clause: '1.1'
+    link: https://www.oiml.org/en/files/pdf_R/r055-e81.pdf
+    g18_entry: '00690'
+    definition: instrument designed to indicate to the driver, the instantaneous speed
+      of his vehicle
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 55:1981
     publication_id: OIML R055:1981
     tc_sc: ''
     year: 1981

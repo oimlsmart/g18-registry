@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '00425'
+  identifier: '01043'
   term: primary indication
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 139:2007
+  - edition: '2010'
+    publication: OIML R 139:2007
     publication_id: OIML R139:2007
     tc_sc: ''
     year: 2007
@@ -18,7 +23,8 @@ data:
     - monly referred to as secondary ications.
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 140:2007
+  - edition: '2010'
+    publication: OIML R 140:2007
     publication_id: OIML R140:2007
     tc_sc: ''
     year: 2007
@@ -31,7 +37,8 @@ data:
     - monly referred to as secondary ications.
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 49-1:2006
+  - edition: '2010'
+    publication: OIML R 49-1:2006
     publication_id: OIML R049-1:2006
     tc_sc: ''
     year: 2006
@@ -43,7 +50,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 81:1998
+  - edition: '2010'
+    publication: OIML R 81:1998
     publication_id: OIML R081:1998
     tc_sc: ''
     year: 1998
@@ -54,6 +62,76 @@ data:
       Indications other than primary indications are legal metrology control c i
     notes:
     - ommonly referred to as secondary ndications.
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R049-1:2024
+    publication_id: OIML R049-1:2024
+    tc_sc: ''
+    year: 2024
+    clause: 3.2.3
+    link:
+    g18_entry: '02395'
+    definition: indication which is subject to legal metrological control
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R139-1:2022
+    publication_id: OIML R139-1:2022
+    tc_sc: ''
+    year: 2022
+    clause: 3.1.3
+    link:
+    g18_entry: '03381'
+    definition: indication (displayed, printed or memorized) which is subject to legal
+      metrology control
+    notes:
+    - 'Note:  Indications other than primary indications are commonly referred to
+      as secondary indications.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R106-1:2011
+    publication_id: OIML R106-1:2011
+    tc_sc: ''
+    year: 2011
+    clause: 0.4.1.1
+    link:
+    g18_entry: '02601'
+    definition: indication, signal or symbol that is subject to the requirements of
+      this Recommendation
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 140:2007
+    publication_id: OIML R140:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.2.1
+    link: https://www.oiml.org/en/files/pdf_R/r140-e07.pdf
+    g18_entry: '02067'
+    definition: indication (displayed, printed or memorized) which is subject to legal
+      metrological control
+    notes:
+    - 'Note:  Indications other than primary indications are commonly referred to
+      as secondary indications.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 81:1998
+    publication_id: OIML R081:1998
+    tc_sc: ''
+    year: 1998
+    clause: '3.34'
+    link: https://www.oiml.org/en/files/pdf_R/r081-e98.pdf
+    g18_entry: '01043'
+    definition: an indication (displayed, printed or memorized) that is subject to
+      legal metrology control
+    notes:
+    - 'Note:  Indications other than primary indications are commonly referred to
+      as secondary indications.'
     consistency: pending
     consistency_reason: ''
 status: current

@@ -1,0 +1,34 @@
+---
+data:
+  identifier: '03723'
+  term: measurement error (error of measurement, error)
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R142-1:2025
+    publication_id: OIML R142-1:2025
+    tc_sc: ''
+    year: 2025
+    clause: '3.11'
+    link:
+    g18_entry: '03723'
+    definition: measured quantity value minus reference quantity value
+    notes:
+    - 'Note 1: The concept of ‘measurement error’ can be used both when there is single
+      reference quantity value to refer to, which occurs if a calibration is made
+      by means of measurement standard with a measured quantity value having a negligible
+      measurement uncertainty or if a conventinal quantity value is given, in which
+      case the measurement error is known, and if a measurand is supposed to be represented
+      by a unique true quantity calue or set of true quantity calues of negligibly
+      range, in which case the measurement error is not known. Note 2: Measurement
+      error should not be confused with production error or mistake.'
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 90378fd6-efa7-54ef-b0e0-2e637f147031
+schema_version: '3'
+related: []

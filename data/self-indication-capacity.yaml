@@ -1,11 +1,15 @@
 ---
 data:
   identifier: '00942'
-  term: self-indication capacity
+  term: self-indication  capacity
   kind: undefined
   official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 76-1:2006
+  - edition: 202X
+    publication: OIML R 76-1:2006
     publication_id: OIML R076-1:2006
     tc_sc: ''
     year: 2006
@@ -18,6 +22,6 @@ data:
     consistency: pending
     consistency_reason: ''
 status: current
-id: 0ca40126-b496-5ca8-ab61-aee180e5a898
+id: 99eeee95-7258-5ad0-8e35-7320b2fa7e98
 schema_version: '3'
 related: []

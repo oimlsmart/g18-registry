@@ -1,0 +1,29 @@
+---
+data:
+  identifier: '03431'
+  term: reference (operationg) conditions
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R060-1:2021
+    publication_id: OIML R060-1:2021
+    tc_sc: ''
+    year: 2021
+    clause: 3.8.5
+    link:
+    g18_entry: '03431'
+    definition: operating condition prescribed for evaluating the performance of a
+      measuring instrument or measuring system or for the comparison of measurement
+      results [VIM 4.11]
+    notes:
+    - "(For noters, refer to the VIM)."
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 5ec03915-5053-513a-bc97-43155a0dc50f
+schema_version: '3'
+related: []

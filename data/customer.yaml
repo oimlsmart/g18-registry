@@ -1,11 +1,16 @@
 ---
 data:
   identifier: '00115'
-  term: Customer
+  term: customer
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML B 10-1:2004
+  - edition: '2010'
+    publication: OIML B 10-1:2004
     publication_id: OIML B010-1:2004
     tc_sc: TC 3/SC 2
     year: 2004
@@ -16,6 +21,21 @@ data:
       application for type evaluation of a measuring instrument to an Issuing Authority
       participating in a DoMC in order to receive Test Report and OIML Certificate
       for that instrument type
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R010-1:2004
+    publication_id: OIML R010-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: '3.24'
+    link:
+    g18_entry: '00115'
+    definition: manufacturer and/or an authorized representative who submits an application
+      for type evaluation of a measuring instrument to an Issuing Authority participating
+      in a DoMC in order to receive a Test Report and OIML Certificate for that instrument
+      type
     notes: []
     consistency: pending
     consistency_reason: ''

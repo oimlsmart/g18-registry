@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '02221'
+  identifier: '02464'
   term: universal computer
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML D 31:2008
+  - edition: '2010'
+    publication: OIML D 31:2008
     publication_id: OIML D031:2008
     tc_sc: ''
     year: 2008
@@ -17,6 +22,36 @@ data:
       founded on an operating system that permits loading and execution of software
       for specific purposes
     notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R059-1:2016
+    publication_id: OIML R059-1:2016
+    tc_sc: ''
+    year: 2016
+    clause: 2.2.7
+    link:
+    g18_entry: '02464'
+    definition: computer that is not constructed for a specific purpose but that can
+      be adapted to the metrological task by software. In general this software is
+      founded on an operating system that permits loading and execution of software
+      for specific purposes [OIML D31, 3.1.54]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R146-1:2016
+    publication_id: OIML R146-1:2016
+    tc_sc: ''
+    year: 2016
+    clause: 2.2.17
+    link:
+    g18_entry: '02815'
+    definition: computer that is not constructed for a specific purpose but that can
+      be adapted to the metrological task by software [OIML D 31:2008, 3.1.54]
+    notes:
+    - 'Note: In general this software is founded on an operating system that permits
+      loading and execution of software for specific purposes.'
     consistency: pending
     consistency_reason: ''
 status: current

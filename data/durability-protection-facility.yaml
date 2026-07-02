@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '00248'
+  identifier: '01874'
   term: durability protection facility
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML D 11:2004
+  - edition: '2010'
+    publication: OIML D 11:2004
     publication_id: OIML D011:2004
     tc_sc: ''
     year: 2004
@@ -17,7 +22,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 135:2004
+  - edition: '2010'
+    publication: OIML R 135:2004
     publication_id: OIML R135:2004
     tc_sc: ''
     year: 2004
@@ -28,6 +34,34 @@ data:
       the detection of and action upon significant durability errors
     notes:
     - "[OIML D 11, 3.19]"
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D011:2013
+    publication_id: OIML D011:2013
+    tc_sc: ''
+    year: 2013
+    clause: '3.20'
+    link:
+    g18_entry: 02240-D011
+    definition: facility incorporated in a measuring instrument that enables significant
+      durability errors to be detected and acted upon
+    notes:
+    - Note:“Act upon” refers to any adequate response by the measuring instrument
+      (luminous signal, acoustic signal, prevention of the measurement process, etc.).
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 135:2004
+    publication_id: OIML R135:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.35'
+    link: https://www.oiml.org/en/files/pdf_R/r135-e04.pdf
+    g18_entry: '01874'
+    definition: facility that is incorporated in a measuring instrument which enables
+      the detection of and action upon significant durability errors
+    notes: []
     consistency: pending
     consistency_reason: ''
 status: current

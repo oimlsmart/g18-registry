@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '00483'
+  identifier: '02951'
   term: control method
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 50-1:1997
+  - edition: '2010'
+    publication: OIML R 50-1:1997
     publication_id: OIML R050-1:1997
     tc_sc: ''
     year: 1997
@@ -16,6 +21,36 @@ data:
       load during material tests. This will generally involve the use of a weighing
       instrument, referred to as the control instrument
     notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R150-1:2020
+    publication_id: OIML R150-1:2020
+    tc_sc: ''
+    year: 2020
+    clause: 2.1.6
+    link:
+    g18_entry: '02952'
+    definition: method used to determine the mass of the product used as the test
+      load during product tests
+    notes:
+    - 'Note: This will generally involve the use of a weighing instrument, referred
+      to as the control instrument (see 2.1.10).'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R050-1:2014
+    publication_id: OIML R050-1:2014
+    tc_sc: ''
+    year: 2014
+    clause: 2.1.6
+    link:
+    g18_entry: '02951'
+    definition: method used to determine the mass of the product used as the test
+      load during product tests
+    notes:
+    - 'Note: This will generally involve the use of a weighing instrument, referred
+      to as the control instrument (see 2.1.10).'
     consistency: pending
     consistency_reason: ''
 status: current

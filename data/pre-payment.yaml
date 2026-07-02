@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '01584'
+  identifier: '03375'
   term: pre-payment
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 117-1:2007
+  - edition: '2010'
+    publication: OIML R 117-1:2007
     publication_id: OIML R117-1:2007
     tc_sc: ''
     year: 2007
@@ -17,7 +22,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 139:2007
+  - edition: '2010'
+    publication: OIML R 139:2007
     publication_id: OIML R139:2007
     tc_sc: ''
     year: 2007
@@ -26,6 +32,32 @@ data:
     g18_entry: '02006'
     definition: type of payment in attended or unattended service mode requiring payment
       for a quantity of gas before the delivery commences
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R039-1:2022
+    publication_id: OIML R039-1:2022
+    tc_sc: ''
+    year: 2022
+    clause: 3.3.5
+    link:
+    g18_entry: '03375'
+    definition: type of payment in attended or unattended service mode requiring payment
+      for a quantity of gas before the delivery commences
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R117-1:2019
+    publication_id: OIML R117-1:2019
+    tc_sc: ''
+    year: 2019
+    clause: T.p.1.1
+    link:
+    g18_entry: '03376'
+    definition: type of payment requiring payment for a certain quantity of liquid
+      before the delivery commences
     notes: []
     consistency: pending
     consistency_reason: ''

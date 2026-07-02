@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '02295-R046-1'
+  term: meter constant
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R046-1:2012
+    publication_id: OIML R046-1:2012
+    tc_sc: ''
+    year: 2012
+    clause: 2.1.16
+    link:
+    g18_entry: '02295-R046-1'
+    definition: value expressing the relation between the energy registered by the
+      meter and the corresponding value of the test output
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: b839b921-d9ba-57d0-989a-bc76d37a73dd
+schema_version: '3'
+related: []

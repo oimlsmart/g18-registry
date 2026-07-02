@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '03225'
+  term: maximum flowrate (Qmax)
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R050-1:2014
+    publication_id: OIML R050-1:2014
+    tc_sc: ''
+    year: 2014
+    clause: 2.3.6.1
+    link:
+    g18_entry: '03225'
+    definition: flowrate obtained with the maximum capacity of the weighing module
+      and the maximum speed of the belt
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 4195a0d0-f5fb-5476-947a-bd3efd557ee6
+schema_version: '3'
+related: []

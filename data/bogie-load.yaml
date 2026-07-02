@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '02582'
+  term: bogie load
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R106-1:2011
+    publication_id: OIML R106-1:2011
+    tc_sc: ''
+    year: 2011
+    clause: 0.3.1.11
+    link:
+    g18_entry: '02582'
+    definition: sum of all axle loads in a defined bogie; a fraction of the wagon
+      mass imposed on the static bogie from the effect of gravity at the time of weighing
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 487e310b-7b2a-57ca-a623-cd979adce844
+schema_version: '3'
+related: []

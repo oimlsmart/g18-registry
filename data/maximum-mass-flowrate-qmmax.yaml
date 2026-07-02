@@ -1,0 +1,26 @@
+---
+data:
+  identifier: '03402'
+  term: maximum mass flowrate, Qmmax
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R150-1:2020
+    publication_id: OIML R150-1:2020
+    tc_sc: ''
+    year: 2020
+    clause: 2.3.5.1
+    link:
+    g18_entry: '03402'
+    definition: mass flowrate obtained at the maximum capacity of the force receptor
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 59b16bcf-de96-5c65-a3f1-feb30c756e16
+schema_version: '3'
+related: []

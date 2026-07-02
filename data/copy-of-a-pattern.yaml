@@ -4,8 +4,13 @@ data:
   term: copy of a pattern
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML D 19:1988
+  - edition: '2010'
+    publication: OIML D 19:1988
     publication_id: OIML D019:1988
     tc_sc: ''
     year: 1988
@@ -26,7 +31,8 @@ data:
       for use and submitted for initial verification.
     consistency: pending
     consistency_reason: ''
-  - publication: OIML D 20:1988
+  - edition: '2010'
+    publication: OIML D 20:1988
     publication_id: OIML D020:1988
     tc_sc: ''
     year: 1988
@@ -45,6 +51,50 @@ data:
       but, generally, also relates to th instruments of the class produced by the
       manufacturer ; it usually conveys that these may be sold as legal for use and
       submitted for initial verification
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D 19:1988
+    publication_id: OIML D019:1988
+    tc_sc: ''
+    year: 1988
+    clause: 1.1.3
+    link: https://www.oiml.org/en/files/pdf_D/d019-e88.pdf
+    g18_entry: '00127'
+    definition: an individual instrument which conforms, within specified limits,
+      to a given pattern in all respects
+    notes:
+    - 'Note: The word « pattern » has been commonly used to refer to the definitive
+      model of a measuring instrument as well as to the class of instruments that
+      conform to it. The instruments produced by the manufacturer to replicate the
+      pattern constitute a different class. The question of whether an instrument
+      of this class conforms to the pattern is normally the subject of initial verification.
+      Pattern approval not only implies the recognition that the pattern conforms
+      to requirements but, generally, also relates to the  instruments of the class
+      produced by the manufacturer; it usually conveys that these may be sold as legal
+      for use and submitted for initial verification.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D 20:1988
+    publication_id: OIML D020:1988
+    tc_sc: ''
+    year: 1988
+    clause: 1.2.1
+    link: https://www.oiml.org/en/files/pdf_D/d020-e88.pdf
+    g18_entry: '00135'
+    definition: an individual instrument which conforms, within specified limits,
+      to a given pattern in all respects.
+    notes:
+    - 'Note: The word « pattern » has been commonly used to refer to the definitive
+      model of a   measuring instrument as well as to the class of instruments that
+      conform to it. The instruments produced by the manufacturer to replicate the
+      pattern constitute a different class. The question of whether an instrument
+      of the class conforms to the pattern is normally the subject of initial verification.
+      Pattern approval not only implies the recognition that the pattern conforms
+      to requirements but, generally, also relates to the instruments of the class
+      produced by the manufacturer; it usually conveys that these may be sold as legal
+      for use and submitted for initial verification'
     consistency: pending
     consistency_reason: ''
 status: current

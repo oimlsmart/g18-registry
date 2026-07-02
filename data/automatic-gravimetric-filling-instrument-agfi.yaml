@@ -1,0 +1,30 @@
+---
+data:
+  identifier: '02887'
+  term: automatic gravimetric filling instrument (AGFI)
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R061-1:2017
+    publication_id: OIML R061-1:2017
+    tc_sc: ''
+    year: 2017
+    clause: 3.2.2
+    link:
+    g18_entry: '02887'
+    definition: automatic weighing instrument intended to fill containers with a predetermined
+      and virtually constant mass of product from bulk (including liquid material)
+      by automatic weighing, and which comprises essentially automatic feeding device(s)
+      associated with weighing module(s) and the appropriate control and discharge
+      devices. Types of AGFI include those described in 3.2.2.1–3.2.2.2
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 862b5987-4b7f-574d-807c-77ed068c58e1
+schema_version: '3'
+related: []

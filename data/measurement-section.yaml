@@ -1,0 +1,32 @@
+---
+data:
+  identifier: '03773'
+  term: measurement section
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R091-1:2025
+    publication_id: OIML R091-1:2025
+    tc_sc: ''
+    year: 2025
+    clause: 3.1.13
+    link:
+    g18_entry: '03773'
+    definition: a straight or curved section of the road, where the measured vehicle
+      was driving during the measurement
+    notes:
+    - 'Note 1: Its starting and end points are defined such that the measured speed
+      value refers to the average speed on the measurement section. Note 2: In a manual
+      measurement, the measured vehicle drives on the measurement section after the
+      measurement is triggered. In an automatic measurement, the measured vehicle
+      exits the measurement section at the trigger line.'
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 0c583d85-87db-5aec-bc39-c84ec8b3ab65
+schema_version: '3'
+related: []

@@ -4,8 +4,13 @@ data:
   term: prismatic power
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 93:1999
+  - edition: '2010'
+    publication: OIML R 93:1999
     publication_id: OIML R093:1999
     tc_sc: ''
     year: 1999
@@ -16,6 +21,20 @@ data:
     notes:
     - The unit for expressing prismatic power is the centimetre per metre (cm/m).
       The name for this unit is the "prism dioptre", for which th symbol is D.
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 93:1999
+    publication_id: OIML R093:1999
+    tc_sc: ''
+    year: 1999
+    clause: '3.8'
+    link: https://www.oiml.org/en/files/pdf_R/r093-e99.pdf
+    g18_entry: '01133'
+    definition: deviation of a ray of light through a specific point on a lens
+    notes:
+    - 'Note: The unit for expressing prismatic power is the centimetre per metre (cm/m).
+      The name for this unit is the “prism dioptre”, for which the symbol is D.'
     consistency: pending
     consistency_reason: ''
 status: current

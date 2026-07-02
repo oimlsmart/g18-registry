@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '02848'
+  term: aircraft fueling tanker measuring system
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R117-1:2019
+    publication_id: OIML R117-1:2019
+    tc_sc: ''
+    year: 2019
+    clause: T.a.5
+    link:
+    g18_entry: '02848'
+    definition: mobile measuring system intended for refueling aircraft, supplied
+      from a tank mounted on the vehicle
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: b1a48faa-2032-58e7-a2bc-62dddaabcd90
+schema_version: '3'
+related: []

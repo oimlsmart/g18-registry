@@ -4,8 +4,31 @@ data:
   term: coefficient w of the vehicle
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 55:1981
+  - edition: '2010'
+    publication: OIML R 55:1981
+    publication_id: OIML R055:1981
+    tc_sc: ''
+    year: 1981
+    clause: '1.5'
+    link: https://www.oiml.org/en/files/pdf_R/r055-e81.pdf
+    g18_entry: '00694'
+    definition: characteristic quantity showing the type (revolutions of the driving
+      shaft or impulses) and number of signals emitted by the device provided on the
+      vehicle, for connection to the odometer or chronotachograph, when the vehicle
+      covers a distance of 1 km. The coefficient w must be expressed in the same units
+      as constant k. The coefficient w varies according to vehicle load, and the dimensions,
+      pressure and degree of wear of the tyres. It must be determined under standard
+      test conditions (point 4.2.4.).
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 55:1981
     publication_id: OIML R055:1981
     tc_sc: ''
     year: 1981

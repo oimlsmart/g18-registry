@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '01285'
+  identifier: '03471'
   term: scale interval for stationary load
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 134:2003
+  - edition: '2010'
+    publication: OIML R 134:2003
     publication_id: OIML R134:2003
     tc_sc: ''
     year: 2003
@@ -18,7 +23,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 106-1:1997
+  - edition: '2010'
+    publication: OIML R 106-1:1997
     publication_id: OIML R106-1:1997
     tc_sc: ''
     year: 1997
@@ -26,6 +32,20 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r106-1-e97.pdf
     g18_entry: '01285'
     definition: the scale interval used for static tests
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R134:2006
+    publication_id: OIML R134:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.3.3.1
+    link:
+    g18_entry: '03471'
+    definition: value, expressed in units of mass, for stationary weighing vehicles
+      or test weights that is the difference between two consecutive indicated or
+      printed values
     notes: []
     consistency: pending
     consistency_reason: ''

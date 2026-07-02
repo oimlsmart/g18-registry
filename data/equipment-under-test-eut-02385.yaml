@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '02385'
+  term: equipment under test EUT
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R049-1:2013
+    publication_id: OIML R049-1:2013
+    tc_sc: ''
+    year: 2013
+    clause: 3.1.17
+    link:
+    g18_entry: '02385'
+    definition: complete meter (3.1.14), sub-assembly or ancillary device (3.1.8)
+      that is subjected to a test
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: ebf5ee5e-14dc-5ccc-bc74-c65cfa90337a
+schema_version: '3'
+related: []

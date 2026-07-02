@@ -1,0 +1,30 @@
+---
+data:
+  identifier: '03284'
+  term: measuring system for bunker fuel
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R117-1:2019
+    publication_id: OIML R117-1:2019
+    tc_sc: ''
+    year: 2019
+    clause: T.b.3
+    link:
+    g18_entry: '03284'
+    definition: measuring system intended for the measurement of bunker fuel
+    notes:
+    - 'Note 1: These measuring systems are located either on a special bunkering vessel,
+      such as a bunker barge/tanker, or on the receiving vessel. Note 2: In the process
+      of bunkering, there is often a high possibility of entrined air entering the
+      liquid, caused by emptying tanks and other issues.'
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: be9c226c-2410-5e49-83a9-72dc49bf254d
+schema_version: '3'
+related: []

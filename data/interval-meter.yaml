@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '02281-1'
+  term: interval meter
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication:
+    publication_id:
+    tc_sc: ''
+    year:
+    clause:
+    link:
+    g18_entry: '02281-1'
+    definition: electricity meter which displays and stores the result as measured
+      in predetermined time intervals
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 05cf4004-e483-5d6c-aa5c-0a0a9bcc9c9b
+schema_version: '3'
+related: []

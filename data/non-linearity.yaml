@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '00737'
+  identifier: '03340'
   term: non-linearity
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 60:2000
+  - edition: '2010'
+    publication: OIML R 60:2000
     publication_id: OIML R060:2000
     tc_sc: ''
     year: 2000
@@ -14,6 +19,19 @@ data:
     g18_entry: '00737'
     definition: deviation of the increasing load cell signal output curve from a straight
       line
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R060-1:2021
+    publication_id: OIML R060-1:2021
+    tc_sc: ''
+    year: 2021
+    clause: 2.4.10
+    link:
+    g18_entry: '03340'
+    definition: deviation from the average of the values of load cell signals from
+      a straight line through zero force applied and maximum force applied
     notes: []
     consistency: pending
     consistency_reason: ''

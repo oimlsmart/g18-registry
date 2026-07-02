@@ -1,0 +1,26 @@
+---
+data:
+  identifier: 02332-R046-1
+  term: primary register
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R046-1:2012
+    publication_id: OIML R046-1:2012
+    tc_sc: ''
+    year: 2012
+    clause: 2.2.33
+    link:
+    g18_entry: 02332-R046-1
+    definition: register that is subject to the requirements of this Recommendation
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 47ca1013-7a4c-59c6-a993-1501ac978cb1
+schema_version: '3'
+related: []

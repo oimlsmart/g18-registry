@@ -1,0 +1,29 @@
+---
+data:
+  identifier: '02407'
+  term: flow rate Q
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R049-1:2024
+    publication_id: OIML R049-1:2024
+    tc_sc: ''
+    year: 2024
+    clause: 3.3.1
+    link:
+    g18_entry: '02407'
+    definition: Q = dV/dt where V is actual volume (3.2.1) and t is time taken for
+      this volume to pass through the meter
+    notes:
+    - Note:ISO 4006:1991 [3] 4.1.2 prefers the use of the symbol qV for this quantity,
+      but Q is used in this Recommendation as it is well established in the industry.
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: a6fb349c-e213-5bff-888d-4eaf9d7663af
+schema_version: '3'
+related: []

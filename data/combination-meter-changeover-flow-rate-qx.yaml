@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '02412'
+  term: combination meter changeover flow rate Qx
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R049-1:2024
+    publication_id: OIML R049-1:2024
+    tc_sc: ''
+    year: 2024
+    clause: 3.3.6
+    link:
+    g18_entry: '02412'
+    definition: flow rate (3.3.1) at which the flow in the larger meter stops with
+      decreasing flow rate (Qx1) or starts with increasing flow rate (Qx2)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 196c2514-9366-502a-acf8-8169ac9a94b2
+schema_version: '3'
+related: []

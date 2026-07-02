@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '02913'
+  term: bunker fuel
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R117-1:2019
+    publication_id: OIML R117-1:2019
+    tc_sc: ''
+    year: 2019
+    clause: T.b.2
+    link:
+    g18_entry: '02913'
+    definition: Fuel with a dynamic viscosity of over 20 mPa·s atmetering conditions,
+      used for the propulsion of vessels
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 0e0dc6c8-dd71-51f9-8556-468077dbccec
+schema_version: '3'
+related: []

@@ -1,0 +1,29 @@
+---
+data:
+  identifier: '03311'
+  term: minimum measured quantity of a measuring system minimum delivery
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R139-1:2022
+    publication_id: OIML R139-1:2022
+    tc_sc: ''
+    year: 2022
+    clause: 3.1.16
+    link:
+    g18_entry: '03311'
+    definition: minimum totalized mass in one batch of gas required to fulfill the
+      metrological criteria of the specific measuring system
+    notes:
+    - 'Note: Measuring systems should not be used for measuring quantities less than
+      the MMQ.'
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 7b838682-d1a0-5cb7-a2b4-de8097f6648d
+schema_version: '3'
+related: []

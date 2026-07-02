@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '02308-R046-1'
+  term: nominal frequency (fnom)
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R046-1:2012
+    publication_id: OIML R046-1:2012
+    tc_sc: ''
+    year: 2012
+    clause: 2.2.9
+    link:
+    g18_entry: '02308-R046-1'
+    definition: frequency of the voltage (and current) specified by the manufacturer
+      for normal operation of the meter
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 6ca8bc24-b643-5613-9bc1-16528c06ba38
+schema_version: '3'
+related: []

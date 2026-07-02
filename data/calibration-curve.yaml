@@ -4,8 +4,13 @@ data:
   term: calibration curve
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 131:2001
+  - edition: '2010'
+    publication: OIML R 131:2001
     publication_id: OIML R131:2001
     tc_sc: ''
     year: 2001
@@ -17,7 +22,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 132:2001
+  - edition: '2010'
+    publication: OIML R 132:2001
     publication_id: OIML R132:2001
     tc_sc: ''
     year: 2001
@@ -29,7 +35,47 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 127:1999
+  - edition: '2010'
+    publication: OIML R 127:1999
+    publication_id: OIML R127:1999
+    tc_sc: ''
+    year: 1999
+    clause: '4.10'
+    link: https://www.oiml.org/en/files/pdf_R/r127-e99.pdf
+    g18_entry: '01684'
+    definition: graphical representation of the relationship between dosimeter response
+      and absorbed dose for a given dosimetry system
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 131:2001
+    publication_id: OIML R131:2001
+    tc_sc: ''
+    year: 2001
+    clause: '3.9'
+    link: https://www.oiml.org/en/files/pdf_R/r131-e01.pdf
+    g18_entry: '01750'
+    definition: graphical representation of the relationship between dosimeter response
+      and absorbed dose for a given dosimetry system
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 132:2001
+    publication_id: OIML R132:2001
+    tc_sc: ''
+    year: 2001
+    clause: '3.9'
+    link: https://www.oiml.org/en/files/pdf_R/r132-e01.pdf
+    g18_entry: '01766'
+    definition: graphical representation of the relationship between dosimeter response
+      and absorbed dose for a given dosimetry system
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 127:1999
     publication_id: OIML R127:1999
     tc_sc: ''
     year: 1999

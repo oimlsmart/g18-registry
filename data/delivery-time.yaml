@@ -4,8 +4,13 @@ data:
   term: delivery time
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 40:1981
+  - edition: '2010'
+    publication: OIML R 40:1981
     publication_id: OIML R040:1981
     tc_sc: ''
     year: 1981
@@ -18,7 +23,36 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 41:1981
+  - edition: '2010'
+    publication: OIML R 41:1981
+    publication_id: OIML R041:1981
+    tc_sc: ''
+    year: 1981
+    clause: '2.3'
+    link: https://www.oiml.org/en/files/pdf_R/r041-e81.pdf
+    g18_entry: '00397'
+    definition: is the time required for the free descent of the water meniscus, from
+      the zero mark to the lowest numbered scale mark, with the stopcock fully open
+      and with no restriction of flow
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 40:1981
+    publication_id: OIML R040:1981
+    tc_sc: ''
+    year: 1981
+    clause: '2.3'
+    link: https://www.oiml.org/en/files/pdf_R/r040-e81.pdf
+    g18_entry: '00394'
+    definition: is the time required for the free descent of the water meniscus, from
+      the highest scale mark to the point at which the meniscus appears to stop at
+      the tip
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 41:1981
     publication_id: OIML R041:1981
     tc_sc: ''
     year: 1981

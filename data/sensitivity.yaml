@@ -4,8 +4,13 @@ data:
   term: sensitivity
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 51-1:2006
+  - edition: '2010'
+    publication: OIML R 51-1:2006
     publication_id: OIML R051-1:2006
     tc_sc: ''
     year: 2006
@@ -18,7 +23,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 76-1:2006
+  - edition: '2010'
+    publication: OIML R 76-1:2006
     publication_id: OIML R076-1:2006
     tc_sc: ''
     year: 2006
@@ -31,7 +37,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 82:2006
+  - edition: '2010'
+    publication: OIML R 82:2006
     publication_id: OIML R082:2006
     tc_sc: ''
     year: 2006
@@ -52,7 +59,8 @@ data:
       preci measurements of relative peak areas.
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 60:2000
+  - edition: '2010'
+    publication: OIML R 60:2000
     publication_id: OIML R060:2000
     tc_sc: ''
     year: 2000
@@ -64,7 +72,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 113:1994
+  - edition: '2010'
+    publication: OIML R 113:1994
     publication_id: OIML R113:1994
     tc_sc: ''
     year: 1994
@@ -81,11 +90,130 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 53:1982
+  - edition: '2010'
+    publication: OIML R 53:1982
     publication_id: OIML R053:1982
     tc_sc: ''
     year: 1982
     clause: T
+    link: https://www.oiml.org/en/files/pdf_R/r053-e82.pdf
+    g18_entry: '00685'
+    definition: quotient of the increase in value of displacement of the reference
+      point and the corresponding increase in pressure
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R126-1:2021
+    publication_id: OIML R126-1:2021
+    tc_sc: ''
+    year: 2021
+    clause: 3.1.25
+    link:
+    g18_entry: '03488'
+    definition: quotient of change in an indication of measuring system and the corresponding
+      change in a value of quantity being measured (OIML V 2-200, 4.12)
+    notes:
+    - 'Note 1: Sensitivity of measuring system can depend on the value of the quantity
+      being measured. Note 2: The change considered in a value of a quantity being
+      measured must be large compared with the resolution. Note 3: In the scope of
+      this Recommendation, sensitivity relates to the added substance which is not
+      identical with the measurand.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 51-1:2006
+    publication_id: OIML R051-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.3.5
+    link: https://www.oiml.org/en/files/pdf_R/r051-1-e06.pdf
+    g18_entry: '00647'
+    definition: 'For a given value of the measured mass, the quotient of the change
+      of the observed variable, l, and the corresponding change of the measured mass,
+      M: k = l / M'
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 76-1:2006
+    publication_id: OIML R076-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.4.1
+    link: https://www.oiml.org/en/files/pdf_R/r076-1-e06.pdf
+    g18_entry: '00957'
+    definition: for a given value of the measured mass, the quotient of the change,
+      Δl, of the observed variable, l, and the corresponding change, Δm, of the measured
+      mass, m
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 82:2006
+    publication_id: OIML R082:2006
+    tc_sc: ''
+    year: 2006
+    clause: '3.13'
+    link: https://www.oiml.org/en/files/pdf_R/r082-e06.pdf
+    g18_entry: '01057'
+    definition: 'Output signal per unit mass of the sample component of interest in
+      the carrier gas. It is expressed in either one of the two following ways: 3.13.1
+      With a concentration-dependent detector, the instrument sensitivity, S, is expressed
+      as: A · mL · g-1, or V · mL · g-1, and by the equation: S = P · F/ M where:
+      P = the peak area, F = the carrier gas flow rate, M = the mass of the sample
+      in the carrier gas. With the units: A = amperes, mL = millilitres, g = grams,
+      V = volts. 3.13.2 With a mass flow rate dependent detector, the instrument sensitivity,
+      S, is expressed in: A · s · g-1, or V · s · g-1, and by the equation: S = P/
+      M where the symbols have the same definitions as in 3.13.1, with the additional
+      unit of: s = seconds.'
+    notes:
+    - 'Note: Peak area is independent of broadening effects caused by variables such
+      as column temperature, eluent flow rate, and rate of sample injection. From
+      this standpoint, therefore, the peak area is a more satisfactory analytical
+      parameter than peak height. On the other hand, peak heights are more easily
+      measured and, for narrow peaks, more accurately determined. Many modern chromatographic
+      instruments are equipped with electronic integrators that provide precise measurements
+      of relative peak areas.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 123:1997
+    publication_id: OIML R123:1997
+    tc_sc: ''
+    year: 1997
+    clause: '3.7'
+    link: https://www.oiml.org/en/files/pdf_R/r123-e97.pdf
+    g18_entry: '03487'
+    definition: Change in the response of a measuring instrument divided by the corresponding
+      change in the stimulus.
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 113:1994
+    publication_id: OIML R113:1994
+    tc_sc: ''
+    year: 1994
+    clause: '3.12'
+    link: https://www.oiml.org/en/files/pdf_R/r113-e94.pdf
+    g18_entry: '01499'
+    definition: 'the output signal of a detector per unit mass of eluted sample components
+      of interest and is either one of the following categories: 3.12.1 Concentration-dependent
+      detector Expressed in A · mL · g–1 or V · mL · g–1, and by the equation: where
+      S = sensitivity P = the integrated peak area (A · s or V · s) F = the carrier
+      gas flow rate (mL · s–1) M = mass of the sample in the carrier gas (g) 3.12.2
+      Mass-flow-rate-dependent detector Expressed in A · s · g–1 or V · s · g–1, and
+      by the equation: where the symbols are the same as those defined in 3.12.1.'
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 53:1982
+    publication_id: OIML R053:1982
+    tc_sc: ''
+    year: 1982
+    clause: T.13
     link: https://www.oiml.org/en/files/pdf_R/r053-e82.pdf
     g18_entry: '00685'
     definition: quotient of the increase in value of displacement of the reference

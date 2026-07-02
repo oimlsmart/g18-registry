@@ -4,8 +4,27 @@ data:
   term: leather
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 136-1:2004
+  - edition: '2010'
+    publication: OIML R 136-1:2004
+    publication_id: OIML R136-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: T.1.6
+    link: https://www.oiml.org/en/files/pdf_R/r136-1-e04.pdf
+    g18_entry: '01885'
+    definition: material prepared from the hides and skins of animals, by tanning
+      and other ancillary processes, the result of which is a three dimensional, durable
+      and hygroscopic material of varying thickness and softness
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 136-1:2004
     publication_id: OIML R136-1:2004
     tc_sc: ''
     year: 2004

@@ -4,8 +4,13 @@ data:
   term: patient simulator
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 16-2:2002
+  - edition: '2010'
+    publication: OIML R 16-2:2002
     publication_id: OIML R016-2:2002
     tc_sc: ''
     year: 2002
@@ -17,6 +22,36 @@ data:
     notes:
     - This device is not used for testing accuracy but is required in assessing stability
       of performance.
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R149-1:2020
+    publication_id: OIML R149-1:2020
+    tc_sc: ''
+    year: 2020
+    clause: '2.11'
+    link:
+    g18_entry: '03354'
+    definition: device for simulating the oscillometric cuff pulses and/or auscultatory
+      sounds during inflation and deflation
+    notes:
+    - 'Note: This device is not used for testing measurement accuracy but is required
+      in assessing stability of performance.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication:
+    publication_id:
+    tc_sc: ''
+    year:
+    clause:
+    link:
+    g18_entry: '00335'
+    definition: device for simulating the oscillometric cuff pulses and/or auscultatory
+      sounds during inflation and deflation
+    notes:
+    - 'Note: This device is not used for testing accuracy but is required in assessing
+      stability of performance.'
     consistency: pending
     consistency_reason: ''
 status: current

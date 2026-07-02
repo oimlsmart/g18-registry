@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '00105'
+  identifier: '03566'
   term: testing
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML B 10-1:2004
+  - edition: '2010'
+    publication: OIML B 10-1:2004
     publication_id: OIML B010-1:2004
     tc_sc: TC 3/SC 2
     year: 2004
@@ -15,6 +20,20 @@ data:
     definition: "( act of carrying out technical operations that consists of determining
       the metrological and technical characteristics of an instrument according to
       specified procedures. ISO/IEC Guide 2, 13.1)"
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D034:2019
+    publication_id: OIML D034:2019
+    tc_sc: ''
+    year: 2019
+    clause: 3.1.14
+    link:
+    g18_entry: '03566'
+    definition: determionation of one or more characteristics of an object of conformity
+      assessment, according to a procedure (from ISO/IEC 17000:2004, 4.2 and VIML,
+      A.10)
     notes: []
     consistency: pending
     consistency_reason: ''

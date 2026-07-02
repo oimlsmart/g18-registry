@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '02206'
+  identifier: '03477'
   term: securing
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML D 31:2008
+  - edition: '2010'
+    publication: OIML D 31:2008
     publication_id: OIML D031:2008
     tc_sc: ''
     year: 2008
@@ -15,6 +20,20 @@ data:
     definition: to prevent unauthorized access to the device's hardware or software
       part
     notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D031:2023
+    publication_id: OIML D031:2023
+    tc_sc: ''
+    year: 2023
+    clause: 3.2.54
+    link:
+    g18_entry: '03477'
+    definition: means preventing unauthorised access to hardware or software adapted
+      form [OIML V 1:2022, 2.21]
+    notes:
+    - 'Note: This may be achieved by means of passwords.'
     consistency: pending
     consistency_reason: ''
 status: current

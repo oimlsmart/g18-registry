@@ -4,8 +4,26 @@ data:
   term: plasma
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 116:2006
+  - edition: '2010'
+    publication: OIML R 116:2006
+    publication_id: OIML R116:2006
+    tc_sc: ''
+    year: 2006
+    clause: '3.1'
+    link: https://www.oiml.org/en/files/pdf_R/r116-e06.pdf
+    g18_entry: '01514'
+    definition: gas having a large fraction of its atoms in an ionized state that
+      excites and ionizes atoms of a sample introduced into an ICP system for analysis
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 116:2006
     publication_id: OIML R116:2006
     tc_sc: ''
     year: 2006

@@ -1,0 +1,162 @@
+---
+data:
+  identifier: '00777'
+  term: non-automatic zero-setting device
+  kind: undefined
+  official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: '2010'
+    publication: OIML R 107-1:2007
+    publication_id: OIML R107-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.2.4.1
+    link: https://www.oiml.org/en/files/pdf_R/r107-1-e07.pdf
+    g18_entry: '01334'
+    definition: device for setting the indication to zero by an operator
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: '2010'
+    publication: OIML R 76-1:2006
+    publication_id: OIML R076-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.2.7.2.1
+    link: https://www.oiml.org/en/files/pdf_R/r076-1-e06.pdf
+    g18_entry: '00920'
+    definition: device for setting the indication to zero by an operator
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: '2010'
+    publication: OIML R 61-1:2004
+    publication_id: OIML R061-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: T.2.4.1
+    link: https://www.oiml.org/en/files/pdf_R/r061-1-e04.pdf
+    g18_entry: '00777'
+    definition: device for setting the indication to zero by an operator
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: '2010'
+    publication: OIML R 50-1:1997
+    publication_id: OIML R050-1:1997
+    tc_sc: ''
+    year: 1997
+    clause: T.3.8.1.1
+    link: https://www.oiml.org/en/files/pdf_R/r050-1-e97.pdf
+    g18_entry: '00504'
+    definition: a zero-setting device that requires observation and adjustment by
+      the operator.
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: '2010'
+    publication: OIML R 106-1:1997
+    publication_id: OIML R106-1:1997
+    tc_sc: ''
+    year: 1997
+    clause: T.2.4.1.1
+    link: https://www.oiml.org/en/files/pdf_R/r106-1-e97.pdf
+    g18_entry: '01269'
+    definition: a zero-setting device that must be operated manually
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R150-1:2020
+    publication_id: OIML R150-1:2020
+    tc_sc: ''
+    year: 2020
+    clause: 2.2.6.1
+    link:
+    g18_entry: '03334'
+    definition: zero-setting device that requires observation and adjustment by the
+      operator
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R061-1:2017
+    publication_id: OIML R061-1:2017
+    tc_sc: ''
+    year: 2017
+    clause: 3.3.4.1
+    link:
+    g18_entry: '03333'
+    definition: device for setting the indication to zero by an operator
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R050-1:2014
+    publication_id: OIML R050-1:2014
+    tc_sc: ''
+    year: 2014
+    clause: 2.2.6.1
+    link:
+    g18_entry: '03332'
+    definition: zero-setting device that requires observation and adjustment by the
+      operator
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R106-1:2011
+    publication_id: OIML R106-1:2011
+    tc_sc: ''
+    year: 2011
+    clause: 0.2.10.1
+    link:
+    g18_entry: '02561'
+    definition: zero-setting device that must be operated manually
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 107-1:2007
+    publication_id: OIML R107-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.2.4.1
+    link: https://www.oiml.org/en/files/pdf_R/r107-1-e07.pdf
+    g18_entry: '01269'
+    definition: a zero-setting device that must be operated manually
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 76-1:2006
+    publication_id: OIML R076-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.2.7.2.1
+    link: https://www.oiml.org/en/files/pdf_R/r076-1-e06.pdf
+    g18_entry: '00777'
+    definition: device for setting the indication to zero by an operator
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 136-1:2004
+    publication_id: OIML R136-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: T.2.5.3
+    link: https://www.oiml.org/en/files/pdf_R/r136-1-e04.pdf
+    g18_entry: '01334'
+    definition: device for setting the indication to zero by an operator
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: dcc92525-bfae-53b1-abf9-e507e5af57c7
+schema_version: '3'
+related: []

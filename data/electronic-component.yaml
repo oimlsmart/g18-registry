@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '00227'
+  identifier: '00600'
   term: electronic component
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 107-1:2007
+  - edition: '2010'
+    publication: OIML R 107-1:2007
     publication_id: OIML R107-1:2007
     tc_sc: ''
     year: 2007
@@ -17,7 +22,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 139:2007
+  - edition: '2010'
+    publication: OIML R 139:2007
     publication_id: OIML R139:2007
     tc_sc: ''
     year: 2007
@@ -29,7 +35,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 49-1:2006
+  - edition: '2010'
+    publication: OIML R 49-1:2006
     publication_id: OIML R049-1:2006
     tc_sc: ''
     year: 2006
@@ -41,7 +48,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 51-1:2006
+  - edition: '2010'
+    publication: OIML R 51-1:2006
     publication_id: OIML R051-1:2006
     tc_sc: ''
     year: 2006
@@ -53,7 +61,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 76-1:2006
+  - edition: '2010'
+    publication: OIML R 76-1:2006
     publication_id: OIML R076-1:2006
     tc_sc: ''
     year: 2006
@@ -65,7 +74,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 137-1:2006
+  - edition: '2010'
+    publication: OIML R 137-1:2006
     publication_id: OIML R137-1:2006
     tc_sc: ''
     year: 2006
@@ -77,7 +87,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML D 11:2004
+  - edition: '2010'
+    publication: OIML D 11:2004
     publication_id: OIML D011:2004
     tc_sc: ''
     year: 2004
@@ -90,7 +101,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 61-1:2004
+  - edition: '2010'
+    publication: OIML R 61-1:2004
     publication_id: OIML R061-1:2004
     tc_sc: ''
     year: 2004
@@ -102,7 +114,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 136-1:2004
+  - edition: '2010'
+    publication: OIML R 136-1:2004
     publication_id: OIML R136-1:2004
     tc_sc: ''
     year: 2004
@@ -114,7 +127,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 134:2003
+  - edition: '2010'
+    publication: OIML R 134:2003
     publication_id: OIML R134:2003
     tc_sc: ''
     year: 2003
@@ -126,7 +140,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 75-1:2002
+  - edition: '2010'
+    publication: OIML R 75-1:2002
     publication_id: OIML R075-1:2002
     tc_sc: ''
     year: 2002
@@ -139,7 +154,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 60:2000
+  - edition: '2010'
+    publication: OIML R 60:2000
     publication_id: OIML R060:2000
     tc_sc: ''
     year: 2000
@@ -151,7 +167,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 125:1998
+  - edition: '2010'
+    publication: OIML R 125:1998
     publication_id: OIML R125:1998
     tc_sc: ''
     year: 1998
@@ -163,7 +180,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 50-1:1997
+  - edition: '2010'
+    publication: OIML R 50-1:1997
     publication_id: OIML R050-1:1997
     tc_sc: ''
     year: 1997
@@ -175,7 +193,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 106-1:1997
+  - edition: '2010'
+    publication: OIML R 106-1:1997
     publication_id: OIML R106-1:1997
     tc_sc: ''
     year: 1997
@@ -187,7 +206,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 105:1993
+  - edition: '2010'
+    publication: OIML R 105:1993
     publication_id: OIML R105:1993
     tc_sc: ''
     year: 1993
@@ -196,6 +216,153 @@ data:
     g18_entry: '01230'
     definition: the smallest physical entity that uses electron or hole conduction
       in semiconductors, gases or in a vacuum
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R049-1:2024
+    publication_id: OIML R049-1:2024
+    tc_sc: ''
+    year: 2024
+    clause: 3.5.3
+    link:
+    g18_entry: '02436'
+    definition: smallest physical entity that uses electron or hole conduction in
+      semi-conductors, gases or in a vacuum
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R050-1:2014
+    publication_id: OIML R050-1:2014
+    tc_sc: ''
+    year: 2014
+    clause: 2.2.3.3
+    link:
+    g18_entry: '03023'
+    definition: smallest physical entity that uses electron or hole conduction in
+      semi-conductors, gases or in a vacuum
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R137:2012
+    publication_id: OIML R137:2012
+    tc_sc: ''
+    year: 2012
+    clause: 3.5.3
+    link:
+    g18_entry: '02699'
+    definition: smallest physical entity in an electronic device used to affect electrons
+      and/or their associated fields in their movement through a medium or vacuum
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R106-1:2011
+    publication_id: OIML R106-1:2011
+    tc_sc: ''
+    year: 2011
+    clause: 0.2.5.2
+    link:
+    g18_entry: '02543'
+    definition: smallest physical entity that uses electron or hole conduction in
+      semiconductors, gases, or in a vacuum
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 107-1:2007
+    publication_id: OIML R107-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.2.2.3
+    link: https://www.oiml.org/en/files/pdf_R/r107-1-e07.pdf
+    g18_entry: '01330'
+    definition: 'smallest physical entity that uses electron or hole conduction in
+      semi-conductors, gases or in a vacuum Examples: Electronic tubes, transistors,
+      integrated circuits. [See 3.4 of OIML D 11] [OIML D 11: 2004, 3.4]'
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 51-1:2006
+    publication_id: OIML R051-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.2.8.3
+    link: https://www.oiml.org/en/files/pdf_R/r051-1-e06.pdf
+    g18_entry: '00600'
+    definition: 'smallest physical entity, which uses electron or gap conduction in
+      semi-conductors, or conduction by means of electrons or ions in gases or in
+      a vacuum Examples: Electronic tube, transistor,integrated circuit.'
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 76-1:2006
+    publication_id: OIML R076-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.2.3.3
+    link: https://www.oiml.org/en/files/pdf_R/r076-1-e06.pdf
+    g18_entry: '00906'
+    definition: 'the smallest physical entity that uses electron or hole conduction
+      in semiconductors, gases or in a vacuum Examples: Electronic tube, transistor,
+      integrated circuit. [OIML D 11: 2004, 3.4]'
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 136-1:2004
+    publication_id: OIML R136-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: T.2.3
+    link: https://www.oiml.org/en/files/pdf_R/r136-1-e04.pdf
+    g18_entry: '01891'
+    definition: the smallest physical entity that uses electron or hole conduction
+      in semiconductors, gases or in a vacuum
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 134:2003
+    publication_id: OIML R134:2003
+    tc_sc: ''
+    year: 2003
+    clause: T.2.2.2
+    link: https://www.oiml.org/en/files/pdf_R/r134-e03.pdf
+    g18_entry: '01795'
+    definition: smallest physical entity that uses electron or hole conduction in
+      semi-conductors, gases or in a vacuum
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 75-1:2002
+    publication_id: OIML R075-1:2002
+    tc_sc: ''
+    year: 2002
+    clause: '4.15'
+    link: https://www.oiml.org/en/files/pdf_R/r075-1-e02.pdf
+    g18_entry: '00871'
+    definition: smallest physical entity which uses electron or hole conduction in
+      semi-conductors, gases, or in a vacuum
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication:
+    publication_id:
+    tc_sc: ''
+    year:
+    clause:
+    link:
+    g18_entry: '01637'
+    definition: smallest physical entity in an electronic device which uses electron
+      or hole conduction in semi-conductors or electron conduction in gases or in
+      a vacuum
     notes: []
     consistency: pending
     consistency_reason: ''

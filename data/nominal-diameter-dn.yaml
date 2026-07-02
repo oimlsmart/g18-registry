@@ -1,0 +1,34 @@
+---
+data:
+  identifier: '02420'
+  term: nominal diameter DN
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R049-1:2024
+    publication_id: OIML R049-1:2024
+    tc_sc: ''
+    year: 2024
+    clause: 3.3.14
+    link:
+    g18_entry: '02420'
+    definition: alphanumeric designation of size for components of a pipework system,
+      which is used for reference purposes
+    notes:
+    - 'Note 1:The nominal diameter is expressed by the letters DN followed by a dimensionless
+      whole number which is indirectly related to the physical size, in millimetres,
+      of the bore or outside diameter of the end connections. Note 2:The number following
+      the letters DN does not represent a measurable value and should not be used
+      for calculation purposes except where specified in the relevant standard. Note
+      3: In those standards which use the DN designation system, any relationship
+      between DN and component dimensions should be given, e.g. DN/OD or DN/ID.'
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 360cbe03-0d88-5d3a-915e-0d9e6766359e
+schema_version: '3'
+related: []

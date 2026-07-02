@@ -1,0 +1,29 @@
+---
+data:
+  identifier: '03244'
+  term: means of dissemination of units
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML D005:2022
+    publication_id: OIML D005:2022
+    tc_sc: ''
+    year: 2022
+    clause: '3.31'
+    link:
+    g18_entry: '03244'
+    definition: technical devices, reference materials or material measures, which
+      are necessary to carry out calibration by comparing the measurement standards
+      and the measuring instruments to be calibrated
+    notes:
+    - 'Note: These means influence uncertainties fo dissemination of units.'
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: e924f1f2-c8c1-5bf6-b592-6ecdb7620d79
+schema_version: '3'
+related: []

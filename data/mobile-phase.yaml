@@ -4,8 +4,13 @@ data:
   term: mobile phase
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 82:2006
+  - edition: '2010'
+    publication: OIML R 82:2006
     publication_id: OIML R082:2006
     tc_sc: ''
     year: 2006
@@ -17,7 +22,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 83:2006
+  - edition: '2010'
+    publication: OIML R 83:2006
     publication_id: OIML R083:2006
     tc_sc: ''
     year: 2006
@@ -29,7 +35,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 112:1994
+  - edition: '2010'
+    publication: OIML R 112:1994
     publication_id: OIML R112:1994
     tc_sc: ''
     year: 1994
@@ -41,12 +48,65 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 113:1994
+  - edition: '2010'
+    publication: OIML R 113:1994
     publication_id: OIML R113:1994
     tc_sc: ''
     year: 1994
     clause: '3.3'
     link: https://www.oiml.org/en/files/pdf_R/r113-e94.pdf
+    g18_entry: '01490'
+    definition: the carrier gas used to elute the sample components through and from
+      the column
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 82:2006
+    publication_id: OIML R082:2006
+    tc_sc: ''
+    year: 2006
+    clause: '3.4'
+    link: https://www.oiml.org/en/files/pdf_R/r082-e06.pdf
+    g18_entry: '01048'
+    definition: carrier gas and injected gaseous sample that enter and move through
+      the column
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 83:2006
+    publication_id: OIML R083:2006
+    tc_sc: ''
+    year: 2006
+    clause: '3.4'
+    link: https://www.oiml.org/en/files/pdf_R/r083-e06.pdf
+    g18_entry: '01064'
+    definition: carrier gas and the injected gaseous sample that enter and move through
+      the column
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 112:1994
+    publication_id: OIML R112:1994
+    tc_sc: ''
+    year: 1994
+    clause: '2.3'
+    link: https://www.oiml.org/en/files/pdf_R/r112-e94.pdf
+    g18_entry: '01475'
+    definition: the liquid (solvent) used to elute the sample components through and
+      from the column; it may consist of a single component or a mixture of components
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication:
+    publication_id:
+    tc_sc: ''
+    year:
+    clause:
+    link:
     g18_entry: '01490'
     definition: the carrier gas used to elute the sample components through and from
       the column

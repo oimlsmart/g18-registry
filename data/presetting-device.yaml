@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '01217'
+  identifier: '03380'
   term: presetting device
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 105:1993
+  - edition: '2010'
+    publication: OIML R 105:1993
     publication_id: OIML R105:1993
     tc_sc: ''
     year: 1993
@@ -16,6 +21,21 @@ data:
       stops the flow of the liquid after the measurement and delivery of the selected
       quantity
     notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R139-1:2022
+    publication_id: OIML R139-1:2022
+    tc_sc: ''
+    year: 2022
+    clause: 3.2.9
+    link:
+    g18_entry: '03380'
+    definition: device which permits the selection of the quantity value to be measured
+      and which automatically stops the flow of the gas at the end of the measurement
+      of the selected quantity
+    notes:
+    - 'Note:  The preset quantity value may be the mass or the related price to pay.'
     consistency: pending
     consistency_reason: ''
 status: current

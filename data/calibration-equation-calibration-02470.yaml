@@ -1,0 +1,29 @@
+---
+data:
+  identifier: '02470'
+  term: calibration equation; calibration
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R059-1:2016
+    publication_id: OIML R059-1:2016
+    tc_sc: ''
+    year: 2016
+    clause: 2.3.5
+    link:
+    g18_entry: '02470'
+    definition: set of calibration coefficients for one type of grain to convert raw
+      instrument data into a moisture content measurement
+    notes:
+    - 'Note:  Both these terms are used in the same context as ‘calibration function’
+      in Note 1 of VIM 2.39.'
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: f5f83248-6f1d-5fd8-af1d-1dbbf24a73b8
+schema_version: '3'
+related: []

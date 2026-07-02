@@ -1,0 +1,26 @@
+---
+data:
+  identifier: '03400'
+  term: mass flow rate, Qm
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R150-1:2020
+    publication_id: OIML R150-1:2020
+    tc_sc: ''
+    year: 2020
+    clause: 2.3.5
+    link:
+    g18_entry: '03400'
+    definition: mass of product which passes per unit of time
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 55ffa0d3-f122-539a-92f7-d54d655704b4
+schema_version: '3'
+related: []

@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '03765'
+  term: influence factor (OIML V 1
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R091-1:2025
+    publication_id: OIML R091-1:2025
+    tc_sc: ''
+    year: 2025
+    clause: 3.5.8
+    link:
+    g18_entry: '03765'
+    definition: influence quantity having a value which ranges within the rated operating
+      conditions of a measuring instrument
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 6a1a75ab-5ac2-51e2-b035-90d2febe61cb
+schema_version: '3'
+related: []

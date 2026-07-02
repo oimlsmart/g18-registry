@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '00783'
+  identifier: '01899'
   term: scale interval (d)
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 107-1:2007
+  - edition: '2010'
+    publication: OIML R 107-1:2007
     publication_id: OIML R107-1:2007
     tc_sc: ''
     year: 2007
@@ -18,7 +23,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 61-1:2004
+  - edition: '2010'
+    publication: OIML R 61-1:2004
     publication_id: OIML R061-1:2004
     tc_sc: ''
     year: 2004
@@ -31,7 +37,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 136-1:2004
+  - edition: '2010'
+    publication: OIML R 136-1:2004
     publication_id: OIML R136-1:2004
     tc_sc: ''
     year: 2004
@@ -44,7 +51,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 134:2003
+  - edition: '2010'
+    publication: OIML R 134:2003
     publication_id: OIML R134:2003
     tc_sc: ''
     year: 2003
@@ -56,7 +64,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 129:2000
+  - edition: '2010'
+    publication: OIML R 129:2000
     publication_id: OIML R129:2000
     tc_sc: ''
     year: 2000
@@ -69,7 +78,8 @@ data:
     - Adapted from VIM:1993, 4.22
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 106-1:1997
+  - edition: '2010'
+    publication: OIML R 106-1:1997
     publication_id: OIML R106-1:1997
     tc_sc: ''
     year: 1997
@@ -80,6 +90,47 @@ data:
       is the difference between: the values corresponding to two consecutive scale
       marks for analogue indication, or two consecutive indicated or printed values
       for digital indication"
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R129-1:2020
+    publication_id: OIML R129-1:2020
+    tc_sc: ''
+    year: 2020
+    clause: 2.2.9
+    link:
+    g18_entry: '03470'
+    definition: value, expressed in units of measured quantity, of the difference
+      between the values corresponding to two consecutive scale marks for analogue
+      indication, or two consecutive indicated values for digital indication
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R134:2006
+    publication_id: OIML R134:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.3.3
+    link:
+    g18_entry: '03468'
+    definition: value expressed in units of mass for weighing-in-motion that is the
+      difference between two consecutive indicated or printed values
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 136-1:2004
+    publication_id: OIML R136-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: T.3.1
+    link: https://www.oiml.org/en/files/pdf_R/r136-1-e04.pdf
+    g18_entry: '01899'
+    definition: 'value, expressed in units of area, of the difference between: the
+      values corresponding to two consecutive scale marks for analogue indication,
+      or two consecutive indicated values for digital indication'
     notes: []
     consistency: pending
     consistency_reason: ''

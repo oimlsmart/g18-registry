@@ -1,0 +1,28 @@
+---
+data:
+  identifier: '03546'
+  term: surveillance
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML D034:2019
+    publication_id: OIML D034:2019
+    tc_sc: ''
+    year: 2019
+    clause: 3.1.13
+    link:
+    g18_entry: '03546'
+    definition: Systemtic iteration of conformity assessment activities as a basis
+      for maintaining the validity of the statement of conformity (from ISO/IEC 17000:2004,
+      6.1 and VIML, A.20)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 76723824-490d-5eb7-94ca-d7b7c3f132a3
+schema_version: '3'
+related: []

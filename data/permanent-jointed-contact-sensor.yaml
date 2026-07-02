@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '02828'
+  term: permanent jointed contact sensor
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R147:2016
+    publication_id: OIML R147:2016
+    tc_sc: ''
+    year: 2016
+    clause: 2.2.7
+    link:
+    g18_entry: '02828'
+    definition: contact sensor of an internal or external thermometer that cannot
+      be removed from the BBR without dismantling the latter
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: c1b88f7b-a78e-5d55-8514-ba97a9db8e81
+schema_version: '3'
+related: []

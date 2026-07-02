@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '03114'
+  term: infeed mass flowrate
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R150-1:2020
+    publication_id: OIML R150-1:2020
+    tc_sc: ''
+    year: 2020
+    clause: 2.3.5.3
+    link:
+    g18_entry: '03114'
+    definition: mass flowrate of product from a preceding feeding device onto force
+      receptor
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 6be2c184-68dc-521d-bc44-3081c7286f0b
+schema_version: '3'
+related: []

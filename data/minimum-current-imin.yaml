@@ -1,0 +1,27 @@
+---
+data:
+  identifier: 02302-2
+  term: minimum current (Imin)
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication:
+    publication_id:
+    tc_sc: ''
+    year:
+    clause:
+    link:
+    g18_entry: 02302-2
+    definition: lowest value of current at which the meter is specified by the manufacturer
+      to meet the accuracy requirements
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: bee49b60-77fb-5264-b40f-cc63fd1fd32b
+schema_version: '3'
+related: []

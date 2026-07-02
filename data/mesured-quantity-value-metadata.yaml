@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '03693'
+  term: mesured quantity value metadata
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML D031:2023
+    publication_id: OIML D031:2023
+    tc_sc: ''
+    year: 2023
+    clause: 3.2.42
+    link:
+    g18_entry: '03693'
+    definition: metadata related to the measures quantity value
+    notes:
+    - Note:See Annex C for clarification regarding measurement-related terms.
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: '08de4d4b-ef03-5be6-bccc-7d2280449d01'
+schema_version: '3'
+related: []

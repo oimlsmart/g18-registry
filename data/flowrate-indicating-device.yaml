@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '03081'
+  term: flowrate indicating device
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R050-1:2014
+    publication_id: OIML R050-1:2014
+    tc_sc: ''
+    year: 2014
+    clause: 2.4.2.2
+    link:
+    g18_entry: '03081'
+    definition: a device that indicates the instantaneous flowrate either as the mass
+      of the product conveyed in unit time or as a percentage of the maximum flowrate
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: ffe243e9-eb98-58ac-bcd7-6bd42b98b671
+schema_version: '3'
+related: []

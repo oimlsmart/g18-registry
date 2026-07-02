@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '00994'
+  identifier: '02483'
   term: net quantity
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 79:1997
+  - edition: '2010'
+    publication: OIML R 79:1997
     publication_id: OIML R079:1997
     tc_sc: ''
     year: 1997
@@ -19,6 +24,25 @@ data:
     - kage and does not account for the actual tents in an individual package. The
       cedures for determining whether a duction lot meets regulatory requirements
       provided in OIML R 87 Net contents in kages
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R079:2015
+    publication_id: OIML R079:2015
+    tc_sc: ''
+    year: 2015
+    clause: '2.4'
+    link:
+    g18_entry: '02483'
+    definition: quantity of the identified product in the prepackage exclusive of
+      packing material
+    notes:
+    - 'Note 1:  ‘Packing material’ includes wrappers and any other material packed
+      with such product. See 2.6, Note 3. Note 2:  This term relates to specifications
+      on a prepackage and does not account for the actual quantity in an individual
+      prepackage. For prepackages with constant nominal quantity, the procedures for
+      determining whether an inspection lot meets regulatory requirements are provided
+      in OIML R 87 [1].'
     consistency: pending
     consistency_reason: ''
 status: current
