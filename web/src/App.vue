@@ -2,6 +2,8 @@
 import { useRoute } from "vue-router";
 
 const route = useRoute();
+const base = import.meta.env.BASE_URL; // "/g18-registry/" in prod, "/" in dev
+const logoSrc = `${base}oiml-logo.svg`;
 const navItems = [
   { to: "/actions/", label: "Actions" },
   { to: "/terms/", label: "Terms" },
@@ -18,8 +20,8 @@ const isActive = (path: string) => path === "/" ? route.path === "/" : route.pat
 <template>
   <header class="site-header">
     <div class="container header-bar">
-      <a class="brand" href="/">
-        <img src="/oiml-logo.svg" alt="OIML" class="brand-mark-img" />
+      <a class="brand" :href="base">
+        <img :src="logoSrc" alt="OIML" class="brand-mark-img" />
         <span class="brand-sub">
           <span class="brand-sub-title">G 18 Registry</span>
           <span class="brand-sub-tag">OIML Term-Usage Registry</span>
