@@ -1,0 +1,1 @@
+var e={editions:[`2010`,`202X`],stats:[{edition:`2010`,primary:!1,instances:2125,terms:1189,only_in_edition:192,harmonization_candidates:285},{edition:`202X`,primary:!0,instances:2814,terms:1539,only_in_edition:542,harmonization_candidates:386}],terms_in_both:997};export{e as t};

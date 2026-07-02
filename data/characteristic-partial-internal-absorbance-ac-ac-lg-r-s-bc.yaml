@@ -5,9 +5,29 @@ data:
   kind: undefined
   official_concept:
   editions_present:
+  - '2010'
   - 202X
   primary_edition: 202X
   publications:
+  - edition: '2010'
+    publication: OIML R 135:2004
+    publication_id: OIML R135:2004
+    tc_sc: TC18/SC5
+    year: 2004
+    clause: '2.18'
+    link: https://www.oiml.org/en/files/pdf_R/r135-e04.pdf
+    g18_entry: '01857'
+    definition: fraction of the absorbance of the solution on which the measurement
+      is made due to a specified component
+    notes:
+    - 1. The characteristic partial internal absorbance has the dimension one and
+      is expressed with the derived coherent SI unit one (1).
+    - '2. The absorbance of the optical cell containing this solution is corrected
+      for. Conditions for validity: see 2.'
+    - '9.'
+    - 3. Adapted from ISO 6286, Table 2, Nos. 19 and 20.
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML R 135:2004
     publication_id: OIML R135:2004

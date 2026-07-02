@@ -65,7 +65,11 @@ module G18
     /ix.freeze
 
     def normalize_designation(raw)
-      raw.to_s.sub(EDITORIAL_ANNOTATION_RE, "").strip
+      raw.to_s
+        .sub(EDITORIAL_ANNOTATION_RE, "")
+        .gsub(/ /, " ")       # non-breaking space → regular space
+        .gsub(/‑/, "-")       # non-breaking hyphen → regular hyphen
+        .strip
     end
 
     def load_term_aliases(path)
