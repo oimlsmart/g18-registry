@@ -22,8 +22,9 @@ data:
     notes:
     - '1'
     - 2. [OIML D 11:2004, 3.3]
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Drops 'identifiable part of a measuring instrument or family'
+      and replaces with generic 'device', and weakens normative requirement with '(usually)'.
   - edition: 202X
     publication: OIML R046-1:2012
     publication_id: OIML R046-1:2012

@@ -23,8 +23,10 @@ data:
       consists of one or more software modules
     notes:
     - "[similar IEC 61508-4:1998, 3.3.7]"
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Drops the enumeration of specific activities (manufacture,
+      import, installation, use, maintenance, repair) and the object (measuring instruments),
+      retaining only the general purpose.
   - edition: 202X
     publication: OIML D031:2023
     publication_id: OIML D031:2023

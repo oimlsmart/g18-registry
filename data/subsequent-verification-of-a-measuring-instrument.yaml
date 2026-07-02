@@ -33,8 +33,9 @@ data:
       expiry of the period of validity of a previous verification either at the request
       of the user (owner) or when its verification mark is declared to be no longer
       valid.
-    consistency: pending
-    consistency_reason: ''
+    consistency: ok
+    consistency_reason: Semantically identical; both list mandatory periodic verification
+      and verification after repair as subcategories of subsequent verification.
     related:
     - type: see
       ref:
@@ -56,8 +57,9 @@ data:
       before expiry of the period of validity of a previous  verification either at
       the request of the user (owner) or when its verification mark is declared to
       be no longer valid.'
-    consistency: pending
-    consistency_reason: ''
+    consistency: ok
+    consistency_reason: Semantically identical; both list mandatory periodic verification
+      and verification after repair as subcategories of subsequent verification.
 status: current
 id: 4ce3cb74-2a86-5ad8-b286-56b51e0bb1ed
 schema_version: '3'

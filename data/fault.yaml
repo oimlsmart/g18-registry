@@ -84,8 +84,9 @@ data:
       ofthe instrument
     notes:
     - "(OIML D 11:2004, 3.9)"
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Publication narrows 'true value' to 'conventional true quantity
+      value,' which is a specific type of true value and not fully equivalent.
   - edition: '2010'
     publication: OIML R 107-1:2007
     publication_id: OIML R107-1:2007

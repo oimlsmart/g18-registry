@@ -33,8 +33,9 @@ data:
     definition: measured quantity value minus a reference quantity value [VIM:2007,
       2.16]
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: ok
+    consistency_reason: The definitions are semantically identical; only a comma is
+      missing.
 status: current
 id: 2bc5eb69-cd90-557d-920a-717b2db11715
 schema_version: '3'

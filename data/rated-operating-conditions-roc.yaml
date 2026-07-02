@@ -28,8 +28,9 @@ data:
       factors, for which the errors (of indication) of the water meter are required
       to be within the maximum permissible errors dapted from VIM:1993, 5.5]."
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Narrows the general concept to water meters, influence factors,
+      and errors of indication rather than the broader specified metrological characteristics.
     related:
     - type: see
       ref:
