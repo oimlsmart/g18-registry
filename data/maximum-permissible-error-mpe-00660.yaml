@@ -4,8 +4,13 @@ data:
   term: maximum permissible error, MPE
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 107-1:2007
+  - edition: '2010'
+    publication: OIML R 107-1:2007
     publication_id: OIML R107-1:2007
     tc_sc: ''
     year: 2007
@@ -17,7 +22,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 51-1:2006
+  - edition: '2010'
+    publication: OIML R 51-1:2006
     publication_id: OIML R051-1:2006
     tc_sc: ''
     year: 2006
@@ -29,7 +35,81 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 76-1:2006
+  - edition: '2010'
+    publication: OIML R 76-1:2006
+    publication_id: OIML R076-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.5.5.4
+    link: https://www.oiml.org/en/files/pdf_R/r076-1-e06.pdf
+    g18_entry: '00980'
+    definition: maximum difference, positive or negative, allowed by regulation between
+      the indication of an instrument and the corresponding true value, as determined
+      by reference standard masses or standard weights, with the instrument being
+      at zero at no-load, in the reference position
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R061-1:2017
+    publication_id: OIML R061-1:2017
+    tc_sc: ''
+    year: 2017
+    clause: 3.5.2.4
+    link:
+    g18_entry: '03233'
+    definition: extreme value of measurement error, with respect to a known reference
+      quantity value, permitted by specifications or regulations for a given measurement,
+      measuring instrument, or measuring system (VIM, 4.26)
+    notes:
+    - 'Note 1: Usually, the term “maximum permissible errors” or “limits of error”
+      is used where there are two extreme values. Note 2: The term “tolerance” should
+      not be used to designate ‘maximum permissible error’.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R106-1:2011
+    publication_id: OIML R106-1:2011
+    tc_sc: ''
+    year: 2011
+    clause: 0.4.4.4
+    link:
+    g18_entry: '02610'
+    definition: extreme value of an error permitted by specifications or regulations
+      between the indication of a weighing instrument and the corresponding true value,
+      as determined by reference standard masses or standard weights, with the instrument
+      being at zero and no load, in the reference position [Adapted from VIM 5.21]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 107-1:2007
+    publication_id: OIML R107-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: 4.5.8
+    link: https://www.oiml.org/en/files/pdf_R/r107-1-e07.pdf
+    g18_entry: '01394'
+    definition: 'extreme values of an error permitted by specifications, regulations,
+      etc. for a given instrument [VIM: 1993, 5.21]'
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 51-1:2006
+    publication_id: OIML R051-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.4.3.7
+    link: https://www.oiml.org/en/files/pdf_R/r051-1-e06.pdf
+    g18_entry: '00660'
+    definition: extreme value of an error permitted by specifications, regulations,
+      etc. for a given instrument [VIM:1993, 5.21 ]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 76-1:2006
     publication_id: OIML R076-1:2006
     tc_sc: ''
     year: 2006

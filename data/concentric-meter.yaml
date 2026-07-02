@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '00468'
+  identifier: '02386'
   term: concentric meter
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 49-2:2006
+  - edition: '2010'
+    publication: OIML R 49-2:2006
     publication_id: OIML R049-2:2006
     tc_sc: ''
     year: 2006
@@ -16,6 +21,20 @@ data:
       fitting called a manifold. The inlet and outlet passages of the meter and the
       manifold, at the interface between them, are coaxial
     notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R049-1:2024
+    publication_id: OIML R049-1:2024
+    tc_sc: ''
+    year: 2024
+    clause: 3.1.18
+    link:
+    g18_entry: '02386'
+    definition: type of meter that is fitted into a closed conduit by means of a manifold
+    notes:
+    - Note:The inlet and outlet passages of the meter and the manifold are coaxial
+      at the interface between them.
     consistency: pending
     consistency_reason: ''
 status: current

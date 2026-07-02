@@ -1,0 +1,28 @@
+---
+data:
+  identifier: '03299'
+  term: metrology
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML D005:2022
+    publication_id: OIML D005:2022
+    tc_sc: ''
+    year: 2022
+    clause: '3.2'
+    link:
+    g18_entry: '03299'
+    definition: science of measurement and its application [VIM, 2.2]
+    notes:
+    - 'Note: Metrology includes all theoretical and practical aspects of measurement,
+      whatever the measurement uncertainty and any field of application.'
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: cd3188d4-686a-59f3-9243-64cd44533b7a
+schema_version: '3'
+related: []

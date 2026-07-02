@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '02940'
+  term: conformity assessment body
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML D010:2022
+    publication_id: OIML D010:2022
+    tc_sc: ''
+    year: 2022
+    clause: '3.8'
+    link:
+    g18_entry: '02940'
+    definition: body that performs conformity assessment activities, excluding accreditation
+      (ISO/IEC 17000, 4.6)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 7621af9d-672b-5ffd-b96b-4427f7b3b5a1
+schema_version: '3'
+related: []

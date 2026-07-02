@@ -4,8 +4,12 @@ data:
   term: Evaluation Report
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  primary_edition: 202X
   publications:
-  - publication: OIML D 30:2008
+  - edition: '2010'
+    publication: OIML D 30:2008
     publication_id: OIML D030:2008
     tc_sc: ''
     year: 2008

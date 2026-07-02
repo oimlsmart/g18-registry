@@ -1,0 +1,42 @@
+---
+data:
+  identifier: '02667'
+  term: measurement precision
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R126-1:2021
+    publication_id: OIML R126-1:2021
+    tc_sc: ''
+    year: 2021
+    clause: 3.1.18
+    link:
+    g18_entry: '03265'
+    definition: closeness of agreement between indications or measured quantity values
+      obtained by replicate measurements on the same or similar objects under specified
+      conditions (OIML V 2-200, 2.15)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R137:2012
+    publication_id: OIML R137:2012
+    tc_sc: ''
+    year: 2012
+    clause: 3.2.11
+    link:
+    g18_entry: '02667'
+    definition: closeness of agreement between indications or measured quantity values
+      obtained by replicate measurements on the same or similar objects under specified
+      conditions [VIM 2.15]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: e728c71a-4660-5d1e-a749-30aec4224766
+schema_version: '3'
+related: []

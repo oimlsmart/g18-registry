@@ -1,0 +1,28 @@
+---
+data:
+  identifier: '03318'
+  term: minimum measuring speed (Vmin)
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R129-1:2020
+    publication_id: OIML R129-1:2020
+    tc_sc: ''
+    year: 2020
+    clause: 2.1.10
+    link:
+    g18_entry: '03318'
+    definition: minimum speed at which the instrument will measure correctly
+    notes:
+    - 'Note: Only applicable to instruments where measurements are affected by means
+      of relative movement between the object and the instrument.'
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 2c6b74a0-5d77-5916-b87a-394d6c6b2431
+schema_version: '3'
+related: []

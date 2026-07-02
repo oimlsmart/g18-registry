@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '01311'
+  identifier: '02527'
   term: wagon
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 106-1:1997
+  - edition: '2010'
+    publication: OIML R 106-1:1997
     publication_id: OIML R106-1:1997
     tc_sc: ''
     year: 1997
@@ -14,6 +19,19 @@ data:
     g18_entry: '01311'
     definition: a loaded or unloaded railway goods vehicle that is recognized by the
       instrument as a vehicle to be weighed
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R106-1:2011
+    publication_id: OIML R106-1:2011
+    tc_sc: ''
+    year: 2011
+    clause: 0.1.6
+    link:
+    g18_entry: '02527'
+    definition: wagon that is recognized by the automatic rail-weighbridge as a railway
+      vehicle to be weighed
     notes: []
     consistency: pending
     consistency_reason: ''

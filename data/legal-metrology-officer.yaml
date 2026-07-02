@@ -4,8 +4,28 @@ data:
   term: legal metrology officer
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML D 14:2004
+  - edition: '2010'
+    publication: OIML D 14:2004
+    publication_id: OIML D014:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.1'
+    link: https://www.oiml.org/en/files/pdf_D/d014-e04.pdf
+    g18_entry: '00118'
+    definition: agent appointed by the state or a local authority, or having a similar
+      legal status, responsible for the execution of various tasks defined within
+      the framework of the application of laws and regulations in the field of legal
+      metrology
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D 14:2004
     publication_id: OIML D014:2004
     tc_sc: ''
     year: 2004

@@ -4,8 +4,13 @@ data:
   term: error
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 143:2009
+  - edition: '2010'
+    publication: OIML R 143:2009
     publication_id: OIML R143:2009
     tc_sc: ''
     year: 2009
@@ -15,6 +20,50 @@ data:
     definition: measured quantity value minus a reference quantity value
     notes:
     - "(VIM:2007, 2.16)"
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R144-1:2013
+    publication_id: OIML R144-1:2013
+    tc_sc: ''
+    year: 2013
+    clause: '2.13'
+    link:
+    g18_entry: '02768'
+    definition: measured quantity value minus a reference quantity value [VIM, 2.16]
+      [1])
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R137:2012
+    publication_id: OIML R137:2012
+    tc_sc: ''
+    year: 2012
+    clause: 3.2.4
+    link:
+    g18_entry: '02660'
+    definition: measured quantity value minus a reference quantity value (VIM 2.16)
+    notes:
+    - Note:The presented VIM definition of (measurement) error is often interpreted
+      as the definition for an absolute error. However, when expressing a parameter
+      as a percentage or in dB this definition could also be applied to a relative
+      error. Since in all cases in this document the errors are expressed in relative
+      values it was decided that a separate definition for a relative error is not
+      needed.
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 143:2009
+    publication_id: OIML R143:2009
+    tc_sc: ''
+    year: 2009
+    clause: '2.13'
+    link: https://www.oiml.org/en/files/pdf_R/r143-e09.pdf
+    g18_entry: '02139'
+    definition: measured quantity value minus a reference quantity value [VIM:2007,
+      2.16]
+    notes: []
     consistency: pending
     consistency_reason: ''
 status: current

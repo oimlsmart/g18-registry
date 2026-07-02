@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '03226'
+  term: maximum load of the measuring range (Dmax)
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R060-1:2021
+    publication_id: OIML R060-1:2021
+    tc_sc: ''
+    year: 2021
+    clause: 2.3.6
+    link:
+    g18_entry: '03226'
+    definition: largest value of a quantity expressed in the units of mass which can
+      be introdused to a load cell under test
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: d546dd91-0c91-5f9f-9271-7b5729d8f597
+schema_version: '3'
+related: []

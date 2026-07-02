@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '01838'
+  identifier: '03617'
   term: vehicle
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 134:2003
+  - edition: '2010'
+    publication: OIML R 134:2003
     publication_id: OIML R134:2003
     tc_sc: ''
     year: 2003
@@ -14,6 +19,19 @@ data:
     g18_entry: '01838'
     definition: loaded or unloaded vehicle that is recognized by the instrument as
       a vehicle to be weighed
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R134:2006
+    publication_id: OIML R134:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.7.1
+    link:
+    g18_entry: '03617'
+    definition: loaded or unloaded vehicle that is recognized by the instrument as
+      a road vehicle to be weighed
     notes: []
     consistency: pending
     consistency_reason: ''

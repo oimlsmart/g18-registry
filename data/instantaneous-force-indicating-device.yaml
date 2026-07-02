@@ -1,0 +1,28 @@
+---
+data:
+  identifier: '03151'
+  term: instantaneous force indicating device
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R150-1:2020
+    publication_id: OIML R150-1:2020
+    tc_sc: ''
+    year: 2020
+    clause: 2.4.2.1
+    link:
+    g18_entry: '03151'
+    definition: device that indicates the actual force at a given time effected on
+      the force receptor expressed as its quantity value or as a procentage of maximum
+      capacity, Max, or alternatively as a quantity caonverted to mass values
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: c67cb201-983c-5aba-9c2a-0163cd138266
+schema_version: '3'
+related: []

@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '01117'
+  identifier: '02484'
   term: nominal quantity
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 87:2004
+  - edition: '2010'
+    publication: OIML R 87:2004
     publication_id: OIML R087:2004
     tc_sc: ''
     year: 2004
@@ -17,6 +22,34 @@ data:
     notes:
     - nominal quantity. (2) The nominal quantity must be declared in accordance with
       OIML R 79.
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R087:2016
+    publication_id: OIML R087:2016
+    tc_sc: ''
+    year: 2016
+    clause: 2.1.7
+    link:
+    g18_entry: '02500'
+    definition: quantity of product in a prepackage declared on the label
+    notes:
+    - 'Note 1:  The symbol “Qnom” is used to designate the nominal quantity. Note
+      2:  In some national legislation the nominal quantity of the product is referred
+      to as “net quantity”, “net contents”, “net mass” or “net volume”. Note 3:  The
+      nominal quantity should be declared in accordance with OIML R 79 [1].'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R079:2015
+    publication_id: OIML R079:2015
+    tc_sc: ''
+    year: 2015
+    clause: '2.5'
+    link:
+    g18_entry: '02484'
+    definition: quantity of product in a prepackage declared on the label
+    notes: []
     consistency: pending
     consistency_reason: ''
 status: current

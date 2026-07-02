@@ -1,17 +1,36 @@
 ---
 data:
-  identifier: '02371'
+  identifier: '02372'
   term: hand-held instrument
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 99-1:2008
+  - edition: '2010'
+    publication: OIML R 99-1:2008
     publication_id: OIML R099-1:2008
     tc_sc: ''
     year: 2008
     clause: '3.36'
     link: https://www.oiml.org/en/files/pdf_R/r099-1-e08.pdf
     g18_entry: '02371'
+    definition: type of instrument that is designed for hand-held transportation with
+      its standard accessories by one person, and that rests on a suitable surface
+      during use
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 99-1:2008
+    publication_id: OIML R099-1:2008
+    tc_sc: ''
+    year: 2008
+    clause: '3.36'
+    link: https://www.oiml.org/en/files/pdf_R/r099-1-e08.pdf
+    g18_entry: '02372'
     definition: type of instrument that is designed for hand-held transportation with
       its standard accessories by one person, and that rests on a suitable surface
       during use

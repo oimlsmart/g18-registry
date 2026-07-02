@@ -1,0 +1,28 @@
+---
+data:
+  identifier: '03770'
+  term: magnifying viewfinder
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R091-1:2025
+    publication_id: OIML R091-1:2025
+    tc_sc: ''
+    year: 2025
+    clause: 3.4.15
+    link:
+    g18_entry: '03770'
+    definition: visual aid to magnify a target by a specified factor and to aim the
+      measurement beam at the target
+    notes:
+    - 'Note: It is to be used with handheld speed meters.'
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 850a1e14-9182-58f0-85b6-e6a5a79346cc
+schema_version: '3'
+related: []

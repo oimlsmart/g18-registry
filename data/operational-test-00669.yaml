@@ -1,0 +1,28 @@
+---
+data:
+  identifier: '00669'
+  term: operational test
+  kind: undefined
+  official_concept:
+  editions_present:
+  - '2010'
+  primary_edition: 202X
+  publications:
+  - edition: '2010'
+    publication: OIML R 51-1:2006
+    publication_id: OIML R051-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.6.1
+    link: https://www.oiml.org/en/files/pdf_R/r051-1-e06.pdf
+    g18_entry: '00669'
+    definition: test carried out on a complete instrument using a test load or loads
+      of the type that it is intended to weigh, and using the load conveyor or load
+      transport system to move it on to and off the load receptor
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 5ca85390-c6cf-5033-97a6-17aab9012916
+schema_version: '3'
+related: []

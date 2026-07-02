@@ -4,8 +4,52 @@ data:
   term: tamper proofing
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 16-1:2002
+  - edition: '2010'
+    publication: OIML R 16-1:2002
+    publication_id: OIML R016-1:2002
+    tc_sc: ''
+    year: 2002
+    clause: '2.15'
+    link: https://www.oiml.org/en/files/pdf_R/r016-1-e02.pdf
+    g18_entry: '00320'
+    definition: means of preventing the user from gaining easy access to the measuring
+      mechanism of the device
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R148-1:2020
+    publication_id: OIML R148-1:2020
+    tc_sc: ''
+    year: 2020
+    clause: '2.13'
+    link:
+    g18_entry: '03550'
+    definition: means of preventing the user from gaining easy access to the measuring
+      mechanism of the device
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R149-1:2020
+    publication_id: OIML R149-1:2020
+    tc_sc: ''
+    year: 2020
+    clause: '2.16'
+    link:
+    g18_entry: '03551'
+    definition: means of preventing the user from gaining easy access to the measuring
+      mechanism of the device
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 16-1:2002
     publication_id: OIML R016-1:2002
     tc_sc: ''
     year: 2002

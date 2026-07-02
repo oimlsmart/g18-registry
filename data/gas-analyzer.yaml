@@ -4,8 +4,13 @@ data:
   term: gas analyzer
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 143:2009
+  - edition: '2010'
+    publication: OIML R 143:2009
     publication_id: OIML R143:2009
     tc_sc: ''
     year: 2009
@@ -16,6 +21,36 @@ data:
       (measurements) of substances on the basis of their chemical or physical properties
     notes:
     - "(ISO 7504: 2001)"
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R144-1:2013
+    publication_id: OIML R144-1:2013
+    tc_sc: ''
+    year: 2013
+    clause: '2.4'
+    link:
+    g18_entry: '02755'
+    definition: 'assembly which enables qualitative and/or quantitative determinations
+      (measurements) of substances content on the basis of their chemical or physical
+      properties [ISO 7504: 2001] [16]'
+    notes:
+    - 'Note: A gas analyzer measures all components covered by this Recommendation
+      (CO, NO, NO2, or NOx), or measures only CO, or only NO and NO2, or NOx.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 143:2009
+    publication_id: OIML R143:2009
+    tc_sc: ''
+    year: 2009
+    clause: '2.4'
+    link: https://www.oiml.org/en/files/pdf_R/r143-e09.pdf
+    g18_entry: '02126'
+    definition: 'assembly which enables qualitative and/or quantitative determinations
+      (measurements) of substances on the basis of their chemical or physical properties
+      [ISO 7504: 2001]'
+    notes: []
     consistency: pending
     consistency_reason: ''
 status: current

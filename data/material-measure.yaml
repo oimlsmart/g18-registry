@@ -1,0 +1,52 @@
+---
+data:
+  identifier: '03218'
+  term: material measure
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML D005:2022
+    publication_id: OIML D005:2022
+    tc_sc: ''
+    year: 2022
+    clause: '3.12'
+    link:
+    g18_entry: '03218'
+    definition: 'measuring instrument reproducing or supplying, in permanent manner
+      during its use, quantities of one or more given kinds, each with an assignes
+      quantity value [VIM, 3.6] Examples: Standard weight, volume measure (suppluing
+      one or several quantiuty values, with or without a quantity-value sacle), standard
+      electic resistor, line scale (ruler), gauge block, standard signal generator,
+      certified reference material.'
+    notes:
+    - 'Note 1: The indication of material measure is its assigned quantity value.
+      Note 2: A material measure can be a measurement standard.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D010:2022
+    publication_id: OIML D010:2022
+    tc_sc: ''
+    year: 2022
+    clause: '3.12'
+    link:
+    g18_entry: '03219'
+    definition: 'measuring instrument reproducing or supplying, in permanent manner
+      during its use, quantities of one or more given kinds, each with an assignes
+      quantity value (VIM, 3.6) Examples: Standard weight, volume measure (suppluing
+      one or several quantiuty values, with or without a quantity-value sacle), standard
+      electic resistor, line scale (ruler), gauge block, standard signal generator,
+      certified reference material.'
+    notes:
+    - 'Note 1: The indication of material measure is its assigned quantity value.
+      Note 2: A material measure can be a measurement standard.'
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: be6c8c57-dab4-5edc-a856-e4fb6e184704
+schema_version: '3'
+related: []

@@ -1,0 +1,26 @@
+---
+data:
+  identifier: '03752'
+  term: ego speed
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R091-1:2025
+    publication_id: OIML R091-1:2025
+    tc_sc: ''
+    year: 2025
+    clause: 3.2.1
+    link:
+    g18_entry: '03752'
+    definition: speed (relative to the road surface) of the speed meter during a measurement
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: a983a8bc-b8a2-58b0-aa50-9108ef026b48
+schema_version: '3'
+related: []

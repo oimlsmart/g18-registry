@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '02880'
+  term: authorisation of a measuring system
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R117-1:2019
+    publication_id: OIML R117-1:2019
+    tc_sc: ''
+    year: 2019
+    clause: T.a.10
+    link:
+    g18_entry: '02880'
+    definition: operation that brings the measuring system into a condition suitable
+      for the commencement of the delivery
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 3feab67a-d077-5d0e-82df-331b03372067
+schema_version: '3'
+related: []

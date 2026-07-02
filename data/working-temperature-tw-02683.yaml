@@ -1,0 +1,26 @@
+---
+data:
+  identifier: '02683'
+  term: working temperature, tw
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R137:2012
+    publication_id: OIML R137:2012
+    tc_sc: ''
+    year: 2012
+    clause: 3.3.5
+    link:
+    g18_entry: '02683'
+    definition: temperature of the gas to be measured at the gas meter
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 9c4c0f6b-07cb-509e-aa74-3c68b4457ce8
+schema_version: '3'
+related: []

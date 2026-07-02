@@ -1,0 +1,29 @@
+---
+data:
+  identifier: '02408'
+  term: permanent flow rate Q3
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R049-1:2024
+    publication_id: OIML R049-1:2024
+    tc_sc: ''
+    year: 2024
+    clause: 3.3.2
+    link:
+    g18_entry: '02408'
+    definition: highest flow rate (3.3.1) within the rated operating condition(s)
+      (3.4.4) at which the meter is to operate within the maximum permissible error(s)
+      (3.2.5)
+    notes:
+    - 'Note: In this Recommendation, the flow rate is expressed in m3/h. See 4.1.3.'
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: '04934db1-df8a-5c1e-b539-faa5d32a9f87'
+schema_version: '3'
+related: []

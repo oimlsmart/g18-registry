@@ -1,0 +1,29 @@
+---
+data:
+  identifier: '03257'
+  term: measurement proces information
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML D031:2023
+    publication_id: OIML D031:2023
+    tc_sc: ''
+    year: 2023
+    clause: 3.2.39
+    link:
+    g18_entry: '03257'
+    definition: set of values of qualitative or quantitative variables representing
+      the measurement process
+    notes:
+    - 'Note: Measurement proces information includes measurement proces data and measurement
+      process metadata, see Annex C.'
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 129778f8-51e1-5db3-9b5c-dd2438c2dd0c
+schema_version: '3'
+related: []

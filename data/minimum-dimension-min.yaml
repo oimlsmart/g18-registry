@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '01715'
-  term: minimum dimension (min)
+  identifier: '03304'
+  term: minimum dimension (Min)
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 129:2000
+  - edition: '2010'
+    publication: OIML R 129:2000
     publication_id: OIML R129:2000
     tc_sc: ''
     year: 2000
@@ -14,6 +19,18 @@ data:
     g18_entry: '01715'
     definition: value of the dimension for each axis below which the measuring result
       may be subject to an excessive relative error
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R129-1:2020
+    publication_id: OIML R129-1:2020
+    tc_sc: ''
+    year: 2020
+    clause: 2.2.6
+    link:
+    g18_entry: '03304'
+    definition: value of the smallest measured dimension for each axis
     notes: []
     consistency: pending
     consistency_reason: ''

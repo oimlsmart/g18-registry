@@ -1,0 +1,40 @@
+---
+data:
+  identifier: '03197'
+  term: load, L
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R150-1:2020
+    publication_id: OIML R150-1:2020
+    tc_sc: ''
+    year: 2020
+    clause: 2.1.11
+    link:
+    g18_entry: '03198'
+    definition: amount of product that is currently introducing the force on the load
+      receptor
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R061-1:2017
+    publication_id: OIML R061-1:2017
+    tc_sc: ''
+    year: 2017
+    clause: 3.1.1
+    link:
+    g18_entry: '03197'
+    definition: amount of product that currently is introducing the force on the load
+      receptor
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: a074ce98-1f02-5083-81e6-123cd53b80eb
+schema_version: '3'
+related: []

@@ -4,8 +4,13 @@ data:
   term: conventional mass
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 111-1:2004
+  - edition: '2010'
+    publication: OIML R 111-1:2004
     publication_id: OIML R111-1:2004
     tc_sc: ''
     year: 2004
@@ -19,6 +24,23 @@ data:
       it balances in air of a reference density (r0) of 1.2 kg m–3
     notes:
     - Also called the conventional value of mass.
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 111-1:2004
+    publication_id: OIML R111-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.7'
+    link: https://www.oiml.org/en/files/pdf_R/r111-1-e04.pdf
+    g18_entry: '01448'
+    definition: Conventional value of the result of weighing in air, in accordance
+      with OIML D 28 Conventional value of the result of weighing in air [3]. For
+      a weight taken at a reference temperature (tref) of 20 °C, the conventional
+      mass is the mass of a reference weight of a density (rref) of 8 000 kg m–3 which
+      it balances in air of a reference density (r0) of 1.2 kg m–3
+    notes:
+    - 'Note: Also called the conventional value of mass.'
     consistency: pending
     consistency_reason: ''
 status: current

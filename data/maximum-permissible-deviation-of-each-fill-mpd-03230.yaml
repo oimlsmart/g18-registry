@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '03230'
+  term: maximum permissible deviation of each fill, mpd
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R061-1:2017
+    publication_id: OIML R061-1:2017
+    tc_sc: ''
+    year: 2017
+    clause: 3.5.2.4.1
+    link:
+    g18_entry: '03230'
+    definition: maximum permissible deviation of each fill from the average value
+      of all the fills of a test sequence
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: cfcc836b-e73f-5b39-950d-ad184f0d22ac
+schema_version: '3'
+related: []

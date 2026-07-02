@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '01108'
+  identifier: '02491'
   term: actual quantity
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 87:2004
+  - edition: '2010'
+    publication: OIML R 87:2004
     publication_id: OIML R087:2004
     tc_sc: ''
     year: 2004
@@ -15,6 +20,20 @@ data:
     definition: actual quantity of product that a prepackage in fact contains as determined
       by measurements made by legal metrology officials
     notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R087:2016
+    publication_id: OIML R087:2016
+    tc_sc: ''
+    year: 2016
+    clause: 2.1.1
+    link:
+    g18_entry: '02491'
+    definition: amount of product that a prepackage contains as determined by measurement
+    notes:
+    - Note:The actual quantity in a prepackage “i” is designated by the symbol Qi
+      or qi.
     consistency: pending
     consistency_reason: ''
 status: current

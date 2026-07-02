@@ -1,14 +1,24 @@
 ---
 data:
-  identifier: '00428'
+  identifier: '00826'
   term: maximum permissible error (mpe)
   kind: defined_in_vim
   official_concept:
     source: urn:oiml:pub:v:2:1993
     id: '5.21'
     url: https://oimlsmart.github.io/vocab/vim-1993/concept/5.21
+    definition_text:
+    edition_label: VIM 1993
+    vocab: vim
+    role: legacy
+    year: 1993
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 142:2008
+  - edition: '2010'
+    publication: OIML R 142:2008
     publication_id: OIML R142:2008
     tc_sc: ''
     year: 2008
@@ -21,7 +31,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 140:2007
+  - edition: '2010'
+    publication: OIML R 140:2007
     publication_id: OIML R140:2007
     tc_sc: ''
     year: 2007
@@ -33,7 +44,8 @@ data:
     - "(adapted from VIM:2007, 4.26)"
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 49-1:2006
+  - edition: '2010'
+    publication: OIML R 49-1:2006
     publication_id: OIML R049-1:2006
     tc_sc: ''
     year: 2006
@@ -47,10 +59,11 @@ data:
     consistency_reason: ''
     related:
     - type: see
-      ref: &1
+      ref:
         source: urn:oiml:pub:v:2:1993
         id: '5.21'
-  - publication: OIML R 65:2006
+  - edition: '2010'
+    publication: OIML R 65:2006
     publication_id: OIML R065:2006
     tc_sc: ''
     year: 2006
@@ -62,7 +75,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 137-1:2006
+  - edition: '2010'
+    publication: OIML R 137-1:2006
     publication_id: OIML R137-1:2006
     tc_sc: ''
     year: 2006
@@ -79,7 +93,8 @@ data:
       ref:
         source: urn:oiml:pub:v:2:1993
         id: '5.21'
-  - publication: OIML R 61-1:2004
+  - edition: '2010'
+    publication: OIML R 61-1:2004
     publication_id: OIML R061-1:2004
     tc_sc: ''
     year: 2004
@@ -98,7 +113,8 @@ data:
       ref:
         source: urn:oiml:pub:v:2:1993
         id: '5.21'
-  - publication: OIML R 136-1:2004
+  - edition: '2010'
+    publication: OIML R 136-1:2004
     publication_id: OIML R136-1:2004
     tc_sc: ''
     year: 2004
@@ -112,7 +128,8 @@ data:
     - "[VIM:1993, 5.21]"
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 75-1:2002
+  - edition: '2010'
+    publication: OIML R 75-1:2002
     publication_id: OIML R075-1:2002
     tc_sc: ''
     year: 2002
@@ -129,7 +146,8 @@ data:
       ref:
         source: urn:oiml:pub:v:2:1993
         id: '5.21'
-  - publication: OIML R 60:2000
+  - edition: '2010'
+    publication: OIML R 60:2000
     publication_id: OIML R060:2000
     tc_sc: ''
     year: 2000
@@ -146,9 +164,125 @@ data:
       ref:
         source: urn:oiml:pub:v:2:1993
         id: '5.21'
+  - edition: 202X
+    publication: OIML R060-1:2021
+    publication_id: OIML R060-1:2021
+    tc_sc: ''
+    year: 2021
+    clause: 3.7.10
+    link:
+    g18_entry: '03234'
+    definition: extreme value of measurement error, with respect to a konown reference
+      quantity value, permitted by specifications or regulations for given measurement,
+      measuring instrument, or measuring system [VIM 4.26]
+    notes:
+    - "(for notes, refer to the VIM)"
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R129-1:2020
+    publication_id: OIML R129-1:2020
+    tc_sc: ''
+    year: 2020
+    clause: 2.3.4
+    link:
+    g18_entry: '03235'
+    definition: extreme value (positive and negative) of the error of indication permitted
+      by specifications, Recommendations, regulations, etc. [adapted from VIM 4.26]
+    notes:
+    - 'Note: The absolute value of the mpe is the same value without sign.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R150-1:2020
+    publication_id: OIML R150-1:2020
+    tc_sc: ''
+    year: 2020
+    clause: 2.4.5.6
+    link:
+    g18_entry: '03236'
+    definition: extreme value of an error permitted by specifications, regulations,
+      etc. for a given instrument [VIML:2013 0.05]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R137:2012
+    publication_id: OIML R137:2012
+    tc_sc: ''
+    year: 2012
+    clause: 3.2.8
+    link:
+    g18_entry: '02664'
+    definition: extreme value of measurement error, with respect to a known reference
+      quantity value, permitted by specifications or regulations for a given measurement,
+      measuring instrument, or measuring system [VIM 4.26]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 140:2007
+    publication_id: OIML R140:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.2.6
+    link: https://www.oiml.org/en/files/pdf_R/r140-e07.pdf
+    g18_entry: '02072'
+    definition: extreme values permitted by this Recommendation for an error [adapted
+      from VIM:2007, 4.26]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 65:2006
+    publication_id: OIML R065:2006
+    tc_sc: ''
+    year: 2006
+    clause: '3.9'
+    link: https://www.oiml.org/en/files/pdf_R/r065-e06.pdf
+    g18_entry: '00826'
+    definition: maximum value of the error permitted by laws, regulations, or specifications
+      for a given measuring instrument
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 136-1:2004
+    publication_id: OIML R136-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: T.4.3
+    link: https://www.oiml.org/en/files/pdf_R/r136-1-e04.pdf
+    g18_entry: '01906'
+    definition: extreme value of an error permitted by specifications or regulations
+      between the indication of a measuring instrument and the corresponding true
+      value [VIM:1993, 5.21]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 75-1:2002
+    publication_id: OIML R075-1:2002
+    tc_sc: ''
+    year: 2002
+    clause: 4.9.5
+    link: https://www.oiml.org/en/files/pdf_R/r075-1-e02.pdf
+    g18_entry: '00863'
+    definition: extreme values of the error (positive or negative) permitted by this
+      Recommendation [adapted from VIM:1993, 5.21].
+    notes: []
+    consistency: pending
+    consistency_reason: ''
 status: current
 id: a9bd8014-ab09-5aa5-af27-dfa81897d89b
 schema_version: '3'
 related:
 - type: see
-  ref: *1
+  ref:
+    source: urn:oiml:pub:v:2:1993
+    id: '5.21'
+    definition_text:
+    edition_label: VIM 1993
+    vocab: vim
+    role: legacy
+    year: 1993

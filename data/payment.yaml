@@ -1,17 +1,34 @@
 ---
 data:
-  identifier: '01583'
+  identifier: '03355'
   term: payment
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 117-1:2007
+  - edition: '2010'
+    publication: OIML R 117-1:2007
     publication_id: OIML R117-1:2007
     tc_sc: ''
     year: 2007
     clause: T.p.1
     link: https://www.oiml.org/en/files/pdf_R/r117-1-e07.pdf
     g18_entry: '01583'
+    definition: monetary compensation in exchange for the delivered quantity of liquid
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R117-1:2019
+    publication_id: OIML R117-1:2019
+    tc_sc: ''
+    year: 2019
+    clause: T.p.1
+    link:
+    g18_entry: '03355'
     definition: monetary compensation in exchange for the delivered quantity of liquid
     notes: []
     consistency: pending

@@ -1,0 +1,28 @@
+---
+data:
+  identifier: 02305-R046-1
+  term: voltage (U)
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R046-1:2012
+    publication_id: OIML R046-1:2012
+    tc_sc: ''
+    year: 2012
+    clause: 2.2.6
+    link:
+    g18_entry: 02305-R046-1
+    definition: value of the electrical voltage supplied to the meter
+    notes:
+    - 'Note: The term “voltage” in this Recommendation indicates r.m.s. (root mean
+      square) values unless otherwise specified.'
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 84b5d615-59c4-5984-82e2-87e507bdfa05
+schema_version: '3'
+related: []

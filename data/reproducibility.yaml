@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '02670'
+  term: reproducibility
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R137:2012
+    publication_id: OIML R137:2012
+    tc_sc: ''
+    year: 2012
+    clause: 3.2.14
+    link:
+    g18_entry: '02670'
+    definition: measurement precision under reproducibility condition of measurement
+      [VIM 2.25]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: b508a86c-3b06-54a7-a1d9-c3bb7351c090
+schema_version: '3'
+related: []

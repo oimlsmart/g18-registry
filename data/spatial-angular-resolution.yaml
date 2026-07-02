@@ -4,8 +4,29 @@ data:
   term: spatial (angular) resolution
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 141:2008
+  - edition: '2010'
+    publication: OIML R 141:2008
+    publication_id: OIML R141:2008
+    tc_sc: ''
+    year: 2008
+    clause: '2.9'
+    link: https://www.oiml.org/en/files/pdf_R/r141-e08.pdf
+    g18_entry: '02113'
+    definition: dimension (angle, or sensitive elements) of a slit on a screen installed
+      in front of a large aperture radiator in the field of view of the thermographic
+      instrument, when the ratio between the peak increment of the slit temperature
+      over the screen temperature to the temperature difference of the radiator and
+      the screen reaches the preset value
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 141:2008
     publication_id: OIML R141:2008
     tc_sc: ''
     year: 2008

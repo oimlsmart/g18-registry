@@ -1,0 +1,31 @@
+---
+data:
+  identifier: '03766'
+  term: influence quantity (OIML V 1
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R091-1:2025
+    publication_id: OIML R091-1:2025
+    tc_sc: ''
+    year: 2025
+    clause: 3.5.7
+    link:
+    g18_entry: '03766'
+    definition: quantity that, in a direct measurement, does not affect the quantity
+      that is actually measured, but affects the relation between the indication and
+      the measurement result
+    notes:
+    - 'Note: For speed meters the following quantities are examples of influence quantities:
+      ambient temperature, measurement angle, acceleration of measured vehicle, distance
+      and speed of other vehicles on the same or neighbouring lanes.'
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 7a48ecf7-ceb3-5896-a936-32e6e0c1bf0d
+schema_version: '3'
+related: []

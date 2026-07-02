@@ -32,6 +32,8 @@ module G18
         page("publications/index.html", "publications_index")
         dataset.publications.each { |p| page("publications/#{p.slug}.html", "publication", pub: p) }
         page("leaderboard.html", "leaderboard")
+        page("editions.html", "editions")
+        page("harmonization.html", "harmonization")
         write_raw("stats.json", stats_json)
       end
 

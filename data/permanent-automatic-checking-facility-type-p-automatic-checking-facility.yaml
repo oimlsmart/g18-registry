@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '02439'
+  term: permanent automatic checking facility type P automatic checking facility
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R049-1:2024
+    publication_id: OIML R049-1:2024
+    tc_sc: ''
+    year: 2024
+    clause: 3.5.6
+    link:
+    g18_entry: '02439'
+    definition: 'automatic checking facility (3.5.5) that operates at each measurement
+      cycle [SOURCE: OIML D 11:2013, 3.19.1.1, [8] modified — Synonym presentation]'
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: bb7ea4d2-6a72-59c5-ab5e-e6354f4097bd
+schema_version: '3'
+related: []

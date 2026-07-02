@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '03571'
+  term: totalisation device
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R150-1:2020
+    publication_id: OIML R150-1:2020
+    tc_sc: ''
+    year: 2020
+    clause: 2.2.5
+    link:
+    g18_entry: '03571'
+    definition: device that uses information supplied by the force receptor to integrate
+      over the mass of product passing along the force receptor
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: f4c7620a-bbbb-5905-bd14-beb62b12419c
+schema_version: '3'
+related: []

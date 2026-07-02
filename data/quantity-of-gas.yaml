@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '01937'
+  identifier: '02657'
   term: quantity of gas
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 137-1:2006
+  - edition: '2010'
+    publication: OIML R 137-1:2006
     publication_id: OIML R137-1:2006
     tc_sc: ''
     year: 2006
@@ -15,6 +20,20 @@ data:
     definition: "(s total quantity of gas obtained by integrating the flow over time,
       expressed as volume V, mass m or energy E passed through the gas meter, disregarding
       the time taken. This is the measurand ee 2.1.2)"
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R137:2012
+    publication_id: OIML R137:2012
+    tc_sc: ''
+    year: 2012
+    clause: 3.2.1
+    link:
+    g18_entry: '02657'
+    definition: total quantity of gas obtained by integrating the flow passed through
+      the gas meter over time, which is expressed as volume V or mass m, disregarding
+      the time taken. The quantity of gas is the measurand concerned (see 0)
     notes: []
     consistency: pending
     consistency_reason: ''

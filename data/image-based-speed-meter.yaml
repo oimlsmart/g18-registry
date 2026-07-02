@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '03764'
+  term: image-based speed meter
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R091-1:2025
+    publication_id: OIML R091-1:2025
+    tc_sc: ''
+    year: 2025
+    clause: 3.3.5
+    link:
+    g18_entry: '03764'
+    definition: speed meter incorporating one or more video or photo cameras and determining
+      the speed of the vehicles by image processing
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 232500df-f5c5-5a7d-ab55-a6b889d27333
+schema_version: '3'
+related: []

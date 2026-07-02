@@ -1,0 +1,31 @@
+---
+data:
+  identifier: '03760'
+  term: fixed-distance speed meter
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R091-1:2025
+    publication_id: OIML R091-1:2025
+    tc_sc: ''
+    year: 2025
+    clause: 3.3.3
+    link:
+    g18_entry: '03760'
+    definition: speed meter emitting pulsed or modulated radiation and detecting the
+      range (distance) from the radiation reflected by objects
+    notes:
+    - 'Note: 2D and 3D laser scanners and hand-held LIDAR speed meters are examples
+      belonging to this category. LIDAR (Light Detection and Ranging) is a remote
+      sensing method that determines target range and speed based on the time-of-flight
+      of laser light pulses reflected off a target.'
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 959ab824-fdb5-54ea-b161-0944e60cc8ac
+schema_version: '3'
+related: []

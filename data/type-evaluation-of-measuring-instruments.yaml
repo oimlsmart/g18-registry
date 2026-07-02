@@ -1,0 +1,30 @@
+---
+data:
+  identifier: '02207'
+  term: type evaluation of measuring instruments
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML D001:2012
+    publication_id: OIML D001:2012
+    tc_sc: ''
+    year: 2012
+    clause: 3.1.7
+    link:
+    g18_entry: '02207'
+    definition: type (pattern) evaluation conformity assessment procedure on one or
+      more specimens of an identified type (pattern) of measuring instruments which
+      results in an evaluation report and/or an evaluation certificate [VIML 2.05]
+    notes:
+    - 'Note:  “Pattern” is used in legal metrology with the same meaning as “type”.
+      In the entries below, only “type” is used.'
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 33cf9893-6515-5257-82f8-29814ad016c3
+schema_version: '3'
+related: []

@@ -4,8 +4,13 @@ data:
   term: lot (of measuring instruments)
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML D 20:1988
+  - edition: '2010'
+    publication: OIML D 20:1988
     publication_id: OIML D020:1988
     tc_sc: ''
     year: 1988
@@ -17,6 +22,21 @@ data:
     notes:
     - A part of a lot, as defined above, contained in a single shipment is sometimes
       also referred to as a lot.
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D 20:1988
+    publication_id: OIML D020:1988
+    tc_sc: ''
+    year: 1988
+    clause: 1.2.10
+    link: https://www.oiml.org/en/files/pdf_D/d020-e88.pdf
+    g18_entry: '00144'
+    definition: the set of all the measuring instruments of the same type produced
+      in a single production run
+    notes:
+    - 'Note:  A part of a lot, as defined above, contained in a single shipment is
+      sometimes also referred to as a lot.'
     consistency: pending
     consistency_reason: ''
 status: current

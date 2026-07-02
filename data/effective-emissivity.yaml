@@ -1,0 +1,29 @@
+---
+data:
+  identifier: '02833'
+  term: effective emissivity
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R147:2016
+    publication_id: OIML R147:2016
+    tc_sc: ''
+    year: 2016
+    clause: 2.2.12
+    link:
+    g18_entry: '02833'
+    definition: apparent emissivity of a blackbody cavity or a surface of a flat-plate
+      blackbody radiator. This should take into account the intrinsic emissivity of
+      the surface, the geometrical factor, the temperature distribution, and the ambient
+      thermal radiation
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 97e5c586-b6b3-5856-8412-7ff12dd6d21e
+schema_version: '3'
+related: []

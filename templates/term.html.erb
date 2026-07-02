@@ -1,4 +1,19 @@
 <% pubs = dataset.publications_for_term(term) %>
+<% official = term.official_concept || {} %>
+<% official_urn = official["source"] %>
+<% official_role = G18::Site.viml_role(official_urn) %>
+<% official_text = official["definition_text"] %>
+<%
+   if term.undefined?
+     match_status, match_status_label = "notinviml", "Not in VIM/VIML"
+   elsif official_role == :current
+     match_status, match_status_label = "full", "Full match — latest #{official['edition_label']}"
+   elsif official_role
+     match_status, match_status_label = "outdated", "Outdated — #{official['edition_label']} (superseded)"
+   else
+     match_status, match_status_label = "unattrib", "Match (unattributed)"
+   end
+%>
 <section class="page-head">
   <div class="breadcrumb">
     <a href="<%= rel_root %>index.html">Registry</a> /
@@ -8,37 +23,87 @@
   <h1><%= h term.name %></h1>
   <p class="lede">
     <%= kind_badge(term) %>
+    <span class="match-status match-status-<%= match_status %>"><%= h match_status_label %></span>
     G 18 #<%= h term.identifier %> · <%= pubs.size %> publication instance<%= pubs.size == 1 ? '' : 's' %>
   </p>
 </section>
 
+<aside class="legend">
+  <h3>How to read this page</h3>
+  <div class="legend-row">
+    <span class="legend-label">VIM:</span>
+    <span class="viml-ref vim-current">VIM 2012<span class="viml-latest-badge">Latest</span></span>
+    <span class="viml-ref vim-prior">VIM 2010, 2007</span>
+    <span class="viml-ref vim-legacy">VIM 1993</span>
+  </div>
+  <div class="legend-row">
+    <span class="legend-label">VIML:</span>
+    <span class="viml-ref viml-current">VIML 2022<span class="viml-latest-badge">Latest</span></span>
+    <span class="viml-ref viml-prior">VIML 2013, 2000</span>
+    <span class="viml-ref viml-legacy">VIML 1968</span>
+  </div>
+  <p style="margin: 0.5em 0 0; font-size: 0.85em; color: var(--gray-text);">
+    Authoritative definitions form the baseline against which OIML publication definitions are compared. Newer editions take precedence; older ones are shown faded and may have been superseded.
+  </p>
+</aside>
+
 <section class="card">
-  <h2>Official definition</h2>
-  <% if term.defined? && term.official_concept %>
-    <p>
-      Defined in <strong><%= term.vocabulary_label %></strong>
-      (<%= h term.official_concept["source"] %>), concept
-      <strong>#<%= h term.official_concept["id"] %></strong>.
-    </p>
-    <p>
-      <a class="external" href="<%= h term.official_concept["url"] %>">View concept on oimlsmart.github.io/vocab →</a>
-    </p>
+  <h2>Authoritative definition</h2>
+
+  <% if term.defined? && official.any? %>
+    <% confidence = G18::Site.viml_confidence_class(official_urn) || "" %>
+    <div class="authority-defn <%= confidence %>">
+      <div class="authority-defn-head">
+        <span class="<%= confidence %>">
+          <%= h official["edition_label"] || official_urn %>
+          <% if G18::Site.viml_current?(official_urn) %><span class="viml-latest-badge">Latest</span><% end %>
+        </span>
+        · concept <strong>#<%= h official["id"] %></strong>
+        <% if official["url"] %>
+          · <a class="external" href="<%= h official["url"] %>">view ↗</a>
+        <% end %>
+      </div>
+      <% if official_text && !official_text.empty? %>
+        <p class="authority-defn-body"><%= h official_text %></p>
+      <% else %>
+        <p class="muted" style="margin: 0.3em 0;">Definition text unavailable for this edition.</p>
+      <% end %>
+    </div>
+
+    <% if G18::Site.viml_superseded?(official_urn) %>
+      <% latest_label = G18::Site.viml_vocab(official_urn) == :vim ? "VIM 2012" : "VIML 2022" %>
+      <div class="admonition warn">
+        <strong>Outdated reference:</strong> This term cites <%= h official["edition_label"] %>, which has been superseded. The latest authoritative edition of the same vocabulary is <strong><%= latest_label %></strong> — editors should re-check whether the term still appears there with the same or a revised definition.
+      </div>
+    <% end %>
   <% elsif term.defined? %>
     <p class="muted">Marked as <%= h term.kind %> but no concept reference found.</p>
   <% else %>
-    <p class="muted">Not defined in VIM or VIML.</p>
+    <div class="admonition danger">
+      <strong>Not in VIM or VIML.</strong> This term has no authoritative definition in either OIML vocabulary. Its definition is observed only in OIML publications listed below — treat with caution, since there is no canonical baseline to compare against.
+    </div>
   <% end %>
 
   <% if term.related.any? %>
-    <h3>Related (VIM/VIML)</h3>
+    <h3>Related VIM/VIML references</h3>
     <ul class="related-list">
       <% term.related.each do |edge| %>
         <% ref = edge["ref"] || {} %>
+        <% urn = ref["source"] %>
+        <% conf = G18::Site.viml_confidence_class(urn) || "" %>
+        <% text = ref["definition_text"] %>
+        <% url = ref["url"] || (urn && ref["id"] ? G18::Migration.vocab_concept_url(urn, ref["id"]) : nil) %>
         <li>
-          <code><%= h edge["type"] %></code> →
-          <%= h ref["source"] %>/concept/<%= h ref["id"] %>
-          <% if ref["source"] && ref["id"] && (url = G18::Migration.vocab_concept_url(ref["source"], ref["id"])) %>
+          <span class="<%= conf %>">
+            <%= h ref["edition_label"] || urn %>
+            <% if G18::Site.viml_current?(urn) %><span class="viml-latest-badge">Latest</span><% end %>
+          </span>
+          · concept <strong>#<%= h ref["id"] %></strong>
+          <% if url %>
             <a class="external" href="<%= h url %>">view ↗</a>
+          <% end %>
+          <% if text && !text.empty? %>
+            <div class="authority-defn-body" style="margin-top: 0.4em; font-size: 0.92em;"><%= h text %></div>
           <% end %>
         </li>
       <% end %>
@@ -72,6 +137,7 @@
   <table class="pubs-table">
     <thead>
       <tr>
+        <th>Ed.</th>
         <th>Year</th>
         <th>Publication</th>
         <th>TC/SC</th>
@@ -86,7 +152,11 @@
       <% defn = (p["definition"] || "").strip %>
       <% canonical_def = term.distinct_definitions.first %>
       <% divergent = term.diverges? && defn != canonical_def %>
+      <% edition = p["edition"] || "—" %>
       <tr class="pub-row <%= divergent ? 'row-divergent' : '' %>" data-divergent="<%= divergent ? 1 : 0 %>">
+        <td>
+          <span class="edition-pill edition-<%= edition.downcase.gsub(/[^a-z0-9]/, '') %>"><%= h edition %></span>
+        </td>
         <td class="num"><%= h p["year"] || "—" %></td>
         <td>
           <a href="<%= rel_root %><%= pub&.path || '#' %>"><%= h p["publication"] %></a>
@@ -113,7 +183,9 @@
               Cross-refs:
               <% p["related"].each do |e| %>
                 <% r = e["ref"] || {} %>
-                <code><%= h r["source"] %>/#<%= h r["id"] %></code>
+                <% rurn = r["source"] %>
+                <% rconf = G18::Site.viml_confidence_class(rurn) %>
+                <code class="<%= rconf %>"><%= h r["edition_label"] || rurn %>/#<%= h r["id"] %></code>
               <% end %>
             </div>
           <% end %>

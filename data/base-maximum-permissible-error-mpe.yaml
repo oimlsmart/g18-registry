@@ -1,0 +1,32 @@
+---
+data:
+  identifier: '02318-R046-1'
+  term: base maximum permissible error mpe
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R046-1:2012
+    publication_id: OIML R046-1:2012
+    tc_sc: ''
+    year: 2012
+    clause: 2.2.19
+    link:
+    g18_entry: '02318-R046-1'
+    definition: extreme value of the error of indication of a meter, permitted by
+      this Recommendation, when the current and power factor are varied within the
+      intervals given by the rated operating conditions, and when the meter is otherwise
+      operated at reference conditions
+    notes:
+    - Note:In this Recommendation, the maximum permissible error is a combination
+      of the base maximum permissible error and the maximum permissible error shift
+      as described in Annex B.
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: afd51dd7-2eef-59a3-9223-3826e28244b8
+schema_version: '3'
+related: []

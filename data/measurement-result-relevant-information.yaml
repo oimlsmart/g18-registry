@@ -1,0 +1,29 @@
+---
+data:
+  identifier: '03263'
+  term: measurement result relevant information
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML D031:2023
+    publication_id: OIML D031:2023
+    tc_sc: ''
+    year: 2023
+    clause: 3.2.45
+    link:
+    g18_entry: '03263'
+    definition: set of values of qualitative or quantitative variables relevant to
+      the measurement result
+    notes:
+    - 'Note: Measurement result relevant information includes measurement result relevant
+      data and measurement result relevant metadata, see Annex C.'
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: b507ea4a-587f-55d7-942a-7f6311b706af
+schema_version: '3'
+related: []

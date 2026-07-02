@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '01742'
+  term: analysis wavelength, 
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R 131:2001
+    publication_id: OIML R131:2001
+    tc_sc: ''
+    year: 2001
+    clause: '3.4'
+    link: https://www.oiml.org/en/files/pdf_R/r131-e01.pdf
+    g18_entry: '01742'
+    definition: wavelength used in a spectrophotometer for measuring the optical absorbance
+      of a PMMA dosimeter
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: a736c820-8f05-5ce7-b91c-35d5c1081c33
+schema_version: '3'
+related: []

@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '02392'
+  term: connection interface for meters with exchangeable metrological modules
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R049-1:2024
+    publication_id: OIML R049-1:2024
+    tc_sc: ''
+    year: 2024
+    clause: 3.1.24
+    link:
+    g18_entry: '02392'
+    definition: pipe fitting specific to the connection of exchangeable metrological
+      modules
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 389070a8-0b60-5797-b174-e25e47b2d23f
+schema_version: '3'
+related: []

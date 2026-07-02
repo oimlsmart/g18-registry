@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '02679'
+  term: flow rate, Q
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R137:2012
+    publication_id: OIML R137:2012
+    tc_sc: ''
+    year: 2012
+    clause: 3.3.1
+    link:
+    g18_entry: '02679'
+    definition: quotient of the actual quantity of gas passing through the gas meter
+      and the time taken for this quantity to pass through the gas meter
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 0d50609d-dd5a-5229-a61a-c7b69318e1a8
+schema_version: '3'
+related: []

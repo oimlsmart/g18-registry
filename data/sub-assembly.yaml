@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '02216'
+  identifier: '02299-R046-1'
   term: sub-assembly
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML D 31:2008
+  - edition: '2010'
+    publication: OIML D 31:2008
     publication_id: OIML D031:2008
     tc_sc: ''
     year: 2008
@@ -17,6 +22,18 @@ data:
     notes:
     - '1'
     - 2. [OIML D 11:2004, 3.3]
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R046-1:2012
+    publication_id: OIML R046-1:2012
+    tc_sc: ''
+    year: 2012
+    clause: 2.1.20
+    link:
+    g18_entry: '02299-R046-1'
+    definition: part of a device having a recognizable function of its own
+    notes: []
     consistency: pending
     consistency_reason: ''
 status: current

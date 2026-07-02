@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '00769'
+  identifier: '03078'
   term: final feed cut-off device
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 61-1:2004
+  - edition: '2010'
+    publication: OIML R 61-1:2004
     publication_id: OIML R061-1:2004
     tc_sc: ''
     year: 2004
@@ -15,6 +20,20 @@ data:
     definition: device which controls the cut-off of the final feed so that the average
       mass of the fills corresponds to the preset value. This device may include an
       adjustable compensation for the material inflight
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R061-1:2017
+    publication_id: OIML R061-1:2017
+    tc_sc: ''
+    year: 2017
+    clause: 3.3.1.3.3
+    link:
+    g18_entry: '03078'
+    definition: device which controls the cut-off of the final feed so that the average
+      value of the mass of the fills corresponds to the preset value and may include
+      a correction device for the material feed into the weighing module
     notes: []
     consistency: pending
     consistency_reason: ''

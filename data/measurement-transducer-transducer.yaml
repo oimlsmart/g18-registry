@@ -1,0 +1,30 @@
+---
+data:
+  identifier: '03248'
+  term: measurement transducer transducer
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R139-1:2022
+    publication_id: OIML R139-1:2022
+    tc_sc: ''
+    year: 2022
+    clause: 3.2.3.2
+    link:
+    g18_entry: '03248'
+    definition: device that provides an output quantity having a specified relation
+      to the input quantity [OIML V-2-200:2012, 3.7] [OIML V 1:2013, 0.11]
+    notes:
+    - 'Note: For the purpose of this Recommendation this transducer is part of the
+      measuring device and its output signal represents the output quantity which
+      is based on the input from the sensor(s), being the input quantity.'
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: f2ab633e-cd5f-5afc-aa62-33e260dde11e
+schema_version: '3'
+related: []

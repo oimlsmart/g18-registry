@@ -1,0 +1,30 @@
+---
+data:
+  identifier: '02282-R046-1'
+  term: prepayment meter
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R046-1:2012
+    publication_id: OIML R046-1:2012
+    tc_sc: ''
+    year: 2012
+    clause: '2.13'
+    link:
+    g18_entry: '02282-R046-1'
+    definition: electricity meter intended to allow electrical energy to be delivered
+      up to a predetermined amount
+    notes:
+    - 'Note 1:  Such a meter measures energy continuously and stores and displays
+      the measured energy. Note 2:  National authorities may specify requirements
+      in relation to prepayment meters.'
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: e24d0a46-fb2f-5b52-9654-0ac780a4c28d
+schema_version: '3'
+related: []

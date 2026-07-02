@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '03767'
+  term: initial intrinsic error (OIML V 1
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R091-1:2025
+    publication_id: OIML R091-1:2025
+    tc_sc: ''
+    year: 2025
+    clause: 3.5.4
+    link:
+    g18_entry: '03767'
+    definition: intrinsic error of a measuring instrument as determined prior to performance
+      tests and durability evaluations
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: e7b713f5-9adf-597b-b1ca-522ba36f354e
+schema_version: '3'
+related: []

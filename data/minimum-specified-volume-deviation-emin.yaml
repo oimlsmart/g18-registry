@@ -1,0 +1,40 @@
+---
+data:
+  identifier: '02284-R080-1'
+  term: minimum specified volume deviation (Emin)
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R080-2:2017
+    publication_id: OIML R080-2:2017
+    tc_sc: ''
+    year: 2017
+    clause: '2'
+    link:
+    g18_entry: '03316'
+    definition: twice the absolute value of the maximum permissible error for the
+      minimum measured quantity of a tank or compartment
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 80-1:2009
+    publication_id: OIML R080-1:2009
+    tc_sc: ''
+    year: 2009
+    clause: '2.45'
+    link: https://www.oiml.org/en/files/pdf_R/r080-1-e09.pdf
+    g18_entry: '02284-R080-1'
+    definition: twice the absolute value of the maximum permissible error for the
+      minimum measured quantity of a tank or compartment
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 1a4cf15e-805e-5e18-a902-1d28d49c3b2d
+schema_version: '3'
+related: []

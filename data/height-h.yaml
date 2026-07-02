@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '03096'
+  term: height (H)
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R129-1:2020
+    publication_id: OIML R129-1:2020
+    tc_sc: ''
+    year: 2020
+    clause: 2.1.1.3
+    link:
+    g18_entry: '03096'
+    definition: linear measures dimension that is oriented 90 degrees relative to
+      the length and width
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 72942124-5852-513f-a02d-00d7b9b2802e
+schema_version: '3'
+related: []

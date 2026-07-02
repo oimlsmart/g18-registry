@@ -1,14 +1,24 @@
 ---
 data:
-  identifier: '00735'
+  identifier: '03201'
   term: load cell intrinsic error
   kind: defined_in_vim
   official_concept:
     source: urn:oiml:pub:v:2:1993
     id: '5.24'
     url: https://oimlsmart.github.io/vocab/vim-1993/concept/5.24
+    definition_text:
+    edition_label: VIM 1993
+    vocab: vim
+    role: legacy
+    year: 1993
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 60:2000
+  - edition: '2010'
+    publication: OIML R 60:2000
     publication_id: OIML R060:2000
     tc_sc: ''
     year: 2000
@@ -22,12 +32,31 @@ data:
     consistency_reason: ''
     related:
     - type: see
-      ref: &1
+      ref:
         source: urn:oiml:pub:v:2:1993
         id: '5.24'
+  - edition: 202X
+    publication: OIML R060-1:2019
+    publication_id: OIML R060-1:2019
+    tc_sc: ''
+    year: 2019
+    clause: 3.7.9
+    link:
+    g18_entry: '03201'
+    definition: error resulting from a load cel, determined under reference conditions
+    notes: []
+    consistency: pending
+    consistency_reason: ''
 status: current
 id: 64fb876f-862d-5a73-a583-32f038fa96c8
 schema_version: '3'
 related:
 - type: see
-  ref: *1
+  ref:
+    source: urn:oiml:pub:v:2:1993
+    id: '5.24'
+    definition_text:
+    edition_label: VIM 1993
+    vocab: vim
+    role: legacy
+    year: 1993

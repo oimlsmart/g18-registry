@@ -1,17 +1,35 @@
 ---
 data:
-  identifier: '00709'
+  identifier: '03098'
   term: humidity symbol
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 60:2000
+  - edition: '2010'
+    publication: OIML R 60:2000
     publication_id: OIML R060:2000
     tc_sc: ''
     year: 2000
     clause: 2.2.2
     link: https://www.oiml.org/en/files/pdf_R/r060-e00.pdf
     g18_entry: '00709'
+    definition: symbol assigned to a load cell that indicates the conditions of humidity
+      under which the load cell has been tested
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R060-1:2021
+    publication_id: OIML R060-1:2021
+    tc_sc: ''
+    year: 2021
+    clause: 2.2.2
+    link:
+    g18_entry: '03098'
     definition: symbol assigned to a load cell that indicates the conditions of humidity
       under which the load cell has been tested
     notes: []

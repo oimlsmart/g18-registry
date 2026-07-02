@@ -1,0 +1,30 @@
+---
+data:
+  identifier: '03532'
+  term: standard measurement cycle
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R126-1:2021
+    publication_id: OIML R126-1:2021
+    tc_sc: ''
+    year: 2021
+    clause: 3.2.12
+    link:
+    g18_entry: '03532'
+    definition: the measurement cycle of an EBA consists of all steps necessary to
+      obtain a valid result, from starting the measurement, sampling, analysing, internal
+      control procedures, calculation, and displaying the result
+    notes:
+    - 'Note: Since national authorities may define specific measurement cycles for
+      their country, “standard” refers to the respective country.'
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 48363b71-3897-5d24-926e-6d70eb03d822
+schema_version: '3'
+related: []

@@ -1,0 +1,40 @@
+---
+data:
+  identifier: '03533'
+  term: standby mode
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R091-1:2025
+    publication_id: OIML R091-1:2025
+    tc_sc: ''
+    year: 2025
+    clause: 3.1.3
+    link:
+    g18_entry: '03784'
+    definition: mode of operation in which no speed measurements will be performed
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R126-1:2021
+    publication_id: OIML R126-1:2021
+    tc_sc: ''
+    year: 2021
+    clause: 3.2.10
+    link:
+    g18_entry: '03533'
+    definition: mode of the EBA whereby only certain circuits are energized in order
+      to conserve power and/or prolong component life, and to attain the measuring
+      mode more rapidly than would be possible if starting from the switched-off state
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: d9540290-6efc-57b9-aafb-83b94f7377f8
+schema_version: '3'
+related: []

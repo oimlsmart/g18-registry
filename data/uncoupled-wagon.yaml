@@ -1,0 +1,26 @@
+---
+data:
+  identifier: '02529'
+  term: uncoupled wagon
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R106-1:2011
+    publication_id: OIML R106-1:2011
+    tc_sc: ''
+    year: 2011
+    clause: 0.1.8
+    link:
+    g18_entry: '02529'
+    definition: single wagon not joined with other wagons
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: d9835c6a-71bb-50fb-82e8-9c6590903650
+schema_version: '3'
+related: []

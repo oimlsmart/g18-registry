@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '02198'
+  identifier: '03189'
   term: legally relevant software part
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML D 31:2008
+  - edition: '2010'
+    publication: OIML D 31:2008
     publication_id: OIML D031:2008
     tc_sc: ''
     year: 2008
@@ -15,6 +20,35 @@ data:
     definition: part of all software modules of a measuring instrument, electronic
       device, or sub-assembly that is legally relevant
     notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R142-1:2025
+    publication_id: OIML R142-1:2025
+    tc_sc: ''
+    year: 2025
+    clause: '2.30'
+    link:
+    g18_entry: '03720'
+    definition: all software modules of measuring instrument/component that are subject
+      to legal control
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R150-1:2020
+    publication_id: OIML R150-1:2020
+    tc_sc: ''
+    year: 2020
+    clause: 2.2.9.2
+    link:
+    g18_entry: '03189'
+    definition: part of all software modules of measuring instrument, electronic device,
+      or sub-assembly that is legally relevant [OIML D 31, 3.1.31]
+    notes:
+    - 'Note: Examples of legally relevant software are software involved in determining
+      the final results of the measurement including the decimal sign and the unit,
+      identifying the weighing range, software identification and configuration information.'
     consistency: pending
     consistency_reason: ''
 status: current

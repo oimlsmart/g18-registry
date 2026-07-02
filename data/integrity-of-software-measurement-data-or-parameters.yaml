@@ -1,0 +1,29 @@
+---
+data:
+  identifier: '03149'
+  term: integrity (of software, measurement data, or parameters)
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML D031:2023
+    publication_id: OIML D031:2023
+    tc_sc: ''
+    year: 2023
+    clause: 3.2.25
+    link:
+    g18_entry: '03149'
+    definition: assurance that the software, measurement data, or parameters have
+      not been subjected to any  unintentional, accidental or inadmissible changes
+      while in use, transfer, storage, repair or maintenance
+    notes:
+    - Note:Software may include prameters and data, see 3.2.70.
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 370ede34-9209-5ba0-9d9a-14e312ac1955
+schema_version: '3'
+related: []

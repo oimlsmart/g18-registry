@@ -1,0 +1,28 @@
+---
+data:
+  identifier: '03601'
+  term: strain gauge
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R060-1:2021
+    publication_id: OIML R060-1:2021
+    tc_sc: ''
+    year: 2021
+    clause: 3.3.1
+    link:
+    g18_entry: '03601'
+    definition: analogue resistive element that is attached to a load cell structure
+      and thet changes resistance depending on the deformation of the load cell structure
+      when compression or tension force are applied to the load cell
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: cf5c9e4a-dccd-5348-b4d4-3142642e28d0
+schema_version: '3'
+related: []

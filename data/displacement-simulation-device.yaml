@@ -1,0 +1,30 @@
+---
+data:
+  identifier: '02997'
+  term: displacement simulation device
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R050-1:2014
+    publication_id: OIML R050-1:2014
+    tc_sc: ''
+    year: 2014
+    clause: 2.1.11
+    link:
+    g18_entry: '02997'
+    definition: device used in simulation tests on continuously totalizing  weigher
+      without its conveyor and intended to simulate displacement of the belt by activating
+      the displacement transducer in a similar manner to how it would operate with
+      the conveyor (e.g. by use of puls generator or motor to simulate rotation of
+      wheel which incorporates the displacement transducer)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 020b2739-5a87-50ca-9690-f911b7f35ef0
+schema_version: '3'
+related: []

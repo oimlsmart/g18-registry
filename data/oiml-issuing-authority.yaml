@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '00102'
+  identifier: '03345'
   term: OIML Issuing Authority
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML B 10-1:2004
+  - edition: '2010'
+    publication: OIML B 10-1:2004
     publication_id: OIML B010-1:2004
     tc_sc: TC 3/SC 2
     year: 2004
@@ -21,6 +26,20 @@ data:
       ned by national regulations. When the "Issuing Authority" is used in this ent
       without being further qualified, "OIML Issuing Authority" and "National ng Authority"
       are assumed.
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D030:2020
+    publication_id: OIML D030:2020
+    tc_sc: ''
+    year: 2020
+    clause: 3.G.3-2
+    link:
+    g18_entry: '03345'
+    definition: Certification body from an OIML Member State issuing OIML Certificates
+      and associated OIML type evaluation reports in accordance with Scheme A or Scheme
+      B (OIML B 18, 3.27)
+    notes: []
     consistency: pending
     consistency_reason: ''
 status: current

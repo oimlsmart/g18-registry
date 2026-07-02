@@ -4,8 +4,13 @@ data:
   term: reproducibility error
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 136-1:2004
+  - edition: '2010'
+    publication: OIML R 136-1:2004
     publication_id: OIML R136-1:2004
     tc_sc: ''
     year: 2004
@@ -18,6 +23,22 @@ data:
     notes:
     - ther-measuring instrument (e.g. use of a nical or electronic pinwheel, etc.);
       ther material; rator; ation; and e.
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 136-1:2004
+    publication_id: OIML R136-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: T.4.10
+    link: https://www.oiml.org/en/files/pdf_R/r136-1-e04.pdf
+    g18_entry: '01913'
+    definition: closeness of the agreement between the results of successive leather
+      area measurements carried out under changed conditions of measurement
+    notes:
+    - 'Note: The changed conditions may include: leather-measuring instrument (e.g.
+      use of a mechanical or electronic pinwheel, etc.); leather material; operator;
+      location; and time.'
     consistency: pending
     consistency_reason: ''
 status: current

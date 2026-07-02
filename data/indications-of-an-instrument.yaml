@@ -4,8 +4,13 @@ data:
   term: indications of an instrument
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 76-1:2006
+  - edition: '2010'
+    publication: OIML R 76-1:2006
     publication_id: OIML R076-1:2006
     tc_sc: ''
     year: 2006
@@ -15,6 +20,20 @@ data:
     definition: value of a quantity provided by a measuring instrument
     notes:
     - '"Indication", "indicate" or "indicating" includes both displaying and/or printing.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 76-1:2006
+    publication_id: OIML R076-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.1.3
+    link: https://www.oiml.org/en/files/pdf_R/r076-1-e06.pdf
+    g18_entry: '00889'
+    definition: value of a quantity provided by a measuring instrument
+    notes:
+    - 'Note: “Indication”, “indicate” or “indicating” includes both displaying and/or
+      printing.'
     consistency: pending
     consistency_reason: ''
 status: current

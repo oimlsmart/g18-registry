@@ -1,0 +1,27 @@
+---
+data:
+  identifier: 02334-R046-1
+  term: positive-direction only (energy) flow
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R046-1:2012
+    publication_id: OIML R046-1:2012
+    tc_sc: ''
+    year: 2012
+    clause: 2.2.35
+    link:
+    g18_entry: 02334-R046-1
+    definition: capability of the meter to measure energy flow in only one direction
+      (positive direction)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 5b582963-ab38-530d-86d1-424677b31a73
+schema_version: '3'
+related: []

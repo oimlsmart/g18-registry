@@ -4,8 +4,13 @@ data:
   term: evaluator
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML D 29:2008
+  - edition: '2010'
+    publication: OIML D 29:2008
     publication_id: OIML D029:2008
     tc_sc: ''
     year: 2008
@@ -14,6 +19,19 @@ data:
     g18_entry: '02156'
     definition: "- G.3-2 person on the staff of the certification body who is in charge
       of the type evaluation of a measuring instrument"
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D 29:2008
+    publication_id: OIML D029:2008
+    tc_sc: ''
+    year: 2008
+    clause: 3-G.3-2
+    link: https://www.oiml.org/en/files/pdf_D/d029-e08.pdf
+    g18_entry: '02156'
+    definition: person on the staff of the certification body who is in charge of
+      the type evaluation of a measuring instrument
     notes: []
     consistency: pending
     consistency_reason: ''

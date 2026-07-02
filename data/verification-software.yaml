@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '03701'
+  term: verification software
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML D031:2023
+    publication_id: OIML D031:2023
+    tc_sc: ''
+    year: 2023
+    clause: 3.2.75
+    link:
+    g18_entry: '03701'
+    definition: software on remote unit used fot the purpose of verification of measuring
+      instrument
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 32c59658-888b-5120-ac08-1a390a2bae5b
+schema_version: '3'
+related: []

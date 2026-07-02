@@ -4,8 +4,13 @@ data:
   term: standard deviation of the error, s
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 51-1:2006
+  - edition: '2010'
+    publication: OIML R 51-1:2006
     publication_id: OIML R051-1:2006
     tc_sc: ''
     year: 2006
@@ -15,6 +20,20 @@ data:
     definition: 'standard deviation of the error (of indication) for a number of consecutive
       automatic weighings of a load, or similar loads, passed over the load receptor,
       expressed mathematically as: stem:[Sigma] (xi - x ) n 2 i -1 s] n -1'
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication:
+    publication_id:
+    tc_sc: ''
+    year:
+    clause:
+    link:
+    g18_entry: '00659'
+    definition: 'standard deviation of the error (of indication) for a number of consecutive
+      automatic weighings of a load, or similar loads, passed over the load receptor,
+      expressed mathematically as:'
     notes: []
     consistency: pending
     consistency_reason: ''

@@ -1,0 +1,28 @@
+---
+data:
+  identifier: '01843'
+  term: transmittance (τ = Φtr / Φ0)
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R 135:2004
+    publication_id: OIML R135:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.4'
+    link: https://www.oiml.org/en/files/pdf_R/r135-e04.pdf
+    g18_entry: '01843'
+    definition: ratio of the transmitted radiant luminous flux to the incident flux
+    notes:
+    - 'Note 1:   ISO 6286, Table 1, No. 4. Note 2:  Transmittance has the dimension
+      one and is expressed with the derived coherent SI unit one (1).'
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 253f6cda-3cea-50a9-970b-2a82b20fbf69
+schema_version: '3'
+related: []

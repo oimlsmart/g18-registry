@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '00498'
+  identifier: '01332'
   term: totalization device
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 107-1:2007
+  - edition: '2010'
+    publication: OIML R 107-1:2007
     publication_id: OIML R107-1:2007
     tc_sc: ''
     year: 2007
@@ -17,7 +22,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 50-1:1997
+  - edition: '2010'
+    publication: OIML R 50-1:1997
     publication_id: OIML R050-1:1997
     tc_sc: ''
     year: 1997
@@ -28,6 +34,33 @@ data:
       and the displacement transducer to do either: an addition of partial loads,
       or an integration of the product of the load per unit length and the speed of
       the belt"
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R050-1:2014
+    publication_id: OIML R050-1:2014
+    tc_sc: ''
+    year: 2014
+    clause: 2.2.5
+    link:
+    g18_entry: '03572'
+    definition: device that uses information supplied by the weighing module and the
+      displacement transducer, either -  to add partial loads, or -  to integrate
+      the product of the load per unit length and the speed of the belt
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 107-1:2007
+    publication_id: OIML R107-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.2.3
+    link: https://www.oiml.org/en/files/pdf_R/r107-1-e07.pdf
+    g18_entry: '01332'
+    definition: device that calculates the sum of consecutive loads weighed and discharged
+      to bulk
     notes: []
     consistency: pending
     consistency_reason: ''

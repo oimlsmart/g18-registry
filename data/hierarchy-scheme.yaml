@@ -1,0 +1,28 @@
+---
+data:
+  identifier: '03097'
+  term: hierarchy scheme
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML D005:2022
+    publication_id: OIML D005:2022
+    tc_sc: ''
+    year: 2022
+    clause: '3.28'
+    link:
+    g18_entry: '03097'
+    definition: descriptive and graphical specification of metrological traceability
+      chain for a given type of measuring instrument which serves to evidence their
+      metrological traceability
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 7cd45f84-3c55-54ec-a491-14d6bd24e705
+schema_version: '3'
+related: []

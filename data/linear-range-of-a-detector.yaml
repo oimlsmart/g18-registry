@@ -4,8 +4,28 @@ data:
   term: linear range of a detector
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 112:1994
+  - edition: '2010'
+    publication: OIML R 112:1994
+    publication_id: OIML R112:1994
+    tc_sc: ''
+    year: 1994
+    clause: '2.10'
+    link: https://www.oiml.org/en/files/pdf_R/r112-e94.pdf
+    g18_entry: '01482'
+    definition: the range of concentrations or mass flow rates of a sample component
+      of interest over which the sensitivity of the detector is constant to within
+      5 %. Its value is the ratio of the upper limit of linearity to the detection
+      limit
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 112:1994
     publication_id: OIML R112:1994
     tc_sc: ''
     year: 1994

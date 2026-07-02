@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '02178'
+  identifier: '02459'
   term: cryptographic means
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML D 31:2008
+  - edition: '2010'
+    publication: OIML D 31:2008
     publication_id: OIML D031:2008
     tc_sc: ''
     year: 2008
@@ -27,6 +32,81 @@ data:
       case of equality, the data are authenticated. The receiver may require a cryptographic
       certificate of the sender (see 3.1.10) to be of the authenticity of the public
       key.
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R142-1:2025
+    publication_id: OIML R142-1:2025
+    tc_sc: ''
+    year: 2025
+    clause: '3.24'
+    link:
+    g18_entry: '03714'
+    definition: means such as encryption/decryption with the purpose of hiding information
+      from unauthorized persons (see OIML D31, 3.1.13), or hashes and signatures to
+      ensure integrity and authenticity
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D031:2023
+    publication_id: OIML D031:2023
+    tc_sc: ''
+    year: 2023
+    clause: 3.2.10
+    link:
+    g18_entry: '02965'
+    definition: means such as encryption and decryption with the purpose of providing
+      confidentiality, or hashes and signatures (see 3.2.14) to ensure integrity and
+      authenticity
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R126-1:2021
+    publication_id: OIML R126-1:2021
+    tc_sc: ''
+    year: 2021
+    clause: 3.3.3
+    link:
+    g18_entry: '02966'
+    definition: means such as encryption/decryption with the purpose of hiding information
+      from unauthorized persons, or hashes and signatures to ensure integrity and
+      authenticity (OIML D 31, 3.1.8)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R059-1:2016
+    publication_id: OIML R059-1:2016
+    tc_sc: ''
+    year: 2016
+    clause: 2.2.1
+    link:
+    g18_entry: '02459'
+    definition: encryption of data by the sender (storing or transmitting program)
+      and description by the receiver (reading program) with the purpose of hiding
+      information from unauthorized persons. Electronic signing of data with the purpose
+      of enabling the receiver or user of the data to verify the origin of the data,
+      i.e. to prove their authenticity [OIML D31, 3.1.11]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R146-1:2016
+    publication_id: OIML R146-1:2016
+    tc_sc: ''
+    year: 2016
+    clause: 2.2.4
+    link:
+    g18_entry: '02802'
+    definition: encryption of data by the sender (storing or transmitting program)
+      and decryption by the receiver (reading program) with the purpose of hiding
+      information from unauthorized persons electronic signing of data with the purpose
+      of enabling the receiver or user of the data to verify the origin of the data,
+      i.e. to prove their authenticity
+    notes:
+    - "[further information in OIML D 31:2008, 3.1.11]"
     consistency: pending
     consistency_reason: ''
 status: current

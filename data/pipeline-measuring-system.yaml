@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '01588'
+  identifier: '03367'
   term: pipeline measuring system
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 117-1:2007
+  - edition: '2010'
+    publication: OIML R 117-1:2007
     publication_id: OIML R117-1:2007
     tc_sc: ''
     year: 2007
@@ -17,6 +22,22 @@ data:
       of the liquid to be measured which, in general, either does not change or changes
       little during a prolonged period
     notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R117-1:2019
+    publication_id: OIML R117-1:2019
+    tc_sc: ''
+    year: 2019
+    clause: T.p.4
+    link:
+    g18_entry: '03367'
+    definition: measuring system which (in principle) is installed on a fixed pipeline
+      connecting two or more fixed tanks
+    notes:
+    - 'Note: Such a pipeline is characterized by a flowrate of the liquid to be measured
+      which, in general, either does not change or changes little during a prolonged
+      period'
     consistency: pending
     consistency_reason: ''
 status: current

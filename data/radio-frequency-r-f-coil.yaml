@@ -4,8 +4,13 @@ data:
   term: radio frequency (r.f.) coil
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 116:2006
+  - edition: '2010'
+    publication: OIML R 116:2006
     publication_id: OIML R116:2006
     tc_sc: ''
     year: 2006
@@ -18,6 +23,22 @@ data:
     - This coil is generally water-cooled, consists of 3 or 4 turns, and is constructed
       of a copper tube that may be plated with silver or gold and is also known as
       the load coil.
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 116:2006
+    publication_id: OIML R116:2006
+    tc_sc: ''
+    year: 2006
+    clause: '3.3'
+    link: https://www.oiml.org/en/files/pdf_R/r116-e06.pdf
+    g18_entry: '01516'
+    definition: tube, wound around the outer quartz tube of the torch, through which
+      the r.f. energy is transmitted to the argon
+    notes:
+    - 'Note: This coil is generally water-cooled, consists of 3 or 4 turns, and is
+      constructed of a copper tube that may be plated with silver or gold and is also
+      known as the load coil'
     consistency: pending
     consistency_reason: ''
 status: current

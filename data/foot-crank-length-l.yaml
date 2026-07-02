@@ -4,8 +4,26 @@ data:
   term: foot crank length L
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 128:2000
+  - edition: '2010'
+    publication: OIML R 128:2000
+    publication_id: OIML R128:2000
+    tc_sc: ''
+    year: 2000
+    clause: '3.6'
+    link: https://www.oiml.org/en/files/pdf_R/r128-e00.pdf
+    g18_entry: '01697'
+    definition: the foot crank length L is the length between the center C of the
+      crank bearing and the center of the pedal shaft (see Fig. 1)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 128:2000
     publication_id: OIML R128:2000
     tc_sc: ''
     year: 2000

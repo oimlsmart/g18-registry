@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '02375'
+  identifier: '02376'
   term: motor vehicle
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 99-1:2008
+  - edition: '2010'
+    publication: OIML R 99-1:2008
     publication_id: OIML R099-1:2008
     tc_sc: ''
     year: 2008
@@ -15,6 +20,20 @@ data:
     definition: "- - road vehicle, powered by a built-in engine, which is not rail
       borne, and which is normally used for applications such as: carrying persons
       and/or goods; towing vehicles used for the carriage of persons and/or goods"
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 99-1:2008
+    publication_id: OIML R099-1:2008
+    tc_sc: ''
+    year: 2008
+    clause: '3.40'
+    link: https://www.oiml.org/en/files/pdf_R/r099-1-e08.pdf
+    g18_entry: '02376'
+    definition: 'road vehicle, powered by a built-in engine, which is not rail borne,
+      and which is normally used for applications such as: - carrying persons and/or
+      goods; - towing vehicles used for the carriage of persons and/or goods'
     notes: []
     consistency: pending
     consistency_reason: ''

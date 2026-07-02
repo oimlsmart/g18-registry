@@ -1,0 +1,42 @@
+---
+data:
+  identifier: '03264'
+  term: measurement standard etalon
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML D005:2022
+    publication_id: OIML D005:2022
+    tc_sc: ''
+    year: 2022
+    clause: '3.15'
+    link:
+    g18_entry: '03271'
+    definition: realisation of the definition of a given quantity, with stated quantity
+      value and associated measurement uncertainty, used as reference
+    notes:
+    - For examples and notes see [VIM, 5.1].
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D010:2022
+    publication_id: OIML D010:2022
+    tc_sc: ''
+    year: 2022
+    clause: '3.15'
+    link:
+    g18_entry: '03264'
+    definition: realisation of the definition of a given quantity, with stated quantity
+      value and associated measurement uncertainty, used as reference
+    notes:
+    - 'Note: For examples and notes see VIM3, 5.1'
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 06740675-06ab-5953-ae60-35ddb4e2551b
+schema_version: '3'
+related: []

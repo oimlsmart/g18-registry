@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '02219'
+  identifier: '03581'
   term: transmission of measurement data
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML D 31:2008
+  - edition: '2010'
+    publication: OIML D 31:2008
     publication_id: OIML D031:2008
     tc_sc: ''
     year: 2008
@@ -15,6 +20,32 @@ data:
     definition: transmission of measurement data via communication networks or other
       means to a distant electronic device where they are further processed and/or
       used for legally regulated purposes
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D031:2023
+    publication_id: OIML D031:2023
+    tc_sc: ''
+    year: 2023
+    clause: 3.2.68
+    link:
+    g18_entry: '03581'
+    definition: electronic transportation of measurement data via communication lines
+      or other means to receiver
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R126-1:2021
+    publication_id: OIML R126-1:2021
+    tc_sc: ''
+    year: 2021
+    clause: 3.3.12
+    link:
+    g18_entry: '03582'
+    definition: electronic transportation of measurement data via communication lines
+      or other means to receiver where they are further processed (OIML D 31, 3.1.56)
     notes: []
     consistency: pending
     consistency_reason: ''

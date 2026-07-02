@@ -1,0 +1,26 @@
+---
+data:
+  identifier: '03756'
+  term: error of indication / measurement error (OIML V 1
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R091-1:2025
+    publication_id: OIML R091-1:2025
+    tc_sc: ''
+    year: 2025
+    clause: 3.5.1
+    link:
+    g18_entry: '03756'
+    definition: indication minus a reference quantity value
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: f73b0b5a-6c89-55cc-a288-f19bd09726cc
+schema_version: '3'
+related: []

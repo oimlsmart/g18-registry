@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '00103'
-  term: National Responsible Body
+  identifier: '00163'
+  term: national responsible body
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML B 10-1:2004
+  - edition: '2010'
+    publication: OIML B 10-1:2004
     publication_id: OIML B010-1:2004
     tc_sc: TC 3/SC 2
     year: 2004
@@ -19,7 +24,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML D 27:2001
+  - edition: '2010'
+    publication: OIML D 27:2001
     publication_id: OIML D027:2001
     tc_sc: ''
     year: 2001
@@ -35,7 +41,8 @@ data:
       for the "national responsible body" throughout the text of this Document.
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 131:2001
+  - edition: '2010'
+    publication: OIML R 131:2001
     publication_id: OIML R131:2001
     tc_sc: ''
     year: 2001
@@ -48,7 +55,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 132:2001
+  - edition: '2010'
+    publication: OIML R 132:2001
     publication_id: OIML R132:2001
     tc_sc: ''
     year: 2001
@@ -61,7 +69,68 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 127:1999
+  - edition: '2010'
+    publication: OIML R 127:1999
+    publication_id: OIML R127:1999
+    tc_sc: ''
+    year: 1999
+    clause: '4.16'
+    link: https://www.oiml.org/en/files/pdf_R/r127-e99.pdf
+    g18_entry: '01690'
+    definition: the organization or agency in a particular country that is responsible
+      for determining whether the dosimetry system meets the performance requirements
+      designated by law or regulation
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D 27:2001
+    publication_id: OIML D027:2001
+    tc_sc: ''
+    year: 2001
+    clause: '2.1'
+    link: https://www.oiml.org/en/files/pdf_D/d027-e01.pdf
+    g18_entry: '00163'
+    definition: national organization or agency responsible for implementing laws
+      or regulation regarding metrological control of measuring instruments
+    notes:
+    - 'Note: The national service of legal metrology may fall under the jurisdiction
+      of the national responsible body referred to in this Document; therefore, when
+      delegated the responsibility, the national service of legal metrology should
+      be substituted for the “national responsible body” throughout the text of this
+      Document.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 131:2001
+    publication_id: OIML R131:2001
+    tc_sc: ''
+    year: 2001
+    clause: '3.15'
+    link: https://www.oiml.org/en/files/pdf_R/r131-e01.pdf
+    g18_entry: '01756'
+    definition: organization or agency in a particular country that is responsible
+      for determining whether the dosimetry system meets the performance requirements
+      designated by law or regulations
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 132:2001
+    publication_id: OIML R132:2001
+    tc_sc: ''
+    year: 2001
+    clause: '3.15'
+    link: https://www.oiml.org/en/files/pdf_R/r132-e01.pdf
+    g18_entry: '01772'
+    definition: organization or agency in a particular country that is responsible
+      for determining whether the dosimetry system meets the performance requirements
+      designated by law or regulations
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 127:1999
     publication_id: OIML R127:1999
     tc_sc: ''
     year: 1999

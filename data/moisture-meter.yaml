@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '02477'
+  term: moisture meter
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R059-1:2016
+    publication_id: OIML R059-1:2016
+    tc_sc: ''
+    year: 2016
+    clause: 2.3.12
+    link:
+    g18_entry: '02477'
+    definition: instrument that measures a parameter (electrical, optical, etc.) to
+      predict the moisture content of a grain within specified error limits
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 49cd0f54-25e4-5b32-89ad-256e2a66241b
+schema_version: '3'
+related: []

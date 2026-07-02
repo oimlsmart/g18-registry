@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '01925'
+  identifier: '02647'
   term: measurand
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 137-1:2006
+  - edition: '2010'
+    publication: OIML R 137-1:2006
     publication_id: OIML R137-1:2006
     tc_sc: ''
     year: 2006
@@ -15,6 +20,18 @@ data:
     definition: particular quantity subject to measurement
     notes:
     - "[VIM:1993, 2.6]"
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R137:2012
+    publication_id: OIML R137:2012
+    tc_sc: ''
+    year: 2012
+    clause: 3.1.2
+    link:
+    g18_entry: '02647'
+    definition: quantity intended to be measured [VIM 2.3]
+    notes: []
     consistency: pending
     consistency_reason: ''
 status: current

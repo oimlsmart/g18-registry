@@ -4,8 +4,13 @@ data:
   term: capacity (of a pipette)
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 40:1981
+  - edition: '2010'
+    publication: OIML R 40:1981
     publication_id: OIML R040:1981
     tc_sc: ''
     year: 1981
@@ -20,6 +25,24 @@ data:
     - The meniscus formed by the water in the pipette, must be so adjusted that the
       horizontal plane passing through the upper edge of the scale mark, is tangential
       to the lowest point of the meniscus, when viewed in this plane.
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 40:1981
+    publication_id: OIML R040:1981
+    tc_sc: ''
+    year: 1981
+    clause: '2.1'
+    link: https://www.oiml.org/en/files/pdf_R/r040-e81.pdf
+    g18_entry: '00391'
+    definition: the capacity corresponding to any scale mark, is equal to the volume
+      of water at the reference temperature, delivered by the pipette at this temperature
+      when it is emptied as specified in the appendix, point A.3., after filling it
+      to the scale mark
+    notes:
+    - 'Note: The meniscus formed by the water in the pipette, must be so adjusted
+      that the horizontal plane passing through the upper edge of the scale mark,
+      is tangential to the lowest point of the meniscus, when viewed in this plane.'
     consistency: pending
     consistency_reason: ''
 status: current

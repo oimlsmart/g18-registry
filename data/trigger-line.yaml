@@ -1,0 +1,30 @@
+---
+data:
+  identifier: '03792'
+  term: trigger line
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R091-1:2025
+    publication_id: OIML R091-1:2025
+    tc_sc: ''
+    year: 2025
+    clause: 3.1.11
+    link:
+    g18_entry: '03792'
+    definition: physical or virtual line segment on one or several lanes of the road
+      at which automatic speed measurements are carried out
+    notes:
+    - 'Note 1: The trigger line is typically perpendicular to the direction of the
+      road. Note 2: The trigger line is not necessarily in the same position for every
+      measurement.'
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 61310365-95dd-576f-a3bf-af2ac9ba84c8
+schema_version: '3'
+related: []

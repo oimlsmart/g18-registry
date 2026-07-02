@@ -4,8 +4,13 @@ data:
   term: extension interval of self-indication
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 76-1:2006
+  - edition: '2010'
+    publication: OIML R 76-1:2006
     publication_id: OIML R076-1:2006
     tc_sc: ''
     year: 2006
@@ -13,6 +18,19 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r076-1-e06.pdf
     g18_entry: '00944'
     definition: value by which it is possible to extend the range of self- indication
+      within the weighing range
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 76-1:2006
+    publication_id: OIML R076-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.3.1
+    link: https://www.oiml.org/en/files/pdf_R/r076-1-e06.pdf
+    g18_entry: '00944'
+    definition: value by which it is possible to extend the range of self-indication
       within the weighing range
     notes: []
     consistency: pending

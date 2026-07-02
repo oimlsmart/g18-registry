@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '01597'
+  identifier: '03490'
   term: sensor or meter senso
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 117-1:2007
+  - edition: '2010'
+    publication: OIML R 117-1:2007
     publication_id: OIML R117-1:2007
     tc_sc: ''
     year: 2007
@@ -14,6 +19,19 @@ data:
     g18_entry: '01597'
     definition: part of a measuring device, directly affected by the flow of the liquid
       to be measured and which converts the flow into a signal destined for the transducer
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R117-1:2019
+    publication_id: OIML R117-1:2019
+    tc_sc: ''
+    year: 2019
+    clause: T.s.3
+    link:
+    g18_entry: '03490'
+    definition: part of a measuring device, directly affected by the flow of the liquid
+      to be measured, which converts the flow into a signal destined for the transducer
     notes: []
     consistency: pending
     consistency_reason: ''

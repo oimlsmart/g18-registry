@@ -4,8 +4,13 @@ data:
   term: spectral width at one-hundredth maximum value
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 135:2004
+  - edition: '2010'
+    publication: OIML R 135:2004
     publication_id: OIML R135:2004
     tc_sc: ''
     year: 2004
@@ -18,6 +23,22 @@ data:
     notes:
     - 1. The coherent SI unit is the metre (m), but often the nanometre (nm) is used.
     - 2. The optical quantity can be e.g. radiant luminous flux, absorbance, etc.
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 135:2004
+    publication_id: OIML R135:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.22'
+    link: https://www.oiml.org/en/files/pdf_R/r135-e04.pdf
+    g18_entry: '01861'
+    definition: difference between a higher and lower wavelength value at which the
+      value of an optical quantity is reduced to 1/100 of its maximum value between
+      the two wavelengths
+    notes:
+    - 'Note: The coherent SI unit is the metre (m), but often the nanometre (nm) is
+      used. The optical quantity can be e.g. radiant luminous flux, absorbance, etc.'
     consistency: pending
     consistency_reason: ''
 status: current

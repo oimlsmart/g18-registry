@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '00517'
+  identifier: '01360'
   term: weighing cycle
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 107-1:2007
+  - edition: '2010'
+    publication: OIML R 107-1:2007
     publication_id: OIML R107-1:2007
     tc_sc: ''
     year: 2007
@@ -18,7 +23,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 61-1:2004
+  - edition: '2010'
+    publication: OIML R 61-1:2004
     publication_id: OIML R061-1:2004
     tc_sc: ''
     year: 2004
@@ -32,7 +38,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 50-1:1997
+  - edition: '2010'
+    publication: OIML R 50-1:1997
     publication_id: OIML R050-1:1997
     tc_sc: ''
     year: 1997
@@ -42,6 +49,35 @@ data:
     definition: the group of operations relating to each addition of information onthe
       load at the end of which the totalization device returns to s initial position
       or state for the first time
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R061-1:2017
+    publication_id: OIML R061-1:2017
+    tc_sc: ''
+    year: 2017
+    clause: 3.4.5
+    link:
+    g18_entry: '03634'
+    definition: 'the combination of operations including: a) delivery of material
+      to the load receptor(s), b) a weighing operation, and c) the discharge of a
+      single discrete load after the completion of which the AGFI is in its initial
+      state'
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 107-1:2007
+    publication_id: OIML R107-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.3.2
+    link: https://www.oiml.org/en/files/pdf_R/r107-1-e07.pdf
+    g18_entry: '01360'
+    definition: 'sequence of weighing operations that includes the following: one
+      delivery of a load to the load receptor; a single weighing operation; and the
+      discharge to bulk of a single discrete load'
     notes: []
     consistency: pending
     consistency_reason: ''

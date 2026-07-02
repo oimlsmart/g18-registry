@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '01714'
-  term: maximum dimension (max)
+  identifier: '03224'
+  term: maximum dimension (Max)
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 129:2000
+  - edition: '2010'
+    publication: OIML R 129:2000
     publication_id: OIML R129:2000
     tc_sc: ''
     year: 2000
@@ -14,6 +19,19 @@ data:
     g18_entry: '01714'
     definition: the maximum measurable dimension for each axis as specified by the
       manufacturer for the measuring instrument
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R129-1:2020
+    publication_id: OIML R129-1:2020
+    tc_sc: ''
+    year: 2020
+    clause: 2.2.5
+    link:
+    g18_entry: '03224'
+    definition: maximum measurable dimension for each axis as specified by the manufacturer
+      for the measuring instrument
     notes: []
     consistency: pending
     consistency_reason: ''

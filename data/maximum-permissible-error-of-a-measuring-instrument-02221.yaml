@@ -1,0 +1,110 @@
+---
+data:
+  identifier: '02221'
+  term: maximum permissible error (of a measuring instrument)
+  kind: defined_in_vim
+  official_concept:
+    source: urn:oiml:pub:v:2:1993
+    id: '5.21'
+    url: https://oimlsmart.github.io/vocab/vim-1993/concept/5.21
+    definition_text:
+    edition_label: VIM 1993
+    vocab: vim
+    role: legacy
+    year: 1993
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: '2010'
+    publication: OIML D 31:2008
+    publication_id: OIML D031:2008
+    tc_sc: ''
+    year: 2008
+    clause: 3.1.32
+    link: https://www.oiml.org/en/files/pdf_D/d031-e08.pdf
+    g18_entry: '02199'
+    definition: extreme value of an error permitted by specifications, regulations,
+      etc. for a given measuring instrument
+    notes:
+    - "[VIM:1993, 5.21; OIML D 11:2004, 3.6]"
+    consistency: pending
+    consistency_reason: ''
+  - edition: '2010'
+    publication: OIML D 11:2004
+    publication_id: OIML D011:2004
+    tc_sc: ''
+    year: 2004
+    clause: '3.6'
+    link: https://www.oiml.org/en/files/pdf_D/d011-e04.pdf
+    g18_entry: '00229'
+    definition: extreme value of an error permitted by specifications, regulations,
+      etc. for a given measuring instrument [VIM, 5.21]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+    related:
+    - type: see
+      ref:
+        source: urn:oiml:pub:v:2:1993
+        id: '5.21'
+  - edition: '2010'
+    publication: OIML R 125:1998
+    publication_id: OIML R125:1998
+    tc_sc: ''
+    year: 1998
+    clause: T.25
+    link: https://www.oiml.org/en/files/pdf_R/r125-e98.pdf
+    g18_entry: '01642'
+    definition: the extreme values of an error permitted by specifications, regulations,
+      etc. for a given measuring instrument (VIM:1993, 5.21)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+    related:
+    - type: see
+      ref:
+        source: urn:oiml:pub:v:2:1993
+        id: '5.21'
+  - edition: 202X
+    publication: OIML D031:2023
+    publication_id: OIML D031:2023
+    tc_sc: ''
+    year: 2023
+    clause: 3.2.32
+    link:
+    g18_entry: '03237'
+    definition: extreme value of measurement error , with respect to a known reference
+      quantity value, permitted by specifications or regulations for a given measurement,  measuring
+      instrument, or measuring system adapted from [OIML V 1:2022, 0.05]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D011:2013
+    publication_id: OIML D011:2013
+    tc_sc: ''
+    year: 2013
+    clause: '3.7'
+    link:
+    g18_entry: '02221'
+    definition: extreme value of measurement error, with respect to a known reference
+      quantity value, permitted by specifications or regulations for a given measurement,
+      measuring instrument, or measuring system [VIM 4.26]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: ba0087be-471c-5180-833d-d7f38781f50a
+schema_version: '3'
+related:
+- type: see
+  ref:
+    source: urn:oiml:pub:v:2:1993
+    id: '5.21'
+    definition_text:
+    edition_label: VIM 1993
+    vocab: vim
+    role: legacy
+    year: 1993

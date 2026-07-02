@@ -1,0 +1,29 @@
+---
+data:
+  identifier: '02835'
+  term: blackbody radiator (BBR)
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R147:2016
+    publication_id: OIML R147:2016
+    tc_sc: ''
+    year: 2016
+    clause: '3.1'
+    link:
+    g18_entry: '02835'
+    definition: source of thermal radiation with an effective emissivity ε close to
+      1 (as a rule, ε ≥ 0.95 for radiators with a radiating cavity, and ε ≥ 0.9 for
+      the radiators with an extended flat surface) {Description of the category of
+      instrument}
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 26b44f7a-550b-53b4-ba81-d87f3c600636
+schema_version: '3'
+related: []

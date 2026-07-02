@@ -1,0 +1,27 @@
+---
+data:
+  identifier: 02333-R046-1
+  term: bi-directional (energy) flow
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R046-1:2012
+    publication_id: OIML R046-1:2012
+    tc_sc: ''
+    year: 2012
+    clause: 2.2.34
+    link:
+    g18_entry: 02333-R046-1
+    definition: capability of the meter to measure energy flow in both directions
+      (positive and negative)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: '08e71a00-5d5e-5cb5-9a11-9aca3142c335'
+schema_version: '3'
+related: []

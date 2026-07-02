@@ -1,0 +1,28 @@
+---
+data:
+  identifier: '03755'
+  term: enforcement mode
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R091-1:2025
+    publication_id: OIML R091-1:2025
+    tc_sc: ''
+    year: 2025
+    clause: 3.1.4
+    link:
+    g18_entry: '03755'
+    definition: mode of operation in which speed measurements for traffic enforcement
+      cases are carried out
+    notes:
+    - 'Note: The enforcement mode is the preferred mode for metrological control.'
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 55efdd1d-782e-5883-a04a-60a71c85338c
+schema_version: '3'
+related: []

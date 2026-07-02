@@ -1,0 +1,29 @@
+---
+data:
+  identifier: '02413'
+  term: minimum admissible temperature mAT
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R049-1:2024
+    publication_id: OIML R049-1:2024
+    tc_sc: ''
+    year: 2024
+    clause: 3.3.7
+    link:
+    g18_entry: '02413'
+    definition: minimum water temperature that a meter can withstand permanently,
+      within its rated operating condition(s) (3.4.4), without deterioration of its
+      metrological performance
+    notes:
+    - Note:mAT is the lower of the rated operating conditions for temperature.
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 4686d8ba-d8a4-5748-9120-ce2a102eb763
+schema_version: '3'
+related: []

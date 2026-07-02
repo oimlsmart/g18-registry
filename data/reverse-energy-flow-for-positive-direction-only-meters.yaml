@@ -1,0 +1,26 @@
+---
+data:
+  identifier: '02338-R046-1'
+  term: reverse (energy) flow (for positive-direction only meters)
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R046-1:2012
+    publication_id: OIML R046-1:2012
+    tc_sc: ''
+    year: 2012
+    clause: 2.2.39
+    link:
+    g18_entry: '02338-R046-1'
+    definition: direction of flow in the opposite direction to positive
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 0a078d03-6ff0-56f4-a750-ac11b3c5da4f
+schema_version: '3'
+related: []

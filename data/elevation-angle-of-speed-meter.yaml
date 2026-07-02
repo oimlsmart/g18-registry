@@ -1,0 +1,29 @@
+---
+data:
+  identifier: '03754'
+  term: elevation angle of speed meter
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R091-1:2025
+    publication_id: OIML R091-1:2025
+    tc_sc: ''
+    year: 2025
+    clause: 3.4.4
+    link:
+    g18_entry: '03754'
+    definition: vertical angle between the road surface and the centre line of the
+      speed meter (see Figure 2)
+    notes:
+    - 'Note: In other documents, the elevation angle of speed meter is sometimes called
+      the vertical alignment angle.'
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 2e588ceb-1979-57f0-834f-6541840ab143
+schema_version: '3'
+related: []

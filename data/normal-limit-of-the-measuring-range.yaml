@@ -4,8 +4,13 @@ data:
   term: normal limit of the measuring range
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 109:1993
+  - edition: '2010'
+    publication: OIML R 109:1993
     publication_id: OIML R109:1993
     tc_sc: ''
     year: 1993
@@ -17,7 +22,34 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 101:1991
+  - edition: '2010'
+    publication: OIML R 101:1991
+    publication_id: OIML R101:1991
+    tc_sc: ''
+    year: 1991
+    clause: T.6
+    link: https://www.oiml.org/en/files/pdf_R/r101-e91.pdf
+    g18_entry: '01208'
+    definition: the upper limit of the part of the measuring range acceptable for
+      permanent operation of the instrument in service
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 109:1993
+    publication_id: OIML R109:1993
+    tc_sc: ''
+    year: 1993
+    clause: '2.4'
+    link: https://www.oiml.org/en/files/pdf_R/r109-e93.pdf
+    g18_entry: '01414'
+    definition: the upper limit of the part of the measuring range acceptable for
+      permanent operation of the instrument in service
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 101:1991
     publication_id: OIML R101:1991
     tc_sc: ''
     year: 1991

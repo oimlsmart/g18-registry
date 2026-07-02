@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '01192'
+  identifier: '02511'
   term: absorbance
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 100:1991
+  - edition: '2010'
+    publication: OIML R 100:1991
     publication_id: OIML R100:1991
     tc_sc: ''
     year: 1991
@@ -17,6 +22,19 @@ data:
       on the path length and the by concentration of the absorbing substance
     notes:
     - the instrument is the Beer-Lambert law.
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R100-1:2013
+    publication_id: OIML R100-1:2013
+    tc_sc: ''
+    year: 2013
+    clause: '3.1'
+    link:
+    g18_entry: '02511'
+    definition: logarithm of the ratio of incident to transmitted radiant power, which
+      is dependent on the path length and the concentration of the absorbing substance
+    notes: []
     consistency: pending
     consistency_reason: ''
 status: current

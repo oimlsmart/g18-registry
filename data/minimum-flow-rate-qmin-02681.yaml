@@ -1,0 +1,28 @@
+---
+data:
+  identifier: '02681'
+  term: minimum flow rate, Qmin
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R137:2012
+    publication_id: OIML R137:2012
+    tc_sc: ''
+    year: 2012
+    clause: 3.3.3
+    link:
+    g18_entry: '02681'
+    definition: lowest flow rate at which a gas meter is required to operate within
+      the limits of its maximum permissible error, whilst operated within its rated
+      operating conditions
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 7016e1ae-109d-54ff-b4bc-3964a4fc237b
+schema_version: '3'
+related: []

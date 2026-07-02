@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '02580'
+  term: axle load
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication:
+    publication_id:
+    tc_sc: ''
+    year:
+    clause:
+    link:
+    g18_entry: '02580'
+    definition: fraction of the wagon mass that rests via the axle on the load receptor
+      at the time of weighing
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 1eadfaf7-6d49-58c4-a0e3-46e6b7c3f4be
+schema_version: '3'
+related: []

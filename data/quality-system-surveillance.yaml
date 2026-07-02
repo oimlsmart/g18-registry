@@ -4,8 +4,13 @@ data:
   term: quality system surveillance
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML D 9:2004
+  - edition: '2010'
+    publication: OIML D 9:2004
     publication_id: OIML D009:2004
     tc_sc: ''
     year: 2004
@@ -14,6 +19,21 @@ data:
     g18_entry: '00206'
     definition: form of metrological supervision aimed at establishing that the quality
       systems of manufacturers, manufacturers' representatives (in relation to conformity
+      assessment procedures) or authorized private bodies, as applicable, comply with
+      the regulatory or statutory requirements of a country or free trade area
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D 9:2004
+    publication_id: OIML D009:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.24'
+    link: https://www.oiml.org/en/files/pdf_D/d009-e04.pdf
+    g18_entry: '00206'
+    definition: form of metrological supervision aimed at establishing that the quality
+      systems of manufacturers, manufacturers’ representatives (in relation to conformity
       assessment procedures) or authorized private bodies, as applicable, comply with
       the regulatory or statutory requirements of a country or free trade area
     notes: []

@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '00243'
+  identifier: '01653'
   term: checking facility
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 80-1:2009
+  - edition: '2010'
+    publication: OIML R 80-1:2009
     publication_id: OIML R080-1:2009
     tc_sc: ''
     year: 2009
@@ -20,7 +25,8 @@ data:
       asurement process, etc.).
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 143:2009
+  - edition: '2010'
+    publication: OIML R 143:2009
     publication_id: OIML R143:2009
     tc_sc: ''
     year: 2009
@@ -35,7 +41,8 @@ data:
       the measurement process, etc.). (OIML D 11:2004, 3.18 [1])
     consistency: pending
     consistency_reason: ''
-  - publication: OIML D 31:2008
+  - edition: '2010'
+    publication: OIML D 31:2008
     publication_id: OIML D031:2008
     tc_sc: ''
     year: 2008
@@ -51,7 +58,8 @@ data:
     - 2. [OIML D 11:2004, 3.18]
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 85-1:2008
+  - edition: '2010'
+    publication: OIML R 85-1:2008
     publication_id: OIML R085-1:2008
     tc_sc: ''
     year: 2008
@@ -67,7 +75,8 @@ data:
       etc.).
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 99-1:2008
+  - edition: '2010'
+    publication: OIML R 99-1:2008
     publication_id: OIML R099-1:2008
     tc_sc: ''
     year: 2008
@@ -82,7 +91,8 @@ data:
     - 2. Adapted from OIML D 11:2004, 3.18.
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 117-1:2007
+  - edition: '2010'
+    publication: OIML R 117-1:2007
     publication_id: OIML R117-1:2007
     tc_sc: ''
     year: 2007
@@ -96,7 +106,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 139:2007
+  - edition: '2010'
+    publication: OIML R 139:2007
     publication_id: OIML R139:2007
     tc_sc: ''
     year: 2007
@@ -111,7 +122,8 @@ data:
       equipment.
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 140:2007
+  - edition: '2010'
+    publication: OIML R 140:2007
     publication_id: OIML R140:2007
     tc_sc: ''
     year: 2007
@@ -126,7 +138,8 @@ data:
       equipment.
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 49-1:2006
+  - edition: '2010'
+    publication: OIML R 49-1:2006
     publication_id: OIML R049-1:2006
     tc_sc: ''
     year: 2006
@@ -141,7 +154,8 @@ data:
       is fully eceived by the receiving equipment.
     consistency: pending
     consistency_reason: ''
-  - publication: OIML D 11:2004
+  - edition: '2010'
+    publication: OIML D 11:2004
     publication_id: OIML D011:2004
     tc_sc: ''
     year: 2004
@@ -156,7 +170,8 @@ data:
       asurement process, etc.).
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 125:1998
+  - edition: '2010'
+    publication: OIML R 125:1998
     publication_id: OIML R125:1998
     tc_sc: ''
     year: 1998
@@ -170,7 +185,8 @@ data:
       or acoustic signal, prevention of the measurement process, etc.).'
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 105:1993
+  - edition: '2010'
+    publication: OIML R 105:1993
     publication_id: OIML R105:1993
     tc_sc: ''
     year: 1993
@@ -183,6 +199,304 @@ data:
     notes:
     - verifying that all information that is transmitted (and only that information)
       is fully received by the receiving equipment.
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R142-1:2025
+    publication_id: OIML R142-1:2025
+    tc_sc: ''
+    year: 2025
+    clause: '3.22'
+    link:
+    g18_entry: '03713'
+    definition: facility that is incorporated in a measuring instrument and which
+      enables significant faults to be detected and acted upon
+    notes:
+    - 'Note: “Acted upon” refers to any adequate response by the measuring instrument
+      (luminous signal, acoustic signal, prevention of the measurement process, etc.).'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R049-1:2024
+    publication_id: OIML R049-1:2024
+    tc_sc: ''
+    year: 2024
+    clause: 3.5.4
+    link:
+    g18_entry: '02437'
+    definition: 'facility that is incorporated in a meter and which enables significant
+      fault(s) (3.2.8) to be detected and acted upon [SOURCE: OIML D11:2013, 3.19,
+      [8], , modified — “meter” replaces “measuring instrument”; “Note 3” added]'
+    notes:
+    - 'Note 1:Typically, checking facilities detect and act upon: incorrect function
+      of specific device of the meter, and/or disturbed communication between specific
+      devices of the meter. Note 2:“Act upon” refers to any adequate response by measuring
+      instrument (for example: a luminous signal, an acoustic signal, interruption
+      or blocking of the measurement process, etc.). Note 3: The checking of a transmission
+      device aims to verify whether all the information which is transmitted (and
+      only that information) is fully received by the receiving equipment.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D031:2023
+    publication_id: OIML D031:2023
+    tc_sc: ''
+    year: 2023
+    clause: 3.2.5
+    link:
+    g18_entry: '02928'
+    definition: facility that is incorporated in a measuring instrument and which
+      enables significant  defect to be detected and acted upon adapted from [OIML
+      V 1:2023, 5.07 ]
+    notes:
+    - 'Note 1: “Acted upon” refers to any adequate response by the measuring instrument
+      (luminous signal, acoustic signal, prevention of the measurement process, etc.).'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R139-1:2022
+    publication_id: OIML R139-1:2022
+    tc_sc: ''
+    year: 2022
+    clause: 3.2.14
+    link:
+    g18_entry: '02929'
+    definition: facility, incorporated in a measuring instrument (or system), which
+      enables significant faults to be detected and acted upon, including •incorrect
+      functioning of a specific device of the measuring instrument or system, and/or
+      •disturbed communication between specific devices of the measuring instrument
+      or system [OIML V1:2013, 5.07]
+    notes:
+    - 'Note:  “Acted upon” refers to any adequate response by the measuring instrument
+      (for example a luminous signal, an acoustic signal, interruption or blocking
+      of the measurement process, etc.).'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R060:2021
+    publication_id: OIML R060:2021
+    tc_sc: ''
+    year: 2021
+    clause: A.1.4
+    link:
+    g18_entry: '02930'
+    definition: facility incorporated in a measuring instrument which enables significant
+      faults to be detected and acted upon (OIML D11, 3.3)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R126-1:2021
+    publication_id: OIML R126-1:2021
+    tc_sc: ''
+    year: 2021
+    clause: 3.2.11
+    link:
+    g18_entry: '02931'
+    definition: facility that is incorporated in a measuring instrument and which
+      enables significant defects to be detected and acted upon (adapted from OIML
+      V 1, 5.07)
+    notes:
+    - 'Note: “Acted upon” refers to any adequate response by the measuring instrument
+      (luminous signal, acoustic signal, prevention of the measurement process, etc.)
+      These significant defects could be for example events that otherwise will result
+      in significant faults, and/or •incorrect functioning of a specific device of
+      the measuring instrument, and/or •disturbed communication between specific devices
+      of the measuring instrument.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R117-1:2019
+    publication_id: OIML R117-1:2019
+    tc_sc: ''
+    year: 2019
+    clause: T.c.2
+    link:
+    g18_entry: '02926'
+    definition: facility incorporated in a measuring system which checks for the presence
+      of a necessary device, enables an incorrectness in the generation, transmission,
+      processing and/or indication of a measurement data to be detected and acted
+      upon, and - enables significant faults to be detected and acted upon
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R080-2:2017
+    publication_id: OIML R080-2:2017
+    tc_sc: ''
+    year: 2017
+    clause: '2'
+    link:
+    g18_entry: '02927'
+    definition: facility that is incorporated in a measuring instrument and which
+      enables significant faults to be detected and acted upon
+    notes:
+    - 'Note: "Acted upon" refers to any adequate response by the measuring instrument
+      (luminous signal, acoustic signal, prevention of the measurement process, etc.).'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R059-1:2016
+    publication_id: OIML R059-1:2016
+    tc_sc: ''
+    year: 2016
+    clause: 2.3.6
+    link:
+    g18_entry: '02471'
+    definition: facility incorporated in a measuring instrument and which enables
+      significant faults to be detected and acted upon
+    notes:
+    - 'Note: “Acted upon” refers to any adequate response by the measuring instrument
+      (luminous signal, acoustic signal, prevention of the measurement process, etc.).'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D011:2013
+    publication_id: OIML D011:2013
+    tc_sc: ''
+    year: 2013
+    clause: '3.19'
+    link:
+    g18_entry: 02235-D011
+    definition: facility incorporated in a measuring instrument which enables significant
+      faults to be detected and acted upon
+    notes:
+    - 'Note 1:Typically, checking facilities detect and act upon incorrect functioning
+      of a specific device of the measuring instrument, and/or disturbed communication
+      between specific devices of the measuring instrument. Note 2:Note 2: “Act upon”
+      refers to any adequate response by the measuring instrument (for example: a
+      luminous signal, an acoustic signal, interruption or blocking of the measurement
+      process, etc.).'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R144-1:2013
+    publication_id: OIML R144-1:2013
+    tc_sc: ''
+    year: 2013
+    clause: '2.21'
+    link:
+    g18_entry: '02776'
+    definition: facility that is incorporated in a measuring instrument and which
+      enables significant faults to be detected and acted upon
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R046-1:2012
+    publication_id: OIML R046-1:2012
+    tc_sc: ''
+    year: 2012
+    clause: 2.2.32
+    link:
+    g18_entry: 02331-R046-1
+    definition: facility that is incorporated in a measuring instrument and which
+      enables significant faults to be detected and acted upon
+    notes:
+    - 'Note 1: “Acted upon” refers to any adequate response by the measuring instrument
+      (luminous signal, acoustic signal, prevention of the measurement process, etc.).
+      [OIML V 1:2013, 5.07] Note 2: For the application of this Recommendation, the
+      term “measuring instrument” means: electricity meter and the action following
+      the detection of a significant fault should be either to stop measuring and
+      record the time and duration of the stop, or record the time and duration of
+      the fault and the amount of energy measured during the fault. Note 3Faults that
+      are detected and acted upon by means of a checking facility shall not be considered
+      as significant faults.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 80-1:2009
+    publication_id: OIML R080-1:2009
+    tc_sc: ''
+    year: 2009
+    clause: '2.56'
+    link: https://www.oiml.org/en/files/pdf_R/r080-1-e09.pdf
+    g18_entry: '02295-R080-1'
+    definition: facility that is incorporated in a measuring instrument and which
+      enables significant faults to be detected and acted upon
+    notes:
+    - 'Note: "Acted upon" refers to any adequate response by the measuring instrument
+      (luminous signal, acoustic signal, prevention of the measurement process, etc.).'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 143:2009
+    publication_id: OIML R143:2009
+    tc_sc: ''
+    year: 2009
+    clause: '2.22'
+    link: https://www.oiml.org/en/files/pdf_R/r143-e09.pdf
+    g18_entry: '02148'
+    definition: facility that is incorporated in a measuring instrument and which
+      enables significant faults to be detected and acted upon
+    notes:
+    - 'Note 1:  “Acted upon” refers to any adequate response by the measuring instrument
+      (luminous signal, acoustic signal, prevention of the measurement process, etc.).
+      Note 2: (OIML D 11:2004, 3.18 [1])'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 85-1:2008
+    publication_id: OIML R085-1:2008
+    tc_sc: ''
+    year: 2008
+    clause: '3.10'
+    link: https://www.oiml.org/en/files/pdf_R/r085-1-e08.pdf
+    g18_entry: '02308-R085-1'
+    definition: 'facility incorporated in an electronic automatic level gauge that
+      enables: - significant faults; and/or - incorrect functioning of a specific
+      device of the ALG; and/or - disturbed communication between specific devices
+      of the ALG to be detected and acted upon'
+    notes:
+    - 'Note 1: “Acted upon” refers to any adequate response by the ALG (luminous signal,
+      acoustic signal,prevention of the measurement process, etc.).'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 99-1:2008
+    publication_id: OIML R099-1:2008
+    tc_sc: ''
+    year: 2008
+    clause: '3.29'
+    link: https://www.oiml.org/en/files/pdf_R/r099-1-e08.pdf
+    g18_entry: '02363'
+    definition: facility that is incorporated in the instrument and that enables significant
+      faults to be detected and acted upon
+    notes:
+    - 'Note: “Acted upon” means any adequate response by the instrument (luminous
+      or acoustic signal, blocking of process, etc.); Adapted from OIML D 11:2004,
+      3.18.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 140:2007
+    publication_id: OIML R140:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.4.2
+    link: https://www.oiml.org/en/files/pdf_R/r140-e07.pdf
+    g18_entry: '02100'
+    definition: facility that is incorporated in a measuring system and which enables
+      significant faults to be detected and acted upon
+    notes:
+    - 'Note: The checking of a transmission device aims at verifying that all the
+      information which is transmitted (and only that information) is fully received
+      by the receiving equipment.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 125:1998
+    publication_id: OIML R125:1998
+    tc_sc: ''
+    year: 1998
+    clause: T.34
+    link: https://www.oiml.org/en/files/pdf_R/r125-e98.pdf
+    g18_entry: '01653'
+    definition: a facility that is incorporated in a measuring system and enables
+      significant faults to be detected and acted upon
+    notes:
+    - 'Note: “Acted upon” refers to any adequate response by the measuring instrument
+      (luminous or acoustic signal, prevention of the measurement process, etc.).'
     consistency: pending
     consistency_reason: ''
 status: current

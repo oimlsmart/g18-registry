@@ -1,0 +1,28 @@
+---
+data:
+  identifier: '03323'
+  term: national measurement standard national standard
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML D005:2022
+    publication_id: OIML D005:2022
+    tc_sc: ''
+    year: 2022
+    clause: '3.16'
+    link:
+    g18_entry: '03323'
+    definition: measurement standard recognised by a national authority to serve in
+      a state or economy as the basis for assignig quantity values to other measurement
+      standards for the kind of quantity concerned [VIM, 5.3]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: '0394f25e-b055-5866-8603-f54211b91112'
+schema_version: '3'
+related: []

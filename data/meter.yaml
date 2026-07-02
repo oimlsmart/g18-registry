@@ -4,8 +4,13 @@ data:
   term: meter
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 139:2007
+  - edition: '2010'
+    publication: OIML R 139:2007
     publication_id: OIML R139:2007
     tc_sc: ''
     year: 2007
@@ -19,7 +24,8 @@ data:
       correction devices if present) and an indicating device.
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 140:2007
+  - edition: '2010'
+    publication: OIML R 140:2007
     publication_id: OIML R140:2007
     tc_sc: ''
     year: 2007
@@ -32,7 +38,8 @@ data:
     - The display may be a remote indicating device.
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 81:1998
+  - edition: '2010'
+    publication: OIML R 81:1998
     publication_id: OIML R081:1998
     tc_sc: ''
     year: 1998
@@ -45,6 +52,52 @@ data:
     - a meter includes at least a measurement transducer, a calculator (including
       adjustment or correction devices if present), a conversio device (if necessary),
       and an indicating device.
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R139-1:2022
+    publication_id: OIML R139-1:2022
+    tc_sc: ''
+    year: 2022
+    clause: 3.2.2
+    link:
+    g18_entry: '03287'
+    definition: instrument intended to measure continuously and display the total
+      value of the quantity of gas passing the sensor at metering conditions
+    notes:
+    - 'Note: A meter includes at least a measuring device, a calculator (including
+      adjustment or correction devices if present) and an indicating device (see Figure
+      1).'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 140:2007
+    publication_id: OIML R140:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.1.1
+    link: https://www.oiml.org/en/files/pdf_R/r140-e07.pdf
+    g18_entry: '02039'
+    definition: instrument intended to measure, memorize and display the volume or
+      mass of gas passing through the flow measuring device at metering conditions
+    notes:
+    - 'Note: The display may be a remote indicating device.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 81:1998
+    publication_id: OIML R081:1998
+    tc_sc: ''
+    year: 1998
+    clause: '3.5'
+    link: https://www.oiml.org/en/files/pdf_R/r081-e98.pdf
+    g18_entry: '01014'
+    definition: an instrument designed to measure continuously, memorize and display
+      the quantity that passes through the measurement transducer
+    notes:
+    - 'Note: a meter includes at least a measurement transducer, a calculator (including
+      adjustment or correction devices if present), a conversion device (if necessary),
+      and an indicating device.'
     consistency: pending
     consistency_reason: ''
 status: current

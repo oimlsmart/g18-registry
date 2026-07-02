@@ -1,24 +1,32 @@
 ---
 data:
-  identifier: '00669'
-  term: operational test
+  identifier: '01991'
+  term: operational  test
   kind: undefined
   official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 51-1:2006
+  - edition: 202X
+    publication: OIML R 51-1:2006
     publication_id: OIML R051-1:2006
     tc_sc: ''
     year: 2006
     clause: T.6.1
     link: https://www.oiml.org/en/files/pdf_R/r051-1-e06.pdf
-    g18_entry: '00669'
-    definition: test carried out on a complete instrument using a test load or loads
-      of the type that it is intended to weigh, and using the load conveyor or load
-      transport system to move it on to and off the load receptor
-    notes: []
+    g18_entry: '01991'
+    definition: optional part of the meter that receives the digital output signals
+      from the metering calculator and, possibly, from associated measuring instruments,
+      which processes them into data for the indicating device
+    notes:
+    - 'Note: The metering calculator and the operational calculator may be two separate
+      elements or form a single unit. Except in the case of a particular need to dissociate
+      the two kinds of calculators, the association of both functions is called the
+      calculator in this Recommendation.'
     consistency: pending
     consistency_reason: ''
 status: current
-id: 5ca85390-c6cf-5033-97a6-17aab9012916
+id: bf7e04c7-afb4-5912-9df6-76c33d241a35
 schema_version: '3'
 related: []

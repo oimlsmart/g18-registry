@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '03412'
+  term: operating speed range
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R134:2006
+    publication_id: OIML R134:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.3.4.4
+    link:
+    g18_entry: '03412'
+    definition: set of values specified by the manufacturer between the minimum and
+      maximum operating speeds at which a vehicle may be weighed-in-motion
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 9a18ef0b-0815-57e6-af3d-497a50de2950
+schema_version: '3'
+related: []

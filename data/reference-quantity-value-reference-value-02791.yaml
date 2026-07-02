@@ -1,0 +1,37 @@
+---
+data:
+  identifier: '02791'
+  term: reference quantity value {reference value}
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R146-1:2016
+    publication_id: OIML R146-1:2016
+    tc_sc: ''
+    year: 2016
+    clause: 2.1 Tab. 1.10
+    link:
+    g18_entry: '02791'
+    definition: "{quantity value used as a basis for comparison with values of quantities
+      of the same kind [VIM 5.18]}"
+    notes:
+    - "{NOTE 1 A reference quantity value can be a true quantity value of a measurand,
+      in which case it is unknown, or a conventional quantity value, in which case
+      it is known. NOTE 2 A reference quantity value with associated measurement uncertainty
+      is usually provided with reference to a) a material, e.g. a certified reference
+      material, b) a device, e.g. a stabilized laser, c) a reference measurement procedure,
+      d) a comparison of measurement standards} In this Recommendation, the PMB of
+      the whole-grain CRM is the reference quantity value used to assess the measurement
+      accuracy at verification and to assess the accuracy of calibrations at type
+      evaluation. Where a CRM is not used, the reference quantity value is the mean
+      PMB at reference conditions prior to a test."
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: ddd161b1-92d7-5dca-bf00-bbdfce72f96b
+schema_version: '3'
+related: []

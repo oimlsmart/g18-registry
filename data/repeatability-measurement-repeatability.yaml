@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '02792'
+  term: repeatability measurement repeatability
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R146-1:2016
+    publication_id: OIML R146-1:2016
+    tc_sc: ''
+    year: 2016
+    clause: 2.1 Tab. 1.11
+    link:
+    g18_entry: '02792'
+    definition: "[VIM 2.21]"
+    notes:
+    - "(-)"
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 6dfa5722-4619-5ed7-8fc2-cdb11004ebae
+schema_version: '3'
+related: []

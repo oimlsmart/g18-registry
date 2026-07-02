@@ -4,8 +4,13 @@ data:
   term: sleeve
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 16-1:2002
+  - edition: '2010'
+    publication: OIML R 16-1:2002
     publication_id: OIML R016-1:2002
     tc_sc: ''
     year: 2002
@@ -16,7 +21,56 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 16-2:2002
+  - edition: '2010'
+    publication: OIML R 16-2:2002
+    publication_id: OIML R016-2:2002
+    tc_sc: ''
+    year: 2002
+    clause: '2.8'
+    link: https://www.oiml.org/en/files/pdf_R/r016-2-e02.pdf
+    g18_entry: '00328'
+    definition: essentially inelastic part of the cuff that encloses the bladder
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R148-1:2020
+    publication_id: OIML R148-1:2020
+    tc_sc: ''
+    year: 2020
+    clause: '2.11'
+    link:
+    g18_entry: '03514'
+    definition: essentially inelastic part of the cuff that encloses the bladder
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R149-1:2020
+    publication_id: OIML R149-1:2020
+    tc_sc: ''
+    year: 2020
+    clause: '2.14'
+    link:
+    g18_entry: '03515'
+    definition: essentially inelastic part of the cuff that encloses the bladder
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 16-1:2002
+    publication_id: OIML R016-1:2002
+    tc_sc: ''
+    year: 2002
+    clause: '2.8'
+    link: https://www.oiml.org/en/files/pdf_R/r016-1-e02.pdf
+    g18_entry: '00313'
+    definition: essentially inelastic part of the cuff that encloses the bladder
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 16-2:2002
     publication_id: OIML R016-2:2002
     tc_sc: ''
     year: 2002

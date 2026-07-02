@@ -4,8 +4,55 @@ data:
   term: being in service (use)
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML D 9:2004
+  - edition: '2010'
+    publication: OIML D 9:2004
+    publication_id: OIML D009:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.25'
+    link: https://www.oiml.org/en/files/pdf_D/d009-e04.pdf
+    g18_entry: '00207'
+    definition: operational life cycle of a measuring instrument after its putting
+      into service, i.e. a measuring instrument in use, after repair, relocated, or
+      rebuilt that may be resold
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R126-1:2021
+    publication_id: OIML R126-1:2021
+    tc_sc: ''
+    year: 2021
+    clause: 3.1.9
+    link:
+    g18_entry: '02905'
+    definition: operational life cycle of a measuring instrument after its putting
+      into service, i.e. a measuring instrument in use, after repair, relocated, or
+      rebuilt that may be resold (OIML D 9, 2.25)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D016:2011
+    publication_id: OIML D016:2011
+    tc_sc: ''
+    year: 2011
+    clause: '2.24'
+    link:
+    g18_entry: 02277-D016
+    definition: operational life cycle of a measuring instrument after its putting
+      into service, i.e. a measuring instrument in use, after repair, relocated, or
+      rebuilt that may be resold
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D 9:2004
     publication_id: OIML D009:2004
     tc_sc: ''
     year: 2004

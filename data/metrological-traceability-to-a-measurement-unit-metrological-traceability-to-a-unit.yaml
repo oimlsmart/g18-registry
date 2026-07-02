@@ -1,0 +1,30 @@
+---
+data:
+  identifier: '03297'
+  term: metrological traceability to a measurement unit metrological traceability
+    to a unit
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML D005:2022
+    publication_id: OIML D005:2022
+    tc_sc: ''
+    year: 2022
+    clause: '3.9'
+    link:
+    g18_entry: '03297'
+    definition: metrological traceability where the reference is a definition of measurement
+      unit throught its practical realisation
+    notes:
+    - 'Note: The expression “traceability to the SI” means ‘metrological traceability
+      to a measurement unit of the International System of Units’.'
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 6197d95f-c76a-52fa-abc9-3257e82f1b44
+schema_version: '3'
+related: []

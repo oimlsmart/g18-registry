@@ -1,0 +1,29 @@
+---
+data:
+  identifier: '03789'
+  term: test interface
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R091-1:2025
+    publication_id: OIML R091-1:2025
+    tc_sc: ''
+    year: 2025
+    clause: 3.1.7
+    link:
+    g18_entry: '03789'
+    definition: software or hardware interface from which measurement signals or data
+      can be read or to which measurement signals can be inserted
+    notes:
+    - 'Note: To record and analyse signals from field experiments or to insert recorded
+      or artificial data, e.g. to support metrological control.'
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 5e78587f-5f68-51ee-ab51-1cf21cb26e43
+schema_version: '3'
+related: []

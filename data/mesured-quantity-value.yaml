@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '03250'
+  term: mesured quantity (value)
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R060-1:2021
+    publication_id: OIML R060-1:2021
+    tc_sc: ''
+    year: 2021
+    clause: 3.7.12
+    link:
+    g18_entry: '03250'
+    definition: quantity value representing a measurement results [VIM 2.10]
+    notes:
+    - "(For notes, refer to the VIM)"
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 6b8c9ddd-0209-524d-909f-2ef48d131776
+schema_version: '3'
+related: []

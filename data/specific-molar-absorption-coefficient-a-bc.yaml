@@ -1,0 +1,31 @@
+---
+data:
+  identifier: '01847'
+  term: specific molar absorption coefficient (ε = A/bc)
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R 135:2004
+    publication_id: OIML R135:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.8'
+    link: https://www.oiml.org/en/files/pdf_R/r135-e04.pdf
+    g18_entry: '01847'
+    definition: absorbance divided by the optical pathlength b and the amount of substance
+      concentration c
+    notes:
+    - The derived SI unit is the square metre per mole (1 m2/mol), but the litre per
+      mole per mm (L/(mol × mm)) or litre per mole per cm (L/(mol × cm)) is often
+      used. The specific molar absorption coefficient ε slightly depends on the amount
+      of substance concentration c.
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 32fae2a2-0c08-5531-abad-048949b626d2
+schema_version: '3'
+related: []

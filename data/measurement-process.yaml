@@ -1,14 +1,24 @@
 ---
 data:
-  identifier: '00120'
+  identifier: '00140'
   term: measurement process
   kind: defined_in_vim
   official_concept:
     source: urn:oiml:pub:v:2:1993
     id: '2.8'
     url: https://oimlsmart.github.io/vocab/vim-1993/concept/2.8
+    definition_text:
+    edition_label: VIM 1993
+    vocab: vim
+    role: legacy
+    year: 1993
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML D 20:1988
+  - edition: '2010'
+    publication: OIML D 20:1988
     publication_id: OIML D020:1988
     tc_sc: ''
     year: 1988
@@ -25,10 +35,11 @@ data:
     consistency_reason: ''
     related:
     - type: see
-      ref: &1
+      ref:
         source: urn:oiml:pub:v:2:1993
         id: '2.8'
-  - publication: OIML D 16:1986
+  - edition: '2010'
+    publication: OIML D 16:1986
     publication_id: OIML D016:1986
     tc_sc: ''
     year: 1986
@@ -43,9 +54,32 @@ data:
       procedure, values of the nce quantities and the measurement rds (VIM:1993, 2.08).
     consistency: pending
     consistency_reason: ''
+  - edition: 202X
+    publication: OIML D 20:1988
+    publication_id: OIML D020:1988
+    tc_sc: ''
+    year: 1988
+    clause: 1.2.6
+    link: https://www.oiml.org/en/files/pdf_D/d020-e88.pdf
+    g18_entry: '00140'
+    definition: all the information, equipment and operations relevant to a given
+      measurement [VIM:1993,  2.08]
+    notes:
+    - 'Note: This concept embraces all aspects relating to the performance and quality
+      of the measurement ; it includes, for example, the principle, method, procedure,
+      values of the influence quantities and the measurement standards.'
+    consistency: pending
+    consistency_reason: ''
 status: current
 id: 3d9e93c7-879d-5f59-a69f-34b3a484d66a
 schema_version: '3'
 related:
 - type: see
-  ref: *1
+  ref:
+    source: urn:oiml:pub:v:2:1993
+    id: '2.8'
+    definition_text:
+    edition_label: VIM 1993
+    vocab: vim
+    role: legacy
+    year: 1993

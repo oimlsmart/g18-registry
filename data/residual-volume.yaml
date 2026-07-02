@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '03461'
+  term: residual volume
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R080-2:2017
+    publication_id: OIML R080-2:2017
+    tc_sc: ''
+    year: 2017
+    clause: '2'
+    link:
+    g18_entry: '03461'
+    definition: liquid content of the compartment including pipework at the cut-off
+      point level
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: bc587c5b-674d-5112-9f8f-d874d953da41
+schema_version: '3'
+related: []

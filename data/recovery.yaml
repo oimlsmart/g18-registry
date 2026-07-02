@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '00478'
+  identifier: '02431'
   term: recovery
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 49-2:2006
+  - edition: '2010'
+    publication: OIML R 49-2:2006
     publication_id: OIML R049-2:2006
     tc_sc: ''
     year: 2006
@@ -14,6 +19,19 @@ data:
     g18_entry: '00478'
     definition: treatment of the equipment under test, after conditioning, in order
       that the properties of the equipment under test may be stabilized before measurement
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R049-1:2024
+    publication_id: OIML R049-1:2024
+    tc_sc: ''
+    year: 2024
+    clause: 3.4.11
+    link:
+    g18_entry: '02431'
+    definition: treatment of the equipment under test (3.1.170, after conditioning
+      (3.4.10), in order that its properties can be stabilized before measurement
     notes: []
     consistency: pending
     consistency_reason: ''

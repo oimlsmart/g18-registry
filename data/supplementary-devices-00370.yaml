@@ -1,0 +1,28 @@
+---
+data:
+  identifier: '00370'
+  term: supplementary devices
+  kind: undefined
+  official_concept:
+  editions_present:
+  - '2010'
+  primary_edition: 202X
+  publications:
+  - edition: '2010'
+    publication: OIML R 35-1:2007
+    publication_id: OIML R035-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: 2.2.4
+    link: https://www.oiml.org/en/files/pdf_R/r035-1-e07.pdf
+    g18_entry: '00370'
+    definition: devices such as one or more fixed or movable hooks, rings, handles,
+      tips, winding devices, and verniers intended to facilitate andextend the utility
+      of the measure
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 0f3423db-a273-52b6-8a07-50e2a5bb5c4b
+schema_version: '3'
+related: []

@@ -1,0 +1,30 @@
+---
+data:
+  identifier: '01457'
+  term: permanent)  magnetization (M)
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R 111-1:2004
+    publication_id: OIML R111-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: 2.9.7
+    link: https://www.oiml.org/en/files/pdf_R/r111-1-e04.pdf
+    g18_entry: '01457'
+    definition: parameter that specifies a magnetic state of material bodies such
+      as weights, in the absence of an external magnetic field (most generally, magnetization
+      is a vector whose magnitude and direction are not necessarily constant within
+      the material). The magnetization of a body generates an inhomogeneous magnetic
+      field in space and  thus may produce magnetic forces on other materials
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 5e0df6ef-7e09-56b4-a792-a0bd8ef6cc8d
+schema_version: '3'
+related: []

@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '01711'
+  identifier: '03247'
   term: measured dimensions
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 129:2000
+  - edition: '2010'
+    publication: OIML R 129:2000
     publication_id: OIML R129:2000
     tc_sc: ''
     year: 2000
@@ -14,6 +19,19 @@ data:
     g18_entry: '01711'
     definition: the length (L), width (W) or height (H), measured by the instrument,
       of the smallest rectangular box which fully encloses the object
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R129-1:2020
+    publication_id: OIML R129-1:2020
+    tc_sc: ''
+    year: 2020
+    clause: 2.2.3
+    link:
+    g18_entry: '03247'
+    definition: the length (L), width (W) or height (H), measured by the measuring
+      instrument, of the smallest rectangular box which fully encloses the object
     notes: []
     consistency: pending
     consistency_reason: ''

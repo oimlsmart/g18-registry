@@ -1,0 +1,166 @@
+---
+data:
+  identifier: '00937'
+  term: software identification
+  kind: undefined
+  official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: '2010'
+    publication: OIML D 31:2008
+    publication_id: OIML D031:2008
+    tc_sc: ''
+    year: 2008
+    clause: 3.1.42
+    link: https://www.oiml.org/en/files/pdf_D/d031-e08.pdf
+    g18_entry: '02209'
+    definition: sequence of readable characters (e.g. version number, checksum) that
+      is inextricably linked to the software or software module under consideration.
+      It can be checked on an instrument whilst in use
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: '2010'
+    publication: OIML R 21:2007
+    publication_id: OIML R021:2007
+    tc_sc: ''
+    year: 2007
+    clause: 2.2.8.4
+    link: https://www.oiml.org/en/files/pdf_R/r021-e07.pdf
+    g18_entry: '00354'
+    definition: sequence of readable characters of software, and that is inextricably
+      linked to the software (e.g. version number, checksum)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: '2010'
+    publication: OIML R 107-1:2007
+    publication_id: OIML R107-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.2.7.7.5
+    link: https://www.oiml.org/en/files/pdf_R/r107-1-e07.pdf
+    g18_entry: '01352'
+    definition: sequence of readable characters of software that is inextricably linked
+      to the software (e.g. version number, checksum)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: '2010'
+    publication: OIML R 51-1:2006
+    publication_id: OIML R051-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.2.7.8.4
+    link: https://www.oiml.org/en/files/pdf_R/r051-1-e06.pdf
+    g18_entry: '00595'
+    definition: sequence of readable characters of software, inextricably linked tothe
+      software (e.g. version number, checksum)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: '2010'
+    publication: OIML R 76-1:2006
+    publication_id: OIML R076-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.2.8.6
+    link: https://www.oiml.org/en/files/pdf_R/r076-1-e06.pdf
+    g18_entry: '00937'
+    definition: sequence of readable characters of software that is inextricably linked
+      to the software (e.g. version number, checksum)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D031:2023
+    publication_id: OIML D031:2023
+    tc_sc: ''
+    year: 2023
+    clause: 3.2.59
+    link:
+    g18_entry: '03518'
+    definition: sequence of readable characters (e.g. name, version number, checksum)
+      that represents the software or software module under consideration.
+    notes:
+    - 'Note: Software identification can be checked on an instrument whilst in use,
+      see 6.2.1.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R126-1:2021
+    publication_id: OIML R126-1:2021
+    tc_sc: ''
+    year: 2021
+    clause: 3.3.11
+    link:
+    g18_entry: '03520'
+    definition: sequence of readable characters (e.g. version number, checksum) that
+      represents the software or software module under consideration. (OIML D 31,
+      3.1.48)
+    notes:
+    - 'Note: The identification can be checked on an instrument whilst it is in use.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R150-1:2020
+    publication_id: OIML R150-1:2020
+    tc_sc: ''
+    year: 2020
+    clause: 2.2.9.5
+    link:
+    g18_entry: '03519'
+    definition: sequence of readable characters (e.g. version number, checksum) that
+      is inextricably linked to the software or software module under consideration.
+      It can be checked on an instrument whilst in use [VIML:2013, 6.01]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R061-1:2017
+    publication_id: OIML R061-1:2017
+    tc_sc: ''
+    year: 2017
+    clause: 3.3.6.5
+    link:
+    g18_entry: '03683'
+    definition: sequence of readable characters (e.g. version number, checksum) that
+      represents the software or software module under consideration
+    notes:
+    - 'Note: This software identification can be checked on an instrument whilst in
+      use.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R106-1:2011
+    publication_id: OIML R106-1:2011
+    tc_sc: ''
+    year: 2011
+    clause: 0.2.8.5
+    link:
+    g18_entry: '02557'
+    definition: sequence of readable characters of software, and that is inextricably
+      linked to the software (e.g. version number, checksum)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 76-1:2006
+    publication_id: OIML R076-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.2.8.6
+    link: https://www.oiml.org/en/files/pdf_R/r076-1-e06.pdf
+    g18_entry: '00937'
+    definition: sequence of readable characters of software that is inextricably linked
+      to the software (e.g. version number, checksum)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: f683bb51-6f97-526b-b54b-9620b93c85bf
+schema_version: '3'
+related: []

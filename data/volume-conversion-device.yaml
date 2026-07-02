@@ -4,8 +4,13 @@ data:
   term: volume conversion device
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 140:2007
+  - edition: '2010'
+    publication: OIML R 140:2007
     publication_id: OIML R140:2007
     tc_sc: ''
     year: 2007
@@ -19,6 +24,23 @@ data:
     notes:
     - The quotient of the volume at base conditions or of the mass to the volume at
       metering conditions is referred to as the "conversion factor".
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 140:2007
+    publication_id: OIML R140:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.1.12.1
+    link: https://www.oiml.org/en/files/pdf_R/r140-e07.pdf
+    g18_entry: '02054'
+    definition: device which automatically converts the volume measured at metering
+      conditions into a volume at base conditions or into a mass by taking into account
+      the gas characteristics (i.e. pressure, temperature, composition, density) measured
+      using associated measuring instruments or stored in a memory
+    notes:
+    - 'Note: The quotient of the volume at base conditions or of the mass to the volume
+      at metering conditions is referred to as the “conversion factor”.'
     consistency: pending
     consistency_reason: ''
 status: current

@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '02411'
+  term: minimum flow rate Q1
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R049-1:2024
+    publication_id: OIML R049-1:2024
+    tc_sc: ''
+    year: 2024
+    clause: 3.3.5
+    link:
+    g18_entry: '02411'
+    definition: lowest flow rate (3.3.1) at which the meter is to operate within the
+      maximum permissible error(s) (3.2.5)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: e6ef2eff-d510-5c79-8be2-a373872d71f3
+schema_version: '3'
+related: []

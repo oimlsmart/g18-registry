@@ -4,8 +4,13 @@ data:
   term: event-counter
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 21:2007
+  - edition: '2010'
+    publication: OIML R 21:2007
     publication_id: OIML R021:2007
     tc_sc: ''
     year: 2007
@@ -13,6 +18,21 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r021-e07.pdf
     g18_entry: '00346'
     definition: non-resettable counter device that increments each time device- specific
+      parameters (2.2.8.3) are changed. The reference number of the counter at the
+      time of initial or subsequent verification is fixed and secured by appropriate
+      hardware or software means
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 21:2007
+    publication_id: OIML R021:2007
+    tc_sc: ''
+    year: 2007
+    clause: 2.2.3
+    link: https://www.oiml.org/en/files/pdf_R/r021-e07.pdf
+    g18_entry: '00346'
+    definition: non-resettable counter device that increments each time device-specific
       parameters (2.2.8.3) are changed. The reference number of the counter at the
       time of initial or subsequent verification is fixed and secured by appropriate
       hardware or software means

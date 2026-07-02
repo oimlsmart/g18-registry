@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '01571'
+  identifier: '03092'
   term: gas separator
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 117-1:2007
+  - edition: '2010'
+    publication: OIML R 117-1:2007
     publication_id: OIML R117-1:2007
     tc_sc: ''
     year: 2007
@@ -14,6 +19,19 @@ data:
     g18_entry: '01571'
     definition: gas elimination device used for continuously separating, and removing,
       any mixed air or gases contained in the liquid
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R117-1:2019
+    publication_id: OIML R117-1:2019
+    tc_sc: ''
+    year: 2019
+    clause: T.g.1.1
+    link:
+    g18_entry: '03092'
+    definition: gas elimination device used for continuously separate and remove any
+      mixed air or gases contained in the liquid
     notes: []
     consistency: pending
     consistency_reason: ''

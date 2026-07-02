@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '02390'
+  term: meter with exchangeable metrological module
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R049-1:2024
+    publication_id: OIML R049-1:2024
+    tc_sc: ''
+    year: 2024
+    clause: 3.1.22
+    link:
+    g18_entry: '02390'
+    definition: meter, comprising a connection interface and an exchangeable metrological
+      module (3.1.23) from the same type approval (3.1.20)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: f3a793fa-b2de-5c28-9c2c-109bbcc94cc8
+schema_version: '3'
+related: []

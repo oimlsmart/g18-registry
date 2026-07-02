@@ -1,0 +1,26 @@
+---
+data:
+  identifier: '03776'
+  term: moving measurement
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R091-1:2025
+    publication_id: OIML R091-1:2025
+    tc_sc: ''
+    year: 2025
+    clause: 3.2.6
+    link:
+    g18_entry: '03776'
+    definition: speed measurement using a moving speed meter with non-zero ego speed
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 2b56d38f-d482-5a2f-80dd-cca97141438b
+schema_version: '3'
+related: []

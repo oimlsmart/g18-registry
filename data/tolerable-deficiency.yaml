@@ -1,0 +1,30 @@
+---
+data:
+  identifier: '02510'
+  term: tolerable deficiency
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R087:2016
+    publication_id: OIML R087:2016
+    tc_sc: ''
+    year: 2016
+    clause: 2.1.17
+    link:
+    g18_entry: '02510'
+    definition: permitted deficiency in the quantity of product in a prepackage
+    notes:
+    - 'Note 1: The symbol “T” is used to designate tolerable deficiency. Note 2: Tolerable
+      deficiency is sometimes referred to as the tolerable negative error, limits
+      of error or tolerances. Note 3: By convention T is a positive number but, in
+      use it represents a negative value of quantity, or negative error.'
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 82e01ed2-6f03-5bcf-8875-90f56d48ecd4
+schema_version: '3'
+related: []

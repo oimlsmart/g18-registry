@@ -1,0 +1,26 @@
+---
+data:
+  identifier: '03391'
+  term: process
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML D037:2022
+    publication_id: OIML D037:2022
+    tc_sc: ''
+    year: 2022
+    clause: 3.3 (G.3.3-1)
+    link:
+    g18_entry: '03391'
+    definition: Processes are not relevant to issuing OIML certificates.
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 25ff74cd-6651-5277-afcb-18c50db3a642
+schema_version: '3'
+related: []

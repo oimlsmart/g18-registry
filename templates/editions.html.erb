@@ -1,0 +1,81 @@
+<section class="page-head">
+  <div class="breadcrumb">
+    <a href="<%= rel_root %>index.html">Registry</a> /
+    <span>Edition comparison</span>
+  </div>
+  <h1>G 18 edition comparison</h1>
+  <p class="lede">
+    Side-by-side view of <strong>OIML G 18:2010</strong> (the published edition)
+    and <strong>OIML G 18:202X</strong> (the draft edition currently being
+    validated by TC 1 / Vocabularies). The 202X edition is intended to
+    deduplicate and harmonise terms across OIML Recommendations.
+  </p>
+</section>
+
+<section class="card">
+  <h2>Headline numbers</h2>
+  <table class="editions-table">
+    <thead>
+      <tr>
+        <th>Metric</th>
+        <% dataset.edition_names.each do |ed| %>
+          <th><%= h ed %></th>
+        <% end %>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Source concept entries</td>
+        <% dataset.edition_names.each do |ed| %>
+          <td class="num"><%= dataset.instances_in_edition(ed) %></td>
+        <% end %>
+      </tr>
+      <tr>
+        <td>Unique terms (after merging by designation)</td>
+        <% dataset.edition_names.each do |ed| %>
+          <td class="num">
+            <%= dataset.terms.count { |t| t.in_edition?(ed) } %>
+          </td>
+        <% end %>
+      </tr>
+      <tr>
+        <td>Terms only in this edition</td>
+        <% dataset.edition_names.each do |ed| %>
+          <td class="num"><%= dataset.terms_only_in_edition(ed) %></td>
+        <% end %>
+      </tr>
+      <tr>
+        <td>Harmonisation candidates (≥ 2 distinct source publications)</td>
+        <% dataset.edition_names.each do |ed| %>
+          <td class="num"><%= dataset.harmonization_candidates_in_edition(ed).size %></td>
+        <% end %>
+      </tr>
+    </tbody>
+  </table>
+  <p class="note" style="margin-top: 0.7em; font-size: 0.88em;">
+    Shared across both editions: <strong><%= dataset.terms_in_both_editions %></strong> terms.
+    Total unique terms in the registry: <strong><%= dataset.term_count %></strong>.
+  </p>
+</section>
+
+<section class="card">
+  <h2>What changed between editions</h2>
+  <ul>
+    <li><a href="<%= rel_root %>harmonization.html">Harmonisation worklist for TC 1 →</a> — every term cited by multiple OIML publications, with their divergent definitions side-by-side. This is the core worklist for validating 202X.</li>
+    <li><a href="<%= rel_root %>terms/index.html?only=202X">Terms added in 202X (not in 2010) →</a> — new entries introduced by the draft.</li>
+    <li><a href="<%= rel_root %>terms/index.html?only=2010">Terms present in 2010 but missing from 202X →</a> — candidates for removal; verify intent.</li>
+  </ul>
+</section>
+
+<section class="card note">
+  <h2>How to read this</h2>
+  <p>
+    The 202X edition is currently a <strong>draft</strong>. TC 1's task is to
+    confirm that each term in 202X either (a) carries a single harmonised
+    definition backed by VIM/VIML where applicable, or (b) documents the
+    intentional divergence across OIML Recommendations. The registry surfaces
+    the raw material; the editorial decisions happen in the
+    <a href="https://github.com/oimlsmart/vocab/tree/main/datasets/g18-202X">oimlsmart/vocab</a>
+    <code>datasets/g18-202X/</code> source.
+  </p>
+</section>

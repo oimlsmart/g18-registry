@@ -1,17 +1,51 @@
 ---
 data:
-  identifier: '00523'
+  identifier: '02953'
   term: control value
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 50-1:1997
+  - edition: '2010'
+    publication: OIML R 50-1:1997
     publication_id: OIML R050-1:1997
     tc_sc: ''
     year: 1997
     clause: T.4.8
     link: https://www.oiml.org/en/files/pdf_R/r050-1-e97.pdf
     g18_entry: '00523'
+    definition: the value, in units of mass, that is indicated by the totalization
+      indicating device when a known additional mass has been simulated or deposited
+      on the load receptor with the empty belt running for a prescribed number of
+      complete revolutions
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R150-1:2020
+    publication_id: OIML R150-1:2020
+    tc_sc: ''
+    year: 2020
+    clause: 2.3.7
+    link:
+    g18_entry: '02954'
+    definition: value, in units of mass, that is indicated by the totalization indicating
+      device when a known additional mass has been actually or by simulation introduced
+      on the (empty) force receptor
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R050-1:2014
+    publication_id: OIML R050-1:2014
+    tc_sc: ''
+    year: 2014
+    clause: 2.3.9
+    link:
+    g18_entry: '02953'
     definition: the value, in units of mass, that is indicated by the totalization
       indicating device when a known additional mass has been simulated or deposited
       on the load receptor with the empty belt running for a prescribed number of

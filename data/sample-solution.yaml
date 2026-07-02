@@ -4,8 +4,13 @@ data:
   term: sample solution
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 135:2004
+  - edition: '2010'
+    publication: OIML R 135:2004
     publication_id: OIML R135:2004
     tc_sc: ''
     year: 2004
@@ -19,6 +24,23 @@ data:
       the sensor of a measuring system and provides the output signal.
     - 2. In laboratory medicine the "system" usually is a subsystem of a patient such
       as blood or urine. [Adapted from [9], subclauses 4.114 and 4.4]
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 135:2004
+    publication_id: OIML R135:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.12'
+    link: https://www.oiml.org/en/files/pdf_R/r135-e04.pdf
+    g18_entry: '01851'
+    definition: part of a fluid taken from a system and intended to provide information
+      about the properties of the system
+    notes:
+    - 'Note: The sample solution contains as a component the analyte and is applied
+      to the sensor of a measuring system and provides the output signal. In laboratory
+      medicine the “system” usually is a subsystem of a patient such as blood or urine.
+      [Adapted from [9], subclauses 4.114 and 4.4]'
     consistency: pending
     consistency_reason: ''
 status: current

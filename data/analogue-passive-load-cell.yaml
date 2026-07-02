@@ -1,0 +1,30 @@
+---
+data:
+  identifier: '02855'
+  term: analogue-passive load cell
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R060-1:2021
+    publication_id: OIML R060-1:2021
+    tc_sc: ''
+    year: 2021
+    clause: 3.1.3.1
+    link:
+    g18_entry: '02855'
+    definition: load cell from which the output provides either measurable data or
+      direct information representing the measurand value
+    notes:
+    - 'Note: The ratio between output and input may be adjustable and this type of
+      load cell may utilise passive electronics (e.g. strain gauges), and passive
+      temperature compensation elements.'
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 1f81bcb2-50e9-5d2c-a6b9-711c3c326c5c
+schema_version: '3'
+related: []

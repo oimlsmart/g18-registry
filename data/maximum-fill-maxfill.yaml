@@ -1,0 +1,26 @@
+---
+data:
+  identifier: '03670'
+  term: maximum fill, Maxfill
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R061-1:2017
+    publication_id: OIML R061-1:2017
+    tc_sc: ''
+    year: 2017
+    clause: 3.4.10
+    link:
+    g18_entry: '03670'
+    definition: maximum possible fill to the instrument related to a specific product
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: fa60e590-fda9-5d0c-8626-f159f750267e
+schema_version: '3'
+related: []

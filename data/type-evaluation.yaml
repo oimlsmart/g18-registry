@@ -1,14 +1,24 @@
 ---
 data:
-  identifier: '00095'
+  identifier: '01466'
   term: type evaluation
   kind: defined_in_viml
   official_concept:
     source: urn:oiml:pub:v:1:2000
     id: '2.5'
     url: https://oimlsmart.github.io/vocab/viml-2000/concept/2.5
+    definition_text:
+    edition_label: VIML 2000
+    vocab: viml
+    role: prior
+    year: 2000
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML D 29:2008
+  - edition: '2010'
+    publication: OIML D 29:2008
     publication_id: OIML D029:2008
     tc_sc: ''
     year: 2008
@@ -24,10 +34,11 @@ data:
     consistency_reason: ''
     related:
     - type: see
-      ref: &1
+      ref:
         source: urn:oiml:pub:v:1:2000
         id: '2.5'
-  - publication: OIML D 30:2008
+  - edition: '2010'
+    publication: OIML D 30:2008
     publication_id: OIML D030:2008
     tc_sc: ''
     year: 2008
@@ -46,7 +57,8 @@ data:
       ref:
         source: urn:oiml:pub:v:1:2000
         id: '2.5'
-  - publication: OIML D 31:2008
+  - edition: '2010'
+    publication: OIML D 31:2008
     publication_id: OIML D031:2008
     tc_sc: ''
     year: 2008
@@ -60,7 +72,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML B 10-1:2004
+  - edition: '2010'
+    publication: OIML B 10-1:2004
     publication_id: OIML B010-1:2004
     tc_sc: TC 3/SC 2
     year: 2004
@@ -74,7 +87,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 111-1:2004
+  - edition: '2010'
+    publication: OIML R 111-1:2004
     publication_id: OIML R111-1:2004
     tc_sc: ''
     year: 2004
@@ -87,7 +101,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 135:2004
+  - edition: '2010'
+    publication: OIML R 135:2004
     publication_id: OIML R135:2004
     tc_sc: ''
     year: 2004
@@ -104,9 +119,92 @@ data:
       2.5]
     consistency: pending
     consistency_reason: ''
+  - edition: 202X
+    publication: OIML R049-1:2024
+    publication_id: OIML R049-1:2024
+    tc_sc: ''
+    year: 2024
+    clause: 3.4.12
+    link:
+    g18_entry: '02432'
+    definition: systematic examination and testing of the performance of one or more
+      specimens of an identified type or pattern of measuring instrument against documented
+      requirements, the results of which are contained in the evaluation report, in
+      order to determine whether the type may be approved
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D034:2019
+    publication_id: OIML D034:2019
+    tc_sc: ''
+    year: 2019
+    clause: 3.1.16
+    link:
+    g18_entry: '03594'
+    definition: conformity assessment procedure on one or more specimens of an identified
+      type (pattern) of measuring instruments which results in an evalution report
+      and / or an evaluation certificate
+    notes:
+    - 'Note:  “Pattern” is used in legal metrology with the same meaning as”type”.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D 29:2008
+    publication_id: OIML D029:2008
+    tc_sc: ''
+    year: 2008
+    clause: 3-G.3-2
+    link: https://www.oiml.org/en/files/pdf_D/d029-e08.pdf
+    g18_entry: '02154'
+    definition: systematic examination and testing of the performance of one or more
+      specimens of an identified type of measuring instruments against documented
+      requirements, the results of which are contained in the evaluation report, in
+      order to determine whether the type may be approved [VIML 2.5]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 111-1:2004
+    publication_id: OIML R111-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: 2.17.1
+    link: https://www.oiml.org/en/files/pdf_R/r111-1-e04.pdf
+    g18_entry: '01466'
+    definition: systematic examination and testing of the performance of a type of
+      weights or weight sets against the documented requirements of this Recommendation,
+      the results of which are contained in a test report
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 135:2004
+    publication_id: OIML R135:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.38'
+    link: https://www.oiml.org/en/files/pdf_R/r135-e04.pdf
+    g18_entry: '01877'
+    definition: systematic examination and testing of the performance of one or more
+      samples of an identified type of measuring instrument against documented requirements,
+      the results of which are contained in the evaluation report, in order to determine
+      whether the type may be approved
+    notes:
+    - 'Note:  The term “pattern” is used in legal metrology with the same meaning
+      as “type”; below only the term “type” is used. [VIML, 2.5]'
+    consistency: pending
+    consistency_reason: ''
 status: current
 id: bb3e9e11-f379-5fba-b61f-c8b816856e34
 schema_version: '3'
 related:
 - type: see
-  ref: *1
+  ref:
+    source: urn:oiml:pub:v:1:2000
+    id: '2.5'
+    definition_text:
+    edition_label: VIML 2000
+    vocab: viml
+    role: prior
+    year: 2000

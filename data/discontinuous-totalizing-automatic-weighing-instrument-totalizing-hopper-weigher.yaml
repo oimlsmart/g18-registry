@@ -5,8 +5,13 @@ data:
     weigher)
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 107-1:2007
+  - edition: '2010'
+    publication: OIML R 107-1:2007
     publication_id: OIML R107-1:2007
     tc_sc: ''
     year: 2007
@@ -19,6 +24,22 @@ data:
     notes:
     - In this Recommendation a discontinuous totalizing automatic weighing instrument
       is called an "instrument".
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 107-1:2007
+    publication_id: OIML R107-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.1.4
+    link: https://www.oiml.org/en/files/pdf_R/r107-1-e07.pdf
+    g18_entry: '01317'
+    definition: automatic weighing instrument that weighs a bulk product by dividing
+      it into discrete loads, determining the mass of each discrete load in sequence,
+      summing the weighing results and delivering the discrete loads to bulk
+    notes:
+    - 'Note: In this Recommendation a discontinuous totalizing automatic weighing
+      instrument is called an “instrument”.'
     consistency: pending
     consistency_reason: ''
 status: current

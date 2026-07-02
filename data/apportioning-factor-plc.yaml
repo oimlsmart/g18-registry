@@ -1,0 +1,29 @@
+---
+data:
+  identifier: '02862'
+  term: apportioning factor (pLC)
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R060-1:2021
+    publication_id: OIML R060-1:2021
+    tc_sc: ''
+    year: 2021
+    clause: 3.7.2
+    link:
+    g18_entry: '02862'
+    definition: the value of a dimensionless fraction expressed as a decimal (for
+      example, 0.7) representing that portion of an error observed in the (weighing)
+      instrument which attributed to the load cell alone
+    notes:
+    - 'Note: This value is used in determining the MPE (see 3.7.10).'
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 778d7ba5-433f-5f4e-98a9-b8bcff7bc81c
+schema_version: '3'
+related: []

@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '01666'
+  identifier: '02851'
   term: alveolar air
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 126:1998
+  - edition: '2010'
+    publication: OIML R 126:1998
     publication_id: OIML R126:1998
     tc_sc: ''
     year: 1998
@@ -13,6 +18,19 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r126-e98.pdf
     g18_entry: '01666'
     definition: air contained in the pulmonary alveoli
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R126-1:2021
+    publication_id: OIML R126-1:2021
+    tc_sc: ''
+    year: 2021
+    clause: 3.2.5
+    link:
+    g18_entry: '02851'
+    definition: air contained in the pulmonary alveoli where the gaseous exchange
+      takes place between the blood and the gas contained within the alveoli
     notes: []
     consistency: pending
     consistency_reason: ''

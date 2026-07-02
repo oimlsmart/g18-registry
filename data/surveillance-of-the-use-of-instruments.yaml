@@ -1,0 +1,29 @@
+---
+data:
+  identifier: '02213'
+  term: surveillance of the use of instruments
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML D001:2012
+    publication_id: OIML D001:2012
+    tc_sc: ''
+    year: 2012
+    clause: 3.1.13
+    link:
+    g18_entry: '02213'
+    definition: Part of the metrological supervision which consists in examining whether
+      instruments subject to legal metrology control are correctly used.
+    notes:
+    - 'Note: For further terms and definitions see the publications of the OIML, the
+      BIPM, and ILAC.'
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 21823351-3bbf-5afd-bd3f-8e5992154e52
+schema_version: '3'
+related: []

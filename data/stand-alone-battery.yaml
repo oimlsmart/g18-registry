@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '02249-D011'
+  term: stand-alone battery
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML D011:2013
+    publication_id: OIML D011:2013
+    tc_sc: ''
+    year: 2013
+    clause: '3.24'
+    link:
+    g18_entry: '02249-D011'
+    definition: non-rechargeable battery or rechargeable battery which shall be (re)charged
+      only when not connected to the EUT
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 57058879-b99c-529e-ad3d-1ef84317813e
+schema_version: '3'
+related: []

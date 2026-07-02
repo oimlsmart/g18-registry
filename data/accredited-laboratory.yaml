@@ -4,8 +4,25 @@ data:
   term: accredited laboratory
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML D 19:1988
+  - edition: '2010'
+    publication: OIML D 19:1988
+    publication_id: OIML D019:1988
+    tc_sc: ''
+    year: 1988
+    clause: 1.1.10
+    link: https://www.oiml.org/en/files/pdf_D/d019-e88.pdf
+    g18_entry: '00134'
+    definition: a testing laboratory to which accreditation has been granted
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D 19:1988
     publication_id: OIML D019:1988
     tc_sc: ''
     year: 1988

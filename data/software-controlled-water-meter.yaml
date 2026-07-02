@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '03704'
+  term: software-controlled water meter
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R049-1:2024
+    publication_id: OIML R049-1:2024
+    tc_sc: ''
+    year: 2024
+    clause: 3.1.27
+    link:
+    g18_entry: '03704'
+    definition: water meter (3.1.1) that incorporates and utilizes legally relevant
+      software modules
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 97895db9-bec7-511e-8854-0bfa48dbbccf
+schema_version: '3'
+related: []

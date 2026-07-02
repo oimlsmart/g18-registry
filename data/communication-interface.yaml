@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '02176'
+  identifier: '02550'
   term: communication interface
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML D 31:2008
+  - edition: '2010'
+    publication: OIML D 31:2008
     publication_id: OIML D031:2008
     tc_sc: ''
     year: 2008
@@ -15,6 +20,37 @@ data:
     definition: electronic, optical, radio or other technical interface that enables
       information to be passed between components of a measuring instrument (e.g.
       electronic devices) or sub-assemblies
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D031:2023
+    publication_id: OIML D031:2023
+    tc_sc: ''
+    year: 2023
+    clause: 3.2.7
+    link:
+    g18_entry: '02934'
+    definition: part of an instrument that enables information to be passed between
+      measuring instruments, components of measuring instruments or other external
+      systems
+    notes:
+    - 'Note 1: Communication interfaces can utilize wired, optical, radio, etc. communication
+      and they are usually designed to use a specific protocol. Note 2: This definition
+      does not include communication between software modules.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R106-1:2011
+    publication_id: OIML R106-1:2011
+    tc_sc: ''
+    year: 2011
+    clause: 0.2.7.1
+    link:
+    g18_entry: '02550'
+    definition: electronic, optical, radio or other hardware and software interface
+      that enables information to be automatically passed between instruments and
+      modules
     notes: []
     consistency: pending
     consistency_reason: ''

@@ -1,0 +1,28 @@
+---
+data:
+  identifier: '03460'
+  term: reproducibility condition of measurement
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R126-1:2021
+    publication_id: OIML R126-1:2021
+    tc_sc: ''
+    year: 2021
+    clause: 3.1.22
+    link:
+    g18_entry: '03460'
+    definition: condition of measurement, out of a set of conditions that includes
+      different locations, operators, measuring systems, and replicate measurements
+      on the same or similar objects (OIML V 2-200, 2.24)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: d58d825e-ad4d-5853-ab01-0b419a0fa0e3
+schema_version: '3'
+related: []

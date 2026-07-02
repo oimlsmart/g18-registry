@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '01599'
+  identifier: '03606'
   term: unattended service mode
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 117-1:2007
+  - edition: '2010'
+    publication: OIML R 117-1:2007
     publication_id: OIML R117-1:2007
     tc_sc: ''
     year: 2007
@@ -18,7 +23,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 139:2007
+  - edition: '2010'
+    publication: OIML R 139:2007
     publication_id: OIML R139:2007
     tc_sc: ''
     year: 2007
@@ -32,6 +38,37 @@ data:
     - In unattended service mode, the end of the measurement operation is the end
       of the registration (printing and/or memorizing) of information concerning the
       measurement operation.
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R139-1:2022
+    publication_id: OIML R139-1:2022
+    tc_sc: ''
+    year: 2022
+    clause: 3.3.4
+    link:
+    g18_entry: '03606'
+    definition: operating mode of a self-service arrangement in which the self-service
+      arrangement controls the authorization for the delivery, based on an action
+      of the customer
+    notes:
+    - 'Note:  In unattended service mode, the end of the measurement operation is
+      the end of the registration (printing and/or memorizing) of information concerning
+      the measurement operation.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R117-1:2019
+    publication_id: OIML R117-1:2019
+    tc_sc: ''
+    year: 2019
+    clause: T.s.4.2
+    link:
+    g18_entry: '03607'
+    definition: operating mode of a self-service arrangement in which the self-service
+      device controls the authorization for the delivery, based on an action of the
+      customer
+    notes: []
     consistency: pending
     consistency_reason: ''
 status: current

@@ -4,12 +4,30 @@ data:
   term: overload pressure
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 53:1982
+  - edition: '2010'
+    publication: OIML R 53:1982
     publication_id: OIML R053:1982
     tc_sc: ''
     year: 1982
     clause: T
+    link: https://www.oiml.org/en/files/pdf_R/r053-e82.pdf
+    g18_entry: '00675'
+    definition: pressure greater than nominal pressure, but at which the limit of
+      elastic deformation of the elastic sensing element is not exceeded
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 53:1982
+    publication_id: OIML R053:1982
+    tc_sc: ''
+    year: 1982
+    clause: T.3
     link: https://www.oiml.org/en/files/pdf_R/r053-e82.pdf
     g18_entry: '00675'
     definition: pressure greater than nominal pressure, but at which the limit of

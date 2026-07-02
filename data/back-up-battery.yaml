@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '00257'
+  identifier: 02251-D011
   term: back-up battery
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 99-1:2008
+  - edition: '2010'
+    publication: OIML R 99-1:2008
     publication_id: OIML R099-1:2008
     tc_sc: ''
     year: 2008
@@ -19,7 +24,8 @@ data:
     - "(OIML D 11:2004, 3.24)"
     consistency: pending
     consistency_reason: ''
-  - publication: OIML D 11:2004
+  - edition: '2010'
+    publication: OIML D 11:2004
     publication_id: OIML D011:2004
     tc_sc: ''
     year: 2004
@@ -28,6 +34,75 @@ data:
     g18_entry: '00257'
     definition: 'battery that is intended to power specific functions of an instrument
       in the absence of the primary power supply. Example: to preserve stored data'
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R142-1:2025
+    publication_id: OIML R142-1:2025
+    tc_sc: ''
+    year: 2025
+    clause: '3.34'
+    link:
+    g18_entry: '03711'
+    definition: 'battery that is intended to maintain power supply for specific functions
+      of an instrument in the absence of the primary power supply. Example: To preserve
+      stored data.'
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R060:2021
+    publication_id: OIML R060:2021
+    tc_sc: ''
+    year: 2021
+    clause: A.1.16
+    link:
+    g18_entry: '02900'
+    definition: 'battery that is intended to maintain power supply for specific functions
+      of an instrument in the absence of the primary power supply Example: To preserve
+      stored data. (OIML D 11, 3.26)'
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R059-1:2016
+    publication_id: OIML R059-1:2016
+    tc_sc: ''
+    year: 2016
+    clause: 2.3.4
+    link:
+    g18_entry: '02469'
+    definition: 'battery intended to power specific functions of an instrument in
+      the absence of the primary power supply. Example: to preserve stored data'
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D011:2013
+    publication_id: OIML D011:2013
+    tc_sc: ''
+    year: 2013
+    clause: '3.26'
+    link:
+    g18_entry: 02251-D011
+    definition: 'battery that is intended to maintain power supply for specific functions
+      of an instrument in the absence of the primary power supply Example: To preserve
+      stored data.'
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 99-1:2008
+    publication_id: OIML R099-1:2008
+    tc_sc: ''
+    year: 2008
+    clause: '3.39'
+    link: https://www.oiml.org/en/files/pdf_R/r099-1-e08.pdf
+    g18_entry: '02375'
+    definition: 'battery that is intended to power specific functions of an instrument
+      in the absence of the primary power supply (for example: to preserve stored
+      data) [OIML D 11:2004, 3.24]'
     notes: []
     consistency: pending
     consistency_reason: ''

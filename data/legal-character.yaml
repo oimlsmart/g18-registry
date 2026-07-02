@@ -4,8 +4,13 @@ data:
   term: legal character
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML D 20:1988
+  - edition: '2010'
+    publication: OIML D 20:1988
     publication_id: OIML D020:1988
     tc_sc: ''
     year: 1988
@@ -15,6 +20,20 @@ data:
     definition: the attribute of a measuring instrument whereby, having fulfilled
       all the administrative, metrological, and technical requirements of regulations,
       it is officially recognized to be legal for use in approved applications
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D 20:1988
+    publication_id: OIML D020:1988
+    tc_sc: ''
+    year: 1988
+    clause: 1.2.2
+    link: https://www.oiml.org/en/files/pdf_D/d020-e88.pdf
+    g18_entry: '00136'
+    definition: the attribute of a measuring instrument whereby, having fulfilled
+      all the administrative, metrological, and technical requirements of regulations,
+      it is officially recognized to be legal for use in approved  applications
     notes: []
     consistency: pending
     consistency_reason: ''

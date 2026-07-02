@@ -1,0 +1,28 @@
+---
+data:
+  identifier: '02309-R046-1'
+  term: harmonic
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R046-1:2012
+    publication_id: OIML R046-1:2012
+    tc_sc: ''
+    year: 2012
+    clause: 2.2.10
+    link:
+    g18_entry: '02309-R046-1'
+    definition: part of a signal that has a frequency that is an integer multiple
+      of the fundamental frequency of the signal
+    notes:
+    - 'Note: The fundamental frequency is generally the nominal frequency (fnom)'
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 7121b9b3-09cd-50ef-adbe-dbf1432df240
+schema_version: '3'
+related: []

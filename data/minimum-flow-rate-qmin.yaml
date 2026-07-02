@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '03306'
+  term: minimum flow rate (Qmin)
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R050-1:2017
+    publication_id: OIML R050-1:2017
+    tc_sc: ''
+    year: 2017
+    clause: 2.3.6.2
+    link:
+    g18_entry: '03306'
+    definition: flowrate above which the weighing results comply with the requirements
+      of this Recommendation
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 77d2ca99-bc23-52fa-87b2-a2d0d292a3d0
+schema_version: '3'
+related: []

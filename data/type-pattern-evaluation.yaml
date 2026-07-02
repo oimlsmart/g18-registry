@@ -1,14 +1,24 @@
 ---
 data:
-  identifier: '00085'
+  identifier: '00165'
   term: type (pattern) evaluation
   kind: defined_in_viml
   official_concept:
     source: urn:oiml:pub:v:1:2000
     id: '2.5'
     url: https://oimlsmart.github.io/vocab/viml-2000/concept/2.5
+    definition_text:
+    edition_label: VIML 2000
+    vocab: viml
+    role: prior
+    year: 2000
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML B 3:2003
+  - edition: '2010'
+    publication: OIML B 3:2003
     publication_id: OIML B003:2003
     tc_sc: ''
     year: 2003
@@ -24,10 +34,11 @@ data:
     consistency_reason: ''
     related:
     - type: see
-      ref: &1
+      ref:
         source: urn:oiml:pub:v:1:2000
         id: '2.5'
-  - publication: OIML D 27:2001
+  - edition: '2010'
+    publication: OIML D 27:2001
     publication_id: OIML D027:2001
     tc_sc: ''
     year: 2001
@@ -48,9 +59,144 @@ data:
       ref:
         source: urn:oiml:pub:v:1:2000
         id: '2.5'
+  - edition: 202X
+    publication: OIML R142-1:2025
+    publication_id: OIML R142-1:2025
+    tc_sc: ''
+    year: 2025
+    clause: '3.20'
+    link:
+    g18_entry: '03733'
+    definition: conformity assessment procedure on one or more specimens of an identified
+      type (pattern) of measuring instruments which results in an evaluation report
+      and/or an evaluation certificate
+    notes:
+    - 'Note 1:  ‘Pattern’ is used in legal metrology with the same meaning as ‘type’;
+      in the entries below, only ‘type’is used.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D031:2023
+    publication_id: OIML D031:2023
+    tc_sc: ''
+    year: 2023
+    clause: 3.2.69
+    link:
+    g18_entry: '03595'
+    definition: conformity assessment procedure on one or more specimens of an identified
+      type (pattern) of measuring instruments which results in an evaluation report
+      or a certificate [OIML V 1:2022, 2.04]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D037:2022
+    publication_id: OIML D037:2022
+    tc_sc: ''
+    year: 2022
+    clause: G.3-2
+    link:
+    g18_entry: '03598'
+    definition: conformity assessment procedure on one or more specimens of an identified
+      type (pattern) of measuring instruments which results in an evaluation report
+      and/or an evaluation certificate (VIML, 2.04)
+    notes:
+    - 'Note 1:  “Pattern” is used in legal metrology with the same meaning as “type”.
+      Note 2:  for the purposes of the OIML-CS, “evaluation report” should be read
+      as “OIML type evaluation report”.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R060-1:2021
+    publication_id: OIML R060-1:2021
+    tc_sc: ''
+    year: 2021
+    clause: 3.1.10
+    link:
+    g18_entry: '03597'
+    definition: conformity assessment procedure on one or more specimens of an identified
+      type (pattern) of measuring instruments which results in an evaluation report
+      and/or an evaluation certificate [VIML, 2.04]
+    notes:
+    - "(For notes, refer to the VIML)"
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D030:2020
+    publication_id: OIML D030:2020
+    tc_sc: ''
+    year: 2020
+    clause: G.3-2
+    link:
+    g18_entry: '03596'
+    definition: conformity assessment procedure on one or more specimens of an identified
+      type (pattern) of measuring instruments which results in an evaluation report
+      and/or an evaluation certificate (VIML, 2.04)
+    notes:
+    - 'Note 1:  “Pattern” is used in legal metrology with the same meaning as “type”.
+      Note 2:  for the purposes of the OIML-CS, “evaluation report” should be read
+      as “OIML type evaluation report”.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R059-1:2016
+    publication_id: OIML R059-1:2016
+    tc_sc: ''
+    year: 2016
+    clause: 2.1.15
+    link:
+    g18_entry: '02456'
+    definition: conformity assessment procedure on one or more specimens of an identified
+      type (pattern) of measuring instruments which results in an evaluation report
+      and/or an evaluation certificate [VIML 2.04]
+    notes:
+    - 'Note:  ‘Pattern’ is used in legal metrology with the same meaning as ‘type’;
+      in the entries below, only ‘type’ is used.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R146-1:2016
+    publication_id: OIML R146-1:2016
+    tc_sc: ''
+    year: 2016
+    clause: '2.1'
+    link:
+    g18_entry: '02797'
+    definition: "{conformity assessment procedure on one or more specimens of an identified
+      type (pattern) of measuring instruments which results in an evaluation report
+      and / or an evaluation certificate [VIML 2.04]}"
+    notes:
+    - "{Note “Pattern” is used in legal metrology with the same meaning as “type”;
+      in the entries below, only “type” is used.}"
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D 27:2001
+    publication_id: OIML D027:2001
+    tc_sc: ''
+    year: 2001
+    clause: '2.3'
+    link: https://www.oiml.org/en/files/pdf_D/d027-e01.pdf
+    g18_entry: '00165'
+    definition: systematic examination and testing of the performance of one or more
+      specimens of an identified type (pattern) of measuring instruments against documented
+      requirements, the results of which are contained in the evaluation report, in
+      order to determine whether the type may be approved [VIML 2.5]
+    notes:
+    - 'Note:  “Pattern” is used in legal metrology with the same meaning as “type”;
+      in the entries below, only “type” is used.'
+    consistency: pending
+    consistency_reason: ''
 status: current
 id: 6818c82b-103b-542d-874b-1cb1eadf8b75
 schema_version: '3'
 related:
 - type: see
-  ref: *1
+  ref:
+    source: urn:oiml:pub:v:1:2000
+    id: '2.5'
+    definition_text:
+    edition_label: VIML 2000
+    vocab: viml
+    role: prior
+    year: 2000

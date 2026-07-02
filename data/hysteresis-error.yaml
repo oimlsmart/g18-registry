@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '00733'
+  identifier: '01210'
   term: hysteresis error
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 60:2000
+  - edition: '2010'
+    publication: OIML R 60:2000
     publication_id: OIML R060:2000
     tc_sc: ''
     year: 2000
@@ -18,7 +23,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 109:1993
+  - edition: '2010'
+    publication: OIML R 109:1993
     publication_id: OIML R109:1993
     tc_sc: ''
     year: 1993
@@ -31,7 +37,50 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 101:1991
+  - edition: '2010'
+    publication: OIML R 101:1991
+    publication_id: OIML R101:1991
+    tc_sc: ''
+    year: 1991
+    clause: T.8
+    link: https://www.oiml.org/en/files/pdf_R/r101-e91.pdf
+    g18_entry: '01210'
+    definition: the difference between the indications of the instrument when the
+      same pressure (except pressures at the lower and upper limits of the measuring
+      range) is reached by increasing or decreasing the pressure
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R060-1:2021
+    publication_id: OIML R060-1:2021
+    tc_sc: ''
+    year: 2021
+    clause: 3.7.7
+    link:
+    g18_entry: '03099'
+    definition: difference in load cell output readings for the same applied force
+      between reading obtained by increasing the load from minimum load (Dmin) and
+      the other by decreasing the load from maximum load (Dmax)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 109:1993
+    publication_id: OIML R109:1993
+    tc_sc: ''
+    year: 1993
+    clause: '2.6'
+    link: https://www.oiml.org/en/files/pdf_R/r109-e93.pdf
+    g18_entry: '01416'
+    definition: the difference between the indication of the instrument when the same
+      pressure (except pressures at the lower and upper limits of the measuring range)
+      is reached by increasing or decreasing the pressure
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 101:1991
     publication_id: OIML R101:1991
     tc_sc: ''
     year: 1991

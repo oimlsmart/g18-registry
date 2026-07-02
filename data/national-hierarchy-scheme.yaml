@@ -1,0 +1,31 @@
+---
+data:
+  identifier: '03322'
+  term: national hierarchy scheme
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML D005:2022
+    publication_id: OIML D005:2022
+    tc_sc: ''
+    year: 2022
+    clause: '3.29'
+    link:
+    g18_entry: '03322'
+    definition: hierarchy scheme for given type of measuring instrument in the particular
+      country, containing the specification of the recommended (permissible) types
+      of measurieng instruments for individual levels of metrological traceability,
+      requirements for their metrological characteristics (accuracy class, maximum
+      permissible error, etc.) and recommended (permissible) methods and means of
+      dissemination of units
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 5df263c0-dab1-550e-9a4d-66603b972f43
+schema_version: '3'
+related: []

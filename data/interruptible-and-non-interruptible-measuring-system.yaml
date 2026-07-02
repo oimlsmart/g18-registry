@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '01579'
+  identifier: '03156'
   term: interruptible and non-interruptible measuring system
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 117-1:2007
+  - edition: '2010'
+    publication: OIML R 117-1:2007
     publication_id: OIML R117-1:2007
     tc_sc: ''
     year: 2007
@@ -15,6 +20,20 @@ data:
     definition: an interruptible measuring system is a measuring system in which the
       liquid flow can be stopped easily and rapidly (this does not include an emergency
       stop). In other cases the measuring system is considered to be non-interruptible
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R117-1:2019
+    publication_id: OIML R117-1:2019
+    tc_sc: ''
+    year: 2019
+    clause: T.i.4
+    link:
+    g18_entry: '03156'
+    definition: an interruptible measuring system is a measuring system in which the
+      liquid flow can be stopped easily and rapidly (this does not include an emergency
+      stop). In other cases, the measuring system is considered to be non-interruptible
     notes: []
     consistency: pending
     consistency_reason: ''

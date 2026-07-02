@@ -4,8 +4,12 @@ data:
   term: element of a measurement process
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  primary_edition: 202X
   publications:
-  - publication: OIML D 16:1986
+  - edition: '2010'
+    publication: OIML D 16:1986
     publication_id: OIML D016:1986
     tc_sc: ''
     year: 1986

@@ -4,8 +4,13 @@ data:
   term: control instrument
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 107-1:2007
+  - edition: '2010'
+    publication: OIML R 107-1:2007
     publication_id: OIML R107-1:2007
     tc_sc: ''
     year: 2007
@@ -21,7 +26,8 @@ data:
       interrupted (see 6.3).'
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 51-1:2006
+  - edition: '2010'
+    publication: OIML R 51-1:2006
     publication_id: OIML R051-1:2006
     tc_sc: ''
     year: 2006
@@ -35,7 +41,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 61-1:2004
+  - edition: '2010'
+    publication: OIML R 61-1:2004
     publication_id: OIML R061-1:2004
     tc_sc: ''
     year: 2004
@@ -49,7 +56,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 134:2003
+  - edition: '2010'
+    publication: OIML R 134:2003
     publication_id: OIML R134:2003
     tc_sc: ''
     year: 2003
@@ -60,7 +68,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 106-1:1997
+  - edition: '2010'
+    publication: OIML R 106-1:1997
     publication_id: OIML R106-1:1997
     tc_sc: ''
     year: 1997
@@ -69,6 +78,93 @@ data:
     g18_entry: '01258'
     definition: a non-automatic weighing instrument used to determine the mass ofa
       reference wagon
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R106-1:2011
+    publication_id: OIML R106-1:2011
+    tc_sc: ''
+    year: 2011
+    clause: 0.1.11
+    link:
+    g18_entry: '02532'
+    definition: weighing instrument used to determine the mass of a reference wagon
+      by static weighing
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 107-1:2007
+    publication_id: OIML R107-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.1.5
+    link: https://www.oiml.org/en/files/pdf_R/r107-1-e07.pdf
+    g18_entry: '01319'
+    definition: weighing instrument used to determine the conventional true value
+      of the mass of the test loads during material tests
+    notes:
+    - 'Note: Control instruments used for testing may be:separate from the instrument
+      being tested; or integral, when a non-automatic (static) weighing mode is provided
+      by the instrument being tested, which allows the weighing cycle to be interrupted
+      (see 6.3).'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R134:2006
+    publication_id: OIML R134:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.1.4
+    link:
+    g18_entry: '02948'
+    definition: 'weighing instrument used to determine the static reference vehicle
+      mass of the reference vehicles and the static single-axle loads of a two-axle
+      rigid reference vehicle. The control instruments used as a reference instrument
+      during testing may be: - separate from the instrument being tested; or - integral,
+      when a static weighing mode is provided by the instrument being tested.'
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication:
+    publication_id:
+    tc_sc: ''
+    year:
+    clause:
+    link:
+    g18_entry: '02950'
+    definition: weighing instrument used to determine the conventional value of the
+      mass of the test load(s) [VIML:2013, 5.08] [2]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication:
+    publication_id:
+    tc_sc: ''
+    year:
+    clause:
+    link:
+    g18_entry: '02949'
+    definition: weighing instrument used to determine the conventional value of the
+      mass of the test load(s) [VIML, 5.08 [2]]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication:
+    publication_id:
+    tc_sc: ''
+    year:
+    clause:
+    link:
+    g18_entry: '00570'
+    definition: 'weighing instrument used to determine the conventional true value
+      of the mass of the test load(s). Control instruments used for testing may be:
+      - separate from the instrument being tested; or - integral, when a static weighing
+      mode is provided by the instrument being tested'
     notes: []
     consistency: pending
     consistency_reason: ''

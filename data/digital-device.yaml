@@ -4,8 +4,13 @@ data:
   term: digital device
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 107-1:2007
+  - edition: '2010'
+    publication: OIML R 107-1:2007
     publication_id: OIML R107-1:2007
     tc_sc: ''
     year: 2007
@@ -17,7 +22,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 76-1:2006
+  - edition: '2010'
+    publication: OIML R 76-1:2006
     publication_id: OIML R076-1:2006
     tc_sc: ''
     year: 2006
@@ -26,6 +32,47 @@ data:
     g18_entry: '00907'
     definition: electronic device that only performs digital functions and provides
       a digitized output or display
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R150-1:2020
+    publication_id: OIML R150-1:2020
+    tc_sc: ''
+    year: 2020
+    clause: 2.2.4
+    link:
+    g18_entry: '02987'
+    definition: 'device that provides a digitised output or display Examples: Printer,
+      remote display, terminal, data storage device, personal computer'
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 107-1:2007
+    publication_id: OIML R107-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.2.2.4
+    link: https://www.oiml.org/en/files/pdf_R/r107-1-e07.pdf
+    g18_entry: '01331'
+    definition: 'electronic device that only performs digital functions and that provides
+      a digitized output or display. Examples: Printer, remote display, terminal,
+      data storage device, personal computer'
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 76-1:2006
+    publication_id: OIML R076-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.2.3.4
+    link: https://www.oiml.org/en/files/pdf_R/r076-1-e06.pdf
+    g18_entry: '00907'
+    definition: 'electronic device that only performs digital functions and provides
+      a digitized output or display Examples: Printer, primary or secondary display,
+      keyboard, terminal, data storage device, personal computer.'
     notes: []
     consistency: pending
     consistency_reason: ''

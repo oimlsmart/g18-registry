@@ -1,0 +1,35 @@
+---
+data:
+  identifier: '03251'
+  term: measurement
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML D031:2023
+    publication_id: OIML D031:2023
+    tc_sc: ''
+    year: 2023
+    clause: 3.2.34
+    link:
+    g18_entry: '03251'
+    definition: process of experimentally obtaining one or more quantity values that
+      can reasonably by attributed to a quantity adampted from[OIML V 2-200:2012,
+      2.1]
+    notes:
+    - 'Note 1:Measurement does not apply to nominal properties. Note 2: Measurement
+      implies comparison of quantities or couting of entities. Note 3: Measurement
+      presupposes a description of the quantity commensurate with the intended use
+      of measurement result, a measurement procedure, and a calibrated measuring g
+      system operating according to the specified measurement procedure, including
+      the measurement conditions. Note 4: Annex C illustrates the terms and definitions
+      related to the measurement process and their usage in thie OIML Document.'
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: a0632b53-cb0b-507a-9121-d082383a45b5
+schema_version: '3'
+related: []

@@ -1,0 +1,29 @@
+---
+data:
+  identifier: '02410'
+  term: transitional flow rate Q2
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R049-1:2024
+    publication_id: OIML R049-1:2024
+    tc_sc: ''
+    year: 2024
+    clause: 3.3.4
+    link:
+    g18_entry: '02410'
+    definition: flow rate (3.3.1) between the permanent flow rate (3.3.2) and the
+      minimum flow rate that divides the flow rate range into two zones, the upper
+      flow rate zone and the lower flow rate zone, each characterized by its own maximum
+      permissible error(s) (3.2.5)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: b728129c-0fc5-5c5c-9c1d-95437996a8fa
+schema_version: '3'
+related: []

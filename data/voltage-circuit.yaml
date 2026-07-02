@@ -1,0 +1,28 @@
+---
+data:
+  identifier: '02290-R046-1'
+  term: voltage circuit
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R046-1:2012
+    publication_id: OIML R046-1:2012
+    tc_sc: ''
+    year: 2012
+    clause: 2.1.11
+    link:
+    g18_entry: '02290-R046-1'
+    definition: internal connections of the meter, part of the measuring element and,
+      in the case of static meters, part of the power supply, supplied with the voltage
+      of the circuit to which the meter is connected [IEC 62052-11:2003, 3.2.7]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 604f3de8-c88e-552d-88dd-7e3882673ad2
+schema_version: '3'
+related: []

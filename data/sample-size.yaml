@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '01122'
+  identifier: '02509'
   term: sample size
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 87:2004
+  - edition: '2010'
+    publication: OIML R 87:2004
     publication_id: OIML R087:2004
     tc_sc: ''
     year: 2004
@@ -17,6 +22,20 @@ data:
       lot
     notes:
     - The symbol 'n' means sample size.
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R087:2016
+    publication_id: OIML R087:2016
+    tc_sc: ''
+    year: 2016
+    clause: 2.1.16
+    link:
+    g18_entry: '02509'
+    definition: number of prepackages taken from an inspection lot and included in
+      a sample
+    notes:
+    - 'Note:  The symbol “n” is used to designate the sample size.'
     consistency: pending
     consistency_reason: ''
 status: current

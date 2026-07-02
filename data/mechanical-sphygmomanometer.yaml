@@ -4,8 +4,27 @@ data:
   term: mechanical sphygmomanometer
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 16-1:2002
+  - edition: '2010'
+    publication: OIML R 16-1:2002
+    publication_id: OIML R016-1:2002
+    tc_sc: ''
+    year: 2002
+    clause: '2.11'
+    link: https://www.oiml.org/en/files/pdf_R/r016-1-e02.pdf
+    g18_entry: '00316'
+    definition: sphygmomanometer which uses either a mercury or an aneroid manometer
+      or another mechanical measuring device for the non- invasive measurement of
+      the arterial blood pressure by means of an inflatable cuff
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 16-1:2002
     publication_id: OIML R016-1:2002
     tc_sc: ''
     year: 2002

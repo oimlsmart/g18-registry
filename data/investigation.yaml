@@ -4,8 +4,13 @@ data:
   term: investigation
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML D 9:2004
+  - edition: '2010'
+    publication: OIML D 9:2004
     publication_id: OIML D009:2004
     tc_sc: ''
     year: 2004
@@ -13,6 +18,19 @@ data:
     link: https://www.oiml.org/en/files/pdf_D/d009-e04.pdf
     g18_entry: '00188'
     definition: function of metrological supervision consisting of a systematic examination
+      to determine compliance with legal requirements
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D 9:2004
+    publication_id: OIML D009:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.6'
+    link: https://www.oiml.org/en/files/pdf_D/d009-e04.pdf
+    g18_entry: '00188'
+    definition: function of metrological supervision consisting of a systematic  examination
       to determine compliance with legal requirements
     notes: []
     consistency: pending

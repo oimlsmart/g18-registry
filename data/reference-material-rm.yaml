@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '02121'
+  identifier: '02152'
   term: reference material (RM)
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML D 18:2008
+  - edition: '2010'
+    publication: OIML D 18:2008
     publication_id: OIML D018:2008
     tc_sc: ''
     year: 2008
@@ -19,7 +24,8 @@ data:
     - "(VIM:2007, 5.13)"
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 142:2008
+  - edition: '2010'
+    publication: OIML R 142:2008
     publication_id: OIML R142:2008
     tc_sc: ''
     year: 2008
@@ -29,6 +35,62 @@ data:
     definition: material, sufficiently homogeneous and stable regarding one or more
       properties, used in calibration, in assignment of a value to another material
       or in quality assurance
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R146-1:2016
+    publication_id: OIML R146-1:2016
+    tc_sc: ''
+    year: 2016
+    clause: 2.1 Tab. 1.9
+    link:
+    g18_entry: '02790'
+    definition: "{material, sufficiently homogeneous and stable with reference to
+      specified properties, which has been established to be fit for its intended
+      use in measurement or in examination of nominal properties [VIM 5.13]}"
+    notes:
+    - "{NOTE 1 Examination of a nominal property provides a nominal property value
+      and associated uncertainty. This uncertainty is not a measurement uncertainty.
+      NOTE 2 Reference materials with or without assigned quantity values can be used
+      for measurement precision control whereas only reference materials with assigned
+      quantity values can be used for calibration or measurement trueness control.
+      NOTE 3 ‘Reference material’ comprises materials embodying quantities as well
+      as nominal properties. EXAMPLE 1 Examples of reference materials embodying quantities:
+      a) water of stated purity, the dynamic viscosity of which is used to calibrate
+      viscometers; b) human serum without an assigned quantity value for the amount-of-substance
+      concentration of the inherent cholesterol, used only as a measurement precision
+      control material; c) fish tissue containing a stated mass fraction of a dioxin,
+      used as a calibrator. EXAMPLE 2 Examples of reference materials embodying nominal
+      properties: a) colour chart indicating one or more specified colours; b) DNA
+      compound containing a specified nucleotide sequence; c) urine containing 19-androstenedione.
+      NOTE 4 A reference material is sometimes incorporated into a specially fabricated
+      device. EXAMPLE 1 Substance of known triple-point in a triple-point cell. EXAMPLE
+      2 Glass of known optical density in a transmission filter holder. EXAMPLE 3
+      Spheres of uniform size mounted on a microscope slide. NOTE 5 Some reference
+      materials have assigned quantity values that are metrologically traceable to
+      a measurement unit outside a system of units. Such materials include vaccines
+      to which International Units (IU) have been assigned by the World Health Organization.
+      NOTE 6 In a given measurement, a given reference material can only be used for
+      either calibration or quality assurance. NOTE 7 The specifications of a reference
+      material should include its material traceability, indicating its origin and
+      processing (Accred. Qual. Assur.:2006)[45]. NOTE 8 ISO/REMCO has an analogous
+      definition[45] but uses the term “measurement process” to mean ‘examination’
+      (ISO 15189:2007, 3.4), which covers both measurement of a quantity and examination
+      of a nominal property}"
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D 18:2008
+    publication_id: OIML D018:2008
+    tc_sc: ''
+    year: 2008
+    clause: '2.1'
+    link: https://www.oiml.org/en/files/pdf_D/d018-e08.pdf
+    g18_entry: '02152'
+    definition: material, sufficiently homogeneous and stable with reference to specified
+      properties, which has been established to be fit for its intended use in measurement
+      or in examination of nominal properties [VIM:2007, 5.13]
     notes: []
     consistency: pending
     consistency_reason: ''

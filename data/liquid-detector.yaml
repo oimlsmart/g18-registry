@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '02281'
+  identifier: '02281-R080-1'
   term: liquid detector
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 80-1:2009
+  - edition: '2010'
+    publication: OIML R 80-1:2009
     publication_id: OIML R080-1:2009
     tc_sc: ''
     year: 2009
@@ -18,6 +23,38 @@ data:
       systems) or completely empty ofliquid (empty hose measuring system)
     notes:
     - A liquid detector may also be used for high level detection.
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R080-2:2017
+    publication_id: OIML R080-2:2017
+    tc_sc: ''
+    year: 2017
+    clause: '2'
+    link:
+    g18_entry: '03192'
+    definition: device intended to detect the presence of liquid in the pipework or
+      the tank and to check, before startup and after stopping, that all or part of
+      the measuring system is either filled completely with liquid (full hose measuring
+      systems) or completely empty of liquid (empty hose measuring system)
+    notes:
+    - 'Note:  A liquid detector may also be used for highlevel detection.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 80-1:2009
+    publication_id: OIML R080-1:2009
+    tc_sc: ''
+    year: 2009
+    clause: '2.42'
+    link: https://www.oiml.org/en/files/pdf_R/r080-1-e09.pdf
+    g18_entry: '02281-R080-1'
+    definition: device intended to detect the presence of liquid in the pipework or
+      the tank and to check, before startup and after stopping, that all or part of
+      the measuring system is either filled completely with liquid (full hose measuring
+      systems) or completely empty of liquid (empty hose measuring system)
+    notes:
+    - 'Note:  A liquid detector may also be used for highlevel detection.'
     consistency: pending
     consistency_reason: ''
 status: current

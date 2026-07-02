@@ -1,0 +1,31 @@
+---
+data:
+  identifier: '03661'
+  term: digital display (device)
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R061-1:2017
+    publication_id: OIML R061-1:2017
+    tc_sc: ''
+    year: 2017
+    clause: 3.5.1.5
+    link:
+    g18_entry: '03661'
+    definition: output device that allows actual information to be visualized in volatile
+      digital format
+    notes:
+    - 'Note 1: A digital display may concern a primary display or a secondary display.
+      Note 2: The terms “primary display” and “secondary display” should not be confused
+      with the terms “primary indication” and “secondary indication” (3.5.1.1. and
+      3.5.1.2).'
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: cd787588-2ea1-5552-8f7e-23a9efed72eb
+schema_version: '3'
+related: []

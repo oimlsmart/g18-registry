@@ -4,8 +4,13 @@ data:
   term: temperature (t)
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 111-1:2004
+  - edition: '2010'
+    publication: OIML R 111-1:2004
     publication_id: OIML R111-1:2004
     tc_sc: ''
     year: 2004
@@ -14,6 +19,20 @@ data:
     g18_entry: '01462'
     definition: In degrees Celsius, is related to the absolute thermodynamic temperature
       scale, called the Kelvin scale, by t = T – 273.15 K.
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 111-1:2004
+    publication_id: OIML R111-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.14'
+    link: https://www.oiml.org/en/files/pdf_R/r111-1-e04.pdf
+    g18_entry: '01462'
+    definition: dimensionless quantity numerically equal to a change in the radiance
+      temperature of the ribbon (in °C) under changes of the ambient temperature by
+      1 °C at a constant lamp current
     notes: []
     consistency: pending
     consistency_reason: ''

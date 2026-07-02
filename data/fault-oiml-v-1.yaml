@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '03758'
+  term: fault (OIML V 1
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R091-1:2025
+    publication_id: OIML R091-1:2025
+    tc_sc: ''
+    year: 2025
+    clause: 3.5.6
+    link:
+    g18_entry: '03758'
+    definition: difference between the error of indication and the intrinsic error
+      of a measuring instrument
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 06ab01d4-b4d5-5663-b645-7c584ff4ed1e
+schema_version: '3'
+related: []

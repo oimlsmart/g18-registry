@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '01277'
+  identifier: '02571'
   term: coupled wagon weighing
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 106-1:1997
+  - edition: '2010'
+    publication: OIML R 106-1:1997
     publication_id: OIML R106-1:1997
     tc_sc: ''
     year: 1997
@@ -14,6 +19,18 @@ data:
     g18_entry: '01277'
     definition: weighing-in-motion of a train of coupled wagons to obtain a weight
       indication or printout of the individual wagons
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication:
+    publication_id:
+    tc_sc: ''
+    year:
+    clause:
+    link:
+    g18_entry: '02571'
+    definition: determining the individual wagon mass of a train of coupled wagons
     notes: []
     consistency: pending
     consistency_reason: ''

@@ -1,0 +1,26 @@
+---
+data:
+  identifier: '02531'
+  term: train
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R106-1:2011
+    publication_id: OIML R106-1:2011
+    tc_sc: ''
+    year: 2011
+    clause: 0.1.10
+    link:
+    g18_entry: '02531'
+    definition: number of wagons coupled together with or without a locomotive
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 9ac0dedd-ccb4-5846-8297-b786cdb6d92e
+schema_version: '3'
+related: []

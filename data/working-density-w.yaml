@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '02689'
+  term: working density, ρw
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R137:2012
+    publication_id: OIML R137:2012
+    tc_sc: ''
+    year: 2012
+    clause: 3.3.11
+    link:
+    g18_entry: '02689'
+    definition: density of the gas flowing through the gas meter, corresponding to
+      ρw and tw
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 45c5aa15-efa5-541f-afbb-46caaa2c6a86
+schema_version: '3'
+related: []

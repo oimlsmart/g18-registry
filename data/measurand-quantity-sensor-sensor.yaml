@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '03245'
+  term: measurand quantity sensor sensor
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R139-1:2022
+    publication_id: OIML R139-1:2022
+    tc_sc: ''
+    year: 2022
+    clause: 3.2.3.1
+    link:
+    g18_entry: '03245'
+    definition: part of the measuring device, directly affected by a measurand quantity
+      parameter producing an input signal for the transducer
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 1f5569a6-e9ee-55a6-94c2-42032a6348e9
+schema_version: '3'
+related: []

@@ -4,8 +4,13 @@ data:
   term: temperature equivalent of a change in the current within the lamp circuit
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 48:2004
+  - edition: '2010'
+    publication: OIML R 48:2004
     publication_id: OIML R048:2004
     tc_sc: ''
     year: 2004
@@ -14,6 +19,24 @@ data:
     g18_entry: '00410'
     definition: change in a value of radiance temperature (in °C) of the tungsten
       ribbon caused by a given change in the current within its circuit
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 48:2004
+    publication_id: OIML R048:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.10'
+    link: https://www.oiml.org/en/files/pdf_R/r048-e04.pdf
+    g18_entry: '00410'
+    definition: difference between the radiance temperature values obtained across
+      the surface of the tungsten ribbon in the field of view.  The temperature inhomogeneity
+      is characterized by a maximum variation in temperature values obtained as a
+      result of measurements when observing along and across the ribbon within the
+      marked area relative to the position determined by the index and the center
+      of the ribbon after the field of view has been displaced within the specified
+      limits
     notes: []
     consistency: pending
     consistency_reason: ''

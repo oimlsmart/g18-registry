@@ -1,0 +1,28 @@
+---
+data:
+  identifier: '02578'
+  term: axle
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R106-1:2011
+    publication_id: OIML R106-1:2011
+    tc_sc: ''
+    year: 2011
+    clause: 0.3.1.7
+    link:
+    g18_entry: '02578'
+    definition: comprises two wheel assemblies with centers of rotation lying approximately
+      on a common axis extending the full width of the wagon and oriented transversely
+      to the nominal direction of travel of the wagon
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: a24cd004-00f4-5136-b5b5-7f502256aca3
+schema_version: '3'
+related: []

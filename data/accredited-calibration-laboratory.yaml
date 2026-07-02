@@ -1,0 +1,29 @@
+---
+data:
+  identifier: '02839'
+  term: accredited calibration laboratory
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML D005:2022
+    publication_id: OIML D005:2022
+    tc_sc: ''
+    year: 2022
+    clause: '3.34'
+    link:
+    g18_entry: '02839'
+    definition: laboratory that performs calibration of measuring instruments and
+      that is formally recognized by an accreditation authority and that is competent
+      to carry out the calibration (e.g. competence in accordance with ISO/IEC 17025:2017
+      [2])
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: dec6c655-bcf8-5482-b57c-b9a0bc3d27f3
+schema_version: '3'
+related: []

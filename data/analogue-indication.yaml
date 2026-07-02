@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '01291a'
+  identifier: '01893'
   term: analogue indication
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 136-1:2004
+  - edition: '2010'
+    publication: OIML R 136-1:2004
     publication_id: OIML R136-1:2004
     tc_sc: ''
     year: 2004
@@ -18,7 +23,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 106-1:1997
+  - edition: '2010'
+    publication: OIML R 106-1:1997
     publication_id: OIML R106-1:1997
     tc_sc: ''
     year: 1997
@@ -27,6 +33,33 @@ data:
     g18_entry: '01291a'
     definition: an indication allowing the determination of an equilibrium position
       to a fraction of the scale interval
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R106-1:2011
+    publication_id: OIML R106-1:2011
+    tc_sc: ''
+    year: 2011
+    clause: 0.4.2.2
+    link:
+    g18_entry: '02604'
+    definition: measurement results are displayed by an analogue measuring instrument
+      in a form which is a continuous function of the measurand [VIM, 4.10]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 136-1:2004
+    publication_id: OIML R136-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: T.2.4.1
+    link: https://www.oiml.org/en/files/pdf_R/r136-1-e04.pdf
+    g18_entry: '01893'
+    definition: the output or display is indicated by an index and graduated scale,
+      one of which is fixed and the position of the other is a continuous function
+      of the particular quantity being measured
     notes: []
     consistency: pending
     consistency_reason: ''

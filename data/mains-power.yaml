@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '00254'
+  identifier: '02373'
   term: mains power
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 99-1:2008
+  - edition: '2010'
+    publication: OIML R 99-1:2008
     publication_id: OIML R099-1:2008
     tc_sc: ''
     year: 2008
@@ -19,7 +24,8 @@ data:
     - "(adapted from OIML D 11:2004, 3.21)"
     consistency: pending
     consistency_reason: ''
-  - publication: OIML D 11:2004
+  - edition: '2010'
+    publication: OIML D 11:2004
     publication_id: OIML D011:2004
     tc_sc: ''
     year: 2004
@@ -29,6 +35,34 @@ data:
     definition: 'primary external source of electrical power for an instrument, including
       all sub-assemblies. (Examples: public power (AC or DC), generator, external
       battery or other DC supply systems)'
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R060:2021
+    publication_id: OIML R060:2021
+    tc_sc: ''
+    year: 2021
+    clause: A.1.13
+    link:
+    g18_entry: '03211'
+    definition: 'primary external source of electrical power for an instrument, including
+      all sub-assemblies. (Examples: public or local power grid (AC or DC) or external
+      generator'
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 99-1:2008
+    publication_id: OIML R099-1:2008
+    tc_sc: ''
+    year: 2008
+    clause: '3.37'
+    link: https://www.oiml.org/en/files/pdf_R/r099-1-e08.pdf
+    g18_entry: '02373'
+    definition: 'primary external source of electrical power for the instrument, including
+      all sub-assemblies. (Examples: public power network (AC or DC), generator, external
+      battery or other DC supply systems) [adapted from OIML D 11:2004, 3.21]'
     notes: []
     consistency: pending
     consistency_reason: ''
