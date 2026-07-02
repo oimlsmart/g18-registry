@@ -45,3 +45,16 @@ minimum measured quantity (MMQ):
 
 nominal capacity:
   - nominal capacity,stem:[V_{n}]
+
+# Unicode vs stem:[] math notation aliases
+characteristic partial internal absorbance Ac (Ac = lg(Φr / Φs) = εbc):
+  - characteristic partial internal absorbance Ac (Ac = lg(stem:[Phi]r / stem:[Phi]s) = stem:[epsilon]bc)
+
+net absorbance, ΔA:
+  - net absorbance,stem:[\Delta A]
+
+specific absorbance, kλ:
+  - specific absorbance,stem:[k_{\lambda}]
+
+specific net absorbance, Δk:
+  - specific net absorbance,stem:[\Delta k]
