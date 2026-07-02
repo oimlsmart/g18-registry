@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '02185'
+  identifier: '03048'
   term: error log
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML D 31:2008
+  - edition: '2010'
+    publication: OIML D 31:2008
     publication_id: OIML D031:2008
     tc_sc: ''
     year: 2008
@@ -16,6 +21,34 @@ data:
       that have an influence on the metrological characteristics. This especially
       applies to volatile failures that are not recognizable afterwards when the measurement
       values are used
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D031:2023
+    publication_id: OIML D031:2023
+    tc_sc: ''
+    year: 2023
+    clause: 3.2.19
+    link:
+    g18_entry: '03048'
+    definition: continuous data file containing an information record of failures
+      or significant defects that have an influence on the legally relevant  characteristics
+      of the measuring instrument
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R126-1:2021
+    publication_id: OIML R126-1:2021
+    tc_sc: ''
+    year: 2021
+    clause: 3.3.4
+    link:
+    g18_entry: '03049'
+    definition: continuous data file containing an information record of failures
+      or significant defects that have an influence on the metrological characteristics
+      of the measuring instrument (OIML D 31, 3.1.15)
     notes: []
     consistency: pending
     consistency_reason: ''

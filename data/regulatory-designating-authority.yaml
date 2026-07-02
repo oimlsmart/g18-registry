@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '03449'
+  term: regulatory designating authority
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML D037:2022
+    publication_id: OIML D037:2022
+    tc_sc: ''
+    year: 2022
+    clause: G.3-2
+    link:
+    g18_entry: '03449'
+    definition: governmental or public body that is asked with designating and inspection
+      body
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: e8f66239-200b-53b3-a104-86d583276cab
+schema_version: '3'
+related: []

@@ -1,0 +1,30 @@
+---
+data:
+  identifier: '03155'
+  term: International System of Units SI
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML D005:2022
+    publication_id: OIML D005:2022
+    tc_sc: ''
+    year: 2022
+    clause: '3.1'
+    link:
+    g18_entry: '03155'
+    definition: System of units, based on the International System of Quantities,
+      their names and symbols, including a series of prefixes and their names and
+      symbols, together with rules for their use, adopted by the General Conference
+      on Weights and Measures (CGPM)
+    notes:
+    - For notes see [VIM, 1.16]
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: ef9330a0-e512-55e2-b01f-d658ac1dc38a
+schema_version: '3'
+related: []

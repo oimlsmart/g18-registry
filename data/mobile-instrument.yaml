@@ -4,8 +4,13 @@ data:
   term: mobile instrument
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 76-1:2006
+  - edition: '2010'
+    publication: OIML R 76-1:2006
     publication_id: OIML R076-1:2006
     tc_sc: ''
     year: 2006
@@ -18,6 +23,25 @@ data:
     notes:
     - e weighing instrument which is firmly on a vehicle, and which is designed t
       special purpose
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 76-1:2006
+    publication_id: OIML R076-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.1.2.11
+    link: https://www.oiml.org/en/files/pdf_R/r076-1-e06.pdf
+    g18_entry: '00886'
+    definition: non-automatic weighing instrument mounted on or incorporated into
+      a vehicle
+    notes:
+    - 'Note 1:A vehicle-mounted instrument is a complete weighing instrument which
+      is firmly mounted on a vehicle, and which is designed for that special purpose.
+      Example: Postal scale mounted on a vehicle (mobile post office). Note 2: A vehicle-incorporated
+      instrument uses parts of the vehicle for the weighing instrument. Examples:
+      Garbage weighers, patient lifters, pallet lifters, fork lifters, wheel chair
+      weighers.'
     consistency: pending
     consistency_reason: ''
 status: current

@@ -1,0 +1,46 @@
+---
+data:
+  identifier: 02245-R080-1
+  term: nominal capacity (of the tank or compartment), Vn
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R080-2:2017
+    publication_id: OIML R080-2:2017
+    tc_sc: ''
+    year: 2017
+    clause: '2'
+    link:
+    g18_entry: '03327'
+    definition: volume indicated (marked) on the tank or its compartment
+    notes:
+    - 'Note 1: The nominal capacity value usually corresponds to the volume of liquid
+      which a tank or compartment contains at reference temperature when filled up
+      to the maximum permissible level or volume mark. Note 2: The nominal capacity
+      value can be limited by safety regulations.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 80-1:2009
+    publication_id: OIML R080-1:2009
+    tc_sc: ''
+    year: 2009
+    clause: '2.6'
+    link: https://www.oiml.org/en/files/pdf_R/r080-1-e09.pdf
+    g18_entry: 02245-R080-1
+    definition: volume indicated (marked) on the tank or its compartment
+    notes:
+    - 'Note 1: The nominal capacity value usually corresponds to the volume of liquid
+      which a tank or compartment contains at reference temperature when filled up
+      to the maximum permissible level or volume mark. Note 2: The nominal capacity
+      value can be limited by safety regulations.'
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 443a6f22-df95-5918-9287-ac64e1aca68d
+schema_version: '3'
+related: []

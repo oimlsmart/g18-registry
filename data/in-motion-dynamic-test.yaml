@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '01307'
+  identifier: '02639'
   term: in-motion (dynamic) test
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 106-1:1997
+  - edition: '2010'
+    publication: OIML R 106-1:1997
     publication_id: OIML R106-1:1997
     tc_sc: ''
     year: 1997
@@ -13,6 +18,19 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r106-1-e97.pdf
     g18_entry: '01307'
     definition: a test with reference wagons that are in motion on the load receptor
+      to determine an error
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R106-1:2011
+    publication_id: OIML R106-1:2011
+    tc_sc: ''
+    year: 2011
+    clause: 0.6.2
+    link:
+    g18_entry: '02639'
+    definition: test with reference wagons that are in motion on the load receptor
       to determine an error
     notes: []
     consistency: pending

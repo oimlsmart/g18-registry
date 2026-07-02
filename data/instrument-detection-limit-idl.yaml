@@ -1,0 +1,28 @@
+---
+data:
+  identifier: '02517'
+  term: instrument detection limit (IDL)
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R100-1:2013
+    publication_id: OIML R100-1:2013
+    tc_sc: ''
+    year: 2013
+    clause: '3.6'
+    link:
+    g18_entry: '02517'
+    definition: figure of merit which is calculated as three times the observed standard
+      deviation of the baseline noise, established by measuring the output signal
+      from a blank test solution free of interferents
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 501efe08-16ce-5aeb-acd5-246b00a13440
+schema_version: '3'
+related: []

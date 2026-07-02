@@ -1,0 +1,56 @@
+---
+data:
+  identifier: '02210'
+  term: legal control of measuring instruments
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML D005:2022
+    publication_id: OIML D005:2022
+    tc_sc: ''
+    year: 2022
+    clause: '3.25'
+    link:
+    g18_entry: '03177'
+    definition: generic term used to globally designate legal operations to which
+      measuring instruments may be subjected, e.g. type approval, verification, etc.
+      [VIML 2.2]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D001:2012
+    publication_id: OIML D001:2012
+    tc_sc: ''
+    year: 2012
+    clause: 3.1.10
+    link:
+    g18_entry: '02210'
+    definition: generic term used to globally designate legal operations to which
+      measuring instruments may be subjected, e.g. type approval, verification, etc.
+      [VIML 2.02]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D016:2011
+    publication_id: OIML D016:2011
+    tc_sc: ''
+    year: 2011
+    clause: '2.3'
+    link:
+    g18_entry: 02256-D016
+    definition: generic term used to globally designate legal operations to which
+      measuring instruments may be subjected, e.g. type approval, verification, etc.
+      [VIML 2.2]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 254d6f05-b6d7-54ae-830c-c11f1a8d94a2
+schema_version: '3'
+related: []

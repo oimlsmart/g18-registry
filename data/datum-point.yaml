@@ -4,8 +4,28 @@ data:
   term: datum point
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 125:1998
+  - edition: '2010'
+    publication: OIML R 125:1998
+    publication_id: OIML R125:1998
+    tc_sc: ''
+    year: 1998
+    clause: T.6
+    link: https://www.oiml.org/en/files/pdf_R/r125-e98.pdf
+    g18_entry: '01620'
+    definition: the datum point constitutes the origin for the measurement of liquid
+      levels (zero reference). It is the intersection of the vertical measurement
+      axis with the upper surface of the datum plate, or with the bottom, inside surface
+      of the tank if a datum plate is not provided
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 125:1998
     publication_id: OIML R125:1998
     tc_sc: ''
     year: 1998

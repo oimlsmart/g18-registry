@@ -1,0 +1,33 @@
+---
+data:
+  identifier: '02424'
+  term: rated operating condition ROC
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R049-1:2024
+    publication_id: OIML R049-1:2024
+    tc_sc: ''
+    year: 2024
+    clause: 3.4.4
+    link:
+    g18_entry: '02424'
+    definition: 'operating condition requiring fulfilment during measurement in order
+      that a meter perform as designed [SOURCE: ISO/IEC Guide 99:2007/OIML V 2-200:2012
+      (VIM) 4.9, [1], modified — “requiring fulfillment” replaces “that must be fulfilled”;
+      “meter” replaces “measuring instrument or measuring system”; “note replaced
+      the original note]'
+    notes:
+    - Note:The rated operating conditions specify intervals for the flow rate and
+      for the influence quantities for which the errors (of indication) are required
+      to be within the maximum permissible errors.
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 90482dab-9586-5665-ae1a-a3e526314706
+schema_version: '3'
+related: []

@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '03190'
+  term: length (L)
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R129-1:2020
+    publication_id: OIML R129-1:2020
+    tc_sc: ''
+    year: 2020
+    clause: 2.1.1.1
+    link:
+    g18_entry: '03190'
+    definition: linear measured dimension that is oriented 90 degrees relative to
+      the width and height
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 65a3694e-8bb7-5d91-95c3-2f72d84e69a1
+schema_version: '3'
+related: []

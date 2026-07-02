@@ -4,8 +4,42 @@ data:
   term: reference material
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML D 22:1991
+  - edition: '2010'
+    publication: OIML D 22:1991
+    publication_id: OIML D022:1991
+    tc_sc: ''
+    year: 1991
+    clause: '3.13'
+    link: https://www.oiml.org/en/files/pdf_D/d022-e91.pdf
+    g18_entry: '00158'
+    definition: a material or substance one or more properties of which are sufficiently
+      well established to be used for the calibration of an apparatus, the assessment
+      of a measurement method, or for assigning values to materials
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 123:1997
+    publication_id: OIML R123:1997
+    tc_sc: ''
+    year: 1997
+    clause: '3.8'
+    link: https://www.oiml.org/en/files/pdf_R/r123-e97.pdf
+    g18_entry: '03437'
+    definition: Material or substance one or more of whose property values are sufficiently
+      homogeneous and well established to be used for the calibration of an apparatus,
+      the assessment of a measurement method, or assigning values to materials.
+    notes:
+    - 'Note: This term does not necessarily mean a certified reference standard.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D 22:1991
     publication_id: OIML D022:1991
     tc_sc: ''
     year: 1991

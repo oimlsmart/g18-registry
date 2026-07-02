@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '00507'
+  identifier: '03387'
   term: printing device
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 134:2003
+  - edition: '2010'
+    publication: OIML R 134:2003
     publication_id: OIML R134:2003
     tc_sc: ''
     year: 2003
@@ -16,7 +21,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 50-1:1997
+  - edition: '2010'
+    publication: OIML R 50-1:1997
     publication_id: OIML R050-1:1997
     tc_sc: ''
     year: 1997
@@ -27,7 +33,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 106-1:1997
+  - edition: '2010'
+    publication: OIML R 106-1:1997
     publication_id: OIML R106-1:1997
     tc_sc: ''
     year: 1997
@@ -36,6 +43,42 @@ data:
     g18_entry: '01272'
     definition: the means to print the weight values of wagons weighed on the instrument
       and/or a summation of those wagon weights
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R150-1:2020
+    publication_id: OIML R150-1:2020
+    tc_sc: ''
+    year: 2020
+    clause: 2.2.7
+    link:
+    g18_entry: '03389'
+    definition: device to produce a printout (see 2.4.3) of the weighing results
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R050-1:2014
+    publication_id: OIML R050-1:2014
+    tc_sc: ''
+    year: 2014
+    clause: 2.2.7
+    link:
+    g18_entry: '03388'
+    definition: device to produce a printout (see 2.4.3) of the weighing results
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R134:2006
+    publication_id: OIML R134:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.2.5.2
+    link:
+    g18_entry: '03387'
+    definition: means to produce hard copies of the weighing results
     notes: []
     consistency: pending
     consistency_reason: ''

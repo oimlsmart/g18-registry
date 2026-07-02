@@ -7,8 +7,18 @@ data:
     source: urn:oiml:pub:v:1:2000
     id: '2.15'
     url: https://oimlsmart.github.io/vocab/viml-2000/concept/2.15
+    definition_text:
+    edition_label: VIML 2000
+    vocab: viml
+    role: prior
+    year: 2000
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML D 27:2001
+  - edition: '2010'
+    publication: OIML D 27:2001
     publication_id: OIML D027:2001
     tc_sc: ''
     year: 2001
@@ -22,12 +32,32 @@ data:
     consistency_reason: ''
     related:
     - type: see
-      ref: &1
+      ref:
         source: urn:oiml:pub:v:1:2000
         id: '2.15'
+  - edition: 202X
+    publication: OIML D 27:2001
+    publication_id: OIML D027:2001
+    tc_sc: ''
+    year: 2001
+    clause: '2.5'
+    link: https://www.oiml.org/en/files/pdf_D/d027-e01.pdf
+    g18_entry: '00167'
+    definition: verification of a measuring instrument which has not been verified
+      previously [VIML 2.15]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
 status: current
 id: 41ec4249-e9d2-5f8a-a1de-62fbd692e186
 schema_version: '3'
 related:
 - type: see
-  ref: *1
+  ref:
+    source: urn:oiml:pub:v:1:2000
+    id: '2.15'
+    definition_text:
+    edition_label: VIML 2000
+    vocab: viml
+    role: prior
+    year: 2000

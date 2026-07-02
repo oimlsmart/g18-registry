@@ -4,8 +4,12 @@ data:
   term: Committee on Participation Review
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  primary_edition: 202X
   publications:
-  - publication: OIML B 10-1:2004
+  - edition: '2010'
+    publication: OIML B 10-1:2004
     publication_id: OIML B010-1:2004
     tc_sc: TC 3/SC 2
     year: 2004

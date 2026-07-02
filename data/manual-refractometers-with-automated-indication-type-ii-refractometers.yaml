@@ -1,0 +1,30 @@
+---
+data:
+  identifier: '03721'
+  term: manual refractometers with automated indication (type II refractometers)
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R142-1:2025
+    publication_id: OIML R142-1:2025
+    tc_sc: ''
+    year: 2025
+    clause: '3.3'
+    link:
+    g18_entry: '03721'
+    definition: instrument in which the test sample is supplied to the device manually,
+      the indication being displayed or printed
+    notes:
+    - 'Note: Type II refractometers shall be equipped with: an automatic temperature
+      correction device; a primary indicating device; zero-setting and zero-checking
+      devices.'
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 41304501-4695-500c-92c9-550b2955f074
+schema_version: '3'
+related: []

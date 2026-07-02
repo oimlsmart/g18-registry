@@ -1,0 +1,35 @@
+---
+data:
+  identifier: '02443'
+  term: accuracy measurement accuracy
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R059-1:2016
+    publication_id: OIML R059-1:2016
+    tc_sc: ''
+    year: 2016
+    clause: 2.1.2
+    link:
+    g18_entry: '02443'
+    definition: closeness of agreement between a measured quantity value and a true
+      quantity value of the measurand [VIM, 2.13]
+    notes:
+    - 'Note 1: The concept of ‘measurement accuracy’ is not a quantity and is not
+      given a numerical quantity value. A measurement is said to be more accurate
+      when it offers a smaller measurement error. Note 2:The term “measurement accuracy”
+      should not be used for measurement trueness and the term “measurement precision”
+      should not be used for “measurement accuracy”, which, however, is related to
+      both concepts. Note 3:‘Measurement accuracy’ is sometimes understood as closeness
+      of agreement between measured quantity values that are being attributed to the
+      measurand.'
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: f8f72677-8218-50fd-a34d-feb31a0dce81
+schema_version: '3'
+related: []

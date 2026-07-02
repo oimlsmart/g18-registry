@@ -1,0 +1,27 @@
+---
+data:
+  identifier: 02304-R046-1
+  term: maximum current (Imax)
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R046-1:2012
+    publication_id: OIML R046-1:2012
+    tc_sc: ''
+    year: 2012
+    clause: 2.2.5
+    link:
+    g18_entry: 02304-R046-1
+    definition: highest value of current at which the meter is specified by the manufacturer
+      to meet the accuracy requirements
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 0376dd5f-00d5-5e30-86e6-0bd419a532c7
+schema_version: '3'
+related: []

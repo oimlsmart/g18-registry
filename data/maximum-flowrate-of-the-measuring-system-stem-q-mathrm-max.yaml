@@ -4,8 +4,12 @@ data:
   term: maximum flowrate of the measuring system stem:[Q_{\mathrm{max}}]
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  primary_edition: 202X
   publications:
-  - publication: OIML R 140:2007
+  - edition: '2010'
+    publication: OIML R 140:2007
     publication_id: OIML R140:2007
     tc_sc: ''
     year: 2007

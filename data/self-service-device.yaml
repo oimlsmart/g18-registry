@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '01596'
+  identifier: '03481'
   term: self-service device
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 117-1:2007
+  - edition: '2010'
+    publication: OIML R 117-1:2007
     publication_id: OIML R117-1:2007
     tc_sc: ''
     year: 2007
@@ -19,7 +24,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 139:2007
+  - edition: '2010'
+    publication: OIML R 139:2007
     publication_id: OIML R139:2007
     tc_sc: ''
     year: 2007
@@ -33,6 +39,23 @@ data:
       mandatory so that a measuring system performs in a self- service arrangement.
     - 2. The arrangement is made of a self-service device and connected measuring
       systems.
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R139-1:2022
+    publication_id: OIML R139-1:2022
+    tc_sc: ''
+    year: 2022
+    clause: 3.3.2
+    link:
+    g18_entry: '03481'
+    definition: specific device that is part of a self-service arrangement and which
+      allows one or more measuring systems to perform in this self-service arrangement
+    notes:
+    - 'Note 1:  The self-service device includes all the elements and constituents
+      that are mandatory so that a measuring system performs in a self-service arrangement.
+      Note 2:  The arrangement is made of a self-service device and connected measuring
+      systems.'
     consistency: pending
     consistency_reason: ''
 status: current

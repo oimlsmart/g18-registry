@@ -1,0 +1,30 @@
+---
+data:
+  identifier: '02677'
+  term: resolution (of a displaying device)
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R137:2012
+    publication_id: OIML R137:2012
+    tc_sc: ''
+    year: 2012
+    clause: 3.2.21
+    link:
+    g18_entry: '02677'
+    definition: smallest difference between displayed indications that can be meaningfully
+      distinguished [VIM 4.15]
+    notes:
+    - Note:For a digital device, this is the change in the indication when the least
+      significant digit changes by one step. For an analogue device, this is half
+      the difference between subsequent scale marks.
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: c0a97f52-ad9e-59fc-a89e-919539c1daec
+schema_version: '3'
+related: []

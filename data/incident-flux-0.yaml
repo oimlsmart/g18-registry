@@ -1,0 +1,29 @@
+---
+data:
+  identifier: '01841'
+  term: incident flux (Φ0)
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R 135:2004
+    publication_id: OIML R135:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.2'
+    link: https://www.oiml.org/en/files/pdf_R/r135-e04.pdf
+    g18_entry: '01841'
+    definition: radiant luminous flux of the radiation striking an external surface
+      of the medium
+    notes:
+    - 'Note 1: ISO 6286, Table 1, No. 1. Note 2: The coherent SI unit is the watt
+      (W).'
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: f212669b-fb6e-5e82-bf62-9d7e108ee1cb
+schema_version: '3'
+related: []

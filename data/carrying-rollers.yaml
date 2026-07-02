@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '00490'
+  identifier: '02922'
   term: carrying rollers
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 50-1:1997
+  - edition: '2010'
+    publication: OIML R 50-1:1997
     publication_id: OIML R050-1:1997
     tc_sc: ''
     year: 1997
@@ -14,6 +19,19 @@ data:
     g18_entry: '00490'
     definition: the rollers by means of which the conveyor belt is supported on afixed
       frame
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R050:2014
+    publication_id: OIML R050:2014
+    tc_sc: ''
+    year: 2014
+    clause: 2.2.2.1
+    link:
+    g18_entry: '02922'
+    definition: arrangements (commonly idlers) by which the conveyor belt is supported
+      as it approaches and departs the load receptor
     notes: []
     consistency: pending
     consistency_reason: ''

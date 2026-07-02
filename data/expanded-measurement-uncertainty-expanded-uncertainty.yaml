@@ -1,0 +1,33 @@
+---
+data:
+  identifier: '03055'
+  term: expanded measurement uncertainty expanded uncertainty
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML D005:2022
+    publication_id: OIML D005:2022
+    tc_sc: ''
+    year: 2022
+    clause: '3.4'
+    link:
+    g18_entry: '03055'
+    definition: product of a combined standard measurement uncertainty and a factor
+      larger than the number one [VIM, 2.35]
+    notes:
+    - 'Note 1: The factor depends upon the type of probability distribution of the
+      output quantity in ,easurement model and on the selected coverage probability.
+      Note 2: The term “factor” in this definition refers to a coverage factor. Note
+      3: Expanded measurement uncertainty is termed “overall uncertainty” in paragraph
+      5 of Recommendation INC-1 (1980) (see the GUM) and simply “uncertainty” pn IEC
+      documents.'
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 65eef76c-a1bd-548f-a5dd-7c44239f2ef4
+schema_version: '3'
+related: []

@@ -1,0 +1,29 @@
+---
+data:
+  identifier: '03339'
+  term: non-invasive non-automated sphygmomanometer
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R148-1:2020
+    publication_id: OIML R148-1:2020
+    tc_sc: ''
+    year: 2020
+    clause: '2.7'
+    link:
+    g18_entry: '03339'
+    definition: medical measuring instrument used by a trained person for the non-invasive
+      measurement of the arterial blood pressure by utilising an infltable cuff with
+      a display and used in conjuction with stethoscope or any other manual methods
+      for estimating blood pressure. Herafter called sphygmomanometer in this Recommendation
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: e3eb6d2d-9197-5421-afdd-2188c28ea87b
+schema_version: '3'
+related: []

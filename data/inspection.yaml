@@ -7,8 +7,18 @@ data:
     source: urn:oiml:pub:v:1:2022
     id: A.11
     url: https://oimlsmart.github.io/vocab/viml-2022/concept/A.11
+    definition_text:
+    edition_label: VIML 2022
+    vocab: viml
+    role: current
+    year: 2022
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML D 9:2004
+  - edition: '2010'
+    publication: OIML D 9:2004
     publication_id: OIML D009:2004
     tc_sc: ''
     year: 2004
@@ -24,12 +34,61 @@ data:
     consistency_reason: ''
     related:
     - type: see
-      ref: &1
+      ref:
         id: A.11
         source: urn:oiml:pub:v:1:2022
+  - edition: 202X
+    publication: OIML D037:2022
+    publication_id: OIML D037:2022
+    tc_sc: ''
+    year: 2022
+    clause: '3.1'
+    link:
+    g18_entry: '03141'
+    definition: Inspection is the examination of product (see G.3.2-1 and determination
+      of its conformity with the applicable OIML Recommendation(s). OIML guidance
+      to subclause 3.2 (G.3.1-1)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D034:2019
+    publication_id: OIML D034:2019
+    tc_sc: ''
+    year: 2019
+    clause: 3.1.7
+    link:
+    g18_entry: '03174'
+    definition: examination of product design, product, process or installation and
+      determination of its conformity with specific requirements or, on the basis
+      of professional judgment, with general requirements (from ISO/IEC 17000:2004,
+      4.3 [2] and VIML, A.11 [3])
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D 9:2004
+    publication_id: OIML D009:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.8'
+    link: https://www.oiml.org/en/files/pdf_D/d009-e04.pdf
+    g18_entry: '00190'
+    definition: function of an investigation to ascertain that the legal requirements
+      related to the matter under investigation are observed.
+    notes: []
+    consistency: pending
+    consistency_reason: ''
 status: current
 id: 0fbf74e5-68d1-52b9-b3db-23541bdde475
 schema_version: '3'
 related:
 - type: see
-  ref: *1
+  ref:
+    id: A.11
+    source: urn:oiml:pub:v:1:2022
+    definition_text:
+    edition_label: VIML 2022
+    vocab: viml
+    role: current
+    year: 2022

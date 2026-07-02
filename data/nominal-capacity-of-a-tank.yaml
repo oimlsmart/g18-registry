@@ -4,8 +4,26 @@ data:
   term: nominal capacity of a tank
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 95:1990
+  - edition: '2010'
+    publication: OIML R 95:1990
+    publication_id: OIML R095:1990
+    tc_sc: ''
+    year: 1990
+    clause: T.1
+    link: https://www.oiml.org/en/files/pdf_R/r095-e90.pdf
+    g18_entry: '01137'
+    definition: the volume of liquid the tank contains under rated operating conditions,
+      at reference temperature
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 95:1990
     publication_id: OIML R095:1990
     tc_sc: ''
     year: 1990

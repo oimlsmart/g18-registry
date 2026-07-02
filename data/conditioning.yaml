@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '00477'
+  identifier: '02430'
   term: conditioning
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 49-2:2006
+  - edition: '2010'
+    publication: OIML R 49-2:2006
     publication_id: OIML R049-2:2006
     tc_sc: ''
     year: 2006
@@ -15,6 +20,20 @@ data:
     definition: exposure of the equipment under test to an environmental condition
       (influence factor or disturbance) in order to determine the effect of such a
       condition on it
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R049-1:2024
+    publication_id: OIML R049-1:2024
+    tc_sc: ''
+    year: 2024
+    clause: 3.4.10
+    link:
+    g18_entry: '02430'
+    definition: exposure of the equipment under test (3.1.17) to an environmental
+      condition (influence factor (3.4.2) or disturbance (3.4.3) in order to determine
+      the effect of such a condition on it
     notes: []
     consistency: pending
     consistency_reason: ''

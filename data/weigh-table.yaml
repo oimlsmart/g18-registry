@@ -1,17 +1,34 @@
 ---
 data:
-  identifier: '00484'
+  identifier: '03631'
   term: weigh table
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 50-1:1997
+  - edition: '2010'
+    publication: OIML R 50-1:1997
     publication_id: OIML R050-1:1997
     tc_sc: ''
     year: 1997
     clause: T.2.1.1
     link: https://www.oiml.org/en/files/pdf_R/r050-1-e97.pdf
     g18_entry: '00484'
+    definition: a load receptor that includes only part of a conveyor
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R050-1:2014
+    publication_id: OIML R050-1:2014
+    tc_sc: ''
+    year: 2014
+    clause: 2.2.1.1
+    link:
+    g18_entry: '03631'
     definition: a load receptor that includes only part of a conveyor
     notes: []
     consistency: pending

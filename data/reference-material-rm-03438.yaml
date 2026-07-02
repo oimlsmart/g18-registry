@@ -1,0 +1,44 @@
+---
+data:
+  identifier: '03438'
+  term: reference material RM
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML D005:2022
+    publication_id: OIML D005:2022
+    tc_sc: ''
+    year: 2022
+    clause: '3.20'
+    link:
+    g18_entry: '03438'
+    definition: material, sufficiently homogeneous and stable with reference to specified
+      properties, which has been established to be fit for its intended used in measurement
+      or in examination of nominal properties
+    notes:
+    - For examples and notes see [VIM3, 5.13].
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D010:2022
+    publication_id: OIML D010:2022
+    tc_sc: ''
+    year: 2022
+    clause: '3.20'
+    link:
+    g18_entry: '03439'
+    definition: material, sufficiently homogeneous and stable with reference to specified
+      properties, which has been established to be fit for its intended used in measurement
+      or in examination of nominal properties (VIM3, 5.13)
+    notes:
+    - 'Note:  For notes see VIM3, 5.13.'
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 2a6220df-3f05-56d3-a270-587f06736476
+schema_version: '3'
+related: []

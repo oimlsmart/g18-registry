@@ -1,0 +1,30 @@
+---
+data:
+  identifier: '03294'
+  term: metrological test mode
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R126-1:2021
+    publication_id: OIML R126-1:2021
+    tc_sc: ''
+    year: 2021
+    clause: 3.2.9
+    link:
+    g18_entry: '03294'
+    definition: mode in which the EBA is subject to metrological control such as verification
+      or adjustment
+    notes:
+    - 'Note: In this mode, more information will be available compared to the measuring
+      mode (e.g. higher resolution, intermediate results, etc.), and access to maintenance
+      and adjustment means is possible.'
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: b2923b8b-6768-5b8c-8e3b-5be023e0bfc6
+schema_version: '3'
+related: []

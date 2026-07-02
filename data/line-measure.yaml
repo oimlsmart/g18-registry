@@ -4,8 +4,26 @@ data:
   term: line measure
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 35-1:2007
+  - edition: '2010'
+    publication: OIML R 35-1:2007
+    publication_id: OIML R035-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: 2.2.2
+    link: https://www.oiml.org/en/files/pdf_R/r035-1-e07.pdf
+    g18_entry: '00368'
+    definition: length measure which has the principal scale marks formed by two lines,
+      holes or marks
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 35-1:2007
     publication_id: OIML R035-1:2007
     tc_sc: ''
     year: 2007

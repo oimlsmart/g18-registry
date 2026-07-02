@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '03747'
+  term: detection field
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R091-1:2025
+    publication_id: OIML R091-1:2025
+    tc_sc: ''
+    year: 2025
+    clause: 3.3.10
+    link:
+    g18_entry: '03747'
+    definition: section on the road containing all possible locations of a detection
+      point (considering the possible variation of the location of the detection point)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 34e2c498-9ca4-50cb-8bc5-916abef02165
+schema_version: '3'
+related: []

@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '00508'
+  identifier: '03146'
   term: instantaneous load indicating device
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 50-1:1997
+  - edition: '2010'
+    publication: OIML R 50-1:1997
     publication_id: OIML R050-1:1997
     tc_sc: ''
     year: 1997
@@ -14,6 +19,19 @@ data:
     g18_entry: '00508'
     definition: "( a device that indicates the percentage of the maximum capacity
       Max) or the mass of the load acting on the weighing unit at a given time"
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R050-1:2014
+    publication_id: OIML R050-1:2014
+    tc_sc: ''
+    year: 2014
+    clause: 2.4.2.1
+    link:
+    g18_entry: '03146'
+    definition: device that indicates the percentage of the maximum capacity, Max,
+      or the mass of the load acting on the weighing module at a given time
     notes: []
     consistency: pending
     consistency_reason: ''

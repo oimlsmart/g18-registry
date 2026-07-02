@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '00119'
+  identifier: '00344'
   term: device
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 21:2007
+  - edition: '2010'
+    publication: OIML R 21:2007
     publication_id: OIML R021:2007
     tc_sc: ''
     year: 2007
@@ -19,7 +24,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 129:2000
+  - edition: '2010'
+    publication: OIML R 129:2000
     publication_id: OIML R129:2000
     tc_sc: ''
     year: 2000
@@ -35,7 +41,8 @@ data:
       portion of a measuring instrument.
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 125:1998
+  - edition: '2010'
+    publication: OIML R 125:1998
     publication_id: OIML R125:1998
     tc_sc: ''
     year: 1998
@@ -47,7 +54,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML D 16:1986
+  - edition: '2010'
+    publication: OIML D 16:1986
     publication_id: OIML D016:1986
     tc_sc: ''
     year: 1986
@@ -57,6 +65,127 @@ data:
     definition: any physical artifact, apparatus, or item used in making a measurement.
       A « device » may be an active or passive measuring instrument (as in VML 6.1)
       or a measurement standard (etalon)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R139-1:2022
+    publication_id: OIML R139-1:2022
+    tc_sc: ''
+    year: 2022
+    clause: 3.2.1
+    link:
+    g18_entry: '02979'
+    definition: distinctive part of a measuring instrument or measuring system performing
+      a specific task
+    notes:
+    - 'Note 1:  A device can either be a physical part or concern a function (for
+      instance in the software). Note 2:  A “facility” can also be regarded as a device
+      in accordance with this definition (see also note 4.2.4).'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R060:2021
+    publication_id: OIML R060:2021
+    tc_sc: ''
+    year: 2021
+    clause: A.1.3
+    link:
+    g18_entry: '02981'
+    definition: identifiable instrument or part of an instrument or of a family of
+      instruments that performs a specific function or functions (OIML D 11, 3.3.)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R129-1:2020
+    publication_id: OIML R129-1:2020
+    tc_sc: ''
+    year: 2020
+    clause: 2.1.2
+    link:
+    g18_entry: '02980'
+    definition: identifiable instrument or part of an instrument or of a family of
+      instruments that performs a specific function or functions [OIML D11, 3.3 [5]]
+    notes:
+    - 'Note:A device may be a stand-alone and complete measuring instrument (for example:
+      counter scale, electricity meter) or a part of a measuring instrument (for example:
+      printer, indicator).'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R061-1:2017
+    publication_id: OIML R061-1:2017
+    tc_sc: ''
+    year: 2017
+    clause: 3.3.2.1
+    link:
+    g18_entry: '03658'
+    definition: identifiable instrument or part of an instrument or of a family of
+      instruments that performs a specific function or functions
+    notes:
+    - 'Note:A device may be a stand-alone and complete measuring instrument (for example:
+      counter scale, electricity meter) or a part of a measuring instrument (for example:
+      printer, indicator).'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D011:2013
+    publication_id: OIML D011:2013
+    tc_sc: ''
+    year: 2013
+    clause: '3.3'
+    link:
+    g18_entry: '02217'
+    definition: identifiable instrument or part of an instrument or of a family of
+      instruments that performs a specific function or functions
+    notes:
+    - 'Note:A device may be a stand-alone and complete measuring instrument (for example:
+      counter scale, electricity meter) or a part of a measuring instrument (for example:
+      printer, indicator).'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 21:2007
+    publication_id: OIML R021:2007
+    tc_sc: ''
+    year: 2007
+    clause: 2.2.1
+    link: https://www.oiml.org/en/files/pdf_R/r021-e07.pdf
+    g18_entry: '00344'
+    definition: in this Recommendation the term “device” is used for any means by
+      which a specific function is performed irrespective of the physical realization
+      e.g. by a mechanism or a key initiating an operation; the device may be a small
+      part or a major portion of an instrument
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 136-1:2004
+    publication_id: OIML R136-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: T.2
+    link: https://www.oiml.org/en/files/pdf_R/r136-1-e04.pdf
+    g18_entry: '02978'
+    definition: "(-)"
+    notes:
+    - 'Note: In this Recommendation the term “device” is used for any means by which
+      a specific function is performed irrespective of the physical realization, e.g.
+      by a mechanism or a key initiating an operation; the device may be a small part
+      or a major portion of a measuring instrument.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 125:1998
+    publication_id: OIML R125:1998
+    tc_sc: ''
+    year: 1998
+    clause: T.9
+    link: https://www.oiml.org/en/files/pdf_R/r125-e98.pdf
+    g18_entry: '02623'
+    definition: a part of an instrument that performs a specific function. It is usually
+      manufactured as a separate unit and is capable of being independently tested
     notes: []
     consistency: pending
     consistency_reason: ''

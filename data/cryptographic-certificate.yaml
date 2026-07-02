@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '02177'
+  identifier: '02964'
   term: cryptographic certificate
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML D 31:2008
+  - edition: '2010'
+    publication: OIML D 31:2008
     publication_id: OIML D031:2008
     tc_sc: ''
     year: 2008
@@ -20,6 +25,23 @@ data:
       the public key of the trustworthy institution and decrypting the signature of
       the certificate
     notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D031:2023
+    publication_id: OIML D031:2023
+    tc_sc: ''
+    year: 2023
+    clause: 3.2.9
+    link:
+    g18_entry: '02964'
+    definition: dataset containing the public key belonging to a measuring instrument
+      or a person plus a unique identification of the subject, e.g. serial number
+      of the measuring instrument or name or Personal Identification Number (PIN)
+      of the person, plus a date of expiry, plus a trusted party signature
+    notes:
+    - Note:The trusted party signature binds the public key to the unique identification
+      of the subject.
     consistency: pending
     consistency_reason: ''
 status: current

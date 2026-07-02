@@ -1,0 +1,29 @@
+---
+data:
+  identifier: '03058'
+  term: experimental standard deviation
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R126-1:2021
+    publication_id: OIML R126-1:2021
+    tc_sc: ''
+    year: 2021
+    clause: 3.1.17
+    link:
+    g18_entry: '03058'
+    definition: 'for a series of n measurements of the same measurand, the quantity
+      s(qk) characterising the dispersion of the results and given by the formula:
+      with: qk being the result of the kth measurement and  beeing the arithmetic
+      mean of the n results considered.'
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 1b09f058-feb1-58d5-9453-76e878112ed9
+schema_version: '3'
+related: []

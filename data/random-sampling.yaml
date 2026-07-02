@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '01121'
+  identifier: '02506'
   term: random sampling
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 87:2004
+  - edition: '2010'
+    publication: OIML R 87:2004
     publication_id: OIML R087:2004
     tc_sc: ''
     year: 2004
@@ -15,6 +20,21 @@ data:
     definition: sample prepackages are chosen randomly (i.e. they all have the same
       probability to be included in the sample).
     notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R087:2016
+    publication_id: OIML R087:2016
+    tc_sc: ''
+    year: 2016
+    clause: 2.1.13
+    link:
+    g18_entry: '02506'
+    definition: sampling procedure where prepackages to be included in a sample are
+      chosen randomly from the inspection lot (i.e. each prepackage in the inspection
+      lot has an equal probability of being selected to be included in the sample)
+    notes:
+    - Note:This is also referred to as “sampling without replacement”.
     consistency: pending
     consistency_reason: ''
 status: current

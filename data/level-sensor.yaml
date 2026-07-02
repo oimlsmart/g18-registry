@@ -1,17 +1,46 @@
 ---
 data:
-  identifier: '02262'
+  identifier: 02262-R080-1
   term: level sensor
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 80-1:2009
+  - edition: '2010'
+    publication: OIML R 80-1:2009
     publication_id: OIML R080-1:2009
     tc_sc: ''
     year: 2009
     clause: '2.23'
     link: https://www.oiml.org/en/files/pdf_R/r080-1-e09.pdf
     g18_entry: '02262'
+    definition: measuring device for the level of a liquid in a tank or compartment
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R080-2:2017
+    publication_id: OIML R080-2:2017
+    tc_sc: ''
+    year: 2017
+    clause: '2'
+    link:
+    g18_entry: '03191'
+    definition: measuring device for the level of a liquid in a tank or compartment
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 80-1:2009
+    publication_id: OIML R080-1:2009
+    tc_sc: ''
+    year: 2009
+    clause: '2.23'
+    link: https://www.oiml.org/en/files/pdf_R/r080-1-e09.pdf
+    g18_entry: 02262-R080-1
     definition: measuring device for the level of a liquid in a tank or compartment
     notes: []
     consistency: pending

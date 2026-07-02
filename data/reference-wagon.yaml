@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '01312'
+  identifier: '02528'
   term: reference wagon
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 106-1:1997
+  - edition: '2010'
+    publication: OIML R 106-1:1997
     publication_id: OIML R106-1:1997
     tc_sc: ''
     year: 1997
@@ -15,6 +20,19 @@ data:
     definition: a wagon of known weight that is typical of those to be used for weighing
       on the instrument and which has been selected for the purposes of in-motion
       testing
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R106-1:2011
+    publication_id: OIML R106-1:2011
+    tc_sc: ''
+    year: 2011
+    clause: 0.1.7
+    link:
+    g18_entry: '02528'
+    definition: wagon weighed on the control instrument for temporary use as a mass
+      standard for in-motion testing
     notes: []
     consistency: pending
     consistency_reason: ''

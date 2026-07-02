@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '03270'
+  term: measuring area
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R129-1:2020
+    publication_id: OIML R129-1:2020
+    tc_sc: ''
+    year: 2020
+    clause: 2.1.12
+    link:
+    g18_entry: '03270'
+    definition: area in and around the instrument in which it is capable of measuring
+      an object
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 921797cd-bbd5-51bb-844a-50473b7b0677
+schema_version: '3'
+related: []

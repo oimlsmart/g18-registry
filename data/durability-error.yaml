@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '00234'
+  identifier: '00862'
   term: durability error
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 76-1:2006
+  - edition: '2010'
+    publication: OIML R 76-1:2006
     publication_id: OIML R076-1:2006
     tc_sc: ''
     year: 2006
@@ -17,7 +22,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML D 11:2004
+  - edition: '2010'
+    publication: OIML D 11:2004
     publication_id: OIML D011:2004
     tc_sc: ''
     year: 2004
@@ -29,7 +35,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 135:2004
+  - edition: '2010'
+    publication: OIML R 135:2004
     publication_id: OIML R135:2004
     tc_sc: ''
     year: 2004
@@ -41,7 +48,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 75-1:2002
+  - edition: '2010'
+    publication: OIML R 75-1:2002
     publication_id: OIML R075-1:2002
     tc_sc: ''
     year: 2002
@@ -53,7 +61,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 105:1993
+  - edition: '2010'
+    publication: OIML R 105:1993
     publication_id: OIML R105:1993
     tc_sc: ''
     year: 1993
@@ -62,6 +71,98 @@ data:
     g18_entry: '01236'
     definition: the difference between the intrinsic error over a period of use and
       the initial intrinsic error of a measuring system
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R139-1:2022
+    publication_id: OIML R139-1:2022
+    tc_sc: ''
+    year: 2022
+    clause: 3.1.14
+    link:
+    g18_entry: '03016'
+    definition: difference between the intrinsic error after a period of use and the
+      initial intrinsic error [OIML V1:2013, 5.11] of a measuring instrument [OIML
+      V1:2013, 5.16]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R060-1:2021
+    publication_id: OIML R060-1:2021
+    tc_sc: ''
+    year: 2021
+    clause: 3.7.3
+    link:
+    g18_entry: '03018'
+    definition: difference between the intrinsic error after a period of use and the
+      initial intrinsic error of a measuring instrument [VIML 5.16]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R150-1:2020
+    publication_id: OIML R150-1:2020
+    tc_sc: ''
+    year: 2020
+    clause: 2.4.5.7
+    link:
+    g18_entry: '03017'
+    definition: difference between the intrinsic error after a period of use and the
+      initial intrinsic error of a measuring instrument [VIML:2013, 5.16]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D011:2013
+    publication_id: OIML D011:2013
+    tc_sc: ''
+    year: 2013
+    clause: '3.13'
+    link:
+    g18_entry: 02227-D011
+    definition: difference between the intrinsic error after a period of use and the
+      initial intrinsic error of a measuring instrument [VIML 5.16]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 76-1:2006
+    publication_id: OIML R076-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.5.5.7
+    link: https://www.oiml.org/en/files/pdf_R/r076-1-e06.pdf
+    g18_entry: '00983'
+    definition: difference between the intrinsic error over a period of use and the
+      initial intrinsic error of an instrument
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 135:2004
+    publication_id: OIML R135:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.33'
+    link: https://www.oiml.org/en/files/pdf_R/r135-e04.pdf
+    g18_entry: '01872'
+    definition: difference between the intrinsic error over a period of use and the
+      initial intrinsic error of a measuring instrument [OIML D 11, 3.11]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 75-1:2002
+    publication_id: OIML R075-1:2002
+    tc_sc: ''
+    year: 2002
+    clause: 4.9.4
+    link: https://www.oiml.org/en/files/pdf_R/r075-1-e02.pdf
+    g18_entry: '00862'
+    definition: difference between the intrinsic error after a period of use and the
+      initial intrinsic error
     notes: []
     consistency: pending
     consistency_reason: ''

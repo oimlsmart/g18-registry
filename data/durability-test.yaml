@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '00253'
+  identifier: 02246-D011
   term: durability test
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML D 11:2004
+  - edition: '2010'
+    publication: OIML D 11:2004
     publication_id: OIML D011:2004
     tc_sc: ''
     year: 2004
@@ -17,7 +22,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 50-1:1997
+  - edition: '2010'
+    publication: OIML R 50-1:1997
     publication_id: OIML R050-1:1997
     tc_sc: ''
     year: 1997
@@ -29,7 +35,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 105:1993
+  - edition: '2010'
+    publication: OIML R 105:1993
     publication_id: OIML R105:1993
     tc_sc: ''
     year: 1993
@@ -38,6 +45,59 @@ data:
     g18_entry: '01253'
     definition: a test intended to verify whether the EUT is capable of maintaining
       its performance characteristics over a period of use
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R049-1:2024
+    publication_id: OIML R049-1:2024
+    tc_sc: ''
+    year: 2024
+    clause: 3.4.7
+    link:
+    g18_entry: '02427'
+    definition: 'test intended to verify whether the equipment under test (3.1.17)
+      is able to maintain its performance characteristics over a period of use [SOURCE:
+      OIML D 11:2013, 3.21.5] [8].'
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R150-1:2020
+    publication_id: OIML R150-1:2020
+    tc_sc: ''
+    year: 2020
+    clause: 2.6.3
+    link:
+    g18_entry: '03021'
+    definition: test intended to verify whether the EUT is able to maintain its performance
+      characteristics over a period of use [VIML:2013, 5.22]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R050-1:2014
+    publication_id: OIML R050-1:2014
+    tc_sc: ''
+    year: 2014
+    clause: T.7.4
+    link:
+    g18_entry: '03020'
+    definition: test intended to verify whether the EUT is able to maintain its performance
+      characteristics over a period of use [OIML D 11, 3.20.4]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D011:2013
+    publication_id: OIML D011:2013
+    tc_sc: ''
+    year: 2013
+    clause: 3.21.5
+    link:
+    g18_entry: 02246-D011
+    definition: test intended to verify whether the EUT is able to maintain its performance
+      characteristics over a period of use [VIML 5.22]
     notes: []
     consistency: pending
     consistency_reason: ''

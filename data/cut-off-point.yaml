@@ -1,0 +1,28 @@
+---
+data:
+  identifier: '02970'
+  term: cut-off point
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R080-2:2017
+    publication_id: OIML R080-2:2017
+    tc_sc: ''
+    year: 2017
+    clause: '2'
+    link:
+    g18_entry: '02970'
+    definition: level at which the level gauge sensor is able to measure the minimum
+      filling height at the maximum inclination of the tank
+    notes:
+    - 'Note: Below this level a measurement of the filling height cannot be guaranteed.'
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 35e3f047-ebe6-5ae5-880d-c2afcaf083a2
+schema_version: '3'
+related: []

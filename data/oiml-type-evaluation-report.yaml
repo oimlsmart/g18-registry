@@ -1,0 +1,29 @@
+---
+data:
+  identifier: '03348'
+  term: OIML type evaluation report
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML D030:2020
+    publication_id: OIML D030:2020
+    tc_sc: ''
+    year: 2020
+    clause: 3-G.3-2
+    link:
+    g18_entry: '03348'
+    definition: report issued by an OIML Issuing Authority participating in the OIML-CS
+      that assesses the conformity of the type of a measuring instrument or module
+      to requirements in the relevant OIML Recommendation and, if applicable, to the
+      additional national requirements specified in the Declaration (OIML B 18, 3.31)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 5b24d1eb-efff-5092-b8da-ca06c83c464e
+schema_version: '3'
+related: []

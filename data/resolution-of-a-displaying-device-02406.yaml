@@ -1,0 +1,30 @@
+---
+data:
+  identifier: '02406'
+  term: resolution of a displaying device
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R049-1:2024
+    publication_id: OIML R049-1:2024
+    tc_sc: ''
+    year: 2024
+    clause: 3.2.14
+    link:
+    g18_entry: '02406'
+    definition: 'smallest difference between displayed indications that can be meaningfully
+      distinguished [SOURCE: ISO/IEC Guide 99:2007/OIML V 2-200:2012 (VIM) 4.15, [1],modified
+      – “Note 1 “added]'
+    notes:
+    - 'Note: For a digital indicating device, this is the change in the indication
+      when the least significant digit changes by one step.'
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 1d41471a-9ce1-56d5-b117-3c71913446c8
+schema_version: '3'
+related: []

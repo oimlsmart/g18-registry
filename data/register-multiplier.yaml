@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '02294-R046-1'
+  term: register multiplier
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R046-1:2012
+    publication_id: OIML R046-1:2012
+    tc_sc: ''
+    year: 2012
+    clause: 2.1.15
+    link:
+    g18_entry: '02294-R046-1'
+    definition: constant with which the register reading shall be multiplied to obtain
+      the value of the metered energy
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 25af3383-7d05-5d8e-83dc-962fb4072f69
+schema_version: '3'
+related: []

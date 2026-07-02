@@ -4,8 +4,13 @@ data:
   term: calibration
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 71:2008
+  - edition: '2010'
+    publication: OIML R 71:2008
     publication_id: OIML R071:2008
     tc_sc: ''
     year: 2008
@@ -18,7 +23,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 111-1:2004
+  - edition: '2010'
+    publication: OIML R 111-1:2004
     publication_id: OIML R111-1:2004
     tc_sc: ''
     year: 2004
@@ -37,7 +43,8 @@ data:
       in a document, sometimes called calibration certificate or calibration report'
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 135:2004
+  - edition: '2010'
+    publication: OIML R 135:2004
     publication_id: OIML R135:2004
     tc_sc: ''
     year: 2004
@@ -57,7 +64,8 @@ data:
       a calibration certificate or a calibration report. [VIM, 6.11]
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 110:1994
+  - edition: '2010'
+    publication: OIML R 110:1994
     publication_id: OIML R110:1994
     tc_sc: ''
     year: 1994
@@ -70,7 +78,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 113:1994
+  - edition: '2010'
+    publication: OIML R 113:1994
     publication_id: OIML R113:1994
     tc_sc: ''
     year: 1994
@@ -83,7 +92,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML D 22:1991
+  - edition: '2010'
+    publication: OIML D 22:1991
     publication_id: OIML D022:1991
     tc_sc: ''
     year: 1991
@@ -96,7 +106,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 95:1990
+  - edition: '2010'
+    publication: OIML R 95:1990
     publication_id: OIML R095:1990
     tc_sc: ''
     year: 1990
@@ -105,6 +116,251 @@ data:
     g18_entry: '01147'
     definition: a set of operations to determine the capacities of a tank at various
       filling levels
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R142-1:2025
+    publication_id: OIML R142-1:2025
+    tc_sc: ''
+    year: 2025
+    clause: '3.7'
+    link:
+    g18_entry: '03712'
+    definition: operation that, under specified conditions, in a first step, establishes
+      a relation between the quantity values with measurement uncertainties provided
+      by measurement standards and corresponding indications with associated measurement
+      uncertainties and, in a second step, uses this information to establish a relation
+      for obtaining a measurement result from an indication
+    notes:
+    - 'Note 1: A calibration may be expressed by a statement, calibration function,
+      calibration diagram, calibration curve, or calibration table. In some cases,
+      it may consist of an additive or multiplicative correction of the indication
+      with associated measurement uncertainty. Note 2: Calibration should not be confused
+      with adjustment of a measuring system, often mistakenly called “self-calibration”,
+      nor with verification of calibration. Note 3: Often, the first step alone in
+      the above definition is perceived as being calibration.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D005:2022
+    publication_id: OIML D005:2022
+    tc_sc: ''
+    year: 2022
+    clause: '3.2'
+    link:
+    g18_entry: '02917'
+    definition: operation that, under specified conditions, in a first step, establishes
+      a relation between the quantity values with measurement uncertainties provided
+      by measurement standards and corresponding indications with associated measurement
+      uncertainties and, in a second step, uses this information to establish a relation
+      for obtaining a measurement result from an indication
+    notes:
+    - For notes see [VIM, 2.39]
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D010:2022
+    publication_id: OIML D010:2022
+    tc_sc: ''
+    year: 2022
+    clause: '3.3'
+    link:
+    g18_entry: '02918'
+    definition: operation that, under specified conditions, in a first step, establishes
+      a relation between the quantity values with measurement uncertainties provided
+      by measurement standards and corresponding indications with associated measurement
+      uncertainties and, in a second step, uses this information to establish a relation
+      for obtaining a measurement result from an indication
+    notes:
+    - 'Note 1: A calibration may be expressed by a statement, calibration function,
+      calibration diagram, calibration curve, or calibration table. In some cases,
+      it may consist of an additive or multiplicative correction of the indication
+      with associated measurement uncertainty. Note 2: Calibration should not be confused
+      with adjustment of a measuring system, often mistakenly called “self-calibration”,
+      nor with verification of calibration. Note 3: Often, the first step alone in
+      the above definition is perceived as being calibration.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R126-1:2021
+    publication_id: OIML R126-1:2021
+    tc_sc: ''
+    year: 2021
+    clause: 3.1.3
+    link:
+    g18_entry: '02916'
+    definition: operation that, under specified conditions, in a first step, establishes
+      a relation between the quantity values with measurement uncertainties provided
+      by measurement standards and corresponding indications with associated measurement
+      uncertainties and, in a second step, uses this information to establish a relation
+      for obtaining a measurement result from an indication (OIML V 2-200, 2.39)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R059-1:2016
+    publication_id: OIML R059-1:2016
+    tc_sc: ''
+    year: 2016
+    clause: 3.1.3
+    link:
+    g18_entry: '02444'
+    definition: operation that, under specified conditions, in a first step, establishes
+      a relation between the quantity values with measurement uncertainties provided
+      by measurement standards and corresponding indications with associated measurement
+      uncertainties and, in a second step, uses this information to establish a relation
+      for obtaining a measurement result from an indication [VIM 2.39]
+    notes:
+    - 'Note 1: A calibration may be expressed by a statement, calibration function,
+      calibration diagram, calibration curve, or calibration table. In some cases,
+      it may consist of an additive or multiplicative correction of the indication
+      with associated measurement uncertainty. Note 2: Calibration should not be confused
+      with adjustment of a measuring system, often mistakenly called “self-calibration”,
+      nor with verification of calibration. Note 3: Often, the first step alone in
+      the above definition is perceived as being calibration.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R147:2016
+    publication_id: OIML R147:2016
+    tc_sc: ''
+    year: 2016
+    clause: 1.1.2
+    link:
+    g18_entry: '02818'
+    definition: operation that, under specified conditions, in a first step, establishes
+      a relation between the quantity values with measurement uncertainties provided
+      by measurement standards and corresponding indications with associated measurement
+      uncertainties and, in a second step, uses this information to establish a relation
+      for obtaining a measurement result from an indication [OIML V2-200:2012, 2.39]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D001:2012
+    publication_id: OIML D001:2012
+    tc_sc: ''
+    year: 2012
+    clause: 3.1.3
+    link:
+    g18_entry: '02203'
+    definition: operation that, under specified conditions, in a first step establishes
+      a relation between the quantity values with measurement uncertainties provided
+      by measurement standards and corresponding indications with associated measurement
+      uncertainties and, in a second step, uses this information to establish a relation
+      for obtaining a measurement result from an indication [VIM 2.39]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 71:2008
+    publication_id: OIML R071:2008
+    tc_sc: ''
+    year: 2008
+    clause: '3.1'
+    link: https://www.oiml.org/en/files/pdf_R/r071-e08.pdf
+    g18_entry: 02225-R071
+    definition: set of operations carried out to establish, under specified conditions,
+      the relationship between the liquid level in the tank and the volume of that
+      liquid
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 111-1:2004
+    publication_id: OIML R111-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.3'
+    link: https://www.oiml.org/en/files/pdf_R/r111-1-e04.pdf
+    g18_entry: '01443'
+    definition: set of operations that establish, under specified conditions, the
+      relationship between values of quantities indicated by a measuring instrument
+      or measuring system, or values represented by a material measure or a reference
+      material, and the corresponding values realized by standards
+    notes:
+    - 'Note 1: The result of a calibration permits either assignment of values of
+      measurands to the indications or the determination of corrections with respect
+      to indications. Note 2: A calibration may also determine other metrological
+      properties such as the effect of influence quantities. Note 3: The result of
+      a calibration may be recorded in a document, sometimes called calibration certificate
+      or calibration report'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 135:2004
+    publication_id: OIML R135:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.37'
+    link: https://www.oiml.org/en/files/pdf_R/r135-e04.pdf
+    g18_entry: '01876'
+    definition: set of operations that establish, under specified conditions, the
+      relationship between values of quantities indicated by a measuring instrument
+      or measuring system, or values represented by a material measure or a reference
+      material, and the corresponding values realized by standards [VIM, 6.11]
+    notes:
+    - 'Note 1:  The result of a calibration permits either the assignment of values
+      of measurands to the indications or the determination of corrections with respect
+      to indications. Note 2:  A calibration may also determine other metrological
+      properties such as the effect of influence quantities. Note 3: The result of
+      a calibration may be recorded in a document, sometimes called a calibration
+      certificate or a calibration report.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 110:1994
+    publication_id: OIML R110:1994
+    tc_sc: ''
+    year: 1994
+    clause: 2.4.7
+    link: https://www.oiml.org/en/files/pdf_R/r110-e94.pdf
+    g18_entry: '01435'
+    definition: set of operations that establish, under specified conditions, the
+      relationship between the values of pressure indicated by a pressure balance
+      and the corresponding values of pressure realized by a reference standard
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 113:1994
+    publication_id: OIML R113:1994
+    tc_sc: ''
+    year: 1994
+    clause: '3.16'
+    link: https://www.oiml.org/en/files/pdf_R/r113-e94.pdf
+    g18_entry: '01503'
+    definition: the set of operations that establishes, under specified conditions,
+      the relationship between values indicated by a measuring system and the corresponding
+      known values of the measurand
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D 22:1991
+    publication_id: OIML D022:1991
+    tc_sc: ''
+    year: 1991
+    clause: '3.2'
+    link: https://www.oiml.org/en/files/pdf_D/d022-e91.pdf
+    g18_entry: '00147'
+    definition: the set of operations which establish, under specified conditions,
+      the relationship between values indicated by a measuring instrument or measuring
+      system and the corresponding known values of a measurand
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 95:1990
+    publication_id: OIML R095:1990
+    tc_sc: ''
+    year: 1990
+    clause: T.11
+    link: https://www.oiml.org/en/files/pdf_R/r095-e90.pdf
+    g18_entry: '01147'
+    definition: a set of operations to determine the capacities of a tank at various
+      filling level
     notes: []
     consistency: pending
     consistency_reason: ''

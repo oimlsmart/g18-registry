@@ -4,8 +4,13 @@ data:
   term: specified measuring ranges
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 140:2007
+  - edition: '2010'
+    publication: OIML R 140:2007
     publication_id: OIML R140:2007
     tc_sc: ''
     year: 2007
@@ -23,6 +28,27 @@ data:
       or quantities ristic for the metering module are lowrate, pressure or temperature
       of the gas. . A conversion device has a specified easuring range for each quantity
       that it rocesses.
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 140:2007
+    publication_id: OIML R140:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.2.8
+    link: https://www.oiml.org/en/files/pdf_R/r140-e07.pdf
+    g18_entry: '02074'
+    definition: 'set of values of measurands or quantities characteristic of the gas
+      for which the error is intended to lie within the limits specified in this Recommendation.
+      In general the upper and lower limits of the specified measuring range are called
+      maximum value and minimum value, respectively (for example: maximum flowrate
+      2000 m3/h, minimum flowrate 50 m3/h)'
+    notes:
+    - 'Note:  This definition applies to the measuring system and also to the elements
+      that compose the measuring system. Main measurands or quantities characteristic
+      for the metering module are flowrate, pressure or temperature of the gas. A
+      conversion device has a specified measuring range for each quantity that it
+      processes.'
     consistency: pending
     consistency_reason: ''
 status: current

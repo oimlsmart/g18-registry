@@ -1,0 +1,36 @@
+---
+data:
+  identifier: '03703'
+  term: non-adjustable water meter
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R049-1:2024
+    publication_id: OIML R049-1:2024
+    tc_sc: ''
+    year: 2024
+    clause: 3.1.26
+    link:
+    g18_entry: '03703'
+    definition: water meter (3.1.1) whose indication cannot be altered in any way
+      (e.g. without changing the internal dimensions and/or method of operation),
+      and which has no adjustment device (3.1.6) or correction device (3.1.7)
+    notes:
+    - 'Note 1: This category should also include mechanical meters with an internal
+      adjustment device where the adjustment cannot be altered at initial verification
+      stage as the meter would need to be dismantled. Note 2: The meter should not
+      have a correction device, i.e. the indicating device of the meter should either
+      be purely mechanical or be electronic but with a constant multiplying factor
+      applied to the indication and set to the same value for all meters (such as
+      a device which counts the number of rotations of the shaft and multiplies by
+      a fixed value to give total volume passed).'
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: c9cfb432-212e-5727-aeca-4ae5ee9d3bb0
+schema_version: '3'
+related: []

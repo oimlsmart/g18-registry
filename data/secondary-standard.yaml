@@ -4,8 +4,13 @@ data:
   term: secondary standard
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML D 22:1991
+  - edition: '2010'
+    publication: OIML D 22:1991
     publication_id: OIML D022:1991
     tc_sc: ''
     year: 1991
@@ -16,6 +21,20 @@ data:
       a primary standard
     notes:
     - Most instrument calibrations are performed using secondary standards.
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D 22:1991
+    publication_id: OIML D022:1991
+    tc_sc: ''
+    year: 1991
+    clause: '3.15'
+    link: https://www.oiml.org/en/files/pdf_D/d022-e91.pdf
+    g18_entry: '00160'
+    definition: a measurement standard whose value is fixed by direct comparison with
+      a primary standard
+    notes:
+    - 'Note: Most instrument calibrations are performed using secondary standards.'
     consistency: pending
     consistency_reason: ''
 status: current

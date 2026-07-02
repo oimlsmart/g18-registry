@@ -4,8 +4,13 @@ data:
   term: protective interface
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 21:2007
+  - edition: '2010'
+    publication: OIML R 21:2007
     publication_id: OIML R021:2007
     tc_sc: ''
     year: 2007
@@ -20,7 +25,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 107-1:2007
+  - edition: '2010'
+    publication: OIML R 107-1:2007
     publication_id: OIML R107-1:2007
     tc_sc: ''
     year: 2007
@@ -36,7 +42,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 76-1:2006
+  - edition: '2010'
+    publication: OIML R 76-1:2006
     publication_id: OIML R076-1:2006
     tc_sc: ''
     year: 2006
@@ -51,6 +58,116 @@ data:
       or change any adjustment factor, except releasing an adjustment procedure with
       incorporated devices or, in the case of class I instruments with external adjustment
       weights as well"
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D031:2023
+    publication_id: OIML D031:2023
+    tc_sc: ''
+    year: 2023
+    clause: 3.2.51
+    link:
+    g18_entry: '03394'
+    definition: legally relevant software module that handles all data flow to the
+      legally relevant software modul(s) in order to prevent inadmissible influences
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R150-1:2020
+    publication_id: OIML R150-1:2020
+    tc_sc: ''
+    year: 2020
+    clause: 2.2.11.2
+    link:
+    g18_entry: '03395'
+    definition: interface (hardware and/or software) which only allows the introduction
+      into the instrument of data or instructuons that cannot influence the metrological
+      properties of instrument
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R061-1:2017
+    publication_id: OIML R061-1:2017
+    tc_sc: ''
+    year: 2017
+    clause: 3.3.10
+    link:
+    g18_entry: '03679'
+    definition: interface (hardware and/or software) which only allows the introduction
+      of data or instructions that cannot influence the metrological properties of
+      the instrument
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R106-1:2011
+    publication_id: OIML R106-1:2011
+    tc_sc: ''
+    year: 2011
+    clause: 0.2.7.3
+    link:
+    g18_entry: '02552'
+    definition: 'interface (hardware and/or software) which only allows the introduction
+      of such data into the data processing device of an instrument, module or electronic
+      component, which cannot: display data which are not clearly defined and which
+      could be taken for a weighing result; falsify displayed, processed or stored
+      weighing results or primary indications; or adjust the instrument or change
+      any adjustment factor.'
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 21:2007
+    publication_id: OIML R021:2007
+    tc_sc: ''
+    year: 2007
+    clause: 2.2.7
+    link: https://www.oiml.org/en/files/pdf_R/r021-e07.pdf
+    g18_entry: '00350'
+    definition: 'interface which only allows the introduction of data into the data
+      processing device of the taximeter, which cannot: - display data that are not
+      clearly defined and which could be taken as being a measurement result; - falsify
+      displayed, processed or stored measurement results or primary indications; -adjust
+      the instrument or change any adjustment factor'
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 107-1:2007
+    publication_id: OIML R107-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.2.11
+    link: https://www.oiml.org/en/files/pdf_R/r107-1-e07.pdf
+    g18_entry: '01356'
+    definition: 'interface (hardware and/or software) which only allows the introduction
+      of such data into the data processing device of an instrument, which cannot:
+      display data which are not clearly defined and which could be taken as being
+      a weighing result; falsify displayed, processed or stored weighing results or
+      primary indications; or adjust the instrument or change any adjustment factor,
+      except releasing an adjustment procedure with incorporated devices'
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 76-1:2006
+    publication_id: OIML R076-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.2.3.6
+    link: https://www.oiml.org/en/files/pdf_R/r076-1-e06.pdf
+    g18_entry: '00909'
+    definition: 'interface (hardware and/or software) which only allows the introduction
+      of such data into the data processing device of an instrument, module or electronic
+      component, which cannot: display data which are not clearly defined and which
+      could be taken for a weighing result; falsify displayed, processed or stored
+      weighing results or primary indications; or adjust the instrument or change
+      any adjustment factor, except releasing an adjustment procedure with incorporated
+      devices or, in the case of class I instruments with external adjustment weights
+      as well'
     notes: []
     consistency: pending
     consistency_reason: ''

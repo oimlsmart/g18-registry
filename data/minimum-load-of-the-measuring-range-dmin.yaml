@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '03308'
+  term: minimum load of the measuring range (Dmin)
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R060-1:2021
+    publication_id: OIML R060-1:2021
+    tc_sc: ''
+    year: 2021
+    clause: 3.5.12
+    link:
+    g18_entry: '03308'
+    definition: smallest value of a quantity expressed in units of mass, applied to
+      a load cell under test
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 77de5d05-0691-5be3-a584-b1a43a1eb12f
+schema_version: '3'
+related: []

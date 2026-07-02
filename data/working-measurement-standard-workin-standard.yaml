@@ -1,0 +1,30 @@
+---
+data:
+  identifier: '03647'
+  term: working measurement standard workin standard
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML D005:2022
+    publication_id: OIML D005:2022
+    tc_sc: ''
+    year: 2022
+    clause: '3.19'
+    link:
+    g18_entry: '03647'
+    definition: measurement standard that is used routinely to calibrate or verified
+      measuring instruments or measuring systems [VIM, 5.7]
+    notes:
+    - 'Note 1: A working measurement standard is usually calibrated with respect to
+      reference measurement standard. Note 2:  In relation to verification, the terms
+      “check standard” or “control standard” are also sometimes used.'
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: b68604e3-fad4-54ab-b160-0cdc5e89d760
+schema_version: '3'
+related: []

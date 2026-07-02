@@ -1,23 +1,27 @@
 ---
 data:
   identifier: '01852'
-  term: blank solution; reference solution
+  term: blank solution reference solution
   kind: undefined
   official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 135:2004
+  - edition: 202X
+    publication: OIML R 135:2004
     publication_id: OIML R135:2004
     tc_sc: ''
     year: 2004
     clause: '2.13'
     link: https://www.oiml.org/en/files/pdf_R/r135-e04.pdf
     g18_entry: '01852'
-    definition: solution similar to the sample solution but which does not contain
-      the analyte
+    definition: 'solution similar to the sample solution but which does not contain
+      the analyte Example: Solvent.'
     notes: []
     consistency: pending
     consistency_reason: ''
 status: current
-id: b37692e4-8976-571a-9772-d1ab42e0de06
+id: 0655b176-a159-5c41-8d9c-19008017b642
 schema_version: '3'
 related: []

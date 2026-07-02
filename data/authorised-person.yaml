@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '02882'
+  term: authorised person
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R117-1:2019
+    publication_id: OIML R117-1:2019
+    tc_sc: ''
+    year: 2019
+    clause: T.a.11
+    link:
+    g18_entry: '02882'
+    definition: person that is allowed to perform specified activities on legally
+      controlled measuring systems or components, under applicable national laws
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 63621747-6eaa-5594-9050-2777d2443857
+schema_version: '3'
+related: []

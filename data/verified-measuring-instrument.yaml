@@ -4,8 +4,26 @@ data:
   term: verified measuring instrument
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML D 20:1988
+  - edition: '2010'
+    publication: OIML D 20:1988
+    publication_id: OIML D020:1988
+    tc_sc: ''
+    year: 1988
+    clause: 1.2.3
+    link: https://www.oiml.org/en/files/pdf_D/d020-e88.pdf
+    g18_entry: '00137'
+    definition: a measuring instrument which, in consequence of its verification,
+      has been given legal character
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D 20:1988
     publication_id: OIML D020:1988
     tc_sc: ''
     year: 1988

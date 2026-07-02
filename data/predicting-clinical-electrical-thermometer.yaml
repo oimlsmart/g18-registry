@@ -4,8 +4,28 @@ data:
   term: predicting clinical electrical thermometer
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 115:1995
+  - edition: '2010'
+    publication: OIML R 115:1995
+    publication_id: OIML R115:1995
+    tc_sc: ''
+    year: 1995
+    clause: '2.5'
+    link: https://www.oiml.org/en/files/pdf_R/r115-e95.pdf
+    g18_entry: '01513'
+    definition: a predicting clinical electrical thermometer calculates the maximum
+      temperature of a probe in contact with a body cavity or tissue, without waiting
+      for thermal equilibrium to occur, by using heat transfer data and a mathematical
+      algorithm
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 115:1995
     publication_id: OIML R115:1995
     tc_sc: ''
     year: 1995

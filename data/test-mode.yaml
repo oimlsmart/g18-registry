@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '03790'
+  term: test mode
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML D091-1:2025
+    publication_id: OIML D091-1:2025
+    tc_sc: ''
+    year: 2025
+    clause: 3.1.5
+    link:
+    g18_entry: '03790'
+    definition: mode of operation in which speed measurements for test and examination
+      purposes are carried out
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: a671de95-7206-5195-9c32-0ef4d29a1a6b
+schema_version: '3'
+related: []

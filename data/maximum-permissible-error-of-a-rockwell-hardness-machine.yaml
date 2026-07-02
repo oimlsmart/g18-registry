@@ -4,8 +4,27 @@ data:
   term: maximum permissible error (of a Rockwell hardness machine)
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 39:2006
+  - edition: '2010'
+    publication: OIML R 39:2006
+    publication_id: OIML R039:2006
+    tc_sc: ''
+    year: 2006
+    clause: '2.12'
+    link: https://www.oiml.org/en/files/pdf_R/r039-e06.pdf
+    g18_entry: '00390'
+    definition: extreme value of error in a measured Rockwell hardness value permitted
+      by specifications, regulations, etc., such as this Recommendation, for a given
+      Rockwell hardness machine
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 39:2006
     publication_id: OIML R039:2006
     tc_sc: ''
     year: 2006

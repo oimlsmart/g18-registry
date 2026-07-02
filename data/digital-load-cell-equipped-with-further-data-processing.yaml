@@ -1,0 +1,28 @@
+---
+data:
+  identifier: '02991'
+  term: digital load cell equipped with further data processing
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R060-1:2021
+    publication_id: OIML R060-1:2021
+    tc_sc: ''
+    year: 2021
+    clause: 3.1.3.4
+    link:
+    g18_entry: '02991'
+    definition: analogue-active load cell which includes an analogue to digital conversion
+      device providing a representation of the measurand value in some digital format
+      and includes further digital processing (e.g.scaling) (Figure 2, A-F)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: fb6f082f-fa5b-561c-aaa2-371891188072
+schema_version: '3'
+related: []

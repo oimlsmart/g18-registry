@@ -1,0 +1,28 @@
+---
+data:
+  identifier: '01850'
+  term: reference flux (Φr)
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R 135:2004
+    publication_id: OIML R135:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.11'
+    link: https://www.oiml.org/en/files/pdf_R/r135-e04.pdf
+    g18_entry: '01850'
+    definition: radiant luminous flux of monochromatic radiation transmitted by an
+      optical cell containing the solution used as reference and reaching the detector
+    notes:
+    - 'Note:  The coherent SI unit is the watt (W).'
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: fc64853b-7e8a-5023-9297-1cfe1f2980df
+schema_version: '3'
+related: []

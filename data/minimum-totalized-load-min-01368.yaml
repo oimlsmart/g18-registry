@@ -1,0 +1,28 @@
+---
+data:
+  identifier: '01368'
+  term: minimum totalized load, Σmin
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R 107-1:2007
+    publication_id: OIML R107-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.3.6
+    link: https://www.oiml.org/en/files/pdf_R/r107-1-e07.pdf
+    g18_entry: '01368'
+    definition: value of the smallest bulk load that can be totalized without exceeding
+      the maximum permissible error when the automatic operation is comprised of discrete
+      loads, each within the automatic weighing range
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 1070f999-a400-5507-841e-a2ac2eaa14c0
+schema_version: '3'
+related: []

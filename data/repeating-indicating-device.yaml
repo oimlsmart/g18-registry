@@ -1,17 +1,35 @@
 ---
 data:
-  identifier: '02307'
+  identifier: 02307-R085-1
   term: repeating indicating device
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 85-1:2008
+  - edition: '2010'
+    publication: OIML R 85-1:2008
     publication_id: OIML R085-1:2008
     tc_sc: ''
     year: 2008
     clause: '3.9'
     link: https://www.oiml.org/en/files/pdf_R/r085-1-e08.pdf
     g18_entry: '02307'
+    definition: additional device (ancillary device) repeating the indication of the
+      indicating device
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 85-1:2008
+    publication_id: OIML R085-1:2008
+    tc_sc: ''
+    year: 2008
+    clause: '3.9'
+    link: https://www.oiml.org/en/files/pdf_R/r085-1-e08.pdf
+    g18_entry: 02307-R085-1
     definition: additional device (ancillary device) repeating the indication of the
       indicating device
     notes: []

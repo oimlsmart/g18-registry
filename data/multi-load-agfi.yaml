@@ -1,0 +1,26 @@
+---
+data:
+  identifier: '03674'
+  term: multi-load AGFI
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R061-1:2017
+    publication_id: OIML R061-1:2017
+    tc_sc: ''
+    year: 2017
+    clause: 3.2.2.1
+    link:
+    g18_entry: '03674'
+    definition: cumulative or selective combination AGFI
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 6931afab-ca82-5b5b-95b3-2b3bf22b05b6
+schema_version: '3'
+related: []

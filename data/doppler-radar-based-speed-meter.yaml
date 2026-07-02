@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '03750'
+  term: Doppler-radar based speed meter
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R091-1:2025
+    publication_id: OIML R091-1:2025
+    tc_sc: ''
+    year: 2025
+    clause: 3.3.1
+    link:
+    g18_entry: '03750'
+    definition: speed meter emitting microwave radiation and detecting the Doppler
+      shift of the radiation reflected by moving objects
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 74fd4c2c-9fd4-5f93-b1e0-b93804e76a6e
+schema_version: '3'
+related: []

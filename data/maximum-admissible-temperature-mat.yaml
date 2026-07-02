@@ -1,0 +1,29 @@
+---
+data:
+  identifier: '02414'
+  term: maximum admissible temperature MAT
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R049-1:2024
+    publication_id: OIML R049-1:2024
+    tc_sc: ''
+    year: 2024
+    clause: 3.3.8
+    link:
+    g18_entry: '02414'
+    definition: maximum water temperature that a meter can withstand permanently,
+      within its rated operating condition(s) (3.4.4), without deterioration of its
+      metrological performance
+    notes:
+    - Note:MAT is the upper of the rated operating conditions for temperature.
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 85da9aec-aaec-5ca9-a805-3a5745647b27
+schema_version: '3'
+related: []

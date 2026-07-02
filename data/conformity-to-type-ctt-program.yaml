@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '02942'
+  term: conformity to type (CTT) program
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML D034:2019
+    publication_id: OIML D034:2019
+    tc_sc: ''
+    year: 2019
+    clause: 3.1.5
+    link:
+    g18_entry: '02942'
+    definition: Entity of national or regional framework for implementing the concept
+      of CTT
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: d88c8ef1-0241-5758-8062-90ea3f540493
+schema_version: '3'
+related: []

@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '02394'
+  term: indicated volume Vi
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R049-1:2024
+    publication_id: OIML R049-1:2024
+    tc_sc: ''
+    year: 2024
+    clause: 3.2.2
+    link:
+    g18_entry: '02394'
+    definition: volume of water indicated by the meter, corresponding to the actual
+      volume
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: e234994c-e12b-5529-a0c8-74c132c2a0ab
+schema_version: '3'
+related: []

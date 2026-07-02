@@ -1,0 +1,30 @@
+---
+data:
+  identifier: '02507'
+  term: sample
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R087:2016
+    publication_id: OIML R087:2016
+    tc_sc: ''
+    year: 2016
+    clause: 2.1.14
+    link:
+    g18_entry: '02507'
+    definition: set of prepackages taken at random from an inspection lot to be inspected
+      to determine conformance with specified criteria for purposes of making decisions
+      concerning acceptance or rejection of the entire inspection lot
+    notes:
+    - 'Note: Lower case letters are used as symbols related to the sample in this
+      Recommendation.'
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: e9e4f103-13fb-5064-8181-8f173fd11b0d
+schema_version: '3'
+related: []

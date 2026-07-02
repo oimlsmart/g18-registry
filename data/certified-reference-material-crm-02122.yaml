@@ -1,0 +1,28 @@
+---
+data:
+  identifier: '02122'
+  term: certified reference material; (CRM)
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R142-1:2025
+    publication_id: OIML R142-1:2025
+    tc_sc: ''
+    year: 2025
+    clause: '38'
+    link:
+    g18_entry: '02122'
+    definition: reference material, accompanied by documentation issued by an authoritative
+      body and providing one or more specified property values with associated uncertainties
+      and traceabilities, using valid procedures
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 7cb525cf-b014-5caf-a5bb-01dbdf6cabad
+schema_version: '3'
+related: []

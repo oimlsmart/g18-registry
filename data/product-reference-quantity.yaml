@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '03441'
+  term: product reference quantity
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R061-1:2017
+    publication_id: OIML R061-1:2017
+    tc_sc: ''
+    year: 2017
+    clause: 3.4.2
+    link:
+    g18_entry: '03441'
+    definition: calculated quantity value equal to the mean of at least ten of the
+      largest pieces of the product taken from one or more fills
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: e058ad2c-eb7e-50c8-ba29-2f79ddcac4a7
+schema_version: '3'
+related: []

@@ -4,8 +4,13 @@ data:
   term: maximum permissible errors
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 139:2007
+  - edition: '2010'
+    publication: OIML R 139:2007
     publication_id: OIML R139:2007
     tc_sc: ''
     year: 2007
@@ -24,7 +29,8 @@ data:
       the relative um permissible error, which applies.'
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 131:2001
+  - edition: '2010'
+    publication: OIML R 131:2001
     publication_id: OIML R131:2001
     tc_sc: ''
     year: 2001
@@ -36,7 +42,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 132:2001
+  - edition: '2010'
+    publication: OIML R 132:2001
     publication_id: OIML R132:2001
     tc_sc: ''
     year: 2001
@@ -48,7 +55,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 127:1999
+  - edition: '2010'
+    publication: OIML R 127:1999
     publication_id: OIML R127:1999
     tc_sc: ''
     year: 1999
@@ -60,7 +68,61 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 110:1994
+  - edition: '2010'
+    publication: OIML R 110:1994
+    publication_id: OIML R110:1994
+    tc_sc: ''
+    year: 1994
+    clause: 2.4.5
+    link: https://www.oiml.org/en/files/pdf_R/r110-e94.pdf
+    g18_entry: '01433'
+    definition: the maximum allowed difference (either positive or negative) between
+      the pressure balance indication and the corresponding (conventional) true value
+      of the measured pressure
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 131:2001
+    publication_id: OIML R131:2001
+    tc_sc: ''
+    year: 2001
+    clause: '3.13'
+    link: https://www.oiml.org/en/files/pdf_R/r131-e01.pdf
+    g18_entry: '01754'
+    definition: extreme values of an error permitted by specifications, regulations,
+      etc. for a given measuring instrument
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 132:2001
+    publication_id: OIML R132:2001
+    tc_sc: ''
+    year: 2001
+    clause: '3.13'
+    link: https://www.oiml.org/en/files/pdf_R/r132-e01.pdf
+    g18_entry: '01770'
+    definition: extreme values of an error permitted by specifications, regulations,
+      etc. for a given measuring instrument
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 127:1999
+    publication_id: OIML R127:1999
+    tc_sc: ''
+    year: 1999
+    clause: '4.14'
+    link: https://www.oiml.org/en/files/pdf_R/r127-e99.pdf
+    g18_entry: '01688'
+    definition: extreme values of an error permitted by specifications, regulations,
+      etc. for a given measuring instrument
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 110:1994
     publication_id: OIML R110:1994
     tc_sc: ''
     year: 1994

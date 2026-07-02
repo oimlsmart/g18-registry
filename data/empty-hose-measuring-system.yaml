@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '01556'
+  identifier: '03036'
   term: empty hose measuring system
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 117-1:2007
+  - edition: '2010'
+    publication: OIML R 117-1:2007
     publication_id: OIML R117-1:2007
     tc_sc: ''
     year: 2007
@@ -16,6 +21,20 @@ data:
       is located upstream of the delivery hose in measuring systems designed to deliver
       product (and downstream of the receiving hose in measuring systems designed
       to receive product)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R117-1:2019
+    publication_id: OIML R117-1:2019
+    tc_sc: ''
+    year: 2019
+    clause: T.e.1
+    link:
+    g18_entry: '03036'
+    definition: measuring systems in which the transfer point is located upstream
+      of the delivery hose in measuring systems designed to deliver product (and downstream
+      of the receiving hose in measuring systems designed to receive product)
     notes: []
     consistency: pending
     consistency_reason: ''

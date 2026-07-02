@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '03215'
+  term: marking
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R060-1:2021
+    publication_id: OIML R060-1:2021
+    tc_sc: ''
+    year: 2021
+    clause: 3.1.4
+    link:
+    g18_entry: '03215'
+    definition: affixing of one or more marks [VIML 2.19]
+    notes:
+    - "(For notes, refer to the VIML)"
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: e570d821-9d58-5be0-826b-55326f378510
+schema_version: '3'
+related: []

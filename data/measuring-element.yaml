@@ -1,0 +1,29 @@
+---
+data:
+  identifier: '02288-R046-1'
+  term: measuring element
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R046-1:2012
+    publication_id: OIML R046-1:2012
+    tc_sc: ''
+    year: 2012
+    clause: 2.1.9
+    link:
+    g18_entry: '02288-R046-1'
+    definition: part of the meter that transforms a current and a voltage into a signal
+      proportional to the power and or energy
+    notes:
+    - 'Note: A measuring element can be based on an electromagnetic, electrical or
+      an electronic principle.'
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: da825799-c602-5fab-90c4-584eb8c9940d
+schema_version: '3'
+related: []

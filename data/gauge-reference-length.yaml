@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '02316'
+  identifier: 02316-R085-1
   term: gauge reference length
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 85-1:2008
+  - edition: '2010'
+    publication: OIML R 85-1:2008
     publication_id: OIML R085-1:2008
     tc_sc: ''
     year: 2008
@@ -13,6 +18,19 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r085-1-e08.pdf
     g18_entry: '02316'
     definition: the distance between the dipping datum point and the zero point of
+      ALG
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 85-1:2008
+    publication_id: OIML R085-1:2008
+    tc_sc: ''
+    year: 2008
+    clause: '3.18'
+    link: https://www.oiml.org/en/files/pdf_R/r085-1-e08.pdf
+    g18_entry: 02316-R085-1
+    definition: distance between the dipping datum point and the zero point of the
       ALG
     notes: []
     consistency: pending

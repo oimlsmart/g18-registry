@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '02208'
+  identifier: '03516'
   term: software examination
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML D 31:2008
+  - edition: '2010'
+    publication: OIML D 31:2008
     publication_id: OIML D031:2008
     tc_sc: ''
     year: 2008
@@ -15,6 +20,49 @@ data:
     definition: technical operation that consists of determining one or more characteristics
       of the software according to the specific procedure (e.g. analysis of technical
       documentation or running the program under controlled conditions)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R142-1:2025
+    publication_id: OIML R142-1:2025
+    tc_sc: ''
+    year: 2025
+    clause: '3.26'
+    link:
+    g18_entry: '03731'
+    definition: technical operation that consists of determining one or more characteristics
+      of the software according to the specific procedure (e.g. analysis of technical
+      documentation or running the program under controlled conditions)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D031:2023
+    publication_id: OIML D031:2023
+    tc_sc: ''
+    year: 2023
+    clause: 3.2.58
+    link:
+    g18_entry: '03516'
+    definition: technical operation that consists of determining one or more characteristics
+      of the software according to the specific procedure (e.g. analysis of technical
+      documentation or running the program under controlled conditions)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R126-1:2021
+    publication_id: OIML R126-1:2021
+    tc_sc: ''
+    year: 2021
+    clause: 3.3.10
+    link:
+    g18_entry: '03517'
+    definition: technical operation that consists of determining one or more characteristics
+      of the software according to the specific procedure (e.g. analysis of technical
+      documentation or running the program under controlled conditions) [OIML D 31,
+      3.1.47]
     notes: []
     consistency: pending
     consistency_reason: ''

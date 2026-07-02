@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '03053'
+  term: evidential breath alcohol analyser (EBA)
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R126-1:2021
+    publication_id: OIML R126-1:2021
+    tc_sc: ''
+    year: 2021
+    clause: 3.2.1
+    link:
+    g18_entry: '03053'
+    definition: instrument the measures and displays the breath alcohol mass concentration
+      of exhaled human breath within specified error limits
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 88fd60bc-47c4-5203-b064-afadea74ec2c
+schema_version: '3'
+related: []

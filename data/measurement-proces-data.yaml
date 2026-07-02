@@ -1,0 +1,30 @@
+---
+data:
+  identifier: '03256'
+  term: measurement proces data
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML D031:2023
+    publication_id: OIML D031:2023
+    tc_sc: ''
+    year: 2023
+    clause: 3.2.38
+    link:
+    g18_entry: '03256'
+    definition: data used during the measurement process to construct the measurement
+      result
+    notes:
+    - 'Note 1: Examples of measurement process data include values of measurement
+      parameters, values of connection settings or values of session parameters. Note
+      2: See Annex C for clarification regarding measurement-related terms.'
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 0a76b88d-854e-52cd-a9a8-341c59d9d799
+schema_version: '3'
+related: []

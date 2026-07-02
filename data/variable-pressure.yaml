@@ -4,8 +4,13 @@ data:
   term: variable pressure
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 101:1991
+  - edition: '2010'
+    publication: OIML R 101:1991
     publication_id: OIML R101:1991
     tc_sc: ''
     year: 1991
@@ -15,6 +20,21 @@ data:
     definition: 'a pressure which varies in any way whatever, periodic or otherwise,
       at speeds between: 1 % and 10 % of the upper limit of the measuring range per
       second, for pressure gauges and vacuum gauges, 1 % and 10 % of the sunl of the
+      upper limits of the measuring ranges per second, for pressure-vacuum gauges'
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 101:1991
+    publication_id: OIML R101:1991
+    tc_sc: ''
+    year: 1991
+    clause: T.5
+    link: https://www.oiml.org/en/files/pdf_R/r101-e91.pdf
+    g18_entry: '01207'
+    definition: 'a pressure which varies in any way whatever, periodic or otherwise,
+      at speeds between: 1 % and 10 % of the upper limit of the measuring range per
+      second, for pressure gauges and vacuum gauges, 1 % and 10 % of the sum of the
       upper limits of the measuring ranges per second, for pressure-vacuum gauges'
     notes: []
     consistency: pending

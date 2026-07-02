@@ -1,14 +1,24 @@
 ---
 data:
-  identifier: '00427'
+  identifier: '03452'
   term: relative error (of indication)
   kind: defined_in_vim
   official_concept:
     source: urn:oiml:pub:v:2:1993
     id: '3.12'
     url: https://oimlsmart.github.io/vocab/vim-1993/concept/3.12
+    definition_text:
+    edition_label: VIM 1993
+    vocab: vim
+    role: legacy
+    year: 1993
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 117-1:2007
+  - edition: '2010'
+    publication: OIML R 117-1:2007
     publication_id: OIML R117-1:2007
     tc_sc: ''
     year: 2007
@@ -19,7 +29,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 49-1:2006
+  - edition: '2010'
+    publication: OIML R 49-1:2006
     publication_id: OIML R049-1:2006
     tc_sc: ''
     year: 2006
@@ -33,12 +44,31 @@ data:
     consistency_reason: ''
     related:
     - type: see
-      ref: &1
+      ref:
         source: urn:oiml:pub:v:2:1993
         id: '3.12'
+  - edition: 202X
+    publication: OIML R117-1:2019
+    publication_id: OIML R117-1:2019
+    tc_sc: ''
+    year: 2019
+    clause: T.e.4.2
+    link:
+    g18_entry: '03452'
+    definition: error (of indication) divided by the reference (true) quantity
+    notes: []
+    consistency: pending
+    consistency_reason: ''
 status: current
 id: bae90887-1bf9-598d-9b9b-563c165f0533
 schema_version: '3'
 related:
 - type: see
-  ref: *1
+  ref:
+    source: urn:oiml:pub:v:2:1993
+    id: '3.12'
+    definition_text:
+    edition_label: VIM 1993
+    vocab: vim
+    role: legacy
+    year: 1993

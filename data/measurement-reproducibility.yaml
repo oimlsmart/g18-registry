@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '03267'
+  term: measurement reproducibility
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R126-1:2021
+    publication_id: OIML R126-1:2021
+    tc_sc: ''
+    year: 2021
+    clause: 3.1.21
+    link:
+    g18_entry: '03267'
+    definition: measurement precision under reproducibility conditions of measurement
+      (OIML V 2-100, 2.25)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 2f5162a7-90cc-5fce-bc38-c50d5c2282fa
+schema_version: '3'
+related: []

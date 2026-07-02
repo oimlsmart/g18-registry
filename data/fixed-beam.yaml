@@ -1,0 +1,26 @@
+---
+data:
+  identifier: '03759'
+  term: fixed beam
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R091-1:2025
+    publication_id: OIML R091-1:2025
+    tc_sc: ''
+    year: 2025
+    clause: 3.3.7
+    link:
+    g18_entry: '03759'
+    definition: radiation beam emitted in a fixed angle from the speed meter
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 2c4e3cff-6387-5934-9b01-05158dcd6f87
+schema_version: '3'
+related: []

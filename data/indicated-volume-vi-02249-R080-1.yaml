@@ -1,0 +1,38 @@
+---
+data:
+  identifier: '02249-R080-1'
+  term: indicated volume, Vi
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R080-2:2017
+    publication_id: OIML R080-2:2017
+    tc_sc: ''
+    year: 2017
+    clause: '2'
+    link:
+    g18_entry: '03103'
+    definition: value of volume provided by the volume measuring syste
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 80-1:2009
+    publication_id: OIML R080-1:2009
+    tc_sc: ''
+    year: 2009
+    clause: '2.10'
+    link: https://www.oiml.org/en/files/pdf_R/r080-1-e09.pdf
+    g18_entry: '02249-R080-1'
+    definition: value of volume provided by the volume measuring system
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: dfe53fa2-ede8-5f7b-8197-0d5c71da75d1
+schema_version: '3'
+related: []

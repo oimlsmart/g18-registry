@@ -1,0 +1,28 @@
+---
+data:
+  identifier: '00851'
+  term: response time, τ 0,5
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R 75-1:2002
+    publication_id: OIML R075-1:2002
+    tc_sc: ''
+    year: 2002
+    clause: '4.1'
+    link: https://www.oiml.org/en/files/pdf_R/r075-1-e02.pdf
+    g18_entry: '00851'
+    definition: time interval between the instant when the flow, the temperature or
+      the temperature difference is subjected to a specified abrupt change, and the
+      instant when the response reaches 50 % of its final steady value
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 6679e83d-80da-568d-9b5f-609b1092c699
+schema_version: '3'
+related: []

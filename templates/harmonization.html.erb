@@ -1,0 +1,90 @@
+<% candidates = dataset.harmonization_candidates.sort_by { |t| -t.publications.size } %>
+<section class="page-head">
+  <div class="breadcrumb">
+    <a href="<%= rel_root %>index.html">Registry</a> /
+    <span>Harmonisation worklist</span>
+  </div>
+  <h1>Harmonisation worklist</h1>
+  <p class="lede">
+    Every term cited by <strong>two or more distinct OIML publications</strong>,
+    where the publications may use divergent definitions. This is the core
+    worklist for TC 1 validating the 202X edition — for each term, decide
+    whether the divergence is intentional (per-Recommendation scope) or
+    should be unified into a single canonical definition.
+  </p>
+  <p class="lede">
+    <strong><%= candidates.size %></strong> candidates across
+    <strong><%= dataset.edition_names.join(", ") %></strong>.
+  </p>
+</section>
+
+<section class="card">
+  <div class="card-head">
+    <h2>Top candidates by publication count</h2>
+    <label class="inline-check">
+      <input type="checkbox" id="only-divergent" onchange="toggleRows()">
+      Show only terms with divergent definitions
+    </label>
+  </div>
+  <table class="harmonization-table">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Term</th>
+        <th>VIM/VIML</th>
+        <th>Ed.</th>
+        <th>Inst.</th>
+        <th>Distinct defs</th>
+        <th>Consistency</th>
+      </tr>
+    </thead>
+    <tbody>
+    <% candidates.each_with_index do |t, i| %>
+      <% distinct_defs = t.distinct_definitions.size %>
+      <% in_202x = t.in_edition?("202X") ? "202X" : (t.in_edition?("2010") ? "2010" : "—") %>
+      <% in_both = t.editions_present.size > 1 %>
+      <tr class="harmonization-row <%= distinct_defs > 1 ? 'row-divergent' : '' %>" data-divergent="<%= distinct_defs > 1 ? 1 : 0 %>">
+        <td class="num"><%= i + 1 %></td>
+        <td><a href="<%= rel_root %><%= t.path %>"><%= h t.name %></a></td>
+        <td><%= kind_badge(t) %></td>
+        <td>
+          <% if in_both %>
+            <span class="edition-pill edition-both">both</span>
+          <% else %>
+            <span class="edition-pill edition-<%= in_202x.downcase %>"><%= h in_202x %></span>
+          <% end %>
+        </td>
+        <td class="num"><%= t.publications.size %></td>
+        <td class="num"><span class="divergence-count"><%= distinct_defs %></span></td>
+        <td>
+          <% if t.consistency_counts.keys.all? { |k| k == "pending" } %>
+            <span class="badge badge-pending">pending</span>
+          <% else %>
+            <span class="badge"><%= h t.consistency_badge %></span>
+          <% end %>
+        </td>
+      </tr>
+    <% end %>
+    </tbody>
+  </table>
+</section>
+
+<section class="card note">
+  <h2>How to use this worklist</h2>
+  <ol>
+    <li><strong>Pick a term</strong> with a high "Distinct defs" count.</li>
+    <li><strong>Open the term page</strong> to read each publication's definition side-by-side against the VIM/VIML authoritative definition.</li>
+    <li><strong>Decide:</strong> should the publications converge on a single definition? If yes, propose a unified definition in the 202X YAML. If no, document why the divergence is intentional.</li>
+    <li><strong>Submit changes</strong> to <code>oimlsmart/vocab</code> <code>datasets/g18-202X/</code>.</li>
+  </ol>
+</section>
+
+<script>
+function toggleRows() {
+  var only = document.getElementById('only-divergent').checked;
+  document.querySelectorAll('.harmonization-row').forEach(function(r) {
+    if (only && r.dataset.divergent !== '1') r.style.display = 'none';
+    else r.style.display = '';
+  });
+}
+</script>

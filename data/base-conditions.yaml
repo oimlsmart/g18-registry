@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '01026'
+  identifier: '01651'
   term: base conditions
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 80-1:2009
+  - edition: '2010'
+    publication: OIML R 80-1:2009
     publication_id: OIML R080-1:2009
     tc_sc: ''
     year: 2009
@@ -17,7 +22,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 117-1:2007
+  - edition: '2010'
+    publication: OIML R 117-1:2007
     publication_id: OIML R117-1:2007
     tc_sc: ''
     year: 2007
@@ -32,7 +38,8 @@ data:
       and "reference conditions" which apply to influence quantities
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 140:2007
+  - edition: '2010'
+    publication: OIML R 140:2007
     publication_id: OIML R140:2007
     tc_sc: ''
     year: 2007
@@ -45,7 +52,8 @@ data:
     - frequently used instead of "base conditions".
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 137-1:2006
+  - edition: '2010'
+    publication: OIML R 137-1:2006
     publication_id: OIML R137-1:2006
     tc_sc: ''
     year: 2006
@@ -61,7 +69,8 @@ data:
       quantities.
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 81:1998
+  - edition: '2010'
+    publication: OIML R 81:1998
     publication_id: OIML R081:1998
     tc_sc: ''
     year: 1998
@@ -77,7 +86,8 @@ data:
       conditions" and "reference conditions" that apply to influence quantities.
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 125:1998
+  - edition: '2010'
+    publication: OIML R 125:1998
     publication_id: OIML R125:1998
     tc_sc: ''
     year: 1998
@@ -89,6 +99,79 @@ data:
     notes:
     - The values chosen as base conditions should preferably be 15 °C or 20 °C and
       101 325 Pa.
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R117-1:2019
+    publication_id: OIML R117-1:2019
+    tc_sc: ''
+    year: 2019
+    clause: T.c.3.1
+    link:
+    g18_entry: '02903'
+    definition: 'specified values of the conditions to which the measured quantity
+      of liquid is converted (example: base temperature and base pressure of the liquid)'
+    notes:
+    - Note:Metering and base conditions (which refer only to the volume of liquid
+      to be measured or indicated) should not be confused with the "rated operating
+      conditions" and "reference conditions" which apply to influence quantities.
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R137:2012
+    publication_id: OIML R137:2012
+    tc_sc: ''
+    year: 2012
+    clause: 3.2.19
+    link:
+    g18_entry: '02675'
+    definition: 'conditions to which the measured volume of gas is converted (examples:
+      base temperature and base pressure)'
+    notes:
+    - Note:Operating and base conditions relate to the volume of gas to be measured
+      or indicated only and should not be confused with “rated operating conditions”
+      and “reference conditions” (VIM 4.9 and 4.11) which refer to influence quantities.
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 80-1:2009
+    publication_id: OIML R080-1:2009
+    tc_sc: ''
+    year: 2009
+    clause: '2.41'
+    link: https://www.oiml.org/en/files/pdf_R/r080-1-e09.pdf
+    g18_entry: '02280-R080-1'
+    definition: 'specified conditions under which the measured volume of liquid is
+      converted (example: temperature, density, pressure).'
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 125:1998
+    publication_id: OIML R125:1998
+    tc_sc: ''
+    year: 1998
+    clause: T.32
+    link: https://www.oiml.org/en/files/pdf_R/r125-e98.pdf
+    g18_entry: '01651'
+    definition: the specified conditions to which a measured quantity is converted,
+      e.g. base temperature and base pressure
+    notes:
+    - Note:The values chosen as base conditions should preferably be 15 °C or 20 °C
+      and 101 325 Pa.
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication:
+    publication_id:
+    tc_sc: ''
+    year:
+    clause:
+    link:
+    g18_entry: '02057'
+    definition: specified conditions to which the measured quantities of gas are converted
+    notes:
+    - Note:The terms “reference conditions” are frequently used instead of “base conditions”.
     consistency: pending
     consistency_reason: ''
 status: current

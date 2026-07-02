@@ -4,8 +4,13 @@ data:
   term: principal totalization indicating device
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 107-1:2007
+  - edition: '2010'
+    publication: OIML R 107-1:2007
     publication_id: OIML R107-1:2007
     tc_sc: ''
     year: 2007
@@ -15,6 +20,20 @@ data:
     definition: totalization indicating device that indicates the sum of the weight
       values of all consecutive loads weighed and discharged tobulk. This device is
       not resettable to zero by the user
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 107-1:2007
+    publication_id: OIML R107-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.4.3.1
+    link: https://www.oiml.org/en/files/pdf_R/r107-1-e07.pdf
+    g18_entry: '01381'
+    definition: totalization indicating device that indicates the sum of the weight
+      values of all consecutive loads weighed and discharged to bulk. This device
+      is not resettable to zero by the user
     notes: []
     consistency: pending
     consistency_reason: ''

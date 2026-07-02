@@ -1,0 +1,26 @@
+---
+data:
+  identifier: '03724'
+  term: measurement repeatability (repeatability)
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R142-1:2025
+    publication_id: OIML R142-1:2025
+    tc_sc: ''
+    year: 2025
+    clause: '3.12'
+    link:
+    g18_entry: '03724'
+    definition: measurement precision under a set of repeatability conditions of measurement
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 6cf8aab3-597f-56ff-ad8d-1f71789ec400
+schema_version: '3'
+related: []

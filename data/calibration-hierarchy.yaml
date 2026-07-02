@@ -1,0 +1,29 @@
+---
+data:
+  identifier: '02920'
+  term: calibration hierarchy
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML D005:2022
+    publication_id: OIML D005:2022
+    tc_sc: ''
+    year: 2022
+    clause: '3.6'
+    link:
+    g18_entry: '02920'
+    definition: sequence of calibrations from a reference to the final measuring system,
+      where the outcome of each calibration depends on the outcome of the previous
+      calibration
+    notes:
+    - Fore notes see [VIM, 2.40]
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 872eb4b6-dfef-551b-aad1-b596c652a9c4
+schema_version: '3'
+related: []

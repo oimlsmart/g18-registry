@@ -4,8 +4,13 @@ data:
   term: preset tare value, PT
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 51-1:2006
+  - edition: '2010'
+    publication: OIML R 51-1:2006
     publication_id: OIML R051-1:2006
     tc_sc: ''
     year: 2006
@@ -20,6 +25,40 @@ data:
       storage, or inserting via an interface. (2) "Predetermined" means that a tare
       value is determined once and is applied to other weighings without determining
       the individual tare values.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R061-1:2017
+    publication_id: OIML R061-1:2017
+    tc_sc: ''
+    year: 2017
+    clause: 3.3.5.3
+    link:
+    g18_entry: '03676'
+    definition: numerical value, representing a weight, that is introduced into the
+      instrument and is intended to be applied to other weighings without determining
+      individual tares
+    notes:
+    - 'Note : “introduced” includes procedures such as keying in, recalling from a
+      data storage device, or inserting via an interface.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 51-1:2006
+    publication_id: OIML R051-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.3.2.4.1
+    link: https://www.oiml.org/en/files/pdf_R/r051-1-e06.pdf
+    g18_entry: '00631'
+    definition: numerical value, representing a weight value, that is introduced into
+      the instrument. It is a predetermined tare value that is used for one or several
+      weighings
+    notes:
+    - 'Note 1 : “Introduced” includes procedures such as: keying in, recalling from
+      a data storage, or inserting via an interface. Note 2: “Predetermined” means
+      that a tare value is determined once and is applied to other weighings without
+      determining the individual tare values.'
     consistency: pending
     consistency_reason: ''
 status: current

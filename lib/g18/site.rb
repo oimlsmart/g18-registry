@@ -5,15 +5,17 @@ require "set"
 require "digest"
 require "fileutils"
 require "cgi"
+require_relative "vocabulary"
 
 module G18
   module Site
     # Captures one term in the registry, with all its publication instances.
     class Term
       attr_reader :slug, :path, :identifier, :name, :kind, :official_concept,
-                  :related, :publications, :schema_id
+                  :related, :publications, :schema_id, :editions_present,
+                  :primary_edition
 
-      def initialize(slug:, identifier:, name:, kind:, official_concept:, related:, publications:, schema_id:)
+      def initialize(slug:, identifier:, name:, kind:, official_concept:, related:, publications:, schema_id:, editions_present: nil, primary_edition: nil)
         @slug = slug
         @path = "terms/#{slug}.html"
         @identifier = identifier
@@ -23,6 +25,8 @@ module G18
         @related = related || []
         @publications = publications || []
         @schema_id = schema_id
+        @editions_present = editions_present || []
+        @primary_edition = primary_edition
       end
 
       def defined?
@@ -67,6 +71,39 @@ module G18
         parts.any? ? "mixed (#{parts.join(', ')})" : "—"
       end
 
+      # True if this term has publications from the named edition.
+      def in_edition?(name)
+        publications.any? { |p| p["edition"] == name }
+      end
+
+      # Publications filtered to a specific edition.
+      def publications_in_edition(name)
+        publications.select { |p| p["edition"] == name }
+      end
+
+      # Distinct definitions in a given edition (or all editions if nil).
+      def distinct_definitions_in_edition(name = nil)
+        pubs = name ? publications_in_edition(name) : publications
+        pubs.map { |p| (p["definition"] || "").strip }.reject(&:empty?).uniq
+      end
+
+      # Status relative to the two main editions.
+      def edition_status
+        return "only" if editions_present.size == 1
+        return "both" if editions_present.size >= 2
+        "none"
+      end
+
+      # Human label for the edition badge in the lede.
+      def edition_badge_label
+        case edition_status
+        when "both" then "In 2010 + 202X"
+        when "only"
+          editions_present.first ? "Only in #{editions_present.first}" : "Edition unknown"
+        else "No edition tagged"
+        end
+      end
+
       def self.from_hash(hash, slug)
         data = hash["data"] || {}
         new(
@@ -78,6 +115,8 @@ module G18
           related: hash["related"] || [],
           publications: data["publications"] || [],
           schema_id: hash["id"],
+          editions_present: data["editions_present"] || [],
+          primary_edition: data["primary_edition"],
         )
       end
     end
@@ -152,6 +191,19 @@ module G18
 
     UNATTRIBUTED = "(Unattributed)"
 
+    # VIM/VIML edition helpers. Backed by G18::Vocabulary (shared with the
+    # migration). These wrappers exist so existing call sites and templates
+    # can stay terse: `viml_confidence_class(urn)` reads naturally.
+    module_function
+
+    def viml_vocab(urn);          G18::Vocabulary.vocab(urn); end
+    def viml_year(urn);           G18::Vocabulary.year(urn); end
+    def viml_role(urn);           G18::Vocabulary.role(urn); end
+    def viml_label(urn);          G18::Vocabulary.label(urn); end
+    def viml_confidence_class(urn); G18::Vocabulary.confidence_class(urn); end
+    def viml_current?(urn);       G18::Vocabulary.current?(urn); end
+    def viml_superseded?(urn);    G18::Vocabulary.superseded?(urn); end
+
     # Entire registry dataset, with cross-cutting indexes for rendering.
     class Dataset
       attr_reader :terms, :publications, :tcscs, :term_by_slug, :publication_by_id
@@ -173,6 +225,43 @@ module G18
       def attributed_publication_count = @publications.count(&:attributed?)
       def attributed_term_instance_count
         @terms.sum { |t| t.publications.count { |p| publication_by_id[p["publication_id"]]&.attributed? } }
+      end
+
+      # Edition-aware counts. Each Term carries `editions_present`; each
+      # publication carries `edition`. These helpers power the side-by-side
+      # edition comparison on the home page.
+      def edition_names
+        @terms.flat_map { |t| t.editions_present }.compact.uniq.sort
+      end
+
+      def instances_in_edition(name)
+        @terms.sum { |t| t.publications.count { |p| p["edition"] == name } }
+      end
+
+      def terms_only_in_edition(name)
+        @terms.count { |t| t.editions_present == [name] }
+      end
+
+      def terms_in_both_editions
+        @terms.count { |t| t.editions_present.size > 1 }
+      end
+
+      # "Harmonization candidates": terms with multiple publications from
+      # DISTINCT source documents (i.e. the same designation cited by
+      # multiple OIML publications with potentially divergent definitions).
+      # These are the worklist for TC 1's harmonisation of g18-202X.
+      def harmonization_candidates
+        @terms.select do |t|
+          distinct_pubs = t.publications.map { |p| p["publication_id"] }.compact.uniq
+          distinct_pubs.size > 1
+        end
+      end
+
+      # Harmonization candidates filtered to a specific edition.
+      def harmonization_candidates_in_edition(name)
+        harmonization_candidates.select do |t|
+          t.publications.any? { |p| p["edition"] == name }
+        end
       end
 
       def leaderboard(limit = 20)

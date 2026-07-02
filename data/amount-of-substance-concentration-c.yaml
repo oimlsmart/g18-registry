@@ -1,0 +1,29 @@
+---
+data:
+  identifier: '01846'
+  term: amount of substance concentration (c)
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R 135:2004
+    publication_id: OIML R135:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.7'
+    link: https://www.oiml.org/en/files/pdf_R/r135-e04.pdf
+    g18_entry: '01846'
+    definition: amount of substance of the compound dissolved, divided by the volume
+      of the solution [Adapted from ISO 6286, Table 2, No. 21.2]
+    notes:
+    - 'Note: The coherent SI unit is the mole per cubic metre (mol/m3), but the mole
+      per litre (mol/l, mol/L) or its subunits are often preferred.'
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 818b9e3e-d503-5bac-8b42-e29163eb3ab9
+schema_version: '3'
+related: []

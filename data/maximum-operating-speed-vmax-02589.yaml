@@ -1,0 +1,28 @@
+---
+data:
+  identifier: '02589'
+  term: maximum operating speed, vmax
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R106-1:2011
+    publication_id: OIML R106-1:2011
+    tc_sc: ''
+    year: 2011
+    clause: 0.3.4.1
+    link:
+    g18_entry: '02589'
+    definition: greatest velocity of a wagon that the instrument is designed to weigh
+      in-motion and above which the weighing result may be subject to an excessive
+      relative error
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 2616d7e5-3f64-5c3f-878d-41553d513dfc
+schema_version: '3'
+related: []

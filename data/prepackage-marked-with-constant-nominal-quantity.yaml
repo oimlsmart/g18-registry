@@ -1,0 +1,38 @@
+---
+data:
+  identifier: '02487'
+  term: prepackage marked with constant nominal quantity
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R087:2016
+    publication_id: OIML R087:2016
+    tc_sc: ''
+    year: 2016
+    clause: 2.1.10
+    link:
+    g18_entry: '02503'
+    definition: prepackage on which the same nominal quantity is declared
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R079:2015
+    publication_id: OIML R079:2015
+    tc_sc: ''
+    year: 2015
+    clause: '2.8'
+    link:
+    g18_entry: '02487'
+    definition: prepackage on which the same nominal quantity is declared
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: aa10f8f1-ea28-5d51-8919-ddef976fbcc0
+schema_version: '3'
+related: []

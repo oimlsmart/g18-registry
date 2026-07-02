@@ -1,0 +1,30 @@
+---
+data:
+  identifier: '02856'
+  term: anatomical dead space
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R126-1:2021
+    publication_id: OIML R126-1:2021
+    tc_sc: ''
+    year: 2021
+    clause: 3.2.7
+    link:
+    g18_entry: '02856'
+    definition: dead space in that portion of respiratory system which is external
+      to the alveoli and includes the air-conveuing ducts form the mouth to the terminsl
+      bronchiols
+    notes:
+    - 'Note: The volume of dead space varies between individuals. (Cited from Webster’s
+      Medical Dictionary, online version: www.merriam-webster.com/medical).'
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 0fb9f641-e7cf-5920-8b4c-9d0f979fb0ae
+schema_version: '3'
+related: []

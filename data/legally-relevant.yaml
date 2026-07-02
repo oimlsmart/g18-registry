@@ -4,8 +4,13 @@ data:
   term: legally relevant
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 21:2007
+  - edition: '2010'
+    publication: OIML R 21:2007
     publication_id: OIML R021:2007
     tc_sc: ''
     year: 2007
@@ -14,6 +19,119 @@ data:
     g18_entry: '00342'
     definition: part of a measuring instrument, device or software subject to legal
       control
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R142-1:2025
+    publication_id: OIML R142-1:2025
+    tc_sc: ''
+    year: 2025
+    clause: '3.28'
+    link:
+    g18_entry: '03718'
+    definition: subject to legal control
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D031:2023
+    publication_id: OIML D031:2023
+    tc_sc: ''
+    year: 2023
+    clause: 3.2.29
+    link:
+    g18_entry: '03184'
+    definition: subject to legal control
+    notes:
+    - 'Note 1:  If a measuring instrument is under legal control, then the measurement
+      data, software and parameters that are critical for the metrological characteristics,
+      including the metrological functions, securing and protection features, and/or
+      for the completion of the transaction, are also under legal control. Note 2:  The
+      relevant Recommendations define what is legally relevant and formulate requirements
+      to those items (e.g., data, functions, securing and protection features and
+      information for the completion of the transaction).'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R126-1:2021
+    publication_id: OIML R126-1:2021
+    tc_sc: ''
+    year: 2021
+    clause: 3.3.8
+    link:
+    g18_entry: '03185'
+    definition: attribute of a part of a measuring instrument, device or software
+      subject to legal control (OIML V 1, 4.08)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R059-1:2016
+    publication_id: OIML R059-1:2016
+    tc_sc: ''
+    year: 2016
+    clause: 2.2.5
+    link:
+    g18_entry: '02462'
+    definition: software/hardware/data or part of the software/hardware/data of a
+      measuring instrument which interferes with properties regulated by legal metrology,
+      e.g. the accuracy of the measurement or the correct functioning of the measuring
+      instrument [OIML D31, 3.1.29]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R146-1:2016
+    publication_id: OIML R146-1:2016
+    tc_sc: ''
+    year: 2016
+    clause: 2.2.10
+    link:
+    g18_entry: '02808'
+    definition: software/hardware/data or part of the software/hardware/data of a
+      measuring instrument which interferes with properties regulated under legal
+      metrology, e.g. the accuracy of the measurement or the correct functioning of
+      the measuring instrument [OIML D31:2008, 3.1.29]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R106-1:2011
+    publication_id: OIML R106-1:2011
+    tc_sc: ''
+    year: 2011
+    clause: 0.1.15
+    link:
+    g18_entry: '02536'
+    definition: part of a measuring instrument, device or software subject to legal
+      control
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 21:2007
+    publication_id: OIML R021:2007
+    tc_sc: ''
+    year: 2007
+    clause: 2.1.5
+    link: https://www.oiml.org/en/files/pdf_R/r021-e07.pdf
+    g18_entry: '00342'
+    definition: part of a measuring instrument, device or software subject to legal
+      control
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication:
+    publication_id:
+    tc_sc: ''
+    year:
+    clause:
+    link:
+    g18_entry: '02339-1'
+    definition: attribute of a part of a measuring instrument, device or software
+      subject to legal control [OIML V1:2013, 4.08]
     notes: []
     consistency: pending
     consistency_reason: ''

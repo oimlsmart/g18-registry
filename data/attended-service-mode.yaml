@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '01598'
+  identifier: '02870'
   term: attended service mode
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 117-1:2007
+  - edition: '2010'
+    publication: OIML R 117-1:2007
     publication_id: OIML R117-1:2007
     tc_sc: ''
     year: 2007
@@ -17,7 +22,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 139:2007
+  - edition: '2010'
+    publication: OIML R 139:2007
     publication_id: OIML R139:2007
     tc_sc: ''
     year: 2007
@@ -38,6 +44,41 @@ data:
       driver of a truck).'
     - 4. In attended service mode the measurement operation ends at the moment settlement
       of the transaction takes place.
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R139-1:2022
+    publication_id: OIML R139-1:2022
+    tc_sc: ''
+    year: 2022
+    clause: 3.3.3
+    link:
+    g18_entry: '02871'
+    definition: operating mode of a self-service arrangement in which the supplier
+      is present and controls the authorization for the delivery
+    notes:
+    - 'Note 1: In attended service mode, the settlement of the transaction takes place
+      before the customer leaves the site of the delivery. Note 2: A transaction is
+      settled when the parties interested in the transaction have made their agreement
+      known (explicitly or implicitly) as regards the amount of the transaction. This
+      may be a payment, signing a credit card voucher, signing a delivery order, etc.
+      Note 3: The parties interested in a transaction may be the parties themselves
+      or their representatives (for example the employee in a filling station or the
+      driver of a truck). Note 4: In attended service mode the measurement operation
+      ends at the moment settlement of the transaction takes place.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R117-1:2019
+    publication_id: OIML R117-1:2019
+    tc_sc: ''
+    year: 2019
+    clause: T.s.4.1
+    link:
+    g18_entry: '02870'
+    definition: operating mode of a self-service arrangement in which the supplier
+      is present and controls the authorisation for the delivery
+    notes: []
     consistency: pending
     consistency_reason: ''
 status: current

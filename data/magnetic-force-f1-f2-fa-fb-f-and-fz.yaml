@@ -1,0 +1,26 @@
+---
+data:
+  identifier: '01454'
+  term: magnetic force (F1, F2, Fa, Fb, F- and Fz)
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R 111-1:2004
+    publication_id: OIML R111-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: 2.9.3
+    link: https://www.oiml.org/en/files/pdf_R/r111-1-e04.pdf
+    g18_entry: '01454'
+    definition: measure of the ability of a medium to modify a magnetic field
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 0e0e19ba-b434-5c16-b49a-2ea7216c47e1
+schema_version: '3'
+related: []

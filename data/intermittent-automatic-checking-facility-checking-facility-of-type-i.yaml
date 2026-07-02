@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '03152'
+  term: intermittent automatic checking facility checking facility of type I
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R139-1:2022
+    publication_id: OIML R139-1:2022
+    tc_sc: ''
+    year: 2022
+    clause: 3.2.15.2
+    link:
+    g18_entry: '03152'
+    definition: automatic checking facility that operates at certain time intervals
+      or per fixed number of measurement cycles [OIML D 11:2013, 3.19.1.2]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: c92595f0-9baf-5ced-aa9f-5a19006436eb
+schema_version: '3'
+related: []

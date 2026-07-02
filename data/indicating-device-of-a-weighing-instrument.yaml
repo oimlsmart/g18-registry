@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '00601'
+  identifier: '03106'
   term: indicating device (of a weighing instrument)
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 51-1:2006
+  - edition: '2010'
+    publication: OIML R 51-1:2006
     publication_id: OIML R051-1:2006
     tc_sc: ''
     year: 2006
@@ -19,7 +24,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 61-1:2004
+  - edition: '2010'
+    publication: OIML R 61-1:2004
     publication_id: OIML R061-1:2004
     tc_sc: ''
     year: 2004
@@ -30,6 +36,22 @@ data:
       result in units of mass and which may additionally display: The difference between
       the mass of a load and a reference value; and/or The value of the fill(s) and/or
       related quantities or parameters of a number of consecutive weighings'
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R061-1:2017
+    publication_id: OIML R061-1:2017
+    tc_sc: ''
+    year: 2017
+    clause: 3.3.3
+    link:
+    g18_entry: '03106'
+    definition: 'part of the load measuring device that displays the value of a weighing
+      result in units of mass and may additionally e.g., display the: • differences
+      between mass of a load and some reference value, • value of the mass of the
+      fill(s) and /or related quantities, • parameters of a number of consecutive
+      weighings'
     notes: []
     consistency: pending
     consistency_reason: ''

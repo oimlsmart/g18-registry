@@ -1,0 +1,26 @@
+---
+data:
+  identifier: '03549'
+  term: service
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML D037:2022
+    publication_id: OIML D037:2022
+    tc_sc: ''
+    year: 2022
+    clause: 3.4 and G.3.4-1
+    link:
+    g18_entry: '03549'
+    definition: Service are not relevant to issuing OIML certificates.
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 56c60231-6489-56d1-a11d-54e12c9a2294
+schema_version: '3'
+related: []

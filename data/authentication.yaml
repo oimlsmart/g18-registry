@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '02170'
+  identifier: '02876'
   term: authentication
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML D 31:2008
+  - edition: '2010'
+    publication: OIML D 31:2008
     publication_id: OIML D031:2008
     tc_sc: ''
     year: 2008
@@ -16,6 +21,36 @@ data:
       device (e.g. checking that downloaded software originates from the owner of
       the type approval certificate)
     notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D031:2023
+    publication_id: OIML D031:2023
+    tc_sc: ''
+    year: 2023
+    clause: 3.2.2
+    link:
+    g18_entry: '02876'
+    definition: checking of the declared or alleged identity of a user, process, or
+      measuring instrument
+    notes:
+    - 'Note: This may be necessary when checking that downloaded software originates
+      from the owner of the certificate.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R126-1:2021
+    publication_id: OIML R126-1:2021
+    tc_sc: ''
+    year: 2021
+    clause: 3.3.2
+    link:
+    g18_entry: '02877'
+    definition: checking of the declared or alleged identity of a user, process, or
+      measuring instrument (OIML D 31, 3.1.2) [5]
+    notes:
+    - 'Note: This may be necessary when checking that downloaded software originates
+      from the owner of the certificate.'
     consistency: pending
     consistency_reason: ''
 status: current

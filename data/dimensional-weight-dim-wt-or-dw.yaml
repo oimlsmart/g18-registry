@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '01716'
+  identifier: '02992'
   term: dimensional weight (Dim Wt or DW)
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 129:2000
+  - edition: '2010'
+    publication: OIML R 129:2000
     publication_id: OIML R129:2000
     tc_sc: ''
     year: 2000
@@ -14,6 +19,19 @@ data:
     g18_entry: '01716'
     definition: a calculated value deemed to be a weight value obtained by applying
       a conversion factor to the object's volume (see 2.13) or dimensions (see 2.12)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R129-1:2020
+    publication_id: OIML R129-1:2020
+    tc_sc: ''
+    year: 2020
+    clause: 2.2.7
+    link:
+    g18_entry: '02992'
+    definition: calculated value obtained by applying a conversion factor to the object’s
+      dimensional volume (see 2.2.4) or measured dimensions (see 2.2.3)
     notes: []
     consistency: pending
     consistency_reason: ''

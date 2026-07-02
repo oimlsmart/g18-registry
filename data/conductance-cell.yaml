@@ -4,8 +4,25 @@ data:
   term: conductance cell
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 56:1981
+  - edition: '2010'
+    publication: OIML R 56:1981
+    publication_id: OIML R056:1981
+    tc_sc: ''
+    year: 1981
+    clause: '1.2'
+    link: https://www.oiml.org/en/files/pdf_R/r056-e81.pdf
+    g18_entry: '00699'
+    definition: container intended for measurement of conductance
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 56:1981
     publication_id: OIML R056:1981
     tc_sc: ''
     year: 1981

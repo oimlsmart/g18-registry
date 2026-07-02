@@ -4,8 +4,13 @@ data:
   term: portable instrument for weighing raod vehicles
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 76-1:2006
+  - edition: '2010'
+    publication: OIML R 76-1:2006
     publication_id: OIML R076-1:2006
     tc_sc: ''
     year: 2006
@@ -15,6 +20,25 @@ data:
     definition: non-automatic weighing instrument having a load receptor, in one or
       several parts, which determines the total mass of road vehicles, and which is
       designed to be moved to other locations
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 76-1:2006
+    publication_id: OIML R076-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.1.2.12
+    link: https://www.oiml.org/en/files/pdf_R/r076-1-e06.pdf
+    g18_entry: '00887'
+    definition: 'non-automatic weighing instrument having a load receptor, in one
+      or several parts, which determines the total mass of road vehicles, and which
+      is designed to be moved to other locations Examples: Portable weighbridge, group
+      of associated non-automatic axle (or wheel) load weighers This Recommendation
+      covers only weighbridges and groups of associated non- automatic axle (or wheel)
+      load weighers that determine simultaneously the total mass of a road vehicle
+      with all axles (or wheels) being simultaneously supported by appropriate parts
+      of a load receptor.'
     notes: []
     consistency: pending
     consistency_reason: ''

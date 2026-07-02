@@ -4,13 +4,31 @@ data:
   term: effective area
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 110:1994
+  - edition: '2010'
+    publication: OIML R 110:1994
     publication_id: OIML R110:1994
     tc_sc: ''
     year: 1994
     clause: 2.1.2
     link: https://www.oiml.org/en/files/pdf_R/r110-e94.pdf
+    g18_entry: '01421'
+    definition: the area determined for a given piston-cylinder assembly which is
+      used in the conversion equation for the calculation of the measured pressure
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication:
+    publication_id:
+    tc_sc: ''
+    year:
+    clause:
+    link:
     g18_entry: '01421'
     definition: the area determined for a given piston-cylinder assembly which is
       used in the conversion equation for the calculation of the measured pressure

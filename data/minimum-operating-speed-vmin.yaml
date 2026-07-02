@@ -1,0 +1,28 @@
+---
+data:
+  identifier: '03312'
+  term: minimum operating speed (vmin)
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R134:2006
+    publication_id: OIML R134:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.3.4.3
+    link:
+    g18_entry: '03312'
+    definition: lowest velocity of a vehicle that the instrument is designed to weigh
+      in motion and below which the weighing results may be subject to an excessive
+      relative error
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 744120c7-cbd7-518a-8f69-3965aa6f6b19
+schema_version: '3'
+related: []

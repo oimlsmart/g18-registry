@@ -1,0 +1,28 @@
+---
+data:
+  identifier: '02868'
+  term: associated measuring transducer (see also T.t.1)
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R117-1:2019
+    publication_id: OIML R117-1:2019
+    tc_sc: ''
+    year: 2019
+    clause: T.a.9
+    link:
+    g18_entry: '02868'
+    definition: part of the associated measuring device that provides an output quantity
+      for the calculator, the correction device or the conversion device, and having
+      a determined relationship to the input quantity
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 1eae6212-6d24-516a-9ea5-594b61580727
+schema_version: '3'
+related: []

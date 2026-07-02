@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '00479'
+  identifier: '00539'
   term: weighing instrument
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 107-1:2007
+  - edition: '2010'
+    publication: OIML R 107-1:2007
     publication_id: OIML R107-1:2007
     tc_sc: ''
     year: 2007
@@ -25,7 +30,8 @@ data:
       in regard to its physical and metrological characteristics.
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 51-1:2006
+  - edition: '2010'
+    publication: OIML R 51-1:2006
     publication_id: OIML R051-1:2006
     tc_sc: ''
     year: 2006
@@ -45,7 +51,8 @@ data:
       physical an metrological characteristics.
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 76-1:2006
+  - edition: '2010'
+    publication: OIML R 76-1:2006
     publication_id: OIML R076-1:2006
     tc_sc: ''
     year: 2006
@@ -66,7 +73,8 @@ data:
       its physical and metrological characteristics.
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 61-1:2004
+  - edition: '2010'
+    publication: OIML R 61-1:2004
     publication_id: OIML R061-1:2004
     tc_sc: ''
     year: 2004
@@ -81,7 +89,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 134:2003
+  - edition: '2010'
+    publication: OIML R 134:2003
     publication_id: OIML R134:2003
     tc_sc: ''
     year: 2003
@@ -93,7 +102,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 50-1:1997
+  - edition: '2010'
+    publication: OIML R 50-1:1997
     publication_id: OIML R050-1:1997
     tc_sc: ''
     year: 1997
@@ -106,7 +116,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 106-1:1997
+  - edition: '2010'
+    publication: OIML R 106-1:1997
     publication_id: OIML R106-1:1997
     tc_sc: ''
     year: 1997
@@ -115,6 +126,133 @@ data:
     g18_entry: '01254'
     definition: measuring instrument that serves to determine the mass of a load byusing
       the action of gravity
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R061-1:2017
+    publication_id: OIML R061-1:2017
+    tc_sc: ''
+    year: 2017
+    clause: 3.1.5
+    link:
+    g18_entry: '03636'
+    definition: measuring instrument used to determine the mass of a body by using
+      the action of gravity on the body
+    notes:
+    - 'Note: According to its method of operation, a weighing instrument is classified
+      as an automatic (3.2.1) or non-automatic instrument.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R050-1:2014
+    publication_id: OIML R050-1:2014
+    tc_sc: ''
+    year: 2014
+    clause: 2.1.1
+    link:
+    g18_entry: '03635'
+    definition: measuring instrument used to determine the mass of a body by using
+      the action of gravity on this body
+    notes:
+    - 'Note: In this Recommendation “mass” (or “weight value”) is preferably used
+      in the sense of “conventional mass” or “conventional value of the result of
+      weighing in air” according to OIML R 111 [5] and OIML D 28 [6], whereas “weight”
+      is preferably used for an embodiment (or material measure) of mass that is regulated
+      in regard to its physical and metrological characteristics. The instrument may
+      also be used to determine other quantities, magnitudes, parameters or characteristics
+      related to the determined mass.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R106-1:2011
+    publication_id: OIML R106-1:2011
+    tc_sc: ''
+    year: 2011
+    clause: 0.1.1
+    link:
+    g18_entry: '02522'
+    definition: measuring instrument used to determine the mass of a body by using
+      the action of gravity on the body
+    notes:
+    - 'Note: In this Recommendation “mass” (or “weight value”) is preferably used
+      in the sense of “conventional mass” or “conventional value of the result of
+      weighing in air” according to OIML R 111 [5] and OIML D 28 [6], whereas “weight”
+      is preferably used for an embodiment (= material measure) of mass that is regulated
+      in regard to its physical and metrological characteristics. According to its
+      method of operation, a weighing instrument is classified as an automatic or
+      non-automatic instrument.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 107-1:2007
+    publication_id: OIML R107-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.1.1
+    link: https://www.oiml.org/en/files/pdf_R/r107-1-e07.pdf
+    g18_entry: '01314'
+    definition: measuring instrument used to determine the mass of a body by using
+      the action of gravity on this body. The instrument may also be used to determine
+      other quantities, magnitudes, parameters or characteristics related to the determined
+      mass. According to its method of operation, a weighing instrument is classified
+      as an automatic weighing instrument or a non- automatic weighing instrument.
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 51-1:2006
+    publication_id: OIML R051-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.1.1
+    link: https://www.oiml.org/en/files/pdf_R/r051-1-e06.pdf
+    g18_entry: '00539'
+    definition: measuring instrument that serves to determine the mass of an amount
+      of material by using the action of gravity on this material. The instrument
+      may also be used to determine other quantities, magnitudes, parameters or characteristics
+      related to mass. According to its method of operation, a weighing instrument
+      is classified as automatic or non-automatic
+    notes:
+    - 'Note: In this Recommendation “mass” (or “weight value”) is preferably used
+      in the sense of “conventional mass” or “conventional value of the result of
+      weighing in air” according to OIML R 111 and OIML D 28, whereas “weight” is
+      preferably used for an embodiment (= material measure) of mass that is regulated
+      in regard to its physical and metrological  characteristics.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 76-1:2006
+    publication_id: OIML R076-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.1.1
+    link: https://www.oiml.org/en/files/pdf_R/r076-1-e06.pdf
+    g18_entry: '00874'
+    definition: measuring instrument that serves to determine the mass of a body by
+      using the action of gravity on this body. The instrument may also be used to
+      determine other quantities, magnitudes, parameters or characteristics related
+      to the determined mass. According to its method of operation, a weighing instrument
+      is classified as an automatic weighing instrument or a non- automatic weighing
+      instrument
+    notes:
+    - 'Note: in this Recommendation “mass” (or “weight value”) is preferably used
+      in the sense of “conventional mass” or “conventional value of the result of
+      weighing in air” according to R 111 and D 28, whereas “weight” is preferably
+      used for an embodiment (i.e. material measure) of mass that is regulated in
+      regard to its physical and metrological characteristics'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 134:2003
+    publication_id: OIML R134:2003
+    tc_sc: ''
+    year: 2003
+    clause: T.1.1
+    link: https://www.oiml.org/en/files/pdf_R/r134-e03.pdf
+    g18_entry: '01784'
+    definition: measuring instrument that serves to determine the mass of a load by
+      using the action of gravity (see “dynamic vehicle tyre force”).
     notes: []
     consistency: pending
     consistency_reason: ''

@@ -1,0 +1,41 @@
+---
+data:
+  identifier: '02819'
+  term: certification
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML D034:2019
+    publication_id: OIML D034:2019
+    tc_sc: ''
+    year: 2019
+    clause: 3.1.2
+    link:
+    g18_entry: '02923'
+    definition: third-party attestation related to products, processes, systems or
+      person (from ISO/IEC 17000:2004, 5.5 and VIML, A.18)]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R147:2016
+    publication_id: OIML R147:2016
+    tc_sc: ''
+    year: 2016
+    clause: 1.1.3
+    link:
+    g18_entry: '02819'
+    definition: third-party attestation related to a conformity assessment body conveying
+      a formal demonstration of its competence to carry out specific conformity assessment
+      tasks [ISO/IEC 17000:2004, 5.5]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 965b7f1a-c58e-5d04-bf71-005b5cf2efbe
+schema_version: '3'
+related: []

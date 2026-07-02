@@ -4,8 +4,13 @@ data:
   term: resolution
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 65:2006
+  - edition: '2010'
+    publication: OIML R 65:2006
     publication_id: OIML R065:2006
     tc_sc: ''
     year: 2006
@@ -18,7 +23,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 116:2006
+  - edition: '2010'
+    publication: OIML R 116:2006
     publication_id: OIML R116:2006
     tc_sc: ''
     year: 2006
@@ -30,6 +36,49 @@ data:
     notes:
     - It usually indicates the smallest distance between two adjacent spectral lines
       at which they can be distinguished one from the another.
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R060-1:2021
+    publication_id: OIML R060-1:2021
+    tc_sc: ''
+    year: 2021
+    clause: 3.7.15
+    link:
+    g18_entry: '03464'
+    definition: smolest change in quantity being measured that causes a perceptible
+      change in the corresponding indication [VIM 4.14]
+    notes:
+    - "(For notes, refer to the VIM)"
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 65:2006
+    publication_id: OIML R065:2006
+    tc_sc: ''
+    year: 2006
+    clause: '3.7'
+    link: https://www.oiml.org/en/files/pdf_R/r065-e06.pdf
+    g18_entry: '00824'
+    definition: smallest difference between indicated values or smallest change of
+      force in the measuring range that can be observed or recorded and quantified
+      at any applied force
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 116:2006
+    publication_id: OIML R116:2006
+    tc_sc: ''
+    year: 2006
+    clause: '3.14'
+    link: https://www.oiml.org/en/files/pdf_R/r116-e06.pdf
+    g18_entry: '01527'
+    definition: measure of a spectrometer's ability to separate two adjacent spectral
+      lines
+    notes:
+    - 'Note: It usually indicates the smallest distance between two adjacent spectral
+      lines at which they can be distinguished one from the another.'
     consistency: pending
     consistency_reason: ''
 status: current

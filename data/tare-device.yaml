@@ -4,8 +4,13 @@ data:
   term: tare device
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 51-1:2006
+  - edition: '2010'
+    publication: OIML R 51-1:2006
     publication_id: OIML R051-1:2006
     tc_sc: ''
     year: 2006
@@ -22,7 +27,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 76-1:2006
+  - edition: '2010'
+    publication: OIML R 76-1:2006
     publication_id: OIML R076-1:2006
     tc_sc: ''
     year: 2006
@@ -39,7 +45,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 61-1:2004
+  - edition: '2010'
+    publication: OIML R 61-1:2004
     publication_id: OIML R061-1:2004
     tc_sc: ''
     year: 2004
@@ -53,6 +60,59 @@ data:
       device (load balanced automatically following a single manual command); or an
       automatic device (load balanced automatically without the intervention of an
       operator)"
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R061-1:2017
+    publication_id: OIML R061-1:2017
+    tc_sc: ''
+    year: 2017
+    clause: 3.3.5.1
+    link:
+    g18_entry: '03554'
+    definition: 'device for setting the indication to zero when a load is on the load
+      receptor: a) without altering the weighing range for net loads (additive tare
+      device); or b) reducing the weighing range for net loads (subtractive tare device)'
+    notes:
+    - 'Note:  The tare device functions as a) a non-automatic device (load balanced
+      by operator), b) a semi-automatic device (load balanced automatically following
+      a single manual command), c) an automatic device (load balanced automatically
+      without the intervention of an operator).'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 51-1:2006
+    publication_id: OIML R051-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.2.10.10
+    link: https://www.oiml.org/en/files/pdf_R/r051-1-e06.pdf
+    g18_entry: '00617'
+    definition: 'device for setting the indication to zero when a load is on the load
+      receptor: without altering the weighing range for net loads (additive tare device);
+      or reducing the weighing range for net loads (subtractive tare device). It may
+      function as: a non-automatic device (load balanced by operator); a semi-automatic
+      device (load balanced automatically following a single manual command); an automatic
+      device (load balanced automatically without the intervention of an operator)'
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 76-1:2006
+    publication_id: OIML R076-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.2.7.4
+    link: https://www.oiml.org/en/files/pdf_R/r076-1-e06.pdf
+    g18_entry: '00925'
+    definition: 'device for setting the indication to zero when a load is on the load
+      receptor: without altering the weighing range for net loads (additive tare device);
+      or reducing the weighing range for net loads (subtractive tare device). It may
+      function as: a non-automatic device (load balanced by an operator); a semi-automatic
+      device (load balanced automatically following a single manual command); or an
+      automatic device (load balanced automatically without the intervention of an
+      operator).'
     notes: []
     consistency: pending
     consistency_reason: ''

@@ -4,8 +4,13 @@ data:
   term: sub-assemblies of a heat meter, which is a combined instrument
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 75-1:2002
+  - edition: '2010'
+    publication: OIML R 75-1:2002
     publication_id: OIML R075-1:2002
     tc_sc: ''
     year: 2002
@@ -14,6 +19,19 @@ data:
     g18_entry: '00846'
     definition: the flow sensor, the temperature sensor pair and the calculator or
       acombination of these
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 75-1:2002
+    publication_id: OIML R075-1:2002
+    tc_sc: ''
+    year: 2002
+    clause: '3.4'
+    link: https://www.oiml.org/en/files/pdf_R/r075-1-e02.pdf
+    g18_entry: '00846'
+    definition: the flow sensor, the temperature sensor pair and the calculator or
+      a combination of these
     notes: []
     consistency: pending
     consistency_reason: ''

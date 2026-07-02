@@ -1,0 +1,32 @@
+---
+data:
+  identifier: '03762'
+  term: hash algorithm
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R091-1:2025
+    publication_id: OIML R091-1:2025
+    tc_sc: ''
+    year: 2025
+    clause: 3.3.12
+    link:
+    g18_entry: '03762'
+    definition: function that converts a data string into a numeric string output
+      of fixed length
+    notes:
+    - 'Note 1: Hash algorithms are designed to be collision-resistant, meaning that
+      there is a very low probability that the same string would be created for different
+      data. Note 2: Hash algorithms are used for software identification, authentication
+      of measurements, protection of settings etc. Note 3: Typical hash algorithms
+      are SHA-2 (256-bit hash) or stronger.'
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: b34f4cd4-661d-5be5-a60a-090de3ba18e6
+schema_version: '3'
+related: []

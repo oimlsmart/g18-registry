@@ -1,0 +1,32 @@
+---
+data:
+  identifier: '02795'
+  term: reproducibility condition of measurement {reproducibility condition}
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R146-1:2016
+    publication_id: OIML R146-1:2016
+    tc_sc: ''
+    year: 2016
+    clause: 2.1 Tab. 1.14
+    link:
+    g18_entry: '02795'
+    definition: "{condition of measurement, out of a set of conditions that includes
+      different locations, operators, measuring systems, and replicate measurements
+      on the same or similar objects [VIM 2.24]}"
+    notes:
+    - "{ NOTE 1 The different measuring systems may use different measurement procedures.
+      NOTE 2 A specification should give the conditions changed and unchanged, to
+      the extent practical.} For the tests in this Recommendation, the conditions
+      changed and unchanged are summarized in R 146-2, Annex A, A.3.4."
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: dc7fb3b8-52ba-5f52-bffe-3559d7d015d3
+schema_version: '3'
+related: []

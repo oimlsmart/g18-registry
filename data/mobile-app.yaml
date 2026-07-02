@@ -1,0 +1,28 @@
+---
+data:
+  identifier: '03694'
+  term: mobile app
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML D031:2023
+    publication_id: OIML D031:2023
+    tc_sc: ''
+    year: 2023
+    clause: 3.2.47
+    link:
+    g18_entry: '03694'
+    definition: computer program or software application designed to run on a mobile
+      device such as a phone, tablet, or watch [Cmbridge Dictonary, fourth edition,
+      2021]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 528ac108-092a-5ee7-bdbb-b5fe364be04c
+schema_version: '3'
+related: []

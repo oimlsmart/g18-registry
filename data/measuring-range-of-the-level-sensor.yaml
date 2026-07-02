@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '02263'
+  identifier: 02263-R080-1
   term: measuring range of the level sensor
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 80-1:2009
+  - edition: '2010'
+    publication: OIML R 80-1:2009
     publication_id: OIML R080-1:2009
     tc_sc: ''
     year: 2009
@@ -15,6 +20,38 @@ data:
     definition: range between the minimum and maximum possible indications ofthe level
       sensor. The lower limit is type and system dependent and shall be significantly
       less than the liquid level corresponding tothe minimum measured quantity of
+      the tank or compartment. The upper limit depends on the tank height and shall
+      be above the maximum permissible filling height of the tank or compartment
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R080-2:2017
+    publication_id: OIML R080-2:2017
+    tc_sc: ''
+    year: 2017
+    clause: '2'
+    link:
+    g18_entry: '03280'
+    definition: range between the minimum and maximum possible indications of the
+      level sensor. The lower limit is type and system dependent and shall be significantly
+      less than the liquid level corresponding to the minimum measured quantity of
+      the tank or compartment. The upper limit depends on the tank height and shall
+      be above the maximum permissible filling height of the tank or compartment
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 80-1:2009
+    publication_id: OIML R080-1:2009
+    tc_sc: ''
+    year: 2009
+    clause: '2.24'
+    link: https://www.oiml.org/en/files/pdf_R/r080-1-e09.pdf
+    g18_entry: 02263-R080-1
+    definition: range between the minimum and maximum possible indications of the
+      level sensor. The lower limit is type and system dependent and shall be significantly
+      less than the liquid level corresponding to the minimum measured quantity of
       the tank or compartment. The upper limit depends on the tank height and shall
       be above the maximum permissible filling height of the tank or compartment
     notes: []

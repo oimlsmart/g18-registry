@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '02166'
-  term: Additional Test Report
+  identifier: '02842'
+  term: additional test report
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML D 30:2008
+  - edition: '2010'
+    publication: OIML D 30:2008
     publication_id: OIML D030:2008
     tc_sc: ''
     year: 2008
@@ -21,6 +26,25 @@ data:
     - 2. In the event that several Testing Laboratories are involved in the additional
       tests and examinations, each Testing Laboratory issues an Additional Test Report
       corresponding to those tests and examinations it performs.
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D030:2020
+    publication_id: OIML D030:2020
+    tc_sc: ''
+    year: 2020
+    clause: G.3-2
+    link:
+    g18_entry: '02842'
+    definition: report issued by a testing laboratory that includes the results of
+      additional tests and examinations, additional to those in the OIML Recommendation,
+      accepted in the scope of a Declaration
+    notes:
+    - 'Note 1:. Additional test reports are issued under the OIML-CS for results of
+      tests and examinations of additional national requirements. Note 2:  In the
+      event that several testing laboratories are involved in the additional tests
+      and examinations, each testing laboratory issues an additional test report corresponding
+      to those tests and examinations it performs.'
     consistency: pending
     consistency_reason: ''
 status: current

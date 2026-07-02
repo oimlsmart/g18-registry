@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '02187'
+  identifier: '03051'
   term: event
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML D 31:2008
+  - edition: '2010'
+    publication: OIML D 31:2008
     publication_id: OIML D031:2008
     tc_sc: ''
     year: 2008
@@ -15,6 +20,23 @@ data:
     definition: action in which a modification of a measuring instrument parameter,
       adjustment factor or update of software module is made
     notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D031:2023
+    publication_id: OIML D031:2023
+    tc_sc: ''
+    year: 2023
+    clause: 3.2.20
+    link:
+    g18_entry: '03051'
+    definition: action in which a modification of a measuring instrument parameter,
+      adjustment factor or update of software module is made [OIML V 1:2022, 6.06]
+    notes:
+    - 'Note: For purpose of this Document, events are considered changes in the value
+      of the legally relevant parameters, or a modification or update of legally relevant
+      sotware, or other activities that are legally relevant and which may influence
+      the metrological data and/or characteristics.'
     consistency: pending
     consistency_reason: ''
 status: current

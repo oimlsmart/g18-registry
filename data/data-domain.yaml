@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '02179'
+  identifier: '02972'
   term: data domain
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML D 31:2008
+  - edition: '2010'
+    publication: OIML D 31:2008
     publication_id: OIML D031:2008
     tc_sc: ''
     year: 2008
@@ -22,6 +27,19 @@ data:
       C/C++, etc.) it is easy to separate the data domain of one software module from
       access by any other software modules by means of the language'
     notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D031:2023
+    publication_id: OIML D031:2023
+    tc_sc: ''
+    year: 2023
+    clause: 3.2.11
+    link:
+    g18_entry: '02972'
+    definition: location in memory that each program needs for processing data
+    notes:
+    - 'Note: Data domains may belong to one software module only, or to several.'
     consistency: pending
     consistency_reason: ''
 status: current

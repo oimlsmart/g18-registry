@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '00515'
+  identifier: '03472'
   term: scale interval for testing
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 50-1:1997
+  - edition: '2010'
+    publication: OIML R 50-1:1997
     publication_id: OIML R050-1:1997
     tc_sc: ''
     year: 1997
@@ -17,6 +22,21 @@ data:
       with the instrument in a special mode for testing purposes. Where such a special
       mode is not available, the scale interval for testing is equal to the totalization
       scale interval
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R050-1:2014
+    publication_id: OIML R050-1:2014
+    tc_sc: ''
+    year: 2014
+    clause: 2.3.1.2
+    link:
+    g18_entry: '03472'
+    definition: difference between two consecutive indicated values, expressed in
+      units of mass, with the instrument in a special mode for testing purposes. This
+      scale interval for testing, e, is equal to the totalization accepted scale interval,
+      d, if the special mode is not available
     notes: []
     consistency: pending
     consistency_reason: ''

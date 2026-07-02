@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '02317'
+  identifier: 02317-R085-1
   term: dip
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 85-1:2008
+  - edition: '2010'
+    publication: OIML R 85-1:2008
     publication_id: OIML R085-1:2008
     tc_sc: ''
     year: 2008
@@ -15,6 +20,19 @@ data:
     definition: vertical distance between the dipping datum point and the liquid The
       term "innage" is synonymous. level
     notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 85-1:2008
+    publication_id: OIML R085-1:2008
+    tc_sc: ''
+    year: 2008
+    clause: '3.19'
+    link: https://www.oiml.org/en/files/pdf_R/r085-1-e08.pdf
+    g18_entry: 02317-R085-1
+    definition: vertical distance between the dipping datum point and the liquid level
+    notes:
+    - 'Note: The term “innage” is synonymous.'
     consistency: pending
     consistency_reason: ''
 status: current

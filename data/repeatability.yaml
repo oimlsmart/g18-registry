@@ -7,8 +7,18 @@ data:
     source: urn:oiml:pub:v:2:1993
     id: '5.27'
     url: https://oimlsmart.github.io/vocab/vim-1993/concept/5.27
+    definition_text:
+    edition_label: VIM 1993
+    vocab: vim
+    role: legacy
+    year: 1993
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 107-1:2007
+  - edition: '2010'
+    publication: OIML R 107-1:2007
     publication_id: OIML R107-1:2007
     tc_sc: ''
     year: 2007
@@ -23,7 +33,8 @@ data:
     - ng results that agree one with the other the same or constant operating ions.
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 39:2006
+  - edition: '2010'
+    publication: OIML R 39:2006
     publication_id: OIML R039:2006
     tc_sc: ''
     year: 2006
@@ -37,7 +48,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 51-1:2006
+  - edition: '2010'
+    publication: OIML R 51-1:2006
     publication_id: OIML R051-1:2006
     tc_sc: ''
     year: 2006
@@ -50,7 +62,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 65:2006
+  - edition: '2010'
+    publication: OIML R 65:2006
     publication_id: OIML R065:2006
     tc_sc: ''
     year: 2006
@@ -65,7 +78,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 76-1:2006
+  - edition: '2010'
+    publication: OIML R 76-1:2006
     publication_id: OIML R076-1:2006
     tc_sc: ''
     year: 2006
@@ -78,7 +92,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 82:2006
+  - edition: '2010'
+    publication: OIML R 82:2006
     publication_id: OIML R082:2006
     tc_sc: ''
     year: 2006
@@ -91,7 +106,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 83:2006
+  - edition: '2010'
+    publication: OIML R 83:2006
     publication_id: OIML R083:2006
     tc_sc: ''
     year: 2006
@@ -104,7 +120,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 116:2006
+  - edition: '2010'
+    publication: OIML R 116:2006
     publication_id: OIML R116:2006
     tc_sc: ''
     year: 2006
@@ -119,7 +136,8 @@ data:
       onmental condition
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 136-1:2004
+  - edition: '2010'
+    publication: OIML R 136-1:2004
     publication_id: OIML R136-1:2004
     tc_sc: ''
     year: 2004
@@ -138,7 +156,8 @@ data:
     - 2. [VIM:1993, 3.6]
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 131:2001
+  - edition: '2010'
+    publication: OIML R 131:2001
     publication_id: OIML R131:2001
     tc_sc: ''
     year: 2001
@@ -153,7 +172,8 @@ data:
       instrument, operator, location, and ambient environmental conditions.
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 132:2001
+  - edition: '2010'
+    publication: OIML R 132:2001
     publication_id: OIML R132:2001
     tc_sc: ''
     year: 2001
@@ -166,7 +186,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 60:2000
+  - edition: '2010'
+    publication: OIML R 60:2000
     publication_id: OIML R060:2000
     tc_sc: ''
     year: 2000
@@ -181,10 +202,11 @@ data:
     consistency_reason: ''
     related:
     - type: see
-      ref: &1
+      ref:
         source: urn:oiml:pub:v:2:1993
         id: '5.27'
-  - publication: OIML R 127:1999
+  - edition: '2010'
+    publication: OIML R 127:1999
     publication_id: OIML R127:1999
     tc_sc: ''
     year: 1999
@@ -199,7 +221,8 @@ data:
       instrument, operator, location, and ambient environmental conditions.
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 81:1998
+  - edition: '2010'
+    publication: OIML R 81:1998
     publication_id: OIML R081:1998
     tc_sc: ''
     year: 1998
@@ -217,7 +240,8 @@ data:
       ref:
         source: urn:oiml:pub:v:2:1993
         id: '5.27'
-  - publication: OIML R 125:1998
+  - edition: '2010'
+    publication: OIML R 125:1998
     publication_id: OIML R125:1998
     tc_sc: ''
     year: 1998
@@ -232,10 +256,11 @@ data:
     consistency_reason: ''
     related:
     - type: see
-      ref: &2
+      ref:
         source: urn:oiml:pub:v:2:1993
         id: '3.6'
-  - publication: OIML R 110:1994
+  - edition: '2010'
+    publication: OIML R 110:1994
     publication_id: OIML R110:1994
     tc_sc: ''
     year: 1994
@@ -248,7 +273,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 112:1994
+  - edition: '2010'
+    publication: OIML R 112:1994
     publication_id: OIML R112:1994
     tc_sc: ''
     year: 1994
@@ -263,7 +289,8 @@ data:
       the ring instrument, the location, and the onmental conditions.'
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 113:1994
+  - edition: '2010'
+    publication: OIML R 113:1994
     publication_id: OIML R113:1994
     tc_sc: ''
     year: 1994
@@ -278,7 +305,8 @@ data:
       the ring instrument, the location, and the onmental conditions.'
     consistency: pending
     consistency_reason: ''
-  - publication: OIML D 22:1991
+  - edition: '2010'
+    publication: OIML D 22:1991
     publication_id: OIML D022:1991
     tc_sc: ''
     year: 1991
@@ -292,7 +320,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 100:1991
+  - edition: '2010'
+    publication: OIML R 100:1991
     publication_id: OIML R100:1991
     tc_sc: ''
     year: 1991
@@ -305,11 +334,354 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
+  - edition: 202X
+    publication: OIML R100-1:2013
+    publication_id: OIML R100-1:2013
+    tc_sc: ''
+    year: 2013
+    clause: '3.9'
+    link:
+    g18_entry: '02520'
+    definition: closeness of agreement between the results of successive measurements
+      of the same quantity being measured using the same instrument and under the
+      same defined conditions within a relatively short period of time
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R137:2012
+    publication_id: OIML R137:2012
+    tc_sc: ''
+    year: 2012
+    clause: 3.2.12
+    link:
+    g18_entry: '02668'
+    definition: measurement precision under a set of repeatability conditions of measurement
+      [VIM 2.21]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R106-1:2011
+    publication_id: OIML R106-1:2011
+    tc_sc: ''
+    year: 2011
+    clause: 0.3.7
+    link:
+    g18_entry: '02595'
+    definition: ability of an instrument to provide results that agree one with the
+      other under the same operating conditions of measurement [based on VIM 3.6]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 107-1:2007
+    publication_id: OIML R107-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.3.9
+    link: https://www.oiml.org/en/files/pdf_R/r107-1-e07.pdf
+    g18_entry: '01371'
+    definition: 'closeness of the agreement between the results of successive measurements
+      of the same measurand carried out under the same conditions of measurement [VIM:
+      1993, 3.6]'
+    notes:
+    - 'Note:  For an instrument, this is its ability to provide weighing results that
+      agree one with the other under the same or constant operating conditions.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 39:2006
+    publication_id: OIML R039:2006
+    tc_sc: ''
+    year: 2006
+    clause: '2.11'
+    link: https://www.oiml.org/en/files/pdf_R/r039-e06.pdf
+    g18_entry: '00389'
+    definition: closeness of the agreement between the results of successive measurements
+      on a uniform test sample when there is a relatively short time interval between
+      measurements carried out by the same observer using the same test procedures
+      at the same location under similar ambient conditions
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 51-1:2006
+    publication_id: OIML R051-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.3.6
+    link: https://www.oiml.org/en/files/pdf_R/r051-1-e06.pdf
+    g18_entry: '00648'
+    definition: ability of an instrument to provide results that agree one with the
+      other when the same load is deposited several times and in a practically identical
+      way on the load receptor under reasonably constant test conditions
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 65:2006
+    publication_id: OIML R065:2006
+    tc_sc: ''
+    year: 2006
+    clause: '3.5'
+    link: https://www.oiml.org/en/files/pdf_R/r065-e06.pdf
+    g18_entry: '00822'
+    definition: 'closeness of agreement among the results of successive measurements
+      of the same measurand according to the following conditions:'
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 76-1:2006
+    publication_id: OIML R076-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.4.3
+    link: https://www.oiml.org/en/files/pdf_R/r076-1-e06.pdf
+    g18_entry: '00959'
+    definition: ability of an instrument to provide results that agree one with the
+      other when the same load is deposited several times and in a practically  identical
+      way on the load receptor under reasonably constant test conditions
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 82:2006
+    publication_id: OIML R082:2006
+    tc_sc: ''
+    year: 2006
+    clause: '3.16'
+    link: https://www.oiml.org/en/files/pdf_R/r082-e06.pdf
+    g18_entry: '01060'
+    definition: closeness of agreement between results of successive measurements
+      of the same measurand carried out under the same conditions and within a relatively
+      short period of time
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 83:2006
+    publication_id: OIML R083:2006
+    tc_sc: ''
+    year: 2006
+    clause: '3.11'
+    link: https://www.oiml.org/en/files/pdf_R/r083-e06.pdf
+    g18_entry: '01071'
+    definition: closeness of agreement between results of successive measurements
+      of the same measurand carried out under the same conditions and within a relative
+      short period of time
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 116:2006
+    publication_id: OIML R116:2006
+    tc_sc: ''
+    year: 2006
+    clause: '3.13'
+    link: https://www.oiml.org/en/files/pdf_R/r116-e06.pdf
+    g18_entry: '01526'
+    definition: closeness of agreement between successive measurements of the same
+      measurand carried out under the same conditions and within a short period of
+      time
+    notes:
+    - 'Note: The same conditions include the following: the method of measurement,
+      the operator, the measuring instrument, the location, and the environmental  condition'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 136-1:2004
+    publication_id: OIML R136-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: T.4.9
+    link: https://www.oiml.org/en/files/pdf_R/r136-1-e04.pdf
+    g18_entry: '01912'
+    definition: closeness of the agreement between the results of the difference between
+      the maximum (Amax) and minimum (Amin) successive area measurements carried out
+      under the same conditions of measurement R = Amax – Amin
+    notes:
+    - 'Note 1:  Repeatability conditions include: the same measurement procedure;
+      the same operator; the same measuring instrument, used under the same conditions;
+      the same location; and repetition over a short period of time. Repeatability
+      may be expressed quantitatively in terms of the dispersion characteristics of
+      the results. Note 2:  [VIM:1993, 3.6]'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 131:2001
+    publication_id: OIML R131:2001
+    tc_sc: ''
+    year: 2001
+    clause: '3.12'
+    link: https://www.oiml.org/en/files/pdf_R/r131-e01.pdf
+    g18_entry: '01753'
+    definition: closeness of agreement between the results of successive measurements
+      of the same sample carried out under the same conditions and within a relatively
+      short period of time.
+    notes:
+    - The same conditions would include the same method of measurement, measuring
+      instrument, operator, location, and ambient environmental  conditions.
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 132:2001
+    publication_id: OIML R132:2001
+    tc_sc: ''
+    year: 2001
+    clause: '3.12'
+    link: https://www.oiml.org/en/files/pdf_R/r132-e01.pdf
+    g18_entry: '01769'
+    definition: closeness of agreement between the results of successive measurements
+      of the same sample carried out under the same conditions and within a relatively
+      short period of time.
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 127:1999
+    publication_id: OIML R127:1999
+    tc_sc: ''
+    year: 1999
+    clause: '4.13'
+    link: https://www.oiml.org/en/files/pdf_R/r127-e99.pdf
+    g18_entry: '01687'
+    definition: the closeness of agreement between the results of successive measurements
+      of the same sample carried out under the same conditions and within a relatively
+      short period of time
+    notes:
+    - 'Note:  The same conditions would include the same method of measurement, measuring
+      instrument, operator, location, and ambient environmental  conditions.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 81:1998
+    publication_id: OIML R081:1998
+    tc_sc: ''
+    year: 1998
+    clause: '3.19'
+    link: https://www.oiml.org/en/files/pdf_R/r081-e98.pdf
+    g18_entry: '01028'
+    definition: the ability of a measuring instrument to provide closely similar indications
+      for repeated applications of the same measurand under the same conditions of
+      measurement [VIM:1993, 5.27]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 125:1998
+    publication_id: OIML R125:1998
+    tc_sc: ''
+    year: 1998
+    clause: T.26
+    link: https://www.oiml.org/en/files/pdf_R/r125-e98.pdf
+    g18_entry: '01643'
+    definition: the closeness of the agreement between the results of successive measurements
+      of the same measurand carried out under the same conditions of measurement (VIM:1993,
+      3.6)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 123:1997
+    publication_id: OIML R123:1997
+    tc_sc: ''
+    year: 1997
+    clause: '3.5'
+    link: https://www.oiml.org/en/files/pdf_R/r123-e97.pdf
+    g18_entry: '03454'
+    definition: Closeness of agreement between the results of successive measurements
+      of the same sample using the same instrument, under the same defined conditions
+      of use, and within a relatively short period of time.
+    notes:
+    - 'Note:  The same defined conditions would include the following: method of measurement,
+      the measuring instrument, the operator, the location and the ambient environmental
+      conditions.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 110:1994
+    publication_id: OIML R110:1994
+    tc_sc: ''
+    year: 1994
+    clause: 2.2.2
+    link: https://www.oiml.org/en/files/pdf_R/r110-e94.pdf
+    g18_entry: '01426'
+    definition: the ability of a pressure balance to give uniform indications of the
+      measured pressure for multiple applications of the same load under constant
+      conditions of measurement
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 112:1994
+    publication_id: OIML R112:1994
+    tc_sc: ''
+    year: 1994
+    clause: '2.15'
+    link: https://www.oiml.org/en/files/pdf_R/r112-e94.pdf
+    g18_entry: '01487'
+    definition: the closeness of agreement between results of successive measurements
+      of the same measurand carried out under the same conditions and within a relatively
+      short period of time
+    notes:
+    - 'Note: The same conditions include the following: the method of measurement,
+      the operator, the measuring instrument, the location, and the environmental
+      conditions.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 113:1994
+    publication_id: OIML R113:1994
+    tc_sc: ''
+    year: 1994
+    clause: '3.17'
+    link: https://www.oiml.org/en/files/pdf_R/r113-e94.pdf
+    g18_entry: '01504'
+    definition: the closeness of agreement between results of successive measurements
+      of the same measurand carried out under the same conditions and within a relatively
+      short period of time
+    notes:
+    - 'Note: The same conditions include the following: the method of measurement,
+      the operator, the measuring instrument, the location, and the environmental
+      conditions.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D 22:1991
+    publication_id: OIML D022:1991
+    tc_sc: ''
+    year: 1991
+    clause: '3.14'
+    link: https://www.oiml.org/en/files/pdf_D/d022-e91.pdf
+    g18_entry: '00159'
+    definition: the closeness of the agreement between the results of successive measurements
+      of the same quantity of a pollutant carried out by the same instrument and under
+      the same conditions of use within a relatively short period of time. Repeatability
+      is synonymous with the term "precision" for an instrument
+    notes: []
+    consistency: pending
+    consistency_reason: ''
 status: current
 id: 96d9f55d-8d67-5f69-9f58-b85fca8f65e1
 schema_version: '3'
 related:
 - type: see
-  ref: *1
+  ref:
+    source: urn:oiml:pub:v:2:1993
+    id: '5.27'
+    definition_text:
+    edition_label: VIM 1993
+    vocab: vim
+    role: legacy
+    year: 1993
 - type: see
-  ref: *2
+  ref:
+    source: urn:oiml:pub:v:2:1993
+    id: '3.6'
+    definition_text:
+    edition_label: VIM 1993
+    vocab: vim
+    role: legacy
+    year: 1993

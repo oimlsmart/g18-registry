@@ -1,0 +1,28 @@
+---
+data:
+  identifier: '02993'
+  term: dimensional volume (Dim Vol or DV)
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R129-1:2020
+    publication_id: OIML R129-1:2020
+    tc_sc: ''
+    year: 2020
+    clause: 2.2.4
+    link:
+    g18_entry: '02993'
+    definition: volume of smallest rectangular box which fully encloses the object,
+      and is the product of the indicated values of length (L), width (W) and height
+      (H) (DV = L × W × H)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 6ab13430-e987-5237-8532-99c608490c48
+schema_version: '3'
+related: []

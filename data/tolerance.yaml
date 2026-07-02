@@ -1,0 +1,28 @@
+---
+data:
+  identifier: '03568'
+  term: tolerance
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R084:2003
+    publication_id: OIML R084:2003
+    tc_sc: ''
+    year: 2003
+    clause: '2.5'
+    link:
+    g18_entry: '03568'
+    definition: maximum permissible deviation of the temperature t (°C), calculated
+      from the thermometer resistance using the relative resistance tables (Annex
+      A), from the true (measured) temperature.
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: af9534bd-14dc-50a9-818e-24d47a2ced9e
+schema_version: '3'
+related: []

@@ -1,0 +1,26 @@
+---
+data:
+  identifier: '02218'
+  term: "(measurement) error"
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML D011:2013
+    publication_id: OIML D011:2013
+    tc_sc: ''
+    year: 2013
+    clause: '3.4'
+    link:
+    g18_entry: '02218'
+    definition: measured quantity value minus a reference quantity value [VIM 2.16]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: db09419b-62b2-5bf1-a21e-34ab12d04829
+schema_version: '3'
+related: []

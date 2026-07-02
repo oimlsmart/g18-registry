@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '01273'
+  identifier: '01804'
   term: full draught weighing
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 134:2003
+  - edition: '2010'
+    publication: OIML R 134:2003
     publication_id: OIML R134:2003
     tc_sc: ''
     year: 2003
@@ -17,7 +22,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 106-1:1997
+  - edition: '2010'
+    publication: OIML R 106-1:1997
     publication_id: OIML R106-1:1997
     tc_sc: ''
     year: 1997
@@ -25,6 +31,19 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r106-1-e97.pdf
     g18_entry: '01273'
     definition: weighing a wagon that is entirely supported on the load receptor(s)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 134:2003
+    publication_id: OIML R134:2003
+    tc_sc: ''
+    year: 2003
+    clause: T.3.1.1
+    link: https://www.oiml.org/en/files/pdf_R/r134-e03.pdf
+    g18_entry: '01804'
+    definition: determination of the mass of a vehicle that is entirely supported
+      on the load receptor(s)
     notes: []
     consistency: pending
     consistency_reason: ''

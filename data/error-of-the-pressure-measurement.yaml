@@ -4,8 +4,26 @@ data:
   term: error of the pressure measurement
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 110:1994
+  - edition: '2010'
+    publication: OIML R 110:1994
+    publication_id: OIML R110:1994
+    tc_sc: ''
+    year: 1994
+    clause: 2.4.4
+    link: https://www.oiml.org/en/files/pdf_R/r110-e94.pdf
+    g18_entry: '01432'
+    definition: the result of a pressure measurement minus the (conventional) true
+      value of the measured pressure
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 110:1994
     publication_id: OIML R110:1994
     tc_sc: ''
     year: 1994

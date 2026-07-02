@@ -1,0 +1,28 @@
+---
+data:
+  identifier: 02301-R046-1
+  term: starting current (Ist)
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R046-1:2012
+    publication_id: OIML R046-1:2012
+    tc_sc: ''
+    year: 2012
+    clause: 2.2.2
+    link:
+    g18_entry: 02301-R046-1
+    definition: lowest value of current specified by the manufacturer at which the
+      meter should register electrical energy at unity power factor and, for poly-phase
+      meters, with balanced load
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: bca488dc-4bee-5adb-9bfc-25b11260ffdd
+schema_version: '3'
+related: []

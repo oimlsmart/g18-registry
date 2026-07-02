@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '01534'
+  identifier: '02867'
   term: associated measuring sensor
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 117-1:2007
+  - edition: '2010'
+    publication: OIML R 117-1:2007
     publication_id: OIML R117-1:2007
     tc_sc: ''
     year: 2007
@@ -16,6 +21,21 @@ data:
       the measurand, which converts the characteristic quantity emperature, pressure,
       density, viscosity, etc.) of the liquid into ameasurement signal (resistance,
       electrical current, frequency, etc.) destined for the associated measuring transducer"
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R117-1:2019
+    publication_id: OIML R117-1:2019
+    tc_sc: ''
+    year: 2019
+    clause: T.a.8
+    link:
+    g18_entry: '02867'
+    definition: part of the associated measuring device, directly affected by the
+      measurand, which converts the characteristic quantity (temperature, pressure,
+      density, viscosity, etc.) of the liquid into a measurement signal (resistance,
+      electrical current, frequency, etc.) destined for the associated measuring transducer
     notes: []
     consistency: pending
     consistency_reason: ''

@@ -4,8 +4,13 @@ data:
   term: sensitivity of a detector
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 112:1994
+  - edition: '2010'
+    publication: OIML R 112:1994
     publication_id: OIML R112:1994
     tc_sc: ''
     year: 1994
@@ -18,6 +23,23 @@ data:
       injected'
     notes:
     - An electrochemical detector of the coulombic type does not follow this equation.
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 112:1994
+    publication_id: OIML R112:1994
+    tc_sc: ''
+    year: 1994
+    clause: '2.12'
+    link: https://www.oiml.org/en/files/pdf_R/r112-e94.pdf
+    g18_entry: '01484'
+    definition: 'The output signal per unit concentration of the sample component
+      in the mobile phase; it may be expressed as: where S = sensitivity A = the integrated
+      area of the sample component F = the flow rate M = the mass of the sample component
+      injected'
+    notes:
+    - 'Note: An electrochemical detector of the coulombic type does not follow this
+      equation.'
     consistency: pending
     consistency_reason: ''
 status: current

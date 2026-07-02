@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '01698'
+  term: angle α
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R 128:2000
+    publication_id: OIML R128:2000
+    tc_sc: ''
+    year: 2000
+    clause: '3.7'
+    link: https://www.oiml.org/en/files/pdf_R/r128-e00.pdf
+    g18_entry: '01698'
+    definition: the angle α is the angle between the saddle-height adjustment direction
+      (seat tube) and the vertical (see Fig. 1) 2
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 9d013cf3-85ff-5367-9e00-e5f757ec5433
+schema_version: '3'
+related: []

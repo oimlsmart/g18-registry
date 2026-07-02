@@ -4,8 +4,13 @@ data:
   term: upper reference point
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 71:2008
+  - edition: '2010'
+    publication: OIML R 71:2008
     publication_id: OIML R071:2008
     tc_sc: ''
     year: 2008
@@ -17,7 +22,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 85-1:2008
+  - edition: '2010'
+    publication: OIML R 85-1:2008
     publication_id: OIML R085-1:2008
     tc_sc: ''
     year: 2008
@@ -30,7 +36,48 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 95:1990
+  - edition: '2010'
+    publication: OIML R 95:1990
+    publication_id: OIML R095:1990
+    tc_sc: ''
+    year: 1990
+    clause: T.6
+    link: https://www.oiml.org/en/files/pdf_R/r095-e90.pdf
+    g18_entry: '01142'
+    definition: the point on the vertical measurement axis, with reference to which
+      the ullage height is measured
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 71:2008
+    publication_id: OIML R071:2008
+    tc_sc: ''
+    year: 2008
+    clause: '3.7'
+    link: https://www.oiml.org/en/files/pdf_R/r071-e08.pdf
+    g18_entry: 02231-R071
+    definition: point located on the vertical measurement axis, with reference to
+      which the ullage is measured
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 85-1:2008
+    publication_id: OIML R085-1:2008
+    tc_sc: ''
+    year: 2008
+    clause: '3.17'
+    link: https://www.oiml.org/en/files/pdf_R/r085-1-e08.pdf
+    g18_entry: 02315-R085-1
+    definition: point clearly marked on the principal gauge hatch located along the
+      vertical axis ascending from the dipping datum point to indicate the reference
+      position to which ullage is measured
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 95:1990
     publication_id: OIML R095:1990
     tc_sc: ''
     year: 1990

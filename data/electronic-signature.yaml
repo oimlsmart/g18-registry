@@ -1,0 +1,34 @@
+---
+data:
+  identifier: '03032'
+  term: electronic signature
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML D031:2019
+    publication_id: OIML D031:2019
+    tc_sc: ''
+    year: 2019
+    clause: 3.1.13
+    link:
+    g18_entry: '03032'
+    definition: software means which is added to software or data with the purpose
+      to verify the origin of software or data, i.e to prove their authenticity, or
+      to chek that the software or data are unchanged, i.e.to prove their integrity
+    notes:
+    - 'Note 1: For electronic signing, a public key system uded in general, i.e. a
+      pair of keys where only one needs to be kept secret; the other may be public.
+      Note 2: The secret key is used when software or data are secured. The public
+      key ise used when software or data are verified before use. Note 3: The veryfing
+      instance may require a cryptographic certufucate of the securing instance (see
+      3.1.7) to be sure of the authenticity of the public key.'
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 8efec80c-ff8b-5ae9-b17f-05f24232a220
+schema_version: '3'
+related: []

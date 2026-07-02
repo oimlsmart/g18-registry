@@ -1,0 +1,29 @@
+---
+data:
+  identifier: 02306-R046-1
+  term: nominal voltage (Unom)
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R046-1:2012
+    publication_id: OIML R046-1:2012
+    tc_sc: ''
+    year: 2012
+    clause: 2.2.7
+    link:
+    g18_entry: 02306-R046-1
+    definition: voltage specified by the manufacturer for normal operation of the
+      meter
+    notes:
+    - 'Note: Meters designed for operation across a range of voltages may have several
+      nominal voltage values.'
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 98a6a9f1-bb1a-57e0-9e40-53762451569f
+schema_version: '3'
+related: []

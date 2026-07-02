@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '00411'
+  identifier: 02340-R049-1
   term: water meter
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 49-1:2006
+  - edition: '2010'
+    publication: OIML R 49-1:2006
     publication_id: OIML R049-1:2006
     tc_sc: ''
     year: 2006
@@ -23,6 +28,25 @@ data:
       meter, automatically directs the flow through either the small or large meter
       or both. Meter reading is obtained from two independent totalizers or one totalizer,
       which adds up the values from both water meters."
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R049-1:2024
+    publication_id: OIML R049-1:2024
+    tc_sc: ''
+    year: 2024
+    clause: 3.1.1
+    link:
+    g18_entry: 02340-R049-1
+    definition: instrument intended to measure continuously, memorize, and display
+      the volume of water passing through the measurement transducer ( 3.1.2) at metering
+      conditions (3.2.11)
+    notes:
+    - 'Note 1: A water meter includes at least a measurement transducer, a calculator
+      (including adjustment or correction devices, if present) and an indicating device.
+      These three devices can be in different housings. Note 2: A water meter may
+      be a combination meter (see 3.1.16). Note 3: In this Recommendation, a water
+      meter is also referred to as a “meter”.'
     consistency: pending
     consistency_reason: ''
 status: current

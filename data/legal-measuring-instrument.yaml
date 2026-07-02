@@ -4,8 +4,13 @@ data:
   term: legal measuring instrument
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML D 3:1979
+  - edition: '2010'
+    publication: OIML D 3:1979
     publication_id: OIML D003:1979
     tc_sc: ''
     year: 1979
@@ -14,6 +19,19 @@ data:
     g18_entry: '00223'
     definition: ". a measuring instrument which conforms to all the prescribed legal
       requirements"
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D 3:1979
+    publication_id: OIML D003:1979
+    tc_sc: ''
+    year: 1979
+    clause: '1'
+    link: https://www.oiml.org/en/files/pdf_D/d003-e79.pdf
+    g18_entry: '00223'
+    definition: a measuring instrument which conforms to all the prescribed legal
+      requirements
     notes: []
     consistency: pending
     consistency_reason: ''

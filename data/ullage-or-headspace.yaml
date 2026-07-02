@@ -4,8 +4,25 @@ data:
   term: ullage (or headspace)
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 138:2007
+  - edition: '2010'
+    publication: OIML R 138:2007
+    publication_id: OIML R138:2007
+    tc_sc: ''
+    year: 2007
+    clause: '2.8'
+    link: https://www.oiml.org/en/files/pdf_R/r138-e07.pdf
+    g18_entry: '01985'
+    definition: empty volume remaining in a container after it is filled
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 138:2007
     publication_id: OIML R138:2007
     tc_sc: ''
     year: 2007

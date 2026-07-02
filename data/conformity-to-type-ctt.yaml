@@ -1,0 +1,34 @@
+---
+data:
+  identifier: '02941'
+  term: conformity to type (CTT)
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML D034:2019
+    publication_id: OIML D034:2019
+    tc_sc: ''
+    year: 2019
+    clause: 3.1.4
+    link:
+    g18_entry: '02941'
+    definition: conformity assessment procedure focused on the assessment of measuring
+      instruments to give assurance that manufactured (or production) instruments
+      meet approved type
+    notes:
+    - 'Note: The concept of CTT as considered in this Dokumnet refers to a systematic
+      pre-market conformity assessment procedure applicable to measuring instruments.
+      It should not be confused with ‘market surveillance’ activities, which are sometimes
+      performed as part of a systematic program but often are performed ad-hoc by
+      public authorities based on risk assessment and market intelligence, e.g. user
+      complaints. ‘Market surveillance’ is further discussed in Annex 7.'
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 12800a67-ccd8-53df-b5ba-e312d46427da
+schema_version: '3'
+related: []

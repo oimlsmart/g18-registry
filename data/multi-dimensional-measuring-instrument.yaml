@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '01700'
+  identifier: '03320'
   term: multi-dimensional measuring instrument
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 129:2000
+  - edition: '2010'
+    publication: OIML R 129:2000
     publication_id: OIML R129:2000
     tc_sc: ''
     year: 2000
@@ -17,6 +22,20 @@ data:
       cases determines the volume of that box. If the object is not of the form of
       a rectangular box, the smallest rectangular box which fully encloses the object
       is determined
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R129-1:2020
+    publication_id: OIML R129-1:2020
+    tc_sc: ''
+    year: 2020
+    clause: 2.1.1
+    link:
+    g18_entry: '03320'
+    definition: instrument that measures the dimnesions of an object and determines
+      the length (L), width (W) and height (H) of the smallest rectangular parallelepiped
+      (rectangular box) which fully encloses thet object
     notes: []
     consistency: pending
     consistency_reason: ''

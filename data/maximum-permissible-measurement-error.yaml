@@ -1,0 +1,28 @@
+---
+data:
+  identifier: '02820'
+  term: maximum permissible measurement error
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R147:2016
+    publication_id: OIML R147:2016
+    tc_sc: ''
+    year: 2016
+    clause: 1.1.4
+    link:
+    g18_entry: '02820'
+    definition: extreme value of a measurement error, with respect to a known reference
+      quantity value, permitted by specifications or regulations for a given measurement,
+      measuring instrument, or measuring system [OIML V2-200:2012; 0.05] [2]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 6281ffa2-efa8-5e83-96ac-cd3e530f3d3b
+schema_version: '3'
+related: []

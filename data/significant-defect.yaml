@@ -1,0 +1,44 @@
+---
+data:
+  identifier: '03495'
+  term: significant defect
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML D031:2023
+    publication_id: OIML D031:2023
+    tc_sc: ''
+    year: 2023
+    clause: 3.2.55
+    link:
+    g18_entry: '03495'
+    definition: incident that has an undesirable impact on the compliqnce of measuring
+      instrument or a fault
+    notes:
+    - 'Note: Examples of significant defect include: a) deletion of the audit trail;
+      b) inadmissible parameter changes; c) unauthorised updates; d) accidental software
+      changes due to physical effects; e) a significant fault due to the effect of
+      an influence quantity.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R126-1:2021
+    publication_id: OIML R126-1:2021
+    tc_sc: ''
+    year: 2021
+    clause: 3.1.14
+    link:
+    g18_entry: '03496'
+    definition: event that has an impact on the properties re functions of the measuring
+      instrument or a fault
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: c91f909c-c7fe-542b-8c4a-f344959528ff
+schema_version: '3'
+related: []

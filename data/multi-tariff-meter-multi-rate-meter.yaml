@@ -1,0 +1,28 @@
+---
+data:
+  identifier: '02283-R046-1'
+  term: multi-tariff meter multi-rate meter
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R046-1:2012
+    publication_id: OIML R046-1:2012
+    tc_sc: ''
+    year: 2012
+    clause: 2.1.4
+    link:
+    g18_entry: '02283-R046-1'
+    definition: electricity meter intended to measure and display electrical energy
+      where energy will have more than one tariff rate
+    notes:
+    - 'Note: The tariff rate may be determined by time, load or some other quantity'
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 684880f6-4262-5fad-9609-cc8776fad403
+schema_version: '3'
+related: []

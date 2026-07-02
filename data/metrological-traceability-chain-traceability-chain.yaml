@@ -1,0 +1,33 @@
+---
+data:
+  identifier: '03296'
+  term: metrological traceability chain traceability chain
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML D005:2022
+    publication_id: OIML D005:2022
+    tc_sc: ''
+    year: 2022
+    clause: '3.8'
+    link:
+    g18_entry: '03296'
+    definition: sequence of measurement standards and calibrations that is used to
+      relate a measurement result to a reference [VIM, 2.42]
+    notes:
+    - 'Note 1: A metrological traceability chain id defined through a calibration
+      hierarchy. Note 2: A metrological traceability chain is used to establish metrological
+      traceability of measurement result. Note 3: A comparison between two measurement
+      standards may be vied as a calibration if the comparison is used to chek and
+      , if necessary, correct the quantity value and measurement uncertainty attributes
+      to one of the measurement standards.'
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: d758b2c1-a122-5f14-ad74-23c08b8fa5da
+schema_version: '3'
+related: []

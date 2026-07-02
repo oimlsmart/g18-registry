@@ -4,8 +4,28 @@ data:
   term: thermal test object
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 141:2008
+  - edition: '2010'
+    publication: OIML R 141:2008
+    publication_id: OIML R141:2008
+    tc_sc: ''
+    year: 2008
+    clause: '2.5'
+    link: https://www.oiml.org/en/files/pdf_R/r141-e08.pdf
+    g18_entry: '02109'
+    definition: device intended to create a plane picture containing a heat- radiating
+      object with a preset spatial frequency, or shape or temperature contrast on
+      a uniform radiating background with a known temperature value and a known emittance
+      value of the object and background
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 141:2008
     publication_id: OIML R141:2008
     tc_sc: ''
     year: 2008

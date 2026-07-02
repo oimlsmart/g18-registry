@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '00419'
+  identifier: '02377'
   term: tariff control device
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 49-1:2006
+  - edition: '2010'
+    publication: OIML R 49-1:2006
     publication_id: OIML R049-1:2006
     tc_sc: ''
     year: 2006
@@ -15,6 +20,20 @@ data:
     definition: device that allocates measurement results into different registers
       depending on tariff or other criteria, each register having the possibility
       to be displayed individually
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R049-1:2024
+    publication_id: OIML R049-1:2024
+    tc_sc: ''
+    year: 2024
+    clause: 3.1.9
+    link:
+    g18_entry: '02377'
+    definition: device that allocates measured values into different registers depending
+      on tariff or other criteria, each register having the possibility to be read
+      individually
     notes: []
     consistency: pending
     consistency_reason: ''

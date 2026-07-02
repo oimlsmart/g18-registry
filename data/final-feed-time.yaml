@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '00788'
+  identifier: '03079'
   term: final feed time
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 61-1:2004
+  - edition: '2010'
+    publication: OIML R 61-1:2004
     publication_id: OIML R061-1:2004
     tc_sc: ''
     year: 2004
@@ -14,6 +19,19 @@ data:
     g18_entry: '00788'
     definition: time taken to complete the last stage of delivery of the product to
       aload receptor
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R061-1:2017
+    publication_id: OIML R061-1:2017
+    tc_sc: ''
+    year: 2017
+    clause: 3.4.6
+    link:
+    g18_entry: '03079'
+    definition: time taken to complete the last stage of delivery of the product to
+      a load receptor
     notes: []
     consistency: pending
     consistency_reason: ''

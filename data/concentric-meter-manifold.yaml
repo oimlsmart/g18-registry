@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '00469'
+  identifier: '02387'
   term: concentric meter manifold
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 49-2:2006
+  - edition: '2010'
+    publication: OIML R 49-2:2006
     publication_id: OIML R049-2:2006
     tc_sc: ''
     year: 2006
@@ -13,6 +18,18 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r049-2-e06.pdf
     g18_entry: '00469'
     definition: pipe fitting specific to the connection of a concentric meter
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R049-1:2024
+    publication_id: OIML R049-1:2024
+    tc_sc: ''
+    year: 2024
+    clause: 3.1.19
+    link:
+    g18_entry: '02387'
+    definition: pipe fitting specific to the connection of a concentric meter(3.1.18)
     notes: []
     consistency: pending
     consistency_reason: ''

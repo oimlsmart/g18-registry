@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '02279'
+  identifier: '02279-R080-1'
   term: working conditions
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 80-1:2009
+  - edition: '2010'
+    publication: OIML R 80-1:2009
     publication_id: OIML R080-1:2009
     tc_sc: ''
     year: 2009
@@ -14,6 +19,32 @@ data:
     g18_entry: '02279'
     definition: 'conditions under which the volume of liquid is to be measured, at
       the point of measurement (example: temperature, viscosity, position of the tank).'
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R080-2:2017
+    publication_id: OIML R080-2:2017
+    tc_sc: ''
+    year: 2017
+    clause: '2'
+    link:
+    g18_entry: '03646'
+    definition: 'conditions under which the volume of liquid is to be measured, at
+      the point of measurement (example: temperature, viscosity, position of the tank)'
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 80-1:2009
+    publication_id: OIML R080-1:2009
+    tc_sc: ''
+    year: 2009
+    clause: '2.40'
+    link: https://www.oiml.org/en/files/pdf_R/r080-1-e09.pdf
+    g18_entry: '02279-R080-1'
+    definition: 'conditions under which the volume of liquid is to be measured, at
+      the point of measurement (example: temperature, viscosity, position of the tank)'
     notes: []
     consistency: pending
     consistency_reason: ''

@@ -4,8 +4,13 @@ data:
   term: device-specific parameter
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML D 31:2008
+  - edition: '2010'
+    publication: OIML D 31:2008
     publication_id: OIML D031:2008
     tc_sc: ''
     year: 2008
@@ -19,7 +24,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 21:2007
+  - edition: '2010'
+    publication: OIML R 21:2007
     publication_id: OIML R021:2007
     tc_sc: ''
     year: 2007
@@ -33,7 +39,106 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 107-1:2007
+  - edition: '2010'
+    publication: OIML R 107-1:2007
+    publication_id: OIML R107-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.2.7.7.4
+    link: https://www.oiml.org/en/files/pdf_R/r107-1-e07.pdf
+    g18_entry: '01351'
+    definition: legally relevant parameter with a value that depends on the individual
+      instrument. Device specific parameters comprise calibration parameters (e.g.
+      span adjustments or other adjustments or corrections) and configuration parameters
+      (e.g. maximum capacity, minimum capacity, units of measurement, etc.). They
+      are adjustable or selectable only in a special operational mode of the instrument.
+      Device specific parameters may be classified as those that should be secured
+      (unalterable) and those that may be accessed (settable) by an authorized person
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D031:2023
+    publication_id: OIML D031:2023
+    tc_sc: ''
+    year: 2023
+    clause: 3.2.12
+    link:
+    g18_entry: '02982'
+    definition: legally relevant parameter with a value that depends on the individual
+      instrument, component and/or module(s) subject to legal control adapted from
+      [OIML V 1:2022, 4.12]
+    notes:
+    - 'Note 1: Device-specific parameters comprise adjustment parameters (e.g. span
+      adjustment or other adjustments or corrections) and configuration parameters
+      (e.g. maximum value, minimum value, units of measurement, etc.) Note 2: See
+      also 6.2.3.4.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R150-1:2020
+    publication_id: OIML R150-1:2020
+    tc_sc: ''
+    year: 2020
+    clause: 2.2.9.4
+    link:
+    g18_entry: '02983'
+    definition: legally relevant parameter with a value that depends on the individual
+      instrument [VIML:2013, 4.12]
+    notes:
+    - 'Note: Device-specific parameters comprise adjustment parameters (e.g. span
+      adjustment or other adjustments or corrections) and configuration parameters
+      (e.g. maximum value, minimum value, units of measurement, etc.)'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R061-1:2017
+    publication_id: OIML R061-1:2017
+    tc_sc: ''
+    year: 2017
+    clause: 3.3.6.4
+    link:
+    g18_entry: '03659'
+    definition: legally relevant parameter with a value that depends on the individual
+      instrument (VIML, 4.12)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R106-1:2011
+    publication_id: OIML R106-1:2011
+    tc_sc: ''
+    year: 2011
+    clause: 0.2.8.4
+    link:
+    g18_entry: '02556'
+    definition: legally relevant parameter with a value that depends on the individual
+      instrument such parameters comprise calibration parameters (e.g. span adjustments
+      or corrections) and configuration parameters (e.g. maximum capacity, minimum
+      capacity, units of measurement, etc.) they are adjustable or selectable only
+      in a special operational mode of the instrument and may be classified as those
+      that should be secured (unalterable) and those that may be accessed (settable
+      parameters) by an authorized person
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 21:2007
+    publication_id: OIML R021:2007
+    tc_sc: ''
+    year: 2007
+    clause: 2.2.8.3
+    link: https://www.oiml.org/en/files/pdf_R/r021-e07.pdf
+    g18_entry: '00353'
+    definition: legally relevant parameter that depends on the individual taximeter.
+      Such parameters comprise adjustment and configuration parameters. They are adjustable
+      or selectable only in a service mode of the taximeter and may be classified
+      as those that should be secured and those that may be accessed (settable parameters)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 107-1:2007
     publication_id: OIML R107-1:2007
     tc_sc: ''
     year: 2007

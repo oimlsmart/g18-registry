@@ -1,14 +1,24 @@
 ---
 data:
-  identifier: '00240'
+  identifier: '00378'
   term: reference conditions
   kind: defined_in_vim
   official_concept:
     source: urn:oiml:pub:v:2:1993
     id: '5.7'
     url: https://oimlsmart.github.io/vocab/vim-1993/concept/5.7
+    definition_text:
+    edition_label: VIM 1993
+    vocab: vim
+    role: legacy
+    year: 1993
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 80-1:2009
+  - edition: '2010'
+    publication: OIML R 80-1:2009
     publication_id: OIML R080-1:2009
     tc_sc: ''
     year: 2009
@@ -22,7 +32,8 @@ data:
       for the influence quantities affecting the measuring instrument.
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 143:2009
+  - edition: '2010'
+    publication: OIML R 143:2009
     publication_id: OIML R143:2009
     tc_sc: ''
     year: 2009
@@ -40,7 +51,8 @@ data:
       ref:
         source: urn:oiml:pub:v:2:2007
         id: '4.11'
-  - publication: OIML R 71:2008
+  - edition: '2010'
+    publication: OIML R 71:2008
     publication_id: OIML R071:2008
     tc_sc: ''
     year: 2008
@@ -51,7 +63,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 85-1:2008
+  - edition: '2010'
+    publication: OIML R 85-1:2008
     publication_id: OIML R085-1:2008
     tc_sc: ''
     year: 2008
@@ -65,7 +78,8 @@ data:
       quantity.
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 99-1:2008
+  - edition: '2010'
+    publication: OIML R 99-1:2008
     publication_id: OIML R099-1:2008
     tc_sc: ''
     year: 2008
@@ -83,7 +97,8 @@ data:
       ref:
         source: urn:oiml:pub:v:2:2007
         id: '4.11'
-  - publication: OIML R 35-1:2007
+  - edition: '2010'
+    publication: OIML R 35-1:2007
     publication_id: OIML R035-1:2007
     tc_sc: ''
     year: 2007
@@ -95,7 +110,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 107-1:2007
+  - edition: '2010'
+    publication: OIML R 107-1:2007
     publication_id: OIML R107-1:2007
     tc_sc: ''
     year: 2007
@@ -107,7 +123,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 117-1:2007
+  - edition: '2010'
+    publication: OIML R 117-1:2007
     publication_id: OIML R117-1:2007
     tc_sc: ''
     year: 2007
@@ -119,7 +136,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 139:2007
+  - edition: '2010'
+    publication: OIML R 139:2007
     publication_id: OIML R139:2007
     tc_sc: ''
     year: 2007
@@ -131,7 +149,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 140:2007
+  - edition: '2010'
+    publication: OIML R 140:2007
     publication_id: OIML R140:2007
     tc_sc: ''
     year: 2007
@@ -146,10 +165,11 @@ data:
     consistency_reason: ''
     related:
     - type: see
-      ref: &2
+      ref:
         source: urn:oiml:pub:v:2:2007
         id: '4.11'
-  - publication: OIML R 49-1:2006
+  - edition: '2010'
+    publication: OIML R 49-1:2006
     publication_id: OIML R049-1:2006
     tc_sc: ''
     year: 2006
@@ -167,7 +187,8 @@ data:
       ref:
         source: urn:oiml:pub:v:2:1993
         id: '5.7'
-  - publication: OIML R 51-1:2006
+  - edition: '2010'
+    publication: OIML R 51-1:2006
     publication_id: OIML R051-1:2006
     tc_sc: ''
     year: 2006
@@ -179,7 +200,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 76-1:2006
+  - edition: '2010'
+    publication: OIML R 76-1:2006
     publication_id: OIML R076-1:2006
     tc_sc: ''
     year: 2006
@@ -191,7 +213,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 137-1:2006
+  - edition: '2010'
+    publication: OIML R 137-1:2006
     publication_id: OIML R137-1:2006
     tc_sc: ''
     year: 2006
@@ -205,7 +228,8 @@ data:
     - "(adapted from VIM:1993, 5.7)"
     consistency: pending
     consistency_reason: ''
-  - publication: OIML D 11:2004
+  - edition: '2010'
+    publication: OIML D 11:2004
     publication_id: OIML D011:2004
     tc_sc: ''
     year: 2004
@@ -221,10 +245,11 @@ data:
     consistency_reason: ''
     related:
     - type: see
-      ref: &1
+      ref:
         source: urn:oiml:pub:v:2:1993
         id: '5.7'
-  - publication: OIML R 61-1:2004
+  - edition: '2010'
+    publication: OIML R 61-1:2004
     publication_id: OIML R061-1:2004
     tc_sc: ''
     year: 2004
@@ -241,7 +266,8 @@ data:
       ref:
         source: urn:oiml:pub:v:2:1993
         id: '5.7'
-  - publication: OIML R 136-1:2004
+  - edition: '2010'
+    publication: OIML R 136-1:2004
     publication_id: OIML R136-1:2004
     tc_sc: ''
     year: 2004
@@ -258,7 +284,8 @@ data:
       ref:
         source: urn:oiml:pub:v:2:1993
         id: '5.7'
-  - publication: OIML R 134:2003
+  - edition: '2010'
+    publication: OIML R 134:2003
     publication_id: OIML R134:2003
     tc_sc: ''
     year: 2003
@@ -272,7 +299,8 @@ data:
       for influence quantities affecting the measuring instrument. [VIM:1993, 5.7]
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 75-1:2002
+  - edition: '2010'
+    publication: OIML R 75-1:2002
     publication_id: OIML R075-1:2002
     tc_sc: ''
     year: 2002
@@ -285,7 +313,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 60:2000
+  - edition: '2010'
+    publication: OIML R 60:2000
     publication_id: OIML R060:2000
     tc_sc: ''
     year: 2000
@@ -300,7 +329,8 @@ data:
       5.7]
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 129:2000
+  - edition: '2010'
+    publication: OIML R 129:2000
     publication_id: OIML R129:2000
     tc_sc: ''
     year: 2000
@@ -317,7 +347,8 @@ data:
       ref:
         source: urn:oiml:pub:v:2:1993
         id: '5.7'
-  - publication: OIML R 81:1998
+  - edition: '2010'
+    publication: OIML R 81:1998
     publication_id: OIML R081:1998
     tc_sc: ''
     year: 1998
@@ -329,7 +360,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 125:1998
+  - edition: '2010'
+    publication: OIML R 125:1998
     publication_id: OIML R125:1998
     tc_sc: ''
     year: 1998
@@ -346,7 +378,8 @@ data:
       ref:
         source: urn:oiml:pub:v:2:1993
         id: '5.7'
-  - publication: OIML R 50-1:1997
+  - edition: '2010'
+    publication: OIML R 50-1:1997
     publication_id: OIML R050-1:1997
     tc_sc: ''
     year: 1997
@@ -363,7 +396,8 @@ data:
       ref:
         source: urn:oiml:pub:v:2:1993
         id: '5.7'
-  - publication: OIML R 106-1:1997
+  - edition: '2010'
+    publication: OIML R 106-1:1997
     publication_id: OIML R106-1:1997
     tc_sc: ''
     year: 1997
@@ -375,7 +409,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 124:1997
+  - edition: '2010'
+    publication: OIML R 124:1997
     publication_id: OIML R124:1997
     tc_sc: ''
     year: 1997
@@ -388,7 +423,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 110:1994
+  - edition: '2010'
+    publication: OIML R 110:1994
     publication_id: OIML R110:1994
     tc_sc: ''
     year: 1994
@@ -400,7 +436,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 105:1993
+  - edition: '2010'
+    publication: OIML R 105:1993
     publication_id: OIML R105:1993
     tc_sc: ''
     year: 1993
@@ -417,11 +454,470 @@ data:
       ref:
         source: urn:oiml:pub:v:2:1993
         id: '5.7'
+  - edition: 202X
+    publication: OIML R142-1:2025
+    publication_id: OIML R142-1:2025
+    tc_sc: ''
+    year: 2025
+    clause: '3.15'
+    link:
+    g18_entry: '03727'
+    definition: operating condition prescribed for evaluating the performance of a
+      measuring instrument or measuring system or for comparison of measurement results
+    notes:
+    - 'Note 1:  Reference conditions specify intervals of values of the measurand
+      and influence quantities. Note 2: In IEC 60050-300, item 311-06-02, the term
+      “reference condition” refers to an operating condition under which the specified
+      instrumental measurement uncertainty is the smallest possible.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R049-1:2024
+    publication_id: OIML R049-1:2024
+    tc_sc: ''
+    year: 2024
+    clause: 3.4.5
+    link:
+    g18_entry: '02425'
+    definition: 'operating condition prescribed for evaluating the performance of
+      a meter or for comparison of measurement results [SOURCE: ISO/IEC Guide 99:2007/OIML
+      V 2-200:2012 (VIM) 4.11, [1], modified — “meter” replaces “measuring instrument
+      or measuring system”; original notes removed]'
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R139-1:2022
+    publication_id: OIML R139-1:2022
+    tc_sc: ''
+    year: 2022
+    clause: 3.1.7
+    link:
+    g18_entry: '03427'
+    definition: operating condition prescribed for evaluating the performance of a
+      measuring instrument or measuring system or for comparison of measurement results
+      [OIML V 2-200:2012, 4.11] [OIML V 1:2013, 0.09]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R129-1:2020
+    publication_id: OIML R129-1:2020
+    tc_sc: ''
+    year: 2020
+    clause: '2.31'
+    link:
+    g18_entry: '03429'
+    definition: a set of specified values of influence factors fixed to ensure valid.
+      intercomparison of results of measurements [VIM 4.11]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R150-1:2020
+    publication_id: OIML R150-1:2020
+    tc_sc: ''
+    year: 2020
+    clause: 2.5.3
+    link:
+    g18_entry: '03428'
+    definition: operating condition prescribed for evaluating the performance of a
+      measuring instrument or measuring system or for comparison of measurement results
+    notes:
+    - 'Note:  Reference conditions specify intervals of values of the measurand and
+      influence quantities. [Adapted from VIML:2013, 0.09 – part of note omitted]'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R117-1:2019
+    publication_id: OIML R117-1:2019
+    tc_sc: ''
+    year: 2019
+    clause: T.c.3.4
+    link:
+    g18_entry: '03435'
+    definition: set of specified values of influence factors fixed to ensure valid  intercomparison
+      of results of measurements
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R061-1:2017
+    publication_id: OIML R061-1:2017
+    tc_sc: ''
+    year: 2017
+    clause: 3.6.3
+    link:
+    g18_entry: '03433'
+    definition: operating condition prescribed for evaluating the performance of a
+      measuring instrument or measuring system or for comparison of measurement results
+      (VIM 4.11)
+    notes:
+    - 'Note:  Reference operating conditions specify intervals of values of the measurand
+      and of the influence quantities.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R080-2:2017
+    publication_id: OIML R080-2:2017
+    tc_sc: ''
+    year: 2017
+    clause: '2'
+    link:
+    g18_entry: '03430'
+    definition: conditions of use prescribed for testing the performance of a measuring
+      instrument or for intercomparison of results of measurements
+    notes:
+    - 'Note:  The reference conditions generally include reference values or reference
+      ranges for the influence quantities affecting the measuring instrument.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R059-1:2016
+    publication_id: OIML R059-1:2016
+    tc_sc: ''
+    year: 2016
+    clause: 2.1.10
+    link:
+    g18_entry: '02451'
+    definition: operating condition prescribed for evaluating the performance of a
+      measuring instrument or measuring system or for comparison of measurement results
+      [VIM 4.11]
+    notes:
+    - 'Note 1: Reference conditions specify intervals of values of the measurand and
+      influence quantities. Note 2: In IEC 60050-300, item 311-06-02, the term “reference
+      condition” refers to an operating condition under which the specified instrumental
+      measurement uncertainty is the smallest possible.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R050-1:2014
+    publication_id: OIML R050-1:2014
+    tc_sc: ''
+    year: 2014
+    clause: 2.5.3
+    link:
+    g18_entry: '03434'
+    definition: operating conditions prescribed for evaluating the performance of
+      a measuring instrument or measuring system or for comparison of measurement
+      results [VIM, 4.11]
+    notes:
+    - 'Note:  Reference operating conditions specify intervals of values of the measurand
+      and of the influence quantities.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R144-1:2013
+    publication_id: OIML R144-1:2013
+    tc_sc: ''
+    year: 2013
+    clause: '2.20'
+    link:
+    g18_entry: '02775'
+    definition: operating condition prescribed for evaluating the performance of a
+      measuring instrument or measuring system or for comparison of measurement results
+      [VIM, 4.11] [1]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R046-1:2012
+    publication_id: OIML R046-1:2012
+    tc_sc: ''
+    year: 2012
+    clause: 2.2.27
+    link:
+    g18_entry: 02326-R046-1
+    definition: operating condition prescribed for evaluating the performance of a
+      measuring instrument or measuring system or for comparison of measurement results
+    notes:
+    - 'Note 1: Reference operating conditions specify intervals of values of the measurand
+      and of the influence quantities. Note 2: In IEC 60050-300, item 311-06-02, the
+      term “reference condition” refers to an operating condition under which the
+      specified instrumental measurement uncertainty is the smallest possible. [OIML
+      V2-200:2012, 4.11] Note 3: For the application of this Recommendation, the terms
+      “measuring instrument” and “measuring system” mean: electricity meter.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R137:2012
+    publication_id: OIML R137:2012
+    tc_sc: ''
+    year: 2012
+    clause: 3.2.18
+    link:
+    g18_entry: '02674'
+    definition: set of reference values, or reference ranges of influence quantities,
+      prescribed for testing the performance of a gas meter, or for the intercomparison
+      of the results of measurements
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R106-1:2011
+    publication_id: OIML R106-1:2011
+    tc_sc: ''
+    year: 2011
+    clause: 0.5.3
+    link:
+    g18_entry: '02620'
+    definition: conditions of use prescribed for testing the performance of a measuring
+      instrument or for inter-comparison of results of measurements
+    notes:
+    - 'Note:  The reference conditions generally include reference values or reference
+      ranges for influence quantities affecting the measuring instrument. [VIM 5.7]'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 80-1:2009
+    publication_id: OIML R080-1:2009
+    tc_sc: ''
+    year: 2009
+    clause: '2.51'
+    link: https://www.oiml.org/en/files/pdf_R/r080-1-e09.pdf
+    g18_entry: '02290-R080-1'
+    definition: conditions of use prescribed for testing the performance of a measuring
+      instrument or for intercomparison of results of measurements
+    notes:
+    - 'Note:  The reference conditions generally include reference values or reference
+      ranges for the influence quantities affecting the measuring instrument.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 143:2009
+    publication_id: OIML R143:2009
+    tc_sc: ''
+    year: 2009
+    clause: '2.21'
+    link: https://www.oiml.org/en/files/pdf_R/r143-e09.pdf
+    g18_entry: '02147'
+    definition: operating condition prescribed for evaluating the performance of a
+      measuring instrument or measuring system or for comparison of measurement results
+      [VIM:2007, 4.11]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 71:2008
+    publication_id: OIML R071:2008
+    tc_sc: ''
+    year: 2008
+    clause: '3.10'
+    link: https://www.oiml.org/en/files/pdf_R/r071-e08.pdf
+    g18_entry: 02234-R071
+    definition: reference conditions applicable for the calibration certificate
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 85-1:2008
+    publication_id: OIML R085-1:2008
+    tc_sc: ''
+    year: 2008
+    clause: '3.22'
+    link: https://www.oiml.org/en/files/pdf_R/r085-1-e08.pdf
+    g18_entry: 02320-R085-1
+    definition: set of specified values of influence factors fixed to ensure valid
+      intercomparisons of the results of measurements
+    notes:
+    - 'Note:  Reference conditions generally specify intervals of values for any influence
+      quantity.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 99-1:2008
+    publication_id: OIML R099-1:2008
+    tc_sc: ''
+    year: 2008
+    clause: '3.28'
+    link: https://www.oiml.org/en/files/pdf_R/r099-1-e08.pdf
+    g18_entry: '02362'
+    definition: operating condition prescribed for evaluating the performance of a
+      measuring instrument or measuring system or for comparison of measurement results
+      [VIM:2007, 4.11]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 35-1:2007
+    publication_id: OIML R035-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: 2.3.5
+    link: https://www.oiml.org/en/files/pdf_R/r035-1-e07.pdf
+    g18_entry: '00378'
+    definition: set of specified values of influence factors fixed to ensure valid
+      intercomparison of the results of measurements
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 107-1:2007
+    publication_id: OIML R107-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.5.3
+    link: https://www.oiml.org/en/files/pdf_R/r107-1-e07.pdf
+    g18_entry: '01400'
+    definition: 'conditions of use prescribed for testing the performance of an instrument
+      or for intercomparison of results of measurements [VIM: 1993, 5.7]'
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 140:2007
+    publication_id: OIML R140:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.3.5
+    link: https://www.oiml.org/en/files/pdf_R/r140-e07.pdf
+    g18_entry: '02096'
+    definition: set of reference values or reference ranges of influence factors prescribed
+      for testing the performance of a measuring system or a device or for intercomparisons
+      of the results of measurements [adapted from VIM:2007, 4.11]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 51-1:2006
+    publication_id: OIML R051-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.5.3
+    link: https://www.oiml.org/en/files/pdf_R/r051-1-e06.pdf
+    g18_entry: '00668'
+    definition: set of specified values of influence factors fixed to ensure valid
+      intercomparison of the results of measurements [based on VIM:1993, 5.7]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 76-1:2006
+    publication_id: OIML R076-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.6.3
+    link: https://www.oiml.org/en/files/pdf_R/r076-1-e06.pdf
+    g18_entry: '00990'
+    definition: set of specified values of influence factors fixed to ensure valid
+      inter-comparison of the results of measurements
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R134:2006
+    publication_id: OIML R134:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.5.3
+    link:
+    g18_entry: '03432'
+    definition: conditions of use prescribed for testing the performance of a measuring
+      instrument or for intercomparison of results of measurements.
+    notes:
+    - 'Note:  The reference conditions generally include reference values or reference
+      ranges for influence quantities affecting the measuring instrument. [VIM:1993,
+      5.7]'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 136-1:2004
+    publication_id: OIML R136-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: T.5.3
+    link: https://www.oiml.org/en/files/pdf_R/r136-1-e04.pdf
+    g18_entry: '01919'
+    definition: set of specified values of influence factors fixed to ensure valid
+      intercomparison of the results of measurements [VIM:1993, 5.7]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 75-1:2002
+    publication_id: OIML R075-1:2002
+    tc_sc: ''
+    year: 2002
+    clause: '4.5'
+    link: https://www.oiml.org/en/files/pdf_R/r075-1-e02.pdf
+    g18_entry: '00855'
+    definition: conditions of use prescribed for testing the performance of a measuring
+      instrument or for intercomparison of results of measurements [VIM:1993, 5.7].
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 81:1998
+    publication_id: OIML R081:1998
+    tc_sc: ''
+    year: 1998
+    clause: '3.32'
+    link: https://www.oiml.org/en/files/pdf_R/r081-e98.pdf
+    g18_entry: '01041'
+    definition: a set of specified values of influence factors to ensure valid inter-comparisons
+      of the results of a measurement
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 125:1998
+    publication_id: OIML R125:1998
+    tc_sc: ''
+    year: 1998
+    clause: T.31
+    link: https://www.oiml.org/en/files/pdf_R/r125-e98.pdf
+    g18_entry: '01650'
+    definition: a set of specified values of influence factors fixed to ensure valid
+      intercomparisons of results of measurements (adapted from VIM:1993, 5.7)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 124:1997
+    publication_id: OIML R124:1997
+    tc_sc: ''
+    year: 1997
+    clause: '7'
+    link: https://www.oiml.org/en/files/pdf_R/r124-e97.pdf
+    g18_entry: '01612'
+    definition: a set of specified values of influence factors fixed to ensure valid
+      inter-comparison of results (adapted from VIM:1993, clause 5.7 in D 11 clause
+      T.14)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 110:1994
+    publication_id: OIML R110:1994
+    tc_sc: ''
+    year: 1994
+    clause: 2.5.2
+    link: https://www.oiml.org/en/files/pdf_R/r110-e94.pdf
+    g18_entry: '01438'
+    definition: the conditions of use prescribed for testing the performance of a
+      pressure balance or for intercomparison of measurement results
+    notes: []
+    consistency: pending
+    consistency_reason: ''
 status: current
 id: c7f68876-d3c4-5226-990f-24419892c3d4
 schema_version: '3'
 related:
 - type: see
-  ref: *1
+  ref:
+    source: urn:oiml:pub:v:2:1993
+    id: '5.7'
+    definition_text:
+    edition_label: VIM 1993
+    vocab: vim
+    role: legacy
+    year: 1993
 - type: see
-  ref: *2
+  ref:
+    source: urn:oiml:pub:v:2:2007
+    id: '4.11'
+    definition_text:
+    edition_label: VIM 2007
+    vocab: vim
+    role: prior
+    year: 2007

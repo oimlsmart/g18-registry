@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '03761'
+  term: fixed speed meter
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R091-1:2025
+    publication_id: OIML R091-1:2025
+    tc_sc: ''
+    year: 2025
+    clause: 3.2.8
+    link:
+    g18_entry: '03761'
+    definition: stationary speed meter, permanently installed in a cabinet, on a fixed
+      pole or a similar fixed stand
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: fca66d5f-175b-54aa-80e9-7c92c2be9033
+schema_version: '3'
+related: []

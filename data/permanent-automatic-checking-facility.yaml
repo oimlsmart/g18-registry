@@ -4,8 +4,13 @@ data:
   term: permanent automatic checking facility
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 135:2004
+  - edition: '2010'
+    publication: OIML R 135:2004
     publication_id: OIML R135:2004
     tc_sc: ''
     year: 2004
@@ -16,6 +21,21 @@ data:
       from OIML D 11, 3.18 and 3.18.1] significant faults to be detected and acted
       upon and which operates on each measurement cycle without the intervention of
       the operator
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 135:2004
+    publication_id: OIML R135:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.31'
+    link: https://www.oiml.org/en/files/pdf_R/r135-e04.pdf
+    g18_entry: '01870'
+    definition: facility incorporated in a measuring instrument which enables significant
+      faults to be detected and acted upon and which operates on each measurement
+      cycle without the intervention of the operator [adapted from OIML D 11, 3.18
+      and 3.18.1]
     notes: []
     consistency: pending
     consistency_reason: ''

@@ -1,0 +1,30 @@
+---
+data:
+  identifier: '03326'
+  term: Newtonian viscosity stnadrd specimen (VSS)
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML D033:2019
+    publication_id: OIML D033:2019
+    tc_sc: ''
+    year: 2019
+    clause: '2.2'
+    link:
+    g18_entry: '03326'
+    definition: Newtonian liquid sufficiently homogeneous and stable with respect
+      to viscosity (dynamic and kinematic) which has been determined traceable to
+      international or national measurement standards, by a metrologically valid procedure,
+      and is documented in a calibration certificate together with the associated
+      uncertainty, and a statement of metrological traceability
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 0161f675-f36d-5548-8ab5-6475e3bd21c5
+schema_version: '3'
+related: []

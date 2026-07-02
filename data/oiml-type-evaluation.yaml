@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '03347'
+  term: OIML type evaluation
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML D030:2020
+    publication_id: OIML D030:2020
+    tc_sc: ''
+    year: 2020
+    clause: 3.G.3-2
+    link:
+    g18_entry: '03347'
+    definition: type evaluation conducted on the basis of the relevant OIML Recommendation(s)
+      (OIML B 18, 3.30)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 25b84831-42aa-52c7-9f39-5e79f03d6eb5
+schema_version: '3'
+related: []

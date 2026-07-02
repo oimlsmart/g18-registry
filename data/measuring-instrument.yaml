@@ -1,14 +1,24 @@
 ---
 data:
-  identifier: '00079'
+  identifier: '00258'
   term: measuring instrument
   kind: defined_in_vim
   official_concept:
     source: urn:oiml:pub:v:2:1993
     id: '4.1'
     url: https://oimlsmart.github.io/vocab/vim-1993/concept/4.1
+    definition_text:
+    edition_label: VIM 1993
+    vocab: vim
+    role: legacy
+    year: 1993
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML D 31:2008
+  - edition: '2010'
+    publication: OIML D 31:2008
     publication_id: OIML D031:2008
     tc_sc: ''
     year: 2008
@@ -21,7 +31,8 @@ data:
     - "[VIM:1993, 4.1]"
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 136-1:2004
+  - edition: '2010'
+    publication: OIML R 136-1:2004
     publication_id: OIML R136-1:2004
     tc_sc: ''
     year: 2004
@@ -34,7 +45,8 @@ data:
     - "[VIM:1993, 4.1]"
     consistency: pending
     consistency_reason: ''
-  - publication: OIML B 3:2003
+  - edition: '2010'
+    publication: OIML B 3:2003
     publication_id: OIML B003:2003
     tc_sc: ''
     year: 2003
@@ -48,10 +60,11 @@ data:
     consistency_reason: ''
     related:
     - type: see
-      ref: &1
+      ref:
         source: urn:oiml:pub:v:2:1993
         id: '4.1'
-  - publication: OIML D 15:1986
+  - edition: '2010'
+    publication: OIML D 15:1986
     publication_id: OIML D015:1986
     tc_sc: ''
     year: 1986
@@ -71,9 +84,131 @@ data:
       ref:
         source: urn:oiml:pub:v:2:1993
         id: '4.1'
+  - edition: 202X
+    publication: OIML D031:2023
+    publication_id: OIML D031:2023
+    tc_sc: ''
+    year: 2023
+    clause: 3.2.33
+    link:
+    g18_entry: '03275'
+    definition: device used for making measurements, alone or in conjunction with
+      one or more supplementary devices adapter from [OIML V 1:2022, 0.10]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D005:2022
+    publication_id: OIML D005:2022
+    tc_sc: ''
+    year: 2022
+    clause: '3.11'
+    link:
+    g18_entry: '03277'
+    definition: device used for making measurements, alone or in conjunction with
+      one or more supplementary devices [VIM, 3.1]
+    notes:
+    - 'Note 1:  A measuring instrument that can be used alone is a measuring system.
+      Note 2: A measuring instrument that may be an indicationg measuring instrumentor
+      material measure.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R010:2022
+    publication_id: OIML R010:2022
+    tc_sc: ''
+    year: 2022
+    clause: '3.18'
+    link:
+    g18_entry: '03278'
+    definition: device used for making measurements, alone or in conjunction with
+      one or more supplementary devices (VIM3, 3.1)
+    notes:
+    - 'Note 1:  A measuring instrument that can be used alone is a measuring system.
+      Note 2: A measuring instrument that may be an indicationg measuring instrumentor
+      material measure.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R129-1:2019
+    publication_id: OIML R129-1:2019
+    tc_sc: ''
+    year: 2019
+    clause: 2.1.3
+    link:
+    g18_entry: '03276'
+    definition: device used for making measurements, alone or in conjunction with
+      one or more supplementary devices [VIM 3.1]
+    notes:
+    - 'Note: A measuring instrument that can be used alone is a measuring system.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D001:2012
+    publication_id: OIML D001:2012
+    tc_sc: ''
+    year: 2012
+    clause: 3.1.4
+    link:
+    g18_entry: '02204'
+    definition: In this Document, the term “measuring instrument” covers measuring
+      instruments in the sense of the VIM (see VIM, 3.1), as well as measuring systems
+      (VIM, 3.2), material measures (VIM, 3.6) and any part of a measuring instrument
+      or measuring system which can be the object of specific requirements and of
+      a specific evaluation of conformity. VIM 3.1 – measuring instrument device used
+      for making measurements, alone or in conjunction with one or more supplementary
+      devices
+    notes:
+    - Note 1 A measuring instrument that can be used alone is a measuring system.
+      Note 2 A measuring instrument may be an indicating measuring instrument or a
+      material measure. VIM 3.2 – measuring system set of one or more measuring instruments
+      and often other devices, including any reagent and supply, assembled and adapted
+      to give information used to generate measured quantity values within specified
+      intervals for quantities of specified kinds Note A measuring system may consist
+      of only one measuring instrument. VIM 3.6 – material measure measuring instrument
+      reproducing or supplying, in a permanent manner during its use, quantities of
+      one or more given kinds, each with an assigned quantity value
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 136-1:2004
+    publication_id: OIML R136-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: T.1.2
+    link: https://www.oiml.org/en/files/pdf_R/r136-1-e04.pdf
+    g18_entry: '01881'
+    definition: device intended to be used to make measurements, alone or in  conjunction
+      with supplementary device(s) [VIM:1993, 4.1]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D 15:1986
+    publication_id: OIML D015:1986
+    tc_sc: ''
+    year: 1986
+    clause: '2.1'
+    link: https://www.oiml.org/en/files/pdf_D/d015-e86.pdf
+    g18_entry: '00258'
+    definition: a device intended to make a measurement, alone or in conjunction with
+      other equipment [VIM, 4.01]
+    notes:
+    - 'Note 1  In this Document, the term measuring instrument is used as a common
+      denominationcovering: material measures, measuring instruments, measuring transducers
+      and  measuring  systems.'
+    consistency: pending
+    consistency_reason: ''
 status: current
 id: a5950950-cffd-5d9a-8642-88797e5c1ba1
 schema_version: '3'
 related:
 - type: see
-  ref: *1
+  ref:
+    source: urn:oiml:pub:v:2:1993
+    id: '4.1'
+    definition_text:
+    edition_label: VIM 1993
+    vocab: vim
+    role: legacy
+    year: 1993

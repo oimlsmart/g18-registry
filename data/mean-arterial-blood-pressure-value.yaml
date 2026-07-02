@@ -4,8 +4,13 @@ data:
   term: mean arterial blood pressure (value)
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 16-1:2002
+  - edition: '2010'
+    publication: OIML R 16-1:2002
     publication_id: OIML R016-1:2002
     tc_sc: ''
     year: 2002
@@ -19,7 +24,8 @@ data:
       at the heart level.
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 16-2:2002
+  - edition: '2010'
+    publication: OIML R 16-2:2002
     publication_id: OIML R016-2:2002
     tc_sc: ''
     year: 2002
@@ -31,6 +37,52 @@ data:
     notes:
     - Because of hydrostatic effects, this value should be measured with the cuff
       at the heart level.
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R149-1:2020
+    publication_id: OIML R149-1:2020
+    tc_sc: ''
+    year: 2020
+    clause: '2.7'
+    link:
+    g18_entry: '03243'
+    definition: value of the integral of one cycle of the blood pressure curve divided
+      by the time of one heart beat period
+    notes:
+    - 'Note: Because of hydrostatic effects, this value should be measured with the
+      cuff at the heart level. The calculation of the mean arterial blood pressure
+      using on;ly the systolic and diastolic blood pressure values is not recommended.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 16-1:2002
+    publication_id: OIML R016-1:2002
+    tc_sc: ''
+    year: 2002
+    clause: '2.5'
+    link: https://www.oiml.org/en/files/pdf_R/r016-1-e02.pdf
+    g18_entry: '00310'
+    definition: value of the integral of one cycle of the blood pressure curve divided
+      by the time of one heart beat period
+    notes:
+    - 'Note: Because of hydrostatic effects, this value should be measured with the
+      cuff at the heart level.'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 16-2:2002
+    publication_id: OIML R016-2:2002
+    tc_sc: ''
+    year: 2002
+    clause: '2.5'
+    link: https://www.oiml.org/en/files/pdf_R/r016-2-e02.pdf
+    g18_entry: '00325'
+    definition: value of the integral of one cycle of the blood pressure curve divided
+      by the time of one heart beat period
+    notes:
+    - 'Note: Because of hydrostatic effects, this value should be measured with the
+      cuff at the heart level.'
     consistency: pending
     consistency_reason: ''
 status: current

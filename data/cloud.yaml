@@ -1,0 +1,30 @@
+---
+data:
+  identifier: '03688'
+  term: cloud
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML D031:2023
+    publication_id: OIML D031:2023
+    tc_sc: ''
+    year: 2023
+    clause: 3.2.6
+    link:
+    g18_entry: '03688'
+    definition: servers that are accessed over the internet or another network, and
+      the software and databases that run on those servers
+    notes:
+    - Note:Cloud servers may not be physically accessible to all parties and may be
+      located in a different country, Their physical location may not be konown and
+      not fixed.
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: fbe5857a-2261-5f90-99fe-003fa2a5831c
+schema_version: '3'
+related: []

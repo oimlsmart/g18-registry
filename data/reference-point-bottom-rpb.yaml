@@ -1,17 +1,48 @@
 ---
 data:
-  identifier: '02255'
+  identifier: 02255-R080-1
   term: reference point bottom (RPB)
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 80-1:2009
+  - edition: '2010'
+    publication: OIML R 80-1:2009
     publication_id: OIML R080-1:2009
     tc_sc: ''
     year: 2009
     clause: '2.16'
     link: https://www.oiml.org/en/files/pdf_R/r080-1-e09.pdf
     g18_entry: '02255'
+    definition: reference point in the lower part of the tank, under normal operating
+      conditions below the liquid level
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R080-2:2017
+    publication_id: OIML R080-2:2017
+    tc_sc: ''
+    year: 2017
+    clause: '2'
+    link:
+    g18_entry: '03443'
+    definition: reference point in the lower part of the tank, under normal operating
+      conditions below the liquid level
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 80-1:2009
+    publication_id: OIML R080-1:2009
+    tc_sc: ''
+    year: 2009
+    clause: '2.16'
+    link: https://www.oiml.org/en/files/pdf_R/r080-1-e09.pdf
+    g18_entry: 02255-R080-1
     definition: reference point in the lower part of the tank, under normal operating
       conditions below the liquid level
     notes: []

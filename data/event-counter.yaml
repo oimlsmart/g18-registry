@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '02188'
+  identifier: '03052'
   term: event counter
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML D 31:2008
+  - edition: '2010'
+    publication: OIML D 31:2008
     publication_id: OIML D031:2008
     tc_sc: ''
     year: 2008
@@ -13,6 +18,18 @@ data:
     link: https://www.oiml.org/en/files/pdf_D/d031-e08.pdf
     g18_entry: '02188'
     definition: non resettable counter that increments each time an event occurs
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D031:2023
+    publication_id: OIML D031:2023
+    tc_sc: ''
+    year: 2023
+    clause: 3.2.21
+    link:
+    g18_entry: '03052'
+    definition: non-resettable counter that increments each time an event occurs
     notes: []
     consistency: pending
     consistency_reason: ''

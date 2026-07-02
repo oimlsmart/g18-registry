@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '01996'
+  identifier: '02936'
   term: compressed gaseous fuel measuring systems for vehicles
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 139:2007
+  - edition: '2010'
+    publication: OIML R 139:2007
     publication_id: OIML R139:2007
     tc_sc: ''
     year: 2007
@@ -16,6 +21,20 @@ data:
       compressed gaseous fuel. Such an instrument is hereafter called a "measuring
       system".
     notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R139-1:2022
+    publication_id: OIML R139-1:2022
+    tc_sc: ''
+    year: 2022
+    clause: 3.2.8
+    link:
+    g18_entry: '02936'
+    definition: measuring system intended for the refueling of motor vehicles with
+      compressed gaseous fuel
+    notes:
+    - 'Note: Hereafter such a system is referred to as a “measuring system”.'
     consistency: pending
     consistency_reason: ''
 status: current

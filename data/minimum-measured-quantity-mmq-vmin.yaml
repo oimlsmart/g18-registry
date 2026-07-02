@@ -1,0 +1,44 @@
+---
+data:
+  identifier: '02283-R080-1'
+  term: minimum measured quantity MMQ (Vmin)
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R080-2:2017
+    publication_id: OIML R080-2:2017
+    tc_sc: ''
+    year: 2017
+    clause: '2'
+    link:
+    g18_entry: '03310'
+    definition: smallest volume of liquid for which the measurement is metrologically
+      acceptable for the tank or individually for each of its compartments. It shall
+      be specified only for measuring systems suitable for measuring partial volumes.
+      Alternatively, the terms “minimum delivery” or “minimum receipt” may be used.
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 80-1:2009
+    publication_id: OIML R080-1:2009
+    tc_sc: ''
+    year: 2009
+    clause: '2.44'
+    link: https://www.oiml.org/en/files/pdf_R/r080-1-e09.pdf
+    g18_entry: '02283-R080-1'
+    definition: smallest volume of liquid for which the measurement is metrologically
+      acceptable for the tank or individually for each of its compartments. It shall
+      be specified only for measuring systems suitable for measuring partial volumes.
+      Alternatively, the terms “minimum delivery” or “minimum receipt” may be used.
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 8f476e0a-ab2b-5685-bbf8-b01d4890e394
+schema_version: '3'
+related: []

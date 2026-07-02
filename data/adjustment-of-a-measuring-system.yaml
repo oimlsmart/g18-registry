@@ -1,0 +1,28 @@
+---
+data:
+  identifier: '02846'
+  term: adjustment of a measuring system
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R126-1:2021
+    publication_id: OIML R126-1:2021
+    tc_sc: ''
+    year: 2021
+    clause: 3.1.2
+    link:
+    g18_entry: '02846'
+    definition: set of operations carried out on a measuring system so that it provides
+      prescribed indications corresponding to given values of a quantity to be measured
+      (OIML V 2-200, 3.11) [2]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 5af55bfd-41f2-5b07-944a-e6fdac1909cc
+schema_version: '3'
+related: []

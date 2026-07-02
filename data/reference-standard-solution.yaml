@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '01196'
+  identifier: '01522'
   term: reference standard solution
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 116:2006
+  - edition: '2010'
+    publication: OIML R 116:2006
     publication_id: OIML R116:2006
     tc_sc: ''
     year: 2006
@@ -17,7 +22,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 100:1991
+  - edition: '2010'
+    publication: OIML R 100:1991
     publication_id: OIML R100:1991
     tc_sc: ''
     year: 1991
@@ -27,6 +33,33 @@ data:
     definition: a solution containing an accurately known concentration of a sample
       element or elements of interest and that is used for testing and calibration
       of the instrument
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R100-1:2013
+    publication_id: OIML R100-1:2013
+    tc_sc: ''
+    year: 2013
+    clause: '3.4'
+    link:
+    g18_entry: '02515'
+    definition: solution containing an accurately known concentration of a sample
+      element or elements of interest and that is used for testing and calibrating
+      the instrument
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 116:2006
+    publication_id: OIML R116:2006
+    tc_sc: ''
+    year: 2006
+    clause: '3.9'
+    link: https://www.oiml.org/en/files/pdf_R/r116-e06.pdf
+    g18_entry: '01522'
+    definition: solution with an accurately known concentration of a sample element
+      or elements of interest used for testing and calibrating an instrument
     notes: []
     consistency: pending
     consistency_reason: ''

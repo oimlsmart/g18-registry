@@ -4,8 +4,13 @@ data:
   term: ambient pressure
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 109:1993
+  - edition: '2010'
+    publication: OIML R 109:1993
     publication_id: OIML R109:1993
     tc_sc: ''
     year: 1993
@@ -19,7 +24,38 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 101:1991
+  - edition: '2010'
+    publication: OIML R 101:1991
+    publication_id: OIML R101:1991
+    tc_sc: ''
+    year: 1991
+    clause: T.3
+    link: https://www.oiml.org/en/files/pdf_R/r101-e91.pdf
+    g18_entry: '01205'
+    definition: the pressure of the environment of the instrument, at the place and
+      time of the measurements. The ambient pressure may be atmospheric pressure,
+      or it may have a value near to that of the atmospheric pressure when measurements
+      are carried out in an enclosed, sealed space
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 109:1993
+    publication_id: OIML R109:1993
+    tc_sc: ''
+    year: 1993
+    clause: '2.3'
+    link: https://www.oiml.org/en/files/pdf_R/r109-e93.pdf
+    g18_entry: '01413'
+    definition: the pressure of the environment of the instrument at the time and
+      place of the measurements. The ambient pressure may be atmospheric pressure,
+      or it may have a value near to that of atmospheric pressure when measurements
+      are carried out in an enclosed, sealed space
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 101:1991
     publication_id: OIML R101:1991
     tc_sc: ''
     year: 1991

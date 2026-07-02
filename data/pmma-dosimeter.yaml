@@ -4,8 +4,29 @@ data:
   term: PMMA dosimeter
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 131:2001
+  - edition: '2010'
+    publication: OIML R 131:2001
+    publication_id: OIML R131:2001
+    tc_sc: ''
+    year: 2001
+    clause: '3.2'
+    link: https://www.oiml.org/en/files/pdf_R/r131-e01.pdf
+    g18_entry: '01740'
+    definition: piece of specially selected or specially developed PMMA material that
+      exhibits characterizable ionizing radiation-induced changes in specific optical
+      absorbance as a function of absorbed dose, individually encapsulated by the
+      manufacturer in a hermetically sealed pouch. The change in specific absorbance
+      may be related to absorbed dose in the surrounding material
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 131:2001
     publication_id: OIML R131:2001
     tc_sc: ''
     year: 2001

@@ -4,8 +4,13 @@ data:
   term: sampling probe
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 143:2009
+  - edition: '2010'
+    publication: OIML R 143:2009
     publication_id: OIML R143:2009
     tc_sc: ''
     year: 2009
@@ -18,13 +23,55 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 99-1:2008
+  - edition: '2010'
+    publication: OIML R 99-1:2008
     publication_id: OIML R099-1:2008
     tc_sc: ''
     year: 2008
     clause: '3.1'
     link: https://www.oiml.org/en/files/pdf_R/r099-1-e08.pdf
     g18_entry: '02333'
+    definition: tube that is introduced into the exhaust tail pipe of a vehicle to
+      take gas samples
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R144-1:2013
+    publication_id: OIML R144-1:2013
+    tc_sc: ''
+    year: 2013
+    clause: '2.2'
+    link:
+    g18_entry: '02753'
+    definition: 'device inserted into the gas, designed to take a representative sample
+      thereof, to which a sample line or a sample container is connected [ISO 7504:
+      2001] [16]'
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 143:2009
+    publication_id: OIML R143:2009
+    tc_sc: ''
+    year: 2009
+    clause: '2.2'
+    link: https://www.oiml.org/en/files/pdf_R/r143-e09.pdf
+    g18_entry: '02124'
+    definition: device inserted into the gas, designed to take a representative sample
+      thereof, to which a sample line or a sample container is connected
+    notes:
+    - "[ISO 7504: 2001]"
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 99-1:2008
+    publication_id: OIML R099-1:2008
+    tc_sc: ''
+    year: 2008
+    clause: '3.1'
+    link: https://www.oiml.org/en/files/pdf_R/r099-1-e08.pdf
+    g18_entry: 02333-R099-1
     definition: tube that is introduced into the exhaust tail pipe of a vehicle to
       take gas samples
     notes: []

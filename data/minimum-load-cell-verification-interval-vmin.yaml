@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '03307'
+  term: minimum load cell verification interval (vmin)
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R060-1:2021
+    publication_id: OIML R060-1:2021
+    tc_sc: ''
+    year: 2021
+    clause: 3.5.11
+    link:
+    g18_entry: '03307'
+    definition: smallest load cell verification interval in units of mass into which
+      the maximum measuring range (Emax – Emin ) can be divided
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 7fa141e6-30ce-5afb-9ec6-0f95e8dc6bf4
+schema_version: '3'
+related: []

@@ -1,0 +1,28 @@
+---
+data:
+  identifier: 02300-R046-1
+  term: current (I)
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R046-1:2012
+    publication_id: OIML R046-1:2012
+    tc_sc: ''
+    year: 2012
+    clause: 2.2.1
+    link:
+    g18_entry: 02300-R046-1
+    definition: value of the electrical current flowing through the meter
+    notes:
+    - Note:The term “current” in this Recommendation indicates r.m.s. (root mean square)
+      values unless otherwise specified
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 3ce8572a-85a0-5e32-8326-ad5db5455fdc
+schema_version: '3'
+related: []

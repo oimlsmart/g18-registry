@@ -4,8 +4,13 @@ data:
   term: correction factor
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 140:2007
+  - edition: '2010'
+    publication: OIML R 140:2007
     publication_id: OIML R140:2007
     tc_sc: ''
     year: 2007
@@ -15,6 +20,20 @@ data:
     definition: numerical factor (single constant or coming from a mathematical (adapted
       from VIM:2007, 2.53) function "f(q)") by which the uncorrected result is multiplied
       to compensate for the estimated systematic error
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 140:2007
+    publication_id: OIML R140:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.1.10
+    link: https://www.oiml.org/en/files/pdf_R/r140-e07.pdf
+    g18_entry: '02050'
+    definition: numerical factor (single constant or coming from a mathematical function
+      “f(q)”) by which the uncorrected result is multiplied to compensate for the
+      estimated systematic error [adapted from VIM:2007, 2.53]
     notes: []
     consistency: pending
     consistency_reason: ''

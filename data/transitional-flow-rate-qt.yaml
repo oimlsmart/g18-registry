@@ -1,0 +1,29 @@
+---
+data:
+  identifier: '02682'
+  term: transitional flow rate, Qt
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R137:2012
+    publication_id: OIML R137:2012
+    tc_sc: ''
+    year: 2012
+    clause: 3.3.4
+    link:
+    g18_entry: '02682'
+    definition: flow rate which occurs between the maximum flow rate Qmax and the
+      minimum flow rate Qmin that divides the flow rate range into two zones, the
+      “upper zone” and the “lower zone”, each characterized by its own maximum permissible
+      error
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 7bc75ea6-d740-50c7-8499-c4e94161da1c
+schema_version: '3'
+related: []

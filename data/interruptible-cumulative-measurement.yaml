@@ -1,0 +1,30 @@
+---
+data:
+  identifier: '03159'
+  term: interruptible cumulative measurement
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML D031:2019
+    publication_id: OIML D031:2019
+    tc_sc: ''
+    year: 2019
+    clause: 3.2.27
+    link:
+    g18_entry: '03159'
+    definition: process of cumulative measurement of the quantity value of a measurand
+      that can be easily and rapidly stopped during normal operation
+    notes:
+    - 'Note 1: Examples include: a) discontinuos totalising automatic weighing instrument,
+      b) fuel dispenser. Note 2: See also non-interruptible cumulative measurement
+      (3.2.48).'
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: f5ddba54-3956-5bf9-925c-ea415f6af0ed
+schema_version: '3'
+related: []

@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '00099'
-  term: OIML Test Report
+  identifier: '03346'
+  term: OIML test report
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML B 10-1:2004
+  - edition: '2010'
+    publication: OIML B 10-1:2004
     publication_id: OIML B010-1:2004
     tc_sc: TC 3/SC 2
     year: 2004
@@ -17,6 +22,24 @@ data:
     notes:
     - The OIML Test Report shall always be accompanied by the OIML Certificate of
       Conformity which validates it.
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D030:2020
+    publication_id: OIML D030:2020
+    tc_sc: ''
+    year: 2020
+    clause: 3.G.3-2
+    link:
+    g18_entry: '03346'
+    definition: report issued by a test laboratory that includes the results of the
+      tests and egsaminations it carried out on the basis of relevant OIML Recommendation
+      during OIML type evaluation on identified sample(s) of given type of measuring
+      instrument or module (OIML B 18, 3.29)
+    notes:
+    - 'Note: Unless the OIML Recommendation states otherwise, several test reports
+      may be issued if several test laboratories are involved in covering all of the
+      tests and examinations specified in the relevant OIML Recommenadtion.'
     consistency: pending
     consistency_reason: ''
 status: current

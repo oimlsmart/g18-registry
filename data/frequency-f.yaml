@@ -1,0 +1,26 @@
+---
+data:
+  identifier: 02307-R046-1
+  term: frequency (f)
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R046-1:2012
+    publication_id: OIML R046-1:2012
+    tc_sc: ''
+    year: 2012
+    clause: 2.2.8
+    link:
+    g18_entry: 02307-R046-1
+    definition: frequency of the voltage (and current) supplied to the meter
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 74d576b0-6903-5253-9d9d-1139bbc0384e
+schema_version: '3'
+related: []

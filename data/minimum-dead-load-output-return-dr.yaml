@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '00720'
+  identifier: '03303'
   term: minimum dead load output return (DR)
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 60:2000
+  - edition: '2010'
+    publication: OIML R 60:2000
     publication_id: OIML R060:2000
     tc_sc: ''
     year: 2000
@@ -14,6 +19,20 @@ data:
     g18_entry: '00720'
     definition: difference in load cell output at minimum dead load, measured before
       and after load application
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R060-1:2021
+    publication_id: OIML R060-1:2021
+    tc_sc: ''
+    year: 2021
+    clause: 3.5.10
+    link:
+    g18_entry: '03303'
+    definition: difference of load cell output, expressed in units of mass at the
+      minimum dead load (Dmin), measured before and after application of a load of
+      Dmax
     notes: []
     consistency: pending
     consistency_reason: ''

@@ -1,0 +1,41 @@
+---
+data:
+  identifier: '03610'
+  term: universal  device
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R142-1:2025
+    publication_id: OIML R142-1:2025
+    tc_sc: ''
+    year: 2025
+    clause: '3.31'
+    link:
+    g18_entry: '03734'
+    definition: device that is not constructed for a specific purpose, but that can
+      be adapted to a metrological task by software.
+    notes:
+    - Note:This kind of device might have undeclared interfaces to operating system
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML D031:2023
+    publication_id: OIML D031:2023
+    tc_sc: ''
+    year: 2023
+    clause: 3.2.71
+    link:
+    g18_entry: '03610'
+    definition: device that is not constructed for a specific purpose, but that can
+      be adapted to a legally relevant task by software.
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 021105d5-f4d9-55b7-b258-a0a3a0d10050
+schema_version: '3'
+related: []

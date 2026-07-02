@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '00996'
+  identifier: '02489'
   term: principal display panel
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 79:1997
+  - edition: '2010'
+    publication: OIML R 79:1997
     publication_id: OIML R079:1997
     tc_sc: ''
     year: 1997
@@ -15,6 +20,21 @@ data:
     definition: the part of a package that is most likely to be displayed, presented,
       shown or examined under normal and customary conditions of display
     notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R079:2015
+    publication_id: OIML R079:2015
+    tc_sc: ''
+    year: 2015
+    clause: '2.10'
+    link:
+    g18_entry: '02489'
+    definition: part of a prepackage that is designed to be visible under normal conditions
+      of display for sale
+    notes:
+    - 'Note: This is normally the main or front panel of the prepackage and there
+      could be more than one.'
     consistency: pending
     consistency_reason: ''
 status: current

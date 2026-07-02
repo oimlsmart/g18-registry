@@ -4,8 +4,12 @@ data:
   term: flow sensor or volume sensor
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  primary_edition: 202X
   publications:
-  - publication: OIML R 49-1:2006
+  - edition: '2010'
+    publication: OIML R 49-1:2006
     publication_id: OIML R049-1:2006
     tc_sc: ''
     year: 2006
@@ -18,7 +22,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 49-2:2006
+  - edition: '2010'
+    publication: OIML R 49-2:2006
     publication_id: OIML R049-2:2006
     tc_sc: ''
     year: 2006

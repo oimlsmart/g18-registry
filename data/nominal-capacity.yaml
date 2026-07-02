@@ -4,8 +4,13 @@ data:
   term: nominal capacity
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 71:2008
+  - edition: '2010'
+    publication: OIML R 71:2008
     publication_id: OIML R071:2008
     tc_sc: ''
     year: 2008
@@ -17,7 +22,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 40:1981
+  - edition: '2010'
+    publication: OIML R 40:1981
     publication_id: OIML R040:1981
     tc_sc: ''
     year: 1981
@@ -29,7 +35,8 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 41:1981
+  - edition: '2010'
+    publication: OIML R 41:1981
     publication_id: OIML R041:1981
     tc_sc: ''
     year: 1981
@@ -41,7 +48,60 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
-  - publication: OIML R 43:1981
+  - edition: '2010'
+    publication: OIML R 43:1981
+    publication_id: OIML R043:1981
+    tc_sc: ''
+    year: 1981
+    clause: '2.2'
+    link: https://www.oiml.org/en/files/pdf_R/r043-e81.pdf
+    g18_entry: '00400'
+    definition: the nominal capacity of a standard graduated flask is the volume used
+      to designate the flask (see point 3.2.)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 71:2008
+    publication_id: OIML R071:2008
+    tc_sc: ''
+    year: 2008
+    clause: '3.2'
+    link: https://www.oiml.org/en/files/pdf_R/r071-e08.pdf
+    g18_entry: 02226-R071
+    definition: rounded value of the maximum volume of liquid that a tank may contain
+      under normal conditions of use
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 40:1981
+    publication_id: OIML R040:1981
+    tc_sc: ''
+    year: 1981
+    clause: '2.2'
+    link: https://www.oiml.org/en/files/pdf_R/r040-e81.pdf
+    g18_entry: '00392'
+    definition: nominal capacity is the maximum numbered value of the scale of volumes
+      shown on the pipette
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 41:1981
+    publication_id: OIML R041:1981
+    tc_sc: ''
+    year: 1981
+    clause: '2.2'
+    link: https://www.oiml.org/en/files/pdf_R/r041-e81.pdf
+    g18_entry: '00396'
+    definition: the nominal capacity is the maximum numbered value of the scale of
+      volumes shown on the burette
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 43:1981
     publication_id: OIML R043:1981
     tc_sc: ''
     year: 1981

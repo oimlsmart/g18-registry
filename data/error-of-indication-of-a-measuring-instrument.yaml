@@ -7,8 +7,18 @@ data:
     source: urn:oiml:pub:v:2:1993
     id: '5.20'
     url: https://oimlsmart.github.io/vocab/vim-1993/concept/5.20
+    definition_text:
+    edition_label: VIM 1993
+    vocab: vim
+    role: legacy
+    year: 1993
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 75-1:2002
+  - edition: '2010'
+    publication: OIML R 75-1:2002
     publication_id: OIML R075-1:2002
     tc_sc: ''
     year: 2002
@@ -22,12 +32,32 @@ data:
     consistency_reason: ''
     related:
     - type: see
-      ref: &1
+      ref:
         source: urn:oiml:pub:v:2:1993
         id: '5.20'
+  - edition: 202X
+    publication: OIML R 75-1:2002
+    publication_id: OIML R075-1:2002
+    tc_sc: ''
+    year: 2002
+    clause: 4.9.1
+    link: https://www.oiml.org/en/files/pdf_R/r075-1-e02.pdf
+    g18_entry: '00859'
+    definition: indication of the measuring instrument minus the conventional true
+      value of the corresponding input quantity [adapted from VIM:1993, 5.20].
+    notes: []
+    consistency: pending
+    consistency_reason: ''
 status: current
 id: 9baf0e53-f88b-5703-b806-1616d58af0e7
 schema_version: '3'
 related:
 - type: see
-  ref: *1
+  ref:
+    source: urn:oiml:pub:v:2:1993
+    id: '5.20'
+    definition_text:
+    edition_label: VIM 1993
+    vocab: vim
+    role: legacy
+    year: 1993

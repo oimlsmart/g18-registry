@@ -4,8 +4,41 @@ data:
   term: response time
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 143:2009
+  - edition: '2010'
+    publication: OIML R 143:2009
+    publication_id: OIML R143:2009
+    tc_sc: ''
+    year: 2009
+    clause: '2.12'
+    link: https://www.oiml.org/en/files/pdf_R/r143-e09.pdf
+    g18_entry: '02138'
+    definition: time interval between the instant of a stepwise concentration change
+      of the substance (SO2) being measured and the instant at which the signal reaches
+      90 % of its stable value
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R144-1:2013
+    publication_id: OIML R144-1:2013
+    tc_sc: ''
+    year: 2013
+    clause: '2.12'
+    link:
+    g18_entry: '02767'
+    definition: time interval between the instant of a stepwise concentration change
+      of the component being measured (CO, NO, NO2 or NOx) and the instant at which
+      the signal reaches 90 % of its stable value
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 143:2009
     publication_id: OIML R143:2009
     tc_sc: ''
     year: 2009

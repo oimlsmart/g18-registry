@@ -1,0 +1,56 @@
+---
+data:
+  identifier: '02445'
+  term: certified reference material CRM
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML D010:2022
+    publication_id: OIML D010:2022
+    tc_sc: ''
+    year: 2022
+    clause: '3.6'
+    link:
+    g18_entry: '02925'
+    definition: 'reference material, accompanied by documentation issued by an authoritative
+      body and providing one or more specified property values with associated uncertainties
+      and traceabilities, using valid procedures Example: Human serum with assigned
+      quantity value for the concentration of cholesterol and associated measurement
+      uncertainty stated in an accompanying certificate, used as a calibrator or measurement
+      trueness control material. (VIM3, 5.14)'
+    notes:
+    - 'Note 1: ‘Documentation’ is given in the form of a ‘certificate’ (see ISO Guide
+      31:2000). Note 2: Procedures for the production and certification of certified
+      reference materials are given, e.g. in ISO Guide 34 and ISO Guide 35. Note 3:
+      In this definition, “uncertainty” covers both ‘measurement uncertainty’ and
+      ‘uncertainty associated with the value of a nominal property’, such as for identity
+      and sequence. “Traceability” covers both ‘metrological traceability of a quantity
+      value’ and ‘traceability of a nominal property value’. Note 4: Specified quantity
+      values of certified reference materials require metrological traceability with
+      associated measurement uncertainty (Accred. Qual. Assur.:2006). Note 5: ISO/REMCO
+      has an analogous definition (Accred. Qual. Assur.:2006) but uses the modifiers
+      “metrological” and “metrologically” to refer to both quantity and nominal property'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R059-1:2016
+    publication_id: OIML R059-1:2016
+    tc_sc: ''
+    year: 2016
+    clause: 2.1.4
+    link:
+    g18_entry: '02445'
+    definition: reference material, accompanied by documentation issued by an authoritative
+      body and providing one or more specified property values with associated uncertainties
+      and traceabilities, using valid procedures [VIM 5.14]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: f56cc96f-9a3c-5a9b-9786-d2631f19a65d
+schema_version: '3'
+related: []

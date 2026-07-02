@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '02827-2'
+  term: demountable contact sensor
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication:
+    publication_id:
+    tc_sc: ''
+    year:
+    clause:
+    link:
+    g18_entry: '02827-2'
+    definition: contact thermometric sensor which can be  removed from the BBR without
+      dismantling it for the purpose of a separate calibration and/or verification
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 90da4885-82bf-5284-8ec0-115782752ea3
+schema_version: '3'
+related: []

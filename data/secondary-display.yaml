@@ -1,0 +1,42 @@
+---
+data:
+  identifier: '03475'
+  term: secondary display
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R150-1:2020
+    publication_id: OIML R150-1:2020
+    tc_sc: ''
+    year: 2020
+    clause: 2.2.8.7.2
+    link:
+    g18_entry: '03475'
+    definition: additional (optional) digital peripheral device, which repeats the
+      weighing result and any other primary indication, or provides further, non-metrological
+      information
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R061-1:2017
+    publication_id: OIML R061-1:2017
+    tc_sc: ''
+    year: 2017
+    clause: 3.5.1.6
+    link:
+    g18_entry: '03680'
+    definition: additional (optional) digital peripheral device, which repeats the
+      weighing result and any other primary indication, or provides further, non-metrological
+      information
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 4d2c3b28-5b12-5e34-add6-b68b5becfdc0
+schema_version: '3'
+related: []

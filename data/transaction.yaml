@@ -1,11 +1,16 @@
 ---
 data:
-  identifier: '02277'
+  identifier: 02277-R080-1
   term: transaction
   kind: undefined
   official_concept:
+  editions_present:
+  - '2010'
+  - 202X
+  primary_edition: 202X
   publications:
-  - publication: OIML R 80-1:2009
+  - edition: '2010'
+    publication: OIML R 80-1:2009
     publication_id: OIML R080-1:2009
     tc_sc: ''
     year: 2009
@@ -22,6 +27,46 @@ data:
       The parties interested in a transaction may be the parties themselves or their
       representatives (for example: the employee in a filling station the driver of
       a tanker).'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R080-2:2019
+    publication_id: OIML R080-2:2019
+    tc_sc: ''
+    year: 2019
+    clause: '2'
+    link:
+    g18_entry: '03577'
+    definition: delivery of liquid products from one or several measuring compartments
+      to a recipient
+    notes:
+    - 'Note:  The transaction can also be a receipt (e.g. a milk collecting truck).
+      A transaction is settled when the parties interested in the transaction have
+      made their agreement known (explicitly or implicitly) as regards the amount
+      of the transaction. This may be a payment, signing a credit card voucher, signing
+      a delivery order, etc. The parties interested in a transaction may be the parties
+      themselves or their representatives (for example: the employee in a filling
+      station, the driver of a tanker).'
+    consistency: pending
+    consistency_reason: ''
+  - edition: 202X
+    publication: OIML R 80-1:2009
+    publication_id: OIML R080-1:2009
+    tc_sc: ''
+    year: 2009
+    clause: '2.38'
+    link: https://www.oiml.org/en/files/pdf_R/r080-1-e09.pdf
+    g18_entry: 02277-R080-1
+    definition: delivery of liquid products from one or several measuring compartments
+      to a recipient
+    notes:
+    - 'Note:  The transaction can also be a receipt (e.g. a milk collecting truck).
+      A transaction is settled when the parties interested in the transaction have
+      made their agreement known (explicitly or implicitly) as regards the amount
+      of the transaction. This may be a payment, signing a credit card voucher, signing
+      a delivery order, etc. The parties interested in a transaction may be the parties
+      themselves or their representatives (for example: the employee in a filling
+      station, the driver of a tanker).'
     consistency: pending
     consistency_reason: ''
 status: current

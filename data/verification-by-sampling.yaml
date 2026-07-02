@@ -1,0 +1,28 @@
+---
+data:
+  identifier: 02266-D016
+  term: verification by sampling
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML D016:2011
+    publication_id: OIML D016:2011
+    tc_sc: ''
+    year: 2011
+    clause: '2.13'
+    link:
+    g18_entry: 02266-D016
+    definition: verification of a homogenous batch of measuring instruments based
+      on the results of examination of a statistically appropriate number of specimens
+      selected at random from an identified lot [VIML 2.14]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 3dfce89b-95db-58c0-9251-b93176e1c286
+schema_version: '3'
+related: []

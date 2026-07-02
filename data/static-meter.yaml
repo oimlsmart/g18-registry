@@ -1,0 +1,28 @@
+---
+data:
+  identifier: '02287-R046-1'
+  term: static meter
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R046-1:2012
+    publication_id: OIML R046-1:2012
+    tc_sc: ''
+    year: 2012
+    clause: 2.1.8
+    link:
+    g18_entry: '02287-R046-1'
+    definition: meter in which current and voltage act on solid state (electronic)
+      elements to produce an output proportional to the energy to be measured [IEC
+      62052-11:2003, 3.1.2]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 974b6735-d8fd-528f-80de-cfa835e7535a
+schema_version: '3'
+related: []
