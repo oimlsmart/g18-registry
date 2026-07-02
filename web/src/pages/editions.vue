@@ -19,11 +19,11 @@ import editionStats from "@/data/edition-stats.json";
     </table>
   </section>
   <section class="card">
-    <h2>What changed</h2>
+    <h2>What changed between editions</h2>
     <ul>
       <li><RouterLink to="/harmonization/">Harmonisation worklist →</RouterLink></li>
-      <li><RouterLink to="/terms/?only=2010">Terms in 2010 but missing from 202X →</RouterLink></li>
-      <li><RouterLink to="/terms/?only=202X">Terms added in 202X →</RouterLink></li>
+      <li><RouterLink to="/terms/?only=2010-only">Terms removed: in 2010 but deleted in 202X →</RouterLink></li>
+      <li><RouterLink to="/terms/?only=202X-only">Terms added: new in 202X, not in 2010 →</RouterLink></li>
       <li><RouterLink to="/conflicts/">ID conflicts →</RouterLink></li>
     </ul>
   </section>

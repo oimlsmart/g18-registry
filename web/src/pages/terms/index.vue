@@ -23,7 +23,16 @@ const allTCs = computed(() => {
 
 const filtered = computed(() => {
   let t = terms as any[];
-  if (onlyEdition.value) t = t.filter(x => x.editions_present?.includes(onlyEdition.value));
+  if (onlyEdition.value === "2010-only") {
+    // Deleted: in 2010 but NOT in 202X
+    t = t.filter(x => (x.editions_present || []).includes("2010") && !(x.editions_present || []).includes("202X"));
+  } else if (onlyEdition.value === "202X-only") {
+    // Added: in 202X but NOT in 2010
+    t = t.filter(x => (x.editions_present || []).includes("202X") && !(x.editions_present || []).includes("2010"));
+  } else if (onlyEdition.value) {
+    // Normal: all terms in this edition
+    t = t.filter(x => x.editions_present?.includes(onlyEdition.value));
+  }
   if (onlyTC.value) {
     t = t.filter(x => x.publications?.some((p: any) => p.tc_sc === onlyTC.value));
   }
