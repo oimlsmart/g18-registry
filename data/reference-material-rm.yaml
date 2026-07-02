@@ -12,7 +12,7 @@ data:
   - edition: '2010'
     publication: OIML D 18:2008
     publication_id: OIML D018:2008
-    tc_sc: ''
+    tc_sc: TC3/SC3
     year: 2008
     clause: '2.1'
     link: https://www.oiml.org/en/files/pdf_D/d018-e08.pdf
@@ -27,7 +27,7 @@ data:
   - edition: '2010'
     publication: OIML R 142:2008
     publication_id: OIML R142:2008
-    tc_sc: ''
+    tc_sc: TC17/SC2
     year: 2008
     clause: 2.4(annex 6)
     link: https://www.oiml.org/en/files/pdf_R/r142-e08.pdf
@@ -83,7 +83,7 @@ data:
   - edition: 202X
     publication: OIML D 18:2008
     publication_id: OIML D018:2008
-    tc_sc: ''
+    tc_sc: TC3/SC3
     year: 2008
     clause: '2.1'
     link: https://www.oiml.org/en/files/pdf_D/d018-e08.pdf

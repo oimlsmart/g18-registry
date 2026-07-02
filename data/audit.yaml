@@ -22,7 +22,7 @@ data:
   - edition: '2010'
     publication: OIML D 27:2001
     publication_id: OIML D027:2001
-    tc_sc: ''
+    tc_sc: TC3/SC1
     year: 2001
     clause: '2.15'
     link: https://www.oiml.org/en/files/pdf_D/d027-e01.pdf
@@ -46,10 +46,8 @@ data:
     - 6. When quality and environmental management systems are audited together, this
       is termed a "combined audit". When two or more auditing organizations cooperate
       to audit a single auditee jointly, t is termed "joint audit".
-    consistency: partial
-    consistency_reason: Publication narrows the concept by adding 'systematic, independent
-      and documented' qualifiers and substitutes audit-specific terms ('audit evidence/criteria')
-      for the broader 'conformity assessment' object and 'specified requirements.'
+    consistency: pending
+    consistency_reason: ''
     related:
     - type: see
       ref:
@@ -58,7 +56,7 @@ data:
   - edition: 202X
     publication: OIML D 27:2001
     publication_id: OIML D027:2001
-    tc_sc: ''
+    tc_sc: TC3/SC1
     year: 2001
     clause: '2.15'
     link: https://www.oiml.org/en/files/pdf_D/d027-e01.pdf
@@ -78,10 +76,8 @@ data:
       ISO 14001:1996. When quality and environmental management systems are audited
       together, this is termed a “combined audit”. When two or more auditing organizations
       cooperate to audit a single auditee jointly, this is termed “joint audit”.'
-    consistency: partial
-    consistency_reason: Publication narrows the concept by adding 'systematic, independent
-      and documented' qualifiers and substitutes audit-specific terms ('audit evidence/criteria')
-      for the broader 'conformity assessment' object and 'specified requirements.'
+    consistency: pending
+    consistency_reason: ''
 status: current
 id: e7421b9b-9c88-5bf5-8f42-77566f10a79c
 schema_version: '3'

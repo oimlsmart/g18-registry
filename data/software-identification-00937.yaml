@@ -12,7 +12,7 @@ data:
   - edition: '2010'
     publication: OIML D 31:2008
     publication_id: OIML D031:2008
-    tc_sc: ''
+    tc_sc: TC5/SC2
     year: 2008
     clause: 3.1.42
     link: https://www.oiml.org/en/files/pdf_D/d031-e08.pdf
@@ -21,13 +21,12 @@ data:
       is inextricably linked to the software or software module under consideration.
       It can be checked on an instrument whilst in use
     notes: []
-    consistency: partial
-    consistency_reason: Publication drops the qualifying clause 'which contribute
-      to metrological assurance,' losing a key semantic restriction.
+    consistency: pending
+    consistency_reason: ''
   - edition: '2010'
     publication: OIML R 21:2007
     publication_id: OIML R021:2007
-    tc_sc: ''
+    tc_sc: TC7/SC4
     year: 2007
     clause: 2.2.8.4
     link: https://www.oiml.org/en/files/pdf_R/r021-e07.pdf

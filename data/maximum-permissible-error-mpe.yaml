@@ -21,7 +21,7 @@ data:
   - edition: '2010'
     publication: OIML R 142:2008
     publication_id: OIML R142:2008
-    tc_sc: ''
+    tc_sc: TC17/SC2
     year: 2008
     clause: 2.4(annex 6)
     link: https://www.oiml.org/en/files/pdf_R/r142-e08.pdf
@@ -30,14 +30,12 @@ data:
       quantity value, permitted by specifications or regulations for a given measurement,
       measuring instrument, or measuring system
     notes: []
-    consistency: partial
-    consistency_reason: Publication adds 'known reference quantity value' and extends
-      scope to 'measurement' and 'measuring system,' and replaces 'error' with 'measurement
-      error,' introducing extra detail beyond the official definition.
+    consistency: pending
+    consistency_reason: ''
   - edition: '2010'
     publication: OIML R 140:2007
     publication_id: OIML R140:2007
-    tc_sc: ''
+    tc_sc: TC8/SC7
     year: 2007
     clause: T.2.6
     link: https://www.oiml.org/en/files/pdf_R/r140-e07.pdf
@@ -45,13 +43,12 @@ data:
     definition: extreme values permitted by this Recommendation for an error
     notes:
     - "(adapted from VIM:2007, 4.26)"
-    consistency: partial
-    consistency_reason: Publication restricts the source of permission to 'this Recommendation'
-      only, omitting the broader scope of specifications, regulations, etc.
+    consistency: pending
+    consistency_reason: ''
   - edition: '2010'
     publication: OIML R 49-1:2006
     publication_id: OIML R049-1:2006
-    tc_sc: ''
+    tc_sc: TC8/SC5
     year: 2006
     clause: 2.2.6
     link: https://www.oiml.org/en/files/pdf_R/r049-1-e06.pdf
@@ -59,10 +56,8 @@ data:
     definition: "[a extreme values of the relative error (of indication) of a water
       meter permitted by this Recommendation dapted from VIM:1993, 5.21]"
     notes: []
-    consistency: partial
-    consistency_reason: Publication narrows scope to relative error of a specific
-      instrument (water meter) and a specific document (this Recommendation), rather
-      than the general concept of error permitted by specifications or regulations.
+    consistency: pending
+    consistency_reason: ''
     related:
     - type: see
       ref:
@@ -71,7 +66,7 @@ data:
   - edition: '2010'
     publication: OIML R 65:2006
     publication_id: OIML R065:2006
-    tc_sc: ''
+    tc_sc: TC10/SC4
     year: 2006
     clause: '3.9'
     link: https://www.oiml.org/en/files/pdf_R/r065-e06.pdf
@@ -79,9 +74,8 @@ data:
     definition: maximum value of the error permitted by laws, regulations, or specifications
       for a given measuring instrument
     notes: []
-    consistency: partial
-    consistency_reason: Uses singular 'maximum value' instead of plural 'extreme values',
-      omitting the minimum (lower) limit of the permitted error range.
+    consistency: pending
+    consistency_reason: ''
   - edition: '2010'
     publication: OIML R 137-1:2006
     publication_id: OIML R137-1:2006
@@ -93,10 +87,8 @@ data:
     definition: extreme values permitted by the present Recommendation for an [VIM:1993,
       5.21] error
     notes: []
-    consistency: partial
-    consistency_reason: Narrows the source of permission to 'the present Recommendation'
-      only, dropping the broader scope of specifications, regulations, etc., and omits
-      'for a given measuring instrument'.
+    consistency: pending
+    consistency_reason: ''
     related:
     - type: see
       ref:
@@ -115,9 +107,8 @@ data:
       as determined by reference standard masses, at zero or no load, in the reference
       position ased on VIM:1993, 5.21]"
     notes: []
-    consistency: partial
-    consistency_reason: Adds specific measurement methodology and conditions not present
-      in the general official definition.
+    consistency: pending
+    consistency_reason: ''
     related:
     - type: see
       ref:
@@ -136,9 +127,8 @@ data:
       value
     notes:
     - "[VIM:1993, 5.21]"
-    consistency: partial
-    consistency_reason: Adds an explanatory clause defining error as between indication
-      and true value, which narrows the official definition's broader scope.
+    consistency: pending
+    consistency_reason: ''
   - edition: '2010'
     publication: OIML R 75-1:2002
     publication_id: OIML R075-1:2002
@@ -150,10 +140,8 @@ data:
     definition: "[a extreme values of the error (positive or negative) permitted by
       this Recommendation dapted from VIM:1993, 5.21]."
     notes: []
-    consistency: partial
-    consistency_reason: Adds '(positive or negative)' which is redundant, and narrows
-      the source of permission to 'this Recommendation' rather than the broader 'specifications,
-      regulations, etc.'
+    consistency: pending
+    consistency_reason: ''
     related:
     - type: see
       ref:
@@ -162,7 +150,7 @@ data:
   - edition: '2010'
     publication: OIML R 60:2000
     publication_id: OIML R060:2000
-    tc_sc: ''
+    tc_sc: TC9
     year: 2000
     clause: 2.4.9
     link: https://www.oiml.org/en/files/pdf_R/r060-e00.pdf
@@ -170,9 +158,8 @@ data:
     definition: extreme values of an error permitted by this Recommendation (refer
       to clause 5) for a load cell [Adapted from VIM:1993, 5.21]
     notes: []
-    consistency: partial
-    consistency_reason: Narrows the general concept to a specific load cell and replaces
-      the open-ended source of permission with a single document.
+    consistency: pending
+    consistency_reason: ''
     related:
     - type: see
       ref:
@@ -191,10 +178,8 @@ data:
       measuring instrument, or measuring system [VIM 4.26]
     notes:
     - "(for notes, refer to the VIM)"
-    consistency: partial
-    consistency_reason: Publication adds 'known reference quantity value' and extends
-      scope to 'measurement' and 'measuring system' beyond just 'measuring instrument',
-      and drops 'etc.'
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML R129-1:2020
     publication_id: OIML R129-1:2020
@@ -207,10 +192,8 @@ data:
       by specifications, Recommendations, regulations, etc. [adapted from VIM 4.26]
     notes:
     - 'Note: The absolute value of the mpe is the same value without sign.'
-    consistency: ok
-    consistency_reason: 'Both define the same concept: the extreme permitted error
-      values for a given measuring instrument, with the publication merely specifying
-      positive and negative and using ''error of indication'' as a more precise term.'
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML R150-1:2020
     publication_id: OIML R150-1:2020
@@ -222,9 +205,8 @@ data:
     definition: extreme value of an error permitted by specifications, regulations,
       etc. for a given instrument [VIML:2013 0.05]
     notes: []
-    consistency: partial
-    consistency_reason: Drops 'measuring' before 'instrument,' narrowing scope from
-      measuring instruments to all instruments.
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML R137:2012
     publication_id: OIML R137:2012
@@ -242,7 +224,7 @@ data:
   - edition: 202X
     publication: OIML R 140:2007
     publication_id: OIML R140:2007
-    tc_sc: ''
+    tc_sc: TC8/SC7
     year: 2007
     clause: T.2.6
     link: https://www.oiml.org/en/files/pdf_R/r140-e07.pdf
@@ -250,13 +232,12 @@ data:
     definition: extreme values permitted by this Recommendation for an error [adapted
       from VIM:2007, 4.26]
     notes: []
-    consistency: partial
-    consistency_reason: Publication restricts the source of permission to 'this Recommendation'
-      only, omitting the broader scope of specifications, regulations, etc.
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML R 65:2006
     publication_id: OIML R065:2006
-    tc_sc: ''
+    tc_sc: TC10/SC4
     year: 2006
     clause: '3.9'
     link: https://www.oiml.org/en/files/pdf_R/r065-e06.pdf
@@ -264,9 +245,8 @@ data:
     definition: maximum value of the error permitted by laws, regulations, or specifications
       for a given measuring instrument
     notes: []
-    consistency: partial
-    consistency_reason: Uses singular 'maximum value' instead of plural 'extreme values',
-      omitting the minimum (lower) limit of the permitted error range.
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML R 136-1:2004
     publication_id: OIML R136-1:2004
@@ -279,9 +259,8 @@ data:
       between the indication of a measuring instrument and the corresponding true
       value [VIM:1993, 5.21]
     notes: []
-    consistency: partial
-    consistency_reason: Adds an explanatory clause defining error as between indication
-      and true value, which narrows the official definition's broader scope.
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML R 75-1:2002
     publication_id: OIML R075-1:2002
@@ -293,10 +272,8 @@ data:
     definition: extreme values of the error (positive or negative) permitted by this
       Recommendation [adapted from VIM:1993, 5.21].
     notes: []
-    consistency: partial
-    consistency_reason: Adds '(positive or negative)' which is redundant, and narrows
-      the source of permission to 'this Recommendation' rather than the broader 'specifications,
-      regulations, etc.'
+    consistency: pending
+    consistency_reason: ''
 status: current
 id: a9bd8014-ab09-5aa5-af27-dfa81897d89b
 schema_version: '3'

@@ -12,7 +12,7 @@ data:
   - edition: '2010'
     publication: OIML R 80-1:2009
     publication_id: OIML R080-1:2009
-    tc_sc: ''
+    tc_sc: TC8/SC1
     year: 2009
     clause: '2.55'
     link: https://www.oiml.org/en/files/pdf_R/r080-1-e09.pdf
@@ -62,7 +62,7 @@ data:
   - edition: '2010'
     publication: OIML R 139:2007
     publication_id: OIML R139:2007
-    tc_sc: ''
+    tc_sc: TC8/SC7
     year: 2007
     clause: T.3.10
     link: https://www.oiml.org/en/files/pdf_R/r139-e07.pdf
@@ -75,7 +75,7 @@ data:
   - edition: '2010'
     publication: OIML R 140:2007
     publication_id: OIML R140:2007
-    tc_sc: ''
+    tc_sc: TC8/SC7
     year: 2007
     clause: T.2.15
     link: https://www.oiml.org/en/files/pdf_R/r140-e07.pdf
@@ -87,7 +87,7 @@ data:
   - edition: '2010'
     publication: OIML R 49-1:2006
     publication_id: OIML R049-1:2006
-    tc_sc: ''
+    tc_sc: TC8/SC5
     year: 2006
     clause: 2.2.8
     link: https://www.oiml.org/en/files/pdf_R/r049-1-e06.pdf
@@ -126,7 +126,7 @@ data:
   - edition: '2010'
     publication: OIML D 11:2004
     publication_id: OIML D011:2004
-    tc_sc: ''
+    tc_sc: TC5/SC1
     year: 2004
     clause: '3.8'
     link: https://www.oiml.org/en/files/pdf_D/d011-e04.pdf
@@ -178,7 +178,7 @@ data:
   - edition: '2010'
     publication: OIML R 129:2000
     publication_id: OIML R129:2000
-    tc_sc: ''
+    tc_sc: TC7/SC5
     year: 2000
     clause: '2.25'
     link: https://www.oiml.org/en/files/pdf_R/r129-e00.pdf
@@ -191,7 +191,7 @@ data:
   - edition: '2010'
     publication: OIML R 81:1998
     publication_id: OIML R081:1998
-    tc_sc: ''
+    tc_sc: TC8/SC6
     year: 1998
     clause: '3.21'
     link: https://www.oiml.org/en/files/pdf_R/r081-e98.pdf
@@ -204,7 +204,7 @@ data:
   - edition: '2010'
     publication: OIML R 125:1998
     publication_id: OIML R125:1998
-    tc_sc: ''
+    tc_sc: TC8/SC1
     year: 1998
     clause: T.24
     link: https://www.oiml.org/en/files/pdf_R/r125-e98.pdf
@@ -217,7 +217,7 @@ data:
   - edition: '2010'
     publication: OIML R 50-1:1997
     publication_id: OIML R050-1:1997
-    tc_sc: ''
+    tc_sc: TC9/SC2
     year: 1997
     clause: T.5.3
     link: https://www.oiml.org/en/files/pdf_R/r050-1-e97.pdf
@@ -230,7 +230,7 @@ data:
   - edition: '2010'
     publication: OIML R 106-1:1997
     publication_id: OIML R106-1:1997
-    tc_sc: ''
+    tc_sc: TC9/SC2
     year: 1997
     clause: T.4.2.3
     link: https://www.oiml.org/en/files/pdf_R/r106-1-e97.pdf
@@ -243,7 +243,7 @@ data:
   - edition: '2010'
     publication: OIML R 105:1993
     publication_id: OIML R105:1993
-    tc_sc: ''
+    tc_sc: TC8/SC3
     year: 1993
     clause: T.18
     link: https://www.oiml.org/en/files/pdf_R/r105-e93.pdf
@@ -380,9 +380,8 @@ data:
     definition: intrinsic error of a measuring instrument as determined prior to performance
       tests and durability evaluations
     notes: []
-    consistency: partial
-    consistency_reason: Adds 'objective evidence' elaboration and narrows scope to
-      'this Document' rather than keeping the definition general.
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML R046-1:2012
     publication_id: OIML R046-1:2012
@@ -412,7 +411,7 @@ data:
   - edition: 202X
     publication: OIML R 80-1:2009
     publication_id: OIML R080-1:2009
-    tc_sc: ''
+    tc_sc: TC8/SC1
     year: 2009
     clause: '2.55'
     link: https://www.oiml.org/en/files/pdf_R/r080-1-e09.pdf
@@ -450,7 +449,7 @@ data:
   - edition: 202X
     publication: OIML R 140:2007
     publication_id: OIML R140:2007
-    tc_sc: ''
+    tc_sc: TC8/SC7
     year: 2007
     clause: T.2.15
     link: https://www.oiml.org/en/files/pdf_R/r140-e07.pdf
@@ -514,7 +513,7 @@ data:
   - edition: 202X
     publication: OIML R 81:1998
     publication_id: OIML R081:1998
-    tc_sc: ''
+    tc_sc: TC8/SC6
     year: 1998
     clause: '3.21'
     link: https://www.oiml.org/en/files/pdf_R/r081-e98.pdf
@@ -526,7 +525,7 @@ data:
   - edition: 202X
     publication: OIML R 125:1998
     publication_id: OIML R125:1998
-    tc_sc: ''
+    tc_sc: TC8/SC1
     year: 1998
     clause: T.24
     link: https://www.oiml.org/en/files/pdf_R/r125-e98.pdf

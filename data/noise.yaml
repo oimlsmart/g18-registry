@@ -12,7 +12,7 @@ data:
   - edition: '2010'
     publication: OIML R 82:2006
     publication_id: OIML R082:2006
-    tc_sc: ''
+    tc_sc: TC16/SC3
     year: 2006
     clause: '3.9'
     link: https://www.oiml.org/en/files/pdf_R/r082-e06.pdf
@@ -30,7 +30,7 @@ data:
   - edition: '2010'
     publication: OIML R 112:1994
     publication_id: OIML R112:1994
-    tc_sc: ''
+    tc_sc: TC16/SC3
     year: 1994
     clause: '2.8'
     link: https://www.oiml.org/en/files/pdf_R/r112-e94.pdf
@@ -51,7 +51,7 @@ data:
   - edition: '2010'
     publication: OIML R 113:1994
     publication_id: OIML R113:1994
-    tc_sc: ''
+    tc_sc: TC16/SC4
     year: 1994
     clause: '3.8'
     link: https://www.oiml.org/en/files/pdf_R/r113-e94.pdf
@@ -68,7 +68,7 @@ data:
   - edition: 202X
     publication: OIML R 82:2006
     publication_id: OIML R082:2006
-    tc_sc: ''
+    tc_sc: TC16/SC3
     year: 2006
     clause: '3.9'
     link: https://www.oiml.org/en/files/pdf_R/r082-e06.pdf
@@ -90,7 +90,7 @@ data:
   - edition: 202X
     publication: OIML R 112:1994
     publication_id: OIML R112:1994
-    tc_sc: ''
+    tc_sc: TC16/SC3
     year: 1994
     clause: '2.8'
     link: https://www.oiml.org/en/files/pdf_R/r112-e94.pdf
@@ -111,7 +111,7 @@ data:
   - edition: 202X
     publication: OIML R 113:1994
     publication_id: OIML R113:1994
-    tc_sc: ''
+    tc_sc: TC16/SC4
     year: 1994
     clause: '3.8'
     link: https://www.oiml.org/en/files/pdf_R/r113-e94.pdf

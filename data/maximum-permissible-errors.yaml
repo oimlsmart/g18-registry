@@ -12,7 +12,7 @@ data:
   - edition: '2010'
     publication: OIML R 139:2007
     publication_id: OIML R139:2007
-    tc_sc: ''
+    tc_sc: TC8/SC7
     year: 2007
     clause: T.3.4
     link: https://www.oiml.org/en/files/pdf_R/r139-e07.pdf
@@ -32,7 +32,7 @@ data:
   - edition: '2010'
     publication: OIML R 131:2001
     publication_id: OIML R131:2001
-    tc_sc: ''
+    tc_sc: TC15/SC2
     year: 2001
     clause: '3.13'
     link: https://www.oiml.org/en/files/pdf_R/r131-e01.pdf
@@ -45,7 +45,7 @@ data:
   - edition: '2010'
     publication: OIML R 132:2001
     publication_id: OIML R132:2001
-    tc_sc: ''
+    tc_sc: TC15/SC2
     year: 2001
     clause: '3.13'
     link: https://www.oiml.org/en/files/pdf_R/r132-e01.pdf
@@ -58,7 +58,7 @@ data:
   - edition: '2010'
     publication: OIML R 127:1999
     publication_id: OIML R127:1999
-    tc_sc: ''
+    tc_sc: TC15/SC2
     year: 1999
     clause: '4.14'
     link: https://www.oiml.org/en/files/pdf_R/r127-e99.pdf
@@ -71,7 +71,7 @@ data:
   - edition: '2010'
     publication: OIML R 110:1994
     publication_id: OIML R110:1994
-    tc_sc: ''
+    tc_sc: TC10/SC1
     year: 1994
     clause: 2.4.5
     link: https://www.oiml.org/en/files/pdf_R/r110-e94.pdf
@@ -85,7 +85,7 @@ data:
   - edition: 202X
     publication: OIML R 131:2001
     publication_id: OIML R131:2001
-    tc_sc: ''
+    tc_sc: TC15/SC2
     year: 2001
     clause: '3.13'
     link: https://www.oiml.org/en/files/pdf_R/r131-e01.pdf
@@ -98,7 +98,7 @@ data:
   - edition: 202X
     publication: OIML R 132:2001
     publication_id: OIML R132:2001
-    tc_sc: ''
+    tc_sc: TC15/SC2
     year: 2001
     clause: '3.13'
     link: https://www.oiml.org/en/files/pdf_R/r132-e01.pdf
@@ -111,7 +111,7 @@ data:
   - edition: 202X
     publication: OIML R 127:1999
     publication_id: OIML R127:1999
-    tc_sc: ''
+    tc_sc: TC15/SC2
     year: 1999
     clause: '4.14'
     link: https://www.oiml.org/en/files/pdf_R/r127-e99.pdf
@@ -124,7 +124,7 @@ data:
   - edition: 202X
     publication: OIML R 110:1994
     publication_id: OIML R110:1994
-    tc_sc: ''
+    tc_sc: TC10/SC1
     year: 1994
     clause: 2.4.5
     link: https://www.oiml.org/en/files/pdf_R/r110-e94.pdf

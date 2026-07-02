@@ -12,7 +12,7 @@ data:
   - edition: '2010'
     publication: OIML D 31:2008
     publication_id: OIML D031:2008
-    tc_sc: ''
+    tc_sc: TC5/SC2
     year: 2008
     clause: 3.1.55
     link: https://www.oiml.org/en/files/pdf_D/d031-e08.pdf
@@ -22,13 +22,12 @@ data:
       keyboard, mouse, display, monitor, printer, touch-screen, software window on
       a screen including the software that generates it
     notes: []
-    consistency: partial
-    consistency_reason: Publication specifies 'error of indication' rather than the
-      broader 'error of a measuring instrument,' narrowing the concept.
+    consistency: pending
+    consistency_reason: ''
   - edition: '2010'
     publication: OIML R 21:2007
     publication_id: OIML R021:2007
-    tc_sc: ''
+    tc_sc: TC7/SC4
     year: 2007
     clause: 2.2.6
     link: https://www.oiml.org/en/files/pdf_R/r021-e07.pdf
@@ -151,7 +150,7 @@ data:
   - edition: 202X
     publication: OIML R 21:2007
     publication_id: OIML R021:2007
-    tc_sc: ''
+    tc_sc: TC7/SC4
     year: 2007
     clause: 2.2.6
     link: https://www.oiml.org/en/files/pdf_R/r021-e07.pdf

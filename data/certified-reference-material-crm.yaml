@@ -22,7 +22,7 @@ data:
   - edition: '2010'
     publication: OIML D 18:2008
     publication_id: OIML D018:2008
-    tc_sc: ''
+    tc_sc: TC3/SC3
     year: 2008
     clause: '2.2'
     link: https://www.oiml.org/en/files/pdf_D/d018-e08.pdf
@@ -31,9 +31,8 @@ data:
       5.14) authoritative body and providing one or more specified property values
       with associated uncertainties and traceabilities, using valid procedures
     notes: []
-    consistency: ok
-    consistency_reason: The definitions are semantically identical; the publication
-      merely adds the VIM citation reference.
+    consistency: pending
+    consistency_reason: ''
     related:
     - type: see
       ref:
@@ -42,7 +41,7 @@ data:
   - edition: '2010'
     publication: OIML R 142:2008
     publication_id: OIML R142:2008
-    tc_sc: ''
+    tc_sc: TC17/SC2
     year: 2008
     clause: 2.4(annex 6)
     link: https://www.oiml.org/en/files/pdf_R/r142-e08.pdf
@@ -51,10 +50,8 @@ data:
       body and referring to valid procedures used to obtain a specified property value
       with uncertainty and traceability
     notes: []
-    consistency: partial
-    consistency_reason: Publication uses singular 'a specified property value' and
-      'valid procedures used to obtain,' losing the 'one or more' property values
-      with associated uncertainties and traceabilities meaning.
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML R146-1:2016
     publication_id: OIML R146-1:2016
@@ -83,13 +80,12 @@ data:
       but uses the modifiers “metrological” and “metrologically” to refer to both
       quantity and nominal property} Refer to Annex B for guidelines on producing
       whole-grain CRMs. Further general information is in OIML D 18:2008 }."
-    consistency: ok
-    consistency_reason: The publication's definition is identical in semantic content
-      to the official definition, differing only in added brackets and citation.
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML D 18:2008
     publication_id: OIML D018:2008
-    tc_sc: ''
+    tc_sc: TC3/SC3
     year: 2008
     clause: '2.2'
     link: https://www.oiml.org/en/files/pdf_D/d018-e08.pdf
@@ -98,9 +94,8 @@ data:
       body and providing one or more specified property values with associated uncertainties
       and traceabilities, using valid procedures [VIM:2007, 5.14]
     notes: []
-    consistency: ok
-    consistency_reason: The definitions are semantically identical; the publication
-      merely adds the VIM citation reference.
+    consistency: pending
+    consistency_reason: ''
 status: current
 id: 273cfe17-87af-5b41-ae72-ebe3f255b2a6
 schema_version: '3'

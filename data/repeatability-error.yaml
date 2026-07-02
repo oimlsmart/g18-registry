@@ -31,13 +31,12 @@ data:
       largest and the smallest results of successive measurements of the same quantity
       carried out under the same conditions
     notes: []
-    consistency: ko
-    consistency_reason: The publication defines repeatability as a numerical difference
-      (a result), not as an ability of the instrument.
+    consistency: pending
+    consistency_reason: ''
   - edition: '2010'
     publication: OIML R 139:2007
     publication_id: OIML R139:2007
-    tc_sc: ''
+    tc_sc: TC8/SC7
     year: 2007
     clause: T.3.8
     link: https://www.oiml.org/en/files/pdf_R/r139-e07.pdf
@@ -46,14 +45,12 @@ data:
       and the smallest results of successive measurements of the same quantity carried
       out under the same conditions'
     notes: []
-    consistency: ko
-    consistency_reason: The publication defines repeatability as a numeric range (difference
-      between max and min), whereas the official definition describes it as an ability
-      or property of the measuring instrument.
+    consistency: pending
+    consistency_reason: ''
   - edition: '2010'
     publication: OIML R 140:2007
     publication_id: OIML R140:2007
-    tc_sc: ''
+    tc_sc: TC8/SC7
     year: 2007
     clause: T.2.13
     link: https://www.oiml.org/en/files/pdf_R/r140-e07.pdf
@@ -62,10 +59,8 @@ data:
       from VIM:2007, 2.21) largest and the smallest results of successive measurements
       of a same quantity carried out under the same conditions'
     notes: []
-    consistency: ko
-    consistency_reason: The official definition describes repeatability as an intrinsic
-      ability/property, while the publication defines it as a calculated dispersion
-      range (a result), conflating repeatability with repeatability limit.
+    consistency: pending
+    consistency_reason: ''
     related:
     - type: see
       ref:
@@ -74,7 +69,7 @@ data:
   - edition: '2010'
     publication: OIML R 60:2000
     publication_id: OIML R060:2000
-    tc_sc: ''
+    tc_sc: TC9
     year: 2000
     clause: 2.4.12
     link: https://www.oiml.org/en/files/pdf_R/r060-e00.pdf
@@ -83,10 +78,8 @@ data:
       tests under the same loading and environmental conditions of measurement [Adapted
       from VIM:1993, 5.27]
     notes: []
-    consistency: ko
-    consistency_reason: The publication defines repeatability as a numerical difference
-      between readings, whereas the official definition defines it as the ability
-      of an instrument to provide closely similar indications.
+    consistency: pending
+    consistency_reason: ''
     related:
     - type: see
       ref:
@@ -104,10 +97,8 @@ data:
       successive measurements of the same quantity carried out under the same repeatability
       condition 1 1 OIMLV 2-200:2012
     notes: []
-    consistency: ko
-    consistency_reason: The publication defines repeatability as a numerical range
-      (difference between extremes), whereas the official defines it as the ability
-      of an instrument to provide similar indications.
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML R060-1:2021
     publication_id: OIML R060-1:2021
@@ -119,10 +110,8 @@ data:
     definition: difference between load cell output readings taken from consecutive
       tests under the same loading and environmental conditions of measurement
     notes: []
-    consistency: ko
-    consistency_reason: The official definition refers to repeatability as an ability
-      (small spread), while the publication defines it as a difference between readings,
-      conflating the concept with its evaluation metric.
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML R117-1:2019
     publication_id: OIML R117-1:2019
@@ -152,14 +141,12 @@ data:
     - 'Note: Repeatability conditions include: the same measurement procedure; the
       same operator; the same measuring instrument, used under the same conditions;
       the same location; repetition over a short period of time.'
-    consistency: ko
-    consistency_reason: The publication defines repeatability as a numerical difference
-      (range of results) rather than the ability of an instrument to provide closely
-      similar indications.
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML R 140:2007
     publication_id: OIML R140:2007
-    tc_sc: ''
+    tc_sc: TC8/SC7
     year: 2007
     clause: T.2.13
     link: https://www.oiml.org/en/files/pdf_R/r140-e07.pdf
@@ -168,10 +155,8 @@ data:
       and the smallest results of successive measurements of a same quantity carried
       out under the same conditions [adapted from VIM:2007, 2.21]'
     notes: []
-    consistency: ko
-    consistency_reason: The official definition describes repeatability as an intrinsic
-      ability/property, while the publication defines it as a calculated dispersion
-      range (a result), conflating repeatability with repeatability limit.
+    consistency: pending
+    consistency_reason: ''
 status: current
 id: 6da83ea9-171a-5782-9667-7e521c9107ce
 schema_version: '3'

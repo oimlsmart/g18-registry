@@ -12,7 +12,7 @@ data:
   - edition: '2010'
     publication: OIML D 31:2008
     publication_id: OIML D031:2008
-    tc_sc: ''
+    tc_sc: TC5/SC2
     year: 2008
     clause: 3.1.41
     link: https://www.oiml.org/en/files/pdf_D/d031-e08.pdf
@@ -21,10 +21,8 @@ data:
       of the software according to the specific procedure (e.g. analysis of technical
       documentation or running the program under controlled conditions)
     notes: []
-    consistency: partial
-    consistency_reason: Drops the key clause 'ascertains and confirms that the measuring
-      instrument complies with the statutory requirements' and replaces 'type approval'
-      with 'type evaluation'.
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML R142-1:2025
     publication_id: OIML R142-1:2025

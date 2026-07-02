@@ -70,6 +70,19 @@ const topDivergent = computed(() =>
     <p class="lede">Dashboard for <strong>TC 1 / Vocabularies</strong> validating <a href="https://github.com/oimlsmart/vocab/tree/main/datasets/g18-202X">OIML G 18:202X</a>.</p>
   </div>
 
+  <!-- Getting started guide for TC 1 -->
+  <section class="card" style="background: var(--oiml-cream-soft); border-color: var(--oiml-brand-200);">
+    <h2 style="color: var(--oiml-brand-700);">How to use this registry</h2>
+    <ol style="margin: 0; padding-left: 1.4em; line-height: 1.7;">
+      <li><strong>Review priority actions below</strong> — terms needing immediate attention (outdated VIM refs, divergent definitions).</li>
+      <li><strong>Open the <RouterLink to="/harmonization/">harmonisation worklist</RouterLink></strong> — every term cited by multiple OIML publications, sorted by divergence.</li>
+      <li><strong>For each term</strong>, review the grouped definitions (identical wording is collapsed) and decide: merge into one definition, or document why divergence is intentional.</li>
+      <li><strong>Check the latest edition</strong> — the registry automatically verifies whether each term still exists in VIM 2012 / VIML 2022.</li>
+      <li><strong>Filter by your TC/SC</strong> on the <RouterLink to="/terms/">terms page</RouterLink> to review only the publications your committee is responsible for.</li>
+      <li><strong>Submit changes</strong> to <a href="https://github.com/oimlsmart/vocab/tree/main/datasets/g18-202X"><code>oimlsmart/vocab datasets/g18-202X/</code></a>.</li>
+    </ol>
+  </section>
+
   <section class="grid grid-4">
     <RouterLink class="stat-card" to="/terms/"><div class="stat-value">{{ terms.length }}</div><div class="stat-label">unique terms</div></RouterLink>
     <RouterLink class="stat-card" to="/harmonization/"><div class="stat-value">{{ divergentCount }}</div><div class="stat-label">divergent terms</div></RouterLink>

@@ -26,10 +26,8 @@ data:
       permissible errors for type approval and initial verification and verification
       after repair od refractometer are defined in 5.2.1. Maximum permissible errors
       forrefractometer in service are defined in 5.2.2.'
-    consistency: partial
-    consistency_reason: Publication adds 'known reference quantity value' and extends
-      scope to 'measurement' and 'measuring system,' and replaces 'error' with 'measurement
-      error,' introducing extra detail beyond the official definition.
+    consistency: pending
+    consistency_reason: ''
 status: current
 id: b1217f42-62cc-5082-b2d0-0723e3a9d291
 schema_version: '3'

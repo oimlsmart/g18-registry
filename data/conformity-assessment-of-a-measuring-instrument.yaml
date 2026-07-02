@@ -23,7 +23,7 @@ data:
   - edition: '2010'
     publication: OIML D 9:2004
     publication_id: OIML D009:2004
-    tc_sc: ''
+    tc_sc: TC3/SC2
     year: 2004
     clause: '2.9'
     link: https://www.oiml.org/en/files/pdf_D/d009-e04.pdf
@@ -36,10 +36,8 @@ data:
     - 'Conformity assessment does not only concern metrological requirements but may
       also cover requirements relating to: - safety; - EMC; - software identification;
       - ease of use; - marking; - etc.'
-    consistency: partial
-    consistency_reason: Publication replaces 'measuring instruments' with 'a measuring
-      instrument,' creating a grammatical mismatch with the subsequent clause covering
-      single instruments, lots, and series.
+    consistency: pending
+    consistency_reason: ''
     related:
     - type: see
       ref:
@@ -62,13 +60,12 @@ data:
       but may also cover requirements relating to: safety; EMC; software identification;
       ease of use; marking, etc. Note 2:Conformity assessment of a measuring instrument
       is hereafter referred to as “conformity assessment”.'
-    consistency: ok
-    consistency_reason: The publication's definition is identical in semantic content,
-      differing only by the addition of the source citation [VIML 2.11].
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML D 9:2004
     publication_id: OIML D009:2004
-    tc_sc: ''
+    tc_sc: TC3/SC2
     year: 2004
     clause: '2.9'
     link: https://www.oiml.org/en/files/pdf_D/d009-e04.pdf
@@ -81,10 +78,8 @@ data:
     - 'Note: Conformity assessment does not only concern metrological requirements
       but may also cover requirements relating to: safety; EMC; software identification;
       ease of use; marking; etc.'
-    consistency: partial
-    consistency_reason: Publication replaces 'measuring instruments' with 'a measuring
-      instrument,' creating a grammatical mismatch with the subsequent clause covering
-      single instruments, lots, and series.
+    consistency: pending
+    consistency_reason: ''
 status: current
 id: e77bb262-4dc8-5f9a-8ec0-dc2dfc1fdca2
 schema_version: '3'

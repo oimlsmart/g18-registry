@@ -54,7 +54,7 @@ data:
   - edition: '2010'
     publication: OIML R 129:2000
     publication_id: OIML R129:2000
-    tc_sc: ''
+    tc_sc: TC7/SC5
     year: 2000
     clause: '2.5'
     link: https://www.oiml.org/en/files/pdf_R/r129-e00.pdf
@@ -68,7 +68,7 @@ data:
   - edition: '2010'
     publication: OIML R 125:1998
     publication_id: OIML R125:1998
-    tc_sc: ''
+    tc_sc: TC8/SC1
     year: 1998
     clause: T.8
     link: https://www.oiml.org/en/files/pdf_R/r125-e98.pdf
@@ -177,7 +177,7 @@ data:
   - edition: 202X
     publication: OIML R 125:1998
     publication_id: OIML R125:1998
-    tc_sc: ''
+    tc_sc: TC8/SC1
     year: 1998
     clause: T.8
     link: https://www.oiml.org/en/files/pdf_R/r125-e98.pdf

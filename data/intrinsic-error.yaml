@@ -20,7 +20,7 @@ data:
   - edition: '2010'
     publication: OIML R 80-1:2009
     publication_id: OIML R080-1:2009
-    tc_sc: ''
+    tc_sc: TC8/SC1
     year: 2009
     clause: '2.54'
     link: https://www.oiml.org/en/files/pdf_R/r080-1-e09.pdf
@@ -28,27 +28,24 @@ data:
     definition: error (of the indicated volume) of a measuring system used under reference
       conditions
     notes: []
-    consistency: ok
-    consistency_reason: The core concept—error determined under reference conditions—is
-      preserved, with the added specificity to indicated volume and measuring system
-      being consistent contextual elaboration rather than a semantic change.
+    consistency: pending
+    consistency_reason: ''
   - edition: '2010'
     publication: OIML R 143:2009
     publication_id: OIML R143:2009
-    tc_sc: ''
+    tc_sc: TC16/SC1
     year: 2009
     clause: '2.14'
     link: https://www.oiml.org/en/files/pdf_R/r143-e09.pdf
     g18_entry: '02140'
     definition: error of a gas analyzer, determined under reference conditions
     notes: []
-    consistency: partial
-    consistency_reason: Narrows the general concept of a measuring instrument to a
-      specific gas analyzer.
+    consistency: pending
+    consistency_reason: ''
   - edition: '2010'
     publication: OIML D 31:2008
     publication_id: OIML D031:2008
-    tc_sc: ''
+    tc_sc: TC5/SC2
     year: 2008
     clause: 3.1.28
     link: https://www.oiml.org/en/files/pdf_D/d031-e08.pdf
@@ -68,9 +65,8 @@ data:
     g18_entry: '02328'
     definition: error of an ALG determined under reference conditions
     notes: []
-    consistency: ok
-    consistency_reason: ALG is a specific type of measuring instrument, so the publication
-      conveys the same meaning for that context.
+    consistency: pending
+    consistency_reason: ''
   - edition: '2010'
     publication: OIML R 99-1:2008
     publication_id: OIML R099-1:2008
@@ -94,9 +90,8 @@ data:
     definition: "[V error of an instrument, determined under reference conditions
       IM: 1993, 5.24]"
     notes: []
-    consistency: ok
-    consistency_reason: The term 'instrument' is merely a shortened form of 'measuring
-      instrument', so the definitions are semantically identical.
+    consistency: pending
+    consistency_reason: ''
   - edition: '2010'
     publication: OIML R 117-1:2007
     publication_id: OIML R117-1:2007
@@ -108,27 +103,24 @@ data:
     definition: error (of indication) of a measuring system or its components used
       under reference conditions
     notes: []
-    consistency: partial
-    consistency_reason: Adds 'of indication' and broadens from 'measuring instrument'
-      to 'measuring system or its components', which slightly extends the scope.
+    consistency: pending
+    consistency_reason: ''
   - edition: '2010'
     publication: OIML R 139:2007
     publication_id: OIML R139:2007
-    tc_sc: ''
+    tc_sc: TC8/SC7
     year: 2007
     clause: T.3.9
     link: https://www.oiml.org/en/files/pdf_R/r139-e07.pdf
     g18_entry: '02018'
     definition: error of a measuring system determined under reference conditions
     notes: []
-    consistency: partial
-    consistency_reason: Publication uses 'measuring system' instead of 'measuring
-      instrument'; in metrology, a measuring system is a broader concept comprising
-      multiple instruments.
+    consistency: pending
+    consistency_reason: ''
   - edition: '2010'
     publication: OIML R 140:2007
     publication_id: OIML R140:2007
-    tc_sc: ''
+    tc_sc: TC8/SC7
     year: 2007
     clause: T.2.14
     link: https://www.oiml.org/en/files/pdf_R/r140-e07.pdf
@@ -140,7 +132,7 @@ data:
   - edition: '2010'
     publication: OIML R 49-1:2006
     publication_id: OIML R049-1:2006
-    tc_sc: ''
+    tc_sc: TC8/SC5
     year: 2006
     clause: 2.2.7
     link: https://www.oiml.org/en/files/pdf_R/r049-1-e06.pdf
@@ -148,9 +140,8 @@ data:
     definition: "[a error (of indication) of a water meter determined under reference
       conditions dapted from VIM:1993, 5.24]"
     notes: []
-    consistency: partial
-    consistency_reason: Adds 'water meter' unnecessarily and contains garbled text
-      ('dapted'), but core meaning of error under reference conditions is preserved.
+    consistency: pending
+    consistency_reason: ''
     related:
     - type: see
       ref:
@@ -167,9 +158,8 @@ data:
     definition: "[V error of an instrument, determined under reference conditions
       IM:1993 5.24]"
     notes: []
-    consistency: ok
-    consistency_reason: "'Instrument' is an acceptable shortening of 'measuring instrument'
-      in this context, preserving the same meaning."
+    consistency: pending
+    consistency_reason: ''
   - edition: '2010'
     publication: OIML R 76-1:2006
     publication_id: OIML R076-1:2006
@@ -181,9 +171,8 @@ data:
     definition: "[V error of an instrument determined under reference conditions IM:
       1993, 5.4]"
     notes: []
-    consistency: ok
-    consistency_reason: Semantically identical; 'measuring instrument' is shortened
-      to 'instrument' without changing the meaning.
+    consistency: pending
+    consistency_reason: ''
   - edition: '2010'
     publication: OIML R 137-1:2006
     publication_id: OIML R137-1:2006
@@ -194,13 +183,12 @@ data:
     g18_entry: '01945'
     definition: error determined under reference conditions
     notes: []
-    consistency: ok
-    consistency_reason: The publication's definition is semantically equivalent; 'error'
-      in a metrological context inherently implies error of a measuring instrument.
+    consistency: pending
+    consistency_reason: ''
   - edition: '2010'
     publication: OIML D 11:2004
     publication_id: OIML D011:2004
-    tc_sc: ''
+    tc_sc: TC5/SC1
     year: 2004
     clause: '3.7'
     link: https://www.oiml.org/en/files/pdf_D/d011-e04.pdf
@@ -208,9 +196,8 @@ data:
     definition: error of a measuring instrument, determined under reference conditions
       [VIM, 5.24]
     notes: []
-    consistency: ok
-    consistency_reason: The publication's definition is identical in semantic content,
-      with only a reference citation added.
+    consistency: pending
+    consistency_reason: ''
     related:
     - type: see
       ref:
@@ -227,10 +214,8 @@ data:
     definition: "[b error of a weighing instrument, determined under reference conditions
       ased on VIM:1993, 5.24]"
     notes: []
-    consistency: ok
-    consistency_reason: Semantically equivalent; 'weighing instrument' is a valid
-      specific instance of 'measuring instrument' and the core definition matches
-      exactly.
+    consistency: pending
+    consistency_reason: ''
     related:
     - type: see
       ref:
@@ -239,7 +224,7 @@ data:
   - edition: '2010'
     publication: OIML R 135:2004
     publication_id: OIML R135:2004
-    tc_sc: ''
+    tc_sc: TC18/SC5
     year: 2004
     clause: '2.28'
     link: https://www.oiml.org/en/files/pdf_R/r135-e04.pdf
@@ -249,8 +234,8 @@ data:
     - 1. The initial intrinsic error is the intrinsic error of a measuring instrument
       as determined prior to performance tests and durability evaluations (see 2.32).
       [VIM:1993, 5.24]
-    consistency: ok
-    consistency_reason: The definitions are identical in wording and meaning.
+    consistency: pending
+    consistency_reason: ''
   - edition: '2010'
     publication: OIML R 136-1:2004
     publication_id: OIML R136-1:2004
@@ -262,9 +247,8 @@ data:
     definition: error of a measuring instrument determined under reference conditions
     notes:
     - "[VIM:1993, 5.24]"
-    consistency: ok
-    consistency_reason: The definitions are semantically identical, differing only
-      by a comma.
+    consistency: pending
+    consistency_reason: ''
   - edition: '2010'
     publication: OIML R 134:2003
     publication_id: OIML R134:2003
@@ -275,14 +259,12 @@ data:
     g18_entry: '01822'
     definition: error of an instrument under reference conditions
     notes: []
-    consistency: ok
-    consistency_reason: The publication conveys the same meaning, with 'measuring
-      instrument' shortened to 'instrument' and minor phrasing differences that do
-      not change the semantic content.
+    consistency: pending
+    consistency_reason: ''
   - edition: '2010'
     publication: OIML R 129:2000
     publication_id: OIML R129:2000
-    tc_sc: ''
+    tc_sc: TC7/SC5
     year: 2000
     clause: '2.24'
     link: https://www.oiml.org/en/files/pdf_R/r129-e00.pdf
@@ -290,9 +272,8 @@ data:
     definition: the error of a measuring instrument determined under reference VIM:1993,
       5.24. conditions
     notes: []
-    consistency: ok
-    consistency_reason: The publication's definition is semantically identical; the
-      inline citation 'VIM:1993, 5.24.' is merely a reference inserted mid-sentence.
+    consistency: pending
+    consistency_reason: ''
     related:
     - type: see
       ref:
@@ -301,20 +282,19 @@ data:
   - edition: '2010'
     publication: OIML R 81:1998
     publication_id: OIML R081:1998
-    tc_sc: ''
+    tc_sc: TC8/SC6
     year: 1998
     clause: '3.20'
     link: https://www.oiml.org/en/files/pdf_R/r081-e98.pdf
     g18_entry: '01029'
     definition: the error of a measuring system under reference conditions
     notes: []
-    consistency: partial
-    consistency_reason: Publication uses 'measuring system' instead of 'measuring
-      instrument,' which is a broader concept and not strictly equivalent.
+    consistency: pending
+    consistency_reason: ''
   - edition: '2010'
     publication: OIML R 125:1998
     publication_id: OIML R125:1998
-    tc_sc: ''
+    tc_sc: TC8/SC1
     year: 1998
     clause: T.23
     link: https://www.oiml.org/en/files/pdf_R/r125-e98.pdf
@@ -322,10 +302,8 @@ data:
     definition: the error of a measuring instrument used under reference conditions
       (VIM:1993, 5.24)
     notes: []
-    consistency: ok
-    consistency_reason: Both convey the error of a measuring instrument determined/used
-      under reference conditions; 'used under' and 'determined under' are semantically
-      equivalent here.
+    consistency: pending
+    consistency_reason: ''
     related:
     - type: see
       ref:
@@ -334,7 +312,7 @@ data:
   - edition: '2010'
     publication: OIML R 50-1:1997
     publication_id: OIML R050-1:1997
-    tc_sc: ''
+    tc_sc: TC9/SC2
     year: 1997
     clause: T.5.2
     link: https://www.oiml.org/en/files/pdf_R/r050-1-e97.pdf
@@ -342,26 +320,24 @@ data:
     definition: "[V the error of a belt weigher, determined under reference conditions
       IM:1993, 5.24]"
     notes: []
-    consistency: partial
-    consistency_reason: Replaces 'measuring instrument' with the narrower 'belt weigher'
-      and contains corrupted bracket text.
+    consistency: pending
+    consistency_reason: ''
   - edition: '2010'
     publication: OIML R 106-1:1997
     publication_id: OIML R106-1:1997
-    tc_sc: ''
+    tc_sc: TC9/SC2
     year: 1997
     clause: T.4.2.2
     link: https://www.oiml.org/en/files/pdf_R/r106-1-e97.pdf
     g18_entry: '01294'
     definition: the error of an instrument under reference conditions
     notes: []
-    consistency: ok
-    consistency_reason: 'Both definitions convey the same meaning: the error of a
-      measuring instrument determined under reference conditions.'
+    consistency: pending
+    consistency_reason: ''
   - edition: '2010'
     publication: OIML R 124:1997
     publication_id: OIML R124:1997
-    tc_sc: ''
+    tc_sc: TC17/SC2
     year: 1997
     clause: '8'
     link: https://www.oiml.org/en/files/pdf_R/r124-e97.pdf
@@ -369,13 +345,12 @@ data:
     definition: "(V the error of an instrument used under reference conditions IM:1993,
       clause 5.24 or D 11 clause T.6)"
     notes: []
-    consistency: ok
-    consistency_reason: 'Both convey the same meaning: the error of a measuring instrument
-      when determined under reference conditions.'
+    consistency: pending
+    consistency_reason: ''
   - edition: '2010'
     publication: OIML R 105:1993
     publication_id: OIML R105:1993
-    tc_sc: ''
+    tc_sc: TC8/SC3
     year: 1993
     clause: T.17
     link: https://www.oiml.org/en/files/pdf_R/r105-e93.pdf
@@ -383,9 +358,8 @@ data:
     definition: the error of a measuring system used under reference conditions [VIM:1993,
       5.27]
     notes: []
-    consistency: partial
-    consistency_reason: Publication says 'measuring system' instead of 'measuring
-      instrument'; VIM distinguishes the two as separate concepts.
+    consistency: pending
+    consistency_reason: ''
     related:
     - type: see
       ref:
@@ -415,9 +389,8 @@ data:
       (3.4.5) [SOURCE: OIML D 11:2013 3.8, [8], , modified — “meter” replaces “measuring
       instrument”]'
     notes: []
-    consistency: ok
-    consistency_reason: "'Meter' is a valid synonym for 'measuring instrument' and
-      all other semantic elements match exactly."
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML D031:2023
     publication_id: OIML D031:2023
@@ -429,10 +402,8 @@ data:
     definition: error of indication, determined under reference conditions [OIML V
       1:2022, 0.06 ]
     notes: []
-    consistency: partial
-    consistency_reason: Publication uses 'error of indication' instead of 'error of
-      a measuring instrument', which is a more specific term referring to the indicated
-      value rather than the instrument itself.
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML R139-1:2022
     publication_id: OIML R139-1:2022
@@ -444,9 +415,8 @@ data:
     definition: error of indication determined under reference conditions [OIML V
       1:2013, 0.06]
     notes: []
-    consistency: partial
-    consistency_reason: Publication specifies 'error of indication' rather than the
-      broader 'error of a measuring instrument', narrowing the concept slightly.
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML R126-1:2021
     publication_id: OIML R126-1:2021
@@ -458,9 +428,8 @@ data:
     definition: error of a measuring instrument, determined under reference conditions
       [adapter from OIML V 1, 0.06]
     notes: []
-    consistency: ok
-    consistency_reason: Semantically identical; only adds the source citation which
-      does not alter the meaning.
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML R129-1:2020
     publication_id: OIML R129-1:2020
@@ -472,9 +441,8 @@ data:
     definition: error of a measuring instrument determined under reference conditions
       [VIML 0.06]
     notes: []
-    consistency: ok
-    consistency_reason: The publication's definition is semantically identical to
-      the official definition, including the VIML source reference.
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML R117-1:2019
     publication_id: OIML R117-1:2019
@@ -499,9 +467,8 @@ data:
     definition: error of a measuring instrument, determined under reference conditions
       VIML, 0.06
     notes: []
-    consistency: ok
-    consistency_reason: The publication adds only a source citation, preserving identical
-      semantic content.
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML R080-2:2017
     publication_id: OIML R080-2:2017
@@ -526,9 +493,8 @@ data:
     definition: error of a measuring instrument, determined under reference conditions
       [OIML D11, 3.8]
     notes: []
-    consistency: ok
-    consistency_reason: The definitions are semantically identical; the publication
-      only adds a reference citation.
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML R146-1:2016
     publication_id: OIML R146-1:2016
@@ -541,9 +507,8 @@ data:
       [OIML D11:2013, 3.7]
     notes:
     - Note:The grain sample would also be at the reference conditions.
-    consistency: ok
-    consistency_reason: The publication's definition is identical in semantic content,
-      differing only by the addition of a citation reference.
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML R050-1:2014
     publication_id: OIML R050-1:2014
@@ -555,9 +520,8 @@ data:
     definition: error of a measuring instrument determined under reference conditions
       [OIML D 11, 3.7]
     notes: []
-    consistency: ok
-    consistency_reason: Semantically identical; the publication adds a source citation
-      but conveys the same meaning.
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML D011:2013
     publication_id: OIML D011:2013
@@ -568,9 +532,8 @@ data:
     g18_entry: '02222'
     definition: error of indication determined under reference conditions [VIML 0.06]
     notes: []
-    consistency: partial
-    consistency_reason: Publication specifies 'error of indication' rather than the
-      broader 'error of a measuring instrument,' narrowing the concept.
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML R144-1:2013
     publication_id: OIML R144-1:2013
@@ -594,9 +557,8 @@ data:
     definition: error of a measuring instrument determined under reference conditions
       [VIML:2013, 0.06]
     notes: []
-    consistency: ok
-    consistency_reason: The publication's definition is identical in meaning, differing
-      only by the inclusion of the source citation.
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML R046-1:2012
     publication_id: OIML R046-1:2012
@@ -608,9 +570,8 @@ data:
     definition: error of a measuring instrument, determined under reference conditions
       [OIML V1:2013, 0.06]
     notes: []
-    consistency: ok
-    consistency_reason: Semantically identical text; the added citation simply attributes
-      the source.
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML R137:2012
     publication_id: OIML R137:2012
@@ -621,9 +582,8 @@ data:
     g18_entry: '02662'
     definition: error determined under reference conditions (OIML D 11, 3.7)
     notes: []
-    consistency: partial
-    consistency_reason: Drops the specification that the error is of a measuring instrument,
-      making the concept less precise.
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML R106-1:2011
     publication_id: OIML R106-1:2011
@@ -635,13 +595,12 @@ data:
     definition: error of an instrument determined under reference conditions [VIM
       5.24]
     notes: []
-    consistency: ok
-    consistency_reason: The publication conveys the same meaning; 'instrument' is
-      merely a shortened form of 'measuring instrument' in this context.
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML R 80-1:2009
     publication_id: OIML R080-1:2009
-    tc_sc: ''
+    tc_sc: TC8/SC1
     year: 2009
     clause: '2.54'
     link: https://www.oiml.org/en/files/pdf_R/r080-1-e09.pdf
@@ -654,16 +613,15 @@ data:
   - edition: 202X
     publication: OIML R 143:2009
     publication_id: OIML R143:2009
-    tc_sc: ''
+    tc_sc: TC16/SC1
     year: 2009
     clause: '2.14'
     link: https://www.oiml.org/en/files/pdf_R/r143-e09.pdf
     g18_entry: '02140'
     definition: error of a gas analyzer, determined under reference conditions
     notes: []
-    consistency: partial
-    consistency_reason: Narrows the general concept of a measuring instrument to a
-      specific gas analyzer.
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML R 85-1:2008
     publication_id: OIML R085-1:2008
@@ -686,9 +644,8 @@ data:
     g18_entry: '02352'
     definition: error of a measuring instrument determined under reference conditions
     notes: []
-    consistency: partial
-    consistency_reason: Publication narrows 'true value' to 'conventional true quantity
-      value,' which is a specific type of true value and not fully equivalent.
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML R 107-1:2007
     publication_id: OIML R107-1:2007
@@ -700,13 +657,12 @@ data:
     definition: 'error of an instrument, determined under reference conditions [VIM:
       1993, 5.24]'
     notes: []
-    consistency: ok
-    consistency_reason: The term 'instrument' is merely a shortened form of 'measuring
-      instrument', so the definitions are semantically identical.
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML R 140:2007
     publication_id: OIML R140:2007
-    tc_sc: ''
+    tc_sc: TC8/SC7
     year: 2007
     clause: T.2.14
     link: https://www.oiml.org/en/files/pdf_R/r140-e07.pdf
@@ -726,9 +682,8 @@ data:
     definition: error of an instrument, determined under reference conditions [VIM:1993
       5.24]
     notes: []
-    consistency: ok
-    consistency_reason: "'Instrument' is an acceptable shortening of 'measuring instrument'
-      in this context, preserving the same meaning."
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML R 76-1:2006
     publication_id: OIML R076-1:2006
@@ -740,9 +695,8 @@ data:
     definition: 'error of an instrument determined under reference conditions [VIM:
       1993, 5.4]'
     notes: []
-    consistency: ok
-    consistency_reason: Semantically identical; 'measuring instrument' is shortened
-      to 'instrument' without changing the meaning.
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML R134:2006
     publication_id: OIML R134:2006
@@ -754,13 +708,12 @@ data:
     definition: error of an instrument determined under reference conditions. [VIM
       5.24]
     notes: []
-    consistency: ok
-    consistency_reason: The publication's definition is semantically identical, with
-      only minor wording differences (dropping 'measuring' before 'instrument').
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML R 135:2004
     publication_id: OIML R135:2004
-    tc_sc: ''
+    tc_sc: TC18/SC5
     year: 2004
     clause: '2.28'
     link: https://www.oiml.org/en/files/pdf_R/r135-e04.pdf
@@ -770,8 +723,8 @@ data:
     - 'Note 1: The initial intrinsic error is the intrinsic error of a measuring instrument
       as determined prior to performance tests and durability evaluations (see 2.32).
       [VIM:1993, 5.24]'
-    consistency: ok
-    consistency_reason: The definitions are identical in wording and meaning.
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML R 136-1:2004
     publication_id: OIML R136-1:2004
@@ -783,26 +736,24 @@ data:
     definition: error of a measuring instrument determined under reference conditions
       [VIM:1993, 5.24]
     notes: []
-    consistency: ok
-    consistency_reason: The definitions are semantically identical, differing only
-      by a comma.
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML R 81:1998
     publication_id: OIML R081:1998
-    tc_sc: ''
+    tc_sc: TC8/SC6
     year: 1998
     clause: '3.20'
     link: https://www.oiml.org/en/files/pdf_R/r081-e98.pdf
     g18_entry: '01029'
     definition: the error of a measuring system under reference conditions
     notes: []
-    consistency: partial
-    consistency_reason: Publication uses 'measuring system' instead of 'measuring
-      instrument,' which is a broader concept and not strictly equivalent.
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML R 125:1998
     publication_id: OIML R125:1998
-    tc_sc: ''
+    tc_sc: TC8/SC1
     year: 1998
     clause: T.23
     link: https://www.oiml.org/en/files/pdf_R/r125-e98.pdf
@@ -810,14 +761,12 @@ data:
     definition: the error of a measuring instrument used under reference conditions
       (VIM:1993, 5.24)
     notes: []
-    consistency: ok
-    consistency_reason: Both convey the error of a measuring instrument determined/used
-      under reference conditions; 'used under' and 'determined under' are semantically
-      equivalent here.
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML R 124:1997
     publication_id: OIML R124:1997
-    tc_sc: ''
+    tc_sc: TC17/SC2
     year: 1997
     clause: '8'
     link: https://www.oiml.org/en/files/pdf_R/r124-e97.pdf
@@ -825,9 +774,8 @@ data:
     definition: the error of an instrument used under reference conditions (VIM:1993,
       clause 5.24 or D 11 clause T.6)
     notes: []
-    consistency: ok
-    consistency_reason: 'Both convey the same meaning: the error of a measuring instrument
-      when determined under reference conditions.'
+    consistency: pending
+    consistency_reason: ''
 status: current
 id: 0a7539e6-fdad-5ffa-8a83-9f846968d910
 schema_version: '3'

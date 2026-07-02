@@ -20,7 +20,7 @@ data:
   - edition: '2010'
     publication: OIML R 60:2000
     publication_id: OIML R060:2000
-    tc_sc: ''
+    tc_sc: TC9
     year: 2000
     clause: 2.4.8
     link: https://www.oiml.org/en/files/pdf_R/r060-e00.pdf
@@ -28,9 +28,8 @@ data:
     definition: rrror of a load cell, determined under reference conditions (see 2.5.3)
       [Adapted from VIM:1993, 5.24]
     notes: []
-    consistency: partial
-    consistency_reason: Narrows the general concept from 'measuring instrument' specifically
-      to 'load cell'.
+    consistency: pending
+    consistency_reason: ''
     related:
     - type: see
       ref:
@@ -46,9 +45,8 @@ data:
     g18_entry: '03201'
     definition: error resulting from a load cel, determined under reference conditions
     notes: []
-    consistency: partial
-    consistency_reason: Publication incorrectly narrows 'measuring instrument' to
-      'load cell', changing the general concept to a specific instrument type.
+    consistency: pending
+    consistency_reason: ''
 status: current
 id: 64fb876f-862d-5a73-a583-32f038fa96c8
 schema_version: '3'

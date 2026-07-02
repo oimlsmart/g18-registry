@@ -12,7 +12,7 @@ data:
   - edition: '2010'
     publication: OIML D 31:2008
     publication_id: OIML D031:2008
-    tc_sc: ''
+    tc_sc: TC5/SC2
     year: 2008
     clause: 3.1.54
     link: https://www.oiml.org/en/files/pdf_D/d031-e08.pdf
@@ -22,10 +22,8 @@ data:
       founded on an operating system that permits loading and execution of software
       for specific purposes
     notes: []
-    consistency: partial
-    consistency_reason: Adds 'measuring system' and 'reference quantity value' which
-      narrow meaning beyond the official definition's broader 'error' and scope limited
-      to measuring instrument.
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML R059-1:2016
     publication_id: OIML R059-1:2016

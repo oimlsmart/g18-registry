@@ -37,10 +37,8 @@ data:
     notes:
     - 'Note 1:A coverage factor is usually symbolized by the letter k (see also GUM,
       2.3.6). Note 2: [VIM:2007, 2.38]'
-    consistency: ko
-    consistency_reason: The publication refers to a concept affecting the relation
-      between indication and measurement result, not a quantity affecting the measurement
-      result itself.
+    consistency: pending
+    consistency_reason: ''
 status: current
 id: 242ad832-9fb9-558c-8b87-90f1487727a6
 schema_version: '3'

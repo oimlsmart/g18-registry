@@ -12,7 +12,7 @@ data:
   - edition: '2010'
     publication: OIML D 31:2008
     publication_id: OIML D031:2008
-    tc_sc: ''
+    tc_sc: TC5/SC2
     year: 2008
     clause: 3.1.53
     link: https://www.oiml.org/en/files/pdf_D/d031-e08.pdf
@@ -24,13 +24,12 @@ data:
     - liquids other than water, the range of kinematic viscosity of a turbine is a
       type- specific parameter fixed by the type approval of the turbine. All the
       manufactured turbines of the same type have the same range of viscosity.
-    consistency: ok
-    consistency_reason: The VIML definition 0.04 uses 'reference quantity value' which
-      is equivalent in meaning to 'true value' in this context.
+    consistency: pending
+    consistency_reason: ''
   - edition: '2010'
     publication: OIML R 21:2007
     publication_id: OIML R021:2007
-    tc_sc: ''
+    tc_sc: TC7/SC4
     year: 2007
     clause: 2.2.8.2
     link: https://www.oiml.org/en/files/pdf_R/r021-e07.pdf
@@ -141,7 +140,7 @@ data:
   - edition: 202X
     publication: OIML R 21:2007
     publication_id: OIML R021:2007
-    tc_sc: ''
+    tc_sc: TC7/SC4
     year: 2007
     clause: 2.2.8.2
     link: https://www.oiml.org/en/files/pdf_R/r021-e07.pdf

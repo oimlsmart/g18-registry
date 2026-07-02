@@ -20,7 +20,7 @@ data:
   - edition: '2010'
     publication: OIML R 60:2000
     publication_id: OIML R060:2000
-    tc_sc: ''
+    tc_sc: TC9
     year: 2000
     clause: 2.4.7
     link: https://www.oiml.org/en/files/pdf_R/r060-e00.pdf
@@ -29,9 +29,8 @@ data:
       of the measurand (the applied force expressed in mass) [Adapted from VIM:1993,
       5.20]
     notes: []
-    consistency: partial
-    consistency_reason: Narrows the general concept to load cells specifically and
-      conflates 'indication' with 'measurement result'.
+    consistency: pending
+    consistency_reason: ''
     related:
     - type: see
       ref:

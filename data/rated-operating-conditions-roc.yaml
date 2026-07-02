@@ -20,7 +20,7 @@ data:
   - edition: '2010'
     publication: OIML R 49-1:2006
     publication_id: OIML R049-1:2006
-    tc_sc: ''
+    tc_sc: TC8/SC5
     year: 2006
     clause: 2.4.4
     link: https://www.oiml.org/en/files/pdf_R/r049-1-e06.pdf
@@ -29,9 +29,8 @@ data:
       factors, for which the errors (of indication) of the water meter are required
       to be within the maximum permissible errors dapted from VIM:1993, 5.5]."
     notes: []
-    consistency: partial
-    consistency_reason: Narrows the general concept to water meters, influence factors,
-      and errors of indication rather than the broader specified metrological characteristics.
+    consistency: pending
+    consistency_reason: ''
     related:
     - type: see
       ref:

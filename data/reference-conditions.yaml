@@ -21,7 +21,7 @@ data:
   - edition: '2010'
     publication: OIML R 80-1:2009
     publication_id: OIML R080-1:2009
-    tc_sc: ''
+    tc_sc: TC8/SC1
     year: 2009
     clause: '2.51'
     link: https://www.oiml.org/en/files/pdf_R/r080-1-e09.pdf
@@ -31,12 +31,12 @@ data:
     notes:
     - The reference conditions generally include reference values or reference ranges
       for the influence quantities affecting the measuring instrument.
-    consistency: ok
-    consistency_reason: The definitions are identical in wording and meaning.
+    consistency: pending
+    consistency_reason: ''
   - edition: '2010'
     publication: OIML R 143:2009
     publication_id: OIML R143:2009
-    tc_sc: ''
+    tc_sc: TC16/SC1
     year: 2009
     clause: '2.21'
     link: https://www.oiml.org/en/files/pdf_R/r143-e09.pdf
@@ -45,9 +45,8 @@ data:
       4.11) a measuring instrument or measuring system or for comparison of measurement
       results
     notes: []
-    consistency: partial
-    consistency_reason: "'Operating condition' singular is less precise than 'conditions
-      of use', and 'measuring system' is added beyond the official 'measuring instrument'."
+    consistency: pending
+    consistency_reason: ''
     related:
     - type: see
       ref:
@@ -56,16 +55,15 @@ data:
   - edition: '2010'
     publication: OIML R 71:2008
     publication_id: OIML R071:2008
-    tc_sc: ''
+    tc_sc: TC8/SC1
     year: 2008
     clause: '3.10'
     link: https://www.oiml.org/en/files/pdf_R/r071-e08.pdf
     g18_entry: '02234'
     definition: reference conditions applicable for the calibration certificate
     notes: []
-    consistency: partial
-    consistency_reason: Publication narrows scope to calibration certificate context,
-      omitting testing of performance and intercomparison of measurement results.
+    consistency: pending
+    consistency_reason: ''
   - edition: '2010'
     publication: OIML R 85-1:2008
     publication_id: OIML R085-1:2008
@@ -79,9 +77,8 @@ data:
     notes:
     - Reference conditions generally specify intervals of values for any influence
       quantity.
-    consistency: partial
-    consistency_reason: Drops the purpose of testing instrument performance and restricts
-      to influence factors/values rather than general conditions of use.
+    consistency: pending
+    consistency_reason: ''
   - edition: '2010'
     publication: OIML R 99-1:2008
     publication_id: OIML R099-1:2008
@@ -94,10 +91,8 @@ data:
       4.11) ameasuring instrument or measuring system or for comparison ofmeasurement
       results
     notes: []
-    consistency: ok
-    consistency_reason: Semantically equivalent; minor wording differences such as
-      'evaluating' vs 'testing' and inclusion of 'measuring system' do not change
-      the core meaning.
+    consistency: pending
+    consistency_reason: ''
     related:
     - type: see
       ref:
@@ -114,10 +109,8 @@ data:
     definition: set of specified values of influence factors fixed to ensure valid
       intercomparison of the results of measurements
     notes: []
-    consistency: partial
-    consistency_reason: Publication drops the 'testing the performance of a measuring
-      instrument' purpose and narrows conditions to 'specified values of influence
-      factors.'
+    consistency: pending
+    consistency_reason: ''
   - edition: '2010'
     publication: OIML R 107-1:2007
     publication_id: OIML R107-1:2007
@@ -129,9 +122,8 @@ data:
     definition: "[V conditions of use prescribed for testing the performance of an
       instrument or for intercomparison of results of measurements IM: 1993, 5.7]"
     notes: []
-    consistency: partial
-    consistency_reason: Drops the qualifier 'measuring' from 'measuring instrument,'
-      broadening the scope to all instruments.
+    consistency: pending
+    consistency_reason: ''
   - edition: '2010'
     publication: OIML R 117-1:2007
     publication_id: OIML R117-1:2007
@@ -143,14 +135,12 @@ data:
     definition: set of specified values of influence factors fixed to ensure valid
       intercomparison of results of measurements
     notes: []
-    consistency: partial
-    consistency_reason: Publication drops testing of measuring instrument performance
-      and narrows conditions to 'specified values of influence factors', changing
-      the scope.
+    consistency: pending
+    consistency_reason: ''
   - edition: '2010'
     publication: OIML R 139:2007
     publication_id: OIML R139:2007
-    tc_sc: ''
+    tc_sc: TC8/SC7
     year: 2007
     clause: T.4.5
     link: https://www.oiml.org/en/files/pdf_R/r139-e07.pdf
@@ -158,14 +148,12 @@ data:
     definition: set of specified values for influence factors that are fixed to ensure
       valid intercomparison of results of measurements
     notes: []
-    consistency: partial
-    consistency_reason: Publication drops testing of measuring instrument performance
-      and restricts conditions to influence factor values rather than general conditions
-      of use.
+    consistency: pending
+    consistency_reason: ''
   - edition: '2010'
     publication: OIML R 140:2007
     publication_id: OIML R140:2007
-    tc_sc: ''
+    tc_sc: TC8/SC7
     year: 2007
     clause: T.3.5
     link: https://www.oiml.org/en/files/pdf_R/r140-e07.pdf
@@ -174,9 +162,8 @@ data:
       from VIM:2007, 4.11) prescribed for testing the performance of a measuring system
       or a device or for intercomparisons of the results of measurements
     notes: []
-    consistency: partial
-    consistency_reason: Adds 'set of reference values or reference ranges of influence
-      factors' which is not in the official definition, narrowing the concept.
+    consistency: pending
+    consistency_reason: ''
     related:
     - type: see
       ref:
@@ -185,7 +172,7 @@ data:
   - edition: '2010'
     publication: OIML R 49-1:2006
     publication_id: OIML R049-1:2006
-    tc_sc: ''
+    tc_sc: TC8/SC5
     year: 2006
     clause: 2.4.5
     link: https://www.oiml.org/en/files/pdf_R/r049-1-e06.pdf
@@ -194,9 +181,8 @@ data:
       prescribed for testing the performance of a water meter, or for the intercomparison
       of the results of measurements dapted from VIM:1993, 5.7]."
     notes: []
-    consistency: partial
-    consistency_reason: Narrows the general concept to water meters and adds explanatory
-      detail about reference values/ranges of influence quantities.
+    consistency: pending
+    consistency_reason: ''
     related:
     - type: see
       ref:
@@ -213,10 +199,8 @@ data:
     definition: inte set of specified values of influence factors fixed to ensure
       valid r-comparison of the results of measurements
     notes: []
-    consistency: partial
-    consistency_reason: Publication drops the 'testing the performance of a measuring
-      instrument' purpose and rephrases 'conditions' as 'set of specified values of
-      influence factors.'
+    consistency: pending
+    consistency_reason: ''
   - edition: '2010'
     publication: OIML R 76-1:2006
     publication_id: OIML R076-1:2006
@@ -228,10 +212,8 @@ data:
     definition: set of specified values of influence factors fixed to ensure valid
       inter-comparison of the results of measurements
     notes: []
-    consistency: partial
-    consistency_reason: Publication drops the 'testing the performance of a measuring
-      instrument' purpose and restricts conditions to 'values of influence factors'
-      rather than general 'conditions of use'.
+    consistency: pending
+    consistency_reason: ''
   - edition: '2010'
     publication: OIML R 137-1:2006
     publication_id: OIML R137-1:2006
@@ -245,14 +227,12 @@ data:
       of the results of measurements
     notes:
     - "(adapted from VIM:1993, 5.7)"
-    consistency: partial
-    consistency_reason: Narrows scope to 'gas meter' instead of 'measuring instrument'
-      and incorrectly specifies reference conditions as reference values/ranges of
-      influence quantities.
+    consistency: pending
+    consistency_reason: ''
   - edition: '2010'
     publication: OIML D 11:2004
     publication_id: OIML D011:2004
-    tc_sc: ''
+    tc_sc: TC5/SC1
     year: 2004
     clause: '3.15'
     link: https://www.oiml.org/en/files/pdf_D/d011-e04.pdf
@@ -262,8 +242,8 @@ data:
     notes:
     - The reference conditions generally include reference values or reference ranges
       for the influence quantities affecting a measuring instrument.
-    consistency: ok
-    consistency_reason: The definitions are identical in semantic content.
+    consistency: pending
+    consistency_reason: ''
     related:
     - type: see
       ref:
@@ -280,10 +260,8 @@ data:
     definition: "[b set of specified values of influence factors fixed to ensure valid
       intercomparison of the results of measurements ased on VIM:1993, 5.7]"
     notes: []
-    consistency: partial
-    consistency_reason: Drops 'testing the performance of a measuring instrument'
-      and replaces 'conditions of use' with 'set of specified values of influence
-      factors'.
+    consistency: pending
+    consistency_reason: ''
     related:
     - type: see
       ref:
@@ -300,10 +278,8 @@ data:
     definition: set of specified values of influence factors fixed to ensure valid
       [VIM:1993, 5.7] intercomparison of the results of measurements
     notes: []
-    consistency: partial
-    consistency_reason: Publication drops the 'testing the performance of a measuring
-      instrument' aspect and narrows the concept to only intercomparison of measurement
-      results.
+    consistency: pending
+    consistency_reason: ''
     related:
     - type: see
       ref:
@@ -322,8 +298,8 @@ data:
     notes:
     - The reference conditions generally include reference values or reference ranges
       for influence quantities affecting the measuring instrument. [VIM:1993, 5.7]
-    consistency: ok
-    consistency_reason: The definitions are identical in semantic content and wording.
+    consistency: pending
+    consistency_reason: ''
   - edition: '2010'
     publication: OIML R 75-1:2002
     publication_id: OIML R075-1:2002
@@ -336,13 +312,12 @@ data:
       measuring instrument or for intercomparison of results of measurements IM:1993,
       5.7]."
     notes: []
-    consistency: ok
-    consistency_reason: The publication's definition is verbatim identical to the
-      official definition.
+    consistency: pending
+    consistency_reason: ''
   - edition: '2010'
     publication: OIML R 60:2000
     publication_id: OIML R060:2000
-    tc_sc: ''
+    tc_sc: TC9
     year: 2000
     clause: 2.5.3
     link: https://www.oiml.org/en/files/pdf_R/r060-e00.pdf
@@ -353,13 +328,12 @@ data:
     - The reference conditions generally include reference values or reference ranges
       for the influence quantities affecting the load cell. [Adapted from VIM:1993,
       5.7]
-    consistency: partial
-    consistency_reason: Narrows the general concept of 'measuring instrument' to the
-      specific case of 'load cell'.
+    consistency: pending
+    consistency_reason: ''
   - edition: '2010'
     publication: OIML R 129:2000
     publication_id: OIML R129:2000
-    tc_sc: ''
+    tc_sc: TC7/SC5
     year: 2000
     clause: '2.31'
     link: https://www.oiml.org/en/files/pdf_R/r129-e00.pdf
@@ -367,9 +341,8 @@ data:
     definition: a set of specified values of influence factors fixed to ensure valid
       Adapted from VIM:1993, 5.7. intercomparison of results of measurements
     notes: []
-    consistency: partial
-    consistency_reason: Drops the purpose of testing performance of measuring instruments
-      and introduces 'influence factors' not present in the official definition.
+    consistency: pending
+    consistency_reason: ''
     related:
     - type: see
       ref:
@@ -378,7 +351,7 @@ data:
   - edition: '2010'
     publication: OIML R 81:1998
     publication_id: OIML R081:1998
-    tc_sc: ''
+    tc_sc: TC8/SC6
     year: 1998
     clause: '3.32'
     link: https://www.oiml.org/en/files/pdf_R/r081-e98.pdf
@@ -386,14 +359,12 @@ data:
     definition: a set of specified values of influence factors to ensure valid inter-comparisons
       of the results of a measurement
     notes: []
-    consistency: partial
-    consistency_reason: Drops the 'testing the performance of a measuring instrument'
-      clause and replaces it with 'influence factors,' narrowing the scope to intercomparison
-      only.
+    consistency: pending
+    consistency_reason: ''
   - edition: '2010'
     publication: OIML R 125:1998
     publication_id: OIML R125:1998
-    tc_sc: ''
+    tc_sc: TC8/SC1
     year: 1998
     clause: T.31
     link: https://www.oiml.org/en/files/pdf_R/r125-e98.pdf
@@ -401,10 +372,8 @@ data:
     definition: a set of specified values of influence factors fixed to ensure valid
       intercomparisons of results of measurements (adapted from VIM:1993, 5.7)
     notes: []
-    consistency: partial
-    consistency_reason: Drops 'testing the performance of a measuring instrument'
-      and replaces it with 'influence factors fixed', narrowing the definition to
-      only intercomparison of measurement results.
+    consistency: pending
+    consistency_reason: ''
     related:
     - type: see
       ref:
@@ -413,7 +382,7 @@ data:
   - edition: '2010'
     publication: OIML R 50-1:1997
     publication_id: OIML R050-1:1997
-    tc_sc: ''
+    tc_sc: TC9/SC2
     year: 1997
     clause: T.6.3
     link: https://www.oiml.org/en/files/pdf_R/r050-1-e97.pdf
@@ -421,10 +390,8 @@ data:
     definition: "[A a set of specified values of influence factors fixed to ensure
       a valid intercomparison of measurement results dapted from VIM:1993, 5.7]"
     notes: []
-    consistency: partial
-    consistency_reason: Publication focuses only on specified values of influence
-      factors for intercomparison, omitting testing of measuring instrument performance
-      and adding 'valid' as a qualifier.
+    consistency: pending
+    consistency_reason: ''
     related:
     - type: see
       ref:
@@ -433,7 +400,7 @@ data:
   - edition: '2010'
     publication: OIML R 106-1:1997
     publication_id: OIML R106-1:1997
-    tc_sc: ''
+    tc_sc: TC9/SC2
     year: 1997
     clause: T.5.3
     link: https://www.oiml.org/en/files/pdf_R/r106-1-e97.pdf
@@ -441,13 +408,12 @@ data:
     definition: a set of specified values of influence factors fixed to ensure valid
       intercomparison of the results of measurements
     notes: []
-    consistency: partial
-    consistency_reason: Publication drops the 'testing the performance of a measuring
-      instrument' purpose and restricts to influence factors only.
+    consistency: pending
+    consistency_reason: ''
   - edition: '2010'
     publication: OIML R 124:1997
     publication_id: OIML R124:1997
-    tc_sc: ''
+    tc_sc: TC17/SC2
     year: 1997
     clause: '7'
     link: https://www.oiml.org/en/files/pdf_R/r124-e97.pdf
@@ -456,14 +422,12 @@ data:
       valid inter-comparison of results dapted from VIM:1993, clause 5.7 in D 11 clause
       T.14)"
     notes: []
-    consistency: partial
-    consistency_reason: Drops 'testing the performance of a measuring instrument'
-      and replaces influence quantities context with narrower 'influence factors'
-      phrasing.
+    consistency: pending
+    consistency_reason: ''
   - edition: '2010'
     publication: OIML R 110:1994
     publication_id: OIML R110:1994
-    tc_sc: ''
+    tc_sc: TC10/SC1
     year: 1994
     clause: 2.5.2
     link: https://www.oiml.org/en/files/pdf_R/r110-e94.pdf
@@ -471,14 +435,12 @@ data:
     definition: the conditions of use prescribed for testing the performance of a
       pressure balance or for intercomparison of measurement results
     notes: []
-    consistency: ok
-    consistency_reason: Substituting 'pressure balance' (a specific measuring instrument)
-      and 'measurement results' for 'results of measurements' does not change the
-      semantic meaning of the definition.
+    consistency: pending
+    consistency_reason: ''
   - edition: '2010'
     publication: OIML R 105:1993
     publication_id: OIML R105:1993
-    tc_sc: ''
+    tc_sc: TC8/SC3
     year: 1993
     clause: T.26
     link: https://www.oiml.org/en/files/pdf_R/r105-e93.pdf
@@ -486,10 +448,8 @@ data:
     definition: a set of specified values of influence factors fixed to ensure valid
       intercomparison of results of measurements [adapted from VIM:1993, 5.07]
     notes: []
-    consistency: partial
-    consistency_reason: Drops the 'testing the performance of a measuring instrument'
-      purpose and recharacterizes the concept as 'specified values of influence factors'
-      rather than 'conditions of use.'
+    consistency: pending
+    consistency_reason: ''
     related:
     - type: see
       ref:
@@ -525,9 +485,8 @@ data:
       V 2-200:2012 (VIM) 4.11, [1], modified — “meter” replaces “measuring instrument
       or measuring system”; original notes removed]'
     notes: []
-    consistency: partial
-    consistency_reason: "'Meter' is narrower than 'measuring instrument or measuring
-      system', and 'evaluating' is narrower than 'testing'."
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML R139-1:2022
     publication_id: OIML R139-1:2022
@@ -540,10 +499,8 @@ data:
       measuring instrument or measuring system or for comparison of measurement results
       [OIML V 2-200:2012, 4.11] [OIML V 1:2013, 0.09]
     notes: []
-    consistency: ok
-    consistency_reason: Both definitions convey the same meaning; 'operating condition'
-      vs 'conditions of use' and 'evaluating' vs 'testing' are synonymous in this
-      context, and 'measuring system' merely generalizes 'measuring instrument'.
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML R129-1:2020
     publication_id: OIML R129-1:2020
@@ -555,9 +512,8 @@ data:
     definition: a set of specified values of influence factors fixed to ensure valid.
       intercomparison of results of measurements [VIM 4.11]
     notes: []
-    consistency: partial
-    consistency_reason: Drops the 'testing performance of measuring instruments' purpose
-      and focuses narrowly on influence factors and intercomparison only.
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML R150-1:2020
     publication_id: OIML R150-1:2020
@@ -584,9 +540,8 @@ data:
     definition: set of specified values of influence factors fixed to ensure valid  intercomparison
       of results of measurements
     notes: []
-    consistency: partial
-    consistency_reason: Publication omits testing the performance of measuring instruments
-      and narrows scope to influence factors and intercomparison only.
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML R061-1:2017
     publication_id: OIML R061-1:2017
@@ -601,9 +556,8 @@ data:
     notes:
     - 'Note:  Reference operating conditions specify intervals of values of the measurand
       and of the influence quantities.'
-    consistency: ok
-    consistency_reason: Semantically equivalent; 'operating condition' vs 'conditions
-      of use' and 'evaluating' vs 'testing' convey the same meaning.
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML R080-2:2017
     publication_id: OIML R080-2:2017
@@ -635,10 +589,8 @@ data:
       influence quantities. Note 2: In IEC 60050-300, item 311-06-02, the term “reference
       condition” refers to an operating condition under which the specified instrumental
       measurement uncertainty is the smallest possible.'
-    consistency: ok
-    consistency_reason: Semantically equivalent; 'operating condition' vs 'conditions
-      of use', 'measuring system' vs 'instrument', and 'evaluating' vs 'testing' convey
-      the same meaning.
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML R050-1:2014
     publication_id: OIML R050-1:2014
@@ -653,10 +605,8 @@ data:
     notes:
     - 'Note:  Reference operating conditions specify intervals of values of the measurand
       and of the influence quantities.'
-    consistency: ok
-    consistency_reason: Semantically equivalent; 'operating conditions' and 'evaluating'
-      are acceptable synonyms, and 'measuring system' is a natural extension of 'measuring
-      instrument'.
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML R144-1:2013
     publication_id: OIML R144-1:2013
@@ -669,9 +619,8 @@ data:
       measuring instrument or measuring system or for comparison of measurement results
       [VIM, 4.11] [1]
     notes: []
-    consistency: ok
-    consistency_reason: Semantically equivalent; 'operating condition' vs 'conditions
-      of use' and 'evaluating' vs 'testing' convey the same meaning.
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML R046-1:2012
     publication_id: OIML R046-1:2012
@@ -689,10 +638,8 @@ data:
       specified instrumental measurement uncertainty is the smallest possible. [OIML
       V2-200:2012, 4.11] Note 3: For the application of this Recommendation, the terms
       “measuring instrument” and “measuring system” mean: electricity meter.'
-    consistency: ok
-    consistency_reason: Semantically equivalent; 'operating condition'~'conditions
-      of use', 'evaluating'~'testing', 'measuring system' is a reasonable elaboration,
-      and 'comparison of measurement results'~'intercomparison of results of measurements'.
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML R137:2012
     publication_id: OIML R137:2012
@@ -705,9 +652,8 @@ data:
       prescribed for testing the performance of a gas meter, or for the intercomparison
       of the results of measurements
     notes: []
-    consistency: partial
-    consistency_reason: Publication narrows the concept from any measuring instrument
-      to specifically a gas meter.
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML R106-1:2011
     publication_id: OIML R106-1:2011
@@ -721,13 +667,12 @@ data:
     notes:
     - 'Note:  The reference conditions generally include reference values or reference
       ranges for influence quantities affecting the measuring instrument. [VIM 5.7]'
-    consistency: ok
-    consistency_reason: Hyphenation difference ('inter-comparison' vs 'intercomparison')
-      does not change the meaning.
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML R 80-1:2009
     publication_id: OIML R080-1:2009
-    tc_sc: ''
+    tc_sc: TC8/SC1
     year: 2009
     clause: '2.51'
     link: https://www.oiml.org/en/files/pdf_R/r080-1-e09.pdf
@@ -742,7 +687,7 @@ data:
   - edition: 202X
     publication: OIML R 143:2009
     publication_id: OIML R143:2009
-    tc_sc: ''
+    tc_sc: TC16/SC1
     year: 2009
     clause: '2.21'
     link: https://www.oiml.org/en/files/pdf_R/r143-e09.pdf
@@ -751,13 +696,12 @@ data:
       measuring instrument or measuring system or for comparison of measurement results
       [VIM:2007, 4.11]
     notes: []
-    consistency: partial
-    consistency_reason: "'Operating condition' singular is less precise than 'conditions
-      of use', and 'measuring system' is added beyond the official 'measuring instrument'."
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML R 71:2008
     publication_id: OIML R071:2008
-    tc_sc: ''
+    tc_sc: TC8/SC1
     year: 2008
     clause: '3.10'
     link: https://www.oiml.org/en/files/pdf_R/r071-e08.pdf
@@ -793,10 +737,8 @@ data:
       measuring instrument or measuring system or for comparison of measurement results
       [VIM:2007, 4.11]
     notes: []
-    consistency: ok
-    consistency_reason: Semantically equivalent; minor wording differences like 'operating
-      condition' vs 'conditions of use' and 'measuring system' vs 'instrument' do
-      not change the meaning.
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML R 35-1:2007
     publication_id: OIML R035-1:2007
@@ -808,10 +750,8 @@ data:
     definition: set of specified values of influence factors fixed to ensure valid
       intercomparison of the results of measurements
     notes: []
-    consistency: partial
-    consistency_reason: Publication drops the 'testing the performance of a measuring
-      instrument' purpose and narrows conditions to 'specified values of influence
-      factors.'
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML R 107-1:2007
     publication_id: OIML R107-1:2007
@@ -823,13 +763,12 @@ data:
     definition: 'conditions of use prescribed for testing the performance of an instrument
       or for intercomparison of results of measurements [VIM: 1993, 5.7]'
     notes: []
-    consistency: partial
-    consistency_reason: Drops the qualifier 'measuring' from 'measuring instrument,'
-      broadening the scope to all instruments.
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML R 140:2007
     publication_id: OIML R140:2007
-    tc_sc: ''
+    tc_sc: TC8/SC7
     year: 2007
     clause: T.3.5
     link: https://www.oiml.org/en/files/pdf_R/r140-e07.pdf
@@ -838,9 +777,8 @@ data:
       for testing the performance of a measuring system or a device or for intercomparisons
       of the results of measurements [adapted from VIM:2007, 4.11]
     notes: []
-    consistency: partial
-    consistency_reason: Adds 'set of reference values or reference ranges of influence
-      factors' which is not in the official definition, narrowing the concept.
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML R 51-1:2006
     publication_id: OIML R051-1:2006
@@ -852,10 +790,8 @@ data:
     definition: set of specified values of influence factors fixed to ensure valid
       intercomparison of the results of measurements [based on VIM:1993, 5.7]
     notes: []
-    consistency: partial
-    consistency_reason: Publication drops the 'testing the performance of a measuring
-      instrument' purpose and rephrases 'conditions' as 'set of specified values of
-      influence factors.'
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML R 76-1:2006
     publication_id: OIML R076-1:2006
@@ -867,10 +803,8 @@ data:
     definition: set of specified values of influence factors fixed to ensure valid
       inter-comparison of the results of measurements
     notes: []
-    consistency: partial
-    consistency_reason: Publication drops the 'testing the performance of a measuring
-      instrument' purpose and restricts conditions to 'values of influence factors'
-      rather than general 'conditions of use'.
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML R134:2006
     publication_id: OIML R134:2006
@@ -898,10 +832,8 @@ data:
     definition: set of specified values of influence factors fixed to ensure valid
       intercomparison of the results of measurements [VIM:1993, 5.7]
     notes: []
-    consistency: partial
-    consistency_reason: Publication drops the 'testing the performance of a measuring
-      instrument' aspect and narrows the concept to only intercomparison of measurement
-      results.
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML R 75-1:2002
     publication_id: OIML R075-1:2002
@@ -913,13 +845,12 @@ data:
     definition: conditions of use prescribed for testing the performance of a measuring
       instrument or for intercomparison of results of measurements [VIM:1993, 5.7].
     notes: []
-    consistency: ok
-    consistency_reason: The publication's definition is verbatim identical to the
-      official definition.
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML R 81:1998
     publication_id: OIML R081:1998
-    tc_sc: ''
+    tc_sc: TC8/SC6
     year: 1998
     clause: '3.32'
     link: https://www.oiml.org/en/files/pdf_R/r081-e98.pdf
@@ -927,14 +858,12 @@ data:
     definition: a set of specified values of influence factors to ensure valid inter-comparisons
       of the results of a measurement
     notes: []
-    consistency: partial
-    consistency_reason: Drops the 'testing the performance of a measuring instrument'
-      clause and replaces it with 'influence factors,' narrowing the scope to intercomparison
-      only.
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML R 125:1998
     publication_id: OIML R125:1998
-    tc_sc: ''
+    tc_sc: TC8/SC1
     year: 1998
     clause: T.31
     link: https://www.oiml.org/en/files/pdf_R/r125-e98.pdf
@@ -942,14 +871,12 @@ data:
     definition: a set of specified values of influence factors fixed to ensure valid
       intercomparisons of results of measurements (adapted from VIM:1993, 5.7)
     notes: []
-    consistency: partial
-    consistency_reason: Drops 'testing the performance of a measuring instrument'
-      and replaces it with 'influence factors fixed', narrowing the definition to
-      only intercomparison of measurement results.
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML R 124:1997
     publication_id: OIML R124:1997
-    tc_sc: ''
+    tc_sc: TC17/SC2
     year: 1997
     clause: '7'
     link: https://www.oiml.org/en/files/pdf_R/r124-e97.pdf
@@ -958,14 +885,12 @@ data:
       inter-comparison of results (adapted from VIM:1993, clause 5.7 in D 11 clause
       T.14)
     notes: []
-    consistency: partial
-    consistency_reason: Drops 'testing the performance of a measuring instrument'
-      and replaces influence quantities context with narrower 'influence factors'
-      phrasing.
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML R 110:1994
     publication_id: OIML R110:1994
-    tc_sc: ''
+    tc_sc: TC10/SC1
     year: 1994
     clause: 2.5.2
     link: https://www.oiml.org/en/files/pdf_R/r110-e94.pdf
@@ -973,10 +898,8 @@ data:
     definition: the conditions of use prescribed for testing the performance of a
       pressure balance or for intercomparison of measurement results
     notes: []
-    consistency: ok
-    consistency_reason: Substituting 'pressure balance' (a specific measuring instrument)
-      and 'measurement results' for 'results of measurements' does not change the
-      semantic meaning of the definition.
+    consistency: pending
+    consistency_reason: ''
 status: current
 id: c7f68876-d3c4-5226-990f-24419892c3d4
 schema_version: '3'

@@ -12,7 +12,7 @@ data:
   - edition: '2010'
     publication: OIML R 80-1:2009
     publication_id: OIML R080-1:2009
-    tc_sc: ''
+    tc_sc: TC8/SC1
     year: 2009
     clause: '2.53'
     link: https://www.oiml.org/en/files/pdf_R/r080-1-e09.pdf
@@ -25,7 +25,7 @@ data:
   - edition: '2010'
     publication: OIML D 31:2008
     publication_id: OIML D031:2008
-    tc_sc: ''
+    tc_sc: TC5/SC2
     year: 2008
     clause: 3.1.14
     link: https://www.oiml.org/en/files/pdf_D/d031-e08.pdf
@@ -65,7 +65,7 @@ data:
   - edition: '2010'
     publication: OIML R 139:2007
     publication_id: OIML R139:2007
-    tc_sc: ''
+    tc_sc: TC8/SC7
     year: 2007
     clause: T.3.7
     link: https://www.oiml.org/en/files/pdf_R/r139-e07.pdf
@@ -78,7 +78,7 @@ data:
   - edition: '2010'
     publication: OIML R 140:2007
     publication_id: OIML R140:2007
-    tc_sc: ''
+    tc_sc: TC8/SC7
     year: 2007
     clause: T.2.21
     link: https://www.oiml.org/en/files/pdf_R/r140-e07.pdf
@@ -91,7 +91,7 @@ data:
   - edition: '2010'
     publication: OIML R 49-1:2006
     publication_id: OIML R049-1:2006
-    tc_sc: ''
+    tc_sc: TC8/SC5
     year: 2006
     clause: 2.2.11
     link: https://www.oiml.org/en/files/pdf_R/r049-1-e06.pdf
@@ -144,7 +144,7 @@ data:
   - edition: '2010'
     publication: OIML R 135:2004
     publication_id: OIML R135:2004
-    tc_sc: ''
+    tc_sc: TC18/SC5
     year: 2004
     clause: '2.32'
     link: https://www.oiml.org/en/files/pdf_R/r135-e04.pdf
@@ -171,7 +171,7 @@ data:
   - edition: '2010'
     publication: OIML R 106-1:1997
     publication_id: OIML R106-1:1997
-    tc_sc: ''
+    tc_sc: TC9/SC2
     year: 1997
     clause: T.3.7
     link: https://www.oiml.org/en/files/pdf_R/r106-1-e97.pdf
@@ -184,7 +184,7 @@ data:
   - edition: '2010'
     publication: OIML R 105:1993
     publication_id: OIML R105:1993
-    tc_sc: ''
+    tc_sc: TC8/SC3
     year: 1993
     clause: T.28
     link: https://www.oiml.org/en/files/pdf_R/r105-e93.pdf
@@ -328,7 +328,7 @@ data:
   - edition: 202X
     publication: OIML R 80-1:2009
     publication_id: OIML R080-1:2009
-    tc_sc: ''
+    tc_sc: TC8/SC1
     year: 2009
     clause: '2.53'
     link: https://www.oiml.org/en/files/pdf_R/r080-1-e09.pdf
@@ -367,7 +367,7 @@ data:
   - edition: 202X
     publication: OIML R 140:2007
     publication_id: OIML R140:2007
-    tc_sc: ''
+    tc_sc: TC8/SC7
     year: 2007
     clause: T.2.21
     link: https://www.oiml.org/en/files/pdf_R/r140-e07.pdf
@@ -419,7 +419,7 @@ data:
   - edition: 202X
     publication: OIML R 135:2004
     publication_id: OIML R135:2004
-    tc_sc: ''
+    tc_sc: TC18/SC5
     year: 2004
     clause: '2.32'
     link: https://www.oiml.org/en/files/pdf_R/r135-e04.pdf

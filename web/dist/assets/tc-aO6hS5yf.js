@@ -1,1 +1,0 @@
-var e=[`(Unattributed)`,`TC 3/SC 2`];export{e as t};

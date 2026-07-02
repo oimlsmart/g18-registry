@@ -12,7 +12,7 @@ data:
   - edition: '2010'
     publication: OIML R 140:2007
     publication_id: OIML R140:2007
-    tc_sc: ''
+    tc_sc: TC8/SC7
     year: 2007
     clause: T.1.2.2
     link: https://www.oiml.org/en/files/pdf_R/r140-e07.pdf
@@ -40,7 +40,7 @@ data:
   - edition: '2010'
     publication: OIML R 105:1993
     publication_id: OIML R105:1993
-    tc_sc: ''
+    tc_sc: TC8/SC3
     year: 1993
     clause: T.13.1
     link: https://www.oiml.org/en/files/pdf_R/r105-e93.pdf
@@ -80,7 +80,7 @@ data:
   - edition: 202X
     publication: OIML R 140:2007
     publication_id: OIML R140:2007
-    tc_sc: ''
+    tc_sc: TC8/SC7
     year: 2007
     clause: T.1.2.2
     link: https://www.oiml.org/en/files/pdf_R/r140-e07.pdf

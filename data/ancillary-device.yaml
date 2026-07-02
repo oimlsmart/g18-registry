@@ -12,7 +12,7 @@ data:
   - edition: '2010'
     publication: OIML R 80-1:2009
     publication_id: OIML R080-1:2009
-    tc_sc: ''
+    tc_sc: TC8/SC1
     year: 2009
     clause: '2.3'
     link: https://www.oiml.org/en/files/pdf_R/r080-1-e09.pdf
@@ -72,7 +72,7 @@ data:
   - edition: '2010'
     publication: OIML R 139:2007
     publication_id: OIML R139:2007
-    tc_sc: ''
+    tc_sc: TC8/SC7
     year: 2007
     clause: T.1.5
     link: https://www.oiml.org/en/files/pdf_R/r139-e07.pdf
@@ -90,7 +90,7 @@ data:
   - edition: '2010'
     publication: OIML R 140:2007
     publication_id: OIML R140:2007
-    tc_sc: ''
+    tc_sc: TC8/SC7
     year: 2007
     clause: T.1.5
     link: https://www.oiml.org/en/files/pdf_R/r140-e07.pdf
@@ -111,7 +111,7 @@ data:
   - edition: '2010'
     publication: OIML R 49-1:2006
     publication_id: OIML R049-1:2006
-    tc_sc: ''
+    tc_sc: TC8/SC5
     year: 2006
     clause: 2.1.8 T
     link: https://www.oiml.org/en/files/pdf_R/r049-1-e06.pdf
@@ -147,7 +147,7 @@ data:
   - edition: '2010'
     publication: OIML R 81:1998
     publication_id: OIML R081:1998
-    tc_sc: ''
+    tc_sc: TC8/SC6
     year: 1998
     clause: '3.9'
     link: https://www.oiml.org/en/files/pdf_R/r081-e98.pdf
@@ -160,7 +160,7 @@ data:
   - edition: '2010'
     publication: OIML R 125:1998
     publication_id: OIML R125:1998
-    tc_sc: ''
+    tc_sc: TC8/SC1
     year: 1998
     clause: T.9.1
     link: https://www.oiml.org/en/files/pdf_R/r125-e98.pdf
@@ -297,7 +297,7 @@ data:
   - edition: 202X
     publication: OIML R 80-1:2009
     publication_id: OIML R080-1:2009
-    tc_sc: ''
+    tc_sc: TC8/SC1
     year: 2009
     clause: '2.3'
     link: https://www.oiml.org/en/files/pdf_R/r080-1-e09.pdf
@@ -325,7 +325,7 @@ data:
   - edition: 202X
     publication: OIML R 140:2007
     publication_id: OIML R140:2007
-    tc_sc: ''
+    tc_sc: TC8/SC7
     year: 2007
     clause: T.1.5
     link: https://www.oiml.org/en/files/pdf_R/r140-e07.pdf
@@ -346,7 +346,7 @@ data:
   - edition: 202X
     publication: OIML R 81:1998
     publication_id: OIML R081:1998
-    tc_sc: ''
+    tc_sc: TC8/SC6
     year: 1998
     clause: '3.9'
     link: https://www.oiml.org/en/files/pdf_R/r081-e98.pdf
@@ -360,7 +360,7 @@ data:
   - edition: 202X
     publication: OIML R 125:1998
     publication_id: OIML R125:1998
-    tc_sc: ''
+    tc_sc: TC8/SC1
     year: 1998
     clause: T.9.1
     link: https://www.oiml.org/en/files/pdf_R/r125-e98.pdf

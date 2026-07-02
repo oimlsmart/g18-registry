@@ -27,13 +27,12 @@ data:
     g18_entry: '01560'
     definition: error (of indication) divided by the reference (true) quantity
     notes: []
-    consistency: ok
-    consistency_reason: "'error of indication' and 'reference quantity' are reasonable
-      contextual paraphrases of 'error of measurement' and 'true value of the measurand'."
+    consistency: pending
+    consistency_reason: ''
   - edition: '2010'
     publication: OIML R 49-1:2006
     publication_id: OIML R049-1:2006
-    tc_sc: ''
+    tc_sc: TC8/SC5
     year: 2006
     clause: 2.2.5
     link: https://www.oiml.org/en/files/pdf_R/r049-1-e06.pdf
@@ -41,9 +40,8 @@ data:
     definition: "[a error (of indication) divided by the actual volume dapted from
       VIM:1993, 3.12]"
     notes: []
-    consistency: partial
-    consistency_reason: Replaces 'measurand' with 'actual volume' and 'error of measurement'
-      with 'error of indication', narrowing scope to a specific application context.
+    consistency: pending
+    consistency_reason: ''
     related:
     - type: see
       ref:
