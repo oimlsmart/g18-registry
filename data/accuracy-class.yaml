@@ -28,8 +28,9 @@ data:
     definition: class of measuring instrument that meets certain metrological requirements
       that are intended to keep errors within specified limits
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: ok
+    consistency_reason: Plural 'instruments/meets' vs singular 'instrument/meets'
+      is a trivial grammatical difference with identical meaning.
   - edition: '2010'
     publication: OIML R 137-1:2006
     publication_id: OIML R137-1:2006
@@ -42,8 +43,9 @@ data:
       that are intended to maintain errors within specified limits
     notes:
     - "[VIM:1993, 5.19]"
-    consistency: pending
-    consistency_reason: ''
+    consistency: ok
+    consistency_reason: The plural/singular difference between 'instruments/meets'
+      and 'instrument/meets' is grammatical, not semantic; the meaning is identical.
   - edition: '2010'
     publication: OIML R 111-1:2004
     publication_id: OIML R111-1:2004
@@ -55,8 +57,10 @@ data:
     definition: class designation of a weight or weight set which meets certain metrological
       requirements intended to maintain the mass values within specified limits
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Publication narrows scope to weights/weight sets and mass
+      values rather than measuring instruments generally, and adds 'designation' which
+      changes the concept slightly.
   - edition: '2010'
     publication: OIML R 133:2002
     publication_id: OIML R133:2002
@@ -68,8 +72,9 @@ data:
     definition: class of liquid-in-glass thermometers that meet certain metrological
       requirements intended to keep errors within specified limits
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Publication narrows the general concept from all measuring
+      instruments to only liquid-in-glass thermometers.
   - edition: '2010'
     publication: OIML R 60:2000
     publication_id: OIML R060:2000
@@ -81,8 +86,9 @@ data:
     definition: class of load cells that are subject to the same conditions of accuracy
       [Adapted from VIM:1993, 5.19]
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Narrows scope from measuring instruments to load cells and
+      drops 'specified limits' in favor of vaguer 'conditions of accuracy.'
     related:
     - type: see
       ref:
@@ -99,8 +105,10 @@ data:
     definition: class of pressure balances that meet certain metrological requirements
       intended to keep errors within specified limits
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Publication narrows the scope from 'measuring instruments'
+      to 'pressure balances', making it a specific instance rather than the general
+      concept.
   - edition: 202X
     publication: OIML R046-1:2012
     publication_id: OIML R046-1:2012
@@ -116,8 +124,10 @@ data:
     notes:
     - Note:In this Recommendation, the stated metrological requirements for accuracy
       class include permissible responses to disturbances.
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Publication adds 'measuring systems,' 'instrumental measurement
+      uncertainties,' and 'specified operating conditions,' broadening the definition
+      beyond the official version.
   - edition: 202X
     publication: OIML R137:2012
     publication_id: OIML R137:2012
@@ -131,8 +141,9 @@ data:
       uncertainties within specified limits under specified operating conditions [VIM,
       4.25]
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Adds 'measuring systems', 'instrumental uncertainties', and
+      'specified operating conditions' not present in the official definition.
   - edition: 202X
     publication: OIML R 65:2006
     publication_id: OIML R065:2006
@@ -144,8 +155,9 @@ data:
     definition: class of measuring instrument that meets certain metrological requirements
       that are intended to keep errors within specified limits
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: ok
+    consistency_reason: Plural 'instruments/meets' vs singular 'instrument/meets'
+      is a trivial grammatical difference with identical meaning.
   - edition: 202X
     publication: OIML R 111-1:2004
     publication_id: OIML R111-1:2004
@@ -157,8 +169,10 @@ data:
     definition: class designation of a weight or weight set which meets certain metrological
       requirements intended to maintain the mass values within specified limits
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Publication narrows scope to weights/weight sets and mass
+      values rather than measuring instruments generally, and adds 'designation' which
+      changes the concept slightly.
   - edition: 202X
     publication: OIML R 133:2002
     publication_id: OIML R133:2002
@@ -170,8 +184,9 @@ data:
     definition: class of liquid-in-glass thermometers that meet certain metrological
       requirements intended to keep errors within specified limits
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Publication narrows the general concept from all measuring
+      instruments to only liquid-in-glass thermometers.
   - edition: 202X
     publication:
     publication_id:
@@ -183,8 +198,10 @@ data:
     definition: class of pressure balances that meet certain metrological requirements
       intended to keep errors within specified limits
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Publication narrows the scope from 'measuring instruments'
+      to 'pressure balances', making it a specific instance rather than the general
+      concept.
 status: current
 id: 240b05c2-452e-5027-b64e-60bf7d1eac98
 schema_version: '3'

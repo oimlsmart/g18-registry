@@ -28,8 +28,9 @@ data:
     definition: system comprising a meter for quantities (volume or mass) of liquids
       and its ancillary devices and additional devices
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Narrowed to liquid meters with ancillary devices rather than
+      the general concept of any complete measuring system.
   - edition: '2010'
     publication: OIML R 139:2007
     publication_id: OIML R139:2007
@@ -41,8 +42,10 @@ data:
     definition: system which comprises the meter itself and all the ancillary devices
       and additional devices
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Publication focuses on meter and ancillary devices rather
+      than the broader 'complete set of measuring instruments and other equipment'
+      for specified measurements.
   - edition: '2010'
     publication: OIML R 140:2007
     publication_id: OIML R140:2007
@@ -55,8 +58,10 @@ data:
       ancillary devices and additional devices and, when appropriate, a documented
       provisions system ensuring the quality and the traceability of data
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Publication focuses on specific modules and devices rather
+      than a complete set of measuring instruments, and adds irrelevant detail about
+      quality and traceability provisions.
   - edition: '2010'
     publication: OIML R 81:1998
     publication_id: OIML R081:1998
@@ -69,8 +74,11 @@ data:
       devices and other equipment assembled to carry out the specified measurement
       task
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Replaces the general 'complete set of measuring instruments'
+      with the singular 'the meter itself and all the ancillary devices,' narrowing
+      the concept to a single-meter configuration rather than any complete set of
+      measuring instruments.
   - edition: '2010'
     publication: OIML R 105:1993
     publication_id: OIML R105:1993
@@ -82,8 +90,9 @@ data:
     definition: a direct mass flow instrument and other apparatus assembled to carry
       out a specified measurement operation [VIM:1993, 4.05]
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Narrows the general concept to a specific 'direct mass flow
+      instrument' and replaces the complete set with singular instrument phrasing.
     related:
     - type: see
       ref:
@@ -103,8 +112,10 @@ data:
       of specified kinds [VIM, 3.2]
     notes:
     - Note:A measuring system may consist of only one measuring instrument.
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Publication adds extraneous detail (reagents, supplies, specified
+      intervals, quantity kinds) and shifts focus from 'carrying out measurements'
+      to 'generating measured quantity values'.
   - edition: 202X
     publication: OIML D010:2022
     publication_id: OIML D010:2022
@@ -119,8 +130,10 @@ data:
       of specified kinds (VIM3, 3.2)
     notes:
     - Note:A measuring system may consist of only one measuring instrument.
-    consistency: pending
-    consistency_reason: ''
+    consistency: ko
+    consistency_reason: The publication defines a different concept (measuring system,
+      VIM 3.2) rather than the official concept (measuring equipment assembly), adding
+      criteria about specified intervals and quantity kinds.
   - edition: 202X
     publication: OIML R117-1:2019
     publication_id: OIML R117-1:2019
@@ -132,8 +145,9 @@ data:
     definition: system comprising a meter for quantities (volume or mass) of liquids
       and its ancillary devices and additional devices
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Narrowed to liquid meters with ancillary devices rather than
+      the general concept of any complete measuring system.
   - edition: 202X
     publication: OIML R 140:2007
     publication_id: OIML R140:2007
@@ -146,8 +160,10 @@ data:
       ancillary devices and additional devices and, when appropriate, a documented
       provisions system ensuring the quality and the traceability of data
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Publication focuses on specific modules and devices rather
+      than a complete set of measuring instruments, and adds irrelevant detail about
+      quality and traceability provisions.
   - edition: 202X
     publication: OIML R 81:1998
     publication_id: OIML R081:1998
@@ -160,8 +176,11 @@ data:
       devices and other equipment assembled to carry out the specified measurement
       task
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Replaces the general 'complete set of measuring instruments'
+      with the singular 'the meter itself and all the ancillary devices,' narrowing
+      the concept to a single-meter configuration rather than any complete set of
+      measuring instruments.
 status: current
 id: 47f43659-79ee-522e-8017-55311ccc153d
 schema_version: '3'

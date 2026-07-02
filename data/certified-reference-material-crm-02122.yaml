@@ -20,8 +20,10 @@ data:
       body and providing one or more specified property values with associated uncertainties
       and traceabilities, using valid procedures
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Publication uses singular 'a specified property value' and
+      'valid procedures used to obtain,' losing the 'one or more' property values
+      with associated uncertainties and traceabilities meaning.
 status: current
 id: 7cb525cf-b014-5caf-a5bb-01dbdf6cabad
 schema_version: '3'

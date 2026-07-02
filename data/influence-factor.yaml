@@ -47,8 +47,10 @@ data:
       of the instrument
     notes:
     - Adapted from OIML D 11:2004, 3.13.1.
-    consistency: pending
-    consistency_reason: ''
+    consistency: ko
+    consistency_reason: The publication refers to conditions that must be fulfilled
+      during measurement, whereas the official definition refers to conditions under
+      which specified metrological characteristics remain within given limits.
   - edition: '2010'
     publication: OIML R 35-1:2007
     publication_id: OIML R035-1:2007

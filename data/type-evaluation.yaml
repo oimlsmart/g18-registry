@@ -30,8 +30,9 @@ data:
       against documented requirements, the results of which are contained in the evaluation
       report, in order to determine whether the type may be approved"
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: ok
+    consistency_reason: The publication drops the parenthetical '(pattern)' but otherwise
+      conveys the same meaning.
     related:
     - type: see
       ref:
@@ -50,8 +51,9 @@ data:
       against documented requirements, the results of which are contained in the evaluation
       report, in order to determine whether the type may be approved"
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Drops the parenthetical '(pattern)' after 'type' from the
+      official definition.
     related:
     - type: see
       ref:
@@ -70,8 +72,9 @@ data:
       against documented requirements, the results of which are contained in the evaluation
       report, in order to determine whether the type may be approved
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: ok
+    consistency_reason: The only addition is an inline citation reference [OIML V
+      1:2000, 2.5], which does not alter the semantic content of the definition.
   - edition: '2010'
     publication: OIML B 10-1:2004
     publication_id: OIML B010-1:2004
@@ -85,8 +88,9 @@ data:
       requirements, the results of which are contained in an evaluation report, in
       order to determine whether the type may be approved IML 2.5)"
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Drops '(pattern)' after 'type', removing an explicit synonym
+      for 'type' that appears in the official definition.
   - edition: '2010'
     publication: OIML R 111-1:2004
     publication_id: OIML R111-1:2004
@@ -99,8 +103,10 @@ data:
       or weight sets against the documented requirements ofthis Recommendation, the
       results of which are contained in a test report
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Drops the approval-purpose clause and narrows scope to weights/weight
+      sets, but core process of systematic examination against documented requirements
+      is retained.
   - edition: '2010'
     publication: OIML R 135:2004
     publication_id: OIML R135:2004
@@ -117,8 +123,10 @@ data:
     notes:
     - with the same meaning as "type"; below only the term "type" is used. [VIML,
       2.5]
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: The publication uses 'samples' instead of 'specimens' and
+      omits the term '(pattern)' which carries specific metrological meaning in type
+      evaluation contexts.
   - edition: 202X
     publication: OIML R049-1:2024
     publication_id: OIML R049-1:2024
@@ -132,8 +140,9 @@ data:
       requirements, the results of which are contained in the evaluation report, in
       order to determine whether the type may be approved
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: ok
+    consistency_reason: The definitions are semantically identical; 'type (pattern)'
+      and 'type or pattern' convey the same meaning.
   - edition: 202X
     publication: OIML D034:2019
     publication_id: OIML D034:2019
@@ -147,8 +156,10 @@ data:
       and / or an evaluation certificate
     notes:
     - 'Note:  “Pattern” is used in legal metrology with the same meaning as”type”.'
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Drops the requirements of systematic examination/testing against
+      documented requirements and the purpose of determining type approval; replaces
+      with generic 'conformity assessment procedure'.
   - edition: 202X
     publication: OIML D 29:2008
     publication_id: OIML D029:2008
@@ -162,8 +173,9 @@ data:
       requirements, the results of which are contained in the evaluation report, in
       order to determine whether the type may be approved [VIML 2.5]
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: ok
+    consistency_reason: The publication drops the parenthetical '(pattern)' but otherwise
+      conveys the same meaning.
   - edition: 202X
     publication: OIML R 111-1:2004
     publication_id: OIML R111-1:2004
@@ -176,8 +188,10 @@ data:
       weights or weight sets against the documented requirements of this Recommendation,
       the results of which are contained in a test report
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Drops the approval-purpose clause and narrows scope to weights/weight
+      sets, but core process of systematic examination against documented requirements
+      is retained.
   - edition: 202X
     publication: OIML R 135:2004
     publication_id: OIML R135:2004
@@ -193,8 +207,10 @@ data:
     notes:
     - 'Note:  The term “pattern” is used in legal metrology with the same meaning
       as “type”; below only the term “type” is used. [VIML, 2.5]'
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: The publication uses 'samples' instead of 'specimens' and
+      omits the term '(pattern)' which carries specific metrological meaning in type
+      evaluation contexts.
 status: current
 id: bb3e9e11-f379-5fba-b61f-c8b816856e34
 schema_version: '3'

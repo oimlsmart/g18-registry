@@ -28,8 +28,9 @@ data:
     definition: the result of a measurement minus the (conventional) true value of
       the measurand (VIM:1993, 3.10)
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Adds the qualifier 'conventional' to 'true value,' which narrows
+      the meaning not present in the official definition.
     related:
     - type: see
       ref:
@@ -46,8 +47,9 @@ data:
     definition: the result of a measurement minus the (conventional) true value of
       the measurand [VIM:1993, 3.10]
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Adds the qualifier 'conventional' to 'true value,' which narrows
+      the meaning not present in the official definition.
 status: current
 id: 4155a46a-56a9-5df3-84bd-fe48417ffb14
 schema_version: '3'

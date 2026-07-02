@@ -28,8 +28,9 @@ data:
     definition: document certifying that the verification of a measuring instrument
       was carried out with a satisfactory result [VIML 3.3]
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: ok
+    consistency_reason: The definitions are semantically identical; 'the measuring
+      instrument' and 'a measuring instrument' convey the same meaning in this context.
     related:
     - type: see
       ref:
@@ -46,8 +47,9 @@ data:
     definition: document certifying that the verification of a measuring instrument
       was carried out with a satisfactory result [VIML 3.3]
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: ok
+    consistency_reason: The definitions are semantically identical; 'the measuring
+      instrument' and 'a measuring instrument' convey the same meaning in this context.
 status: current
 id: 5e733a27-ed9a-52de-abc7-1c1848fa3bb2
 schema_version: '3'
