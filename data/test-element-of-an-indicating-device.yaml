@@ -5,9 +5,22 @@ data:
   kind: undefined
   official_concept:
   editions_present:
+  - '2010'
   - 202X
   primary_edition: 202X
   publications:
+  - edition: '2010'
+    publication: OIML R 137-1:2006
+    publication_id: OIML R137-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: 2.2.18
+    link: https://www.oiml.org/en/files/pdf_R/r137-1-e06.pdf
+    g18_entry: '01954'
+    definition: device to enable precise reading of the measured gas quantity
+    notes: []
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML R137:2012
     publication_id: OIML R137:2012

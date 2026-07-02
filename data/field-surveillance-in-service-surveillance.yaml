@@ -1,11 +1,12 @@
 ---
 data:
   identifier: '00209'
-  term: field surveillance ("in-service surveillance")
+  term: field surveillance (“in-service surveillance”)
   kind: undefined
   official_concept:
   editions_present:
   - '2010'
+  - 202X
   primary_edition: 202X
   publications:
   - edition: '2010'
@@ -25,7 +26,24 @@ data:
       matter should be dealt with by market surveillance.'
     consistency: pending
     consistency_reason: ''
+  - edition: 202X
+    publication: OIML D 9:2004
+    publication_id: OIML D009:2004
+    tc_sc: TC3/SC2
+    year: 2004
+    clause: '2.27'
+    link: https://www.oiml.org/en/files/pdf_D/d009-e04.pdf
+    g18_entry: '00209'
+    definition: form of metrological supervision aimed at establishing that a measuring
+      instrument in use in the field complies with the statutory requirements
+    notes:
+    - 'Note on the relation between market and field surveillance: Where a conformity
+      assessment of a measuring instrument indicates that the findings can be directly
+      related to the responsibilities of manufacturers or their representatives, the
+      matter should be dealt with by market surveillance.'
+    consistency: pending
+    consistency_reason: ''
 status: current
-id: 4254a893-f9cc-53ac-bae5-b2271c9b5798
+id: 6be69950-5210-5a48-8de1-9f58a0cf2661
 schema_version: '3'
 related: []

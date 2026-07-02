@@ -133,6 +133,24 @@ data:
         source: urn:oiml:pub:v:2:1993
         id: '5.20'
   - edition: '2010'
+    publication: OIML R 61-1:2004
+    publication_id: OIML R061-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: T.4.2.1
+    link: https://www.oiml.org/en/files/pdf_R/r061-1-e04.pdf
+    g18_entry: '00798'
+    definition: "[b indication of a weighing instrument minus the (conventional) true
+      value of the mass ased on VIM:1993, 5.20]"
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+    related:
+    - type: see
+      ref:
+        source: urn:oiml:pub:v:2:1993
+        id: '5.20'
+  - edition: '2010'
     publication: OIML R 136-1:2004
     publication_id: OIML R136-1:2004
     tc_sc: ''

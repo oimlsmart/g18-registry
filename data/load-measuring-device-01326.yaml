@@ -1,14 +1,14 @@
 ---
 data:
   identifier: '01326'
-  term: load-measuring device
+  term: load-measuring  device
   kind: undefined
   official_concept:
   editions_present:
-  - '2010'
+  - 202X
   primary_edition: 202X
   publications:
-  - edition: '2010'
+  - edition: 202X
     publication: OIML R 107-1:2007
     publication_id: OIML R107-1:2007
     tc_sc: ''
@@ -24,6 +24,6 @@ data:
     consistency: pending
     consistency_reason: ''
 status: current
-id: 612dec93-4c6d-5cfb-a561-e4c0a017da5d
+id: 2d72bc96-95ca-590d-990f-77f0238f9950
 schema_version: '3'
 related: []

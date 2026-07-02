@@ -10,6 +10,21 @@ data:
   primary_edition: 202X
   publications:
   - edition: '2010'
+    publication: OIML R 107-1:2007
+    publication_id: OIML R107-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.2.1.3
+    link: https://www.oiml.org/en/files/pdf_R/r107-1-e07.pdf
+    g18_entry: '01326'
+    definition: part of the instrument for measuring the mass of the load by means
+      of an equilibrium device for balancing the force coming from the load transmitting
+      device, and an indicating or printing device for displaying the weighing result
+      in units of mass
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: '2010'
     publication: OIML R 51-1:2006
     publication_id: OIML R051-1:2006
     tc_sc: ''

@@ -1,0 +1,29 @@
+---
+data:
+  identifier: '01844'
+  term: absorbance (A = lg(1/τ))
+  kind: undefined
+  official_concept:
+  editions_present:
+  - 202X
+  primary_edition: 202X
+  publications:
+  - edition: 202X
+    publication: OIML R 135:2004
+    publication_id: OIML R135:2004
+    tc_sc: TC18/SC5
+    year: 2004
+    clause: '2.5'
+    link: https://www.oiml.org/en/files/pdf_R/r135-e04.pdf
+    g18_entry: '01844'
+    definition: logarithm to base ten of the reciprocal of the transmittance [ISO
+      6286, Table 1, No. 5]
+    notes:
+    - 'Note: Absorbance has the dimension one and is expressed with the derived coherent
+      SI unit one (1).'
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: ccdbd1dc-883e-557f-8b74-29ab98a39797
+schema_version: '3'
+related: []

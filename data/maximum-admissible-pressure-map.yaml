@@ -1,11 +1,12 @@
 ---
 data:
-  identifier: '00445'
-  term: maximum admissible pressure (MAP)
+  identifier: '02415'
+  term: maximum admissible pressure MAP
   kind: undefined
   official_concept:
   editions_present:
   - '2010'
+  - 202X
   primary_edition: 202X
   publications:
   - edition: '2010'
@@ -22,7 +23,21 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
+  - edition: 202X
+    publication: OIML R049-1:2024
+    publication_id: OIML R049-1:2024
+    tc_sc: ''
+    year: 2024
+    clause: 3.3.9
+    link:
+    g18_entry: '02415'
+    definition: maximum internal pressure that a meter can withstand permanently,
+      within its rated operating condition(s) (3.4.4), without deterioration of its
+      metrological performance
+    notes: []
+    consistency: pending
+    consistency_reason: ''
 status: current
-id: b820662c-0ccf-5ed5-840c-4dd43c30e632
+id: 1666825a-8bdb-5f9e-8b31-21e7c269f3a8
 schema_version: '3'
 related: []

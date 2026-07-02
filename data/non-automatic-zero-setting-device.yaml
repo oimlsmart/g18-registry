@@ -21,6 +21,30 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
+  - edition: '2010'
+    publication: OIML R 136-1:2004
+    publication_id: OIML R136-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: T.2.5.3
+    link: https://www.oiml.org/en/files/pdf_R/r136-1-e04.pdf
+    g18_entry: '01898'
+    definition: device for setting the indication to zero by an operator
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: '2010'
+    publication: OIML R 134:2003
+    publication_id: OIML R134:2003
+    tc_sc: ''
+    year: 2003
+    clause: T.2.4.1.1
+    link: https://www.oiml.org/en/files/pdf_R/r134-e03.pdf
+    g18_entry: '01798'
+    definition: zero-setting device that must be operated manually
+    notes: []
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML R 51-1:2006
     publication_id: OIML R051-1:2006

@@ -5,9 +5,24 @@ data:
   kind: undefined
   official_concept:
   editions_present:
+  - '2010'
   - 202X
   primary_edition: 202X
   publications:
+  - edition: '2010'
+    publication: OIML R 49-2:2006
+    publication_id: OIML R049-2:2006
+    tc_sc: TC8/SC5
+    year: 2006
+    clause: '2.11'
+    link: https://www.oiml.org/en/files/pdf_R/r049-2-e06.pdf
+    g18_entry: '00476'
+    definition: treatment of the equipment under test, with the object of eliminating
+      or partially counteracting the effects of its previous history. Where called
+      for, this is the first process in the test procedure
+    notes: []
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML R049-1:2024
     publication_id: OIML R049-1:2024

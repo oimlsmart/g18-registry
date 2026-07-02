@@ -1,11 +1,12 @@
 ---
 data:
-  identifier: '00803'
-  term: maximum permissible preset value error (MPSE)
+  identifier: '03240'
+  term: maximum permissible preset value error, mpse
   kind: undefined
   official_concept:
   editions_present:
   - '2010'
+  - 202X
   primary_edition: 202X
   publications:
   - edition: '2010'
@@ -20,7 +21,19 @@ data:
     notes: []
     consistency: pending
     consistency_reason: ''
+  - edition: 202X
+    publication: OIML R061-1:2017
+    publication_id: OIML R061-1:2017
+    tc_sc: ''
+    year: 2017
+    clause: 3.5.2.4.2
+    link:
+    g18_entry: '03240'
+    definition: maximum permissible setting error for each preset value of the fill
+    notes: []
+    consistency: pending
+    consistency_reason: ''
 status: current
-id: eea7861f-98ce-5291-9967-d0ffc16440ca
+id: 76763635-cae4-5748-b3f7-844041912bce
 schema_version: '3'
 related: []
