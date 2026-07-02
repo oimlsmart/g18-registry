@@ -3,6 +3,8 @@ import vue from "@vitejs/plugin-vue";
 import { fileURLToPath, URL } from "node:url";
 
 export default defineConfig({
+  // The site is served at a subpath, not root.
+  base: "/g18-registry/",
   plugins: [vue()],
   resolve: {
     alias: {
