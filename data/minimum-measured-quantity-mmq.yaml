@@ -10,6 +10,21 @@ data:
   primary_edition: 202X
   publications:
   - edition: '2010'
+    publication: OIML R 80-1:2009
+    publication_id: OIML R080-1:2009
+    tc_sc: TC8/SC1
+    year: 2009
+    clause: '2.44'
+    link: https://www.oiml.org/en/files/pdf_R/r080-1-e09.pdf
+    g18_entry: '02283'
+    definition: smallest volume of liquid for which the measurement is metrologically
+      acceptable for the tank or individually for each of its compartments. It shall
+      be specified only for measuring systems suitable for measuring partial volumes.
+      Alternatively, the terms "minimum delivery" or "minimum receipt" may be used.
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: '2010'
     publication: OIML R 117-1:2007
     publication_id: OIML R117-1:2007
     tc_sc: ''

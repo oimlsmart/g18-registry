@@ -1,14 +1,14 @@
 ---
 data:
   identifier: '01844'
-  term: absorbance(stem:[A=\lg(1/\tau)])
+  term: absorbance (A = lg(1/τ))
   kind: undefined
   official_concept:
   editions_present:
-  - '2010'
+  - 202X
   primary_edition: 202X
   publications:
-  - edition: '2010'
+  - edition: 202X
     publication: OIML R 135:2004
     publication_id: OIML R135:2004
     tc_sc: TC18/SC5
@@ -16,15 +16,14 @@ data:
     clause: '2.5'
     link: https://www.oiml.org/en/files/pdf_R/r135-e04.pdf
     g18_entry: '01844'
-    definition: logarithm to base ten of the reciprocal of the transmittance
+    definition: logarithm to base ten of the reciprocal of the transmittance [ISO
+      6286, Table 1, No. 5]
     notes:
-    - 1. ISO 6286, Table 1, No.
-    - '5.'
-    - 2. Absorbance has the dimension one and is expressed with the derived coherent
-      SI unit one (1).
+    - 'Note: Absorbance has the dimension one and is expressed with the derived coherent
+      SI unit one (1).'
     consistency: pending
     consistency_reason: ''
 status: current
-id: c4c4bce0-1b1d-54dd-9b7e-5b06ddc21913
+id: ccdbd1dc-883e-557f-8b74-29ab98a39797
 schema_version: '3'
 related: []

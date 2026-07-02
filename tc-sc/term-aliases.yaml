@@ -23,3 +23,25 @@ reference conditions:
 
 rated operating conditions:
   - rated operating condition
+
+# Encoding-variant aliases: same concept, different notation between editions.
+# These catch cases where the 2010 YAML uses stem:[] or escaped math while
+# 202X uses Unicode. The canonical (key) is the 202X form.
+
+absorbance (A = lg(1/τ)):
+  - absorbance(stem:[A=\lg(1/\tau)])
+
+error (of indication):
+  - error of indication(stem:[E])
+
+fault:
+  - fault stem:[\Delta e]
+
+analysis wavelength:
+  - analysis wavelength, stem:[lambda]
+
+minimum measured quantity (MMQ):
+  - minimum measured quantityMMQ(stem:[V_{\min}])
+
+nominal capacity:
+  - nominal capacity,stem:[V_{n}]

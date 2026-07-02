@@ -10,6 +10,19 @@ data:
   primary_edition: 202X
   publications:
   - edition: '2010'
+    publication: OIML R 131:2001
+    publication_id: OIML R131:2001
+    tc_sc: TC15/SC2
+    year: 2001
+    clause: '3.4'
+    link: https://www.oiml.org/en/files/pdf_R/r131-e01.pdf
+    g18_entry: '01742'
+    definition: wavelength used in a spectrophotometer for measuring the optical absorbance
+      of a PMMA dosimeter
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - edition: '2010'
     publication: OIML R 127:1999
     publication_id: OIML R127:1999
     tc_sc: TC15/SC2
