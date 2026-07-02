@@ -32,9 +32,8 @@ data:
       and methods of measurement and which are performed by competent bodies [VIML,
       1.2]
     notes: []
-    consistency: ok
-    consistency_reason: The publication's definition is verbatim identical to the
-      official definition with only a reference citation added.
+    consistency: pending
+    consistency_reason: ''
     related:
     - type: see
       ref:
@@ -59,10 +58,8 @@ data:
       SI or national standards. Note 3 There are also regulations outside the area
       of legal metrology pertaining to the accuracy and correctness of measurement
       methods.
-    consistency: partial
-    consistency_reason: Publication drops the official definition's specific scope
-      (measurement, units, instruments, methods) and competent bodies, replacing it
-      with a generic framing of structure and enforcement.
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML R060-1:2021
     publication_id: OIML R060-1:2021
@@ -75,10 +72,8 @@ data:
       and enforcement to metrology
     notes:
     - "(for notes, refer to the VIML)"
-    consistency: partial
-    consistency_reason: 'Publication captures the regulatory and enforcement aspect
-      but omits the specific scope of activities: measurement, units, instruments,
-      methods, and competent bodies.'
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML D034:2019
     publication_id: OIML D034:2019
@@ -90,10 +85,8 @@ data:
     definition: practice and process of applying statutory and regulatory structure
       and enforcement to metrology (form VIML, 1.01)
     notes: []
-    consistency: partial
-    consistency_reason: Publication drops specific scope (units, instruments, methods)
-      and the requirement for competent bodies, reducing the definition to a vague
-      generalization.
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML D016:2011
     publication_id: OIML D016:2011
@@ -110,9 +103,8 @@ data:
     - Note 1:The scope of legal metrology may be different from country to country.
       Note 2:The competent bodies responsible for legal metrology activities or part
       of these activities are usually called legal metrology services.
-    consistency: ok
-    consistency_reason: The only difference is 'relating to' vs 'related to,' which
-      are semantically identical in this context.
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML D 9:2004
     publication_id: OIML D009:2004
@@ -126,9 +118,8 @@ data:
       and methods of measurement and which are performed by competent bodies [VIML,
       1.2]
     notes: []
-    consistency: ok
-    consistency_reason: The publication's definition is verbatim identical to the
-      official definition with only a reference citation added.
+    consistency: pending
+    consistency_reason: ''
 status: current
 id: 1c18614d-3c77-510a-ac6a-c7fe88b790e9
 schema_version: '3'

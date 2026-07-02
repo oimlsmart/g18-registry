@@ -27,9 +27,8 @@ data:
     definition: value consistent with the definition of a given particular quantity
       [VIM:1993, 1.19 + notes]
     notes: []
-    consistency: ok
-    consistency_reason: The core definition is identical; the publication only appends
-      a citation reference and notes indicator.
+    consistency: pending
+    consistency_reason: ''
     related:
     - type: see
       ref:

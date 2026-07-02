@@ -37,10 +37,8 @@ data:
     notes:
     - approval" is named "type evaluation". Consequently "Type evaluation" in the
       sense of this Document includes examination, tests and decision.
-    consistency: partial
-    consistency_reason: Missing comma after 'evaluation report' changes the sentence
-      structure, making it ambiguous whether the decision or the report contains the
-      compliance determination.
+    consistency: pending
+    consistency_reason: ''
   - edition: '2010'
     publication: OIML B 10-1:2004
     publication_id: OIML B010-1:2004
@@ -54,10 +52,8 @@ data:
       and is suitable for use in the regulated area in such a way that it is expected
       to provide reliable measurement results over a defined period of time IML 2.6)"
     notes: []
-    consistency: ok
-    consistency_reason: The publication's definition is identical to the official
-      definition aside from formatting artifacts (a leading 'V' and trailing source
-      citation 'IML 2.6').
+    consistency: pending
+    consistency_reason: ''
   - edition: '2010'
     publication: OIML D 9:2004
     publication_id: OIML D009:2004
@@ -72,9 +68,8 @@ data:
       to provide reliable measurement results over a defined period of time [VIML,
       2.6]
     notes: []
-    consistency: ok
-    consistency_reason: The only difference is 'respective' vs 'relevant', which are
-      semantically equivalent in this context.
+    consistency: pending
+    consistency_reason: ''
     related:
     - type: see
       ref:
@@ -93,10 +88,8 @@ data:
       judgment, that the type is in conformity with the mandatory requirements of
       this Recommendation for legal applications
     notes: []
-    consistency: partial
-    consistency_reason: Narrowed to weights/weight sets and omits the key requirement
-      that the instrument is expected to provide reliable measurement results over
-      a defined period of time.
+    consistency: pending
+    consistency_reason: ''
   - edition: '2010'
     publication: OIML R 135:2004
     publication_id: OIML R135:2004
@@ -111,9 +104,8 @@ data:
       it is expected to provide reliable measurement results over a defined period
       of time
     notes: []
-    consistency: ok
-    consistency_reason: The only difference is the omission of the article 'a' before
-      'measuring instrument,' which does not affect the semantic meaning.
+    consistency: pending
+    consistency_reason: ''
     related:
     - type: see
       ref:
@@ -132,10 +124,8 @@ data:
       requirements and results in the issuance of the type approval certificate
     notes:
     - 'Note:  See olso VIML A.25'
-    consistency: partial
-    consistency_reason: Publication omits 'suitable for use in the regulated area'
-      and 'expected to provide reliable measurement results over a defined period
-      of time', replacing them with the administrative action of certificate issuance.
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML R049-1:2024
     publication_id: OIML R049-1:2024
@@ -149,8 +139,8 @@ data:
       and is suitable for use in the regulated area in such a way that it is expected
       to provide reliable measurement results over a defined period of time
     notes: []
-    consistency: ok
-    consistency_reason: The definitions are identical word-for-word.
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML D005:2022
     publication_id: OIML D005:2022
@@ -182,11 +172,8 @@ data:
     notes:
     - 'Note:  For the purposes of the OIML-CS, “type approval certificate” should
       be read as “OIML certificate”.'
-    consistency: partial
-    consistency_reason: Drops the key requirement that the instrument is 'suitable
-      for use in the regulated area' and 'expected to provide reliable measurement
-      results over a defined period of time'; adds irrelevant procedural detail about
-      certificate issuance.
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML R060-1:2021
     publication_id: OIML R060-1:2021
@@ -200,10 +187,8 @@ data:
       requirements and results in the issuance of the type approval certificate [VIML,
       2.05]
     notes: []
-    consistency: partial
-    consistency_reason: Drops the key requirement of suitability for use and reliability
-      over a defined period, replacing it with the administrative outcome of certificate
-      issuance.
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML D034:2019
     publication_id: OIML D034:2019
@@ -217,10 +202,8 @@ data:
       requirements and results in the issuance of the type approval certificate (form
       VIML, 2.05)
     notes: []
-    consistency: partial
-    consistency_reason: Drops the key requirement of suitability for reliable measurement
-      results over a defined period, and adds procedural detail about certificate
-      issuance not in the official definition.
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML R059-1:2016
     publication_id: OIML R059-1:2016
@@ -235,9 +218,8 @@ data:
       2.05]
     notes:
     - 'Note:  See also VIML A.25'
-    consistency: partial
-    consistency_reason: Drops the critical suitability and reliability clauses and
-      replaces them with the administrative outcome of certificate issuance.
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML R146-1:2016
     publication_id: OIML R146-1:2016
@@ -252,9 +234,8 @@ data:
       2.05]}"
     notes:
     - "{Note See also A.25}"
-    consistency: partial
-    consistency_reason: Publication drops the suitability-for-use and reliable-results-over-time
-      clauses while adding certificate issuance detail not in the official definition.
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML D016:2011
     publication_id: OIML D016:2011
@@ -269,9 +250,8 @@ data:
       to provide reliable measurement results over a defined period of time [VIML
       2.6]
     notes: []
-    consistency: ok
-    consistency_reason: Semantically equivalent; 'respective' vs 'relevant' and dropping
-      'the' before 'measuring instrument' do not change meaning.
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML D 29:2008
     publication_id: OIML D029:2008
@@ -288,10 +268,8 @@ data:
     - 'Note:  For the purpose of this Document, the “type approval” is named “type
       evaluation”. Consequently “Type evaluation” in the sense of this Document includes
       examination, tests and decision.'
-    consistency: partial
-    consistency_reason: Missing comma after 'evaluation report' changes the sentence
-      structure, making it ambiguous whether the decision or the report contains the
-      compliance determination.
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML D 9:2004
     publication_id: OIML D009:2004
@@ -306,9 +284,8 @@ data:
       to provide reliable measurement results over a defined period of time [VIML,
       2.6]
     notes: []
-    consistency: ok
-    consistency_reason: The only difference is 'respective' vs 'relevant', which are
-      semantically equivalent in this context.
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML R 111-1:2004
     publication_id: OIML R111-1:2004
@@ -322,10 +299,8 @@ data:
       judgment, that the type is in conformity with the mandatory requirements of
       this Recommendation for legal applications
     notes: []
-    consistency: partial
-    consistency_reason: Narrowed to weights/weight sets and omits the key requirement
-      that the instrument is expected to provide reliable measurement results over
-      a defined period of time.
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML R 135:2004
     publication_id: OIML R135:2004
@@ -340,9 +315,8 @@ data:
       to provide reliable measurement results over a defined period of time [VIML,
       2.6]
     notes: []
-    consistency: ok
-    consistency_reason: The only difference is the omission of the article 'a' before
-      'measuring instrument,' which does not affect the semantic meaning.
+    consistency: pending
+    consistency_reason: ''
 status: current
 id: 2e5135d6-a955-5400-aeee-ac4f085b07c2
 schema_version: '3'

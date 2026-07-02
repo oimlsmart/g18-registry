@@ -27,9 +27,8 @@ data:
     g18_entry: '02142'
     definition: error of measurement divided by the reference value of the measurand
     notes: []
-    consistency: partial
-    consistency_reason: '"reference value" is a related but distinct concept from
-      "true value" in metrological terminology.'
+    consistency: pending
+    consistency_reason: ''
   - edition: '2010'
     publication: OIML R 99-1:2008
     publication_id: OIML R099-1:2008
@@ -41,9 +40,8 @@ data:
     definition: error of measurement divided by the conventional true quantity value
       of the measurand
     notes: []
-    consistency: partial
-    consistency_reason: Publication narrows 'true value' to 'conventional true quantity
-      value,' which is a specific type of true value and not fully equivalent.
+    consistency: pending
+    consistency_reason: ''
   - edition: '2010'
     publication: OIML R 139:2007
     publication_id: OIML R139:2007
@@ -55,9 +53,8 @@ data:
     definition: absolute error of measurement divided by the (conventional) true value
       of the measurand
     notes: []
-    consistency: partial
-    consistency_reason: Publication adds 'absolute' and 'conventional' qualifiers,
-      restricting and slightly altering the concept beyond the official definition.
+    consistency: pending
+    consistency_reason: ''
   - edition: '2010'
     publication: OIML R 140:2007
     publication_id: OIML R140:2007
@@ -68,9 +65,8 @@ data:
     g18_entry: '02071'
     definition: error of measurement divided by a true value of the measurand
     notes: []
-    consistency: ok
-    consistency_reason: The publication's definition is identical to the official
-      definition.
+    consistency: pending
+    consistency_reason: ''
   - edition: '2010'
     publication: OIML R 125:1998
     publication_id: OIML R125:1998
@@ -82,9 +78,8 @@ data:
     definition: The absolute error of measurement divided by the conventional true
       value of the measurand (VIM:1993, 3.12)
     notes: []
-    consistency: partial
-    consistency_reason: Adds 'absolute' (magnitude only) and specifies 'conventional'
-      true value, both narrowing the official definition.
+    consistency: pending
+    consistency_reason: ''
     related:
     - type: see
       ref:
@@ -101,9 +96,8 @@ data:
     definition: absolute error of measurement divided by the reference value of the
       measurand
     notes: []
-    consistency: partial
-    consistency_reason: Replaces 'true value' with 'reference value' and adds 'absolute',
-      both of which change the semantic content.
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML R 99-1:2008
     publication_id: OIML R099-1:2008
@@ -127,9 +121,8 @@ data:
     g18_entry: '02071'
     definition: error of measurement divided by a true value of the measurand
     notes: []
-    consistency: ok
-    consistency_reason: The publication's definition is identical to the official
-      definition.
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML R 125:1998
     publication_id: OIML R125:1998
@@ -141,9 +134,8 @@ data:
     definition: The absolute error of measurement divided by the conventional true
       value of the measurand (VIM:1993, 3.12)
     notes: []
-    consistency: partial
-    consistency_reason: Adds 'absolute' (magnitude only) and specifies 'conventional'
-      true value, both narrowing the official definition.
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication:
     publication_id:
@@ -154,9 +146,8 @@ data:
     g18_entry: '02142'
     definition: error of measurement divided by the reference value of the measurand
     notes: []
-    consistency: partial
-    consistency_reason: '"reference value" is a related but distinct concept from
-      "true value" in metrological terminology.'
+    consistency: pending
+    consistency_reason: ''
 status: current
 id: da615bc0-367f-51ab-899b-b7524a92fe13
 schema_version: '3'

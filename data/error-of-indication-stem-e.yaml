@@ -28,9 +28,8 @@ data:
     definition: "[b indication of a weighing instrument minus the (conventional) true
       value of the mass ased on VIM:1993, 5.20]"
     notes: []
-    consistency: partial
-    consistency_reason: Narrows the general definition specifically to weighing instruments
-      and mass, and adds 'conventional' qualifier to true value.
+    consistency: pending
+    consistency_reason: ''
     related:
     - type: see
       ref:
