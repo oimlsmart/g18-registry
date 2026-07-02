@@ -28,8 +28,9 @@ data:
     definition: "[ value attributed to a particular quantity and accepted, by convention,
       as having an uncertainty appropriate for a given purpose VIM: 1993, 1.20]"
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Publication replaces 'sometimes by convention' with 'by convention',
+      dropping the nuance that convention is not always the basis for acceptance.
   - edition: '2010'
     publication: OIML R 140:2007
     publication_id: OIML R140:2007
@@ -42,8 +43,9 @@ data:
       (VIM:2007, 2.12) by convention, as having an uncertainty appropriate for a given
       purpose
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: ok
+    consistency_reason: The publication's definition is verbatim identical to the
+      official definition, with only a reference citation added.
     related:
     - type: see
       ref:
@@ -61,8 +63,9 @@ data:
       accepted, by convention, as having an uncertainty appropriate for a given purpose
       IM:1993, 1.20]"
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Adds specific example '(mass of a body)' and drops 'sometimes'
+      before 'by convention', narrowing the definition.
   - edition: '2010'
     publication: OIML R 137-1:2006
     publication_id: OIML R137-1:2006
@@ -75,8 +78,9 @@ data:
       by convention, as having an uncertainty appropriate for a given purpose
     notes:
     - "[VIM:1993, 1.20]"
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Adds the symbol 'Yref' which is an extraneous naming convention
+      not present in the official definition.
   - edition: '2010'
     publication: OIML R 136-1:2004
     publication_id: OIML R136-1:2004
@@ -89,8 +93,10 @@ data:
       [VIM:1993, 1.20] accepted, by convention, as having an uncertainty appropriate
       for a given purpose
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Publication drops the qualifier 'sometimes' before 'by convention,'
+      narrowing the meaning to suggest acceptance is always by convention rather than
+      sometimes by convention.
     related:
     - type: see
       ref:
@@ -108,8 +114,9 @@ data:
       by convention, as having an uncertainty appropriate for a given purpose [VIM
       1.20]
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: ok
+    consistency_reason: The publication's definition is identical in wording to the
+      official definition.
   - edition: 202X
     publication: OIML R 107-1:2007
     publication_id: OIML R107-1:2007
@@ -121,8 +128,9 @@ data:
     definition: value attributed to a particular quantity and accepted, by convention,
       as having an uncertainty appropriate for a given purpose [VIM:1993, 1.20]
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Publication replaces 'sometimes by convention' with 'by convention',
+      dropping the nuance that convention is not always the basis for acceptance.
   - edition: 202X
     publication: OIML R 140:2007
     publication_id: OIML R140:2007
@@ -135,8 +143,9 @@ data:
       by convention, as having an uncertainty appropriate for a given purpose [VIM:2007,
       2.12]
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: ok
+    consistency_reason: The publication's definition is verbatim identical to the
+      official definition, with only a reference citation added.
   - edition: 202X
     publication: OIML R 51-1:2006
     publication_id: OIML R051-1:2006
@@ -149,8 +158,9 @@ data:
       by convention, as having an uncertainty appropriate for a given purpose [VIM:1993,
       1.20]
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Adds specific example '(mass of a body)' and drops 'sometimes'
+      before 'by convention', narrowing the definition.
   - edition: 202X
     publication: OIML R 136-1:2004
     publication_id: OIML R136-1:2004
@@ -163,8 +173,10 @@ data:
       accepted, by convention, as having an uncertainty appropriate for a given purpose
       [VIM:1993, 1.20]
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Publication drops the qualifier 'sometimes' before 'by convention,'
+      narrowing the meaning to suggest acceptance is always by convention rather than
+      sometimes by convention.
 status: current
 id: a7467654-5c29-5b41-a154-c6dd316f1ac9
 schema_version: '3'

@@ -14,27 +14,40 @@ concurrency:
   group: pages
   cancel-in-progress: false
 
+# This workflow does NOT call any LLM/AI APIs and does NOT run the
+# migration (which requires a sibling checkout of oimlsmart/vocab).
+# Editors run `scripts/migrate_from_vocab.rb` and
+# `scripts/check_consistency.rb` locally, then commit the resulting
+# `data/` so this workflow can build and deploy the static site from
+# the committed snapshot. See README "Local development" for the editor
+# workflow.
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: "3.4"
           bundler: none
-      - name: Build static site
+
+      - name: Build static site from committed data/
         run: |
           ruby scripts/build_site.rb
-      - name: Show build summary
+
+      - name: Build summary
         run: |
           cat _site/stats.json
           echo
-          echo "Pages built:"
-          find _site -type f | sort | head -20
-          echo "..."
-          echo "Total files: $(find _site -type f | wc -l)"
+          echo "Files in _site:"
+          find _site -type f | wc -l
+          echo "Terms pages:"
+          ls _site/terms | wc -l
+
       - uses: actions/configure-pages@v5
+
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site

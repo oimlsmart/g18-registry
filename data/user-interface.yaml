@@ -22,8 +22,9 @@ data:
       keyboard, mouse, display, monitor, printer, touch-screen, software window on
       a screen including the software that generates it
     notes: []
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Publication specifies 'error of indication' rather than the
+      broader 'error of a measuring instrument,' narrowing the concept.
   - edition: '2010'
     publication: OIML R 21:2007
     publication_id: OIML R021:2007

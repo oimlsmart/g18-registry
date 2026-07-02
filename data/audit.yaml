@@ -44,8 +44,10 @@ data:
     - 6. When quality and environmental management systems are audited together, this
       is termed a "combined audit". When two or more auditing organizations cooperate
       to audit a single auditee jointly, t is termed "joint audit".
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Publication narrows the concept by adding 'systematic, independent
+      and documented' qualifiers and substitutes audit-specific terms ('audit evidence/criteria')
+      for the broader 'conformity assessment' object and 'specified requirements.'
     related:
     - type: see
       ref:
@@ -74,8 +76,10 @@ data:
       ISO 14001:1996. When quality and environmental management systems are audited
       together, this is termed a “combined audit”. When two or more auditing organizations
       cooperate to audit a single auditee jointly, this is termed “joint audit”.'
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Publication narrows the concept by adding 'systematic, independent
+      and documented' qualifiers and substitutes audit-specific terms ('audit evidence/criteria')
+      for the broader 'conformity assessment' object and 'specified requirements.'
 status: current
 id: e7421b9b-9c88-5bf5-8f42-77566f10a79c
 schema_version: '3'

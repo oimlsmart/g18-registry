@@ -32,8 +32,9 @@ data:
       this Document'
     notes:
     - "[derived from ISO/IEC 14598 and IEC 61508- 1998]"
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Adds 'objective evidence' elaboration and narrows scope to
+      'this Document' rather than keeping the definition general.
     related:
     - type: see
       ref:
@@ -53,8 +54,10 @@ data:
     notes:
     - (1) The term "validated" is used to designate the corresponding status. (2)
       The use conditions for validation can be real or simulated.
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Adds 'provision of objective evidence' and broadens to 'requirements
+      for a specific intended use' rather than the VIM's 'specified requirements adequate
+      for an intended use'.
     related:
     - type: see
       ref:
@@ -74,8 +77,10 @@ data:
     notes:
     - 'Note 1: The term “validated” is used to designate the corresponding status.
       Note 2: ’The use conditions for validation can be real or simulated.'
-    consistency: pending
-    consistency_reason: ''
+    consistency: partial
+    consistency_reason: Adds 'provision of objective evidence' and broadens to 'requirements
+      for a specific intended use' rather than the VIM's 'specified requirements adequate
+      for an intended use'.
 status: current
 id: f23c1003-c1f6-5055-80c0-a6189b78b55b
 schema_version: '3'
