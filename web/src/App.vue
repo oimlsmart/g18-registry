@@ -3,6 +3,7 @@ import { useRoute } from "vue-router";
 
 const route = useRoute();
 const navItems = [
+  { to: "/actions/", label: "Actions" },
   { to: "/terms/", label: "Terms" },
   { to: "/tc/", label: "TC / SC" },
   { to: "/publications/", label: "Publications" },

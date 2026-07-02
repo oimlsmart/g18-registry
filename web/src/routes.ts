@@ -2,6 +2,7 @@ import type { RouteRecordRaw } from "vue-router";
 
 export const routes: RouteRecordRaw[] = [
   { path: "/", component: () => import("./pages/index.vue") },
+  { path: "/actions/", component: () => import("./pages/actions.vue") },
   { path: "/terms/", component: () => import("./pages/terms/index.vue") },
   { path: "/terms/:slug/", component: () => import("./pages/terms/[slug].vue"), props: true },
   { path: "/publications/", component: () => import("./pages/publications/index.vue") },
