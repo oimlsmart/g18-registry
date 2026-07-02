@@ -14,43 +14,34 @@ concurrency:
   group: pages
   cancel-in-progress: false
 
-# This workflow does NOT call any LLM/AI APIs and does NOT run the
-# migration (which requires a sibling checkout of oimlsmart/vocab).
-# Editors run `scripts/migrate_from_vocab.rb` and
-# `scripts/check_consistency.rb` locally, then commit the resulting
-# `data/` so this workflow can build and deploy the static site from
-# the committed snapshot. See README "Local development" for the editor
-# workflow.
-
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
 
-      - uses: ruby/setup-ruby@v1
+      - uses: pnpm/action-setup@v4
         with:
-          ruby-version: "3.4"
-          bundler: none
+          version: 11
 
-      - name: Build static site from committed data/
-        run: |
-          ruby scripts/build_site.rb
-
-      - name: Build summary
-        run: |
-          cat _site/stats.json
-          echo
-          echo "Files in _site:"
-          find _site -type f | wc -l
-          echo "Terms pages:"
-          ls _site/terms | wc -l
-
-      - uses: actions/configure-pages@v5
-
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/setup-node@v4
         with:
-          path: _site
+          node-version: "22"
+          cache: pnpm
+          cache-dependency-path: web/pnpm-lock.yaml
+
+      - name: Install web dependencies
+        working-directory: web
+        run: pnpm install --frozen-lockfile
+
+      - name: Build static site (vite-ssg)
+        working-directory: web
+        run: pnpm run build
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: web/dist
 
   deploy:
     environment:
