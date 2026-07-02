@@ -198,38 +198,72 @@ File.write(File.join(options[:out_dir], "harmonization.json"),
            JSON.generate(candidates))
 
 # ── ID conflicts (raw + designation collisions) ──────────────────────────
-raw_conflicts = {}
-collisions = {}
+# Two DISTINCT problems:
+#   1. Raw ID conflicts: same G 18 ID number assigned to DIFFERENT concepts
+#      (a numbering error in the source publication). In 2010 these are
+#      visible as <id>a / <id>b suffixes across DIFFERENT term files.
+#      Detection must be CROSS-TERM.
+#   2. Designation collisions: same concept (designation) appearing under
+#      MULTIPLE distinct IDs (each OIML publication gets its own entry).
+#      This is the harmonisation worklist, not an error.
+
+# Build GLOBAL indices across ALL terms (not per-term).
+global_by_base = Hash.new { |h, k| h[k] = [] }      # base_id → [{designation, source, raw_id, edition}]
+global_by_name = Hash.new { |h, k| h[k] = [] }      # designation → [{id, source, edition}]
+
 terms.each do |t|
-  by_ed_base = Hash.new { |h, k| h[k] = Hash.new { |hh, kk| hh[kk] = [] } }
-  by_ed_name = Hash.new { |h, k| h[k] = Hash.new { |hh, kk| hh[kk] = [] } }
   (t["publications"] || []).each do |p|
     ed = p["edition"] || "—"
     id = p["g18_entry"]
     next unless id
+    designation = t["name"]
+    source = p["publication_id"]
+
+    # For raw ID conflict detection: strip trailing letter suffix.
+    # If "00474a" and "00474b" exist in different terms, the base "00474"
+    # will have entries from multiple designations → conflict.
     base = id.to_s.sub(/[a-z]\z/, "")
-    if base != id
-      by_ed_base[ed][base] << { designation: t["name"], source: p["publication_id"], raw_id: id }
-    end
-    by_ed_name[ed][t["name"]] << { id: id, source: p["publication_id"] } if t["name"]
-  end
-  by_ed_base.each do |ed, ids|
-    ids.each do |base, arr|
-      next if arr.size < 2
-      (raw_conflicts[ed] ||= []) << { id: base, concepts: arr.uniq { |c| c[:designation] } }
-    end
-  end
-  by_ed_name.each do |ed, names|
-    names.each do |name, arr|
-      unique = arr.map { |x| x[:id] }.uniq
-      next if unique.size < 2
-      (collisions[ed] ||= []) << { designation: name, ids: unique.sort, count: arr.size }
-    end
+    global_by_base[base] << {
+      designation: designation, source: source, raw_id: id, edition: ed,
+    } if base != id  # only suffixed IDs are candidates
+
+    global_by_name[designation] << { id: id, source: source, edition: ed } if designation
   end
 end
-raw_conflicts.transform_values! { |arr| arr.sort_by { |x| x[:id] } }
+
+# Raw ID conflicts: base IDs that map to multiple DISTINCT designations.
+raw_conflicts = {}
+global_by_base.each do |base, entries|
+  by_edition = entries.group_by { |e| e[:edition] }
+  by_edition.each do |ed, ed_entries|
+    distinct_designations = ed_entries.map { |e| e[:designation] }.uniq
+    next if distinct_designations.size < 2
+    (raw_conflicts[ed] ||= []) << {
+      "id" => base,
+      "concepts" => ed_entries.uniq { |e| e[:designation] }.map { |e|
+        { "designation" => e[:designation], "source" => e[:source], "raw_id" => e[:raw_id] }
+      },
+    }
+  end
+end
+raw_conflicts.transform_values! { |arr| arr.sort_by { |x| x["id"] } }
+
+# Designation collisions: designations appearing under multiple distinct IDs.
+collisions = {}
+global_by_name.each do |designation, entries|
+  by_edition = entries.group_by { |e| e[:edition] }
+  by_edition.each do |ed, ed_entries|
+    unique_ids = ed_entries.map { |e| e[:id] }.uniq
+    next if unique_ids.size < 2
+    (collisions[ed] ||= []) << {
+      "designation" => designation,
+      "ids" => unique_ids.sort,
+      "count" => ed_entries.size,
+    }
+  end
+end
 collisions.transform_values! do |arr|
-  arr.sort_by { |x| [-x[:ids].size, x[:designation].downcase] }
+  arr.sort_by { |x| [-x["ids"].size, x["designation"].downcase] }
 end
 File.write(File.join(options[:out_dir], "conflicts.json"),
            JSON.generate("raw" => raw_conflicts,
