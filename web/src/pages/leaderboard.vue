@@ -5,7 +5,12 @@ function kindLabel(k: string) { return k === "defined_in_vim" ? "VIM" : k === "d
 const top = computed(() => (terms as any[])
   .map(t => ({ ...t, distinct: new Set(t.publications.map((p: any) => (p.definition || '').trim()).filter(Boolean)).size }))
   .filter(t => t.publications.length > 1)
-  .sort((a, b) => [-(b.distinct), -(b.publications.length), (a.name || '').localeCompare(b.name || '')])
+  .sort((a, b) => {
+    // Proper numeric comparison — NOT array comparison (JS coerces arrays to strings)
+    if (b.distinct !== a.distinct) return b.distinct - a.distinct;
+    if (b.publications.length !== a.publications.length) return b.publications.length - a.publications.length;
+    return (a.name || "").localeCompare(b.name || "");
+  })
   .slice(0, 20));
 </script>
 <template>
