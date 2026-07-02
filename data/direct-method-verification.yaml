@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '00387'
+  term: direct method (verification)
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 39:2006
+    publication_id: OIML R039:2006
+    tc_sc: ''
+    year: 2006
+    clause: '2.9'
+    link: https://www.oiml.org/en/files/pdf_R/r039-e06.pdf
+    g18_entry: '00387'
+    definition: process for verifying that individual components of the Rockwell hardness
+      machine are operating within maximum permissible errors by directly measuring
+      specified parameters
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: ddd31d96-3e2b-5847-a7ca-a9af393338cb
+schema_version: '3'
+related: []

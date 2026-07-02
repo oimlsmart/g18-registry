@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '02368'
+  term: lambda
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 99-1:2008
+    publication_id: OIML R099-1:2008
+    tc_sc: ''
+    year: 2008
+    clause: '3.33'
+    link: https://www.oiml.org/en/files/pdf_R/r099-1-e08.pdf
+    g18_entry: '02368'
+    definition: dimensionless value representative of the burning efficiency of anengine
+      in terms of the air/fuel ratio in the exhaust gases and determined with a referenced
+      standardized formula
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 9c2e8841-dffc-50c8-83b0-b3ce93087e7a
+schema_version: '3'
+related: []

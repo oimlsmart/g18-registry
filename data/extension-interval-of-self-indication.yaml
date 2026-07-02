@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '00944'
+  term: extension interval of self-indication
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 76-1:2006
+    publication_id: OIML R076-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.3.1.5
+    link: https://www.oiml.org/en/files/pdf_R/r076-1-e06.pdf
+    g18_entry: '00944'
+    definition: value by which it is possible to extend the range of self- indication
+      within the weighing range
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: bec04786-bee9-5b5e-92eb-1fbe80de5639
+schema_version: '3'
+related: []

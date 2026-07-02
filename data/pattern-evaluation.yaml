@@ -1,0 +1,31 @@
+---
+data:
+  identifier: '00260'
+  term: pattern evaluation
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML D 15:1986
+    publication_id: OIML D015:1986
+    tc_sc: ''
+    year: 1986
+    clause: '2.3'
+    link: https://www.oiml.org/en/files/pdf_D/d015-e86.pdf
+    g18_entry: '00260'
+    definition: the examination of one or more measuring instruments of the same pattern
+      which are submitted by a manufacturer to the National Service of Legal Metrology;
+      this examination includes the tests necessary for the approval of the pattern
+      [VML 2.2].
+    notes:
+    - Pattern evaluation is not limited to the National Service of Legal Metrology
+      or the metrological services of other government agencies, but may also be undertaken
+      by any other officially authorized test centre as well as by manufacturers and
+      users of measuring instruments. The purpose of pattern evaluation is not necessarily
+      pattern approval, its purpose may also be, for example, assessment of suitability
+      for use.
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 7c220efa-fdff-578b-971b-d656ca7af58c
+schema_version: '3'
+related: []

@@ -1,0 +1,22 @@
+---
+data:
+  identifier: '01275'
+  term: weighing-in-motion (wim)
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 106-1:1997
+    publication_id: OIML R106-1:1997
+    tc_sc: ''
+    year: 1997
+    clause: T.3.1.3
+    link: https://www.oiml.org/en/files/pdf_R/r106-1-e97.pdf
+    g18_entry: '01275'
+    definition: weighing objects that are in motion
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: e81cd131-bbd6-5814-9f25-a06b9455a97c
+schema_version: '3'
+related: []

@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '02040'
+  term: flow measuring device
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 140:2007
+    publication_id: OIML R140:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.1.2
+    link: https://www.oiml.org/en/files/pdf_R/r140-e07.pdf
+    g18_entry: '02040'
+    definition: part of the meter that converts the volume or mass flow of the gas
+      to be measured into signals for the calculator. It includes the sensor and the
+      measuring transducer
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: c1e82010-a080-5370-b7cb-52a40f4de189
+schema_version: '3'
+related: []

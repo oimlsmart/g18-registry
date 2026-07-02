@@ -1,0 +1,33 @@
+---
+data:
+  identifier: '01940'
+  term: true value (of a quantity)
+  kind: defined_in_vim
+  official_concept:
+    source: urn:oiml:pub:v:2:1993
+    id: '1.19'
+    url: https://oimlsmart.github.io/vocab/vim-1993/concept/1.19
+  publications:
+  - publication: OIML R 137-1:2006
+    publication_id: OIML R137-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: 2.2.4
+    link: https://www.oiml.org/en/files/pdf_R/r137-1-e06.pdf
+    g18_entry: '01940'
+    definition: value consistent with the definition of a given particular quantity
+      [VIM:1993, 1.19 + notes]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+    related:
+    - type: see
+      ref: &1
+        source: urn:oiml:pub:v:2:1993
+        id: '1.19'
+status: current
+id: c849cb78-3f3d-506e-a95f-a5284aea3ce8
+schema_version: '3'
+related:
+- type: see
+  ref: *1

@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '01667'
+  term: normal operation
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 126:1998
+    publication_id: OIML R126:1998
+    tc_sc: ''
+    year: 1998
+    clause: '3.6'
+    link: https://www.oiml.org/en/files/pdf_R/r126-e98.pdf
+    g18_entry: '01667'
+    definition: the mode of usage which corresponds to the program of operations specified
+      for EBA's in service
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: dad6522e-b06e-5cbf-8cc1-4e3ae40c703d
+schema_version: '3'
+related: []

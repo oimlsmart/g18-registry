@@ -1,0 +1,35 @@
+---
+data:
+  identifier: '01059'
+  term: retention time
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 82:2006
+    publication_id: OIML R082:2006
+    tc_sc: ''
+    year: 2006
+    clause: '3.15'
+    link: https://www.oiml.org/en/files/pdf_R/r082-e06.pdf
+    g18_entry: '01059'
+    definition: time elapsed from injection of a sample component to the recording
+      of its peak maximum
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 113:1994
+    publication_id: OIML R113:1994
+    tc_sc: ''
+    year: 1994
+    clause: '3.15'
+    link: https://www.oiml.org/en/files/pdf_R/r113-e94.pdf
+    g18_entry: '01502'
+    definition: the elapsed time between injection of a sample and the appearance
+      of the maximum output peak of the component of interest
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 4268b371-2f72-5426-ba4b-9f245db64a9d
+schema_version: '3'
+related: []

@@ -1,0 +1,22 @@
+---
+data:
+  identifier: '02339'
+  term: manual adjustment facility
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 99-1:2008
+    publication_id: OIML R099-1:2008
+    tc_sc: ''
+    year: 2008
+    clause: '3.7'
+    link: https://www.oiml.org/en/files/pdf_R/r099-1-e08.pdf
+    g18_entry: '02339'
+    definition: facility allowing the adjustment of the instrument by the user
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 39a2fa9b-0ecb-5e65-8d35-1d635e520ced
+schema_version: '3'
+related: []

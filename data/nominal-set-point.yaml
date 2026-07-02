@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '00605'
+  term: nominal set point
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 51-1:2006
+    publication_id: OIML R051-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.2.10.2
+    link: https://www.oiml.org/en/files/pdf_R/r051-1-e06.pdf
+    g18_entry: '00605'
+    definition: value expressed in units of mass preset by the operator by means ofthe
+      setting device in order to establish the limit between consecutive sub-groups
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: b3ca73fc-889e-5cbe-938b-1ba69429feac
+schema_version: '3'
+related: []

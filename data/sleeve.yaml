@@ -1,0 +1,33 @@
+---
+data:
+  identifier: '00313'
+  term: sleeve
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 16-1:2002
+    publication_id: OIML R016-1:2002
+    tc_sc: ''
+    year: 2002
+    clause: '2.8'
+    link: https://www.oiml.org/en/files/pdf_R/r016-1-e02.pdf
+    g18_entry: '00313'
+    definition: essentially inelastic part of the cuff that encloses the bladder
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 16-2:2002
+    publication_id: OIML R016-2:2002
+    tc_sc: ''
+    year: 2002
+    clause: '2.8'
+    link: https://www.oiml.org/en/files/pdf_R/r016-2-e02.pdf
+    g18_entry: '00328'
+    definition: essentially inelastic part of the cuff that encloses the bladder
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 0b6cff15-d1ce-5833-bd0a-af6be33f1b1b
+schema_version: '3'
+related: []

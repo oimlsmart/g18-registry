@@ -1,0 +1,25 @@
+---
+data:
+  identifier: '01538'
+  term: blend dispenser
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 117-1:2007
+    publication_id: OIML R117-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.a.12
+    link: https://www.oiml.org/en/files/pdf_R/r117-1-e07.pdf
+    g18_entry: '01538'
+    definition: fuel dispenser providing mixtures of various grades of a single product
+      or blends of more than one product through a single nozzle; examples include
+      gasoline (a multigrade-dispenser) and mixtures of gasoline and lubricating oil
+      (a gasoline-oil-dispenser)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: f55d33f5-0d88-5c53-b6c2-1c73a9f3670e
+schema_version: '3'
+related: []

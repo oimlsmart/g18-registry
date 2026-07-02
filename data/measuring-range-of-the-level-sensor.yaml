@@ -1,0 +1,26 @@
+---
+data:
+  identifier: '02263'
+  term: measuring range of the level sensor
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 80-1:2009
+    publication_id: OIML R080-1:2009
+    tc_sc: ''
+    year: 2009
+    clause: '2.24'
+    link: https://www.oiml.org/en/files/pdf_R/r080-1-e09.pdf
+    g18_entry: '02263'
+    definition: range between the minimum and maximum possible indications ofthe level
+      sensor. The lower limit is type and system dependent and shall be significantly
+      less than the liquid level corresponding tothe minimum measured quantity of
+      the tank or compartment. The upper limit depends on the tank height and shall
+      be above the maximum permissible filling height of the tank or compartment
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 657b898f-042c-5776-adaa-7c97fd11faea
+schema_version: '3'
+related: []

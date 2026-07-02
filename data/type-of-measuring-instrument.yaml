@@ -1,0 +1,22 @@
+---
+data:
+  identifier: '00094'
+  term: type of measuring instrument
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML B 10-1:2004
+    publication_id: OIML B010-1:2004
+    tc_sc: TC 3/SC 2
+    year: 2004
+    clause: '3.3'
+    link: https://www.oiml.org/en/files/pdf_B/b010-1-e04.pdf
+    g18_entry: '00094'
+    definition: definite model of the category of instruments to which it conforms
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 80842021-6236-5e62-946b-31eca1a686db
+schema_version: '3'
+related: []

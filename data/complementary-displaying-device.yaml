@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '00915'
+  term: complementary displaying device
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 76-1:2006
+    publication_id: OIML R076-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.2.5.3
+    link: https://www.oiml.org/en/files/pdf_R/r076-1-e06.pdf
+    g18_entry: '00915'
+    definition: adjustable device by means of which it is possible to estimate, in
+      units of mass, the value corresponding to the distance between a scale mark
+      and the displaying component
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: d0f53d27-c002-53fd-afd7-75ec4e501eb8
+schema_version: '3'
+related: []

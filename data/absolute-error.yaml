@@ -1,0 +1,33 @@
+---
+data:
+  identifier: '01638'
+  term: absolute error
+  kind: defined_in_vim
+  official_concept:
+    source: urn:oiml:pub:v:2:1993
+    id: '3.10'
+    url: https://oimlsmart.github.io/vocab/vim-1993/concept/3.10
+  publications:
+  - publication: OIML R 125:1998
+    publication_id: OIML R125:1998
+    tc_sc: ''
+    year: 1998
+    clause: T.22.1
+    link: https://www.oiml.org/en/files/pdf_R/r125-e98.pdf
+    g18_entry: '01638'
+    definition: the result of a measurement minus the (conventional) true value of
+      the measurand (VIM:1993, 3.10)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+    related:
+    - type: see
+      ref: &1
+        source: urn:oiml:pub:v:2:1993
+        id: '3.10'
+status: current
+id: 4155a46a-56a9-5df3-84bd-fe48417ffb14
+schema_version: '3'
+related:
+- type: see
+  ref: *1

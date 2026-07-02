@@ -1,0 +1,25 @@
+---
+data:
+  identifier: '02114'
+  term: noise equivalent temperature difference(temperature resolution, stem:[\Delta
+    T_{\mathrm{NETD}}])
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 141:2008
+    publication_id: OIML R141:2008
+    tc_sc: ''
+    year: 2008
+    clause: '2.10'
+    link: https://www.oiml.org/en/files/pdf_R/r141-e08.pdf
+    g18_entry: '02114'
+    definition: temperature increment equal to the root-mean-square value of the noise
+      in a thermogram, when observing a homogeneous background set with a specified
+      temperature and a specified thermogram rate
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 5c929bbf-8290-51f6-a23f-572d701af3b0
+schema_version: '3'
+related: []

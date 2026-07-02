@@ -1,0 +1,22 @@
+---
+data:
+  identifier: '00641'
+  term: rate of operation
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 51-1:2006
+    publication_id: OIML R051-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.3.4.1
+    link: https://www.oiml.org/en/files/pdf_R/r051-1-e06.pdf
+    g18_entry: '00641'
+    definition: number of loads weighed automatically per unit of time
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 376059dc-0b57-5c26-a01e-3c6a86079eed
+schema_version: '3'
+related: []

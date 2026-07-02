@@ -1,0 +1,22 @@
+---
+data:
+  identifier: '00702'
+  term: compression loading
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 60:2000
+    publication_id: OIML R060:2000
+    tc_sc: ''
+    year: 2000
+    clause: 2.1.1.1
+    link: https://www.oiml.org/en/files/pdf_R/r060-e00.pdf
+    g18_entry: '00702'
+    definition: compressive force applied to a load cell
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 6df61dd5-d117-5e6a-8cf9-faef0cd93b26
+schema_version: '3'
+related: []

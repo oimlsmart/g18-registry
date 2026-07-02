@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '01578'
+  term: influence factot
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 117-1:2007
+    publication_id: OIML R117-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.i.3
+    link: https://www.oiml.org/en/files/pdf_R/r117-1-e07.pdf
+    g18_entry: '01578'
+    definition: influence quantity having a value within the rated operating conditions
+      of the measuring system, as specified in this Recommendation
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: c9ab3f48-732b-5c7a-8b39-ad597daaf58e
+schema_version: '3'
+related: []

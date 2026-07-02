@@ -1,0 +1,25 @@
+---
+data:
+  identifier: '00472'
+  term: combination meter
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 49-2:2006
+    publication_id: OIML R049-2:2006
+    tc_sc: ''
+    year: 2006
+    clause: '2.7'
+    link: https://www.oiml.org/en/files/pdf_R/r049-2-e06.pdf
+    g18_entry: '00472'
+    definition: meter comprising one large meter, one small meter and a changeover
+      device that, depending on the magnitude of the flowrate passing through the
+      meter, automatically directs the flow through either the small or large meter
+      or both
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: bed97158-d92f-528d-832c-1e208759a351
+schema_version: '3'
+related: []

@@ -1,0 +1,80 @@
+---
+data:
+  identifier: '00739'
+  term: repeatability error
+  kind: defined_in_vim
+  official_concept:
+    source: urn:oiml:pub:v:2:1993
+    id: '5.27'
+    url: https://oimlsmart.github.io/vocab/vim-1993/concept/5.27
+  publications:
+  - publication: OIML R 117-1:2007
+    publication_id: OIML R117-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.e.4.4
+    link: https://www.oiml.org/en/files/pdf_R/r117-1-e07.pdf
+    g18_entry: '01562'
+    definition: for the purposes of this Recommendation, the difference between the
+      largest and the smallest results of successive measurements of the same quantity
+      carried out under the same conditions
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 139:2007
+    publication_id: OIML R139:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.3.8
+    link: https://www.oiml.org/en/files/pdf_R/r139-e07.pdf
+    g18_entry: '02017'
+    definition: 'for the purposes of this Recommendation: difference between the largest
+      and the smallest results of successive measurements of the same quantity carried
+      out under the same conditions'
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 140:2007
+    publication_id: OIML R140:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.2.13
+    link: https://www.oiml.org/en/files/pdf_R/r140-e07.pdf
+    g18_entry: '02079'
+    definition: 'for the purpose of this Recommendation: difference between the (adapted
+      from VIM:2007, 2.21) largest and the smallest results of successive measurements
+      of a same quantity carried out under the same conditions'
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+    related:
+    - type: see
+      ref: &2
+        source: urn:oiml:pub:v:2:2007
+        id: '2.21'
+  - publication: OIML R 60:2000
+    publication_id: OIML R060:2000
+    tc_sc: ''
+    year: 2000
+    clause: 2.4.12
+    link: https://www.oiml.org/en/files/pdf_R/r060-e00.pdf
+    g18_entry: '00739'
+    definition: difference between load cell output readings taken from consecutive
+      tests under the same loading and environmental conditions of measurement [Adapted
+      from VIM:1993, 5.27]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+    related:
+    - type: see
+      ref: &1
+        source: urn:oiml:pub:v:2:1993
+        id: '5.27'
+status: current
+id: 6da83ea9-171a-5782-9667-7e521c9107ce
+schema_version: '3'
+related:
+- type: see
+  ref: *1
+- type: see
+  ref: *2

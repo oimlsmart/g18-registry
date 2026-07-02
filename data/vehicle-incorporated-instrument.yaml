@@ -1,0 +1,26 @@
+---
+data:
+  identifier: '00566'
+  term: vehicle incorporated instrument
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 51-1:2006
+    publication_id: OIML R051-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.1.3.5
+    link: https://www.oiml.org/en/files/pdf_R/r051-1-e06.pdf
+    g18_entry: '00566'
+    definition: "(l instrument where components of the vehicle which are also components
+      of the weighing instrument, i.e. parts of the vehicle evers, joints and/or force
+      transmission) are used for the instrument"
+    notes:
+    - For example, a front-end loader (front-end loading vehicle) that determines
+      the quantity of loose material held in the bucket (load receptor).
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 1a9b65f0-628f-5141-a866-a12e11a0c3ac
+schema_version: '3'
+related: []

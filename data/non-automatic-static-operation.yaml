@@ -1,0 +1,33 @@
+---
+data:
+  identifier: '00643'
+  term: non-automatic (static) operation
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 107-1:2007
+    publication_id: OIML R107-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.3.8
+    link: https://www.oiml.org/en/files/pdf_R/r107-1-e07.pdf
+    g18_entry: '01370'
+    definition: static weighing mode for test purposes
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 51-1:2006
+    publication_id: OIML R051-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.3.4.3
+    link: https://www.oiml.org/en/files/pdf_R/r051-1-e06.pdf
+    g18_entry: '00643'
+    definition: static weighing mode for test purposes
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 156b332c-8637-5cb1-a4c9-9c8240b34701
+schema_version: '3'
+related: []

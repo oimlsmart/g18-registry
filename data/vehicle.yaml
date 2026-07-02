@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '01838'
+  term: vehicle
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 134:2003
+    publication_id: OIML R134:2003
+    tc_sc: ''
+    year: 2003
+    clause: T.7.1
+    link: https://www.oiml.org/en/files/pdf_R/r134-e03.pdf
+    g18_entry: '01838'
+    definition: loaded or unloaded vehicle that is recognized by the instrument as
+      a vehicle to be weighed
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 2310076a-4c4b-5df2-be3f-136dd9bc933a
+schema_version: '3'
+related: []

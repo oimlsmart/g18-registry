@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '02272'
+  term: collector (manifold)
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 80-1:2009
+    publication_id: OIML R080-1:2009
+    tc_sc: ''
+    year: 2009
+    clause: '2.33'
+    link: https://www.oiml.org/en/files/pdf_R/r080-1-e09.pdf
+    g18_entry: '02272'
+    definition: collecting line connected via valves to the outlets of the measuring
+      compartments and allowing delivery from any one or several compartments via
+      common pipework
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 6c14b8be-ac68-51c9-8ff0-39c7f52f39ae
+schema_version: '3'
+related: []

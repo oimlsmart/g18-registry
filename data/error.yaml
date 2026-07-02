@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '02139'
+  term: error
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 143:2009
+    publication_id: OIML R143:2009
+    tc_sc: ''
+    year: 2009
+    clause: '2.13'
+    link: https://www.oiml.org/en/files/pdf_R/r143-e09.pdf
+    g18_entry: '02139'
+    definition: measured quantity value minus a reference quantity value
+    notes:
+    - "(VIM:2007, 2.16)"
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: e2da76bb-840a-5e65-abe3-3ac84d27964c
+schema_version: '3'
+related: []

@@ -1,0 +1,25 @@
+---
+data:
+  identifier: '01192'
+  term: absorbance
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 100:1991
+    publication_id: OIML R100:1991
+    tc_sc: ''
+    year: 1991
+    clause: '3.1'
+    link: https://www.oiml.org/en/files/pdf_R/r100-e91.pdf
+    g18_entry: '01192'
+    definition: a value equal to the logarithm of the ratio of the incident light
+      to The principle of measurement of absorbance the transmitted light and is dependent
+      on the path length and the by concentration of the absorbing substance
+    notes:
+    - the instrument is the Beer-Lambert law.
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 76caac03-68d8-578f-b683-e56ac228c56f
+schema_version: '3'
+related: []

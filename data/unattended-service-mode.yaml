@@ -1,0 +1,40 @@
+---
+data:
+  identifier: '01599'
+  term: unattended service mode
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 117-1:2007
+    publication_id: OIML R117-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.s.4.2
+    link: https://www.oiml.org/en/files/pdf_R/r117-1-e07.pdf
+    g18_entry: '01599'
+    definition: operating mode of a self-service arrangement in which the self- service
+      device controls the authorization for the delivery, based onan action of the
+      customer
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 139:2007
+    publication_id: OIML R139:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.2.4
+    link: https://www.oiml.org/en/files/pdf_R/r139-e07.pdf
+    g18_entry: '02005'
+    definition: operating mode of a self-service arrangement in which the self- service
+      arrangement controls the authorization for the delivery, based on an action
+      of the customer
+    notes:
+    - In unattended service mode, the end of the measurement operation is the end
+      of the registration (printing and/or memorizing) of information concerning the
+      measurement operation.
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: ae1f4d74-1f3c-5bb0-a409-d72357a57f08
+schema_version: '3'
+related: []

@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '02252'
+  term: liquid level
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 80-1:2009
+    publication_id: OIML R080-1:2009
+    tc_sc: ''
+    year: 2009
+    clause: '2.13'
+    link: https://www.oiml.org/en/files/pdf_R/r080-1-e09.pdf
+    g18_entry: '02252'
+    definition: level of the surface of the liquid, or the vapor/liquid interface
+      in the tank
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 1afb8fc8-8601-5890-a50d-eac704e13e80
+schema_version: '3'
+related: []

@@ -1,0 +1,22 @@
+---
+data:
+  identifier: '02370'
+  term: modulus (of a number) absolute value
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 99-1:2008
+    publication_id: OIML R099-1:2008
+    tc_sc: ''
+    year: 2008
+    clause: '3.35'
+    link: https://www.oiml.org/en/files/pdf_R/r099-1-e08.pdf
+    g18_entry: '02370'
+    definition: value of the number without regard to its sign
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: da95c5ca-84c9-5af8-8d88-b8370d3be305
+schema_version: '3'
+related: []

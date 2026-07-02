@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '01806'
+  term: weighing-in-motion
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 134:2003
+    publication_id: OIML R134:2003
+    tc_sc: ''
+    year: 2003
+    clause: T.3.1.3
+    link: https://www.oiml.org/en/files/pdf_R/r134-e03.pdf
+    g18_entry: '01806'
+    definition: process of determining the total mass of a moving vehicle by measurement
+      and analysis of the dynamic vehicle tyre forces
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 783fe41d-f560-57c1-aa9d-79f132050834
+schema_version: '3'
+related: []

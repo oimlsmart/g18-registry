@@ -1,0 +1,55 @@
+---
+data:
+  identifier: '00251'
+  term: test program
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 137-1:2006
+    publication_id: OIML R137-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: 2.4.7
+    link: https://www.oiml.org/en/files/pdf_R/r137-1-e06.pdf
+    g18_entry: '01973'
+    definition: description of a series of tests for a certain type of equipment
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML D 11:2004
+    publication_id: OIML D011:2004
+    tc_sc: ''
+    year: 2004
+    clause: 3.20.2
+    link: https://www.oiml.org/en/files/pdf_D/d011-e04.pdf
+    g18_entry: '00251'
+    definition: description of a series of tests for certain types of equipment
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 129:2000
+    publication_id: OIML R129:2000
+    tc_sc: ''
+    year: 2000
+    clause: 2.33.2
+    link: https://www.oiml.org/en/files/pdf_R/r129-e00.pdf
+    g18_entry: '01736'
+    definition: a description of a series of tests for a certain type of equipment
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 125:1998
+    publication_id: OIML R125:1998
+    tc_sc: ''
+    year: 1998
+    clause: T.35.2
+    link: https://www.oiml.org/en/files/pdf_R/r125-e98.pdf
+    g18_entry: '01660'
+    definition: a description of a series of tests for certain types of equipment
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: f4cb89c1-6311-5754-bef7-318608a5f833
+schema_version: '3'
+related: []

@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '00436'
+  term: verification scale interval
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 49-1:2006
+    publication_id: OIML R049-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: 2.2.14
+    link: https://www.oiml.org/en/files/pdf_R/r049-1-e06.pdf
+    g18_entry: '00436'
+    definition: lowest value scale division of the first element of an indicating
+      device
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 1445d0ea-7484-52b3-ad55-017a82ca4cd6
+schema_version: '3'
+related: []

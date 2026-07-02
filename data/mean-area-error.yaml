@@ -1,0 +1,26 @@
+---
+data:
+  identifier: '01911'
+  term: mean area error ( )
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 136-1:2004
+    publication_id: OIML R136-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: T.4.8
+    link: https://www.oiml.org/en/files/pdf_R/r136-1-e04.pdf
+    g18_entry: '01911'
+    definition: 'deviation of the mean value for a number of consecutive area measurements
+      made on one template material, from the conventional true value of the template
+      area, expressed mathematically as: where: Vtrue is the conventional true value
+      of the leather area, and is the mean of the measurements, i.e. where: I is the
+      leather measurement indication; and n is the number of measurements.'
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 4fac70d1-f0ef-56a7-aee9-ffbd10d92238
+schema_version: '3'
+related: []

@@ -1,0 +1,34 @@
+---
+data:
+  identifier: '01204'
+  term: vacuum
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 109:1993
+    publication_id: OIML R109:1993
+    tc_sc: ''
+    year: 1993
+    clause: '2.2'
+    link: https://www.oiml.org/en/files/pdf_R/r109-e93.pdf
+    g18_entry: '01412'
+    definition: a pressure less than ambient pressure
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 101:1991
+    publication_id: OIML R101:1991
+    tc_sc: ''
+    year: 1991
+    clause: T.2
+    link: https://www.oiml.org/en/files/pdf_R/r101-e91.pdf
+    g18_entry: '01204'
+    definition: a pressure less than ambient pressure, the latter being considered
+      as the datum point
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: c9cf6364-83bd-56b1-97fc-10a2e339af7c
+schema_version: '3'
+related: []

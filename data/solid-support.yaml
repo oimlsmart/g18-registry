@@ -1,0 +1,53 @@
+---
+data:
+  identifier: '01050'
+  term: solid support
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 82:2006
+    publication_id: OIML R082:2006
+    tc_sc: ''
+    year: 2006
+    clause: '3.6'
+    link: https://www.oiml.org/en/files/pdf_R/r082-e06.pdf
+    g18_entry: '01050'
+    definition: material in the column (normally inert) that holds the stationary
+      phase and consists of porous or impenetrable particles, or the interior wall
+      of the column itself, or a combination of these, over which the carrier gas
+      flows
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 112:1994
+    publication_id: OIML R112:1994
+    tc_sc: ''
+    year: 1994
+    clause: '2.5'
+    link: https://www.oiml.org/en/files/pdf_R/r112-e94.pdf
+    g18_entry: '01477'
+    definition: the material within the column to which the stationary phase is bonded
+      (together comprising the packing material) and through which the mobile phase
+      flows. Ideally this material is inert. It may be characterized by the particle
+      diameter dp measured in stem:[mu]m
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 113:1994
+    publication_id: OIML R113:1994
+    tc_sc: ''
+    year: 1994
+    clause: '3.5'
+    link: https://www.oiml.org/en/files/pdf_R/r113-e94.pdf
+    g18_entry: '01492'
+    definition: normally an inert material within a column that holds the stationary
+      phase. This material may consist of porous particles, impenetrable particles,
+      the interior column wall, or a combination of these alternatives over which
+      the carrier gas flows
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 5dcde120-6312-5068-a657-5449dafe56fb
+schema_version: '3'
+related: []

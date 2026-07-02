@@ -1,0 +1,341 @@
+---
+data:
+  identifier: '00230'
+  term: intrinsic error
+  kind: defined_in_vim
+  official_concept:
+    source: urn:oiml:pub:v:2:1993
+    id: '5.24'
+    url: https://oimlsmart.github.io/vocab/vim-1993/concept/5.24
+  publications:
+  - publication: OIML R 80-1:2009
+    publication_id: OIML R080-1:2009
+    tc_sc: ''
+    year: 2009
+    clause: '2.54'
+    link: https://www.oiml.org/en/files/pdf_R/r080-1-e09.pdf
+    g18_entry: '02293'
+    definition: error (of the indicated volume) of a measuring system used under reference
+      conditions
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 143:2009
+    publication_id: OIML R143:2009
+    tc_sc: ''
+    year: 2009
+    clause: '2.14'
+    link: https://www.oiml.org/en/files/pdf_R/r143-e09.pdf
+    g18_entry: '02140'
+    definition: error of a gas analyzer, determined under reference conditions
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML D 31:2008
+    publication_id: OIML D031:2008
+    tc_sc: ''
+    year: 2008
+    clause: 3.1.28
+    link: https://www.oiml.org/en/files/pdf_D/d031-e08.pdf
+    g18_entry: '02195'
+    definition: error of a measuring instrument, determined under reference conditions
+    notes:
+    - "[VIM:1993, 5.24; OIML D 11:2004, 3.7]"
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 85-1:2008
+    publication_id: OIML R085-1:2008
+    tc_sc: ''
+    year: 2008
+    clause: '3.30'
+    link: https://www.oiml.org/en/files/pdf_R/r085-1-e08.pdf
+    g18_entry: '02328'
+    definition: error of an ALG determined under reference conditions
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 99-1:2008
+    publication_id: OIML R099-1:2008
+    tc_sc: ''
+    year: 2008
+    clause: '3.18'
+    link: https://www.oiml.org/en/files/pdf_R/r099-1-e08.pdf
+    g18_entry: '02351'
+    definition: error of a measuring instrument determined under reference conditions
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 107-1:2007
+    publication_id: OIML R107-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.4.5.3
+    link: https://www.oiml.org/en/files/pdf_R/r107-1-e07.pdf
+    g18_entry: '01389'
+    definition: "[V error of an instrument, determined under reference conditions
+      IM: 1993, 5.24]"
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 117-1:2007
+    publication_id: OIML R117-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.e.4.5
+    link: https://www.oiml.org/en/files/pdf_R/r117-1-e07.pdf
+    g18_entry: '01563'
+    definition: error (of indication) of a measuring system or its components used
+      under reference conditions
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 139:2007
+    publication_id: OIML R139:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.3.9
+    link: https://www.oiml.org/en/files/pdf_R/r139-e07.pdf
+    g18_entry: '02018'
+    definition: error of a measuring system determined under reference conditions
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 140:2007
+    publication_id: OIML R140:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.2.14
+    link: https://www.oiml.org/en/files/pdf_R/r140-e07.pdf
+    g18_entry: '02080'
+    definition: error determined under reference conditions
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 49-1:2006
+    publication_id: OIML R049-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: 2.2.7
+    link: https://www.oiml.org/en/files/pdf_R/r049-1-e06.pdf
+    g18_entry: '00429'
+    definition: "[a error (of indication) of a water meter determined under reference
+      conditions dapted from VIM:1993, 5.24]"
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+    related:
+    - type: see
+      ref:
+        source: urn:oiml:pub:v:2:1993
+        id: '5.24'
+  - publication: OIML R 51-1:2006
+    publication_id: OIML R051-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.4.3.3
+    link: https://www.oiml.org/en/files/pdf_R/r051-1-e06.pdf
+    g18_entry: '00656'
+    definition: "[V error of an instrument, determined under reference conditions
+      IM:1993 5.24]"
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 76-1:2006
+    publication_id: OIML R076-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.5.5.2
+    link: https://www.oiml.org/en/files/pdf_R/r076-1-e06.pdf
+    g18_entry: '00978'
+    definition: "[V error of an instrument determined under reference conditions IM:
+      1993, 5.4]"
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 137-1:2006
+    publication_id: OIML R137-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: 2.2.9
+    link: https://www.oiml.org/en/files/pdf_R/r137-1-e06.pdf
+    g18_entry: '01945'
+    definition: error determined under reference conditions
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML D 11:2004
+    publication_id: OIML D011:2004
+    tc_sc: ''
+    year: 2004
+    clause: '3.7'
+    link: https://www.oiml.org/en/files/pdf_D/d011-e04.pdf
+    g18_entry: '00230'
+    definition: error of a measuring instrument, determined under reference conditions
+      [VIM, 5.24]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+    related:
+    - type: see
+      ref: &1
+        source: urn:oiml:pub:v:2:1993
+        id: '5.24'
+  - publication: OIML R 61-1:2004
+    publication_id: OIML R061-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: T.4.2.2
+    link: https://www.oiml.org/en/files/pdf_R/r061-1-e04.pdf
+    g18_entry: '00799'
+    definition: "[b error of a weighing instrument, determined under reference conditions
+      ased on VIM:1993, 5.24]"
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+    related:
+    - type: see
+      ref:
+        source: urn:oiml:pub:v:2:1993
+        id: '5.24'
+  - publication: OIML R 135:2004
+    publication_id: OIML R135:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.28'
+    link: https://www.oiml.org/en/files/pdf_R/r135-e04.pdf
+    g18_entry: '01867'
+    definition: error of a measuring instrument, determined under reference conditions
+    notes:
+    - 1. The initial intrinsic error is the intrinsic error of a measuring instrument
+      as determined prior to performance tests and durability evaluations (see 2.32).
+      [VIM:1993, 5.24]
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 136-1:2004
+    publication_id: OIML R136-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: T.4.2
+    link: https://www.oiml.org/en/files/pdf_R/r136-1-e04.pdf
+    g18_entry: '01905'
+    definition: error of a measuring instrument determined under reference conditions
+    notes:
+    - "[VIM:1993, 5.24]"
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 134:2003
+    publication_id: OIML R134:2003
+    tc_sc: ''
+    year: 2003
+    clause: T.4.2.2
+    link: https://www.oiml.org/en/files/pdf_R/r134-e03.pdf
+    g18_entry: '01822'
+    definition: error of an instrument under reference conditions
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 129:2000
+    publication_id: OIML R129:2000
+    tc_sc: ''
+    year: 2000
+    clause: '2.24'
+    link: https://www.oiml.org/en/files/pdf_R/r129-e00.pdf
+    g18_entry: '01723'
+    definition: the error of a measuring instrument determined under reference VIM:1993,
+      5.24. conditions
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+    related:
+    - type: see
+      ref:
+        source: urn:oiml:pub:v:2:1993
+        id: '5.24'
+  - publication: OIML R 81:1998
+    publication_id: OIML R081:1998
+    tc_sc: ''
+    year: 1998
+    clause: '3.20'
+    link: https://www.oiml.org/en/files/pdf_R/r081-e98.pdf
+    g18_entry: '01029'
+    definition: the error of a measuring system under reference conditions
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 125:1998
+    publication_id: OIML R125:1998
+    tc_sc: ''
+    year: 1998
+    clause: T.23
+    link: https://www.oiml.org/en/files/pdf_R/r125-e98.pdf
+    g18_entry: '01640'
+    definition: the error of a measuring instrument used under reference conditions
+      (VIM:1993, 5.24)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+    related:
+    - type: see
+      ref:
+        source: urn:oiml:pub:v:2:1993
+        id: '5.24'
+  - publication: OIML R 50-1:1997
+    publication_id: OIML R050-1:1997
+    tc_sc: ''
+    year: 1997
+    clause: T.5.2
+    link: https://www.oiml.org/en/files/pdf_R/r050-1-e97.pdf
+    g18_entry: '00526'
+    definition: "[V the error of a belt weigher, determined under reference conditions
+      IM:1993, 5.24]"
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 106-1:1997
+    publication_id: OIML R106-1:1997
+    tc_sc: ''
+    year: 1997
+    clause: T.4.2.2
+    link: https://www.oiml.org/en/files/pdf_R/r106-1-e97.pdf
+    g18_entry: '01294'
+    definition: the error of an instrument under reference conditions
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 124:1997
+    publication_id: OIML R124:1997
+    tc_sc: ''
+    year: 1997
+    clause: '8'
+    link: https://www.oiml.org/en/files/pdf_R/r124-e97.pdf
+    g18_entry: '01613'
+    definition: "(V the error of an instrument used under reference conditions IM:1993,
+      clause 5.24 or D 11 clause T.6)"
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 105:1993
+    publication_id: OIML R105:1993
+    tc_sc: ''
+    year: 1993
+    clause: T.17
+    link: https://www.oiml.org/en/files/pdf_R/r105-e93.pdf
+    g18_entry: '01232'
+    definition: the error of a measuring system used under reference conditions [VIM:1993,
+      5.27]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+    related:
+    - type: see
+      ref: &2
+        source: urn:oiml:pub:v:2:1993
+        id: '5.27'
+status: current
+id: 0a7539e6-fdad-5ffa-8a83-9f846968d910
+schema_version: '3'
+related:
+- type: see
+  ref: *1
+- type: see
+  ref: *2

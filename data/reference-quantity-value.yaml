@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '02349'
+  term: reference (quantity) value
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 99-1:2008
+    publication_id: OIML R099-1:2008
+    tc_sc: ''
+    year: 2008
+    clause: '3.16'
+    link: https://www.oiml.org/en/files/pdf_R/r099-1-e08.pdf
+    g18_entry: '02349'
+    definition: quantity value used as a basis for comparison with values of quantities
+      of the same kind
+    notes:
+    - "(VIM:2007, 5.18)"
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: d6e62bb6-3985-500e-ad41-29944cec91af
+schema_version: '3'
+related: []

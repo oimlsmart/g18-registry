@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '00722'
+  term: minimum load of the measuring range(stem:[D_{\min}])
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 60:2000
+    publication_id: OIML R060:2000
+    tc_sc: ''
+    year: 2000
+    clause: 2.3.11
+    link: https://www.oiml.org/en/files/pdf_R/r060-e00.pdf
+    g18_entry: '00722'
+    definition: smallest value of a quantity (mass) which is applied to a load cell
+      during test or use. This value shall not be less than Emin (see 2.3.8). For
+      the limits on Dmin during testing, see A.3.2.4
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: cd8e74ab-4137-537f-b02f-f410b2fb3ef7
+schema_version: '3'
+related: []

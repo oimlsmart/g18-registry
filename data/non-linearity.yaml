@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '00737'
+  term: non-linearity
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 60:2000
+    publication_id: OIML R060:2000
+    tc_sc: ''
+    year: 2000
+    clause: 2.4.10
+    link: https://www.oiml.org/en/files/pdf_R/r060-e00.pdf
+    g18_entry: '00737'
+    definition: deviation of the increasing load cell signal output curve from a straight
+      line
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: c6e0cd7e-8d7b-5f16-863e-a62a1b564330
+schema_version: '3'
+related: []

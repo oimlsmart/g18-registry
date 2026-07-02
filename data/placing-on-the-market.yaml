@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '00204'
+  term: placing on the market
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML D 9:2004
+    publication_id: OIML D009:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.22'
+    link: https://www.oiml.org/en/files/pdf_D/d009-e04.pdf
+    g18_entry: '00204'
+    definition: making a measuring instrument or a prepackage available on the market
+      for the first time in the specific country (or region), either for payment or
+      free of charge
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 5ad766b9-f419-5280-86e9-41f37707edcc
+schema_version: '3'
+related: []

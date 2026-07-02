@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '01709'
+  term: rectangular box (rectangular parallelepiped)
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 129:2000
+    publication_id: OIML R129:2000
+    tc_sc: ''
+    year: 2000
+    clause: '2.10'
+    link: https://www.oiml.org/en/files/pdf_R/r129-e00.pdf
+    g18_entry: '01709'
+    definition: a polyhedron having six faces that are parallel in pairs; each face
+      is a parallelogram and adjacent edges are perpendicular
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 37c40d07-9b9b-5ea8-81c0-44096b8a042d
+schema_version: '3'
+related: []

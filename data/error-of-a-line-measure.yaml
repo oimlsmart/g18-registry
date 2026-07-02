@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '01153'
+  term: error of a line measure
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 98:1991
+    publication_id: OIML R098:1991
+    tc_sc: ''
+    year: 1991
+    clause: '2.3'
+    link: https://www.oiml.org/en/files/pdf_R/r098-e91.pdf
+    g18_entry: '01153'
+    definition: the algebraic difference between the nominal value of the length of
+      the line measure and its conventional true value
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 6b3224b5-4c5d-5357-8272-b813c4af2797
+schema_version: '3'
+related: []

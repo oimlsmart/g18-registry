@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '01430'
+  term: conventional true value of pressure
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 110:1994
+    publication_id: OIML R110:1994
+    tc_sc: ''
+    year: 1994
+    clause: 2.4.2
+    link: https://www.oiml.org/en/files/pdf_R/r110-e94.pdf
+    g18_entry: '01430'
+    definition: a pressure value that is considered sufficiently close to the corresponding
+      true value to be substituted for that value for purpose of the evaluation of
+      errors
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: '018b7334-b6bb-5314-92a0-b2ebc324fd96'
+schema_version: '3'
+related: []

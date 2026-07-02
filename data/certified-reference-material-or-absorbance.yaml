@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '01856'
+  term: certified reference material or absorbance
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 135:2004
+    publication_id: OIML R135:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.17'
+    link: https://www.oiml.org/en/files/pdf_R/r135-e04.pdf
+    g18_entry: '01856'
+    definition: reference material, accompanied by a certificate, the spectral absorbance
+      of which is certified by a procedure which establishes metrological traceability
+      to a national or international standard of absorbance, and for which each certified
+      quantity value is accompanied by a measurement uncertainty at a stated level
+      of confidence
+    notes:
+    - Adapted from ISO Guide 30 and VIM, clauses 6.1, 6.2, 6.3 and 6.14.
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 9d196add-786d-5ef8-b05f-02dde3b1fa86
+schema_version: '3'
+related: []

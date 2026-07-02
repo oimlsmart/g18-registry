@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '01886'
+  term: area of leather
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 136-1:2004
+    publication_id: OIML R136-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: T.1.7
+    link: https://www.oiml.org/en/files/pdf_R/r136-1-e04.pdf
+    g18_entry: '01886'
+    definition: measurement of the extent of the surface of a leather material held
+      or supported to ensure that the material is presented for measurement in a form
+      that removes the three dimensional characteristics of the material
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 1592d3ac-726c-5235-b212-9360be94c592
+schema_version: '3'
+related: []

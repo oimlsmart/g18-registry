@@ -1,0 +1,22 @@
+---
+data:
+  identifier: '01583'
+  term: payment
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 117-1:2007
+    publication_id: OIML R117-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.p.1
+    link: https://www.oiml.org/en/files/pdf_R/r117-1-e07.pdf
+    g18_entry: '01583'
+    definition: monetary compensation in exchange for the delivered quantity of liquid
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 6771b6ec-6e36-5d14-812b-c9a4e19f8c53
+schema_version: '3'
+related: []

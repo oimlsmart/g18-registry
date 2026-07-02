@@ -1,0 +1,33 @@
+---
+data:
+  identifier: '00365'
+  term: scale
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 35-1:2007
+    publication_id: OIML R035-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: 2.1.4
+    link: https://www.oiml.org/en/files/pdf_R/r035-1-e07.pdf
+    g18_entry: '00365'
+    definition: set of all the scale marks and associated numbering
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 98:1991
+    publication_id: OIML R098:1991
+    tc_sc: ''
+    year: 1991
+    clause: '2.7'
+    link: https://www.oiml.org/en/files/pdf_R/r098-e91.pdf
+    g18_entry: '01157'
+    definition: the whole set of scale marks with their corresponding numbering
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 5dd0ffb9-a763-5d92-b65f-eaffc72a2060
+schema_version: '3'
+related: []

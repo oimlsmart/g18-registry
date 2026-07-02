@@ -1,0 +1,66 @@
+---
+data:
+  identifier: '00577'
+  term: construction
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 107-1:2007
+    publication_id: OIML R107-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.2
+    link: https://www.oiml.org/en/files/pdf_R/r107-1-e07.pdf
+    g18_entry: '01323'
+    definition: In this Recommendation the term "device" is
+    notes:
+    - used for any means by which a specific function is performed irrespective of
+      the physical realization e.g. by a mechanism or key initiating an operation;
+      the device may a small part or a major portion of an instrument.
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 51-1:2006
+    publication_id: OIML R051-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.2
+    link: https://www.oiml.org/en/files/pdf_R/r051-1-e06.pdf
+    g18_entry: '00577'
+    definition: (-) In this Recommendation the term "device" is
+    notes:
+    - used for any means by which a specific function is performed irrespective of
+      the physical realization, e.g. by a mechanism, a key or software initiating
+      an operation. The device may be a small part or a major portion of an instrument.
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 61-1:2004
+    publication_id: OIML R061-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: T.2
+    link: https://www.oiml.org/en/files/pdf_R/r061-1-e04.pdf
+    g18_entry: '00762'
+    definition: (-) In this Recommendation, the term "device" is
+    notes:
+    - applied to any part of a filling instrument which uses any means to perform
+      one or more specific functions irrespective of the physical realization, e.g.
+      by a mechanism or a key initiating an operation. The device may be a small part
+      or a major portion of a filling instrument.
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 106-1:1997
+    publication_id: OIML R106-1:1997
+    tc_sc: ''
+    year: 1997
+    clause: T.2
+    link: https://www.oiml.org/en/files/pdf_R/r106-1-e97.pdf
+    g18_entry: '01260'
+    definition: (-) In this Recommendation the term "device" is
+    notes:
+    - applied to any part which uses any means to perform one or more specific functions.
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 1b8cc522-986f-5ece-a105-bb2a0ec075b7
+schema_version: '3'
+related: []

@@ -1,0 +1,33 @@
+---
+data:
+  identifier: '00859'
+  term: error (of indication) of a measuring instrument
+  kind: defined_in_vim
+  official_concept:
+    source: urn:oiml:pub:v:2:1993
+    id: '5.20'
+    url: https://oimlsmart.github.io/vocab/vim-1993/concept/5.20
+  publications:
+  - publication: OIML R 75-1:2002
+    publication_id: OIML R075-1:2002
+    tc_sc: ''
+    year: 2002
+    clause: 4.9.1
+    link: https://www.oiml.org/en/files/pdf_R/r075-1-e02.pdf
+    g18_entry: '00859'
+    definition: "[a indication of the measuring instrument minus the conventional
+      true value of the corresponding input quantity dapted from VIM:1993, 5.20]."
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+    related:
+    - type: see
+      ref: &1
+        source: urn:oiml:pub:v:2:1993
+        id: '5.20'
+status: current
+id: 9baf0e53-f88b-5703-b806-1616d58af0e7
+schema_version: '3'
+related:
+- type: see
+  ref: *1

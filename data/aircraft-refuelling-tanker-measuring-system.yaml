@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '01531'
+  term: aircraft refuelling tanker measuring system
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 117-1:2007
+    publication_id: OIML R117-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.a.5
+    link: https://www.oiml.org/en/files/pdf_R/r117-1-e07.pdf
+    g18_entry: '01531'
+    definition: mobile measuring system intended for refuelling aircraft, supplied
+      from a tank mounted on the vehicle
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 3d4c463a-beba-58dd-b8f2-f630133d4ca1
+schema_version: '3'
+related: []

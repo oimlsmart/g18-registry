@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '00884'
+  term: price labeling instrument
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 76-1:2006
+    publication_id: OIML R076-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.1.2.9
+    link: https://www.oiml.org/en/files/pdf_R/r076-1-e06.pdf
+    g18_entry: '00884'
+    definition: price-computing instrument that prints the weight value, unit price
+      and price to pay for prepackages
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 347aceb5-4d55-5c66-a0e9-e11c02fdf37f
+schema_version: '3'
+related: []

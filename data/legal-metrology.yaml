@@ -1,0 +1,35 @@
+---
+data:
+  identifier: '00183'
+  term: legal metrology
+  kind: defined_in_viml
+  official_concept:
+    source: urn:oiml:pub:v:1:2000
+    id: '1.2'
+    url: https://oimlsmart.github.io/vocab/viml-2000/concept/1.2
+  publications:
+  - publication: OIML D 9:2004
+    publication_id: OIML D009:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.1'
+    link: https://www.oiml.org/en/files/pdf_D/d009-e04.pdf
+    g18_entry: '00183'
+    definition: part of metrology relating to activities which result from statutory
+      requirements and concern measurement, units of measurement, measuring instruments
+      and methods of measurement and which are performed by competent bodies [VIML,
+      1.2]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+    related:
+    - type: see
+      ref: &1
+        source: urn:oiml:pub:v:1:2000
+        id: '1.2'
+status: current
+id: 1c18614d-3c77-510a-ac6a-c7fe88b790e9
+schema_version: '3'
+related:
+- type: see
+  ref: *1

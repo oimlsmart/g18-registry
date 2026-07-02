@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '01959'
+  term: minimum flowrate,stem:[Q_{\min}]
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 137-1:2006
+    publication_id: OIML R137-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: 2.3.3
+    link: https://www.oiml.org/en/files/pdf_R/r137-1-e06.pdf
+    g18_entry: '01959'
+    definition: lowest flowrate at which a gas meter is required to operate within
+      the limits of its maximum permissible error, whilst operated within its rated
+      operating conditions
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: b58402dd-b7e1-5bf7-adc9-60a0bd1b0ad0
+schema_version: '3'
+related: []

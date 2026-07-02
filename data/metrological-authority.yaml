@@ -1,0 +1,52 @@
+---
+data:
+  identifier: '00340'
+  term: metrological authority
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 21:2007
+    publication_id: OIML R021:2007
+    tc_sc: ''
+    year: 2007
+    clause: 2.1.3
+    link: https://www.oiml.org/en/files/pdf_R/r021-e07.pdf
+    g18_entry: '00340'
+    definition: legal entity (i.e. the verification, issuing authority, accredited
+      body, etc), designated or formally accepted by the government to be responsible
+      for ascertaining that the instrument satisfies all or some specific requirements
+      of this Recommendation
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 107-1:2007
+    publication_id: OIML R107-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.1.7
+    link: https://www.oiml.org/en/files/pdf_R/r107-1-e07.pdf
+    g18_entry: '01321'
+    definition: legal entity designated or formally accepted by the government tobe
+      responsible for ascertaining that the automatic weighing instrument satisfies
+      all or some specific requirements of this Recommendation
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 51-1:2006
+    publication_id: OIML R051-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.1.9
+    link: https://www.oiml.org/en/files/pdf_R/r051-1-e06.pdf
+    g18_entry: '00572'
+    definition: legal entity (i.e. the verification, and/or Issuing Authority) designated
+      or formally accepted by the government to be responsible for ascertaining that
+      the automatic weighing instrument satisfies all or some specific requirements
+      of this Recommendation
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 62539a99-e5fd-504c-985c-b96904fdbff8
+schema_version: '3'
+related: []

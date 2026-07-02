@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '01693'
+  term: foot crank ergometers with controlled braking power
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 128:2000
+    publication_id: OIML R128:2000
+    tc_sc: ''
+    year: 2000
+    clause: '3.2'
+    link: https://www.oiml.org/en/files/pdf_R/r128-e00.pdf
+    g18_entry: '01693'
+    definition: foot crank ergometers with controlled braking power are ergometers
+      whose input power at the crankshaft is independent of the rotational frequency
+      within a specified working range
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 0f06ee2a-07e4-5c7a-a99f-ea1a3128f2fa
+schema_version: '3'
+related: []

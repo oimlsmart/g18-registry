@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '02208'
+  term: software examination
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML D 31:2008
+    publication_id: OIML D031:2008
+    tc_sc: ''
+    year: 2008
+    clause: 3.1.41
+    link: https://www.oiml.org/en/files/pdf_D/d031-e08.pdf
+    g18_entry: '02208'
+    definition: technical operation that consists of determining one or more characteristics
+      of the software according to the specific procedure (e.g. analysis of technical
+      documentation or running the program under controlled conditions)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 8be4cbaf-0591-53fc-b40d-901a2d0fcb46
+schema_version: '3'
+related: []

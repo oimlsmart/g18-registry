@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '01238'
+  term: interruptible / noninterruptible measuring system
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 105:1993
+    publication_id: OIML R105:1993
+    tc_sc: ''
+    year: 1993
+    clause: T.23
+    link: https://www.oiml.org/en/files/pdf_R/r105-e93.pdf
+    g18_entry: '01238'
+    definition: a measuring system is considered as interruptible/noninterruptible
+      when the liquid flow can/cannot be stopped, easily and rapidly
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: d1cc3e4e-998a-5b15-bc23-40a232f561e7
+schema_version: '3'
+related: []

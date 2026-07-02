@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '01739'
+  term: PMMA dosimetry system
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 131:2001
+    publication_id: OIML R131:2001
+    tc_sc: ''
+    year: 2001
+    clause: '3.1'
+    link: https://www.oiml.org/en/files/pdf_R/r131-e01.pdf
+    g18_entry: '01739'
+    definition: system used for determining absorbed dose consisting of PMMA dosimeters
+      and associated measurement instrumentation
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 466495d9-ad32-534d-a36e-4138497cc2c2
+schema_version: '3'
+related: []

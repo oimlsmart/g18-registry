@@ -1,0 +1,42 @@
+---
+data:
+  identifier: '00224'
+  term: electronic measuring instrument
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML D 31:2008
+    publication_id: OIML D031:2008
+    tc_sc: ''
+    year: 2008
+    clause: 3.1.15
+    link: https://www.oiml.org/en/files/pdf_D/d031-e08.pdf
+    g18_entry: '02182'
+    definition: measuring instrument intended to measure an electrical or non- 1.
+      For the purpose of this Document, ancillary electrical quantity using electronic
+      means and/or equipped with electronic devices
+    notes:
+    - equipment, as long as it is subject to legal metrological control, is considered
+      to be part of the measuring instrument.
+    - 2. [OIML D 11:2004, 3.1]
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML D 11:2004
+    publication_id: OIML D011:2004
+    tc_sc: ''
+    year: 2004
+    clause: '3.1'
+    link: https://www.oiml.org/en/files/pdf_D/d011-e04.pdf
+    g18_entry: '00224'
+    definition: measuring instrument intended to measure an electrical or non- For
+      the purpose of this Document, auxiliary electrical quantity using electronic
+      means and/or equipped with electronic devices
+    notes:
+    - equipment, provided that it is subject to metrological control, is considered
+      to be a par of the measuring instrument.
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: a2e94e61-e373-5a68-925b-d85d0e2b3687
+schema_version: '3'
+related: []

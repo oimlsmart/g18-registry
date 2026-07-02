@@ -1,0 +1,26 @@
+---
+data:
+  identifier: '02125'
+  term: sample line
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 143:2009
+    publication_id: OIML R143:2009
+    tc_sc: ''
+    year: 2009
+    clause: 2.3.1
+    link: https://www.oiml.org/en/files/pdf_R/r143-e09.pdf
+    g18_entry: '02125'
+    definition: line provided to remove a representative sample of a gas to be analyzed
+      and to transport it to the analyzer
+    notes:
+    - 1. A sample line may include devices such as filters, dryers or condensers (primary
+      and secondary treatment gas) which are necessary to prepare the sample for analysis.
+    - '2. (ISO 7504: 2001)'
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: ae00bf1b-9466-5e65-9980-37d8b42808db
+schema_version: '3'
+related: []

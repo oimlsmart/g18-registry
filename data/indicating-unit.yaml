@@ -1,0 +1,35 @@
+---
+data:
+  identifier: '01508b'
+  term: indicating unit
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 114:1995
+    publication_id: OIML R114:1995
+    tc_sc: ''
+    year: 1995
+    clause: '2.4'
+    link: https://www.oiml.org/en/files/pdf_R/r114-e95.pdf
+    g18_entry: '01508b'
+    definition: an indicating unit is the component of a thermometer that processes
+      the output signal of the temperature sensor and displays the measured temperature
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 115:1995
+    publication_id: OIML R115:1995
+    tc_sc: ''
+    year: 1995
+    clause: '2.3'
+    link: https://www.oiml.org/en/files/pdf_R/r115-e95.pdf
+    g18_entry: '01511'
+    definition: an indicating unit is the component of a thermometer that processes
+      the output signal of the temperature sensor and displays the measured temperature
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 2b8bfef9-3d48-5316-8664-f92593cc9f79
+schema_version: '3'
+related: []

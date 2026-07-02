@@ -1,0 +1,22 @@
+---
+data:
+  identifier: '02130'
+  term: user adjustment
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 143:2009
+    publication_id: OIML R143:2009
+    tc_sc: ''
+    year: 2009
+    clause: 2.7.1
+    link: https://www.oiml.org/en/files/pdf_R/r143-e09.pdf
+    g18_entry: '02130'
+    definition: adjustment employing only the means at the disposal of the user
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 74907741-f87b-5c16-bd87-471a8d6f09cc
+schema_version: '3'
+related: []

@@ -1,0 +1,22 @@
+---
+data:
+  identifier: '00512'
+  term: pre-selection device
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 50-1:1997
+    publication_id: OIML R050-1:1997
+    tc_sc: ''
+    year: 1997
+    clause: T.3.8.7
+    link: https://www.oiml.org/en/files/pdf_R/r050-1-e97.pdf
+    g18_entry: '00512'
+    definition: the means used to pre-set a weight value for a totalized load
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 81f93094-2482-5765-9548-486b4abcc984
+schema_version: '3'
+related: []

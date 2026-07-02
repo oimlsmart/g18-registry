@@ -1,0 +1,25 @@
+---
+data:
+  identifier: '02283'
+  term: minimum measured quantityMMQ(stem:[V_{\min}])
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 80-1:2009
+    publication_id: OIML R080-1:2009
+    tc_sc: ''
+    year: 2009
+    clause: '2.44'
+    link: https://www.oiml.org/en/files/pdf_R/r080-1-e09.pdf
+    g18_entry: '02283'
+    definition: smallest volume of liquid for which the measurement is metrologically
+      acceptable for the tank or individually for each of its compartments. It shall
+      be specified only for measuring systems suitable for measuring partial volumes.
+      Alternatively, the terms "minimum delivery" or "minimum receipt" may be used.
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: e5024611-36c3-5def-b3aa-1e1b6ba98292
+schema_version: '3'
+related: []

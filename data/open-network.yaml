@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '02202'
+  term: open network
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML D 31:2008
+    publication_id: OIML D031:2008
+    tc_sc: ''
+    year: 2008
+    clause: 3.1.35
+    link: https://www.oiml.org/en/files/pdf_D/d031-e08.pdf
+    g18_entry: '02202'
+    definition: network of arbitrary participants (electronic devices with arbitrary
+      functions). The number, identity and location of a participant can be dynamic
+      and unknown to the other participants (see also Closed network)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: acf56174-6cd1-58e3-abf0-590e6c3e4181
+schema_version: '3'
+related: []

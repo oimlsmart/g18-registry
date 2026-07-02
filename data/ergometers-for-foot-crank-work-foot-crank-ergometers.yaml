@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '01692'
+  term: ergometers for foot crank work (foot crank ergometers)
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 128:2000
+    publication_id: OIML R128:2000
+    tc_sc: ''
+    year: 2000
+    clause: '3.1'
+    link: https://www.oiml.org/en/files/pdf_R/r128-e00.pdf
+    g18_entry: '01692'
+    definition: foot crank ergometers are devices that are equipped with a pedal arrangement,
+      a braking device and an indicating device. They are used for the defined and
+      reproducible physical stressing of subjects (patients)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 89d2a458-be03-5c4e-9dab-855dd5720aea
+schema_version: '3'
+related: []

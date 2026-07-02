@@ -1,0 +1,28 @@
+---
+data:
+  identifier: '00995'
+  term: label
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 79:1997
+    publication_id: OIML R079:1997
+    tc_sc: ''
+    year: 1997
+    clause: '2.3'
+    link: https://www.oiml.org/en/files/pdf_R/r079-e97.pdf
+    g18_entry: '00995'
+    definition: any written, printed, or graphic matter affixed to, applied to, attached
+      to, blown into, formed or molded into, embossed on, or appearing upon a package
+      containing any product for purposes of branding, identifying, or giving any
+      information with respect to the product or to the contents of the package; however,
+      an inspector's tag or other non-promotional text affixed to or appearing on
+      a product shall not be deemed to be a label that requires the label information
+      prescribed by this Recommendation
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 255216d9-87b9-5930-975f-dbb4091c822b
+schema_version: '3'
+related: []

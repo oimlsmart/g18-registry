@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '02050'
+  term: correction factor
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 140:2007
+    publication_id: OIML R140:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.1.10
+    link: https://www.oiml.org/en/files/pdf_R/r140-e07.pdf
+    g18_entry: '02050'
+    definition: numerical factor (single constant or coming from a mathematical (adapted
+      from VIM:2007, 2.53) function "f(q)") by which the uncorrected result is multiplied
+      to compensate for the estimated systematic error
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 77cf34f7-128b-5bb4-b81f-abe6fca6bb10
+schema_version: '3'
+related: []

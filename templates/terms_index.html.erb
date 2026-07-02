@@ -1,0 +1,62 @@
+<section class="page-head">
+  <h1>Terms</h1>
+  <p class="lede"><%= dataset.term_count %> unique terms across <%= dataset.publication_count %> publications (<%= dataset.instance_count %> total instances). <%= dataset.defined_term_count %> are defined in VIM or VIML.</p>
+</section>
+
+<section class="card">
+  <details>
+    <summary>Filter</summary>
+    <form class="filter-form" id="terms-filter" onsubmit="return false;">
+      <label><input type="checkbox" id="f-divergent" onchange="filterTerms()"> Divergent definitions only (<%= dataset.divergent_term_count %>)</label>
+      <label><input type="checkbox" id="f-defined" onchange="filterTerms()"> Defined in VIM/VIML only</label>
+      <label><input type="checkbox" id="f-undefined" onchange="filterTerms()"> Undefined (not in VIM/VIML)</label>
+      <input type="search" id="f-search" placeholder="Filter by name…" oninput="filterTerms()">
+    </form>
+  </details>
+</section>
+
+<section class="card">
+  <table class="terms-table">
+    <thead>
+      <tr><th>Term</th><th>Vocabulary</th><th>Instances</th><th>Distinct&nbsp;defs</th><th>Consistency</th></tr>
+    </thead>
+    <tbody>
+    <% dataset.terms.each do |t| %>
+      <tr class="term-row"
+          data-divergent="<%= t.diverges? ? 1 : 0 %>"
+          data-defined="<%= t.defined? ? 1 : 0 %>"
+          data-undefined="<%= t.undefined? ? 1 : 0 %>"
+          data-name="<%= h t.name.downcase %>">
+        <td class="term-name"><a href="<%= rel_root %><%= t.path %>"><%= h t.name %></a></td>
+        <td><%= kind_badge(t) %></td>
+        <td class="num"><%= t.publications.size %></td>
+        <td class="num"><%= t.distinct_definitions.size %></td>
+        <td><span class="<%= consistency_badge_class(t.consistency_counts.keys.first) %>"><%= h t.consistency_badge %></span></td>
+      </tr>
+    <% end %>
+    </tbody>
+  </table>
+  <p class="count-line" id="count-line">Showing <%= dataset.term_count %> of <%= dataset.term_count %> terms.</p>
+</section>
+
+<script>
+function filterTerms() {
+  var div = document.getElementById('f-divergent').checked;
+  var def = document.getElementById('f-defined').checked;
+  var und = document.getElementById('f-undefined').checked;
+  var q = document.getElementById('f-search').value.toLowerCase();
+  var rows = document.querySelectorAll('.term-row');
+  var shown = 0;
+  rows.forEach(function(row) {
+    var ok = true;
+    if (div && row.dataset.divergent !== '1') ok = false;
+    if (def && row.dataset.defined !== '1') ok = false;
+    if (und && row.dataset.undefined !== '1') ok = false;
+    if (q && row.dataset.name.indexOf(q) === -1) ok = false;
+    row.style.display = ok ? '' : 'none';
+    if (ok) shown++;
+  });
+  document.getElementById('count-line').textContent =
+    'Showing ' + shown + ' of <%= dataset.term_count %> terms.';
+}
+</script>

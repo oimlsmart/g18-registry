@@ -1,0 +1,25 @@
+---
+data:
+  identifier: '00081'
+  term: family of measuring instruments
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML B 3:2003
+    publication_id: OIML B003:2003
+    tc_sc: ''
+    year: 2003
+    clause: '2.3'
+    link: https://www.oiml.org/en/files/pdf_B/b003-e03.pdf
+    g18_entry: '00081'
+    definition: identifiable group of measuring instruments belonging to the same
+      manufactured type within the same category that have the same design features
+      and metrological principles for measurement but which may differ in some metrological
+      and technical performance characteristics, as defined in the relevant Recommendation
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 39cd8009-7a77-5a6e-af41-1d98fc4c715a
+schema_version: '3'
+related: []

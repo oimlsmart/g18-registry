@@ -1,0 +1,36 @@
+---
+data:
+  identifier: '01196'
+  term: reference standard solution
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 116:2006
+    publication_id: OIML R116:2006
+    tc_sc: ''
+    year: 2006
+    clause: '3.9'
+    link: https://www.oiml.org/en/files/pdf_R/r116-e06.pdf
+    g18_entry: '01522'
+    definition: solution with an accurately known concentration of a sample element
+      or elements of interest used for testing and calibrating an instrument
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 100:1991
+    publication_id: OIML R100:1991
+    tc_sc: ''
+    year: 1991
+    clause: '3.4'
+    link: https://www.oiml.org/en/files/pdf_R/r100-e91.pdf
+    g18_entry: '01196'
+    definition: a solution containing an accurately known concentration of a sample
+      element or elements of interest and that is used for testing and calibration
+      of the instrument
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 66feaf49-f0bc-59a8-b49b-500361964352
+schema_version: '3'
+related: []

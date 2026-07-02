@@ -1,0 +1,22 @@
+---
+data:
+  identifier: '01156'
+  term: multiple valued line measure
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 98:1991
+    publication_id: OIML R098:1991
+    tc_sc: ''
+    year: 1991
+    clause: '2.6'
+    link: https://www.oiml.org/en/files/pdf_R/r098-e91.pdf
+    g18_entry: '01156'
+    definition: a line measure with a set of scale marks at intervals along its length
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: c4a66b9f-dd85-591d-8dfa-3379eae9054b
+schema_version: '3'
+related: []

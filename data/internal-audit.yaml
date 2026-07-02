@@ -1,0 +1,25 @@
+---
+data:
+  identifier: '00114'
+  term: internal audit
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML B 10-1:2004
+    publication_id: OIML B010-1:2004
+    tc_sc: TC 3/SC 2
+    year: 2004
+    clause: '3.23'
+    link: https://www.oiml.org/en/files/pdf_B/b010-1-e04.pdf
+    g18_entry: '00114'
+    definition: systematic examination against specified requirements by personnel,
+      not being directly responsible for the activity, to determine whether activities
+      related to an agreed arrangement are implemented effectively and are suitable
+      to achieve the stated objectives
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: bb0ab218-bd87-5505-a99c-2f3545bb94ea
+schema_version: '3'
+related: []

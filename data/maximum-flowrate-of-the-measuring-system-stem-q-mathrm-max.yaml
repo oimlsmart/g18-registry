@@ -1,0 +1,25 @@
+---
+data:
+  identifier: '02075'
+  term: maximum flowrate of the measuring system stem:[Q_{\mathrm{max}}]
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 140:2007
+    publication_id: OIML R140:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.2.9
+    link: https://www.oiml.org/en/files/pdf_R/r140-e07.pdf
+    g18_entry: '02075'
+    definition: flowrate equal to the sum of the flowrates of all the meters in parallel
+      branches (where appropriate) forming the system when one of these meters reaches
+      its maximum flowrate under the specified conditions of use, all meters being
+      in use
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 1de68f26-c720-57e8-9405-1af8ea5f9e92
+schema_version: '3'
+related: []

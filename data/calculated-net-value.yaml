@@ -1,0 +1,35 @@
+---
+data:
+  identifier: '00632'
+  term: calculated net value
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 51-1:2006
+    publication_id: OIML R051-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.3.2.4.2
+    link: https://www.oiml.org/en/files/pdf_R/r051-1-e06.pdf
+    g18_entry: '00632'
+    definition: value of the difference between a gross or net weight value and a
+      preset tare value
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 76-1:2006
+    publication_id: OIML R076-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.5.3.2
+    link: https://www.oiml.org/en/files/pdf_R/r076-1-e06.pdf
+    g18_entry: '00971'
+    definition: value of the difference between a measured weight value (gross ornet)
+      and a preset tare value
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 03f1b57d-3f82-506b-93ea-f23bbff6cdec
+schema_version: '3'
+related: []

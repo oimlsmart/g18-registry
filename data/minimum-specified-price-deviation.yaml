@@ -1,0 +1,22 @@
+---
+data:
+  identifier: '01552'
+  term: minimum specified price deviation
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 117-1:2007
+    publication_id: OIML R117-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.d.1.2
+    link: https://www.oiml.org/en/files/pdf_R/r117-1-e07.pdf
+    g18_entry: '01552'
+    definition: price to pay corresponding to the minimum specified quantity deviation
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: c0f8e032-e11f-5ce4-a847-5d7f56b3e340
+schema_version: '3'
+related: []

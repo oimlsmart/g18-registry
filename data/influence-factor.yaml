@@ -1,0 +1,302 @@
+---
+data:
+  identifier: '00237'
+  term: influence factor
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 80-1:2009
+    publication_id: OIML R080-1:2009
+    tc_sc: ''
+    year: 2009
+    clause: '2.52'
+    link: https://www.oiml.org/en/files/pdf_R/r080-1-e09.pdf
+    g18_entry: '02291'
+    definition: influence quantity having a value within the rated operating conditions
+      specified in 5.1.1.
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 85-1:2008
+    publication_id: OIML R085-1:2008
+    tc_sc: ''
+    year: 2008
+    clause: '3.24'
+    link: https://www.oiml.org/en/files/pdf_R/r085-1-e08.pdf
+    g18_entry: '02322'
+    definition: influence quantity having a value within the specified rated operating
+      conditions of the ALG
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 99-1:2008
+    publication_id: OIML R099-1:2008
+    tc_sc: ''
+    year: 2008
+    clause: '3.26'
+    link: https://www.oiml.org/en/files/pdf_R/r099-1-e08.pdf
+    g18_entry: '02359'
+    definition: influence quantity having a value within the rated operating conditions
+      of the instrument
+    notes:
+    - Adapted from OIML D 11:2004, 3.13.1.
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 35-1:2007
+    publication_id: OIML R035-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: 2.3.2
+    link: https://www.oiml.org/en/files/pdf_R/r035-1-e07.pdf
+    g18_entry: '00375'
+    definition: influence quantity having a value within the specified rated operating
+      conditions of the instrument
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 107-1:2007
+    publication_id: OIML R107-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.5.1.1
+    link: https://www.oiml.org/en/files/pdf_R/r107-1-e07.pdf
+    g18_entry: '01397'
+    definition: "[O influence quantity having a value within the specified rated operating
+      conditions of the instrument IML D 11: 2004, 3.13.1]"
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 139:2007
+    publication_id: OIML R139:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.4.2
+    link: https://www.oiml.org/en/files/pdf_R/r139-e07.pdf
+    g18_entry: '02023'
+    definition: influence quantity having a value within the rated operating conditions
+      of the measuring system, as specified in this International Recommendation
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 140:2007
+    publication_id: OIML R140:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.3.2
+    link: https://www.oiml.org/en/files/pdf_R/r140-e07.pdf
+    g18_entry: '02093'
+    definition: influence quantity having a value within the rated operating conditions
+      of the measuring system as specified in this Recommendation
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 49-1:2006
+    publication_id: OIML R049-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: 2.4.2
+    link: https://www.oiml.org/en/files/pdf_R/r049-1-e06.pdf
+    g18_entry: '00450'
+    definition: influence quantity having a value within the rated operating conditions
+      of the water meter, as specified in this Recommendation
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 51-1:2006
+    publication_id: OIML R051-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.5.1.1
+    link: https://www.oiml.org/en/files/pdf_R/r051-1-e06.pdf
+    g18_entry: '00665'
+    definition: influence quantity having a value within the specified rated operating
+      conditions of the instrument
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 76-1:2006
+    publication_id: OIML R076-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.6.1.1
+    link: https://www.oiml.org/en/files/pdf_R/r076-1-e06.pdf
+    g18_entry: '00987'
+    definition: influence quantity having a value within the specified rated operating
+      conditions of the instrument
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 137-1:2006
+    publication_id: OIML R137-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: 2.4.2
+    link: https://www.oiml.org/en/files/pdf_R/r137-1-e06.pdf
+    g18_entry: '01968'
+    definition: influence quantity having a value within the rated operating conditions
+      of the gas meter, as specified in this Recommendation
+    notes:
+    - "(OIML D 11, 3.13.1)"
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML D 11:2004
+    publication_id: OIML D011:2004
+    tc_sc: ''
+    year: 2004
+    clause: 3.13.1
+    link: https://www.oiml.org/en/files/pdf_D/d011-e04.pdf
+    g18_entry: '00237'
+    definition: influence quantity having a value within the rated operating conditions
+      of a measuring instrument specified in the relevant Recommendation
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 61-1:2004
+    publication_id: OIML R061-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: T.5.1.1
+    link: https://www.oiml.org/en/files/pdf_R/r061-1-e04.pdf
+    g18_entry: '00810'
+    definition: influence quantity having a value within the specified rated operating
+      conditions of the filling instrument
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 136-1:2004
+    publication_id: OIML R136-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: T.5.1.1
+    link: https://www.oiml.org/en/files/pdf_R/r136-1-e04.pdf
+    g18_entry: '01916'
+    definition: influence quantity having a value within the specified rated operating
+      conditions of the instrument
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 134:2003
+    publication_id: OIML R134:2003
+    tc_sc: ''
+    year: 2003
+    clause: T.5.1.1
+    link: https://www.oiml.org/en/files/pdf_R/r134-e03.pdf
+    g18_entry: '01829'
+    definition: influence quantity having a value within the specified rated operating
+      conditions of the instrument
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 75-1:2002
+    publication_id: OIML R075-1:2002
+    tc_sc: ''
+    year: 2002
+    clause: '4.7'
+    link: https://www.oiml.org/en/files/pdf_R/r075-1-e02.pdf
+    g18_entry: '00857'
+    definition: influence quantity having a value within the rated operating conditions
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 60:2000
+    publication_id: OIML R060:2000
+    tc_sc: ''
+    year: 2000
+    clause: 2.5.1.2
+    link: https://www.oiml.org/en/files/pdf_R/r060-e00.pdf
+    g18_entry: '00747'
+    definition: influence quantity having a value within the specified rated operating
+      conditions of the load cell. (For example, a specific temperature or a specific
+      power voltage in which the load cell can be tested).
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 129:2000
+    publication_id: OIML R129:2000
+    tc_sc: ''
+    year: 2000
+    clause: 2.29.1
+    link: https://www.oiml.org/en/files/pdf_R/r129-e00.pdf
+    g18_entry: '01729'
+    definition: an influence quantity having a value within the rated operating conditions
+      of the measuring instrument, specified in this Recommendation
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 81:1998
+    publication_id: OIML R081:1998
+    tc_sc: ''
+    year: 1998
+    clause: '3.26'
+    link: https://www.oiml.org/en/files/pdf_R/r081-e98.pdf
+    g18_entry: '01035'
+    definition: an influence quantity having a value within the rated operating conditions
+      of the measuring system, as specified in this Recommendation
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 125:1998
+    publication_id: OIML R125:1998
+    tc_sc: ''
+    year: 1998
+    clause: T.29.1
+    link: https://www.oiml.org/en/files/pdf_R/r125-e98.pdf
+    g18_entry: '01647'
+    definition: an influence quantity having a value within the rated operating conditions
+      of the measuring instrument specified in this Recommendation
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 50-1:1997
+    publication_id: OIML R050-1:1997
+    tc_sc: ''
+    year: 1997
+    clause: T.6.1.1
+    link: https://www.oiml.org/en/files/pdf_R/r050-1-e97.pdf
+    g18_entry: '00531'
+    definition: an influence quantity having a value within the specified rated operating
+      conditions of the belt weigher
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 106-1:1997
+    publication_id: OIML R106-1:1997
+    tc_sc: ''
+    year: 1997
+    clause: T.5.1.1
+    link: https://www.oiml.org/en/files/pdf_R/r106-1-e97.pdf
+    g18_entry: '01302'
+    definition: an influence quantity having a value within the specified rated operating
+      conditions of the instrument
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 124:1997
+    publication_id: OIML R124:1997
+    tc_sc: ''
+    year: 1997
+    clause: '4'
+    link: https://www.oiml.org/en/files/pdf_R/r124-e97.pdf
+    g18_entry: '01609'
+    definition: "(D an influence quantity having a value within the rated operating
+      conditions of the measuring instrument specified in the appropriate International
+      Recommendation 11 clause T.12.1)"
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 105:1993
+    publication_id: OIML R105:1993
+    tc_sc: ''
+    year: 1993
+    clause: T.24.1
+    link: https://www.oiml.org/en/files/pdf_R/r105-e93.pdf
+    g18_entry: '01240'
+    definition: an influence quantity having a value within the rated operating conditions
+      of the measuring system, as specified in this Recommendation
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 498251ec-46fd-5b8d-b114-fb63445547ca
+schema_version: '3'
+related: []

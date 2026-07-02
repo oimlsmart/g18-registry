@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '01866'
+  term: error (of a measuring instrument)
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 135:2004
+    publication_id: OIML R135:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.27'
+    link: https://www.oiml.org/en/files/pdf_R/r135-e04.pdf
+    g18_entry: '01866'
+    definition: difference between the indication of a measuring instrument (here
+      a spectrophotometer) and a true value of the corresponding nat input quantity
+      ass use 2. val VIM
+    notes:
+    - 1. Since a true value is indeterminable by ure, a conventional true value, i.e.
+      an igned value or best estimate of the value is d in practice. For a material
+      measure, the indication is th ue assigned to it. [Adapted from :1993, 5.20]
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: e6847f13-19b0-5f6a-962f-3b4bed9e5850
+schema_version: '3'
+related: []

@@ -1,0 +1,25 @@
+---
+data:
+  identifier: '00808'
+  term: reference value for accuracy class (Ref(x))
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 61-1:2004
+    publication_id: OIML R061-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: T.4.3
+    link: https://www.oiml.org/en/files/pdf_R/r061-1-e04.pdf
+    g18_entry: '00808'
+    definition: value for accuracy class determined by static testing of the weighing
+      unit during influence quantity testing at type approval stage. Ref(x) is equal
+      to the best accuracy class for which the instrument may be verified for operational
+      use
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 33c545ae-d84d-5cde-8270-ca4a4e7b056f
+schema_version: '3'
+related: []

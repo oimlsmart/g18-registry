@@ -1,0 +1,62 @@
+---
+data:
+  identifier: '00617'
+  term: tare device
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 51-1:2006
+    publication_id: OIML R051-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.2.10.10
+    link: https://www.oiml.org/en/files/pdf_R/r051-1-e06.pdf
+    g18_entry: '00617'
+    definition: "- - - - - device for setting the indication to zero when a load is
+      on the load receptor: without altering the weighing range for net loads (additive
+      tare device); or reducing the weighing range for net loads (subtractive tare
+      device). Itmay function as: a non-automatic device (load balanced by operator);
+      a semi-automatic device (load balanced automatically following a single manual
+      command); an automatic device (load balanced automatically without the intervention
+      of an operator)"
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 76-1:2006
+    publication_id: OIML R076-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.2.7.4
+    link: https://www.oiml.org/en/files/pdf_R/r076-1-e06.pdf
+    g18_entry: '00925'
+    definition: "- - - - - device for setting the indication to zero when a load is
+      on the load receptor: without altering the weighing range for net loads (additive
+      tare device); or reducing the weighing range for net loads (subtractive tare
+      device). Itmay function as: a non-automatic device (load balanced by an operator);
+      a semi-automatic device (load balanced automatically following a single manual
+      command); or an automatic device (load balanced automatically without the intervention
+      of an operator)."
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 61-1:2004
+    publication_id: OIML R061-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: T.2.5
+    link: https://www.oiml.org/en/files/pdf_R/r061-1-e04.pdf
+    g18_entry: '00782'
+    definition: "• • • • • device for taring: without altering the weighing range
+      for net loads (additive tare device); or reducing the weighing range for net
+      loads (subtractive tare device). The tare device may function as: a nonautomatic
+      device (load balanced by the operator or tare preset by the operator); a semi-automatic
+      device (load balanced automatically following a single manual command); or an
+      automatic device (load balanced automatically without the intervention of an
+      operator)"
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: ed669f42-0007-5148-b797-0c2568c4cd34
+schema_version: '3'
+related: []

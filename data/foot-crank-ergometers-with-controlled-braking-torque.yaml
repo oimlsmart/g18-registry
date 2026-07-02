@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '01694'
+  term: foot crank ergometers with controlled braking torque
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 128:2000
+    publication_id: OIML R128:2000
+    tc_sc: ''
+    year: 2000
+    clause: '3.3'
+    link: https://www.oiml.org/en/files/pdf_R/r128-e00.pdf
+    g18_entry: '01694'
+    definition: foot crank ergometers with controlled braking torque are ergometers
+      whose braking torque is independent of the rotational frequency. Their input
+      power at the crankshaft is proportional to the rotational frequency
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: ccabe057-905e-543e-8893-b9560772bdc2
+schema_version: '3'
+related: []

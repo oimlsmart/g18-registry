@@ -1,0 +1,52 @@
+---
+data:
+  identifier: '00653'
+  term: overall inaccuracy of reading
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 107-1:2007
+    publication_id: OIML R107-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.4.4.2
+    link: https://www.oiml.org/en/files/pdf_R/r107-1-e07.pdf
+    g18_entry: '01386'
+    definition: on an instrument with analog indication, this is equal to the standard
+      deviation of the same indication, the reading of which iscarried out under normal
+      conditions of use by several observers
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 51-1:2006
+    publication_id: OIML R051-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.4.2.2
+    link: https://www.oiml.org/en/files/pdf_R/r051-1-e06.pdf
+    g18_entry: '00653'
+    definition: on an instrument with analog indication, this is equal to the standard
+      deviation of the same indication, the reading of which iscarried out under normal
+      conditions of use by several observers. It is customary to make at least ten
+      readings of the result
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 76-1:2006
+    publication_id: OIML R076-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.5.4.2
+    link: https://www.oiml.org/en/files/pdf_R/r076-1-e06.pdf
+    g18_entry: '00974'
+    definition: on an instrument with analog indication, this is equal to the standard
+      deviation of the same indication, the reading of which iscarried out under normal
+      conditions of use by several observers. It is customary to make at least ten
+      readings of the result
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 632690c4-de91-5dca-80a7-b8db0d007a69
+schema_version: '3'
+related: []

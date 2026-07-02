@@ -1,0 +1,59 @@
+---
+data:
+  identifier: '00535'
+  term: material test
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 107-1:2007
+    publication_id: OIML R107-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.6.1
+    link: https://www.oiml.org/en/files/pdf_R/r107-1-e07.pdf
+    g18_entry: '01402'
+    definition: test carried out on a complete instrument using the type of material
+      that it is intended to weigh
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 61-1:2004
+    publication_id: OIML R061-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: T.6.1
+    link: https://www.oiml.org/en/files/pdf_R/r061-1-e04.pdf
+    g18_entry: '00814'
+    definition: test carried out on a complete filling instrument using the type of
+      material which it is intended to weigh
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 136-1:2004
+    publication_id: OIML R136-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: T.6.1
+    link: https://www.oiml.org/en/files/pdf_R/r136-1-e04.pdf
+    g18_entry: '01921'
+    definition: test carried out on a complete leather-measuring instrument using
+      the type of leather material which it is intended to measure
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 50-1:1997
+    publication_id: OIML R050-1:1997
+    tc_sc: ''
+    year: 1997
+    clause: T.7.1
+    link: https://www.oiml.org/en/files/pdf_R/r050-1-e97.pdf
+    g18_entry: '00535'
+    definition: a test carried out on a complete belt weigher using the type of material
+      that it is intended to weigh
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: bc846640-2003-5d3e-b9e8-d3750ea1cc1b
+schema_version: '3'
+related: []

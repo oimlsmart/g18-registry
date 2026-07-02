@@ -1,0 +1,83 @@
+---
+data:
+  identifier: '01013'
+  term: measuring system
+  kind: defined_in_vim
+  official_concept:
+    source: urn:oiml:pub:v:2:1993
+    id: '4.5'
+    url: https://oimlsmart.github.io/vocab/vim-1993/concept/4.5
+  publications:
+  - publication: OIML R 117-1:2007
+    publication_id: OIML R117-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.m.2
+    link: https://www.oiml.org/en/files/pdf_R/r117-1-e07.pdf
+    g18_entry: '01581'
+    definition: system comprising a meter for quantities (volume or mass) of liquids
+      and its ancillary devices and additional devices
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 139:2007
+    publication_id: OIML R139:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.1.7
+    link: https://www.oiml.org/en/files/pdf_R/r139-e07.pdf
+    g18_entry: '01995'
+    definition: system which comprises the meter itself and all the ancillary devices
+      and additional devices
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 140:2007
+    publication_id: OIML R140:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.1.7
+    link: https://www.oiml.org/en/files/pdf_R/r140-e07.pdf
+    g18_entry: '02047'
+    definition: system which comprises the metering module (see T.1.8), and all the
+      ancillary devices and additional devices and, when appropriate, a documented
+      provisions system ensuring the quality and the traceability of data
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 81:1998
+    publication_id: OIML R081:1998
+    tc_sc: ''
+    year: 1998
+    clause: '3.4'
+    link: https://www.oiml.org/en/files/pdf_R/r081-e98.pdf
+    g18_entry: '01013'
+    definition: system that is comprised of the meter itself and all the ancillary
+      devices and other equipment assembled to carry out the specified measurement
+      task
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 105:1993
+    publication_id: OIML R105:1993
+    tc_sc: ''
+    year: 1993
+    clause: T.3
+    link: https://www.oiml.org/en/files/pdf_R/r105-e93.pdf
+    g18_entry: 01213a
+    definition: a direct mass flow instrument and other apparatus assembled to carry
+      out a specified measurement operation [VIM:1993, 4.05]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+    related:
+    - type: see
+      ref: &1
+        source: urn:oiml:pub:v:2:1993
+        id: '4.5'
+status: current
+id: 47f43659-79ee-522e-8017-55311ccc153d
+schema_version: '3'
+related:
+- type: see
+  ref: *1

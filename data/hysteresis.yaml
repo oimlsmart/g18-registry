@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '00683'
+  term: hysteresis
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 53:1982
+    publication_id: OIML R053:1982
+    tc_sc: ''
+    year: 1982
+    clause: T
+    link: https://www.oiml.org/en/files/pdf_R/r053-e82.pdf
+    g18_entry: '00683'
+    definition: difference between the values of displacement of the reference point
+      for a given value of pressure, obtained for decreasing and increasing pressures
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 7cb14b04-5447-532a-a482-2cdb45845cb5
+schema_version: '3'
+related: []

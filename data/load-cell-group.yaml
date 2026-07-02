@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '00711'
+  term: load cell group
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 60:2000
+    publication_id: OIML R060:2000
+    tc_sc: ''
+    year: 2000
+    clause: 2.2.3.1
+    link: https://www.oiml.org/en/files/pdf_R/r060-e00.pdf
+    g18_entry: '00711'
+    definition: all load cells within a family possessing identical metrological characteristics
+      (for example, class, stem:[n_max], temperature rating, etc.)
+    notes:
+    - The examples provided are not intended to be imiting.
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: a60d4cc1-c00b-5c30-8fc3-229aa4f5e2d5
+schema_version: '3'
+related: []

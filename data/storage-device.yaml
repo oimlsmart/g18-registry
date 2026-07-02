@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '02215'
+  term: storage device
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML D 31:2008
+    publication_id: OIML D031:2008
+    tc_sc: ''
+    year: 2008
+    clause: 3.1.48
+    link: https://www.oiml.org/en/files/pdf_D/d031-e08.pdf
+    g18_entry: '02215'
+    definition: storage used for keeping measurement data ready after completion of
+      the measurement for later legally relevant purposes (e.g. the conclusion of
+      a commercial transaction)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 9e1df375-57c2-5dc3-add1-ac862b3155f1
+schema_version: '3'
+related: []

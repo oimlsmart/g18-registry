@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '02347'
+  term: step response time
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 99-1:2008
+    publication_id: OIML R099-1:2008
+    tc_sc: ''
+    year: 2008
+    clause: '3.14'
+    link: https://www.oiml.org/en/files/pdf_R/r099-1-e08.pdf
+    g18_entry: '02347'
+    definition: '"r duration between the instant when an input quantity value of a
+      measuring instrument or measuring system is subjected to an abrupt change between
+      two specified constant quantity values and the instant when a corresponding
+      indication settles within specified limits around its final steady value (referred
+      to as esponse time" in this Recommendation)'
+    notes:
+    - "(VIM:2007, 4.23)"
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 8f1aaebd-a404-5c84-bad4-e5289797b409
+schema_version: '3'
+related: []

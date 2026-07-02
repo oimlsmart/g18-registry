@@ -1,0 +1,22 @@
+---
+data:
+  identifier: '01473'
+  term: injection device for the instrument
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 112:1994
+    publication_id: OIML R112:1994
+    tc_sc: ''
+    year: 1994
+    clause: '2.1'
+    link: https://www.oiml.org/en/files/pdf_R/r112-e94.pdf
+    g18_entry: '01473'
+    definition: the means of introducing a sample into the column
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 2959e05e-2209-5e53-9833-b73d88c88b13
+schema_version: '3'
+related: []

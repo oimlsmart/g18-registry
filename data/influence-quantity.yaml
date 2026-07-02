@@ -1,0 +1,377 @@
+---
+data:
+  identifier: '00236'
+  term: influence quantity
+  kind: defined_in_vim
+  official_concept:
+    source: urn:oiml:pub:v:2:1993
+    id: '2.7'
+    url: https://oimlsmart.github.io/vocab/vim-1993/concept/2.7
+  publications:
+  - publication: OIML R 80-1:2009
+    publication_id: OIML R080-1:2009
+    tc_sc: ''
+    year: 2009
+    clause: '2.46'
+    link: https://www.oiml.org/en/files/pdf_R/r080-1-e09.pdf
+    g18_entry: '02285'
+    definition: quantity which is not the object of the measurement but which influences
+      the value of the measurand or the indication of the tank
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 143:2009
+    publication_id: OIML R143:2009
+    tc_sc: ''
+    year: 2009
+    clause: '2.18'
+    link: https://www.oiml.org/en/files/pdf_R/r143-e09.pdf
+    g18_entry: '02144'
+    definition: quantity that, in a direct measurement, does not affect the quantity
+      that is actually measured, but that affects the relation between the indication
+      and the measurement result
+    notes:
+    - "(VIM:2007, 2.52)"
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 85-1:2008
+    publication_id: OIML R085-1:2008
+    tc_sc: ''
+    year: 2008
+    clause: '3.23'
+    link: https://www.oiml.org/en/files/pdf_R/r085-1-e08.pdf
+    g18_entry: '02321'
+    definition: AL quantity which is not the subject of the measurement but which
+      influences the value of the measurand or the indication of the G
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 99-1:2008
+    publication_id: OIML R099-1:2008
+    tc_sc: ''
+    year: 2008
+    clause: '3.24'
+    link: https://www.oiml.org/en/files/pdf_R/r099-1-e08.pdf
+    g18_entry: '02357'
+    definition: quantity that, in a direct measurement, does not affect the quantity
+      that is actually measured, but affects the relation between the indication and
+      the measurement result
+    notes:
+    - "(VIM:2007, 2.52)"
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 35-1:2007
+    publication_id: OIML R035-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: 2.3.1
+    link: https://www.oiml.org/en/files/pdf_R/r035-1-e07.pdf
+    g18_entry: '00374'
+    definition: quantity that is not the subject of the measurement but which influences
+      the values of the measurand or the indication of the instrument
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 107-1:2007
+    publication_id: OIML R107-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.5.1
+    link: https://www.oiml.org/en/files/pdf_R/r107-1-e07.pdf
+    g18_entry: '01396'
+    definition: "[V quantity that is not the measurand but that affects the result
+      of the measurement IM: 1993, 2.10]"
+    notes:
+    - An influence quantity does not affect the actual mass of the load being weighed,
+      but affects the value (weighing result) indicated by the instrument.
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 117-1:2007
+    publication_id: OIML R117-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.1.2
+    link: https://www.oiml.org/en/files/pdf_R/r117-1-e07.pdf
+    g18_entry: '01577'
+    definition: quantity which is not the subject of the measurement but which influences
+      the value of the measurand or the indication of the measuring system
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 139:2007
+    publication_id: OIML R139:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.4.1
+    link: https://www.oiml.org/en/files/pdf_R/r139-e07.pdf
+    g18_entry: '02022'
+    definition: quantity which is not the subject of the measurement but which influences
+      the value of the measurand or the indication of the measuring system
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 140:2007
+    publication_id: OIML R140:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.3.1
+    link: https://www.oiml.org/en/files/pdf_R/r140-e07.pdf
+    g18_entry: '02092'
+    definition: quantity that is not the measurand but which affects the result of
+      (VIM:1993, 2.7) the measurement
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+    related:
+    - type: see
+      ref:
+        source: urn:oiml:pub:v:2:1993
+        id: '2.7'
+  - publication: OIML R 49-1:2006
+    publication_id: OIML R049-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: 2.4.1
+    link: https://www.oiml.org/en/files/pdf_R/r049-1-e06.pdf
+    g18_entry: '00449'
+    definition: "[V quantity that is not the measurand but which affects the result
+      of the measurement IM:1993, 2.7]."
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 51-1:2006
+    publication_id: OIML R051-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.5.1
+    link: https://www.oiml.org/en/files/pdf_R/r051-1-e06.pdf
+    g18_entry: '00664'
+    definition: "[V quantity that is not the measurand but that affects the result
+      of the measurement IM:1993, 2.7]]"
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 76-1:2006
+    publication_id: OIML R076-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.6.1
+    link: https://www.oiml.org/en/files/pdf_R/r076-1-e06.pdf
+    g18_entry: '00986'
+    definition: quantity that is not the subject of the measurement but which influences
+      the values of the measurand or the indication of the instrument
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 137-1:2006
+    publication_id: OIML R137-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: 2.4.1
+    link: https://www.oiml.org/en/files/pdf_R/r137-1-e06.pdf
+    g18_entry: '01967'
+    definition: quantity that is not the measurand but which affects the result of
+      (VIM:1993, 2.7) the measurement
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+    related:
+    - type: see
+      ref:
+        source: urn:oiml:pub:v:2:1993
+        id: '2.7'
+  - publication: OIML D 11:2004
+    publication_id: OIML D011:2004
+    tc_sc: ''
+    year: 2004
+    clause: '3.13'
+    link: https://www.oiml.org/en/files/pdf_D/d011-e04.pdf
+    g18_entry: '00236'
+    definition: quantity that is not the measurand but that affects the result of
+      the measurement
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 61-1:2004
+    publication_id: OIML R061-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: T.5.1
+    link: https://www.oiml.org/en/files/pdf_R/r061-1-e04.pdf
+    g18_entry: '00809'
+    definition: "[b quantity that is not the subject of the measurement but which
+      influences the value of the measurand or the indication of the filling instrument
+      ased on VIM:1993, 2.7]"
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+    related:
+    - type: see
+      ref:
+        source: urn:oiml:pub:v:2:1993
+        id: '2.7'
+  - publication: OIML R 136-1:2004
+    publication_id: OIML R136-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: T.5.1
+    link: https://www.oiml.org/en/files/pdf_R/r136-1-e04.pdf
+    g18_entry: '01915'
+    definition: quantity that is not the subject of the measurement but which influences
+      the value of the measurand or the indication of the measurement instrument
+    notes:
+    - "[VIM:1993, 2.7]"
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 134:2003
+    publication_id: OIML R134:2003
+    tc_sc: ''
+    year: 2003
+    clause: T.5.1
+    link: https://www.oiml.org/en/files/pdf_R/r134-e03.pdf
+    g18_entry: '01828'
+    definition: quantity that is not the subject of the measurement but which influences
+      the value of the measurand or the indication of the instrument
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 75-1:2002
+    publication_id: OIML R075-1:2002
+    tc_sc: ''
+    year: 2002
+    clause: '4.6'
+    link: https://www.oiml.org/en/files/pdf_R/r075-1-e02.pdf
+    g18_entry: '00856'
+    definition: "[V quantity that is not the measurand but that affects the result
+      of the measurement IM:1993, 2.7]"
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 60:2000
+    publication_id: OIML R060:2000
+    tc_sc: ''
+    year: 2000
+    clause: 2.5.1
+    link: https://www.oiml.org/en/files/pdf_R/r060-e00.pdf
+    g18_entry: '00745'
+    definition: quantity that is not the measurand but that affects the result of
+      the measurement. [VIM:1993, 2.7] (For example, temperature or humidity level
+      at the instant the measurements on the load cell are being observed or recorded.)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+    related:
+    - type: see
+      ref:
+        source: urn:oiml:pub:v:2:1993
+        id: '2.7'
+  - publication: OIML R 129:2000
+    publication_id: OIML R129:2000
+    tc_sc: ''
+    year: 2000
+    clause: '2.29'
+    link: https://www.oiml.org/en/files/pdf_R/r129-e00.pdf
+    g18_entry: '01728'
+    definition: a quantity that is not the measurand but that affects the result of
+      the measurement
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 81:1998
+    publication_id: OIML R081:1998
+    tc_sc: ''
+    year: 1998
+    clause: '3.25'
+    link: https://www.oiml.org/en/files/pdf_R/r081-e98.pdf
+    g18_entry: '01034'
+    definition: a quantity that is not the subject of the measurement but that can
+      influence the value of the measurand or the indication of the measuring system
+      (VIM:1993, 2.7).
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+    related:
+    - type: see
+      ref:
+        source: urn:oiml:pub:v:2:1993
+        id: '2.7'
+  - publication: OIML R 125:1998
+    publication_id: OIML R125:1998
+    tc_sc: ''
+    year: 1998
+    clause: T.29
+    link: https://www.oiml.org/en/files/pdf_R/r125-e98.pdf
+    g18_entry: '01646'
+    definition: a quantity which is not the subject of the measurement but which influences
+      the value of the measurand or the indication of the measuring instrument (VIM:1993,
+      2.7)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+    related:
+    - type: see
+      ref:
+        source: urn:oiml:pub:v:2:1993
+        id: '2.7'
+  - publication: OIML R 50-1:1997
+    publication_id: OIML R050-1:1997
+    tc_sc: ''
+    year: 1997
+    clause: T.6.1
+    link: https://www.oiml.org/en/files/pdf_R/r050-1-e97.pdf
+    g18_entry: '00530'
+    definition: "[A a quantity that is not the measurand but that affects the value
+      of the measurand or the indication of the belt weigher dapted from VIM:1993,
+      2.7]."
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+    related:
+    - type: see
+      ref: &1
+        source: urn:oiml:pub:v:2:1993
+        id: '2.7'
+  - publication: OIML R 106-1:1997
+    publication_id: OIML R106-1:1997
+    tc_sc: ''
+    year: 1997
+    clause: T.5.1
+    link: https://www.oiml.org/en/files/pdf_R/r106-1-e97.pdf
+    g18_entry: '01301'
+    definition: a quantity that is not the subject of the measurement but which influences
+      the value of the measurand or the indication of the instrument
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 124:1997
+    publication_id: OIML R124:1997
+    tc_sc: ''
+    year: 1997
+    clause: '3'
+    link: https://www.oiml.org/en/files/pdf_R/r124-e97.pdf
+    g18_entry: '01608'
+    definition: "(V a quantity which is not the subject of the measurement but which
+      influences the value of the measurand or the indication of the measuring instrument
+      IM:1993, clause 2.7 or D 11 clause T.12)"
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 105:1993
+    publication_id: OIML R105:1993
+    tc_sc: ''
+    year: 1993
+    clause: T.24
+    link: https://www.oiml.org/en/files/pdf_R/r105-e93.pdf
+    g18_entry: '01239'
+    definition: a quantity that is not the subject of the measurement but which influences
+      the value of the measurand or the indication of the measuring system [VIM:1993,
+      2.10]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: '09a7f082-a12b-56a0-bb09-ea28d893bb57'
+schema_version: '3'
+related:
+- type: see
+  ref: *1

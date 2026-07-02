@@ -1,0 +1,64 @@
+---
+data:
+  identifier: '01053'
+  term: noise
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 82:2006
+    publication_id: OIML R082:2006
+    tc_sc: ''
+    year: 2006
+    clause: '3.9'
+    link: https://www.oiml.org/en/files/pdf_R/r082-e06.pdf
+    g18_entry: '01053'
+    definition: 'Manifestation of variation in the gas chromatograph output signal
+      not associated with changes in chromatographic conditions (e.g. temperature
+      gradient), which can be divided into two components: 3.9.1 Short-term noise,
+      which includes all observable random variations of the signal from the detector
+      or other components having a frequency of the order of one or more cycles per
+      minute. 3.9.2 Drift, i.e. the average slope of the baseline signal measured
+      over a minimum of half an hour'
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 112:1994
+    publication_id: OIML R112:1994
+    tc_sc: ''
+    year: 1994
+    clause: '2.8'
+    link: https://www.oiml.org/en/files/pdf_R/r112-e94.pdf
+    g18_entry: '01480'
+    definition: 'a measure of variation in the detector signal; it can be divided
+      Althoug long-term noise can occur at any time into three components: dur * short-term
+      noise includes all observable random lat variations of the detector signal having
+      a frequency of usu the order of 10–2 Hz to 10–1 Hz (one or more cycles per lon
+      minute) and should be measured peak to peak * long-term noise includes all observable
+      random variations of the detector signal with frequencies between 0.1 Hz and
+      1.0 Hz * drift is the average slope of the baseline signal measured over a minimum
+      period of one-half hour.'
+    notes:
+    - ing an analysis, it can be mistaken for a e-eluting peak. Earlier eluting peaks
+      are ally sharper and less easily confused wit g-term noise.
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 113:1994
+    publication_id: OIML R113:1994
+    tc_sc: ''
+    year: 1994
+    clause: '3.8'
+    link: https://www.oiml.org/en/files/pdf_R/r113-e94.pdf
+    g18_entry: '01495'
+    definition: 'a measure of the variation in the detector''s output signal when
+      a sample component is not being detected. This can be classified into two types:
+      * Short-term noise includes all observable random variations of the signal from
+      the detector or other components having a frequency of about one or more cycles
+      per minute. * Drift is the average slope of the baseline signal measured over
+      an extended time period, for example, one-half hour'
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 23867d6c-3133-5d4e-bbc1-8fe3def051d2
+schema_version: '3'
+related: []

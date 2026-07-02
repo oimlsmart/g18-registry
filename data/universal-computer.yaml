@@ -1,0 +1,25 @@
+---
+data:
+  identifier: '02221'
+  term: universal computer
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML D 31:2008
+    publication_id: OIML D031:2008
+    tc_sc: ''
+    year: 2008
+    clause: 3.1.54
+    link: https://www.oiml.org/en/files/pdf_D/d031-e08.pdf
+    g18_entry: '02221'
+    definition: computer that is not constructed for a specific purpose but that can
+      be adapted to the metrological task by software. In general this software is
+      founded on an operating system that permits loading and execution of software
+      for specific purposes
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 8eaef8d6-af5d-5d9e-ae8a-5e125534c492
+schema_version: '3'
+related: []

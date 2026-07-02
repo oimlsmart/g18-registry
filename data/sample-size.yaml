@@ -1,0 +1,25 @@
+---
+data:
+  identifier: '01122'
+  term: sample size
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 87:2004
+    publication_id: OIML R087:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.13'
+    link: https://www.oiml.org/en/files/pdf_R/r087-e04.pdf
+    g18_entry: '01122'
+    definition: prepackages taken from an inspection lot and used to provide information
+      that will serve as the basis for a decision on the conformance of the inspection
+      lot
+    notes:
+    - The symbol 'n' means sample size.
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 5f7ec988-9426-5e95-b760-b83bba6c3608
+schema_version: '3'
+related: []

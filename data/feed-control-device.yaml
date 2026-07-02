@@ -1,0 +1,22 @@
+---
+data:
+  identifier: '00767'
+  term: feed control device
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 61-1:2004
+    publication_id: OIML R061-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: T.2.1.4.1
+    link: https://www.oiml.org/en/files/pdf_R/r061-1-e04.pdf
+    g18_entry: '00767'
+    definition: device which regulates the rate of feed of the feeding device
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 9964de77-6f5e-5b6e-a9b6-f3b1b70a5b3a
+schema_version: '3'
+related: []

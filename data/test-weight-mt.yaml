@@ -1,0 +1,22 @@
+---
+data:
+  identifier: '01464'
+  term: test weight (mt)
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 111-1:2004
+    publication_id: OIML R111-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.16'
+    link: https://www.oiml.org/en/files/pdf_R/r111-1-e04.pdf
+    g18_entry: '01464'
+    definition: weight that is to be tested according to this Recommendation
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: db27ab9a-a154-58b0-bcae-4fa5df5f9720
+schema_version: '3'
+related: []

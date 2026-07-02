@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '01717'
+  term: conversion factor (F)
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 129:2000
+    publication_id: OIML R129:2000
+    tc_sc: ''
+    year: 2000
+    clause: '2.18'
+    link: https://www.oiml.org/en/files/pdf_R/r129-e00.pdf
+    g18_entry: '01717'
+    definition: the factor applied to the volume or dimensions of an object to determine
+      its dimensional weight
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 408cbe96-d674-5666-9169-04b4b6688d2d
+schema_version: '3'
+related: []

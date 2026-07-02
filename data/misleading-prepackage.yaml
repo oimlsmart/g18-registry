@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '01116'
+  term: misleading prepackage
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 87:2004
+    publication_id: OIML R087:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.7'
+    link: https://www.oiml.org/en/files/pdf_R/r087-e04.pdf
+    g18_entry: '01116'
+    definition: prepackage that is made, formed, presented, marked or filled in any
+      way that may mislead a consumer about the quantity of contents that it contains
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 3c735b34-0ad3-5c0c-917f-b0faa2c4cccb
+schema_version: '3'
+related: []

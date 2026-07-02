@@ -1,0 +1,26 @@
+---
+data:
+  identifier: '01700'
+  term: multi-dimensional measuring instrument
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 129:2000
+    publication_id: OIML R129:2000
+    tc_sc: ''
+    year: 2000
+    clause: '2.1'
+    link: https://www.oiml.org/en/files/pdf_R/r129-e00.pdf
+    g18_entry: '01700'
+    definition: a measuring instrument which measures the length (L), width (W) and
+      height (H) of a rectangular parallelepiped (a rectangular box), and in some
+      cases determines the volume of that box. If the object is not of the form of
+      a rectangular box, the smallest rectangular box which fully encloses the object
+      is determined
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 9fd2d6b5-730e-5c38-84f3-8f12bd79623f
+schema_version: '3'
+related: []

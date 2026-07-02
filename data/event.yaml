@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '02187'
+  term: event
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML D 31:2008
+    publication_id: OIML D031:2008
+    tc_sc: ''
+    year: 2008
+    clause: 3.1.20
+    link: https://www.oiml.org/en/files/pdf_D/d031-e08.pdf
+    g18_entry: '02187'
+    definition: action in which a modification of a measuring instrument parameter,
+      adjustment factor or update of software module is made
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 6bffb713-6352-5853-b31e-62ad36d63d2e
+schema_version: '3'
+related: []

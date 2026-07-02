@@ -1,0 +1,25 @@
+---
+data:
+  identifier: '01113'
+  term: stem:[T_{2}] error
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 87:2004
+    publication_id: OIML R087:2004
+    tc_sc: ''
+    year: 2004
+    clause: 2.4.2
+    link: https://www.oiml.org/en/files/pdf_R/r087-e04.pdf
+    g18_entry: '01113'
+    definition: 'an inadequate prepackage found to contain an actual quantity less
+      than the nominal quantity minus twice the tolerable deficiency for a nominal
+      quantity allowed in 4.2.3 is called a T2 error. T2 error: actual contents <
+      (Qn - T2)'
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: e7b6cc98-cc93-5d02-bc1b-740f89d9209a
+schema_version: '3'
+related: []

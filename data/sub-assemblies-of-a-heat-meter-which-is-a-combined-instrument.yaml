@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '00846'
+  term: sub-assemblies of a heat meter, which is a combined instrument
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 75-1:2002
+    publication_id: OIML R075-1:2002
+    tc_sc: ''
+    year: 2002
+    clause: '3.4'
+    link: https://www.oiml.org/en/files/pdf_R/r075-1-e02.pdf
+    g18_entry: '00846'
+    definition: the flow sensor, the temperature sensor pair and the calculator or
+      acombination of these
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: bfa768eb-766e-5753-8b77-e091d71093f3
+schema_version: '3'
+related: []

@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '02108'
+  term: standard large aperture radiator
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 141:2008
+    publication_id: OIML R141:2008
+    tc_sc: ''
+    year: 2008
+    clause: '2.4'
+    link: https://www.oiml.org/en/files/pdf_R/r141-e08.pdf
+    g18_entry: '02108'
+    definition: standard radiator (i.e. a reference radiator), whose angular dimensions
+      are at least ten times larger than the instantaneous field of view of the thermographic
+      instrument
+    notes:
+    - If the thermographic instrument has a large instantaneous field of view angle,
+      an angular dimension of the standard reference radiator should be wide enough
+      to cover the instantaneous field of view of the thermographic instrument.
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 9527fca7-7e60-54bd-977d-fc318fec079e
+schema_version: '3'
+related: []

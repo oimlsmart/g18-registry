@@ -1,0 +1,31 @@
+---
+data:
+  identifier: '00411'
+  term: water meter
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 49-1:2006
+    publication_id: OIML R049-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: 2.1.1
+    link: https://www.oiml.org/en/files/pdf_R/r049-1-e06.pdf
+    g18_entry: '00411'
+    definition: instrument intended to measure continuously, memorize and display
+      the volume of water passing through the measurement transducer at metering conditions
+    notes:
+    - "(1) A water meter includes at least a measurement transducer, a calculator
+      (including adjustment or correction devices, i present) and an indicating device.
+      These three devices may be in different housings. (2) A water meter may be a
+      combination meter comprising one large meter, one small meter and a changeover
+      device that, depending on the magnitude of the flowrate passing through the
+      meter, automatically directs the flow through either the small or large meter
+      or both. Meter reading is obtained from two independent totalizers or one totalizer,
+      which adds up the values from both water meters."
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 0adb75aa-7d59-5913-821a-92a0eadef9aa
+schema_version: '3'
+related: []

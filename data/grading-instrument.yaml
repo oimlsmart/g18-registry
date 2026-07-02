@@ -1,0 +1,35 @@
+---
+data:
+  identifier: '00568'
+  term: grading instrument
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 51-1:2006
+    publication_id: OIML R051-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.1.5
+    link: https://www.oiml.org/en/files/pdf_R/r051-1-e06.pdf
+    g18_entry: '00568'
+    definition: instrument which assigns a weighing result to a predetermined range
+      of mass to determine a tariff or toll
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 76-1:2006
+    publication_id: OIML R076-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.1.2.13
+    link: https://www.oiml.org/en/files/pdf_R/r076-1-e06.pdf
+    g18_entry: '00888'
+    definition: instrument which assigns a weighing result to a predetermined range
+      of mass to determine a tariff or toll
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: ed6f4939-902f-5693-9d8f-ffcb95d0c644
+schema_version: '3'
+related: []

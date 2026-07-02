@@ -1,0 +1,25 @@
+---
+data:
+  identifier: '00108'
+  term: Declaration of Mutual Confidence (DoMC)
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML B 10-1:2004
+    publication_id: OIML B010-1:2004
+    tc_sc: TC 3/SC 2
+    year: 2004
+    clause: '3.17'
+    link: https://www.oiml.org/en/files/pdf_B/b010-1-e04.pdf
+    g18_entry: '00108'
+    definition: attestation by Participants that they have achieved a voluntary mutual
+      arrangement with regard to type evaluation to accept and utilize Test Reports,
+      which include results of examinations and testing, issued by other Participants
+      for a specified category of measuring instrument
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 39c36865-7b08-54c6-9cdf-24d7dc605942
+schema_version: '3'
+related: []

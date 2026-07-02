@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '00847'
+  term: flow sensor
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 75-1:2002
+    publication_id: OIML R075-1:2002
+    tc_sc: ''
+    year: 2002
+    clause: 3.4.1
+    link: https://www.oiml.org/en/files/pdf_R/r075-1-e02.pdf
+    g18_entry: '00847'
+    definition: a sub-assembly through which the heat-conveying liquid flows, ateither
+      the flow or return of a heatexchange circuit, and which emits a signal, which
+      is a function of the volume or the mass or the volumetric or mass flow rate
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 4bfda273-9e69-5236-b7a4-1fd834e25325
+schema_version: '3'
+related: []

@@ -1,0 +1,137 @@
+---
+data:
+  identifier: '00244'
+  term: automatic checking facility
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 80-1:2009
+    publication_id: OIML R080-1:2009
+    tc_sc: ''
+    year: 2009
+    clause: '2.57'
+    link: https://www.oiml.org/en/files/pdf_R/r080-1-e09.pdf
+    g18_entry: '02296'
+    definition: checking facility that operates without the intervention of an operator
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 85-1:2008
+    publication_id: OIML R085-1:2008
+    tc_sc: ''
+    year: 2008
+    clause: '3.11'
+    link: https://www.oiml.org/en/files/pdf_R/r085-1-e08.pdf
+    g18_entry: '02309'
+    definition: checking facility that operates without the intervention of an operator
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 99-1:2008
+    publication_id: OIML R099-1:2008
+    tc_sc: ''
+    year: 2008
+    clause: '3.30'
+    link: https://www.oiml.org/en/files/pdf_R/r099-1-e08.pdf
+    g18_entry: '02363'
+    definition: checking facility operating without the intervention of the user
+    notes:
+    - Adapted from OIML D 11:2004, 3.18.1.
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 107-1:2007
+    publication_id: OIML R107-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.3.11
+    link: https://www.oiml.org/en/files/pdf_R/r107-1-e07.pdf
+    g18_entry: '01373'
+    definition: "[O facility, operating without the intervention of an operator, which
+      An automatic checking facility performs isincorporated in an instrument and
+      which enables significant sec faults to be detected and acted upon IML D 11:
+      2004, 3.18 and 3.18.1]"
+    notes:
+    - uring and monitoring activities.
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 117-1:2007
+    publication_id: OIML R117-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.c.2.1
+    link: https://www.oiml.org/en/files/pdf_R/r117-1-e07.pdf
+    g18_entry: '01541'
+    definition: checking facility operating without the intervention of an operator
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 139:2007
+    publication_id: OIML R139:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.5.5
+    link: https://www.oiml.org/en/files/pdf_R/r139-e07.pdf
+    g18_entry: '02035'
+    definition: checking facility operating without the intervention of an operator
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 140:2007
+    publication_id: OIML R140:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.4.3
+    link: https://www.oiml.org/en/files/pdf_R/r140-e07.pdf
+    g18_entry: '02101'
+    definition: checking facility that operates without the intervention of an operator
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 49-1:2006
+    publication_id: OIML R049-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: 2.5.5
+    link: https://www.oiml.org/en/files/pdf_R/r049-1-e06.pdf
+    g18_entry: '00461'
+    definition: checking facility operating without the intervention of an operator
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML D 11:2004
+    publication_id: OIML D011:2004
+    tc_sc: ''
+    year: 2004
+    clause: 3.18.1
+    link: https://www.oiml.org/en/files/pdf_D/d011-e04.pdf
+    g18_entry: '00244'
+    definition: checking facility that operates without the intervention of an operator
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 125:1998
+    publication_id: OIML R125:1998
+    tc_sc: ''
+    year: 1998
+    clause: T.34.1
+    link: https://www.oiml.org/en/files/pdf_R/r125-e98.pdf
+    g18_entry: '01654'
+    definition: a checking facility operating without the intervention of an operator
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 105:1993
+    publication_id: OIML R105:1993
+    tc_sc: ''
+    year: 1993
+    clause: T.30
+    link: https://www.oiml.org/en/files/pdf_R/r105-e93.pdf
+    g18_entry: '01247'
+    definition: a checking facility operating without the intervention of an operator
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 82f71eaf-690c-55a4-a743-7f279452545c
+schema_version: '3'
+related: []

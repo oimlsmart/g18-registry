@@ -1,0 +1,34 @@
+---
+data:
+  identifier: '02337'
+  term: adjustment (of a measuring instrument)
+  kind: defined_in_vim
+  official_concept:
+    source: urn:oiml:pub:v:2:2007
+    id: '3.11'
+    url: https://oimlsmart.github.io/vocab/vim-2007/concept/3.11
+  publications:
+  - publication: OIML R 99-1:2008
+    publication_id: OIML R099-1:2008
+    tc_sc: ''
+    year: 2008
+    clause: '3.5'
+    link: https://www.oiml.org/en/files/pdf_R/r099-1-e08.pdf
+    g18_entry: '02337'
+    definition: set of operations carried out on a measuring system so that it (VIM:2007,
+      3.11) provides prescribed indications corresponding to given values of aquantity
+      to be measured
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+    related:
+    - type: see
+      ref: &1
+        source: urn:oiml:pub:v:2:2007
+        id: '3.11'
+status: current
+id: 42b962cc-1a9b-5559-b520-cb2b8bd54f28
+schema_version: '3'
+related:
+- type: see
+  ref: *1

@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '02219'
+  term: transmission of measurement data
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML D 31:2008
+    publication_id: OIML D031:2008
+    tc_sc: ''
+    year: 2008
+    clause: 3.1.52
+    link: https://www.oiml.org/en/files/pdf_D/d031-e08.pdf
+    g18_entry: '02219'
+    definition: transmission of measurement data via communication networks or other
+      means to a distant electronic device where they are further processed and/or
+      used for legally regulated purposes
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: a496fd7b-604b-5afd-9ecc-d2ed25fe26a5
+schema_version: '3'
+related: []

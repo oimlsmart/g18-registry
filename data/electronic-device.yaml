@@ -1,0 +1,284 @@
+---
+data:
+  identifier: '00225'
+  term: electronic device
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML D 31:2008
+    publication_id: OIML D031:2008
+    tc_sc: ''
+    year: 2008
+    clause: 3.1.16
+    link: https://www.oiml.org/en/files/pdf_D/d031-e08.pdf
+    g18_entry: '02183'
+    definition: device employing sub-assemblies and performing a specific function.
+      An electronic device is usually manufactured as a separate unit and is capable
+      of being tested independently
+    notes:
+    - 1. An electronic device may be a complete measuring instrument (e.g. counter
+      scale, electricity meter) or a part of a measuring instrument (e.g. printer,
+      indicator).
+    - 2. An electronic device may be a module in the sense this term is used in OIML
+      B 3 OIML Certificate System for Measuring Instruments.
+    - 3. [OIML D 11:2004, 3.2]
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 107-1:2007
+    publication_id: OIML R107-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.2.21
+    link: https://www.oiml.org/en/files/pdf_R/r107-1-e07.pdf
+    g18_entry: '01328'
+    definition: "[ device employing electronic sub-assemblies and performing a specific
+      function. Electronic devices are usually manufactured as me separate units and
+      are capable of being tested independently sc OIML D 11: 2004, 3.2] me in 2.
+      se Pu Me"
+    notes:
+    - '1. An electronic device may be a complete asuring instrument (for example:
+      counter ale, electricity meter) or a part of a asuring instrument (for example:
+      printer, dicator). An electronic device can be a module in the nse that this
+      term is used in OIML blication B 3 "OIML Certificate System for asuring Instruments"'
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 139:2007
+    publication_id: OIML R139:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.5.1
+    link: https://www.oiml.org/en/files/pdf_R/r139-e07.pdf
+    g18_entry: '02031'
+    definition: device employing electronic sub-assemblies and performing a specific
+      function. Electronic devices are usually manufactured as c separate units and
+      are capable of being tested independently m m
+    notes:
+    - Electronic devices, as defined above, may be omplete measuring systems or part
+      of easuring systems, in particular such as those entioned in T.1.1 through T.1.5.
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 140:2007
+    publication_id: OIML R140:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.4.1
+    link: https://www.oiml.org/en/files/pdf_R/r140-e07.pdf
+    g18_entry: '02099'
+    definition: device employing electronic sub-assemblies and performing a specific
+      function. Electronic devices are usually manufactured as t separate units and
+      are capable of being tested independently 2 e c
+    notes:
+    - 1. The electronic parts of CVDDs are not ested separately. . A measuring system
+      including at least one lectronic device subject to legal control is alled an
+      electronic measuring system.
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 49-1:2006
+    publication_id: OIML R049-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: 2.5.1
+    link: https://www.oiml.org/en/files/pdf_R/r049-1-e06.pdf
+    g18_entry: '00457'
+    definition: device employing electronic sub-assemblies and performing a specific
+      function. Electronic devices are usually manufactured as co separate units and
+      are capable of being tested independently pa th
+    notes:
+    - Electronic devices, as defined above, may be mplete meters or parts of meters,
+      in rticular such as those mentioned in 2.1.1 rough 2.1.5 and 2.1.8.
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 51-1:2006
+    publication_id: OIML R051-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.2.8.1
+    link: https://www.oiml.org/en/files/pdf_R/r051-1-e06.pdf
+    g18_entry: '00598'
+    definition: "[ device employing electronic sub-assemblies and performing a specific
+      function. Electronic devices are usually manufactured as be separate units and
+      are capable of being tested independently fo OIML D 11: 2004, 3.2] in we pr"
+    notes:
+    - An electronic device, as defined above, may a complete instrument (e.g. an instrument
+      r direct sales to the public), a module (e.g. dicator, analog data processing
+      device, ighing module) or a peripheral device (e.g. inter, secondary display).
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 76-1:2006
+    publication_id: OIML R076-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.2.3.1
+    link: https://www.oiml.org/en/files/pdf_R/r076-1-e06.pdf
+    g18_entry: '00904'
+    definition: "[ device employing electronic sub-assemblies and performing a specific
+      function. Electronic devices are usually manufactured as separate units and
+      are capable of being tested independently OIML D 11: 2004, 3.2]"
+    notes:
+    - An electronic device, as defined above, may be a complete instrument (e.g. an
+      instrument for direct sales to the public), a module (e.g indicator, analog
+      data processing device, weighing module) or a peripheral device (e.g. printer,
+      secondary display).
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 137-1:2006
+    publication_id: OIML R137-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: 2.5.2
+    link: https://www.oiml.org/en/files/pdf_R/r137-1-e06.pdf
+    g18_entry: '01976'
+    definition: device employing electronic sub-assemblies and performing a specific
+      function. Electronic devices are usually manufactured as separate units and
+      are capable of being tested independently
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML D 11:2004
+    publication_id: OIML D011:2004
+    tc_sc: ''
+    year: 2004
+    clause: '3.2'
+    link: https://www.oiml.org/en/files/pdf_D/d011-e04.pdf
+    g18_entry: '00225'
+    definition: device employing electronic sub-assemblies and performing a specific
+      function. Electronic devices are usually manufactured as mea separate units
+      and are capable of being tested independently sca mea ind (2) the Pub sys
+    notes:
+    - '(1) An electronic device may be a complete suring instrument (for example:
+      counter le, electricity meter) or a part of a suring instrument (for example:
+      printer, icator). An electronic device can be a module in sense that this term
+      is used in OIML lication B 3 "The OIML Certificate tem for Measuring Instruments"
+      [2].'
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 61-1:2004
+    publication_id: OIML R061-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: T.2.2.2
+    link: https://www.oiml.org/en/files/pdf_R/r061-1-e04.pdf
+    g18_entry: '00772'
+    definition: device comprising electronic sub-assemblies and performing a specific
+      function. Electronic devices are usually manufactured as separate units and
+      are capable of being independently tested
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 136-1:2004
+    publication_id: OIML R136-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: T.2.2
+    link: https://www.oiml.org/en/files/pdf_R/r136-1-e04.pdf
+    g18_entry: '01890'
+    definition: "(e device employing electronic sub-assemblies and performing a specific
+      function. An electronic device is usually manufactured asa separate unit and
+      is capable of being independently tested .g. an instrument comprising of photocells
+      for detecting leather ora camera for image scanning and providing area measurement
+      with digital indication)"
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 134:2003
+    publication_id: OIML R134:2003
+    tc_sc: ''
+    year: 2003
+    clause: T.2.2
+    link: https://www.oiml.org/en/files/pdf_R/r134-e03.pdf
+    g18_entry: '01793'
+    definition: device comprised of electronic sub-assemblies and performing a specific
+      function. An electronic device is usually manufactured as a separate unit and
+      is capable of being independently tested
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 75-1:2002
+    publication_id: OIML R075-1:2002
+    tc_sc: ''
+    year: 2002
+    clause: '4.14'
+    link: https://www.oiml.org/en/files/pdf_R/r075-1-e02.pdf
+    g18_entry: '00870'
+    definition: device employing electronic components and performing a specific function
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 129:2000
+    publication_id: OIML R129:2000
+    tc_sc: ''
+    year: 2000
+    clause: '2.21'
+    link: https://www.oiml.org/en/files/pdf_R/r129-e00.pdf
+    g18_entry: '01720'
+    definition: a device employing electronic sub-assemblies and performing a specific
+      function. An electronic device is usually manufactured as a separate unit and
+      is capable of being independently tested
+    notes:
+    - An electronic device as defined above, may be a complete measuring instrument
+      or part of a measuring instrument.
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 125:1998
+    publication_id: OIML R125:1998
+    tc_sc: ''
+    year: 1998
+    clause: T.19
+    link: https://www.oiml.org/en/files/pdf_R/r125-e98.pdf
+    g18_entry: '01635'
+    definition: a device employing electronic sub-assemblies and performing a specific
+      function. An electronic device is usually manufactured as a separate unit and
+      is capable of being independently tested
+    notes:
+    - An electronic device, as defined above, may be a complete measuring instrument
+      or part of a measuring instrument.
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 50-1:1997
+    publication_id: OIML R050-1:1997
+    tc_sc: ''
+    year: 1997
+    clause: T.3.3.1
+    link: https://www.oiml.org/en/files/pdf_R/r050-1-e97.pdf
+    g18_entry: '00492'
+    definition: a device employing electronic sub-assemblies and performing a specific
+      function. An electronic device is usually manufactured as a separate unit and
+      is capable of being independently tested
+    notes:
+    - 'An electronic device, as defined above, may be a complete weighing instrument
+      (for example: counter scale) or part of a weighing instrument (for example:
+      printer, indicator).'
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 106-1:1997
+    publication_id: OIML R106-1:1997
+    tc_sc: ''
+    year: 1997
+    clause: T.2.2
+    link: https://www.oiml.org/en/files/pdf_R/r106-1-e97.pdf
+    g18_entry: '01264'
+    definition: a device comprised of electronic subassemblies and performing aspecific
+      function. An electronic device is usually manufactured as a separate unit and
+      is capable of being independently tested
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 105:1993
+    publication_id: OIML R105:1993
+    tc_sc: ''
+    year: 1993
+    clause: T.13
+    link: https://www.oiml.org/en/files/pdf_R/r105-e93.pdf
+    g18_entry: '01223'
+    definition: a device employing electronic subassemblies and performing a An electronic
+      device, as defined above, may specific function. Electronic devices are usually
+      manufactured as b a separate unit and are capable of being independently tested
+      m
+    notes:
+    - e a complete measuring system or part of easuring system
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 3b0bf9b7-97d6-5008-89be-2a800b284063
+schema_version: '3'
+related: []

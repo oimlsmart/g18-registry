@@ -1,0 +1,25 @@
+---
+data:
+  identifier: '00338'
+  term: taximeter
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 21:2007
+    publication_id: OIML R021:2007
+    tc_sc: ''
+    year: 2007
+    clause: 2.1.1
+    link: https://www.oiml.org/en/files/pdf_R/r021-e07.pdf
+    g18_entry: '00338'
+    definition: instrument intended to measure duration and distance on the basis
+      of a signal delivered by a distance measurement transducer, and to calculate
+      and indicate the fare to be paid on the basis of the measured distance and/or
+      duration
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 9d601038-c852-5ea1-9bc7-b82ef7e47dde
+schema_version: '3'
+related: []

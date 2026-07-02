@@ -1,0 +1,60 @@
+---
+data:
+  identifier: '00350'
+  term: protective interface
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 21:2007
+    publication_id: OIML R021:2007
+    tc_sc: ''
+    year: 2007
+    clause: 2.2.7
+    link: https://www.oiml.org/en/files/pdf_R/r021-e07.pdf
+    g18_entry: '00350'
+    definition: 'interface which only allows the introduction of data into the data
+      processing device of the taximeter, which cannot: - display data that are not
+      clearly defined and which could be taken as being a measurement result; - falsify
+      displayed, processed or stored measurement results or primary indications; -adjust
+      the instrument or change any adjustment factor'
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 107-1:2007
+    publication_id: OIML R107-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.2.11
+    link: https://www.oiml.org/en/files/pdf_R/r107-1-e07.pdf
+    g18_entry: '01356'
+    definition: 'interface (hardware and/or software) which only allows the introduction
+      of such data into the data processing device of an instrument, which cannot:
+      * display data which are not clearly defined and which could be taken as being
+      a weighing result; * falsify displayed, processed or stored weighing results
+      or primary indications; or * adjust the instrument or change any adjustment
+      factor, except releasing an adjustment procedure with incorporated devices'
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 76-1:2006
+    publication_id: OIML R076-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.2.3.6
+    link: https://www.oiml.org/en/files/pdf_R/r076-1-e06.pdf
+    g18_entry: '00909'
+    definition: "- - - interface (hardware and/or software) which only allows the
+      introduction of such data into the data processing device of an instrument,
+      module or electronic component, which cannot: display data which are not clearly
+      defined and which could be taken for a weighing result; falsify displayed, processed
+      or stored weighing results or primary indications; or adjust the instrument
+      or change any adjustment factor, except releasing an adjustment procedure with
+      incorporated devices or, in the case of class I instruments with external adjustment
+      weights as well"
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: b7a8d540-967d-5721-baa6-b3eebe91618f
+schema_version: '3'
+related: []

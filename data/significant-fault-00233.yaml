@@ -1,0 +1,405 @@
+---
+data:
+  identifier: '00233'
+  term: significant fault
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 80-1:2009
+    publication_id: OIML R080-1:2009
+    tc_sc: ''
+    year: 2009
+    clause: '2.49'
+    link: https://www.oiml.org/en/files/pdf_R/r080-1-e09.pdf
+    g18_entry: '02288'
+    definition: fault greater than the value specified in 5.7.1.4.
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 85-1:2008
+    publication_id: OIML R085-1:2008
+    tc_sc: ''
+    year: 2008
+    clause: '3.33'
+    link: https://www.oiml.org/en/files/pdf_R/r085-1-e08.pdf
+    g18_entry: '02331'
+    definition: "(d (c (b (a fault greater than the maximum permissible error specified
+      in Table 2 (see 6.2.2). The following faults are considered not to be significant,
+      even when they exceed the value defined above: ) faults arising from simultaneous
+      and mutually independent causes in the ALG itself or in its checking facilities;
+      ) faults implying the impossibility to perform any measurement; ) transitory
+      faults being momentary variations in the indication, which cannot be interpreted,
+      memorized or transmitted as a measurement result; ) faults giving rise to variations
+      in the measurement results so serious that they are bound to be noticed by all
+      those interested inthe result of the measurement."
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 99-1:2008
+    publication_id: OIML R099-1:2008
+    tc_sc: ''
+    year: 2008
+    clause: '3.21'
+    link: https://www.oiml.org/en/files/pdf_R/r099-1-e08.pdf
+    g18_entry: '02354'
+    definition: fault which has a magnitude greater than the magnitude of the maximum
+      permissible error on initial verification
+    notes:
+    - '1 The following faults are considered to be not significant: a) Fault arising
+      from simultaneous and mutually independent causes in the instrument itself or
+      in its checking facilities; b) Faults implying the impossibility to perform
+      any measurement; c) Transitory faults being momentary variations in the indication,
+      which cannot be interpreted, recorded or transmitted as a measurement result;
+      and d) Faults giving rise to variations in the measurement results that are
+      so large as to be noticed by all those interested in the measurement result.
+      2 Adapted from OIML D 11:2004, 3.10.'
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 107-1:2007
+    publication_id: OIML R107-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.4.5.6
+    link: https://www.oiml.org/en/files/pdf_R/r107-1-e07.pdf
+    g18_entry: '01392'
+    definition: 'fault greater than 1 dt. The following are not considered to be significant
+      faults: * faults arising from simultaneous and mutually independent causes in
+      the instrument or in its checking facilities (T.3.11); * faults implying the
+      impossibility to perform any weighing; * transitory faults, momentary variations
+      in the indications which cannot be interpreted, memorized or transmitted as
+      a weighing result; and * faults being so serious that they will inevitably be
+      noticed by all those interested in the weighing result'
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 117-1:2007
+    publication_id: OIML R117-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.f.1
+    link: https://www.oiml.org/en/files/pdf_R/r117-1-e07.pdf
+    g18_entry: '01565'
+    definition: 'difference between the error (of indication) and the intrinsic error
+      greater than the value specified in this Recommendation. Significant faults
+      are only relevant to electronic measuring systems. The following are not considered
+      to be significant faults: * transitory malfunctions resulting in momentary variations
+      in the indication, which cannot be interpreted, memorized, or transmitted as
+      a measurement result, * for interruptible measuring systems only, malfunctions
+      implying the impossibility of performing further measurements'
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 139:2007
+    publication_id: OIML R139:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.3.12
+    link: https://www.oiml.org/en/files/pdf_R/r139-e07.pdf
+    g18_entry: '02021'
+    definition: 'for the mass, a fault the magnitude of which is greater than the
+      larger of these two values: - one tenth of the magnitude of the maximum permissible
+      error for the measuring system and for the measured mass, - the minimum specified
+      mass deviation. For the price to pay, the price corresponding to the significant
+      fault for the mass. The following are not considered to be significant faults:
+      - faults arising from simultaneous and mutually independent causes in the measuring
+      instrument itself or in its checking facilities, - transitory faults being momentary
+      variations in the indication, which cannot be interpreted, memorized or transmitted
+      as a measurement result, - faults implying the impossibility of performing any
+      measurement.'
+    notes:
+    - No fault is allowed for the unit price.
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 49-1:2006
+    publication_id: OIML R049-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: 2.2.10
+    link: https://www.oiml.org/en/files/pdf_R/r049-1-e06.pdf
+    g18_entry: '00432'
+    definition: "• • [a fault, the magnitude of which is greater than one half of
+      the maximum permissible error in the upper flowrate zone dapted from OIML D
+      11]. The following are not considered to be significant faults: faults arising
+      from simultaneous and mutually independent causes in the water meter itself
+      or in its checking facilities; and transitory faults being momentary variations
+      in the indication which cannot be interpreted, memorized or transmitted as a
+      measurement result"
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 51-1:2006
+    publication_id: OIML R051-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.4.3.9
+    link: https://www.oiml.org/en/files/pdf_R/r051-1-e06.pdf
+    g18_entry: '00662'
+    definition: 'Fault greater than the verification scale interval, e. A significant
+      fault does not include: - faults arising from simultaneous and mutually independent
+      causes in the instrument or in its checking facility; - faults that imply it
+      is impossible to perform a measurement; - faults that are so serious they will
+      inevitably be noticed by all those interested in the measurement; or - transitory
+      faults that are momentary variations in the indications that cannot be interpreted,
+      memorized or transmitted as a measurement result.'
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 76-1:2006
+    publication_id: OIML R076-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.5.5.6
+    link: https://www.oiml.org/en/files/pdf_R/r076-1-e06.pdf
+    g18_entry: '00982'
+    definition: 'fault greater than stem:[e]. The following are not considered to
+      be significant faults, even when they exceed stem:[e]: - faults arising from
+      simultaneous and mutually independent causes in the instrument; - faults implying
+      the impossibility to perform any measurement; - faults being so serious that
+      they are bound to be noticed by all those interested in the result of measurement;
+      or - transitory faults, being momentary variations in the indication which cannot
+      be interpreted, memorized or transmitted as a measurement result'
+    notes:
+    - at appropriate to the partial weighing .
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML D 11:2004
+    publication_id: OIML D011:2004
+    tc_sc: ''
+    year: 2004
+    clause: '3.10'
+    link: https://www.oiml.org/en/files/pdf_D/d011-e04.pdf
+    g18_entry: '00233'
+    definition: fault greater than the value specified in the relevant Recommendation
+    notes:
+    - 'The relevant Recommendation may specify that the following faults are not significant,
+      even when they exceed the value defined in 3.10: (a) Faults arising from simultaneous
+      and mutually independent causes (e.g. EM fields and discharges) originating
+      in a measuring instrument or in its checking facilities; (b) Faults implying
+      the impossibility to perform any measurement; (c) Transitory faults being momentary
+      variations in the indication, which cannot be interpreted, memorized or transmitted
+      as a measurement result; (d) Faults giving rise to variations in the measurement
+      result that are serious enough to be noticed by all those interested in the
+      measurement result; the relevant Recommendation may specify the nature of these
+      variations.'
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 61-1:2004
+    publication_id: OIML R061-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: T.4.2.6
+    link: https://www.oiml.org/en/files/pdf_R/r061-1-e04.pdf
+    g18_entry: '00806'
+    definition: "• • • • fault greater than 0.25 of the maximum permissible deviation
+      of each fill for in-service inspection as specified in 2.2.2, for a fill equal
+      to the minimum capacity or rated minimum fill respectively of the filling instrument.
+      The following are not considered to be significant faults, even when they exceed
+      the value defined above: faults arising from simultaneous and mutually independent
+      causes in the instrument; faults that imply it is impossible to perform a measurement;
+      faults that are so serious that they will inevitably be noticed by those interested
+      in the measurement; and transitory faults that are momentary variations in the
+      indications or operation that can not be interpreted, memorized ortransmitted
+      as a measurement result"
+    notes:
+    - For filling instruments where the fill may be greater than one load, the value
+      of the significant fault applicable for a test on one static load shall be calculated
+      in accordance with the test procedures in A.6.1.3.
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 135:2004
+    publication_id: OIML R135:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.30'
+    link: https://www.oiml.org/en/files/pdf_R/r135-e04.pdf
+    g18_entry: '01869'
+    definition: fault greater than the value specified in the appropriate Recommendation
+    notes:
+    - "[OIML D 11, 3.10]"
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 136-1:2004
+    publication_id: OIML R136-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: T.4.6
+    link: https://www.oiml.org/en/files/pdf_R/r136-1-e04.pdf
+    g18_entry: '01909'
+    definition: 'Fault greater than 1 d. The following are not considered to be significant
+      faults: • faults that result from simultaneous and mutually independent causes
+      in the instrument or in its checking facility; • faults that make it impossible
+      to perform any measuring; • transitory faults that are momentary variations
+      in the indications which cannot be interpreted, memorized or transmitted as
+      a measuring result; • faults that are so serious that they will inevitably be
+      noticed by those interested in the measuring'
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 134:2003
+    publication_id: OIML R134:2003
+    tc_sc: ''
+    year: 2003
+    clause: T.4.2.5
+    link: https://www.oiml.org/en/files/pdf_R/r134-e03.pdf
+    g18_entry: '01825'
+    definition: 'fault greater than 1 d. The following are not considered to be significant
+      faults: • faults that result from simultaneous and mutually independent causes
+      in the instrument or in its checking facility; • faults that make it impossible
+      to perform any measurement; • transitory faults that are momentary variations
+      in the indications which cannot be interpreted, memorized or transmitted as
+      a measurement result; and • faults that are so serious that they will inevitably
+      be noticed by those interested in the measurement'
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 75-1:2002
+    publication_id: OIML R075-1:2002
+    tc_sc: ''
+    year: 2002
+    clause: 4.10.3
+    link: https://www.oiml.org/en/files/pdf_R/r075-1-e02.pdf
+    g18_entry: '00866'
+    definition: fault greater than the absolute value of the MPE which is not a transitory
+      fault
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 60:2000
+    publication_id: OIML R060:2000
+    tc_sc: ''
+    year: 2000
+    clause: 2.4.14
+    link: https://www.oiml.org/en/files/pdf_R/r060-e00.pdf
+    g18_entry: '00741'
+    definition: 'Fault greater than the load cell verification interval, v. The following
+      are not considered significant faults, even when they exceed the load cell verification
+      interval, v: • faults arising from simultaneous and mutually independent causes;
+      • faults implying the impossibility to perform any measurements; • faults being
+      so serious that they are bound to be noticed by all interested in the result
+      of measurement; and • transitory faults being momentary variations in the load
+      cell output which cannot be interpreted, memorized or transmitted as a measurement
+      result'
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 129:2000
+    publication_id: OIML R129:2000
+    tc_sc: ''
+    year: 2000
+    clause: '2.28'
+    link: https://www.oiml.org/en/files/pdf_R/r129-e00.pdf
+    g18_entry: '01727'
+    definition: 'a fault greater than one scale interval (d). The following faults
+      are not considered to be significant, even when they exceed the value defined
+      above: (a) faults arising from simultaneous and mutually independent causes
+      in the measuring instrument itself; (b) faults implying the impossibility to
+      perform any measurement; (c) transitory faults being momentary variations in
+      the indication, which cannot be interpreted, memorized or transmitted as a measurement
+      result; and (d) faults giving rise to variations in the measurement result so
+      serious that they are bound to be noticed by all those interested in the result
+      of the measurement.'
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 81:1998
+    publication_id: OIML R081:1998
+    tc_sc: ''
+    year: 1998
+    clause: '3.24'
+    link: https://www.oiml.org/en/files/pdf_R/r081-e98.pdf
+    g18_entry: '01033'
+    definition: 'a fault the magnitude of which is greater than 20 % of the maximum
+      permissible error (mpe) for the measured quantity. The following are not considered
+      to be significant faults: • faults arising from simultaneous and mutually independent
+      causes in the measuring instrument itself or in its checking facility; • transitory
+      faults being momentary variations in the indication, that cannot be interpreted,
+      memorized, or transmitted as a measurement result; • faults implying the impossibility
+      of performing any measurement.'
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 125:1998
+    publication_id: OIML R125:1998
+    tc_sc: ''
+    year: 1998
+    clause: T.28
+    link: https://www.oiml.org/en/files/pdf_R/r125-e98.pdf
+    g18_entry: '01645'
+    definition: 'a fault greater than the absolute value of the maximum permissible
+      error for the minimum quantity. The following faults are not considered to be
+      significant, even when they exceed the value defined above: (a) faults arising
+      from simultaneous and mutually independent causes in the measuring instrument
+      itself or in its checking facilities; (b) faults implying the impossibility
+      to perform any measurement; (c) transitory faults being momentary variations
+      in the indication, which cannot be interpreted, memorized or transmitted as
+      a measurement result; and (d) faults giving rise to variations in the measurement
+      result which are so serious that they are bound to be noticed by all those interested
+      in the measurement result.'
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 50-1:1997
+    publication_id: OIML R050-1:1997
+    tc_sc: ''
+    year: 1997
+    clause: T.5.5
+    link: https://www.oiml.org/en/files/pdf_R/r050-1-e97.pdf
+    g18_entry: '00529'
+    definition: a fault greater than the absolute value of the appropriate maximum
+      permissible error for influence factor tests for a load equal to the minimum
+      totalized load (stem:[Sigma]min) for the designated class of the belt weigher
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 106-1:1997
+    publication_id: OIML R106-1:1997
+    tc_sc: ''
+    year: 1997
+    clause: T.4.2.5
+    link: https://www.oiml.org/en/files/pdf_R/r106-1-e97.pdf
+    g18_entry: '01297'
+    definition: "• • • • A fault greater than d. The following are not considered
+      to be significant faults: faults that result from simultaneous and mutually
+      independent causes in the instrument or in its checking facility; faults that
+      imply the impossibility of performing any measurement; transitory faults that
+      are momentary variations in the indications which cannot be interpreted, memorized
+      or transmitted as a measurement result; faults that are so serious that they
+      will inevitably be noticed by those interested in the measurement."
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 124:1997
+    publication_id: OIML R124:1997
+    tc_sc: ''
+    year: 1997
+    clause: '9'
+    link: https://www.oiml.org/en/files/pdf_R/r124-e97.pdf
+    g18_entry: '01614'
+    definition: "(a the difference between the error of indication and the intrinsic
+      error, whose absolute value is greater than one scale interval dapted from D
+      11 clauses T.8 and T.9)"
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 105:1993
+    publication_id: OIML R105:1993
+    tc_sc: ''
+    year: 1993
+    clause: T.20
+    link: https://www.oiml.org/en/files/pdf_R/r105-e93.pdf
+    g18_entry: '01235'
+    definition: 'for masses equal to or greater than the minimum measured quantity,
+      a fault greater than one-fifth of the absolute value of the maximum permissible
+      error for the measured quantity. The following are not considered as significant
+      faults: – faults arising from simultaneous and mutually independent causes in
+      the measuring instrument itself or in its checking facilities, – transitory
+      faults being momentary variations in the indication, which cannot be interpreted,
+      memorized or transmitted as a measurement result, – faults implying the impossibility
+      to perform any measurement'
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 44ea0727-0119-505c-9fed-5ff4153d2b8f
+schema_version: '3'
+related: []

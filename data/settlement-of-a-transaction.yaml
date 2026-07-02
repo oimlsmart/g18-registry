@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '01600'
+  term: settlement of a transaction
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 117-1:2007
+    publication_id: OIML R117-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.s.5
+    link: https://www.oiml.org/en/files/pdf_R/r117-1-e07.pdf
+    g18_entry: '01600'
+    definition: a transaction is settled when the parties interested in the transaction
+      have made their agreement known (explicitly or implicitly) regarding the amount
+      of the transaction. This may be a payment, signing a credit card voucher, signing
+      a delivery order, etc. The parties interested in a transaction may be the parties
+      themselves or their representatives (for example, the employee in afilling station
+      or the driver of a truck)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 1004bf91-b267-506d-a375-3e39042ea5e1
+schema_version: '3'
+related: []

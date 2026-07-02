@@ -1,0 +1,40 @@
+---
+data:
+  identifier: '01146'
+  term: deadwood
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 71:2008
+    publication_id: OIML R071:2008
+    tc_sc: ''
+    year: 2008
+    clause: '3.12'
+    link: https://www.oiml.org/en/files/pdf_R/r071-e08.pdf
+    g18_entry: '02236'
+    definition: tank fittings, structure, piping and other equipment which affects
+      the capacity of a tank. Deadwood is referred to as "positive deadwood" when
+      the capacity of the fitting adds to the effective capacity of the tank, or "negative
+      deadwood" when the volume of the fitting displaces liquid and reduces the effective
+      capacity
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 95:1990
+    publication_id: OIML R095:1990
+    tc_sc: ''
+    year: 1990
+    clause: T.10
+    link: https://www.oiml.org/en/files/pdf_R/r095-e90.pdf
+    g18_entry: '01146'
+    definition: the fittings of a tank and parts of the structure of the ship inside
+      the tank, the volume of which must be added to or subtracted from the capacity
+      of the tank in order to obtain the volume of liquid contained, when using the
+      geometric method of calibration
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: f630bf93-bfba-58d8-b585-72e561f76424
+schema_version: '3'
+related: []

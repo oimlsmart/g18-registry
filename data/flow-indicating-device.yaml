@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '00509'
+  term: flow indicating device
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 50-1:1997
+    publication_id: OIML R050-1:1997
+    tc_sc: ''
+    year: 1997
+    clause: T.3.8.4
+    link: https://www.oiml.org/en/files/pdf_R/r050-1-e97.pdf
+    g18_entry: '00509'
+    definition: a device that indicates the instantaneous flowrate either as the mass
+      of the product conveyed in unit time or as a percentage of the maximum flowrate
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: c1c4fbbb-4cf9-5b87-b474-164e763d05a4
+schema_version: '3'
+related: []

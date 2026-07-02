@@ -1,0 +1,38 @@
+---
+data:
+  identifier: '02121'
+  term: reference material (RM)
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML D 18:2008
+    publication_id: OIML D018:2008
+    tc_sc: ''
+    year: 2008
+    clause: '2.1'
+    link: https://www.oiml.org/en/files/pdf_D/d018-e08.pdf
+    g18_entry: '02152'
+    definition: material, sufficiently homogeneous and stable with reference to specified
+      properties, which has been established to be fit for its intended use in measurement
+      or in examination of nominal properties
+    notes:
+    - "(VIM:2007, 5.13)"
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 142:2008
+    publication_id: OIML R142:2008
+    tc_sc: ''
+    year: 2008
+    clause: 2.4(annex 6)
+    link: https://www.oiml.org/en/files/pdf_R/r142-e08.pdf
+    g18_entry: '02121'
+    definition: material, sufficiently homogeneous and stable regarding one or more
+      properties, used in calibration, in assignment of a value to another material
+      or in quality assurance
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: bd21997f-1aec-5aa3-a00a-a72118325d20
+schema_version: '3'
+related: []

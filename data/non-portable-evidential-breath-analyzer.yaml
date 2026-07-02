@@ -1,0 +1,25 @@
+---
+data:
+  identifier: '01663'
+  term: non-portable evidential breath analyzer
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 126:1998
+    publication_id: OIML R126:1998
+    tc_sc: ''
+    year: 1998
+    clause: '3.2'
+    link: https://www.oiml.org/en/files/pdf_R/r126-e98.pdf
+    g18_entry: '01663'
+    definition: an EBA intended only for use within buildings or places providing
+      similar environmental conditions
+    notes:
+    - The use of non-portable EBA's in mobile laboratories may be considered, providing
+      adapted conditions of transport are assured.
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 717f4011-d6a1-52f0-a180-95b506f899a7
+schema_version: '3'
+related: []

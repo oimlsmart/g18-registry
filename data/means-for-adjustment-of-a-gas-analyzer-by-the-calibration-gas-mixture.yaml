@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '02135'
+  term: means for adjustment of a gas analyzer by the calibration gas mixture
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 143:2009
+    publication_id: OIML R143:2009
+    tc_sc: ''
+    year: 2009
+    clause: '2.9'
+    link: https://www.oiml.org/en/files/pdf_R/r143-e09.pdf
+    g18_entry: '02135'
+    definition: means to adjust the indication of the gas analyzer to the value of
+      the SO2 volume fraction in a CGM
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: d74b1cd9-f832-5590-9e28-f0356a9de611
+schema_version: '3'
+related: []

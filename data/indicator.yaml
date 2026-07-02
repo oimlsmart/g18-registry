@@ -1,0 +1,75 @@
+---
+data:
+  identifier: '00586'
+  term: indicator
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 107-1:2007
+    publication_id: OIML R107-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.2.7.2
+    link: https://www.oiml.org/en/files/pdf_R/r107-1-e07.pdf
+    g18_entry: '01343'
+    definition: to electronic device of an instrument that may perform the analog-
+      -digital conversion of the output signal of the load cell, and that further
+      processes the data, and displays the weighing result inunits of mass
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 51-1:2006
+    publication_id: OIML R051-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.2.7.2
+    link: https://www.oiml.org/en/files/pdf_R/r051-1-e06.pdf
+    g18_entry: '00586'
+    definition: to electronic device of an instrument that may perform the analog-
+      -digital conversion of the output signal of the load cell, and which further
+      processes the data, and displays the weighing result in units of mass
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 76-1:2006
+    publication_id: OIML R076-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.2.2.2
+    link: https://www.oiml.org/en/files/pdf_R/r076-1-e06.pdf
+    g18_entry: '00898'
+    definition: to electronic device of an instrument that may perform the analog-
+      -digital conversion of the output signal of the load cell, and which further
+      processes the data, and displays the weighing result in units of mass
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 129:2000
+    publication_id: OIML R129:2000
+    tc_sc: ''
+    year: 2000
+    clause: '2.5'
+    link: https://www.oiml.org/en/files/pdf_R/r129-e00.pdf
+    g18_entry: '01704'
+    definition: a device which displays the dimensions measured and the associated
+      quantities calculated by the processor. It may or may not be associated with
+      the processor
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 125:1998
+    publication_id: OIML R125:1998
+    tc_sc: ''
+    year: 1998
+    clause: T.8
+    link: https://www.oiml.org/en/files/pdf_R/r125-e98.pdf
+    g18_entry: '01622'
+    definition: a device which displays the mass calculated by the processor and other
+      quantities. It may or may not be part of the processor
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: e05ca6be-ffd7-53eb-abbd-caec217ea809
+schema_version: '3'
+related: []

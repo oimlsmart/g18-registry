@@ -1,0 +1,25 @@
+---
+data:
+  identifier: '00730'
+  term: expanded uncertainty
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 60:2000
+    publication_id: OIML R060:2000
+    tc_sc: ''
+    year: 2000
+    clause: 2.4.3
+    link: https://www.oiml.org/en/files/pdf_R/r060-e00.pdf
+    g18_entry: '00730'
+    definition: quantity defining an interval about the result of a measurement that
+      may be expected to encompass a large fraction of the distribution of values
+      that could reasonably be attributed to the measurand. [Guide to the Expression
+      of Uncertainty in Measurement, BIPM, IEC, IFCC, ISO, IUPAC, IUPAP, OIML, 1993]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: ff00abdf-fa8e-5914-932f-3e688b396975
+schema_version: '3'
+related: []

@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '01990'
+  term: metering calculator
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 139:2007
+    publication_id: OIML R139:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.1.3.1
+    link: https://www.oiml.org/en/files/pdf_R/r139-e07.pdf
+    g18_entry: '01990'
+    definition: part of the meter that receives the output signals from the transducer(s)
+      and, possibly, from associated measuring instruments, transforms them and, if
+      appropriate, stores the results in memory until they are used
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: f67dcbac-6b44-539c-8914-2e3c14f0cccc
+schema_version: '3'
+related: []

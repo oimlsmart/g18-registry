@@ -1,0 +1,26 @@
+---
+data:
+  identifier: '01459'
+  term: roughness parameter or R-parameter(stem:[R_{\mathrm{a}}] or stem:[R_{\mathrm{z}}])
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 111-1:2004
+    publication_id: OIML R111-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.11'
+    link: https://www.oiml.org/en/files/pdf_R/r111-1-e04.pdf
+    g18_entry: '01459'
+    definition: 'parameter that describes the assessed roughness profile of a sample.
+      The letter stem:[R] is indicative of the type of assessed profile, in this case
+      stem:[R] for roughness profile. The assessed profile of a sample can be in terms
+      of different profile types: a roughness profile or R-parameter, primary profile
+      or P-parameter, a waviness profile or W-parameter'
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: d8447444-7430-5251-8b11-362919d89512
+schema_version: '3'
+related: []

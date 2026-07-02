@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '00951'
+  term: number of verification scale intervals, n
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 76-1:2006
+    publication_id: OIML R076-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.3.2.5
+    link: https://www.oiml.org/en/files/pdf_R/r076-1-e06.pdf
+    g18_entry: '00951'
+    definition: 'quotient of the maximum capacity and the verification scale interval:
+      n = Max / e'
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: d383b477-53c0-593e-b5a5-bba2356ecc20
+schema_version: '3'
+related: []

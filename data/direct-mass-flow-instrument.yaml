@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '01211'
+  term: direct mass flow instrument
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 105:1993
+    publication_id: OIML R105:1993
+    tc_sc: ''
+    year: 1993
+    clause: T.1
+    link: https://www.oiml.org/en/files/pdf_R/r105-e93.pdf
+    g18_entry: '01211'
+    definition: a measuring instrument that determines the mass of a quantity of flowing
+      liquid without the use of any auxiliary device or data on the physical properties
+      of the liquid
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: ff6aefd1-3a9e-57df-81c0-e48c579ee134
+schema_version: '3'
+related: []

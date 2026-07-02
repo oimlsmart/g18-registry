@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '01144'
+  term: innage height
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 95:1990
+    publication_id: OIML R095:1990
+    tc_sc: ''
+    year: 1990
+    clause: T.8
+    link: https://www.oiml.org/en/files/pdf_R/r095-e90.pdf
+    g18_entry: '01144'
+    definition: the distance between the dipping datum point and the free surface
+      of the liquid, measured along the vertical measurement axis
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 8391185d-ef8b-554d-9ca8-cacc6c5233d7
+schema_version: '3'
+related: []

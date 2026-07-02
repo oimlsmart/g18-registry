@@ -1,0 +1,22 @@
+---
+data:
+  identifier: '00793'
+  term: static test load
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 61-1:2004
+    publication_id: OIML R061-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: T.3.11
+    link: https://www.oiml.org/en/files/pdf_R/r061-1-e04.pdf
+    g18_entry: '00793'
+    definition: load that is used in static tests only
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 81987f80-b767-5a6f-b22c-55c228d57f0f
+schema_version: '3'
+related: []

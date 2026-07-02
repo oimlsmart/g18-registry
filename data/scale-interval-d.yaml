@@ -1,0 +1,89 @@
+---
+data:
+  identifier: '00783'
+  term: scale interval (d)
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 107-1:2007
+    publication_id: OIML R107-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.3.1
+    link: https://www.oiml.org/en/files/pdf_R/r107-1-e07.pdf
+    g18_entry: '01357'
+    definition: 'value expressed in units of mass that is the difference between:
+      * the values corresponding to two consecutive scale marks for analog indication;
+      or * two consecutive indicated values for digital indication'
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 61-1:2004
+    publication_id: OIML R061-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: T.3.1
+    link: https://www.oiml.org/en/files/pdf_R/r061-1-e04.pdf
+    g18_entry: '00783'
+    definition: "• • value, expressed in units of mass, of the difference between:
+      the values corresponding to two consecutive scale marks for analog indication;
+      or two consecutive indicated values for digital indication"
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 136-1:2004
+    publication_id: OIML R136-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: T.3.1
+    link: https://www.oiml.org/en/files/pdf_R/r136-1-e04.pdf
+    g18_entry: '01899'
+    definition: "• • value, expressed in units of area, of the difference between:
+      the values corresponding to two consecutive scale marks for analogue indication,
+      or two consecutive indicated values for digital indication"
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 134:2003
+    publication_id: OIML R134:2003
+    tc_sc: ''
+    year: 2003
+    clause: T.3.3.1
+    link: https://www.oiml.org/en/files/pdf_R/r134-e03.pdf
+    g18_entry: '01812'
+    definition: value expressed in units of mass for weighing-in-motion that is the
+      difference between two consecutive indicated or printed values
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 129:2000
+    publication_id: OIML R129:2000
+    tc_sc: ''
+    year: 2000
+    clause: '2.19'
+    link: https://www.oiml.org/en/files/pdf_R/r129-e00.pdf
+    g18_entry: '01718'
+    definition: the difference between two consecutive indicated values of the dimensions
+      for each range in each axis
+    notes:
+    - Adapted from VIM:1993, 4.22
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 106-1:1997
+    publication_id: OIML R106-1:1997
+    tc_sc: ''
+    year: 1997
+    clause: T.3.4
+    link: https://www.oiml.org/en/files/pdf_R/r106-1-e97.pdf
+    g18_entry: '01284'
+    definition: "• • a value expressed in units of mass for weighing-in-motion that
+      is the difference between: the values corresponding to two consecutive scale
+      marks for analogue indication, or two consecutive indicated or printed values
+      for digital indication"
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 0c0b847e-fc3b-5d23-93f8-5c0d96a49174
+schema_version: '3'
+related: []

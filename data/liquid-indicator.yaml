@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '02282'
+  term: liquid indicator
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 80-1:2009
+    publication_id: OIML R080-1:2009
+    tc_sc: ''
+    year: 2009
+    clause: '2.43'
+    link: https://www.oiml.org/en/files/pdf_R/r080-1-e09.pdf
+    g18_entry: '02282'
+    definition: device to indicate the presence of liquid in the pipework (e.g. sight
+      glass)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 259afa49-a02f-5793-a31b-f1c3bc2a4daf
+schema_version: '3'
+related: []

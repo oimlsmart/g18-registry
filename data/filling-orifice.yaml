@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '01987'
+  term: filling orifice
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 138:2007
+    publication_id: OIML R138:2007
+    tc_sc: ''
+    year: 2007
+    clause: '2.10'
+    link: https://www.oiml.org/en/files/pdf_R/r138-e07.pdf
+    g18_entry: '01987'
+    definition: opening in the cask wall defined by its section and the thickness
+      of the cask walls
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: d92b1082-9b83-5b5f-99df-62a89a1b3b9e
+schema_version: '3'
+related: []

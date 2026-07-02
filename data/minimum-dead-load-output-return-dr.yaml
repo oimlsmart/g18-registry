@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '00720'
+  term: minimum dead load output return (DR)
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 60:2000
+    publication_id: OIML R060:2000
+    tc_sc: ''
+    year: 2000
+    clause: 2.3.9
+    link: https://www.oiml.org/en/files/pdf_R/r060-e00.pdf
+    g18_entry: '00720'
+    definition: difference in load cell output at minimum dead load, measured before
+      and after load application
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: d0b055ae-99bf-5bc8-a086-b5af25c5c183
+schema_version: '3'
+related: []

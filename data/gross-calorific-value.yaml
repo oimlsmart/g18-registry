@@ -1,0 +1,33 @@
+---
+data:
+  identifier: '02058'
+  term: "(gross) calorific value"
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 140:2007
+    publication_id: OIML R140:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.1.15
+    link: https://www.oiml.org/en/files/pdf_R/r140-e07.pdf
+    g18_entry: '02058'
+    definition: amount of heat which would be released by the complete combustion
+      in air of a specified quantity of gas, in such a way that the pressure at which
+      the reaction takes place remains constant, and all the products of combustion
+      are returned to the same specified temperature as that of the reactants, all
+      of these products being in the gaseous state except for water formed by combustion,
+      which is condensed to the liquid state at this specified temperature
+    notes:
+    - 1. In the following parts of this Recommendation, calorific value is used for
+      gross calorific value.
+    - 2. The condensation enthalpy and combustion enthalpy depend directly upon the
+      temperature and pressure; consequently the energy at base conditions is considered.
+    - 3. The calorific value should be determined on a mass or volumetric basis.
+    - 4. (adapted from ISO 6976)
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: afd2a328-5821-588f-bb63-dc90a45d15ba
+schema_version: '3'
+related: []

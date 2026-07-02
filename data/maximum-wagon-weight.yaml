@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '01282'
+  term: maximum wagon weight
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 106-1:1997
+    publication_id: OIML R106-1:1997
+    tc_sc: ''
+    year: 1997
+    clause: T.3.3.1
+    link: https://www.oiml.org/en/files/pdf_R/r106-1-e97.pdf
+    g18_entry: '01282'
+    definition: the largest in-motion load that the installation is approved to weigh
+      for a particular site
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 8615eaa8-f9c4-5b9b-b450-05dfff9f0f86
+schema_version: '3'
+related: []

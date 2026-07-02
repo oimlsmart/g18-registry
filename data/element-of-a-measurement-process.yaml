@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '00121'
+  term: element of a measurement process
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML D 16:1986
+    publication_id: OIML D016:1986
+    tc_sc: ''
+    year: 1986
+    clause: 1.1.3
+    link: https://www.oiml.org/en/files/pdf_D/d016-e86.pdf
+    g18_entry: '00121'
+    definition: any single factor that can affect the measurement result, for example,
+      the instrument, the operator, and the procedure
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 82650e80-073f-5f53-8f93-13f49adb5a02
+schema_version: '3'
+related: []

@@ -1,0 +1,25 @@
+---
+data:
+  identifier: '00261'
+  term: examination of a measuring instrument
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML D 15:1986
+    publication_id: OIML D015:1986
+    tc_sc: ''
+    year: 1986
+    clause: '2.4'
+    link: https://www.oiml.org/en/files/pdf_D/d015-e86.pdf
+    g18_entry: '00261'
+    definition: All the operations carried out with a view to establishing that the
+      measuring instrument conforms either to the requirements of the regulations
+      for verification or to the recommendations of a standard or to technical specifications
+      [VML 2.3]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 6cbb85bc-089b-5c75-90fb-51163ef33654
+schema_version: '3'
+related: []

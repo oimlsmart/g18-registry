@@ -1,0 +1,25 @@
+---
+data:
+  identifier: '00139'
+  term: application of a measuring instrument
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML D 20:1988
+    publication_id: OIML D020:1988
+    tc_sc: ''
+    year: 1988
+    clause: 1.2.5
+    link: https://www.oiml.org/en/files/pdf_D/d020-e88.pdf
+    g18_entry: '00139'
+    definition: for a particular copy of a pattern, the identification, by reference
+      to all possible variables and constraints, of all measurements for which it
+      may hypothetically be used and of all the sets of conditions under which these
+      measurements can legally be made
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: d90d954d-cca5-5a6e-8cee-87b2df9fe1b2
+schema_version: '3'
+related: []

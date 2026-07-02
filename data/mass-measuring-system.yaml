@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '01616'
+  term: mass measuring system
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 125:1998
+    publication_id: OIML R125:1998
+    tc_sc: ''
+    year: 1998
+    clause: T.2
+    link: https://www.oiml.org/en/files/pdf_R/r125-e98.pdf
+    g18_entry: '01616'
+    definition: a system which comprises the measuring instrument, the calibrated
+      tank and any ancillary and/or additional devices
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 73d62f7b-eb9e-533d-b981-14e3fdf97c80
+schema_version: '3'
+related: []

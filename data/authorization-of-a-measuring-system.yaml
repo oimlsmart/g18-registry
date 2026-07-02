@@ -1,0 +1,35 @@
+---
+data:
+  identifier: '01536'
+  term: authorization of a measuring system
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 117-1:2007
+    publication_id: OIML R117-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.a.10
+    link: https://www.oiml.org/en/files/pdf_R/r117-1-e07.pdf
+    g18_entry: '01536'
+    definition: operation that brings the measuring system into a condition suitable
+      for the commencement of the delivery
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 139:2007
+    publication_id: OIML R139:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.2.8
+    link: https://www.oiml.org/en/files/pdf_R/r139-e07.pdf
+    g18_entry: '02009'
+    definition: operation that brings the measuring system into a condition suitable
+      for the commencement of the delivery
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 1d2e96f2-b058-50d7-aa84-51fe0f98497c
+schema_version: '3'
+related: []

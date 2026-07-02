@@ -1,0 +1,37 @@
+---
+data:
+  identifier: '00080'
+  term: category of instruments
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML B 10-1:2004
+    publication_id: OIML B010-1:2004
+    tc_sc: TC 3/SC 2
+    year: 2004
+    clause: '3.2'
+    link: https://www.oiml.org/en/files/pdf_B/b010-1-e04.pdf
+    g18_entry: '00093'
+    definition: identification or classification of instruments according to characteristics
+      that may include the measured quantity, the measuring range, and the principle
+      or method of measurement
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML B 3:2003
+    publication_id: OIML B003:2003
+    tc_sc: ''
+    year: 2003
+    clause: '2.2'
+    link: https://www.oiml.org/en/files/pdf_B/b003-e03.pdf
+    g18_entry: '00080'
+    definition: identification or classification of instruments according to unique
+      metrological and technical characteristics that may include the measured quantity,
+      the measuring range, and the principle or method of measurement
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: edc6e432-2f1f-5a46-aacc-894815df680d
+schema_version: '3'
+related: []

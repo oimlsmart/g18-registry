@@ -1,0 +1,41 @@
+<section class="page-head">
+  <div class="breadcrumb">
+    <a href="<%= rel_root %>index.html">Registry</a> /
+    <span>TC / SC</span>
+  </div>
+  <h1>Technical Committees &amp; Subcommittees</h1>
+  <p class="lede">
+    <%= dataset.publication_count %> source publications.
+    <%= dataset.attributed_publication_count %> have a TC/SC attribution;
+    <%= dataset.publication_count - dataset.attributed_publication_count %> are awaiting OIML confirmation.
+  </p>
+</section>
+
+<section class="card note">
+  <p>
+    TC/SC attribution is currently incomplete — most entries are blank,
+    awaiting confirmation from OIML central secretariat. See
+    <a href="https://github.com/oimlsmart/g18-registry/blob/main/tc-sc/README.md">tc-sc/README.md</a>
+    for the workflow and open questions.
+  </p>
+</section>
+
+<section class="card">
+  <table class="tc-table">
+    <thead>
+      <tr><th>TC / SC</th><th>Publications</th><th>Terms touched</th><th>Defined in VIM/VIML</th></tr>
+    </thead>
+    <tbody>
+    <% dataset.tcscs.each do |tc| %>
+      <tr>
+        <td>
+          <a href="<%= rel_root %><%= tc.path %>"><%= h tc.name %></a>
+        </td>
+        <td class="num"><%= tc.publications.size %></td>
+        <td class="num"><%= tc.terms.size %></td>
+        <td class="num"><%= tc.terms.count(&:defined?) %></td>
+      </tr>
+    <% end %>
+    </tbody>
+  </table>
+</section>

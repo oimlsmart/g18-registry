@@ -1,0 +1,22 @@
+---
+data:
+  identifier: '02344'
+  term: reference gas adjustment facility
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 99-1:2008
+    publication_id: OIML R099-1:2008
+    tc_sc: ''
+    year: 2008
+    clause: '3.11'
+    link: https://www.oiml.org/en/files/pdf_R/r099-1-e08.pdf
+    g18_entry: '02344'
+    definition: facility to adjust the instrument to the value of a reference gas
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: c7241f12-9fe2-55c7-9098-f083f2555ab7
+schema_version: '3'
+related: []

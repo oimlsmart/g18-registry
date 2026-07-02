@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '01574'
+  term: condenser tank
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 117-1:2007
+    publication_id: OIML R117-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.g.1.4
+    link: https://www.oiml.org/en/files/pdf_R/r117-1-e07.pdf
+    g18_entry: '01574'
+    definition: in pressurized liquefied gas measuring systems, a gas elimination
+      device mainly consisting of a closed tank used to collect the gases contained
+      in the liquid to be measured and to condense them before measuring
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 9d48990b-fae0-53be-aa91-ea6345dc96ec
+schema_version: '3'
+related: []

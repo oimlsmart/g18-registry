@@ -1,0 +1,38 @@
+---
+data:
+  identifier: '00502'
+  term: supplementary totalization indicating device
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 107-1:2007
+    publication_id: OIML R107-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.4.3.3
+    link: https://www.oiml.org/en/files/pdf_R/r107-1-e07.pdf
+    g18_entry: '01383'
+    definition: a l totalization indicating device with a scale interval greater than
+      that of the principal totalization indicating device and indicating thesum of
+      the weight values of consecutive loads weighed over ong period of time. This
+      device may be resettable to zero by theuser
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 50-1:1997
+    publication_id: OIML R050-1:1997
+    tc_sc: ''
+    year: 1997
+    clause: T.3.7.3
+    link: https://www.oiml.org/en/files/pdf_R/r050-1-e97.pdf
+    g18_entry: '00502'
+    definition: an indicating device with a scale interval greater than that of the
+      general totalization indicating device and intended to indicate themass of the
+      loads conveyed over a fairly long period of operation
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 5979899d-6be9-53fb-8623-3c4b1955bd69
+schema_version: '3'
+related: []

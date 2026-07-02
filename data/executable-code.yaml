@@ -1,0 +1,25 @@
+---
+data:
+  identifier: '02189'
+  term: executable code
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML D 31:2008
+    publication_id: OIML D031:2008
+    tc_sc: ''
+    year: 2008
+    clause: 3.1.22
+    link: https://www.oiml.org/en/files/pdf_D/d031-e08.pdf
+    g18_entry: '02189'
+    definition: file installed on the computer system of the measuring instrument,
+      electronic device, or sub-assembly (EPROM, hard disk, etc.). This code is interpreted
+      by the microprocessor and transposed into certain logical, arithmetical, decoding,
+      or data transporting operations
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: be5cb8a2-2aa4-5ef0-add2-7f79e8806103
+schema_version: '3'
+related: []

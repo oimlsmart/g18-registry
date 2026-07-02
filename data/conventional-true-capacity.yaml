@@ -1,0 +1,26 @@
+---
+data:
+  identifier: '01983'
+  term: conventional true capacity
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 138:2007
+    publication_id: OIML R138:2007
+    tc_sc: ''
+    year: 2007
+    clause: '2.6'
+    link: https://www.oiml.org/en/files/pdf_R/r138-e07.pdf
+    g18_entry: '01983'
+    definition: 'for measuring container bottles and casks: contained volume of water
+      at a reference temperature with an uncertainty appropriate for the given purpose.
+      For capacity serving measures: delivered volume of water at a reference temperature
+      with an uncertainty appropriate for the given purpose. This volume is measured
+      after prior wetting of the interior of the vessel and draining for 30 seconds'
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 3a727996-4429-5d5a-815e-b795936fc6fe
+schema_version: '3'
+related: []

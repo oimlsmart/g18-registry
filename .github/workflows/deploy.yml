@@ -1,4 +1,4 @@
-name: Deploy placeholder site
+name: Deploy registry site
 
 on:
   push:
@@ -19,28 +19,21 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Build placeholder site
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.4"
+          bundler: none
+      - name: Build static site
         run: |
-          mkdir -p _site
-          # Copy README as index
-          cp README.md _site/index.html
-          # Add a header with the project name
-          {
-            echo '<!DOCTYPE html><html><head><meta charset="utf-8"><title>G 18 Registry</title>'
-            echo '<style>body{font-family:system-ui,sans-serif;max-width:800px;margin:2em auto;padding:0 1em;line-height:1.5}'
-            echo 'h1{color:#004996} code{background:#f3f4f6;padding:0.1em 0.3em;border-radius:3px}'
-            echo 'a{color:#005A9C}</style></head><body>'
-            echo '<h1>G 18 — OIML Term-Usage Registry</h1>'
-            echo '<p>Pre-implementation placeholder. Source data lives in <a href="https://github.com/oimlsmart/vocab/tree/main/datasets/g18/">oimlsmart/vocab datasets/g18/</a>.</p>'
-            echo '<h2>Implementation plan</h2><ul>'
-            for f in TODO/*.md; do
-              [ "$(basename "$f")" = "README.md" ] && continue
-              echo "<li><a href=\"TODO/$(basename $f)\">$(basename $f .md | sed 's/^[0-9]*-//')</a></li>"
-            done
-            echo '</ul><h2>README (raw)</h2><pre>'
-            cat README.md
-            echo '</pre></body></html>'
-          } > _site/index.html
+          ruby scripts/build_site.rb
+      - name: Show build summary
+        run: |
+          cat _site/stats.json
+          echo
+          echo "Pages built:"
+          find _site -type f | sort | head -20
+          echo "..."
+          echo "Total files: $(find _site -type f | wc -l)"
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

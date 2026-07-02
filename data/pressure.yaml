@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '00673'
+  term: pressure
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 53:1982
+    publication_id: OIML R053:1982
+    tc_sc: ''
+    year: 1982
+    clause: T
+    link: https://www.oiml.org/en/files/pdf_R/r053-e82.pdf
+    g18_entry: '00673'
+    definition: No gauge or vacuum pressure (see International Recommendations 's
+      17 and 19) to which the elastic sensing element can be submitted
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: c49fb093-9dc0-5a9a-ba58-6578abc266a6
+schema_version: '3'
+related: []

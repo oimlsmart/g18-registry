@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '01130'
+  term: vertex power
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 93:1999
+    publication_id: OIML R093:1999
+    tc_sc: ''
+    year: 1999
+    clause: '3.7'
+    link: https://www.oiml.org/en/files/pdf_R/r093-e99.pdf
+    g18_entry: '01130'
+    definition: there are two vertex powers of a lens, described in 3.7.1 and 3.7.2
+    notes:
+    - (1) The unit for expressing vertex power is the reciprocal metre (m-1). The
+      name for this unit is the "dioptre", for which the symbol is D. (2) Conventionally
+      the back vertex power, in dioptres, is specified as the "power" of a spectacle
+      lens, although the front vertex powe is required for certain purposes (for example
+      in the measurement of some multifocal lenses).
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: aceb7196-d481-54f7-9f00-472b276a9bb8
+schema_version: '3'
+related: []

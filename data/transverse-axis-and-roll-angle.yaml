@@ -1,0 +1,25 @@
+---
+data:
+  identifier: '02267'
+  term: transverse axis and roll angle
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 80-1:2009
+    publication_id: OIML R080-1:2009
+    tc_sc: ''
+    year: 2009
+    clause: '2.28'
+    link: https://www.oiml.org/en/files/pdf_R/r080-1-e09.pdf
+    g18_entry: '02267'
+    definition: horizontal axis of the tank perpendicular to the longitudinal axis,
+      when the tank is in its normal position. The vertical angle by which this axis
+      is rotated is referred to as the roll angle. It is positive if the right part
+      of the tank (in relation to the direction of travel) is lifted
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 951437e3-8bea-51f2-99ef-e4b4473b1ff6
+schema_version: '3'
+related: []

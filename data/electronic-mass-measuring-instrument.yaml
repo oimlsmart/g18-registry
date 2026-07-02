@@ -1,0 +1,22 @@
+---
+data:
+  identifier: '01634'
+  term: electronic mass measuring instrument
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 125:1998
+    publication_id: OIML R125:1998
+    tc_sc: ''
+    year: 1998
+    clause: T.18
+    link: https://www.oiml.org/en/files/pdf_R/r125-e98.pdf
+    g18_entry: '01634'
+    definition: a mass measuring instrument equipped with electronic devices
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 40ee4563-10a1-52bf-8327-6363a7b2fbba
+schema_version: '3'
+related: []

@@ -1,0 +1,25 @@
+---
+data:
+  identifier: '01808'
+  term: dynamic vehicle tyre force
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 134:2003
+    publication_id: OIML R134:2003
+    tc_sc: ''
+    year: 2003
+    clause: T.3.1.5
+    link: https://www.oiml.org/en/files/pdf_R/r134-e03.pdf
+    g18_entry: '01808'
+    definition: component of the time-varying force applied perpendicularly to the
+      road surface by the tyre(s) on a wheel of a moving vehicle. In addition to the
+      action of gravity, this force can also include dynamic effects of influences
+      on the moving vehicle
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: e89bfb8c-7a54-5c8f-99d0-36298365f27f
+schema_version: '3'
+related: []

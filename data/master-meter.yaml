@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '01212'
+  term: master meter
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 105:1993
+    publication_id: OIML R105:1993
+    tc_sc: ''
+    year: 1993
+    clause: T.2
+    link: https://www.oiml.org/en/files/pdf_R/r105-e93.pdf
+    g18_entry: '01212'
+    definition: a working standard, traceable to national standards, used for the
+      verification of a direct mass flow instrument
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 8bfd172a-6693-5558-8fc6-248ad748045c
+schema_version: '3'
+related: []

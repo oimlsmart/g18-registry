@@ -1,0 +1,35 @@
+---
+data:
+  identifier: '00308'
+  term: cuff
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 16-1:2002
+    publication_id: OIML R016-1:2002
+    tc_sc: ''
+    year: 2002
+    clause: '2.3'
+    link: https://www.oiml.org/en/files/pdf_R/r016-1-e02.pdf
+    g18_entry: '00308'
+    definition: component of the sphygmomanometer, comprising a bladder and asleeve,
+      which is wrapped around the limb of the patient
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 16-2:2002
+    publication_id: OIML R016-2:2002
+    tc_sc: ''
+    year: 2002
+    clause: '2.3'
+    link: https://www.oiml.org/en/files/pdf_R/r016-2-e02.pdf
+    g18_entry: '00323'
+    definition: component of the sphygmomanometer, comprising a bladder and asleeve,
+      which is wrapped around the limb of the patient
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: fd0d6057-b990-5cc5-a724-b620b938123f
+schema_version: '3'
+related: []

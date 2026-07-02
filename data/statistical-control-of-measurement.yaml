@@ -1,0 +1,25 @@
+---
+data:
+  identifier: '00161'
+  term: statistical control (of measurement)
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML D 22:1991
+    publication_id: OIML D022:1991
+    tc_sc: ''
+    year: 1991
+    clause: '3.16'
+    link: https://www.oiml.org/en/files/pdf_D/d022-e91.pdf
+    g18_entry: '00161'
+    definition: a means for determining whether the results of measurements using
+      a method, instrument or process over a relatively long time interval are within
+      specified limits established by taking into account the uncertainty and error
+      of measurement
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 8a9007a5-d89d-5f03-ade9-11c052f3cd2b
+schema_version: '3'
+related: []

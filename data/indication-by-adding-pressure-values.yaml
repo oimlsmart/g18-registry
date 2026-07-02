@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '01427'
+  term: indication by adding pressure values
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 110:1994
+    publication_id: OIML R110:1994
+    tc_sc: ''
+    year: 1994
+    clause: 2.3.1
+    link: https://www.oiml.org/en/files/pdf_R/r110-e94.pdf
+    g18_entry: '01427'
+    definition: the indication obtained by adding the pressure values stated on the
+      loaded weights
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 5660e013-54f3-5116-98e7-541847353557
+schema_version: '3'
+related: []

@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '01815'
+  term: minimum operating speed(stem:[v_{\min}])
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 134:2003
+    publication_id: OIML R134:2003
+    tc_sc: ''
+    year: 2003
+    clause: T.3.4.2
+    link: https://www.oiml.org/en/files/pdf_R/r134-e03.pdf
+    g18_entry: '01815'
+    definition: lowest velocity of a vehicle that the instrument is designed to weigh
+      in motion and below which the weighing results may be subject to an excessive
+      relative error
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 7895e971-8a8a-5423-86a3-19a6c1cff7da
+schema_version: '3'
+related: []

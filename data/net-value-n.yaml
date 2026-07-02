@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '00968'
+  term: net value, N
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 76-1:2006
+    publication_id: OIML R076-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.5.2.2
+    link: https://www.oiml.org/en/files/pdf_R/r076-1-e06.pdf
+    g18_entry: '00968'
+    definition: indication of the weight value of a load placed on an instrument after
+      operation of a tare device
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 64b1055c-9a54-5967-b138-7cd42dd3a070
+schema_version: '3'
+related: []

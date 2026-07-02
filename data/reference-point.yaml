@@ -1,0 +1,48 @@
+---
+data:
+  identifier: '00676'
+  term: reference point
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 80-1:2009
+    publication_id: OIML R080-1:2009
+    tc_sc: ''
+    year: 2009
+    clause: '2.14'
+    link: https://www.oiml.org/en/files/pdf_R/r080-1-e09.pdf
+    g18_entry: '02253'
+    definition: point clearly identified on the vertical measurement axis, with reference
+      to which the liquid level is measured
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 133:2002
+    publication_id: OIML R133:2002
+    tc_sc: ''
+    year: 2002
+    clause: '3.7'
+    link: https://www.oiml.org/en/files/pdf_R/r133-e02.pdf
+    g18_entry: '01780'
+    definition: temperature usually at a physical phase transition, such as the ice
+      point or triple point of water, at which a thermometer is checked for changes
+      in bulb volume and for separation of the liquid in the capillary
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 53:1982
+    publication_id: OIML R053:1982
+    tc_sc: ''
+    year: 1982
+    clause: T
+    link: https://www.oiml.org/en/files/pdf_R/r053-e82.pdf
+    g18_entry: '00676'
+    definition: that part of the elastic sensing element, whose displacement is converted
+      into an indication of the instrument
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: af4d67a4-6726-5fc5-8cfd-fd26bfc01b92
+schema_version: '3'
+related: []

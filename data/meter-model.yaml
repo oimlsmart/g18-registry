@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '00869'
+  term: meter model
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 75-1:2002
+    publication_id: OIML R075-1:2002
+    tc_sc: ''
+    year: 2002
+    clause: '4.13'
+    link: https://www.oiml.org/en/files/pdf_R/r075-1-e02.pdf
+    g18_entry: '00869'
+    definition: different sizes of heat meters or sub-assemblies having a family similarity
+      in the principles of operation, construction and materials
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 30bae37f-7c9c-5345-b296-d840677e0ff1
+schema_version: '3'
+related: []

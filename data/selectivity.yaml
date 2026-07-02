@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '01500'
+  term: selectivity
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 113:1994
+    publication_id: OIML R113:1994
+    tc_sc: ''
+    year: 1994
+    clause: '3.13'
+    link: https://www.oiml.org/en/files/pdf_R/r113-e94.pdf
+    g18_entry: '01500'
+    definition: an indication of a detector's ability to respond to certain classes
+      of compounds more readily and to a greater degree than to others
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: ea8b2792-9246-5db9-adab-c20af76e8759
+schema_version: '3'
+related: []

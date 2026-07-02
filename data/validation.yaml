@@ -1,0 +1,57 @@
+---
+data:
+  identifier: '00176'
+  term: validation
+  kind: defined_in_vim
+  official_concept:
+    source: urn:oiml:pub:v:2:2012
+    id: '2.45'
+    url: https://oimlsmart.github.io/vocab/vim-2012/concept/2.45
+  publications:
+  - publication: OIML D 31:2008
+    publication_id: OIML D031:2008
+    tc_sc: ''
+    year: 2008
+    clause: 3.1.56
+    link: https://www.oiml.org/en/files/pdf_D/d031-e08.pdf
+    g18_entry: '02223'
+    definition: 'confirmation by examination and provision of objective evidence (i.e.
+      information that can be proved true, based on facts 4: obtained from observations,
+      measurement, test, etc.) that the particular requirements for the specific intended
+      use are fulfilled. In the present case the related requirements are those of
+      this Document'
+    notes:
+    - "[derived from ISO/IEC 14598 and IEC 61508- 1998]"
+    consistency: pending
+    consistency_reason: ''
+    related:
+    - type: see
+      ref:
+        id: '2.45'
+        source: urn:oiml:pub:v:2:2012
+  - publication: OIML D 27:2001
+    publication_id: OIML D027:2001
+    tc_sc: ''
+    year: 2001
+    clause: '2.14'
+    link: https://www.oiml.org/en/files/pdf_D/d027-e01.pdf
+    g18_entry: '00176'
+    definition: confirmation, through the provision of objective evidence, that the
+      requirements for a specific intended use or application have been fulfilled
+      [ISO 9000:2000, 3.8.5]
+    notes:
+    - (1) The term "validated" is used to designate the corresponding status. (2)
+      The use conditions for validation can be real or simulated.
+    consistency: pending
+    consistency_reason: ''
+    related:
+    - type: see
+      ref: &1
+        id: '2.45'
+        source: urn:oiml:pub:v:2:2012
+status: current
+id: f23c1003-c1f6-5055-80c0-a6189b78b55b
+schema_version: '3'
+related:
+- type: see
+  ref: *1

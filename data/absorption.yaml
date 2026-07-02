@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '01840'
+  term: absorption
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 135:2004
+    publication_id: OIML R135:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.1'
+    link: https://www.oiml.org/en/files/pdf_R/r135-e04.pdf
+    g18_entry: '01840'
+    definition: transformation of radiant energy to a different form of energy by
+      [ISO 6286, Table 1, No. 7] interaction with matter.
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 60268e22-d99e-5861-9cfc-f0fc653ae18f
+schema_version: '3'
+related: []

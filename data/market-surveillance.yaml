@@ -1,0 +1,35 @@
+---
+data:
+  identifier: '00208'
+  term: market surveillance
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML D 9:2004
+    publication_id: OIML D009:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.26'
+    link: https://www.oiml.org/en/files/pdf_D/d009-e04.pdf
+    g18_entry: '00208'
+    definition: form of metrological supervision aimed at a measuring instrument and
+      prepackage which is placed on the market and/or put into service for the first
+      time, to ensure that all the elements of the conformity assessment system work
+      properly and result in general compliance of the products with the provisions
+      of the applicable regulations across a country or free trade area-
+    notes:
+    - 'In the above definition the words "placed on the market and/or put into service"
+      should b applied to describe different situations as follows: - "placed on the
+      market": should be used in the case when all the relevant conformity assessment
+      procedures are finalized before a measuring instrument or prepackage is put
+      into service; - "placed on the market and put into service one or more conformity
+      assessment procedure(s) may be or have to be carried ou when a measuring instrument
+      is put into service; - "put into service": to describe the situat when a manufacturer
+      manufactures a measuring instrument to be used by itself (i not necessary to
+      place it on the market).'
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 3280bef2-419c-59a0-b4b9-40be6b5d9495
+schema_version: '3'
+related: []

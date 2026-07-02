@@ -1,0 +1,22 @@
+---
+data:
+  identifier: '01515'
+  term: observation zone
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 116:2006
+    publication_id: OIML R116:2006
+    tc_sc: ''
+    year: 2006
+    clause: '3.2'
+    link: https://www.oiml.org/en/files/pdf_R/r116-e06.pdf
+    g18_entry: '01515'
+    definition: region of the plasma monitored during the measurement process
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 31b746eb-dd1d-5ce4-95a9-51c4225b4444
+schema_version: '3'
+related: []

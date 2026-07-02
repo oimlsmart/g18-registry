@@ -1,0 +1,62 @@
+---
+data:
+  identifier: '00425'
+  term: primary indication
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 139:2007
+    publication_id: OIML R139:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.3.1
+    link: https://www.oiml.org/en/files/pdf_R/r139-e07.pdf
+    g18_entry: '02010'
+    definition: indication (displayed, printed or memorized) which is subject to Indications
+      other than primary indications are legal metrology control com ind
+    notes:
+    - monly referred to as secondary ications.
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 140:2007
+    publication_id: OIML R140:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.2.1
+    link: https://www.oiml.org/en/files/pdf_R/r140-e07.pdf
+    g18_entry: '02067'
+    definition: indication (displayed, printed or memorized) which is subject to Indications
+      other than primary indications are legal metrological control com ind
+    notes:
+    - monly referred to as secondary ications.
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 49-1:2006
+    publication_id: OIML R049-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: 2.2.3
+    link: https://www.oiml.org/en/files/pdf_R/r049-1-e06.pdf
+    g18_entry: '00425'
+    definition: indication (displayed, printed or memorized) which is subject to legal
+      metrological control
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 81:1998
+    publication_id: OIML R081:1998
+    tc_sc: ''
+    year: 1998
+    clause: '3.34'
+    link: https://www.oiml.org/en/files/pdf_R/r081-e98.pdf
+    g18_entry: '01043'
+    definition: an indication (displayed, printed or memorized) that is subject to
+      Indications other than primary indications are legal metrology control c i
+    notes:
+    - ommonly referred to as secondary ndications.
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 4b788cc6-2e4d-5584-b8af-46cb981fcafb
+schema_version: '3'
+related: []

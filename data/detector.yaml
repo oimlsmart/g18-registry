@@ -1,0 +1,83 @@
+---
+data:
+  identifier: '01052'
+  term: detector
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 82:2006
+    publication_id: OIML R082:2006
+    tc_sc: ''
+    year: 2006
+    clause: '3.8'
+    link: https://www.oiml.org/en/files/pdf_R/r082-e06.pdf
+    g18_entry: '01052'
+    definition: device that can respond to eluted sample components in the carrier
+      gas emerging from the column
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 83:2006
+    publication_id: OIML R083:2006
+    tc_sc: ''
+    year: 2006
+    clause: '3.7'
+    link: https://www.oiml.org/en/files/pdf_R/r083-e06.pdf
+    g18_entry: '01067'
+    definition: device that can respond to eluted sample components in the carrier
+      gas emerging from the gas chromatographic column and that is contained within
+      the mass spectrometer in a GC/MS system
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 116:2006
+    publication_id: OIML R116:2006
+    tc_sc: ''
+    year: 2006
+    clause: '3.10'
+    link: https://www.oiml.org/en/files/pdf_R/r116-e06.pdf
+    g18_entry: '01523'
+    definition: device that responds to light signals passing through the exit slit
+      of the polychromator or scanning monochromator of the ICP system
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 123:1997
+    publication_id: OIML R123:1997
+    tc_sc: ''
+    year: 1997
+    clause: '3.3'
+    link: https://www.oiml.org/en/files/pdf_R/r123-e97.pdf
+    g18_entry: '01607'
+    definition: device that converts the energy absorbed from the X-rays emitted by
+      a sample into electric signals
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 112:1994
+    publication_id: OIML R112:1994
+    tc_sc: ''
+    year: 1994
+    clause: '2.7'
+    link: https://www.oiml.org/en/files/pdf_R/r112-e94.pdf
+    g18_entry: '01479'
+    definition: the device that responds to the presence of sample components eluting
+      from the column
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 113:1994
+    publication_id: OIML R113:1994
+    tc_sc: ''
+    year: 1994
+    clause: '3.7'
+    link: https://www.oiml.org/en/files/pdf_R/r113-e94.pdf
+    g18_entry: '01494'
+    definition: a device that responds to sample components in the eluate of the column
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 5d074fff-e72f-593a-b3e5-8768de231a5c
+schema_version: '3'
+related: []

@@ -1,0 +1,26 @@
+---
+data:
+  identifier: '01928'
+  term: mechanical output constant (mechanical gas meters only)
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 137-1:2006
+    publication_id: OIML R137-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: 2.1.5 T
+    link: https://www.oiml.org/en/files/pdf_R/r137-1-e06.pdf
+    g18_entry: '01928'
+    definition: value of the quantity corresponding to one complete revolution of
+      the shaft of the mechanical output. This value is determined by multiplying
+      the value of the quantity corresponding to one complete revolution of the test
+      element by the transmission ratio of the indicating device to this shaft. he
+      mechanical output is an element to drive an ancillary device
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 64f6cbd0-b03a-5b77-a20a-7e78396fd791
+schema_version: '3'
+related: []

@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '02238'
+  term: lower limit of accurate capacity
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 71:2008
+    publication_id: OIML R071:2008
+    tc_sc: ''
+    year: 2008
+    clause: '3.14'
+    link: https://www.oiml.org/en/files/pdf_R/r071-e08.pdf
+    g18_entry: '02238'
+    definition: capacity below which the maximum permissible error is exceeded, taking
+      account of the shape of the tank and the calibration method
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: a9e8e596-ad11-5bf4-bd84-c4d51b15d8f7
+schema_version: '3'
+related: []

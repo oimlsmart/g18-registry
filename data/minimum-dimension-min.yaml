@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '01715'
+  term: minimum dimension (min)
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 129:2000
+    publication_id: OIML R129:2000
+    tc_sc: ''
+    year: 2000
+    clause: '2.16'
+    link: https://www.oiml.org/en/files/pdf_R/r129-e00.pdf
+    g18_entry: '01715'
+    definition: value of the dimension for each axis below which the measuring result
+      may be subject to an excessive relative error
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 3a09fc16-2078-5b8b-a4a9-d114dd50df10
+schema_version: '3'
+related: []

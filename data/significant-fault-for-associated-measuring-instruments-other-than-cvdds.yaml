@@ -1,0 +1,28 @@
+---
+data:
+  identifier: '02084'
+  term: significant fault (for associated measuring instruments other than CVDDs)
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 140:2007
+    publication_id: OIML R140:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.2.17.2
+    link: https://www.oiml.org/en/files/pdf_R/r140-e07.pdf
+    g18_entry: '02084'
+    definition: fault, the magnitude of which is greater than half of the magnitude
+      of the maximum permissible error for the relevant measurand. However a fault,
+      the magnitude of which is smaller than 2 scale intervals of the associated measuring
+      instrument is never considered as a significant fault
+    notes:
+    - for associated measuring instruments other than CVDDs this concept applies to
+      the whole associated measuring instrument, or to the electronic part only, according
+      to what is subject to the test.
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 7e19f5a8-f689-5d18-96c9-3c0a43f9f107
+schema_version: '3'
+related: []

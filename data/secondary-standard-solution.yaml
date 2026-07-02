@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '00698'
+  term: secondary standard solution
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 56:1981
+    publication_id: OIML R056:1981
+    tc_sc: ''
+    year: 1981
+    clause: 1.1.2
+    link: https://www.oiml.org/en/files/pdf_R/r056-e81.pdf
+    g18_entry: '00698'
+    definition: standard solution of which the conductivity is determined by means
+      of the comparison method. The constant of the cell is determined by means of
+      an indirect method, using primary standard solutions
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 3e3c8cbc-b770-5cfa-90e0-c13fab8a58e0
+schema_version: '3'
+related: []

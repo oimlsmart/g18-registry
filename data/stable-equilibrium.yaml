@@ -1,0 +1,37 @@
+---
+data:
+  identifier: '00634'
+  term: stable equilibrium
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 107-1:2007
+    publication_id: OIML R107-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.3.5
+    link: https://www.oiml.org/en/files/pdf_R/r107-1-e07.pdf
+    g18_entry: '01367'
+    definition: condition of the instrument such that the printed or stored weight
+      values of each separate weighing test show no more than two adjacent values,
+      with one of them being the final weight value
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 51-1:2006
+    publication_id: OIML R051-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.3.2.5
+    link: https://www.oiml.org/en/files/pdf_R/r051-1-e06.pdf
+    g18_entry: '00634'
+    definition: condition of the instrument such that the printed or stored weighing
+      values show no more than two adjacent values with one of them being the final
+      weight value
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 38751674-a358-5a88-afe5-2e66088a0900
+schema_version: '3'
+related: []

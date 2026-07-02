@@ -1,0 +1,99 @@
+---
+data:
+  identifier: '00647'
+  term: sensitivity
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 51-1:2006
+    publication_id: OIML R051-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.3.5
+    link: https://www.oiml.org/en/files/pdf_R/r051-1-e06.pdf
+    g18_entry: '00647'
+    definition: 'For a given value of the measured mass, the quotient of the change
+      of the observed variable, stem:[l], and the corresponding change of the measured
+      mass, stem:[M]: stem:[k] = stem:[Delta l/Delta M]'
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 76-1:2006
+    publication_id: OIML R076-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.4.1
+    link: https://www.oiml.org/en/files/pdf_R/r076-1-e06.pdf
+    g18_entry: '00957'
+    definition: for a given value of the measured mass, the quotient of the change,
+      stem:[Delta]l, of the observed variable, l, and the corresponding change, stem:[Delta]m,
+      of the measured mass, m
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 82:2006
+    publication_id: OIML R082:2006
+    tc_sc: ''
+    year: 2006
+    clause: '3.13'
+    link: https://www.oiml.org/en/files/pdf_R/r082-e06.pdf
+    g18_entry: '01057'
+    definition: 'Output signal per unit mass of the sample component of interest Peak
+      area is independent of broadening effects in the carrier gas. It is expressed
+      in either one of the two following ways: 3.13.1 With a concentration-dependent
+      detector, the instrument sensitivity, S, (…) 3.13.2 With a mass flow rate dependent
+      detector, the instrument sensitivity, S, (…)'
+    notes:
+    - caused by variables such as column temperature, eluent flow rate, and rate of
+      sample injection. From this standpoint, therefore, the peak area is a more satisfactor
+      analytical parameter than peak height. On the other hand, peak heights are more
+      easily measured and, for narrow peaks, more accurately determined. Many modern
+      chromatographic instruments are equipped with electronic integrators that provide
+      preci measurements of relative peak areas.
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 60:2000
+    publication_id: OIML R060:2000
+    tc_sc: ''
+    year: 2000
+    clause: 2.4.13
+    link: https://www.oiml.org/en/files/pdf_R/r060-e00.pdf
+    g18_entry: '00740'
+    definition: ratio of a change in response (output) of a load cell to a corresponding
+      change in the stimulus (load applied)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 113:1994
+    publication_id: OIML R113:1994
+    tc_sc: ''
+    year: 1994
+    clause: '3.12'
+    link: https://www.oiml.org/en/files/pdf_R/r113-e94.pdf
+    g18_entry: '01499'
+    definition: 'the output signal of a detector per unit mass of eluted sample components
+      of interest and is either one of the following categories: 3.12.1 Concentration-dependent
+      detector Expressed in A · mL · g–1 or V · mL · g–1, and by the equation: where
+      S = sensitivity P = the integrated peak area (A · s or V · s) F = the carrier
+      gas flow rate (mL · s–1) M = mass of the sample in the carrier gas (g) 3.12.2
+      Mass-flow-rate-dependent detector Expressed in A · s · g–1 or V · s · g–1, and
+      by the equation: where the symbols are the same as those defined in 3.12.1.'
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 53:1982
+    publication_id: OIML R053:1982
+    tc_sc: ''
+    year: 1982
+    clause: T
+    link: https://www.oiml.org/en/files/pdf_R/r053-e82.pdf
+    g18_entry: '00685'
+    definition: quotient of the increase in value of displacement of the reference
+      point and the corresponding increase in pressure
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 4290b0d4-6c45-5f71-bafe-5bb2f896bb8d
+schema_version: '3'
+related: []

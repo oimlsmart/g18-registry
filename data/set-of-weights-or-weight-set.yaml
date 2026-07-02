@@ -1,0 +1,28 @@
+---
+data:
+  identifier: '01461'
+  term: set of weights or weight set
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 111-1:2004
+    publication_id: OIML R111-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.13'
+    link: https://www.oiml.org/en/files/pdf_R/r111-1-e04.pdf
+    g18_entry: '01461'
+    definition: series or group of weights, usually presented in a case so arranged
+      to make possible any weighing of all loads between the mass of the weight with
+      the smallest nominal value and the sum ofthe masses of all weights of the series
+      with a progression in which the mass of the smallest nominal value weight constitutes
+      the smallest step series. The weights have similar metrological characteristics
+      and the same or different nominal values as defined in 4.3 of this Recommendation,
+      and belong to the same accuracy class
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 1a6447e1-1bda-534d-943d-22525d91cf2e
+schema_version: '3'
+related: []

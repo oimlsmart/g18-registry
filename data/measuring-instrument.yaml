@@ -1,0 +1,79 @@
+---
+data:
+  identifier: '00079'
+  term: measuring instrument
+  kind: defined_in_vim
+  official_concept:
+    source: urn:oiml:pub:v:2:1993
+    id: '4.1'
+    url: https://oimlsmart.github.io/vocab/vim-1993/concept/4.1
+  publications:
+  - publication: OIML D 31:2008
+    publication_id: OIML D031:2008
+    tc_sc: ''
+    year: 2008
+    clause: 3.1.33
+    link: https://www.oiml.org/en/files/pdf_D/d031-e08.pdf
+    g18_entry: '02200'
+    definition: device intended to be used to make measurements, alone or in conjunction
+      with supplementary device(s)
+    notes:
+    - "[VIM:1993, 4.1]"
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 136-1:2004
+    publication_id: OIML R136-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: T.1.2
+    link: https://www.oiml.org/en/files/pdf_R/r136-1-e04.pdf
+    g18_entry: '01881'
+    definition: instrument intended to be used to make measurements, alone or in conjunction
+      with supplementary device(s)
+    notes:
+    - "[VIM:1993, 4.1]"
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML B 3:2003
+    publication_id: OIML B003:2003
+    tc_sc: ''
+    year: 2003
+    clause: '2.1'
+    link: https://www.oiml.org/en/files/pdf_B/b003-e03.pdf
+    g18_entry: '00079'
+    definition: device intended to be used to make measurements, alone or in conjunction
+      with supplementary device(s) (VIM:1993, 4.1)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+    related:
+    - type: see
+      ref: &1
+        source: urn:oiml:pub:v:2:1993
+        id: '4.1'
+  - publication: OIML D 15:1986
+    publication_id: OIML D015:1986
+    tc_sc: ''
+    year: 1986
+    clause: '2.1'
+    link: https://www.oiml.org/en/files/pdf_D/d015-e86.pdf
+    g18_entry: '00258'
+    definition: a device intended to make a measurement, alone or in conjunction with
+      other equipment [VIM, 4.01]
+    notes:
+    - 'In this Document, the term measuring instrument is used as a common denomination
+      covering: material measures, measuring instruments, measuring transducers and
+      measuring systems.'
+    consistency: pending
+    consistency_reason: ''
+    related:
+    - type: see
+      ref:
+        source: urn:oiml:pub:v:2:1993
+        id: '4.1'
+status: current
+id: a5950950-cffd-5d9a-8642-88797e5c1ba1
+schema_version: '3'
+related:
+- type: see
+  ref: *1

@@ -1,0 +1,25 @@
+---
+data:
+  identifier: '01875'
+  term: maximum permissible error (of a measuring instrument); limits of permissible
+    error (of a measuring instrument)
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 135:2004
+    publication_id: OIML R135:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.36'
+    link: https://www.oiml.org/en/files/pdf_R/r135-e04.pdf
+    g18_entry: '01875'
+    definition: extreme value of an error permitted by specifications, regulations,
+      etc. for a given measuring instrument
+    notes:
+    - "[VIM, 5.21]"
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 48dc6b16-4a74-58b9-a984-9e5ca7b61a86
+schema_version: '3'
+related: []

@@ -1,0 +1,22 @@
+---
+data:
+  identifier: '02111'
+  term: field of view
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 141:2008
+    publication_id: OIML R141:2008
+    tc_sc: ''
+    year: 2008
+    clause: '2.7'
+    link: https://www.oiml.org/en/files/pdf_R/r141-e08.pdf
+    g18_entry: '02111'
+    definition: solid angle within which the thermogram is formed
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 86d30850-cfa3-5e3d-8af8-caa1b31f174f
+schema_version: '3'
+related: []

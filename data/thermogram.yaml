@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '02106'
+  term: thermogram
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 141:2008
+    publication_id: OIML R141:2008
+    tc_sc: ''
+    year: 2008
+    clause: '2.2'
+    link: https://www.oiml.org/en/files/pdf_R/r141-e08.pdf
+    g18_entry: '02106'
+    definition: multiple-element, two-dimensional image, each element being attributed
+      a color, or a color gradation, or a screen brightness level, which is determined
+      in correspondence with a conventional radiation scale
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 55550fd7-9380-5121-be82-0e37ad3878c6
+schema_version: '3'
+related: []

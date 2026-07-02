@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '00156'
+  term: primary standard
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML D 22:1991
+    publication_id: OIML D022:1991
+    tc_sc: ''
+    year: 1991
+    clause: '3.11'
+    link: https://www.oiml.org/en/files/pdf_D/d022-e91.pdf
+    g18_entry: '00156'
+    definition: a measurement standard which has the highest metrological qualities
+      in a specific field
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: d51463c9-8934-5d8c-9073-9799438d6737
+schema_version: '3'
+related: []

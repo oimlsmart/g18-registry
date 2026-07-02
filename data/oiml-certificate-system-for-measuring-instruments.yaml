@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '00088'
+  term: OIML certificate system for measuring instruments
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML B 3:2003
+    publication_id: OIML B003:2003
+    tc_sc: ''
+    year: 2003
+    clause: '2.10'
+    link: https://www.oiml.org/en/files/pdf_B/b003-e03.pdf
+    g18_entry: '00088'
+    definition: voluntary system for issuing, registering, and using OIML Certificates
+      of Conformity
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: ff311971-9887-5840-b9f6-8dabad9bdd7d
+schema_version: '3'
+related: []

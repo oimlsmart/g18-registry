@@ -1,0 +1,224 @@
+:root {
+  --blue: #004996;
+  --blue-soft: #005a9c;
+  --orange: #e57f2a;
+  --gray-bg: #f5f6f8;
+  --gray-line: #d8dde3;
+  --gray-text: #4b5563;
+  --green: #15803d;
+  --amber: #b45309;
+  --red: #b91c1c;
+  --maxw: 1080px;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  margin: 0;
+  background: var(--gray-bg);
+  color: #111827;
+  line-height: 1.5;
+}
+
+a { color: var(--blue); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+code {
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, monospace;
+  background: #eef0f3;
+  padding: 0.05em 0.35em;
+  border-radius: 3px;
+  font-size: 0.85em;
+}
+
+.container { max-width: var(--maxw); margin: 0 auto; padding: 0 1em; }
+
+/* Header */
+.site-header {
+  background: var(--blue);
+  color: #fff;
+  padding: 0.5em 0;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+.site-header a { color: #fff; }
+.header-bar {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1em;
+  flex-wrap: wrap;
+}
+.brand {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5em;
+  font-weight: 600;
+  font-size: 1.05em;
+}
+.brand-mark {
+  background: var(--orange);
+  color: #fff;
+  padding: 0.15em 0.45em;
+  border-radius: 3px;
+  letter-spacing: 0.05em;
+  font-size: 0.95em;
+}
+.brand-sub { opacity: 0.85; }
+.site-nav { display: flex; gap: 1.2em; }
+.site-nav a { opacity: 0.9; }
+.site-nav a:hover { opacity: 1; }
+
+/* Main */
+.main { padding: 1.5em 1em 3em; }
+
+.page-head .breadcrumb {
+  font-size: 0.85em;
+  color: var(--gray-text);
+  margin-bottom: 0.3em;
+}
+.page-head .breadcrumb a { color: var(--gray-text); }
+.page-head h1 {
+  margin: 0 0 0.2em;
+  font-size: 1.9em;
+  color: var(--blue);
+}
+.lede { font-size: 1.05em; color: var(--gray-text); margin-top: 0; }
+
+/* Cards */
+.card {
+  background: #fff;
+  border: 1px solid var(--gray-line);
+  border-radius: 6px;
+  padding: 1.2em 1.4em;
+  margin: 1.2em 0;
+}
+.card h2 {
+  margin-top: 0;
+  font-size: 1.25em;
+  color: var(--blue);
+  border-bottom: 1px solid var(--gray-line);
+  padding-bottom: 0.3em;
+  margin-bottom: 0.7em;
+}
+.card h3 {
+  font-size: 1.05em;
+  color: var(--blue);
+  margin-bottom: 0.4em;
+}
+.card-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1em;
+  flex-wrap: wrap;
+}
+.card-head h2 { margin: 0; border: none; padding: 0; }
+.inline-check { font-size: 0.85em; color: var(--gray-text); }
+
+/* Hero */
+.hero h1 { font-size: 2.1em; color: var(--blue); margin-bottom: 0.2em; }
+.hero .lede { font-size: 1.1em; }
+
+/* Stats */
+.grid { display: grid; gap: 1em; }
+.grid-4 { grid-template-columns: repeat(4, 1fr); }
+.stat-card {
+  display: block;
+  background: #fff;
+  border: 1px solid var(--gray-line);
+  border-radius: 6px;
+  padding: 1em;
+  text-align: center;
+  color: inherit;
+}
+.stat-card:hover { border-color: var(--blue); text-decoration: none; }
+.stat-value { font-size: 2em; font-weight: 600; color: var(--blue); }
+.stat-label { font-size: 0.85em; color: var(--gray-text); }
+
+@media (max-width: 720px) {
+  .grid-4 { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* Tables */
+table { width: 100%; border-collapse: collapse; font-size: 0.93em; }
+th, td { text-align: left; padding: 0.45em 0.6em; vertical-align: top; border-bottom: 1px solid var(--gray-line); }
+th { background: #f3f5f7; color: var(--gray-text); font-weight: 600; font-size: 0.85em; text-transform: uppercase; letter-spacing: 0.04em; }
+tr:hover { background: #fafbfc; }
+.num { text-align: right; font-variant-numeric: tabular-nums; }
+.term-name { font-weight: 500; }
+
+/* Badges */
+.badge {
+  display: inline-block;
+  padding: 0.1em 0.5em;
+  border-radius: 12px;
+  font-size: 0.78em;
+  background: #eef0f3;
+  color: var(--gray-text);
+  white-space: nowrap;
+}
+.badge-ok      { background: #dcfce7; color: var(--green); }
+.badge-partial { background: #fef3c7; color: var(--amber); }
+.badge-ko      { background: #fee2e2; color: var(--red); }
+.badge-pending { background: #eef0f3; color: var(--gray-text); }
+
+/* Kind labels */
+.kind {
+  display: inline-block;
+  padding: 0.08em 0.5em;
+  border-radius: 3px;
+  font-size: 0.75em;
+  font-weight: 600;
+  background: #e0e7ee;
+  color: var(--blue);
+  letter-spacing: 0.03em;
+}
+.kind-defined_in_vim  { background: #dbeafe; color: #1e40af; }
+.kind-defined_in_viml { background: #dbeafe; color: #1e40af; }
+.kind-undefined       { background: #f3f4f6; color: var(--gray-text); }
+
+/* Definition cells */
+.definition { max-width: 540px; }
+.def-text { white-space: pre-wrap; }
+.def-notes { margin-top: 0.3em; font-size: 0.85em; color: var(--gray-text); font-style: italic; }
+.def-edges { margin-top: 0.3em; font-size: 0.8em; color: var(--gray-text); }
+.def-edges code { background: transparent; padding: 0; font-size: 0.95em; }
+
+.g18-ref { font-size: 0.75em; color: var(--gray-text); }
+.pdf-link { font-size: 0.78em; display: inline-block; margin-left: 0.5em; }
+.external { font-size: 0.92em; }
+
+/* Lists */
+.related-list { padding-left: 1.2em; }
+.related-list li { margin-bottom: 0.3em; }
+.pub-list { padding-left: 1.2em; }
+.pub-list li { margin-bottom: 0.4em; }
+
+/* Filters */
+.filter-form { display: flex; gap: 1.2em; flex-wrap: wrap; align-items: center; margin-top: 0.4em; }
+.filter-form input[type="search"] { padding: 0.3em 0.5em; min-width: 16em; border: 1px solid var(--gray-line); border-radius: 3px; }
+.filter-form label { font-size: 0.9em; color: var(--gray-text); }
+.count-line { font-size: 0.85em; color: var(--gray-text); margin-top: 0.6em; }
+
+/* Divergence */
+.row-divergent { background: #fffbeb; }
+.row-divergent:hover { background: #fef3c7; }
+divergence-count, .divergence-count { font-weight: 600; color: var(--amber); }
+.warn { color: var(--amber); font-weight: 500; }
+.note { background: #f0f7ff; border-color: #c5d8ec; }
+.muted { color: var(--gray-text); }
+
+/* Leaderboard */
+.leaderboard-table td:nth-child(1), .leaderboard-table th:nth-child(1) { width: 3em; text-align: right; }
+
+/* Footer */
+.site-footer {
+  background: #1f2937;
+  color: #d1d5db;
+  padding: 1.5em 0;
+  margin-top: 3em;
+  font-size: 0.85em;
+}
+.site-footer a { color: #93c5fd; }
+.site-footer p { margin: 0; }

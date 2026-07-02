@@ -1,0 +1,22 @@
+---
+data:
+  identifier: '01379'
+  term: printout
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 107-1:2007
+    publication_id: OIML R107-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.4.2.3
+    link: https://www.oiml.org/en/files/pdf_R/r107-1-e07.pdf
+    g18_entry: '01379'
+    definition: hardcopy of the weighing result produced from a printer
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: e2260cd5-0254-5cdd-9216-91f4870f4d0f
+schema_version: '3'
+related: []

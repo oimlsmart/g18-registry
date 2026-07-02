@@ -1,0 +1,22 @@
+---
+data:
+  identifier: '00743'
+  term: temperature effect on minimum dead load output
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 60:2000
+    publication_id: OIML R060:2000
+    tc_sc: ''
+    year: 2000
+    clause: 2.4.16
+    link: https://www.oiml.org/en/files/pdf_R/r060-e00.pdf
+    g18_entry: '00743'
+    definition: change in minimum dead load output due to a change in ambient temperature
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 1e763ad6-d5f7-5d6e-919e-ca9e9978d071
+schema_version: '3'
+related: []

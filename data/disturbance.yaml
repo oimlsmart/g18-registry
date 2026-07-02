@@ -1,0 +1,356 @@
+---
+data:
+  identifier: '00238'
+  term: disturbance
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 80-1:2009
+    publication_id: OIML R080-1:2009
+    tc_sc: ''
+    year: 2009
+    clause: '2.47'
+    link: https://www.oiml.org/en/files/pdf_R/r080-1-e09.pdf
+    g18_entry: '02286'
+    definition: influence quantity whose value lies within the limits defined by the
+      relevant requirements, but outside the established rated operating conditions
+      for the tank
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 143:2009
+    publication_id: OIML R143:2009
+    tc_sc: ''
+    year: 2009
+    clause: '2.20'
+    link: https://www.oiml.org/en/files/pdf_R/r143-e09.pdf
+    g18_entry: '02146'
+    definition: influence quantity having a value within the limits specified in (OIML
+      D 11:2004, 13.2) this Recommendation but outside the specified rated operating
+      conditions of a measuring instrument
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 85-1:2008
+    publication_id: OIML R085-1:2008
+    tc_sc: ''
+    year: 2008
+    clause: '3.25'
+    link: https://www.oiml.org/en/files/pdf_R/r085-1-e08.pdf
+    g18_entry: '02323'
+    definition: influence quantity having a value within specified limits, but outside
+      the specified rated operating conditions of the ALG
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 99-1:2008
+    publication_id: OIML R099-1:2008
+    tc_sc: ''
+    year: 2008
+    clause: '3.27'
+    link: https://www.oiml.org/en/files/pdf_R/r099-1-e08.pdf
+    g18_entry: '02360'
+    definition: influence quantity having a value within the limits specified in this
+      Recommendation but outside the rated operating conditions ofthe instrument
+    notes:
+    - Adapted from OIML D 11:2004, 3.13.2.
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 35-1:2007
+    publication_id: OIML R035-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: 2.3.3
+    link: https://www.oiml.org/en/files/pdf_R/r035-1-e07.pdf
+    g18_entry: '00376'
+    definition: influence quantity having a value within the limits specified in this
+      Recommendation, but outside the specified rated operating conditions of the
+      instrument
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 107-1:2007
+    publication_id: OIML R107-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.5.1.2
+    link: https://www.oiml.org/en/files/pdf_R/r107-1-e07.pdf
+    g18_entry: '01398'
+    definition: "[O influence quantity having a value within the limits specified
+      in this Recommendation but outside the specified rated operating conditions
+      of the instrument IML D 11: 2004, 3.13.2]"
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 117-1:2007
+    publication_id: OIML R117-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.d.3
+    link: https://www.oiml.org/en/files/pdf_R/r117-1-e07.pdf
+    g18_entry: '01554'
+    definition: influence quantity having a value outside the specified rated operating
+      conditions of the measuring system. (For electronic measuring systems only)
+      Ifthe rated operating conditions are not specified for an influence quantity,
+      it is a disturbance
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 139:2007
+    publication_id: OIML R139:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.4.3
+    link: https://www.oiml.org/en/files/pdf_R/r139-e07.pdf
+    g18_entry: '02024'
+    definition: influence quantity having a value outside the specified rated operating
+      conditions of the measuring system
+    notes:
+    - An influence quantity is a disturbance if for that influence quantity the rated
+      operating conditions are not specified.
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 140:2007
+    publication_id: OIML R140:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.3.3
+    link: https://www.oiml.org/en/files/pdf_R/r140-e07.pdf
+    g18_entry: '02094'
+    definition: influence quantity outside the specified rated operating conditions
+      of the measuring system
+    notes:
+    - An influence quantity is a disturbance if for that influence quantity the rated
+      operating conditions are not specified.
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 49-1:2006
+    publication_id: OIML R049-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: 2.4.3
+    link: https://www.oiml.org/en/files/pdf_R/r049-1-e06.pdf
+    g18_entry: '00451'
+    definition: influence quantity having a value within the limits specified in this
+      Recommendation, but outside the specified rated operating conditions of the
+      water meter
+    notes:
+    - An influence quantity is a disturbance if for that influence quantity the rated
+      operating conditions are not specified.
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 51-1:2006
+    publication_id: OIML R051-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.5.1.2
+    link: https://www.oiml.org/en/files/pdf_R/r051-1-e06.pdf
+    g18_entry: '00666'
+    definition: influence quantity having a value within the limits specified in this
+      Recommendation but outside the rated operating conditions ofthe instrument
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 76-1:2006
+    publication_id: OIML R076-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.6.1.2
+    link: https://www.oiml.org/en/files/pdf_R/r076-1-e06.pdf
+    g18_entry: '00988'
+    definition: influence quantity having a value within the limits specified in this
+      Recommendation, but outside the specified rated operating conditions of the
+      instrument
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 137-1:2006
+    publication_id: OIML R137-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: 2.4.3
+    link: https://www.oiml.org/en/files/pdf_R/r137-1-e06.pdf
+    g18_entry: '01969'
+    definition: influence quantity having a value within the limits specified in this
+      Recommendation, but outside the specified rated operating conditions of the
+      gas meter
+    notes:
+    - 1. An influence quantity is a disturbance if for that influence quantity the
+      rated operating conditions are not specified.
+    - 2. (OIML D 11, 3.13.2)
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML D 11:2004
+    publication_id: OIML D011:2004
+    tc_sc: ''
+    year: 2004
+    clause: 3.13.2
+    link: https://www.oiml.org/en/files/pdf_D/d011-e04.pdf
+    g18_entry: '00238'
+    definition: influence quantity having a value within the limits specified in An
+      influence quantity is a disturbance if the the relevant Recommendation, but
+      outside the specified rated operating conditions of a measuring instrument
+    notes:
+    - rated operating conditions for that influence quantity are not specified.
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 61-1:2004
+    publication_id: OIML R061-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: T.5.1.2
+    link: https://www.oiml.org/en/files/pdf_R/r061-1-e04.pdf
+    g18_entry: '00811'
+    definition: influence quantity having a value within the limits specified in this
+      Recommendation but outside the rated operating conditions ofthe filling instrument
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 136-1:2004
+    publication_id: OIML R136-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: T.5.1.2
+    link: https://www.oiml.org/en/files/pdf_R/r136-1-e04.pdf
+    g18_entry: '01917'
+    definition: influence quantity having a value within the limits specified in this
+      Recommendation but outside the rated operating conditions ofthe instrument
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 134:2003
+    publication_id: OIML R134:2003
+    tc_sc: ''
+    year: 2003
+    clause: T.5.1.2
+    link: https://www.oiml.org/en/files/pdf_R/r134-e03.pdf
+    g18_entry: '01830'
+    definition: influence quantity having a value that falls within the limits specified
+      in this Recommendation but that falls outside the rated operating conditions
+      of the instrument
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 75-1:2002
+    publication_id: OIML R075-1:2002
+    tc_sc: ''
+    year: 2002
+    clause: '4.8'
+    link: https://www.oiml.org/en/files/pdf_R/r075-1-e02.pdf
+    g18_entry: '00858'
+    definition: influence quantity having a value outside the rated operating conditions
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 60:2000
+    publication_id: OIML R060:2000
+    tc_sc: ''
+    year: 2000
+    clause: 2.5.1.1
+    link: https://www.oiml.org/en/files/pdf_R/r060-e00.pdf
+    g18_entry: '00746'
+    definition: influence quantity having a value within the limits specified in this
+      Recommendation, but outside the specified rated operating conditions of the
+      load cell
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 129:2000
+    publication_id: OIML R129:2000
+    tc_sc: ''
+    year: 2000
+    clause: 2.29.2
+    link: https://www.oiml.org/en/files/pdf_R/r129-e00.pdf
+    g18_entry: '01730'
+    definition: an influence quantity having a value within the limits specified An
+      influence quantity is a disturbance if for in this Recommendation, but outside
+      the specified rated operating conditions of the measuring instrument
+    notes:
+    - that influence quantity the rated operating conditions are not specified.
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 81:1998
+    publication_id: OIML R081:1998
+    tc_sc: ''
+    year: 1998
+    clause: '3.27'
+    link: https://www.oiml.org/en/files/pdf_R/r081-e98.pdf
+    g18_entry: '01036'
+    definition: an influence quantity having a value within the limits specified in
+      this Recommendation, but outside the specified rated operating conditions of
+      the measuring system.
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 125:1998
+    publication_id: OIML R125:1998
+    tc_sc: ''
+    year: 1998
+    clause: T.29.2
+    link: https://www.oiml.org/en/files/pdf_R/r125-e98.pdf
+    g18_entry: '01648'
+    definition: an influence quantity having a value within the limits specified An
+      influence quantity is a disturbance if for in this Recommendation, but outside
+      the specified rated operating conditions of the measuring instrument
+    notes:
+    - that influence quantity the rated operating conditions are not specified.
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 50-1:1997
+    publication_id: OIML R050-1:1997
+    tc_sc: ''
+    year: 1997
+    clause: T.6.1.2
+    link: https://www.oiml.org/en/files/pdf_R/r050-1-e97.pdf
+    g18_entry: '00532'
+    definition: an influence quantity having a value within the limits specified inthis
+      Recommendation but outside the rated operating conditions of the belt weigher
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 106-1:1997
+    publication_id: OIML R106-1:1997
+    tc_sc: ''
+    year: 1997
+    clause: T.5.1.2
+    link: https://www.oiml.org/en/files/pdf_R/r106-1-e97.pdf
+    g18_entry: '01303'
+    definition: an influence quantity having a value that falls within the limits
+      specified in this International Recommendation but that falls outside the rated
+      operating conditions of the instrument
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 124:1997
+    publication_id: OIML R124:1997
+    tc_sc: ''
+    year: 1997
+    clause: '5'
+    link: https://www.oiml.org/en/files/pdf_R/r124-e97.pdf
+    g18_entry: '01610'
+    definition: "(D an influence quantity having a value within the limits specified
+      inthe appropriate International Recommendation, but outside the specified rated
+      operating conditions of the measuring instrument 11 clause T.12.2)."
+    notes:
+    - An influence quantity is a disturbance if for that influence quantity the rated
+      operating conditions are not specified.
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 105:1993
+    publication_id: OIML R105:1993
+    tc_sc: ''
+    year: 1993
+    clause: T.24.2
+    link: https://www.oiml.org/en/files/pdf_R/r105-e93.pdf
+    g18_entry: '01241'
+    definition: an influence quantity having a value within the limits specified An
+      influence quantity is a disturbance if, for hereafter in this Recommendation,
+      but outside the specified rated operating conditions of the measuring system
+    notes:
+    - that influence quantity, the rated operating conditions are not specified.
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: bf7346a0-f1b4-51f8-baf2-24cbdf326bd6
+schema_version: '3'
+related: []

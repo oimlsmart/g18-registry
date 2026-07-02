@@ -1,0 +1,35 @@
+---
+data:
+  identifier: '00901'
+  term: terminal
+  kind: defined_in_viml
+  official_concept:
+    source: urn:oiml:pub:v:1:2022
+    id: '5.10'
+    url: https://oimlsmart.github.io/vocab/viml-2022/concept/5.10
+  publications:
+  - publication: OIML R 76-1:2006
+    publication_id: OIML R076-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.2.2.5
+    link: https://www.oiml.org/en/files/pdf_R/r076-1-e06.pdf
+    g18_entry: '00901'
+    definition: digital device that has one or more keys (or mouse, touch-screen,
+      etc.) to operate the instrument, and a display to provide the weighing results
+      transmitted via the digital interface of a weighing module or an analog data
+      processing device
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+    related:
+    - type: see
+      ref: &1
+        id: '5.10'
+        source: urn:oiml:pub:v:1:2022
+status: current
+id: '05297317-6ba2-512d-99fd-ea622da6fc33'
+schema_version: '3'
+related:
+- type: see
+  ref: *1

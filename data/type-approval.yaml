@@ -1,0 +1,101 @@
+---
+data:
+  identifier: '00096'
+  term: type approval
+  kind: defined_in_viml
+  official_concept:
+    source: urn:oiml:pub:v:1:2000
+    id: '2.6'
+    url: https://oimlsmart.github.io/vocab/viml-2000/concept/2.6
+  publications:
+  - publication: OIML D 29:2008
+    publication_id: OIML D029:2008
+    tc_sc: ''
+    year: 2008
+    clause: '3'
+    link: https://www.oiml.org/en/files/pdf_D/d029-e08.pdf
+    g18_entry: '02155'
+    definition: '- G.3-2 decision of legal relevance, based on the evaluation report
+      that For the purpose of this Document, the "type the type of a measuring instrument
+      complies with the relevant statutory requirements and is suitable for use in
+      the regulated area in such a way that it is expected to provide reliable measurement
+      results over a defined period of time'
+    notes:
+    - approval" is named "type evaluation". Consequently "Type evaluation" in the
+      sense of this Document includes examination, tests and decision.
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML B 10-1:2004
+    publication_id: OIML B010-1:2004
+    tc_sc: TC 3/SC 2
+    year: 2004
+    clause: '3.5'
+    link: https://www.oiml.org/en/files/pdf_B/b010-1-e04.pdf
+    g18_entry: '00096'
+    definition: "(V decision of legal relevance, based on the evaluation report, that
+      the type of a measuring instrument complies with the relevant statutory requirements
+      and is suitable for use in the regulated area in such a way that it is expected
+      to provide reliable measurement results over a defined period of time IML 2.6)"
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML D 9:2004
+    publication_id: OIML D009:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.10'
+    link: https://www.oiml.org/en/files/pdf_D/d009-e04.pdf
+    g18_entry: '00192'
+    definition: decision of legal relevance, based on the evaluation report, that
+      the type of measuring instrument complies with the respective statutory requirements
+      and is suitable for use in the regulated area in such a way that it is expected
+      to provide reliable measurement results over a defined period of time [VIML,
+      2.6]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+    related:
+    - type: see
+      ref: &1
+        source: urn:oiml:pub:v:1:2000
+        id: '2.6'
+  - publication: OIML R 111-1:2004
+    publication_id: OIML R111-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: 2.17.2
+    link: https://www.oiml.org/en/files/pdf_R/r111-1-e04.pdf
+    g18_entry: '01467'
+    definition: process of making a decision by a responsible body, based on a review
+      of a type evaluation test report for the type of weights or weight set and professional
+      judgment, that the type is in conformity with the mandatory requirements of
+      this Recommendation for legal applications
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 135:2004
+    publication_id: OIML R135:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.39'
+    link: https://www.oiml.org/en/files/pdf_R/r135-e04.pdf
+    g18_entry: '01878'
+    definition: decision of legal relevance, based on the evaluation report, that
+      [VIML, 2.6] the type of measuring instrument complies with the relevant statutory
+      requirements and is suitable for use in the regulated area in such a way that
+      it is expected to provide reliable measurement results over a defined period
+      of time
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+    related:
+    - type: see
+      ref:
+        source: urn:oiml:pub:v:1:2000
+        id: '2.6'
+status: current
+id: 2e5135d6-a955-5400-aeee-ac4f085b07c2
+schema_version: '3'
+related:
+- type: see
+  ref: *1

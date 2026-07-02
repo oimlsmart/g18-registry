@@ -1,0 +1,46 @@
+---
+data:
+  identifier: '00594'
+  term: device specific parameter
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 51-1:2006
+    publication_id: OIML R051-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.2.7.8.3
+    link: https://www.oiml.org/en/files/pdf_R/r051-1-e06.pdf
+    g18_entry: '00594'
+    definition: "(u legally relevant parameter with a value that depends on the individual
+      instrument. Such parameters comprise calibration parameters (e.g. span adjustments
+      or corrections) and configuration parameters (e.g. maximum capacity, minimum
+      capacity, units of measurement, etc.). They are adjustable or selectable only
+      in a special operational mode of the instrument. They may be classified as those
+      that should be secured nalterable) and those that may be accessed (settable
+      parameters) by an authorized person"
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 76-1:2006
+    publication_id: OIML R076-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.2.8.4
+    link: https://www.oiml.org/en/files/pdf_R/r076-1-e06.pdf
+    g18_entry: '00935'
+    definition: legally relevant parameter with a value that depends on the individual
+      instrument. Device-specific parameters comprise calibration parameters (e.g.
+      span adjustment or other adjustments or corrections) and configuration parameters
+      (e.g. maximum capacity, minimum capacity, units of measurement, etc.). They
+      are adjustable or selectable only in a special operational mode of the instrument.
+      Device-specific parameters may be classified as those that should be secured
+      (unalterable) and those that may be accessed (settable parameters) by an authorized
+      person
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: ca6a7133-3877-5c6d-a769-0fc774cb2dc3
+schema_version: '3'
+related: []

@@ -1,0 +1,36 @@
+---
+data:
+  identifier: '00255'
+  term: power converter (power supply device)
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 99-1:2008
+    publication_id: OIML R099-1:2008
+    tc_sc: ''
+    year: 2008
+    clause: '3.38'
+    link: https://www.oiml.org/en/files/pdf_R/r099-1-e08.pdf
+    g18_entry: '02373'
+    definition: sub assembly converting the voltage from the mains power to a voltage
+      suitable for other sub assemblies
+    notes:
+    - "(OIML D 11:2004, 3.22)"
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML D 11:2004
+    publication_id: OIML D011:2004
+    tc_sc: ''
+    year: 2004
+    clause: '3.22'
+    link: https://www.oiml.org/en/files/pdf_D/d011-e04.pdf
+    g18_entry: '00255'
+    definition: sub-assembly converting the voltage from the mains power to a voltage
+      suitable for other sub-assemblies
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 0620c6ee-101e-548b-8c15-1b4cbc224cd3
+schema_version: '3'
+related: []

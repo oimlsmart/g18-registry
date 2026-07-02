@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '01633'
+  term: zero quantity
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 125:1998
+    publication_id: OIML R125:1998
+    tc_sc: ''
+    year: 1998
+    clause: T.17
+    link: https://www.oiml.org/en/files/pdf_R/r125-e98.pdf
+    g18_entry: '01633'
+    definition: the quantity of liquid equivalent to a zero signal from the measurement
+      transducer
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: a79a5f92-8391-5c6d-be7f-cad55eb14f3c
+schema_version: '3'
+related: []

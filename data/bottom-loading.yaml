@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '02276'
+  term: bottom loading
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 80-1:2009
+    publication_id: OIML R080-1:2009
+    tc_sc: ''
+    year: 2009
+    clause: '2.37'
+    link: https://www.oiml.org/en/files/pdf_R/r080-1-e09.pdf
+    g18_entry: '02276'
+    definition: loading of a measuring compartment from the bottom through a standardized
+      dry adapter (e.g. an API adapter) and the bottom valve that is integrated into
+      the bottom of the measuring compartment and opened for this purpose
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 41d06270-a8db-54c0-8d1b-ce35ff9833a6
+schema_version: '3'
+related: []

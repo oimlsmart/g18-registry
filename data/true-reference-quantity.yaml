@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '01592'
+  term: true (reference) quantity
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 117-1:2007
+    publication_id: OIML R117-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.q.1.1
+    link: https://www.oiml.org/en/files/pdf_R/r117-1-e07.pdf
+    g18_entry: '01592'
+    definition: total volume or mass that has passed through the meter during a measurement.
+      Often referred to as "known quantity"
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: b448b913-6e1a-5052-9131-540c2ee67e5d
+schema_version: '3'
+related: []

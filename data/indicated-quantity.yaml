@@ -1,0 +1,22 @@
+---
+data:
+  identifier: '01593'
+  term: indicated quantity
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 117-1:2007
+    publication_id: OIML R117-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.q.1.2
+    link: https://www.oiml.org/en/files/pdf_R/r117-1-e07.pdf
+    g18_entry: '01593'
+    definition: total volume or mass indicated by the meter
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 0a3f0005-3f50-5bc0-957b-661ca3d106dc
+schema_version: '3'
+related: []

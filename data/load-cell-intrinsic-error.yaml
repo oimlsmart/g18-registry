@@ -1,0 +1,33 @@
+---
+data:
+  identifier: '00735'
+  term: load cell intrinsic error
+  kind: defined_in_vim
+  official_concept:
+    source: urn:oiml:pub:v:2:1993
+    id: '5.24'
+    url: https://oimlsmart.github.io/vocab/vim-1993/concept/5.24
+  publications:
+  - publication: OIML R 60:2000
+    publication_id: OIML R060:2000
+    tc_sc: ''
+    year: 2000
+    clause: 2.4.8
+    link: https://www.oiml.org/en/files/pdf_R/r060-e00.pdf
+    g18_entry: '00735'
+    definition: rrror of a load cell, determined under reference conditions (see 2.5.3)
+      [Adapted from VIM:1993, 5.24]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+    related:
+    - type: see
+      ref: &1
+        source: urn:oiml:pub:v:2:1993
+        id: '5.24'
+status: current
+id: 64fb876f-862d-5a73-a583-32f038fa96c8
+schema_version: '3'
+related:
+- type: see
+  ref: *1

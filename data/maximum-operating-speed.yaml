@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '01286'
+  term: maximum operating speed
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 106-1:1997
+    publication_id: OIML R106-1:1997
+    tc_sc: ''
+    year: 1997
+    clause: T.3.5.1
+    link: https://www.oiml.org/en/files/pdf_R/r106-1-e97.pdf
+    g18_entry: '01286'
+    definition: the greatest velocity of a wagon that the instrument is designed toweigh
+      in-motion and above which the weighing results may besubject to an excessive
+      relative error
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 5422d1de-6fb4-5cd4-bdde-f2f8547d6208
+schema_version: '3'
+related: []

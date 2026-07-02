@@ -1,0 +1,25 @@
+---
+data:
+  identifier: '02273'
+  term: built-in manifold
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 80-1:2009
+    publication_id: OIML R080-1:2009
+    tc_sc: ''
+    year: 2009
+    clause: '2.34'
+    link: https://www.oiml.org/en/files/pdf_R/r080-1-e09.pdf
+    g18_entry: '02273'
+    definition: 'collecting line connected via diverting valves to the discharge pipes
+      of the measuring compartments and allowing delivery from any one or several
+      compartments via a common pipework. Acompartment connected to a built-in manifold
+      has two possible outlets: its own outlet valve and its own diverting valve'
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: feac6358-48d3-5ee2-bc25-f14e5dd49499
+schema_version: '3'
+related: []

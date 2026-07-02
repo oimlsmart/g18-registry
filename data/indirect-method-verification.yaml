@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '00388'
+  term: indirect method (verification)
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 39:2006
+    publication_id: OIML R039:2006
+    tc_sc: ''
+    year: 2006
+    clause: '2.10'
+    link: https://www.oiml.org/en/files/pdf_R/r039-e06.pdf
+    g18_entry: '00388'
+    definition: process for verifying that the hardness measuring performance of the
+      Rockwell hardness machine is within maximum permissible errors by conducting
+      hardness measurements using reference test blocks
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: ac52ec18-8ba5-5df1-b905-7d6472d21f5a
+schema_version: '3'
+related: []

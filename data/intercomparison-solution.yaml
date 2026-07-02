@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '01854'
+  term: intercomparison solution
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 135:2004
+    publication_id: OIML R135:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.15'
+    link: https://www.oiml.org/en/files/pdf_R/r135-e04.pdf
+    g18_entry: '01854'
+    definition: solution used in an external quality assessment scheme. The assigned
+      reference value of absorbance of this solution is known to the external quality
+      assessment scheme organizer only
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 6a47ab00-a36a-5666-80e5-587d3e753190
+schema_version: '3'
+related: []

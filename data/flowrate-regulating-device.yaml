@@ -1,0 +1,22 @@
+---
+data:
+  identifier: '00511'
+  term: flowrate regulating device
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 50-1:1997
+    publication_id: OIML R050-1:1997
+    tc_sc: ''
+    year: 1997
+    clause: T.3.8.6
+    link: https://www.oiml.org/en/files/pdf_R/r050-1-e97.pdf
+    g18_entry: '00511'
+    definition: a device intended to ensure a programmed flowrate
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: a71fb726-c226-5d94-8c7b-742db93ee9c4
+schema_version: '3'
+related: []

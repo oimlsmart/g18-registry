@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '00942'
+  term: self-indication capacity
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 76-1:2006
+    publication_id: OIML R076-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.3.1.3
+    link: https://www.oiml.org/en/files/pdf_R/r076-1-e06.pdf
+    g18_entry: '00942'
+    definition: weighing capacity within which equilibrium is obtained without the
+      intervention of an operator
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 0ca40126-b496-5ca8-ab61-aee180e5a898
+schema_version: '3'
+related: []

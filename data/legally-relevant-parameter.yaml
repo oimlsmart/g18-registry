@@ -1,0 +1,65 @@
+---
+data:
+  identifier: '00592'
+  term: legally relevant parameter
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML D 31:2008
+    publication_id: OIML D031:2008
+    tc_sc: ''
+    year: 2008
+    clause: 3.1.30
+    link: https://www.oiml.org/en/files/pdf_D/d031-e08.pdf
+    g18_entry: '02197'
+    definition: 'parameter of a measuring instrument, electronic device, or a sub-
+      assembly subject to legal control. The following types of legally relevant parameters
+      can be distinguished: type-specific parameters and device-specific parameters'
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 107-1:2007
+    publication_id: OIML R107-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.2.7.7.2
+    link: https://www.oiml.org/en/files/pdf_R/r107-1-e07.pdf
+    g18_entry: '01349'
+    definition: 'parameter of a measuring instrument or a module subject to legal
+      control. The following types of legally relevant parameters can bedistinguished:
+      type-specific parameter and device-specific parameter'
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 51-1:2006
+    publication_id: OIML R051-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.2.8.1
+    link: https://www.oiml.org/en/files/pdf_R/r051-1-e06.pdf
+    g18_entry: '00592'
+    definition: 'parameter that belongs to the measuring instrument or device, and
+      defines or fulfils functions which are subject to legal control. The following
+      types of legally relevant parameter can be distinguished: type-specific and
+      device-specific'
+    notes:
+    - "(under T.2.8: Software)"
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 76-1:2006
+    publication_id: OIML R076-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.2.8.2
+    link: https://www.oiml.org/en/files/pdf_R/r076-1-e06.pdf
+    g18_entry: '00933'
+    definition: 'parameter of a measuring instrument or a module subject to legal
+      control. The following types of legally relevant parameters can bedistinguished:
+      type-specific parameters and device-specific parameters'
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 65fecf6d-75c1-58b7-b7d3-458a3c6766c4
+schema_version: '3'
+related: []

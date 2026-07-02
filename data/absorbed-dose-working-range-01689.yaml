@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '01689'
+  term: absorbed-dose working range
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 127:1999
+    publication_id: OIML R127:1999
+    tc_sc: ''
+    year: 1999
+    clause: '4.15'
+    link: https://www.oiml.org/en/files/pdf_R/r127-e99.pdf
+    g18_entry: '01689'
+    definition: the set of values of absorbed dose for which the error of the dosimetry
+      system is intended to lie within specified limits
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: f22c6ab5-3cdc-5d0d-a36e-c5bcf384ddf7
+schema_version: '3'
+related: []

@@ -1,0 +1,33 @@
+---
+data:
+  identifier: '00306'
+  term: bladder
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 16-1:2002
+    publication_id: OIML R016-1:2002
+    tc_sc: ''
+    year: 2002
+    clause: '2.1'
+    link: https://www.oiml.org/en/files/pdf_R/r016-1-e02.pdf
+    g18_entry: '00306'
+    definition: inflatable component of the cuff
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 16-2:2002
+    publication_id: OIML R016-2:2002
+    tc_sc: ''
+    year: 2002
+    clause: '2.1'
+    link: https://www.oiml.org/en/files/pdf_R/r016-2-e02.pdf
+    g18_entry: '00321'
+    definition: inflatable component of the cuff
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: c65265db-4386-5916-b70f-144859bf34c5
+schema_version: '3'
+related: []

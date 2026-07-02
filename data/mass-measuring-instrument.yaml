@@ -1,0 +1,25 @@
+---
+data:
+  identifier: '01615'
+  term: mass measuring instrument
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 125:1998
+    publication_id: OIML R125:1998
+    tc_sc: ''
+    year: 1998
+    clause: T.1
+    link: https://www.oiml.org/en/files/pdf_R/r125-e98.pdf
+    g18_entry: '01615'
+    definition: a measuring instrument which determines and indicates the mass of
+      liquid contained in a calibrated tank. The instrument includes devices such
+      as a measurement transducer (or transducers) which measures a quantity related
+      to the mass of the liquid, a processor and an indicator
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 48e7e9a9-57ca-5caf-8ee8-677c4636b2d6
+schema_version: '3'
+related: []

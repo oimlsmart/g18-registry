@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '00786'
+  term: static set point
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 61-1:2004
+    publication_id: OIML R061-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: T.3.4
+    link: https://www.oiml.org/en/files/pdf_R/r061-1-e04.pdf
+    g18_entry: '00786'
+    definition: value of the test weights or masses which, in static tests, balance
+      the value selected on the indication of the fill setting device
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 6fec527a-65d3-5f5c-b5c3-94b8c20c120e
+schema_version: '3'
+related: []

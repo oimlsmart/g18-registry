@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '02275'
+  term: top loading
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 80-1:2009
+    publication_id: OIML R080-1:2009
+    tc_sc: ''
+    year: 2009
+    clause: '2.36'
+    link: https://www.oiml.org/en/files/pdf_R/r080-1-e09.pdf
+    g18_entry: '02275'
+    definition: loading of a measuring compartment from the top through the fill hole
+      cover opened for this purpose
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 31f31460-5f96-5c35-acd9-73b4cefa04a4
+schema_version: '3'
+related: []

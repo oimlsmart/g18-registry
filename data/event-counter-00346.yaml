@@ -1,0 +1,25 @@
+---
+data:
+  identifier: '00346'
+  term: event-counter
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 21:2007
+    publication_id: OIML R021:2007
+    tc_sc: ''
+    year: 2007
+    clause: 2.2.3
+    link: https://www.oiml.org/en/files/pdf_R/r021-e07.pdf
+    g18_entry: '00346'
+    definition: non-resettable counter device that increments each time device- specific
+      parameters (2.2.8.3) are changed. The reference number of the counter at the
+      time of initial or subsequent verification is fixed and secured by appropriate
+      hardware or software means
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 248fa2e7-78c3-50d7-ab57-813edb875691
+schema_version: '3'
+related: []

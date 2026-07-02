@@ -1,0 +1,26 @@
+---
+data:
+  identifier: '01486'
+  term: retention time (tr) for a measurement
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 112:1994
+    publication_id: OIML R112:1994
+    tc_sc: ''
+    year: 1994
+    clause: '2.14'
+    link: https://www.oiml.org/en/files/pdf_R/r112-e94.pdf
+    g18_entry: '01486'
+    definition: the elapsed time between injection of a sample and the appearance
+      of the maximum output peak of the component of interest
+    notes:
+    - 'A related term is capacity factor k'', which is defined as follows: where tm
+      = the time for the mobile phase to proceed from the point of injection to the
+      point of detection.'
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 58501e33-b204-52cb-9450-16ad873d30f9
+schema_version: '3'
+related: []

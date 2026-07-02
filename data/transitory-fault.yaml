@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '00865'
+  term: transitory fault
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 75-1:2002
+    publication_id: OIML R075-1:2002
+    tc_sc: ''
+    year: 2002
+    clause: 4.10.2
+    link: https://www.oiml.org/en/files/pdf_R/r075-1-e02.pdf
+    g18_entry: '00865'
+    definition: momentary variations in the indication which cannot be interpreted,
+      memorized or transmitted as measurements
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 06e7b551-dfec-539e-bbd0-7de09605d2bc
+schema_version: '3'
+related: []

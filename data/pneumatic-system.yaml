@@ -1,0 +1,35 @@
+---
+data:
+  identifier: '00312'
+  term: pneumatic system
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 16-1:2002
+    publication_id: OIML R016-1:2002
+    tc_sc: ''
+    year: 2002
+    clause: '2.7'
+    link: https://www.oiml.org/en/files/pdf_R/r016-1-e02.pdf
+    g18_entry: '00312'
+    definition: system that includes all pressurized and pressure controlling parts
+      such as cuff, tubing, connectors, valves, transducer and pump
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 16-2:2002
+    publication_id: OIML R016-2:2002
+    tc_sc: ''
+    year: 2002
+    clause: '2.7'
+    link: https://www.oiml.org/en/files/pdf_R/r016-2-e02.pdf
+    g18_entry: '00327'
+    definition: system that includes all pressurized and pressure controlling parts
+      such as cuff, tubing, connectors, valves, transducer and pump
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: ea09f00d-75ae-5efd-a7f2-fcc6d0c573dd
+schema_version: '3'
+related: []

@@ -1,0 +1,49 @@
+---
+data:
+  identifier: '00357'
+  term: data storage device
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 21:2007
+    publication_id: OIML R021:2007
+    tc_sc: ''
+    year: 2007
+    clause: 2.2.8.7
+    link: https://www.oiml.org/en/files/pdf_R/r021-e07.pdf
+    g18_entry: '00357'
+    definition: storage on the instrument or external storage device used for keeping
+      measurement data ready after completion of the measurement for subsequent legally
+      relevant purposes
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 107-1:2007
+    publication_id: OIML R107-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.2.8
+    link: https://www.oiml.org/en/files/pdf_R/r107-1-e07.pdf
+    g18_entry: '01353'
+    definition: storage device used for keeping weighing data ready after completion
+      of the weighing for later legally relevant purposes
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 51-1:2006
+    publication_id: OIML R051-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.2.7.8.5
+    link: https://www.oiml.org/en/files/pdf_R/r051-1-e06.pdf
+    g18_entry: '00596'
+    definition: "( internal memory storage of the instrument or external removable)
+      storage device used for keeping measurement data ready after completion of the
+      measurement"
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: ecaadc16-affe-5ada-b554-ccaebbac4f9b
+schema_version: '3'
+related: []

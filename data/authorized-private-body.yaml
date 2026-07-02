@@ -1,0 +1,28 @@
+---
+data:
+  identifier: '00203'
+  term: authorized private body
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML D 9:2004
+    publication_id: OIML D009:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.21'
+    link: https://www.oiml.org/en/files/pdf_D/d009-e04.pdf
+    g18_entry: '00203'
+    definition: 'private body authorized (licensed) to perform certain activities
+      in Prior to authorization, their technical legal metrology beyond the scope
+      of metrological supervision (especially activities of metrological control:
+      certification of a measuring instrument, initial and subsequent verification
+      of a measuring instrument, metrological control of a prepackage)'
+    notes:
+    - competence is normally demonstrated by an approval of their quality system through
+      accreditation or any equivalent type of assessment.
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: f65d58ef-4a17-59bc-b9f1-febe41bc4f89
+schema_version: '3'
+related: []

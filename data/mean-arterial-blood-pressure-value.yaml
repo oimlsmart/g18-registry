@@ -1,0 +1,39 @@
+---
+data:
+  identifier: '00310'
+  term: mean arterial blood pressure (value)
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 16-1:2002
+    publication_id: OIML R016-1:2002
+    tc_sc: ''
+    year: 2002
+    clause: '2.5'
+    link: https://www.oiml.org/en/files/pdf_R/r016-1-e02.pdf
+    g18_entry: '00310'
+    definition: value of the integral of one cycle of the blood pressure curve divided
+      by the time of one heart beat period
+    notes:
+    - Because of hydrostatic effects, this value should be measured with the cuff
+      at the heart level.
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 16-2:2002
+    publication_id: OIML R016-2:2002
+    tc_sc: ''
+    year: 2002
+    clause: '2.5'
+    link: https://www.oiml.org/en/files/pdf_R/r016-2-e02.pdf
+    g18_entry: '00325'
+    definition: value of the integral of one cycle of the blood pressure curve divided
+      by the time of one heart beat period
+    notes:
+    - Because of hydrostatic effects, this value should be measured with the cuff
+      at the heart level.
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 9d3c931a-4be5-5c68-b7e1-b5eea91cc741
+schema_version: '3'
+related: []

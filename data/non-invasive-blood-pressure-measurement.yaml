@@ -1,0 +1,35 @@
+---
+data:
+  identifier: '00311'
+  term: non-invasive blood pressure measurement
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 16-1:2002
+    publication_id: OIML R016-1:2002
+    tc_sc: ''
+    year: 2002
+    clause: '2.6'
+    link: https://www.oiml.org/en/files/pdf_R/r016-1-e02.pdf
+    g18_entry: '00311'
+    definition: indirect measurement of the arterial blood pressure without arterial
+      puncture
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 16-2:2002
+    publication_id: OIML R016-2:2002
+    tc_sc: ''
+    year: 2002
+    clause: '2.6'
+    link: https://www.oiml.org/en/files/pdf_R/r016-2-e02.pdf
+    g18_entry: '00326'
+    definition: indirect measurement of the arterial blood pressure without arterial
+      puncture
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 48366cd8-3911-58bf-9e83-c577e8ad185c
+schema_version: '3'
+related: []

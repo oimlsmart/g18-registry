@@ -1,0 +1,22 @@
+---
+data:
+  identifier: '01149'
+  term: graduated zone
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 95:1990
+    publication_id: OIML R095:1990
+    tc_sc: ''
+    year: 1990
+    clause: T.13
+    link: https://www.oiml.org/en/files/pdf_R/r095-e90.pdf
+    g18_entry: '01149'
+    definition: the range of volumes between the dead stock and the total capacity
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 425e00c2-9521-5bc9-b48e-d77b22ed58ac
+schema_version: '3'
+related: []

@@ -1,0 +1,38 @@
+---
+data:
+  identifier: '00254'
+  term: mains power
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 99-1:2008
+    publication_id: OIML R099-1:2008
+    tc_sc: ''
+    year: 2008
+    clause: '3.37'
+    link: https://www.oiml.org/en/files/pdf_R/r099-1-e08.pdf
+    g18_entry: '02372'
+    definition: "(E primary external source of electrical power for the instrument,
+      including all sub assemblies. xamples: public power network (AC or DC), generator,
+      external battery or other DC supply systems)"
+    notes:
+    - "(adapted from OIML D 11:2004, 3.21)"
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML D 11:2004
+    publication_id: OIML D011:2004
+    tc_sc: ''
+    year: 2004
+    clause: '3.21'
+    link: https://www.oiml.org/en/files/pdf_D/d011-e04.pdf
+    g18_entry: '00254'
+    definition: 'primary external source of electrical power for an instrument, including
+      all sub-assemblies. (Examples: public power (AC or DC), generator, external
+      battery or other DC supply systems)'
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 3ae05708-6b70-5d0c-b017-7b4488547cb4
+schema_version: '3'
+related: []

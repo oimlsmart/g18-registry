@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '00788'
+  term: final feed time
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 61-1:2004
+    publication_id: OIML R061-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: T.3.6
+    link: https://www.oiml.org/en/files/pdf_R/r061-1-e04.pdf
+    g18_entry: '00788'
+    definition: time taken to complete the last stage of delivery of the product to
+      aload receptor
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: add8a103-019a-5f3a-809b-2e6376f358ab
+schema_version: '3'
+related: []

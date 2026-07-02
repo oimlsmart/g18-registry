@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '01618'
+  term: mass measurement transducer
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 125:1998
+    publication_id: OIML R125:1998
+    tc_sc: ''
+    year: 1998
+    clause: T.4
+    link: https://www.oiml.org/en/files/pdf_R/r125-e98.pdf
+    g18_entry: '01618'
+    definition: a device which measures a quantity related to the mass of the liquid
+      and which provides a signal to the processor from which the mass is determined
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 62c44dcd-0beb-5e1e-9480-ae0ee712df08
+schema_version: '3'
+related: []

@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '00180'
+  term: declaration of conformity
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML D 27:2001
+    publication_id: OIML D027:2001
+    tc_sc: ''
+    year: 2001
+    clause: '2.18'
+    link: https://www.oiml.org/en/files/pdf_D/d027-e01.pdf
+    g18_entry: '00180'
+    definition: statement provided under the sole responsibility of an authorized
+      Legal requirements may be issued as laws or manufacturer, having a validated
+      quality management system, regul that a measuring instrument meets the legal
+      metrological (norm requirements for initial verification according to its approved
+      type, if required
+    notes:
+    - ations or in documentary standards s) referenced in them.
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 7afe37eb-5b8f-52a3-a179-b8b9261c3d24
+schema_version: '3'
+related: []

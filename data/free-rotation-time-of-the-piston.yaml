@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '01424'
+  term: free rotation time of the piston
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 110:1994
+    publication_id: OIML R110:1994
+    tc_sc: ''
+    year: 1994
+    clause: 2.1.5
+    link: https://www.oiml.org/en/files/pdf_R/r110-e94.pdf
+    g18_entry: '01424'
+    definition: the time during which the piston rotates freely after spinning to
+      a specified rotation rate, until it stops
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: a5b5be87-4cfb-5a44-88e7-b259373f7327
+schema_version: '3'
+related: []

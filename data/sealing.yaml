@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '02205'
+  term: sealing
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML D 31:2008
+    publication_id: OIML D031:2008
+    tc_sc: ''
+    year: 2008
+    clause: 3.1.38
+    link: https://www.oiml.org/en/files/pdf_D/d031-e08.pdf
+    g18_entry: '02205'
+    definition: means intended to protect the measuring instrument against any unauthorized
+      modification, readjustment, removal of parts, software, etc. It can be achieved
+      by hardware, software or a combination of both
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 412c135e-4d51-502c-bd09-fd7d39f31d27
+schema_version: '3'
+related: []

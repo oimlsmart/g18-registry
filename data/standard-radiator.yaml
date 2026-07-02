@@ -1,0 +1,22 @@
+---
+data:
+  identifier: '02107'
+  term: standard radiator
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 141:2008
+    publication_id: OIML R141:2008
+    tc_sc: ''
+    year: 2008
+    clause: '2.3'
+    link: https://www.oiml.org/en/files/pdf_R/r141-e08.pdf
+    g18_entry: '02107'
+    definition: radiator that complies with a black body model (BB)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 4c48bb6d-bc59-5125-a309-342fc3505cdc
+schema_version: '3'
+related: []

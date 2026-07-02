@@ -1,0 +1,26 @@
+---
+data:
+  identifier: '00515'
+  term: scale interval for testing
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 50-1:1997
+    publication_id: OIML R050-1:1997
+    tc_sc: ''
+    year: 1997
+    clause: T.4.1.2
+    link: https://www.oiml.org/en/files/pdf_R/r050-1-e97.pdf
+    g18_entry: '00515'
+    definition: the value, expressed in units of mass, of the difference between two
+      consecutive indicated values, for general and partial totalization devices,
+      with the instrument in a special mode for testing purposes. Where such a special
+      mode is not available, the scale interval for testing is equal to the totalization
+      scale interval
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: e7ef37cd-e714-5f83-b060-bc1d3f196ce2
+schema_version: '3'
+related: []

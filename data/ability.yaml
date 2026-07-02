@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '00242'
+  term: ability
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML D 11:2004
+    publication_id: OIML D011:2004
+    tc_sc: ''
+    year: 2004
+    clause: '3.17'
+    link: https://www.oiml.org/en/files/pdf_D/d011-e04.pdf
+    g18_entry: '00242'
+    definition: ability of a measuring instrument to maintain its performance characteristics
+      over a period of use
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 429d3dd7-7e2b-5c3d-a323-07fe2b3b1ea1
+schema_version: '3'
+related: []

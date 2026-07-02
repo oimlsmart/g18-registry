@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '01429'
+  term: true value of pressure
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 110:1994
+    publication_id: OIML R110:1994
+    tc_sc: ''
+    year: 1994
+    clause: 2.4.1
+    link: https://www.oiml.org/en/files/pdf_R/r110-e94.pdf
+    g18_entry: '01429'
+    definition: a pressure value that is perfectly consistent with the definition
+      of pressure
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 93503ba6-eadd-5c35-8a93-043e7c784905
+schema_version: '3'
+related: []

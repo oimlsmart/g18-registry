@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '01283'
+  term: minimum wagon weight
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 106-1:1997
+    publication_id: OIML R106-1:1997
+    tc_sc: ''
+    year: 1997
+    clause: T.3.3.2
+    link: https://www.oiml.org/en/files/pdf_R/r106-1-e97.pdf
+    g18_entry: '01283'
+    definition: the wagon weight below which a weighing-in-motion result may be subject
+      to an excessive relative error
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: fadfa99c-4e05-5ef5-b0a6-9fc6893b42c4
+schema_version: '3'
+related: []

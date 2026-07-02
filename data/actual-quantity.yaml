@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '01108'
+  term: actual quantity
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 87:2004
+    publication_id: OIML R087:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.1'
+    link: https://www.oiml.org/en/files/pdf_R/r087-e04.pdf
+    g18_entry: '01108'
+    definition: actual quantity of product that a prepackage in fact contains as determined
+      by measurements made by legal metrology officials
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 5e2a224e-1fa3-585b-9082-863bcaccf918
+schema_version: '3'
+related: []

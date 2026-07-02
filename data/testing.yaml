@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '00105'
+  term: testing
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML B 10-1:2004
+    publication_id: OIML B010-1:2004
+    tc_sc: TC 3/SC 2
+    year: 2004
+    clause: '3.14'
+    link: https://www.oiml.org/en/files/pdf_B/b010-1-e04.pdf
+    g18_entry: '00105'
+    definition: "( act of carrying out technical operations that consists of determining
+      the metrological and technical characteristics of an instrument according to
+      specified procedures. ISO/IEC Guide 2, 13.1)"
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 4c8de051-d7db-5606-8ecb-2d962d44fd90
+schema_version: '3'
+related: []

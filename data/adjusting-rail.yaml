@@ -1,0 +1,25 @@
+---
+data:
+  identifier: '01128'
+  term: adjusting rail
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 93:1999
+    publication_id: OIML R093:1999
+    tc_sc: ''
+    year: 1999
+    clause: '3.5'
+    link: https://www.oiml.org/en/files/pdf_R/r093-e99.pdf
+    g18_entry: '01128'
+    definition: movable rail or bar used as the reference axis for spectacles during
+      measurement, which is aligned perpendicularly to the optical axis of the focimeter
+      and parallel to the 0° – 180° axis direction
+    notes:
+    - Also called the lens table or frame rest.
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 4b1878a3-d632-53f1-a94e-b92c1ff0abba
+schema_version: '3'
+related: []

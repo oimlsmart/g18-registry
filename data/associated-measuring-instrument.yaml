@@ -1,0 +1,36 @@
+---
+data:
+  identifier: '01934'
+  term: associated measuring instrument
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 140:2007
+    publication_id: OIML R140:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.1.9
+    link: https://www.oiml.org/en/files/pdf_R/r140-e07.pdf
+    g18_entry: '02049'
+    definition: instrument for measuring certain measurands which are characteristic
+      of the gas (temperature, pressure, calorific value, etc.) and which are used
+      by the calculator with a view to making a correction and/or a conversion
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 137-1:2006
+    publication_id: OIML R137-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: 2.1.11
+    link: https://www.oiml.org/en/files/pdf_R/r137-1-e06.pdf
+    g18_entry: '01934'
+    definition: instrument connected to the calculator or the correction device for
+      measuring certain gas properties, for the purpose of making a correction
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: b832fc6e-0293-58aa-bb7f-6c38ed65aa57
+schema_version: '3'
+related: []

@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '00792'
+  term: average number of loads per fill
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 61-1:2004
+    publication_id: OIML R061-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: T.3.10
+    link: https://www.oiml.org/en/files/pdf_R/r061-1-e04.pdf
+    g18_entry: '00792'
+    definition: half the sum of the maximum and minimum number of loads per fill that
+      can be set by the operator or, in cases where the number ofloads per fill is
+      not directly determined by the operator, either the mean of the actual number
+      of loads per fill (if known) in a period of normal operation, or the optimum
+      number of loads per fill, as may be specified by the manufacturer for the type
+      of product which is to be weighed
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 27b2f9e7-6c29-5dd6-838c-87b9e5d8412a
+schema_version: '3'
+related: []

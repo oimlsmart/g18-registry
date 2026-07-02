@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '02176'
+  term: communication interface
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML D 31:2008
+    publication_id: OIML D031:2008
+    tc_sc: ''
+    year: 2008
+    clause: 3.1.9
+    link: https://www.oiml.org/en/files/pdf_D/d031-e08.pdf
+    g18_entry: '02176'
+    definition: electronic, optical, radio or other technical interface that enables
+      information to be passed between components of a measuring instrument (e.g.
+      electronic devices) or sub-assemblies
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: b851544c-5bb0-5e0a-a3b0-d59025d93c13
+schema_version: '3'
+related: []

@@ -1,0 +1,49 @@
+---
+data:
+  identifier: '00177'
+  term: audit
+  kind: defined_in_viml
+  official_concept:
+    source: urn:oiml:pub:v:1:2022
+    id: A.12
+    url: https://oimlsmart.github.io/vocab/viml-2022/concept/A.12
+  publications:
+  - publication: OIML D 27:2001
+    publication_id: OIML D027:2001
+    tc_sc: ''
+    year: 2001
+    clause: '2.15'
+    link: https://www.oiml.org/en/files/pdf_D/d027-e01.pdf
+    g18_entry: '00177'
+    definition: systematic, independent and documented process for obtaining audit
+      evidence and evaluating it objectively to determine the extent to which audit
+      criteria are fulfilled [ISO 9000:2000, 3.9.1]
+    notes:
+    - 'Internal audits, sometimes called "first-party audits", are conducted by, or
+      on behalf of, th organization itself for internal purposes and can form the
+      basis of an organization''s self- declaration of conformity. External audits
+      include what are generally termed "second-" or "third-party audits". Second-party
+      audits are conducted by parties having an interest in the organization, such
+      a customers, or by other persons on their behalf Third-party audits are conducted
+      by external independent organizations. Such organizations provide certification
+      or registration of conformity with requirements such as those of ISO 9001 and
+      ISO 14001:'
+    - '1'
+    - '9'
+    - '9'
+    - 6. When quality and environmental management systems are audited together, this
+      is termed a "combined audit". When two or more auditing organizations cooperate
+      to audit a single auditee jointly, t is termed "joint audit".
+    consistency: pending
+    consistency_reason: ''
+    related:
+    - type: see
+      ref: &1
+        id: A.12
+        source: urn:oiml:pub:v:1:2022
+status: current
+id: e7421b9b-9c88-5bf5-8f42-77566f10a79c
+schema_version: '3'
+related:
+- type: see
+  ref: *1

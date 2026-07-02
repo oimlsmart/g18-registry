@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '01712'
+  term: volume (vol)
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 129:2000
+    publication_id: OIML R129:2000
+    tc_sc: ''
+    year: 2000
+    clause: '2.13'
+    link: https://www.oiml.org/en/files/pdf_R/r129-e00.pdf
+    g18_entry: '01712'
+    definition: for this Recommendation, the volume of the smallest rectangular box
+      which fully encloses the object, that is the product of the indicated values
+      of length (L), width (W) and height (H)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: d731bfa0-5c8f-5cb0-9d05-aaecc6645907
+schema_version: '3'
+related: []

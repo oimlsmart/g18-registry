@@ -1,0 +1,22 @@
+---
+data:
+  identifier: '00485'
+  term: inclusive of conveyor
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 50-1:1997
+    publication_id: OIML R050-1:1997
+    tc_sc: ''
+    year: 1997
+    clause: T.2.1.2
+    link: https://www.oiml.org/en/files/pdf_R/r050-1-e97.pdf
+    g18_entry: '00485'
+    definition: a load receptor that includes an entire conveyor
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: e6bf78bb-beaf-57f7-ae68-28e72f46b5a1
+schema_version: '3'
+related: []

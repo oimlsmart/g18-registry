@@ -1,0 +1,22 @@
+---
+data:
+  identifier: '02232'
+  term: reference height
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 71:2008
+    publication_id: OIML R071:2008
+    tc_sc: ''
+    year: 2008
+    clause: '3.8'
+    link: https://www.oiml.org/en/files/pdf_R/r071-e08.pdf
+    g18_entry: '02232'
+    definition: distance between the dipping datum point and the upper reference point
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 266f128e-e0d1-5ea6-b620-daa5249ec167
+schema_version: '3'
+related: []

@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '02248'
+  term: true volume, Vt
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 80-1:2009
+    publication_id: OIML R080-1:2009
+    tc_sc: ''
+    year: 2009
+    clause: '2.9'
+    link: https://www.oiml.org/en/files/pdf_R/r080-1-e09.pdf
+    g18_entry: '02248'
+    definition: conventional true value of volume of liquid in a tank or compartment
+      at working temperature t.
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: e4b9cfcb-1673-5b2b-9135-f85b118fe003
+schema_version: '3'
+related: []

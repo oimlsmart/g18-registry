@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '01150'
+  term: dead stock
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 95:1990
+    publication_id: OIML R095:1990
+    tc_sc: ''
+    year: 1990
+    clause: T.14
+    link: https://www.oiml.org/en/files/pdf_R/r095-e90.pdf
+    g18_entry: '01150'
+    definition: the volume of the liquid contained in the bottom of the tank up to
+      the dipping datum point, when the ship is on an even keel and has no list
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: bc69b66b-2f79-5421-b35d-b58d81936637
+schema_version: '3'
+related: []

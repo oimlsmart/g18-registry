@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '00158'
+  term: reference material
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML D 22:1991
+    publication_id: OIML D022:1991
+    tc_sc: ''
+    year: 1991
+    clause: '3.13'
+    link: https://www.oiml.org/en/files/pdf_D/d022-e91.pdf
+    g18_entry: '00158'
+    definition: a material or substance one or more properties of which are sufficiently
+      well established to be used for the calibration of an apparatus, the assessment
+      of a measurement method, or for assigning values to materials
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 80f8bafe-a8d5-59a4-8601-eed546753fea
+schema_version: '3'
+related: []

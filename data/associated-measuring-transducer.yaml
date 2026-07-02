@@ -1,0 +1,25 @@
+---
+data:
+  identifier: '01535'
+  term: associated measuring transducer
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 117-1:2007
+    publication_id: OIML R117-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.a.9
+    link: https://www.oiml.org/en/files/pdf_R/r117-1-e07.pdf
+    g18_entry: '01535'
+    definition: part of the associated measuring device that provides an output quantity
+      for the calculator, the correction device or the conversion device, and having
+      a determined relationship to the input quantity
+    notes:
+    - "(See also T.t.1)"
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 2c215a5f-c851-5211-9eee-754059f8c043
+schema_version: '3'
+related: []

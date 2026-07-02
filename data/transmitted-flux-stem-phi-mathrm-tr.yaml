@@ -1,0 +1,27 @@
+---
+data:
+  identifier: '01842'
+  term: transmitted flux(stem:[\Phi_{\mathrm{tr}}])
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 135:2004
+    publication_id: OIML R135:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.3'
+    link: https://www.oiml.org/en/files/pdf_R/r135-e04.pdf
+    g18_entry: '01842'
+    definition: radiant luminous flux of the radiation emerging from the medium through
+      an external surface which in the flux direction is opposite to the external
+      surface of the flux incidence
+    notes:
+    - 1. Adapted from ISO 6286, Table 1, No.
+    - '2.'
+    - 2. The coherent SI unit is the watt (W).
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 1ccb057a-27a7-5022-8c92-bed212c2dcde
+schema_version: '3'
+related: []

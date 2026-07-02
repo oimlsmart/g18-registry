@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '01568'
+  term: fuel dispenser
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 117-1:2007
+    publication_id: OIML R117-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.f.4
+    link: https://www.oiml.org/en/files/pdf_R/r117-1-e07.pdf
+    g18_entry: '01568'
+    definition: measuring system intended for the refuelling of motor vehicles, small
+      boats and small aircraft
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 021d4439-4c37-5a1b-924f-4af9b8468ace
+schema_version: '3'
+related: []

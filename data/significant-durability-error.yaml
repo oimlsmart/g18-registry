@@ -1,0 +1,81 @@
+---
+data:
+  identifier: '00235'
+  term: significant durability error
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 76-1:2006
+    publication_id: OIML R076-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.5.5.8
+    link: https://www.oiml.org/en/files/pdf_R/r076-1-e06.pdf
+    g18_entry: '00984'
+    definition: "- - - durability error greater than e. (1) A durability error can
+      be due to errors, occurring after a period of instrument use, are not considered
+      to be significant durability errors, even when they exceed e, if they are clearly
+      the result of the failure of a device/component, or of a disturbance and for
+      which the indication: cannot be interpreted, memorized, or transmitted as a
+      measurement result; implies the impossibility to perform any measurement; or
+      is so obviously wrong that it is bound to be noticed by all those interested
+      in the result of measurement."
+    notes:
+    - mechanical wear and tear or due to drift and ageing of electronic parts. The
+      concept of significant durability error applies only to electronic parts. (2)
+      For a multi-interval instrument, the value of e is that appropriate to the partial
+      weighin range.
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML D 11:2004
+    publication_id: OIML D011:2004
+    tc_sc: ''
+    year: 2004
+    clause: '3.12'
+    link: https://www.oiml.org/en/files/pdf_D/d011-e04.pdf
+    g18_entry: '00235'
+    definition: durability error greater than the value specified in the relevant
+      The relevant Recommendation may specify Recommendation
+    notes:
+    - 'that durability errors are not significant, even when they exceed the value
+      defined in 3.12, in the following cases: (a) The indication cannot be interpreted,
+      memorized or transmitted as a measurement result; (b) The indication implies
+      the impossibility to perform any measurement; (c) The indication is so obviously
+      wrong that it is bound to be noticed by all those intereste in the result of
+      the measurement; or (d) A durability error cannot be detected and acted upon
+      due to a breakdown of the appropriate durability protection facility.'
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 135:2004
+    publication_id: OIML R135:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.34'
+    link: https://www.oiml.org/en/files/pdf_R/r135-e04.pdf
+    g18_entry: '01873'
+    definition: durability error greater than the value specified in the appropriate
+      Recommendation
+    notes:
+    - "[OIML D 11, 3.12]"
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 105:1993
+    publication_id: OIML R105:1993
+    tc_sc: ''
+    year: 1993
+    clause: T.22
+    link: https://www.oiml.org/en/files/pdf_R/r105-e93.pdf
+    g18_entry: '01237'
+    definition: 'for masses equal to or greater than the minimum measured quantity,
+      a durability error greater than one-fifth of the absolute value of the maximum
+      permissible error for the measured quantity. Durability errors are not considered
+      as significant when: – the indication cannot be interpreted, memorized or transmitted
+      as a measurement result, – the indication is such that it is impossible to perform
+      any measurement'
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: cffbcb47-d791-53ed-917c-eb654aca5231
+schema_version: '3'
+related: []

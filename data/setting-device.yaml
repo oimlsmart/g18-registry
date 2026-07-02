@@ -1,0 +1,22 @@
+---
+data:
+  identifier: '00604'
+  term: setting device
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 51-1:2006
+    publication_id: OIML R051-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.2.10.1
+    link: https://www.oiml.org/en/files/pdf_R/r051-1-e06.pdf
+    g18_entry: '00604'
+    definition: device for fixing the limits of mass of the sub-groups
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: dd528f37-0824-5e8f-b169-0b856f003622
+schema_version: '3'
+related: []

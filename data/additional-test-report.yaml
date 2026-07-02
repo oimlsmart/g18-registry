@@ -1,0 +1,29 @@
+---
+data:
+  identifier: '02166'
+  term: Additional Test Report
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML D 30:2008
+    publication_id: OIML D030:2008
+    tc_sc: ''
+    year: 2008
+    clause: '3'
+    link: https://www.oiml.org/en/files/pdf_D/d030-e08.pdf
+    g18_entry: '02166'
+    definition: "- G.3-1 report issued by a Testing Laboratory that includes the results
+      of 1. Additional Test Reports are issued under additional tests and examinations,
+      additional to those in the OIML Recommendation, accepted in the scope of a Declaration
+      of Mutual Confidence (DoMC)."
+    notes:
+    - the Mutual Acceptance Arrangement (MAA).
+    - 2. In the event that several Testing Laboratories are involved in the additional
+      tests and examinations, each Testing Laboratory issues an Additional Test Report
+      corresponding to those tests and examinations it performs.
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: fa7a3db2-53bc-51f7-b76c-6c213939c750
+schema_version: '3'
+related: []

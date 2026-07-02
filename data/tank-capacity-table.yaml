@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '02260'
+  term: tank capacity table
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 80-1:2009
+    publication_id: OIML R080-1:2009
+    tc_sc: ''
+    year: 2009
+    clause: '2.21'
+    link: https://www.oiml.org/en/files/pdf_R/r080-1-e09.pdf
+    g18_entry: '02260'
+    definition: table which shows the relation between the liquid level and the volume
+      contained in the tank (compartment) at that level under reference conditions
+      (including the position of the tank)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 218b02fd-9024-51e9-8c41-3951b6461cb2
+schema_version: '3'
+related: []

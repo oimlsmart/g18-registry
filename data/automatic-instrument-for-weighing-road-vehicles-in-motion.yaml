@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '01786'
+  term: automatic instrument for weighing road vehicles in motion
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 134:2003
+    publication_id: OIML R134:2003
+    tc_sc: ''
+    year: 2003
+    clause: T.1.3
+    link: https://www.oiml.org/en/files/pdf_R/r134-e03.pdf
+    g18_entry: '01786'
+    definition: automatic weighing instrument having (a) load receptor(s), inclusive
+      of aprons, that determines the total mass of a road vehicle by weighing the
+      road vehicle in motion
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 3d28d959-c8d3-54a0-936f-81110afadead
+schema_version: '3'
+related: []

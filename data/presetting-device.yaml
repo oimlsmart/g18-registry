@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '01217'
+  term: presetting device
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 105:1993
+    publication_id: OIML R105:1993
+    tc_sc: ''
+    year: 1993
+    clause: T.7
+    link: https://www.oiml.org/en/files/pdf_R/r105-e93.pdf
+    g18_entry: '01217'
+    definition: the means used to select a quantity to be delivered and which automatically
+      stops the flow of the liquid after the measurement and delivery of the selected
+      quantity
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: '01230926-86a6-552d-8afa-091deb8c827e'
+schema_version: '3'
+related: []

@@ -1,0 +1,37 @@
+---
+data:
+  identifier: '01289'
+  term: maximum transit speed
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 134:2003
+    publication_id: OIML R134:2003
+    tc_sc: ''
+    year: 2003
+    clause: T.3.4.4
+    link: https://www.oiml.org/en/files/pdf_R/r134-e03.pdf
+    g18_entry: '01817'
+    definition: maximum speed at which a vehicle can travel on the weigh zone without
+      producing a permanent shift in the performance characteristics of a weighing
+      instrument beyond those specified
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 106-1:1997
+    publication_id: OIML R106-1:1997
+    tc_sc: ''
+    year: 1997
+    clause: T.3.5.4
+    link: https://www.oiml.org/en/files/pdf_R/r106-1-e97.pdf
+    g18_entry: '01289'
+    definition: the maximum speed that a railway vehicle can travel on the weigh zone
+      without producing a permanent shift in the performance characteristics of a
+      weighing instrument beyond those specified
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 9545774b-dd22-50ce-8397-8b2d11a3c098
+schema_version: '3'
+related: []

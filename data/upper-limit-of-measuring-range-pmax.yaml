@@ -1,0 +1,22 @@
+---
+data:
+  identifier: '01418'
+  term: upper limit of measuring range (Pmax)
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 110:1994
+    publication_id: OIML R110:1994
+    tc_sc: ''
+    year: 1994
+    clause: 2.1.1.1
+    link: https://www.oiml.org/en/files/pdf_R/r110-e94.pdf
+    g18_entry: '01418'
+    definition: the maximum pressure to be measured
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 49776cee-9bb6-5d64-9f3e-83fd375b4582
+schema_version: '3'
+related: []

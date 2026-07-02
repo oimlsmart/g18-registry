@@ -1,0 +1,47 @@
+---
+data:
+  identifier: '00465'
+  term: power supply device
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 117-1:2007
+    publication_id: OIML R117-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.p.5
+    link: https://www.oiml.org/en/files/pdf_R/r117-1-e07.pdf
+    g18_entry: '01589'
+    definition: device which provides the electronic devices with the required electrical
+      energy, using one or several sources of AC or DC
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 139:2007
+    publication_id: OIML R139:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.5.8
+    link: https://www.oiml.org/en/files/pdf_R/r139-e07.pdf
+    g18_entry: '02038'
+    definition: device which provides the electronic devices with the required electrical
+      energy, using one or several sources of AC or DC
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 49-1:2006
+    publication_id: OIML R049-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: 2.5.9
+    link: https://www.oiml.org/en/files/pdf_R/r049-1-e06.pdf
+    g18_entry: '00465'
+    definition: device which provides the electronic devices with the required electrical
+      energy, using one or several sources of AC or DC
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: f5aa9cd8-60eb-5db6-a96a-24a0c90ba4bf
+schema_version: '3'
+related: []

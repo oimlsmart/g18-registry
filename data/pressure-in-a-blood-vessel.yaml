@@ -1,0 +1,33 @@
+---
+data:
+  identifier: '00307'
+  term: pressure in a blood vessel
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 16-1:2002
+    publication_id: OIML R016-1:2002
+    tc_sc: ''
+    year: 2002
+    clause: '2.2'
+    link: https://www.oiml.org/en/files/pdf_R/r016-1-e02.pdf
+    g18_entry: '00307'
+    definition: pressure in the arterial system of the body
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 16-2:2002
+    publication_id: OIML R016-2:2002
+    tc_sc: ''
+    year: 2002
+    clause: '2.2'
+    link: https://www.oiml.org/en/files/pdf_R/r016-2-e02.pdf
+    g18_entry: '00322'
+    definition: pressure in the arterial system of the body
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: ad095667-b0b1-5b59-b01d-082e9b98961c
+schema_version: '3'
+related: []

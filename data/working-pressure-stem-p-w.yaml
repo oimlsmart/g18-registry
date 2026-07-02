@@ -1,0 +1,36 @@
+---
+data:
+  identifier: '00447'
+  term: working pressure, stem:[P_{w}]
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 49-1:2006
+    publication_id: OIML R049-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: 2.3.10
+    link: https://www.oiml.org/en/files/pdf_R/r049-1-e06.pdf
+    g18_entry: '00447'
+    definition: average water pressure in the pipe measured upstream and downstream
+      of the water meter
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 137-1:2006
+    publication_id: OIML R137-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: 2.3.7
+    link: https://www.oiml.org/en/files/pdf_R/r137-1-e06.pdf
+    g18_entry: '01963'
+    definition: gauge pressure of the gas to be measured at the gas meter. The gauge
+      pressure is the difference between the absolute pressure of the gas and the
+      atmospheric pressure
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 5d19b7f7-8943-590f-9b6c-0823c00a2ed9
+schema_version: '3'
+related: []

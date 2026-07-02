@@ -1,0 +1,26 @@
+---
+data:
+  identifier: '00593'
+  term: type specific parameter
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 51-1:2006
+    publication_id: OIML R051-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.2.7.8.2
+    link: https://www.oiml.org/en/files/pdf_R/r051-1-e06.pdf
+    g18_entry: '00593'
+    definition: 'legally relevant parameter with a value that depends on the type
+      ofinstrument only. Type-specific parameters are part of the legally relevant
+      software. They are fixed at type approval of the instrument. Examples of type-specific
+      parameters are: parameters used for mass calculation, stability analysis or
+      price calculation and rounding, software identification'
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: fbb78746-8a54-5393-8e79-7c9cdd4d947f
+schema_version: '3'
+related: []

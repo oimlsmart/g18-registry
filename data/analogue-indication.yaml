@@ -1,0 +1,36 @@
+---
+data:
+  identifier: '01291a'
+  term: analogue indication
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 136-1:2004
+    publication_id: OIML R136-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: T.2.4.1
+    link: https://www.oiml.org/en/files/pdf_R/r136-1-e04.pdf
+    g18_entry: '01893'
+    definition: the output or display is indicated by an index and graduated scale,
+      one of which is fixed and the position of the other is a continuous function
+      of the particular quantity being measured
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 106-1:1997
+    publication_id: OIML R106-1:1997
+    tc_sc: ''
+    year: 1997
+    clause: T.4.1.1
+    link: https://www.oiml.org/en/files/pdf_R/r106-1-e97.pdf
+    g18_entry: '01291a'
+    definition: an indication allowing the determination of an equilibrium position
+      to a fraction of the scale interval
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: cf7d0b1c-24f8-525d-bc9b-862dc0f76eb5
+schema_version: '3'
+related: []

@@ -1,0 +1,33 @@
+---
+data:
+  identifier: '00583'
+  term: displaying device (of a weighing instrument)
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 51-1:2006
+    publication_id: OIML R051-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.2.6
+    link: https://www.oiml.org/en/files/pdf_R/r051-1-e06.pdf
+    g18_entry: '00583'
+    definition: device providing the weighing result in visual form
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 76-1:2006
+    publication_id: OIML R076-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.2.4
+    link: https://www.oiml.org/en/files/pdf_R/r076-1-e06.pdf
+    g18_entry: '00910'
+    definition: device providing the weighing result in visual form
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 70226ed7-344d-55af-8383-ef854d7fcc87
+schema_version: '3'
+related: []

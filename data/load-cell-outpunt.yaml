@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '00714'
+  term: load cell outpunt
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 60:2000
+    publication_id: OIML R060:2000
+    tc_sc: ''
+    year: 2000
+    clause: 2.3.3
+    link: https://www.oiml.org/en/files/pdf_R/r060-e00.pdf
+    g18_entry: '00714'
+    definition: measurable quantity into which a load cell converts the measured quantity
+      (mass)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 14e56bbf-d52f-590b-a1d6-3ffd51f11319
+schema_version: '3'
+related: []

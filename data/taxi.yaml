@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '00339'
+  term: taxi
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 21:2007
+    publication_id: OIML R021:2007
+    tc_sc: ''
+    year: 2007
+    clause: 2.1.2
+    link: https://www.oiml.org/en/files/pdf_R/r021-e07.pdf
+    g18_entry: '00339'
+    definition: vehicle, typically a car controlled by a driver, that takes passengers
+      on a journey in exchange for a fare
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 2ee868a2-ed43-57c0-9f9a-b4795d853443
+schema_version: '3'
+related: []

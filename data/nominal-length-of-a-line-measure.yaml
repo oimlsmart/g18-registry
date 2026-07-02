@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '01152'
+  term: nominal length of a line measure
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 98:1991
+    publication_id: OIML R098:1991
+    tc_sc: ''
+    year: 1991
+    clause: '2.2'
+    link: https://www.oiml.org/en/files/pdf_R/r098-e91.pdf
+    g18_entry: '01152'
+    definition: the length the measure is expected to represent in the absence of
+      any manufacturing error
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 10b588c3-53a9-5f2c-8ccf-5e1c5de070ad
+schema_version: '3'
+related: []

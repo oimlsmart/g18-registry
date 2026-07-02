@@ -1,0 +1,26 @@
+---
+data:
+  identifier: '02191'
+  term: fixed legally relevant software part
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML D 31:2008
+    publication_id: OIML D031:2008
+    tc_sc: ''
+    year: 2008
+    clause: 3.1.24
+    link: https://www.oiml.org/en/files/pdf_D/d031-e08.pdf
+    g18_entry: '02191'
+    definition: part of the legally relevant software that is and remains identical
+      This part is responsible for monitoring the in the executable code to that of
+      the approved type so au an
+    notes:
+    - ftware update (loading software, thentication, integrity checking, installation
+      d activation).
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: '04092ff8-6fd5-54cb-8384-29842d3f6394'
+schema_version: '3'
+related: []

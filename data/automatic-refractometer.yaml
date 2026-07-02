@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '01508a'
+  term: automatic refractometer
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 108:1993
+    publication_id: OIML R108:1993
+    tc_sc: ''
+    year: 1993
+    clause: '2.3'
+    link: https://www.oiml.org/en/files/pdf_R/r108-e93.pdf
+    g18_entry: '01508a'
+    definition: automatic refractometers are instruments in which the liquid sample
+      is supplied to the device automatically, the indication being displayed or printed
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: a6dbc2cc-04aa-559c-980a-4037812b4692
+schema_version: '3'
+related: []

@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '01719'
+  term: electronic multi-dimensional measuring instrument
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 129:2000
+    publication_id: OIML R129:2000
+    tc_sc: ''
+    year: 2000
+    clause: '2.20'
+    link: https://www.oiml.org/en/files/pdf_R/r129-e00.pdf
+    g18_entry: '01719'
+    definition: a multi-dimensional measuring instrument equipped with electronic
+      devices
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: c67e297c-557e-5af0-9ee0-8a20ead738ae
+schema_version: '3'
+related: []

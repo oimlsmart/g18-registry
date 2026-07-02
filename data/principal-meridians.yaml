@@ -1,0 +1,25 @@
+---
+data:
+  identifier: '01129'
+  term: principal meridians
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 93:1999
+    publication_id: OIML R093:1999
+    tc_sc: ''
+    year: 1999
+    clause: '3.6'
+    link: https://www.oiml.org/en/files/pdf_R/r093-e99.pdf
+    g18_entry: '01129'
+    definition: perpendicular sections of a lens containing the optical axis and In
+      general, the two principal meridians are having maximum and minimum refractive
+      powers
+    notes:
+    - perpendicular to each other (regular astigmatism).
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: cdf99d37-e7ee-5c10-9a56-4fb9e5f09fda
+schema_version: '3'
+related: []

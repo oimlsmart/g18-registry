@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '00109'
+  term: Participant
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML B 10-1:2004
+    publication_id: OIML B010-1:2004
+    tc_sc: TC 3/SC 2
+    year: 2004
+    clause: '3.18'
+    link: https://www.oiml.org/en/files/pdf_B/b010-1-e04.pdf
+    g18_entry: '00109'
+    definition: Issuing Authority or National Responsible Body of an OIML Member State
+      that accedes to a DoMC
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: fac09eeb-6621-5179-bf05-eae483f4d062
+schema_version: '3'
+related: []

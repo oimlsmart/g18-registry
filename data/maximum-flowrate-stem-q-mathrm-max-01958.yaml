@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '01958'
+  term: maximum flowrate,stem:[Q_{\mathrm{max}}]
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 137-1:2006
+    publication_id: OIML R137-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: 2.3.2
+    link: https://www.oiml.org/en/files/pdf_R/r137-1-e06.pdf
+    g18_entry: '01958'
+    definition: highest flowrate at which a gas meter is required to operate within
+      the limits of its maximum permissible error, whilst operated within its rated
+      operating conditions
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: c8f0b895-37cd-561c-aa13-c5bc8c16702e
+schema_version: '3'
+related: []

@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '00606'
+  term: adjustment range
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 51-1:2006
+    publication_id: OIML R051-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.2.10.3
+    link: https://www.oiml.org/en/files/pdf_R/r051-1-e06.pdf
+    g18_entry: '00606'
+    definition: range of weight values close to a set point outside which the weighing
+      results may be subject to excessive relative error
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: b5b96f6e-54c9-5592-a727-d485a9e2f0ac
+schema_version: '3'
+related: []

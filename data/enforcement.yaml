@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '00189'
+  term: enforcement
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML D 9:2004
+    publication_id: OIML D009:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.7'
+    link: https://www.oiml.org/en/files/pdf_D/d009-e04.pdf
+    g18_entry: '00189'
+    definition: function of metrological supervision consisting in taking the appropriate
+      legal actions against offenders for any violation established during the investigation
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 2deea3b1-0ce6-5b97-b1ad-1db9b6732124
+schema_version: '3'
+related: []

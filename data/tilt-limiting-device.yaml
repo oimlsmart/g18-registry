@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '00610'
+  term: tilt limiting device
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 51-1:2006
+    publication_id: OIML R051-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.2.10.7
+    link: https://www.oiml.org/en/files/pdf_R/r051-1-e06.pdf
+    g18_entry: '00610'
+    definition: device which prevents the instrument from operating above a predetermined
+      value of tilt
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 45528104-be98-59d9-800d-cb8891649bb4
+schema_version: '3'
+related: []

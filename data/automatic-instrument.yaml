@@ -1,0 +1,22 @@
+---
+data:
+  identifier: '01707'
+  term: automatic instrument
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 129:2000
+    publication_id: OIML R129:2000
+    tc_sc: ''
+    year: 2000
+    clause: '2.8'
+    link: https://www.oiml.org/en/files/pdf_R/r129-e00.pdf
+    g18_entry: '01707'
+    definition: an instrument which does not require the intervention of an operator
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: d453050d-62ae-59cf-9b5a-9e2a5fc95d8d
+schema_version: '3'
+related: []

@@ -1,0 +1,41 @@
+---
+data:
+  identifier: '00317'
+  term: auscultatory method
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 16-1:2002
+    publication_id: OIML R016-1:2002
+    tc_sc: ''
+    year: 2002
+    clause: '2.12'
+    link: https://www.oiml.org/en/files/pdf_R/r016-1-e02.pdf
+    g18_entry: '00317'
+    definition: '"k technique whereby sounds (known as Korotkoff sounds) are heard
+      over an occluded artery as the occluding pressure is slowly released, the appearance
+      of sounds coinciding with the systolic blood pressure and the disappearance
+      of sounds with the diastolic blood pressure in adults. In children under age
+      of 13, 4" (i.e. 4th phase Korotkoff sound) may be appropriate'
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 16-2:2002
+    publication_id: OIML R016-2:2002
+    tc_sc: ''
+    year: 2002
+    clause: '2.16'
+    link: https://www.oiml.org/en/files/pdf_R/r016-2-e02.pdf
+    g18_entry: '00336'
+    definition: (i Technique whereby sounds (known as Korotkoff sounds) are heard
+      over an occluded artery as the occluding pressure is slowly released, the appearance
+      of sounds coinciding with the systolic blood pressure and the disappearance
+      of sounds with the diastolic blood pressure. In children under the age of 13,
+      "k4" .e. 4th phase Korotkoff sound) may be appropriate.
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 10f3eca8-3412-53bf-a3fc-194085484d5b
+schema_version: '3'
+related: []

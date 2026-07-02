@@ -1,0 +1,57 @@
+---
+data:
+  identifier: '00104'
+  term: testing laboratory
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML D 30:2008
+    publication_id: OIML D030:2008
+    tc_sc: ''
+    year: 2008
+    clause: '3'
+    link: https://www.oiml.org/en/files/pdf_D/d030-e08.pdf
+    g18_entry: '02163'
+    definition: "- G.3-1 any necessary specialized laboratory or laboratories designated
+      by the Issuing Authority to carry out examination and testing of a sample or
+      samples of a measuring instrument submitted for evaluation, with the Issuing
+      Authority assuming responsibility for the evaluation report"
+    notes:
+    - 1. When used in connection with the MAA, a Testing Laboratory may be part of
+      the organization containing the OIML Issuing Authority, or a subcontracting
+      Testing Laboratory of the OIML Issuing Authority.
+    - 2. A Testing Laboratory may be a subcontractor of an inspection body.
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML B 10-1:2004
+    publication_id: OIML B010-1:2004
+    tc_sc: TC 3/SC 2
+    year: 2004
+    clause: '3.13'
+    link: https://www.oiml.org/en/files/pdf_B/b010-1-e04.pdf
+    g18_entry: '00104'
+    definition: principal laboratory including any necessary specialized laboratory
+      or laboratories designated by the Issuing Authority to carry out examination
+      and testing of a sample or samples of a measuring instrument submitted for type
+      evaluation, with the principal laboratory assuming responsibility for the evaluation
+      results reported
+    notes:
+    - See Note under 3.11.
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML D 19:1988
+    publication_id: OIML D019:1988
+    tc_sc: ''
+    year: 1988
+    clause: 1.1.8
+    link: https://www.oiml.org/en/files/pdf_D/d019-e88.pdf
+    g18_entry: '00132'
+    definition: a laboratory which measures, examines, tests, calibrates or otherwise
+      determines the characteristics or performance of materials or products
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 50a52e98-d624-5a8d-a3dc-ab33c746ab72
+schema_version: '3'
+related: []

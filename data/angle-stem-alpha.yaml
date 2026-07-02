@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '01698'
+  term: angle stem:[\alpha]
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 128:2000
+    publication_id: OIML R128:2000
+    tc_sc: ''
+    year: 2000
+    clause: '3.7'
+    link: https://www.oiml.org/en/files/pdf_R/r128-e00.pdf
+    g18_entry: '01698'
+    definition: the angle stem:[alpha] is the angle between the saddle-height adjustment
+      direction (seat tube) and the vertical (see Fig. 1)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 2565a33c-d420-5de4-9878-405066d8bcf2
+schema_version: '3'
+related: []

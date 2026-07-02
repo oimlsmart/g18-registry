@@ -1,0 +1,22 @@
+---
+data:
+  identifier: '00794'
+  term: minimum discharge
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 61-1:2004
+    publication_id: OIML R061-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: T.3.12
+    link: https://www.oiml.org/en/files/pdf_R/r061-1-e04.pdf
+    g18_entry: '00794'
+    definition: smallest load that can be discharged from a subtractive weigher
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 144055ee-81ed-5e0d-86fc-dd9f3854048e
+schema_version: '3'
+related: []

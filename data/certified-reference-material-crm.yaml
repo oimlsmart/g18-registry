@@ -1,0 +1,47 @@
+---
+data:
+  identifier: '02122'
+  term: certified reference material (CRM)
+  kind: defined_in_vim
+  official_concept:
+    source: urn:oiml:pub:v:2:2007
+    id: '5.14'
+    url: https://oimlsmart.github.io/vocab/vim-2007/concept/5.14
+  publications:
+  - publication: OIML D 18:2008
+    publication_id: OIML D018:2008
+    tc_sc: ''
+    year: 2008
+    clause: '2.2'
+    link: https://www.oiml.org/en/files/pdf_D/d018-e08.pdf
+    g18_entry: '02153'
+    definition: reference material, accompanied by documentation issued by an (VIM:2007,
+      5.14) authoritative body and providing one or more specified property values
+      with associated uncertainties and traceabilities, using valid procedures
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+    related:
+    - type: see
+      ref: &1
+        source: urn:oiml:pub:v:2:2007
+        id: '5.14'
+  - publication: OIML R 142:2008
+    publication_id: OIML R142:2008
+    tc_sc: ''
+    year: 2008
+    clause: 2.4(annex 6)
+    link: https://www.oiml.org/en/files/pdf_R/r142-e08.pdf
+    g18_entry: '02122'
+    definition: reference material, accompanied by documentation issued by an authoritative
+      body and referring to valid procedures used to obtain a specified property value
+      with uncertainty and traceability
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 273cfe17-87af-5b41-ae72-ebe3f255b2a6
+schema_version: '3'
+related:
+- type: see
+  ref: *1

@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '00207'
+  term: being in service (use)
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML D 9:2004
+    publication_id: OIML D009:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.25'
+    link: https://www.oiml.org/en/files/pdf_D/d009-e04.pdf
+    g18_entry: '00207'
+    definition: operational life cycle of a measuring instrument after its putting
+      into service, i.e. a measuring instrument in use, after repair, relocated, or
+      rebuilt that may be resold
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 13fe0dc1-2250-54cc-b15a-9a18b8939d73
+schema_version: '3'
+related: []

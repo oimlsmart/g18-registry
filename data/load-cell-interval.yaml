@@ -1,0 +1,22 @@
+---
+data:
+  identifier: '00712'
+  term: load cell interval
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 60:2000
+    publication_id: OIML R060:2000
+    tc_sc: ''
+    year: 2000
+    clause: 2.3.1
+    link: https://www.oiml.org/en/files/pdf_R/r060-e00.pdf
+    g18_entry: '00712'
+    definition: part of the load cell measuring range into which that range is divided
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 53cf38bd-2b04-500e-8d05-5d10f7b419cd
+schema_version: '3'
+related: []

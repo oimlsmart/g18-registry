@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '01566'
+  term: filter
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 117-1:2007
+    publication_id: OIML R117-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.f.2
+    link: https://www.oiml.org/en/files/pdf_R/r117-1-e07.pdf
+    g18_entry: '01566'
+    definition: device suitable for protecting the meter and additional devices from
+      being damaged by foreign particles
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: f4f84095-59d8-54bb-a5d4-3b67dc54e5c9
+schema_version: '3'
+related: []

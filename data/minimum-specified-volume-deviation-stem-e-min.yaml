@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '02284'
+  term: minimum specified volume deviation(stem:[E_{\min}])
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 80-1:2009
+    publication_id: OIML R080-1:2009
+    tc_sc: ''
+    year: 2009
+    clause: '2.45'
+    link: https://www.oiml.org/en/files/pdf_R/r080-1-e09.pdf
+    g18_entry: '02284'
+    definition: twice the absolute value of the maximum permissible error for the
+      minimum measured quantity of a tank or compartment
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: e888eea1-cc8d-5ee7-99bc-a53548cb50ed
+schema_version: '3'
+related: []

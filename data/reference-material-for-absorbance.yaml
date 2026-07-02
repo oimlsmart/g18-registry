@@ -1,0 +1,25 @@
+---
+data:
+  identifier: '01855'
+  term: reference material for absorbance
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 135:2004
+    publication_id: OIML R135:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.16'
+    link: https://www.oiml.org/en/files/pdf_R/r135-e04.pdf
+    g18_entry: '01855'
+    definition: material of sufficient homogeneous and well-established absorbance
+      to be used for the calibration or control of spectrophotometers
+    notes:
+    - 1. It may be in the form of a liquid or solid; for example a glass filter.
+    - 2. Adapted from ISO Guide 30 and VIM, clause 6.13.
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 191728fa-02f3-5823-9384-27c5dc252dea
+schema_version: '3'
+related: []

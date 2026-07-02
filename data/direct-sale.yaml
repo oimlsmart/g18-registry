@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '01215'
+  term: direct sale
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 105:1993
+    publication_id: OIML R105:1993
+    tc_sc: ''
+    year: 1993
+    clause: T.5
+    link: https://www.oiml.org/en/files/pdf_R/r105-e93.pdf
+    g18_entry: '01215'
+    definition: a measuring transaction during which both the buyer and the seller
+      (or their agents) are present when the quantity is being determined
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: b50fc797-c6a6-593d-aaf8-2467cfb941eb
+schema_version: '3'
+related: []

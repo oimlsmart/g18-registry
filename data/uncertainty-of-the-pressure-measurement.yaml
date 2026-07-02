@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '01431'
+  term: uncertainty of the pressure measurement
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 110:1994
+    publication_id: OIML R110:1994
+    tc_sc: ''
+    year: 1994
+    clause: 2.4.3
+    link: https://www.oiml.org/en/files/pdf_R/r110-e94.pdf
+    g18_entry: '01431'
+    definition: a parameter associated with the result of a pressure measurement,
+      that characterizes the dispersion of the values that could reasonably be attributed
+      to the measured pressure
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 74202483-1eb1-5555-a68f-64c888e38398
+schema_version: '3'
+related: []

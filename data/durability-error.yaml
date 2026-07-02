@@ -1,0 +1,71 @@
+---
+data:
+  identifier: '00234'
+  term: durability error
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 76-1:2006
+    publication_id: OIML R076-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.5.5.7
+    link: https://www.oiml.org/en/files/pdf_R/r076-1-e06.pdf
+    g18_entry: '00983'
+    definition: difference between the intrinsic error over a period of use and the
+      initial intrinsic error of an instrument
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML D 11:2004
+    publication_id: OIML D011:2004
+    tc_sc: ''
+    year: 2004
+    clause: '3.11'
+    link: https://www.oiml.org/en/files/pdf_D/d011-e04.pdf
+    g18_entry: '00234'
+    definition: difference between the intrinsic error after a period of use and the
+      initial intrinsic error of a measuring instrument
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 135:2004
+    publication_id: OIML R135:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.33'
+    link: https://www.oiml.org/en/files/pdf_R/r135-e04.pdf
+    g18_entry: '01872'
+    definition: difference between the intrinsic error over a period of use and [OIML
+      D 11, 3.11] the initial intrinsic error of a measuring instrument
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 75-1:2002
+    publication_id: OIML R075-1:2002
+    tc_sc: ''
+    year: 2002
+    clause: 4.9.4
+    link: https://www.oiml.org/en/files/pdf_R/r075-1-e02.pdf
+    g18_entry: '00862'
+    definition: difference between the intrinsic error after a period of use and the
+      initial intrinsic error
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 105:1993
+    publication_id: OIML R105:1993
+    tc_sc: ''
+    year: 1993
+    clause: T.21
+    link: https://www.oiml.org/en/files/pdf_R/r105-e93.pdf
+    g18_entry: '01236'
+    definition: the difference between the intrinsic error over a period of use and
+      the initial intrinsic error of a measuring system
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: cfe109de-878a-55bd-aef4-5b28038bb916
+schema_version: '3'
+related: []

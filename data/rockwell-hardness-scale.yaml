@@ -1,0 +1,26 @@
+---
+data:
+  identifier: '00381'
+  term: Rockwell (hardness) scale
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 39:2006
+    publication_id: OIML R039:2006
+    tc_sc: ''
+    year: 2006
+    clause: '2.3'
+    link: https://www.oiml.org/en/files/pdf_R/r039-e06.pdf
+    g18_entry: '00381'
+    definition: designation (see 3.2) given to a Rockwell hardness test which defines
+      the specific combination of indenter type, preliminary force, and total force
+      (see Table 1) used. A specific range of Rockwell hardness values is associated
+      with each scale such that higher Rockwell hardness values indicate a harder
+      material
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: b3abd70f-7c79-5ee7-a1fe-172da4bf07cf
+schema_version: '3'
+related: []

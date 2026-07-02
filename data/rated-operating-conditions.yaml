@@ -1,0 +1,401 @@
+---
+data:
+  identifier: '00239'
+  term: rated operating conditions
+  kind: defined_in_vim
+  official_concept:
+    source: urn:oiml:pub:v:2:1993
+    id: '5.5'
+    url: https://oimlsmart.github.io/vocab/vim-1993/concept/5.5
+  publications:
+  - publication: OIML R 80-1:2009
+    publication_id: OIML R080-1:2009
+    tc_sc: ''
+    year: 2009
+    clause: '2.50'
+    link: https://www.oiml.org/en/files/pdf_R/r080-1-e09.pdf
+    g18_entry: '02289'
+    definition: conditions of use giving the range of values of influence quantities
+      for which the specified metrological characteristics of ameasuring instrument
+      are intended to lie within given limits
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 143:2009
+    publication_id: OIML R143:2009
+    tc_sc: ''
+    year: 2009
+    clause: '2.19'
+    link: https://www.oiml.org/en/files/pdf_R/r143-e09.pdf
+    g18_entry: '02145'
+    definition: operating conditions that must be fulfilled during measurement in
+      order that a measuring instrument or measuring system perform as designed
+    notes:
+    - "(VIM:2007, 4.9)"
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 85-1:2008
+    publication_id: OIML R085-1:2008
+    tc_sc: ''
+    year: 2008
+    clause: '3.21'
+    link: https://www.oiml.org/en/files/pdf_R/r085-1-e08.pdf
+    g18_entry: '02319'
+    definition: conditions of use, giving the range of values of influence quantities
+      for which the metrological characteristics are intended spec tolie within the
+      specified permissible errors bein quan
+    notes:
+    - The rated operating conditions generally ify intervals of values for the quantity
+      g measured and for any influence tity.
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 99-1:2008
+    publication_id: OIML R099-1:2008
+    tc_sc: ''
+    year: 2008
+    clause: '3.25'
+    link: https://www.oiml.org/en/files/pdf_R/r099-1-e08.pdf
+    g18_entry: '02358'
+    definition: operating condition that must be fulfilled during measurement in (VIM:2007,
+      4.9) order that a measuring instrument or measuring system perform asdesigned
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+    related:
+    - type: see
+      ref: &2
+        source: urn:oiml:pub:v:2:2007
+        id: '4.9'
+  - publication: OIML R 35-1:2007
+    publication_id: OIML R035-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: 2.3.4
+    link: https://www.oiml.org/en/files/pdf_R/r035-1-e07.pdf
+    g18_entry: '00377'
+    definition: conditions of use, giving the range of values of influence quantities
+      for which the metrological characteristics are intended tolie within the specified
+      maximum permissible errors
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 107-1:2007
+    publication_id: OIML R107-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.5.2
+    link: https://www.oiml.org/en/files/pdf_R/r107-1-e07.pdf
+    g18_entry: '01399'
+    definition: "[V conditions of use for which specified metrological characteristics
+      of an instrument are intended to lie within given limits IM: 1993, 5.5]"
+    notes:
+    - These conditions of use are the range of weight values and the range of influence
+      quantity values for which the indication of an instrument is intended to lie
+      within maximum permissible errors.
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 117-1:2007
+    publication_id: OIML R117-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.c.3.3
+    link: https://www.oiml.org/en/files/pdf_R/r117-1-e07.pdf
+    g18_entry: '01547'
+    definition: conditions of use, giving the range of values of influence quantities
+      for which the metrological characteristics are intended tobe within the maximum
+      permissible errors
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 139:2007
+    publication_id: OIML R139:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.4.4
+    link: https://www.oiml.org/en/files/pdf_R/r139-e07.pdf
+    g18_entry: '02025'
+    definition: conditions of use, giving the range of values of influence quantities
+      for which the metrological characteristics are intended to be within the maximum
+      permissible errors
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 140:2007
+    publication_id: OIML R140:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.3.4
+    link: https://www.oiml.org/en/files/pdf_R/r140-e07.pdf
+    g18_entry: '02095'
+    definition: conditions of use giving the range of values of influence quantities
+      for which the metrological characteristics are intended to lie within the maximum
+      permissible errors
+    notes:
+    - "(adapted from VIM:2007, 4.9)"
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 51-1:2006
+    publication_id: OIML R051-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.5.2
+    link: https://www.oiml.org/en/files/pdf_R/r051-1-e06.pdf
+    g18_entry: '00667'
+    definition: "[V conditions of use, giving the ranges of the measurand and of the
+      influence quantities for which the metrological characteristics are intended
+      to lie within the maximum permissible errors specified in this Recommendation
+      IM:1993, 5.5]"
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 76-1:2006
+    publication_id: OIML R076-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.6.2
+    link: https://www.oiml.org/en/files/pdf_R/r076-1-e06.pdf
+    g18_entry: '00989'
+    definition: "[V conditions of use, giving the range of values of influence quantities
+      for which the metrological characteristics are intended tolie within the specified
+      maximum permissible errors IM: 1993, 5.5]"
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 137-1:2006
+    publication_id: OIML R137-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: 2.2.15
+    link: https://www.oiml.org/en/files/pdf_R/r137-1-e06.pdf
+    g18_entry: '01951'
+    definition: conditions of use giving the range of values of the measurand and
+      the influence quantities, for which the errors of the gas meter are required
+      to be within the limits of the maximum permissible error
+    notes:
+    - "[adapted from VIM:1993, 5.5]"
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML D 11:2004
+    publication_id: OIML D011:2004
+    tc_sc: ''
+    year: 2004
+    clause: '3.14'
+    link: https://www.oiml.org/en/files/pdf_D/d011-e04.pdf
+    g18_entry: '00239'
+    definition: conditions of use giving the range of values of influence quantities
+      for which specified metrological characteristics of a measuring instrument are
+      intended to lie within given limits [Adapted from VIM:1993, 5.5]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+    related:
+    - type: see
+      ref: &1
+        source: urn:oiml:pub:v:2:1993
+        id: '5.5'
+  - publication: OIML R 61-1:2004
+    publication_id: OIML R061-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: T.5.2
+    link: https://www.oiml.org/en/files/pdf_R/r061-1-e04.pdf
+    g18_entry: '00812'
+    definition: "[b conditions of use, giving the ranges of the measurand and of the
+      influence quantities for which the metrological characteristics are intended
+      to lie within the maximum permissible deviations specified in this Recommendation
+      ased on VIM:1993, 5.5]"
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+    related:
+    - type: see
+      ref:
+        source: urn:oiml:pub:v:2:1993
+        id: '5.5'
+  - publication: OIML R 136-1:2004
+    publication_id: OIML R136-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: T.5.2
+    link: https://www.oiml.org/en/files/pdf_R/r136-1-e04.pdf
+    g18_entry: '01918'
+    definition: conditions of use which give the ranges of the influence quantities
+      for which the metrological characteristics are intended tolie within the specified
+      maximum permissible errors
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 134:2003
+    publication_id: OIML R134:2003
+    tc_sc: ''
+    year: 2003
+    clause: T.5.2
+    link: https://www.oiml.org/en/files/pdf_R/r134-e03.pdf
+    g18_entry: '01831'
+    definition: conditions of use which give the ranges of the influence quantities
+      for which the metrological characteristics are intended to lie within the specified
+      maximum permissible errors
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 75-1:2002
+    publication_id: OIML R075-1:2002
+    tc_sc: ''
+    year: 2002
+    clause: '4.4'
+    link: https://www.oiml.org/en/files/pdf_R/r075-1-e02.pdf
+    g18_entry: '00854'
+    definition: "[a conditions of use for which specified metrological characteristics
+      of a measuring instrument are intended to lie within the specified maximum permissible
+      errors dapted from VIM:1993, 5.5]"
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+    related:
+    - type: see
+      ref:
+        source: urn:oiml:pub:v:2:1993
+        id: '5.5'
+  - publication: OIML R 60:2000
+    publication_id: OIML R060:2000
+    tc_sc: ''
+    year: 2000
+    clause: 2.5.2
+    link: https://www.oiml.org/en/files/pdf_R/r060-e00.pdf
+    g18_entry: 00474b
+    definition: conditions of use, for which the metrological characteristics of The
+      rated operating conditions generally the load cell are intended to lie within
+      the specified mpe (see 2.4.9)
+    notes:
+    - specify ranges or rated values of the measurand and of the influence quantities
+      [Adapted from VIM:1993, 5.5]
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 129:2000
+    publication_id: OIML R129:2000
+    tc_sc: ''
+    year: 2000
+    clause: '2.30'
+    link: https://www.oiml.org/en/files/pdf_R/r129-e00.pdf
+    g18_entry: '01731'
+    definition: conditions of use giving the range of values of influence quantities
+      for which the metrological characteristics are intended to lie within the specified
+      maximum permissible errors
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 81:1998
+    publication_id: OIML R081:1998
+    tc_sc: ''
+    year: 1998
+    clause: '3.28'
+    link: https://www.oiml.org/en/files/pdf_R/r081-e98.pdf
+    g18_entry: '01037'
+    definition: conditions of use, specifying the range of values of influence quantities
+      for which the metrological characteristics are intended to be within the maximum
+      permissible errors
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 125:1998
+    publication_id: OIML R125:1998
+    tc_sc: ''
+    year: 1998
+    clause: T.30
+    link: https://www.oiml.org/en/files/pdf_R/r125-e98.pdf
+    g18_entry: '01649'
+    definition: conditions of use giving the range of values of influence quantities
+      for which the metrological characteristics are intended to lie within the specified
+      maximum permissible errors (adapted from VIM:1993, 5.5)
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+    related:
+    - type: see
+      ref:
+        source: urn:oiml:pub:v:2:1993
+        id: '5.5'
+  - publication: OIML R 50-1:1997
+    publication_id: OIML R050-1:1997
+    tc_sc: ''
+    year: 1997
+    clause: T.6.2
+    link: https://www.oiml.org/en/files/pdf_R/r050-1-e97.pdf
+    g18_entry: '00533'
+    definition: "[A the conditions of use, giving the ranges of the measurand and
+      of the influence quantities for which the metrological characteristics are intended
+      to lie within the maximum permissible errors specified in this Recommendation
+      dapted from VIM:1993, 5.5]"
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+    related:
+    - type: see
+      ref:
+        source: urn:oiml:pub:v:2:1993
+        id: '5.5'
+  - publication: OIML R 106-1:1997
+    publication_id: OIML R106-1:1997
+    tc_sc: ''
+    year: 1997
+    clause: T.5.2
+    link: https://www.oiml.org/en/files/pdf_R/r106-1-e97.pdf
+    g18_entry: '01304'
+    definition: conditions of use which give the ranges of the influence quantities
+      for which the metrological characteristics are intended tolie within the specified
+      maximum permissible errors
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 124:1997
+    publication_id: OIML R124:1997
+    tc_sc: ''
+    year: 1997
+    clause: '6'
+    link: https://www.oiml.org/en/files/pdf_R/r124-e97.pdf
+    g18_entry: '01611'
+    definition: "(D conditions of use, giving the range of values of influence quantities
+      for which the metrological characteristics are intended tobe within the specified
+      maximum permissible errors 11 clause T.13)."
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 110:1994
+    publication_id: OIML R110:1994
+    tc_sc: ''
+    year: 1994
+    clause: 2.5.1
+    link: https://www.oiml.org/en/files/pdf_R/r110-e94.pdf
+    g18_entry: '01437'
+    definition: the conditions of use of a pressure balance for which its metrological
+      characteristics are intended to meet the requirements concerning maximum permissible
+      errors
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 105:1993
+    publication_id: OIML R105:1993
+    tc_sc: ''
+    year: 1993
+    clause: T.25
+    link: https://www.oiml.org/en/files/pdf_R/r105-e93.pdf
+    g18_entry: '01242'
+    definition: conditions of use, specifying the range of values of influence quantities
+      for which the metrological characteristics are intended to lie within the maximum
+      permissible errors [adapted from VIM:1993, 5.05]
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+    related:
+    - type: see
+      ref:
+        source: urn:oiml:pub:v:2:1993
+        id: '5.5'
+status: current
+id: 6c3a7cdd-f0af-5950-b0d7-9ac5cb2f0614
+schema_version: '3'
+related:
+- type: see
+  ref: *1
+- type: see
+  ref: *2

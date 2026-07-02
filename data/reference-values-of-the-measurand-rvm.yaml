@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '00867'
+  term: reference values of the measurand, RVM
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 75-1:2002
+    publication_id: OIML R075-1:2002
+    tc_sc: ''
+    year: 2002
+    clause: '4.11'
+    link: https://www.oiml.org/en/files/pdf_R/r075-1-e02.pdf
+    g18_entry: '00867'
+    definition: specified set of values of the flow rate, the return temperature and
+      the temperature difference, fixed to ensure valid intercomparison of the results
+      of measurements
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 8635cc20-dadb-55f0-91d9-845917ffa1c3
+schema_version: '3'
+related: []

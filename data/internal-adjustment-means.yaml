@@ -1,0 +1,22 @@
+---
+data:
+  identifier: '02136'
+  term: internal adjustment means
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 143:2009
+    publication_id: OIML R143:2009
+    tc_sc: ''
+    year: 2009
+    clause: '2.10'
+    link: https://www.oiml.org/en/files/pdf_R/r143-e09.pdf
+    g18_entry: '02136'
+    definition: means to adjust the gas analyzer without the use of a CGM
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: a0c7ab06-da0d-5e94-bebe-3c8e2646774c
+schema_version: '3'
+related: []

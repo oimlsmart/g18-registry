@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '00083'
+  term: family of modules
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML B 3:2003
+    publication_id: OIML B003:2003
+    tc_sc: ''
+    year: 2003
+    clause: '2.5'
+    link: https://www.oiml.org/en/files/pdf_B/b003-e03.pdf
+    g18_entry: '00083'
+    definition: identifiable group of modules belonging to the same manufactured type
+      that have similar design features but may differ in some metrological and technical
+      performance requirements as defined in the relevant Recommendation
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 4a29a24b-5c50-5cda-afa7-d2b116f18442
+schema_version: '3'
+related: []

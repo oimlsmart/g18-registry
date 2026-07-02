@@ -1,0 +1,53 @@
+---
+data:
+  identifier: '01468'
+  term: verification
+  kind: defined_in_viml
+  official_concept:
+    source: urn:oiml:pub:v:1:2000
+    id: '2.4'
+    url: https://oimlsmart.github.io/vocab/viml-2000/concept/2.4
+  publications:
+  - publication: OIML D 31:2008
+    publication_id: OIML D031:2008
+    tc_sc: ''
+    year: 2008
+    clause: 3.1.57
+    link: https://www.oiml.org/en/files/pdf_D/d031-e08.pdf
+    g18_entry: '02224'
+    definition: procedure (other than type approval) that includes the examination
+      and marking and/or issuing of a verification certificate that ascertains and
+      confirms that the measuring instrument complies with the statutory requirements
+    notes:
+    - 1. Different definition from other Standards e.g. ISO/IEC 14598, clause 4.23
+      or IEC 61508-4, clause 3.8.
+    - '1.'
+    - '2. [OIML V 1: 2000, 2.13]'
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 111-1:2004
+    publication_id: OIML R111-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.18'
+    link: https://www.oiml.org/en/files/pdf_R/r111-1-e04.pdf
+    g18_entry: '01468'
+    definition: "( all the operations carried out by an organ of the national service
+      oflegal metrology (or other legally authorized organization) having the object
+      of ascertaining and confirming that the weight entirely satisfies the requirements
+      of the regulations for verification. Verification includes both examination
+      and stamping. Adapted from VIML 2.4 and 2.13)"
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+    related:
+    - type: see
+      ref: &1
+        source: urn:oiml:pub:v:1:2000
+        id: '2.4'
+status: current
+id: db855584-f972-5488-b570-2a87a2753de9
+schema_version: '3'
+related:
+- type: see
+  ref: *1

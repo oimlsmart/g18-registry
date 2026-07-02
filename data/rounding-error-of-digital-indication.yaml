@@ -1,0 +1,47 @@
+---
+data:
+  identifier: '00655'
+  term: rounding error of digital indication
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 107-1:2007
+    publication_id: OIML R107-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.4.5.2
+    link: https://www.oiml.org/en/files/pdf_R/r107-1-e07.pdf
+    g18_entry: '01388'
+    definition: difference between the indication and the result the instrument would
+      give with analog indication
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 51-1:2006
+    publication_id: OIML R051-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.4.3.2
+    link: https://www.oiml.org/en/files/pdf_R/r051-1-e06.pdf
+    g18_entry: '00655'
+    definition: difference between the indication and the result the instrument would
+      give with analog indication
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 76-1:2006
+    publication_id: OIML R076-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: T.5.4.3
+    link: https://www.oiml.org/en/files/pdf_R/r076-1-e06.pdf
+    g18_entry: '00975'
+    definition: difference between the indication and the result the instrument would
+      give with analog indication
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: b7831576-bc9e-562f-b47f-82884fe70860
+schema_version: '3'
+related: []

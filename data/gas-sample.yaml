@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '02149'
+  term: gas sample
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 143:2009
+    publication_id: OIML R143:2009
+    tc_sc: ''
+    year: 2009
+    clause: '2.23'
+    link: https://www.oiml.org/en/files/pdf_R/r143-e09.pdf
+    g18_entry: '02149'
+    definition: gas taken from the pipe or gas duct of the stationary source of emissions,
+      conveyed to the gas analyzer for analysis
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 06ac82d6-f234-5bab-94a5-dae2e808d229
+schema_version: '3'
+related: []

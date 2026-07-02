@@ -1,0 +1,56 @@
+---
+data:
+  identifier: '01395'
+  term: audit trail
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML D 31:2008
+    publication_id: OIML D031:2008
+    tc_sc: ''
+    year: 2008
+    clause: 3.1.2
+    link: https://www.oiml.org/en/files/pdf_D/d031-e08.pdf
+    g18_entry: '02169'
+    definition: continuous data file containing a time stamped information record
+      of events, e.g. changes in the values of the parameters of a device or software
+      updates, or other activities that are legally relevant and which may influence
+      the metrological characteristics
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 107-1:2007
+    publication_id: OIML R107-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.4.5.9
+    link: https://www.oiml.org/en/files/pdf_R/r107-1-e07.pdf
+    g18_entry: '01395'
+    definition: historical record (or continuous data file) of the instrument data,
+      adjustments and weighing operations. Checks can be made to ensure that adjustments
+      and weighings have been carried out in accordance with the appropriate parts
+      of this Recommendation. Every log entry has a unique time and date stamp
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 140:2007
+    publication_id: OIML R140:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.1.18
+    link: https://www.oiml.org/en/files/pdf_R/r140-e07.pdf
+    g18_entry: '02061'
+    definition: set of electronic and/or paper records that provide for a complete
+      The required records may include volumes at examination of measured variables,
+      parameter settings and met calculation results to check the accuracy of a measurement
+      and and cal any necessary corrections spe ene and
+    notes:
+    - ering conditions, pressures, temperatures orific values, conversion equation
+      cification and parameters, volumes and rgy at base conditions, calibration datum,
+      alarm logs.
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 78db1787-c45b-54a0-89e8-f176bf746a80
+schema_version: '3'
+related: []

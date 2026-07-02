@@ -1,0 +1,25 @@
+---
+data:
+  identifier: '00791'
+  term: rated minimum fill (Minfill)
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 61-1:2004
+    publication_id: OIML R061-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: T.3.9
+    link: https://www.oiml.org/en/files/pdf_R/r061-1-e04.pdf
+    g18_entry: '00791'
+    definition: rated value of the fill below which the weighing results may be subject
+      to errors outside the limits specified in this Recommendation
+    notes:
+    - for filling instruments which effect the fill by more than one weighing cycle,
+      Minfill is larger than the minimum capacity (Min).
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: eb661d53-6eb1-5a66-9a11-527ff482fbb7
+schema_version: '3'
+related: []

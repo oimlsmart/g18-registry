@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '01446'
+  term: check standard
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 111-1:2004
+    publication_id: OIML R111-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.5'
+    link: https://www.oiml.org/en/files/pdf_R/r111-1-e04.pdf
+    g18_entry: '01446'
+    definition: '"c standard that is used in a statistical control process to provide
+      a heck" to ensure that standards, measurement processes and results are within
+      acceptable statistical limits'
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 3000d6cb-2dc0-526f-973c-4f801d90c2e0
+schema_version: '3'
+related: []

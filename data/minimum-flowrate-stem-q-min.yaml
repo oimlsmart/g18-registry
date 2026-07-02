@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '00520'
+  term: minimum flowrate (stem:[Q_{\min}])
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 50-1:1997
+    publication_id: OIML R050-1:1997
+    tc_sc: ''
+    year: 1997
+    clause: T.4.5.2
+    link: https://www.oiml.org/en/files/pdf_R/r050-1-e97.pdf
+    g18_entry: '00520'
+    definition: the flowrate above which the weighing results comply with the requirements
+      of this Recommendation
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: d66c0083-89f4-5535-834e-9f013e257d11
+schema_version: '3'
+related: []

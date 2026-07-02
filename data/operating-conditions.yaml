@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '01950'
+  term: operating conditions
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 137-1:2006
+    publication_id: OIML R137-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: 2.2.14
+    link: https://www.oiml.org/en/files/pdf_R/r137-1-e06.pdf
+    g18_entry: '01950'
+    definition: conditions of the gas (temperature, pressure and gas composition)
+      at which the quantity of gas is measured
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: fd656130-6864-5222-a367-f9627f45614c
+schema_version: '3'
+related: []

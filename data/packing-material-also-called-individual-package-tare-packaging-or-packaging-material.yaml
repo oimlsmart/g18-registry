@@ -1,0 +1,28 @@
+---
+data:
+  identifier: '01118'
+  term: packing material (also called individual package, tare, packaging or packaging
+    material)
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 87:2004
+    publication_id: OIML R087:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.9'
+    link: https://www.oiml.org/en/files/pdf_R/r087-e04.pdf
+    g18_entry: '01118'
+    definition: everything of the prepackage that is intended to be left over after
+      Packing material is generally used to contain, use of the product, except for
+      items naturally in the product. Use includes consumption or subjecting to a
+      treatment
+    notes:
+    - protect, handle, deliver, preserve, transport, inform about and serve as an
+      aid (e.g. food serving tray) while using the product it contains.
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 6be73c84-a8bb-5d4c-adb3-901d58d5a67c
+schema_version: '3'
+related: []

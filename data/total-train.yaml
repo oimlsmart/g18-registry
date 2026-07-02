@@ -1,0 +1,22 @@
+---
+data:
+  identifier: 01213b
+  term: total train
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 106-1:1997
+    publication_id: OIML R106-1:1997
+    tc_sc: ''
+    year: 1997
+    clause: T.7.3
+    link: https://www.oiml.org/en/files/pdf_R/r106-1-e97.pdf
+    g18_entry: 01213b
+    definition: a number of coupled wagons whose totalized weight is to be obtained
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 0fa653cc-992c-523f-99ab-fcdcb8b5c5e8
+schema_version: '3'
+related: []

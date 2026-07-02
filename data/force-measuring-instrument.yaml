@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '00820'
+  term: force measuring instrument
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 65:2006
+    publication_id: OIML R065:2006
+    tc_sc: ''
+    year: 2006
+    clause: '3.3'
+    link: https://www.oiml.org/en/files/pdf_R/r065-e06.pdf
+    g18_entry: '00820'
+    definition: instrument that measures the force applied by the force generating
+      device of a material testing machine
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: d44aeace-b14e-544f-9e67-9788696b34cf
+schema_version: '3'
+related: []

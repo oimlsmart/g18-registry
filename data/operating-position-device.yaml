@@ -1,0 +1,25 @@
+---
+data:
+  identifier: '00360'
+  term: operating position device
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 21:2007
+    publication_id: OIML R021:2007
+    tc_sc: ''
+    year: 2007
+    clause: 2.2.11
+    link: https://www.oiml.org/en/files/pdf_R/r021-e07.pdf
+    g18_entry: '00360'
+    definition: device to switch the taximeter into specific operating positions (see
+      2.3.3)
+    notes:
+    - The operating position device may, for example, consist of specific keys and
+      switches for specific functions.
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 784cb9fe-b1c6-5a3c-9f23-63f0315cf02e
+schema_version: '3'
+related: []

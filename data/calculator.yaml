@@ -1,0 +1,127 @@
+---
+data:
+  identifier: '00414'
+  term: calculator
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 85-1:2008
+    publication_id: OIML R085-1:2008
+    tc_sc: ''
+    year: 2008
+    clause: '3.7'
+    link: https://www.oiml.org/en/files/pdf_R/r085-1-e08.pdf
+    g18_entry: '02305'
+    definition: part of the ALG that receives the output signals from the transducer
+      and, if applicable, from ancillary devices and/or other devices, processes them
+      and, if appropriate, stores the results in memory until they are used. In addition,
+      the calculator may be capable of communicating both ways with other devices
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 117-1:2007
+    publication_id: OIML R117-1:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.c.1
+    link: https://www.oiml.org/en/files/pdf_R/r117-1-e07.pdf
+    g18_entry: '01539'
+    definition: part of the meter that receives the output signals from the measuring
+      device(s) and, possibly, from associated measuring devices, processes them and,
+      if appropriate, stores the results in memory until they are used. In addition,
+      the calculator may be capable of communicating both ways with ancillary devices
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 140:2007
+    publication_id: OIML R140:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.1.3
+    link: https://www.oiml.org/en/files/pdf_R/r140-e07.pdf
+    g18_entry: '02043'
+    definition: part of the measuring system that receives the output signals from
+      the flow measuring device(s) or from another calculator and possibly from the
+      associated measuring instruments, transforms them, and, if appropriate, stores
+      the results in memory until they are used. In addition, the calculator may be
+      capable of transmitting and receiving data from peripheral equipment
+    notes:
+    - A measuring system may have one, two or more calculators, for instance a mechanical
+      calculator to produce the volume at metering conditions and which transmits
+      the value to a mechanical indicating device, an electronic calculator which
+      also calculates the volume at metering conditions, associated with an electronic
+      indicating device, and another one to calculate the converted value.
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 49-1:2006
+    publication_id: OIML R049-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: 2.1.4
+    link: https://www.oiml.org/en/files/pdf_R/r049-1-e06.pdf
+    g18_entry: '00414'
+    definition: part of the meter which receives the output signals from the transducer(s)
+      and, possibly, from associated measuring instruments, transforms them and, if
+      appropriate, stores the results in memory until they are used. In addition,
+      the calculator may be capable of communicating both ways with ancillary devices
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 137-1:2006
+    publication_id: OIML R137-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: 2.1.6
+    link: https://www.oiml.org/en/files/pdf_R/r137-1-e06.pdf
+    g18_entry: '01929'
+    definition: part of the gas meter which receives the output signals from the measuring
+      transducer(s) and, possibly, associated measuring instruments, transforms them
+      and, if appropriate, stores the results in memory until they are used. In addition,
+      the calculator may be capable of communicating both ways with ancillary devices
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 75-1:2002
+    publication_id: OIML R075-1:2002
+    tc_sc: ''
+    year: 2002
+    clause: 3.4.3
+    link: https://www.oiml.org/en/files/pdf_R/r075-1-e02.pdf
+    g18_entry: '00849'
+    definition: a sub-assembly which receives signals from the flow sensor and the
+      temperature sensors and calculates and indicates the quantity ofheat exchanged
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 81:1998
+    publication_id: OIML R081:1998
+    tc_sc: ''
+    year: 1998
+    clause: '3.7'
+    link: https://www.oiml.org/en/files/pdf_R/r081-e98.pdf
+    g18_entry: '01016'
+    definition: a part of the meter that receives the output signal from the transducer(s),
+      transforms it and, if appropriate, stores in memory the results until they are
+      used. Additionally, the calculator may be capable of communicating both ways
+      with the peripheral equipment
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 105:1993
+    publication_id: OIML R105:1993
+    tc_sc: ''
+    year: 1993
+    clause: T.13.2
+    link: https://www.oiml.org/en/files/pdf_R/r105-e93.pdf
+    g18_entry: '01225'
+    definition: a device that receives the output quantity from the transducer(s),
+      checks and transforms it and, if appropriate, memorizes the results until they
+      are used. In addition, the calculator may be capable of communicating both ways
+      with peripheral equipment
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 11ac6274-500d-5c20-aa14-13570145dc19
+schema_version: '3'
+related: []

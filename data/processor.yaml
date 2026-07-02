@@ -1,0 +1,40 @@
+---
+data:
+  identifier: '01621'
+  term: processor
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 129:2000
+    publication_id: OIML R129:2000
+    tc_sc: ''
+    year: 2000
+    clause: '2.4'
+    link: https://www.oiml.org/en/files/pdf_R/r129-e00.pdf
+    g18_entry: '01703'
+    definition: a device which contains all the necessary information and receives
+      all the necessary signals from the measuring device to enable it to calculate
+      the volume or other associated quantities. It may also store information, provide
+      checking facilities for the information and communicate with auxiliary devices
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 125:1998
+    publication_id: OIML R125:1998
+    tc_sc: ''
+    year: 1998
+    clause: T.7
+    link: https://www.oiml.org/en/files/pdf_R/r125-e98.pdf
+    g18_entry: '01621'
+    definition: a device which contains all the necessary information and receives
+      all the necessary signals from the transducers thus enabling it to calculate
+      the mass contained in the tank as well as other quantities. It may also store
+      information, provide checking facilities for the information and communicate
+      with ancillary devices
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: d8efee51-e995-5583-90a2-2fb1e59726d3
+schema_version: '3'
+related: []

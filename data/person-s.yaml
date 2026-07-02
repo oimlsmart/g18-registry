@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '00997'
+  term: person(s)
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 79:1997
+    publication_id: OIML R079:1997
+    tc_sc: ''
+    year: 1997
+    clause: '2.5'
+    link: https://www.oiml.org/en/files/pdf_R/r079-e97.pdf
+    g18_entry: '00997'
+    definition: both singular and plural, as the case demands, including individuals,
+      partnerships, corporations, companies, societies and associations
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 66120cda-a0ca-5b35-aa57-decc9a7119f5
+schema_version: '3'
+related: []

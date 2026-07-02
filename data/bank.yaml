@@ -1,0 +1,26 @@
+---
+data:
+  identifier: '02029'
+  term: bank
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 139:2007
+    publication_id: OIML R139:2007
+    tc_sc: ''
+    year: 2007
+    clause: T.4.8
+    link: https://www.oiml.org/en/files/pdf_R/r139-e07.pdf
+    g18_entry: '02029'
+    definition: test reservoir or a set of test reservoirs manifolded together which
+      forms part of a multi-segment gas storage system. The segments operate at different
+      pressure levels from one another in refueling systems fitted with or using a
+      sequential control device (see T.4.9 below)
+    notes:
+    - Testing using banks generates transient flowrates.
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 45382aff-8c73-53bb-a00b-c6149638d169
+schema_version: '3'
+related: []

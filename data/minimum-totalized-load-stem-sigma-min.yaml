@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '00521'
+  term: minimum totalized load(stem:[\Sigma_{\min}])
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 50-1:1997
+    publication_id: OIML R050-1:1997
+    tc_sc: ''
+    year: 1997
+    clause: T.4.6
+    link: https://www.oiml.org/en/files/pdf_R/r050-1-e97.pdf
+    g18_entry: '00521'
+    definition: the quantity, in units of mass, below which a totalization may be
+      subject to excessive relative errors
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 74accc3e-671a-5dfd-a5b4-9a644db314f6
+schema_version: '3'
+related: []

@@ -1,0 +1,25 @@
+---
+data:
+  identifier: '01777'
+  term: expansion chamber
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 133:2002
+    publication_id: OIML R133:2002
+    tc_sc: ''
+    year: 2002
+    clause: '3.4'
+    link: https://www.oiml.org/en/files/pdf_R/r133-e02.pdf
+    g18_entry: '01777'
+    definition: enlargement at the upper end of the capillary to provide protection
+      against possible bulb distension or breakage as a result of excessive liquid
+      and gas pressures when a thermometer is exposed to a temperature greater than
+      its working range
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 8140dc4d-e07c-5ee1-8b27-e9961a94ab64
+schema_version: '3'
+related: []

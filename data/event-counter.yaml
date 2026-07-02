@@ -1,0 +1,22 @@
+---
+data:
+  identifier: '02188'
+  term: event counter
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML D 31:2008
+    publication_id: OIML D031:2008
+    tc_sc: ''
+    year: 2008
+    clause: 3.1.21
+    link: https://www.oiml.org/en/files/pdf_D/d031-e08.pdf
+    g18_entry: '02188'
+    definition: non resettable counter that increments each time an event occurs
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: f536a4f8-1f61-5a20-bd4b-e2a5eebd3906
+schema_version: '3'
+related: []

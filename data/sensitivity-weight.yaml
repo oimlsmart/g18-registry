@@ -1,0 +1,23 @@
+---
+data:
+  identifier: '01460'
+  term: sensitivity weight
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 111-1:2004
+    publication_id: OIML R111-1:2004
+    tc_sc: ''
+    year: 2004
+    clause: '2.12'
+    link: https://www.oiml.org/en/files/pdf_R/r111-1-e04.pdf
+    g18_entry: '01460'
+    definition: weight that is used to determine the sensitivity of a weighing instrument
+    notes:
+    - see T.4.1 in OIML R 76-1
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 76871dfd-0371-526b-90fe-20a861a0d086
+schema_version: '3'
+related: []

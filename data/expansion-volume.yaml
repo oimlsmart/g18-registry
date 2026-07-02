@@ -1,0 +1,22 @@
+---
+data:
+  identifier: '02247'
+  term: expansion volume
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 80-1:2009
+    publication_id: OIML R080-1:2009
+    tc_sc: ''
+    year: 2009
+    clause: '2.8'
+    link: https://www.oiml.org/en/files/pdf_R/r080-1-e09.pdf
+    g18_entry: '02247'
+    definition: difference between total and nominal capacity
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: a6906254-1cde-55df-9e11-c5a4329fd52d
+schema_version: '3'
+related: []

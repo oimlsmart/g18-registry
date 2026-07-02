@@ -1,0 +1,22 @@
+---
+data:
+  identifier: '01125'
+  term: analogue focimeter
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 93:1999
+    publication_id: OIML R093:1999
+    tc_sc: ''
+    year: 1999
+    clause: '3.2'
+    link: https://www.oiml.org/en/files/pdf_R/r093-e99.pdf
+    g18_entry: '01125'
+    definition: focimeter with a continuous scale
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: 031b2d67-b580-5585-94bd-1799e5f17041
+schema_version: '3'
+related: []

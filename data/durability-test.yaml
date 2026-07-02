@@ -1,0 +1,47 @@
+---
+data:
+  identifier: '00253'
+  term: durability test
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML D 11:2004
+    publication_id: OIML D011:2004
+    tc_sc: ''
+    year: 2004
+    clause: 3.20.4
+    link: https://www.oiml.org/en/files/pdf_D/d011-e04.pdf
+    g18_entry: '00253'
+    definition: test intended to verify whether the EUT is able to maintain its performance
+      characteristics over a period of use
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 50-1:1997
+    publication_id: OIML R050-1:1997
+    tc_sc: ''
+    year: 1997
+    clause: T.7.4
+    link: https://www.oiml.org/en/files/pdf_R/r050-1-e97.pdf
+    g18_entry: '00538'
+    definition: a test to verify whether the EUT is capable of maintaining its performance
+      characteristics over a period of use
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+  - publication: OIML R 105:1993
+    publication_id: OIML R105:1993
+    tc_sc: ''
+    year: 1993
+    clause: T.34
+    link: https://www.oiml.org/en/files/pdf_R/r105-e93.pdf
+    g18_entry: '01253'
+    definition: a test intended to verify whether the EUT is capable of maintaining
+      its performance characteristics over a period of use
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: ee80dae2-55b0-50b1-85cd-dee4b5f3efda
+schema_version: '3'
+related: []

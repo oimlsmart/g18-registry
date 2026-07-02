@@ -1,0 +1,24 @@
+---
+data:
+  identifier: '00443'
+  term: combination meter changeover flowrate, stem:[Q_{x}]
+  kind: undefined
+  official_concept:
+  publications:
+  - publication: OIML R 49-1:2006
+    publication_id: OIML R049-1:2006
+    tc_sc: ''
+    year: 2006
+    clause: 2.3.6
+    link: https://www.oiml.org/en/files/pdf_R/r049-1-e06.pdf
+    g18_entry: '00443'
+    definition: change-over flowrate Qx1 is when flow stops in the larger meter with
+      decreasing flowrate. Change-over flowrate Qx2 is when flow starts in the larger
+      meter with increasing flowrate
+    notes: []
+    consistency: pending
+    consistency_reason: ''
+status: current
+id: c40e902d-000c-51c1-ad7c-0ada7013404b
+schema_version: '3'
+related: []
