@@ -18,10 +18,8 @@ data:
     g18_entry: '02204'
     definition: source code or executable code
     notes: []
-    consistency: partial
-    consistency_reason: The publication quotes the VIM definition correctly but adds
-      an expanded scope covering measuring systems, material measures, and components,
-      which goes beyond the official definition.
+    consistency: pending
+    consistency_reason: ''
 status: current
 id: fdbbd37e-b70a-57ed-b6c8-94ac873cc50e
 schema_version: '3'

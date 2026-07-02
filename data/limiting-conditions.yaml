@@ -32,10 +32,8 @@ data:
       when it is subsequently operated within its rated operating conditions dapted
       from VIM:1993, 5.6]."
     notes: []
-    consistency: partial
-    consistency_reason: Narrows the general definition to water meters only and adds
-      a non-exhaustive list of specific extreme conditions not present in the official
-      definition.
+    consistency: pending
+    consistency_reason: ''
     related:
     - type: see
       ref:

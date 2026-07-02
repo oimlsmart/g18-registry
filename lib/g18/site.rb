@@ -6,6 +6,7 @@ require "digest"
 require "fileutils"
 require "cgi"
 require_relative "vocabulary"
+require_relative "model/identifier"
 
 module G18
   module Site
@@ -147,7 +148,7 @@ module G18
       end
 
       def self.slugify(id)
-        id.to_s.downcase.gsub(/[^a-z0-9]+/, "-").gsub(/^-+|-+$/, "")
+        G18::Model::Identifier.slugify(id)
       end
 
       def self.from_hash(hash)
@@ -185,24 +186,13 @@ module G18
       end
 
       def self.slugify(name)
-        name.to_s.downcase.gsub(/[^a-z0-9]+/, "-").gsub(/^-+|-+$/, "")
+        G18::Model::Identifier.slugify(name)
       end
     end
 
     UNATTRIBUTED = "(Unattributed)"
 
-    # VIM/VIML edition helpers. Backed by G18::Vocabulary (shared with the
-    # migration). These wrappers exist so existing call sites and templates
-    # can stay terse: `viml_confidence_class(urn)` reads naturally.
     module_function
-
-    def viml_vocab(urn);          G18::Vocabulary.vocab(urn); end
-    def viml_year(urn);           G18::Vocabulary.year(urn); end
-    def viml_role(urn);           G18::Vocabulary.role(urn); end
-    def viml_label(urn);          G18::Vocabulary.label(urn); end
-    def viml_confidence_class(urn); G18::Vocabulary.confidence_class(urn); end
-    def viml_current?(urn);       G18::Vocabulary.current?(urn); end
-    def viml_superseded?(urn);    G18::Vocabulary.superseded?(urn); end
 
     # Entire registry dataset, with cross-cutting indexes for rendering.
     class Dataset

@@ -32,10 +32,8 @@ data:
     notes:
     - A more general form of the definition is given in the VIML under 2.21 for inspection
       of a measuring instrument)
-    consistency: partial
-    consistency_reason: Publication narrows scope to legal requirements and omits
-      conformity assessment with detailed or general requirements, losing the broader
-      metrological context.
+    consistency: pending
+    consistency_reason: ''
     related:
     - type: see
       ref:
@@ -53,10 +51,8 @@ data:
       of its conformity with the applicable OIML Recommendation(s). OIML guidance
       to subclause 3.2 (G.3.1-1)
     notes: []
-    consistency: partial
-    consistency_reason: Drops the 'general requirements / professional judgement'
-      alternative and also truncates the parenthetical reference, but otherwise conveys
-      the same core meaning.
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML D034:2019
     publication_id: OIML D034:2019
@@ -70,9 +66,8 @@ data:
       of professional judgment, with general requirements (from ISO/IEC 17000:2004,
       4.3 [2] and VIML, A.11 [3])
     notes: []
-    consistency: partial
-    consistency_reason: Narrows 'object of conformity assessment' to specific examples
-      (product design, product, process, installation) rather than the general concept.
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML D 9:2004
     publication_id: OIML D009:2004
@@ -84,10 +79,8 @@ data:
     definition: function of an investigation to ascertain that the legal requirements
       related to the matter under investigation are observed.
     notes: []
-    consistency: partial
-    consistency_reason: Publication narrows scope to legal requirements and omits
-      conformity assessment with detailed or general requirements, losing the broader
-      metrological context.
+    consistency: pending
+    consistency_reason: ''
 status: current
 id: 0fbf74e5-68d1-52b9-b3db-23541bdde475
 schema_version: '3'

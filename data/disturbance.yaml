@@ -648,10 +648,8 @@ data:
       Recommendation but outside the rated operating conditions of the instrument
       [Adapted from OIML D 11:2004, 3.13.2]
     notes: []
-    consistency: ok
-    consistency_reason: Semantically equivalent; minor wording differences such as
-      'evaluating' vs 'testing' and inclusion of 'measuring system' do not change
-      the core meaning.
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML R 35-1:2007
     publication_id: OIML R035-1:2007

@@ -30,8 +30,8 @@ data:
       with supplementary device(s)
     notes:
     - "[VIM:1993, 4.1]"
-    consistency: ok
-    consistency_reason: The definitions are identical word for word.
+    consistency: pending
+    consistency_reason: ''
   - edition: '2010'
     publication: OIML R 136-1:2004
     publication_id: OIML R136-1:2004
@@ -44,10 +44,8 @@ data:
       with supplementary device(s)
     notes:
     - "[VIM:1993, 4.1]"
-    consistency: ok
-    consistency_reason: The publication's definition is word-for-word identical to
-      the official definition, differing only in a minor spacing typo and the inclusion
-      of a source citation.
+    consistency: pending
+    consistency_reason: ''
   - edition: '2010'
     publication: OIML B 3:2003
     publication_id: OIML B003:2003
@@ -59,9 +57,8 @@ data:
     definition: device intended to be used to make measurements, alone or in conjunction
       with supplementary device(s) (VIM:1993, 4.1)
     notes: []
-    consistency: ok
-    consistency_reason: The publication's definition is identical in semantic content;
-      it merely appends the source reference.
+    consistency: pending
+    consistency_reason: ''
     related:
     - type: see
       ref:
@@ -81,10 +78,8 @@ data:
     - 'In this Document, the term measuring instrument is used as a common denomination
       covering: material measures, measuring instruments, measuring transducers and
       measuring systems.'
-    consistency: partial
-    consistency_reason: Replaces 'supplementary device(s)' with 'other equipment'
-      and 'measurements' with 'a measurement', slightly narrowing and altering the
-      scope.
+    consistency: pending
+    consistency_reason: ''
     related:
     - type: see
       ref:
@@ -101,9 +96,8 @@ data:
     definition: device used for making measurements, alone or in conjunction with
       one or more supplementary devices adapter from [OIML V 1:2022, 0.10]
     notes: []
-    consistency: ok
-    consistency_reason: Semantically equivalent; minor wording differences do not
-      change the meaning.
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML D005:2022
     publication_id: OIML D005:2022
@@ -118,9 +112,8 @@ data:
     - 'Note 1:  A measuring instrument that can be used alone is a measuring system.
       Note 2: A measuring instrument that may be an indicationg measuring instrumentor
       material measure.'
-    consistency: ok
-    consistency_reason: 'Both definitions convey the same meaning: a device for making
-      measurements, either alone or with supplementary devices.'
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML R010:2022
     publication_id: OIML R010:2022
@@ -135,9 +128,8 @@ data:
     - 'Note 1:  A measuring instrument that can be used alone is a measuring system.
       Note 2: A measuring instrument that may be an indicationg measuring instrumentor
       material measure.'
-    consistency: ok
-    consistency_reason: 'Both definitions convey the same meaning: a device for making
-      measurements, optionally with supplementary devices.'
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML R129-1:2019
     publication_id: OIML R129-1:2019
@@ -150,9 +142,8 @@ data:
       one or more supplementary devices [VIM 3.1]
     notes:
     - 'Note: A measuring instrument that can be used alone is a measuring system.'
-    consistency: partial
-    consistency_reason: Publication drops 'intended to be' (purpose/design intent)
-      and replaces it with 'used for' (actual use).
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML D001:2012
     publication_id: OIML D001:2012
@@ -178,10 +169,8 @@ data:
       of only one measuring instrument. VIM 3.6 – material measure measuring instrument
       reproducing or supplying, in a permanent manner during its use, quantities of
       one or more given kinds, each with an assigned quantity value
-    consistency: partial
-    consistency_reason: The publication quotes the VIM definition correctly but adds
-      an expanded scope covering measuring systems, material measures, and components,
-      which goes beyond the official definition.
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML R 136-1:2004
     publication_id: OIML R136-1:2004
@@ -193,10 +182,8 @@ data:
     definition: device intended to be used to make measurements, alone or in  conjunction
       with supplementary device(s) [VIM:1993, 4.1]
     notes: []
-    consistency: ok
-    consistency_reason: The publication's definition is word-for-word identical to
-      the official definition, differing only in a minor spacing typo and the inclusion
-      of a source citation.
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML D 15:1986
     publication_id: OIML D015:1986
@@ -211,10 +198,8 @@ data:
     - 'Note 1  In this Document, the term measuring instrument is used as a common
       denominationcovering: material measures, measuring instruments, measuring transducers
       and  measuring  systems.'
-    consistency: partial
-    consistency_reason: Replaces 'supplementary device(s)' with 'other equipment'
-      and 'measurements' with 'a measurement', slightly narrowing and altering the
-      scope.
+    consistency: pending
+    consistency_reason: ''
 status: current
 id: a5950950-cffd-5d9a-8642-88797e5c1ba1
 schema_version: '3'

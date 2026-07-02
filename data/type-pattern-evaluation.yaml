@@ -33,9 +33,8 @@ data:
       requirements, the results of which are contained in an evaluation report, in
       order to determine whether the type may be approved. (VIML 2.5)
     notes: []
-    consistency: ok
-    consistency_reason: Semantically equivalent; only trivial grammatical differences
-      ('instruments' vs 'instrument', 'the' vs 'an').
+    consistency: pending
+    consistency_reason: ''
     related:
     - type: see
       ref:
@@ -56,9 +55,8 @@ data:
       whether the type may be approved [VIML, 2.5]
     notes:
     - aning as "type"; in the entries below, ype" is used.
-    consistency: ok
-    consistency_reason: The definitions are semantically identical, with the publication
-      properly citing the VIML source.
+    consistency: pending
+    consistency_reason: ''
     related:
     - type: see
       ref:
@@ -78,10 +76,8 @@ data:
     notes:
     - 'Note 1:  ‘Pattern’ is used in legal metrology with the same meaning as ‘type’;
       in the entries below, only ‘type’is used.'
-    consistency: partial
-    consistency_reason: Drops the purpose clause 'to determine whether the type may
-      be approved' and replaces 'documented requirements' with the generic term 'conformity
-      assessment procedure.'
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML D031:2023
     publication_id: OIML D031:2023
@@ -94,9 +90,8 @@ data:
       type (pattern) of measuring instruments which results in an evaluation report
       or a certificate [OIML V 1:2022, 2.04]
     notes: []
-    consistency: partial
-    consistency_reason: Publication omits 'systematic examination and testing,' 'documented
-      requirements,' and the purpose of determining whether the type may be approved.
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML D037:2022
     publication_id: OIML D037:2022
@@ -127,10 +122,8 @@ data:
       and/or an evaluation certificate [VIML, 2.04]
     notes:
     - "(For notes, refer to the VIML)"
-    consistency: partial
-    consistency_reason: 'The publication omits key elements: systematic examination/testing
-      against documented requirements, and the purpose of determining whether the
-      type may be approved.'
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML D030:2020
     publication_id: OIML D030:2020
@@ -146,11 +139,8 @@ data:
     - 'Note 1:  “Pattern” is used in legal metrology with the same meaning as “type”.
       Note 2:  for the purposes of the OIML-CS, “evaluation report” should be read
       as “OIML type evaluation report”.'
-    consistency: partial
-    consistency_reason: Publication omits 'systematic examination and testing' and
-      'documented requirements', replacing them with the more generic 'conformity
-      assessment procedure', and adds 'evaluation certificate' not in the official
-      definition.
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML R059-1:2016
     publication_id: OIML R059-1:2016
@@ -165,10 +155,8 @@ data:
     notes:
     - 'Note:  ‘Pattern’ is used in legal metrology with the same meaning as ‘type’;
       in the entries below, only ‘type’ is used.'
-    consistency: partial
-    consistency_reason: Publication drops the purpose clause 'to determine whether
-      the type may be approved' and omits 'against documented requirements', losing
-      key semantic content.
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML R146-1:2016
     publication_id: OIML R146-1:2016
@@ -183,10 +171,8 @@ data:
     notes:
     - "{Note “Pattern” is used in legal metrology with the same meaning as “type”;
       in the entries below, only “type” is used.}"
-    consistency: partial
-    consistency_reason: Drops the purpose clause 'to determine whether the type may
-      be approved' and the 'documented requirements' criterion, replacing them with
-      the generic term 'conformity assessment procedure.'
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML D 27:2001
     publication_id: OIML D027:2001
@@ -202,9 +188,8 @@ data:
     notes:
     - 'Note:  “Pattern” is used in legal metrology with the same meaning as “type”;
       in the entries below, only “type” is used.'
-    consistency: ok
-    consistency_reason: The definitions are semantically identical, with the publication
-      properly citing the VIML source.
+    consistency: pending
+    consistency_reason: ''
 status: current
 id: 6818c82b-103b-542d-874b-1cb1eadf8b75
 schema_version: '3'

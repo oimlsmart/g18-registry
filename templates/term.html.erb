@@ -1,7 +1,7 @@
 <% pubs = dataset.publications_for_term(term) %>
 <% official = term.official_concept || {} %>
 <% official_urn = official["source"] %>
-<% official_role = G18::Site.viml_role(official_urn) %>
+<% official_role = G18::Vocabulary.role(official_urn) %>
 <% official_text = official["definition_text"] %>
 <%
    if term.undefined?
@@ -51,12 +51,12 @@
   <h2>Authoritative definition</h2>
 
   <% if term.defined? && official.any? %>
-    <% confidence = G18::Site.viml_confidence_class(official_urn) || "" %>
+    <% confidence = G18::Vocabulary.confidence_class(official_urn) || "" %>
     <div class="authority-defn <%= confidence %>">
       <div class="authority-defn-head">
         <span class="<%= confidence %>">
           <%= h official["edition_label"] || official_urn %>
-          <% if G18::Site.viml_current?(official_urn) %><span class="viml-latest-badge">Latest</span><% end %>
+          <% if G18::Vocabulary.current?(official_urn) %><span class="viml-latest-badge">Latest</span><% end %>
         </span>
         · concept <strong>#<%= h official["id"] %></strong>
         <% if official["url"] %>
@@ -70,8 +70,8 @@
       <% end %>
     </div>
 
-    <% if G18::Site.viml_superseded?(official_urn) %>
-      <% latest_label = G18::Site.viml_vocab(official_urn) == :vim ? "VIM 2012" : "VIML 2022" %>
+    <% if G18::Vocabulary.superseded?(official_urn) %>
+      <% latest_label = G18::Vocabulary.vocab(official_urn) == :vim ? "VIM 2012" : "VIML 2022" %>
       <div class="admonition warn">
         <strong>Outdated reference:</strong> This term cites <%= h official["edition_label"] %>, which has been superseded. The latest authoritative edition of the same vocabulary is <strong><%= latest_label %></strong> — editors should re-check whether the term still appears there with the same or a revised definition.
       </div>
@@ -90,13 +90,13 @@
       <% term.related.each do |edge| %>
         <% ref = edge["ref"] || {} %>
         <% urn = ref["source"] %>
-        <% conf = G18::Site.viml_confidence_class(urn) || "" %>
+        <% conf = G18::Vocabulary.confidence_class(urn) || "" %>
         <% text = ref["definition_text"] %>
         <% url = ref["url"] || (urn && ref["id"] ? G18::Migration.vocab_concept_url(urn, ref["id"]) : nil) %>
         <li>
           <span class="<%= conf %>">
             <%= h ref["edition_label"] || urn %>
-            <% if G18::Site.viml_current?(urn) %><span class="viml-latest-badge">Latest</span><% end %>
+            <% if G18::Vocabulary.current?(urn) %><span class="viml-latest-badge">Latest</span><% end %>
           </span>
           · concept <strong>#<%= h ref["id"] %></strong>
           <% if url %>
@@ -115,12 +115,12 @@
   # Build the list of suggested actions based on term state. The actions are
   # ordered by priority: outdated references > no VIM/VIML > divergent > pending.
   actions = []
-  if term.defined? && G18::Site.viml_superseded?(official_urn)
-    latest_label = G18::Site.viml_vocab(official_urn) == :vim ? "VIM 2012" : "VIML 2022"
+  if term.defined? && G18::Vocabulary.superseded?(official_urn)
+    latest_label = G18::Vocabulary.vocab(official_urn) == :vim ? "VIM 2012" : "VIML 2022"
     actions << {
       priority: "high",
       text: "Verify this term still appears in #{latest_label}. The current authoritative edition may use a different definition.",
-      link: "https://oimlsmart.github.io/vocab/#{G18::Site.viml_vocab(official_urn) == :vim ? 'vim-2012' : 'viml-2022'}/concept/#{official['id']}",
+      link: "https://oimlsmart.github.io/vocab/#{G18::Vocabulary.vocab(official_urn) == :vim ? 'vim-2012' : 'viml-2022'}/concept/#{official['id']}",
       label: "View latest #{latest_label} entry",
     }
   end
@@ -136,7 +136,7 @@
     actions << {
       priority: "medium",
       text: "#{term.distinct_definitions.size} distinct definitions exist across this term's publications. Decide whether they should converge on a single harmonised definition in the 202X edition.",
-      link: "<%= rel_root %>harmonization.html",
+      link: "#{rel_root}harmonization.html",
       label: "Open harmonisation worklist",
     }
   end
@@ -275,7 +275,7 @@
               <% p["related"].each do |e| %>
                 <% r = e["ref"] || {} %>
                 <% rurn = r["source"] %>
-                <% rconf = G18::Site.viml_confidence_class(rurn) %>
+                <% rconf = G18::Vocabulary.confidence_class(rurn) %>
                 <code class="<%= rconf %>"><%= h r["edition_label"] || rurn %>/#<%= h r["id"] %></code>
               <% end %>
             </div>

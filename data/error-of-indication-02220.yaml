@@ -29,10 +29,8 @@ data:
     definition: difference of indication of a measuring system and the true value
       of the measurand
     notes: []
-    consistency: ok
-    consistency_reason: "'Measuring system' is encompassed by 'measuring instrument',
-      and 'measurand' is semantically equivalent to 'corresponding input quantity';
-      these are synonymous substitutions with no change in meaning."
+    consistency: pending
+    consistency_reason: ''
   - edition: '2010'
     publication: OIML R 129:2000
     publication_id: OIML R129:2000
@@ -44,9 +42,8 @@ data:
     definition: the indication of a measuring instrument minus the true value of VIM:1993,
       5.20. the corresponding input quantity
     notes: []
-    consistency: partial
-    consistency_reason: An erroneous inline reference 'VIM:1993, 5.20.' is embedded
-      mid-definition, disrupting the intended meaning of the sentence.
+    consistency: pending
+    consistency_reason: ''
     related:
     - type: see
       ref:
@@ -65,10 +62,8 @@ data:
     notes:
     - Note:This reference value is sometimes referred to as a (conventional) true
       quantity value. See, however also OIML V 2-200:2012. 2.12, Note 1)
-    consistency: partial
-    consistency_reason: "'Reference quantity value' is used in error of indication
-      contexts but is not identical to 'true value'; the publication also omits 'of
-      a measuring instrument' and 'of the corresponding input quantity'."
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML R139-1:2022
     publication_id: OIML R139-1:2022
@@ -80,9 +75,8 @@ data:
     definition: indication minus a reference quantity value [OIML V 2-200:2012. 4.1]
       [OIML V 1:2013, 0.04]
     notes: []
-    consistency: partial
-    consistency_reason: "'Reference quantity value' is not equivalent to 'true value';
-      a reference value is a weaker, more general concept."
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML R129-1:2020
     publication_id: OIML R129-1:2020
@@ -93,9 +87,8 @@ data:
     g18_entry: '03045'
     definition: indicated value minus a reference quantity value [VIML, 0.04]
     notes: []
-    consistency: partial
-    consistency_reason: Uses 'reference quantity value' instead of 'true value,' which
-      is a related but distinct concept in metrology.
+    consistency: pending
+    consistency_reason: ''
   - edition: 202X
     publication: OIML R150-1:2020
     publication_id: OIML R150-1:2020
@@ -120,9 +113,8 @@ data:
     g18_entry: '02220'
     definition: indication minus a reference quantity value [VIML 0.04]
     notes: []
-    consistency: ok
-    consistency_reason: The VIML definition 0.04 uses 'reference quantity value' which
-      is equivalent in meaning to 'true value' in this context.
+    consistency: pending
+    consistency_reason: ''
 status: current
 id: 567ce4ff-9eaf-557c-8690-6e550132cc83
 schema_version: '3'
