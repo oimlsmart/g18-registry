@@ -1,196 +1,78 @@
-/* Global base styles + layout */
-@import "./tokens.css";
+@import "tailwindcss";
 
-* { box-sizing: border-box; }
-html, body { max-width: 100%; overflow-x: hidden; }
+/* OIML design tokens — mirrors oimlsmart.github.io palette. Mapped into
+   Tailwind's theme so utilities like `bg-paper`, `text-ink`, `border-rule`,
+   `text-accent` resolve to the OIML brand. */
+@theme {
+  --color-paper: #faf6ee;
+  --color-paper-soft: #ffffff;
+  --color-ink: #0a1628;
+  --color-ink-soft: #3a4a63;
+  --color-ink-muted: #6b7a92;
+  --color-rule: #ddd2bd;
+  --color-rule-soft: #ebe3d2;
+  --color-accent: #004996;
+  --color-accent-hover: #003a78;
+
+  --color-oiml-brand-50:  #f0f6ff;
+  --color-oiml-brand-100: #dde9fc;
+  --color-oiml-brand-200: #bcd3f8;
+  --color-oiml-brand-300: #89b4ef;
+  --color-oiml-brand-400: #4d8fe0;
+  --color-oiml-brand-500: #1a6fc2;
+  --color-oiml-brand-600: #004996;
+  --color-oiml-brand-700: #003a78;
+  --color-oiml-brand-800: #002b5a;
+  --color-oiml-brand-900: #001e41;
+
+  --color-oiml-cream:       #faf6ee;
+  --color-oiml-cream-soft:  #f5ede0;
+  --color-oiml-cream-deep:  #e8dec8;
+  --color-oiml-amber:       #d97706;
+  --color-oiml-amber-soft:  #f59e0b;
+  --color-oiml-amber-deep:  #92400e;
+
+  --color-green: #047857;
+  --color-red:   #b91c1c;
+
+  --font-base: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+
+  --max-w-container: 1080px;
+}
+
+/* Base element styles — Tailwind's preflight handles most resets; we add
+   a few project-specific defaults. */
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
 body {
   font-family: var(--font-base);
-  margin: 0;
-  background: var(--paper);
-  color: var(--ink);
+  background: var(--color-paper);
+  color: var(--color-ink);
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
   overflow-wrap: break-word;
 }
-a { color: var(--accent); text-decoration: none; overflow-wrap: anywhere; }
-a:hover { color: var(--accent-hover); text-decoration: underline; }
-code { font-family: var(--font-mono); background: #eef0f3; padding: 0.05em 0.35em; border-radius: 3px; font-size: 0.85em; overflow-wrap: anywhere; }
+a {
+  color: var(--color-accent);
+  text-decoration: none;
+  overflow-wrap: anywhere;
+}
+a:hover { color: var(--color-accent-hover); text-decoration: underline; }
+code {
+  font-family: var(--font-mono);
+  background: #eef0f3;
+  padding: 0.05em 0.35em;
+  border-radius: 3px;
+  font-size: 0.85em;
+  overflow-wrap: anywhere;
+}
 pre { overflow-x: auto; }
 img, svg, video { max-width: 100%; height: auto; }
-.container { max-width: var(--maxw); margin: 0 auto; padding: 0 1.2em; }
 
-/* Header */
-.site-header { background: #fff; border-bottom: 1px solid var(--rule); box-shadow: 0 1px 2px rgba(0,0,0,0.04); position: sticky; top: 0; z-index: 20; }
-/* Use longhand padding-block so .container's horizontal padding still applies
-   to header-bar (a shorthand `padding` here would override it cascade-wise). */
-.header-bar { display: flex; align-items: center; justify-content: space-between; gap: 0.8em; padding-block: 0.5em; position: relative; }
-.brand { display: flex; align-items: center; gap: 0.7em; font-weight: 600; text-decoration: none; color: var(--ink); }
-.brand:hover { text-decoration: none; }
-.brand-mark-img { height: 36px; width: auto; display: block; }
-.brand-sub { display: flex; flex-direction: column; line-height: 1.15; }
-.brand-sub-title { font-size: 1em; font-weight: 600; color: var(--accent); }
-.brand-sub-tag { font-size: 0.75em; color: var(--ink-muted); }
-
-/* Hamburger toggle — hidden on desktop, shown on mobile.
-   Compact 32×28px button with 1.5px bars and a clean X transformation. */
-.nav-toggle {
-  display: none;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 4px;
-  background: transparent;
-  border: 0;
-  padding: 6px;
-  width: 32px;
-  height: 28px;
-  cursor: pointer;
-  border-radius: 4px;
-}
-.nav-toggle:hover { background: var(--rule-soft); }
-.nav-toggle-bar { display: block; height: 1.5px; width: 20px; background: var(--ink); border-radius: 1px; transition: transform 0.18s ease, opacity 0.18s ease; }
-.nav-toggle.is-open .nav-toggle-bar:nth-child(1) { transform: translateY(5.5px) rotate(45deg); }
-.nav-toggle.is-open .nav-toggle-bar:nth-child(2) { opacity: 0; transform: scaleX(0); }
-.nav-toggle.is-open .nav-toggle-bar:nth-child(3) { transform: translateY(-5.5px) rotate(-45deg); }
-
-/* Nav (desktop default) */
-.site-nav { display: flex; align-items: center; gap: 0.9em; flex-wrap: wrap; }
-.site-nav a { color: var(--ink-muted); font-size: 0.95em; padding: 0.3em 0; border-bottom: 2px solid transparent; white-space: nowrap; }
-.site-nav a:hover, .site-nav a.router-link-active { color: var(--accent); border-bottom-color: var(--accent); text-decoration: none; }
-.nav-sep { display: inline-block; width: 1px; align-self: stretch; background: var(--rule); margin: 0.2em 0.3em; }
-
-/* Main + cards */
-.main { padding: 1.5em 1em 3em; min-height: 70vh; }
-.page-head .breadcrumb { font-size: 0.85em; color: var(--ink-muted); margin-bottom: 0.3em; }
-.page-head .breadcrumb a { color: var(--ink-muted); }
-.page-head h1 { margin: 0 0 0.2em; font-size: 1.9em; color: var(--accent); }
-.lede { font-size: 1.05em; color: var(--ink-soft); margin-top: 0; }
-.card { background: var(--paper-soft); border: 1px solid var(--rule); border-radius: 6px; padding: 1.2em 1.4em; margin: 1.2em 0; }
-.card h2 { margin-top: 0; font-size: 1.25em; color: var(--accent); border-bottom: 1px solid var(--rule); padding-bottom: 0.3em; margin-bottom: 0.7em; }
-.card h3 { font-size: 1.05em; color: var(--accent); margin-bottom: 0.4em; }
-.card-head { display: flex; justify-content: space-between; align-items: center; gap: 1em; flex-wrap: wrap; }
-.card-head h2 { margin: 0; border: none; padding: 0; }
-
-/* Tables — desktop default, mobile becomes scrollable via media query */
-table { width: 100%; border-collapse: collapse; font-size: 0.93em; }
-th, td { text-align: left; padding: 0.45em 0.6em; vertical-align: top; border-bottom: 1px solid var(--rule); }
-th { background: #f3f5f7; color: var(--ink-muted); font-weight: 600; font-size: 0.85em; text-transform: uppercase; letter-spacing: 0.04em; }
-.num { text-align: right; font-variant-numeric: tabular-nums; }
-.table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
-
-/* Footer */
-.site-footer { background: var(--oiml-brand-900); color: #d1d5db; padding: 2em 0 1.5em; margin-top: 3em; font-size: 0.85em; border-top: 3px solid var(--oiml-brand-600); }
-.site-footer a { color: var(--oiml-brand-300); }
-.footer-grid { display: grid; grid-template-columns: 1fr auto; gap: 1em 2em; align-items: end; }
-.footer-attribution { text-align: right; border-left: 1px solid #334155; padding-left: 1.5em; }
-
-/* ─────────────────────────  Responsive  ───────────────────────── */
-
-/* Tablet and below: tighten layout, collapse stat grid */
-@media (max-width: 880px) {
-  .page-head h1 { font-size: 1.55em; }
-  .card { padding: 1em 1em; margin: 0.9em 0; max-width: 100%; }
-  .card h2 { font-size: 1.15em; }
-  .main { padding: 1em 0 2.5em; }
-  .container { padding: 0 1.5em; }
-  .footer-grid { grid-template-columns: 1fr; gap: 1em; }
-  .footer-attribution { text-align: left; border-left: 0; padding-left: 0; }
-}
-
-/* Mobile: hamburger nav + scrollable tables + stacked forms */
-@media (max-width: 880px) {
-  /* Show hamburger button */
-  .nav-toggle { display: flex; }
-
-  /* Nav becomes a dropdown panel below the header bar */
-  .site-nav {
-    display: none;
-    flex-direction: column;
-    align-items: stretch;
-    gap: 0;
-    position: absolute;
-    top: calc(100% + 1px);
-    left: 0;
-    right: 0;
-    background: #fff;
-    border-top: 1px solid var(--rule);
-    border-bottom: 1px solid var(--rule);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
-    padding: 0.4em 1.2em 0.8em;
-    z-index: 30;
-    max-height: calc(100vh - 64px);
-    overflow-y: auto;
-  }
-  .site-nav.is-open { display: flex; }
-  .site-nav a {
-    padding: 0.8em 0.2em;
-    border-bottom: 1px solid var(--rule-soft);
-    font-size: 1em;
-  }
-  .site-nav a:last-child { border-bottom: 0; }
-  .site-nav a:hover, .site-nav a.router-link-active { border-bottom-color: var(--accent); }
-  .nav-sep {
-    display: block;
-    width: auto;
-    height: 1px;
-    background: var(--rule-soft);
-    margin: 0.4em 0;
-  }
-
-  /* Brand tighter */
-  .brand-sub-tag { display: none; }
-  .brand-mark-img { height: 30px; }
-  .header-bar { min-height: 56px; padding-block: 0.5em; }
-
-  /* Tables become block-level so they can scroll horizontally if needed.
-     Cards clip overflow so wide tables (e.g. 10-column publication
-     instances) don't push body width past the viewport. */
-  .card { overflow-x: auto; }
-  table {
-    display: block;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-    max-width: 100%;
-  }
-  thead, tbody { display: table; width: 100%; min-width: max-content; }
-  th, td { padding: 0.4em 0.55em; }
-  td.num, th.num { white-space: nowrap; }
-  /* Override inline td max-widths on mobile — cells become auto-width and
-     the table scrolls horizontally inside the card. */
-  td[style*="max-width"], th[style*="max-width"] { max-width: none !important; }
-
-  /* Filter forms stack vertically */
-  .filter-form,
-  .card-head form,
-  .card-head > div {
-    width: 100%;
-    flex-direction: column;
-    align-items: stretch;
-    gap: 0.5em;
-  }
-  .filter-form input[type="search"],
-  .filter-form input[type="text"],
-  .filter-form select {
-    width: 100%;
-    min-width: 0;
-  }
-  .sort-toggle { align-self: flex-start; }
-
-  /* Card heads stack */
-  .card-head { flex-direction: column; align-items: stretch; gap: 0.6em; }
-}
-
-/* Smallest phones: even tighter */
-@media (max-width: 480px) {
-  .page-head h1 { font-size: 1.35em; }
-  .lede { font-size: 0.95em; }
-  .container { padding: 0 1em; }
-  .card { padding: 0.85em 0.85em; margin: 0.7em 0; border-radius: 4px; }
-  .card h2 { font-size: 1.05em; }
-  th, td { padding: 0.35em 0.4em; font-size: 0.88em; }
-  .stat-value { font-size: 1.6em; }
-  code { font-size: 0.82em; }
-}
-
-/* (Body overflow guard declared at top of file) */
+/* Component styles that don't translate cleanly to utility classes live
+   in components.css inside Tailwind's components layer. */
+@import "./components.css";
