@@ -4,16 +4,27 @@
    Tailwind's theme so utilities like `bg-paper`, `text-ink`, `border-rule`,
    `text-accent` resolve to the OIML brand. */
 @theme {
+  /* surfaces */
   --color-paper: #faf6ee;
   --color-paper-soft: #ffffff;
+  --color-paper-tint: #f5ede0;
+
+  /* ink */
   --color-ink: #0a1628;
   --color-ink-soft: #3a4a63;
   --color-ink-muted: #6b7a92;
+
+  /* rules */
   --color-rule: #ddd2bd;
   --color-rule-soft: #ebe3d2;
+
+  /* accent (OIML brand blue) */
   --color-accent: #004996;
   --color-accent-hover: #003a78;
+  --color-accent-soft: #dde9fc;
+  --color-accent-tint: #f0f6ff;
 
+  /* oiml brand ramp */
   --color-oiml-brand-50:  #f0f6ff;
   --color-oiml-brand-100: #dde9fc;
   --color-oiml-brand-200: #bcd3f8;
@@ -25,24 +36,32 @@
   --color-oiml-brand-800: #002b5a;
   --color-oiml-brand-900: #001e41;
 
+  /* cream */
   --color-oiml-cream:       #faf6ee;
   --color-oiml-cream-soft:  #f5ede0;
   --color-oiml-cream-deep:  #e8dec8;
+
+  /* amber (warnings) */
   --color-oiml-amber:       #d97706;
   --color-oiml-amber-soft:  #f59e0b;
   --color-oiml-amber-deep:  #92400e;
 
+  /* status */
   --color-green: #047857;
   --color-red:   #b91c1c;
 
+  /* type */
   --font-base: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   --font-mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
 
-  --max-w-container: 1080px;
+  /* radius */
+  --radius-card: 8px;
+  --radius-pill: 9999px;
 }
 
-/* Base element styles — Tailwind's preflight handles most resets; we add
-   a few project-specific defaults. */
+/* ── Base element styles ────────────────────────────────────────────────
+   Tailwind preflight handles most resets; we add OIML-specific defaults. */
+
 html, body {
   max-width: 100%;
   overflow-x: hidden;
@@ -51,10 +70,12 @@ body {
   font-family: var(--font-base);
   background: var(--color-paper);
   color: var(--color-ink);
-  line-height: 1.5;
+  line-height: 1.6;
+  font-size: 15px;
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
-  overflow-wrap: break-word;
+  text-rendering: optimizeLegibility;
 }
 a {
   color: var(--color-accent);
@@ -64,15 +85,30 @@ a {
 a:hover { color: var(--color-accent-hover); text-decoration: underline; }
 code {
   font-family: var(--font-mono);
-  background: #eef0f3;
-  padding: 0.05em 0.35em;
+  background: var(--color-rule-soft);
+  padding: 0.1em 0.4em;
   border-radius: 3px;
-  font-size: 0.85em;
+  font-size: 0.88em;
   overflow-wrap: anywhere;
+  color: var(--color-ink);
 }
-pre { overflow-x: auto; }
+pre {
+  font-family: var(--font-mono);
+  background: #f3f5f7;
+  padding: 0.7em 1em;
+  border-radius: 4px;
+  overflow-x: auto;
+  font-size: 0.88em;
+}
 img, svg, video { max-width: 100%; height: auto; }
+h1, h2, h3, h4 { color: var(--color-ink); line-height: 1.3; }
+h1 { font-size: 1.875rem; font-weight: 700; letter-spacing: -0.01em; }
+h2 { font-size: 1.25rem; font-weight: 600; }
+h3 { font-size: 1.0625rem; font-weight: 600; }
+h4 { font-size: 1rem; font-weight: 600; }
+p  { margin: 0.5em 0; }
+ul, ol { margin: 0.5em 0; padding-left: 1.4em; }
+li { margin: 0.2em 0; }
+hr { border: 0; border-top: 1px solid var(--color-rule); margin: 1.5em 0; }
 
-/* Component styles that don't translate cleanly to utility classes live
-   in components.css inside Tailwind's components layer. */
 @import "./components.css";
