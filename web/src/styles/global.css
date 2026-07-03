@@ -86,9 +86,10 @@ th { background: #f3f5f7; color: var(--ink-muted); font-weight: 600; font-size: 
 /* Tablet and below: tighten layout, collapse stat grid */
 @media (max-width: 880px) {
   .page-head h1 { font-size: 1.55em; }
-  .card { padding: 1em 1em; margin: 0.9em 0; }
+  .card { padding: 1em 1em; margin: 0.9em 0; max-width: 100%; }
   .card h2 { font-size: 1.15em; }
   .main { padding: 1em 0 2.5em; }
+  .container { padding: 0 1.5em; }
   .footer-grid { grid-template-columns: 1fr; gap: 1em; }
   .footer-attribution { text-align: left; border-left: 0; padding-left: 0; }
 }
@@ -139,17 +140,21 @@ th { background: #f3f5f7; color: var(--ink-muted); font-weight: 600; font-size: 
   .header-bar { padding: 0.5em 0; min-height: 56px; }
 
   /* Tables become block-level so they can scroll horizontally if needed.
-     No blanket white-space:nowrap — prose cells wrap, only numeric cells stay on one line. */
+     Cards clip overflow so wide tables (e.g. 10-column publication
+     instances) don't push body width past the viewport. */
+  .card { overflow-x: auto; }
   table {
     display: block;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
+    max-width: 100%;
   }
-  thead, tbody { display: table; width: 100%; }
-  tbody { min-width: max-content; }
+  thead, tbody { display: table; width: 100%; min-width: max-content; }
   th, td { padding: 0.4em 0.55em; }
-  /* Numeric cells stay on one line (they're short). Code/prose cells wrap via overflow-wrap on `code` and default text wrapping on `td`. */
   td.num, th.num { white-space: nowrap; }
+  /* Override inline td max-widths on mobile — cells become auto-width and
+     the table scrolls horizontally inside the card. */
+  td[style*="max-width"], th[style*="max-width"] { max-width: none !important; }
 
   /* Filter forms stack vertically */
   .filter-form,
@@ -176,6 +181,7 @@ th { background: #f3f5f7; color: var(--ink-muted); font-weight: 600; font-size: 
 @media (max-width: 480px) {
   .page-head h1 { font-size: 1.35em; }
   .lede { font-size: 0.95em; }
+  .container { padding: 0 1em; }
   .card { padding: 0.85em 0.85em; margin: 0.7em 0; border-radius: 4px; }
   .card h2 { font-size: 1.05em; }
   th, td { padding: 0.35em 0.4em; font-size: 0.88em; }
