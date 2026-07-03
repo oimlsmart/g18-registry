@@ -27,6 +27,7 @@ data:
       systems) or completely empty ofliquid (empty hose measuring system)
     notes:
     - A liquid detector may also be used for high level detection.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -43,6 +44,7 @@ data:
       systems) or completely empty of liquid (empty hose measuring system)
     notes:
     - 'Note:  A liquid detector may also be used for highlevel detection.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -59,6 +61,7 @@ data:
       systems) or completely empty of liquid (empty hose measuring system)
     notes:
     - 'Note:  A liquid detector may also be used for highlevel detection.'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

@@ -23,6 +23,7 @@ data:
     definition: quantity value provided by a measuring instrument or a measuring system
       [OIML V 2-200:2012, 4.1; OIML V 1:2013, 0.03]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -36,6 +37,7 @@ data:
     definition: quantity value provided by a measuring instrument or a measuring system
       [VIM 4.1]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -47,8 +49,8 @@ data:
     link:
     g18_entry: '02219'
     definition: quantity value provided by a measuring instrument or a measuring system
-      [VIM 4.1][VIML 0.03]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -68,6 +70,7 @@ data:
       outputs, a code pattern for code outputs, or an assigned quantity value for
       material measures. Note 2:An indication and a corresponding value of the quantity
       being measured are not necessarily values of quantities of the same kind.
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

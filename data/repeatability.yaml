@@ -37,6 +37,7 @@ data:
       3.6] condit"
     notes:
     - ng results that agree one with the other the same or constant operating ions.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -52,6 +53,7 @@ data:
       measurements carried out by the same observer using the same test procedures
       at the same location under similar ambient conditions
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -66,6 +68,7 @@ data:
       other when the same load is deposited several times and in a practically identical
       way on the load receptor under reasonably constant test conditions
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -82,6 +85,7 @@ data:
       under similar ambient conditions, using the same measuring instrument and test
       procedures'
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -96,6 +100,7 @@ data:
       other when the same load is deposited several times and in a practically identical
       way on the load receptor under reasonably constant test conditions
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -110,6 +115,7 @@ data:
       of the same measurand carried out under the same conditions and within a relatively
       short period of time
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -124,6 +130,7 @@ data:
       of the same measurand carried out under the same conditions and within a relative
       short period of time
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -140,6 +147,7 @@ data:
     notes:
     - ethod of measurement, the operator, the ring instrument, the location, and the
       onmental condition
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -160,6 +168,7 @@ data:
       over a short period of time. Repeatability may be expressed quantitatively in
       terms of the dispersion characteristics of th results."
     - 2. [VIM:1993, 3.6]
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -176,6 +185,7 @@ data:
     notes:
     - The same conditions would include the same method of measurement, measuring
       instrument, operator, location, and ambient environmental conditions.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -190,6 +200,7 @@ data:
       of the same sample carried out under the same conditions and within a relatively
       short period of time.
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -204,6 +215,7 @@ data:
       when the same load is applied several times and applied in the same manner on
       the load cell under constant test conditions [Adapted from VIM:1993, 5.27]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
     related:
@@ -225,6 +237,7 @@ data:
     notes:
     - The same conditions would include the same method of measurement, measuring
       instrument, operator, location, and ambient environmental conditions.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -239,6 +252,7 @@ data:
       for repeated applications of the same measurand under the same conditions of
       measurement [VIM:1993, 5.27]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
     related:
@@ -258,6 +272,7 @@ data:
       of the same measurand carried out under the same conditions of measurement (VIM:1993,
       3.6)
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
     related:
@@ -277,6 +292,7 @@ data:
       measured pressure for multiple applications of the same load under constant
       conditions of measurement
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -293,6 +309,7 @@ data:
     notes:
     - 'The same conditions include the following: ethod of measurement, the operator,
       the ring instrument, the location, and the onmental conditions.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -309,6 +326,7 @@ data:
     notes:
     - 'The same conditions include the following: ethod of measurement, the operator,
       the ring instrument, the location, and the onmental conditions.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -324,6 +342,7 @@ data:
       the same conditions of use within a relatively short period of time. Repeatability
       is synonymous with the term "precision" for an instrument
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -338,6 +357,7 @@ data:
       of the same quantity being measured using the same instrument and under the
       same defined conditions within a relatively short period of time
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -352,6 +372,7 @@ data:
       of the same quantity being measured using the same instrument and under the
       same defined conditions within a relatively short period of time
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -365,6 +386,7 @@ data:
     definition: measurement precision under a set of repeatability conditions of measurement
       [VIM 2.21]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -378,6 +400,7 @@ data:
     definition: ability of an instrument to provide results that agree one with the
       other under the same operating conditions of measurement [based on VIM 3.6]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -394,6 +417,7 @@ data:
     notes:
     - 'Note:  For an instrument, this is its ability to provide weighing results that
       agree one with the other under the same or constant operating conditions.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -409,6 +433,7 @@ data:
       measurements carried out by the same observer using the same test procedures
       at the same location under similar ambient conditions
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -423,6 +448,7 @@ data:
       other when the same load is deposited several times and in a practically identical
       way on the load receptor under reasonably constant test conditions
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -436,6 +462,7 @@ data:
     definition: 'closeness of agreement among the results of successive measurements
       of the same measurand according to the following conditions:'
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -450,6 +477,7 @@ data:
       other when the same load is deposited several times and in a practically  identical
       way on the load receptor under reasonably constant test conditions
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -464,6 +492,7 @@ data:
       of the same measurand carried out under the same conditions and within a relatively
       short period of time
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -478,6 +507,7 @@ data:
       of the same measurand carried out under the same conditions and within a relative
       short period of time
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -494,6 +524,7 @@ data:
     notes:
     - 'Note: The same conditions include the following: the method of measurement,
       the operator, the measuring instrument, the location, and the environmental  condition'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -513,6 +544,7 @@ data:
       the same location; and repetition over a short period of time. Repeatability
       may be expressed quantitatively in terms of the dispersion characteristics of
       the results. Note 2:  [VIM:1993, 3.6]'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -529,6 +561,7 @@ data:
     notes:
     - The same conditions would include the same method of measurement, measuring
       instrument, operator, location, and ambient environmental  conditions.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -543,6 +576,7 @@ data:
       of the same sample carried out under the same conditions and within a relatively
       short period of time.
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -559,6 +593,7 @@ data:
     notes:
     - 'Note:  The same conditions would include the same method of measurement, measuring
       instrument, operator, location, and ambient environmental  conditions.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -573,6 +608,7 @@ data:
       for repeated applications of the same measurand under the same conditions of
       measurement [VIM:1993, 5.27]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -587,6 +623,7 @@ data:
       of the same measurand carried out under the same conditions of measurement (VIM:1993,
       3.6)
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -604,6 +641,7 @@ data:
     - 'Note:  The same defined conditions would include the following: method of measurement,
       the measuring instrument, the operator, the location and the ambient environmental
       conditions.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -618,6 +656,7 @@ data:
       measured pressure for multiple applications of the same load under constant
       conditions of measurement
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -635,6 +674,7 @@ data:
     - 'Note: The same conditions include the following: the method of measurement,
       the operator, the measuring instrument, the location, and the environmental
       conditions.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -652,6 +692,7 @@ data:
     - 'Note: The same conditions include the following: the method of measurement,
       the operator, the measuring instrument, the location, and the environmental
       conditions.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -667,6 +708,7 @@ data:
       the same conditions of use within a relatively short period of time. Repeatability
       is synonymous with the term "precision" for an instrument
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

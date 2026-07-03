@@ -24,6 +24,7 @@ data:
     definition: slow change in a metrological characteristic of a measuring instrument
     notes:
     - "(VIM:1993, 5.16)"
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -37,6 +38,7 @@ data:
     definition: slow change of a metrological characteristic of a measuring instrument
     notes:
     - "(VIM:1993, 5.16)"
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -50,6 +52,7 @@ data:
     definition: the change in the indication which occurs during a stated period of
       time at a given mass concentration of ethanol in air
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -64,6 +67,7 @@ data:
       in metrological properties of a measuring instrument (adapted from OIML V 2-200,
       4.21)
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -77,6 +81,7 @@ data:
     definition: slow change in a metrological characteristic of a measuring instrument
       [VIM:1993, 5.16]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

@@ -23,6 +23,7 @@ data:
     g18_entry: '00703'
     definition: tension force applied to a load cell
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -35,6 +36,7 @@ data:
     g18_entry: '03559'
     definition: applying a tension force to the load receptor of a load cell
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

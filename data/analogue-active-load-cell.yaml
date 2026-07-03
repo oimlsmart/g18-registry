@@ -27,6 +27,7 @@ data:
     - 'Note: This type of load cell may utilise the active electronics for gaining
       an electronic representation of the measurand value, active temperature compensation,
       and similar function being of influence to the measurand value.'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

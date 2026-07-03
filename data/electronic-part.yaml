@@ -23,6 +23,7 @@ data:
     g18_entry: '02244'
     definition: any device, component or measuring element containing electronics
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -35,6 +36,7 @@ data:
     g18_entry: '03031'
     definition: any device, component or measuring element containing electronics
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -47,6 +49,7 @@ data:
     g18_entry: 02244-R080-1
     definition: any device, component or measuring element containing electronics
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

@@ -57,7 +57,9 @@ const totalCount = Object.values(rawByEdition).flat().length;
     <ul>
       <li>For each conflicting ID, decide which concept keeps the number and assign a new G 18 ID to the other.</li>
       <li>Update the <code>identifier</code> field on the displaced concept in <code>oimlsmart/vocab datasets/g18-202X/</code>.</li>
-      <li>The current <code>a</code>/<code>b</code> suffix split is a dataset workaround, not a published convention.</li>
+      <li>The 2010 dataset uses the <code>&lt;id&gt;a</code>/<code>&lt;id&gt;b</code> suffix convention (e.g. <code>00474a</code> / <code>00474b</code>) to disambiguate.</li>
+      <li>The 202X dataset uses a publication-derived suffix (<code>&lt;id&gt;-RXXX-N</code>, e.g. <code>02344-R049-1</code> / <code>02344-R099-1</code>) — the underlying G 18 number is still shared and needs editorial reallocation.</li>
+      <li>Both styles are dataset workarounds, not published conventions.</li>
       <li>For the related problem of one concept cited under many IDs, see the <SLink to="/harmonization/">harmonisation worklist</SLink>.</li>
     </ul>
   </section>

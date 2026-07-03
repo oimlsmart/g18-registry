@@ -25,6 +25,7 @@ data:
       stops the flow of the liquid after the measurement and delivery of the selected
       quantity
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -40,6 +41,7 @@ data:
       of the selected quantity
     notes:
     - 'Note:  The preset quantity value may be the mass or the related price to pay.'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

@@ -28,6 +28,7 @@ data:
       point bottom, measured along the vertical measurement axis
     notes:
     - "(see figure 1)"
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -41,6 +42,7 @@ data:
     definition: distance between the free surface of the liquid and the reference
       point bottom, measured along the vertical measurement axis (see figure 1)
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

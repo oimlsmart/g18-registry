@@ -24,6 +24,7 @@ data:
     definition: test to verify whether the EUT is capable of maintaining its performance
       characteristics over a period of use
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -37,6 +38,7 @@ data:
     definition: test to verify that the EUT is capable of maintaining its performance
       characteristics over a period of use
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -49,6 +51,7 @@ data:
     g18_entry: '00817'
     definition: test to verify that the EUT is capable of maintaining its span stability
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -62,6 +65,7 @@ data:
     definition: test to verify that the EUT is capable of maintaining its span stability
       over a period of use
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -75,6 +79,7 @@ data:
     definition: a test to verify that the EUT is capable of maintaining its performance
       characteristics over a period of use
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -87,6 +92,7 @@ data:
     g18_entry: '03530'
     definition: test to verify that the EUT is capable of maintaining its span stability
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -100,6 +106,7 @@ data:
     definition: test to verify that the EUT is capable of maintaining its performance
       characteristics over a period of use
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -113,6 +120,7 @@ data:
     definition: test to verify whether the EUT is capable of maintaining its performance
       characteristics over a period of use
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -126,6 +134,7 @@ data:
     definition: test to verify that the EUT is capable of maintaining its performance
       characteristics over a period of use
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

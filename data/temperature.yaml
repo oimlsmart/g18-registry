@@ -27,6 +27,7 @@ data:
     definition: In degrees Celsius, is related to the absolute thermodynamic temperature
       scale, called the Kelvin scale, by t = T – 273.15 K.
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -41,6 +42,7 @@ data:
       temperature of the ribbon (in °C) under changes of the ambient temperature by
       1 °C at a constant lamp current
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

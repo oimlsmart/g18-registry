@@ -23,6 +23,7 @@ data:
     g18_entry: '01972'
     definition: detailed description of the test operations
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -35,6 +36,7 @@ data:
     g18_entry: '00250'
     definition: detailed description of the test operations
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -47,6 +49,7 @@ data:
     g18_entry: '01735'
     definition: a detailed description of the tests
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -59,6 +62,7 @@ data:
     g18_entry: '01669b'
     definition: a detailed description of the tests
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -71,6 +75,7 @@ data:
     g18_entry: '03615'
     definition: detailed description of the test operations (OIML D 11, 3.21.1)
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -83,6 +88,7 @@ data:
     g18_entry: '03564'
     definition: detailed description of the tests
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -95,6 +101,7 @@ data:
     g18_entry: 02242-D011
     definition: detailed description of the test operations
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -107,6 +114,7 @@ data:
     g18_entry: '02694'
     definition: detailed description of the test operations [OIML D11, 3.20.1]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -119,6 +127,7 @@ data:
     g18_entry: '01669'
     definition: a detailed description of the tests
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

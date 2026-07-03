@@ -26,6 +26,7 @@ data:
     - Note:Cloud servers may not be physically accessible to all parties and may be
       located in a different country, Their physical location may not be konown and
       not fixed.
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

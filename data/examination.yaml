@@ -24,6 +24,7 @@ data:
       documentation to ensure that some specified requirements are met"
     notes:
     - "(OIML B 3)"
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -37,6 +38,7 @@ data:
     definition: official visual inspection of an instrument or device and relevant
       documentation to assure that some specified requirements are met
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -50,6 +52,7 @@ data:
     definition: "(official) visual inspection of an instrument or device and relevant
       documentation to ensure that some specified requirements are met"
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

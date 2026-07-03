@@ -24,6 +24,7 @@ data:
     definition: means to adjust the indication of the gas analyzer to the value of
       the SO2 volume fraction in a CGM
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -37,6 +38,7 @@ data:
     definition: means to adjust the indication of the gas analyzer to the value of
       the CO, NO and NO2 volume fraction in a CGM
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -50,6 +52,7 @@ data:
     definition: means to adjust the indication of the gas analyzer to the value of
       the SO2 volume fraction in a CGM
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

@@ -25,6 +25,7 @@ data:
       or software implemented seal. The seal must be removed, damaged or broken to
       obtain access to change software
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -39,6 +40,7 @@ data:
       implemented seal which has to be removed, damaged or broken to obtain access
       to change software
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -61,6 +63,7 @@ data:
       the seal. adapted from [OIML V 1:2022, 6.04]'
     notes:
     - 'Note: See 6.2.3.5.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -75,6 +78,7 @@ data:
       or software implemented seal which has to be removed, damaged or broken to obtain
       access to change software
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

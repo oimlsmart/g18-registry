@@ -26,6 +26,7 @@ data:
       span adjustment or other adjustments or corrections) and configuration parameters
       (e.g. maximum value, minimum value, units of measurement, etc.)
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -41,6 +42,7 @@ data:
       or selectable only in a service mode of the taximeter and may be classified
       as those that should be secured and those that may be accessed (settable parameters)
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -59,6 +61,7 @@ data:
       Device specific parameters may be classified as those that should be secured
       (unalterable) and those that may be accessed (settable) by an authorized person
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -77,6 +80,7 @@ data:
       adjustment or other adjustments or corrections) and configuration parameters
       (e.g. maximum value, minimum value, units of measurement, etc.) Note 2: See
       also 6.2.3.4.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -93,6 +97,7 @@ data:
     - 'Note: Device-specific parameters comprise adjustment parameters (e.g. span
       adjustment or other adjustments or corrections) and configuration parameters
       (e.g. maximum value, minimum value, units of measurement, etc.)'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -106,6 +111,7 @@ data:
     definition: legally relevant parameter with a value that depends on the individual
       instrument (VIML, 4.12)
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -124,6 +130,7 @@ data:
       that should be secured (unalterable) and those that may be accessed (settable
       parameters) by an authorized person
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -139,6 +146,7 @@ data:
       or selectable only in a service mode of the taximeter and may be classified
       as those that should be secured and those that may be accessed (settable parameters)
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -157,6 +165,7 @@ data:
       Device specific parameters may be classified as those that should be secured
       (unalterable) and those that may be accessed (settable) by an authorized person
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

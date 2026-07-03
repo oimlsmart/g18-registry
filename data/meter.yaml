@@ -26,6 +26,7 @@ data:
       includes at least a measuring device, a calculator (including adjustment or
       correction devices if present) and an indicating device
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -41,6 +42,7 @@ data:
     notes:
     - A meter includes at least a transducer, a calculator (including adjustment or
       correction devices if present) and an indicating device.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -55,6 +57,7 @@ data:
       mass of gas passing through the flow measuring device at metering conditions
     notes:
     - The display may be a remote indicating device.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -71,6 +74,7 @@ data:
     - a meter includes at least a measurement transducer, a calculator (including
       adjustment or correction devices if present), a conversio device (if necessary),
       and an indicating device.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -87,6 +91,7 @@ data:
     - 'Note: A meter includes at least a measuring device, a calculator (including
       adjustment or correction devices if present) and an indicating device (see Figure
       1).'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -101,6 +106,7 @@ data:
       mass of gas passing through the flow measuring device at metering conditions
     notes:
     - 'Note: The display may be a remote indicating device.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -117,6 +123,7 @@ data:
     - 'Note: a meter includes at least a measurement transducer, a calculator (including
       adjustment or correction devices if present), a conversion device (if necessary),
       and an indicating device.'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

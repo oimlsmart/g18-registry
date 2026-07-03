@@ -27,6 +27,7 @@ data:
     definition: 'net absorbance, stem:[Delta]A, at the analysis wavelength divided
       by the thickness, t, of the radiation sensitive layer of the dosimeter as follows:'
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -40,6 +41,7 @@ data:
     definition: 'net absorbance, ΔA, at the analysis wavelength divided by the thickness,
       t, of the radiation sensitive layer of the dosimeter as follows: Δk = ΔA /t'
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

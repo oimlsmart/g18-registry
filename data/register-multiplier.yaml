@@ -23,6 +23,7 @@ data:
     definition: constant with which the register reading shall be multiplied to obtain
       the value of the metered energy
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

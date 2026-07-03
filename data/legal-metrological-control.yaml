@@ -31,10 +31,15 @@ data:
     link: https://www.oiml.org/en/files/pdf_D/d009-e04.pdf
     g18_entry: '00186'
     definition: the whole of legal metrology activities which contribute to metrological
-      assurance [VIML, 2.1]
+      assurance
     notes:
-    - 'Legal metrological control includes: - legal control of measuring instruments;
-      - metrological supervision; - metrological expertise.'
+    - |-
+      Legal metrological control includes:
+
+      * legal control of measuring instruments
+      * metrological supervision
+      * metrological expertise
+    examples: []
     consistency: pending
     consistency_reason: ''
     related:
@@ -55,6 +60,7 @@ data:
     notes:
     - 'Legal metrological control includes: legal control of measuring instruments,
       metrological supervision, metrological assessment.'
+    examples: []
     consistency: pending
     consistency_reason: ''
     related:
@@ -77,6 +83,7 @@ data:
       and demonstrating, e.g. to testify in a court of law, the conditio of measuring
       instrument and to determine itd. metrological properties, amongst others by
       reference to the relevant astatutoey requirements'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -94,6 +101,7 @@ data:
       demonstrating, e.g. to testify in a court of law, the conditio of measuring
       instrument and to determine itd. metrological properties, amongst others by
       reference to the relevant astatutoey requirements.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -104,10 +112,11 @@ data:
     clause: 3.1.9
     link:
     g18_entry: '02209'
-    definition: the whole of legal metrology activities [VIML 2.01]
+    definition: the whole of legal metrology activities
     notes:
     - 'Note: Legal metrological control includes legal control of measuring instruments,
       legal metrological supervision, and legal metrological expertise.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -119,10 +128,11 @@ data:
     link:
     g18_entry: 02255-D016
     definition: the whole of legal metrology activities which contribute to metrological
-      assurance [VIML 2.1]
+      assurance
     notes:
     - 'Note:Legal metrological control includes: legal control of measuring instruments;
       metrological supervision; metrological expertise.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -134,10 +144,11 @@ data:
     link: https://www.oiml.org/en/files/pdf_D/d009-e04.pdf
     g18_entry: '00186'
     definition: the whole of legal metrology activities which contribute to metrological
-      assurance [VIML, 2.1]
+      assurance
     notes:
     - 'Note:Legal metrological control includes: - legal control of measuring instruments;
       -  metrological supervision; -  metrological expertise.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -149,10 +160,10 @@ data:
     link: https://www.oiml.org/en/files/pdf_D/d027-e01.pdf
     g18_entry: '00164'
     definition: whole of legal metrology activities which contribute to metrological  assurance
-      [VIML, 2.1]
     notes:
     - 'Note:Legal metrological control includes: legal control of measuring instruments,
       metrological supervision, metrological assessment.'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

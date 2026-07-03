@@ -26,6 +26,7 @@ data:
       gasoline (a multigrade-dispenser) and mixtures of gasoline and lubricating oil
       (a gasoline-oil-dispenser)
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -42,6 +43,7 @@ data:
       (a gasoline-oil-dispenser)
     notes:
     - Note:Additive injection can be considered to be a type of gasoline-oil-dispenser.
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

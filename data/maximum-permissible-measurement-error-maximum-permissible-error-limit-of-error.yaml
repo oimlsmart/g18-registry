@@ -23,13 +23,14 @@ data:
     g18_entry: '03238'
     definition: extreme value of measurement error, with respect to a known reference
       quantity value, permitted by specifications or regulations for a given measurement,
-      measuring instrument, or measuring system [VIML, 0.05]
+      measuring instrument, or measuring system
     notes:
     - 'Note 1: Usually the term “maximum permissible errors” or “limits of error”
       are used, where there are two extreme values. Note 2: the term “tolerance” should
       not be used to designate ‘maximum permissible error’. [OIML V2-200:2012, 4.26]
       Note 3: Usually the term “maximum permissible errors” is abbreviated to “MPE”,
       or “mpe”.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -47,6 +48,7 @@ data:
     - 'Note 1: Usually, the term “maximum permissible errors” or “limits of error”
       are used where there are two extreme values. Note 2: the term “tolerance” should
       not be used to designate ‘maximum permissible error’.'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

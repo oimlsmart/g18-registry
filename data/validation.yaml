@@ -37,6 +37,7 @@ data:
       this Document'
     notes:
     - "[derived from ISO/IEC 14598 and IEC 61508- 1998]"
+    examples: []
     consistency: pending
     consistency_reason: ''
     related:
@@ -58,6 +59,7 @@ data:
     notes:
     - (1) The term "validated" is used to designate the corresponding status. (2)
       The use conditions for validation can be real or simulated.
+    examples: []
     consistency: pending
     consistency_reason: ''
     related:
@@ -79,6 +81,7 @@ data:
     notes:
     - 'Note 1: The term “validated” is used to designate the corresponding status.
       Note 2: ’The use conditions for validation can be real or simulated.'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

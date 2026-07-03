@@ -26,6 +26,7 @@ data:
     - The nebulizer produces droplets of varying sizes that pass through the spray
       chamber where larger droplets remain on the chamber walls and are removed as
       waste.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -38,6 +39,7 @@ data:
     g18_entry: '01200'
     definition: A device that converts a liquid sample into an aerosol
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -50,6 +52,7 @@ data:
     g18_entry: '02519'
     definition: device that converts a liquid sample into an aerosol
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -65,6 +68,7 @@ data:
     - 'Note: The nebulizer produces droplets of varying sizes that pass through the
       spray chamber where larger droplets remain on the chamber walls and are removed
       as waste.'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

@@ -31,6 +31,7 @@ data:
       impedance, supply voltage, cable details); and - one or more load cell groups'
     notes:
     - miting.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -54,6 +55,7 @@ data:
       etc.).'
     notes:
     - 'Note:  The examples provided are not intended to be limiting.'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

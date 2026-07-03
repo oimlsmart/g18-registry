@@ -35,10 +35,11 @@ data:
     definition: control exercised in respect of the manufacture, import, installation,
       use, maintenance and repair of a measuring instrument and/or in respect of its
       use, performed in order to check that it is used correctly as regards the observance
-      of metrology laws and regulations [VIML, 2.3]
+      of metrology laws and regulations
     notes:
     - Metrological supervision includes checking the correctness of the quantities
       indicated on and contained in prepackages.
+    examples: []
     consistency: pending
     consistency_reason: ''
     related:
@@ -57,10 +58,11 @@ data:
     definition: control exercised in respect of the manufacture, import, installation,
       maintenance and repair of measuring instruments and/or in respect of their use,
       performed in order to check that they are used correctly as regards the observance
-      of metrology laws and regulations [VIML 2.3]
+      of metrology laws and regulations
     notes:
     - Metrological supervision includes checking the correctness of the quantities
       indicated on and contained in prepackages.
+    examples: []
     consistency: pending
     consistency_reason: ''
     related:
@@ -81,6 +83,7 @@ data:
       they are used correctly and honestly. It extends also to control of correctness
       of the quantities indicated on prepacked articles [VML 2.6].
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -95,6 +98,7 @@ data:
       metrology laws and regulations
     notes:
     - "(For notes, refer to the VIML)"
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -106,12 +110,13 @@ data:
     link:
     g18_entry: '02211'
     definition: activity of legal metrological control to check the observance of
-      metrology laws and regulations [VIML 2.03]
+      metrology laws and regulations
     notes:
     - 'Note 1: Metrological supervision also includes checking the correctness of
       quantities indicated on and contained in pre-packages and the correct use of
       units of measurement. Note 2: For achieving these purposes, means and methods
       such as market surveillance and quality management may be utilized.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -125,10 +130,11 @@ data:
     definition: control exercised in respect of the manufacture, import, installation,
       use, maintenance and repair of measuring instruments, performed in order to
       check that they are used correctly as regards the observance of metrology laws
-      and regulations [VIML 2.3]
+      and regulations
     notes:
     - Note:Metrological supervision includes checking the correctness of the quantities
       indicated on and contained in prepackages.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -142,10 +148,11 @@ data:
     definition: control exercised in respect of the manufacture, import, installation,
       use, maintenance and repair of a measuring instrument and/or in respect of its
       use, performed in order to check that it is used correctly as regards the observance
-      of metrology laws and regulations [VIML 2.3]
+      of metrology laws and regulations
     notes:
     - 'Note: Metrological supervision includes checking the correctness of the quantities
       indicated on and contained in prepackages.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -159,10 +166,11 @@ data:
     definition: control exercised in respect of the manufacture, import, installation,
       use, maintenance and repair of a measuring instrument and/or in respect of its
       use, performed in order to check that it is used correctly as regards the observance
-      of metrology laws and regulations [VIML, 2.3]
+      of metrology laws and regulations
     notes:
     - 'Note: Metrological supervision includes checking the correctness of the quantities
       indicated on and contained in prepackages.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -178,6 +186,7 @@ data:
       they are used correctly and honestly. It extends also to control of correctness
       of the quantities indicated on prepacked articles [VML 2.6].
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

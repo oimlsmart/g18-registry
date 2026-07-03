@@ -25,6 +25,7 @@ data:
       device (e.g. checking that downloaded software originates from the owner of
       the type approval certificate)
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -40,6 +41,7 @@ data:
     notes:
     - 'Note: This may be necessary when checking that downloaded software originates
       from the owner of the certificate.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -55,6 +57,7 @@ data:
     notes:
     - 'Note: This may be necessary when checking that downloaded software originates
       from the owner of the certificate.'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

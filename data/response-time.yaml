@@ -28,6 +28,7 @@ data:
       of the substance (SO2) being measured and the instant at which the signal reaches
       90 % of its stable value
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -42,6 +43,7 @@ data:
       temperature difference is subjected to a specified abrupt change, and the instant
       when the response reaches 50 % of its final steady value
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -56,6 +58,7 @@ data:
       of the component being measured (CO, NO, NO2 or NOx) and the instant at which
       the signal reaches 90 % of its stable value
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -70,6 +73,7 @@ data:
       of the substance (SO2) being measured and the instant at which the signal reaches
       90 % of its stable value
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -84,6 +88,7 @@ data:
       the temperature difference is subjected to a specified abrupt change, and the
       instant when the response reaches 50 % of its final steady value
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

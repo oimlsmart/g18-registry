@@ -29,6 +29,7 @@ data:
       or metres (at a specified distance). Angles are typically given in degrees (e.g.
       for Doppler-radar based speed meters) or in milliradians (mrad; e.g. for hand-held
       LIDAR speed meters). Figure 1 shows an example.'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

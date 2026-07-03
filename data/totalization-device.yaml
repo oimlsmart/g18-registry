@@ -24,6 +24,7 @@ data:
     definition: device that calculates the sum of consecutive loads weighed and discharged
       to bulk
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -39,6 +40,7 @@ data:
       or an integration of the product of the load per unit length and the speed of
       the belt"
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -53,6 +55,7 @@ data:
       displacement transducer, either -  to add partial loads, or -  to integrate
       the product of the load per unit length and the speed of the belt
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -66,6 +69,7 @@ data:
     definition: device that calculates the sum of consecutive loads weighed and discharged
       to bulk
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

@@ -24,6 +24,7 @@ data:
     definition: distance between the free surface of the liquid and the upper reference
       point, measured along the vertical measurement axis
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -38,6 +39,7 @@ data:
       along the vertical measurement axis
     notes:
     - The term "outage" is synonymous.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -51,6 +53,7 @@ data:
     definition: distance between the free surface of the liquid and the upper reference
       point, measured along the vertical measurement axis
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -65,6 +68,7 @@ data:
       along the vertical measurement axis
     notes:
     - 'Note: The term “outage” is synonymous.'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

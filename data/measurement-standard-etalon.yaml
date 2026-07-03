@@ -22,8 +22,8 @@ data:
     g18_entry: '03271'
     definition: realisation of the definition of a given quantity, with stated quantity
       value and associated measurement uncertainty, used as reference
-    notes:
-    - For examples and notes see [VIM, 5.1].
+    notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -38,6 +38,7 @@ data:
       value and associated measurement uncertainty, used as reference
     notes:
     - 'Note: For examples and notes see VIM3, 5.1'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

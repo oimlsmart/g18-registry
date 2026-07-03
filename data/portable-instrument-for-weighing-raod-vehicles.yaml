@@ -25,6 +25,12 @@ data:
       several parts, which determines the total mass of road vehicles, and which is
       designed to be moved to other locations
     notes: []
+    examples:
+    - Portable weighbridge, group of associated non-automatic axle (or wheel) load
+      weighers (1) This Recommendation covers only weighbridges and groups of associated
+      non- automatic axle (or wheel) load weighers that determine simultaneously the
+      total mass of a road vehicle with all axles (or wheels) being simultaneously
+      supported by appropriate parts of a load receptor.
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -44,6 +50,7 @@ data:
       with all axles (or wheels) being simultaneously supported by appropriate parts
       of a load receptor.'
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

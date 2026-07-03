@@ -38,6 +38,7 @@ data:
       5.14) authoritative body and providing one or more specified property values
       with associated uncertainties and traceabilities, using valid procedures
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
     related:
@@ -57,6 +58,7 @@ data:
       body and referring to valid procedures used to obtain a specified property value
       with uncertainty and traceability
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -71,6 +73,7 @@ data:
       are certified by a technically valid procedure, accompanied by or traceable
       to a certificate or other documentation which is issued by a certifying body
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -85,6 +88,7 @@ data:
       body and providing one or more specified property values with associated uncertainties
       and traceabilities, using valid procedures
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -97,9 +101,9 @@ data:
     g18_entry: '02962'
     definition: reference material, accompanied by documentation issued by an authoritative
       body and providing one or more specified property values with associated uncertainties
-      and traceabilities, using valid procedures For examples and notes see [VIM,
-      5.14].
+      and traceabilities, using valid procedures
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -114,6 +118,7 @@ data:
       body and providing one or more specified property values with associated uncertainties
       and traceabilities, using valid procedures
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -145,6 +150,7 @@ data:
       but uses the modifiers "metrological" and "metrologically" to refer to both
       quantity and nominal property. Refer to Annex B for guidelines on producing
       whole-grain CRMs. Further general information is in OIML D 18:2008.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -159,6 +165,7 @@ data:
       body and providing one or more specified property values with associated uncertainties
       and traceabilities, using valid procedures
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -173,6 +180,7 @@ data:
       are certified by a technically valid procedure, accompanied by or traceable
       to a certificate or other documentation which is issued by a certifying body
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

@@ -27,6 +27,7 @@ data:
       sequential control device (see T.4.9 below)
     notes:
     - Testing using banks generates transient flowrates.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -42,6 +43,7 @@ data:
       different pressure levels from one another in refueling systems fitted with
       or using a sequential control device (see 3.4.6)
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

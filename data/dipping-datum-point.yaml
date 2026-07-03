@@ -26,6 +26,7 @@ data:
       datum plate is not provided. It constitutes the origin for the measurement of
       liquid levels (zero reference or dipping reference point)
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -41,6 +42,7 @@ data:
       provided. It constitutes the origin for the measurement of liquid levels (zero
       reference or dipping reference point)
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -56,6 +58,7 @@ data:
       provided. It constitutes the origin for the measurement of liquid levels (zero
       reference for innage height)
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -71,6 +74,7 @@ data:
       datum plate is not provided. It constitutes the origin for the measurement of
       liquid levels (zero reference or dipping reference point)
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -86,6 +90,7 @@ data:
       provided. It constitutes the origin for the measurement of liquid levels (zero
       reference or dipping reference point)
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -101,6 +106,7 @@ data:
       provided. It constitutes the origin for the measurement of liquid levels (zero
       reference for innage height)
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

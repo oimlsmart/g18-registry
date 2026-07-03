@@ -55,6 +55,7 @@ data:
       etc. for a given measuring instrument
     notes:
     - "[VIM:1993, 5.21; OIML D 11:2004, 3.6]"
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -68,6 +69,7 @@ data:
     definition: extreme permitted value by the present Recommendation for the error
       of indication
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -82,6 +84,7 @@ data:
       quantity value, permitted by specifications or regulations for a given measurement,
       measuring instrument, or measuring system
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -95,6 +98,7 @@ data:
     definition: extreme values of an error permitted by specifications, regulations,
       etc. for a given instrument
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -107,6 +111,7 @@ data:
     g18_entry: '01561'
     definition: extreme value for an error permitted by this Recommendation
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -120,6 +125,7 @@ data:
     definition: extreme values permitted by this Recommendation for an error
     notes:
     - "(adapted from VIM:2007, 4.26)"
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -133,6 +139,7 @@ data:
     definition: extreme values of the relative error (of indication) of a water meter
       permitted by this Recommendation
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
     related:
@@ -151,6 +158,7 @@ data:
     definition: maximum value of the error permitted by laws, regulations, or specifications
       for a given measuring instrument
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -163,6 +171,7 @@ data:
     g18_entry: '01947'
     definition: extreme values permitted by the present Recommendation for an error
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
     related:
@@ -179,8 +188,9 @@ data:
     link: https://www.oiml.org/en/files/pdf_D/d011-e04.pdf
     g18_entry: '00229'
     definition: extreme value of an error permitted by specifications, regulations,
-      etc. for a given measuring instrument [VIM, 5.21]
+      etc. for a given measuring instrument
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
     related:
@@ -201,6 +211,7 @@ data:
       as determined by reference standard masses, at zero or no load, in the reference
       position
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
     related:
@@ -220,6 +231,7 @@ data:
       between the measured conventional mass and the nominal value of a weight, as
       determined by corresponding reference weights
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -232,8 +244,8 @@ data:
     g18_entry: '01875'
     definition: extreme value of an error permitted by specifications, regulations,
       etc. for a given measuring instrument
-    notes:
-    - "[VIM, 5.21]"
+    notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -248,6 +260,7 @@ data:
       between the indication of a measuring instrument and the corresponding true
       value
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -261,6 +274,7 @@ data:
     definition: extreme values of the error (positive or negative) permitted by this
       Recommendation
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
     related:
@@ -279,6 +293,7 @@ data:
     definition: extreme values of an error permitted by this Recommendation (refer
       to clause 5) for a load cell [Adapted from VIM:1993, 5.21]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
     related:
@@ -297,6 +312,7 @@ data:
     definition: the extreme values of an error permitted by specifications, regulations,
       etc. for a given measuring instrument (VIM:1993, 5.21)
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
     related:
@@ -318,6 +334,7 @@ data:
       (in the statutory hierarchy of standards), assuming that this standard of higher
       accuracy has a negligible error for the purpose of this comparison
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -336,6 +353,7 @@ data:
       (e.g. km/h) or relative (e.g. %). Error values in relative units given in this
       recommendation are always relative to the absolute value of the reference (not
       to the value of the device under test or to any other value).'
+    examples: []
     consistency: pending
     consistency_reason: ''
     related:
@@ -361,6 +379,7 @@ data:
       permissible errors for type approval and initial verification and verification
       after repair od refractometer are defined in 5.2.1. Maximum permissible errors
       forrefractometer in service are defined in 5.2.2.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -375,6 +394,7 @@ data:
       quantity value, permitted by specifications or regulations for a given measurement,  measuring
       instrument, or measuring system adapted from [OIML V 1:2022, 0.05]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -390,6 +410,7 @@ data:
       measuring instrument, or measuring system [OIML V2-200:2012, 4.26] [OIML V1:2013,
       0.05]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -405,6 +426,7 @@ data:
       measuring instrument, or measuring system
     notes:
     - "(for notes, refer to the VIM)"
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -417,6 +439,7 @@ data:
     g18_entry: '03232'
     definition: extreme value for an error permitted by this Recommendation
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -434,6 +457,7 @@ data:
     - NOTE 1 Usually, the term "maximum permissible errors" or "limits of error" is
       used where there are two extreme values. NOTE 2 The term "tolerance" should
       not be used to designate "maximum permissible error".
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -448,6 +472,7 @@ data:
       quantity value, permitted by specifications or regulations for a given measurement,
       measuring instrument, or measuring system
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -461,6 +486,7 @@ data:
     definition: extreme permitted value by the present Recommendation for the error
       of indication
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -474,6 +500,7 @@ data:
     definition: extreme value of an error permitted by pecifications, regulations,
       etc. for a given measuring instrument [VIM, 5.21]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -488,6 +515,7 @@ data:
       between the indication of a measuring instrument and the corresponding true
       value
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -501,6 +529,7 @@ data:
     definition: the extreme values of an error permitted by specifications, regulations,
       etc. for a given measuring instrument [VIM:1993, 5.21]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -517,6 +546,7 @@ data:
       (in the statutory hierarchy of standards), assuming that this standard of higher
       accuracy has a negligible error for the purpose of this comparison
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

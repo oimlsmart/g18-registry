@@ -23,6 +23,7 @@ data:
     g18_entry: '01973'
     definition: description of a series of tests for a certain type of equipment
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -35,6 +36,7 @@ data:
     g18_entry: '00251'
     definition: description of a series of tests for certain types of equipment
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -47,6 +49,7 @@ data:
     g18_entry: '01736'
     definition: a description of a series of tests for a certain type of equipment
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -59,6 +62,7 @@ data:
     g18_entry: '01660'
     definition: a description of a series of tests for certain types of equipment
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -69,9 +73,9 @@ data:
     clause: 3.21.2
     link:
     g18_entry: 02243-D011
-    definition: description of a series of tests for certain types of equipment [VIML
-      5.20]
+    definition: description of a series of tests for certain types of equipment
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -85,6 +89,7 @@ data:
     definition: description of a series of tests for a certain type of equipment [OIML
       D11, 3.20.2]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -97,6 +102,7 @@ data:
     g18_entry: '03565'
     definition: description of a series of tests for a certain type of equipment
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -109,6 +115,7 @@ data:
     g18_entry: '01660'
     definition: a description of a series of tests for certain types of equipment
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

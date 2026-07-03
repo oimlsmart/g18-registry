@@ -24,6 +24,7 @@ data:
       between the values corresponding to two consecutive scale marks for analogue
       indication, or two consecutive indicated values for digital indication
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -37,6 +38,7 @@ data:
     definition: value expressed in units of mass for weighing-in-motion that is the
       difference between two consecutive indicated or printed values
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -51,6 +53,7 @@ data:
       values corresponding to two consecutive scale marks for analogue indication,
       or two consecutive indicated values for digital indication'
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

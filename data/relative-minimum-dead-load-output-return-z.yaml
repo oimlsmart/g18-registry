@@ -24,6 +24,7 @@ data:
       load output return, DR
     notes:
     - Note:This ratio is used to describe multi-interval instruments.
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

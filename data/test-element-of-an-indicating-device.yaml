@@ -23,6 +23,7 @@ data:
     g18_entry: '01954'
     definition: device to enable precise reading of the measured gas quantity
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -35,6 +36,7 @@ data:
     g18_entry: '02676'
     definition: device to enable precise reading of the measured gas quantity
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

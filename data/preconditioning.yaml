@@ -25,6 +25,7 @@ data:
       or partially counteracting the effects of its previous history. Where called
       for, this is the first process in the test procedure
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -39,6 +40,7 @@ data:
       of eliminating or partially counteracting the effects of its previous history
     notes:
     - 'Note: Where called for, this is the first process in a test procedure.'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

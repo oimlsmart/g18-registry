@@ -24,6 +24,7 @@ data:
     definition: solution that is prepared in the same way as the sample solution but
       does not contain the element or elements to be determined
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -38,6 +39,7 @@ data:
       to be determined in the same concentration as required for the preparation of
       a reference standard solution of that element
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -51,6 +53,7 @@ data:
     definition: solution that is prepared in the same way as the sample solution but
       does not contain the element or elements to be determined
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -65,6 +68,7 @@ data:
       be determined in the same concentration as required for the preparation of a
       reference standard solution of that element
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

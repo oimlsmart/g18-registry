@@ -41,6 +41,7 @@ data:
     notes:
     - The reference conditions generally include reference values or reference ranges
       for the influence quantities affecting the measuring instrument.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -55,6 +56,7 @@ data:
       4.11) a measuring instrument or measuring system or for comparison of measurement
       results
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
     related:
@@ -72,6 +74,7 @@ data:
     g18_entry: '02234'
     definition: reference conditions applicable for the calibration certificate
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -87,6 +90,7 @@ data:
     notes:
     - Reference conditions generally specify intervals of values for any influence
       quantity.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -101,6 +105,7 @@ data:
       4.11) ameasuring instrument or measuring system or for comparison ofmeasurement
       results
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
     related:
@@ -119,6 +124,7 @@ data:
     definition: set of specified values of influence factors fixed to ensure valid
       intercomparison of the results of measurements
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -132,6 +138,7 @@ data:
     definition: "[V conditions of use prescribed for testing the performance of an
       instrument or for intercomparison of results of measurements IM: 1993, 5.7]"
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -145,6 +152,7 @@ data:
     definition: set of specified values of influence factors fixed to ensure valid
       intercomparison of results of measurements
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -158,6 +166,7 @@ data:
     definition: set of specified values for influence factors that are fixed to ensure
       valid intercomparison of results of measurements
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -172,6 +181,7 @@ data:
       from VIM:2007, 4.11) prescribed for testing the performance of a measuring system
       or a device or for intercomparisons of the results of measurements
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
     related:
@@ -191,6 +201,7 @@ data:
       prescribed for testing the performance of a water meter, or for the intercomparison
       of the results of measurements dapted from VIM:1993, 5.7]."
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
     related:
@@ -209,6 +220,7 @@ data:
     definition: set of specified values of influence factors fixed to ensure valid
       inter-comparison of the results of measurements
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -222,6 +234,7 @@ data:
     definition: set of specified values of influence factors fixed to ensure valid
       inter-comparison of the results of measurements
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -237,6 +250,7 @@ data:
       of the results of measurements
     notes:
     - "(adapted from VIM:1993, 5.7)"
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -252,6 +266,7 @@ data:
     notes:
     - The reference conditions generally include reference values or reference ranges
       for the influence quantities affecting a measuring instrument.
+    examples: []
     consistency: pending
     consistency_reason: ''
     related:
@@ -270,6 +285,7 @@ data:
     definition: "[b set of specified values of influence factors fixed to ensure valid
       intercomparison of the results of measurements ased on VIM:1993, 5.7]"
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
     related:
@@ -288,6 +304,7 @@ data:
     definition: set of specified values of influence factors fixed to ensure valid
       [VIM:1993, 5.7] intercomparison of the results of measurements
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
     related:
@@ -308,6 +325,7 @@ data:
     notes:
     - The reference conditions generally include reference values or reference ranges
       for influence quantities affecting the measuring instrument. [VIM:1993, 5.7]
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -322,6 +340,7 @@ data:
       measuring instrument or for intercomparison of results of measurements IM:1993,
       5.7]."
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -338,6 +357,7 @@ data:
     - The reference conditions generally include reference values or reference ranges
       for the influence quantities affecting the load cell. [Adapted from VIM:1993,
       5.7]
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -351,6 +371,7 @@ data:
     definition: a set of specified values of influence factors fixed to ensure valid
       Adapted from VIM:1993, 5.7. intercomparison of results of measurements
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
     related:
@@ -369,6 +390,7 @@ data:
     definition: a set of specified values of influence factors to ensure valid inter-comparisons
       of the results of a measurement
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -382,6 +404,7 @@ data:
     definition: a set of specified values of influence factors fixed to ensure valid
       intercomparisons of results of measurements (adapted from VIM:1993, 5.7)
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
     related:
@@ -400,6 +423,7 @@ data:
     definition: "[A a set of specified values of influence factors fixed to ensure
       a valid intercomparison of measurement results dapted from VIM:1993, 5.7]"
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
     related:
@@ -418,6 +442,7 @@ data:
     definition: a set of specified values of influence factors fixed to ensure valid
       intercomparison of the results of measurements
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -432,6 +457,7 @@ data:
       valid inter-comparison of results dapted from VIM:1993, clause 5.7 in D 11 clause
       T.14)"
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -445,6 +471,7 @@ data:
     definition: the conditions of use prescribed for testing the performance of a
       pressure balance or for intercomparison of measurement results
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -458,6 +485,7 @@ data:
     definition: a set of specified values of influence factors fixed to ensure valid
       intercomparison of results of measurements [adapted from VIM:1993, 5.07]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
     related:
@@ -481,6 +509,7 @@ data:
     - 'Note 2: In IEC 60050-300, item 311-06-02, the term "reference condition" refers
       to an operating condition under which the specified instrumental measurement
       uncertainty is the smallest possible.'
+    examples: []
     consistency: pending
     consistency_reason: ''
     related:
@@ -501,6 +530,7 @@ data:
       V 2-200:2012 (VIM) 4.11, [1], modified — “meter” replaces “measuring instrument
       or measuring system”; original notes removed]'
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -515,6 +545,7 @@ data:
       measuring instrument or measuring system or for comparison of measurement results
       [OIML V 2-200:2012, 4.11] [OIML V 1:2013, 0.09]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -528,6 +559,7 @@ data:
     definition: a set of specified values of influence factors fixed to ensure valid.
       intercomparison of results of measurements [VIM 4.11]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -543,6 +575,7 @@ data:
     notes:
     - 'Note:  Reference conditions specify intervals of values of the measurand and
       influence quantities. [Adapted from VIML:2013, 0.09 – part of note omitted]'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -556,6 +589,7 @@ data:
     definition: set of specified values of influence factors fixed to ensure valid  intercomparison
       of results of measurements
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -572,6 +606,7 @@ data:
     notes:
     - 'Note:  Reference operating conditions specify intervals of values of the measurand
       and of the influence quantities.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -587,6 +622,7 @@ data:
     notes:
     - 'Note:  The reference conditions generally include reference values or reference
       ranges for the influence quantities affecting the measuring instrument.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -605,6 +641,7 @@ data:
       influence quantities. Note 2: In IEC 60050-300, item 311-06-02, the term “reference
       condition” refers to an operating condition under which the specified instrumental
       measurement uncertainty is the smallest possible.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -623,6 +660,7 @@ data:
     - NOTE 2 In IEC 60050-300, item 311-06-02, the term "reference condition" refers
       to an operating condition under which the specified instrumental measurement
       uncertainty is the smallest possible.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -639,6 +677,7 @@ data:
     notes:
     - 'Note:  Reference operating conditions specify intervals of values of the measurand
       and of the influence quantities.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -653,6 +692,7 @@ data:
       measuring instrument or measuring system or for comparison of measurement results
       [VIM, 4.11] [1]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -672,6 +712,7 @@ data:
       specified instrumental measurement uncertainty is the smallest possible. [OIML
       V2-200:2012, 4.11] Note 3: For the application of this Recommendation, the terms
       “measuring instrument” and “measuring system” mean: electricity meter.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -686,6 +727,7 @@ data:
       prescribed for testing the performance of a gas meter, or for the intercomparison
       of the results of measurements
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -701,6 +743,7 @@ data:
     notes:
     - 'Note:  The reference conditions generally include reference values or reference
       ranges for influence quantities affecting the measuring instrument. [VIM 5.7]'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -716,6 +759,7 @@ data:
     notes:
     - 'Note:  The reference conditions generally include reference values or reference
       ranges for the influence quantities affecting the measuring instrument.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -730,6 +774,7 @@ data:
       measuring instrument or measuring system or for comparison of measurement results
       [VIM:2007, 4.11]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -742,6 +787,7 @@ data:
     g18_entry: 02234-R071
     definition: reference conditions applicable for the calibration certificate
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -757,6 +803,7 @@ data:
     notes:
     - 'Note:  Reference conditions generally specify intervals of values for any influence
       quantity.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -771,6 +818,7 @@ data:
       measuring instrument or measuring system or for comparison of measurement results
       [VIM:2007, 4.11]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -784,6 +832,7 @@ data:
     definition: set of specified values of influence factors fixed to ensure valid
       intercomparison of the results of measurements
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -797,6 +846,7 @@ data:
     definition: 'conditions of use prescribed for testing the performance of an instrument
       or for intercomparison of results of measurements [VIM: 1993, 5.7]'
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -811,6 +861,7 @@ data:
       for testing the performance of a measuring system or a device or for intercomparisons
       of the results of measurements [adapted from VIM:2007, 4.11]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -824,6 +875,7 @@ data:
     definition: set of specified values of influence factors fixed to ensure valid
       intercomparison of the results of measurements [based on VIM:1993, 5.7]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -837,6 +889,7 @@ data:
     definition: set of specified values of influence factors fixed to ensure valid
       inter-comparison of the results of measurements
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -853,6 +906,7 @@ data:
     - 'Note:  The reference conditions generally include reference values or reference
       ranges for influence quantities affecting the measuring instrument. [VIM:1993,
       5.7]'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -866,6 +920,7 @@ data:
     definition: set of specified values of influence factors fixed to ensure valid
       intercomparison of the results of measurements [VIM:1993, 5.7]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -879,6 +934,7 @@ data:
     definition: conditions of use prescribed for testing the performance of a measuring
       instrument or for intercomparison of results of measurements [VIM:1993, 5.7].
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -892,6 +948,7 @@ data:
     definition: a set of specified values of influence factors to ensure valid inter-comparisons
       of the results of a measurement
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -905,6 +962,7 @@ data:
     definition: a set of specified values of influence factors fixed to ensure valid
       intercomparisons of results of measurements (adapted from VIM:1993, 5.7)
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -919,6 +977,7 @@ data:
       inter-comparison of results (adapted from VIM:1993, clause 5.7 in D 11 clause
       T.14)
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -932,6 +991,7 @@ data:
     definition: the conditions of use prescribed for testing the performance of a
       pressure balance or for intercomparison of measurement results
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

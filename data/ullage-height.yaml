@@ -28,6 +28,7 @@ data:
       point top, measured along the vertical measurement axis
     notes:
     - "(see figure 1)"
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -41,6 +42,7 @@ data:
     definition: the distance between the free surface of the liquid and the upper
       reference point, measured along the vertical measurement axis
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -54,6 +56,7 @@ data:
     definition: the distance between the free surface of the liquid and the upper
       reference point, measured along the vertical measurement axis
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

@@ -25,6 +25,7 @@ data:
       legible and editable. Source code is compiled or interpreted into executable
       code
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -39,6 +40,7 @@ data:
       legible and editable.
     notes:
     - 'Note: Source code is compiled or interpreted into executable code.'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

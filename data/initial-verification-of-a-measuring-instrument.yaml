@@ -33,6 +33,7 @@ data:
     definition: verification of a measuring instrument which has not been verified
       previously
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
     related:
@@ -49,8 +50,9 @@ data:
     link: https://www.oiml.org/en/files/pdf_D/d027-e01.pdf
     g18_entry: '00167'
     definition: verification of a measuring instrument which has not been verified
-      previously [VIML 2.15]
+      previously
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

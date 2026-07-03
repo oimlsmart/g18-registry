@@ -24,6 +24,7 @@ data:
     definition: loaded or unloaded vehicle that is recognized by the instrument as
       a vehicle to be weighed
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -37,6 +38,7 @@ data:
     definition: loaded or unloaded vehicle that is recognized by the instrument as
       a road vehicle to be weighed
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

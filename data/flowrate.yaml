@@ -26,6 +26,7 @@ data:
     definition: quotient of the actual volume of water passing through the water meter
       and the time taken for this volume to pass through the water meter
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -39,6 +40,7 @@ data:
     definition: quotient of the actual quantity of gas passing through the gas meter
       and the time taken for this quantity to pass through the gas meter
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

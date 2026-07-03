@@ -27,6 +27,7 @@ data:
     definition: the factor applied to the volume or dimensions of an object to determine
       its dimensional weight
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -40,6 +41,7 @@ data:
     definition: factor applied to the volume or dimensions of an object to determine
       its dimensional weight
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -52,6 +54,7 @@ data:
     g18_entry: '02956'
     definition: ratio of the converted quantity to the quantity at metering conditions
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

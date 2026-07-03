@@ -50,6 +50,7 @@ module G18
           "g18_entry"          => Loaders.identifier(concept),
           "definition"         => Loaders.definition_text(concept),
           "notes"              => Loaders.notes_text(concept),
+          "examples"           => Loaders.examples_text(concept),
           "consistency"        => "pending",
           "consistency_reason" => "",
         }

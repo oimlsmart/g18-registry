@@ -32,6 +32,7 @@ data:
     definition: error (of the indicated volume) of a measuring system used under reference
       conditions
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -44,6 +45,7 @@ data:
     g18_entry: '02140'
     definition: error of a gas analyzer, determined under reference conditions
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -57,6 +59,7 @@ data:
     definition: error of a measuring instrument, determined under reference conditions
     notes:
     - "[VIM:1993, 5.24; OIML D 11:2004, 3.7]"
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -69,6 +72,7 @@ data:
     g18_entry: '02328'
     definition: error of an ALG determined under reference conditions
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -81,6 +85,7 @@ data:
     g18_entry: '02351'
     definition: error of a measuring instrument determined under reference conditions
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -94,6 +99,7 @@ data:
     definition: "[V error of an instrument, determined under reference conditions
       IM: 1993, 5.24]"
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -107,6 +113,7 @@ data:
     definition: error (of indication) of a measuring system or its components used
       under reference conditions
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -119,6 +126,7 @@ data:
     g18_entry: '02018'
     definition: error of a measuring system determined under reference conditions
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -131,6 +139,7 @@ data:
     g18_entry: '02080'
     definition: error determined under reference conditions
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -144,6 +153,7 @@ data:
     definition: "[a error (of indication) of a water meter determined under reference
       conditions dapted from VIM:1993, 5.24]"
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
     related:
@@ -162,6 +172,7 @@ data:
     definition: "[V error of an instrument, determined under reference conditions
       IM:1993 5.24]"
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -175,6 +186,7 @@ data:
     definition: "[V error of an instrument determined under reference conditions IM:
       1993, 5.4]"
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -187,6 +199,7 @@ data:
     g18_entry: '01945'
     definition: error determined under reference conditions
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -198,8 +211,8 @@ data:
     link: https://www.oiml.org/en/files/pdf_D/d011-e04.pdf
     g18_entry: '00230'
     definition: error of a measuring instrument, determined under reference conditions
-      [VIM, 5.24]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
     related:
@@ -218,6 +231,7 @@ data:
     definition: "[b error of a weighing instrument, determined under reference conditions
       ased on VIM:1993, 5.24]"
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
     related:
@@ -238,6 +252,7 @@ data:
     - 1. The initial intrinsic error is the intrinsic error of a measuring instrument
       as determined prior to performance tests and durability evaluations (see 2.32).
       [VIM:1993, 5.24]
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -251,6 +266,7 @@ data:
     definition: error of a measuring instrument determined under reference conditions
     notes:
     - "[VIM:1993, 5.24]"
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -263,6 +279,7 @@ data:
     g18_entry: '01822'
     definition: error of an instrument under reference conditions
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -276,6 +293,7 @@ data:
     definition: "[ error of a measuring instrument, determined under reference conditions
       VIM:1993, 5.24]."
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
     related:
@@ -294,6 +312,7 @@ data:
     definition: the error of a measuring instrument determined under reference VIM:1993,
       5.24. conditions
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
     related:
@@ -311,6 +330,7 @@ data:
     g18_entry: '01029'
     definition: the error of a measuring system under reference conditions
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -324,6 +344,7 @@ data:
     definition: the error of a measuring instrument used under reference conditions
       (VIM:1993, 5.24)
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
     related:
@@ -342,6 +363,7 @@ data:
     definition: "[V the error of a belt weigher, determined under reference conditions
       IM:1993, 5.24]"
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -354,6 +376,7 @@ data:
     g18_entry: '01294'
     definition: the error of an instrument under reference conditions
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -367,6 +390,7 @@ data:
     definition: "(V the error of an instrument used under reference conditions IM:1993,
       clause 5.24 or D 11 clause T.6)"
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -380,6 +404,7 @@ data:
     definition: the error of a measuring system used under reference conditions [VIM:1993,
       5.27]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
     related:
@@ -397,6 +422,7 @@ data:
     g18_entry: '03768'
     definition: error of indication, determined under reference conditions
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
     related:
@@ -414,6 +440,7 @@ data:
     g18_entry: '03717'
     definition: error of a measuring instrument determined under reference conditions
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -428,6 +455,7 @@ data:
       (3.4.5) [SOURCE: OIML D 11:2013 3.8, [8], , modified — “meter” replaces “measuring
       instrument”]'
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -441,6 +469,7 @@ data:
     definition: error of indication, determined under reference conditions [OIML V
       1:2022, 0.06 ]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -454,6 +483,7 @@ data:
     definition: error of indication determined under reference conditions [OIML V
       1:2013, 0.06]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -467,6 +497,7 @@ data:
     definition: error of a measuring instrument, determined under reference conditions
       [adapter from OIML V 1, 0.06]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -480,6 +511,7 @@ data:
     definition: error of a measuring instrument determined under reference conditions
       [VIML 0.06]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -493,6 +525,7 @@ data:
     definition: error (of indication) of a measuring system or its components used
       under reference conditions
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -506,6 +539,7 @@ data:
     definition: error of a measuring instrument, determined under reference conditions
       VIML, 0.06
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -519,6 +553,7 @@ data:
     definition: error (of the indicated volume) of a measuring system used under reference
       conditions
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -532,6 +567,7 @@ data:
     definition: error of a measuring instrument, determined under reference conditions
       [OIML D11, 3.8]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -546,6 +582,7 @@ data:
       [OIML D11:2013, 3.7]
     notes:
     - Note:The grain sample would also be at the reference conditions.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -559,6 +596,7 @@ data:
     definition: error of a measuring instrument determined under reference conditions
       [OIML D 11, 3.7]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -569,8 +607,9 @@ data:
     clause: '3.8'
     link:
     g18_entry: '02222'
-    definition: error of indication determined under reference conditions [VIML 0.06]
+    definition: error of indication determined under reference conditions
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -583,6 +622,7 @@ data:
     g18_entry: '02769'
     definition: error of a gas analyzer, determined under reference conditions
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -596,6 +636,7 @@ data:
     definition: error of a measuring instrument, determined under reference conditions
       [OIML V1:2013, 0.06]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -609,6 +650,7 @@ data:
     definition: error of a measuring instrument determined under reference conditions
       [VIML:2013, 0.06]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -621,6 +663,7 @@ data:
     g18_entry: '02662'
     definition: error determined under reference conditions (OIML D 11, 3.7)
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -634,6 +677,7 @@ data:
     definition: error of an instrument determined under reference conditions [VIM
       5.24]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -647,6 +691,7 @@ data:
     definition: error (of the indicated volume) of a measuring system used under reference
       conditions
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -659,6 +704,7 @@ data:
     g18_entry: '02140'
     definition: error of a gas analyzer, determined under reference conditions
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -671,6 +717,7 @@ data:
     g18_entry: '02328-R085-1'
     definition: error of an ALG determined under reference conditions
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -683,6 +730,7 @@ data:
     g18_entry: '02352'
     definition: error of a measuring instrument determined under reference conditions
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -696,6 +744,7 @@ data:
     definition: 'error of an instrument, determined under reference conditions [VIM:
       1993, 5.24]'
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -708,6 +757,7 @@ data:
     g18_entry: '02080'
     definition: error determined under reference conditions
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -721,6 +771,7 @@ data:
     definition: error of an instrument, determined under reference conditions [VIM:1993
       5.24]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -734,6 +785,7 @@ data:
     definition: 'error of an instrument determined under reference conditions [VIM:
       1993, 5.4]'
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -747,6 +799,7 @@ data:
     definition: error of an instrument determined under reference conditions. [VIM
       5.24]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -762,6 +815,7 @@ data:
     - 'Note 1: The initial intrinsic error is the intrinsic error of a measuring instrument
       as determined prior to performance tests and durability evaluations (see 2.32).
       [VIM:1993, 5.24]'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -775,6 +829,7 @@ data:
     definition: error of a measuring instrument determined under reference conditions
       [VIM:1993, 5.24]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -788,6 +843,7 @@ data:
     definition: error of a measuring instrument, determined under reference conditions
       [VIM:1993, 5.24].
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -800,6 +856,7 @@ data:
     g18_entry: '01029'
     definition: the error of a measuring system under reference conditions
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -813,6 +870,7 @@ data:
     definition: the error of a measuring instrument used under reference conditions
       (VIM:1993, 5.24)
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -826,6 +884,7 @@ data:
     definition: the error of an instrument used under reference conditions (VIM:1993,
       clause 5.24 or D 11 clause T.6)
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

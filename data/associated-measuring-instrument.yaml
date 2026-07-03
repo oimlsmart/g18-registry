@@ -25,6 +25,7 @@ data:
       of the gas (temperature, pressure, calorific value, etc.) and which are used
       by the calculator with a view to making a correction and/or a conversion
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -38,6 +39,7 @@ data:
     definition: instrument connected to the calculator or the correction device for
       measuring certain gas properties, for the purpose of making a correction
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -52,6 +54,7 @@ data:
       (3.1.7) for measuring a quantity, characteristic of water, with a view to making
       a correction and/or a conversion
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -70,6 +73,7 @@ data:
       which is connected to the calculator or the correction device, for measuring
       certain quantity values which are characteristic of the gas, with a view to
       making a correction.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -83,6 +87,7 @@ data:
     definition: instrument connected to the calculator or the correction device for
       measuring certain gas properties, for the purpose of making a correction
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -97,6 +102,7 @@ data:
       of the gas (temperature, pressure, calorific value, etc.) and which are used
       by the calculator with a view to making a correction and/or a conversion
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

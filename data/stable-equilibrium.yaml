@@ -25,6 +25,7 @@ data:
       values of each separate weighing test show no more than two adjacent values,
       with one of them being the final weight value
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -39,6 +40,7 @@ data:
       values show no more than two adjacent values with one of them being the final
       weight value
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -54,6 +56,7 @@ data:
       for any given load applied
     notes:
     - 'Note: This definition is only applicable to static weighing and not to weighing-in-motion.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -68,6 +71,7 @@ data:
       values of each separate weighing test show no more than two adjacent values,
       with one of them being the final weight value
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -82,6 +86,7 @@ data:
       values show no more than two adjacent values with one of them being the final
       weight value
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

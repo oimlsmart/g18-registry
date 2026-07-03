@@ -26,6 +26,7 @@ data:
     definition: measurement precision under a set of repeatability conditions of measurement
       (OIML V 2-100, 2.21)
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -39,6 +40,7 @@ data:
     definition: measurement precision under a set of repeatability conditions of measurement
       [VIM, 2.21]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -51,6 +53,7 @@ data:
     g18_entry: '02448'
     definition: measurement precision under a set of repeatability conditions of measurement
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -64,6 +67,7 @@ data:
     definition: ''
     notes:
     - "(-)"
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

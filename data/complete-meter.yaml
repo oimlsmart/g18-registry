@@ -24,6 +24,7 @@ data:
     definition: "(i meter that does not have separable measurement transducer ncluding
       flow or volume sensor) and calculator (including indicating device)"
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -37,6 +38,7 @@ data:
     definition: meter whose measurement transducer (3.1.2), calculator (3.1.4), and
       indicating device (3.1.5) are not separable
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

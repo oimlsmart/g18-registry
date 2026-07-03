@@ -27,6 +27,7 @@ data:
     definition: value of the load below which the weighing results may be subject
       to an excessive relative error
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -42,6 +43,7 @@ data:
     notes:
     - For filling instruments which effect the fill by one weighing cycle, Min is
       equal to the rated minimum fill (Minfill).
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -55,6 +57,7 @@ data:
     definition: load below which a weighing-in-motion result before totalizing may
       be subject to an excessive relative error
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -68,6 +71,7 @@ data:
     definition: the load below which a weighing-in-motion result before totalizing
       may be subject to an excessive relative error
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -81,6 +85,7 @@ data:
     definition: value of the load below which the weighing results may be subject
       to an excessive relative error
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -94,6 +99,7 @@ data:
     definition: value of the load below which the weighing-in-motion results before
       totalizing may be subject to an excessive relative error
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

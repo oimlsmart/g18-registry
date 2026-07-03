@@ -27,6 +27,7 @@ data:
     definition: smallest load cell verification interval (mass) into which the load
       cell measuring range can be divided
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -40,6 +41,7 @@ data:
     definition: smallest load cell verification interval in units of mass into which
       the maximum measuring range (Emax – Emin ) can be divided
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

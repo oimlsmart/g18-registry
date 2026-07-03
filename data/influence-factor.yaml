@@ -33,6 +33,7 @@ data:
     definition: influence quantity having a value within the rated operating conditions
       specified in 5.1.1.
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -46,6 +47,7 @@ data:
     definition: influence quantity having a value within the specified rated operating
       conditions of the ALG
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -60,6 +62,7 @@ data:
       of the instrument
     notes:
     - Adapted from OIML D 11:2004, 3.13.1.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -73,6 +76,7 @@ data:
     definition: influence quantity having a value within the specified rated operating
       conditions of the instrument
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -86,6 +90,7 @@ data:
     definition: "[O influence quantity having a value within the specified rated operating
       conditions of the instrument IML D 11: 2004, 3.13.1]"
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -99,6 +104,7 @@ data:
     definition: influence quantity having a value within the rated operating conditions
       of the measuring system, as specified in this International Recommendation
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -112,6 +118,7 @@ data:
     definition: influence quantity having a value within the rated operating conditions
       of the measuring system as specified in this Recommendation
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -125,6 +132,7 @@ data:
     definition: influence quantity having a value within the rated operating conditions
       of the water meter, as specified in this Recommendation
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -138,6 +146,7 @@ data:
     definition: influence quantity having a value within the specified rated operating
       conditions of the instrument
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -151,6 +160,7 @@ data:
     definition: influence quantity having a value within the specified rated operating
       conditions of the instrument
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -165,6 +175,7 @@ data:
       of the gas meter, as specified in this Recommendation
     notes:
     - "(OIML D 11, 3.13.1)"
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -178,6 +189,7 @@ data:
     definition: influence quantity having a value within the rated operating conditions
       of a measuring instrument specified in the relevant Recommendation
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -191,6 +203,7 @@ data:
     definition: influence quantity having a value within the specified rated operating
       conditions of the filling instrument
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -204,6 +217,7 @@ data:
     definition: influence quantity having a value within the specified rated operating
       conditions of the instrument
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -217,6 +231,7 @@ data:
     definition: influence quantity having a value within the specified rated operating
       conditions of the instrument
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -229,6 +244,7 @@ data:
     g18_entry: '00857'
     definition: influence quantity having a value within the rated operating conditions
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -243,6 +259,7 @@ data:
       conditions of the load cell. (For example, a specific temperature or a specific
       power voltage in which the load cell can be tested).
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -256,6 +273,7 @@ data:
     definition: an influence quantity having a value within the rated operating conditions
       of the measuring instrument, specified in this Recommendation
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -269,6 +287,7 @@ data:
     definition: an influence quantity having a value within the rated operating conditions
       of the measuring system, as specified in this Recommendation
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -282,6 +301,7 @@ data:
     definition: an influence quantity having a value within the rated operating conditions
       of the measuring instrument specified in this Recommendation
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -295,6 +315,7 @@ data:
     definition: an influence quantity having a value within the specified rated operating
       conditions of the belt weigher
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -308,6 +329,7 @@ data:
     definition: an influence quantity having a value within the specified rated operating
       conditions of the instrument
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -322,6 +344,7 @@ data:
       conditions of the measuring instrument specified in the appropriate International
       Recommendation 11 clause T.12.1)"
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -335,6 +358,7 @@ data:
     definition: an influence quantity having a value within the rated operating conditions
       of the measuring system, as specified in this Recommendation
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -348,6 +372,7 @@ data:
     definition: influence quantity having a value which ranges within the rated operating
       conditions of a measuring instrument
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
     related:
@@ -369,6 +394,7 @@ data:
       instrument”; “specified in this part of ISO 4064/OIML R49”is added; original
       notes removed.]'
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -382,6 +408,7 @@ data:
     definition: influence quantity having a value which ranges within the rated operating
       conditions of a measuring instrument [OIML V 1:2013,5.18]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -395,6 +422,7 @@ data:
     definition: influence quantity having a value within the rated operating conditions
       of the measuring instrument, specified in this Recommendation
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -411,6 +439,7 @@ data:
     - 'Note: The variation of an indication as a consequence of an influence factor
       is considered an error and not a fault. [Adapted from VIML:2013, 5.18 – part
       fo mote omitted]'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -424,6 +453,7 @@ data:
     definition: influence quantity having a value within the rated operating conditions
       of the measuring system, as specified in this Recommendation
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -437,6 +467,7 @@ data:
     definition: influence quantity having a value within the rated operating conditions
       of a measuring instrument (VIML, 5.18)
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -450,6 +481,7 @@ data:
     definition: influence quantity having a value within the rated operating conditions
       specified in 5.1.1.
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -461,12 +493,13 @@ data:
     link:
     g18_entry: 02230-D011
     definition: influence quantity having a value which ranges within the rated operating
-      conditions of a measuring instrument [VIML 5.18]
+      conditions of a measuring instrument
     notes:
     - 'Note 1: The rated operating conditions shall be in conformity with the applicable
       requirements specified in the applicable Recommendation.'
     - 'Note 2: The variation of an indication as a consequence of an influence factor
       is considered an error and not a fault.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -480,6 +513,7 @@ data:
     definition: influence quantity having a value which ranges within the rated operating
       conditions of a measuring instrument [OIML V1:2013, 5.18]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -493,6 +527,7 @@ data:
     definition: influence quantity having a value within the specified rated operating
       conditions of the instrument
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -506,6 +541,7 @@ data:
     definition: influence quantity having a value within the rated operating conditions
       specified in 5.1.1.
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -519,6 +555,7 @@ data:
     definition: influence quantity having a value within the specified rated operating
       conditions of the ALG
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -532,6 +569,7 @@ data:
     definition: influence quantity having a value within the rated operating conditions
       of the instrument [Adapted from OIML D 11:2004, 3.13.1]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -545,6 +583,7 @@ data:
     definition: influence quantity having a value within the specified rated operating
       conditions of the instrument
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -558,6 +597,7 @@ data:
     definition: 'influence quantity having a value within the specified rated operating
       conditions of the instrument [OIML D 11: 2004, 3.13.1]'
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -571,6 +611,7 @@ data:
     definition: influence quantity having a value within the rated operating conditions
       of the measuring system as specified in this Recommendation
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -584,6 +625,7 @@ data:
     definition: influence quantity having a value within the specified rated operating
       conditions of the instrument
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -597,6 +639,7 @@ data:
     definition: influence quantity having a value within the specified rated operating
       conditions of the instrument
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -610,6 +653,7 @@ data:
     definition: influence quantity having a value within the specified rated operating
       conditions of the instrument
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -623,6 +667,7 @@ data:
     definition: influence quantity having a value within the specified rated operating
       conditions of the instrument
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -635,6 +680,7 @@ data:
     g18_entry: '00857'
     definition: influence quantity having a value within the rated operating conditions
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -648,6 +694,7 @@ data:
     definition: an influence quantity having a value within the rated operating conditions
       of the measuring system, as specified in this Recommendation
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -661,6 +708,7 @@ data:
     definition: an influence quantity having a value within the rated operating conditions
       of the measuring instrument specified in this Recommendation
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -675,6 +723,7 @@ data:
       of the measuring instrument specified in the appropriate International Recommendation
       (D 11 clause T.12.1)
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -690,6 +739,7 @@ data:
     notes:
     - 'Note: The variation of an indication as a consequence of an influence factor
       is considered an error and not a fault.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -704,6 +754,7 @@ data:
       conditions of a measuring instrument [VIML 5.17]
     notes:
     - "(For notes, refer to the VIML)"
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

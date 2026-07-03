@@ -26,6 +26,7 @@ data:
       the volume or other associated quantities. It may also store information, provide
       checking facilities for the information and communicate with auxiliary devices
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -42,6 +43,7 @@ data:
       information, provide checking facilities for the information and communicate
       with ancillary devices
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -58,6 +60,7 @@ data:
       information, provide checking facilities for the information and communicate
       with ancillary devices
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

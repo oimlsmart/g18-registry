@@ -29,15 +29,17 @@ module G18
           if conflicts.empty?
             "_(none)_"
           else
-            conflicts.sort.map do |edition, by_id|
+            conflicts.sort.map do |edition, list|
               <<~SEC
-                ### #{edition} (#{by_id.size} conflicting IDs)
+                ### #{edition} (#{list.size} conflicting IDs)
 
                 Each ID below is assigned to multiple distinct concepts in the
-                source publication. Editors should resolve via the `<id>a` /
-                `<id>b` suffix convention (already used for 7 IDs in 2010).
+                source publication. The dataset carries these as disambiguated
+                suffixes (`<id>a`/`<id>b` in 2010, `<id>-RXXX-N` in 202X) but
+                the underlying base number is genuinely shared and needs
+                editorial reallocation.
 
-                #{by_id.map { |id, arr| "- `#{id}` ← #{arr.map { |x| "`#{x[:designation]}` (#{x[:source] || '—'})" }.join(', ')}" }.join("\n")}
+                #{list.map { |c| "- `#{c[:id]}` ← #{c[:concepts].map { |x| "`#{x[:designation]}` (#{x[:source] || '—'}, raw `#{x[:raw_id]}`)" }.join(', ')}" }.join("\n")}
               SEC
             end.join("\n")
           end

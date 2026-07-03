@@ -25,6 +25,7 @@ data:
     notes:
     - instruments that weigh pre-assembled discrete loads (see T.1.3) and when the
       indication has been set to zero before the load has been applied to the instrument.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -38,6 +39,7 @@ data:
     definition: "(--) The definitions in T.5.2 apply only when the"
     notes:
     - indication has been zero before the load has been applied to the instrument.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -53,6 +55,7 @@ data:
     - 'Note: The following definitions apply only for instruments that weigh pre-assembled
       discrete loads (see T.1.3) and when the indication has been set to zero before
       the load has been applied to the instrument.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -67,6 +70,7 @@ data:
     notes:
     - 'Note: The definitions in T.5.2 apply only when the indication has been zero
       before the load has been applied to the instrument.'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

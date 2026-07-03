@@ -23,8 +23,8 @@ data:
     definition: sequence of calibrations from a reference to the final measuring system,
       where the outcome of each calibration depends on the outcome of the previous
       calibration
-    notes:
-    - Fore notes see [VIM, 2.40]
+    notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

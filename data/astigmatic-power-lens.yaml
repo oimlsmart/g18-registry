@@ -27,6 +27,7 @@ data:
     notes:
     - corresponding focal line at infinity. Lenses referred to as toric lenses, sphero-cylindrical
       lenses and cylinder lenses are all astigmatic.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -44,6 +45,7 @@ data:
     - 'Note: One of these powers may be zero, with the corresponding focal line at
       infinity. Lenses referred to as toric lenses, sphero-cylindrical lenses and
       cylinder lenses are all astigmatic.'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

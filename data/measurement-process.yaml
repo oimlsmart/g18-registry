@@ -36,6 +36,7 @@ data:
     notes:
     - rformance and quality of the ement ; it includes, for example, the ple, method,
       procedure, values of the nce quantities and the measurement rds.
+    examples: []
     consistency: pending
     consistency_reason: ''
     related:
@@ -57,6 +58,7 @@ data:
     notes:
     - rformance and quality of the ement; it includes for example the ple, method,
       procedure, values of the nce quantities and the measurement rds (VIM:1993, 2.08).
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -73,6 +75,7 @@ data:
     - 'Note: This concept embraces all aspects relating to the performance and quality
       of the measurement ; it includes, for example, the principle, method, procedure,
       values of the influence quantities and the measurement standards.'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

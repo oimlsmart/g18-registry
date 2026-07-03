@@ -28,6 +28,7 @@ data:
       Scale, %mass (Brix), then the refractometer shall be accompanied by a conversion
       table for the refractive index values
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -43,6 +44,7 @@ data:
       content of sugar in liquids, in which case the relation between the mass fraction
       and the refractive index shall have been specified (see 3)
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -60,6 +62,7 @@ data:
       solutions, which are recognized by the international organizations, e.g. the
       International Sucrose Mass Fraction Scale, %mass (Brix), then the refractometer
       shall be accompanied by a conversion table for the refractive index values'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -75,6 +78,7 @@ data:
       content of sugar in liquids, in which case the relation between the mass fraction
       and the refractive index shall have been specified (see 3)
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

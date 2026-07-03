@@ -24,6 +24,7 @@ data:
     definition: value of the test weights or masses which, in static tests, balance
       the value selected on the indication of the fill setting device
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -37,6 +38,7 @@ data:
     definition: value of the test weights which, in static tests, balance the value
       selected on the indication of the fill setting device
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

@@ -23,6 +23,7 @@ data:
     g18_entry: '01363'
     definition: smallest discrete load that can be weighed automatically
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -36,6 +37,7 @@ data:
     definition: value of the load below which the weighing result may be subject to
       an excessive relative error
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -48,6 +50,7 @@ data:
     g18_entry: '03404'
     definition: minimum force that the force receptor is intended to measure
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -63,6 +66,7 @@ data:
     notes:
     - 'Note: For AGFIs which accomplish the fill by one weighing cycle the minimum
       capacity, Min, is equal to the rated minimum fill, Minfill.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -76,6 +80,7 @@ data:
     definition: mass value below which a weighing-in-motion result before totalizing
       may be subject to an excessive relative error
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -88,6 +93,7 @@ data:
     g18_entry: '01363'
     definition: smallest discrete load that can be weighed automatically
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -101,6 +107,7 @@ data:
     definition: value of the load below which the weighing result may be subject to
       an excessive relative error
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

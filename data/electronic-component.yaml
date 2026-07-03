@@ -24,6 +24,8 @@ data:
     definition: "[O smallest physical entity that uses electron or hole conduction
       in semiconductors, gases, or in a vacuum IML D 11: 2004, 3.4]"
     notes: []
+    examples:
+    - Electronic tubes, transistors, integrated circuits. (See 3.4 of OIML D 11)
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -37,6 +39,7 @@ data:
     definition: smallest physical entity which uses electron or hole conduction in
       semiconductors, gases, or in a vacuum
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -50,6 +53,7 @@ data:
     definition: smallest physical entity which uses electron or hole conduction insemi-conductors,
       gases, or in a vacuum
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -63,6 +67,8 @@ data:
     definition: "[O smallest physical entity that uses electron or hole conduction
       in semi-conductors, gases or in a vacuum IML D 11: 2004, 3.4]"
     notes: []
+    examples:
+    - Electronic tube, transistor, integrated circuit.
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -76,6 +82,8 @@ data:
     definition: "[O smallest physical entity that uses electron or hole conduction
       in semi-conductors, gases or in a vacuum IML D 11: 2004, 3.4]"
     notes: []
+    examples:
+    - Electronic tube, transistor, integrated circuit.
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -89,6 +97,7 @@ data:
     definition: smallest physical entity, which uses electron or gap conduction insemi-conductors,
       or conduction by means of electrons or ions ingases or in a vacuum
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -103,6 +112,7 @@ data:
       semi-conductors, gases or in a vacuum. Examples: electronic tubes, transistors,
       integrated circuits'
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -116,6 +126,7 @@ data:
     definition: smallest physical entity that uses electron or hole conduction in
       semi-conductors, gases or in a vacuum
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -129,6 +140,7 @@ data:
     definition: smallest physical entity that uses electron or hole conduction in
       semi-conductors, gases or in a vacuum
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -142,6 +154,7 @@ data:
     definition: smallest physical entity that uses electron or hole conduction in
       semiconductors, gases, or in a vacuum
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -156,6 +169,7 @@ data:
       or hole conduction in semi-conductors or electron conduction in gases or in
       a vacuum
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -169,6 +183,7 @@ data:
     definition: the smallest physical entity that uses electron or hole conduction
       in semiconductors, gases or in a vacuum
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -182,6 +197,7 @@ data:
     definition: the smallest physical entity which uses electron or hole conduction
       in semi-conductors, gases or in a vacuum
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -195,6 +211,7 @@ data:
     definition: the smallest physical entity that uses electron or hole conduction
       insemiconductors, gases or in a vacuum
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -208,6 +225,7 @@ data:
     definition: the smallest physical entity that uses electron or hole conduction
       insemiconductors, gases, or in a vacuum
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -221,6 +239,7 @@ data:
     definition: the smallest physical entity that uses electron or hole conduction
       in semiconductors, gases or in a vacuum
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -234,6 +253,7 @@ data:
     definition: smallest physical entity that uses electron or hole conduction in
       semi-conductors, gases or in a vacuum
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -247,6 +267,7 @@ data:
     definition: smallest physical entity that uses electron or hole conduction in
       semi-conductors, gases or in a vacuum
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -260,6 +281,7 @@ data:
     definition: smallest physical entity in an electronic device used to affect electrons
       and/or their associated fields in their movement through a medium or vacuum
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -273,6 +295,7 @@ data:
     definition: smallest physical entity that uses electron or hole conduction in
       semiconductors, gases, or in a vacuum
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -287,6 +310,7 @@ data:
       semi-conductors, gases or in a vacuum Examples: Electronic tubes, transistors,
       integrated circuits. [See 3.4 of OIML D 11] [OIML D 11: 2004, 3.4]'
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -301,6 +325,7 @@ data:
       semi-conductors, or conduction by means of electrons or ions in gases or in
       a vacuum Examples: Electronic tube, transistor,integrated circuit.'
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -315,6 +340,7 @@ data:
       in semiconductors, gases or in a vacuum Examples: Electronic tube, transistor,
       integrated circuit. [OIML D 11: 2004, 3.4]'
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -328,6 +354,7 @@ data:
     definition: the smallest physical entity that uses electron or hole conduction
       in semiconductors, gases or in a vacuum
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -341,6 +368,7 @@ data:
     definition: smallest physical entity that uses electron or hole conduction in
       semi-conductors, gases or in a vacuum
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -354,6 +382,7 @@ data:
     definition: smallest physical entity which uses electron or hole conduction in
       semi-conductors, gases, or in a vacuum
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -368,6 +397,7 @@ data:
       or hole conduction in semi-conductors or electron conduction in gases or in
       a vacuum
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

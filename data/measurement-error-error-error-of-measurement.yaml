@@ -31,6 +31,7 @@ data:
       quantity values of negligible range, in which case the measurement error is
       not known. NOTE 2 Measurement error should not be confused with production error
       or mistake. [VIM 2.16]}"
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

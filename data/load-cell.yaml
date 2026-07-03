@@ -28,6 +28,7 @@ data:
     notes:
     - Load cells equipped with electronics including amplifier, analog-to-digital
       converter and dat processing device (optionally) are called digital load cells.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -43,6 +44,7 @@ data:
       measures mass by converting the measured quantity (mass) into another measured
       quantity (output) IML R 60:2000]"
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -61,6 +63,7 @@ data:
     - Load cells equipped with electronics including amplifier, analog-to-digital
       converter (ADC), and data processing device (optionally) are called digital
       load cells (see Figure 1).
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -76,6 +79,7 @@ data:
       mass by converting the measured quantity (mass) into another measured quantity
       (output)
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -90,6 +94,7 @@ data:
       applied load. This output may be converted by another device into measurment
       units such as mass
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -104,6 +109,7 @@ data:
       applied load. This output may be converted by another device into measurment
       units such as mass (OIML R 60, 3.1.3)
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -121,6 +127,7 @@ data:
       amplifier and analogue-to-digital conversion (ADC) and data processing (optionally)
       are called digital load cells
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -138,6 +145,7 @@ data:
     notes:
     - 'Note:  Load cells equipped with electronics including amplifier, analog-to-digital
       converter and data processing device (optionally) are called digital load cells.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -153,6 +161,7 @@ data:
       mass by converting the measured quantity (mass) into another measured quantity
       (output) [OIML R 60:2000]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -171,6 +180,7 @@ data:
     - 'Note:  Load cells equipped with electronics including amplifier, analog-to-digital
       converter (ADC), and data processing device (optionally) are called digital
       load cells (see Figure 1).'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

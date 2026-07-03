@@ -24,6 +24,7 @@ data:
     definition: wavelength used in a spectrophotometer for measuring the optical absorbance
       of a PMMA dosimeter
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -37,6 +38,7 @@ data:
     definition: wavelength used in a read-out instrument for measuring the optical
       absorbance of a radiochromic film dosimeter
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -50,6 +52,7 @@ data:
     definition: wavelength used in a read-out instrument for measuring the optical
       absorbance of a radiochromic film dosimeter
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

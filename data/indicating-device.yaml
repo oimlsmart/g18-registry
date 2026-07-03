@@ -26,6 +26,7 @@ data:
     - For the application of this Recommendation the meaning of "indicating device"
       is broader than the general meaning in other OIML Recommendations (a printing
       device is considered as such).
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -40,6 +41,7 @@ data:
       or on demand. An electronic indicating device shall comprise of a sensor, transducer,
       calculator and indicator
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -53,6 +55,7 @@ data:
     definition: part of the meter that displays the measurement results
     notes:
     - "(see also Annex B)"
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -67,6 +70,7 @@ data:
       device which provides an results
     notes:
     - indication at the end of the measurement is not an indicating device.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -79,6 +83,7 @@ data:
     g18_entry: '02044'
     definition: part of a measuring instrument that displays the measurement results
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -94,6 +99,7 @@ data:
     notes:
     - A printing device which provides an indication at the end of the measurement
       is not an indicating device.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -110,6 +116,7 @@ data:
     - 1. A printing device, which provides an indication at the end of the measurement,
       is not an indicating device.
     - 2. [VIM:1993, 4.12, adapted]
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -123,6 +130,7 @@ data:
     definition: part of the measuring device that displays the value of a measuring
       result in units of area
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -136,6 +144,7 @@ data:
     definition: part of the instrument that displays the value of a weighing result
       in units of mass
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -150,6 +159,7 @@ data:
       A printing device that provides an indication measurement results at ind
     notes:
     - the end of the measurement is not an icating device.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -163,6 +173,7 @@ data:
     definition: the part of the instrument that displays the value of a weighing result
       in units of mass
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -175,6 +186,7 @@ data:
     g18_entry: '01226'
     definition: a device that displays the data transmitted from the calculator
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -191,6 +203,7 @@ data:
     - 'Note 1:For the definition of the term “indication”, see ISO/IEC Guide 99:2007/OIML
       V2-200:2012 (VIM), 4.1 [1].. Note 2: In this Recommendation, the volume of water
       passing throught the meter refers to accumulated volume.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -206,6 +219,7 @@ data:
     notes:
     - 'Note: A printing device is not an indicating device, although a printed measurement
       result is considered to be an indication.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -219,6 +233,7 @@ data:
     definition: part of the meter that displays the measurement results (see also
       Annex B)
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -235,6 +250,7 @@ data:
       fill(s) and /or related quantities, • parameters of a number of consecutive
       weighings'
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -250,6 +266,7 @@ data:
     - 'Note: For the application of this Recommendation the meaning of “indicating
       device” is broader than the general meaning in other OIML Recommendations (a
       printing device is considered as such).'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -264,6 +281,7 @@ data:
       or on demand. An electronic indicating device shall comprise of a sensor, transducer,
       calculator and indicator
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -276,6 +294,7 @@ data:
     g18_entry: '02044'
     definition: part of a measuring instrument that displays the measurement results
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -289,6 +308,7 @@ data:
     definition: part of the measuring device that displays the value of a measuring
       result in units of area
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -302,6 +322,7 @@ data:
     definition: part of the instrument that displays the value of a weighing result
       in units of mass
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -317,6 +338,7 @@ data:
     notes:
     - 'Note: A printing device that provides an indication at the end of the measurement
       is not an indicating device.'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

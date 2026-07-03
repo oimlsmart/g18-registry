@@ -29,6 +29,7 @@ data:
       80 % of the line’s maxima. Two equally strong absorption lines are considered
       as resolved, if the extinction between the two maxima is reduced to at least
       90 % of the line’s maxima. [Adapted from [7], clause 4.5]'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

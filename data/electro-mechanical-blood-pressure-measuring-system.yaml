@@ -26,6 +26,7 @@ data:
       cuff pressure; • at least one measured value display; and • if needed, signal
       inputs and outputs"
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -38,6 +39,7 @@ data:
     g18_entry: '00332'
     definition: component that transforms pressure signals into electrical signals
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

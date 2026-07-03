@@ -31,13 +31,17 @@ data:
     clause: '2.6'
     link: https://www.oiml.org/en/files/pdf_D/d027-e01.pdf
     g18_entry: '00168'
-    definition: 'any verification of a measuring instrument after a previous verification
-      and including: • mandatory periodic verification; • verification after repair.'
+    definition: |-
+      any verification of a measuring instrument after a previous verification and including:
+
+      * mandatory periodic verification
+      * verification after repair
     notes:
     - Subsequent verification of a measuring instrument may be carried out before
       expiry of the period of validity of a previous verification either at the request
       of the user (owner) or when its verification mark is declared to be no longer
       valid.
+    examples: []
     consistency: pending
     consistency_reason: ''
     related:
@@ -54,13 +58,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_D/d027-e01.pdf
     g18_entry: '00168'
     definition: 'any verification of a measuring instrument after a previous verification
-      and including: mandatory periodic verification; verification after repair. [VIML
-      2.16]'
+      and including: mandatory periodic verification; verification after repair.'
     notes:
     - 'Note: Subsequent verification of a measuring instrument may be carried out
       before expiry of the period of validity of a previous  verification either at
       the request of the user (owner) or when its verification mark is declared to
       be no longer valid.'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

@@ -25,6 +25,7 @@ data:
       filters, or transmits data between software modules (not necessarily legally
       relevant).
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -41,6 +42,7 @@ data:
     - 'Note 1: A software interface is not legally relevant. Note 2: A software interface
       i san interface between two or more software modules, used to exchange data
       and transmit commands.'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

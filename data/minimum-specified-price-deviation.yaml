@@ -23,6 +23,7 @@ data:
     g18_entry: '01552'
     definition: price to pay corresponding to the minimum specified quantity deviation
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -35,6 +36,7 @@ data:
     g18_entry: '03314'
     definition: price to pay corresponding to the minimum specified quantity deviation
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

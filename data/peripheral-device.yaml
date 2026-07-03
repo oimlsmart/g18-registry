@@ -24,6 +24,9 @@ data:
     definition: additional device which repeats or further processes the weighing
       result and other primary indications
     notes: []
+    examples:
+    - Printer, secondary display, keyboard, terminal, data storage device, personal
+      computer.
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -38,6 +41,7 @@ data:
       result and other primary indications Examples: Printer, secondary display, keyboard,
       terminal, data storage device, personal computer.'
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

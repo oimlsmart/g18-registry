@@ -37,6 +37,7 @@ data:
     g18_entry: '02142'
     definition: error of measurement divided by the reference value of the measurand
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -50,6 +51,7 @@ data:
     definition: error of measurement divided by the conventional true quantity value
       of the measurand
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -62,6 +64,7 @@ data:
     g18_entry: '01560'
     definition: error (of indication) divided by the reference (true) quantity
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -75,6 +78,7 @@ data:
     definition: absolute error of measurement divided by the (conventional) true value
       of the measurand
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -87,6 +91,7 @@ data:
     g18_entry: '02071'
     definition: error of measurement divided by a true value of the measurand
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -101,6 +106,7 @@ data:
       error is expressed as a percentage, and is calculated by stem:[e = (Y_{i} -
       Y_{"ref"}) / Y_{"ref"} xx 100%]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -114,6 +120,7 @@ data:
     definition: The absolute error of measurement divided by the conventional true
       value of the measurand (VIM:1993, 3.12)
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
     related:
@@ -131,6 +138,7 @@ data:
     g18_entry: '03452'
     definition: error (of indication) divided by the reference (true) quantity
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -144,6 +152,7 @@ data:
     definition: absolute error of measurement divided by the reference value of the
       measurand
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -157,6 +166,7 @@ data:
     definition: error of measurement divided by the conventional true quantity value
       of the measurand
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -169,6 +179,7 @@ data:
     g18_entry: '02071'
     definition: error of measurement divided by a true value of the measurand
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -182,6 +193,7 @@ data:
     definition: The absolute error of measurement divided by the conventional true
       value of the measurand (VIM:1993, 3.12)
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -194,6 +206,7 @@ data:
     g18_entry: '02142'
     definition: error of measurement divided by the reference value of the measurand
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

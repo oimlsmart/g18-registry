@@ -27,6 +27,7 @@ data:
     definition: amount of material (or object) that can be carried at any one time
       byspecified means
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -40,6 +41,7 @@ data:
     definition: amount of product that is currently introducing the force on the load
       receptor
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

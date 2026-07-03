@@ -27,6 +27,7 @@ data:
       injected'
     notes:
     - An electrochemical detector of the coulombic type does not follow this equation.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -44,6 +45,7 @@ data:
     notes:
     - 'Note: An electrochemical detector of the coulombic type does not follow this
       equation.'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

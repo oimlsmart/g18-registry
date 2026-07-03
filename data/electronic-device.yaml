@@ -8,6 +8,9 @@ data:
     text: electronic device
   kind: undefined
   official_concept:
+    source: OIML D011:2004
+    id: '3.2'
+    url:
   editions_present:
   - '2010'
   - 202X
@@ -25,14 +28,18 @@ data:
       An electronic device is usually manufactured as a separate unit and is capable
       of being tested independently
     notes:
-    - 1. An electronic device may be a complete measuring instrument (e.g. counter
-      scale, electricity meter) or a part of a measuring instrument (e.g. printer,
-      indicator).
-    - 2. An electronic device may be a module in the sense this term is used in OIML
+    - An electronic device may be a complete measuring instrument (e.g. counter scale,
+      electricity meter) or a part of a measuring instrument (e.g. printer, indicator).
+    - An electronic device may be a module in the sense this term is used in OIML
       B 3 OIML Certificate System for Measuring Instruments.
-    - 3. [OIML D 11:2004, 3.2]
+    examples: []
     consistency: pending
     consistency_reason: ''
+    related:
+    - type: see
+      ref:
+        source: OIML D011:2004
+        id: '3.2'
   - edition: '2010'
     publication: OIML R 107-1:2007
     publication_id: OIML R107-1:2007
@@ -50,6 +57,7 @@ data:
       counter ale, electricity meter) or a part of a asuring instrument (for example:
       printer, dicator). An electronic device can be a module in the nse that this
       term is used in OIML blication B 3 "OIML Certificate System for asuring Instruments"'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -66,6 +74,7 @@ data:
     notes:
     - Electronic devices, as defined above, may be omplete measuring systems or part
       of easuring systems, in particular such as those entioned in T.1.1 through T.1.5.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -83,6 +92,7 @@ data:
     - 1. The electronic parts of CVDDs are not ested separately. . A measuring system
       including at least one lectronic device subject to legal control is alled an
       electronic measuring system.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -99,6 +109,7 @@ data:
     notes:
     - Electronic devices, as defined above, may be mplete meters or parts of meters,
       in rticular such as those mentioned in 2.1.1 rough 2.1.5 and 2.1.8.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -116,6 +127,7 @@ data:
     - An electronic device, as defined above, may a complete instrument (e.g. an instrument
       r direct sales to the public), a module (e.g. dicator, analog data processing
       device, ighing module) or a peripheral device (e.g. inter, secondary display).
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -134,6 +146,7 @@ data:
       instrument for direct sales to the public), a module (e.g indicator, analog
       data processing device, weighing module) or a peripheral device (e.g. printer,
       secondary display).
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -148,6 +161,7 @@ data:
       function. Electronic devices are usually manufactured as separate units and
       are capable of being tested independently
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -167,6 +181,7 @@ data:
       printer, icator). An electronic device can be a module in sense that this term
       is used in OIML lication B 3 "The OIML Certificate tem for Measuring Instruments"
       [2].'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -181,6 +196,7 @@ data:
       function. Electronic devices are usually manufactured as separate units and
       are capable of being independently tested
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -197,6 +213,7 @@ data:
       for detecting leather ora camera for image scanning and providing area measurement
       with digital indication)"
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -211,6 +228,7 @@ data:
       function. An electronic device is usually manufactured as a separate unit and
       is capable of being independently tested
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -223,6 +241,7 @@ data:
     g18_entry: '00870'
     definition: device employing electronic components and performing a specific function
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -239,6 +258,7 @@ data:
     notes:
     - An electronic device as defined above, may be a complete measuring instrument
       or part of a measuring instrument.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -255,6 +275,7 @@ data:
     notes:
     - An electronic device, as defined above, may be a complete measuring instrument
       or part of a measuring instrument.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -272,6 +293,7 @@ data:
     - 'An electronic device, as defined above, may be a complete weighing instrument
       (for example: counter scale) or part of a weighing instrument (for example:
       printer, indicator).'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -286,6 +308,7 @@ data:
       function. An electronic device is usually manufactured as a separate unit and
       is capable of being independently tested
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -302,6 +325,7 @@ data:
       m
     notes:
     - e a complete measuring system or part of easuring system
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -318,6 +342,7 @@ data:
     notes:
     - Note:An electronic device may be a complete meter or a part of a meter, e.g.
       as defined in 3.1.1 to 3.1.5 and 3.1.8.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -337,6 +362,7 @@ data:
       printer, indicator).'
     - 'Note 2: An electronic device may be a module in the sense that this term is
       used in OIML B 3 OIML Basic Certificate System for Measuring Instruments'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -351,6 +377,7 @@ data:
       function. Electronic devices are usually manufactured as separate units and
       are capable of being tested independently (OIML D 11, 3.2)
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -365,6 +392,7 @@ data:
       more specific functions, usually manufactured as a separate unit and capable
       of being independently tested
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -384,6 +412,7 @@ data:
       printer, indicator). Note 2: An electronic device can be a module in the sense
       that this term is used in OIML Publication B 3 “OIML Certificate System for
       Measuring  Instruments”'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -401,6 +430,7 @@ data:
     - 'Note: The electronic parts of CVDDs are not tested separately. A measuring
       system including at least one electronic device subject to legal control is
       called an electronic measuring system.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -419,6 +449,7 @@ data:
       (e.g. an instrument for direct sales to the public), a module (e.g. indicator,
       analog data processing device, weighing module) or a peripheral device (e.g.
       printer, secondary display).'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -437,6 +468,7 @@ data:
       (e.g. an instrument for direct sales to the public), a module (e.g. indicator,
       analog data processing device, weighing module) or a peripheral device (e.g.
       printer, secondary display).'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -451,6 +483,7 @@ data:
       specific function. An electronic device is usually manufactured as a separate
       unit and is capable of being independently tested
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -467,6 +500,7 @@ data:
       for detecting leather or a camera for image scanning and providing area measurement
       with digital indication)
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -479,6 +513,7 @@ data:
     g18_entry: '00870'
     definition: device employing electronic components and performing a specific function
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -495,9 +530,14 @@ data:
     notes:
     - 'Note:  An electronic device, as defined above, may be a complete measuring
       instrument or part of a measuring instrument.'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current
 id: 3b0bf9b7-97d6-5008-89be-2a800b284063
 schema_version: '3'
-related: []
+related:
+- type: see
+  ref:
+    source: OIML D011:2004
+    id: '3.2'

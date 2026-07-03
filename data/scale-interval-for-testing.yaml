@@ -27,6 +27,7 @@ data:
       mode is not available, the scale interval for testing is equal to the totalization
       scale interval
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -42,6 +43,7 @@ data:
       scale interval for testing, e, is equal to the totalization accepted scale interval,
       d, if the special mode is not available
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

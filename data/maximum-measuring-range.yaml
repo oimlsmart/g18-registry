@@ -25,6 +25,7 @@ data:
     notes:
     - 'Note: maximum measuring range is the reange between maximum capacity Emax and
       minimum dead load Emin maximum measuring range = (Emax - Emin)'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

@@ -24,6 +24,7 @@ data:
       where energy will have more than one tariff rate
     notes:
     - 'Note: The tariff rate may be determined by time, load or some other quantity'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

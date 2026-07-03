@@ -28,6 +28,7 @@ data:
     - Note:At sinusoidal and either one-phase or symmetrical three-phase conditions,
       the power factor = cos  = the cosine of the phase difference   between voltage
       U and current I.
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

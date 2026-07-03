@@ -24,6 +24,7 @@ data:
       be adapted to a metrological task by software.
     notes:
     - Note:This kind of device might have undeclared interfaces to operating system
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -37,6 +38,7 @@ data:
     definition: device that is not constructed for a specific purpose, but that can
       be adapted to a legally relevant task by software.
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

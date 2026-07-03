@@ -26,6 +26,7 @@ data:
     - understood as "applicant" for type evaluation or for OIML Type Evaluation. Although
       the instrument may be manufactured by another company, the applicant has to
       assume responsibility for compliance.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -42,6 +43,7 @@ data:
       type evaluation or for OIML Type Evaluation. Although the instrument may be
       manufactured by another company, the applicant has to assume responsibility
       for compliance.'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

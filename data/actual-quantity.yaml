@@ -24,6 +24,7 @@ data:
     definition: actual quantity of product that a prepackage in fact contains as determined
       by measurements made by legal metrology officials
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -38,6 +39,7 @@ data:
     notes:
     - Note:The actual quantity in a prepackage “i” is designated by the symbol Qi
       or qi.
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

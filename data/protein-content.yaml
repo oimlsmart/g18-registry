@@ -28,6 +28,7 @@ data:
     notes:
     - 'Note: When the specified MB is 0 %, the reported protein content is at ‘dry
       basis’ (i.e. P0 %).'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

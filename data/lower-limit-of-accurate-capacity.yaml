@@ -24,6 +24,7 @@ data:
     definition: capacity below which the maximum permissible error is exceeded, taking
       account of the shape of the tank and the calibration method
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -37,6 +38,7 @@ data:
     definition: capacity below which the maximum permissible error is exceeded, taking
       account of the shape of the tank and the calibration method
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

@@ -28,6 +28,7 @@ data:
       during test or use. This value shall not be greater than Emax (see 2.3.5). For
       the limits on Dmax during testing, see A.3.2.4
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -41,6 +42,7 @@ data:
     definition: largest value of a quantity expressed in the units of mass which can
       be introdused to a load cell under test
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

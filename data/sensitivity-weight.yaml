@@ -24,6 +24,7 @@ data:
     definition: weight that is used to determine the sensitivity of a weighing instrument
     notes:
     - see T.4.1 in OIML R 76-1
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -37,6 +38,7 @@ data:
     definition: weight that is used to determine the sensitivity of a weighing instrument
     notes:
     - see T.4.1 in OIML R 76-1
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

@@ -26,6 +26,7 @@ data:
     - 'Note: The ratio between output and input may be adjustable and this type of
       load cell may utilise passive electronics (e.g. strain gauges), and passive
       temperature compensation elements.'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

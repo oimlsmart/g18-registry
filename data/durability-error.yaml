@@ -33,6 +33,7 @@ data:
     definition: difference between the intrinsic error over a period of use and the
       initial intrinsic error of an instrument
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -46,6 +47,7 @@ data:
     definition: difference between the intrinsic error after a period of use and the
       initial intrinsic error of a measuring instrument
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -59,6 +61,7 @@ data:
     definition: difference between the intrinsic error over a period of use and [OIML
       D 11, 3.11] the initial intrinsic error of a measuring instrument
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -72,6 +75,7 @@ data:
     definition: difference between the intrinsic error after a period of use and the
       initial intrinsic error
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -85,6 +89,7 @@ data:
     definition: the difference between the intrinsic error over a period of use and
       the initial intrinsic error of a measuring system
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -98,6 +103,7 @@ data:
     definition: difference between the intrinsic error after a period of use and the
       initial intrinsic error of a measuring instrument
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
     related:
@@ -117,6 +123,7 @@ data:
       initial intrinsic error [OIML V1:2013, 5.11] of a measuring instrument [OIML
       V1:2013, 5.16]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -130,6 +137,7 @@ data:
     definition: difference between the intrinsic error after a period of use and the
       initial intrinsic error of a measuring instrument [VIML 5.16]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -143,6 +151,7 @@ data:
     definition: difference between the intrinsic error after a period of use and the
       initial intrinsic error of a measuring instrument [VIML:2013, 5.16]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -154,8 +163,9 @@ data:
     link:
     g18_entry: 02227-D011
     definition: difference between the intrinsic error after a period of use and the
-      initial intrinsic error of a measuring instrument [VIML 5.16]
+      initial intrinsic error of a measuring instrument
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -169,6 +179,7 @@ data:
     definition: difference between the intrinsic error over a period of use and the
       initial intrinsic error of an instrument
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -182,6 +193,7 @@ data:
     definition: difference between the intrinsic error over a period of use and the
       initial intrinsic error of a measuring instrument [OIML D 11, 3.11]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -195,6 +207,7 @@ data:
     definition: difference between the intrinsic error after a period of use and the
       initial intrinsic error
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

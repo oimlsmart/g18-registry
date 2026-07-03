@@ -99,6 +99,14 @@ module G18
         notes.map { |n| n.respond_to?(:content) ? n.content : nil }.compact
       end
 
+      def examples_text(concept)
+        loc = eng_localization(concept)
+        return [] unless loc
+        examples = loc.data.examples
+        return [] unless examples
+        examples.map { |x| x.respond_to?(:content) ? x.content : nil }.compact
+      end
+
       # Related concepts of type "see" (VIM/VIML authoritative citations).
       # Surfaces them in the same shape the rest of the pipeline already
       # expects: `{"type" => "see", "ref" => {"source" => urn, "id" => id}}`.

@@ -29,6 +29,7 @@ data:
       the public key of the trustworthy institution and decrypting the signature of
       the certificate
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -46,6 +47,7 @@ data:
     notes:
     - Note:The trusted party signature binds the public key to the unique identification
       of the subject.
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

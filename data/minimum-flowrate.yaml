@@ -29,6 +29,7 @@ data:
     definition: lowest flowrate at which the water meter is required to operate within
       the maximum permissible error
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -43,6 +44,7 @@ data:
       the limits of its maximum permissible error, whilst operated within its rated
       operating conditions
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -56,6 +58,7 @@ data:
     definition: the flowrate above which the weighing results comply with the requirements
       of this Recommendation
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

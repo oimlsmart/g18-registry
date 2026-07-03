@@ -24,6 +24,7 @@ data:
     definition: the length (L), width (W) or height (H), measured by the instrument,
       of the smallest rectangular box which fully encloses the object
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -37,6 +38,7 @@ data:
     definition: the length (L), width (W) or height (H), measured by the measuring
       instrument, of the smallest rectangular box which fully encloses the object
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

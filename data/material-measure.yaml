@@ -20,15 +20,16 @@ data:
     clause: '3.12'
     link:
     g18_entry: '03218'
-    definition: 'measuring instrument reproducing or supplying, in permanent manner
+    definition: measuring instrument reproducing or supplying, in permanent manner
       during its use, quantities of one or more given kinds, each with an assignes
-      quantity value [VIM, 3.6] Examples: Standard weight, volume measure (suppluing
-      one or several quantiuty values, with or without a quantity-value sacle), standard
-      electic resistor, line scale (ruler), gauge block, standard signal generator,
-      certified reference material.'
+      quantity value
     notes:
     - 'Note 1: The indication of material measure is its assigned quantity value.
       Note 2: A material measure can be a measurement standard.'
+    examples:
+    - Standard weight, volume measure (supplying one or several quantity values, with
+      or without a quantity-value scale), standard electric resistor, line scale (ruler),
+      gauge block, standard signal generator, certified reference material.
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -48,6 +49,7 @@ data:
     notes:
     - 'Note 1: The indication of material measure is its assigned quantity value.
       Note 2: A material measure can be a measurement standard.'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

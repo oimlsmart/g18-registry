@@ -23,6 +23,7 @@ data:
     g18_entry: '01379'
     definition: hardcopy of the weighing result produced from a printer
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -35,6 +36,7 @@ data:
     g18_entry: '03390'
     definition: hardcopy of the measurement results produced from a printer
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -47,6 +49,7 @@ data:
     g18_entry: '02605'
     definition: hard copy of the measurement results produced from a printer
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -59,6 +62,7 @@ data:
     g18_entry: '01379'
     definition: hardcopy of the weighing result produced from a printer
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

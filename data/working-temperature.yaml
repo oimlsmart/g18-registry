@@ -29,6 +29,7 @@ data:
     definition: average water temperature in the pipe measured upstream and downstream
       of the water meter
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -41,6 +42,7 @@ data:
     g18_entry: '01961'
     definition: temperature of the gas to be measured at the gas meter
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

@@ -30,6 +30,7 @@ data:
     - '5.'
     - 2. Absorbance has the dimension one and is expressed with the derived coherent
       SI unit one (1).
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -45,6 +46,7 @@ data:
       on the path length and the by concentration of the absorbing substance
     notes:
     - the instrument is the Beer-Lambert law.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -58,6 +60,7 @@ data:
     definition: logarithm of the ratio of incident to transmitted radiant power, which
       is dependent on the path length and the concentration of the absorbing substance
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -73,6 +76,7 @@ data:
     notes:
     - 'Note: Absorbance has the dimension one and is expressed with the derived coherent
       SI unit one (1).'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

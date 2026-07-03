@@ -8,6 +8,9 @@ data:
     text: sub-assembly
   kind: undefined
   official_concept:
+    source: OIML D011:2004
+    id: '3.3'
+    url:
   editions_present:
   - '2010'
   - 202X
@@ -23,11 +26,16 @@ data:
     g18_entry: '02216'
     definition: part of an electronic device employing electronic components and having
       a recognizable function of its own
-    notes:
-    - '1'
-    - 2. [OIML D 11:2004, 3.3]
+    notes: []
+    examples:
+    - Amplifiers, comparators, power converters, etc.
     consistency: pending
     consistency_reason: ''
+    related:
+    - type: see
+      ref:
+        source: OIML D011:2004
+        id: '3.3'
   - edition: 202X
     publication: OIML R046-1:2012
     publication_id: OIML R046-1:2012
@@ -38,9 +46,14 @@ data:
     g18_entry: '02299-R046-1'
     definition: part of a device having a recognizable function of its own
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current
 id: 483100f2-688c-5cb4-a107-15b6cf52a369
 schema_version: '3'
-related: []
+related:
+- type: see
+  ref:
+    source: OIML D011:2004
+    id: '3.3'

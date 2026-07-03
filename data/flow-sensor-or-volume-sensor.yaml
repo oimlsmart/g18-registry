@@ -24,6 +24,7 @@ data:
       element, electromagnetic coil, or other transducer) which senses the flowrate
       or volume of water passing through the meter
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -39,6 +40,7 @@ data:
       through the meter
     notes:
     - The measurement transducer includes the flow sensor or volume sensor.
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

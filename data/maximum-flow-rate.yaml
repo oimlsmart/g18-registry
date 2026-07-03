@@ -27,6 +27,7 @@ data:
     definition: the highest flow rate at which the measuring system is required to
       meet the applicable maximum permissible errors
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -41,6 +42,7 @@ data:
       the limits of its maximum permissible error, whilst operated within its rated
       operating conditions
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

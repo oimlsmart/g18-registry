@@ -27,6 +27,7 @@ data:
     definition: difference in load cell output at minimum dead load, measured before
       and after load application
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -41,6 +42,7 @@ data:
       minimum dead load (Dmin), measured before and after application of a load of
       Dmax
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

@@ -29,6 +29,7 @@ data:
     - 'Note 1: The harmonic content is obtained e.g. by subtracting from a non-sinusoidal
       alternating quantity its fundamental term. Note 2: The distortion factor is
       usually expressed as a percentage. It is equivalent to THD, total harmonic distortion.'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

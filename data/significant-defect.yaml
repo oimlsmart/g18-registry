@@ -27,6 +27,7 @@ data:
       b) inadmissible parameter changes; c) unauthorised updates; d) accidental software
       changes due to physical effects; e) a significant fault due to the effect of
       an influence quantity.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -40,6 +41,7 @@ data:
     definition: event that has an impact on the properties re functions of the measuring
       instrument or a fault
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

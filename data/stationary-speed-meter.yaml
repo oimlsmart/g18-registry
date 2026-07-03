@@ -24,6 +24,7 @@ data:
       not correct for non-zero ego speed
     notes:
     - 'Note: A stationary speed meter is either fixed or mobile.'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

@@ -38,6 +38,7 @@ data:
       the value of the measurand” or just “estimate of the measurand” are used for
       ‘measured quantity value’.} Unless specified otherwise, the measured quantity
       value is a single PMB indication on a sample."
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

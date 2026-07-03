@@ -25,6 +25,7 @@ data:
       indication at maximum capacity and the indication at zero over a period of use
       within specified limits
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -39,6 +40,7 @@ data:
       indication at maximum capacity and the indication at zero within specified limits
       over a period of use
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -53,6 +55,7 @@ data:
       indication at maximum capacity and the indication at zero over a period of use
       within specified limits
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -67,6 +70,7 @@ data:
       indication of weight at maximum capacity and the indication atzero within specified
       limits over a period of use
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -81,6 +85,7 @@ data:
       indication of weight at maximum capacity and the indication at zero within specified
       limits over a period of use
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -95,6 +100,7 @@ data:
       cell output at maximum load, Dmax, and the load cell output at minimum load,
       Dmin, over a period of use within specified limits
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -109,6 +115,7 @@ data:
       the indication of weight at maximum capacity and the indication at zero within
       specified limits over a period of use
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -122,6 +129,7 @@ data:
     definition: capability of a load cell to maintain the load cell output of the
       load cell’s measuring range over a period of use within specified limits
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -136,6 +144,7 @@ data:
       indication at maximum capacity and the indication at zero over a period of use
       within specified limits
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -150,6 +159,7 @@ data:
       indication of mass at maximum capacity and the indication at zero within specified
       limits over a period of use
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -164,6 +174,7 @@ data:
       indication at maximum capacity and the indication at zero over a period of use
       within specified limits
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -178,6 +189,7 @@ data:
       indication at maximum capacity and the indication at zero within specified limits
       over a period of use
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -192,6 +204,7 @@ data:
       indication at maximum capacity and the indication at zero over a period of use
       within specified limits
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -206,6 +219,7 @@ data:
       indication at maximum capacity and the indication at zero within specified limits
       over a period of use
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

@@ -24,6 +24,7 @@ data:
     definition: means by which a sample is introduced into the gas chromatographic
       column
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -37,6 +38,7 @@ data:
     definition: means by which a portion of a sample is introduced into the gas chromatographic
       column
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -49,6 +51,7 @@ data:
     g18_entry: '01488'
     definition: the means of introducing a sample into the column
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -61,6 +64,7 @@ data:
     g18_entry: '01046'
     definition: means by which a sample is introduced into the gas chromatographic  column
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -73,6 +77,7 @@ data:
     g18_entry: '01062'
     definition: means by which a portion of a sample is introduced into the gas chromatographic  column
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -85,6 +90,7 @@ data:
     g18_entry: '01488'
     definition: the means of introducing a sample into the column
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

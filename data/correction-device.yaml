@@ -28,6 +28,7 @@ data:
       curves. The characteristics of the liquid shall either be measured using associated
       measuring devices, or stored in the memory of the instrument
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -43,6 +44,7 @@ data:
       of the gas to be measured (viscosity, temperature, pressure, etc.) and the pre-established
       calibration curves
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -61,6 +63,7 @@ data:
     notes:
     - The characteristics of the gas may either be measured using associated measuring
       instruments, or stored in a memory in the instrument.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -78,6 +81,7 @@ data:
       the water to be measured may either be measured using associated measuring instruments,
       or be stored in a memory in the instrument
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -91,6 +95,7 @@ data:
     definition: e. device intended for correction of known errors as a function of
       g. flowrate, Reynolds number (curve linearization), or pressure and/or temperature
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -103,6 +108,7 @@ data:
     g18_entry: '00770'
     definition: device which automatically corrects the setting of the filling instrument
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -120,6 +126,7 @@ data:
       of the liquid may either be measured using associated measuring instruments,
       or stored in a memory within the instrument
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -137,6 +144,7 @@ data:
     notes:
     - Note:For the definition of the term “correction”, see ISO?IEC Guide 99:2007/OIML
       V2-200:2012 (VIM), 2.53, [1].
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -152,6 +160,7 @@ data:
       of the gas to be measured (viscosity, temperature, pressure, etc.) and the pre-established
       calibration curves
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -170,6 +179,7 @@ data:
     notes:
     - 'Note: The characteristics of the liquid shall either be measured using associated
       measuring devices, or stored in a memory in the instrument'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -182,6 +192,7 @@ data:
     g18_entry: '02960'
     definition: device which automatically corrects the setting of the AGFI
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -196,6 +207,7 @@ data:
       flow rate, Reynolds number (curve linearization), or density, pressure and/or
       temperature
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -214,6 +226,7 @@ data:
     notes:
     - 'Note: The characteristics of the gas may either be measured using associated
       measuring instruments, or stored in a memory in the instrument.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -231,6 +244,7 @@ data:
       of the liquid may either be measured using associated measuring instruments,
       or stored in a memory within the instrument
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

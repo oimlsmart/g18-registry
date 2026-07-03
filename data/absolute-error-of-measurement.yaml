@@ -23,6 +23,7 @@ data:
     g18_entry: '02141'
     definition: result of measurement minus the reference value of the measurand
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -36,6 +37,7 @@ data:
     definition: result of a measurement minus the (conventional) true value of the
       measurand
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -51,6 +53,7 @@ data:
     - 1. Since a true value cannot be determined, in practice a conventional true
       value is used.
     - 2. (VIM:2007, 2.16)
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -64,6 +67,7 @@ data:
     definition: the difference between the indication of the instrument to be verified
       and that of the standard instrument for the same pressure
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -77,6 +81,7 @@ data:
     definition: the difference between the indication of the instrument to be verified
       and that of the standard instrument, for the same pressure
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -89,6 +94,7 @@ data:
     g18_entry: '02141'
     definition: result of measurement minus the reference value of the measurand
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -104,6 +110,7 @@ data:
     notes:
     - 'Note: Since a true value cannot be determined, in practice a conventional true
       value is used.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -117,6 +124,7 @@ data:
     definition: the difference between the indication of the instrument to be verified
       and that of the standard instrument for the same pressure
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -130,6 +138,7 @@ data:
     definition: the difference between the indication of the instrument to be verified
       and that of the standard instrument, for the same pressure
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

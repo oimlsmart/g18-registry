@@ -40,6 +40,7 @@ data:
       for which the specified metrological characteristics of ameasuring instrument
       are intended to lie within given limits
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -54,6 +55,7 @@ data:
       order that a measuring instrument or measuring system perform as designed
     notes:
     - "(VIM:2007, 4.9)"
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -70,6 +72,7 @@ data:
     notes:
     - The rated operating conditions generally ify intervals of values for the quantity
       g measured and for any influence tity.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -83,6 +86,7 @@ data:
     definition: operating condition that must be fulfilled during measurement in (VIM:2007,
       4.9) order that a measuring instrument or measuring system perform asdesigned
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
     related:
@@ -102,6 +106,7 @@ data:
       for which the metrological characteristics are intended tolie within the specified
       maximum permissible errors
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -118,6 +123,7 @@ data:
     - These conditions of use are the range of weight values and the range of influence
       quantity values for which the indication of an instrument is intended to lie
       within maximum permissible errors.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -132,6 +138,7 @@ data:
       for which the metrological characteristics are intended tobe within the maximum
       permissible errors
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -146,6 +153,7 @@ data:
       for which the metrological characteristics are intended to be within the maximum
       permissible errors
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -161,6 +169,7 @@ data:
       permissible errors
     notes:
     - "(adapted from VIM:2007, 4.9)"
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -175,6 +184,7 @@ data:
       for which the errors (of indication) of the water meter are required to be within
       the maximum permissible errors
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
     related:
@@ -195,6 +205,7 @@ data:
       to lie within the maximum permissible errors specified in this Recommendation
       IM:1993, 5.5]"
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -209,6 +220,7 @@ data:
       for which the metrological characteristics are intended tolie within the specified
       maximum permissible errors IM: 1993, 5.5]"
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -224,6 +236,7 @@ data:
       to be within the limits of the maximum permissible error
     notes:
     - "[adapted from VIM:1993, 5.5]"
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -238,6 +251,7 @@ data:
       for which specified metrological characteristics of a measuring instrument are
       intended to lie within given limits [Adapted from VIM:1993, 5.5]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
     related:
@@ -258,6 +272,7 @@ data:
       to lie within the maximum permissible deviations specified in this Recommendation
       ased on VIM:1993, 5.5]"
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
     related:
@@ -277,6 +292,7 @@ data:
       for which the metrological characteristics are intended tolie within the specified
       maximum permissible errors
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -291,6 +307,7 @@ data:
       for which the metrological characteristics are intended to lie within the specified
       maximum permissible errors
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -305,6 +322,7 @@ data:
       of a measuring instrument are intended to lie within the specified maximum permissible
       errors dapted from VIM:1993, 5.5]"
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
     related:
@@ -326,6 +344,7 @@ data:
     notes:
     - specify ranges or rated values of the measurand and of the influence quantities
       [Adapted from VIM:1993, 5.5]
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -340,6 +359,7 @@ data:
       for which the metrological characteristics are intended to lie within the specified
       maximum permissible errors
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -354,6 +374,7 @@ data:
       for which the metrological characteristics are intended to be within the maximum
       permissible errors
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -368,6 +389,7 @@ data:
       for which the metrological characteristics are intended to lie within the specified
       maximum permissible errors (adapted from VIM:1993, 5.5)
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
     related:
@@ -388,6 +410,7 @@ data:
       to lie within the maximum permissible errors specified in this Recommendation
       dapted from VIM:1993, 5.5]"
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
     related:
@@ -407,6 +430,7 @@ data:
       for which the metrological characteristics are intended tolie within the specified
       maximum permissible errors
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -421,6 +445,7 @@ data:
       for which the metrological characteristics are intended tobe within the specified
       maximum permissible errors 11 clause T.13)."
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -435,6 +460,7 @@ data:
       characteristics are intended to meet the requirements concerning maximum permissible
       errors
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -449,6 +475,7 @@ data:
       for which the metrological characteristics are intended to lie within the maximum
       permissible errors [adapted from VIM:1993, 5.05]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
     related:
@@ -469,6 +496,7 @@ data:
     notes:
     - 'Note: Rated operating conditions generally specify intervals of values for
       a quantity being measured and for any influence quantity.'
+    examples: []
     consistency: pending
     consistency_reason: ''
     related:
@@ -490,6 +518,7 @@ data:
     - Note:The rated operating conditions specify intervals for the flow rate and
       for the influence quantities for which the errors (of indication) are required
       to be within the maximum permissible errors.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -504,6 +533,7 @@ data:
       that a measuring instrument or measuring system perform as designed [OIML V
       2-200:2012, 4.9] [OIML V 1:2013, 0.08]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -518,6 +548,7 @@ data:
       that a measuring instrument or measuring system perform as designed [VIM 4.9]
     notes:
     - "(For notes, refer to the VIM)"
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -531,6 +562,7 @@ data:
     definition: operating condition that must be fulfilled during measurement in order
       that a measuring instrument or measuring system perform as designed [VIM 4.9]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -547,6 +579,7 @@ data:
     notes:
     - 'Note: Rated operating conditions generally specify intervals of values for
       a quantity being measured and for any influence quantity.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -561,6 +594,7 @@ data:
       for which the metrological characteristics are intended to be within the maximum
       permissible errors
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -576,6 +610,7 @@ data:
     notes:
     - 'Note: Rated operating conditions generally specify intervals of values for
       a quantity being measured and for any influence quantity.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -590,6 +625,7 @@ data:
       for which the specified metrological characteristics of a measuring instrument
       are intended to lie within given limits
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -605,6 +641,7 @@ data:
     notes:
     - 'Note:  Rated operating conditions generally specify intervals of values for
       a quantity being measured and for any influence quantity.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -621,6 +658,7 @@ data:
     notes:
     - "{NOTE Rated operating conditions generally specify intervals of values for
       a quantity being measured and for any influence quantity}"
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -637,6 +675,7 @@ data:
     notes:
     - 'Note: Rated operating conditions generally specify intervals of values for
       a quantity being measured and for any influence quantity.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -648,11 +687,11 @@ data:
     link:
     g18_entry: 02232-D011
     definition: operating condition that must be fulfilled during measurement in order
-      that a measuring instrument or measuring system perform as designed [VIM 4.9][VIML
-      0.08]
+      that a measuring instrument or measuring system perform as designed
     notes:
     - Note:Rated operating conditions generally specify intervals of values for a
       quantity being measured and for any influence quantity.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -667,6 +706,7 @@ data:
       order that a measuring instrument or measuring system perform as designed [VIM,
       4.9] [1]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -684,6 +724,7 @@ data:
       a quantity being measured and for any influence quantity. [OIML V2-200:2012,
       4.9] Note 2: For the application of this Recommendation, the terms “measuring
       instrument” and “measuring system” mean: electricity meter.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -698,6 +739,7 @@ data:
       the influence quantities, for which the errors of the gas meter are required
       to be within the limits of the maximum permissible error
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -712,6 +754,7 @@ data:
       for which the metrological characteristics are intended to lie within the specified
       maximum permissible errors
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -726,6 +769,7 @@ data:
       for which the specified metrological characteristics of a measuring instrument
       are intended to lie within given limits
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -740,6 +784,7 @@ data:
       order that a measuring instrument or measuring system perform as designed [VIM:2007,
       4.9]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -756,6 +801,7 @@ data:
     notes:
     - 'Note: The rated operating conditions generally specify intervals of values
       for the quantity being measured and for any influence quantity.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -770,6 +816,7 @@ data:
       that a measuring instrument or measuring system perform as designed [VIM:2007,
       4.9]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -784,6 +831,7 @@ data:
       for which the metrological characteristics are intended to lie within the specified
       maximum permissible errors
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -800,6 +848,7 @@ data:
     - 'Note: These conditions of use are the range of weight values and the range
       of influence quantity values for which the indication of an instrument is intended
       to lie within maximum permissible errors.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -814,6 +863,7 @@ data:
       for which the metrological characteristics are intended to lie within the maximum
       permissible errors [adapted from VIM:2007, 4.9]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -828,6 +878,7 @@ data:
       quantities for which the metrological characteristics are intended to lie within
       the maximum permissible errors specified in this Recommendation [VIM:1993, 5.5]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -842,6 +893,7 @@ data:
       for which the metrological characteristics are intended to lie within the specified
       maximum permissible errors [VIM: 1993, 5.5]'
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -856,6 +908,7 @@ data:
       for which the metrological characteristics are intended to lie within the specified
       maximum permissible errors
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -870,6 +923,7 @@ data:
       for which the metrological characteristics are intended to lie within the specified
       maximum permissible errors
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -884,6 +938,7 @@ data:
       of a measuring instrument are intended to lie within the specified maximum permissible
       errors [adapted from VIM:1993, 5.5]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -898,6 +953,7 @@ data:
       for which the metrological characteristics are intended to be within the maximum
       permissible errors
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -912,6 +968,7 @@ data:
       for which the metrological characteristics are intended to lie within the specified
       maximum permissible errors (adapted from VIM:1993, 5.5)
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -926,6 +983,7 @@ data:
       for which the metrological characteristics are intended to be within the specified
       maximum permissible errors (D 11 clause T.13).
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -940,6 +998,7 @@ data:
       characteristics are intended to meet the requirements concerning maximum permissible
       errors
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

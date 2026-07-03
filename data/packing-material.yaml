@@ -23,6 +23,7 @@ data:
     definition: everything of the prepackage that is intended to be left over after
       use of the product, except for items naturally in the product
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -36,6 +37,7 @@ data:
     definition: everything of the prepackage that is intended to be left over after
       use of the product, except for items naturally in the product
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

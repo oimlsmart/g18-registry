@@ -25,6 +25,7 @@ data:
       order to conserve power and/or prolong component life, and to attain the measuring
       mode more rapidly than would be possible if starting from the un-powered state
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -37,6 +38,7 @@ data:
     g18_entry: '03784'
     definition: mode of operation in which no speed measurements will be performed
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -51,6 +53,7 @@ data:
       to conserve power and/or prolong component life, and to attain the measuring
       mode more rapidly than would be possible if starting from the switched-off state
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

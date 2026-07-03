@@ -24,6 +24,7 @@ data:
     definition: sum of individual prepackage errors considering their arithmetic sign
       divided by the number of prepackages in the sample
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -40,6 +41,7 @@ data:
     - 'Note 1: The average error for all prepackages in a sample with sample size
       n is designated by the symbol eave. Note 2: The average error for all prepackages
       in an inspection lot with N prepackages is designated by the symbol Eave.'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

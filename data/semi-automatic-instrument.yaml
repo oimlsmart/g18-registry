@@ -24,6 +24,7 @@ data:
     definition: an instrument which requires the intervention of an operator to carry
       out the measurements but automatically determines the results
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -37,6 +38,7 @@ data:
     definition: instrument requiring the intervention of an operator to carry out
       the measurements but that automatically determines the results
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

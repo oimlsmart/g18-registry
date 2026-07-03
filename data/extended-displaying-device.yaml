@@ -24,6 +24,7 @@ data:
     definition: device temporarily changing the actual scale interval, d, to a value
       less than the verification scale interval, e, following a manual command
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -37,6 +38,7 @@ data:
     definition: device temporarily changing the actual scale interval, d, to a value
       less than the verification scale interval, e, following a manual command
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -50,6 +52,7 @@ data:
     definition: device temporarily changing the actual scale interval, d, to a value
       less than the verification scale interval, e, following a manual command
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

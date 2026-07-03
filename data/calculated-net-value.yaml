@@ -24,6 +24,7 @@ data:
     definition: value of the difference between a gross or net weight value and a
       preset tare value
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -37,6 +38,7 @@ data:
     definition: value of the difference between a measured weight value (gross ornet)
       and a preset tare value
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -50,6 +52,7 @@ data:
     definition: value of the difference between a gross or net weight value and a
       preset tare value
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -63,6 +66,7 @@ data:
     definition: value of the difference between a measured weight value (gross or
       net) and a preset tare value
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

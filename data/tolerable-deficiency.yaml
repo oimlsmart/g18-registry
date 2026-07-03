@@ -27,6 +27,7 @@ data:
       error, limits of error or tolerances.'
     - 'Note 3: By convention T is a positive number but, in use it represents a negative
       value of quantity, or negative error.'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

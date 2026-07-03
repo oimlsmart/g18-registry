@@ -25,6 +25,7 @@ data:
       fitting called a manifold. The inlet and outlet passages of the meter and the
       manifold, at the interface between them, are coaxial
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -39,6 +40,7 @@ data:
     notes:
     - Note:The inlet and outlet passages of the meter and the manifold are coaxial
       at the interface between them.
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

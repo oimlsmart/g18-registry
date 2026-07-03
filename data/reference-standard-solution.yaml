@@ -24,6 +24,7 @@ data:
     definition: solution with an accurately known concentration of a sample element
       or elements of interest used for testing and calibrating an instrument
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -38,6 +39,7 @@ data:
       element or elements of interest and that is used for testing and calibration
       of the instrument
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -52,6 +54,7 @@ data:
       element or elements of interest and that is used for testing and calibrating
       the instrument
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -65,6 +68,7 @@ data:
     definition: solution with an accurately known concentration of a sample element
       or elements of interest used for testing and calibrating an instrument
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

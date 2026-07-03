@@ -41,6 +41,7 @@ data:
       uncertainty is usually provided with reference to a) a material, e.g. a certified
       reference material, b) a device, e.g. a stabilized laser, c) a reference measurement
       procedure, or d) a comparison of measurement standards.'
+    examples: []
     consistency: pending
     consistency_reason: ''
     related:
@@ -65,6 +66,7 @@ data:
       uncertainty is usually provided with reference to a) a material, e.g. a certified
       reference material, b) a device, e.g. a stabilized laser, c) a reference measurement
       procedure, or d) a comparison of measurement standards.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -78,6 +80,7 @@ data:
     definition: quantity value used as a basis for comparison with values of quantities
       of the same kind
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -101,6 +104,7 @@ data:
       accuracy at verification and to assess the accuracy of calibrations at type
       evaluation. Where a CRM is not used, the reference quantity value is the mean
       PMB at reference conditions prior to a test.
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

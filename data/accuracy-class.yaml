@@ -33,6 +33,7 @@ data:
     definition: class of measuring instrument that meets certain metrological requirements
       that are intended to keep errors within specified limits
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -47,6 +48,7 @@ data:
       that are intended to maintain errors within specified limits
     notes:
     - "[VIM:1993, 5.19]"
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -60,6 +62,7 @@ data:
     definition: class designation of a weight or weight set which meets certain metrological
       requirements intended to maintain the mass values within specified limits
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -73,6 +76,7 @@ data:
     definition: class of liquid-in-glass thermometers that meet certain metrological
       requirements intended to keep errors within specified limits
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -86,6 +90,7 @@ data:
     definition: class of load cells that are subject to the same conditions of accuracy
       [Adapted from VIM:1993, 5.19]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
     related:
@@ -104,6 +109,7 @@ data:
     definition: class of pressure balances that meet certain metrological requirements
       intended to keep errors within specified limits
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -121,6 +127,7 @@ data:
     notes:
     - Note:In this Recommendation, the stated metrological requirements for accuracy
       class include permissible responses to disturbances.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -136,6 +143,7 @@ data:
       uncertainties within specified limits under specified operating conditions [VIM,
       4.25]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -149,6 +157,7 @@ data:
     definition: class of measuring instrument that meets certain metrological requirements
       that are intended to keep errors within specified limits
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -162,6 +171,7 @@ data:
     definition: class designation of a weight or weight set which meets certain metrological
       requirements intended to maintain the mass values within specified limits
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -175,6 +185,7 @@ data:
     definition: class of liquid-in-glass thermometers that meet certain metrological
       requirements intended to keep errors within specified limits
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -188,6 +199,7 @@ data:
     definition: class of pressure balances that meet certain metrological requirements
       intended to keep errors within specified limits
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

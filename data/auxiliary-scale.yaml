@@ -24,6 +24,7 @@ data:
     definition: short, optional scale, either at the lower end or the upper of the
       thermometer, that contains a reference point, usually the ice point (0 °C)
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -37,6 +38,7 @@ data:
     definition: short, optional scale, either at the lower end or the upper of the
       thermometer, that contains a reference point, usually the ice point (0 °C)
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

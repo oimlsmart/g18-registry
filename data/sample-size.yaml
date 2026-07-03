@@ -26,6 +26,7 @@ data:
       lot
     notes:
     - The symbol 'n' means sample size.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -40,6 +41,7 @@ data:
       a sample
     notes:
     - 'Note:  The symbol “n” is used to designate the sample size.'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

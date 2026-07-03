@@ -33,6 +33,7 @@ data:
       additional force F1, while maintaining the preliminary force F0 (see Annex A).
       A Rockwell hardness value for the test material is derived from the difference
       in the indentation depths (see Fig. 1).
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -55,6 +56,7 @@ data:
       F1, while maintaining the preliminary force F0 (see Annex A). A Rockwell hardness
       value for the test material is derived from the difference in the indentation
       depths (see Fig. 1).'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

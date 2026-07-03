@@ -30,6 +30,7 @@ data:
     definition: the lowest flow rate at which the measuring system is required to
       meet the applicable maximum permissible errors
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -43,6 +44,7 @@ data:
     definition: lowest flow rate (3.3.1) at which the meter is to operate within the
       maximum permissible error(s) (3.2.5)
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -56,6 +58,7 @@ data:
     definition: flowrate above which the weighing results comply with the requirements
       of this Recommendation
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -70,6 +73,7 @@ data:
       the limits of its maximum permissible error, whilst operated within its rated
       operating conditions
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

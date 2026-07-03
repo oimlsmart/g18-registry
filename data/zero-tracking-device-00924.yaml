@@ -23,6 +23,7 @@ data:
     g18_entry: '01338'
     definition: device for maintaining the zero indication within certain limits automatically
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -35,6 +36,7 @@ data:
     g18_entry: '00924'
     definition: device for maintaining the zero indication within certain limits automatically
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -48,6 +50,7 @@ data:
     definition: device for automatically maintaining the zero indication within certain
       limits
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -61,6 +64,7 @@ data:
     definition: device for automatically maintaining the zero indication within certain
       limits
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -73,6 +77,7 @@ data:
     g18_entry: '03654'
     definition: device for maintaining the zero indication within certain limits automatically
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -85,6 +90,7 @@ data:
     g18_entry: '02564'
     definition: device for maintaining the zero indication within certain limits automatically
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -97,6 +103,7 @@ data:
     g18_entry: '01338'
     definition: device for maintaining the zero indication within certain limits automatically
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -109,6 +116,7 @@ data:
     g18_entry: '03653'
     definition: device for maintaining the zero indication within certain limits automatically
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -121,6 +129,7 @@ data:
     g18_entry: '00924'
     definition: device for maintaining the zero indication within certain limits automatically
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

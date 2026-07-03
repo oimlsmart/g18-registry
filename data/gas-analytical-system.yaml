@@ -32,6 +32,7 @@ data:
       of the system, an interface to connect devices measuring the gas flow parameters
       of exhaust emissions, and gas and electric lines of communication.
     - 2. (ISO 7504:2001)
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -56,6 +57,7 @@ data:
       storage of measurement results, a means for the control and adjustment of the
       main components of the system, an interface to connect devices measuring the
       gas flow parameters of exhaust emissions, and gas and electric lines of communication.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -77,6 +79,7 @@ data:
       of the system, an interface to connect devices measuring the gas flow parameters
       of exhaust emissions, and gas and electric lines of communication. Note 2: [ISO
       7504:2001]'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

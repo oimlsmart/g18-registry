@@ -28,6 +28,7 @@ data:
       divided by the dosimeter thickness, t:'
     notes:
     - The thickness, t, is a measure of optical path length.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -42,6 +43,7 @@ data:
       the dosimeter thickness, t: kλ = Aλ /t'
     notes:
     - 'Note: The thickness, t, is a measure of optical path length.'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

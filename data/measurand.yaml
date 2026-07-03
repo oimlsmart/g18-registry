@@ -24,6 +24,7 @@ data:
     definition: particular quantity subject to measurement
     notes:
     - "[VIM:1993, 2.6]"
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -36,6 +37,7 @@ data:
     g18_entry: '02647'
     definition: quantity intended to be measured [VIM 2.3]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

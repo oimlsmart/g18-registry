@@ -25,6 +25,7 @@ data:
       for that system
     notes:
     - This smallest mass is also referred to as the minimum delivery.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -41,6 +42,7 @@ data:
     - In a measuring system intended to deliver, this quantity is called the minimum
       delivery, and in those used for receiving operations it is called the minimum
       receipt.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -57,6 +59,7 @@ data:
     - 'Note: In a measuring system intended to deliver, this quantity is called the
       minimum delivery, and in those used for receiving operations it is called the
       minimum receipt.'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

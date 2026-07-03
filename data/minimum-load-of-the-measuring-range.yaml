@@ -28,6 +28,7 @@ data:
       during test or use. This value shall not be less than Emin (see 2.3.8). For
       the limits on Dmin during testing, see A.3.2.4
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -41,6 +42,7 @@ data:
     definition: smallest value of a quantity expressed in units of mass, applied to
       a load cell under test
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

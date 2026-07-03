@@ -25,6 +25,7 @@ data:
       pipe), if provided, belonging to the gauge hatch concerned, and corresponding
       to the position intended for automatic or manual level gauges
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -38,6 +39,7 @@ data:
     definition: the vertical line through the position that will be used for manual
       or automatic measurement; it passes through the guiding device, if provided
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -52,6 +54,7 @@ data:
       pipe), if provided, belonging to the gauge hatch concerned, and corresponding
       to the position intended for automatic or manual level gauges
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -65,6 +68,7 @@ data:
     definition: the vertical line through the position that will be used for manual
       or automatic measurement; it passes through the guiding device, if provided
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

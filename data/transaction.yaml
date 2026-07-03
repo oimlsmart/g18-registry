@@ -31,6 +31,7 @@ data:
       The parties interested in a transaction may be the parties themselves or their
       representatives (for example: the employee in a filling station the driver of
       a tanker).'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -51,6 +52,7 @@ data:
       a delivery order, etc. The parties interested in a transaction may be the parties
       themselves or their representatives (for example: the employee in a filling
       station, the driver of a tanker).'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -71,6 +73,7 @@ data:
       a delivery order, etc. The parties interested in a transaction may be the parties
       themselves or their representatives (for example: the employee in a filling
       station, the driver of a tanker).'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

@@ -26,6 +26,7 @@ data:
       occurred. This data is presented in a consistent format, allowing for easy comparison
       of two different records and tracking progress over time
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -39,6 +40,7 @@ data:
     definition: unique value, e.g. in seconds or a date and time string denoting the
       date and/or time at which a certain incident (e.g. measurement or event) occurred.
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

@@ -23,6 +23,7 @@ data:
     definition: device that temporarily changes the actual scale interval, d, to a
       value less than the verification interval, e, following a manual command
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

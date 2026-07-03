@@ -36,6 +36,7 @@ data:
       basis of the maximum permissible error applicable to the calculator.
     - 3. When a device is used for measuring two or more principal measurands (a calculator
       for example), it has a significant fault for each measurand.
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

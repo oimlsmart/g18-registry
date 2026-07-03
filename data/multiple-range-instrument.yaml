@@ -25,6 +25,7 @@ data:
       capacities and different scale intervals for the same load receptor, each range
       extending from zero to its maximum capacity
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -39,6 +40,7 @@ data:
       capacities and different scale intervals for the same load receptor, each range
       extending from zero to its maximum capacity
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

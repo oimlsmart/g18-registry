@@ -24,6 +24,7 @@ data:
     definition: part of a measuring device, directly affected by the flow of the liquid
       to be measured and which converts the flow into a signal destined for the transducer
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -37,6 +38,7 @@ data:
     definition: part of a measuring device, directly affected by the flow of the liquid
       to be measured, which converts the flow into a signal destined for the transducer
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

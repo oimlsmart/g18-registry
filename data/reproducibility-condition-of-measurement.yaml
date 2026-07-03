@@ -40,6 +40,7 @@ data:
     - 'Note 1: Different measuring systems may use different measurement procedures.'
     - 'Note 2: A specification should give the conditions changed and unchanged, to
       the extent practical.'
+    examples: []
     consistency: pending
     consistency_reason: ''
     related:
@@ -59,6 +60,7 @@ data:
       different locations, operators, measuring systems, and replicate measurements
       on the same or similar objects (OIML V 2-200, 2.24)
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -76,6 +78,7 @@ data:
     - 'Note 1: Different measuring systems may use different measurement procedures.'
     - 'Note 2: A specification should give the conditions changed and unchanged, to
       the extent practical.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -94,6 +97,7 @@ data:
     - NOTE 2 A specification should give the conditions changed and unchanged, to
       the extent practical. For the tests in this Recommendation, the conditions changed
       and unchanged are summarized in R 146-2, Annex A, A.3.4.
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

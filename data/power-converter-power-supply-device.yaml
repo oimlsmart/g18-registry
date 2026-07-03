@@ -25,6 +25,7 @@ data:
       suitable for other sub assemblies
     notes:
     - "(OIML D 11:2004, 3.22)"
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -38,6 +39,7 @@ data:
     definition: sub-assembly converting the voltage from the mains power to a voltage
       suitable for other sub-assemblies
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -51,6 +53,7 @@ data:
     definition: sub-assembly converting the voltage from the mains power to a voltage
       suitable for other sub-assemblies
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -64,6 +67,7 @@ data:
     definition: sub-assembly converting the voltage from the mains power to a voltage
       suitable for other sub-assemblies
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -77,6 +81,7 @@ data:
     definition: sub assembly converting the voltage from the mains power to a voltage
       suitable for other sub-assemblies [OIML D 11:2004, 3.22]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

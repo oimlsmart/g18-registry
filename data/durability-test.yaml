@@ -24,6 +24,7 @@ data:
     definition: test intended to verify whether the EUT is able to maintain its performance
       characteristics over a period of use
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -37,6 +38,7 @@ data:
     definition: a test to verify whether the EUT is capable of maintaining its performance
       characteristics over a period of use
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -50,6 +52,7 @@ data:
     definition: a test intended to verify whether the EUT is capable of maintaining
       its performance characteristics over a period of use
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -64,6 +67,7 @@ data:
       is able to maintain its performance characteristics over a period of use [SOURCE:
       OIML D 11:2013, 3.21.5] [8].'
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -77,6 +81,7 @@ data:
     definition: test intended to verify whether the EUT is able to maintain its performance
       characteristics over a period of use [VIML:2013, 5.22]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -90,6 +95,7 @@ data:
     definition: test intended to verify whether the EUT is able to maintain its performance
       characteristics over a period of use [OIML D 11, 3.20.4]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -101,8 +107,9 @@ data:
     link:
     g18_entry: 02246-D011
     definition: test intended to verify whether the EUT is able to maintain its performance
-      characteristics over a period of use [VIML 5.22]
+      characteristics over a period of use
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

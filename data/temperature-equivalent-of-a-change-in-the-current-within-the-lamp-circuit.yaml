@@ -24,6 +24,7 @@ data:
     definition: change in a value of radiance temperature (in °C) of the tungsten
       ribbon caused by a given change in the current within its circuit
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -42,6 +43,7 @@ data:
       of the ribbon after the field of view has been displaced within the specified
       limits
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

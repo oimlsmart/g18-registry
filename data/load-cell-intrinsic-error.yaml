@@ -32,6 +32,7 @@ data:
     definition: rrror of a load cell, determined under reference conditions (see 2.5.3)
       [Adapted from VIM:1993, 5.24]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
     related:
@@ -49,6 +50,7 @@ data:
     g18_entry: '03201'
     definition: error resulting from a load cel, determined under reference conditions
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

@@ -23,6 +23,7 @@ data:
     definition: body that performs inspection (ISO/IEC 17020, 3.5)
     notes:
     - 'Note: An inspection body can be an organisation, or part of an organisation.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -40,6 +41,7 @@ data:
       Authorities, Utilizers and Associates to demonstrate their competence. OIML
       guidance to subclause 3.5 (G.3.5-1)
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

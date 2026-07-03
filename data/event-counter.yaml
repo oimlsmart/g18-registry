@@ -23,6 +23,7 @@ data:
     g18_entry: '02188'
     definition: non resettable counter that increments each time an event occurs
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -35,6 +36,7 @@ data:
     g18_entry: '03052'
     definition: non-resettable counter that increments each time an event occurs
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

@@ -8,6 +8,9 @@ data:
     text: durability protection facility
   kind: undefined
   official_concept:
+    source: OIML D011:2004
+    id: '3.19'
+    url:
   editions_present:
   - '2010'
   - 202X
@@ -24,6 +27,7 @@ data:
     definition: facility that is incorporated in a measuring instrument and which
       enables significant durability errors to be detected and acted upon
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -36,10 +40,15 @@ data:
     g18_entry: '01874'
     definition: facility that is incorporated in a measuring instrument which enables
       the detection of and action upon significant durability errors
-    notes:
-    - "[OIML D 11, 3.19]"
+    notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
+    related:
+    - type: see
+      ref:
+        source: OIML D011:2004
+        id: '3.19'
   - edition: 202X
     publication: OIML D011:2013
     publication_id: OIML D011:2013
@@ -53,6 +62,7 @@ data:
     notes:
     - Note:“Act upon” refers to any adequate response by the measuring instrument
       (luminous signal, acoustic signal, prevention of the measurement process, etc.).
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -66,9 +76,14 @@ data:
     definition: facility that is incorporated in a measuring instrument which enables
       the detection of and action upon significant durability errors
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current
 id: dadbfd4a-fe2f-57a7-8c44-cba4dfd081ba
 schema_version: '3'
-related: []
+related:
+- type: see
+  ref:
+    source: OIML D011:2004
+    id: '3.19'

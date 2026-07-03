@@ -23,6 +23,7 @@ data:
     definition: value specified in this Recommendation delimiting non-significant
       faults [OIML V1:2013, 5.13]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -36,6 +37,7 @@ data:
     definition: value specified in this Recommendation delimiting non-significant
       faults [OIML V1, 5.12]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -48,6 +50,7 @@ data:
     g18_entry: '03070'
     definition: value delimiting non-significant faults [VIML 5.13]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -61,6 +64,7 @@ data:
     definition: value specified (in this Recommendation) delimiting non-significant
       faults [VIML:2013, 5.13]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -74,6 +78,7 @@ data:
     definition: value specified in the applicable Recommendation delimiting non-significant
       faults (VIML, 5.13)
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -85,8 +90,9 @@ data:
     link:
     g18_entry: 02225-D011
     definition: value specified in the applicable Recommendation delimiting non-significant
-      faults [VIML 5.13]
+      faults
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

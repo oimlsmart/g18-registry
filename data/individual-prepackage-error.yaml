@@ -24,6 +24,7 @@ data:
     definition: difference between the actual quantity of product in a prepackage
       and its nominal quantity
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -40,6 +41,7 @@ data:
     - Note:The individual prepackage error for a prepackage “i” is designated by the
       symbol Ei or ei and can be calculated by Ei = Qi – Qnom or by ei = qi – Qnom
       where Qnom is the nominal quantity.
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

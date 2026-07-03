@@ -34,6 +34,7 @@ data:
       with supplementary device(s)
     notes:
     - "[VIM:1993, 4.1]"
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -48,6 +49,7 @@ data:
       with supplementary device(s)
     notes:
     - "[VIM:1993, 4.1]"
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -61,6 +63,7 @@ data:
     definition: device intended to be used to make measurements, alone or in conjunction
       with supplementary device(s) (VIM:1993, 4.1)
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
     related:
@@ -77,18 +80,19 @@ data:
     link: https://www.oiml.org/en/files/pdf_D/d015-e86.pdf
     g18_entry: '00258'
     definition: a device intended to make a measurement, alone or in conjunction with
-      other equipment [VIM, 4.01]
+      other equipment
     notes:
     - 'In this Document, the term measuring instrument is used as a common denomination
       covering: material measures, measuring instruments, measuring transducers and
       measuring systems.'
+    examples: []
     consistency: pending
     consistency_reason: ''
     related:
     - type: see
       ref:
-        source: urn:oiml:pub:v:2:1993
-        id: '4.1'
+        source: urn:oiml:pub:v:2:1984
+        id: '4.01'
   - edition: 202X
     publication: OIML D031:2023
     publication_id: OIML D031:2023
@@ -100,6 +104,7 @@ data:
     definition: device used for making measurements, alone or in conjunction with
       one or more supplementary devices adapter from [OIML V 1:2022, 0.10]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -111,11 +116,12 @@ data:
     link:
     g18_entry: '03277'
     definition: device used for making measurements, alone or in conjunction with
-      one or more supplementary devices [VIM, 3.1]
+      one or more supplementary devices
     notes:
     - 'Note 1:  A measuring instrument that can be used alone is a measuring system.
       Note 2: A measuring instrument that may be an indicationg measuring instrumentor
       material measure.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -132,6 +138,7 @@ data:
     - 'Note 1:  A measuring instrument that can be used alone is a measuring system.
       Note 2: A measuring instrument that may be an indicationg measuring instrumentor
       material measure.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -146,6 +153,7 @@ data:
       one or more supplementary devices [VIM 3.1]
     notes:
     - 'Note: A measuring instrument that can be used alone is a measuring system.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -173,6 +181,7 @@ data:
       of only one measuring instrument. VIM 3.6 – material measure measuring instrument
       reproducing or supplying, in a permanent manner during its use, quantities of
       one or more given kinds, each with an assigned quantity value
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -186,6 +195,7 @@ data:
     definition: device intended to be used to make measurements, alone or in  conjunction
       with supplementary device(s) [VIM:1993, 4.1]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -202,6 +212,7 @@ data:
     - 'Note 1  In this Document, the term measuring instrument is used as a common
       denominationcovering: material measures, measuring instruments, measuring transducers
       and  measuring  systems.'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current
@@ -218,3 +229,7 @@ related:
     vocab: vim
     role: legacy
     year: 1993
+- type: see
+  ref:
+    source: urn:oiml:pub:v:2:1984
+    id: '4.01'

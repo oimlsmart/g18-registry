@@ -29,6 +29,7 @@ data:
       storage, or inserting via an interface. (2) "Predetermined" means that a tare
       value is determined once and is applied to other weighings without determining
       the individual tare values.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -45,6 +46,7 @@ data:
     notes:
     - 'Note : “introduced” includes procedures such as keying in, recalling from a
       data storage device, or inserting via an interface.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -63,6 +65,7 @@ data:
       a data storage, or inserting via an interface. Note 2: “Predetermined” means
       that a tare value is determined once and is applied to other weighings without
       determining the individual tare values.'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

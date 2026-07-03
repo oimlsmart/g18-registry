@@ -24,6 +24,7 @@ data:
     definition: device for setting the indication to zero automatically at the time
       the instrument is switched on and before it is ready for use
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -37,6 +38,7 @@ data:
     definition: device for setting the indication to zero automatically at the time
       the instrument is switched on and before it is ready for use
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -50,6 +52,7 @@ data:
     definition: device for automatically setting the indication to zero at the time
       the filling instrument is switched on and before it is ready for use
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -63,6 +66,7 @@ data:
     definition: device for setting the indication to zero automatically at the time
       the instrument is switched on and before it is ready for use
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -76,6 +80,7 @@ data:
     definition: device for setting the indication to zero automatically at the time
       the instrument is switched on or reset and before it is ready for use
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -89,6 +94,7 @@ data:
     definition: device for setting the indication to zero automatically at the time
       the instrument is switched on and before it is ready for use
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -102,6 +108,7 @@ data:
     definition: device for setting the indication to zero automatically at the time
       the instrument is switched on and before it is ready for use
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -115,6 +122,7 @@ data:
     definition: device for setting the indication to zero automatically at the time
       the instrument is switched on and before it is ready for use
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

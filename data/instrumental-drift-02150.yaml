@@ -28,6 +28,7 @@ data:
       during a stated period of time at a given concentration of SO2 in a sample to
       be analyzed.
     - 2. (VIM:2007, 4.21)
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -43,6 +44,7 @@ data:
     notes:
     - 'Note: Instrumental drift is related neither to a change in quantity being measured
       nor to a change of any recognized influence quantity.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -60,6 +62,7 @@ data:
     - 'Note: In this Recommendation, “drift” means a change in the indication which
       occurs during a stated period of time at a given concentration of CO, NO and
       NO2 in a sample to be analyzed.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -76,6 +79,7 @@ data:
     - 'Note 1: In this Recommendation, “drift” means a change in the indication which
       occurs during a stated period of time at a given concentration of SO2 in a sample
       to be analyzed. Note 2:. [VIM:2007, 4.21]'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

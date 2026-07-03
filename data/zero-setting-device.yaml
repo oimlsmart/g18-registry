@@ -24,6 +24,7 @@ data:
     definition: device for setting the indication to zero when there is no load on
       the load receptor
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -37,6 +38,7 @@ data:
     definition: device for setting the indication to zero when there is no load on
       the load receptor
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -49,6 +51,7 @@ data:
     g18_entry: '00919'
     definition: device for maintaining the zero indication within certain limits automatically
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

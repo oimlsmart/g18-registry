@@ -123,6 +123,21 @@ const symbols = computed(() =>
 const abbreviations = computed(() =>
   Array.from(new Set(designations.value.filter(d => d.type === "abbreviation").map(d => d.text as string)))
 );
+
+// Examples: merged across all publication instances (deduped by text).
+const allExamples = computed(() => {
+  const seen = new Set<string>();
+  const out: { text: string; citation?: string }[] = [];
+  for (const p of term.value?.publications || []) {
+    for (const ex of p.examples || []) {
+      const text = (ex || "").trim();
+      if (!text || seen.has(text)) continue;
+      seen.add(text);
+      out.push({ text });
+    }
+  }
+  return out;
+});
 </script>
 
 <template>
@@ -181,6 +196,13 @@ const abbreviations = computed(() =>
           <dd><code>{{ abbr }}</code></dd>
         </div>
       </dl>
+    </section>
+
+    <section class="card" v-if="allExamples.length">
+      <h2>Examples</h2>
+      <ul class="examples-list">
+        <li v-for="(ex, i) in allExamples" :key="i">{{ ex.text }}<span class="muted" v-if="ex.citation"> — {{ ex.citation }}</span></li>
+      </ul>
     </section>
 
     <section v-if="actions.length" class="card">
@@ -260,14 +282,23 @@ const abbreviations = computed(() =>
       <!-- Flat mode: original table -->
       <template v-else>
         <table>
-          <thead><tr><th>Ed.</th><th>Year</th><th>Publication</th><th>Clause</th><th>Definition</th><th>Consistency</th></tr></thead>
+          <thead><tr><th>Ed.</th><th>Year</th><th>Publication</th><th>Clause</th><th>G 18 #</th><th>Definition</th><th>Notes</th><th>Examples</th><th>Source</th><th>Consistency</th></tr></thead>
           <tbody>
             <tr v-for="p in term.publications" :key="p.g18_entry" v-show="rowVisible(p)" :class="{ 'row-divergent': distinctDefs.length > 1 && p.definition?.trim() !== distinctDefs[0] }">
               <td><span :class="['edition-pill', `edition-${p.edition?.toLowerCase()}`]">{{ p.edition }}</span></td>
               <td class="num">{{ p.year }}</td>
               <td><SLink :to="`/publications/${p.publication_id}/`">{{ p.publication }}</SLink></td>
               <td class="num">{{ p.clause }}</td>
+              <td class="num"><code>{{ p.g18_entry }}</code></td>
               <td style="max-width:540px"><div style="white-space:pre-wrap">{{ p.definition }}</div></td>
+              <td v-if="(p.notes || []).length" style="max-width:320px"><ul class="inline-notes"><li v-for="(n, ni) in p.notes" :key="ni">{{ n }}</li></ul></td>
+              <td v-else class="muted">—</td>
+              <td v-if="(p.examples || []).length" style="max-width:320px"><ul class="inline-notes"><li v-for="(x, xi) in p.examples" :key="xi">{{ x }}</li></ul></td>
+              <td v-else class="muted">—</td>
+              <td>
+                <a v-if="p.link" :href="p.link" class="external">PDF ↗</a>
+                <span v-else class="muted">—</span>
+              </td>
               <td><span :class="['badge', `badge-${p.consistency || 'pending'}`]">{{ p.consistency || "pending" }}</span></td>
             </tr>
           </tbody>
@@ -343,4 +374,8 @@ const abbreviations = computed(() =>
   .designations { grid-template-columns: 1fr; gap: 0.1em 0; }
   .designations dt { font-size: 0.78em; text-transform: uppercase; letter-spacing: 0.04em; margin-top: 0.4em; }
 }
+.examples-list { margin: 0; padding-left: 1.2em; }
+.examples-list li { padding: 0.25em 0; line-height: 1.45; }
+.inline-notes { margin: 0; padding-left: 1.1em; }
+.inline-notes li { padding: 0.15em 0; font-size: 0.88em; line-height: 1.4; }
 </style>

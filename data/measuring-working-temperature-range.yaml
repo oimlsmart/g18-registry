@@ -24,6 +24,7 @@ data:
     definition: set of values of temperature for which the error of the thermometer
       is intended to lie within specified limits
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -37,6 +38,7 @@ data:
     definition: set of values of temperature for which the error of the thermometer
       is intended to lie within specified limits
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

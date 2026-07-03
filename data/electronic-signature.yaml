@@ -30,6 +30,7 @@ data:
       key ise used when software or data are verified before use. Note 3: The veryfing
       instance may require a cryptographic certufucate of the securing instance (see
       3.1.7) to be sure of the authenticity of the public key.'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

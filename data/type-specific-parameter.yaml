@@ -27,6 +27,7 @@ data:
       parameters are: parameters used for mass calculation, stability analysis or
       price calculation and rounding, software identification'
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -43,6 +44,7 @@ data:
     notes:
     - 'Note: Examples of type-specific parameters are: parameters used for mass calculation,
       stability analysis or price calculation and rounding, software identification'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

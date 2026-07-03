@@ -26,6 +26,7 @@ data:
       and, if appropriate, stores the results in memory until they are used. In addition,
       the calculator may be capable of communicating both ways with other devices
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -41,6 +42,7 @@ data:
       if appropriate, stores the results in memory until they are used. In addition,
       the calculator may be capable of communicating both ways with ancillary devices
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -62,6 +64,7 @@ data:
       the value to a mechanical indicating device, an electronic calculator which
       also calculates the volume at metering conditions, associated with an electronic
       indicating device, and another one to calculate the converted value.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -77,6 +80,7 @@ data:
       appropriate, stores the results in memory until they are used. In addition,
       the calculator may be capable of communicating both ways with ancillary devices
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -92,6 +96,7 @@ data:
       and, if appropriate, stores the results in memory until they are used. In addition,
       the calculator may be capable of communicating both ways with ancillary devices
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -105,6 +110,7 @@ data:
     definition: a sub-assembly which receives signals from the flow sensor and the
       temperature sensors and calculates and indicates the quantity ofheat exchanged
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -120,6 +126,7 @@ data:
       used. Additionally, the calculator may be capable of communicating both ways
       with the peripheral equipment
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -135,6 +142,7 @@ data:
       are used. In addition, the calculator may be capable of communicating both ways
       with peripheral equipment
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -152,6 +160,7 @@ data:
     - Note 1:The gearing is considered to be the calculator in a mechanical meter.
       Note 2:The calculator may be capable of communicating both ways with ancillary
       devices.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -168,6 +177,7 @@ data:
       elements or they may form a single unit. Only where there is a particular need
       to dissociate the two kinds of calculators is the association of both functions
       called the calculator in this Recommendation.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -184,6 +194,7 @@ data:
     notes:
     - 'Note:  In addition, the calculator may be capable of communicating both ways
       with ancillary devices'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -199,6 +210,7 @@ data:
       and, if appropriate, stores the results in memory until they are used. In addition,
       the calculator may be capable of communicating both ways with ancillary devices
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -214,6 +226,7 @@ data:
       and, if appropriate, stores the results in memory until they are used. In addition,
       the calculator may be capable of communicating both ways with other devices
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -235,6 +248,7 @@ data:
       transmits the value to a mechanical indicating device, an electronic calculator
       which also calculates the volume at metering conditions, associated with an
       electronic indicating device, and another one to calculate the converted value'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -248,6 +262,7 @@ data:
     definition: a sub-assembly which receives signals from the flow sensor and the
       temperature sensors and calculates and indicates the quantity of heat exchanged
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -263,6 +278,7 @@ data:
       used. Additionally, the calculator may be capable of communicating both ways
       with the peripheral equipment
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -279,6 +295,7 @@ data:
       elements or they may form a single unit. Only where there is a particular need
       to dissociate the two kinds of calculators is the association of both functions
       called the calculator in this Recommendation.'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

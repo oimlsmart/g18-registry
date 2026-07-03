@@ -28,6 +28,7 @@ data:
       coherent SI unit is the watt (W). an optical cell containing the solution used
       as reference and reaching the detector
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -42,6 +43,7 @@ data:
       optical cell containing the solution used as reference and reaching the detector
     notes:
     - 'Note:  The coherent SI unit is the watt (W).'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

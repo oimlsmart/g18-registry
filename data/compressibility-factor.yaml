@@ -24,6 +24,7 @@ data:
     definition: parameter which indicates the deviation from the ideal gas
     notes:
     - "(see ISO 12213-1)"
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -37,6 +38,7 @@ data:
     definition: parameter which indicates the deviation from the ideal gas
     notes:
     - "(see ISO 12213-1)"
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

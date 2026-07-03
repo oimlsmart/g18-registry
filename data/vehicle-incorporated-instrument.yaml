@@ -27,6 +27,7 @@ data:
     notes:
     - For example, a front-end loader (front-end loading vehicle) that determines
       the quantity of loose material held in the bucket (load receptor).
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -43,6 +44,7 @@ data:
       (front-end loading vehicle) that determines the quantity of loose material held
       in the bucket (load receptor).
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

@@ -36,6 +36,7 @@ data:
     definition: difference of indication of a measuring system and the true value
       of the measurand
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -49,6 +50,7 @@ data:
     definition: indication of a weighing instrument minus the (conventional) true
       value of the mass
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
     related:
@@ -67,6 +69,7 @@ data:
     definition: the indication of a measuring instrument minus the true value of VIM:1993,
       5.20. the corresponding input quantity
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
     related:
@@ -87,6 +90,7 @@ data:
     notes:
     - Note:This reference value is sometimes referred to as a (conventional) true
       quantity value. See, however also OIML V 2-200:2012. 2.12, Note 1)
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -100,6 +104,7 @@ data:
     definition: indication minus a reference quantity value [OIML V 2-200:2012. 4.1]
       [OIML V 1:2013, 0.04]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -112,6 +117,7 @@ data:
     g18_entry: '03045'
     definition: indicated value minus a reference quantity value [VIML, 0.04]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -126,6 +132,7 @@ data:
     notes:
     - 'Note: This reference value is sometimes referred to as a (conventional) true
       quantity value. [VIML:2013, 0.04]'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -136,8 +143,9 @@ data:
     clause: '3.6'
     link:
     g18_entry: '02220'
-    definition: indication minus a reference quantity value [VIML 0.04]
+    definition: indication minus a reference quantity value
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -151,6 +159,7 @@ data:
     definition: indication of the measuring instrument minus the conventional true
       value of the corresponding input quantity [adapted from VIM:1993, 5.20].
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

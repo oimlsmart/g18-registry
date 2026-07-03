@@ -23,6 +23,7 @@ data:
     g18_entry: '01362'
     definition: largest discrete load that can be weighed automatically
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -36,6 +37,7 @@ data:
     definition: maximum weighing capacity, not taking into account the additive tare
       capacity
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -48,6 +50,7 @@ data:
     g18_entry: '03401'
     definition: maximum force that the force receptor is intended to measure
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -61,6 +64,7 @@ data:
     definition: largest discrete load that can be weighed automatically on a load
       receptor of the AGFI
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -73,6 +77,7 @@ data:
     g18_entry: '02584'
     definition: maximum permissible wagon mass.
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -85,6 +90,7 @@ data:
     g18_entry: '01362'
     definition: largest discrete load that can be weighed automatically
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -98,6 +104,7 @@ data:
     definition: maximum weighing capacity, not taking into account the additive tare
       capacity
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

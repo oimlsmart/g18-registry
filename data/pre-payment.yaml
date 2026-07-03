@@ -24,6 +24,7 @@ data:
     definition: type of payment requiring payment for a certain quantity of liquid
       before the delivery commences
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -37,6 +38,7 @@ data:
     definition: type of payment in attended or unattended service mode requiring payment
       for a quantity of gas before the delivery commences
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -50,6 +52,7 @@ data:
     definition: type of payment in attended or unattended service mode requiring payment
       for a quantity of gas before the delivery commences
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -63,6 +66,7 @@ data:
     definition: type of payment requiring payment for a certain quantity of liquid
       before the delivery commences
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

@@ -30,6 +30,7 @@ data:
       of a certificate of verification. When sampling is used to verify a population
       of weights, all elements in the population will be deemed verified
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

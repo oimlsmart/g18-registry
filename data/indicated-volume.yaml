@@ -25,6 +25,7 @@ data:
     g18_entry: '02249'
     definition: value of volume provided by the volume measuring system
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -38,6 +39,7 @@ data:
     definition: volume of water indicated by the meter, corresponding to the actual
       volume
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

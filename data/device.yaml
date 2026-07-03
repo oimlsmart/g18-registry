@@ -26,6 +26,7 @@ data:
       e.g. by a mechanism or a key initiating an operation; the device may be a small
       part or a major portion of an instrument
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -43,6 +44,7 @@ data:
       function is performed irrespective of the physical realization, e.g. by a mechanism
       or a key initiating an operation; the device may be a small part or a major
       portion of a measuring instrument.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -56,6 +58,7 @@ data:
     definition: a part of an instrument that performs a specific function. It is usually
       manufactured as a separate unit and is capable of being independently tested
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -70,6 +73,7 @@ data:
       A « device » may be an active or passive measuring instrument (as in VML 6.1)
       or a measurement standard (etalon)
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -86,6 +90,7 @@ data:
     - 'Note 1:  A device can either be a physical part or concern a function (for
       instance in the software). Note 2:  A “facility” can also be regarded as a device
       in accordance with this definition (see also note 4.2.4).'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -99,6 +104,7 @@ data:
     definition: identifiable instrument or part of an instrument or of a family of
       instruments that performs a specific function or functions (OIML D 11, 3.3.)
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -115,6 +121,7 @@ data:
     - 'Note:A device may be a stand-alone and complete measuring instrument (for example:
       counter scale, electricity meter) or a part of a measuring instrument (for example:
       printer, indicator).'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -131,6 +138,7 @@ data:
     - 'Note:A device may be a stand-alone and complete measuring instrument (for example:
       counter scale, electricity meter) or a part of a measuring instrument (for example:
       printer, indicator).'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -147,6 +155,7 @@ data:
     - 'Note:A device may be a stand-alone and complete measuring instrument (for example:
       counter scale, electricity meter) or a part of a measuring instrument (for example:
       printer, indicator).'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -162,6 +171,7 @@ data:
       e.g. by a mechanism or a key initiating an operation; the device may be a small
       part or a major portion of an instrument
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -178,6 +188,7 @@ data:
       a specific function is performed irrespective of the physical realization, e.g.
       by a mechanism or a key initiating an operation; the device may be a small part
       or a major portion of a measuring instrument.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -191,6 +202,7 @@ data:
     definition: a part of an instrument that performs a specific function. It is usually
       manufactured as a separate unit and is capable of being independently tested
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

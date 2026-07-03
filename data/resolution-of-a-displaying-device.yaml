@@ -26,6 +26,7 @@ data:
     - Note:For a digital device, this is the change in the indication when the least
       significant digit changes by one step. For an analogue device, this is half
       the difference between subsequent scale marks.
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

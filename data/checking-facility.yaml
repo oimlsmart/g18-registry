@@ -6,17 +6,11 @@ data:
   - type: expression
     status: preferred
     text: checking facility
-  kind: defined_in_viml
+  kind: undefined
   official_concept:
-    source: urn:oiml:pub:v:1:2022
-    id: '5.07'
-    url: https://oimlsmart.github.io/vocab/viml-2022/concept/5.07
-    definition_text: facility that is incorporated in a {{0.10,measuring instrument}}
-      and which enables {{5.14,significant faults}} to be detected and acted upon
-    edition_label: VIML 2022
-    vocab: viml
-    role: current
-    year: 2022
+    source: OIML D011:2004
+    id: '3.18'
+    url:
   editions_present:
   - '2010'
   - 202X
@@ -36,6 +30,7 @@ data:
     notes:
     - the measuring instrument (luminous signal, oustic signal, prevention of the
       asurement process, etc.).
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -52,6 +47,7 @@ data:
     notes:
     - ponse by the measuring instrument minous signal, acoustic signal, prevention
       the measurement process, etc.). (OIML D 11:2004, 3.18 [1])
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -66,11 +62,16 @@ data:
       1. "Acted upon" refers to any adequate enables significant faults to be detected
       and acted upon
     notes:
-    - response by the measuring instrument (luminous signal, acoustic signal, prevention
-      of the measurement process, etc.).
-    - 2. [OIML D 11:2004, 3.18]
+    - '"Acted upon" refers to any adequate response by the measuring instrument (luminous
+      signal, acoustic signal, prevention of the measurement process, etc.).'
+    examples: []
     consistency: pending
     consistency_reason: ''
+    related:
+    - type: see
+      ref:
+        source: OIML D011:2004
+        id: '3.18'
   - edition: '2010'
     publication: OIML R 85-1:2008
     publication_id: OIML R085-1:2008
@@ -86,6 +87,7 @@ data:
     notes:
     - the ALG (luminous signal, acoustic signal, evention of the measurement process,
       etc.).
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -102,6 +104,7 @@ data:
     notes:
     - by the instrument (luminous or acoustic signal, blocking of process, etc.);
     - 2. Adapted from OIML D 11:2004, 3.18.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -117,6 +120,7 @@ data:
       transmission, processing and/or indication of a measurement data to be detected
       and acted upon, and * enables significant faults to be detected and acted upon'
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -133,6 +137,7 @@ data:
     - The checking of a transmission device aims at verifying that all the information
       which is transmitted (and only that information) is fu received by the receiving
       equipment.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -149,6 +154,7 @@ data:
     - The checking of a transmission device aims at verifying that all the information
       which is transmitted (and only that information) is fu received by the receiving
       equipment.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -165,6 +171,7 @@ data:
     notes:
     - erifying that all the information which is ransmitted (and only that information)
       is fully eceived by the receiving equipment.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -181,6 +188,7 @@ data:
     notes:
     - the measuring instrument (luminous signal, oustic signal, prevention of the
       asurement process, etc.).
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -196,6 +204,7 @@ data:
     notes:
     - '"Acted upon" refers to any adequate response by the measuring instrument (luminous
       or acoustic signal, prevention of the measurement process, etc.).'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -212,6 +221,7 @@ data:
     notes:
     - verifying that all information that is transmitted (and only that information)
       is fully received by the receiving equipment.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -225,6 +235,7 @@ data:
     definition: facility that is incorporated in a measuring instrument and which
       enables significant faults to be detected and acted upon
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
     related:
@@ -245,6 +256,7 @@ data:
     notes:
     - 'Note: “Acted upon” refers to any adequate response by the measuring instrument
       (luminous signal, acoustic signal, prevention of the measurement process, etc.).'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -266,6 +278,7 @@ data:
       or blocking of the measurement process, etc.). Note 3: The checking of a transmission
       device aims to verify whether all the information which is transmitted (and
       only that information) is fully received by the receiving equipment.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -282,6 +295,7 @@ data:
     notes:
     - 'Note 1: “Acted upon” refers to any adequate response by the measuring instrument
       (luminous signal, acoustic signal, prevention of the measurement process, etc.).'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -301,6 +315,7 @@ data:
     - 'Note:  “Acted upon” refers to any adequate response by the measuring instrument
       (for example a luminous signal, an acoustic signal, interruption or blocking
       of the measurement process, etc.).'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -314,6 +329,7 @@ data:
     definition: facility incorporated in a measuring instrument which enables significant
       faults to be detected and acted upon (OIML D11, 3.3)
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -334,6 +350,7 @@ data:
       in significant faults, and/or •incorrect functioning of a specific device of
       the measuring instrument, and/or •disturbed communication between specific devices
       of the measuring instrument.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -349,6 +366,7 @@ data:
       processing and/or indication of a measurement data to be detected and acted
       upon, and - enables significant faults to be detected and acted upon
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -364,6 +382,7 @@ data:
     notes:
     - 'Note: "Acted upon" refers to any adequate response by the measuring instrument
       (luminous signal, acoustic signal, prevention of the measurement process, etc.).'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -379,6 +398,7 @@ data:
     notes:
     - 'Note: “Acted upon” refers to any adequate response by the measuring instrument
       (luminous signal, acoustic signal, prevention of the measurement process, etc.).'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -398,6 +418,7 @@ data:
       refers to any adequate response by the measuring instrument (for example: a
       luminous signal, an acoustic signal, interruption or blocking of the measurement
       process, etc.).'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -411,6 +432,7 @@ data:
     definition: facility that is incorporated in a measuring instrument and which
       enables significant faults to be detected and acted upon
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -433,6 +455,7 @@ data:
       the fault and the amount of energy measured during the fault. Note 3Faults that
       are detected and acted upon by means of a checking facility shall not be considered
       as significant faults.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -448,6 +471,7 @@ data:
     notes:
     - 'Note: "Acted upon" refers to any adequate response by the measuring instrument
       (luminous signal, acoustic signal, prevention of the measurement process, etc.).'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -464,6 +488,7 @@ data:
     - 'Note 1:  “Acted upon” refers to any adequate response by the measuring instrument
       (luminous signal, acoustic signal, prevention of the measurement process, etc.).
       Note 2: (OIML D 11:2004, 3.18 [1])'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -481,6 +506,7 @@ data:
     notes:
     - 'Note 1: “Acted upon” refers to any adequate response by the ALG (luminous signal,
       acoustic signal,prevention of the measurement process, etc.).'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -497,6 +523,7 @@ data:
     - 'Note: “Acted upon” means any adequate response by the instrument (luminous
       or acoustic signal, blocking of process, etc.); Adapted from OIML D 11:2004,
       3.18.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -513,6 +540,7 @@ data:
     - 'Note: The checking of a transmission device aims at verifying that all the
       information which is transmitted (and only that information) is fully received
       by the receiving equipment.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -528,12 +556,17 @@ data:
     notes:
     - 'Note: “Acted upon” refers to any adequate response by the measuring instrument
       (luminous or acoustic signal, prevention of the measurement process, etc.).'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current
 id: 93619d68-effb-5821-9908-1af53ac3f542
 schema_version: '3'
 related:
+- type: see
+  ref:
+    source: OIML D011:2004
+    id: '3.18'
 - type: see
   ref:
     source: urn:oiml:pub:v:1:2022

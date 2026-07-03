@@ -26,6 +26,7 @@ data:
     notes:
     - 'Note: For AGFIs which accomplish the fill by more than one weighing cycle Minfill
       is larger than the minimum capacity, Min.'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

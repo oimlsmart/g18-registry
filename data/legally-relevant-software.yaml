@@ -24,6 +24,7 @@ data:
     definition: any part of the software, including stored parameters, which has aninfluence
       on the calculated, displayed, transmitted, or stored measurement result
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -38,6 +39,7 @@ data:
       belong to the taximeter, and define or fulfill functions that are subject to
       legal control
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -55,6 +57,7 @@ data:
     notes:
     - l results of the weighing including the imal sign and the unit, identification
       of the ghing range and the load receptor (if eral load receptors have been used).
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -73,6 +76,7 @@ data:
     - gross, net and tare / preset tare value luding the decimal sign and the unit),
       tification of the weighing range and the receptor (if several load receptors
       have used), software identification.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -86,6 +90,7 @@ data:
     definition: all software modules of measuring instrument or component that are
       subject to legal control
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -98,6 +103,7 @@ data:
     g18_entry: '03667'
     definition: part of the software that is subject to legal control (VIML, 6.10)
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -114,6 +120,7 @@ data:
       final results of the measurement including the decimal sign and the unit, identification
       of the weighing range and the load receptor(s)'
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -127,6 +134,7 @@ data:
     definition: any part of the software, including stored parameters, which has an
       influence on the calculated, displayed, transmitted, or stored measurement result
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -141,6 +149,7 @@ data:
       belong to the taximeter, and define or fulfill functions that are subject to
       legal control
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -158,6 +167,7 @@ data:
       of the weighing range and the load receptor (if several load receptors have
       been used).'
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -175,6 +185,7 @@ data:
       the unit), identification of the weighing range and the load receptor (if several
       load receptors have been used), software identification.'
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

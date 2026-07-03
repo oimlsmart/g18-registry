@@ -24,6 +24,7 @@ data:
     definition: "(e catchweigher that labels individual pre-assembled discrete loads
       .g. prepackages) with the weight value"
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -37,6 +38,7 @@ data:
     definition: catchweigher that labels individual pre-assembled discrete loads (e.g.
       prepackages) with the weight value
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

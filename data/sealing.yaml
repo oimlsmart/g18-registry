@@ -25,6 +25,7 @@ data:
       modification, readjustment, removal of parts, software, etc. It can be achieved
       by hardware, software or a combination of both
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -40,6 +41,7 @@ data:
       2.20]
     notes:
     - 'Note: This may be achieved by hardware, software or a combination of both.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -54,6 +56,7 @@ data:
       modification, readjustment, removal of parts, software, etc. [VIML 2.20]
     notes:
     - "(For notes, refer to her VIML)"
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -68,6 +71,7 @@ data:
       modification, readjustment, removal of parts, software, etc. (OIML V 1, 2.20)
     notes:
     - 'Note: This may be achieved by hardware, software or a combination of both.'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

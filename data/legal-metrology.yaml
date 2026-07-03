@@ -33,9 +33,9 @@ data:
     g18_entry: '00183'
     definition: part of metrology relating to activities which result from statutory
       requirements and concern measurement, units of measurement, measuring instruments
-      and methods of measurement and which are performed by competent bodies [VIML,
-      1.2]
+      and methods of measurement and which are performed by competent bodies
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
     related:
@@ -52,7 +52,7 @@ data:
     link:
     g18_entry: '03182'
     definition: practice and process of applying statutory and regulatory structure
-      and enforcement to metrology [VIML, 1.01]
+      and enforcement to metrology
     notes:
     - Note 1 The scope of legal metrology may be different from country to country.
       Note 2 Legal metrology includes setting up legal requirements, control/conformity
@@ -62,6 +62,7 @@ data:
       SI or national standards. Note 3 There are also regulations outside the area
       of legal metrology pertaining to the accuracy and correctness of measurement
       methods.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -76,6 +77,7 @@ data:
       and enforcement to metrology
     notes:
     - "(for notes, refer to the VIML)"
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -89,6 +91,7 @@ data:
     definition: practice and process of applying statutory and regulatory structure
       and enforcement to metrology (form VIML, 1.01)
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -101,12 +104,12 @@ data:
     g18_entry: 02254-D016
     definition: part of metrology related to activities which result from statutory
       requirements and concern measurement, units of measurement, measuring instruments
-      and methods of measurement and which are performed by competent bodies [VIML
-      1.2]
+      and methods of measurement and which are performed by competent bodies
     notes:
     - 'Note 1: The scope of legal metrology may be different from country to country.'
     - 'Note 2: The competent bodies responsible for legal metrology activities or
       part of these activities are usually called legal metrology services.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -119,9 +122,9 @@ data:
     g18_entry: '00183'
     definition: part of metrology relating to activities which result from statutory
       requirements and concern measurement, units of measurement, measuring instruments
-      and methods of measurement and which are performed by competent bodies [VIML,
-      1.2]
+      and methods of measurement and which are performed by competent bodies
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

@@ -8,6 +8,9 @@ data:
     text: significant durability error
   kind: undefined
   official_concept:
+    source: OIML D011:2004
+    id: '3.12'
+    url:
   editions_present:
   - '2010'
   - 202X
@@ -34,6 +37,7 @@ data:
       concept of significant durability error applies only to electronic parts. (2)
       For a multi-interval instrument, the value of e is that appropriate to the partial
       weighin range.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -54,6 +58,7 @@ data:
       wrong that it is bound to be noticed by all those intereste in the result of
       the measurement; or (d) A durability error cannot be detected and acted upon
       due to a breakdown of the appropriate durability protection facility.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -66,10 +71,15 @@ data:
     g18_entry: '01873'
     definition: durability error greater than the value specified in the appropriate
       Recommendation
-    notes:
-    - "[OIML D 11, 3.12]"
+    notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
+    related:
+    - type: see
+      ref:
+        source: OIML D011:2004
+        id: '3.12'
   - edition: '2010'
     publication: OIML R 105:1993
     publication_id: OIML R105:1993
@@ -85,6 +95,7 @@ data:
       as a measurement result, – the indication is such that it is impossible to perform
       any measurement'
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -98,6 +109,7 @@ data:
     definition: durability error exceeding the value specified in this Recommendation
       [OIML V 1:2013, 5.17]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -112,6 +124,7 @@ data:
       [VIML 5.17]
     notes:
     - "(For notes, refer to the VIML)"
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -123,7 +136,6 @@ data:
     link:
     g18_entry: '02228-D011'
     definition: durability error exceeding the value specified in the applicable Recommendation
-      [VIML 5.17]
     notes:
     - 'Note:Some durability errors exceeding the value specified may still be considered
       not significant. The applicable Recommendation shall state when such exception
@@ -134,6 +146,7 @@ data:
       be noticed by all those interested in the result of the measurement; or (d)a
       durability error cannot be detected and acted upon due to a breakdown of the
       appropriate durability protection facility.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -156,6 +169,7 @@ data:
       and ageing of electronic parts. The concept of significant durability error
       applies only to electronic parts. For a multi-interval instrument, the value
       of e is that appropriate to the partial weighing range'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -169,9 +183,14 @@ data:
     definition: durability error greater than the value specified in the appropriate  Recommendation
       [OIML D 11, 3.12]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current
 id: cffbcb47-d791-53ed-917c-eb654aca5231
 schema_version: '3'
-related: []
+related:
+- type: see
+  ref:
+    source: OIML D011:2004
+    id: '3.12'

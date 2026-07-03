@@ -25,6 +25,7 @@ data:
       assembly subject to legal control. The following types of legally relevant parameters
       can be distinguished: type-specific parameters and device-specific parameters'
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -39,6 +40,7 @@ data:
       control. The following types of legally relevant parameters can bedistinguished:
       type-specific parameter and device-specific parameter'
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -55,6 +57,7 @@ data:
       device-specific'
     notes:
     - "(under T.2.8: Software)"
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -69,6 +72,7 @@ data:
       control. The following types of legally relevant parameters can bedistinguished:
       type-specific parameters and device-specific parameters'
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -84,6 +88,7 @@ data:
     notes:
     - 'Note: The following types of legally relevant parameters can be distinguished:
       type-specific parameters and device-specific parameters.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -99,6 +104,7 @@ data:
     notes:
     - 'Note: The following types of legally relevant parameters can be distinguished:
       type-specific parameters and device-specific parameters.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -114,6 +120,7 @@ data:
     notes:
     - 'Note: The following types of legally relevant parameters can be distinguished:
       type-specific parameters and device-specific parameters.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -129,6 +136,7 @@ data:
     notes:
     - 'Note: The following types of legally relevant parameters can be distinguished:
       type-specific parameters and device-specific parameters (VIML, 4.10).'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -143,6 +151,7 @@ data:
       control the following types of legally relevant parameters can be distinguished:
       type-specific parameters and device-specific parameters'
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -157,6 +166,7 @@ data:
       control. The following types of legally relevant parameters can be distinguished:
       type-specific parameter and device-specific parameter'
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -173,6 +183,7 @@ data:
       device-specific'
     notes:
     - "(under T.2.8: Software)"
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -187,6 +198,7 @@ data:
       control. The following types of legally relevant parameters can be distinguished:
       type-specific parameters and device-specific parameters'
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

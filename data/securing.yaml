@@ -24,6 +24,7 @@ data:
     definition: to prevent unauthorized access to the device's hardware or software
       part
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -38,6 +39,7 @@ data:
       form [OIML V 1:2022, 2.21]
     notes:
     - 'Note: This may be achieved by means of passwords.'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

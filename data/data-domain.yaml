@@ -31,6 +31,7 @@ data:
       C/C++, etc.) it is easy to separate the data domain of one software module from
       access by any other software modules by means of the language'
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -44,6 +45,7 @@ data:
     definition: location in memory that each program needs for processing data
     notes:
     - 'Note: Data domains may belong to one software module only, or to several.'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

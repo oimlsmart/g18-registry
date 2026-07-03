@@ -33,6 +33,7 @@ data:
       quantity value according to V 2:200:2012) is used for the legally relevant purpousae,
       e.g. conclusion of transaction. Note 3: See Annex C for clarification regarding
       measurement-related terms.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -58,6 +59,7 @@ data:
       and in the precious edition of the VIM, measurement result was defined as value
       attributed to a measurand and explained to mean an indication, or an uncorrected
       result, or a correxcted result, according to the context.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -71,6 +73,7 @@ data:
     definition: set of quantity values being attributed to a measurand together with
       any other available relevant information (VIM 2.9)
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

@@ -28,6 +28,7 @@ data:
     - For a gas analyzer this is the time between the instant at which power is applied
       to it and th instant at which the measurement result of the volume fraction,
       a CGM being supplied to the input, is within the permissible limits.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -42,6 +43,7 @@ data:
       and the moment at which the instrument is capable of complying with the metrological
       requirements
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -56,6 +58,7 @@ data:
       the moment at which the instrument is capable of complying with the requirements
       of this Recommendation
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -69,6 +72,7 @@ data:
     definition: time between the moment at which power is applied to the instrument
       and the moment at which the instrument is capable of complying with the requirements
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -83,6 +87,7 @@ data:
       moment at which the instrument is capable of complying with the requirements
       of this Recommendation
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -96,6 +101,7 @@ data:
     definition: time between the moment at which power is applied to an instrument
       and the moment at which the instrument is capable of complying with the requirements.
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -109,6 +115,7 @@ data:
     definition: time between the moment that power is applied to an instrument and
       the moment at which the instrument is capable of complying with the requirements
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -122,6 +129,7 @@ data:
     definition: time between the moment power is applied to a load cell and the moment
       at which the load cell is capable of complying with the requirements
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -135,6 +143,7 @@ data:
     definition: the time between the moment that power is applied to a belt weigher
       and the moment that the belt weigher is capable of complying with the requirements
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -148,6 +157,7 @@ data:
     definition: the time between the moment that power is applied to an instrument
       and the moment at which the instrument is capable of complying with the requirements
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -161,6 +171,7 @@ data:
     definition: time between the moment power is applied to a load cell and the moment
       at which the load cell is capable of complying with the requirements
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -174,6 +185,7 @@ data:
     definition: time between the moment that power is applied to an instrument and
       the moment that the instrument is capable of complying with the requirements
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -187,6 +199,7 @@ data:
     definition: time between the moment power is applied to an instrument and the
       moment at which the instrument is capable of complying with the requirements
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -200,6 +213,7 @@ data:
     definition: time between the moment that power is applied to an instrument and
       the moment that the instrument is capable of complying with the requirements
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -217,6 +231,7 @@ data:
     - 'Note: For a gas analyzer this is the time between the instant at which power
       is applied to it and the instant at which the measurement result of the volume
       fraction, a CGM being supplied to the input, is within the permissible limits.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -230,6 +245,7 @@ data:
     definition: time between the moment that power is applied to an instrument and
       the moment at which the instrument is capable of complying with the requirements
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -247,6 +263,7 @@ data:
     - 'Note: For a gas analyzer this is the time between the instant at which power
       is applied to it and the instant at which the measurement result of the volume
       fraction, a CGM being supplied to the input, is within the permissible limits.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -261,6 +278,7 @@ data:
       and the moment at which the instrument is capable of complying with the metrological
       requirements
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -275,6 +293,7 @@ data:
       the moment at which the instrument is capable of complying with the requirements
       of this Recommendation
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -288,6 +307,7 @@ data:
     definition: time between the moment at which power is applied to the instrument
       and the moment at which the instrument is capable of complying with the requirements
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -302,6 +322,7 @@ data:
       moment at which the instrument is capable of complying with the requirements
       of this Recommendation
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -315,6 +336,7 @@ data:
     definition: time between the moment that power is applied to an instrument and
       the moment at which the instrument is capable of complying with the requirements
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

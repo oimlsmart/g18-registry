@@ -25,6 +25,7 @@ data:
       to the input quantity
     notes:
     - "(VIM:2007, 3.7)"
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -39,6 +40,7 @@ data:
       to the input quantity
     notes:
     - "[VIM:1993, 4.3]"
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -53,6 +55,7 @@ data:
       signals aimed at the calculator. It may be either autonomous or use an external
       power source
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -66,6 +69,7 @@ data:
     definition: device, used in measurement, that provides an output quantity having
       a specified relation to the input quantity [VIM 3.7]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -79,6 +83,7 @@ data:
     definition: device, used in measurement, that provides an output quantity having
       a specified relation to the input quantity [VIM 3.7]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -92,6 +97,7 @@ data:
     definition: device that provides an output quantity having a determined relationship
       to the input quantity [VIM:2007, 3.7]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

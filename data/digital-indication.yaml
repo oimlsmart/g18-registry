@@ -23,6 +23,7 @@ data:
     g18_entry: '01378'
     definition: indication providing the weighing results in a digitized form
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -36,6 +37,7 @@ data:
     definition: indication in which the scale marks are composed of a sequence ofaligned
       figures that do not permit interpolation to fractions of the scale interval
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -49,6 +51,7 @@ data:
     definition: indication in which the scale marks are composed of a sequence ofaligned
       figures that do not permit interpolation to fractions of the scale interval
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -62,6 +65,7 @@ data:
     definition: indication in which the scale marks comprise a sequence of aligned
       figures that do not permit interpolation to fractions of a scale interval
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -75,6 +79,7 @@ data:
     definition: the output or display is indicated by a sequence of aligned digits
       that do not permit interpolation to a fraction of the scale interval
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -88,6 +93,7 @@ data:
     definition: indication in which the scale marks are a sequence of aligned figures
       that do not permit interpolation to a fraction of the scale interval
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -101,6 +107,7 @@ data:
     definition: an indication in which the scale marks are a sequence of aligned figures
       that do not permit interpolation to a fraction of a scale interval
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -114,6 +121,7 @@ data:
     definition: indication in which the scale marks comprise a sequence of aligned
       figures that do not permit interpolation to fractions of a scale interval
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -127,6 +135,7 @@ data:
     definition: measurement results are displayed by a digital measuring instrument
       in a digitized form [VIM 4.11]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -139,6 +148,7 @@ data:
     g18_entry: '01378'
     definition: indication providing the weighing results in a digitized form
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -152,6 +162,7 @@ data:
     definition: indication in which the scale marks are composed of a sequence of
       aligned figures that do not permit interpolation to fractions of the scale interval
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -165,6 +176,7 @@ data:
     definition: indication in which the scale marks are composed of a sequence of
       aligned figures that do not permit interpolation to fractions of the scale interval
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -178,6 +190,7 @@ data:
     definition: the output or display is indicated by a sequence of aligned digits
       that do not permit interpolation to a fraction of the scale interval
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -191,6 +204,7 @@ data:
     definition: indication in which the scale marks are a sequence of aligned figures
       that do not permit interpolation to a fraction of the scale interval
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

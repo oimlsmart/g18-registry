@@ -32,12 +32,13 @@ data:
     g18_entry: '00185'
     definition: '(hereinafter referred to as "measuring instrument"): measuring instrument
       which conforms to prescribed requirements, in particular legal metrological
-      requirements [VIML, 4.3]'
+      requirements'
     notes:
     - 'for the purposes of this Document the following instruments may fall under
       legal control according to national regulations: measuring instruments, coin
       counting machines, medical measuring instruments, water dispensing machines,
       timing instruments in vehicle washes.'
+    examples: []
     consistency: pending
     consistency_reason: ''
     related:
@@ -54,13 +55,14 @@ data:
     link:
     g18_entry: 02260-D016
     definition: measuring instrument which conforms to prescribed requirements, in
-      particular legal metrological requirements [VIML 4.3]
+      particular legal metrological requirements
     notes:
     - 'Note 1: For the purposes of this Document the following instruments may fall
       under control according to national regulations: measuring instruments, coin
       counting machines, medical measuring instruments, water dispensing machines,
       timing instruments in vehicle washers. Note 2:Legally controlled measuring instrument
       is hereafter referred to as a “measuring instrument”.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -73,12 +75,13 @@ data:
     g18_entry: '00185'
     definition: "(hereinafter referred to as “measuring instrument”): measuring instrument
       which conforms to prescribed requirements, in particular legal metrological
-      requirements [VIML, 4.3]"
+      requirements"
     notes:
     - 'Note: For the purposes of this Document the following instruments may fall
       under legal control according to national regulations: measuring instruments,
       coin countingmachines, medical measuring instruments, water dispensing machines,
       timing instruments in vehicle washes.'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

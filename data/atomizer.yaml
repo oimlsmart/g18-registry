@@ -23,6 +23,7 @@ data:
     g18_entry: '01193'
     definition: a device for converting the analyte into an atomic vapor
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -35,6 +36,7 @@ data:
     g18_entry: '02512'
     definition: device for converting the analyte into atomic vapor
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

@@ -28,6 +28,7 @@ data:
       the values corresponding to two consecutive scale marks, for analog indication;
       or the difference between two consecutive indicated values, for digital indication"
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -42,6 +43,7 @@ data:
       * the values corresponding to two consecutive scale marks for analog indication;
       or * two consecutive indicated values for digital indication'
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -56,6 +58,7 @@ data:
       the values corresponding to two consecutive scale marks for analog indication;
       or two consecutive indicated values for digital indication"
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -70,6 +73,7 @@ data:
       the values corresponding to two consecutive scale marks for analogue indication,
       or two consecutive indicated values for digital indication"
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -83,6 +87,7 @@ data:
     definition: value expressed in units of mass for weighing-in-motion that is the
       difference between two consecutive indicated or printed values
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -97,6 +102,7 @@ data:
       for each range in each axis
     notes:
     - Adapted from VIM:1993, 4.22
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -110,6 +116,7 @@ data:
     definition: the difference between the scale values corresponding to two successive
       scale marks
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -125,6 +132,7 @@ data:
       marks for analogue indication, or two consecutive indicated or printed values
       for digital indication"
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -140,6 +148,7 @@ data:
       indication, or •two consecutive indicated values, for digital indication [OIML
       V 1:2013, 5.01]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -155,6 +164,7 @@ data:
       indication, or b) two consecutive indicated values for digital indication (VIML,
       5.01)'
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -169,6 +179,7 @@ data:
       values corresponding to two consecutive scale marks, for analog indication;
       or the difference between two consecutive indicated values, for digital indication'
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -183,6 +194,7 @@ data:
       the values corresponding to two consecutive scale marks for analog indication;
       or two consecutive indicated values for digital indication'
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -196,6 +208,7 @@ data:
     definition: the difference between the scale values corresponding to two successive
       scale marks
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

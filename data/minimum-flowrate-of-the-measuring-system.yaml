@@ -27,6 +27,7 @@ data:
     definition: flowrate equal to or greater than the smallest "minimum flowrate"
       of the individual meters
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -40,6 +41,7 @@ data:
     definition: lowest flowrate at which the water meter is required to operate within
       the maximum permissible error
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

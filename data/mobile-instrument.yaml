@@ -27,6 +27,10 @@ data:
     notes:
     - e weighing instrument which is firmly on a vehicle, and which is designed t
       special purpose
+    examples:
+    - Postal scale on a vehicle (mobile post office). ehicle-incorporated instrument
+      uses f the vehicle for the weighing ent
+    - Garbage weighers, lifters, pallet lifters, fork lifters, whee eighers.
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -46,6 +50,7 @@ data:
       instrument uses parts of the vehicle for the weighing instrument. Examples:
       Garbage weighers, patient lifters, pallet lifters, fork lifters, wheel chair
       weighers.'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

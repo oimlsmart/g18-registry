@@ -23,6 +23,7 @@ data:
     g18_entry: '01803'
     definition: means to print the weight value of a vehicle weighed on the instrument
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -35,6 +36,7 @@ data:
     g18_entry: '00507'
     definition: a device for printing in units of mass
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -48,6 +50,7 @@ data:
     definition: the means to print the weight values of wagons weighed on the instrument
       and/or a summation of those wagon weights
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -60,6 +63,7 @@ data:
     g18_entry: '03389'
     definition: device to produce a printout (see 2.4.3) of the weighing results
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -72,6 +76,7 @@ data:
     g18_entry: '03388'
     definition: device to produce a printout (see 2.4.3) of the weighing results
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -84,6 +89,7 @@ data:
     g18_entry: '03387'
     definition: means to produce hard copies of the weighing results
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

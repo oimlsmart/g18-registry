@@ -35,6 +35,7 @@ data:
       largest and the smallest results of successive measurements of the same quantity
       carried out under the same conditions
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -49,6 +50,7 @@ data:
       and the smallest results of successive measurements of the same quantity carried
       out under the same conditions'
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -63,6 +65,7 @@ data:
       from VIM:2007, 2.21) largest and the smallest results of successive measurements
       of a same quantity carried out under the same conditions'
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
     related:
@@ -82,6 +85,7 @@ data:
       tests under the same loading and environmental conditions of measurement [Adapted
       from VIM:1993, 5.27]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
     related:
@@ -101,6 +105,7 @@ data:
       successive measurements of the same quantity carried out under the same repeatability
       condition 1 1 OIMLV 2-200:2012
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -114,6 +119,7 @@ data:
     definition: difference between load cell output readings taken from consecutive
       tests under the same loading and environmental conditions of measurement
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -128,6 +134,7 @@ data:
       largest and the smallest results of successive measurements of the same quantity
       carried out under the same conditions
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -145,6 +152,7 @@ data:
     - 'Note: Repeatability conditions include: the same measurement procedure; the
       same operator; the same measuring instrument, used under the same conditions;
       the same location; repetition over a short period of time.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -159,6 +167,7 @@ data:
       and the smallest results of successive measurements of a same quantity carried
       out under the same conditions [adapted from VIM:2007, 2.21]'
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

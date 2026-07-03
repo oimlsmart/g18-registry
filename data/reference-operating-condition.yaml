@@ -22,10 +22,10 @@ data:
     g18_entry: 02233-D011
     definition: operating condition prescribed for evaluating the performance of a
       measuring instrument or measuring system or for comparison of measurement results
-      [VIM 4.11][VIML 0.09]
     notes:
     - 'Note: Reference operating conditions specify intervals of values of the measurand
       and of the influence quantities.'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

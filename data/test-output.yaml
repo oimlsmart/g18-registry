@@ -23,6 +23,7 @@ data:
     definition: device which can be used for testing the meter, providing pulses or
       the means to provide pulses corresponding to the energy measured by the meter
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

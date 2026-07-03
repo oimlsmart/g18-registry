@@ -29,6 +29,7 @@ data:
       or in examination of nominal properties
     notes:
     - "(VIM:2007, 5.13)"
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -43,6 +44,7 @@ data:
       properties, used in calibration, in assignment of a value to another material
       or in quality assurance
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -57,6 +59,7 @@ data:
       well established to be used for the calibration of an apparatus, the assessment
       of a measurement method, or for assigning values to materials
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -72,6 +75,7 @@ data:
       or in examination of nominal properties
     notes:
     - For examples and notes see [VIM3, 5.13].
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -87,6 +91,7 @@ data:
       or in examination of nominal properties
     notes:
     - 'Note:  For notes see VIM3, 5.13.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -133,6 +138,7 @@ data:
     - NOTE 8 ISO/REMCO has an analogous definition[45] but uses the term "measurement
       process" to mean "examination" (ISO 15189:2007, 3.4), which covers both measurement
       of a quantity and examination of a nominal property.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -147,6 +153,7 @@ data:
       properties, which has been established to be fit for its intended use in measurement
       or in examination of nominal properties
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -162,6 +169,7 @@ data:
       the assessment of a measurement method, or assigning values to materials.
     notes:
     - 'Note: This term does not necessarily mean a certified reference standard.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -176,6 +184,7 @@ data:
       well established to be used for the calibration of an apparatus, the assessment
       of a measurement method, or for assigning values to materials
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

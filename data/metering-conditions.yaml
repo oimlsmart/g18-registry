@@ -24,6 +24,7 @@ data:
     definition: 'values of the conditions which characterize the liquid during measurement
       at the point of measurement (example: temperature and pressure of the liquid)'
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -37,6 +38,7 @@ data:
     definition: conditions of the gas at which the quantity is measured at the point
       of measurement (temperature and pressure of the measured gas)
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -50,6 +52,7 @@ data:
     definition: 'conditions of the water, the volume of which is to be measured, at
       the point of measurement (example: temperature and pressure of the water)'
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -63,6 +66,7 @@ data:
     definition: the conditions of the volume of the liquid at the point of measurement.
       For example, temperature and pressure
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -76,6 +80,7 @@ data:
     definition: conditions of the water, the volume of which is to be measured, at
       the point of measurement EXAMPLE:Water temperature, water pressure.
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -89,6 +94,7 @@ data:
     definition: 'values of the conditions which characterise the liquid during measurement
       at the point of measurement (example: temperature and pressure of the liquid)'
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -102,6 +108,7 @@ data:
     definition: conditions of the gas at which the quantity is measured at the point
       of measurement (temperature and pressure of the measured gas)
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -115,6 +122,7 @@ data:
     definition: the conditions of the volume of the liquid at the point of measurement.
       For example, temperature and pressure
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

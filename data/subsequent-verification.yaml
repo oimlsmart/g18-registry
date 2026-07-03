@@ -34,13 +34,16 @@ data:
     clause: '2.13'
     link: https://www.oiml.org/en/files/pdf_D/d009-e04.pdf
     g18_entry: '00195'
-    definition: 'any verification of a measuring instrument after a previous verification
-      and including: - mandatory periodic verification; - verification after repair
-      [VIML, 2.16]'
+    definition: |-
+      any verification of a measuring instrument after a previous verification and including:
+
+      * mandatory periodic verification
+      * verification after repair
     notes:
     - Subsequent verification of a measuring instrument may be carried out before
       expiry of the period of validity of a previous verification either at the request
       of the user (owner) or when its verification is declared t be no longer valid.
+    examples: []
     consistency: pending
     consistency_reason: ''
     related:
@@ -66,6 +69,7 @@ data:
       of a certificate of verification. When sampling is used to verify a population
       of weights, all elements in the population will be deemed verified
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -83,6 +87,7 @@ data:
       the stamp is no longer valid for the remainder of this period of validity [VML
       2.4.3]'
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -101,6 +106,7 @@ data:
       before expiry of the period of validity of a previous  verification either at
       the request of the user (owner) or when its verification mark is declared to
       be no longer valid.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -113,6 +119,7 @@ data:
     g18_entry: '03542'
     definition: verification of measuring instrument after a previous verification
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -125,11 +132,11 @@ data:
     g18_entry: 02265-D016
     definition: any verification of a measuring instrument after a previous verification
       and including mandatory periodic verification and verification after repair
-      [VIML 2.16]
     notes:
     - Note:Subsequent verification of a measuring instrument may be carried out before
       expiry of the period of validity of a previous verification either at the request
       of the user (owner) or when its verification is declared to be no longer valid.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -141,12 +148,12 @@ data:
     link: https://www.oiml.org/en/files/pdf_D/d009-e04.pdf
     g18_entry: '00195'
     definition: 'any verification of a measuring instrument after a previous verification
-      and including: mandatory periodic verification; verification after repair [VIML,
-      2.16]'
+      and including: mandatory periodic verification; verification after repair'
     notes:
     - Note:Subsequent verification of a measuring instrument may be carried out before
       expiry of the period of validity of a previous  verification either at the request
       of the user (owner) or when its verification is declared to be no longer valid.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -164,6 +171,7 @@ data:
       the stamp is no longer valid for the remainder of this period of validity [VML
       2.4.3'
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

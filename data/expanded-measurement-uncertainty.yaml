@@ -25,6 +25,7 @@ data:
       a larger than the number one
     notes:
     - "(VIM:2007, 2.35)"
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -38,6 +39,7 @@ data:
     definition: product of a combined standard measurement uncertainty and a factor
       larger than the number one [VIM:2007, 2.35]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

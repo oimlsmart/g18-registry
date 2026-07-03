@@ -25,6 +25,7 @@ data:
       expressed as volume V, mass m or energy E passed through the gas meter, disregarding
       the time taken. This is the measurand ee 2.1.2)"
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -39,6 +40,7 @@ data:
       the gas meter over time, which is expressed as volume V or mass m, disregarding
       the time taken. The quantity of gas is the measurand concerned (see 0)
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

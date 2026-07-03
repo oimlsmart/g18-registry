@@ -24,6 +24,7 @@ data:
     definition: value of a quantity provided by a measuring instrument
     notes:
     - '"Indication", "indicate" or "indicating" includes both displaying and/or printing.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -38,6 +39,7 @@ data:
     notes:
     - 'Note: “Indication”, “indicate” or “indicating” includes both displaying and/or
       printing.'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

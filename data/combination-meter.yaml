@@ -26,6 +26,7 @@ data:
       meter, automatically directs the flow through either the small or large meter
       or both
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -43,6 +44,7 @@ data:
     notes:
     - Note:The meter reading is obtained from two independent totalizers, or from
       one totalizer which adds up the values from both water meters
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

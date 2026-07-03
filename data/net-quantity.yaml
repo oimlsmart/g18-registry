@@ -28,6 +28,7 @@ data:
     - kage and does not account for the actual tents in an individual package. The
       cedures for determining whether a duction lot meets regulatory requirements
       provided in OIML R 87 Net contents in kages
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -47,6 +48,7 @@ data:
       prepackage. For prepackages with constant nominal quantity, the procedures for
       determining whether an inspection lot meets regulatory requirements are provided
       in OIML R 87 [1].'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

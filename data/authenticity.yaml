@@ -23,6 +23,7 @@ data:
     g18_entry: '02171'
     definition: result of the process of authentication (passed or failed)
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -35,6 +36,7 @@ data:
     g18_entry: '02878'
     definition: result of the process of authentication (passed or failed)
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -48,6 +50,7 @@ data:
     definition: result of the process of authentication (passed or failed) (OIML D
       31, 3.1.3) [5]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

@@ -26,6 +26,7 @@ data:
       founded on an operating system that permits loading and execution of software
       for specific purposes
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -41,6 +42,7 @@ data:
       founded on an operating system that permits loading and execution of software
       for specific purposes [OIML D31, 3.1.54]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -56,6 +58,7 @@ data:
     notes:
     - 'Note: In general this software is founded on an operating system that permits
       loading and execution of software for specific purposes.'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

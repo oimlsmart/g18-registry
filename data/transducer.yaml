@@ -24,6 +24,7 @@ data:
     definition: device that provides an output quantity, having a determined relationship
       to the input quantity
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -41,6 +42,7 @@ data:
       the calculator.
     notes:
     - "(See also T.a.8)"
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -54,6 +56,7 @@ data:
     definition: device that provides an output quantity, having a determined relationship
       to the input quantity
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -72,6 +75,7 @@ data:
       be external to the meter sensor. In the latter case, it can be approved either
       with the sensor or with the calculator. Note 2:  A pulser id a specific type
       of measuring transducer.'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

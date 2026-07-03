@@ -24,6 +24,7 @@ data:
     definition: point located on the vertical measurement axis, with reference to
       which the ullage is measured
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -38,6 +39,7 @@ data:
       vertical axis ascending from the dipping datum point to indicate the reference
       position to which ullage is measured
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -51,6 +53,7 @@ data:
     definition: the point on the vertical measurement axis, with reference to which
       the ullage height is measured
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -64,6 +67,7 @@ data:
     definition: point located on the vertical measurement axis, with reference to
       which the ullage is measured
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -78,6 +82,7 @@ data:
       vertical axis ascending from the dipping datum point to indicate the reference
       position to which ullage is measured
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -91,6 +96,7 @@ data:
     definition: the point on the vertical measurement axis, with reference to which
       the ullage height is measured
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

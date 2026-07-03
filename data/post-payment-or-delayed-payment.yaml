@@ -24,6 +24,7 @@ data:
     definition: "(d type of payment requiring payment after the delivery, either before
       leaving the site (post-payment) or after leaving the site elayed payment)"
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -37,6 +38,7 @@ data:
     definition: type of payment requiring payment after the delivery, either before
       leaving the site (post-payment) or after leaving the site (delayed payment)
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

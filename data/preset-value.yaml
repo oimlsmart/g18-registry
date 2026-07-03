@@ -24,6 +24,7 @@ data:
     definition: value, expressed in units of mass, preset by the operator by means
       of the fill setting device, in order to define the nominal value of the fills
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -38,6 +39,7 @@ data:
       of the fill setting device, in order to define the nominal value of the mass
       of the fills
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

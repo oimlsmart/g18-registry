@@ -30,6 +30,7 @@ data:
     definition: density of the gas flowing through the gas meter, corresponding to
       pw and tw
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -43,6 +44,7 @@ data:
     definition: density of the gas flowing through the gas meter, corresponding to
       stem:[rho_{"w"}] and stem:[t_{"w"}]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

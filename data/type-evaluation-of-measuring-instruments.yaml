@@ -22,10 +22,11 @@ data:
     g18_entry: '02207'
     definition: type (pattern) evaluation conformity assessment procedure on one or
       more specimens of an identified type (pattern) of measuring instruments which
-      results in an evaluation report and/or an evaluation certificate [VIML 2.05]
+      results in an evaluation report and/or an evaluation certificate
     notes:
     - 'Note:  “Pattern” is used in legal metrology with the same meaning as “type”.
       In the entries below, only “type” is used.'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

@@ -25,6 +25,7 @@ data:
       information to be passed between components of a measuring instrument (e.g.
       electronic devices) or sub-assemblies
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -42,6 +43,7 @@ data:
     - 'Note 1: Communication interfaces can utilize wired, optical, radio, etc. communication
       and they are usually designed to use a specific protocol. Note 2: This definition
       does not include communication between software modules.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -56,6 +58,7 @@ data:
       that enables information to be automatically passed between instruments and
       modules
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

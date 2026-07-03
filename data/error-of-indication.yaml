@@ -33,6 +33,7 @@ data:
     definition: indication of an instrument minus the (conventional) true value ofthe
       mass
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -45,6 +46,7 @@ data:
     g18_entry: '01559'
     definition: indicated quantity value minus the reference (true) quantity value
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -58,6 +60,7 @@ data:
     definition: "[a indicated volume minus the actual volume dapted from VIM:1993,
       5.20]"
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
     related:
@@ -77,6 +80,7 @@ data:
       value of the area
     notes:
     - "[VIM:1993, 5.20]"
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -90,6 +94,7 @@ data:
     definition: indication of an instrument minus the (conventional) true value of
       the mass
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -103,6 +108,7 @@ data:
     definition: the indication of an instrument minus the (conventional) true value
       of the mass
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -116,6 +122,7 @@ data:
     definition: the indication of a measuring system minus the (conventional) true
       value of the measure [VIM:1993, 5.24]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
     related:
@@ -134,6 +141,7 @@ data:
     definition: indication of an instrument minus the (conventional) true value of
       the mass
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

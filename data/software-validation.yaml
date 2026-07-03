@@ -26,6 +26,7 @@ data:
       use are fulfilled. In the present case the related requirements are those of
       this Recommendation [OIML D31, 3.1.56]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -42,6 +43,7 @@ data:
       intended use are fulfilled [OIML D 31:2008, 3.1.56]
     notes:
     - 'Note: In the present case the related requirements are those of this Recommendation.'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

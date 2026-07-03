@@ -27,6 +27,7 @@ data:
     definition: lowest value scale division of the first element of an indicating
       device
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -40,6 +41,7 @@ data:
     definition: value, expressed in units of mass, used for the classification and
       verification of an instrument
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -53,6 +55,7 @@ data:
     definition: value, expressed in units of mass, used for the classification and
       verification of an instrument
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -66,6 +69,7 @@ data:
     definition: lowest value scale division of the first element of an indicating
       device (3.2.12)
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

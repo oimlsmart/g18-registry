@@ -25,6 +25,7 @@ data:
       There are several different types of gas elimination devices, including gas
       separators, gas extractors, and special gas extractors
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -39,6 +40,7 @@ data:
     notes:
     - 'Note: There are several different types of gas elimination devices, including
       gas separators, gas extractors, and special gas extractors'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

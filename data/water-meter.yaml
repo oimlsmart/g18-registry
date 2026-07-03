@@ -32,6 +32,7 @@ data:
       meter, automatically directs the flow through either the small or large meter
       or both. Meter reading is obtained from two independent totalizers or one totalizer,
       which adds up the values from both water meters."
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -51,6 +52,7 @@ data:
       These three devices can be in different housings. Note 2: A water meter may
       be a combination meter (see 3.1.16). Note 3: In this Recommendation, a water
       meter is also referred to as a “meter”.'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

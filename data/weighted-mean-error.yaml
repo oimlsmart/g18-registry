@@ -37,6 +37,7 @@ data:
       than the maximum specified ring range of the meter, it is mended to determine
       the WME and t the meter over the actual operating only and update the markings
       dingly.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -51,6 +52,7 @@ data:
       Qi/Qmax is a weighting factor; • ei is the error at the flowrate Qi; • at Qi
       > 0.9·Qmax a weighting factor of 0.4 shall be used instead of 1.'
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -67,6 +69,7 @@ data:
       Qmax< Qi   Qmax for 0.7 Qmax< Qi   Qmax where: ki = weighting factor at the
       flow rate Qi; Ei = the error at the flow rate Qi.'
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -89,6 +92,7 @@ data:
       specified measuring range of the meter, it is recommended to determine the WME
       and adjust the meter over the actual operating range only and update the markings
       accordingly.'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

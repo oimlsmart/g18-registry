@@ -29,6 +29,7 @@ data:
     definition: average water pressure in the pipe measured upstream and downstream
       of the water meter
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -43,6 +44,7 @@ data:
       pressure is the difference between the absolute pressure of the gas and the
       atmospheric pressure
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

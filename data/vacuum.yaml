@@ -23,6 +23,7 @@ data:
     g18_entry: '01412'
     definition: a pressure less than ambient pressure
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -36,6 +37,7 @@ data:
     definition: a pressure less than ambient pressure, the latter being considered
       as the datum point
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -48,6 +50,7 @@ data:
     g18_entry: '01412'
     definition: a pressure less than ambient pressure
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -61,6 +64,7 @@ data:
     definition: a pressure less than ambient pressure, the latter being considered
       as the datum point
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

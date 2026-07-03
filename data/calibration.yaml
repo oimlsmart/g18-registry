@@ -25,6 +25,7 @@ data:
       the relationship between the liquid level in the tank and the volume of that
       liquid
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -45,6 +46,7 @@ data:
       2: A calibration may also determine other metrological properties such as the
       effect of influence quantities. 3: The result of a calibration may be recorded
       in a document, sometimes called calibration certificate or calibration report'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -60,12 +62,13 @@ data:
       or measuring system, or values represented by a material measure or a reference
       material, and the corresponding values realized by standards
     notes:
-    - 1. The result of a calibration permits either the assignment of values of measurands
+    - The result of a calibration permits either the assignment of values of measurands
       to the indications or the determination of corrections with respect to indications.
-    - 2. A calibration may also determine other metrological properties such as the
-      effect of influence quantities.
-    - 3. The result of a calibration may be recorded in a document, sometimes called
-      a calibration certificate or a calibration report. [VIM, 6.11]
+    - A calibration may also determine other metrological properties such as the effect
+      of influence quantities.
+    - The result of a calibration may be recorded in a document, sometimes called
+      a calibration certificate or a calibration report.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -80,6 +83,7 @@ data:
       the relationship between the values of pressure indicated by a pressure balance
       and the corresponding values of pressure realized by a reference standard
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -94,6 +98,7 @@ data:
       the relationship between values indicated by a measuring system and the corresponding
       known values of the measurand
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -108,6 +113,7 @@ data:
       the relationship between values indicated by a measuring instrument or measuring
       system and the corresponding known values of a measurand
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -121,6 +127,7 @@ data:
     definition: a set of operations to determine the capacities of a tank at various
       filling levels
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -144,6 +151,7 @@ data:
       with adjustment of a measuring system, often mistakenly called “self-calibration”,
       nor with verification of calibration. Note 3: Often, the first step alone in
       the above definition is perceived as being calibration.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -159,8 +167,8 @@ data:
       by measurement standards and corresponding indications with associated measurement
       uncertainties and, in a second step, uses this information to establish a relation
       for obtaining a measurement result from an indication
-    notes:
-    - For notes see [VIM, 2.39]
+    notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -184,6 +192,7 @@ data:
       with adjustment of a measuring system, often mistakenly called “self-calibration”,
       nor with verification of calibration. Note 3: Often, the first step alone in
       the above definition is perceived as being calibration.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -200,6 +209,7 @@ data:
       uncertainties and, in a second step, uses this information to establish a relation
       for obtaining a measurement result from an indication (OIML V 2-200, 2.39)
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -223,6 +233,7 @@ data:
       with adjustment of a measuring system, often mistakenly called “self-calibration”,
       nor with verification of calibration. Note 3: Often, the first step alone in
       the above definition is perceived as being calibration.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -239,6 +250,7 @@ data:
       uncertainties and, in a second step, uses this information to establish a relation
       for obtaining a measurement result from an indication [OIML V2-200:2012, 2.39]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -253,8 +265,9 @@ data:
       a relation between the quantity values with measurement uncertainties provided
       by measurement standards and corresponding indications with associated measurement
       uncertainties and, in a second step, uses this information to establish a relation
-      for obtaining a measurement result from an indication [VIM 2.39]
+      for obtaining a measurement result from an indication
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -269,6 +282,7 @@ data:
       the relationship between the liquid level in the tank and the volume of that
       liquid
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -290,6 +304,7 @@ data:
       properties such as the effect of influence quantities. Note 3: The result of
       a calibration may be recorded in a document, sometimes called calibration certificate
       or calibration report'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -311,6 +326,7 @@ data:
       properties such as the effect of influence quantities. Note 3: The result of
       a calibration may be recorded in a document, sometimes called a calibration
       certificate or a calibration report.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -325,6 +341,7 @@ data:
       relationship between the values of pressure indicated by a pressure balance
       and the corresponding values of pressure realized by a reference standard
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -339,6 +356,7 @@ data:
       the relationship between values indicated by a measuring system and the corresponding
       known values of the measurand
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -353,6 +371,7 @@ data:
       the relationship between values indicated by a measuring instrument or measuring
       system and the corresponding known values of a measurand
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -366,6 +385,7 @@ data:
     definition: a set of operations to determine the capacities of a tank at various
       filling level
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

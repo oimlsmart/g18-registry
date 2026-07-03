@@ -25,6 +25,7 @@ data:
       (measurements) of substances on the basis of their chemical or physical properties
     notes:
     - "(ISO 7504: 2001)"
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -41,6 +42,7 @@ data:
     notes:
     - 'Note: A gas analyzer measures all components covered by this Recommendation
       (CO, NO, NO2, or NOx), or measures only CO, or only NO and NO2, or NOx.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -55,6 +57,7 @@ data:
       (measurements) of substances on the basis of their chemical or physical properties
       [ISO 7504: 2001]'
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

@@ -26,6 +26,8 @@ data:
     definition: solution similar to the sample solution but which does not contain
       the analyte
     notes: []
+    examples:
+    - Solvent.
     consistency: pending
     consistency_reason: ''
 status: current

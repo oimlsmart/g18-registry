@@ -32,6 +32,7 @@ data:
       a set of true quality values of negligible range, in which case the measurement
       error is not known. Note 2: Measurement error should not be confused with production
       error or mistake.'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

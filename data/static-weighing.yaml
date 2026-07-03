@@ -23,6 +23,7 @@ data:
     g18_entry: '01807'
     definition: weighing of vehicles or test loads that are stationary
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -36,6 +37,7 @@ data:
     definition: weighing a wagon while stationary and uncoupled to obtain a weight
       for the purposes of testing
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -48,6 +50,7 @@ data:
     g18_entry: '02573'
     definition: determining the mass of a stationary load
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -60,6 +63,7 @@ data:
     g18_entry: '03538'
     definition: weighing of vehicles or test loads that are stationary
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

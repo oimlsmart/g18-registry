@@ -28,6 +28,7 @@ data:
       p is the instantaneous power. At sinusoidal conditions active power is the product
       of the r.m.s. values of current and voltage and the cosine of the phase angle
       between them, calculated for each phase. It is usually expressed in kW:'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

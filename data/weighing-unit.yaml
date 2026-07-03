@@ -23,6 +23,7 @@ data:
     definition: device which provides information on the mass of the load to be measured.
       This device may consist of all or part of a non- automatic weighing instrument
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -36,6 +37,7 @@ data:
     definition: the part of a belt weigher providing information on the mass of the
       load to be measured
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

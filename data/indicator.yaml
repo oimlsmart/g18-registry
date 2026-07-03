@@ -25,6 +25,7 @@ data:
       -digital conversion of the output signal of the load cell, and that further
       processes the data, and displays the weighing result inunits of mass
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -39,6 +40,7 @@ data:
       -digital conversion of the output signal of the load cell, and which further
       processes the data, and displays the weighing result in units of mass
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -53,6 +55,7 @@ data:
       -digital conversion of the output signal of the load cell, and which further
       processes the data, and displays the weighing result in units of mass
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -67,6 +70,7 @@ data:
       quantities calculated by the processor. It may or may not be associated with
       the processor
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -80,6 +84,7 @@ data:
     definition: a device which displays the mass calculated by the processor and other
       quantities. It may or may not be part of the processor
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -92,6 +97,7 @@ data:
     g18_entry: '03110'
     definition: device that displays the measures dimension and any associated quantities
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -106,6 +112,7 @@ data:
       of the output signal of the force receptor, and further processes the data,
       and displays the weighing result in units of mass
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -120,6 +127,7 @@ data:
       conversion of the output signal of the load cell, further processes the data,
       and displays the weighing result
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -134,6 +142,7 @@ data:
       conversion of the output signal of the load cell, further processes the data,
       and displays the weighing result
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -148,6 +157,7 @@ data:
       conversion of the output signal of the load cell, and that further processes
       the data, and displays the weighing result in units of mass
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -162,6 +172,7 @@ data:
       conversion of the output signal of the load cell, and which further processes
       the data, and displays the weighing result in units of mass
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -176,6 +187,7 @@ data:
       conversion of the output signal of the load cell, and which further processes
       the data, and displays the weighing result in units of mass
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -189,6 +201,7 @@ data:
     definition: a device which displays the mass calculated by the processor and other
       quantities. It may or may not be part of the processor
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

@@ -24,6 +24,7 @@ data:
     definition: device which allows switching from one bank to another. This device
       may be included in a measuring system or may be part of the refueling station
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -37,6 +38,7 @@ data:
     definition: device which allows switching from a bank to another one. This device
       may be included in a measuring system or may be part of the refueling station
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

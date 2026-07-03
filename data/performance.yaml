@@ -8,6 +8,9 @@ data:
     text: performance
   kind: undefined
   official_concept:
+    source: OIML D011:2004
+    id: '3.16'
+    url:
   editions_present:
   - '2010'
   - 202X
@@ -22,10 +25,15 @@ data:
     link: https://www.oiml.org/en/files/pdf_D/d031-e08.pdf
     g18_entry: '02203'
     definition: ability of a measuring instrument to accomplish its intended functions
-    notes:
-    - "[OIML D 11:2004, 3.16]"
+    notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
+    related:
+    - type: see
+      ref:
+        source: OIML D011:2004
+        id: '3.16'
   - edition: '2010'
     publication: OIML R 85-1:2008
     publication_id: OIML R085-1:2008
@@ -36,6 +44,7 @@ data:
     g18_entry: '02324'
     definition: ability of the ALG to accomplish the intended functions
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -48,6 +57,7 @@ data:
     g18_entry: '00241'
     definition: ability of a measuring instrument to accomplish its intended functions
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -60,6 +70,7 @@ data:
     g18_entry: '01920'
     definition: ability of the measuring instrument to accomplish its intended functions
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -73,6 +84,7 @@ data:
     definition: the ability of the measuring instrument to accomplish its intended
       functions
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -86,6 +98,7 @@ data:
     definition: the ability of the measuring instrument to accomplish its intended
       functions
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -99,6 +112,7 @@ data:
     definition: the capability of the measuring system to accomplish the intended
       functions
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -111,6 +125,7 @@ data:
     g18_entry: '03356'
     definition: ability of the measuring instrument to accomplish its intended functions
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -123,6 +138,7 @@ data:
     g18_entry: 02324-R085-1
     definition: ability of the ALG to accomplish the intended functions
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -135,6 +151,7 @@ data:
     g18_entry: '01920'
     definition: ability of the measuring instrument to accomplish its intended functions
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -148,9 +165,14 @@ data:
     definition: the ability of the measuring instrument to accomplish its intended
       functions
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current
 id: 8411b63a-ff60-5d3c-8195-91444b670177
 schema_version: '3'
-related: []
+related:
+- type: see
+  ref:
+    source: OIML D011:2004
+    id: '3.16'

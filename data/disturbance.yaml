@@ -35,6 +35,7 @@ data:
       relevant requirements, but outside the established rated operating conditions
       for the tank
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -49,6 +50,7 @@ data:
       D 11:2004, 13.2) this Recommendation but outside the specified rated operating
       conditions of a measuring instrument
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -62,6 +64,7 @@ data:
     definition: influence quantity having a value within specified limits, but outside
       the specified rated operating conditions of the ALG
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -76,6 +79,7 @@ data:
       Recommendation but outside the rated operating conditions ofthe instrument
     notes:
     - Adapted from OIML D 11:2004, 3.13.2.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -90,6 +94,7 @@ data:
       Recommendation, but outside the specified rated operating conditions of the
       instrument
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -104,6 +109,7 @@ data:
       in this Recommendation but outside the specified rated operating conditions
       of the instrument IML D 11: 2004, 3.13.2]"
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -119,6 +125,7 @@ data:
       Ifthe rated operating conditions are not specified for an influence quantity,
       it is a disturbance
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -134,6 +141,7 @@ data:
     notes:
     - An influence quantity is a disturbance if for that influence quantity the rated
       operating conditions are not specified.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -149,6 +157,7 @@ data:
     notes:
     - An influence quantity is a disturbance if for that influence quantity the rated
       operating conditions are not specified.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -165,6 +174,7 @@ data:
     notes:
     - An influence quantity is a disturbance if for that influence quantity the rated
       operating conditions are not specified.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -178,6 +188,7 @@ data:
     definition: influence quantity having a value within the limits specified in this
       Recommendation but outside the rated operating conditions ofthe instrument
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -192,6 +203,7 @@ data:
       Recommendation, but outside the specified rated operating conditions of the
       instrument
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -209,6 +221,7 @@ data:
     - 1. An influence quantity is a disturbance if for that influence quantity the
       rated operating conditions are not specified.
     - 2. (OIML D 11, 3.13.2)
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -224,6 +237,7 @@ data:
       outside the specified rated operating conditions of a measuring instrument
     notes:
     - rated operating conditions for that influence quantity are not specified.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -237,6 +251,7 @@ data:
     definition: influence quantity having a value within the limits specified in this
       Recommendation but outside the rated operating conditions ofthe filling instrument
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -250,6 +265,7 @@ data:
     definition: influence quantity having a value within the limits specified in this
       Recommendation but outside the rated operating conditions ofthe instrument
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -264,6 +280,7 @@ data:
       in this Recommendation but that falls outside the rated operating conditions
       of the instrument
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -276,6 +293,7 @@ data:
     g18_entry: '00858'
     definition: influence quantity having a value outside the rated operating conditions
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -290,6 +308,7 @@ data:
       Recommendation, but outside the specified rated operating conditions of the
       load cell
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -305,6 +324,7 @@ data:
       the specified rated operating conditions of the measuring instrument
     notes:
     - that influence quantity the rated operating conditions are not specified.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -319,6 +339,7 @@ data:
       this Recommendation, but outside the specified rated operating conditions of
       the measuring system.
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -334,6 +355,7 @@ data:
       the specified rated operating conditions of the measuring instrument
     notes:
     - that influence quantity the rated operating conditions are not specified.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -347,6 +369,7 @@ data:
     definition: an influence quantity having a value within the limits specified inthis
       Recommendation but outside the rated operating conditions of the belt weigher
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -361,6 +384,7 @@ data:
       specified in this International Recommendation but that falls outside the rated
       operating conditions of the instrument
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -377,6 +401,7 @@ data:
     notes:
     - An influence quantity is a disturbance if for that influence quantity the rated
       operating conditions are not specified.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -392,6 +417,7 @@ data:
       but outside the specified rated operating conditions of the measuring system
     notes:
     - that influence quantity, the rated operating conditions are not specified.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -408,6 +434,7 @@ data:
     notes:
     - 'Note: An influence quantity is a disturbance if the rated operating conditions
       for that influence quantity are not specified.'
+    examples: []
     consistency: pending
     consistency_reason: ''
     related:
@@ -431,6 +458,7 @@ data:
     notes:
     - Note:An influence quantity is a disturbance if the rated operating conditions
       for that influence quantity are not specified.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -445,6 +473,7 @@ data:
       in the relevant Recommendation, but outside the specified rated operating conditions
       of a measuring instrument [OIML V 1:2013, 5.19]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -459,6 +488,7 @@ data:
       relevant Recommendation, but outside the specified rated operating conditions
       of the measuring instrument [VIML 5.19]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -475,6 +505,7 @@ data:
     notes:
     - 'Note:  An influence quantity is a disturbance if the rated operating conditions
       for that influence quantity are not specified.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -491,6 +522,7 @@ data:
     notes:
     - 'Note:  An influence quantity is a disturbance if for that influence quantity
       the rated operating conditions are not specified.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -505,6 +537,7 @@ data:
       Recommendation, but outside the specified rated operating conditions of a measuring
       instrument [VIML:2013, 5.19]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -519,6 +552,7 @@ data:
       R 61 but outside the rated operating conditions of the measuring instrument.
       (VIML, 5.19)
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -533,6 +567,7 @@ data:
       relevant requirements, but outside the established rated operating conditions
       for the tank
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -547,6 +582,7 @@ data:
       Recommendation but outside therated operating conditions of the measuring instrument
       [OIML D 11, 3.13.2]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -559,7 +595,7 @@ data:
     g18_entry: 02231-D011
     definition: influence quantity having a value within the limits specified in the
       applicable Recommendation but outside the specified rated operating conditions
-      of the measuring instrument [VIML 5.19]
+      of the measuring instrument
     notes:
     - 'Note 1:These limits to be specified in the applicable Recommendation shall
       be based on the probability of occurrence of the disturbing phenomenon within
@@ -567,6 +603,7 @@ data:
       is of stochastic nature. Note 3:  In case the listed rated operating conditions
       of a measuring instrument do not include a range for the specific influence
       quantity, the influence quantity is qualified as being a disturbance.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -581,6 +618,7 @@ data:
       Recommendation but outside the specified rated operating conditions of a measuring
       instrument [VIML:2012 (V 1), 5.16] [25]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -597,6 +635,7 @@ data:
     notes:
     - Note:An influence quantity is a disturbance if the rated operating conditions
       for that influence quantity are not specified.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -613,6 +652,7 @@ data:
     notes:
     - Note:An influence quantity is a disturbance if for that influence quantity the
       rated operating conditions are not specified.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -627,6 +667,7 @@ data:
       in this Recommendation but that falls outside the rated operating conditions
       of the instrument
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -641,6 +682,7 @@ data:
       relevant requirements, but outside the established rated operating conditions
       for the tank
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -656,6 +698,7 @@ data:
       instrument
     notes:
     - "(OIML D 11:2004, 13.2)"
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -669,6 +712,7 @@ data:
     definition: influence quantity having a value within specified limits, but outside
       the specified rated operating conditions of the ALG
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -683,6 +727,7 @@ data:
       Recommendation but outside the rated operating conditions of the instrument
       [Adapted from OIML D 11:2004, 3.13.2]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -697,6 +742,7 @@ data:
       Recommendation, but outside the specified rated operating conditions of the
       instrument
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -711,6 +757,7 @@ data:
       this Recommendation but outside the specified rated operating conditions of
       the instrument [OIML D 11: 2004, 3.13.2]'
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -727,6 +774,7 @@ data:
     - 'Note 1: If the rated operating conditions are not specified for an influence
       quantity, it is a disturbance. Note 2: A systematic influence by design or by
       installation (e.g. systematic air inlet) cannot be considered as a disturbance.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -742,6 +790,7 @@ data:
     notes:
     - 'Note: An influence quantity is a disturbance if for that influence quantity
       the rated operating conditions are not specified.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -755,6 +804,7 @@ data:
     definition: influence quantity having a value within the limits specified in this
       Recommendation but outside the rated operating conditions of the instrument
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -769,6 +819,7 @@ data:
       Recommendation, but outside the specified rated operating conditions of the
       instrument
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -782,6 +833,7 @@ data:
     definition: influence quantity having a value within the limits specified in this
       Recommendation but outside the rated operating conditions of the instrument
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -796,6 +848,7 @@ data:
       in this Recommendation but that falls outside the rated operating conditions
       of the instrument
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -808,6 +861,7 @@ data:
     g18_entry: '00858'
     definition: influence quantity having a value outside the rated operating conditions
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -822,6 +876,7 @@ data:
       this Recommendation, but outside the specified rated operating conditions of
       the measuring system.
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -838,6 +893,7 @@ data:
     notes:
     - 'Note:  An influence quantity is a disturbance if for that influence quantity
       the rated operating conditions are not specified.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -854,6 +910,7 @@ data:
     notes:
     - 'Note: An influence quantity is a disturbance if for that influence quantity
       the rated operating conditions are not specified.'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

@@ -24,6 +24,8 @@ data:
     definition: instrument which assigns a weighing result to a predetermined range
       of mass to determine a tariff or toll
     notes: []
+    examples:
+    - postal scales, garbage weighers.
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -37,6 +39,7 @@ data:
     definition: instrument which assigns a weighing result to a predetermined range
       of mass to determine a tariff or toll
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -50,6 +53,7 @@ data:
     definition: 'instrument which assigns a weighing result to a predetermined range
       of mass to determine a tariff or toll Examples: postal scales, garbage weighers.'
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -63,6 +67,7 @@ data:
     definition: instrument which assigns a weighing result to a predetermined range
       of mass to determine a tariff or toll
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

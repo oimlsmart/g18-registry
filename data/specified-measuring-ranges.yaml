@@ -32,6 +32,7 @@ data:
       or quantities ristic for the metering module are lowrate, pressure or temperature
       of the gas. . A conversion device has a specified easuring range for each quantity
       that it rocesses.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -53,6 +54,7 @@ data:
       for the metering module are flowrate, pressure or temperature of the gas. A
       conversion device has a specified measuring range for each quantity that it
       processes.'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

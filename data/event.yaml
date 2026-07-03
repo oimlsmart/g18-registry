@@ -24,6 +24,7 @@ data:
     definition: action in which a modification of a measuring instrument parameter,
       adjustment factor or update of software module is made
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -41,6 +42,7 @@ data:
       of the legally relevant parameters, or a modification or update of legally relevant
       sotware, or other activities that are legally relevant and which may influence
       the metrological data and/or characteristics.'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

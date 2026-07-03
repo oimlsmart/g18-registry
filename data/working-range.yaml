@@ -24,6 +24,7 @@ data:
     definition: range of concentrations of a component of interest in solution that
       can be measured with a repeatability within specified limits
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -38,6 +39,7 @@ data:
       is directly proportional to the concentration of the element being measured
       to within specified limits
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -55,6 +57,7 @@ data:
     - solution may be necessary to bring the element of interest within the working
       range. The zero absorbance of the spectrometer is adjusted using a blank reference
       solution.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -71,6 +74,7 @@ data:
     - 'Note:  Dilution, or concentration, of a sample solution may be necessary to
       bring the element of interest within the working range. The zero absorbance
       of the spectrometer is adjusted using a blank reference solution.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -84,6 +88,7 @@ data:
     definition: range of concentrations of a component of interest in solution that
       can be measured with a repeatability within specified limits
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -98,6 +103,7 @@ data:
       is directly proportional to the concentration of the element being measured
       to within specified limits
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

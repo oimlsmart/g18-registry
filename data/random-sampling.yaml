@@ -24,6 +24,7 @@ data:
     definition: sample prepackages are chosen randomly (i.e. they all have the same
       probability to be included in the sample).
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -39,6 +40,7 @@ data:
       lot has an equal probability of being selected to be included in the sample)
     notes:
     - Note:This is also referred to as “sampling without replacement”.
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

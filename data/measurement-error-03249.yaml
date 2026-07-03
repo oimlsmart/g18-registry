@@ -32,6 +32,7 @@ data:
       range, in which case the measurement error is not known. Note 2: Measurement
       implies compsrison of quantities or counting entities. Note 3: See Annex C for
       clarification regarding measurement-related terms.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -46,6 +47,7 @@ data:
     notes:
     - 'Note: The term “measurement error” in this Recommendation refers to load cell
       measurement errors. (For additional notes, refer to the VIM)'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -59,6 +61,7 @@ data:
     definition: measured quantity value minus a reference quantity value (OIML V 2-200,
       2.16)
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -79,6 +82,7 @@ data:
       by a unique true quantity calue or set of true quantity calues of negligibly
       range, in which case the measurement error is not known. Note 2: Measurement
       error should not be confused with production error or mistake..'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

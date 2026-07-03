@@ -24,6 +24,7 @@ data:
     definition: device which provides a supply of product from bulk to the weighing
       unit. It may operate in one or more stages
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -37,6 +38,7 @@ data:
     definition: device which provides a supply of product rom bulk to the weighing
       module that may operate in one or more stages
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

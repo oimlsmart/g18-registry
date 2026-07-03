@@ -26,6 +26,7 @@ data:
     definition: voltage of the external power supply required to operate the heat
       meter, conventionally the voltage of the AC mains supply
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

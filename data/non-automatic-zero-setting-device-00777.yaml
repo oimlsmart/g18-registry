@@ -23,6 +23,7 @@ data:
     g18_entry: '01334'
     definition: device for setting the indication to zero by an operator
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -35,6 +36,7 @@ data:
     g18_entry: '00920'
     definition: device for setting the indication to zero by an operator
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -47,6 +49,7 @@ data:
     g18_entry: '00777'
     definition: device for setting the indication to zero by an operator
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -60,6 +63,7 @@ data:
     definition: a zero-setting device that requires observation and adjustment by
       the operator.
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -72,6 +76,7 @@ data:
     g18_entry: '01269'
     definition: a zero-setting device that must be operated manually
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -85,6 +90,7 @@ data:
     definition: zero-setting device that requires observation and adjustment by the
       operator
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -97,6 +103,7 @@ data:
     g18_entry: '03333'
     definition: device for setting the indication to zero by an operator
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -110,6 +117,7 @@ data:
     definition: zero-setting device that requires observation and adjustment by the
       operator
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -122,6 +130,7 @@ data:
     g18_entry: '02561'
     definition: zero-setting device that must be operated manually
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -134,6 +143,7 @@ data:
     g18_entry: '01269'
     definition: a zero-setting device that must be operated manually
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -146,6 +156,7 @@ data:
     g18_entry: '00777'
     definition: device for setting the indication to zero by an operator
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -158,6 +169,7 @@ data:
     g18_entry: '01334'
     definition: device for setting the indication to zero by an operator
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

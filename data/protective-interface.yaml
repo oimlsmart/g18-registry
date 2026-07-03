@@ -27,6 +27,7 @@ data:
       displayed, processed or stored measurement results or primary indications; -adjust
       the instrument or change any adjustment factor'
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -44,6 +45,7 @@ data:
       or primary indications; or * adjust the instrument or change any adjustment
       factor, except releasing an adjustment procedure with incorporated devices'
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -63,6 +65,7 @@ data:
       incorporated devices or, in the case of class I instruments with external adjustment
       weights as well"
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -76,6 +79,7 @@ data:
     definition: legally relevant software module that handles all data flow to the
       legally relevant software modul(s) in order to prevent inadmissible influences
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -90,6 +94,7 @@ data:
       into the instrument of data or instructuons that cannot influence the metrological
       properties of instrument
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -104,6 +109,7 @@ data:
       of data or instructions that cannot influence the metrological properties of
       the instrument
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -121,6 +127,7 @@ data:
       weighing results or primary indications; or adjust the instrument or change
       any adjustment factor.'
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -137,6 +144,7 @@ data:
       displayed, processed or stored measurement results or primary indications; -adjust
       the instrument or change any adjustment factor'
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -154,6 +162,7 @@ data:
       primary indications; or adjust the instrument or change any adjustment factor,
       except releasing an adjustment procedure with incorporated devices'
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -173,6 +182,7 @@ data:
       devices or, in the case of class I instruments with external adjustment weights
       as well'
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

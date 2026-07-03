@@ -36,6 +36,7 @@ data:
     notes:
     - The verification mark may also identify the body responsible for verification
       and/or indicate the year or date of verification or its expiry date.
+    examples: []
     consistency: pending
     consistency_reason: ''
     related:
@@ -55,6 +56,7 @@ data:
       that the verification of the measuring instrument was carried out and compliance
       with statutory requirements was confirmed (form VIML, 3.04)
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -66,11 +68,11 @@ data:
     link: https://www.oiml.org/en/files/pdf_D/d027-e01.pdf
     g18_entry: '00181'
     definition: mark applied to a measuring instrument certifying that the verification
-      of the measuring instrument was carried out with satisfactory results [VIML
-      3.7]
+      of the measuring instrument was carried out with satisfactory results
     notes:
     - 'Note: The verification mark may also identify the body responsible for verification
       and/or indicate the year or date of verification or its expiry date.'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

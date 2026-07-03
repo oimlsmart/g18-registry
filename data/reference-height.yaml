@@ -28,6 +28,7 @@ data:
       reference point top and the reference point bottom
     notes:
     - "(see figure 1)"
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -40,6 +41,7 @@ data:
     g18_entry: '02232'
     definition: distance between the dipping datum point and the upper reference point
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -53,6 +55,7 @@ data:
     definition: distance, measured along the vertical measurement axis, between the
       reference point top and the reference point bottom (see figure 1)
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -65,6 +68,7 @@ data:
     g18_entry: 02232-R071
     definition: distance between the dipping datum point and the upper reference point
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

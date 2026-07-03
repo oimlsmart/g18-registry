@@ -27,6 +27,7 @@ data:
       the system
     notes:
     - This is accomplished by sealing devices and/or checking facilities.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -43,6 +44,7 @@ data:
       the system
     notes:
     - 'Note: This is accomplished by sealing devices and/or checking facilities.'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

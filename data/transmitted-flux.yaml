@@ -31,6 +31,7 @@ data:
     - 1. Adapted from ISO 6286, Table 1, No.
     - '2.'
     - 2. The coherent SI unit is the watt (W).
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -47,6 +48,7 @@ data:
     notes:
     - 'Note 1:   Adapted from ISO 6286, Table 1, No. 2. Note 2:   The coherent SI
       unit is the watt (W).'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

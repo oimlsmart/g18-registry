@@ -32,6 +32,7 @@ data:
       (see 3.2.9) to be sure of the authenticity of the public kay. Note 4: A digital
       signature provides nonrepudiation: the signee cannot deny signing the software
       or data.'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

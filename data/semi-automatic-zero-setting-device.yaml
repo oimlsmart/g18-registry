@@ -24,6 +24,7 @@ data:
     definition: device for setting the indication to zero automatically following
       amanual command
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -37,6 +38,7 @@ data:
     definition: a zero-setting device that operates automatically following a manual
       command or indicates the value of the adjustment required
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -50,6 +52,7 @@ data:
     definition: device for setting the indication to zero automatically following
       a manual command
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -63,6 +66,7 @@ data:
     definition: a zero-setting device that operates automatically following a manual
       command or indicates the value of the adjustment required
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -76,6 +80,7 @@ data:
     definition: device for setting the indication to zero automatically following
       a manual command
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -89,6 +94,7 @@ data:
     definition: device for setting the indication to zero automatically following
       a manual command
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -102,6 +108,7 @@ data:
     definition: device for setting the indication to zero automatically following
       a manual command
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -115,6 +122,7 @@ data:
     definition: zero-setting device that operates automatically following a manual
       command
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -128,6 +136,7 @@ data:
     definition: device for setting the indication to zero automatically following
       a manual command
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

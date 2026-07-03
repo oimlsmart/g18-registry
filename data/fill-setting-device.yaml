@@ -23,6 +23,7 @@ data:
     g18_entry: '00768'
     definition: device which allows the setting of the preset value of the fill
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -35,6 +36,7 @@ data:
     g18_entry: '03076'
     definition: device which allows the setting of the preset value of the fill
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

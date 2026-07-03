@@ -23,6 +23,7 @@ data:
     definition: weighing a wagon for each axle weight on the same load receptor
     notes:
     - the results are automatically added to indicate the wagon weight
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

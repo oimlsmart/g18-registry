@@ -27,6 +27,7 @@ data:
     - 1. A sample line may include devices such as filters, dryers or condensers (primary
       and secondary treatment gas) which are necessary to prepare the sample for analysis.
     - '2. (ISO 7504: 2001)'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -42,6 +43,7 @@ data:
     notes:
     - 'Note: A sample line may include devices such as coarse and fine filters, dryers
       or separators which are necessary to prepare the sample for analysis.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -58,6 +60,7 @@ data:
     - 'Note 1:  A sample line may include devices such as filters, dryers or condensers
       (primary and secondary treatment gas) which are necessary to prepare the sample
       for analysis. Note 2:  (ISO 7504: 2001)'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

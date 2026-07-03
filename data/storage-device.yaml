@@ -25,6 +25,7 @@ data:
       the measurement for later legally relevant purposes (e.g. the conclusion of
       a commercial transaction)
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -39,6 +40,7 @@ data:
       the measurement result adaptd form [OIML V 1:2022, 6.07]
     notes:
     - 'Note: See Annex C for clarification regarding measurement-related terms.'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

@@ -30,6 +30,7 @@ data:
       device
     notes:
     - See OIML Recommendation R 85-1/2 for general requirements.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -45,6 +46,7 @@ data:
       level gauge includes at least a liquid level sensor, atransducer, and an indicating
       device
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -61,6 +63,7 @@ data:
       device
     notes:
     - 'Note: See OIML Recommendation R 85-1/2 for general requirements.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -76,6 +79,7 @@ data:
       level gauge includes at least a liquid level sensor, a transducer, and an indicating
       device.
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

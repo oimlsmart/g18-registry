@@ -24,6 +24,7 @@ data:
     definition: device for setting the indication to zero when there is no load on
       the load receptor
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -37,6 +38,7 @@ data:
     definition: device for setting the indication to zero when there is no load on
       the load receptor
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -50,6 +52,7 @@ data:
     definition: device for setting the indication to zero when there is no load on
       the load receptor
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -62,6 +65,7 @@ data:
     g18_entry: '01895'
     definition: device for setting the indication to zero
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -75,6 +79,7 @@ data:
     definition: means used to set the weight indicating device to zero when the load
       receptor is empty
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -88,6 +93,7 @@ data:
     definition: a device enabling zero totalization to be obtained over a whole number
       of revolutions of the empty conveyor belt
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -101,6 +107,7 @@ data:
     definition: the means used to set the weight indicating device to zero when the
       load receptor is empty
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -114,6 +121,7 @@ data:
     definition: device enabling the indication to be set to zero in absence of any
       mass passing along the force receptor
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -127,6 +135,7 @@ data:
     definition: device for setting the indication to zero when there is no load on
       the load receptor
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -142,6 +151,7 @@ data:
     notes:
     - 'Note:  Usually obtained over a whole number of revolutions of the empty conveyor
       belt.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -155,6 +165,7 @@ data:
     definition: device for setting the indication to zero when there is no load on
       the load receptor
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -168,6 +179,7 @@ data:
     definition: device for setting the indication to zero when there is no load on
       the load receptor
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -181,6 +193,7 @@ data:
     definition: device for setting the indication to zero when there is no load on
       the load receptor
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -193,6 +206,7 @@ data:
     g18_entry: '01895'
     definition: device for setting the indication to zero
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

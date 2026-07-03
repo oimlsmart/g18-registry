@@ -25,6 +25,7 @@ data:
       temperature of the ribbon (in °C) under changes of the ambient temperature by
       1 °C at a constant lamp current
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -37,6 +38,7 @@ data:
     g18_entry: '00407'
     definition: change in minimum dead load output due to a change in ambient temperature
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

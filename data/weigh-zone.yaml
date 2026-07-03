@@ -24,6 +24,7 @@ data:
     definition: zone comprising the load receptor (T.2.1) with an apron (T.1.6.1)
       on both ends
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -36,6 +37,7 @@ data:
     g18_entry: '01259'
     definition: zone in which a wagon must be located when it is weighed
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -49,6 +51,7 @@ data:
     definition: zone of the rails on which all axles of a wagon must be located when
       the wagon is weighed
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -63,6 +66,7 @@ data:
       of and beyond each end of the load receptor in the direction of travel of the
       vehicle being weighed
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

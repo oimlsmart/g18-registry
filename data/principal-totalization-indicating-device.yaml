@@ -25,6 +25,7 @@ data:
       values of all consecutive loads weighed and discharged tobulk. This device is
       not resettable to zero by the user
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -39,6 +40,7 @@ data:
       values of all consecutive loads weighed and discharged to bulk. This device
       is not resettable to zero by the user
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

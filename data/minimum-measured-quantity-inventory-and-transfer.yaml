@@ -25,6 +25,7 @@ data:
       error may be exceeded. This quantity applies to liquid contained in the tank
       (inventory) or transferred into or out of the tank (transfer)
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -39,6 +40,7 @@ data:
       error may be exceeded. This quantity applies to liquid contained in the tank
       (inventory) or transferred into or out of the tank (transfer)
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

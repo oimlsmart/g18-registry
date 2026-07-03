@@ -25,6 +25,7 @@ data:
       of cryogenic liquid measuring devices and systems
     notes:
     - This is usually referred to as "master meter" in this field.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -39,6 +40,7 @@ data:
       of cryogenic liquid measuring devices and systems
     notes:
     - 'Note: This is usually referred to as “master meter” in this field.'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

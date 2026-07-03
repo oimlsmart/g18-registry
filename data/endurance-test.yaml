@@ -24,6 +24,7 @@ data:
     definition: test intended to verify whether the meter or the measuring system
       is able to maintain its performance characteristics over a period of use
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -37,6 +38,7 @@ data:
     definition: test intended to verify whether the meter or the measuring system
       is able to maintain its performance characteristics over a period of use
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -50,6 +52,7 @@ data:
     definition: test intended to verify whether the metering module is able to maintain
       its performance characteristics over a period of use
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -63,6 +66,7 @@ data:
     definition: test intended to verify whether the water meter is able to maintain
       its performance characteristics over a period of use
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -76,6 +80,7 @@ data:
     definition: test intended to verify whether the meter or the measuring system
       is able to maintain its performance characteristics over a period of use
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -89,6 +94,7 @@ data:
     definition: test intended to verify whether the metering module is able to maintain
       its performance characteristics over a period of use
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

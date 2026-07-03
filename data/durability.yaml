@@ -8,6 +8,9 @@ data:
     text: durability
   kind: undefined
   official_concept:
+    source: OIML D011:2004
+    id: '3.17'
+    url:
   editions_present:
   - '2010'
   - 202X
@@ -24,6 +27,7 @@ data:
     definition: ability of a measuring instrument to maintain its performance characteristics
       over a period of use
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -36,10 +40,15 @@ data:
     g18_entry: '02181'
     definition: ability of the measuring instrument to maintain its performance characteristics
       over a period of use
-    notes:
-    - "[OIML D 11:2004, 3.17]"
+    notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
+    related:
+    - type: see
+      ref:
+        source: OIML D011:2004
+        id: '3.17'
   - edition: '2010'
     publication: OIML R 85-1:2008
     publication_id: OIML R085-1:2008
@@ -51,6 +60,7 @@ data:
     definition: ability of the ALG to maintain its performance characteristics over
       a period of use
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -64,6 +74,7 @@ data:
     definition: "[O ability of an instrument to maintain its performance characteristics
       over a period of use IML D 11: 2004, 3.17]"
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -77,6 +88,7 @@ data:
     definition: capability of the measuring system to keep its performance characteristics
       over a period of use, for electronic purposes
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -90,6 +102,7 @@ data:
     definition: capability of an electronic part of the measuring system to keep its
       performance characteristics over a period of use
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -103,6 +116,7 @@ data:
     definition: "[a capability of the water meter to maintain its performance characteristics
       over a period of use dapted from OIML D 11]"
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -116,6 +130,7 @@ data:
     definition: ability of an instrument to maintain its performance characteristics
       over a period of use
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -129,6 +144,7 @@ data:
     definition: ability of an instrument to maintain its performance characteristics
       over a period of use
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -141,10 +157,15 @@ data:
     g18_entry: '01949'
     definition: ability of a measuring instrument to maintain its performance characteristics
       over a period of use
-    notes:
-    - "[OIML D 11, 3.17]"
+    notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
+    related:
+    - type: see
+      ref:
+        source: OIML D011:2004
+        id: '3.17'
   - edition: '2010'
     publication: OIML R 135:2004
     publication_id: OIML R135:2004
@@ -155,10 +176,15 @@ data:
     g18_entry: '01871'
     definition: ability of a measuring instrument to maintain its performance characteristics
       over a stated period of use
-    notes:
-    - "[OIML D 11, 3.17]"
+    notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
+    related:
+    - type: see
+      ref:
+        source: OIML D011:2004
+        id: '3.17'
   - edition: '2010'
     publication: OIML R 134:2003
     publication_id: OIML R134:2003
@@ -170,6 +196,7 @@ data:
     definition: ability of an instrument to maintain its performance characteristics
       over a period of use
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -183,6 +210,7 @@ data:
     definition: ability of an instrument to maintain its performance characteristics
       over a period of use
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -196,6 +224,7 @@ data:
     definition: the capability of the measuring system to maintain its performance
       characteristics over a period of use
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -210,6 +239,7 @@ data:
       a period of use [SOURCE: OIML D 11:2013, 3.18, [8] modified — “meter” replaces
       “measuring instrument”]'
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -223,6 +253,7 @@ data:
     definition: ability of the measuring instrument to maintain its performance characteristics
       over a period of use [OIML V 1:2022, 5.15]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -236,6 +267,7 @@ data:
     definition: ability of the measuring instrument to maintain its performance characteristics
       over a period of use [OIML V1:2013, 5.15]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -249,6 +281,7 @@ data:
     definition: ability of a measuring instrument to maintain its performance characteristics
       over a period of use [VIML, 5.15]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -262,6 +295,7 @@ data:
     definition: ability of an instrument to maintain its performance characteristics
       over a period of use [VIML:2013, 5.15]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -275,6 +309,7 @@ data:
     definition: ability of a measuring instrument to maintain its performance characteristics
       over a period of use
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -286,8 +321,9 @@ data:
     link:
     g18_entry: 02234-D011
     definition: ability of the measuring instrument to maintain its performance characteristics
-      over a period of use [VIML 5.15]
+      over a period of use
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -301,6 +337,7 @@ data:
     definition: ability of the measuring instrument to maintain its performance characteristics
       over a period of use [OIML V1:2013, 5.15]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -314,6 +351,7 @@ data:
     definition: ability of a measuring instrument to maintain its performance characteristics
       over a period of use [OIML D11, 3.17]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -327,6 +365,7 @@ data:
     definition: ability of an instrument to maintain its performance characteristics
       over a period of use
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -340,6 +379,7 @@ data:
     definition: ability of a measuring instrument to maintain its performance characteristics
       over a period of use
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -353,6 +393,7 @@ data:
     definition: ability of the ALG to maintain its performance characteristics over
       a period of use
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -366,6 +407,7 @@ data:
     definition: 'ability of an instrument to maintain its performance characteristics
       over a period of use [OIML D 11: 2004, 3.17]'
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -379,6 +421,7 @@ data:
     definition: capability of an electronic part of the measuring system to keep its
       performance characteristics over a period of use
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -392,6 +435,7 @@ data:
     definition: ability of an instrument to maintain its performance characteristics
       over a period of use
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -405,6 +449,7 @@ data:
     definition: ability of an instrument to maintain its performance characteristics
       over a period of use
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -418,6 +463,7 @@ data:
     definition: ability of an instrument to maintain its performance characteristics
       over a period of use
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -431,9 +477,14 @@ data:
     definition: ability of a measuring instrument to maintain its performance characteristics
       over a stated period of use [OIML D 11, 3.17]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current
 id: 57922ed0-ea30-50bf-ba4b-eec82422fe44
 schema_version: '3'
-related: []
+related:
+- type: see
+  ref:
+    source: OIML D011:2004
+    id: '3.17'

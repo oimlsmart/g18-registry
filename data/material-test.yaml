@@ -24,6 +24,7 @@ data:
     definition: test carried out on a complete instrument using the type of material
       that it is intended to weigh
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -37,6 +38,7 @@ data:
     definition: test carried out on a complete filling instrument using the type of
       material which it is intended to weigh
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -50,6 +52,7 @@ data:
     definition: test carried out on a complete leather-measuring instrument using
       the type of leather material which it is intended to measure
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -63,6 +66,7 @@ data:
     definition: a test carried out on a complete belt weigher using the type of material
       that it is intended to weigh
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -76,6 +80,7 @@ data:
     definition: test carried out on a complete AGFI using the type of material which
       it is intended to weigh
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -89,6 +94,7 @@ data:
     definition: test carried out on a complete instrument using the type of material
       that it is intended to weigh
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -102,6 +108,7 @@ data:
     definition: test carried out on a complete leather-measuring instrument using
       the type of leather material which it is intended to measure
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

@@ -25,6 +25,7 @@ data:
       of the observed variable, stem:[l], and the corresponding change of the measured
       mass, stem:[M]: stem:[k] = stem:[Delta l/Delta M]'
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -39,6 +40,7 @@ data:
       stem:[Delta]l, of the observed variable, l, and the corresponding change, stem:[Delta]m,
       of the measured mass, m
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -61,6 +63,7 @@ data:
       easily measured and, for narrow peaks, more accurately determined. Many modern
       chromatographic instruments are equipped with electronic integrators that provide
       preci measurements of relative peak areas.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -74,6 +77,7 @@ data:
     definition: ratio of a change in response (output) of a load cell to a corresponding
       change in the stimulus (load applied)
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -92,6 +96,7 @@ data:
       Mass-flow-rate-dependent detector Expressed in A · s · g–1 or V · s · g–1, and
       by the equation: where the symbols are the same as those defined in 3.12.1.'
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -105,6 +110,7 @@ data:
     definition: quotient of the increase in value of displacement of the reference
       point and the corresponding increase in pressure
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -123,6 +129,7 @@ data:
       measured must be large compared with the resolution. Note 3: In the scope of
       this Recommendation, sensitivity relates to the added substance which is not
       identical with the measurand.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -137,6 +144,7 @@ data:
       of the observed variable, l, and the corresponding change of the measured mass,
       M: k = l / M'
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -151,6 +159,7 @@ data:
       Δl, of the observed variable, l, and the corresponding change, Δm, of the measured
       mass, m
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -179,6 +188,7 @@ data:
       measured and, for narrow peaks, more accurately determined. Many modern chromatographic
       instruments are equipped with electronic integrators that provide precise measurements
       of relative peak areas.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -192,6 +202,7 @@ data:
     definition: Change in the response of a measuring instrument divided by the corresponding
       change in the stimulus.
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -210,6 +221,7 @@ data:
       Mass-flow-rate-dependent detector Expressed in A · s · g–1 or V · s · g–1, and
       by the equation: where the symbols are the same as those defined in 3.12.1.'
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -223,6 +235,7 @@ data:
     definition: quotient of the increase in value of displacement of the reference
       point and the corresponding increase in pressure
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

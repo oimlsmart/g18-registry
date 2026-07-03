@@ -27,6 +27,7 @@ data:
     definition: automatic checking facility that operates at certain time intervals
       orper fixed number of measurement cycles
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -40,6 +41,7 @@ data:
     definition: automatic checking facility that operates at certain time intervals
       orper fixed number of measurement cycles
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -53,6 +55,7 @@ data:
     definition: automatic checking facility operating at certain time intervals or
       Adapted from OIML D 11:2004, 3.18.1.2. per fixed number of measurement cycles
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -66,6 +69,7 @@ data:
     definition: automatic checking facility operating at least once, either at the
       beginning or at the end of each measurement operation
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -79,6 +83,7 @@ data:
     definition: automatic checking facility operating at least once, either at the
       beginning or at the end of each measurement operation
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -92,6 +97,7 @@ data:
     definition: automatic checking facility intervening at certain time or quantity
       intervals
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -105,6 +111,7 @@ data:
     definition: automatic checking facility operating at certain time intervals or
       per fixed number of measurement cycles
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -118,6 +125,7 @@ data:
     definition: automatic checking facility that operates at certain time intervals
       or per fixed number of measurement cycles
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -131,6 +139,7 @@ data:
     definition: an automatic checking facility that operates at least once, either
       at the beginning or end of each measurement operation
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -144,6 +153,7 @@ data:
     definition: an automatic checking facility operating at certain time intervals
       or over a fixed number of measurement cycles
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -157,6 +167,7 @@ data:
     definition: an automatic checking facility that operates at least once at the
       beginning of each measurement operation
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -170,6 +181,7 @@ data:
     definition: automatic checking facility that operates at certain time intervals
       or per fixed number of measurement cycles [OIML D 11:2013, 3.19.1.2]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -183,6 +195,7 @@ data:
     definition: automatic checking facility that operates at certain time intervals
       or per fixed number of measurement cycles
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -196,6 +209,7 @@ data:
     definition: automatic checking facility operating at certain time intervals or
       per fixed number of measurement cycles [adapted from OIML D 11:2004, 3.18.1.2]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -209,6 +223,7 @@ data:
     definition: an automatic checking facility that operates at least once, either
       at the beginning or end of each measurement operation
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

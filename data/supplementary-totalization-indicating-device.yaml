@@ -26,6 +26,7 @@ data:
       the weight values of consecutive loads weighed over ong period of time. This
       device may be resettable to zero by theuser
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -40,6 +41,7 @@ data:
       general totalization indicating device and intended to indicate themass of the
       loads conveyed over a fairly long period of operation
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -54,6 +56,7 @@ data:
       totalization indicating device and  intended to indicate the mass of the loads
       conveyed over a fairly long period of operation
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -69,6 +72,7 @@ data:
       of the weight values of consecutive loads weighed over a long period of time.
       This device may be resettable to zero by the user
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -83,6 +87,7 @@ data:
       general totalization indicating device and intended to indicate the mass of
       the loads conveyed over a fairly long period of operation
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

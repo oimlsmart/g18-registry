@@ -30,6 +30,7 @@ data:
     notes:
     - Note 1:SCF always has a positive sign because tp, n-1 has a negative sign for
       p = 0.005. Note 2:See Annex F, F.3 for the statistical background to SCF.
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

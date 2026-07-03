@@ -24,6 +24,7 @@ data:
     definition: record of the detector output signal versus time that has peaks corresponding
       to specific components of the sample
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -37,6 +38,7 @@ data:
     definition: a record of the detector output signal versus time that has specific
       peaks associated with measured components of a sample
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -50,6 +52,7 @@ data:
     definition: a record of the detector output signal versus time that has peaks
       corresponding to components of a sample
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -63,6 +66,7 @@ data:
     definition: record of the detector output signal versus time that has peaks corresponding
       to specific components of the sample
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -76,6 +80,7 @@ data:
     definition: a record of the detector output signal versus time that has specific
       peaks associated with measured components of a sample
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -89,6 +94,7 @@ data:
     definition: a record of the detector output signal versus time that has peaks
       corresponding to components of a sample
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

@@ -24,6 +24,7 @@ data:
     definition: vertical distance between the dipping datum point and the liquid The
       term "innage" is synonymous. level
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -37,6 +38,7 @@ data:
     definition: vertical distance between the dipping datum point and the liquid level
     notes:
     - 'Note: The term “innage” is synonymous.'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

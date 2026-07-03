@@ -28,6 +28,7 @@ data:
       of confidence
     notes:
     - Adapted from ISO Guide 30 and VIM, clauses 6.1, 6.2, 6.3 and 6.14.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -45,6 +46,7 @@ data:
       of confidence [adapted from ISO Guide 30 and VIM, clauses 6.1, 6.2, 6.3 and
       6.14]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

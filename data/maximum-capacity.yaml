@@ -30,6 +30,7 @@ data:
     definition: maximum weighing capacity, not taking into account the additive tare
       capacity
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -43,6 +44,7 @@ data:
     definition: largest discrete load that can be weighed automatically on the load
       receptor of the filling instrument
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -56,6 +58,7 @@ data:
     definition: largest load that an instrument is designed to weigh in motion without
       totalizing
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -69,6 +72,7 @@ data:
     definition: largest value of a quantity (mass) which may be applied to a load
       cell without exceeding the mpe (see 2.4.9).
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -82,6 +86,7 @@ data:
     definition: the maximum instantaneous net load that the weighing unit is intended
       to weigh on the portion of the conveyor belt representing the weigh length
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -95,6 +100,7 @@ data:
     definition: the largest load that an instrument is designed to weigh-in- motion
       without totalizing
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -108,6 +114,7 @@ data:
     definition: largest value of a quantity expressed in units of mass, which may
       be applied to a load cell
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -121,6 +128,7 @@ data:
     definition: maximum weighing capacity, not taking into account the additive tare
       capacity
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -133,6 +141,7 @@ data:
     g18_entry: '01809'
     definition: largest load that an instrument is designed to weigh in motion without  totalizing
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

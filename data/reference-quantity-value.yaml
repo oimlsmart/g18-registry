@@ -25,6 +25,7 @@ data:
       of the same kind
     notes:
     - "(VIM:2007, 5.18)"
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -38,6 +39,7 @@ data:
     definition: quantity value used as a basis for comparison with values of quantities
       of the same kind [VIM:2007, 5.18]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

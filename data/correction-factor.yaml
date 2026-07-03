@@ -25,6 +25,7 @@ data:
       from VIM:2007, 2.53) function "f(q)") by which the uncorrected result is multiplied
       to compensate for the estimated systematic error
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -39,6 +40,7 @@ data:
       “f(q)”) by which the uncorrected result is multiplied to compensate for the
       estimated systematic error [adapted from VIM:2007, 2.53]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

@@ -34,12 +34,18 @@ data:
     g18_entry: '00191'
     definition: testing and evaluation of a measuring instrument to ascertain whether
       or not a single instrument, an instrument lot or a production series of instruments
-      comply with all statutory requirements applicable to this instrument type [VIML,
-      2.11]
+      comply with all statutory requirements applicable to this instrument type
     notes:
-    - 'Conformity assessment does not only concern metrological requirements but may
-      also cover requirements relating to: - safety; - EMC; - software identification;
-      - ease of use; - marking; - etc.'
+    - |-
+      Conformity assessment does not only concern metrological requirements but may also cover requirements relating to:
+
+      * safety
+      * EMC
+      * software identification
+      * ease of use
+      * marking
+      * etc.
+    examples: []
     consistency: pending
     consistency_reason: ''
     related:
@@ -57,14 +63,14 @@ data:
     g18_entry: 02261-D016
     definition: testing and evaluation of measuring instruments to ascertain whether
       or not a single instrument, an instrument lot or a production series of instruments
-      comply with all statutory requirements applicable to this instrument type [VIML
-      2.11]
+      comply with all statutory requirements applicable to this instrument type
     notes:
     - 'Note 1: Conformity assessment does not only concern metrological requirements
       but may also cover requirements relating to: safety; EMC; software identification;
       ease of use; marking, etc.'
     - 'Note 2: Conformity assessment of a measuring instrument is hereafter referred
       to as "conformity assessment".'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -77,12 +83,12 @@ data:
     g18_entry: '00191'
     definition: testing and evaluation of a measuring instrument to ascertain whether
       or not a single instrument, an instrument lot or a production series of instruments
-      comply with all statutory requirements applicable to this instrument type [VIML
-      2.11]
+      comply with all statutory requirements applicable to this instrument type
     notes:
     - 'Note: Conformity assessment does not only concern metrological requirements
       but may also cover requirements relating to: safety; EMC; software identification;
       ease of use; marking; etc.'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

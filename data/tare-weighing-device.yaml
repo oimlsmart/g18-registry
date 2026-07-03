@@ -24,6 +24,7 @@ data:
     definition: tare device that stores the tare value (T.3.2.3) and is capable of
       indicating or printing it whether or not the instrument is loaded
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -37,6 +38,7 @@ data:
     definition: tare device that stores the tare value and that is capable of displaying
       or printing it whether or not the instrument is loaded
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -50,6 +52,7 @@ data:
     definition: tare device that stores the tare value (T.3.2.3) and is capable of
       indicating or printing it whether or not the instrument is loaded
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -63,6 +66,7 @@ data:
     definition: tare device that stores the tare value and that is capable of displaying
       or printing it whether or not the instrument is loaded
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

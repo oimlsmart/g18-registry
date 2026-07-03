@@ -27,6 +27,7 @@ data:
       be evenly distributed (and apparently at random) over the range
     notes:
     - "[ISO/IEC 9594-8:2001]"
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -46,6 +47,7 @@ data:
       properties: collision-resistance, preimage resistance, and second preimage resistance,
       where preimage resistance refers to the inability (computational infeasibility)
       to reconstruct a preimage or message digest.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -62,6 +64,7 @@ data:
     - 'Note: A “good” hash function is such that the results of applying the function
       to a (large) set of values in the domain will be evenly distributed (and apparently
       at random) over the range.'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

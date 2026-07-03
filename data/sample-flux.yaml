@@ -29,6 +29,7 @@ data:
       the measurement 2. is made and reaching the detector
     notes:
     - The coherent SI unit is the watt (W).
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -44,6 +45,7 @@ data:
       the detector
     notes:
     - 'Note 1:  ISO 6286, Table 2, No. 17. The coherent SI unit is the watt (W).'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

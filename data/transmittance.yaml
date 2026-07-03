@@ -29,6 +29,7 @@ data:
     notes:
     - Transmittance has the dimension one and is ressed with the derived coherent
       SI unit (1).
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -43,6 +44,7 @@ data:
     notes:
     - 'Note 1:   ISO 6286, Table 1, No. 4. Note 2:  Transmittance has the dimension
       one and is expressed with the derived coherent SI unit one (1).'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

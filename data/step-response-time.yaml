@@ -28,6 +28,7 @@ data:
       to as esponse time" in this Recommendation)'
     notes:
     - "(VIM:2007, 4.23)"
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -44,6 +45,7 @@ data:
       settles within specified limits around its final steady value (referred to as
       “response time” in this Recommendation) [VIM:2007, 4.23]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

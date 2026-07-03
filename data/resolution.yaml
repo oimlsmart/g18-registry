@@ -35,6 +35,7 @@ data:
     notes:
     - For a digital device, this is the change in the indication when the least significant
       digit changes by one step.
+    examples: []
     consistency: pending
     consistency_reason: ''
     related:
@@ -54,6 +55,7 @@ data:
       force in the measuring range that can be observed or recorded and quantified
       at any applied force
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -69,6 +71,7 @@ data:
     notes:
     - It usually indicates the smallest distance between two adjacent spectral lines
       at which they can be distinguished one from the another.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -83,6 +86,7 @@ data:
       change in the corresponding indication [VIM 4.14]
     notes:
     - "(For notes, refer to the VIM)"
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -97,6 +101,7 @@ data:
       force in the measuring range that can be observed or recorded and quantified
       at any applied force
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -112,6 +117,7 @@ data:
     notes:
     - 'Note: It usually indicates the smallest distance between two adjacent spectral
       lines at which they can be distinguished one from the another.'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

@@ -28,6 +28,7 @@ data:
     - ters, assemblers, installers, repackagers, elabelers, etc. that have responsibility
       for ssuring the quality and performance of a easuring instrument prior to its
       being placed n service (see ISO/IEC Guide 22 [4]).
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -46,6 +47,7 @@ data:
       repackagers, relabelers, etc. that have responsibility for assuring the quality
       and performance of a measuring instrument prior to its being placed in service
       (see ISO/IEC Guide 22 [4]).'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

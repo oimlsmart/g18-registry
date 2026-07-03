@@ -24,6 +24,7 @@ data:
     definition: material measure of length for measuring the liquid level
     notes:
     - See OIML Recommendation R 35-1 for general requirements.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -37,6 +38,7 @@ data:
     definition: material measure of length for measuring the liquid level
     notes:
     - 'Note: See OIML Recommendation R 35-1 for general requirements.'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

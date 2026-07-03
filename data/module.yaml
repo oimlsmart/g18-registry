@@ -40,6 +40,7 @@ data:
     notes:
     - 'Typical modules of an instrument are: load , indicator, analog or digital processors,
       hing module, remote display, software.'
+    examples: []
     consistency: pending
     consistency_reason: ''
     related:
@@ -64,6 +65,7 @@ data:
     - 'typical modules of an automatic weighing trument are: load cell, indicator,
       analog or ital data processing device, computer l, weighing module, digital
       display.'
+    examples: []
     consistency: pending
     consistency_reason: ''
     related:
@@ -87,6 +89,7 @@ data:
     notes:
     - 'Typical modules of a weighing instrument : load cell, indicator, analog or
       digital data cessing device, weighing module, terminal, display.'
+    examples: []
     consistency: pending
     consistency_reason: ''
     related:
@@ -107,6 +110,7 @@ data:
       evaluated according to prescribed metrological and technical performance requirements
       in the relevant Recommendation
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
     related:
@@ -126,6 +130,7 @@ data:
       and constructed such that it can be separately evaluated according to prescribed
       metrological and technical performance requirements (OIML D11, 3.2)
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -146,6 +151,7 @@ data:
       with the metrological authority (see 6.2.6). Note 3: Typical modules of an automaticweighing
       instrument are: load cell (force receptor), indicator, analog or digital processors,
       weighing module, remote display, software.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -163,6 +169,7 @@ data:
       of a weighing instrument are weighing module, load cell, indicator, analog or
       digital data processing device, terminal, primary display.'
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -180,6 +187,7 @@ data:
     - 'Note:A module may be a complete measuring instrument (for example: counter
       scale, electricity meter) or a part of a measuring instrument (for example:
       printer, indicator).'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -195,6 +203,7 @@ data:
     - 'Note: Typical modules of an automatic weighing instrument are: load cell, indicator,
       analogue or digital data processing device, weighing module, terminal, primary
       display.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -213,6 +222,7 @@ data:
     notes:
     - 'Typical modules of an instrument are: load cell, indicator, analog or digital
       processors, weighing module, remote display, software.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -231,6 +241,7 @@ data:
     - 'Note: Typical modules of an automatic weighing instrument are: load cell, indicator,
       analog or digital data processing device, computer terminal, weighing module,
       digital display.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -248,6 +259,7 @@ data:
     notes:
     - 'Note:Typical modules of a weighing instrument are: load cell, indicator, analog
       or digital data processing device, weighing module, terminal, primary display.'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

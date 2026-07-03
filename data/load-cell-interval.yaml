@@ -23,6 +23,7 @@ data:
     g18_entry: '00712'
     definition: part of the load cell measuring range into which that range is divided
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -35,6 +36,7 @@ data:
     g18_entry: '03200'
     definition: subdivision of the load cell measuring range
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

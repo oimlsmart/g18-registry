@@ -24,6 +24,8 @@ data:
     definition: electronic device that only performs digital functions and that provides
       a digitized output or display.
     notes: []
+    examples:
+    - Printer, remote display, terminal, data storage device, personal computer
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -37,6 +39,9 @@ data:
     definition: electronic device that only performs digital functions and provides
       a digitized output or display
     notes: []
+    examples:
+    - Printer, primary or secondary display, keyboard, terminal, data storage device,
+      personal computer.
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -50,6 +55,7 @@ data:
     definition: 'device that provides a digitised output or display Examples: Printer,
       remote display, terminal, data storage device, personal computer'
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -64,6 +70,7 @@ data:
       a digitized output or display. Examples: Printer, remote display, terminal,
       data storage device, personal computer'
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -78,6 +85,7 @@ data:
       a digitized output or display Examples: Printer, primary or secondary display,
       keyboard, terminal, data storage device, personal computer.'
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

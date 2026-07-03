@@ -23,6 +23,7 @@ data:
     g18_entry: '00512'
     definition: the means used to pre-set a weight value for a totalized load
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -35,6 +36,7 @@ data:
     g18_entry: '03377'
     definition: the means used to pre-set a weight value for a totalized load
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

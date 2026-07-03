@@ -41,6 +41,7 @@ data:
     notes:
     - approval" is named "type evaluation". Consequently "Type evaluation" in the
       sense of this Document includes examination, tests and decision.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -56,6 +57,7 @@ data:
       and is suitable for use in the regulated area in such a way that it is expected
       to provide reliable measurement results over a defined period of time IML 2.6)"
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -69,9 +71,9 @@ data:
     definition: decision of legal relevance, based on the evaluation report, that
       the type of measuring instrument complies with the respective statutory requirements
       and is suitable for use in the regulated area in such a way that it is expected
-      to provide reliable measurement results over a defined period of time [VIML,
-      2.6]
+      to provide reliable measurement results over a defined period of time
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
     related:
@@ -92,6 +94,7 @@ data:
       judgment, that the type is in conformity with the mandatory requirements of
       this Recommendation for legal applications
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -103,11 +106,11 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r135-e04.pdf
     g18_entry: '01878'
     definition: decision of legal relevance, based on the evaluation report, that
-      [VIML, 2.6] the type of measuring instrument complies with the relevant statutory
-      requirements and is suitable for use in the regulated area in such a way that
-      it is expected to provide reliable measurement results over a defined period
-      of time
+      the type of measuring instrument complies with the relevant statutory requirements
+      and is suitable for use in the regulated area in such a way that it is expected
+      to provide reliable measurement results over a defined period of time
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
     related:
@@ -128,6 +131,7 @@ data:
       requirements and results in the issuance of the type approval certificate
     notes:
     - 'Note:  See olso VIML A.25'
+    examples: []
     consistency: pending
     consistency_reason: ''
     related:
@@ -148,6 +152,7 @@ data:
       and is suitable for use in the regulated area in such a way that it is expected
       to provide reliable measurement results over a defined period of time
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -164,6 +169,7 @@ data:
       2.05]
     notes:
     - 'Note:  See also VIML, A.25'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -181,6 +187,7 @@ data:
     notes:
     - 'Note:  For the purposes of the OIML-CS, “type approval certificate” should
       be read as “OIML certificate”.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -196,6 +203,7 @@ data:
       requirements and results in the issuance of the type approval certificate [VIML,
       2.05]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -211,6 +219,7 @@ data:
       requirements and results in the issuance of the type approval certificate (form
       VIML, 2.05)
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -227,6 +236,7 @@ data:
       2.05]
     notes:
     - 'Note:  See also VIML A.25'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -243,6 +253,7 @@ data:
       2.05]}"
     notes:
     - "{Note See also A.25}"
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -256,9 +267,9 @@ data:
     definition: decision of legal relevance, based on the evaluation report, that
       the type of measuring instrument complies with the respective statutory requirements
       and is suitable for use in the regulated area in such a way that it is expected
-      to provide reliable measurement results over a defined period of time [VIML
-      2.6]
+      to provide reliable measurement results over a defined period of time
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -277,6 +288,7 @@ data:
     - 'Note:  For the purpose of this Document, the “type approval” is named “type
       evaluation”. Consequently “Type evaluation” in the sense of this Document includes
       examination, tests and decision.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -290,9 +302,9 @@ data:
     definition: decision of legal relevance, based on the evaluation report, that
       the type of measuring instrument complies with the respective statutory requirements
       and is suitable for use in the regulated area in such a way that it is expected
-      to provide reliable measurement results over a defined period of time [VIML,
-      2.6]
+      to provide reliable measurement results over a defined period of time
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -308,6 +320,7 @@ data:
       judgment, that the type is in conformity with the mandatory requirements of
       this Recommendation for legal applications
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -324,6 +337,7 @@ data:
       to provide reliable measurement results over a defined period of time [VIML,
       2.6]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

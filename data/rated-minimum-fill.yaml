@@ -28,6 +28,7 @@ data:
     notes:
     - for filling instruments which effect the fill by more than one weighing cycle,
       Minfill is larger than the minimum capacity (Min).
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

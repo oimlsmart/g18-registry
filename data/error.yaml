@@ -33,6 +33,7 @@ data:
     definition: measured quantity value minus a reference quantity value
     notes:
     - "(VIM:2007, 2.16)"
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -47,6 +48,7 @@ data:
       input quantity
     notes:
     - "[VIM:1993, 5.20; OIML D 11:2004, 3.5]"
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -60,6 +62,7 @@ data:
     definition: indication of an ALG minus a true value of the corresponding input
       quantity
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -73,6 +76,7 @@ data:
     definition: measured quantity value minus a reference quantity value
     notes:
     - "(VIM:2007, 2.16)"
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -86,6 +90,7 @@ data:
     definition: "[V indication of an instrument minus the (conventional) true value
       ofthe mass IM:1993, 5.20]"
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -99,6 +104,7 @@ data:
     definition: "[a indication of an instrument minus the (conventional) true value
       ofthe corresponding mass dapted from VIM:1993, 1993, 3.10]"
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -110,8 +116,9 @@ data:
     link: https://www.oiml.org/en/files/pdf_D/d011-e04.pdf
     g18_entry: '00228'
     definition: indication of a measuring instrument minus a true value of the corresponding
-      input quantity [VIM, 5.20]
+      input quantity
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
     related:
@@ -131,6 +138,7 @@ data:
       from a totalization indicating device on a belt weigher, minus the (conventional)
       true value of the mass relating to those readings dapted from VIM:1993, 5.20]"
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
     related:
@@ -148,6 +156,7 @@ data:
     g18_entry: '03043'
     definition: indicated quantity value minus the reference (true) quantity value
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -162,6 +171,7 @@ data:
     notes:
     - 'Note: This reference value is sometimes referred to as a (conventional) true
       quantity value. [VIML, 4.06]'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -175,6 +185,7 @@ data:
     definition: measured quantity value minus a reference quantity value [VIM, 2.16]
       [1])
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -193,6 +204,7 @@ data:
       error. Since in all cases in this document the errors are expressed in relative
       values it was decided that a separate definition for a relative error is not
       needed.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -206,6 +218,7 @@ data:
     definition: indication of an instrument minus the (conventional) true value of
       the corresponding input quantity [VIM 5.20]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -219,6 +232,7 @@ data:
     definition: measured quantity value minus a reference quantity value [VIM:2007,
       2.16]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -232,6 +246,7 @@ data:
     definition: indication of an ALG minus a true value of the corresponding input
       quantity
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -245,6 +260,7 @@ data:
     definition: measured quantity value minus a reference quantity value [VIM:2007,
       2.16]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -258,6 +274,7 @@ data:
     definition: indication of an instrument minus the (conventional) true value of
       the mass [VIM:1993, 5.20]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -271,6 +288,7 @@ data:
     definition: indication of an instrument minus the (conventional) true value of
       the corresponding mass [adapted from VIM:1993, 1993, 3.10]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -284,6 +302,7 @@ data:
     definition: indication of an instrument minus the (conventional) true value of
       the mass [VIM 5.20]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -297,6 +316,7 @@ data:
     definition: indication of a measuring instrument minus the (conventional) true
       value of the area [VIM:1993, 5.20]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

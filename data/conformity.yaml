@@ -24,6 +24,7 @@ data:
       and technical requirements as specified in the relevant Recommendation"
     notes:
     - "(OIML B 3)"
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -37,6 +38,7 @@ data:
     definition: "(I fulfilment by the measuring instrument type of specified requirements
       SO/IEC Guide 2, 12.1)"
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -50,6 +52,7 @@ data:
     definition: fulfilment by a measuring instrument type of metrological and technical
       requirements as specified in the relevant Recommendation
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

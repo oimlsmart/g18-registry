@@ -26,6 +26,7 @@ data:
     g18_entry: '01544'
     definition: checking facility that requires the intervention of an operator
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -38,6 +39,7 @@ data:
     g18_entry: '02104'
     definition: checking facility that requires the intervention of an operator
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -50,6 +52,7 @@ data:
     g18_entry: '00464'
     definition: checking facility which requires the intervention of an operator
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -62,6 +65,7 @@ data:
     g18_entry: '00247'
     definition: checking facility that requires the intervention of an operator
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -74,6 +78,7 @@ data:
     g18_entry: '01040'
     definition: A checking facility that requires the intervention of an operator
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -86,6 +91,7 @@ data:
     g18_entry: '01657'
     definition: a checking facility which requires the intervention of an operator
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -98,6 +104,7 @@ data:
     g18_entry: '01250'
     definition: a checking facility that requires intervention of an operator
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -111,6 +118,7 @@ data:
     definition: checking facility, requiring the intervention of an operator [OIML
       D 11:2013, 3.19.2]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -124,6 +132,7 @@ data:
     definition: checking facility which requires the intervention of an operator (OIML
       D 11, 3.19.2)
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -136,6 +145,7 @@ data:
     g18_entry: '03330'
     definition: checking facility that requires the intervention of an operator
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

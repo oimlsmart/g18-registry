@@ -30,6 +30,7 @@ data:
     - 'Note:  STS is controlled in approved moisture calibrations. During assessment,
       a limit is placed on the value of the average error shift caused by allowable
       temperature variations.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -47,6 +48,7 @@ data:
     - 'Note: STS is controlled in approved PMB calibrations. During assessment, a
       limit is placed on the value of the average error shift caused by allowable
       temperature variations.'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

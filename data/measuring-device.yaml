@@ -25,6 +25,7 @@ data:
       liquid to be measured into signals, representing volume or mass, destined for
       the calculator. It consists of a meter sensor and a transduce
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -38,6 +39,7 @@ data:
     definition: a device which measures the dimensions of an object and provides a
       signal to the processor from which the associated quantities are calculated
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -52,6 +54,7 @@ data:
       measurand into signals representing the measured quantity required as input
       for the measurement calculator, comprising a sensor and a transducer.
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -66,6 +69,7 @@ data:
       liquid to be measured into signals, representing volume or mass, destined for
       the calculator. It consists of a meter sensor and a transduce
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

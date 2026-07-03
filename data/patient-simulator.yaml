@@ -26,6 +26,7 @@ data:
     notes:
     - This device is not used for testing accuracy but is required in assessing stability
       of performance.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -41,6 +42,7 @@ data:
     notes:
     - 'Note: This device is not used for testing measurement accuracy but is required
       in assessing stability of performance.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -56,6 +58,7 @@ data:
     notes:
     - 'Note: This device is not used for testing accuracy but is required in assessing
       stability of performance.'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

@@ -20,8 +20,9 @@ data:
     clause: '3.4'
     link:
     g18_entry: '02218'
-    definition: measured quantity value minus a reference quantity value [VIM 2.16]
+    definition: measured quantity value minus a reference quantity value
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

@@ -23,6 +23,7 @@ data:
     g18_entry: '00743'
     definition: change in minimum dead load output due to a change in ambient temperature
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -36,6 +37,7 @@ data:
     definition: change of the signal output under minimum dead load due to a change
       in ambient temperature
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

@@ -23,6 +23,7 @@ data:
     definition: 'procedure that corrects a deviation of the pressure reading to 0.0
       kPa (0 mmHg) at atmospheric pressure (gauge pressure: 0 kPa (0 mmHg)) (VIM 3.11)'
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

@@ -30,6 +30,7 @@ data:
     notes:
     - For the purposes of this Recommendation, the measurement transducer includes
       the flow or quantity sensor.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -47,6 +48,7 @@ data:
       external power source
     notes:
     - ment transducer includes the flow or volume sensor
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -63,6 +65,7 @@ data:
     notes:
     - For the purpose of this Recommendation, the measurement transducer includes
       the flow or volume sensor.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -79,6 +82,7 @@ data:
     notes:
     - Note:The measurement transducer may function autonomously or use an external
       power source and may be based on a mechanical, electrical or electronic principle.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -95,6 +99,7 @@ data:
     - 'Note: For the purpose of this Recommendation this transducer is part of the
       measuring device and its output signal represents the output quantity which
       is based on the input from the sensor(s), being the input quantity.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -111,6 +116,7 @@ data:
     notes:
     - 'Note: For the purpose of this Recommendation, the measurement transducer includes
       the flow or volume sensor.'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

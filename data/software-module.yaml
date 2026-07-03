@@ -27,6 +27,7 @@ data:
       consists of one or more software modules
     notes:
     - "[similar IEC 61508-4:1998, 3.3.7]"
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -43,6 +44,7 @@ data:
     notes:
     - 'Note: The software of measuring instruments consist of one or more software
       modules.'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

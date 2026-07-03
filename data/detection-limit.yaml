@@ -30,6 +30,7 @@ data:
       defined as an output signal equal to some other multiple (two or ten) of the
       noise level and depends somewhat on whether the gas chromatograph is used for
       quantitative or qualitative analysis.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -47,6 +48,7 @@ data:
     notes:
     - t all amenable compounds have a base peak their spectra; the base peak is the
       most or abundant ion in a mass spectrum.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -66,6 +68,7 @@ data:
       in a reference solution free of interfering elements. The baseline noise is
       established by measuring the output signal of several aliquots of the blank
       test solution.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -88,6 +91,7 @@ data:
       of t instrument is an important parameter. It is defined as being a value equal
       to 10 times standard deviation of the background and al would include the variations
       associated wit sampling and analysis
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -106,6 +110,7 @@ data:
       is sometimes defined as the output signal equal to some other multiple (for
       example, two or ten) of th noise level and may depend somewhat on whether the
       gas chromatograph is being used for quantitative or qualitative analysis
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -130,6 +135,7 @@ data:
       per unit volume (usually mg/m3). Standard conditions may be specified, and for
       temperature may be 0 oC or 20 oC and for pressure one atmosphere or 101 325
       Pa."
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -148,6 +154,7 @@ data:
     - the determination of an element in a reference solution free of interferents.
       The baseline noise is established by measuring the output signal of several
       aliquots of a blank test solution.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -167,6 +174,7 @@ data:
       It is sometimes defined as an output signal equal to some other multiple (two
       or ten) of the noise level and depends somewhat on whether the gas chromatograph
       is used for quantitative or qualitative analysis.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -185,6 +193,7 @@ data:
     - 'Note: Some compounds do not give a molecular ion, but all amenable compounds
       have a base peak in their spectra; the base peak is the most intense or abundant
       ion in a mass spectrum.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -204,6 +213,7 @@ data:
       in a reference solution free of interfering elements. The baseline noise is
       established by measuring the output signal of several aliquots of the blank
       test solution.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -226,6 +236,7 @@ data:
       quantitation of the instrument is an important parameter. It is defined as being
       a value equal to 10 times the standard deviation of the background and also
       would include the variations associated with sampling and analysis'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -244,6 +255,7 @@ data:
       limit is sometimes defined as the output signal equal to some other multiple
       (for example, two or ten) of the noise level and may depend somewhat on whether
       the gas chromatograph is being used for quantitative or qualitative analysis'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -269,6 +281,7 @@ data:
       per unit volume (usually mg/m3). Standard conditions may be specified, and for
       temperature may be 0 oC or 20 oC and for pressure one atmosphere or 101 325
       Pa.'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

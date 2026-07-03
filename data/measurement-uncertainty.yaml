@@ -47,6 +47,7 @@ data:
       measurement uncertainty is associated with a stated quantity value attributed
       to the measurand. A modification of this value results in a modification of
       the associated uncertatinty.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -76,6 +77,7 @@ data:
       understood that the measurement uncertainty is associated with a stated quantity
       value attributed to the measurand. A modification of this value results in a
       modification of the associated uncertatinty.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -90,6 +92,7 @@ data:
       values being attributed to a measurand, based on the information used
     notes:
     - Note:See VIM 2.26 for notes on this definition.
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

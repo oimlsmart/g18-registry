@@ -27,6 +27,7 @@ data:
       vector parallel to the line connecting the speed meter and the vehicle is given
       by vm = v ∙ cos(α), where the measurement angle α has in general a horizontal
       and a vertical component.'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

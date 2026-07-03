@@ -26,6 +26,7 @@ data:
       signal output. Its value is the ratio of the upper limit of detection to the
       detection limit
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -43,6 +44,7 @@ data:
       by the ratio of the upper to the lower limit and is larger than or equal to
       the linear range
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -58,6 +60,7 @@ data:
       signal output. Its value is the ratio of the upper limit of detection to the
       detection limit
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -75,6 +78,7 @@ data:
       by the ratio of the upper to the lower limit and is larger than or equal to
       the linear range
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

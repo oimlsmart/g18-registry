@@ -8,6 +8,9 @@ data:
     text: electronic measuring instrument
   kind: undefined
   official_concept:
+    source: OIML D011:2004
+    id: '3.1'
+    url:
   editions_present:
   - '2010'
   - 202X
@@ -25,11 +28,16 @@ data:
       For the purpose of this Document, ancillary electrical quantity using electronic
       means and/or equipped with electronic devices
     notes:
-    - equipment, as long as it is subject to legal metrological control, is considered
-      to be part of the measuring instrument.
-    - 2. [OIML D 11:2004, 3.1]
+    - For the purpose of this Document, ancillary equipment, as long as it is subject
+      to legal metrological control, is considered to be part of the measuring instrument.
+    examples: []
     consistency: pending
     consistency_reason: ''
+    related:
+    - type: see
+      ref:
+        source: OIML D011:2004
+        id: '3.1'
   - edition: '2010'
     publication: OIML D 11:2004
     publication_id: OIML D011:2004
@@ -44,6 +52,7 @@ data:
     notes:
     - equipment, provided that it is subject to metrological control, is considered
       to be a par of the measuring instrument.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -60,6 +69,7 @@ data:
     - 'Note: For the purpose of this Document, auxiliary equipment, provided that
       it is subject to legal metrological control, is considered to be part of the
       measuring instrument. [OIML D 11:2013, 3.1]'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -73,6 +83,7 @@ data:
     definition: instrument intended to measure an electrical or non-electrical quantity
       using electronic means and/or equipped with electronic devices
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -87,6 +98,7 @@ data:
       using electronic means and/or equipped with electronic devices [OIML D 11:2013,
       3.1]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -103,9 +115,14 @@ data:
     - Note:For the purpose of this Document, auxiliary equipment, provided that it
       is subject to metrological control, is considered to be a part of the measuring
       instrument.
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current
 id: a2e94e61-e373-5a68-925b-d85d0e2b3687
 schema_version: '3'
-related: []
+related:
+- type: see
+  ref:
+    source: OIML D011:2004
+    id: '3.1'

@@ -23,6 +23,7 @@ data:
     g18_entry: '00844'
     definition: 3 a heat meter which has separable sub-assemblies as defined in .4
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -35,6 +36,7 @@ data:
     g18_entry: '00844'
     definition: a heat meter which has separable sub-assemblies as defined in 3.4
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

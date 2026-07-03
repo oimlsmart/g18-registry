@@ -24,6 +24,7 @@ data:
       the encompassed measurement range, as opposed to the variation in measured values
       at one point of the range
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -42,6 +43,7 @@ data:
     - 'Note: In this Recommendation, reference to a resulting ‘mean’ value is reserved
       for the mean of replicated measurements, i.e. the mean of measured values on
       the same test sample (usually taken under repeatability conditions).'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -61,6 +63,7 @@ data:
       ‘mean’ value is reserved for the mean of replicated measurements, i.e. the mean
       of measured values on the same test sample (usually taken under repeatability
       conditions).
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

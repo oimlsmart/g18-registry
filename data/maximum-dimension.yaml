@@ -27,6 +27,7 @@ data:
     definition: the maximum measurable dimension for each axis as specified by the
       manufacturer for the measuring instrument
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -40,6 +41,7 @@ data:
     definition: maximum measurable dimension for each axis as specified by the manufacturer
       for the measuring instrument
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

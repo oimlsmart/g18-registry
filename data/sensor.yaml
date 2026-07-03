@@ -25,6 +25,7 @@ data:
       affected by the measurand
     notes:
     - "(VIM:2007, 3.8)"
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -39,6 +40,7 @@ data:
       affected by the measurand
     notes:
     - "[VIM:1993, 4.14]"
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -58,6 +60,7 @@ data:
       element, the electrodes on an electromagnetic meter, or another element. The
       element senses the flow rate or volume of water passing through the meter and
       is referred to as a “flow sensor” or “volume sensor”.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -71,6 +74,7 @@ data:
     definition: element of a measuring system that is directly affected by a phenomenon,
       body, or substance carrying a quantity to be measured [VIM 3.8]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -84,6 +88,7 @@ data:
     definition: element of a measuring instrument or measuring chain that is directly
       affected by the measurand [VIM:2007, 3.8]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

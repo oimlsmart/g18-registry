@@ -24,6 +24,7 @@ data:
     definition: time elapsed from injection of a sample component to the recording
       of its peak maximum
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -37,6 +38,7 @@ data:
     definition: the elapsed time between injection of a sample and the appearance
       of the maximum output peak of the component of interest
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -50,6 +52,7 @@ data:
     definition: time elapsed from injection of a sample component to the recording
       of its peak maximum
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -63,6 +66,7 @@ data:
     definition: the elapsed time between injection of a sample and the appearance
       of the maximum output peak of the component of interest
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

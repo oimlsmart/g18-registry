@@ -22,13 +22,13 @@ data:
     g18_entry: '03295'
     definition: property of a measurement result whereby the result can be related
       to a reference through a documented unbroken chain of calibrations, each contributing
-      to the measurement uncertainty [VIM, 2.41]
+      to the measurement uncertainty
     notes:
-    - 'Note 1: For this definition, a ‘reference’can be a definition of a measurement
+    - 'Note 1: For this definition, a ''reference''can be a definition of a measurement
       unit through its practical realization, or a measurement procedure including
       the measurement unity for a non-ordinal quantity, or a measurement standard.
-      Note 2: Metrological traceability requires an established calibration hierarchy.
-      For other nores see [VIM, 2.41]'
+      Note 2: Metrological traceability requires an established calibration hierarchy.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -41,8 +41,9 @@ data:
     g18_entry: '02202'
     definition: property of a measurement result whereby the result can be related
       to a reference through a documented unbroken chain of calibrations, each contributing
-      to the measurement uncertainty [VIM 2.41]
+      to the measurement uncertainty
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

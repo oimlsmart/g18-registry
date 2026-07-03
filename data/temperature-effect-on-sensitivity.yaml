@@ -23,6 +23,7 @@ data:
     g18_entry: '00744'
     definition: change in sensitivity due to a change in ambient temperature
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -35,6 +36,7 @@ data:
     g18_entry: '03556'
     definition: change in sensivity due to a change in ambient temperature
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

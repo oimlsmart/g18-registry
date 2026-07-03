@@ -26,6 +26,7 @@ data:
     g18_entry: '02297'
     definition: automatic checking facility that operates at each measurement cycle
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -38,6 +39,7 @@ data:
     g18_entry: '02310'
     definition: automatic checking facility that operates at each measurement cycle
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -51,6 +53,7 @@ data:
     definition: automatic checking facility operating during each measurement cycle
     notes:
     - Adapted from OIML D 11:2004, 3.18.1.1
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -64,6 +67,7 @@ data:
     definition: automatic checking facility operating during the entire measurement
       operation
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -77,6 +81,7 @@ data:
     definition: automatic checking facility operating during the entire measurement
       operation
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -90,6 +95,7 @@ data:
     definition: automatic checking facility operating continuously during the entire
       measurement operation
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -103,6 +109,7 @@ data:
     definition: automatic checking facility operating during the entire measurement
       operation
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -115,6 +122,7 @@ data:
     g18_entry: '00245'
     definition: automatic checking facility that operates at each measurement cycle
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -130,6 +138,7 @@ data:
       upon and which operates on each measurement cycle without the intervention of
       the operator
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -143,6 +152,7 @@ data:
     definition: an automatic checking facility that operates during the entire measurement
       operation
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -155,6 +165,7 @@ data:
     g18_entry: '01655'
     definition: an automatic checking facility operating at each measurement cycle
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -168,6 +179,7 @@ data:
     definition: an automatic checking facility operating during all the measurement
       operation
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -181,6 +193,7 @@ data:
     definition: automatic checking facility that operates at each measurement cycle
       [OIML D 11:2013, 3.19.1.1]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -194,6 +207,7 @@ data:
     definition: automatic checking facility that operates at each measurement cycle
       (OIML D 11, 3.19.1.1)
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -207,6 +221,7 @@ data:
     definition: automatic checking facility operating during the entire measurement
       operation
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -219,6 +234,7 @@ data:
     g18_entry: 02237-D011
     definition: automatic checking facility that operates at each measurement cycle
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -234,6 +250,7 @@ data:
       cycle without the intervention of the operator [adapted from OIML D 11, 3.18
       and 3.18.1]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -246,6 +263,7 @@ data:
     g18_entry: '01655'
     definition: an automatic checking facility operating at each measurement cycle
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -259,6 +277,7 @@ data:
     definition: an automatic checking facility that operates during the entire measurement
       operation
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

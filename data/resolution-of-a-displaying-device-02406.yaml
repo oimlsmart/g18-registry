@@ -26,6 +26,7 @@ data:
     notes:
     - 'Note: For a digital indicating device, this is the change in the indication
       when the least significant digit changes by one step.'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

@@ -26,6 +26,7 @@ data:
       The self-service device includes all the elements and constituents that are
       mandatory so that a measuring system performs in a self-service arrangement
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -43,6 +44,7 @@ data:
       mandatory so that a measuring system performs in a self- service arrangement.
     - 2. The arrangement is made of a self-service device and connected measuring
       systems.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -60,6 +62,7 @@ data:
       that are mandatory so that a measuring system performs in a self-service arrangement.'
     - 'Note 2: The arrangement is made of a self-service device and connected measuring
       systems.'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

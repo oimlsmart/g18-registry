@@ -25,6 +25,7 @@ data:
       can be divided into a legally relevant part and a legally non-relevant part.
       These parts communicate via a software interface
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -38,6 +39,7 @@ data:
     definition: software in measuring devices can be divided into a legally relevant
       part and a legally irrelevant part. These parts communicate via an interface
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -52,6 +54,7 @@ data:
       and non-legally relevant software. If no software separation exists, the whole
       software is to be considered as legally relevant
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -66,6 +69,7 @@ data:
       and non-legally relevant software. If no software separation exists, the whole
       software is to be considered as legally relevant
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -81,6 +85,7 @@ data:
       form [OIML V 1:2022, 6.02]
     notes:
     - 'Note: These module(s) communicate via a software interface.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -95,6 +100,7 @@ data:
       into a legally relevant part and a legally non-relevant part [VIML:2013, 6.02]
     notes:
     - 'Note: These padt communicate via a software interface.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -108,6 +114,7 @@ data:
     definition: separation of software in measuring instruments, which can be divided
       into a legally relevant part and a legally non-relevant part (VIML, 6.02)
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -123,6 +130,7 @@ data:
     notes:
     - 'Note: if no software separation exists, the whole software is to be considered
       as legally relevant'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -136,6 +144,7 @@ data:
     definition: software in measuring devices can be divided into a legally relevant
       part and a legally irrelevant part. These parts communicate via an interface
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -150,6 +159,7 @@ data:
       and non-legally relevant software. If no software separation exists, the whole
       software is to be considered as legally relevant
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -164,6 +174,7 @@ data:
       and non-legally relevant software. If no software separation exists, the whole
       software is to be considered as legally relevant
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

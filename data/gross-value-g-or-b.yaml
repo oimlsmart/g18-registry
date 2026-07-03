@@ -24,6 +24,7 @@ data:
     definition: indication of the weight value of a load on an instrument, with notare
       or preset tare device in operation
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -37,6 +38,7 @@ data:
     definition: indication of the weight value of a load on an instrument, with notare
       or preset tare device in operation
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -50,6 +52,7 @@ data:
     definition: indication of the weight value of a load on an instrument, with no
       tare or preset tare device in operation
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

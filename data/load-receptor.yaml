@@ -23,6 +23,7 @@ data:
     g18_entry: '01324'
     definition: part of the instrument intended to receive the load
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -35,6 +36,7 @@ data:
     g18_entry: '00578'
     definition: part of the instrument intended to receive the load
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -47,6 +49,7 @@ data:
     g18_entry: '00893'
     definition: part of the instrument intended to receive the load
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -59,6 +62,7 @@ data:
     g18_entry: 00763a
     definition: part of the instrument intended to receive the load
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -73,6 +77,7 @@ data:
       which realizes a change in the balance of the instrument when a load is placed
       upon it
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -85,6 +90,7 @@ data:
     g18_entry: '00488'
     definition: the part of the belt weigher intended to receive the load
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -99,6 +105,7 @@ data:
       which realizes a change in the balance of the instrument when a load is placed
       upon it
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -111,6 +118,7 @@ data:
     g18_entry: '03205'
     definition: part of the instrument intended to receive the load
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -123,6 +131,7 @@ data:
     g18_entry: '03207'
     definition: part of the instrument intended to sense the load on the belt
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -139,6 +148,7 @@ data:
       a single wagon simultaneously. Note 2: Two or more load receptors may be placed
       in series and used as a single load receptor for full-draught weighing or partial
       weighing (see 0.3.1.2).'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -151,6 +161,7 @@ data:
     g18_entry: '01324'
     definition: part of the instrument intended to receive the load
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -163,6 +174,7 @@ data:
     g18_entry: '00578'
     definition: part of the instrument intended to receive the load
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -175,6 +187,7 @@ data:
     g18_entry: '00893'
     definition: part of the instrument intended to receive the load
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -189,6 +202,7 @@ data:
       and which realizes a change in the balance of the instrument when a wheel load
       is placed upon it
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

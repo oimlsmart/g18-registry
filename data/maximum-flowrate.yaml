@@ -28,6 +28,7 @@ data:
       the limits of its maximum permissible error, whilst operated within its rated
       operating conditions
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -41,6 +42,7 @@ data:
     definition: the flowrate obtained with the maximum capacity of the weighing unit
       and the maximum speed of the belt
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -54,6 +56,7 @@ data:
     definition: flowrate obtained with the maximum capacity of the weighing module
       and the maximum speed of the belt
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

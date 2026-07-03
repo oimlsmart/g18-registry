@@ -33,6 +33,7 @@ data:
       machines may also be referred to as calibration machines. - Rockwell testing
       machine: Rockwell hardness machine used for general testing purposes'
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -55,6 +56,7 @@ data:
       machines may also be referred to as calibration machines. Rockwell testing machine:
       Rockwell hardness machine used for general testing purposes'
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

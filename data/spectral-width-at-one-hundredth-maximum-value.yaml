@@ -27,6 +27,7 @@ data:
     notes:
     - 1. The coherent SI unit is the metre (m), but often the nanometre (nm) is used.
     - 2. The optical quantity can be e.g. radiant luminous flux, absorbance, etc.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -43,6 +44,7 @@ data:
     notes:
     - 'Note: The coherent SI unit is the metre (m), but often the nanometre (nm) is
       used. The optical quantity can be e.g. radiant luminous flux, absorbance, etc.'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

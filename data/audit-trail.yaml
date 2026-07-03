@@ -26,6 +26,7 @@ data:
       updates, or other activities that are legally relevant and which may influence
       the metrological characteristics
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -41,6 +42,7 @@ data:
       and weighings have been carried out in accordance with the appropriate parts
       of this Recommendation. Every log entry has a unique time and date stamp
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -59,6 +61,7 @@ data:
     - ering conditions, pressures, temperatures orific values, conversion equation
       cification and parameters, volumes and rgy at base conditions, calibration datum,
       alarm logs.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -74,6 +77,7 @@ data:
       or software updates, or other activities that are legally relevant and which
       may influence the mettrological
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -91,6 +95,7 @@ data:
       6.05]
     notes:
     - 'Note: Regarding examples for events logged in an audit trial, see 3.2.20'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -106,6 +111,7 @@ data:
       updates, or other activities that are legally relevant and which may influence
       the metrological characteristics [VIML:2013, 6.05] [2]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -121,6 +127,7 @@ data:
       updates, or other activities that are legally relevant and which may influence
       the metrological characteristics (OIML D 31)
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -136,6 +143,7 @@ data:
       updates, or other activities that are legally relevant and which may influence
       the metrological characteristics [OIML D 31, 3.1.2]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -149,6 +157,7 @@ data:
     definition: electronic count and/or information record of the changes to the values
       of the legally relevant parameters of a device
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -164,6 +173,7 @@ data:
       and weighings have been carried out in accordance with the appropriate parts
       of this Recommendation. Every log entry has a unique time and date stamp
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -181,6 +191,7 @@ data:
     - 'Note: The required records may include volumes at metering conditions, pressures,
       temperatures and calorific values, conversion equation specification and parameters,
       volumes and energy at base conditions, calibration datum, and alarm logs.'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

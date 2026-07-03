@@ -27,6 +27,7 @@ data:
       meter should register electrical energy at unity power factor and, for poly-phase
       meters, with balanced load
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

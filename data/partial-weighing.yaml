@@ -25,6 +25,7 @@ data:
       load receptor. The results are automatically added to indicate or print the
       vehicle weight
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -38,6 +39,7 @@ data:
     definition: weighing a wagon in two or more parts on the same load receptor. The
       results are automatically added to indicate or print the wagon weight
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -51,6 +53,7 @@ data:
     definition: determining the mass of a wagon in two or more parts (i.e. axle or
       bogie partial weighing) successively on the same load receptor
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -64,6 +67,7 @@ data:
     definition: weighing a vehicle in two or more parts successively on the same load
       receptor
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

@@ -23,6 +23,7 @@ data:
     g18_entry: '02269'
     definition: point at which the liquid is defined as being delivered or received
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -35,6 +36,7 @@ data:
     g18_entry: '01603'
     definition: point at which the liquid is defined as being delivered or received
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -47,6 +49,7 @@ data:
     g18_entry: '02001'
     definition: point at which the gas is defined as being delivered
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -60,6 +63,7 @@ data:
     definition: the point at which the quantity of liquid measured is defined as being
       delivered or received
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -73,6 +77,7 @@ data:
     definition: point (physical location) in the measuring system downstream of the
       meter after which the gas is defined as being delivered
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -85,6 +90,7 @@ data:
     g18_entry: '03579'
     definition: point at which the liquid is defined as being delivered or received
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -97,6 +103,7 @@ data:
     g18_entry: '03580'
     definition: point at which the liquid is defined as being delivered or received
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -109,6 +116,7 @@ data:
     g18_entry: '02269-R080-1'
     definition: point at which the liquid is defined as being delivered or received
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -122,6 +130,7 @@ data:
     definition: the point at which the quantity of liquid measured is defined as being
       delivered or received
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

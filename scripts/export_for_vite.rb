@@ -201,9 +201,12 @@ File.write(File.join(options[:out_dir], "harmonization.json"),
 # ── ID conflicts (raw + designation collisions) ──────────────────────────
 # Two DISTINCT problems:
 #   1. Raw ID conflicts: same G 18 ID number assigned to DIFFERENT concepts
-#      (a numbering error in the source publication). In 2010 these are
-#      visible as <id>a / <id>b suffixes across DIFFERENT term files.
-#      Detection must be CROSS-TERM.
+#      (a numbering error in the source publication). Detection must be
+#      CROSS-TERM. Two disambiguation conventions appear in the dataset:
+#        a/b suffix:    "00474a" vs "00474b"            (2010)
+#        -RXXX-N suffix: "02344-R049-1" vs "02344-R099-1" (202X)
+#      Both yield the same base "00474" / "02344" which the detector
+#      recovers before comparing.
 #   2. Designation collisions: same concept (designation) appearing under
 #      MULTIPLE distinct IDs (each OIML publication gets its own entry).
 #      This is the harmonisation worklist, not an error.
@@ -220,13 +223,16 @@ terms.each do |t|
     designation = t["name"]
     source = p["publication_id"]
 
-    # For raw ID conflict detection: strip trailing letter suffix.
-    # If "00474a" and "00474b" exist in different terms, the base "00474"
-    # will have entries from multiple designations → conflict.
-    base = id.to_s.sub(/[a-z]\z/, "")
-    global_by_base[base] << {
-      designation: designation, source: source, raw_id: id, edition: ed,
-    } if base != id  # only suffixed IDs are candidates
+    # Recover the underlying G 18 base number by stripping whatever
+    # disambiguation suffix this entry carries. Only entries that were
+    # suffixed are conflict candidates; canonical IDs (no suffix) don't
+    # participate (they're the "winner" of any implicit split).
+    base = id.to_s.sub(/-[A-Z][0-9]+(-\d+)?\z/, "").sub(/[a-z]\z/, "")
+    if base != id
+      global_by_base[base] << {
+        designation: designation, source: source, raw_id: id, edition: ed,
+      }
+    end
 
     global_by_name[designation] << { id: id, source: source, edition: ed } if designation
   end

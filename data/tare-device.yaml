@@ -29,6 +29,7 @@ data:
       command); an automatic device (load balanced automatically without the intervention
       of an operator)"
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -47,6 +48,7 @@ data:
       command); or an automatic device (load balanced automatically without the intervention
       of an operator)."
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -65,6 +67,7 @@ data:
       automatic device (load balanced automatically without the intervention of an
       operator)"
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -83,6 +86,7 @@ data:
       by operator), b) a semi-automatic device (load balanced automatically following
       a single manual command), c) an automatic device (load balanced automatically
       without the intervention of an operator).'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -100,6 +104,7 @@ data:
       device (load balanced automatically following a single manual command); an automatic
       device (load balanced automatically without the intervention of an operator)'
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -118,6 +123,7 @@ data:
       automatic device (load balanced automatically without the intervention of an
       operator).'
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

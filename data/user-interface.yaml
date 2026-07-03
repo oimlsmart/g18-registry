@@ -26,6 +26,7 @@ data:
       keyboard, mouse, display, monitor, printer, touch-screen, software window on
       a screen including the software that generates it
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -41,6 +42,7 @@ data:
       switches, keyboard, mouse, display, monitor, printer, touch-screen, or a window
       on a screen including the software that generates it
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -55,6 +57,7 @@ data:
       and the instrument or its hardware or software components, as, g. switch, keyboard,
       mouse, display, monitor, printer, touch- screen
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -71,6 +74,7 @@ data:
     notes:
     - 'Note: Typical examples of user interfaces are switches, keyboard, mouse, display,
       monitor, printer, touchscreen, etc.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -88,6 +92,7 @@ data:
     - Note:Typical examples of user interfaces are switches, keyboard, mouse, display,
       monitor, printer, touchscreen, software window on a screen including the software
       that generates it.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -104,6 +109,7 @@ data:
     notes:
     - Note:Examples are switches, keyboard, mouse, display, monitor, printer, touch-screen,
       software window on a screen including the software that generates it.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -119,6 +125,7 @@ data:
       e.g. switches, keyboard, mouse, display, monitor, printer, touch-screen, or
       a window on a screen including the software that generates it [VIML:2013, 6.08]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -135,6 +142,7 @@ data:
       window on a screen including the software that generates it
     notes:
     - 'Note: Often referred to as “HMI” (human machine interface).'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -149,6 +157,7 @@ data:
       and the instrument or its hardware or software components, e.g. switch, keyboard,
       mouse, display, monitor, printer, touchscreen
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -164,6 +173,7 @@ data:
       switches, keyboard, mouse, display, monitor, printer, touch-screen, or a window
       on a screen including the software that generates it
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -178,6 +188,7 @@ data:
       the instrument or its hardware or software components, as, e.g. switch, keyboard,
       mouse, display, monitor, printer, touch- screen
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

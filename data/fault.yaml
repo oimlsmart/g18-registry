@@ -12,17 +12,11 @@ data:
   - type: symbol
     status: preferred
     text: stem:[Delta e]
-  kind: defined_in_viml
+  kind: undefined
   official_concept:
-    source: urn:oiml:pub:v:1:2022
-    id: '5.12'
-    url: https://oimlsmart.github.io/vocab/viml-2022/concept/5.12
-    definition_text: difference between the {{0.04,error of indication}} and the {{0.06,intrinsic
-      error}} of a measuring instrument
-    edition_label: VIML 2022
-    vocab: viml
-    role: current
-    year: 2022
+    source: OIML D011:2004
+    id: '3.9'
+    url:
   editions_present:
   - '2010'
   - 202X
@@ -44,6 +38,7 @@ data:
     - 2. From the definition it follows that in this Recommendation, a "fault" is
       a numerical value which is expressed either in a unit of measurement or as a
       relative value, for instance in %.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -60,6 +55,7 @@ data:
     - variations in the indication but which cannot be interpreted, recorded or transmitted
       as measuring results are considered to be insignificant faults.
     - 2. (OIML D 11:2004, 3.9)
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -74,6 +70,7 @@ data:
       instrument or that causes an error of indication greater than the MPE
     notes:
     - "[adapted from OIML D 11:2004, 3.9]"
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -89,6 +86,7 @@ data:
     notes:
     - principally a fault is the result of an undesired change of data contained in
       or flowing through an ALG.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -103,6 +101,7 @@ data:
       ofthe instrument
     notes:
     - "(OIML D 11:2004, 3.9)"
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -120,6 +119,7 @@ data:
       in or flowing through an electronic instrument.
     - 2. From the definition it follows that in this Recommendation a "fault" is a
       numerical value.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -133,6 +133,7 @@ data:
     definition: difference between the error of indication and the intrinsic error
       of a measuring system
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -146,6 +147,7 @@ data:
     definition: difference between the error of indication and the intrinsic error
       of a measuring system or of its constituent elements
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -159,6 +161,7 @@ data:
     definition: "[a difference between the error (of indication) and the intrinsic
       error of a water meter dapted from OIML D 11 ]"
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -174,6 +177,7 @@ data:
     notes:
     - Principally, a fault is the result of an undesired change of data contained
       in or flowing through an electronic instrument.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -189,6 +193,7 @@ data:
     notes:
     - Principally, a fault is the result of an undesired change of data contained
       in or flowing through an electronic instrument.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -202,12 +207,17 @@ data:
     definition: difference between the error of indication and the intrinsic error
       ofa measuring system or of its constituent elements
     notes:
-    - 1. In practice this is the difference between the error of the meter observed
-      during or after a test, and the error of the meter prior to this test, performed
-      under reference conditions.
-    - 2. [OIML D 11, 3.9]
+    - In practice this is the difference between the error of the meter observed during
+      or after a test, and the error of the meter prior to this test, performed under
+      reference conditions.
+    examples: []
     consistency: pending
     consistency_reason: ''
+    related:
+    - type: see
+      ref:
+        source: OIML D011:2004
+        id: '3.9'
   - edition: '2010'
     publication: OIML D 11:2004
     publication_id: OIML D011:2004
@@ -223,6 +233,7 @@ data:
       instrument. (2) From the definition it follows that in this Document, a "fault"
       is a numerical value which is expressed either in a unit of measurement or as
       a relative value, for instance as a percentage.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -238,6 +249,7 @@ data:
     notes:
     - Principally, a fault is the result of an undesired change of data contained
       in or flowing through an electronic instrument.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -250,10 +262,15 @@ data:
     g18_entry: '01868'
     definition: difference between the error and the intrinsic error of a measuring
       instrument (here a spectrophotometer)
-    notes:
-    - "[OIML D 11, 3.9]"
+    notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
+    related:
+    - type: see
+      ref:
+        source: OIML D011:2004
+        id: '3.9'
   - edition: '2010'
     publication: OIML R 136-1:2004
     publication_id: OIML R136-1:2004
@@ -267,6 +284,7 @@ data:
       change of data contained in or flowing through an electronic instrument. In
       this Recommendation a "fault" is a numerical value.
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -283,6 +301,7 @@ data:
     - 'undesired change of data contained in or flowing through an electronic instrument.
       2: From the definition it follows that in this Recommendation a "fault" is a
       numerical value.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -296,6 +315,7 @@ data:
     definition: difference between the error of indication and the intrinsic error
       ofthe instrument
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -309,6 +329,7 @@ data:
     definition: difference between the load cell error and the load cell intrinsic
       error (see 2.4.8)
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -324,6 +345,7 @@ data:
     notes:
     - Principally a fault is the result of an undesired change of data contained in,
       or flowing through, an electronic measuring instrument.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -337,6 +359,7 @@ data:
     definition: the difference between the error of indication and the intrinsic error
       of a measuring system
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -352,6 +375,7 @@ data:
       c t
     notes:
     - hange of data contained in, or flowing hrough, an electronic measuring instrument.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -367,6 +391,7 @@ data:
     notes:
     - Principally, a fault is the result of an undesired change of data contained
       in or flowing through an electronic instrument.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -383,6 +408,7 @@ data:
     - (1) Principally, a fault is the result of an undesired change of data contained
       in or flowing through an electronic instrument. (2) From the definition it follows
       that in this Recommendation a "fault" is a numerical value.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -396,6 +422,7 @@ data:
     definition: the difference between the error of indication and the intrinsic error
       of a measuring system
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -409,6 +436,7 @@ data:
     definition: difference between the error of indication and the intrinsic error
       of a measuring instrument
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
     related:
@@ -431,6 +459,7 @@ data:
       in or flowing through an electronic measuring instrument. Note 2:From the definition
       it follows a “fault” is a numerical value which is expressed either in a unit
       of measurement or as a relative value, for instance as a percentage.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -446,6 +475,7 @@ data:
       indication” placed in parentheses; “meter” replaces “measuring instrument”;
       original notes removed]'
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -464,6 +494,7 @@ data:
     - 'Note 2: From the definition it follows a "fault" is a numerical value which
       is expressed either in a unit of measurement or as a relative value, for instance
       as a percentage.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -477,6 +508,7 @@ data:
     definition: difference between the error of indication and the intrinsic error
       of a measuring instrument [OIML V1:2013, 5.12]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -491,6 +523,7 @@ data:
       measuring instrument [VIML 5.12]
     notes:
     - "(For notes, refer to the VIML)"
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -504,6 +537,7 @@ data:
     definition: difference between the error of indication and the intrinsic error
       of a measuring instrument (OIML V1, 5.12)
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -521,6 +555,7 @@ data:
       in, or flowing through, an electronic measuring instrument. Note 2: From the
       definition, it folloes that a “fault” is a numerical value which is expressed
       either in a unit of measurement or as a relative value, for as a percentage.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -539,6 +574,7 @@ data:
     - 'Note 2: From the definition it follows a "fault" is a numerical value which
       is expressed either in a unit of measurement or as a relative value, for instance
       as a percentage.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -556,6 +592,7 @@ data:
       in or flowing through an electronic instrument. Note 2: From the definition
       it follows that a “fault” is a numerical value which is expressed either in
       a unit of measurement or as a relative value, for instance as a percentage.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -574,6 +611,7 @@ data:
       the definition it follows that in this Recommendation, a "fault" is a numerical
       value which is expressed either in a unit of measurement or as a relative value,
       for instance in %.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -588,6 +626,7 @@ data:
       between the error of indication [during or after exposure to a disturbance]
       and the mean intrinsic error of a measuring instrument [OIML D 11, 3.10]"
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -610,6 +649,7 @@ data:
       a certified measurement standard is not used, a fault is the difference between
       a single indication during or after a disturbance and the mean indication at
       reference conditions prior to test.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -623,6 +663,7 @@ data:
     definition: difference between the error of indication and the intrinsic error
       of a measuring instrument [OIML D 11, 3.7]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -634,12 +675,13 @@ data:
     link:
     g18_entry: 02224-D011
     definition: difference between the error of indication and the intrinsic error
-      of a measuring instrument [VIML 5.12]
+      of a measuring instrument
     notes:
     - Note 1:Principally, a fault is the result of an undesired change of data contained
       in or flowing through an electronic measuring instrument. Note 2:From the definition
       it follows that in this Document, a “fault” is a numerical value which is expressed
       either in a unit of measurement or as a relative value, for instance as a percentage.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -656,6 +698,7 @@ data:
     - Note:Random errors presenting momentary variations in the indication but which
       cannot be interpreted, recorded or transmitted as measuring results are considered
       to be insignificant faults.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -675,6 +718,7 @@ data:
       of measurement or as a relative value, for instance as a percentage. [OIML D11:2004,
       3.9] Note 3: In this Recommendation, the above definition does not apply to
       the term ‘earth fault’, in which the word ‘fault’ has its usual dictionary meaning.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -693,6 +737,7 @@ data:
       under reference conditions.'
     - 'Note 2: "measuring instrument" is to be interpreted as a "gas meter" within
       the scope of this Recommendation.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -709,6 +754,7 @@ data:
     - Note:Principally, a fault is the result of an undesired change of data contained
       in or flowing through an electronic instrument. In this Recommendation, a "fault"
       is a numerical value.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -727,6 +773,7 @@ data:
       the definition it follows that in this Recommendation, a "fault" is a numerical
       value which is expressed either in a unit of measurement or as a relative value,
       for instance in %.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -743,6 +790,7 @@ data:
     - 'Note 1: Random errors presenting momentary variations in the indication but
       which cannot be interpreted, recorded or transmitted as measuring results are
       considered to be insignificant faults. Note 2: [OIML D 11:2004, 3.9]'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -758,6 +806,7 @@ data:
     notes:
     - principally a fault is the result of an undesired change of data contained in
       or flowing through an ALG.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -771,6 +820,7 @@ data:
     definition: difference between the error of indication and the intrinsic error
       of the instrument [OIML D 11:2004, 3.9]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -787,6 +837,7 @@ data:
     - 'Note 1: Principally, a fault is the result of an undesired change of data contained
       in or flowing through an electronic instrument. Note 2: From the definition
       it follows that in this Recommendation a “fault” is a numerical value.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -800,6 +851,7 @@ data:
     definition: difference between the error of indication and the intrinsic error
       of a measuring system or of its constituent elements
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -815,6 +867,7 @@ data:
     notes:
     - Note:Principally, a fault is the result of an undesired change of data contained
       in or flowing through an electronic instrument.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -830,6 +883,7 @@ data:
     notes:
     - 'Note: Principally, a fault is the result of an undesired change of data contained
       in or flowing  through an electronic instrument.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -843,6 +897,7 @@ data:
     definition: difference between the error and the intrinsic error of a measuring
       instrument (here a spectrophotometer) [OIML D 11, 3.9]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -858,6 +913,7 @@ data:
       change of data contained in or flowing through an electronic instrument. In
       this Recommendation a “fault” is a numerical value.
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -875,6 +931,7 @@ data:
       in or flowing through an electronic instrument.'
     - 'Note 2: From the definition it follows that in this Recommendation a "fault"
       is a numerical value.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -888,6 +945,7 @@ data:
     definition: difference between the error of indication and the intrinsic error
       of the instrument
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -901,6 +959,7 @@ data:
     definition: the difference between the error of indication and the intrinsic error
       of a measuring system
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -916,12 +975,17 @@ data:
     notes:
     - Principally a fault is the result of an undesired change of data contained in,
       or flowing through, an electronic measuring instrument.
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current
 id: f34ebf71-9021-5cf4-9f61-946e7e8a7eb4
 schema_version: '3'
 related:
+- type: see
+  ref:
+    source: OIML D011:2004
+    id: '3.9'
 - type: see
   ref:
     source: urn:oiml:pub:v:1:2022

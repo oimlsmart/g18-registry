@@ -26,6 +26,7 @@ data:
       affecting the indication
     notes:
     - This definition is only applicable to static weighing and not to dynamic weighing.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -39,6 +40,7 @@ data:
     definition: weight value that is achieved when the instrument is completely atrest
       and balanced, with no disturbances affecting the indication
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -52,6 +54,7 @@ data:
     definition: weight value that is achieved when the instrument is completely atrest
       and balanced, with no disturbances affecting the indication
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -67,6 +70,7 @@ data:
       the indication
     notes:
     - 'Note:  This definition is only applicable to static weighing and not to weighing-in-motion.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -83,6 +87,7 @@ data:
     notes:
     - 'Note: This definition is only applicable to static weighing and not to dynamic
       weighing.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -96,6 +101,7 @@ data:
     definition: weight value that is achieved when the instrument is completely at
       rest and balanced, with no disturbances affecting the indication
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -109,6 +115,7 @@ data:
     definition: weight value that is achieved when the instrument is completely at
       rest and balanced, with no disturbances affecting the indication
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

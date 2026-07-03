@@ -27,6 +27,7 @@ data:
       significant digit changes by one step. For an analogue device, this is half
       the difference between subsequent scale marks.
     - 2. (VIM:1993, 5.12)
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

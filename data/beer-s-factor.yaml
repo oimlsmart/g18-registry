@@ -31,6 +31,7 @@ data:
     - 1. The coherent SI unit is the cubic metre per mole (m3/mol) but often the litre
       per mole (l/mol, L/mol) is preferred.
     - 2. For conditions of validity see 2.9.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -48,6 +49,7 @@ data:
     - 'Note 1: The coherent SI unit is the cubic metre per mole (m3/mol) but often
       the litre per mole (l/mol, L/mol) is preferred. Note 2:For conditions of validity
       see 2.9.'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

@@ -26,6 +26,7 @@ data:
       of the liquid to be measured which, in general, either does not change or changes
       little during a prolonged period
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -42,6 +43,7 @@ data:
     - 'Note: Such a pipeline is characterized by a flowrate of the liquid to be measured
       which, in general, either does not change or changes little during a prolonged
       period'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

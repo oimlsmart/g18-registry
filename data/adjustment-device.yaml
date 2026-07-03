@@ -25,6 +25,7 @@ data:
       error curve generally parallel to itself, with a view to bringing errors within
       the maximum permissible errors. This device may beeither mechanical or electronic
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -39,6 +40,7 @@ data:
       error curve generally parallel to itself, with a view to bringing errors within
       the maximum permissible errors
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -54,6 +56,7 @@ data:
       within the maximum permissible errors and to set the weighted mean error (see
       T.2.20) at minimum
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -68,6 +71,7 @@ data:
       tobe shifted generally parallel to itself, with a view to bringing errors (of
       indication) within the maximum permissible errors
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -82,6 +86,7 @@ data:
       to be shifted generally parallel to itself, with a view to bringing errors (of
       indication) within the limits of the maximum permissible error (MPE)
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -98,6 +103,7 @@ data:
     notes:
     - Note:For the definition of the term “adjustment of a measuring system”, see
       ISO/IEC Guide 99:2007/OIML V 2-200:2012 (VIM)3.11, [1].
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -112,6 +118,7 @@ data:
       error curve generally parallel to itself, with a view to bringing errors within
       the maximum permissible errors. This device may be either mechanical or electronic
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -126,6 +133,7 @@ data:
       error curve generally parallel to itself, with a view to bringing errors within
       the maximum permissible errors
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -140,6 +148,7 @@ data:
       curve to be shifted with a view to bringing errors (of indication) within the
       maximum permissible errors
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -155,6 +164,7 @@ data:
       within the maximum permissible errors and to et the weighted mean error (see
       T.2.20) at minimum
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

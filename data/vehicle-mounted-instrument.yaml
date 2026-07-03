@@ -27,6 +27,7 @@ data:
     - For example, a garbage weigher (waste collecting vehicle) that determines the
       quantity of loose material emptied from a container (supported by the load receptor)
       into the body of the vehicle.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -42,6 +43,7 @@ data:
       vehicle) that determines the quantity of loose material emptied from a container
       (supported by the load receptor) into the body of the vehicle.
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

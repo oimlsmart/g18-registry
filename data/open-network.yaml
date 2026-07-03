@@ -25,6 +25,7 @@ data:
       functions). The number, identity and location of a participant can be dynamic
       and unknown to the other participants (see also Closed network)
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -41,6 +42,7 @@ data:
       [D 31, 3.1.6] which is a network of a fixed number of participants with a known
       identity functionality and location [OIML D 31, 3.1.35]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -58,6 +60,7 @@ data:
       to the other participants. This is in contrast to a closed network [OIML D 31:2008,
       3.1.6] which is a network of a fixed number of participants with a known identity
       functionality and location.
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

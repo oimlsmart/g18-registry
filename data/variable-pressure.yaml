@@ -26,6 +26,7 @@ data:
       second, for pressure gauges and vacuum gauges, 1 % and 10 % of the sunl of the
       upper limits of the measuring ranges per second, for pressure-vacuum gauges'
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -41,6 +42,7 @@ data:
       second, for pressure gauges and vacuum gauges, 1 % and 10 % of the sum of the
       upper limits of the measuring ranges per second, for pressure-vacuum gauges'
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

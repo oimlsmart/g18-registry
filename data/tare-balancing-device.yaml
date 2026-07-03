@@ -24,6 +24,7 @@ data:
     definition: tare device without indication of the tare value (T.3.2.3) when the
       instrument is loaded
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -37,6 +38,7 @@ data:
     definition: tare device without indication of the tare value when the instrument
       is loaded
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -50,6 +52,7 @@ data:
     definition: tare device without indication of the tare value (T.3.2.3) when the
       instrument is loaded
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -63,6 +66,7 @@ data:
     definition: tare device without indication of the tare value when the instrument
       is loaded
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

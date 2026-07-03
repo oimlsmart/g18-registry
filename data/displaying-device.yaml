@@ -23,6 +23,7 @@ data:
     g18_entry: '00583'
     definition: device providing the weighing result in visual form
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -35,6 +36,7 @@ data:
     g18_entry: '00910'
     definition: device providing the weighing result in visual form
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -47,6 +49,7 @@ data:
     g18_entry: '00583'
     definition: device providing the weighing result in visual form
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -59,6 +62,7 @@ data:
     g18_entry: '00910'
     definition: device providing the weighing result in visual form
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

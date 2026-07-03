@@ -28,6 +28,7 @@ data:
       themselves or their representatives (for example, the employee in afilling station
       or the driver of a truck)
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -46,6 +47,7 @@ data:
     - 'Note: The parties interested in a transaction may be the parties themselves
       or their representatives (for example, the employee in a filling station or
       the driver of a truck).'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

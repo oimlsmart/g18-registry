@@ -24,6 +24,7 @@ data:
     definition: an object whose dimensions are verified by appropriate reference standards
       and intended to verify the compliance of the EUT with certain metrological requirements
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -37,6 +38,7 @@ data:
     definition: a physical object, device, or material that is subject to a measurement
       and embodies the physical quantity to be measured or calibrated
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -50,6 +52,7 @@ data:
     definition: object whose dimensions are verified by appropriate reference standards
       and intended to verify the compliance of the EUT with certain metrological requirements
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -63,6 +66,7 @@ data:
     definition: a physical object, device, or material that is subject to a measurement
       and embodies the physical quantity to be measured or calibrated
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

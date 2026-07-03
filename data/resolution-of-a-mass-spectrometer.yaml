@@ -34,6 +34,7 @@ data:
       integer mass, i.e. one can distinguish mass 50 from mass 51, and distinguish
       mass 1000 from mass 1001'
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -56,6 +57,7 @@ data:
       each mass from the next integer mass, i.e. one can distinguish mass 50 from
       mass 51, and distinguish mass 1000 from mass 1001'
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

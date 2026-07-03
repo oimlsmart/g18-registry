@@ -37,6 +37,7 @@ data:
       result obtained at reference conditions) maximum permissible error. In this
       case, obvious that it is the absolute maximum ssible error, associated with
       the relative um permissible error, which applies.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -50,6 +51,7 @@ data:
     definition: extreme values of an error permitted by specifications, regulations,
       etc. for a given liquid-in-glass thermometer.
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -63,6 +65,7 @@ data:
     definition: extreme values of an error permitted by specifications, regulations,
       etc. for a given measuring instrument
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -76,6 +79,7 @@ data:
     definition: extreme values of an error permitted by specifications, regulations,
       etc. for a given measuring instrument
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -91,6 +95,7 @@ data:
       value of the mpe is the same value without sign
     notes:
     - Adapted from VIM:1993, 5.21.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -104,6 +109,7 @@ data:
     definition: extreme values of an error permitted by specifications, regulations,
       etc. for a given measuring instrument
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -118,6 +124,7 @@ data:
       the pressure balance indication and the corresponding (conventional) true value
       of the measured pressure
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -131,6 +138,7 @@ data:
     definition: extreme values of an error permitted by specifications, regulations,
       etc. for a given liquid-in-glass thermometer.
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -144,6 +152,7 @@ data:
     definition: extreme values of an error permitted by specifications, regulations,
       etc. for a given measuring instrument
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -157,6 +166,7 @@ data:
     definition: extreme values of an error permitted by specifications, regulations,
       etc. for a given measuring instrument
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -170,6 +180,7 @@ data:
     definition: extreme values of an error permitted by specifications, regulations,
       etc. for a given measuring instrument
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -184,6 +195,7 @@ data:
       the pressure balance indication and the corresponding (conventional) true value
       of the measured pressure
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

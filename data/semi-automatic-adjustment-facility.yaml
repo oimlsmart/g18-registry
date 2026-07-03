@@ -27,6 +27,7 @@ data:
     notes:
     - For those instruments that require the values of the volume fractions of the
       reference gas to be entered manually, the facility is considered to be semi-automatic.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -44,6 +45,7 @@ data:
     - 'Note:  For those instruments that require the values of the volume fractions
       of the reference gas to be entered manually, the facility is considered to be
       semi-automatic.'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

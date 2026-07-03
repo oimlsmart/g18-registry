@@ -27,6 +27,7 @@ data:
     definition: "[V extreme value of an error permitted by specifications, regulations,
       etc. for a given instrument IM:1993, 5.21 ]"
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -42,6 +43,7 @@ data:
       by reference standard masses or standard weights, with the instrument being
       at zero at no-load, in the reference position
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -60,6 +62,7 @@ data:
       is used where there are two extreme values.'
     - 'Note 2: The term "tolerance" should not be used to designate "maximum permissible
       error".'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -75,6 +78,7 @@ data:
       as determined by reference standard masses or standard weights, with the instrument
       being at zero and no load, in the reference position [Adapted from VIM 5.21]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -88,6 +92,7 @@ data:
     definition: 'extreme values of an error permitted by specifications, regulations,
       etc. for a given instrument [VIM: 1993, 5.21]'
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -101,6 +106,7 @@ data:
     definition: extreme value of an error permitted by specifications, regulations,
       etc. for a given instrument [VIM:1993, 5.21 ]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -116,6 +122,7 @@ data:
       by reference standard masses or standard weights, with the instrument being
       at zero at no-load, in the reference position
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

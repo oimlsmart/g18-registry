@@ -24,6 +24,7 @@ data:
     definition: part of all software modules of a measuring instrument, electronic
       device, or sub-assembly that is legally relevant
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -37,6 +38,7 @@ data:
     definition: all software modules of measuring instrument/component that are subject
       to legal control
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -53,6 +55,7 @@ data:
     - 'Note: Examples of legally relevant software are software involved in determining
       the final results of the measurement including the decimal sign and the unit,
       identifying the weighing range, software identification and configuration information.'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

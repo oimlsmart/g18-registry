@@ -27,6 +27,7 @@ data:
     definition: closeness of the agreement between the result of a measurement and
       a true value of the measurand
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -40,6 +41,7 @@ data:
     definition: the closeness of the agreement between the result of a measurement
       and the conventional true value of the measurand
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -61,6 +63,7 @@ data:
       accuracy", which, however, is related to both concepts.'
     - 'Note 3: "Measurement accuracy" is sometimes understood as closeness of agreement
       between measured quantity values that are being attributed to the measurand.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -82,6 +85,7 @@ data:
       accuracy", which, however, is related to both concepts.'
     - 'Note 3: "Measurement accuracy" is sometimes understood as closeness of agreement
       between measured quantity values that are being attributed to the measurand.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -95,6 +99,7 @@ data:
     definition: closeness of the agreement between the result of a measurement and
       a true value of the measurand
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -108,6 +113,7 @@ data:
     definition: the closeness of the agreement between the result of a measurement
       and the conventional true value of the measurand
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

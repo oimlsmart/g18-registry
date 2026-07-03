@@ -33,6 +33,7 @@ data:
       for. Conditions for validity: see 2.'
     - '9.'
     - 3. Adapted from ISO 6286, Table 2, Nos. 19 and 20.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -50,6 +51,7 @@ data:
       and is expressed with the derived coherent SI unit one (1). The absorbance of
       the optical cell containing this solution is corrected for. Conditions for validity:
       see 2.9. Adapted from ISO 6286, Table 2, Nos. 19 and 20.'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

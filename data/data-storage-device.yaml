@@ -25,6 +25,7 @@ data:
       measurement data ready after completion of the measurement for subsequent legally
       relevant purposes
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -38,6 +39,7 @@ data:
     definition: storage device used for keeping weighing data ready after completion
       of the weighing for later legally relevant purposes
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -52,6 +54,7 @@ data:
       storage device used for keeping measurement data ready after completion of the
       measurement"
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -65,6 +68,7 @@ data:
     definition: storage device used for keeping weighing data ready after completion
       of the measurement for subsequent indication, data transfer, totalizing, etc.
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -78,6 +82,7 @@ data:
     definition: storage device used for keeping weighing data ready after completion
       of the measurement for subsequent indication, data transfer, totalizing, etc.
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -92,6 +97,7 @@ data:
       of the measurement for later legally relevant purposes (e.g. the conclusion
       of commercial transaction)
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -105,6 +111,7 @@ data:
     definition: storage device used for keeping weighing data ready after completion
       of the weighing for later legally relevant purposes
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -119,6 +126,7 @@ data:
       measurement data ready after completion of the measurement for subsequent legally
       relevant purposes
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -133,6 +141,7 @@ data:
       storage device used for keeping measurement data ready after completion of the
       measurement
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

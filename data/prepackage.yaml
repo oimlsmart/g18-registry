@@ -24,6 +24,7 @@ data:
     definition: combination of a product and the packing material in which it is prepacked
       (see OIML R 87 [5])
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -36,6 +37,7 @@ data:
     g18_entry: '01119'
     definition: combination of a product and the packing material in which it is prepacked
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -59,6 +61,7 @@ data:
       refers to the value determined prior to the prepackage being offered for sale.
       Note 2:  The actual quantity of some products may change after packing due to
       desiccation or chemical reactions.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -75,6 +78,7 @@ data:
       marked with a constant nominal quantity or random nominal quantities. The term
       “predetermined value” refers to the value determined prior to the prepackage
       being offered for sale.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -88,6 +92,7 @@ data:
     definition: combination of a product and the packing material in which it is prepacked
     notes:
     - "(see OIML R 87)"
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -101,6 +106,7 @@ data:
     definition: combination of a product and the packing material in which it is prepacked
       (see OIML R 87 [5])
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

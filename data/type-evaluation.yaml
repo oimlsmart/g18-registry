@@ -37,6 +37,7 @@ data:
       against documented requirements, the results of which are contained in the evaluation
       report, in order to determine whether the type may be approved"
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
     related:
@@ -57,6 +58,7 @@ data:
       against documented requirements, the results of which are contained in the evaluation
       report, in order to determine whether the type may be approved"
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
     related:
@@ -77,6 +79,7 @@ data:
       against documented requirements, the results of which are contained in the evaluation
       report, in order to determine whether the type may be approved
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -92,6 +95,7 @@ data:
       requirements, the results of which are contained in an evaluation report, in
       order to determine whether the type may be approved IML 2.5)"
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -106,6 +110,7 @@ data:
       or weight sets against the documented requirements ofthis Recommendation, the
       results of which are contained in a test report
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -122,8 +127,8 @@ data:
       are contained in the evaluation report, in order to determine whether the type
       may be approved
     notes:
-    - with the same meaning as "type"; below only the term "type" is used. [VIML,
-      2.5]
+    - with the same meaning as "type"; below only the term "type" is used.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -139,6 +144,7 @@ data:
       requirements, the results of which are contained in the evaluation report, in
       order to determine whether the type may be approved
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -154,6 +160,7 @@ data:
       and / or an evaluation certificate
     notes:
     - 'Note:  “Pattern” is used in legal metrology with the same meaning as”type”.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -169,6 +176,7 @@ data:
       requirements, the results of which are contained in the evaluation report, in
       order to determine whether the type may be approved [VIML 2.5]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -183,6 +191,7 @@ data:
       weights or weight sets against the documented requirements of this Recommendation,
       the results of which are contained in a test report
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -200,6 +209,7 @@ data:
     notes:
     - 'Note:  The term “pattern” is used in legal metrology with the same meaning
       as “type”; below only the term “type” is used. [VIML, 2.5]'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

@@ -21,13 +21,15 @@ data:
     clause: 3.1.53
     link: https://www.oiml.org/en/files/pdf_D/d031-e08.pdf
     g18_entry: '02220'
-    definition: 'legally relevant parameter with a value that depends on the type
-      Example: Considering a measuring system of of instrument only. Type-specific
-      parameters are part of the legally relevant software'
+    definition: legally relevant parameter with a value that depends on the type of
+      instrument only
     notes:
-    - liquids other than water, the range of kinematic viscosity of a turbine is a
-      type- specific parameter fixed by the type approval of the turbine. All the
-      manufactured turbines of the same type have the same range of viscosity.
+    - Type-specific parameters are part of the legally relevant software.
+    examples:
+    - Considering a measuring system of liquids other than water, the range of kinematic
+      viscosity of a turbine is a type-specific parameter fixed by the type approval
+      of the turbine. All the manufactured turbines of the same type have the same
+      range of viscosity.
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -43,6 +45,7 @@ data:
       type-specific parameters include software identification and parameters used
       for fare calculation and rounding
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -57,6 +60,9 @@ data:
       only Type-specific parameters are part of the legally relevant software. They
       are fixed at type approval of the instrument.
     notes: []
+    examples:
+    - Parameters used for weight value calculation, stability analysis or price calculation
+      and rounding, software identification.
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -71,6 +77,9 @@ data:
       only. Type-specific parameters are part of the legally relevant software. They
       are fixed at type approval of the instrument
     notes: []
+    examples:
+    - Parameters used for mass calculation, stability analysis or price calculation
+      and rounding, software identification.
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -90,6 +99,7 @@ data:
       viscosity of a turbine is a type-specific parameter fixed by the type approval
       of the turbine. All the manufactured turbines of the same type have the same
       range of viscosity.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -107,6 +117,7 @@ data:
       4.11] Example of type-specific parameters are: parameters used for weight (load)
       value calculation, stability analysis or price calculation and rounding, software
       identification'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -123,6 +134,7 @@ data:
     - 'Note: Type-specific parameters are part of the legally relevant software. Example
       of type-specific parameters are: parameters used for weight value calculation,
       stability analysis or price calculation and rounding, software identification'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -139,6 +151,7 @@ data:
       for mass calculation, stability analysis or price calculation and rounding,
       software identification'
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -154,6 +167,7 @@ data:
       type-specific parameters include software identification and parameters used
       for fare calculation and rounding
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -170,6 +184,7 @@ data:
       used for weight value calculation, stability analysis or price calculation and
       rounding, software identification.'
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -186,6 +201,7 @@ data:
       used for weight value calculation, stability analysis or price calculation and
       rounding, software identification.'
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

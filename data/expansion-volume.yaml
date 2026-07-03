@@ -23,6 +23,7 @@ data:
     g18_entry: '02247'
     definition: difference between total and nominal capacity
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -35,6 +36,7 @@ data:
     g18_entry: '03057'
     definition: difference between total and nominal capacity
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -47,6 +49,7 @@ data:
     g18_entry: 02247-R080-1
     definition: difference between total and nominal capacity
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

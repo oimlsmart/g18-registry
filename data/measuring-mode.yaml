@@ -27,6 +27,7 @@ data:
     notes:
     - The measuring mode and the stand-by mode (3.7) are modes of normal operation
       (3.6).
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -41,6 +42,7 @@ data:
       the rate normally expected in service and in which it shall meet the performance
       requirements of this Recommendation
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

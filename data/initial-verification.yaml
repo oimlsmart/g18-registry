@@ -22,8 +22,9 @@ data:
     link: https://www.oiml.org/en/files/pdf_D/d009-e04.pdf
     g18_entry: '00194'
     definition: verification of a measuring instrument which has not been verified
-      previously [VIML, 15]
+      previously
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -44,6 +45,7 @@ data:
       of verification dapted from OIML D 20 Initial and subsequent verification of
       measuring instruments and processes (1988))"
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -57,6 +59,7 @@ data:
     definition: the verification of a new measuring instrument which has not been
       verified previously [VML 2.4.2].
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -70,6 +73,7 @@ data:
     definition: verification of a measuring instrument which has not been verified
       previously (OIML V 1, 2.12)
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -83,6 +87,7 @@ data:
     definition: verification of a measuring instrument which has not been verified
       previously [from VIML, 2.12 [3]]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -94,8 +99,9 @@ data:
     link:
     g18_entry: 02264-D016
     definition: verification of a measuring instrument which has not been verified
-      previously [VIML 2.15]
+      previously
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -107,8 +113,9 @@ data:
     link: https://www.oiml.org/en/files/pdf_D/d009-e04.pdf
     g18_entry: '00194'
     definition: verification of a measuring instrument which has not been verified
-      previously [VIML, 15]
+      previously
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -129,6 +136,7 @@ data:
       OIML D 20 Initial and subsequent verification of measuring instruments and processes
       (1988))
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -142,6 +150,7 @@ data:
     definition: the verification of a new measuring instrument which has not been
       verified previously [VML 2.4.2].
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

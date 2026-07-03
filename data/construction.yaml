@@ -26,6 +26,7 @@ data:
     - used for any means by which a specific function is performed irrespective of
       the physical realization e.g. by a mechanism or key initiating an operation;
       the device may a small part or a major portion of an instrument.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -41,6 +42,7 @@ data:
     - used for any means by which a specific function is performed irrespective of
       the physical realization, e.g. by a mechanism, a key or software initiating
       an operation. The device may be a small part or a major portion of an instrument.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -57,6 +59,7 @@ data:
       one or more specific functions irrespective of the physical realization, e.g.
       by a mechanism or a key initiating an operation. The device may be a small part
       or a major portion of a filling instrument.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -70,6 +73,7 @@ data:
     definition: (-) In this Recommendation the term "device" is
     notes:
     - applied to any part which uses any means to perform one or more specific functions.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -86,6 +90,7 @@ data:
       a specific function is performed irrespective of the physical realization, e.g.
       by a mechanism or a key initiating an operation; the device may be a small part
       or a major portion of an instrument.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -102,6 +107,7 @@ data:
       uses any means to perform one or more specific functions irrespective of the
       physical realization e.g. by a mechanism or a key initiating an operation; the
       device may be a small part or a major portion of the AGFI.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -118,6 +124,7 @@ data:
       a specific function is performed irrespective of the physical realization e.g.
       by a mechanism or a key initiating an operation; the device may be a small part
       or a major portion of an instrument.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -134,6 +141,7 @@ data:
       a specific function is performed irrespective of the physical realization, e.g.
       by a mechanism, a key or software initiating an operation. The device may be
       a small part or a major portion of an instrument'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

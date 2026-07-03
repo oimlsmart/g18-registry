@@ -24,6 +24,7 @@ data:
     definition: part of the weigh zone that is not the load receptor but which is
       located on either end of the load receptor
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -37,6 +38,7 @@ data:
     definition: part of the rails that is not the load receptor but which is located
       on either end of the load receptor and which serves as approach rails
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -50,6 +52,7 @@ data:
     definition: part of the weigh zone that is not the load receptor but which is
       located on either end of the load receptor
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

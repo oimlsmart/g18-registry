@@ -26,6 +26,7 @@ data:
       applies to volatile failures that are not recognizable afterwards when the measurement
       values are used
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -40,6 +41,7 @@ data:
       or significant defects that have an influence on the legally relevant  characteristics
       of the measuring instrument
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -54,6 +56,7 @@ data:
       or significant defects that have an influence on the metrological characteristics
       of the measuring instrument (OIML D 31, 3.1.15)
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

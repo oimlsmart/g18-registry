@@ -39,6 +39,7 @@ data:
       by a unique true quantity calue or set of true quantity calues of negligibly
       range, in which case the measurement error is not known. Note 2: Measurement
       error should not be confused with production error or mistake.'
+    examples: []
     consistency: pending
     consistency_reason: ''
     related:

@@ -37,6 +37,7 @@ data:
       requirements, the results of which are contained in an evaluation report, in
       order to determine whether the type may be approved. (VIML 2.5)
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
     related:
@@ -59,6 +60,7 @@ data:
       whether the type may be approved
     notes:
     - aning as "type"; in the entries below, ype" is used.
+    examples: []
     consistency: pending
     consistency_reason: ''
     related:
@@ -80,6 +82,7 @@ data:
     notes:
     - 'Note 1:  ‘Pattern’ is used in legal metrology with the same meaning as ‘type’;
       in the entries below, only ‘type’is used.'
+    examples: []
     consistency: pending
     consistency_reason: ''
     related:
@@ -99,6 +102,7 @@ data:
       type (pattern) of measuring instruments which results in an evaluation report
       or a certificate [OIML V 1:2022, 2.04]
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -116,6 +120,7 @@ data:
     - 'Note 1:  “Pattern” is used in legal metrology with the same meaning as “type”.
       Note 2:  for the purposes of the OIML-CS, “evaluation report” should be read
       as “OIML type evaluation report”.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -131,6 +136,7 @@ data:
       and/or an evaluation certificate [VIML, 2.04]
     notes:
     - "(For notes, refer to the VIML)"
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -148,6 +154,7 @@ data:
     - 'Note 1:  “Pattern” is used in legal metrology with the same meaning as “type”.
       Note 2:  for the purposes of the OIML-CS, “evaluation report” should be read
       as “OIML type evaluation report”.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -164,6 +171,7 @@ data:
     notes:
     - 'Note:  ‘Pattern’ is used in legal metrology with the same meaning as ‘type’;
       in the entries below, only ‘type’ is used.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -180,6 +188,7 @@ data:
     notes:
     - "{Note “Pattern” is used in legal metrology with the same meaning as “type”;
       in the entries below, only “type” is used.}"
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -193,10 +202,11 @@ data:
     definition: systematic examination and testing of the performance of one or more
       specimens of an identified type (pattern) of measuring instruments against documented
       requirements, the results of which are contained in the evaluation report, in
-      order to determine whether the type may be approved [VIML 2.5]
+      order to determine whether the type may be approved
     notes:
     - 'Note:  “Pattern” is used in legal metrology with the same meaning as “type”;
       in the entries below, only “type” is used.'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

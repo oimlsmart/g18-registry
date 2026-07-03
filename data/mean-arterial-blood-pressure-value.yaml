@@ -26,6 +26,7 @@ data:
     notes:
     - Because of hydrostatic effects, this value should be measured with the cuff
       at the heart level.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -41,6 +42,7 @@ data:
     notes:
     - Because of hydrostatic effects, this value should be measured with the cuff
       at the heart level.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -57,6 +59,7 @@ data:
     - 'Note: Because of hydrostatic effects, this value should be measured with the
       cuff at the heart level. The calculation of the mean arterial blood pressure
       using on;ly the systolic and diastolic blood pressure values is not recommended.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -72,6 +75,7 @@ data:
     notes:
     - 'Note: Because of hydrostatic effects, this value should be measured with the
       cuff at the heart level.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -87,6 +91,7 @@ data:
     notes:
     - 'Note: Because of hydrostatic effects, this value should be measured with the
       cuff at the heart level.'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

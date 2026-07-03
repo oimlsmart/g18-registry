@@ -24,6 +24,7 @@ data:
     definition: operating mode of a self-service arrangement in which the supplier
       is present and controls the authorization for the delivery
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -48,6 +49,7 @@ data:
       driver of a truck).'
     - 4. In attended service mode the measurement operation ends at the moment settlement
       of the transaction takes place.
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -70,6 +72,7 @@ data:
       or their representatives (for example the employee in a filling station or the
       driver of a truck). Note 4: In attended service mode the measurement operation
       ends at the moment settlement of the transaction takes place.'
+    examples: []
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -83,6 +86,7 @@ data:
     definition: operating mode of a self-service arrangement in which the supplier
       is present and controls the authorisation for the delivery
     notes: []
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current

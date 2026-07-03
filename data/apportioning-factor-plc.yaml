@@ -25,6 +25,7 @@ data:
       instrument which attributed to the load cell alone
     notes:
     - 'Note: This value is used in determining the MPE (see 3.7.10).'
+    examples: []
     consistency: pending
     consistency_reason: ''
 status: current
