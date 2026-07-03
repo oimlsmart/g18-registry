@@ -22,7 +22,9 @@ img, svg, video { max-width: 100%; height: auto; }
 
 /* Header */
 .site-header { background: #fff; border-bottom: 1px solid var(--rule); box-shadow: 0 1px 2px rgba(0,0,0,0.04); position: sticky; top: 0; z-index: 20; }
-.header-bar { display: flex; align-items: center; justify-content: space-between; gap: 0.8em; padding: 0.5em 0; position: relative; }
+/* Use longhand padding-block so .container's horizontal padding still applies
+   to header-bar (a shorthand `padding` here would override it cascade-wise). */
+.header-bar { display: flex; align-items: center; justify-content: space-between; gap: 0.8em; padding-block: 0.5em; position: relative; }
 .brand { display: flex; align-items: center; gap: 0.7em; font-weight: 600; text-decoration: none; color: var(--ink); }
 .brand:hover { text-decoration: none; }
 .brand-mark-img { height: 36px; width: auto; display: block; }
@@ -30,25 +32,27 @@ img, svg, video { max-width: 100%; height: auto; }
 .brand-sub-title { font-size: 1em; font-weight: 600; color: var(--accent); }
 .brand-sub-tag { font-size: 0.75em; color: var(--ink-muted); }
 
-/* Hamburger toggle — hidden on desktop, shown on mobile */
+/* Hamburger toggle — hidden on desktop, shown on mobile.
+   Compact 32×28px button with 1.5px bars and a clean X transformation. */
 .nav-toggle {
   display: none;
   flex-direction: column;
-  justify-content: space-between;
-  align-items: stretch;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
   background: transparent;
-  border: 1px solid var(--rule);
-  border-radius: 5px;
-  padding: 0.5em 0.5em;
-  width: 44px;
-  height: 40px;
+  border: 0;
+  padding: 6px;
+  width: 32px;
+  height: 28px;
   cursor: pointer;
-  flex-shrink: 0;
+  border-radius: 4px;
 }
-.nav-toggle-bar { display: block; height: 2px; width: 100%; background: var(--ink); border-radius: 1px; transition: transform 0.2s, opacity 0.2s; }
-.nav-toggle.is-open .nav-toggle-bar:nth-child(1) { transform: translateY(8px) rotate(45deg); }
-.nav-toggle.is-open .nav-toggle-bar:nth-child(2) { opacity: 0; }
-.nav-toggle.is-open .nav-toggle-bar:nth-child(3) { transform: translateY(-8px) rotate(-45deg); }
+.nav-toggle:hover { background: var(--rule-soft); }
+.nav-toggle-bar { display: block; height: 1.5px; width: 20px; background: var(--ink); border-radius: 1px; transition: transform 0.18s ease, opacity 0.18s ease; }
+.nav-toggle.is-open .nav-toggle-bar:nth-child(1) { transform: translateY(5.5px) rotate(45deg); }
+.nav-toggle.is-open .nav-toggle-bar:nth-child(2) { opacity: 0; transform: scaleX(0); }
+.nav-toggle.is-open .nav-toggle-bar:nth-child(3) { transform: translateY(-5.5px) rotate(-45deg); }
 
 /* Nav (desktop default) */
 .site-nav { display: flex; align-items: center; gap: 0.9em; flex-wrap: wrap; }
@@ -137,7 +141,7 @@ th { background: #f3f5f7; color: var(--ink-muted); font-weight: 600; font-size: 
   /* Brand tighter */
   .brand-sub-tag { display: none; }
   .brand-mark-img { height: 30px; }
-  .header-bar { padding: 0.5em 0; min-height: 56px; }
+  .header-bar { min-height: 56px; padding-block: 0.5em; }
 
   /* Tables become block-level so they can scroll horizontally if needed.
      Cards clip overflow so wide tables (e.g. 10-column publication
