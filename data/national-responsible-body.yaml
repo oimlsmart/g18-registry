@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: national responsible body
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -27,6 +30,7 @@ data:
       types of measuring instruments for national use
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -45,6 +49,7 @@ data:
       the responsibility, the national service of legal metrology should be substituted
       for the "national responsible body" throughout the text of this Document.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -60,6 +65,7 @@ data:
       designated by law or regulations
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -75,6 +81,7 @@ data:
       designated by law or regulations
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -90,6 +97,7 @@ data:
       designated by law or regulation
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -109,6 +117,7 @@ data:
       be substituted for the “national responsible body” throughout the text of this
       Document.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -124,6 +133,7 @@ data:
       designated by law or regulations
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -139,6 +149,7 @@ data:
       designated by law or regulations
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -154,6 +165,7 @@ data:
       designated by law or regulation
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

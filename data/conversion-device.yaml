@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: conversion device
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -33,6 +36,7 @@ data:
       to the quantity at metering conditions is referred to as the "conversion factor."'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -50,6 +54,7 @@ data:
     - 2. A calculator, a correction device and a conversion device may be combined
       in a single unit.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -69,6 +74,7 @@ data:
       factor"
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -81,11 +87,12 @@ data:
     g18_entry: '02053'
     definition: "(-)"
     notes:
-    - 'Note 1: In this Recommendation the wording "conversion device" covers conversion
-      devices as such, as well as the conversion function in a calculator.'
-    - 'Note 2: A calculator, a correction device and a conversion device may be combined
-      in a single unit.'
+    - In this Recommendation the wording "conversion device" covers conversion devices
+      as such, as well as the conversion function in a calculator.
+    - A calculator, a correction device and a conversion device may be combined in
+      a single unit.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -105,6 +112,7 @@ data:
       factor”
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -126,6 +134,7 @@ data:
       or stored in a memory'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

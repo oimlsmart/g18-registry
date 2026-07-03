@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: lens support
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +29,7 @@ data:
     notes:
     - elative to the surface placed against the lens upport.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -42,6 +46,7 @@ data:
     - 'Note:  The focimeter measures the vertex power relative to the surface placed
       against the lens support.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

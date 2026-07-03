@@ -6,9 +6,15 @@ data:
   - type: expression
     status: preferred
     text: actual scale interval
+    usage_info:
+    field:
+    international: false
   - type: symbol
     status: preferred
     text: stem:[d]
+    usage_info:
+    field:
+    international: true
   kind: undefined
   official_concept:
   editions_present:
@@ -28,6 +34,7 @@ data:
       or the difference between two consecutive indicated values, for digital indication"
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

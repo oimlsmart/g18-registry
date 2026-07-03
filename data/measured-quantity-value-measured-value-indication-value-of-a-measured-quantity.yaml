@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: measured quantity value measured value indication {value of a measured quantity}
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -20,25 +23,35 @@ data:
     clause: 2.1 Tab. 1.6
     link:
     g18_entry: '02787'
-    definition: "{value representing a measurement result [VIM 2.10]}"
+    definition: value representing a measurement result
     notes:
-    - "{NOTE 1 For a measurement involving replicate indications, each indication
-      can be used to provide a corresponding measured quantity value. This set of
-      individual measured quantity values can be used to calculate a resulting measured
-      quantity value, such as an average or median, usually with a decreased associated
-      measurement uncertainty. NOTE 2 When the range of the true quantity values believed
-      to represent the measurand is small compared with the measurement uncertainty,
-      a measured quantity value can be considered to be an estimate of an essentially
-      unique true quantity value and is often an average or median of individual measured
-      quantity values obtained through replicate measurements. NOTE 3 In the case
-      where the range of the true quantity values believed to represent the measurand
-      is not small compared with the measurement uncertainty, a measured quantity
-      value is often an estimate of an average or median of the set of true quantity
-      values. NOTE 4 In the GUM, the terms “result of measurement” and “estimate of
-      the value of the measurand” or just “estimate of the measurand” are used for
-      ‘measured quantity value’.} Unless specified otherwise, the measured quantity
-      value is a single PMB indication on a sample."
+    - For a measurement involving replicate indications, each indication can be used
+      to provide a corresponding measured quantity value. This set of individual measured
+      quantity values can be used to calculate a resulting measured quantity value,
+      such as an average or median, usually with a decreased associated measurement
+      uncertainty.
+    - When the range of the true quantity values believed to represent the measurand
+      is small compared with the measurement uncertainty, a measured quantity value
+      can be considered to be an estimate of an essentially unique true quantity value
+      and is often an average or median of individual measured quantity values obtained
+      through replicate measurements.
+    - In the case where the range of the true quantity values believed to represent
+      the measurand is not small compared with the measurement uncertainty, a measured
+      quantity value is often an estimate of an average or median of the set of true
+      quantity values.
+    - In the GUM, the terms "result of measurement" and "estimate of the value of
+      the measurand" or just "estimate of the measurand" are used for 'measured quantity
+      value'.
+    - Unless specified otherwise, the measured quantity value is a single PMB indication
+      on a sample.
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2012
+      ref_id: '2.10'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
 status: current

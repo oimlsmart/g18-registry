@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: OIML Issuing Authority
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -31,6 +34,7 @@ data:
       without being further qualified, "OIML Issuing Authority" and "National ng Authority"
       are assumed.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -46,6 +50,7 @@ data:
       B (OIML B 18, 3.27)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

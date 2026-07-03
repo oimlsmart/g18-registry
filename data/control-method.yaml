@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: control method
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +29,7 @@ data:
       instrument, referred to as the control instrument
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -42,6 +46,7 @@ data:
     - 'Note: This will generally involve the use of a weighing instrument, referred
       to as the control instrument (see 2.1.10).'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -58,6 +63,7 @@ data:
     - 'Note: This will generally involve the use of a weighing instrument, referred
       to as the control instrument (see 2.1.10).'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

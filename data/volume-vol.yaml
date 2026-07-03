@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: volume (vol)
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -25,6 +28,7 @@ data:
       of length (L), width (W) and height (H)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

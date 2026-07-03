@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: foot crank length L
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -25,6 +28,7 @@ data:
       crank bearing and the center of the pedal shaft (see Fig. 1)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -39,6 +43,7 @@ data:
       crank bearing and the center of the pedal shaft (see Fig. 1)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

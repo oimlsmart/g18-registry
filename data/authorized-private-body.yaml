@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: authorized private body
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -30,6 +33,7 @@ data:
     - competence is normally demonstrated by an approval of their quality system through
       accreditation or any equivalent type of assessment.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -50,6 +54,7 @@ data:
       by an approval of their quality system through accreditation or any equivalent
       type of assessment.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

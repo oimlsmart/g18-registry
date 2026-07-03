@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: metrological confirmation
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -29,6 +32,7 @@ data:
       or repair and subsequent recalibration, as well as any required sealing and
       labeling. (2) In this Document, this term is referred to as "confirmation".
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -47,6 +51,7 @@ data:
       adjustment or repair and subsequent recalibration, as well as any required sealing
       and labeling. In this Document, this term is referred to as “confirmation”.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

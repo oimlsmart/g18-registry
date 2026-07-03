@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: zeroquantity
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -23,6 +26,7 @@ data:
     definition: the quantity of liquid equivalent to a zero signal from the measurement  transducer
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

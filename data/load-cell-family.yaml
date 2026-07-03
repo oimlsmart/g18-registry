@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: load cell family
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -32,6 +35,7 @@ data:
     notes:
     - miting.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -56,6 +60,7 @@ data:
     notes:
     - 'Note:  The examples provided are not intended to be limiting.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

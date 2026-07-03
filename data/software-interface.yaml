@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: software interface
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +29,7 @@ data:
       relevant).
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -37,12 +41,19 @@ data:
     link:
     g18_entry: '03521'
     definition: program code and dedicated data domain; receiving, filtering, or transmitting
-      data between software modules [OIML V 1:2022, 6.03]
+      data between software modules
     notes:
-    - 'Note 1: A software interface is not legally relevant. Note 2: A software interface
-      i san interface between two or more software modules, used to exchange data
-      and transmit commands.'
+    - A software interface is not legally relevant.
+    - A software interface i san interface between two or more software modules, used
+      to exchange data and transmit commands.
     examples: []
+    source:
+      kind: viml
+      relationship: identical
+      modification:
+      ref_source: OIML V 1:2022
+      ref_id: '6.03'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
 status: current

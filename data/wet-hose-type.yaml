@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: wet hose type
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -24,6 +27,7 @@ data:
       to and after the completion of a measurement and delivery
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

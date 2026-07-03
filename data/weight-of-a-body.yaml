@@ -6,9 +6,15 @@ data:
   - type: expression
     status: preferred
     text: weight of a body
+    usage_info:
+    field:
+    international: false
   - type: symbol
     status: preferred
     text: stem:[F_{"g"}]
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -29,6 +35,7 @@ data:
       of a body is the product of its mass and the acceleration due to gravity'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -44,6 +51,7 @@ data:
       of a body is the product of its mass and the acceleration due to gravity'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

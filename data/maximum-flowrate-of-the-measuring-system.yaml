@@ -6,9 +6,15 @@ data:
   - type: expression
     status: preferred
     text: maximum flowrate of the measuring system
+    usage_info:
+    field:
+    international: false
   - type: symbol
     status: preferred
     text: stem:[Q_{"max"}]
+    usage_info:
+    field:
+    international: true
   kind: undefined
   official_concept:
   editions_present:
@@ -30,6 +36,7 @@ data:
       in use
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -46,6 +53,7 @@ data:
       in use
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

@@ -6,9 +6,15 @@ data:
   - type: expression
     status: preferred
     text: minimum load of the measuring range
+    usage_info:
+    field:
+    international: false
   - type: symbol
     status: preferred
     text: stem:[D_{"min"}]
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -29,6 +35,7 @@ data:
       the limits on Dmin during testing, see A.3.2.4
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -43,6 +50,7 @@ data:
       a load cell under test
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

@@ -6,12 +6,21 @@ data:
   - type: expression
     status: preferred
     text: net value
+    usage_info:
+    field:
+    international: false
   - type: symbol
     status: preferred
     text: stem:[NET]
+    usage_info:
+    field:
+    international: true
   - type: symbol
     status: admitted
     text: stem:[N]
+    usage_info:
+    field:
+    international: true
   kind: undefined
   official_concept:
   editions_present:
@@ -30,6 +39,7 @@ data:
       operation of a tare device
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

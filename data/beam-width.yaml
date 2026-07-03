@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: beam width
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -22,14 +25,16 @@ data:
     g18_entry: '03743'
     definition: angular span of a radiation beam in the horizontal plane
     notes:
-    - 'Note 1: The angular span of a radiation beam in the vertical plane is referred
-      to as vertical beam width Note 2: The beam width of a Doppler-radar based speed
-      meter is commonly measured between half-maximum-power points (or −3dB points)
-      on each side of the main lobe. Note 3: Beam widths can be expressed in angles
-      or metres (at a specified distance). Angles are typically given in degrees (e.g.
-      for Doppler-radar based speed meters) or in milliradians (mrad; e.g. for hand-held
-      LIDAR speed meters). Figure 1 shows an example.'
+    - The angular span of a radiation beam in the vertical plane is referred to as
+      vertical beam width
+    - The beam width of a Doppler-radar based speed meter is commonly measured between
+      half-maximum-power points (or −3dB points) on each side of the main lobe.
+    - Beam widths can be expressed in angles or metres (at a specified distance).
+      Angles are typically given in degrees (e.g. for Doppler-radar based speed meters)
+      or in milliradians (mrad; e.g. for hand-held LIDAR speed meters). Figure 1 shows
+      an example.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

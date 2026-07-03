@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: multi-interval instrument
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -27,6 +30,7 @@ data:
       decreasing loads
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -43,6 +47,7 @@ data:
       and decreasing loads
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -59,6 +64,7 @@ data:
       being measured
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -75,6 +81,7 @@ data:
       dimension being measured
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -91,6 +98,7 @@ data:
       decreasing loads
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -107,6 +115,7 @@ data:
       and decreasing loads
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

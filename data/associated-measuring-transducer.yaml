@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: associated measuring transducer
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +29,7 @@ data:
     notes:
     - "(See also T.t.1)"
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

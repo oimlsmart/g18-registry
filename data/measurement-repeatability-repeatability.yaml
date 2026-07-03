@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: measurement repeatability (repeatability)
+    usage_info:
+    field:
+    international: false
   kind: defined_in_vim
   official_concept:
     source: urn:oiml:pub:v:2:2012
@@ -32,6 +35,7 @@ data:
     definition: measurement precision under a set of repeatability conditions of measurement
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
     related:

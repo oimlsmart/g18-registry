@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: conventional true value (of a quantity)
+    usage_info:
+    field:
+    international: false
   kind: defined_in_vim
   official_concept:
     source: urn:oiml:pub:v:2:1993
@@ -35,6 +38,7 @@ data:
       for a given purpose
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
     related:
@@ -51,10 +55,16 @@ data:
     link:
     g18_entry: '02533'
     definition: value attributed to a particular quantity and accepted, sometimes
-      by convention, as having an uncertainty appropriate for a given purpose [VIM
-      1.20]
+      by convention, as having an uncertainty appropriate for a given purpose
     notes: []
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2007
+      ref_id: '1.20'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -70,6 +80,7 @@ data:
       [VIM:1993, 1.20]
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

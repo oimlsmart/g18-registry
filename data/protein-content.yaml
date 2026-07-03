@@ -6,9 +6,15 @@ data:
   - type: expression
     status: preferred
     text: protein content
+    usage_info:
+    field:
+    international: false
   - type: symbol
     status: preferred
     text: stem:[P_{MB}]
+    usage_info:
+    field:
+    international: true
   kind: undefined
   official_concept:
   editions_present:
@@ -29,6 +35,7 @@ data:
     - 'Note: When the specified MB is 0 %, the reported protein content is at ‘dry
       basis’ (i.e. P0 %).'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

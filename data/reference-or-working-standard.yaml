@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: reference (or working) standard
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +29,7 @@ data:
     notes:
     - This is usually referred to as "master meter" in this field.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -41,6 +45,7 @@ data:
     notes:
     - 'Note: This is usually referred to as “master meter” in this field.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: angle measurement
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -25,6 +28,7 @@ data:
     - 'Note: The measurement of the vertical component of the measurement angle is
       referred to as vertical angle measurement.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

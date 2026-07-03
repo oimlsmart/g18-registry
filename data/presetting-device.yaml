@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: presetting device
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +29,7 @@ data:
       quantity
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -42,6 +46,7 @@ data:
     notes:
     - 'Note:  The preset quantity value may be the mass or the related price to pay.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

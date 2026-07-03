@@ -6,9 +6,15 @@ data:
   - type: expression
     status: preferred
     text: nominal capacity
+    usage_info:
+    field:
+    international: false
   - type: symbol
     status: preferred
     text: stem:[V_{"n"}]
+    usage_info:
+    field:
+    international: true
   kind: undefined
   official_concept:
   editions_present:
@@ -31,6 +37,7 @@ data:
       maximum permissible level or volume mark.
     - 2. The nominal capacity value can be limited by safety regulations.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -45,6 +52,7 @@ data:
       under normal conditions of use
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -58,6 +66,7 @@ data:
     definition: volume indicated on the vessel
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -72,6 +81,7 @@ data:
       shown on the pipette
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -86,6 +96,7 @@ data:
       volumes shown on the burette
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -100,6 +111,7 @@ data:
       to designate the flask (see point 3.2.)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -112,11 +124,12 @@ data:
     g18_entry: '03327'
     definition: volume indicated (marked) on the tank or its compartment
     notes:
-    - 'Note 1: The nominal capacity value usually corresponds to the volume of liquid
-      which a tank or compartment contains at reference temperature when filled up
-      to the maximum permissible level or volume mark. Note 2: The nominal capacity
-      value can be limited by safety regulations.'
+    - The nominal capacity value usually corresponds to the volume of liquid which
+      a tank or compartment contains at reference temperature when filled up to the
+      maximum permissible level or volume mark.
+    - The nominal capacity value can be limited by safety regulations.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -129,11 +142,12 @@ data:
     g18_entry: 02245-R080-1
     definition: volume indicated (marked) on the tank or its compartment
     notes:
-    - 'Note 1: The nominal capacity value usually corresponds to the volume of liquid
-      which a tank or compartment contains at reference temperature when filled up
-      to the maximum permissible level or volume mark. Note 2: The nominal capacity
-      value can be limited by safety regulations.'
+    - The nominal capacity value usually corresponds to the volume of liquid which
+      a tank or compartment contains at reference temperature when filled up to the
+      maximum permissible level or volume mark.
+    - The nominal capacity value can be limited by safety regulations.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -148,6 +162,7 @@ data:
       under normal conditions of use
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -161,6 +176,7 @@ data:
     definition: volume indicated on the vessel
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -175,6 +191,7 @@ data:
       shown on the pipette
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -189,6 +206,7 @@ data:
       volumes shown on the burette
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -203,6 +221,7 @@ data:
       to designate the flask (see point 3.2.)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

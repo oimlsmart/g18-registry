@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: snapshot
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +29,7 @@ data:
       of a module; 3) evoled parameters of dynamic parts of the module'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

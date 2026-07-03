@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: gas analytical system
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -33,6 +36,7 @@ data:
       of exhaust emissions, and gas and electric lines of communication.
     - 2. (ISO 7504:2001)
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -58,6 +62,7 @@ data:
       main components of the system, an interface to connect devices measuring the
       gas flow parameters of exhaust emissions, and gas and electric lines of communication.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -70,16 +75,17 @@ data:
     g18_entry: '02123'
     definition: assembly to carry out specified gas analytical measurements
     notes:
-    - 'Note 1: In this Recommendation a gas analytical system means a system that
-      continuously measures the volume fraction of sulfur dioxide by analyzing the
-      gas samples taken directly from the pipe or gas duct of an industrial enterprise,
-      which includes a means for sampling and sample preparation (in the case of extractive
+    - In this Recommendation a gas analytical system means a system that continuously
+      measures the volume fraction of sulfur dioxide by analyzing the gas samples
+      taken directly from the pipe or gas duct of an industrial enterprise, which
+      includes a means for sampling and sample preparation (in the case of extractive
       sampling), a gas analyzer, means for accumulation, processing and storage of
       measurement results, means for control and adjustment of the main components
       of the system, an interface to connect devices measuring the gas flow parameters
-      of exhaust emissions, and gas and electric lines of communication. Note 2: [ISO
-      7504:2001]'
+      of exhaust emissions, and gas and electric lines of communication.
+    - "[ISO 7504:2001]"
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

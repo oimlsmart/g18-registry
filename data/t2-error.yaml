@@ -6,9 +6,15 @@ data:
   - type: expression
     status: preferred
     text: T2 error
+    usage_info:
+    field:
+    international: false
   - type: symbol
     status: preferred
     text: stem:[T_{2}]
+    usage_info:
+    field:
+    international: true
   kind: undefined
   official_concept:
   editions_present:
@@ -29,6 +35,7 @@ data:
       (Qn - T2)'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

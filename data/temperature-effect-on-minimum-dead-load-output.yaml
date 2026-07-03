@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: temperature effect on minimum dead load output
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -24,6 +27,7 @@ data:
     definition: change in minimum dead load output due to a change in ambient temperature
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -38,6 +42,7 @@ data:
       in ambient temperature
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

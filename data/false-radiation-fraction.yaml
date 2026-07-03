@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: false radiation fraction
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -31,6 +34,7 @@ data:
       not include by this concept.
     - 3. Adapted from [5], clause 5.3.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -50,6 +54,7 @@ data:
       from the outside through leaks is not included by this concept. Adapted from
       [5], clause 5.3.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

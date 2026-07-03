@@ -6,9 +6,15 @@ data:
   - type: expression
     status: preferred
     text: automatic checking facility
+    usage_info:
+    field:
+    international: false
   - type: expression
     status: preferred
     text: Automatic checking facility
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -27,6 +33,7 @@ data:
     definition: checking facility that operates without the intervention of an operator
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -40,6 +47,7 @@ data:
     definition: checking facility that operates without the intervention of an operator
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -54,6 +62,7 @@ data:
     notes:
     - Adapted from OIML D 11:2004, 3.18.1.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -71,6 +80,7 @@ data:
     notes:
     - uring and monitoring activities.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -84,6 +94,7 @@ data:
     definition: checking facility operating without the intervention of an operator
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -97,6 +108,7 @@ data:
     definition: checking facility operating without the intervention of an operator
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -110,6 +122,7 @@ data:
     definition: checking facility that operates without the intervention of an operator
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -123,6 +136,7 @@ data:
     definition: checking facility operating without the intervention of an operator
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -136,6 +150,7 @@ data:
     definition: checking facility that operates without the intervention of an operator
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -149,6 +164,7 @@ data:
     definition: a checking facility operating without the intervention of an operator
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -162,6 +178,7 @@ data:
     definition: a checking facility operating without the intervention of an operator
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -176,6 +193,7 @@ data:
       of an operator [SORUCE: OIML D 11:2013, 3.19.1.] [8]'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -187,9 +205,9 @@ data:
     link:
     g18_entry: '02885'
     definition: checking facility operating without the intervention of an operator
-      [OIML D11:2013, 3.19.1]
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -204,6 +222,7 @@ data:
       (OIML D11, 3.19.1.)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -217,6 +236,7 @@ data:
     definition: checking facility operating without the intervention of an operator
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -230,6 +250,7 @@ data:
     definition: checking facility that operates without the intervention of an operator.
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -243,6 +264,7 @@ data:
     definition: checking facility that operates without the intervention of an operator
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -256,6 +278,7 @@ data:
     definition: checking facility operating without the intervention of an operator
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -270,6 +293,7 @@ data:
       [Adapted from OIML D11:2004, 3.18.1.]
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -280,12 +304,13 @@ data:
     clause: T.3.11
     link: https://www.oiml.org/en/files/pdf_R/r107-1-e07.pdf
     g18_entry: '01373'
-    definition: 'facility, operating without the intervention of an operator, which
+    definition: facility, operating without the intervention of an operator, which
       is incorporated in an instrument and which enables significant faults to be
-      detected and acted upon [OIML D11: 2004, 3.18 and 3.18.1]'
+      detected and acted upon
     notes:
     - 'Note: An automatic checking facility performs securing and monitoring activities.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -299,6 +324,7 @@ data:
     definition: checking facility that operates without the intervention of an operator
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -312,6 +338,7 @@ data:
     definition: a checking facility operating without the intervention of an operator
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -325,6 +352,7 @@ data:
     definition: checking facility that operates without the intervention of an operator
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

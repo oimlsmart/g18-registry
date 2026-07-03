@@ -6,9 +6,15 @@ data:
   - type: expression
     status: preferred
     text: accuracy
+    usage_info:
+    field:
+    international: false
   - type: expression
     status: admitted
     text: measurement accuracy
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -28,6 +34,7 @@ data:
       a true value of the measurand
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -42,6 +49,7 @@ data:
       and the conventional true value of the measurand
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -55,15 +63,22 @@ data:
     definition: closeness of agreement between a measured quantity value and a true
       quantity value of the measurand
     notes:
-    - 'Note 1: The concept of "measurement accuracy" is not a quantity and is not
-      given a numerical quantity value. A measurement is said to be more accurate
-      when it offers a smaller measurement error.'
-    - 'Note 2: The term "measurement accuracy" should not be used for measurement
-      trueness and the term "measurement precision" should not be used for "measurement
-      accuracy", which, however, is related to both concepts.'
-    - 'Note 3: "Measurement accuracy" is sometimes understood as closeness of agreement
-      between measured quantity values that are being attributed to the measurand.'
+    - The concept of "measurement accuracy" is not a quantity and is not given a numerical
+      quantity value. A measurement is said to be more accurate when it offers a smaller
+      measurement error.
+    - The term "measurement accuracy" should not be used for measurement trueness
+      and the term "measurement precision" should not be used for "measurement accuracy",
+      which, however, is related to both concepts.
+    - '"Measurement accuracy" is sometimes understood as closeness of agreement between
+      measured quantity values that are being attributed to the measurand.'
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2007
+      ref_id: '2.13'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -77,15 +92,22 @@ data:
     definition: closeness of agreement between a measured quantity value and a true
       quantity value of the measurand
     notes:
-    - 'Note 1: The concept of "measurement accuracy" is not a quantity and is not
-      given a numerical quantity value. A measurement is said to be more accurate
-      when it offers a smaller measurement error.'
-    - 'Note 2: The term "measurement accuracy" should not be used for measurement
-      trueness and the term "measurement precision" should not be used for "measurement
-      accuracy", which, however, is related to both concepts.'
-    - 'Note 3: "Measurement accuracy" is sometimes understood as closeness of agreement
-      between measured quantity values that are being attributed to the measurand.'
+    - The concept of "measurement accuracy" is not a quantity and is not given a numerical
+      quantity value. A measurement is said to be more accurate when it offers a smaller
+      measurement error.
+    - The term "measurement accuracy" should not be used for measurement trueness
+      and the term "measurement precision" should not be used for "measurement accuracy",
+      which, however, is related to both concepts.
+    - '"Measurement accuracy" is sometimes understood as closeness of agreement between
+      measured quantity values that are being attributed to the measurand.'
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2007
+      ref_id: '2.13'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -100,6 +122,7 @@ data:
       a true value of the measurand
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -114,6 +137,7 @@ data:
       and the conventional true value of the measurand
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

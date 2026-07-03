@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: moving measurement
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -23,6 +26,7 @@ data:
     definition: speed measurement using a moving speed meter with non-zero ego speed
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

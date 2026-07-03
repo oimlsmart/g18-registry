@@ -6,12 +6,21 @@ data:
   - type: expression
     status: preferred
     text: working pressure
+    usage_info:
+    field:
+    international: false
   - type: symbol
     status: preferred
     text: stem:[P_{w}]
+    usage_info:
+    field:
+    international: true
   - type: symbol
     status: preferred
     text: stem:[p_{w}]
+    usage_info:
+    field:
+    international: true
   kind: undefined
   official_concept:
   editions_present:
@@ -30,6 +39,7 @@ data:
       of the water meter
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -45,6 +55,7 @@ data:
       atmospheric pressure
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

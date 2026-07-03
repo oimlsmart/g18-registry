@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: detector
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -25,6 +28,7 @@ data:
       gas emerging from the column
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -40,6 +44,7 @@ data:
       the mass spectrometer in a GC/MS system
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -54,6 +59,7 @@ data:
       of the polychromator or scanning monochromator of the ICP system
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -68,6 +74,7 @@ data:
       a sample into electric signals
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -82,6 +89,7 @@ data:
       from the column
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -95,6 +103,7 @@ data:
     definition: a device that responds to sample components in the eluate of the column
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -114,6 +123,7 @@ data:
       prover to transmit a pulse signal that is proportional to the displacement of
       the displacer.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -128,6 +138,7 @@ data:
       gas emerging from the column
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -143,6 +154,7 @@ data:
       the mass spectrometer in a GC/MS system
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -157,6 +169,7 @@ data:
       of the polychromator or scanning monochromator of the ICP system
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -171,6 +184,7 @@ data:
       a sample into electric signals
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -185,6 +199,7 @@ data:
       from the column
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -198,6 +213,7 @@ data:
     definition: a device that responds to sample components in the eluate of the column
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

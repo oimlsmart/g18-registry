@@ -6,11 +6,11 @@ data:
   - type: expression
     status: preferred
     text: sub-assembly
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
-    source: OIML D011:2004
-    id: '3.3'
-    url:
   editions_present:
   - '2010'
   - 202X
@@ -29,13 +29,9 @@ data:
     notes: []
     examples:
     - Amplifiers, comparators, power converters, etc.
+    source:
     consistency: pending
     consistency_reason: ''
-    related:
-    - type: see
-      ref:
-        source: OIML D011:2004
-        id: '3.3'
   - edition: 202X
     publication: OIML R046-1:2012
     publication_id: OIML R046-1:2012
@@ -47,13 +43,10 @@ data:
     definition: part of a device having a recognizable function of its own
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current
 id: 483100f2-688c-5cb4-a107-15b6cf52a369
 schema_version: '3'
-related:
-- type: see
-  ref:
-    source: OIML D011:2004
-    id: '3.3'
+related: []

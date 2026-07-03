@@ -6,9 +6,15 @@ data:
   - type: expression
     status: preferred
     text: reproducibility condition of measurement
+    usage_info:
+    field:
+    international: false
   - type: expression
     status: admitted
     text: reproducibility condition
+    usage_info:
+    field:
+    international: false
   kind: defined_in_vim
   official_concept:
     source: urn:oiml:pub:v:2:2012
@@ -37,10 +43,11 @@ data:
       different locations, operators, measuring systems, and replicate measurements
       on the same or similar objects
     notes:
-    - 'Note 1: Different measuring systems may use different measurement procedures.'
-    - 'Note 2: A specification should give the conditions changed and unchanged, to
-      the extent practical.'
+    - Different measuring systems may use different measurement procedures.
+    - A specification should give the conditions changed and unchanged, to the extent
+      practical.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
     related:
@@ -61,6 +68,7 @@ data:
       on the same or similar objects (OIML V 2-200, 2.24)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -75,10 +83,17 @@ data:
       different locations, operators, measuring systems, and replicate measurements
       on the same or similar objects
     notes:
-    - 'Note 1: Different measuring systems may use different measurement procedures.'
-    - 'Note 2: A specification should give the conditions changed and unchanged, to
-      the extent practical.'
+    - Different measuring systems may use different measurement procedures.
+    - A specification should give the conditions changed and unchanged, to the extent
+      practical.
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2007
+      ref_id: '2.24'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -93,11 +108,18 @@ data:
       different locations, operators, measuring systems, and replicate measurements
       on the same or similar objects
     notes:
-    - NOTE 1 The different measuring systems may use different measurement procedures.
-    - NOTE 2 A specification should give the conditions changed and unchanged, to
-      the extent practical. For the tests in this Recommendation, the conditions changed
-      and unchanged are summarized in R 146-2, Annex A, A.3.4.
+    - The different measuring systems may use different measurement procedures.
+    - A specification should give the conditions changed and unchanged, to the extent
+      practical. For the tests in this Recommendation, the conditions changed and
+      unchanged are summarized in R 146-2, Annex A, A.3.4.
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2007
+      ref_id: '2.24'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
 status: current

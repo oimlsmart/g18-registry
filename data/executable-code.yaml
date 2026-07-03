@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: executable code
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -27,6 +30,7 @@ data:
       or data transporting operations
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -44,6 +48,7 @@ data:
       instrument and converted into certain logical, arithmetical, decoding or data
       transporting operations.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: permanent) magnetization (M)
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -27,6 +30,7 @@ data:
       field in space and  thus may produce magnetic forces on other materials
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

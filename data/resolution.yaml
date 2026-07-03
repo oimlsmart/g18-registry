@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: resolution
+    usage_info:
+    field:
+    international: false
   kind: defined_in_vim
   official_concept:
     source: urn:oiml:pub:v:2:1993
@@ -36,6 +39,7 @@ data:
     - For a digital device, this is the change in the indication when the least significant
       digit changes by one step.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
     related:
@@ -56,6 +60,7 @@ data:
       at any applied force
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -72,6 +77,7 @@ data:
     - It usually indicates the smallest distance between two adjacent spectral lines
       at which they can be distinguished one from the another.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -83,10 +89,17 @@ data:
     link:
     g18_entry: '03464'
     definition: smolest change in quantity being measured that causes a perceptible
-      change in the corresponding indication [VIM 4.14]
+      change in the corresponding indication
     notes:
     - "(For notes, refer to the VIM)"
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2012
+      ref_id: '4.14'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -102,6 +115,7 @@ data:
       at any applied force
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -118,6 +132,7 @@ data:
     - 'Note: It usually indicates the smallest distance between two adjacent spectral
       lines at which they can be distinguished one from the another.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

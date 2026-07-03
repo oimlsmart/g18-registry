@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: load cell measuring range (for verification)
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -24,6 +27,7 @@ data:
       load of the measuring range Dmin load cell measuring range = (Dmax - Dmin)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

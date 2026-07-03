@@ -6,9 +6,15 @@ data:
   - type: expression
     status: preferred
     text: calorific value determining device
+    usage_info:
+    field:
+    international: false
   - type: abbreviation
     status: preferred
     text: CVDD
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -28,6 +34,7 @@ data:
       of gas
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -42,6 +49,7 @@ data:
       of gas
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

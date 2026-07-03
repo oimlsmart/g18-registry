@@ -6,9 +6,15 @@ data:
   - type: expression
     status: preferred
     text: automatic level gauge
+    usage_info:
+    field:
+    international: false
   - type: abbreviation
     status: preferred
     text: ALG
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -31,6 +37,7 @@ data:
     notes:
     - See OIML Recommendation R 85-1/2 for general requirements.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -47,6 +54,7 @@ data:
       device
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -64,6 +72,7 @@ data:
     notes:
     - 'Note: See OIML Recommendation R 85-1/2 for general requirements.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -80,6 +89,7 @@ data:
       device.
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

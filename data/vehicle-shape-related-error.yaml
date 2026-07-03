@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: vehicle shape-related error
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +29,7 @@ data:
     - 'Note: The change can be manifold, e.g. a single step, multiple steps, or a
       gradual sliding.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

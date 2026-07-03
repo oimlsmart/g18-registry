@@ -6,12 +6,21 @@ data:
   - type: expression
     status: preferred
     text: working temperature
+    usage_info:
+    field:
+    international: false
   - type: symbol
     status: preferred
     text: stem:[T_{"w"}]
+    usage_info:
+    field:
+    international: false
   - type: symbol
     status: preferred
     text: stem:[t_{"w"}]
+    usage_info:
+    field:
+    international: true
   kind: undefined
   official_concept:
   editions_present:
@@ -30,6 +39,7 @@ data:
       of the water meter
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -43,6 +53,7 @@ data:
     definition: temperature of the gas to be measured at the gas meter
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

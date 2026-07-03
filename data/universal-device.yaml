@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: universal device
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -25,6 +28,7 @@ data:
     notes:
     - Note:This kind of device might have undeclared interfaces to operating system
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -39,6 +43,7 @@ data:
       be adapted to a legally relevant task by software.
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

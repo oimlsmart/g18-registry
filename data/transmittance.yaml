@@ -6,9 +6,15 @@ data:
   - type: expression
     status: preferred
     text: transmittance
+    usage_info:
+    field:
+    international: false
   - type: symbol
     status: preferred
     text: stem:[tau = Phi_{"tr"} / Phi_{0}]
+    usage_info:
+    field:
+    international: true
   kind: undefined
   official_concept:
   editions_present:
@@ -30,6 +36,7 @@ data:
     - Transmittance has the dimension one and is ressed with the derived coherent
       SI unit (1).
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -42,9 +49,11 @@ data:
     g18_entry: '01843'
     definition: ratio of the transmitted radiant luminous flux to the incident flux
     notes:
-    - 'Note 1:   ISO 6286, Table 1, No. 4. Note 2:  Transmittance has the dimension
-      one and is expressed with the derived coherent SI unit one (1).'
+    - ISO 6286, Table 1, No. 4.
+    - Transmittance has the dimension one and is expressed with the derived coherent
+      SI unit one (1).
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

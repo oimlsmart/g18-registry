@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: mesured quantity (value)
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -20,10 +23,17 @@ data:
     clause: 3.7.12
     link:
     g18_entry: '03250'
-    definition: quantity value representing a measurement results [VIM 2.10]
+    definition: quantity value representing a measurement results
     notes:
     - "(For notes, refer to the VIM)"
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2012
+      ref_id: '2.10'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
 status: current

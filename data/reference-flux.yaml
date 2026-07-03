@@ -6,9 +6,15 @@ data:
   - type: expression
     status: preferred
     text: reference flux
+    usage_info:
+    field:
+    international: false
   - type: symbol
     status: preferred
     text: stem:[Phi_{"r"}]
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -29,6 +35,7 @@ data:
       as reference and reaching the detector
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -44,6 +51,7 @@ data:
     notes:
     - 'Note:  The coherent SI unit is the watt (W).'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

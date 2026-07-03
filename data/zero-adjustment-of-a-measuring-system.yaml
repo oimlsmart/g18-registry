@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: zero adjustment of a measuring system
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -24,6 +27,7 @@ data:
       kPa (0 mmHg) at atmospheric pressure (gauge pressure: 0 kPa (0 mmHg)) (VIM 3.11)'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

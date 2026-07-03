@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: durability test
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -25,6 +28,7 @@ data:
       characteristics over a period of use
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -39,6 +43,7 @@ data:
       characteristics over a period of use
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -53,6 +58,7 @@ data:
       its performance characteristics over a period of use
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -68,6 +74,7 @@ data:
       OIML D 11:2013, 3.21.5] [8].'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -82,6 +89,7 @@ data:
       characteristics over a period of use [VIML:2013, 5.22]
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -93,9 +101,10 @@ data:
     link:
     g18_entry: '03020'
     definition: test intended to verify whether the EUT is able to maintain its performance
-      characteristics over a period of use [OIML D 11, 3.20.4]
+      characteristics over a period of use
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -110,6 +119,13 @@ data:
       characteristics over a period of use
     notes: []
     examples: []
+    source:
+      kind: viml
+      relationship: identical
+      modification:
+      ref_source: OIML V 1:2013
+      ref_id: '5.22'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
 status: current

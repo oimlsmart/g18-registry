@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: lot (of measuring instruments)
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -27,6 +30,7 @@ data:
     - A part of a lot, as defined above, contained in a single shipment is sometimes
       also referred to as a lot.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -43,6 +47,7 @@ data:
     - 'Note:  A part of a lot, as defined above, contained in a single shipment is
       sometimes also referred to as a lot.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

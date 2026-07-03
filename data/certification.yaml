@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: certification
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -24,6 +27,7 @@ data:
       person (from ISO/IEC 17000:2004, 5.5 and VIML, A.18)]
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -39,6 +43,7 @@ data:
       tasks [ISO/IEC 17000:2004, 5.5]
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

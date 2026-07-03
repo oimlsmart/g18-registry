@@ -6,9 +6,15 @@ data:
   - type: expression
     status: preferred
     text: load cell verification interval
+    usage_info:
+    field:
+    international: false
   - type: symbol
     status: preferred
     text: stem:[v]
+    usage_info:
+    field:
+    international: true
   kind: undefined
   official_concept:
   editions_present:
@@ -28,6 +34,7 @@ data:
       the load cell for accuracy classification
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -42,6 +49,7 @@ data:
       the load cell for accuracy classification
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

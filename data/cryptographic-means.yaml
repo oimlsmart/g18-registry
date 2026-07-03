@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: cryptographic means
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -37,6 +40,7 @@ data:
       certificate of the sender (see 3.1.10) to be of the authenticity of the public
       key.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -52,6 +56,7 @@ data:
       ensure integrity and authenticity
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -67,6 +72,7 @@ data:
       authenticity
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -82,6 +88,7 @@ data:
       authenticity (OIML D 31, 3.1.8)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -96,9 +103,10 @@ data:
       and description by the receiver (reading program) with the purpose of hiding
       information from unauthorized persons. Electronic signing of data with the purpose
       of enabling the receiver or user of the data to verify the origin of the data,
-      i.e. to prove their authenticity [OIML D31, 3.1.11]
+      i.e. to prove their authenticity
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -117,6 +125,7 @@ data:
     notes:
     - "[further information in OIML D 31:2008, 3.1.11]"
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

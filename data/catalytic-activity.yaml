@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: catalytic activity
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -40,6 +43,7 @@ data:
       of creatine kinase as measured by th rate of conversion of NADH in the IFCC
       reference procedure in human serum". [ISO 18153, clause 3.2]
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -53,20 +57,23 @@ data:
     definition: property of a component corresponding to the catalyzed substance rate
       of conversion of a specified chemical reaction in a specified measurement system
     notes:
-    - 'Note 1: The coherent SI unit is the mole per second (mol/s), also called the
-      “katal” (kat). Note 2: Throughout this Recommendation the component” is an enzyme.
-      Note 3: The quantity “catalytic activity” relates to an amount of active enzyme,
-      not its concentration (see 2.25). Note 4: The measurement procedure employing
-      defined indicator substance is an essential element for the definition of the
-      measurand. Note 5: In many instances, instead of the conversion rate of the
-      substrate ascribed in the short name of the enzyme analyte, e.g. “creatine kinase”,
-      the conversion rate of an indicator substance as substrate of a combined reaction,
-      e.g. NADH, is measured. Then the measurand should be defined as “catalytic activity
-      of the enzyme as measured by the conversion rate of an indicator substance in
-      a specified system according to a given measurement procedure”, e.g. “catalytic
+    - The coherent SI unit is the mole per second (mol/s), also called the "katal"
+      (kat).
+    - Throughout this Recommendation the component" is an enzyme.
+    - The quantity "catalytic activity" relates to an amount of active enzyme, not
+      its concentration (see 2.25).
+    - The measurement procedure employing defined indicator substance is an essential
+      element for the definition of the measurand.
+    - In many instances, instead of the conversion rate of the substrate ascribed
+      in the short name of the enzyme analyte, e.g. "creatine kinase", the conversion
+      rate of an indicator substance as substrate of a combined reaction, e.g. NADH,
+      is measured. Then the measurand should be defined as "catalytic activity of
+      the enzyme as measured by the conversion rate of an indicator substance in a
+      specified system according to a given measurement procedure", e.g. "catalytic
       activity of creatine kinase as measured by the rate of conversion of NADH in
-      the IFCC reference procedure in human serum”. [ISO 18153, clause 3.2]'
+      the IFCC reference procedure in human serum". [ISO 18153, clause 3.2]
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

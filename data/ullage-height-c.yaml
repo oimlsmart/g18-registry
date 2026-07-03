@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: ullage height (C)
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -24,6 +27,7 @@ data:
       point top, measured along the vertical measurement axis (see figure 1)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -38,6 +42,7 @@ data:
       point top, measured along the vertical measurement axis (see figure 1)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

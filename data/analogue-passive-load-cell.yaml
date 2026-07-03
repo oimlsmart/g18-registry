@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: analogue-passive load cell
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -27,6 +30,7 @@ data:
       load cell may utilise passive electronics (e.g. strain gauges), and passive
       temperature compensation elements.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

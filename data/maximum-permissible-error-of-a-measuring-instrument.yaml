@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: maximum permissible error (of a measuring instrument)
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -25,6 +28,13 @@ data:
       measuring instrument, or measuring system
     notes: []
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2012
+      ref_id: '4.26'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
 status: current

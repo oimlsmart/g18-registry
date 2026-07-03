@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: hectolitre mass (of a given batch of grain)
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -33,6 +36,7 @@ data:
       by the volume of the receptacle in hectolitres ; i is thus expressed in kilograms
       per hectolitre.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -55,6 +59,7 @@ data:
       by the volume of the receptacle in hectolitres ; it is thus expressed in kilograms
       per hectolitre.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

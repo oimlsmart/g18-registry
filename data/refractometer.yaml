@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: refractometer
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -29,6 +32,7 @@ data:
       table for the refractive index values
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -45,6 +49,7 @@ data:
       and the refractive index shall have been specified (see 3)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -63,6 +68,7 @@ data:
       International Sucrose Mass Fraction Scale, %mass (Brix), then the refractometer
       shall be accompanied by a conversion table for the refractive index values'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -79,6 +85,7 @@ data:
       and the refractive index shall have been specified (see 3)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

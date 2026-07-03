@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: maximum permissible error shift
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -24,11 +27,13 @@ data:
       by this Recommendation, when a single influence factor is taken from its value
       at reference conditions and varied within the rated operating conditions
     notes:
-    - 'Note 1: For each influence factor there is one corresponding maximum permissible
-      error shift. Note 2: In this Recommendation, the maximum permissible error is
-      a combination of the base maximum permissible error and the maximum permissible
-      error shift as described in Annex B.'
+    - For each influence factor there is one corresponding maximum permissible error
+      shift.
+    - In this Recommendation, the maximum permissible error is a combination of the
+      base maximum permissible error and the maximum permissible error shift as described
+      in Annex B.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

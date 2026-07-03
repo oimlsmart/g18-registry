@@ -6,9 +6,15 @@ data:
   - type: expression
     status: preferred
     text: relative instrumental spectral function
+    usage_info:
+    field:
+    international: false
   - type: expression
     status: admitted
     text: detected radiant power spectrum
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -32,6 +38,7 @@ data:
     - 2. The relative instrumental spectral function generally has different values
       for each particular wavelength.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

@@ -6,9 +6,15 @@ data:
   - type: expression
     status: preferred
     text: OIML Certificate
+    usage_info:
+    field:
+    international: false
   - type: expression
     status: preferred
     text: OIML certificate
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,9 +32,9 @@ data:
     definition: type examination eertificate, issued by an OIML Issuing Authority,
       attesting the conformity of type of measuring instrument or module with the
       relevant requirements of an OIML Recommendation at the time of testing and evaluation
-      [OIML B 18:2022, 3.26]
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -45,6 +51,7 @@ data:
       (OIML B 18)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -61,6 +68,7 @@ data:
       (OIML B 18, 3.25)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

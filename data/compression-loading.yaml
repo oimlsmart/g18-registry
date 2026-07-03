@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: compression loading
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -24,6 +27,7 @@ data:
     definition: compressive force applied to a load cell
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -37,6 +41,7 @@ data:
     definition: applying a compressive force to  the load cell
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

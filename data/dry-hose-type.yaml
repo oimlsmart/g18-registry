@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: dry hose type
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -24,6 +27,7 @@ data:
       the mechanical operation involved in each delivery
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: OIML Evaluation Report
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -30,6 +33,7 @@ data:
     - 2. The OIML Evaluation Report is currently designated as "Test Report" in OIML
       B 3 an as "OIML Test Report" in OIML B 10-1.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

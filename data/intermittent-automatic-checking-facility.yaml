@@ -6,9 +6,15 @@ data:
   - type: expression
     status: preferred
     text: intermittent automatic checking facility
+    usage_info:
+    field:
+    international: false
   - type: abbreviation
     status: preferred
     text: type I
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -28,6 +34,7 @@ data:
       orper fixed number of measurement cycles
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -42,6 +49,7 @@ data:
       orper fixed number of measurement cycles
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -56,6 +64,7 @@ data:
       Adapted from OIML D 11:2004, 3.18.1.2. per fixed number of measurement cycles
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -70,6 +79,7 @@ data:
       beginning or at the end of each measurement operation
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -84,6 +94,7 @@ data:
       beginning or at the end of each measurement operation
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -98,6 +109,7 @@ data:
       intervals
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -112,6 +124,7 @@ data:
       per fixed number of measurement cycles
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -126,6 +139,7 @@ data:
       or per fixed number of measurement cycles
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -140,6 +154,7 @@ data:
       at the beginning or end of each measurement operation
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -154,6 +169,7 @@ data:
       or over a fixed number of measurement cycles
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -168,6 +184,7 @@ data:
       beginning of each measurement operation
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -179,9 +196,10 @@ data:
     link:
     g18_entry: '03152'
     definition: automatic checking facility that operates at certain time intervals
-      or per fixed number of measurement cycles [OIML D 11:2013, 3.19.1.2]
+      or per fixed number of measurement cycles
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -196,6 +214,7 @@ data:
       or per fixed number of measurement cycles
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -210,6 +229,7 @@ data:
       per fixed number of measurement cycles [adapted from OIML D 11:2004, 3.18.1.2]
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -224,6 +244,7 @@ data:
       at the beginning or end of each measurement operation
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

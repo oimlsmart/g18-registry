@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: individual prepackage error
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -25,6 +28,7 @@ data:
       and its nominal quantity
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -42,6 +46,7 @@ data:
       symbol Ei or ei and can be calculated by Ei = Qi – Qnom or by ei = qi – Qnom
       where Qnom is the nominal quantity.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

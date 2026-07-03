@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: absorbed braking power
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -25,6 +28,7 @@ data:
       at the crankshaft and is measured and displayed by the test equipment
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -39,6 +43,7 @@ data:
       at the crankshaft and is measured and displayed bythe test equipment
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

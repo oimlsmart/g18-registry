@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: error of indication / measurement error
+    usage_info:
+    field:
+    international: false
   kind: defined_in_viml
   official_concept:
     source: urn:oiml:pub:v:1:2022
@@ -31,6 +34,7 @@ data:
     definition: indication minus a reference quantity value
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
     related:

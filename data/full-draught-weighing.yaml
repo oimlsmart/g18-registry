@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: full draught weighing
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -25,6 +28,7 @@ data:
       on the load receptor(s)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -38,6 +42,7 @@ data:
     definition: weighing a wagon that is entirely supported on the load receptor(s)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -52,6 +57,7 @@ data:
       on the load receptor(s)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

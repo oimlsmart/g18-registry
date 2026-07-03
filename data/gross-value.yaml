@@ -6,12 +6,21 @@ data:
   - type: expression
     status: preferred
     text: gross value
+    usage_info:
+    field:
+    international: false
   - type: symbol
     status: preferred
     text: stem:[G]
+    usage_info:
+    field:
+    international: true
   - type: symbol
     status: admitted
     text: stem:[B]
+    usage_info:
+    field:
+    international: true
   kind: undefined
   official_concept:
   editions_present:
@@ -30,6 +39,7 @@ data:
       tare or preset tare device in operation
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

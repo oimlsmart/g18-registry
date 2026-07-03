@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: deadwood
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -28,6 +31,7 @@ data:
       capacity
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -44,6 +48,7 @@ data:
       geometric method of calibration
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -61,6 +66,7 @@ data:
       capacity
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -77,6 +83,7 @@ data:
       geometric method of calibration
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

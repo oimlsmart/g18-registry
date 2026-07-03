@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: adjustment of a measuring system adjustment
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -24,12 +27,14 @@ data:
       prescribed indications corresponding to given values of a quantity to be measured
       (VIM:2007, 3.11)
     notes:
-    - 'Note 1: Types of adjustment of a measuring system include zero adjustment of
-      a measuring system, offset adjustment, and span adjustment (sometimes called
-      gain adjustment). Note 2: Adjustment of a measuring system should not be confused
-      with calibration, which is a prerequisite for adjustment. Note 3: After an adjustment
-      of a measuring system, the measuring system must usually be recalibrated.'
+    - Types of adjustment of a measuring system include zero adjustment of a measuring
+      system, offset adjustment, and span adjustment (sometimes called gain adjustment).
+    - Adjustment of a measuring system should not be confused with calibration, which
+      is a prerequisite for adjustment.
+    - After an adjustment of a measuring system, the measuring system must usually
+      be recalibrated.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

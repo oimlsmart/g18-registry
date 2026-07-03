@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: flow indicating device
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -24,6 +27,7 @@ data:
       of the product conveyed in unit time or as a percentage of the maximum flowrate
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

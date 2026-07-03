@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: Test Laboratory
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -24,12 +27,14 @@ data:
       A Test Laboratory is designated by an OIML Issuing Authority and accepted by
       the OIML-CS Management Committee
     notes:
-    - 'Note 1: A Test Laboratory may be an internal Test Laboratory of an OIML Issuing
-      Authority, a third-party Test Laboratory or Manufacturer’s Test Laboratory (MTL).
-      Note 2:  The OIML Issuing Authority, and not the Test Laboratory, is responsible
-      for issuing the OIML type evaluation report. Note 3: In the OIML-CS the term
-      “Test Laboratory” is used instead of the term “Testing Laboratory”.'
+    - A Test Laboratory may be an internal Test Laboratory of an OIML Issuing Authority,
+      a third-party Test Laboratory or Manufacturer's Test Laboratory (MTL).
+    - The OIML Issuing Authority, and not the Test Laboratory, is responsible for
+      issuing the OIML type evaluation report.
+    - In the OIML-CS the term "Test Laboratory" is used instead of the term "Testing
+      Laboratory".
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

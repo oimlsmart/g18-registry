@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: nominal voltage (Unom)
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +29,7 @@ data:
     - 'Note: Meters designed for operation across a range of voltages may have several
       nominal voltage values.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

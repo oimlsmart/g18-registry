@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: semi-automatic adjustment facility
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -28,6 +31,7 @@ data:
     - For those instruments that require the values of the volume fractions of the
       reference gas to be entered manually, the facility is considered to be semi-automatic.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -46,6 +50,7 @@ data:
       of the reference gas to be entered manually, the facility is considered to be
       semi-automatic.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

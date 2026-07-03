@@ -6,9 +6,15 @@ data:
   - type: expression
     status: preferred
     text: Beer's factor
+    usage_info:
+    field:
+    international: false
   - type: symbol
     status: preferred
     text: stem:[K_{epsilon} = epsilon b = A_{"c"}/c]
+    usage_info:
+    field:
+    international: true
   kind: undefined
   official_concept:
   editions_present:
@@ -32,6 +38,7 @@ data:
       per mole (l/mol, L/mol) is preferred.
     - 2. For conditions of validity see 2.9.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -46,10 +53,11 @@ data:
       substance concentration of the analyte. The Beer’s factor is constant for specified
       experimental conditions
     notes:
-    - 'Note 1: The coherent SI unit is the cubic metre per mole (m3/mol) but often
-      the litre per mole (l/mol, L/mol) is preferred. Note 2:For conditions of validity
-      see 2.9.'
+    - The coherent SI unit is the cubic metre per mole (m3/mol) but often the litre
+      per mole (l/mol, L/mol) is preferred.
+    - For conditions of validity see 2.9.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

@@ -110,19 +110,82 @@ function rowVisible(p: any) {
 // Designations: split by type/status for the UI. Falls back to the legacy
 // `term.name` as preferred expression when the new field is absent.
 const designations = computed(() => (term.value?.designations || []) as any[]);
-const preferredExpression = computed(() => {
-  const hit = designations.value.find(d => d.type === "expression" && d.status === "preferred");
-  return (hit?.text as string) || (term.value?.name as string) || "";
-});
+const preferredExpressionDesignation = computed(() =>
+  designations.value.find(d => d.type === "expression" && d.status === "preferred")
+);
+const preferredExpression = computed(() =>
+  (preferredExpressionDesignation.value?.text as string) || (term.value?.name as string) || ""
+);
+const preferredUsage = computed(() => preferredExpressionDesignation.value?.usage_info as string | undefined);
+
 const admittedExpressions = computed(() =>
-  designations.value.filter(d => d.type === "expression" && d.status === "admitted").map(d => d.text as string)
+  designations.value
+    .filter(d => d.type === "expression" && d.status === "admitted")
+    .map(d => ({ text: d.text as string, usage: d.usage_info as string | undefined }))
 );
-const symbols = computed(() =>
-  Array.from(new Set(designations.value.filter(d => d.type === "symbol").map(d => d.text as string)))
+
+// Symbols carry an `international` flag (globally-recognized vs OIML-coined).
+const symbolDesignations = computed(() =>
+  designations.value
+    .filter(d => d.type === "symbol")
+    .map(d => ({ text: d.text as string, international: !!d.international }))
 );
+const symbols = computed(() => symbolDesignations.value.map(s => s.text));
+
 const abbreviations = computed(() =>
   Array.from(new Set(designations.value.filter(d => d.type === "abbreviation").map(d => d.text as string)))
 );
+
+// Homonym risk: any designation with usage_info present — flag so editors
+// don't merge by text alone.
+const hasHomonymRisk = computed(() =>
+  designations.value.some(d => d.usage_info && (d.usage_info as string).trim().length > 0)
+);
+
+// Provenance analysis: group publication instances by adoption source +
+// relationship (identical / modified / authoritative). This answers
+// "how many quote VIM verbatim vs modify it vs are OIML-original".
+const provenanceGroups = computed(() => {
+  const groups = new Map<string, { kind: string; relationship: string; ref: string; label: string; pubs: any[] }>();
+  for (const p of term.value?.publications || []) {
+    const s = p.source;
+    if (!s) {
+      const key = `oiml-original|authoritative`;
+      const g = groups.get(key) || { kind: "oiml-original", relationship: "authoritative", ref: "", label: "OIML-original", pubs: [] };
+      g.pubs.push(p);
+      groups.set(key, g);
+      continue;
+    }
+    const label = provenanceLabel(s);
+    const key = `${s.kind}|${s.relationship}|${s.ref_source || ""}`;
+    const g = groups.get(key) || {
+      kind: s.kind,
+      relationship: s.relationship,
+      ref: s.ref_source ? `${s.ref_source}${s.ref_id ? " §" + s.ref_id : ""}` : "",
+      label,
+      pubs: [],
+    };
+    g.pubs.push(p);
+    groups.set(key, g);
+  }
+  // Sort: identical-first (most-convergent first), then by group size desc.
+  const rank: Record<string, number> = { identical: 0, modified: 1, authoritative: 2, derived: 3, similar: 4 };
+  return Array.from(groups.values()).sort(
+    (a, b) => (rank[a.relationship] ?? 9) - (rank[b.relationship] ?? 9) || b.pubs.length - a.pubs.length
+  );
+});
+
+const modifications = computed(() =>
+  (term.value?.publications || [])
+    .filter(p => p.source?.modification)
+    .map(p => ({ publication: p.publication, edition: p.edition, modification: p.source.modification }))
+);
+
+function provenanceLabel(s: any): string {
+  if (!s) return "OIML-original";
+  const kindLabel = { vim: "VIM", viml: "VIML", oiml_pub: "OIML document", other: "Other" }[s.kind as string] || s.kind;
+  return `${kindLabel}${s.ref_source ? ` — ${s.ref_source}` : ""}`;
+}
 
 // Examples: merged across all publication instances (deduped by text).
 const allExamples = computed(() => {
@@ -181,21 +244,63 @@ const allExamples = computed(() => {
       <dl class="designations">
         <div v-if="preferredExpression" class="designations-row">
           <dt>Term (preferred)</dt>
-          <dd>{{ preferredExpression }}</dd>
+          <dd>
+            {{ preferredExpression }}
+            <span v-if="preferredUsage" class="usage-info">[{{ preferredUsage }}]</span>
+          </dd>
         </div>
-        <div v-if="admittedExpressions.length" class="designations-row" v-for="ad in admittedExpressions" :key="'ad-'+ad">
-          <dt>Term (admitted)</dt>
-          <dd>{{ ad }}</dd>
-        </div>
-        <div v-if="symbols.length" class="designations-row" v-for="sym in symbols" :key="'sym-'+sym">
-          <dt>Symbol</dt>
-          <dd><code>{{ sym }}</code></dd>
-        </div>
+        <template v-for="(ad, i) in admittedExpressions" :key="'ad-'+i">
+          <div class="designations-row">
+            <dt>Term (admitted)</dt>
+            <dd>{{ ad.text }}<span v-if="ad.usage" class="usage-info">[{{ ad.usage }}]</span></dd>
+          </div>
+        </template>
+        <template v-for="(sym, i) in symbolDesignations" :key="'sym-'+i">
+          <div class="designations-row">
+            <dt>Symbol<span v-if="sym.international" class="intl-pill" title="Internationally recognised">intl</span></dt>
+            <dd><code>{{ sym.text }}</code></dd>
+          </div>
+        </template>
         <div v-if="abbreviations.length" class="designations-row" v-for="abbr in abbreviations" :key="'abbr-'+abbr">
           <dt>Abbreviation</dt>
           <dd><code>{{ abbr }}</code></dd>
         </div>
       </dl>
+      <p v-if="hasHomonymRisk" class="admonition warn" style="margin-top:0.6em;margin-bottom:0">
+        <strong>Homonym warning:</strong> some designations carry <code>usage_info</code> —
+        terms that share the same text but differ in usage are <em>different concepts</em>.
+        Do not merge solely on text match.
+      </p>
+    </section>
+
+    <section class="card" v-if="provenanceGroups.length">
+      <h2>Provenance analysis</h2>
+      <p class="lede">Where this term's definitions come from. Identical adoptions from the same source can be auto-merged; modified adoptions need TC1 review.</p>
+      <table>
+        <thead><tr><th>Source</th><th>Relationship</th><th>Publications</th><th>Where</th></tr></thead>
+        <tbody>
+          <tr v-for="(g, i) in provenanceGroups" :key="i">
+            <td><strong>{{ g.label }}</strong><br /><span class="muted">{{ g.ref || '—' }}</span></td>
+            <td><span :class="['rel-pill', `rel-${g.relationship}`]">{{ g.relationship }}</span></td>
+            <td class="num">{{ g.pubs.length }}</td>
+            <td>
+              <span v-for="(p, pi) in g.pubs.slice(0, 5)" :key="pi" class="prov-pub">
+                <SLink :to="`/publications/${p.publication_id}/`">{{ p.publication }}</SLink>
+                <span class="muted"> ({{ p.edition }})</span>
+              </span>
+              <span v-if="g.pubs.length > 5" class="muted"> +{{ g.pubs.length - 5 }} more</span>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <details v-if="modifications.length" style="margin-top:0.7em">
+        <summary>Modification notes ({{ modifications.length }})</summary>
+        <ul style="margin:0.5em 0 0;padding-left:1.2em;font-size:0.9em">
+          <li v-for="(m, i) in modifications" :key="i" style="margin-bottom:0.4em">
+            <strong>{{ m.publication }}</strong> <span class="muted">({{ m.edition }})</span>: {{ m.modification }}
+          </li>
+        </ul>
+      </details>
     </section>
 
     <section class="card" v-if="allExamples.length">
@@ -284,7 +389,7 @@ const allExamples = computed(() => {
         <table>
           <thead><tr><th>Ed.</th><th>Year</th><th>Publication</th><th>Clause</th><th>G 18 #</th><th>Definition</th><th>Notes</th><th>Examples</th><th>Source</th><th>Consistency</th></tr></thead>
           <tbody>
-            <tr v-for="p in term.publications" :key="p.g18_entry" v-show="rowVisible(p)" :class="{ 'row-divergent': distinctDefs.length > 1 && p.definition?.trim() !== distinctDefs[0] }">
+            <tr v-for="p in term.publications" :key="p.g18_entry" v-show="rowVisible(p)" :class="{ 'row-divergent': distinctDefs.length > 1 && p.definition?.trim() !== distinctDefs[0], 'row-modified': p.source?.relationship === 'modified' }">
               <td><span :class="['edition-pill', `edition-${p.edition?.toLowerCase()}`]">{{ p.edition }}</span></td>
               <td class="num">{{ p.year }}</td>
               <td><SLink :to="`/publications/${p.publication_id}/`">{{ p.publication }}</SLink></td>
@@ -296,8 +401,10 @@ const allExamples = computed(() => {
               <td v-if="(p.examples || []).length" style="max-width:320px"><ul class="inline-notes"><li v-for="(x, xi) in p.examples" :key="xi">{{ x }}</li></ul></td>
               <td v-else class="muted">—</td>
               <td>
-                <a v-if="p.link" :href="p.link" class="external">PDF ↗</a>
-                <span v-else class="muted">—</span>
+                <span v-if="p.source" :class="['rel-pill', `rel-${p.source.relationship}`]" :title="p.source.modification || ''">
+                  {{ p.source.relationship }}
+                </span>
+                <span v-else class="muted">OIML</span>
               </td>
               <td><span :class="['badge', `badge-${p.consistency || 'pending'}`]">{{ p.consistency || "pending" }}</span></td>
             </tr>
@@ -378,4 +485,43 @@ const allExamples = computed(() => {
 .examples-list li { padding: 0.25em 0; line-height: 1.45; }
 .inline-notes { margin: 0; padding-left: 1.1em; }
 .inline-notes li { padding: 0.15em 0; font-size: 0.88em; line-height: 1.4; }
+
+.usage-info {
+  display: inline-block;
+  margin-left: 0.4em;
+  padding: 0.05em 0.45em;
+  background: #fef3c7;
+  color: var(--oiml-amber-deep);
+  border-radius: 3px;
+  font-size: 0.78em;
+  font-style: italic;
+}
+.intl-pill {
+  display: inline-block;
+  margin-left: 0.4em;
+  padding: 0.05em 0.4em;
+  background: #dcfce7;
+  color: var(--green);
+  border-radius: 3px;
+  font-size: 0.7em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.rel-pill {
+  display: inline-block;
+  padding: 0.1em 0.5em;
+  border-radius: 3px;
+  font-size: 0.78em;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.rel-identical { background: #dcfce7; color: var(--green); }
+.rel-modified  { background: #fef3c7; color: var(--oiml-amber-deep); }
+.rel-authoritative { background: #dbeafe; color: #1e3a8a; }
+.rel-derived   { background: #fef3c7; color: var(--oiml-amber-deep); }
+.rel-similar   { background: #eef0f3; color: var(--ink-muted); }
+.prov-pub { display: inline-block; margin-right: 0.6em; }
+.row-modified { background: #fffbeb !important; }
 </style>

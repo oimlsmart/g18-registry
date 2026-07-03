@@ -6,9 +6,15 @@ data:
   - type: expression
     status: preferred
     text: optical path length
+    usage_info:
+    field:
+    international: false
   - type: symbol
     status: preferred
     text: stem:[b]
+    usage_info:
+    field:
+    international: true
   kind: undefined
   official_concept:
   editions_present:
@@ -31,6 +37,7 @@ data:
     - ". The coherent SI unit is the metre (m), but he centimetre (cm) or millimetre
       (mm) are sually preferred."
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -47,6 +54,7 @@ data:
     - 'Note: ISO 6286, Table 2, No. 13.The coherent SI unit is the metre (m), but
       the centimetre (cm) or millimetre (mm) are usually preferred.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

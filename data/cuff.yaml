@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: cuff
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -25,6 +28,7 @@ data:
       which is wrapped around the limb of the patient
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -39,6 +43,7 @@ data:
       which is wrapped around the limb of the patient
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -56,6 +61,7 @@ data:
       bladder, or have an integral bladder (i.e. the cuff including the bladder are
       fixed together or are one piece).'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -73,6 +79,7 @@ data:
       bladder, or have an integral bladder (i.e. the cuff including the bladder are
       fixed together or are one piece).'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -87,6 +94,7 @@ data:
       which is wrapped around the limb of the patient
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -101,6 +109,7 @@ data:
       which is wrapped around the limb of the patient
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

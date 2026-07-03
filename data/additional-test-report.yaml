@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: additional test report
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -31,6 +34,7 @@ data:
       tests and examinations, each Testing Laboratory issues an Additional Test Report
       corresponding to those tests and examinations it performs.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -45,12 +49,13 @@ data:
       additional tests and examinations, additional to those in the OIML Recommendation,
       accepted in the scope of a Declaration
     notes:
-    - 'Note 1: Additional test reports are issued under the OIML-CS for results of
-      tests and examinations of additional national requirements.'
-    - 'Note 2: In the event that several testing laboratories are involved in the
-      additional tests and examinations, each testing laboratory issues an additional
-      test report corresponding to those tests and examinations it performs.'
+    - Additional test reports are issued under the OIML-CS for results of tests and
+      examinations of additional national requirements.
+    - In the event that several testing laboratories are involved in the additional
+      tests and examinations, each testing laboratory issues an additional test report
+      corresponding to those tests and examinations it performs.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

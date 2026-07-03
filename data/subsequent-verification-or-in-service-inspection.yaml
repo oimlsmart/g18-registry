@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: subsequent verification or in-service inspection
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -31,6 +34,7 @@ data:
       of weights, all elements in the population will be deemed verified
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

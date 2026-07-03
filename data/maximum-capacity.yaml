@@ -6,12 +6,21 @@ data:
   - type: expression
     status: preferred
     text: maximum capacity
+    usage_info:
+    field:
+    international: false
   - type: symbol
     status: preferred
     text: stem:[E_{"max"}]
+    usage_info:
+    field:
+    international: false
   - type: symbol
     status: preferred
     text: stem:[Max]
+    usage_info:
+    field:
+    international: true
   kind: undefined
   official_concept:
   editions_present:
@@ -31,6 +40,7 @@ data:
       capacity
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -45,6 +55,7 @@ data:
       receptor of the filling instrument
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -59,6 +70,7 @@ data:
       totalizing
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -73,6 +85,7 @@ data:
       cell without exceeding the mpe (see 2.4.9).
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -87,6 +100,7 @@ data:
       to weigh on the portion of the conveyor belt representing the weigh length
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -101,6 +115,7 @@ data:
       without totalizing
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -115,6 +130,7 @@ data:
       be applied to a load cell
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -129,6 +145,7 @@ data:
       capacity
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -142,6 +159,7 @@ data:
     definition: largest load that an instrument is designed to weigh in motion without  totalizing
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

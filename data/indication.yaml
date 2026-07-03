@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: indication
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -21,9 +24,15 @@ data:
     link:
     g18_entry: '03108'
     definition: quantity value provided by a measuring instrument or a measuring system
-      [OIML V 2-200:2012, 4.1; OIML V 1:2013, 0.03]
     notes: []
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2012
+      ref_id: '4.1'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -35,9 +44,15 @@ data:
     link:
     g18_entry: '03109'
     definition: quantity value provided by a measuring instrument or a measuring system
-      [VIM 4.1]
     notes: []
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2012
+      ref_id: '4.1'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -51,6 +66,13 @@ data:
     definition: quantity value provided by a measuring instrument or a measuring system
     notes: []
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2012
+      ref_id: '4.1'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -62,15 +84,22 @@ data:
     link:
     g18_entry: '02600'
     definition: quantity value provided by a measuring instrument or a measuring system
-      [VIM 4.1]
     notes:
-    - Note 1:An indication may be presented in visual or acoustic form or may be transferred
+    - An indication may be presented in visual or acoustic form or may be transferred
       to another device. An indication is often given by the position of a pointer
       on the display for analog outputs, a displayed or printed number for digital
       outputs, a code pattern for code outputs, or an assigned quantity value for
-      material measures. Note 2:An indication and a corresponding value of the quantity
-      being measured are not necessarily values of quantities of the same kind.
+      material measures.
+    - An indication and a corresponding value of the quantity being measured are not
+      necessarily values of quantities of the same kind.
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2007
+      ref_id: '4.1'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
 status: current

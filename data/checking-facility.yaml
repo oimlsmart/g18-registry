@@ -6,11 +6,20 @@ data:
   - type: expression
     status: preferred
     text: checking facility
-  kind: undefined
+    usage_info:
+    field:
+    international: false
+  kind: defined_in_viml
   official_concept:
-    source: OIML D011:2004
-    id: '3.18'
-    url:
+    source: urn:oiml:pub:v:1:2022
+    id: '5.07'
+    url: https://oimlsmart.github.io/vocab/viml-2022/concept/5.07
+    definition_text: facility that is incorporated in a {{0.10,measuring instrument}}
+      and which enables {{5.14,significant faults}} to be detected and acted upon
+    edition_label: VIML 2022
+    vocab: viml
+    role: current
+    year: 2022
   editions_present:
   - '2010'
   - 202X
@@ -31,6 +40,7 @@ data:
     - the measuring instrument (luminous signal, oustic signal, prevention of the
       asurement process, etc.).
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -48,6 +58,7 @@ data:
     - ponse by the measuring instrument minous signal, acoustic signal, prevention
       the measurement process, etc.). (OIML D 11:2004, 3.18 [1])
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -65,13 +76,9 @@ data:
     - '"Acted upon" refers to any adequate response by the measuring instrument (luminous
       signal, acoustic signal, prevention of the measurement process, etc.).'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
-    related:
-    - type: see
-      ref:
-        source: OIML D011:2004
-        id: '3.18'
   - edition: '2010'
     publication: OIML R 85-1:2008
     publication_id: OIML R085-1:2008
@@ -88,6 +95,7 @@ data:
     - the ALG (luminous signal, acoustic signal, evention of the measurement process,
       etc.).
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -105,6 +113,7 @@ data:
     - by the instrument (luminous or acoustic signal, blocking of process, etc.);
     - 2. Adapted from OIML D 11:2004, 3.18.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -121,6 +130,7 @@ data:
       and acted upon, and * enables significant faults to be detected and acted upon'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -138,6 +148,7 @@ data:
       which is transmitted (and only that information) is fu received by the receiving
       equipment.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -155,6 +166,7 @@ data:
       which is transmitted (and only that information) is fu received by the receiving
       equipment.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -172,6 +184,7 @@ data:
     - erifying that all the information which is ransmitted (and only that information)
       is fully eceived by the receiving equipment.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -189,6 +202,7 @@ data:
     - the measuring instrument (luminous signal, oustic signal, prevention of the
       asurement process, etc.).
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -205,6 +219,7 @@ data:
     - '"Acted upon" refers to any adequate response by the measuring instrument (luminous
       or acoustic signal, prevention of the measurement process, etc.).'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -222,6 +237,7 @@ data:
     - verifying that all information that is transmitted (and only that information)
       is fully received by the receiving equipment.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -236,6 +252,7 @@ data:
       enables significant faults to be detected and acted upon
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
     related:
@@ -257,6 +274,7 @@ data:
     - 'Note: “Acted upon” refers to any adequate response by the measuring instrument
       (luminous signal, acoustic signal, prevention of the measurement process, etc.).'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -271,14 +289,17 @@ data:
       fault(s) (3.2.8) to be detected and acted upon [SOURCE: OIML D11:2013, 3.19,
       [8], , modified — “meter” replaces “measuring instrument”; “Note 3” added]'
     notes:
-    - 'Note 1:Typically, checking facilities detect and act upon: incorrect function
-      of specific device of the meter, and/or disturbed communication between specific
-      devices of the meter. Note 2:“Act upon” refers to any adequate response by measuring
-      instrument (for example: a luminous signal, an acoustic signal, interruption
-      or blocking of the measurement process, etc.). Note 3: The checking of a transmission
-      device aims to verify whether all the information which is transmitted (and
-      only that information) is fully received by the receiving equipment.'
+    - 'Typically, checking facilities detect and act upon: incorrect function of specific
+      device of the meter, and/or disturbed communication between specific devices
+      of the meter.'
+    - '"Act upon" refers to any adequate response by measuring instrument (for example:
+      a luminous signal, an acoustic signal, interruption or blocking of the measurement
+      process, etc.).'
+    - The checking of a transmission device aims to verify whether all the information
+      which is transmitted (and only that information) is fully received by the receiving
+      equipment.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -290,12 +311,18 @@ data:
     link:
     g18_entry: '02928'
     definition: facility that is incorporated in a measuring instrument and which
-      enables significant  defect to be detected and acted upon adapted from [OIML
-      V 1:2023, 5.07 ]
+      enables significant  defect to be detected and acted upon
     notes:
-    - 'Note 1: “Acted upon” refers to any adequate response by the measuring instrument
-      (luminous signal, acoustic signal, prevention of the measurement process, etc.).'
+    - '"Acted upon" refers to any adequate response by the measuring instrument (luminous
+      signal, acoustic signal, prevention of the measurement process, etc.).'
     examples: []
+    source:
+      kind: viml
+      relationship: modified
+      modification:
+      ref_source: OIML V 1:2022
+      ref_id: '5.07'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -306,16 +333,23 @@ data:
     clause: 3.2.14
     link:
     g18_entry: '02929'
-    definition: facility, incorporated in a measuring instrument (or system), which
-      enables significant faults to be detected and acted upon, including •incorrect
-      functioning of a specific device of the measuring instrument or system, and/or
-      •disturbed communication between specific devices of the measuring instrument
-      or system [OIML V1:2013, 5.07]
+    definition: |-
+      facility, incorporated in a measuring instrument (or system), which enables significant faults to be detected and acted upon, including
+
+      * incorrect functioning of a specific device of the measuring instrument or system, and/or
+      * disturbed communication between specific devices of the measuring instrument or system
     notes:
     - 'Note:  “Acted upon” refers to any adequate response by the measuring instrument
       (for example a luminous signal, an acoustic signal, interruption or blocking
       of the measurement process, etc.).'
     examples: []
+    source:
+      kind: viml
+      relationship: identical
+      modification:
+      ref_source: OIML V 1:2013
+      ref_id: '5.07'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -330,6 +364,7 @@ data:
       faults to be detected and acted upon (OIML D11, 3.3)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -351,6 +386,7 @@ data:
       the measuring instrument, and/or •disturbed communication between specific devices
       of the measuring instrument.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -367,6 +403,7 @@ data:
       upon, and - enables significant faults to be detected and acted upon
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -383,6 +420,7 @@ data:
     - 'Note: "Acted upon" refers to any adequate response by the measuring instrument
       (luminous signal, acoustic signal, prevention of the measurement process, etc.).'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -399,6 +437,7 @@ data:
     - 'Note: “Acted upon” refers to any adequate response by the measuring instrument
       (luminous signal, acoustic signal, prevention of the measurement process, etc.).'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -412,13 +451,14 @@ data:
     definition: facility incorporated in a measuring instrument which enables significant
       faults to be detected and acted upon
     notes:
-    - 'Note 1:Typically, checking facilities detect and act upon incorrect functioning
-      of a specific device of the measuring instrument, and/or disturbed communication
-      between specific devices of the measuring instrument. Note 2:Note 2: “Act upon”
-      refers to any adequate response by the measuring instrument (for example: a
-      luminous signal, an acoustic signal, interruption or blocking of the measurement
-      process, etc.).'
+    - Typically, checking facilities detect and act upon incorrect functioning of
+      a specific device of the measuring instrument, and/or disturbed communication
+      between specific devices of the measuring instrument.
+    - '"Act upon" refers to any adequate response by the measuring instrument (for
+      example: a luminous signal, an acoustic signal, interruption or blocking of
+      the measurement process, etc.).'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -433,6 +473,7 @@ data:
       enables significant faults to be detected and acted upon
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -446,16 +487,18 @@ data:
     definition: facility that is incorporated in a measuring instrument and which
       enables significant faults to be detected and acted upon
     notes:
-    - 'Note 1: “Acted upon” refers to any adequate response by the measuring instrument
-      (luminous signal, acoustic signal, prevention of the measurement process, etc.).
-      [OIML V 1:2013, 5.07] Note 2: For the application of this Recommendation, the
-      term “measuring instrument” means: electricity meter and the action following
-      the detection of a significant fault should be either to stop measuring and
-      record the time and duration of the stop, or record the time and duration of
-      the fault and the amount of energy measured during the fault. Note 3Faults that
-      are detected and acted upon by means of a checking facility shall not be considered
-      as significant faults.'
+    - '"Acted upon" refers to any adequate response by the measuring instrument (luminous
+      signal, acoustic signal, prevention of the measurement process, etc.). [OIML
+      V 1:2013, 5.07]'
+    - 'For the application of this Recommendation, the term "measuring instrument"
+      means: electricity meter and the action following the detection of a significant
+      fault should be either to stop measuring and record the time and duration of
+      the stop, or record the time and duration of the fault and the amount of energy
+      measured during the fault.'
+    - Faults that are detected and acted upon by means of a checking facility shall
+      not be considered as significant faults.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -472,6 +515,7 @@ data:
     - 'Note: "Acted upon" refers to any adequate response by the measuring instrument
       (luminous signal, acoustic signal, prevention of the measurement process, etc.).'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -485,10 +529,11 @@ data:
     definition: facility that is incorporated in a measuring instrument and which
       enables significant faults to be detected and acted upon
     notes:
-    - 'Note 1:  “Acted upon” refers to any adequate response by the measuring instrument
-      (luminous signal, acoustic signal, prevention of the measurement process, etc.).
-      Note 2: (OIML D 11:2004, 3.18 [1])'
+    - '"Acted upon" refers to any adequate response by the measuring instrument (luminous
+      signal, acoustic signal, prevention of the measurement process, etc.).'
+    - "(OIML D 11:2004, 3.18 [1])"
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -504,9 +549,10 @@ data:
       device of the ALG; and/or - disturbed communication between specific devices
       of the ALG to be detected and acted upon'
     notes:
-    - 'Note 1: “Acted upon” refers to any adequate response by the ALG (luminous signal,
-      acoustic signal,prevention of the measurement process, etc.).'
+    - '"Acted upon" refers to any adequate response by the ALG (luminous signal, acoustic
+      signal,prevention of the measurement process, etc.).'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -524,6 +570,7 @@ data:
       or acoustic signal, blocking of process, etc.); Adapted from OIML D 11:2004,
       3.18.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -541,6 +588,7 @@ data:
       information which is transmitted (and only that information) is fully received
       by the receiving equipment.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -557,16 +605,13 @@ data:
     - 'Note: “Acted upon” refers to any adequate response by the measuring instrument
       (luminous or acoustic signal, prevention of the measurement process, etc.).'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current
 id: 93619d68-effb-5821-9908-1af53ac3f542
 schema_version: '3'
 related:
-- type: see
-  ref:
-    source: OIML D011:2004
-    id: '3.18'
 - type: see
   ref:
     source: urn:oiml:pub:v:1:2022

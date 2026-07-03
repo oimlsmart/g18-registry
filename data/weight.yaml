@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: weight
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -30,6 +33,7 @@ data:
       in whic nse the term is used. If the sense is not e may use the words "weight
       force" or eight piece", depending on its meaning.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -44,6 +48,7 @@ data:
       on a load
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -59,6 +64,7 @@ data:
       nominal value, density, magnetic properties and maximum permissible error'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -76,6 +82,7 @@ data:
       measure) of mass that is regulated in regard to its physical and metrological
       characteristics'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -95,6 +102,7 @@ data:
       is used. If the sense is not clear, one may use the words “weight force” or
       “weight piece”, depending on its meaning.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -110,6 +118,7 @@ data:
       nominal value, density, magnetic properties and maximum permissible error'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

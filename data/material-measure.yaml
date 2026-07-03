@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: material measure
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -24,12 +27,19 @@ data:
       during its use, quantities of one or more given kinds, each with an assignes
       quantity value
     notes:
-    - 'Note 1: The indication of material measure is its assigned quantity value.
-      Note 2: A material measure can be a measurement standard.'
+    - The indication of material measure is its assigned quantity value.
+    - A material measure can be a measurement standard.
     examples:
     - Standard weight, volume measure (supplying one or several quantity values, with
       or without a quantity-value scale), standard electric resistor, line scale (ruler),
       gauge block, standard signal generator, certified reference material.
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2012
+      ref_id: '3.6'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -47,9 +57,10 @@ data:
       electic resistor, line scale (ruler), gauge block, standard signal generator,
       certified reference material.'
     notes:
-    - 'Note 1: The indication of material measure is its assigned quantity value.
-      Note 2: A material measure can be a measurement standard.'
+    - The indication of material measure is its assigned quantity value.
+    - A material measure can be a measurement standard.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

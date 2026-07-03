@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: weigh length (L)
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -28,6 +31,7 @@ data:
     notes:
     - 'Note: The weigh length is not applicable to belt weighers inclusive of conveyor.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

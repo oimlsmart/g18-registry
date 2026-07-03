@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: type approval
+    usage_info:
+    field:
+    international: false
   kind: defined_in_viml
   official_concept:
     source: urn:oiml:pub:v:1:2000
@@ -42,6 +45,7 @@ data:
     - approval" is named "type evaluation". Consequently "Type evaluation" in the
       sense of this Document includes examination, tests and decision.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -58,6 +62,7 @@ data:
       to provide reliable measurement results over a defined period of time IML 2.6)"
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -74,6 +79,13 @@ data:
       to provide reliable measurement results over a defined period of time
     notes: []
     examples: []
+    source:
+      kind: viml
+      relationship: identical
+      modification:
+      ref_source: OIML V 1:2000
+      ref_id: '2.6'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
     related:
@@ -95,6 +107,7 @@ data:
       this Recommendation for legal applications
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -111,6 +124,13 @@ data:
       to provide reliable measurement results over a defined period of time
     notes: []
     examples: []
+    source:
+      kind: viml
+      relationship: identical
+      modification:
+      ref_source: OIML V 1:2000
+      ref_id: '2.6'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
     related:
@@ -132,6 +152,7 @@ data:
     notes:
     - 'Note:  See olso VIML A.25'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
     related:
@@ -153,6 +174,7 @@ data:
       to provide reliable measurement results over a defined period of time
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -165,11 +187,17 @@ data:
     g18_entry: '03591'
     definition: decision of legal relevance, based on the review of type evaluation
       report, that the type of e measuring instrument complies with the relevant statutory
-      requirements and results in the issuance of the type approval certificate [VIML,
-      2.05]
+      requirements and results in the issuance of the type approval certificate
     notes:
     - 'Note:  See also VIML, A.25'
     examples: []
+    source:
+      kind: viml
+      relationship: identical
+      modification:
+      ref_source: OIML V 1:2022
+      ref_id: '2.05'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -188,6 +216,7 @@ data:
     - 'Note:  For the purposes of the OIML-CS, “type approval certificate” should
       be read as “OIML certificate”.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -200,10 +229,16 @@ data:
     g18_entry: '03590'
     definition: decision of legal relevance, based on the review of type evaluation
       report, that the type of e measuring instrument complies with the relevant statutory
-      requirements and results in the issuance of the type approval certificate [VIML,
-      2.05]
+      requirements and results in the issuance of the type approval certificate
     notes: []
     examples: []
+    source:
+      kind: viml
+      relationship: identical
+      modification:
+      ref_source: OIML V 1:2013
+      ref_id: '2.05'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -220,6 +255,7 @@ data:
       VIML, 2.05)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -232,11 +268,17 @@ data:
     g18_entry: '02455'
     definition: decision of legal relevance, based on the review of the type evaluation
       report, that the type of a measuring instrument complies with the relevant statutory
-      requirements and results in the issuance of the type approval certificate [VIML
-      2.05]
+      requirements and results in the issuance of the type approval certificate
     notes:
     - 'Note:  See also VIML A.25'
     examples: []
+    source:
+      kind: viml
+      relationship: identical
+      modification:
+      ref_source: OIML V 1:2013
+      ref_id: '2.05'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -247,13 +289,19 @@ data:
     clause: '2.1'
     link:
     g18_entry: '02796'
-    definition: "{decision of legal relevance, based on the review of the type evaluation
+    definition: decision of legal relevance, based on the review of the type evaluation
       report, that the type of a measuring instrument complies with the relevant statutory
-      requirements and results in the issuance of the type approval certificate [VIML
-      2.05]}"
+      requirements and results in the issuance of the type approval certificate
     notes:
     - "{Note See also A.25}"
     examples: []
+    source:
+      kind: viml
+      relationship: identical
+      modification:
+      ref_source: OIML V 1:2013
+      ref_id: '2.05'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -270,6 +318,13 @@ data:
       to provide reliable measurement results over a defined period of time
     notes: []
     examples: []
+    source:
+      kind: viml
+      relationship: identical
+      modification:
+      ref_source: OIML V 1:2000
+      ref_id: '2.6'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -289,6 +344,7 @@ data:
       evaluation”. Consequently “Type evaluation” in the sense of this Document includes
       examination, tests and decision.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -305,6 +361,13 @@ data:
       to provide reliable measurement results over a defined period of time
     notes: []
     examples: []
+    source:
+      kind: viml
+      relationship: identical
+      modification:
+      ref_source: OIML V 1:2000
+      ref_id: '2.6'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -321,6 +384,7 @@ data:
       this Recommendation for legal applications
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -334,10 +398,16 @@ data:
     definition: decision of legal relevance, based on the evaluation report, that
       the type of measuring instrument complies with the relevant statutory requirements
       and is suitable for use in the regulated area in such a way that it is expected
-      to provide reliable measurement results over a defined period of time [VIML,
-      2.6]
+      to provide reliable measurement results over a defined period of time
     notes: []
     examples: []
+    source:
+      kind: viml
+      relationship: identical
+      modification:
+      ref_source: OIML V 1:2000
+      ref_id: '2.6'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
 status: current

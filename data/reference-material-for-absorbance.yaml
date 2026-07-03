@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: reference material for absorbance
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -27,6 +30,7 @@ data:
     - 1. It may be in the form of a liquid or solid; for example a glass filter.
     - 2. Adapted from ISO Guide 30 and VIM, clause 6.13.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -40,9 +44,10 @@ data:
     definition: material of sufficient homogeneous and well-established absorbance
       to be used for the calibration or control of spectrophotometers
     notes:
-    - 'Note 1:  It may be in the form of a liquid or solid; for example a glass filter.
-      Note 2: . Adapted from ISO Guide 30 and VIM, clause 6.13.'
+    - It may be in the form of a liquid or solid; for example a glass filter.
+    - Adapted from ISO Guide 30 and VIM, clause 6.13.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

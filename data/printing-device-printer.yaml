@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: printing device (printer)
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -24,6 +27,7 @@ data:
     definition: device used to produce hardcopies (printouts) of the measurement results
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -37,6 +41,7 @@ data:
     definition: device to produce a printout (T.4.2.3) of the weighing result
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -50,6 +55,7 @@ data:
     definition: device used to produce hardcopies (printouts) of the measurement results
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -63,6 +69,7 @@ data:
     definition: device to produce a printout (T.4.2.3) of the weighing result
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

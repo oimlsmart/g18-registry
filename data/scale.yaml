@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: scale
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -24,6 +27,7 @@ data:
     definition: set of all the scale marks and associated numbering
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -37,6 +41,7 @@ data:
     definition: the whole set of scale marks with their corresponding numbering
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -50,6 +55,7 @@ data:
     definition: set of all the scale marks and associated numbering
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -63,6 +69,7 @@ data:
     definition: the whole set of scale marks with their corresponding numbering
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

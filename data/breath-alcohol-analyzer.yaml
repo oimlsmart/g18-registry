@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: breath alcohol analyzer
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -24,6 +27,7 @@ data:
       of exhaled human breath within specified error limits
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

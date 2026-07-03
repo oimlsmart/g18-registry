@@ -6,9 +6,15 @@ data:
   - type: expression
     status: preferred
     text: frequency
+    usage_info:
+    field:
+    international: false
   - type: symbol
     status: preferred
     text: stem:[f]
+    usage_info:
+    field:
+    international: true
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +32,7 @@ data:
     definition: frequency of the voltage (and current) supplied to the meter
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

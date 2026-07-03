@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: indicating measuring instrument
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -24,10 +27,11 @@ data:
       about the value of the quantity being measured Examples:  Voltmeter, micrometer,
       thermometer, electronic balance.'
     notes:
-    - 'Note 1:  An indicating measuring instrument may provide a record of its indication.
-      Note 2:  An output signal may be presented in visual or acustic for. It may
-      also be transmitted to one more other devices.'
+    - An indicating measuring instrument may provide a record of its indication.
+    - An output signal may be presented in visual or acustic for. It may also be transmitted
+      to one more other devices.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: reproducibility
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -21,9 +24,15 @@ data:
     link:
     g18_entry: '02670'
     definition: measurement precision under reproducibility condition of measurement
-      [VIM 2.25]
     notes: []
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2012
+      ref_id: '2.25'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
 status: current

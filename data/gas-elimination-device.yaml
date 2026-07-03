@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: gas elimination device
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +29,7 @@ data:
       separators, gas extractors, and special gas extractors
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -41,6 +45,7 @@ data:
     - 'Note: There are several different types of gas elimination devices, including
       gas separators, gas extractors, and special gas extractors'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

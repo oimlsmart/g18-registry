@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: consumer
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -25,6 +28,7 @@ data:
       a view to using them. (In some countries this applies only to individuals)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -39,6 +43,7 @@ data:
       them (in some countries this applies only to individuals)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -53,6 +58,7 @@ data:
       a view to using them. (In some countries this applies only to individuals)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

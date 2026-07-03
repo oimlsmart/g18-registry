@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: calibration
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +29,7 @@ data:
       liquid
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -47,6 +51,7 @@ data:
       effect of influence quantities. 3: The result of a calibration may be recorded
       in a document, sometimes called calibration certificate or calibration report'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -69,6 +74,13 @@ data:
     - The result of a calibration may be recorded in a document, sometimes called
       a calibration certificate or a calibration report.
     examples: []
+    source:
+      kind: other
+      relationship: identical
+      modification:
+      ref_source: OIML V 2:1993
+      ref_id: '6.11'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -84,6 +96,7 @@ data:
       and the corresponding values of pressure realized by a reference standard
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -99,6 +112,7 @@ data:
       known values of the measurand
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -114,6 +128,7 @@ data:
       system and the corresponding known values of a measurand
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -128,6 +143,7 @@ data:
       filling levels
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -144,14 +160,21 @@ data:
       uncertainties and, in a second step, uses this information to establish a relation
       for obtaining a measurement result from an indication
     notes:
-    - 'Note 1: A calibration may be expressed by a statement, calibration function,
-      calibration diagram, calibration curve, or calibration table. In some cases,
-      it may consist of an additive or multiplicative correction of the indication
-      with associated measurement uncertainty. Note 2: Calibration should not be confused
-      with adjustment of a measuring system, often mistakenly called “self-calibration”,
-      nor with verification of calibration. Note 3: Often, the first step alone in
-      the above definition is perceived as being calibration.'
+    - A calibration may be expressed by a statement, calibration function, calibration
+      diagram, calibration curve, or calibration table. In some cases, it may consist
+      of an additive or multiplicative correction of the indication with associated
+      measurement uncertainty.
+    - Calibration should not be confused with adjustment of a measuring system, often
+      mistakenly called "self-calibration", nor with verification of calibration.
+    - Often, the first step alone in the above definition is perceived as being calibration.
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2007
+      ref_id: '2.39'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -169,6 +192,13 @@ data:
       for obtaining a measurement result from an indication
     notes: []
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2012
+      ref_id: '2.39'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -185,14 +215,15 @@ data:
       uncertainties and, in a second step, uses this information to establish a relation
       for obtaining a measurement result from an indication
     notes:
-    - 'Note 1: A calibration may be expressed by a statement, calibration function,
-      calibration diagram, calibration curve, or calibration table. In some cases,
-      it may consist of an additive or multiplicative correction of the indication
-      with associated measurement uncertainty. Note 2: Calibration should not be confused
-      with adjustment of a measuring system, often mistakenly called “self-calibration”,
-      nor with verification of calibration. Note 3: Often, the first step alone in
-      the above definition is perceived as being calibration.'
+    - A calibration may be expressed by a statement, calibration function, calibration
+      diagram, calibration curve, or calibration table. In some cases, it may consist
+      of an additive or multiplicative correction of the indication with associated
+      measurement uncertainty.
+    - Calibration should not be confused with adjustment of a measuring system, often
+      mistakenly called "self-calibration", nor with verification of calibration.
+    - Often, the first step alone in the above definition is perceived as being calibration.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -210,6 +241,7 @@ data:
       for obtaining a measurement result from an indication (OIML V 2-200, 2.39)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -224,16 +256,23 @@ data:
       a relation between the quantity values with measurement uncertainties provided
       by measurement standards and corresponding indications with associated measurement
       uncertainties and, in a second step, uses this information to establish a relation
-      for obtaining a measurement result from an indication [VIM 2.39]
+      for obtaining a measurement result from an indication
     notes:
-    - 'Note 1: A calibration may be expressed by a statement, calibration function,
-      calibration diagram, calibration curve, or calibration table. In some cases,
-      it may consist of an additive or multiplicative correction of the indication
-      with associated measurement uncertainty. Note 2: Calibration should not be confused
-      with adjustment of a measuring system, often mistakenly called “self-calibration”,
-      nor with verification of calibration. Note 3: Often, the first step alone in
-      the above definition is perceived as being calibration.'
+    - A calibration may be expressed by a statement, calibration function, calibration
+      diagram, calibration curve, or calibration table. In some cases, it may consist
+      of an additive or multiplicative correction of the indication with associated
+      measurement uncertainty.
+    - Calibration should not be confused with adjustment of a measuring system, often
+      mistakenly called "self-calibration", nor with verification of calibration.
+    - Often, the first step alone in the above definition is perceived as being calibration.
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2012
+      ref_id: '2.39'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -248,9 +287,16 @@ data:
       a relation between the quantity values with measurement uncertainties provided
       by measurement standards and corresponding indications with associated measurement
       uncertainties and, in a second step, uses this information to establish a relation
-      for obtaining a measurement result from an indication [OIML V2-200:2012, 2.39]
+      for obtaining a measurement result from an indication
     notes: []
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2012
+      ref_id: '2.39'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -268,6 +314,13 @@ data:
       for obtaining a measurement result from an indication
     notes: []
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2012
+      ref_id: '2.39'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -283,6 +336,7 @@ data:
       liquid
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -298,13 +352,14 @@ data:
       or measuring system, or values represented by a material measure or a reference
       material, and the corresponding values realized by standards
     notes:
-    - 'Note 1: The result of a calibration permits either assignment of values of
-      measurands to the indications or the determination of corrections with respect
-      to indications. Note 2: A calibration may also determine other metrological
-      properties such as the effect of influence quantities. Note 3: The result of
-      a calibration may be recorded in a document, sometimes called calibration certificate
-      or calibration report'
+    - The result of a calibration permits either assignment of values of measurands
+      to the indications or the determination of corrections with respect to indications.
+    - A calibration may also determine other metrological properties such as the effect
+      of influence quantities.
+    - The result of a calibration may be recorded in a document, sometimes called
+      calibration certificate or calibration report.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -318,15 +373,22 @@ data:
     definition: set of operations that establish, under specified conditions, the
       relationship between values of quantities indicated by a measuring instrument
       or measuring system, or values represented by a material measure or a reference
-      material, and the corresponding values realized by standards [VIM, 6.11]
+      material, and the corresponding values realized by standards
     notes:
-    - 'Note 1:  The result of a calibration permits either the assignment of values
-      of measurands to the indications or the determination of corrections with respect
-      to indications. Note 2:  A calibration may also determine other metrological
-      properties such as the effect of influence quantities. Note 3: The result of
-      a calibration may be recorded in a document, sometimes called a calibration
-      certificate or a calibration report.'
+    - The result of a calibration permits either the assignment of values of measurands
+      to the indications or the determination of corrections with respect to indications.
+    - A calibration may also determine other metrological properties such as the effect
+      of influence quantities.
+    - The result of a calibration may be recorded in a document, sometimes called
+      a calibration certificate or a calibration report.
     examples: []
+    source:
+      kind: other
+      relationship: identical
+      modification:
+      ref_source: OIML V 2:1993
+      ref_id: '6.11'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -342,6 +404,7 @@ data:
       and the corresponding values of pressure realized by a reference standard
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -357,6 +420,7 @@ data:
       known values of the measurand
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -372,6 +436,7 @@ data:
       system and the corresponding known values of a measurand
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -386,6 +451,7 @@ data:
       filling level
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: supplier
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -27,6 +30,7 @@ data:
       the instrument may be manufactured by another company, the applicant has to
       assume responsibility for compliance.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -44,6 +48,7 @@ data:
       manufactured by another company, the applicant has to assume responsibility
       for compliance.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

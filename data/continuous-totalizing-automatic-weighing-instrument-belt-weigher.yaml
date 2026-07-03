@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: continuous totalizing automatic weighing instrument (belt weigher)
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +29,7 @@ data:
       interrupting the movement of the conveyor belt
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -43,6 +47,7 @@ data:
     - 'Note: In this Recommendation a continuous totalizing automatic weighing instrument
       of the conveyor belt type is called a “belt weigher”.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

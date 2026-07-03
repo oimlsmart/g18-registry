@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: specified measuring ranges
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -33,6 +36,7 @@ data:
       of the gas. . A conversion device has a specified easuring range for each quantity
       that it rocesses.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -55,6 +59,7 @@ data:
       conversion device has a specified measuring range for each quantity that it
       processes.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

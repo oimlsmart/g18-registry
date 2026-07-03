@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: type (pattern) evaluation
+    usage_info:
+    field:
+    international: false
   kind: defined_in_viml
   official_concept:
     source: urn:oiml:pub:v:1:2000
@@ -38,6 +41,7 @@ data:
       order to determine whether the type may be approved. (VIML 2.5)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
     related:
@@ -61,6 +65,13 @@ data:
     notes:
     - aning as "type"; in the entries below, ype" is used.
     examples: []
+    source:
+      kind: viml
+      relationship: identical
+      modification:
+      ref_source: OIML V 1:2000
+      ref_id: '2.5'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
     related:
@@ -80,9 +91,10 @@ data:
       type (pattern) of measuring instruments which results in an evaluation report
       and/or an evaluation certificate
     notes:
-    - 'Note 1:  ‘Pattern’ is used in legal metrology with the same meaning as ‘type’;
-      in the entries below, only ‘type’is used.'
+    - "'Pattern' is used in legal metrology with the same meaning as 'type'; in the
+      entries below, only 'type'is used."
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
     related:
@@ -100,9 +112,16 @@ data:
     g18_entry: '03595'
     definition: conformity assessment procedure on one or more specimens of an identified
       type (pattern) of measuring instruments which results in an evaluation report
-      or a certificate [OIML V 1:2022, 2.04]
+      or a certificate
     notes: []
     examples: []
+    source:
+      kind: viml
+      relationship: identical
+      modification:
+      ref_source: OIML V 1:2022
+      ref_id: '2.04'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -117,10 +136,11 @@ data:
       type (pattern) of measuring instruments which results in an evaluation report
       and/or an evaluation certificate (VIML, 2.04)
     notes:
-    - 'Note 1:  “Pattern” is used in legal metrology with the same meaning as “type”.
-      Note 2:  for the purposes of the OIML-CS, “evaluation report” should be read
-      as “OIML type evaluation report”.'
+    - '"Pattern" is used in legal metrology with the same meaning as "type".'
+    - for the purposes of the OIML-CS, "evaluation report" should be read as "OIML
+      type evaluation report".
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -133,10 +153,17 @@ data:
     g18_entry: '03597'
     definition: conformity assessment procedure on one or more specimens of an identified
       type (pattern) of measuring instruments which results in an evaluation report
-      and/or an evaluation certificate [VIML, 2.04]
+      and/or an evaluation certificate
     notes:
     - "(For notes, refer to the VIML)"
     examples: []
+    source:
+      kind: viml
+      relationship: identical
+      modification:
+      ref_source: OIML V 1:2013
+      ref_id: '2.04'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -151,10 +178,11 @@ data:
       type (pattern) of measuring instruments which results in an evaluation report
       and/or an evaluation certificate (VIML, 2.04)
     notes:
-    - 'Note 1:  “Pattern” is used in legal metrology with the same meaning as “type”.
-      Note 2:  for the purposes of the OIML-CS, “evaluation report” should be read
-      as “OIML type evaluation report”.'
+    - '"Pattern" is used in legal metrology with the same meaning as "type".'
+    - for the purposes of the OIML-CS, "evaluation report" should be read as "OIML
+      type evaluation report".
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -167,11 +195,18 @@ data:
     g18_entry: '02456'
     definition: conformity assessment procedure on one or more specimens of an identified
       type (pattern) of measuring instruments which results in an evaluation report
-      and/or an evaluation certificate [VIML 2.04]
+      and/or an evaluation certificate
     notes:
     - 'Note:  ‘Pattern’ is used in legal metrology with the same meaning as ‘type’;
       in the entries below, only ‘type’ is used.'
     examples: []
+    source:
+      kind: viml
+      relationship: identical
+      modification:
+      ref_source: OIML V 1:2013
+      ref_id: '2.04'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -182,13 +217,20 @@ data:
     clause: '2.1'
     link:
     g18_entry: '02797'
-    definition: "{conformity assessment procedure on one or more specimens of an identified
+    definition: conformity assessment procedure on one or more specimens of an identified
       type (pattern) of measuring instruments which results in an evaluation report
-      and / or an evaluation certificate [VIML 2.04]}"
+      and / or an evaluation certificate
     notes:
     - "{Note “Pattern” is used in legal metrology with the same meaning as “type”;
       in the entries below, only “type” is used.}"
     examples: []
+    source:
+      kind: viml
+      relationship: identical
+      modification:
+      ref_source: OIML V 1:2013
+      ref_id: '2.04'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -207,6 +249,13 @@ data:
     - 'Note:  “Pattern” is used in legal metrology with the same meaning as “type”;
       in the entries below, only “type” is used.'
     examples: []
+    source:
+      kind: viml
+      relationship: identical
+      modification:
+      ref_source: OIML V 1:2000
+      ref_id: '2.5'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
 status: current

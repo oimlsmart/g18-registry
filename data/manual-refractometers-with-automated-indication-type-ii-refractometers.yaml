@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: manual refractometers with automated indication (type II refractometers)
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -27,6 +30,7 @@ data:
       correction device; a primary indicating device; zero-setting and zero-checking
       devices.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

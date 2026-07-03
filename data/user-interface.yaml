@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: user interface
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -27,6 +30,7 @@ data:
       a screen including the software that generates it
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -43,6 +47,7 @@ data:
       on a screen including the software that generates it
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -58,6 +63,7 @@ data:
       mouse, display, monitor, printer, touch- screen
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -75,6 +81,7 @@ data:
     - 'Note: Typical examples of user interfaces are switches, keyboard, mouse, display,
       monitor, printer, touchscreen, etc.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -93,6 +100,7 @@ data:
       monitor, printer, touchscreen, software window on a screen including the software
       that generates it.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -110,6 +118,7 @@ data:
     - Note:Examples are switches, keyboard, mouse, display, monitor, printer, touch-screen,
       software window on a screen including the software that generates it.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -126,6 +135,7 @@ data:
       a window on a screen including the software that generates it [VIML:2013, 6.08]
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -143,6 +153,7 @@ data:
     notes:
     - 'Note: Often referred to as “HMI” (human machine interface).'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -158,6 +169,7 @@ data:
       mouse, display, monitor, printer, touchscreen
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -174,6 +186,7 @@ data:
       on a screen including the software that generates it
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -189,6 +202,7 @@ data:
       mouse, display, monitor, printer, touch- screen
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

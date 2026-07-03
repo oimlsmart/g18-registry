@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: intermittent automatic checking facility type I automatic checking facility
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -25,6 +28,7 @@ data:
       3.19.1.2, [8], , modified — Synonym presentation.]'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

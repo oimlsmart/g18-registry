@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: absorbed dose working range
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -25,6 +28,7 @@ data:
       system is intended to lie within specified limits
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -39,6 +43,7 @@ data:
       system is intended to lie within specified limits
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -53,6 +58,7 @@ data:
       system is intended to lie within specified limits
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -67,6 +73,7 @@ data:
       system is intended to lie within specified limits
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

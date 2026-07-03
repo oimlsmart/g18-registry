@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: type evaluation of measuring instruments
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -27,6 +30,13 @@ data:
     - 'Note:  “Pattern” is used in legal metrology with the same meaning as “type”.
       In the entries below, only “type” is used.'
     examples: []
+    source:
+      kind: viml
+      relationship: identical
+      modification:
+      ref_source: OIML V 1:2000
+      ref_id: '2.05'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
 status: current

@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: measuring mode
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -28,6 +31,7 @@ data:
     - The measuring mode and the stand-by mode (3.7) are modes of normal operation
       (3.6).
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -43,6 +47,7 @@ data:
       requirements of this Recommendation
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

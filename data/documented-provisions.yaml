@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: documented provisions
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -28,6 +31,7 @@ data:
     notes:
     - Documented provisions may be part of a lity assurance system.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -45,6 +49,7 @@ data:
     notes:
     - Documented provisions may be part of a quality assurance system.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

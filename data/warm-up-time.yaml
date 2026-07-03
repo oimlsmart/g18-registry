@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: warm-up time
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -29,6 +32,7 @@ data:
       to it and th instant at which the measurement result of the volume fraction,
       a CGM being supplied to the input, is within the permissible limits.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -44,6 +48,7 @@ data:
       requirements
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -59,6 +64,7 @@ data:
       of this Recommendation
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -73,6 +79,7 @@ data:
       and the moment at which the instrument is capable of complying with the requirements
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -88,6 +95,7 @@ data:
       of this Recommendation
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -102,6 +110,7 @@ data:
       and the moment at which the instrument is capable of complying with the requirements.
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -116,6 +125,7 @@ data:
       the moment at which the instrument is capable of complying with the requirements
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -130,6 +140,7 @@ data:
       at which the load cell is capable of complying with the requirements
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -144,6 +155,7 @@ data:
       and the moment that the belt weigher is capable of complying with the requirements
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -158,6 +170,7 @@ data:
       and the moment at which the instrument is capable of complying with the requirements
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -172,6 +185,7 @@ data:
       at which the load cell is capable of complying with the requirements
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -186,6 +200,7 @@ data:
       the moment that the instrument is capable of complying with the requirements
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -200,6 +215,7 @@ data:
       moment at which the instrument is capable of complying with the requirements
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -214,6 +230,7 @@ data:
       the moment that the instrument is capable of complying with the requirements
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -232,6 +249,7 @@ data:
       is applied to it and the instant at which the measurement result of the volume
       fraction, a CGM being supplied to the input, is within the permissible limits.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -246,6 +264,7 @@ data:
       the moment at which the instrument is capable of complying with the requirements
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -264,6 +283,7 @@ data:
       is applied to it and the instant at which the measurement result of the volume
       fraction, a CGM being supplied to the input, is within the permissible limits.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -279,6 +299,7 @@ data:
       requirements
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -294,6 +315,7 @@ data:
       of this Recommendation
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -308,6 +330,7 @@ data:
       and the moment at which the instrument is capable of complying with the requirements
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -323,6 +346,7 @@ data:
       of this Recommendation
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -337,6 +361,7 @@ data:
       the moment at which the instrument is capable of complying with the requirements
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

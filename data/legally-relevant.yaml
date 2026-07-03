@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: legally relevant
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -25,6 +28,7 @@ data:
       control
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -38,6 +42,7 @@ data:
     definition: subject to legal control
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -50,14 +55,15 @@ data:
     g18_entry: '03184'
     definition: subject to legal control
     notes:
-    - 'Note 1:  If a measuring instrument is under legal control, then the measurement
-      data, software and parameters that are critical for the metrological characteristics,
+    - If a measuring instrument is under legal control, then the measurement data,
+      software and parameters that are critical for the metrological characteristics,
       including the metrological functions, securing and protection features, and/or
-      for the completion of the transaction, are also under legal control. Note 2:  The
-      relevant Recommendations define what is legally relevant and formulate requirements
+      for the completion of the transaction, are also under legal control.
+    - The relevant Recommendations define what is legally relevant and formulate requirements
       to those items (e.g., data, functions, securing and protection features and
-      information for the completion of the transaction).'
+      information for the completion of the transaction).
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -72,6 +78,7 @@ data:
       subject to legal control (OIML V 1, 4.08)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -85,9 +92,10 @@ data:
     definition: software/hardware/data or part of the software/hardware/data of a
       measuring instrument which interferes with properties regulated by legal metrology,
       e.g. the accuracy of the measurement or the correct functioning of the measuring
-      instrument [OIML D31, 3.1.29]
+      instrument
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -101,9 +109,10 @@ data:
     definition: software/hardware/data or part of the software/hardware/data of a
       measuring instrument which interferes with properties regulated under legal
       metrology, e.g. the accuracy of the measurement or the correct functioning of
-      the measuring instrument [OIML D31:2008, 3.1.29]
+      the measuring instrument
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -118,6 +127,7 @@ data:
       control
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -132,6 +142,7 @@ data:
       control
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -143,9 +154,16 @@ data:
     link:
     g18_entry: '02339-1'
     definition: attribute of a part of a measuring instrument, device or software
-      subject to legal control [OIML V1:2013, 4.08]
+      subject to legal control
     notes: []
     examples: []
+    source:
+      kind: viml
+      relationship: identical
+      modification:
+      ref_source: OIML V 1:2013
+      ref_id: '4.08'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
 status: current

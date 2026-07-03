@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: processor
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -27,6 +30,7 @@ data:
       checking facilities for the information and communicate with auxiliary devices
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -44,6 +48,7 @@ data:
       with ancillary devices
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -61,6 +66,7 @@ data:
       with ancillary devices
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

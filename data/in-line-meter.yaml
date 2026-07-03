@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: in-line meter
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -25,6 +28,7 @@ data:
       end connections (either threaded or flanged) provided
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -40,6 +44,7 @@ data:
     notes:
     - Note:The end connections may be flanged or threaded.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

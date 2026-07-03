@@ -6,9 +6,15 @@ data:
   - type: expression
     status: preferred
     text: characteristic concentration
+    usage_info:
+    field:
+    international: false
   - type: expression
     status: admitted
     text: characteristic mass
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -29,6 +35,7 @@ data:
     notes:
     - Sensitivity has historically been used for this term.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

@@ -6,9 +6,15 @@ data:
   - type: expression
     status: preferred
     text: verification scale interval
+    usage_info:
+    field:
+    international: false
   - type: symbol
     status: preferred
     text: stem:[e]
+    usage_info:
+    field:
+    international: true
   kind: undefined
   official_concept:
   editions_present:
@@ -28,6 +34,7 @@ data:
       device
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -42,6 +49,7 @@ data:
       verification of an instrument
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -56,6 +64,7 @@ data:
       verification of an instrument
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -70,6 +79,7 @@ data:
       device (3.2.12)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

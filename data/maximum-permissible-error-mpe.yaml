@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: maximum permissible error (mpe)
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -25,6 +28,7 @@ data:
     notes:
     - 'Note: The absolute value of the mpe is the same value without sign.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -39,6 +43,7 @@ data:
       etc. for a given instrument [VIML:2013 0.05]
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -53,6 +58,7 @@ data:
       from VIM:2007, 4.26]
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -67,6 +73,7 @@ data:
       for a given measuring instrument
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -81,6 +88,7 @@ data:
       Recommendation [adapted from VIM:1993, 5.21].
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

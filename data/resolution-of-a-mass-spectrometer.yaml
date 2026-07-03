@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: resolution of a mass spectrometer
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -35,6 +38,7 @@ data:
       mass 1000 from mass 1001'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -58,6 +62,7 @@ data:
       mass 51, and distinguish mass 1000 from mass 1001'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

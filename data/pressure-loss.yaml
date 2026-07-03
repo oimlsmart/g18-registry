@@ -6,9 +6,15 @@ data:
   - type: expression
     status: preferred
     text: pressure loss
+    usage_info:
+    field:
+    international: false
   - type: symbol
     status: preferred
     text: stem:[Delta p]
+    usage_info:
+    field:
+    international: true
   kind: undefined
   official_concept:
   editions_present:
@@ -29,6 +35,7 @@ data:
       loss at the permanent flowrate Q3 and at the overload flowrate Q4
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -43,6 +50,7 @@ data:
       caused by the presence of the meter in the pipeline
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

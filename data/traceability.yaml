@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: traceability
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +29,7 @@ data:
       through an unbroken chain of comparisons all having stated uncertainties
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -41,6 +45,7 @@ data:
       through an unbroken chain of comparisons all having stated uncertainties
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -56,6 +61,7 @@ data:
       through an unbroken chain of comparisons, all having stated uncertainties
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -70,6 +76,7 @@ data:
       to appropriate standards through an unbroken chain of comparisons
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -85,6 +92,7 @@ data:
       through an unbroken chain of comparisons all having stated uncertainties
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -100,6 +108,7 @@ data:
       through an unbroken chain of comparisons all having stated uncertainties
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -115,6 +124,7 @@ data:
       through an unbroken chain of comparisons, all having stated uncertainties
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -129,6 +139,7 @@ data:
       to appropriate standards through an unbroken chain of comparisons
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

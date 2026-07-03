@@ -6,11 +6,20 @@ data:
   - type: expression
     status: preferred
     text: significant fault
-  kind: undefined
+    usage_info:
+    field:
+    international: false
+  kind: defined_in_viml
   official_concept:
-    source: OIML D011:2004
-    id: '3.10'
-    url:
+    source: urn:oiml:pub:v:1:2022
+    id: '5.14'
+    url: https://oimlsmart.github.io/vocab/viml-2022/concept/5.14
+    definition_text: "{{5.12,fault}} exceeding the applicable {{5.13,fault limit}}
+      value"
+    edition_label: VIML 2022
+    vocab: viml
+    role: current
+    year: 2022
   editions_present:
   - '2010'
   - 202X
@@ -27,6 +36,7 @@ data:
     definition: fault greater than the value specified in 5.7.1.4.
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -48,6 +58,7 @@ data:
       those interested inthe result of the measurement."
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -70,6 +81,7 @@ data:
       so large as to be noticed by all those interested in the measurement result.
       2 Adapted from OIML D 11:2004, 3.10.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -89,6 +101,7 @@ data:
       noticed by all those interested in the weighing result'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -108,6 +121,7 @@ data:
       implying the impossibility of performing further measurements'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -131,6 +145,7 @@ data:
     notes:
     - No fault is allowed for the unit price.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -148,6 +163,7 @@ data:
       as measurement results.'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -167,6 +183,7 @@ data:
       measurement result"
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -186,6 +203,7 @@ data:
       memorized or transmitted as a measurement result.'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -206,6 +224,7 @@ data:
     notes:
     - at appropriate to the partial weighing .
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -229,6 +248,7 @@ data:
       measurement result; the relevant Recommendation may specify the nature of these
       variations.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -254,6 +274,7 @@ data:
       of the significant fault applicable for a test on one static load shall be calculated
       in accordance with the test procedures in A.6.1.3.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -267,13 +288,9 @@ data:
     definition: fault greater than the value specified in the appropriate Recommendation
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
-    related:
-    - type: see
-      ref:
-        source: OIML D011:2004
-        id: '3.10'
   - edition: '2010'
     publication: OIML R 136-1:2004
     publication_id: OIML R136-1:2004
@@ -291,6 +308,7 @@ data:
       noticed by those interested in the measuring'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -310,6 +328,7 @@ data:
       be noticed by those interested in the measurement'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -325,6 +344,7 @@ data:
     notes: []
     examples:
     - If the MPE is ± 2 %, then the significant fault is a fault larger than 2 %.
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -345,6 +365,7 @@ data:
       result'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -366,6 +387,7 @@ data:
       of the measurement.'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -385,6 +407,7 @@ data:
       of performing any measurement.'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -407,6 +430,7 @@ data:
       in the measurement result.'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -422,6 +446,7 @@ data:
       totalized load (stem:[Sigma]min) for the designated class of the belt weigher
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -441,6 +466,7 @@ data:
       will inevitably be noticed by those interested in the measurement."
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -456,6 +482,7 @@ data:
       11 clauses T.8 and T.9)"
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -476,6 +503,7 @@ data:
       to perform any measurement'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -491,6 +519,7 @@ data:
     notes:
     - 'Note: See supplements in clause 6.18.2.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
     related:
@@ -511,6 +540,7 @@ data:
     notes:
     - 'Note: See 5.1.2, which specifies the value of a significant fault.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -521,9 +551,16 @@ data:
     clause: 3.1.12
     link:
     g18_entry: '03503'
-    definition: fault exceeding the applicable fault limit value [OIML V 1:2013, 5.14]
+    definition: fault exceeding the applicable fault limit value
     notes: []
     examples: []
+    source:
+      kind: viml
+      relationship: identical
+      modification:
+      ref_source: OIML V 1:2013
+      ref_id: '5.14'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -534,10 +571,17 @@ data:
     clause: 3.7.17
     link:
     g18_entry: '03504'
-    definition: fault exceeding the applicable fault limit value [VIML 5.14]
+    definition: fault exceeding the applicable fault limit value
     notes:
     - "(For notes, refer to the VIML)."
     examples: []
+    source:
+      kind: viml
+      relationship: identical
+      modification:
+      ref_source: OIML V 1:2013
+      ref_id: '5.14'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -548,10 +592,17 @@ data:
     clause: 3.1.13
     link:
     g18_entry: '03505'
-    definition: fault exceeding the applicable fault limit [OIML V 1, 5.14]
+    definition: fault exceeding the applicable fault limit
     notes:
     - 'Note: Significant fault are only relevant to electronic measuring systems.'
     examples: []
+    source:
+      kind: viml
+      relationship: identical
+      modification:
+      ref_source: OIML V 1:2013
+      ref_id: '5.14'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -562,7 +613,7 @@ data:
     clause: 2.3.7
     link:
     g18_entry: '03506'
-    definition: fault exceeding the applicable fault limit value [VIML 5.14]
+    definition: fault exceeding the applicable fault limit value
     notes:
     - 'Note: The following faults are not considered to be significant, even when
       they exceed the value defined above: (a) faults arising from simultaneous and
@@ -573,6 +624,13 @@ data:
       results so serious that they are bound to be noticed by all those interested
       in the result of the measurement.'
     examples: []
+    source:
+      kind: viml
+      relationship: identical
+      modification:
+      ref_source: OIML V 1:2013
+      ref_id: '5.14'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -593,6 +651,7 @@ data:
       which are so serious they will inevitably be noticed by all those interested
       in the weighing result.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -611,6 +670,7 @@ data:
       implying the impossibility of performing further measurements'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -635,6 +695,7 @@ data:
       by all those interested in the measurement result; The Recommendation may specify
       the nature of these variations.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -648,6 +709,7 @@ data:
     definition: fault greater than the value specified in 5.7.1.4.
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -659,7 +721,7 @@ data:
     link:
     g18_entry: '02479'
     definition: fault greater than the value specified in this Recommendation (see
-      4.4.1) [VIML 5.14]
+      4.4.1)
     notes:
     - 'Note: The relevant Recommendation may specify that the following faults are
       not significant, even when they exceed the value defined in 4.4.1.: (a) faults
@@ -672,6 +734,13 @@ data:
       interested in the measurement result; the relevant Recommendation may specify
       the nature of these variations.'
     examples: []
+    source:
+      kind: viml
+      relationship: identical
+      modification:
+      ref_source: OIML V 1:2013
+      ref_id: '5.14'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -693,6 +762,7 @@ data:
       in the indication, which cannot be interpreted, memorized or transmitted as
       a measurement result.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -714,6 +784,7 @@ data:
       weighing result'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -738,6 +809,13 @@ data:
       enough to be noticed by all those interested in the measurement result; the
       applicable Recommendation may specify the nature of these variations.'
     examples: []
+    source:
+      kind: viml
+      relationship: identical
+      modification:
+      ref_source: OIML V 1:2013
+      ref_id: '5.14'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -748,12 +826,13 @@ data:
     clause: 2.2.31
     link:
     g18_entry: 02330-R046-1
-    definition: fault exceeding the applicable fault limit value [OIML D11:2004, 3.10]
+    definition: fault exceeding the applicable fault limit value
     notes:
     - 'Note: The following are also considered to be significant faults: a change
       larger than the critical change value (see 3.3.6.2) has occurred in the measurement
       registers due to disturbances; the functionality of the meter has become impaired.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -775,6 +854,7 @@ data:
       are so serious that they will inevitably be noticed by those interested in the
       measurement.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -788,6 +868,7 @@ data:
     definition: fault greater than the value specified in 5.7.1.4.
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -808,6 +889,7 @@ data:
       by all those interested in the result of the measurement.'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -830,6 +912,7 @@ data:
       large as to be noticed by all those interested in the measurement result. Adapted
       from OIML D 11:2004, 3.10.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -849,6 +932,7 @@ data:
       interested in the weighing result'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -875,6 +959,7 @@ data:
       to the calculator. When a device is used for measuring two or more principal
       measurands (a calculator for example), it has a significant fault for each measurand.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -894,6 +979,7 @@ data:
       to the whole associated measuring instrument, or to the electronic part only,
       according to what is subject to the test.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -911,6 +997,7 @@ data:
     notes:
     - 'Note: For CVDDs this concept applies to the whole device.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -928,6 +1015,7 @@ data:
       results.'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -947,6 +1035,7 @@ data:
       memorized or transmitted as a measurement result.'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -968,6 +1057,7 @@ data:
     - 'Note: For a multi-interval instrument, the value of e is that appropriate to
       the partial weighing range.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -987,6 +1077,7 @@ data:
       be noticed by those interested in the measurement'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -998,9 +1089,9 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r135-e04.pdf
     g18_entry: '01869'
     definition: fault greater than the value specified in the appropriate Recommendation
-      [OIML D 11, 3.10]
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -1020,6 +1111,7 @@ data:
       interested in the measuring'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -1030,11 +1122,12 @@ data:
     clause: 4.10.3
     link: https://www.oiml.org/en/files/pdf_R/r075-1-e02.pdf
     g18_entry: '00866'
-    definition: 'fault greater than the absolute value of the MPE which is not a transitory
-      fault Example: If the MPE is ± 2 %, then the significant fault is a fault larger
-      than 2 %.'
+    definition: fault greater than the absolute value of the MPE which is not a transitory
+      fault
     notes: []
-    examples: []
+    examples:
+    - If the MPE is ± 2 %, then the significant fault is a fault larger than 2 %.
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -1054,6 +1147,7 @@ data:
       of performing any measurement.'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -1076,6 +1170,7 @@ data:
       result.'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -1091,16 +1186,13 @@ data:
       T.8 and T.9)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current
 id: 44ea0727-0119-505c-9fed-5ff4153d2b8f
 schema_version: '3'
 related:
-- type: see
-  ref:
-    source: OIML D011:2004
-    id: '3.10'
 - type: see
   ref:
     source: urn:oiml:pub:v:1:2022

@@ -6,12 +6,21 @@ data:
   - type: expression
     status: preferred
     text: reference condition
+    usage_info:
+    field:
+    international: false
   - type: expression
     status: preferred
     text: reference conditions
+    usage_info:
+    field:
+    international: false
   - type: expression
     status: admitted
     text: reference operating condition
+    usage_info:
+    field:
+    international: false
   kind: defined_in_vim
   official_concept:
     source: urn:oiml:pub:v:2:1993
@@ -42,6 +51,7 @@ data:
     - The reference conditions generally include reference values or reference ranges
       for the influence quantities affecting the measuring instrument.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -57,6 +67,7 @@ data:
       results
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
     related:
@@ -75,6 +86,7 @@ data:
     definition: reference conditions applicable for the calibration certificate
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -91,6 +103,7 @@ data:
     - Reference conditions generally specify intervals of values for any influence
       quantity.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -106,6 +119,7 @@ data:
       results
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
     related:
@@ -125,6 +139,7 @@ data:
       intercomparison of the results of measurements
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -139,6 +154,7 @@ data:
       instrument or for intercomparison of results of measurements IM: 1993, 5.7]"
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -153,6 +169,7 @@ data:
       intercomparison of results of measurements
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -167,6 +184,7 @@ data:
       valid intercomparison of results of measurements
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -182,6 +200,7 @@ data:
       or a device or for intercomparisons of the results of measurements
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
     related:
@@ -202,6 +221,7 @@ data:
       of the results of measurements dapted from VIM:1993, 5.7]."
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
     related:
@@ -221,6 +241,13 @@ data:
       inter-comparison of the results of measurements
     notes: []
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:1993
+      ref_id: '5.7'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -235,6 +262,7 @@ data:
       inter-comparison of the results of measurements
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -251,6 +279,7 @@ data:
     notes:
     - "(adapted from VIM:1993, 5.7)"
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -267,6 +296,7 @@ data:
     - The reference conditions generally include reference values or reference ranges
       for the influence quantities affecting a measuring instrument.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
     related:
@@ -286,6 +316,7 @@ data:
       intercomparison of the results of measurements ased on VIM:1993, 5.7]"
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
     related:
@@ -305,6 +336,7 @@ data:
       [VIM:1993, 5.7] intercomparison of the results of measurements
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
     related:
@@ -326,6 +358,7 @@ data:
     - The reference conditions generally include reference values or reference ranges
       for influence quantities affecting the measuring instrument. [VIM:1993, 5.7]
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -341,6 +374,7 @@ data:
       5.7]."
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -358,6 +392,7 @@ data:
       for the influence quantities affecting the load cell. [Adapted from VIM:1993,
       5.7]
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -372,6 +407,7 @@ data:
       Adapted from VIM:1993, 5.7. intercomparison of results of measurements
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
     related:
@@ -391,6 +427,7 @@ data:
       of the results of a measurement
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -405,6 +442,7 @@ data:
       intercomparisons of results of measurements (adapted from VIM:1993, 5.7)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
     related:
@@ -424,6 +462,7 @@ data:
       a valid intercomparison of measurement results dapted from VIM:1993, 5.7]"
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
     related:
@@ -443,6 +482,7 @@ data:
       intercomparison of the results of measurements
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -458,6 +498,7 @@ data:
       T.14)"
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -472,6 +513,7 @@ data:
       pressure balance or for intercomparison of measurement results
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -486,6 +528,7 @@ data:
       intercomparison of results of measurements [adapted from VIM:1993, 5.07]
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
     related:
@@ -504,12 +547,13 @@ data:
     definition: operating condition prescribed for evaluating the performance of a
       measuring instrument or measuring system or for comparison of measurement results
     notes:
-    - 'Note 1: Reference conditions specify intervals of values of the measurand and
-      influence quantities.'
-    - 'Note 2: In IEC 60050-300, item 311-06-02, the term "reference condition" refers
-      to an operating condition under which the specified instrumental measurement
-      uncertainty is the smallest possible.'
+    - Reference conditions specify intervals of values of the measurand and influence
+      quantities.
+    - In IEC 60050-300, item 311-06-02, the term "reference condition" refers to an
+      operating condition under which the specified instrumental measurement uncertainty
+      is the smallest possible.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
     related:
@@ -531,6 +575,7 @@ data:
       or measuring system”; original notes removed]'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -543,9 +588,15 @@ data:
     g18_entry: '03427'
     definition: operating condition prescribed for evaluating the performance of a
       measuring instrument or measuring system or for comparison of measurement results
-      [OIML V 2-200:2012, 4.11] [OIML V 1:2013, 0.09]
     notes: []
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2012
+      ref_id: '4.11'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -557,9 +608,16 @@ data:
     link:
     g18_entry: '03429'
     definition: a set of specified values of influence factors fixed to ensure valid.
-      intercomparison of results of measurements [VIM 4.11]
+      intercomparison of results of measurements
     notes: []
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2012
+      ref_id: '4.11'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -576,6 +634,7 @@ data:
     - 'Note:  Reference conditions specify intervals of values of the measurand and
       influence quantities. [Adapted from VIML:2013, 0.09 – part of note omitted]'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -590,6 +649,7 @@ data:
       of results of measurements
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -607,6 +667,7 @@ data:
     - 'Note:  Reference operating conditions specify intervals of values of the measurand
       and of the influence quantities.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -623,6 +684,7 @@ data:
     - 'Note:  The reference conditions generally include reference values or reference
       ranges for the influence quantities affecting the measuring instrument.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -635,13 +697,20 @@ data:
     g18_entry: '02451'
     definition: operating condition prescribed for evaluating the performance of a
       measuring instrument or measuring system or for comparison of measurement results
-      [VIM 4.11]
     notes:
-    - 'Note 1: Reference conditions specify intervals of values of the measurand and
-      influence quantities. Note 2: In IEC 60050-300, item 311-06-02, the term “reference
-      condition” refers to an operating condition under which the specified instrumental
-      measurement uncertainty is the smallest possible.'
+    - Reference conditions specify intervals of values of the measurand and influence
+      quantities.
+    - In IEC 60050-300, item 311-06-02, the term "reference condition" refers to an
+      operating condition under which the specified instrumental measurement uncertainty
+      is the smallest possible.
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2012
+      ref_id: '4.11'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -655,12 +724,19 @@ data:
     definition: operating condition prescribed for evaluating the performance of a
       measuring instrument or measuring system or for comparison of measurement results
     notes:
-    - NOTE 1 Reference operating conditions specify intervals of values of the measurand
+    - Reference operating conditions specify intervals of values of the measurand
       and of the influence quantities.
-    - NOTE 2 In IEC 60050-300, item 311-06-02, the term "reference condition" refers
-      to an operating condition under which the specified instrumental measurement
-      uncertainty is the smallest possible.
+    - In IEC 60050-300, item 311-06-02, the term "reference condition" refers to an
+      operating condition under which the specified instrumental measurement uncertainty
+      is the smallest possible.
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2007
+      ref_id: '4.11'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -673,11 +749,18 @@ data:
     g18_entry: '03434'
     definition: operating conditions prescribed for evaluating the performance of
       a measuring instrument or measuring system or for comparison of measurement
-      results [VIM, 4.11]
+      results
     notes:
     - 'Note:  Reference operating conditions specify intervals of values of the measurand
       and of the influence quantities.'
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2012
+      ref_id: '4.11'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -690,9 +773,15 @@ data:
     g18_entry: '02775'
     definition: operating condition prescribed for evaluating the performance of a
       measuring instrument or measuring system or for comparison of measurement results
-      [VIM, 4.11] [1]
     notes: []
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2012
+      ref_id: '4.11'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -706,13 +795,15 @@ data:
     definition: operating condition prescribed for evaluating the performance of a
       measuring instrument or measuring system or for comparison of measurement results
     notes:
-    - 'Note 1: Reference operating conditions specify intervals of values of the measurand
-      and of the influence quantities. Note 2: In IEC 60050-300, item 311-06-02, the
-      term “reference condition” refers to an operating condition under which the
-      specified instrumental measurement uncertainty is the smallest possible. [OIML
-      V2-200:2012, 4.11] Note 3: For the application of this Recommendation, the terms
-      “measuring instrument” and “measuring system” mean: electricity meter.'
+    - Reference operating conditions specify intervals of values of the measurand
+      and of the influence quantities.
+    - In IEC 60050-300, item 311-06-02, the term "reference condition" refers to an
+      operating condition under which the specified instrumental measurement uncertainty
+      is the smallest possible. [OIML V2-200:2012, 4.11]
+    - 'For the application of this Recommendation, the terms "measuring instrument"
+      and "measuring system" mean: electricity meter.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -728,6 +819,7 @@ data:
       of the results of measurements
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -744,6 +836,13 @@ data:
     - 'Note:  The reference conditions generally include reference values or reference
       ranges for influence quantities affecting the measuring instrument. [VIM 5.7]'
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2007
+      ref_id: '5.7'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -760,6 +859,7 @@ data:
     - 'Note:  The reference conditions generally include reference values or reference
       ranges for the influence quantities affecting the measuring instrument.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -775,6 +875,7 @@ data:
       [VIM:2007, 4.11]
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -788,6 +889,7 @@ data:
     definition: reference conditions applicable for the calibration certificate
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -804,6 +906,7 @@ data:
     - 'Note:  Reference conditions generally specify intervals of values for any influence
       quantity.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -819,6 +922,7 @@ data:
       [VIM:2007, 4.11]
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -833,6 +937,7 @@ data:
       intercomparison of the results of measurements
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -847,6 +952,7 @@ data:
       or for intercomparison of results of measurements [VIM: 1993, 5.7]'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -862,6 +968,7 @@ data:
       of the results of measurements [adapted from VIM:2007, 4.11]
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -876,6 +983,7 @@ data:
       intercomparison of the results of measurements [based on VIM:1993, 5.7]
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -890,6 +998,7 @@ data:
       inter-comparison of the results of measurements
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -907,6 +1016,7 @@ data:
       ranges for influence quantities affecting the measuring instrument. [VIM:1993,
       5.7]'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -921,6 +1031,7 @@ data:
       intercomparison of the results of measurements [VIM:1993, 5.7]
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -935,6 +1046,7 @@ data:
       instrument or for intercomparison of results of measurements [VIM:1993, 5.7].
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -949,6 +1061,7 @@ data:
       of the results of a measurement
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -963,6 +1076,7 @@ data:
       intercomparisons of results of measurements (adapted from VIM:1993, 5.7)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -978,6 +1092,7 @@ data:
       T.14)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -992,6 +1107,7 @@ data:
       pressure balance or for intercomparison of measurement results
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

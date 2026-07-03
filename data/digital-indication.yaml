@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: digital indication
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -24,6 +27,7 @@ data:
     definition: indication providing the weighing results in a digitized form
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -38,6 +42,7 @@ data:
       figures that do not permit interpolation to fractions of the scale interval
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -52,6 +57,7 @@ data:
       figures that do not permit interpolation to fractions of the scale interval
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -66,6 +72,7 @@ data:
       figures that do not permit interpolation to fractions of a scale interval
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -80,6 +87,7 @@ data:
       that do not permit interpolation to a fraction of the scale interval
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -94,6 +102,7 @@ data:
       that do not permit interpolation to a fraction of the scale interval
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -108,6 +117,7 @@ data:
       that do not permit interpolation to a fraction of a scale interval
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -122,6 +132,7 @@ data:
       figures that do not permit interpolation to fractions of a scale interval
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -133,9 +144,16 @@ data:
     link:
     g18_entry: '02603'
     definition: measurement results are displayed by a digital measuring instrument
-      in a digitized form [VIM 4.11]
+      in a digitized form
     notes: []
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2007
+      ref_id: '4.11'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -149,6 +167,7 @@ data:
     definition: indication providing the weighing results in a digitized form
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -163,6 +182,7 @@ data:
       aligned figures that do not permit interpolation to fractions of the scale interval
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -177,6 +197,7 @@ data:
       aligned figures that do not permit interpolation to fractions of the scale interval
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -191,6 +212,7 @@ data:
       that do not permit interpolation to a fraction of the scale interval
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -205,6 +227,7 @@ data:
       that do not permit interpolation to a fraction of the scale interval
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

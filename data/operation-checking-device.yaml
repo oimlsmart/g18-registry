@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: operation checking device
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -30,6 +33,7 @@ data:
       belt weigher."
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

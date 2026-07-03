@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: software identification
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +29,7 @@ data:
       It can be checked on an instrument whilst in use
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -40,6 +44,7 @@ data:
       linked to the software (e.g. version number, checksum)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -54,6 +59,7 @@ data:
       to the software (e.g. version number, checksum)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -68,6 +74,7 @@ data:
       software (e.g. version number, checksum)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -82,6 +89,7 @@ data:
       to the software (e.g. version number, checksum)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -98,6 +106,7 @@ data:
     - 'Note: Software identification can be checked on an instrument whilst in use,
       see 6.2.1.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -114,6 +123,7 @@ data:
     notes:
     - 'Note: The identification can be checked on an instrument whilst it is in use.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -129,6 +139,7 @@ data:
       It can be checked on an instrument whilst in use [VIML:2013, 6.01]
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -145,6 +156,7 @@ data:
     - 'Note: This software identification can be checked on an instrument whilst in
       use.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -159,6 +171,7 @@ data:
       linked to the software (e.g. version number, checksum)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -173,6 +186,7 @@ data:
       linked to the software (e.g. version number, checksum)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -187,6 +201,7 @@ data:
       to the software (e.g. version number, checksum)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -201,6 +216,7 @@ data:
       linked to the software (e.g. version number, checksum)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -215,6 +231,7 @@ data:
       to the software (e.g. version number, checksum)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

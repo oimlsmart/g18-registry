@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: legal metrological control
+    usage_info:
+    field:
+    international: false
   kind: defined_in_viml
   official_concept:
     source: urn:oiml:pub:v:1:2000
@@ -40,6 +43,13 @@ data:
       * metrological supervision
       * metrological expertise
     examples: []
+    source:
+      kind: viml
+      relationship: identical
+      modification:
+      ref_source: OIML V 1:2000
+      ref_id: '2.1'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
     related:
@@ -61,6 +71,13 @@ data:
     - 'Legal metrological control includes: legal control of measuring instruments,
       metrological supervision, metrological assessment.'
     examples: []
+    source:
+      kind: viml
+      relationship: identical
+      modification:
+      ref_source: OIML V 1:2000
+      ref_id: '2.1'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
     related:
@@ -84,6 +101,7 @@ data:
       instrument and to determine itd. metrological properties, amongst others by
       reference to the relevant astatutoey requirements'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -94,7 +112,7 @@ data:
     clause: '3.24'
     link:
     g18_entry: '03179'
-    definition: the whole of legal metrology activities [VIML, 2.01]
+    definition: the whole of legal metrology activities
     notes:
     - 'Note:Legal metrological control includes: legal control of measuring instruments,
       metrological supervision, all the operations for the purpose of examining and
@@ -102,6 +120,13 @@ data:
       instrument and to determine itd. metrological properties, amongst others by
       reference to the relevant astatutoey requirements.'
     examples: []
+    source:
+      kind: viml
+      relationship: identical
+      modification:
+      ref_source: OIML V 1:2013
+      ref_id: '2.01'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -117,6 +142,13 @@ data:
     - 'Note: Legal metrological control includes legal control of measuring instruments,
       legal metrological supervision, and legal metrological expertise.'
     examples: []
+    source:
+      kind: viml
+      relationship: identical
+      modification:
+      ref_source: OIML V 1:2000
+      ref_id: '2.01'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -133,6 +165,13 @@ data:
     - 'Note:Legal metrological control includes: legal control of measuring instruments;
       metrological supervision; metrological expertise.'
     examples: []
+    source:
+      kind: viml
+      relationship: identical
+      modification:
+      ref_source: OIML V 1:2000
+      ref_id: '2.1'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -149,6 +188,13 @@ data:
     - 'Note:Legal metrological control includes: - legal control of measuring instruments;
       -  metrological supervision; -  metrological expertise.'
     examples: []
+    source:
+      kind: viml
+      relationship: identical
+      modification:
+      ref_source: OIML V 1:2000
+      ref_id: '2.1'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -164,6 +210,13 @@ data:
     - 'Note:Legal metrological control includes: legal control of measuring instruments,
       metrological supervision, metrological assessment.'
     examples: []
+    source:
+      kind: viml
+      relationship: identical
+      modification:
+      ref_source: OIML V 1:2000
+      ref_id: '2.1'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
 status: current

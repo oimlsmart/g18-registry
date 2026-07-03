@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: pre-setting device
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -27,6 +30,7 @@ data:
       the related price to pay
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -43,6 +47,7 @@ data:
     notes:
     - The pre-set quantity may be the mass or the related price to pay.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -58,6 +63,7 @@ data:
       of the selected quantity
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -73,6 +79,7 @@ data:
       and delivery of the selected quantity
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -88,6 +95,7 @@ data:
       has been measured
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -105,6 +113,7 @@ data:
     - 'Note : The pre-set quantity may be the volume, the mass or the related price
       to pay.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -120,6 +129,7 @@ data:
       quantity
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

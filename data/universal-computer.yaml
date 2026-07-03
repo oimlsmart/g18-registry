@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: universal computer
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -27,6 +30,7 @@ data:
       for specific purposes
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -40,9 +44,10 @@ data:
     definition: computer that is not constructed for a specific purpose but that can
       be adapted to the metrological task by software. In general this software is
       founded on an operating system that permits loading and execution of software
-      for specific purposes [OIML D31, 3.1.54]
+      for specific purposes
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -54,11 +59,12 @@ data:
     link:
     g18_entry: '02815'
     definition: computer that is not constructed for a specific purpose but that can
-      be adapted to the metrological task by software [OIML D 31:2008, 3.1.54]
+      be adapted to the metrological task by software
     notes:
     - 'Note: In general this software is founded on an operating system that permits
       loading and execution of software for specific purposes.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

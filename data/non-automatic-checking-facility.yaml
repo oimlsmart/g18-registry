@@ -6,9 +6,15 @@ data:
   - type: expression
     status: preferred
     text: non-automatic checking facility
+    usage_info:
+    field:
+    international: false
   - type: abbreviation
     status: preferred
     text: type N
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -27,6 +33,7 @@ data:
     definition: checking facility that requires the intervention of an operator
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -40,6 +47,7 @@ data:
     definition: checking facility that requires the intervention of an operator
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -53,6 +61,7 @@ data:
     definition: checking facility which requires the intervention of an operator
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -66,6 +75,7 @@ data:
     definition: checking facility that requires the intervention of an operator
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -79,6 +89,7 @@ data:
     definition: A checking facility that requires the intervention of an operator
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -92,6 +103,7 @@ data:
     definition: a checking facility which requires the intervention of an operator
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -105,6 +117,7 @@ data:
     definition: a checking facility that requires intervention of an operator
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -115,10 +128,10 @@ data:
     clause: 3.2.16
     link:
     g18_entry: '03329'
-    definition: checking facility, requiring the intervention of an operator [OIML
-      D 11:2013, 3.19.2]
+    definition: checking facility, requiring the intervention of an operator
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -133,6 +146,7 @@ data:
       D 11, 3.19.2)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -146,6 +160,7 @@ data:
     definition: checking facility that requires the intervention of an operator
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: testing
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +29,7 @@ data:
       specified procedures. ISO/IEC Guide 2, 13.1)"
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -41,6 +45,7 @@ data:
       A.10)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

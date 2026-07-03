@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: cosine error
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -28,6 +31,7 @@ data:
       by vm = v ∙ cos(α), where the measurement angle α has in general a horizontal
       and a vertical component.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

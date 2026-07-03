@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: fault limit
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -21,9 +24,16 @@ data:
     link:
     g18_entry: '03069'
     definition: value specified in this Recommendation delimiting non-significant
-      faults [OIML V1:2013, 5.13]
+      faults
     notes: []
     examples: []
+    source:
+      kind: viml
+      relationship: identical
+      modification:
+      ref_source: OIML V 1:2013
+      ref_id: '5.13'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -35,9 +45,16 @@ data:
     link:
     g18_entry: '03072'
     definition: value specified in this Recommendation delimiting non-significant
-      faults [OIML V1, 5.12]
+      faults
     notes: []
     examples: []
+    source:
+      kind: viml
+      relationship: identical
+      modification:
+      ref_source: OIML V 1:2013
+      ref_id: '5.12'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -48,9 +65,16 @@ data:
     clause: 2.3.6
     link:
     g18_entry: '03070'
-    definition: value delimiting non-significant faults [VIML 5.13]
+    definition: value delimiting non-significant faults
     notes: []
     examples: []
+    source:
+      kind: viml
+      relationship: identical
+      modification:
+      ref_source: OIML V 1:2013
+      ref_id: '5.13'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -65,6 +89,7 @@ data:
       faults [VIML:2013, 5.13]
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -79,6 +104,7 @@ data:
       faults (VIML, 5.13)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -93,6 +119,13 @@ data:
       faults
     notes: []
     examples: []
+    source:
+      kind: viml
+      relationship: identical
+      modification:
+      ref_source: OIML V 1:2013
+      ref_id: '5.13'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
 status: current

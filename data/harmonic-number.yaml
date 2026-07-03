@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: harmonic number
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -25,6 +28,7 @@ data:
     - 'Note: The harmonic number is the ratio of the frequency of a harmonic to the
       fundamental frequency of the signal.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

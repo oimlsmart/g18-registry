@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: maximum capacity (Max)
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -25,6 +28,7 @@ data:
       portion of the conveyor belt representing the weigh length
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

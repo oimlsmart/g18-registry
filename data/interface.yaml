@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: interface
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -27,6 +30,7 @@ data:
     notes:
     - "[ISO 2382-9:1995]"
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -42,6 +46,7 @@ data:
       instruments or devices or between several different software modules
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -56,6 +61,7 @@ data:
       information to be automatically passed between instruments and modules
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -71,6 +77,7 @@ data:
       other characteristics of the units, as appropriate [ISO 2382-9:2015] [4]
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -83,9 +90,10 @@ data:
     g18_entry: '03160'
     definition: shared boundary between two functional units, defined by various characteristics
       pertaining to the functions, physical interconnections, signal exchanges, and
-      other characteristics of the units, as appropriate [OIML D 31, 3.1.22]
+      other characteristics of the units, as appropriate
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -98,9 +106,10 @@ data:
     g18_entry: '03157'
     definition: shared boundary between two functional units, defined by various characteristics
       pertaining to the functions, physical interconnections, signal exchanges, and
-      other characteristics of the units, as appropriate [OIML D 31, 3.1.27]
+      other characteristics of the units, as appropriate
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -116,6 +125,7 @@ data:
       other characteristics of the units, as appropriate (OIML D 31)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -131,6 +141,7 @@ data:
       instruments or devices or between several different software modules
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -145,6 +156,7 @@ data:
       information to be automatically passed between instruments and modules
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

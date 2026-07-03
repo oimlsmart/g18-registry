@@ -6,12 +6,21 @@ data:
   - type: expression
     status: preferred
     text: basis moisture content
+    usage_info:
+    field:
+    international: false
   - type: expression
     status: admitted
     text: moisture basis
+    usage_info:
+    field:
+    international: false
   - type: abbreviation
     status: preferred
     text: MB
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -32,6 +41,7 @@ data:
     notes:
     - Note:When the specified MB is 0 %, the reported protein content is at ‘dry basis’.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

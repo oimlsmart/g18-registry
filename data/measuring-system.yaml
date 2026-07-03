@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: measuring system
+    usage_info:
+    field:
+    international: false
   kind: defined_in_vim
   official_concept:
     source: urn:oiml:pub:v:2:1993
@@ -34,6 +37,7 @@ data:
       and its ancillary devices and additional devices
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -48,6 +52,7 @@ data:
       and additional devices
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -63,6 +68,7 @@ data:
       provisions system ensuring the quality and the traceability of data
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -78,6 +84,7 @@ data:
       task
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -92,6 +99,7 @@ data:
       out a specified measurement operation [VIM:1993, 4.05]
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
     related:
@@ -114,6 +122,13 @@ data:
     notes:
     - Note:A measuring system may consist of only one measuring instrument.
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2012
+      ref_id: '3.2'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -131,6 +146,7 @@ data:
     notes:
     - Note:A measuring system may consist of only one measuring instrument.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -145,6 +161,7 @@ data:
       and its ancillary devices and additional devices
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -160,6 +177,7 @@ data:
       provisions system ensuring the quality and the traceability of data
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -175,6 +193,7 @@ data:
       task
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

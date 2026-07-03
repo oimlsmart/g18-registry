@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: indicated volume, Vi
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -23,6 +26,7 @@ data:
     definition: value of volume provided by the volume measuring syste
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -36,6 +40,7 @@ data:
     definition: value of volume provided by the volume measuring system
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

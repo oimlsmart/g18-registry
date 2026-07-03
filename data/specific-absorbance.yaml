@@ -6,9 +6,15 @@ data:
   - type: expression
     status: preferred
     text: specific absorbance
+    usage_info:
+    field:
+    international: false
   - type: symbol
     status: preferred
     text: stem:[k_{lambda}]
+    usage_info:
+    field:
+    international: true
   kind: undefined
   official_concept:
   editions_present:
@@ -29,6 +35,7 @@ data:
     notes:
     - The thickness, t, is a measure of optical path length.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -44,6 +51,7 @@ data:
     notes:
     - 'Note: The thickness, t, is a measure of optical path length.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

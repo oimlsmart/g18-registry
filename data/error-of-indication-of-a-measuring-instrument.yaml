@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: error (of indication) of a measuring instrument
+    usage_info:
+    field:
+    international: false
   kind: defined_in_vim
   official_concept:
     source: urn:oiml:pub:v:2:1993
@@ -33,6 +36,7 @@ data:
       true value of the corresponding input quantity dapted from VIM:1993, 5.20]."
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
     related:

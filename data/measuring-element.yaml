@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: measuring element
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +29,7 @@ data:
     - 'Note: A measuring element can be based on an electromagnetic, electrical or
       an electronic principle.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

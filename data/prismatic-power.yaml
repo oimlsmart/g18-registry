@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: prismatic power
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +29,7 @@ data:
     - The unit for expressing prismatic power is the centimetre per metre (cm/m).
       The name for this unit is the "prism dioptre", for which th symbol is D.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -41,6 +45,7 @@ data:
     - 'Note: The unit for expressing prismatic power is the centimetre per metre (cm/m).
       The name for this unit is the “prism dioptre”, for which the symbol is D.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

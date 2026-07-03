@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: partial weighing
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +29,7 @@ data:
       vehicle weight
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -40,6 +44,7 @@ data:
       results are automatically added to indicate or print the wagon weight
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -54,6 +59,7 @@ data:
       bogie partial weighing) successively on the same load receptor
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -68,6 +74,7 @@ data:
       receptor
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

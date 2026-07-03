@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: means of dissemination of units
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +29,7 @@ data:
     notes:
     - 'Note: These means influence uncertainties fo dissemination of units.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

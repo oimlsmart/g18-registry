@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: working automated refractometer
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -28,6 +31,7 @@ data:
       secondary indicating devices, printing units and other auxiliary devices, including
       a universal computer.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

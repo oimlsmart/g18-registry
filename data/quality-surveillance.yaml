@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: quality surveillance
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +29,7 @@ data:
       the regulatory or statutory requirements of a country or free trade area
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

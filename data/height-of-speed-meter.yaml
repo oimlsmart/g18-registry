@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: height of speed meter
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -23,12 +26,13 @@ data:
     definition: vertical distance from the reference point of the speed meter to the
       road surface
     notes:
-    - 'Note 1: Figure 2 shows an illustration of several alignment parameters of speed
-      meters. Note 2: The reference point on the example speed meter is marked as
-      a circle. The centre line does not necessarily start from the reference point.
-      Note 3: The position of the reference point is determined by the manufacturer.
-      The reference point of this illustration is an example.'
+    - Figure 2 shows an illustration of several alignment parameters of speed meters.
+    - The reference point on the example speed meter is marked as a circle. The centre
+      line does not necessarily start from the reference point.
+    - The position of the reference point is determined by the manufacturer. The reference
+      point of this illustration is an example.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

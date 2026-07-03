@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: legally relevant software
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -25,6 +28,7 @@ data:
       on the calculated, displayed, transmitted, or stored measurement result
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -40,6 +44,7 @@ data:
       legal control
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -58,6 +63,7 @@ data:
     - l results of the weighing including the imal sign and the unit, identification
       of the ghing range and the load receptor (if eral load receptors have been used).
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -77,6 +83,7 @@ data:
       tification of the weighing range and the receptor (if several load receptors
       have used), software identification.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -91,6 +98,7 @@ data:
       subject to legal control
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -104,6 +112,7 @@ data:
     definition: part of the software that is subject to legal control (VIML, 6.10)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -121,6 +130,7 @@ data:
       of the weighing range and the load receptor(s)'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -135,6 +145,7 @@ data:
       influence on the calculated, displayed, transmitted, or stored measurement result
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -150,6 +161,7 @@ data:
       legal control
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -168,6 +180,7 @@ data:
       been used).'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -186,6 +199,7 @@ data:
       load receptors have been used), software identification.'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

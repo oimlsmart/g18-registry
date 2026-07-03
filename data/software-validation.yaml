@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: software) validation
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -24,9 +27,10 @@ data:
       information that can be proved true, based on facts obtained from observations,
       measurement, test, etc.) that the particular requirements for the specific intended
       use are fulfilled. In the present case the related requirements are those of
-      this Recommendation [OIML D31, 3.1.56]
+      this Recommendation
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -40,10 +44,11 @@ data:
     definition: confirmation by examination and provision of objective evidence (i.e.
       information that can be proved true, based on facts obtained from observations,
       measurement, tests, etc.) that the particular requirements for the specific
-      intended use are fulfilled [OIML D 31:2008, 3.1.56]
+      intended use are fulfilled
     notes:
     - 'Note: In the present case the related requirements are those of this Recommendation.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

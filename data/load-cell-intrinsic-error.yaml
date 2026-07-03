@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: load cell intrinsic error
+    usage_info:
+    field:
+    international: false
   kind: defined_in_vim
   official_concept:
     source: urn:oiml:pub:v:2:1993
@@ -33,6 +36,7 @@ data:
       [Adapted from VIM:1993, 5.24]
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
     related:
@@ -51,6 +55,7 @@ data:
     definition: error resulting from a load cel, determined under reference conditions
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

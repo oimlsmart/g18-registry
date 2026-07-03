@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: maximum permissible measurement error
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -22,9 +25,16 @@ data:
     g18_entry: '02820'
     definition: extreme value of a measurement error, with respect to a known reference
       quantity value, permitted by specifications or regulations for a given measurement,
-      measuring instrument, or measuring system [OIML V2-200:2012; 0.05] [2]
+      measuring instrument, or measuring system
     notes: []
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2012
+      ref_id: '0.05'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
 status: current

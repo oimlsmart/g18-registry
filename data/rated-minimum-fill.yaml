@@ -6,9 +6,15 @@ data:
   - type: expression
     status: preferred
     text: rated minimum fill
+    usage_info:
+    field:
+    international: false
   - type: symbol
     status: preferred
     text: stem:[Min_{fill}]
+    usage_info:
+    field:
+    international: true
   kind: undefined
   official_concept:
   editions_present:
@@ -29,6 +35,7 @@ data:
     - for filling instruments which effect the fill by more than one weighing cycle,
       Minfill is larger than the minimum capacity (Min).
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

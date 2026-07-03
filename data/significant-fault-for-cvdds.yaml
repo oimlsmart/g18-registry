@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: significant fault (for CVDDs)
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -28,6 +31,7 @@ data:
     notes:
     - vice.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: calibrated tank
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +29,7 @@ data:
       measurement transducer to determine the mass contained in the tank
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -41,6 +45,7 @@ data:
       measurement transducer to determine the mass contained in the tank
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

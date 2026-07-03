@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: Issuing Authority
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -28,6 +31,7 @@ data:
       of the OIML Mutual Acceptance Arrangement (MAA), an OIML Issuing Authority according
       to 2.13 of OIML B 3 and 3.11 of B 10-1.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -50,6 +54,7 @@ data:
       as the national body that issues national type approval certificates and whose
       responsibilities are governed by national regulations.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

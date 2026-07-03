@@ -6,9 +6,15 @@ data:
   - type: expression
     status: preferred
     text: reference point top
+    usage_info:
+    field:
+    international: false
   - type: abbreviation
     status: preferred
     text: RPT
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -28,6 +34,7 @@ data:
       conditions above the liquid level
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -42,6 +49,7 @@ data:
       conditions above the liquid level
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -56,6 +64,7 @@ data:
       conditions above the liquid level
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

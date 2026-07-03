@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: expanded uncertainty
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -27,6 +30,7 @@ data:
       of Uncertainty in Measurement, BIPM, IEC, IFCC, ISO, IUPAC, IUPAP, OIML, 1993]
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -43,6 +47,7 @@ data:
       the Expression of Uncertainty in Measurement)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

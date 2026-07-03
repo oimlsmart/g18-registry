@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: back-up battery
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -27,6 +30,7 @@ data:
     notes:
     - "(OIML D 11:2004, 3.24)"
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -42,6 +46,7 @@ data:
     notes: []
     examples:
     - to preserve stored data
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -57,6 +62,7 @@ data:
       stored data.'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -72,6 +78,7 @@ data:
       stored data. (OIML D 11, 3.26)'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -86,6 +93,7 @@ data:
       the absence of the primary power supply. Example: to preserve stored data'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -101,6 +109,7 @@ data:
       stored data.'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -113,9 +122,10 @@ data:
     g18_entry: '02375'
     definition: 'battery that is intended to power specific functions of an instrument
       in the absence of the primary power supply (for example: to preserve stored
-      data) [OIML D 11:2004, 3.24]'
+      data)'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

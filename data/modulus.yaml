@@ -6,9 +6,15 @@ data:
   - type: expression
     status: preferred
     text: modulus
+    usage_info: of a number
+    field:
+    international: false
   - type: expression
     status: admitted
     text: absolute value
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +32,7 @@ data:
     definition: value of the number without regard to its sign
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

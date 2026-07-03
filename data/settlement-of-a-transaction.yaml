@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: settlement of a transaction
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -29,6 +32,7 @@ data:
       or the driver of a truck)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -48,6 +52,7 @@ data:
       or their representatives (for example, the employee in a filling station or
       the driver of a truck).'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

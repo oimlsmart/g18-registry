@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: pipeline measuring system
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -27,6 +30,7 @@ data:
       little during a prolonged period
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -44,6 +48,7 @@ data:
       which, in general, either does not change or changes little during a prolonged
       period'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

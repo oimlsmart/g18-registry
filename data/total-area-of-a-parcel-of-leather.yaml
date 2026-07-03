@@ -6,9 +6,15 @@ data:
   - type: expression
     status: preferred
     text: total area of a parcel of leather
+    usage_info:
+    field:
+    international: false
   - type: symbol
     status: preferred
     text: stem:[A_{"total"}]
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -27,6 +33,7 @@ data:
       into a parcel
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

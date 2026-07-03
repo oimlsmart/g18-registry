@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: automatic refractometer (type I refractometers
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -29,6 +32,7 @@ data:
       or a device for calibration (adjustment) at another scale point; a zero-checking
       device; anautomatic cleaning device.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

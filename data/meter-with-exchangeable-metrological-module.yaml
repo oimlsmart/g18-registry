@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: meter with exchangeable metrological module
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -24,6 +27,7 @@ data:
       module (3.1.23) from the same type approval (3.1.20)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

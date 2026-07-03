@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: adjustment device
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +29,7 @@ data:
       the maximum permissible errors. This device may beeither mechanical or electronic
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -41,6 +45,7 @@ data:
       the maximum permissible errors
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -57,6 +62,7 @@ data:
       T.2.20) at minimum
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -72,6 +78,7 @@ data:
       indication) within the maximum permissible errors
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -87,6 +94,7 @@ data:
       indication) within the limits of the maximum permissible error (MPE)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -104,6 +112,7 @@ data:
     - Note:For the definition of the term “adjustment of a measuring system”, see
       ISO/IEC Guide 99:2007/OIML V 2-200:2012 (VIM)3.11, [1].
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -119,6 +128,7 @@ data:
       the maximum permissible errors. This device may be either mechanical or electronic
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -134,6 +144,7 @@ data:
       the maximum permissible errors
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -149,6 +160,7 @@ data:
       maximum permissible errors
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -165,6 +177,7 @@ data:
       T.2.20) at minimum
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

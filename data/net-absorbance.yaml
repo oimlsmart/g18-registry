@@ -6,9 +6,15 @@ data:
   - type: expression
     status: preferred
     text: net absorbance
+    usage_info:
+    field:
+    international: false
   - type: symbol
     status: preferred
     text: stem:[Delta A]
+    usage_info:
+    field:
+    international: true
   kind: undefined
   official_concept:
   editions_present:
@@ -29,6 +35,7 @@ data:
       A0, and the post-irradiation absorbance, A, as follows:'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -44,6 +51,7 @@ data:
       A0, and the post-irradiation absorbance, A, as follows:'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

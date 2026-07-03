@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: communication interface
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +29,7 @@ data:
       electronic devices) or sub-assemblies
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -40,10 +44,11 @@ data:
       measuring instruments, components of measuring instruments or other external
       systems
     notes:
-    - 'Note 1: Communication interfaces can utilize wired, optical, radio, etc. communication
-      and they are usually designed to use a specific protocol. Note 2: This definition
-      does not include communication between software modules.'
+    - Communication interfaces can utilize wired, optical, radio, etc. communication
+      and they are usually designed to use a specific protocol.
+    - This definition does not include communication between software modules.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -59,6 +64,7 @@ data:
       modules
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

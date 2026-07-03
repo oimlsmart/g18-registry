@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: construction
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -27,6 +30,7 @@ data:
       the physical realization e.g. by a mechanism or key initiating an operation;
       the device may a small part or a major portion of an instrument.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -43,6 +47,7 @@ data:
       the physical realization, e.g. by a mechanism, a key or software initiating
       an operation. The device may be a small part or a major portion of an instrument.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -60,6 +65,7 @@ data:
       by a mechanism or a key initiating an operation. The device may be a small part
       or a major portion of a filling instrument.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -74,6 +80,7 @@ data:
     notes:
     - applied to any part which uses any means to perform one or more specific functions.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -91,6 +98,7 @@ data:
       by a mechanism or a key initiating an operation; the device may be a small part
       or a major portion of an instrument.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -108,6 +116,7 @@ data:
       physical realization e.g. by a mechanism or a key initiating an operation; the
       device may be a small part or a major portion of the AGFI.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -125,6 +134,7 @@ data:
       by a mechanism or a key initiating an operation; the device may be a small part
       or a major portion of an instrument.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -142,6 +152,7 @@ data:
       by a mechanism, a key or software initiating an operation. The device may be
       a small part or a major portion of an instrument'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

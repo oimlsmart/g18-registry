@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: construction of an instrument
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -27,6 +30,7 @@ data:
       the physical realization, e.g. by a mechanism o key initiating an operation.
       The device may a small part or a major portion of an instrument.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -44,6 +48,7 @@ data:
       e.g. by a mechanism or a key initiating an operation. The device may be a small
       part or a major portion of an instrument.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

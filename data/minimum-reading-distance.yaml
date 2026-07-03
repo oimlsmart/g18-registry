@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: minimum reading distance
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -27,6 +30,7 @@ data:
       0.8 m in front of the displaying device (see Figure 2)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -43,6 +47,7 @@ data:
       0.8 m in front of the displaying device (see Figure 2)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

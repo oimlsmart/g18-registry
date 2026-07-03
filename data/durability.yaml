@@ -6,11 +6,11 @@ data:
   - type: expression
     status: preferred
     text: durability
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
-    source: OIML D011:2004
-    id: '3.17'
-    url:
   editions_present:
   - '2010'
   - 202X
@@ -28,6 +28,7 @@ data:
       over a period of use
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -42,13 +43,9 @@ data:
       over a period of use
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
-    related:
-    - type: see
-      ref:
-        source: OIML D011:2004
-        id: '3.17'
   - edition: '2010'
     publication: OIML R 85-1:2008
     publication_id: OIML R085-1:2008
@@ -61,6 +58,7 @@ data:
       a period of use
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -75,6 +73,7 @@ data:
       over a period of use IML D 11: 2004, 3.17]"
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -89,6 +88,7 @@ data:
       over a period of use, for electronic purposes
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -103,6 +103,7 @@ data:
       performance characteristics over a period of use
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -117,6 +118,7 @@ data:
       over a period of use dapted from OIML D 11]"
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -131,6 +133,7 @@ data:
       over a period of use
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -145,6 +148,7 @@ data:
       over a period of use
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -159,13 +163,9 @@ data:
       over a period of use
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
-    related:
-    - type: see
-      ref:
-        source: OIML D011:2004
-        id: '3.17'
   - edition: '2010'
     publication: OIML R 135:2004
     publication_id: OIML R135:2004
@@ -178,13 +178,9 @@ data:
       over a stated period of use
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
-    related:
-    - type: see
-      ref:
-        source: OIML D011:2004
-        id: '3.17'
   - edition: '2010'
     publication: OIML R 134:2003
     publication_id: OIML R134:2003
@@ -197,6 +193,7 @@ data:
       over a period of use
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -211,6 +208,7 @@ data:
       over a period of use
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -225,6 +223,7 @@ data:
       characteristics over a period of use
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -240,6 +239,7 @@ data:
       “measuring instrument”]'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -251,9 +251,16 @@ data:
     link:
     g18_entry: '03010'
     definition: ability of the measuring instrument to maintain its performance characteristics
-      over a period of use [OIML V 1:2022, 5.15]
+      over a period of use
     notes: []
     examples: []
+    source:
+      kind: viml
+      relationship: identical
+      modification:
+      ref_source: OIML V 1:2022
+      ref_id: '5.15'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -265,9 +272,16 @@ data:
     link:
     g18_entry: '03012'
     definition: ability of the measuring instrument to maintain its performance characteristics
-      over a period of use [OIML V1:2013, 5.15]
+      over a period of use
     notes: []
     examples: []
+    source:
+      kind: viml
+      relationship: identical
+      modification:
+      ref_source: OIML V 1:2013
+      ref_id: '5.15'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -279,9 +293,16 @@ data:
     link:
     g18_entry: '03015'
     definition: ability of a measuring instrument to maintain its performance characteristics
-      over a period of use [VIML, 5.15]
+      over a period of use
     notes: []
     examples: []
+    source:
+      kind: viml
+      relationship: identical
+      modification:
+      ref_source: OIML V 1:2013
+      ref_id: '5.15'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -296,6 +317,7 @@ data:
       over a period of use [VIML:2013, 5.15]
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -310,6 +332,7 @@ data:
       over a period of use
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -324,6 +347,13 @@ data:
       over a period of use
     notes: []
     examples: []
+    source:
+      kind: viml
+      relationship: identical
+      modification:
+      ref_source: OIML V 1:2013
+      ref_id: '5.15'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -335,9 +365,16 @@ data:
     link:
     g18_entry: '02328-R046-1'
     definition: ability of the measuring instrument to maintain its performance characteristics
-      over a period of use [OIML V1:2013, 5.15]
+      over a period of use
     notes: []
     examples: []
+    source:
+      kind: viml
+      relationship: identical
+      modification:
+      ref_source: OIML V 1:2013
+      ref_id: '5.15'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -349,9 +386,10 @@ data:
     link:
     g18_entry: '02666'
     definition: ability of a measuring instrument to maintain its performance characteristics
-      over a period of use [OIML D11, 3.17]
+      over a period of use
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -366,6 +404,7 @@ data:
       over a period of use
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -380,6 +419,7 @@ data:
       over a period of use
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -394,6 +434,7 @@ data:
       a period of use
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -404,10 +445,11 @@ data:
     clause: T.3.10
     link: https://www.oiml.org/en/files/pdf_R/r107-1-e07.pdf
     g18_entry: '01372'
-    definition: 'ability of an instrument to maintain its performance characteristics
-      over a period of use [OIML D 11: 2004, 3.17]'
+    definition: ability of an instrument to maintain its performance characteristics
+      over a period of use
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -422,6 +464,7 @@ data:
       performance characteristics over a period of use
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -436,6 +479,7 @@ data:
       over a period of use
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -450,6 +494,7 @@ data:
       over a period of use
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -464,6 +509,7 @@ data:
       over a period of use
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -475,16 +521,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r135-e04.pdf
     g18_entry: '01871'
     definition: ability of a measuring instrument to maintain its performance characteristics
-      over a stated period of use [OIML D 11, 3.17]
+      over a stated period of use
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current
 id: 57922ed0-ea30-50bf-ba4b-eec82422fe44
 schema_version: '3'
-related:
-- type: see
-  ref:
-    source: OIML D011:2004
-    id: '3.17'
+related: []

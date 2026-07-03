@@ -6,9 +6,15 @@ data:
   - type: expression
     status: preferred
     text: characteristic partial internal absorbance
+    usage_info:
+    field:
+    international: false
   - type: symbol
     status: preferred
     text: stem:[A_{"c"} = lg(Phi_{"r"}/Phi_{"s"}) = epsilon b c]
+    usage_info:
+    field:
+    international: true
   kind: undefined
   official_concept:
   editions_present:
@@ -34,6 +40,7 @@ data:
     - '9.'
     - 3. Adapted from ISO 6286, Table 2, Nos. 19 and 20.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -52,6 +59,7 @@ data:
       the optical cell containing this solution is corrected for. Conditions for validity:
       see 2.9. Adapted from ISO 6286, Table 2, Nos. 19 and 20.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

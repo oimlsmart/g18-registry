@@ -6,9 +6,15 @@ data:
   - type: expression
     status: preferred
     text: power factor
+    usage_info:
+    field:
+    international: false
   - type: abbreviation
     status: preferred
     text: PF
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -29,6 +35,7 @@ data:
       the power factor = cos  = the cosine of the phase difference   between voltage
       U and current I.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

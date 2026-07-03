@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: quality manual
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -27,6 +30,7 @@ data:
     - Quality manuals can vary in detail and format to suit the size and complexity
       of an individual organization.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -43,6 +47,7 @@ data:
     - 'Note: Quality manuals can vary in detail and format to suit the size and complexity
       of an individual  organization.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

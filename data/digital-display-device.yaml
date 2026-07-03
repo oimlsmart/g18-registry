@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: digital display (device)
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -23,11 +26,11 @@ data:
     definition: output device that allows actual information to be visualized in volatile
       digital format
     notes:
-    - 'Note 1: A digital display may concern a primary display or a secondary display.
-      Note 2: The terms “primary display” and “secondary display” should not be confused
-      with the terms “primary indication” and “secondary indication” (3.5.1.1. and
-      3.5.1.2).'
+    - A digital display may concern a primary display or a secondary display.
+    - The terms "primary display" and "secondary display" should not be confused with
+      the terms "primary indication" and "secondary indication" (3.5.1.1. and 3.5.1.2).
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

@@ -6,12 +6,21 @@ data:
   - type: expression
     status: preferred
     text: dimensional weight
+    usage_info:
+    field:
+    international: false
   - type: abbreviation
     status: preferred
     text: Dim Wt
+    usage_info:
+    field:
+    international: false
   - type: abbreviation
     status: admitted
     text: DW
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -30,6 +39,7 @@ data:
       dimensional volume (see 2.2.4) or measured dimensions (see 2.2.3)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

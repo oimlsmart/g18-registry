@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: retention time stem:[t_{r}] for a measurement
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -28,6 +31,7 @@ data:
       = the time for the mobile phase to proceed from the point of injection to the
       point of detection.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -45,6 +49,7 @@ data:
       tm = the time for the mobile phase to proceed from the point of injection to
       the point of detection.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

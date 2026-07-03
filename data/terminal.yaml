@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: terminal
+    usage_info:
+    field:
+    international: false
   kind: defined_in_viml
   official_concept:
     source: urn:oiml:pub:v:1:2022
@@ -37,6 +40,7 @@ data:
       processing device
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
     related:
@@ -59,6 +63,7 @@ data:
       of a weighing module or an analog data processing device
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -76,6 +81,7 @@ data:
       digital interface of a weighing module or an analog data processing device'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -92,6 +98,7 @@ data:
       processing device
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

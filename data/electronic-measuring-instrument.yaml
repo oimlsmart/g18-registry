@@ -6,11 +6,11 @@ data:
   - type: expression
     status: preferred
     text: electronic measuring instrument
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
-    source: OIML D011:2004
-    id: '3.1'
-    url:
   editions_present:
   - '2010'
   - 202X
@@ -31,13 +31,9 @@ data:
     - For the purpose of this Document, ancillary equipment, as long as it is subject
       to legal metrological control, is considered to be part of the measuring instrument.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
-    related:
-    - type: see
-      ref:
-        source: OIML D011:2004
-        id: '3.1'
   - edition: '2010'
     publication: OIML D 11:2004
     publication_id: OIML D011:2004
@@ -53,6 +49,7 @@ data:
     - equipment, provided that it is subject to metrological control, is considered
       to be a par of the measuring instrument.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -70,6 +67,7 @@ data:
       it is subject to legal metrological control, is considered to be part of the
       measuring instrument. [OIML D 11:2013, 3.1]'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -84,6 +82,7 @@ data:
       using electronic means and/or equipped with electronic devices
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -95,10 +94,10 @@ data:
     link:
     g18_entry: '03029'
     definition: instrument intended to measure an electrical or non-electrical quantity
-      using electronic means and/or equipped with electronic devices [OIML D 11:2013,
-      3.1]
+      using electronic means and/or equipped with electronic devices
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -116,13 +115,10 @@ data:
       is subject to metrological control, is considered to be a part of the measuring
       instrument.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current
 id: a2e94e61-e373-5a68-925b-d85d0e2b3687
 schema_version: '3'
-related:
-- type: see
-  ref:
-    source: OIML D011:2004
-    id: '3.1'
+related: []

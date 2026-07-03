@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: testing laboratory
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -31,6 +34,7 @@ data:
       Testing Laboratory of the OIML Issuing Authority.
     - 2. A Testing Laboratory may be a subcontractor of an inspection body.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -49,6 +53,7 @@ data:
     notes:
     - See Note under 3.11.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -63,6 +68,7 @@ data:
       determines the characteristics or performance of materials or products
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -77,6 +83,7 @@ data:
       determines the characteristics or performance of materials or products
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

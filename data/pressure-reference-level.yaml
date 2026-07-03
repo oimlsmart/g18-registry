@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: pressure reference level
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +29,7 @@ data:
       is related when the piston is at a specific operating level
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -41,6 +45,7 @@ data:
       is related when the piston is at a specific operating level
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: indications of an instrument
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -25,6 +28,7 @@ data:
     notes:
     - '"Indication", "indicate" or "indicating" includes both displaying and/or printing.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -40,6 +44,7 @@ data:
     - 'Note: “Indication”, “indicate” or “indicating” includes both displaying and/or
       printing.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

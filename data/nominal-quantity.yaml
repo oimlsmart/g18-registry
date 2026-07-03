@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: nominal quantity
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -27,6 +30,7 @@ data:
     - nominal quantity. (2) The nominal quantity must be declared in accordance with
       OIML R 79.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -39,11 +43,12 @@ data:
     g18_entry: '02500'
     definition: quantity of product in a prepackage declared on the label
     notes:
-    - 'Note 1:  The symbol “Qnom” is used to designate the nominal quantity. Note
-      2:  In some national legislation the nominal quantity of the product is referred
-      to as “net quantity”, “net contents”, “net mass” or “net volume”. Note 3:  The
-      nominal quantity should be declared in accordance with OIML R 79 [1].'
+    - The symbol "Qnom" is used to designate the nominal quantity.
+    - In some national legislation the nominal quantity of the product is referred
+      to as "net quantity", "net contents", "net mass" or "net volume".
+    - The nominal quantity should be declared in accordance with OIML R 79 [1].
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -57,6 +62,7 @@ data:
     definition: quantity of product in a prepackage declared on the label
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

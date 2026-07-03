@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: quantity of gas
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +29,7 @@ data:
       the time taken. This is the measurand ee 2.1.2)"
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -41,6 +45,7 @@ data:
       the time taken. The quantity of gas is the measurand concerned (see 0)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

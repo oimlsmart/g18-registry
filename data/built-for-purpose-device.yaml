@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: built-for-purpose device
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -22,10 +25,11 @@ data:
     g18_entry: '02911'
     definition: device constructed for the specific purpose of metrological task
     notes:
-    - 'Note 1: Built-for-purpose device include devices that may not incorporate an
-      operating system. Note 2: If an operating system is present, it is not directly
-      accessible.'
+    - Built-for-purpose device include devices that may not incorporate an operating
+      system.
+    - If an operating system is present, it is not directly accessible.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

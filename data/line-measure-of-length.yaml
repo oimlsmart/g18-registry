@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: line measure of length
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -25,6 +28,7 @@ data:
       by the shortest distance between the centers of two scale marks
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -39,6 +43,7 @@ data:
       by the shortest distance between the centers of two scale marks
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

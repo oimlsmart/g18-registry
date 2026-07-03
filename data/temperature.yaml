@@ -6,9 +6,15 @@ data:
   - type: expression
     status: preferred
     text: temperature
+    usage_info:
+    field:
+    international: false
   - type: symbol
     status: preferred
     text: stem:[t]
+    usage_info:
+    field:
+    international: true
   kind: undefined
   official_concept:
   editions_present:
@@ -28,6 +34,7 @@ data:
       scale, called the Kelvin scale, by t = T – 273.15 K.
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -43,6 +50,7 @@ data:
       1 °C at a constant lamp current
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

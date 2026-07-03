@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: conventional true capacity
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -28,6 +31,7 @@ data:
       after prior wetting of the interior of the vessel and draining for 30 seconds'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -45,6 +49,7 @@ data:
       after prior wetting of the interior of the vessel and draining for 30 seconds'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

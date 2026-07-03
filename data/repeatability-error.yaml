@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: repeatability error
+    usage_info:
+    field:
+    international: false
   kind: defined_in_vim
   official_concept:
     source: urn:oiml:pub:v:2:1993
@@ -36,6 +39,7 @@ data:
       carried out under the same conditions
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -51,6 +55,7 @@ data:
       out under the same conditions'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -66,6 +71,7 @@ data:
       of a same quantity carried out under the same conditions'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
     related:
@@ -86,6 +92,7 @@ data:
       from VIM:1993, 5.27]
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
     related:
@@ -106,6 +113,7 @@ data:
       condition 1 1 OIMLV 2-200:2012
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -120,6 +128,7 @@ data:
       tests under the same loading and environmental conditions of measurement
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -135,6 +144,7 @@ data:
       carried out under the same conditions
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -147,12 +157,19 @@ data:
     g18_entry: '02615'
     definition: difference between the highest and lowest results of successive measurements
       of the same load carried out under the same (or reasonably constant) conditions
-      of measurement [VIM 3.6]
+      of measurement
     notes:
     - 'Note: Repeatability conditions include: the same measurement procedure; the
       same operator; the same measuring instrument, used under the same conditions;
       the same location; repetition over a short period of time.'
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2007
+      ref_id: '3.6'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -168,6 +185,7 @@ data:
       out under the same conditions [adapted from VIM:2007, 2.21]'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

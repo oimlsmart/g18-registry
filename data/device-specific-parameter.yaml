@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: device specific parameter
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -30,6 +33,7 @@ data:
       parameters) by an authorized person"
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -50,6 +54,7 @@ data:
       person
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -70,6 +75,7 @@ data:
       person
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -89,6 +95,7 @@ data:
       parameters) by an authorized person
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

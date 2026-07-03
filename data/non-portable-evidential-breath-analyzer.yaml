@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: non-portable evidential breath analyzer
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +29,7 @@ data:
     - The use of non-portable EBA's in mobile laboratories may be considered, providing
       adapted conditions of transport are assured.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

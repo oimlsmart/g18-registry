@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: noise
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -30,6 +33,7 @@ data:
       over a minimum of half an hour'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -52,6 +56,7 @@ data:
     - ing an analysis, it can be mistaken for a e-eluting peak. Earlier eluting peaks
       are ally sharper and less easily confused wit g-term noise.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -70,6 +75,7 @@ data:
       an extended time period, for example, one-half hour'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -93,6 +99,7 @@ data:
       whether a production lot meets regulatory requirements are provided in OIML
       R 87 Net contents in packages'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -115,6 +122,7 @@ data:
       can be mistaken for a late-eluting peak. Earlier eluting peaks are usually sharper
       and less easily confused with long-term noise.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -133,6 +141,7 @@ data:
       an extended time period, for example, one-half hour'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

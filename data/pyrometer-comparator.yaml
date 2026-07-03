@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: pyrometer-comparator
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -24,6 +27,7 @@ data:
       temperature differences with no traceability needed (see 2.1.10)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

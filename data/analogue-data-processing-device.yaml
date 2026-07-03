@@ -6,9 +6,15 @@ data:
   - type: expression
     status: preferred
     text: analogue data processing device
+    usage_info:
+    field:
+    international: false
   - type: abbreviation
     status: preferred
     text: ADC
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -29,6 +35,7 @@ data:
       displaying it
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: measurement reproducibility (reproducibility)
+    usage_info:
+    field:
+    international: false
   kind: defined_in_vim
   official_concept:
     source: urn:oiml:pub:v:2:2012
@@ -31,13 +34,14 @@ data:
     g18_entry: '03725'
     definition: measurement precision under reproducibility conditions of measurement
     notes:
-    - 'Note 1: Relevant statistical terms are given in ISO 5725-1:1994 and ISO 5725-2:1994.
-      Note 2:In this Recommendation, the reproducibility of measurements between units
-      of the same type of instrument under reference conditions is assessed by the
-      standard deviation of differences (SDDI). The reproducibility of measurements
-      from one instrument when select influence factors are varied is assessed by
-      the magnitude of the error shift or fault.'
+    - Relevant statistical terms are given in ISO 5725-1:1994 and ISO 5725-2:1994.
+    - In this Recommendation, the reproducibility of measurements between units of
+      the same type of instrument under reference conditions is assessed by the standard
+      deviation of differences (SDDI). The reproducibility of measurements from one
+      instrument when select influence factors are varied is assessed by the magnitude
+      of the error shift or fault.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
     related:

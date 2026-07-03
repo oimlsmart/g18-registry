@@ -6,9 +6,15 @@ data:
   - type: expression
     status: preferred
     text: incident flux
+    usage_info:
+    field:
+    international: false
   - type: symbol
     status: preferred
     text: stem:[Phi_{0}]
+    usage_info:
+    field:
+    international: true
   kind: undefined
   official_concept:
   editions_present:
@@ -31,6 +37,7 @@ data:
     - '1.'
     - 2. The coherent SI unit is the watt (W).
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -44,9 +51,10 @@ data:
     definition: radiant luminous flux of the radiation striking an external surface
       of the medium
     notes:
-    - 'Note 1: ISO 6286, Table 1, No. 1. Note 2: The coherent SI unit is the watt
-      (W).'
+    - ISO 6286, Table 1, No. 1.
+    - The coherent SI unit is the watt (W).
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

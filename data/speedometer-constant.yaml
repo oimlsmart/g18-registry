@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: speedometer constant
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -29,6 +32,7 @@ data:
       used for both instruments
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -47,6 +51,7 @@ data:
       used for both instruments
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

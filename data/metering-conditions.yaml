@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: metering conditions
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -25,6 +28,7 @@ data:
       at the point of measurement (example: temperature and pressure of the liquid)'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -39,6 +43,7 @@ data:
       of measurement (temperature and pressure of the measured gas)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -53,6 +58,7 @@ data:
       the point of measurement (example: temperature and pressure of the water)'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -67,6 +73,7 @@ data:
       For example, temperature and pressure
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -81,6 +88,7 @@ data:
       the point of measurement EXAMPLE:Water temperature, water pressure.
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -95,6 +103,7 @@ data:
       at the point of measurement (example: temperature and pressure of the liquid)'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -109,6 +118,7 @@ data:
       of measurement (temperature and pressure of the measured gas)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -123,6 +133,7 @@ data:
       For example, temperature and pressure
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: detection limit for the instrument
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -29,6 +32,7 @@ data:
       as an output signal equal to some er multiple (for example, two or ten) of th
       se.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -46,6 +50,7 @@ data:
       and manufacturer’s literature. It is sometimes defined as an output signal equal
       to some other multiple (for example, two or ten) of the noise.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

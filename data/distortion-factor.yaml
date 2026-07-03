@@ -6,9 +6,15 @@ data:
   - type: expression
     status: preferred
     text: distortion factor
+    usage_info:
+    field:
+    international: false
   - type: symbol
     status: preferred
     text: stem:[d]
+    usage_info:
+    field:
+    international: true
   kind: undefined
   official_concept:
   editions_present:
@@ -26,10 +32,12 @@ data:
     definition: ratio of the r.m.s. value of the harmonic content to the r.m.s. value
       of the fundamental term
     notes:
-    - 'Note 1: The harmonic content is obtained e.g. by subtracting from a non-sinusoidal
-      alternating quantity its fundamental term. Note 2: The distortion factor is
-      usually expressed as a percentage. It is equivalent to THD, total harmonic distortion.'
+    - The harmonic content is obtained e.g. by subtracting from a non-sinusoidal alternating
+      quantity its fundamental term.
+    - The distortion factor is usually expressed as a percentage. It is equivalent
+      to THD, total harmonic distortion.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

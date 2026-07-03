@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: associative (selective combination) weigher
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -25,6 +28,7 @@ data:
       them to a fill
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

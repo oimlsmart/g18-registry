@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: compressed gaseous fuel measuring systems for vehicles
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +29,7 @@ data:
       system".
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -41,6 +45,7 @@ data:
     notes:
     - 'Note: Hereafter such a system is referred to as a “measuring system”.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

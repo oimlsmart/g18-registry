@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: manual adjustment facility
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -24,6 +27,7 @@ data:
     definition: facility allowing the adjustment of the instrument by the user
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -37,6 +41,7 @@ data:
     definition: facility allowing the adjustment of the instrument by the user
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

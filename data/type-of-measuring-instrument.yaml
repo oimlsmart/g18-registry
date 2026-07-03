@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: type of measuring instrument
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -23,6 +26,7 @@ data:
     definition: definite model of the category of instruments to which it conforms
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: gas separator
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -25,6 +28,7 @@ data:
       any mixed air or gases contained in the liquid
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -39,6 +43,7 @@ data:
       mixed air or gases contained in the liquid
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: magnetic permeability
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -24,6 +27,7 @@ data:
     definition: measure of the ability of a medium to modify a magnetic field
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -37,6 +41,7 @@ data:
     definition: "= 4 × 10-7 N A-2"
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

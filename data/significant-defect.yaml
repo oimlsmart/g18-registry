@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: significant defect
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -28,6 +31,7 @@ data:
       changes due to physical effects; e) a significant fault due to the effect of
       an influence quantity.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -42,6 +46,7 @@ data:
       instrument or a fault
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

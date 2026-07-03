@@ -6,9 +6,15 @@ data:
   - type: expression
     status: preferred
     text: portable breath alcohol analyzer
+    usage_info:
+    field:
+    international: false
   - type: abbreviation
     status: preferred
     text: portable EBA
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -29,6 +35,7 @@ data:
     - 'Note: In the scope of this Recommendation, portable EBAs are designated as
       use-case 3.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

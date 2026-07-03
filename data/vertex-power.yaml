@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: vertex power
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -29,6 +32,7 @@ data:
       lens, although the front vertex powe is required for certain purposes (for example
       in the measurement of some multifocal lenses).
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -47,6 +51,7 @@ data:
       lens, although the front vertex power is required for certain purposes (for
       example in the measurement of some multifocal lenses).'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

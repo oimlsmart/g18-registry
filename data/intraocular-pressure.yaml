@@ -6,9 +6,15 @@ data:
   - type: expression
     status: preferred
     text: intraocular pressure
+    usage_info:
+    field:
+    international: false
   - type: abbreviation
     status: preferred
     text: IOP
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -27,6 +33,7 @@ data:
       (mmHg) or kilopascals (kPa)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

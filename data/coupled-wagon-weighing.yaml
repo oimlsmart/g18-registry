@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: coupled wagon weighing
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -25,6 +28,7 @@ data:
       indication or printout of the individual wagons
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -38,6 +42,7 @@ data:
     definition: determining the individual wagon mass of a train of coupled wagons
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: minimum and maximum working temperatures, tmin and tmax
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -25,6 +28,7 @@ data:
       its metrological performance
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

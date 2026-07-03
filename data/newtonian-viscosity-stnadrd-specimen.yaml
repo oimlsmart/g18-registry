@@ -6,9 +6,15 @@ data:
   - type: expression
     status: preferred
     text: Newtonian viscosity stnadrd specimen
+    usage_info:
+    field:
+    international: false
   - type: abbreviation
     status: preferred
     text: VSS
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -30,6 +36,7 @@ data:
       uncertainty, and a statement of metrological traceability
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: sensitivity
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +29,7 @@ data:
       mass, stem:[M]: stem:[k] = stem:[Delta l/Delta M]'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -41,6 +45,7 @@ data:
       of the measured mass, m
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -64,6 +69,7 @@ data:
       chromatographic instruments are equipped with electronic integrators that provide
       preci measurements of relative peak areas.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -78,6 +84,7 @@ data:
       change in the stimulus (load applied)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -97,6 +104,7 @@ data:
       by the equation: where the symbols are the same as those defined in 3.12.1.'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -111,6 +119,7 @@ data:
       point and the corresponding increase in pressure
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -124,12 +133,14 @@ data:
     definition: quotient of change in an indication of measuring system and the corresponding
       change in a value of quantity being measured (OIML V 2-200, 4.12)
     notes:
-    - 'Note 1: Sensitivity of measuring system can depend on the value of the quantity
-      being measured. Note 2: The change considered in a value of a quantity being
-      measured must be large compared with the resolution. Note 3: In the scope of
-      this Recommendation, sensitivity relates to the added substance which is not
-      identical with the measurand.'
+    - Sensitivity of measuring system can depend on the value of the quantity being
+      measured.
+    - The change considered in a value of a quantity being measured must be large
+      compared with the resolution.
+    - In the scope of this Recommendation, sensitivity relates to the added substance
+      which is not identical with the measurand.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -145,6 +156,7 @@ data:
       M: k = l / M'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -160,6 +172,7 @@ data:
       mass, m
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -189,6 +202,7 @@ data:
       instruments are equipped with electronic integrators that provide precise measurements
       of relative peak areas.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -203,6 +217,7 @@ data:
       change in the stimulus.
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -222,6 +237,7 @@ data:
       by the equation: where the symbols are the same as those defined in 3.12.1.'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -236,6 +252,7 @@ data:
       point and the corresponding increase in pressure
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

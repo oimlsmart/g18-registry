@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: gross) calorific value
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -27,12 +30,14 @@ data:
       of these products being in the gaseous state except for water formed by combustion,
       which is condensed to the liquid state at this specified temperature
     notes:
-    - 'Note 1:  In the following parts of this Recommendation, calorific value is
-      used for gross calorific value. Note 2:  The condensation enthalpy and combustion
-      enthalpy depend directly upon the temperature and pressure; consequently the
-      energy at base conditions is considered. Note 3:  The calorific value should
-      be determined on a mass or volumetric basis. Note 4: (adapted from ISO 6976)'
+    - In the following parts of this Recommendation, calorific value is used for gross
+      calorific value.
+    - The condensation enthalpy and combustion enthalpy depend directly upon the temperature
+      and pressure; consequently the energy at base conditions is considered.
+    - The calorific value should be determined on a mass or volumetric basis.
+    - Adapted from ISO 6976.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

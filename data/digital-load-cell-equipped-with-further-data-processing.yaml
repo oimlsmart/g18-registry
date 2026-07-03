@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: digital load cell equipped with further data processing
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -25,6 +28,7 @@ data:
       and includes further digital processing (e.g.scaling) (Figure 2, A-F)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

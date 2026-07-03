@@ -6,12 +6,21 @@ data:
   - type: expression
     status: preferred
     text: roughness parameter or R-parameter
+    usage_info:
+    field:
+    international: false
   - type: symbol
     status: preferred
     text: stem:[R_{"a"}]
+    usage_info:
+    field:
+    international: false
   - type: symbol
     status: admitted
     text: stem:[R_{"z"}]
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -33,6 +42,7 @@ data:
       or P-parameter, a waviness profile or W-parameter'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

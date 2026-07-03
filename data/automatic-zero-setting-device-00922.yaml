@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: automatic zero-setting device
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -25,6 +28,7 @@ data:
       intervention of an operato
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -39,6 +43,7 @@ data:
       intervention of an operator
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -53,6 +58,7 @@ data:
       intervention of an operator
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -67,6 +73,7 @@ data:
       intervention of an operator
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -81,6 +88,7 @@ data:
       of an operator
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -95,6 +103,7 @@ data:
       of the operator after the belt has been operating empty
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -109,6 +118,7 @@ data:
       intervention of an operator
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -123,6 +133,7 @@ data:
       of the operator
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -137,6 +148,7 @@ data:
       intervention of an operator
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -151,6 +163,7 @@ data:
       of the operator after the belt has been operating empty
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -165,6 +178,7 @@ data:
       of an operator
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -179,6 +193,7 @@ data:
       intervention of an operator
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -193,6 +208,7 @@ data:
       intervention of an operator
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -207,6 +223,7 @@ data:
       of an operator
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -221,6 +238,7 @@ data:
       intervention of an operator
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

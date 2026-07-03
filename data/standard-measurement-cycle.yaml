@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: standard measurement cycle
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -27,6 +30,7 @@ data:
     - 'Note: Since national authorities may define specific measurement cycles for
       their country, “standard” refers to the respective country.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

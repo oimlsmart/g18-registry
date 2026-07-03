@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: measurement section
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -23,12 +26,13 @@ data:
     definition: a straight or curved section of the road, where the measured vehicle
       was driving during the measurement
     notes:
-    - 'Note 1: Its starting and end points are defined such that the measured speed
-      value refers to the average speed on the measurement section. Note 2: In a manual
-      measurement, the measured vehicle drives on the measurement section after the
-      measurement is triggered. In an automatic measurement, the measured vehicle
-      exits the measurement section at the trigger line.'
+    - Its starting and end points are defined such that the measured speed value refers
+      to the average speed on the measurement section.
+    - In a manual measurement, the measured vehicle drives on the measurement section
+      after the measurement is triggered. In an automatic measurement, the measured
+      vehicle exits the measurement section at the trigger line.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

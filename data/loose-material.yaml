@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: loose material
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +29,7 @@ data:
       (e.g. front-end loader) or in a separate container (garbage weigher)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -41,6 +45,7 @@ data:
       (e.g. front-end loader) or in a separate container (garbage weigher)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: digital data processing device
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -27,6 +30,7 @@ data:
       etc.) to operate the instrument
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -43,6 +47,7 @@ data:
       etc.) to operate the instrument
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -59,6 +64,7 @@ data:
       etc.) to operate the instrument
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -72,6 +78,7 @@ data:
     definition: electronic device that processes digital data
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -85,6 +92,7 @@ data:
     definition: electronic device that processes digital data
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -101,6 +109,7 @@ data:
       etc.) to operate the instrument
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -117,6 +126,7 @@ data:
       etc.) to operate the instrument
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -133,6 +143,7 @@ data:
       etc.) to operate the instrument
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

@@ -6,9 +6,15 @@ data:
   - type: expression
     status: preferred
     text: error of indication
+    usage_info: of a measuring instrument
+    field:
+    international: false
   - type: symbol
     status: preferred
     text: stem:[E]
+    usage_info:
+    field:
+    international: true
   kind: defined_in_vim
   official_concept:
     source: urn:oiml:pub:v:2:1993
@@ -37,6 +43,7 @@ data:
       of the measurand
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -51,6 +58,13 @@ data:
       value of the mass
     notes: []
     examples: []
+    source:
+      kind: vim
+      relationship: modified
+      modification:
+      ref_source: OIML V 2-200:1993
+      ref_id: '5.20'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
     related:
@@ -70,6 +84,7 @@ data:
       5.20. the corresponding input quantity
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
     related:
@@ -91,6 +106,7 @@ data:
     - Note:This reference value is sometimes referred to as a (conventional) true
       quantity value. See, however also OIML V 2-200:2012. 2.12, Note 1)
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -101,10 +117,16 @@ data:
     clause: 3.1.4
     link:
     g18_entry: '03047'
-    definition: indication minus a reference quantity value [OIML V 2-200:2012. 4.1]
-      [OIML V 1:2013, 0.04]
+    definition: indication minus a reference quantity value
     notes: []
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2012
+      ref_id: '4.1'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -115,9 +137,16 @@ data:
     clause: 2.3.1
     link:
     g18_entry: '03045'
-    definition: indicated value minus a reference quantity value [VIML, 0.04]
+    definition: indicated value minus a reference quantity value
     notes: []
     examples: []
+    source:
+      kind: viml
+      relationship: identical
+      modification:
+      ref_source: OIML V 1:2013
+      ref_id: '0.04'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -133,6 +162,7 @@ data:
     - 'Note: This reference value is sometimes referred to as a (conventional) true
       quantity value. [VIML:2013, 0.04]'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -146,6 +176,13 @@ data:
     definition: indication minus a reference quantity value
     notes: []
     examples: []
+    source:
+      kind: viml
+      relationship: identical
+      modification:
+      ref_source: OIML V 1:2013
+      ref_id: '0.04'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -160,6 +197,7 @@ data:
       value of the corresponding input quantity [adapted from VIM:1993, 5.20].
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

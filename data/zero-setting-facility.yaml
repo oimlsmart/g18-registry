@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: zero-setting facility
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -24,6 +27,7 @@ data:
     definition: facility to set the indication of the instrument to zero
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -37,6 +41,7 @@ data:
     definition: facility to set the indication of the instrument to zero
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

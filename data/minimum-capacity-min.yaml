@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: minimum capacity, Min
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -24,6 +27,7 @@ data:
     definition: smallest discrete load that can be weighed automatically
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -38,6 +42,7 @@ data:
       an excessive relative error
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -51,6 +56,7 @@ data:
     definition: minimum force that the force receptor is intended to measure
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -67,6 +73,7 @@ data:
     - 'Note: For AGFIs which accomplish the fill by one weighing cycle the minimum
       capacity, Min, is equal to the rated minimum fill, Minfill.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -81,6 +88,7 @@ data:
       may be subject to an excessive relative error
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -94,6 +102,7 @@ data:
     definition: smallest discrete load that can be weighed automatically
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -108,6 +117,7 @@ data:
       an excessive relative error
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

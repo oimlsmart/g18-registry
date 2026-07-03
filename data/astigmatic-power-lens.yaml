@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: astigmatic power lens
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -28,6 +31,7 @@ data:
     - corresponding focal line at infinity. Lenses referred to as toric lenses, sphero-cylindrical
       lenses and cylinder lenses are all astigmatic.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -46,6 +50,7 @@ data:
       infinity. Lenses referred to as toric lenses, sphero-cylindrical lenses and
       cylinder lenses are all astigmatic.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

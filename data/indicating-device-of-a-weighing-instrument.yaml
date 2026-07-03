@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: indicating device (of a weighing instrument)
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +29,7 @@ data:
       the standard deviation of a number of consecutive weighings"
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -42,6 +46,7 @@ data:
       related quantities or parameters of a number of consecutive weighings'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: tare device
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -30,6 +33,7 @@ data:
       of an operator)"
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -49,6 +53,7 @@ data:
       of an operator)."
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -68,6 +73,7 @@ data:
       operator)"
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -87,6 +93,7 @@ data:
       a single manual command), c) an automatic device (load balanced automatically
       without the intervention of an operator).'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -105,6 +112,7 @@ data:
       device (load balanced automatically without the intervention of an operator)'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -124,6 +132,7 @@ data:
       operator).'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

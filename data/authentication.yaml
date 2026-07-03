@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: authentication
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +29,7 @@ data:
       the type approval certificate)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -42,6 +46,7 @@ data:
     - 'Note: This may be necessary when checking that downloaded software originates
       from the owner of the certificate.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -58,6 +63,7 @@ data:
     - 'Note: This may be necessary when checking that downloaded software originates
       from the owner of the certificate.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

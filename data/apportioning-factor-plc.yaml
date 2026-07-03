@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: apportioning factor (pLC)
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +29,7 @@ data:
     notes:
     - 'Note: This value is used in determining the MPE (see 3.7.10).'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

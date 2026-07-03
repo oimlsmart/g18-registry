@@ -6,12 +6,21 @@ data:
   - type: expression
     status: preferred
     text: working density
+    usage_info:
+    field:
+    international: false
   - type: symbol
     status: preferred
     text: stem:[rho_{"w"}]
+    usage_info:
+    field:
+    international: true
   - type: symbol
     status: preferred
     text: stem:[rho_{w}]
+    usage_info:
+    field:
+    international: true
   kind: undefined
   official_concept:
   editions_present:
@@ -31,6 +40,7 @@ data:
       pw and tw
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -45,6 +55,7 @@ data:
       stem:[rho_{"w"}] and stem:[t_{"w"}]
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

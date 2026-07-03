@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: active power
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -29,6 +32,7 @@ data:
       of the r.m.s. values of current and voltage and the cosine of the phase angle
       between them, calculated for each phase. It is usually expressed in kW:'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

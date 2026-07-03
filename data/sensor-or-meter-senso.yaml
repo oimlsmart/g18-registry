@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: sensor or meter senso
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -25,6 +28,7 @@ data:
       to be measured and which converts the flow into a signal destined for the transducer
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -39,6 +43,7 @@ data:
       to be measured, which converts the flow into a signal destined for the transducer
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: open network
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +29,7 @@ data:
       and unknown to the other participants (see also Closed network)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -40,9 +44,10 @@ data:
       functions). The number, identity and location of a participant can be dynamic
       and unknown to the other participants. This is in contrast to a closed network
       [D 31, 3.1.6] which is a network of a fixed number of participants with a known
-      identity functionality and location [OIML D 31, 3.1.35]
+      identity functionality and location
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -54,13 +59,14 @@ data:
     link:
     g18_entry: '02810'
     definition: network of arbitrary participants (electronic devices with arbitrary
-      functions) [OIML D31:2008, 3.1.35]
+      functions)
     notes:
     - Note:The number, identity and location of a participant can be dynamic and unknown
       to the other participants. This is in contrast to a closed network [OIML D 31:2008,
       3.1.6] which is a network of a fixed number of participants with a known identity
       functionality and location.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

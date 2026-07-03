@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: accuracy of a grain moisture calibration calibration accuracy
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -31,6 +34,7 @@ data:
       SDD from measured values. The limiting values for  and SDD in column 2, Table
       4.4.1 shall be observed in order to deem a calibration as sufficiently accurate.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

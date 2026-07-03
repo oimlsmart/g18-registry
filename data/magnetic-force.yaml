@@ -6,24 +6,45 @@ data:
   - type: expression
     status: preferred
     text: magnetic force
+    usage_info:
+    field:
+    international: false
   - type: symbol
     status: preferred
     text: stem:[F_{"a"}]
+    usage_info:
+    field:
+    international: true
   - type: symbol
     status: preferred
     text: stem:[F_{"b"}]
+    usage_info:
+    field:
+    international: true
   - type: symbol
     status: preferred
     text: stem:[F_{"max"}]
+    usage_info:
+    field:
+    international: true
   - type: symbol
     status: preferred
     text: stem:[F_{1}]
+    usage_info:
+    field:
+    international: true
   - type: symbol
     status: preferred
     text: stem:[F_{2}]
+    usage_info:
+    field:
+    international: true
   - type: symbol
     status: preferred
     text: stem:[F_{z}]
+    usage_info:
+    field:
+    international: true
   kind: undefined
   official_concept:
   editions_present:
@@ -43,6 +64,7 @@ data:
       magnetic fields
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -56,6 +78,7 @@ data:
     definition: measure of the ability of a medium to modify a magnetic field
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

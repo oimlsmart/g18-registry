@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: blank reference solution
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -25,6 +28,7 @@ data:
       and that normally consists of a pure solvent such as deionized water
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -39,6 +43,7 @@ data:
       normally consists of a pure solvent such as de-ionized water
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

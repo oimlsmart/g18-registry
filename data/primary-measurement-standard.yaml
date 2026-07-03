@@ -6,9 +6,15 @@ data:
   - type: expression
     status: preferred
     text: primary measurement standard
+    usage_info:
+    field:
+    international: false
   - type: expression
     status: admitted
     text: primary standard
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -24,10 +30,17 @@ data:
     link:
     g18_entry: '03385'
     definition: measurement standard established using a primary reference measurement
-      procedure, or crated as an artifact, chosen by convention For examples see [VIM,
-      5.4] [VIM, 5.4]
-    notes: []
+      procedure, or crated as an artifact, chosen by convention
+    notes:
+    - For examples see [VIM, 5.4]
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2012
+      ref_id: '5.4'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
 status: current

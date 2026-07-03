@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: durability error
+    usage_info:
+    field:
+    international: false
   kind: defined_in_viml
   official_concept:
     source: urn:oiml:pub:v:1:2022
@@ -34,6 +37,7 @@ data:
       initial intrinsic error of an instrument
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -48,6 +52,7 @@ data:
       initial intrinsic error of a measuring instrument
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -62,6 +67,7 @@ data:
       D 11, 3.11] the initial intrinsic error of a measuring instrument
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -76,6 +82,7 @@ data:
       initial intrinsic error
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -90,6 +97,7 @@ data:
       the initial intrinsic error of a measuring system
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -104,6 +112,7 @@ data:
       initial intrinsic error of a measuring instrument
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
     related:
@@ -120,10 +129,16 @@ data:
     link:
     g18_entry: '03016'
     definition: difference between the intrinsic error after a period of use and the
-      initial intrinsic error [OIML V1:2013, 5.11] of a measuring instrument [OIML
-      V1:2013, 5.16]
+      initial intrinsic error [OIML V1:2013, 5.11] of a measuring instrument
     notes: []
     examples: []
+    source:
+      kind: viml
+      relationship: identical
+      modification:
+      ref_source: OIML V 1:2013
+      ref_id: '5.16'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -135,9 +150,16 @@ data:
     link:
     g18_entry: '03018'
     definition: difference between the intrinsic error after a period of use and the
-      initial intrinsic error of a measuring instrument [VIML 5.16]
+      initial intrinsic error of a measuring instrument
     notes: []
     examples: []
+    source:
+      kind: viml
+      relationship: identical
+      modification:
+      ref_source: OIML V 1:2013
+      ref_id: '5.16'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -152,6 +174,7 @@ data:
       initial intrinsic error of a measuring instrument [VIML:2013, 5.16]
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -166,6 +189,13 @@ data:
       initial intrinsic error of a measuring instrument
     notes: []
     examples: []
+    source:
+      kind: viml
+      relationship: identical
+      modification:
+      ref_source: OIML V 1:2013
+      ref_id: '5.16'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -180,6 +210,7 @@ data:
       initial intrinsic error of an instrument
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -191,9 +222,10 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r135-e04.pdf
     g18_entry: '01872'
     definition: difference between the intrinsic error over a period of use and the
-      initial intrinsic error of a measuring instrument [OIML D 11, 3.11]
+      initial intrinsic error of a measuring instrument
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -208,6 +240,7 @@ data:
       initial intrinsic error
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: energy resolution
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -27,6 +30,7 @@ data:
       height of the manganese K-alpha line (5.9 keV) in units of energy or in percent
       as related to the energy of the peak.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

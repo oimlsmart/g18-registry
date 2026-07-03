@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: bottom loading
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +29,7 @@ data:
       the bottom of the measuring compartment and opened for this purpose
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -41,6 +45,7 @@ data:
       the bottom of the measuring compartment and opened for this purpose
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -56,6 +61,7 @@ data:
       the bottom of the measuring compartment and opened for this purpose
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

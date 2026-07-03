@@ -6,9 +6,15 @@ data:
   - type: expression
     status: preferred
     text: ancillary device
+    usage_info:
+    field:
+    international: false
   - type: expression
     status: preferred
     text: Ancillary device
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -31,6 +37,7 @@ data:
     examples:
     - 'of ancillary devices: ero setting device; epeating indicating device; rinting
       device; emory device; rice indicating device; onversion device.'
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -48,6 +55,7 @@ data:
     - for the purpose of this Recommendation ancillary equipment, in so far as it
       is subject t metrological control, is considered to be part of the ALG.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -62,6 +70,7 @@ data:
       in elaborating, transmitting or displaying results
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -80,6 +89,7 @@ data:
       indicating device, * correction device, * conversion device, * pre-setting device,
       * self-service device.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -99,6 +109,7 @@ data:
     - An ancillary device may or may not be subject to legal metrology control according
       to its function in the measuring system or to national regulations.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -121,6 +132,7 @@ data:
       or constitutes peripheral equipment linked to the calculator by means of an
       interface.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -141,6 +153,7 @@ data:
     - An ancillary device may or may not be subject legal metrological control according
       to ional regulations.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -159,6 +172,7 @@ data:
     - 1. An ancillary device is not necessarily subject to metrological control.
     - 2. An ancillary device may be integrated in the gas meter.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -174,6 +188,7 @@ data:
     notes: []
     examples:
     - are a printing device or a remote indicator.
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -189,6 +204,7 @@ data:
       data input terminal, etc.
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -202,16 +218,18 @@ data:
     definition: device intended to perform a specific function, directly involved
       in elaborating, transmitting or displaying measured values
     notes:
-    - 'Note 1: Fore the definition of “measures value”, see ISO/IEC Guide 99:2007/OIML
-      V 2-200:2012 (VIM) 2.10, [1]. Note 2: The main ancillary device are: zero-setting
-      device; price-indicationg device; repeating indicating device; printing device;
-      memory device; traffi control device; pre-setting device; self-service device;
-      flow sensor movement detector (for detecting movement of the flow sensor before
-      is clearly visible on the indicationg device; remote or automatic reading device
-      (which may be incorporated permanently or added temporarily). Note 3: Depending
-      on national legislation, ancillary devices may be subject to legal metrological
-      control.'
+    - Fore the definition of "measures value", see ISO/IEC Guide 99:2007/OIML V 2-200:2012
+      (VIM) 2.10, [1].
+    - 'The main ancillary device are: zero-setting device; price-indicationg device;
+      repeating indicating device; printing device; memory device; traffi control
+      device; pre-setting device; self-service device; flow sensor movement detector
+      (for detecting movement of the flow sensor before is clearly visible on the
+      indicationg device; remote or automatic reading device (which may be incorporated
+      permanently or added temporarily).'
+    - Depending on national legislation, ancillary devices may be subject to legal
+      metrological control.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -223,14 +241,21 @@ data:
     link:
     g18_entry: '02859'
     definition: device intended to perform a particular function, directly involved
-      in elaborating, transmitting or displaying measurement results [VIML 5.06]
+      in elaborating, transmitting or displaying measurement results
     notes:
-    - 'Note 1: An ancillary device may or may not be subject to legal metrological
-      control according to its function in the measuring system or to national regulations.'
-    - 'Note 2: Main ancillary devices are: zero-setting device; repeating indicating
-      device; printing device; memory device, price indicating device; totalising
-      indicating device; pre-setting device; self-service device.'
+    - An ancillary device may or may not be subject to legal metrological control
+      according to its function in the measuring system or to national regulations.
+    - 'Main ancillary devices are: zero-setting device; repeating indicating device;
+      printing device; memory device, price indicating device; totalising indicating
+      device; pre-setting device; self-service device.'
     examples: []
+    source:
+      kind: viml
+      relationship: identical
+      modification:
+      ref_source: OIML V 1:2013
+      ref_id: '5.06'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -249,6 +274,7 @@ data:
       indicating device; correction device; conversion device; pre-setting device;
       self-service device.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -260,15 +286,21 @@ data:
     link:
     g18_entry: '02860'
     definition: device intended to perform a particular function, directly involved
-      in elaborating, transmitting or displaying measurement results [OIML V1:2013,
-      5.06]
+      in elaborating, transmitting or displaying measurement results
     notes:
-    - 'Note 1 An ancillary device may or may not be subject to legal metrology control
-      according to its function in the measuring system or to national regulations.
-      Note 2 Main ancillary devices are: zero-setting device; repeating indicating
-      device; printing device; memory device; price indicating device; totalizing
-      indicating device; presetting device; self-service device.'
+    - An ancillary device may or may not be subject to legal metrology control according
+      to its function in the measuring system or to national regulations.
+    - 'Main ancillary devices are: zero-setting device; repeating indicating device;
+      printing device; memory device; price indicating device; totalising indicating
+      device; presetting device; self-service device.'
     examples: []
+    source:
+      kind: viml
+      relationship: identical
+      modification:
+      ref_source: OIML V 1:2013
+      ref_id: '5.06'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -285,6 +317,7 @@ data:
       device; memory device; price indicating device; conversion device.'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -296,11 +329,17 @@ data:
     link:
     g18_entry: '02298-R046-1'
     definition: device intended to perform a particular function, directly involved
-      in elaborating, transmitting or displaying measurement results [OIML V1:2013,
-      5.06]
+      in elaborating, transmitting or displaying measurement results
     notes:
     - Note:An ancillary device is not part of the basic metrology function of a meter.
     examples: []
+    source:
+      kind: viml
+      relationship: identical
+      modification:
+      ref_source: OIML V 1:2013
+      ref_id: '5.06'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -316,9 +355,10 @@ data:
       devices are: repeating indicating device, printing device, memory device, and
       communication device.'
     notes:
-    - 'Note 1:An ancillary device is not necessarily subject to metrological control.
-      Note 2:   An ancillary device may be integrated in the gas meter.'
+    - An ancillary device is not necessarily subject to metrological control.
+    - An ancillary device may be integrated in the gas meter.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -335,6 +375,7 @@ data:
       memory device; price indicating device; conversion device.'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -349,6 +390,7 @@ data:
       in elaborating, transmitting or displaying  results
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -365,12 +407,12 @@ data:
       repeating indicating device; - printing device; - memory device; - totalizing
       indicating device; - conversion device.'
     notes:
-    - 'Note 1: An ancillary device may or may not be subject to legal metrology control
-      according to its function in the measuring system or to national regulations.'
-    - 'Note 2: An ancillary device may be integrated into the calculator, into the
-      meter, or constitutes peripheral equipment linked to the calculator by means
-      of an interface.'
+    - An ancillary device may or may not be subject to legal metrology control according
+      to its function in the measuring system or to national regulations.
+    - An ancillary device may be integrated into the calculator, into the meter, or
+      constitutes peripheral equipment linked to the calculator by means of an interface.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -386,6 +428,7 @@ data:
       Examples are a printing device or a remote indicator.
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -401,6 +444,7 @@ data:
       data input terminal, etc.
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -418,6 +462,7 @@ data:
     - 'Note: For the purpose of this Recommendation ancillary equipment, in so far
       as it is subject to metrological control, is considered to be part of the ALG.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

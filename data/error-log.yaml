@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: error log
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -27,6 +30,7 @@ data:
       values are used
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -42,6 +46,7 @@ data:
       of the measuring instrument
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -57,6 +62,7 @@ data:
       of the measuring instrument (OIML D 31, 3.1.15)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

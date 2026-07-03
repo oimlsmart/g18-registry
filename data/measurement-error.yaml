@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: "(measurement) error"
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -23,6 +26,13 @@ data:
     definition: measured quantity value minus a reference quantity value
     notes: []
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2012
+      ref_id: '2.16'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
 status: current

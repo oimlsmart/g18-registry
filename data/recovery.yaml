@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: recovery
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -25,6 +28,7 @@ data:
       that the properties of the equipment under test may be stabilized before measurement
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -39,6 +43,7 @@ data:
       (3.4.10), in order that its properties can be stabilized before measurement
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

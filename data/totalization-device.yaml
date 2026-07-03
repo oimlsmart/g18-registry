@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: totalization device
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -25,6 +28,7 @@ data:
       to bulk
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -41,6 +45,7 @@ data:
       the belt"
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -56,6 +61,7 @@ data:
       the product of the load per unit length and the speed of the belt
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -70,6 +76,7 @@ data:
       to bulk
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

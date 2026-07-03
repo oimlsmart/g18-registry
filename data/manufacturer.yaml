@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: manufacturer
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -28,6 +31,7 @@ data:
     - The instrument or other product can be ced by another business but it shall
       be placed on the market by and under the full responsibility of the manufacturer.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -42,6 +46,7 @@ data:
       otherwise specified
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -56,6 +61,7 @@ data:
       otherwise specified
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -70,6 +76,7 @@ data:
       the term is otherwise specified
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -84,6 +91,7 @@ data:
       designed or manufactured, and markets that product under his name or trademark
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -102,6 +110,7 @@ data:
       but it shall be placed on the market by and under the full responsibility of
       the manufacturer.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -116,6 +125,7 @@ data:
       otherwise specified
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -130,6 +140,7 @@ data:
       otherwise specified
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -144,6 +155,7 @@ data:
       the term is otherwise specified
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

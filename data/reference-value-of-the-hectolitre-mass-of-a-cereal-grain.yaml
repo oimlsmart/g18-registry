@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: reference value (of the hectolitre mass of a cereal grain)
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -24,6 +27,7 @@ data:
       that obtained by making the measurement with a national Standard Instrument
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

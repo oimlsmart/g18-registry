@@ -6,9 +6,15 @@ data:
   - type: expression
     status: preferred
     text: totalisation scale interval for testing
+    usage_info:
+    field:
+    international: false
   - type: symbol
     status: preferred
     text: stem:[e]
+    usage_info:
+    field:
+    international: true
   kind: undefined
   official_concept:
   editions_present:
@@ -29,6 +35,7 @@ data:
       the special mode is not available
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

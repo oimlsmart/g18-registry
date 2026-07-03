@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: legally relevant software part
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -25,6 +28,7 @@ data:
       device, or sub-assembly that is legally relevant
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -39,6 +43,7 @@ data:
       to legal control
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -50,12 +55,13 @@ data:
     link:
     g18_entry: '03189'
     definition: part of all software modules of measuring instrument, electronic device,
-      or sub-assembly that is legally relevant [OIML D 31, 3.1.31]
+      or sub-assembly that is legally relevant
     notes:
     - 'Note: Examples of legally relevant software are software involved in determining
       the final results of the measurement including the decimal sign and the unit,
       identifying the weighing range, software identification and configuration information.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

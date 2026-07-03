@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: interruptible and non-interruptible measuring system
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +29,7 @@ data:
       stop). In other cases the measuring system is considered to be non-interruptible
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -41,6 +45,7 @@ data:
       stop). In other cases, the measuring system is considered to be non-interruptible
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

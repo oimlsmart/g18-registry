@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: type-specific parameter
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -30,6 +33,7 @@ data:
       viscosity of a turbine is a type-specific parameter fixed by the type approval
       of the turbine. All the manufactured turbines of the same type have the same
       range of viscosity.
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -46,6 +50,7 @@ data:
       for fare calculation and rounding
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -63,6 +68,7 @@ data:
     examples:
     - Parameters used for weight value calculation, stability analysis or price calculation
       and rounding, software identification.
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -80,6 +86,7 @@ data:
     examples:
     - Parameters used for mass calculation, stability analysis or price calculation
       and rounding, software identification.
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -91,8 +98,7 @@ data:
     link:
     g18_entry: '03599'
     definition: legally relevant parameter with a value that depends on the type of
-      instrument, component and/or module subject ot legal control Adapted form [OIML
-      V 1:2022, 2.04]
+      instrument, component and/or module subject ot legal control
     notes:
     - 'Note: Type-specific parameters are part of the legally relevant software. Example:
       Considering a measuring system of liquids other than water, the range of kinematic
@@ -100,6 +106,13 @@ data:
       of the turbine. All the manufactured turbines of the same type have the same
       range of viscosity.'
     examples: []
+    source:
+      kind: viml
+      relationship: modified
+      modification:
+      ref_source: OIML V 1:2022
+      ref_id: '2.04'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -118,6 +131,7 @@ data:
       value calculation, stability analysis or price calculation and rounding, software
       identification'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -135,6 +149,7 @@ data:
       of type-specific parameters are: parameters used for weight value calculation,
       stability analysis or price calculation and rounding, software identification'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -152,6 +167,7 @@ data:
       software identification'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -163,11 +179,12 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r021-e07.pdf
     g18_entry: '00352'
     definition: legally relevant parameter with a value that depends on the type of
-      taximeter only. They are fixed at type approval of the taximeter. Examples of
-      type-specific parameters include software identification and parameters used
-      for fare calculation and rounding
+      taximeter only. They are fixed at type approval of the taximeter
     notes: []
-    examples: []
+    examples:
+    - Type-specific parameters include software identification and parameters used
+      for fare calculation and rounding.
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -185,6 +202,7 @@ data:
       rounding, software identification.'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -202,6 +220,7 @@ data:
       rounding, software identification.'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

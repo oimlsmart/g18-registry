@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: putting into service (use)
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -25,6 +28,7 @@ data:
       for the purposes for which it was designed
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -39,6 +43,7 @@ data:
       for the purposes for which it was designed (OIML D 9, 2.23)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -53,6 +58,7 @@ data:
       for which it was intended, the use being defined by the manufacturer
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -67,6 +73,7 @@ data:
       for the purposes for which it was designed
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

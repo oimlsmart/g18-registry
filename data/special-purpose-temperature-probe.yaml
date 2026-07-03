@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: special purpose temperature probe
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -29,6 +32,7 @@ data:
       a plastic tube; however the y purpose of the probe is to transmit cavity sounds
       through the air or gas the tube to a stethoscope attached to its nd.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -48,6 +52,7 @@ data:
       through the air or gas within the tube to a stethoscope attached to its open
       end.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

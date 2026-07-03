@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: significant fault (for associated measuring instruments other than CVDDs)
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -29,6 +32,7 @@ data:
       the whole associated measuring instrument, or to the electronic part only, according
       to what is subject to the test.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

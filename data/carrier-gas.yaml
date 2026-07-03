@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: carrier gas
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -28,6 +31,7 @@ data:
       constitute the mobile phase
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -45,6 +49,7 @@ data:
       constitute the mobile phase
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -62,6 +67,7 @@ data:
       constitute the mobile phase
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -79,6 +85,7 @@ data:
       constitute the mobile phase
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

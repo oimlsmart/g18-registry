@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: storage device
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +29,7 @@ data:
       a commercial transaction)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -37,10 +41,17 @@ data:
     link:
     g18_entry: '03541'
     definition: devoice used for storing measurement that are necessary to construct
-      the measurement result adaptd form [OIML V 1:2022, 6.07]
+      the measurement result
     notes:
     - 'Note: See Annex C for clarification regarding measurement-related terms.'
     examples: []
+    source:
+      kind: viml
+      relationship: modified
+      modification:
+      ref_source: OIML V 1:2022
+      ref_id: '6.07'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
 status: current

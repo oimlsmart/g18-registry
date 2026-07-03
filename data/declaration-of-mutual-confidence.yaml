@@ -6,9 +6,15 @@ data:
   - type: expression
     status: preferred
     text: Declaration of Mutual Confidence
+    usage_info:
+    field:
+    international: false
   - type: abbreviation
     status: preferred
     text: DoMC
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -29,6 +35,7 @@ data:
       for a specified category of measuring instrument
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

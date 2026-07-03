@@ -6,9 +6,15 @@ data:
   - type: expression
     status: preferred
     text: calibration and measurement capability
+    usage_info:
+    field:
+    international: false
   - type: abbreviation
     status: preferred
     text: CMC
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -30,6 +36,7 @@ data:
       by a signatory to the ILAC Arrangement (CIPM MRA-G-13)'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

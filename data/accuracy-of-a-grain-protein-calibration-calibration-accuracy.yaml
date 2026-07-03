@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: accuracy of a grain protein calibration calibration accuracy
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -30,6 +33,7 @@ data:
       The limiting values for  and SEP in 4.5, Table 4 shall be observed in order
       to deem a calibration as sufficiently accurate.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: hash function
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -28,6 +31,7 @@ data:
     notes:
     - "[ISO/IEC 9594-8:2001]"
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -41,13 +45,15 @@ data:
     definition: "(mathematical) function which maps data of arbitrary size into data
       of fixed size called a digest adapted from [ISO/IEC 9594-8:2017] [3]"
     notes:
-    - 'Note 1: A “good” hash function is such that the results of applying the function
-      to a (large) set of values in the domain will be evenly distributed (and apparently
-      at random) over the range. Note 2: A cryptographic hash function has three additional
-      properties: collision-resistance, preimage resistance, and second preimage resistance,
-      where preimage resistance refers to the inability (computational infeasibility)
-      to reconstruct a preimage or message digest.'
+    - A "good" hash function is such that the results of applying the function to
+      a (large) set of values in the domain will be evenly distributed (and apparently
+      at random) over the range.
+    - 'A cryptographic hash function has three additional properties: collision-resistance,
+      preimage resistance, and second preimage resistance, where preimage resistance
+      refers to the inability (computational infeasibility) to reconstruct a preimage
+      or message digest.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -65,6 +71,7 @@ data:
       to a (large) set of values in the domain will be evenly distributed (and apparently
       at random) over the range.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

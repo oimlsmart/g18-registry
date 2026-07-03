@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: amount of substance concentration (c)
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +29,7 @@ data:
     - 'Note: The coherent SI unit is the mole per cubic metre (mol/m3), but the mole
       per litre (mol/l, mol/L) or its subunits are often preferred.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: weigh-price labeler
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -25,6 +28,7 @@ data:
       loads (e.g. prepackages with the weight value, unit price and price to pay)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

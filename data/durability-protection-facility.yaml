@@ -6,11 +6,11 @@ data:
   - type: expression
     status: preferred
     text: durability protection facility
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
-    source: OIML D011:2004
-    id: '3.19'
-    url:
   editions_present:
   - '2010'
   - 202X
@@ -28,6 +28,7 @@ data:
       enables significant durability errors to be detected and acted upon
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -42,13 +43,9 @@ data:
       the detection of and action upon significant durability errors
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
-    related:
-    - type: see
-      ref:
-        source: OIML D011:2004
-        id: '3.19'
   - edition: 202X
     publication: OIML D011:2013
     publication_id: OIML D011:2013
@@ -63,6 +60,7 @@ data:
     - Note:“Act upon” refers to any adequate response by the measuring instrument
       (luminous signal, acoustic signal, prevention of the measurement process, etc.).
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -77,13 +75,10 @@ data:
       the detection of and action upon significant durability errors
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current
 id: dadbfd4a-fe2f-57a7-8c44-cba4dfd081ba
 schema_version: '3'
-related:
-- type: see
-  ref:
-    source: OIML D011:2004
-    id: '3.19'
+related: []
