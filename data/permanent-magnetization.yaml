@@ -6,9 +6,15 @@ data:
   - type: expression
     status: preferred
     text: "(permanent) magnetization"
+    usage_info:
+    field:
+    international: false
   - type: symbol
     status: preferred
     text: stem:[M]
+    usage_info:
+    field:
+    international: true
   kind: undefined
   official_concept:
   editions_present:
@@ -30,6 +36,7 @@ data:
       field in space and thus may produce magnetic forces on other materials
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

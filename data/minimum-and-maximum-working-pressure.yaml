@@ -6,12 +6,21 @@ data:
   - type: expression
     status: preferred
     text: minimum and maximum working pressure
+    usage_info:
+    field:
+    international: false
   - type: symbol
     status: preferred
     text: stem:[p_{"max"}]
+    usage_info:
+    field:
+    international: true
   - type: symbol
     status: preferred
     text: stem:[p_{"min"}]
+    usage_info:
+    field:
+    international: true
   kind: undefined
   official_concept:
   editions_present:
@@ -31,6 +40,7 @@ data:
       performance
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

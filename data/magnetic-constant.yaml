@@ -6,12 +6,21 @@ data:
   - type: expression
     status: preferred
     text: magnetic constant
+    usage_info:
+    field:
+    international: false
   - type: expression
     status: admitted
     text: magnetic permeability of vacuum
+    usage_info:
+    field:
+    international: false
   - type: symbol
     status: preferred
     text: stem:[mu_{0}]
+    usage_info:
+    field:
+    international: true
   kind: undefined
   official_concept:
   editions_present:
@@ -30,6 +39,7 @@ data:
       displaystyle="true"><msub><mi>&#x3bc;</mi><mn>0</mn></msub><mo>=</mo><mn>4</mn><mi>&#x3c0;</mi><mo>&#xd7;</mo><msup><mn>10</mn><mrow><mo>&#x2212;</mo><mn>7</mn></mrow></msup><mi>N</mi><msup><mi>A</mi><mn>2</mn></msup></mstyle></math>
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

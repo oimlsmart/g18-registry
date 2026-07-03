@@ -6,12 +6,21 @@ data:
   - type: expression
     status: preferred
     text: maximum permissible errors
+    usage_info:
+    field:
+    international: false
   - type: abbreviation
     status: preferred
     text: mpe
+    usage_info:
+    field:
+    international: false
   - type: abbreviation
     status: preferred
     text: MPEs
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -38,6 +47,7 @@ data:
       case, obvious that it is the absolute maximum ssible error, associated with
       the relative um permissible error, which applies.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -52,6 +62,7 @@ data:
       etc. for a given liquid-in-glass thermometer.
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -66,6 +77,7 @@ data:
       etc. for a given measuring instrument
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -80,6 +92,7 @@ data:
       etc. for a given measuring instrument
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -96,6 +109,7 @@ data:
     notes:
     - Adapted from VIM:1993, 5.21.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -110,6 +124,7 @@ data:
       etc. for a given measuring instrument
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -125,6 +140,7 @@ data:
       of the measured pressure
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -139,6 +155,7 @@ data:
       etc. for a given liquid-in-glass thermometer.
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -153,6 +170,7 @@ data:
       etc. for a given measuring instrument
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -167,6 +185,7 @@ data:
       etc. for a given measuring instrument
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -181,6 +200,7 @@ data:
       etc. for a given measuring instrument
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -196,6 +216,7 @@ data:
       of the measured pressure
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

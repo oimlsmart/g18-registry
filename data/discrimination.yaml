@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: discrimination
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +29,7 @@ data:
       slowly and monotonically
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -42,6 +46,7 @@ data:
       a perceptible change in the indication
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -55,6 +60,7 @@ data:
     definition: ability of an instrument to react to small variations of load.
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -68,6 +74,7 @@ data:
     definition: ability of an instrument to react to small variations of load
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -83,6 +90,7 @@ data:
       slowly and monotonically
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -99,6 +107,7 @@ data:
       a perceptible change in the indication
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

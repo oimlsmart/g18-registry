@@ -6,9 +6,15 @@ data:
   - type: expression
     status: preferred
     text: conformity to type
+    usage_info:
+    field:
+    international: false
   - type: abbreviation
     status: preferred
     text: CTT
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -34,6 +40,7 @@ data:
       public authorities based on risk assessment and market intelligence, e.g. user
       complaints. ‘Market surveillance’ is further discussed in Annex 7.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

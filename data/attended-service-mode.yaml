@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: attended service mode
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -25,6 +28,7 @@ data:
       is present and controls the authorization for the delivery
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -50,6 +54,7 @@ data:
     - 4. In attended service mode the measurement operation ends at the moment settlement
       of the transaction takes place.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -63,16 +68,19 @@ data:
     definition: operating mode of a self-service arrangement in which the supplier
       is present and controls the authorization for the delivery
     notes:
-    - 'Note 1: In attended service mode, the settlement of the transaction takes place
-      before the customer leaves the site of the delivery. Note 2: A transaction is
-      settled when the parties interested in the transaction have made their agreement
-      known (explicitly or implicitly) as regards the amount of the transaction. This
-      may be a payment, signing a credit card voucher, signing a delivery order, etc.
-      Note 3: The parties interested in a transaction may be the parties themselves
-      or their representatives (for example the employee in a filling station or the
-      driver of a truck). Note 4: In attended service mode the measurement operation
-      ends at the moment settlement of the transaction takes place.'
+    - In attended service mode, the settlement of the transaction takes place before
+      the customer leaves the site of the delivery.
+    - A transaction is settled when the parties interested in the transaction have
+      made their agreement known (explicitly or implicitly) as regards the amount
+      of the transaction. This may be a payment, signing a credit card voucher, signing
+      a delivery order, etc.
+    - The parties interested in a transaction may be the parties themselves or their
+      representatives (for example the employee in a filling station or the driver
+      of a truck).
+    - In attended service mode the measurement operation ends at the moment settlement
+      of the transaction takes place.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -87,6 +95,7 @@ data:
       is present and controls the authorisation for the delivery
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

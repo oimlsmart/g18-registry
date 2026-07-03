@@ -7,6 +7,9 @@ data:
     status: preferred
     text: maximum permissible measurement error maximum permissible error limit of
       error
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -25,12 +28,19 @@ data:
       quantity value, permitted by specifications or regulations for a given measurement,
       measuring instrument, or measuring system
     notes:
-    - 'Note 1: Usually the term “maximum permissible errors” or “limits of error”
-      are used, where there are two extreme values. Note 2: the term “tolerance” should
-      not be used to designate ‘maximum permissible error’. [OIML V2-200:2012, 4.26]
-      Note 3: Usually the term “maximum permissible errors” is abbreviated to “MPE”,
-      or “mpe”.'
+    - Usually the term "maximum permissible errors" or "limits of error" are used,
+      where there are two extreme values.
+    - the term "tolerance" should not be used to designate 'maximum permissible error'.
+      [OIML V2-200:2012, 4.26]
+    - Usually the term "maximum permissible errors" is abbreviated to "MPE", or "mpe".
     examples: []
+    source:
+      kind: viml
+      relationship: identical
+      modification:
+      ref_source: OIML V 1:2022
+      ref_id: '0.05'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -45,10 +55,11 @@ data:
       quantity value, permitted by specifications or regulations for a given measurement,
       measuring instrument, or measuring system (VIM, 4.26)
     notes:
-    - 'Note 1: Usually, the term “maximum permissible errors” or “limits of error”
-      are used where there are two extreme values. Note 2: the term “tolerance” should
-      not be used to designate ‘maximum permissible error’.'
+    - Usually, the term "maximum permissible errors" or "limits of error" are used
+      where there are two extreme values.
+    - the term "tolerance" should not be used to designate 'maximum permissible error'.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

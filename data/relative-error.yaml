@@ -6,12 +6,21 @@ data:
   - type: expression
     status: preferred
     text: relative error
+    usage_info:
+    field:
+    international: false
   - type: expression
     status: admitted
     text: error
+    usage_info: of indication
+    field:
+    international: false
   - type: symbol
     status: preferred
     text: stem:[e]
+    usage_info:
+    field:
+    international: true
   kind: defined_in_vim
   official_concept:
     source: urn:oiml:pub:v:2:1993
@@ -38,6 +47,7 @@ data:
     definition: error of measurement divided by the reference value of the measurand
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -52,6 +62,7 @@ data:
       of the measurand
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -65,6 +76,7 @@ data:
     definition: error (of indication) divided by the reference (true) quantity
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -79,6 +91,7 @@ data:
       of the measurand
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -92,6 +105,7 @@ data:
     definition: error of measurement divided by a true value of the measurand
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -107,6 +121,13 @@ data:
       Y_{"ref"}) / Y_{"ref"} xx 100%]
     notes: []
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:1993
+      ref_id: '3.12'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -121,6 +142,7 @@ data:
       value of the measurand (VIM:1993, 3.12)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
     related:
@@ -139,6 +161,7 @@ data:
     definition: error (of indication) divided by the reference (true) quantity
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -153,6 +176,7 @@ data:
       measurand
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -167,6 +191,7 @@ data:
       of the measurand
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -180,6 +205,7 @@ data:
     definition: error of measurement divided by a true value of the measurand
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -194,6 +220,7 @@ data:
       value of the measurand (VIM:1993, 3.12)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -207,6 +234,7 @@ data:
     definition: error of measurement divided by the reference value of the measurand
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

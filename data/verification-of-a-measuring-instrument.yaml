@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: verification of a measuring instrument
+    usage_info:
+    field:
+    international: false
   kind: defined_in_viml
   official_concept:
     source: urn:oiml:pub:v:1:2000
@@ -36,6 +39,13 @@ data:
       confirms that the measuring instrument complies with the statutory requirements
     notes: []
     examples: []
+    source:
+      kind: viml
+      relationship: identical
+      modification:
+      ref_source: OIML V 1:2000
+      ref_id: '2.13'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
     related:
@@ -57,6 +67,13 @@ data:
       statutory requirements
     notes: []
     examples: []
+    source:
+      kind: viml
+      relationship: identical
+      modification:
+      ref_source: OIML V 1:2000
+      ref_id: '2.13'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -72,6 +89,13 @@ data:
       confirms that the measuring instrument complies with the statutory requirements
     notes: []
     examples: []
+    source:
+      kind: viml
+      relationship: identical
+      modification:
+      ref_source: OIML V 1:2000
+      ref_id: '2.13'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
     related:
@@ -93,6 +117,7 @@ data:
     notes:
     - 'Note: See also OIML V 2-200:2012, 2.44.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
     related:
@@ -110,10 +135,17 @@ data:
     g18_entry: '03621'
     definition: conformity assessment procedure (other than type evaluation) which
       results in the affixing of a verification mark and/or issuing of a verification
-      certificate adapted form [OIML V 1:2022, 2.09]
+      certificate
     notes:
     - 'Note: See also OIML V 2-200:2012, 2.44.'
     examples: []
+    source:
+      kind: viml
+      relationship: modified
+      modification:
+      ref_source: OIML V 1:2022
+      ref_id: '2.09'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -126,10 +158,17 @@ data:
     g18_entry: '03624'
     definition: conformity assessment procedure (other than type evaluation) which
       results in the affixing of a verification mark and/or issuing of a verification
-      certificate [VIML, 2.09]
+      certificate
     notes:
     - 'Note: See also OIML V 2-200:2012, 2.44.'
     examples: []
+    source:
+      kind: viml
+      relationship: identical
+      modification:
+      ref_source: OIML V 1:2022
+      ref_id: '2.09'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -146,6 +185,7 @@ data:
     notes:
     - 'Note: See OIML V 2-200:2012, 2.44 for more information.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -161,6 +201,7 @@ data:
       certificate [form VIML, 2.09]
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -173,10 +214,17 @@ data:
     g18_entry: '02457'
     definition: conformity assessment procedure (other than type evaluation) which
       results in the affixing of a verification mark and/or issuing of a verification
-      certificate [VIML 2.09]
+      certificate
     notes:
     - 'Note: See also OIML V2-200:2010, 2.44.'
     examples: []
+    source:
+      kind: viml
+      relationship: identical
+      modification:
+      ref_source: OIML V 1:2013
+      ref_id: '2.09'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -187,12 +235,19 @@ data:
     clause: '1.17'
     link:
     g18_entry: '02798'
-    definition: "{conformity assessment procedure (other than type evaluation) which
+    definition: conformity assessment procedure (other than type evaluation) which
       results in the affixing of a verification mark and/or issuing of a verification
-      certificate [VIML 2.09]}"
+      certificate
     notes:
     - "{Note See also OIML V2-200:2012, 2.44.}"
     examples: []
+    source:
+      kind: viml
+      relationship: identical
+      modification:
+      ref_source: OIML V 1:2013
+      ref_id: '2.09'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -208,6 +263,13 @@ data:
       mark and/or issuing of a verification certificate
     notes: []
     examples: []
+    source:
+      kind: viml
+      relationship: identical
+      modification:
+      ref_source: OIML V 1:2000
+      ref_id: '2.10'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -223,6 +285,13 @@ data:
       confirms that the measuring instrument complies with the statutory requirements
     notes: []
     examples: []
+    source:
+      kind: viml
+      relationship: identical
+      modification:
+      ref_source: OIML V 1:2000
+      ref_id: '2.13'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -238,6 +307,13 @@ data:
       confirms that the measuring instrument complies with the statutory requirements
     notes: []
     examples: []
+    source:
+      kind: viml
+      relationship: identical
+      modification:
+      ref_source: OIML V 1:2000
+      ref_id: '2.13'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -251,9 +327,16 @@ data:
     definition: procedure other than type approval which includes the examination
       and marking of a measuring instrument and/or issuing of a verification certificate,
       that establishes and confirms that the measuring instrument complies with the
-      statutory requirements [VIML, 2.13]
+      statutory requirements
     notes: []
     examples: []
+    source:
+      kind: viml
+      relationship: identical
+      modification:
+      ref_source: OIML V 1:2000
+      ref_id: '2.13'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -269,6 +352,13 @@ data:
       confirms that the measuring instrument complies with the statutory requirements
     notes: []
     examples: []
+    source:
+      kind: viml
+      relationship: identical
+      modification:
+      ref_source: OIML V 1:2000
+      ref_id: '2.13'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
 status: current

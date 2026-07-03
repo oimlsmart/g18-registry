@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: legal metrology laboratory (legal metrology services)
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -23,12 +26,14 @@ data:
     definition: laboratory of an authorised institute responsabile for a legal control
       of measuring instruments, e.g. type approval, verification, etc.
     notes:
-    - Note 1 The recommended role of such an institute is described in detail in OIML
-      D 1:2012, 3.2.2.3 [10]. Note 2 Legal metrology laboratories are generally laboratories
-      of the state legal metrology services or private metrology laboratories charged
-      (authorised) by the national (legal) metrology authority to carry out legal
-      control fo measuring instruments within a defined scope.
+    - The recommended role of such an institute is described in detail in OIML D 1:2012,
+      3.2.2.3 [10].
+    - Legal metrology laboratories are generally laboratories of the state legal metrology
+      services or private metrology laboratories charged (authorised) by the national
+      (legal) metrology authority to carry out legal control fo measuring instruments
+      within a defined scope.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

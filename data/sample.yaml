@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: sample
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -27,6 +30,7 @@ data:
     - 'Note: Lower case letters are used as symbols related to the sample in this
       Recommendation.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

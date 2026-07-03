@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: stability of a measuring instrument
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -24,6 +27,7 @@ data:
       remain constant in time (OIML V 2-100, 4.19)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: weighing unit
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -24,6 +27,7 @@ data:
       This device may consist of all or part of a non- automatic weighing instrument
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -38,6 +42,7 @@ data:
       load to be measured
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: inspection body
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -24,6 +27,7 @@ data:
     notes:
     - 'Note: An inspection body can be an organisation, or part of an organisation.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -42,6 +46,7 @@ data:
       guidance to subclause 3.5 (G.3.5-1)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

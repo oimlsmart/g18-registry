@@ -6,9 +6,15 @@ data:
   - type: expression
     status: preferred
     text: maximum current
+    usage_info:
+    field:
+    international: false
   - type: symbol
     status: preferred
     text: stem:[I_{"max"}]
+    usage_info:
+    field:
+    international: true
   kind: undefined
   official_concept:
   editions_present:
@@ -27,6 +33,7 @@ data:
       to meet the accuracy requirements
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

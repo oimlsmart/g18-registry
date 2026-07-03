@@ -6,12 +6,21 @@ data:
   - type: expression
     status: preferred
     text: minimum measured quantity
+    usage_info:
+    field:
+    international: false
   - type: symbol
     status: preferred
     text: stem:[V_{"min"}]
+    usage_info:
+    field:
+    international: true
   - type: abbreviation
     status: preferred
     text: MMQ
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -33,6 +42,7 @@ data:
       Alternatively, the terms "minimum delivery" or "minimum receipt" may be used.
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -49,6 +59,7 @@ data:
       those intended for receiving operations, it is referred to as the minimum receipt
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -65,6 +76,7 @@ data:
     - A measuring system has a minimum measured quantity for each principal measurand
       it processes (volumes, mass or energy).
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -79,6 +91,7 @@ data:
       acceptable for the system
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -96,6 +109,7 @@ data:
       quantity is referred to as the minimum delivery; in those intended for receiving
       operations, it is referred to as the minimum  receipt.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -112,6 +126,7 @@ data:
       Alternatively, the terms “minimum delivery” or “minimum receipt” may be used.
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -128,6 +143,7 @@ data:
       Alternatively, the terms “minimum delivery” or “minimum receipt” may be used.
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -144,6 +160,7 @@ data:
     - 'Note: A measuring system has a minimum measured quantity for each principal
       measurand it processes (volumes, mass or energy).'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

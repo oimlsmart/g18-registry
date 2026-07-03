@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: absolute error (of indication)
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -24,6 +27,7 @@ data:
     notes:
     - "[VIM:1993, 3.10 + notes]"
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

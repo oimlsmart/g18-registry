@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: quality plan
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -30,6 +33,7 @@ data:
       reference to parts of the quality manual or to procedure documents. (3) A quality
       plan is generally one of the results of quality planning."
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -49,6 +53,7 @@ data:
       to parts of the quality manual or to procedure documents. A quality plan is
       generally one of the results of quality planning.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

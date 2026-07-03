@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: resolution (of a displaying device)
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -21,12 +24,19 @@ data:
     link:
     g18_entry: '02677'
     definition: smallest difference between displayed indications that can be meaningfully
-      distinguished [VIM 4.15]
+      distinguished
     notes:
     - Note:For a digital device, this is the change in the indication when the least
       significant digit changes by one step. For an analogue device, this is half
       the difference between subsequent scale marks.
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2012
+      ref_id: '4.15'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
 status: current

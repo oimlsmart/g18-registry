@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: local hierarchy scheme
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +29,7 @@ data:
       and the methods and means of dissemination of units
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: standby mode
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +29,7 @@ data:
       mode more rapidly than would be possible if starting from the un-powered state
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -39,6 +43,7 @@ data:
     definition: mode of operation in which no speed measurements will be performed
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -54,6 +59,7 @@ data:
       mode more rapidly than would be possible if starting from the switched-off state
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

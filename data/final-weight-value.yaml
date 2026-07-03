@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: final weight value
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -27,6 +30,7 @@ data:
     notes:
     - This definition is only applicable to static weighing and not to dynamic weighing.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -41,6 +45,7 @@ data:
       and balanced, with no disturbances affecting the indication
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -55,6 +60,7 @@ data:
       and balanced, with no disturbances affecting the indication
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -71,6 +77,7 @@ data:
     notes:
     - 'Note:  This definition is only applicable to static weighing and not to weighing-in-motion.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -88,6 +95,7 @@ data:
     - 'Note: This definition is only applicable to static weighing and not to dynamic
       weighing.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -102,6 +110,7 @@ data:
       rest and balanced, with no disturbances affecting the indication
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -116,6 +125,7 @@ data:
       rest and balanced, with no disturbances affecting the indication
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

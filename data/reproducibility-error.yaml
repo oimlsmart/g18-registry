@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: reproducibility error
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -28,6 +31,7 @@ data:
     - ther-measuring instrument (e.g. use of a nical or electronic pinwheel, etc.);
       ther material; rator; ation; and e.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -45,6 +49,7 @@ data:
       use of a mechanical or electronic pinwheel, etc.); leather material; operator;
       location; and time.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

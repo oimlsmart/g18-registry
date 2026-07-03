@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: electronic instrument
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -24,6 +27,7 @@ data:
     definition: instrument equipped with electronic devices
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -37,6 +41,7 @@ data:
     definition: instrument equipped with electronic devices
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -50,6 +55,7 @@ data:
     definition: instrument equipped with electronic devices
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -63,6 +69,7 @@ data:
     definition: instrument equipped with electronic devices
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -76,6 +83,7 @@ data:
     definition: instrument equipped with electronic devices
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -89,6 +97,7 @@ data:
     definition: instrument equipped with electronic devices
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -102,6 +111,7 @@ data:
     definition: an instrument equipped with electronic devices
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -115,6 +125,7 @@ data:
     definition: An instrument equipped with electronic devices
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -128,6 +139,7 @@ data:
     definition: an instrument equipped with electronic devices
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -141,6 +153,7 @@ data:
     definition: instrument equipped with one or more electronic devices
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -154,6 +167,7 @@ data:
     definition: instrument equipped with electronic devices
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -167,6 +181,7 @@ data:
     definition: an instrument equipped with electronic devices
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -178,9 +193,10 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r076-1-e06.pdf
     g18_entry: '03026'
     definition: instrument intended to measure an electrical or non-electrical quantity
-      using electronic means and/or equipped with electronic devices [OIML D 11]
+      using electronic means and/or equipped with electronic devices
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -194,6 +210,7 @@ data:
     definition: instrument equipped with electronic devices
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -207,6 +224,7 @@ data:
     definition: instrument equipped with electronic devices
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

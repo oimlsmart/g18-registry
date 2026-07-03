@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: metrological authority
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -27,6 +30,7 @@ data:
       of this Recommendation
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -42,6 +46,7 @@ data:
       all or some specific requirements of this Recommendation
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -58,6 +63,7 @@ data:
       of this Recommendation
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -72,6 +78,7 @@ data:
       for specified legal metrology activities
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -88,6 +95,7 @@ data:
       of this Recommendation
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -104,6 +112,7 @@ data:
       of this Recommendation
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -119,6 +128,7 @@ data:
       all or some specific requirements of this Recommendation
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -135,6 +145,7 @@ data:
       of this Recommendation
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

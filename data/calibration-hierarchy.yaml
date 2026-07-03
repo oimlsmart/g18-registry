@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: calibration hierarchy
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -25,6 +28,13 @@ data:
       calibration
     notes: []
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2012
+      ref_id: '2.40'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
 status: current

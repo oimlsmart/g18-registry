@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: measurand quantity sensor sensor
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -24,6 +27,7 @@ data:
       parameter producing an input signal for the transducer
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

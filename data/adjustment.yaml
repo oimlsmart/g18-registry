@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: adjustment
+    usage_info:
+    field:
+    international: false
   kind: defined_in_vim
   official_concept:
     source: urn:oiml:pub:v:2:2007
@@ -36,6 +39,7 @@ data:
       to be measured
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
     related:
@@ -56,6 +60,7 @@ data:
       to be measured
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
     related:
@@ -75,6 +80,13 @@ data:
       prescribed indications corresponding to given values of a quantity to be measured
     notes: []
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2007
+      ref_id: '3.11'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -87,11 +99,17 @@ data:
     g18_entry: '02442'
     definition: set of operations carried out on a measuring system so that it provides
       prescribed indications corresponding to given values of a quantity to be measured
-      [VIM, 3.11]
     notes:
     - 'Additional note: A change in the value of any of a device’s sealable calibration
       parameters or sealable configuration parameters.'
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2012
+      ref_id: '3.11'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -102,21 +120,28 @@ data:
     clause: '2.1'
     link:
     g18_entry: '02783'
-    definition: "{adjustment of a measuring system adjustment set of operations carried
-      out on a measuring system so that it provides prescribed indications corresponding
-      to given values of a quantity to be measured [VIM, 3.11]}"
+    definition: set of operations carried out on a measuring system so that it provides
+      prescribed indications corresponding to given values of a quantity to be measured
     notes:
-    - "{NOTE 1 Types of adjustment of a measuring system include zero adjustment of
-      a measuring system, offset adjustment, and span adjustment (sometimes called
-      gain adjustment). NOTE 2 Adjustment of a measuring system should not be confused
-      with calibration, which is a prerequisite for adjustment. NOTE 3 After an adjustment
-      of a measuring system, the measuring system must usually be recalibrated.} For
-      protein measuring instruments, alignment with the reference method is typically
+    - Types of adjustment of a measuring system include zero adjustment of a measuring
+      system, offset adjustment, and span adjustment (sometimes called gain adjustment).
+    - Adjustment of a measuring system should not be confused with calibration, which
+      is a prerequisite for adjustment.
+    - After an adjustment of a measuring system, the measuring system must usually
+      be recalibrated.
+    - For protein measuring instruments, alignment with the reference method is typically
       accomplished through a bias adjustment to the calibration equation. Other mechanisms
       that require a higher level of expertise (e.g. adjustment of the calibration
-      equation slope, modification of hardware/ software components or settings) may
-      be less accessible due to increased security requirements."
+      equation slope, modification of hardware/software components or settings) may
+      be less accessible due to increased security requirements.
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2012
+      ref_id: '3.11'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -129,9 +154,15 @@ data:
     g18_entry: '02758'
     definition: set of operations carried out on a measuring system so that it provides
       prescribed indications corresponding to given values of a quantity to be measured
-      [VIM, 3.11] [1]
     notes: []
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2012
+      ref_id: '3.11'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -147,6 +178,7 @@ data:
       [VIM:2007, 3.11]
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

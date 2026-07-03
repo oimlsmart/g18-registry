@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: dead anatomical volume
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -24,6 +27,7 @@ data:
       significant exchange of a defined volume. This volume varies between individuals
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: train weighing
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -25,6 +28,7 @@ data:
       weight of all the wagon weights
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -38,6 +42,7 @@ data:
     definition: determining the totalized mass of a number of wagons coupled together
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

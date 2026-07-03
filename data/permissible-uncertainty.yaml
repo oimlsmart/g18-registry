@@ -6,9 +6,15 @@ data:
   - type: expression
     status: preferred
     text: permissible uncertainty
+    usage_info:
+    field:
+    international: false
   - type: symbol
     status: preferred
     text: stem:[U_{"pBB"}]
+    usage_info:
+    field:
+    international: true
   kind: undefined
   official_concept:
   editions_present:
@@ -29,6 +35,7 @@ data:
       from either k(p = 0.95) =   or k(p = 0.99) = 3
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

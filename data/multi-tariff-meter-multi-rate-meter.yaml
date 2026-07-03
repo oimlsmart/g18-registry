@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: multi-tariff meter multi-rate meter
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -25,6 +28,7 @@ data:
     notes:
     - 'Note: The tariff rate may be determined by time, load or some other quantity'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: calculator
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -27,6 +30,7 @@ data:
       the calculator may be capable of communicating both ways with other devices
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -43,6 +47,7 @@ data:
       the calculator may be capable of communicating both ways with ancillary devices
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -65,6 +70,7 @@ data:
       also calculates the volume at metering conditions, associated with an electronic
       indicating device, and another one to calculate the converted value.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -81,6 +87,7 @@ data:
       the calculator may be capable of communicating both ways with ancillary devices
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -97,6 +104,7 @@ data:
       the calculator may be capable of communicating both ways with ancillary devices
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -111,6 +119,7 @@ data:
       temperature sensors and calculates and indicates the quantity ofheat exchanged
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -127,6 +136,7 @@ data:
       with the peripheral equipment
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -143,6 +153,7 @@ data:
       with peripheral equipment
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -157,10 +168,10 @@ data:
       transducer(s) (3.1.2) and, possibly, from associated measuring instruments and
       stores the results in memory until they are used
     notes:
-    - Note 1:The gearing is considered to be the calculator in a mechanical meter.
-      Note 2:The calculator may be capable of communicating both ways with ancillary
-      devices.
+    - The gearing is considered to be the calculator in a mechanical meter.
+    - The calculator may be capable of communicating both ways with ancillary devices.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -178,6 +189,7 @@ data:
       to dissociate the two kinds of calculators is the association of both functions
       called the calculator in this Recommendation.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -195,6 +207,7 @@ data:
     - 'Note:  In addition, the calculator may be capable of communicating both ways
       with ancillary devices'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -211,6 +224,7 @@ data:
       the calculator may be capable of communicating both ways with ancillary devices
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -227,6 +241,7 @@ data:
       the calculator may be capable of communicating both ways with other devices
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -249,6 +264,7 @@ data:
       which also calculates the volume at metering conditions, associated with an
       electronic indicating device, and another one to calculate the converted value'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -263,6 +279,7 @@ data:
       temperature sensors and calculates and indicates the quantity of heat exchanged
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -279,6 +296,7 @@ data:
       with the peripheral equipment
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -296,6 +314,7 @@ data:
       to dissociate the two kinds of calculators is the association of both functions
       called the calculator in this Recommendation.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

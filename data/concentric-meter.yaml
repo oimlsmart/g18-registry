@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: concentric meter
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +29,7 @@ data:
       manifold, at the interface between them, are coaxial
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -41,6 +45,7 @@ data:
     - Note:The inlet and outlet passages of the meter and the manifold are coaxial
       at the interface between them.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

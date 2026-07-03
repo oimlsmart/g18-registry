@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: International System of Units SI
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +29,13 @@ data:
       on Weights and Measures (CGPM)
     notes: []
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2012
+      ref_id: '1.16'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
 status: current

@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: verification mark
+    usage_info:
+    field:
+    international: false
   kind: defined_in_viml
   official_concept:
     source: urn:oiml:pub:v:1:2000
@@ -37,6 +40,7 @@ data:
     - The verification mark may also identify the body responsible for verification
       and/or indicate the year or date of verification or its expiry date.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
     related:
@@ -57,6 +61,7 @@ data:
       with statutory requirements was confirmed (form VIML, 3.04)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -73,6 +78,13 @@ data:
     - 'Note: The verification mark may also identify the body responsible for verification
       and/or indicate the year or date of verification or its expiry date.'
     examples: []
+    source:
+      kind: viml
+      relationship: identical
+      modification:
+      ref_source: OIML V 1:2000
+      ref_id: '3.7'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
 status: current

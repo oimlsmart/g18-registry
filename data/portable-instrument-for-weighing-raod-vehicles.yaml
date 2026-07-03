@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: portable instrument for weighing raod vehicles
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -31,6 +34,7 @@ data:
       non- automatic axle (or wheel) load weighers that determine simultaneously the
       total mass of a road vehicle with all axles (or wheels) being simultaneously
       supported by appropriate parts of a load receptor.
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -51,6 +55,7 @@ data:
       of a load receptor.'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

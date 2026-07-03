@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: measurement standard etalon
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -24,6 +27,13 @@ data:
       value and associated measurement uncertainty, used as reference
     notes: []
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2012
+      ref_id: '5.1'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -39,6 +49,7 @@ data:
     notes:
     - 'Note: For examples and notes see VIM3, 5.1'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

@@ -76,9 +76,12 @@ module G18
         terms.map do |t|
           next nil unless t.respond_to?(:designation) && t.designation
           {
-            "type"   => designation_type(t),
-            "status" => designation_status(t),
-            "text"   => Normalize.normalize_designation(t.designation),
+            "type"          => designation_type(t),
+            "status"        => designation_status(t),
+            "text"          => Normalize.normalize_designation(t.designation),
+            "usage_info"    => designation_usage_info(t),
+            "field"         => designation_field(t),
+            "international" => designation_international?(t),
           }
         end.compact
       end
@@ -189,6 +192,144 @@ module G18
       def designation_status(term)
         statuses = term.respond_to?(:normative_status) ? Array(term.normative_status) : []
         statuses.first || "preferred"
+      end
+
+      # `usage_info` and `field_of_application` disambiguate homonymous
+      # designations: e.g. "error (of indication)" vs "error (of measurement)"
+      # share the bare word "error" but carry different usage_info. Two
+      # designations with the same text but different usage_info are
+      # DIFFERENT concepts — the most dangerous dedup trap for TC1.
+      def designation_usage_info(term)
+        val = term.respond_to?(:usage_info) ? term.usage_info : nil
+        val = nil if val.respond_to?(:empty?) && val.empty?
+        val
+      end
+
+      def designation_field(term)
+        val = term.respond_to?(:field_of_application) ? term.field_of_application : nil
+        val = nil if val.respond_to?(:empty?) && val.empty?
+        val
+      end
+
+      # `international: true` on a SymbolDesignation marks a globally
+      # recognized symbol (ISO/VIM convention) vs an OIML-coined one.
+      def designation_international?(term)
+        return false unless term.respond_to?(:international)
+        !!term.international
+      end
+
+      # Adoption provenance: did this concept's definition come straight
+      # from a VIM/VIML/OIML document, and if so was it verbatim or modified?
+      # Glossarist stores this on ConceptSource#status ("identical"/"modified")
+      # plus an optional `modification` text describing what changed.
+      #
+      # Inspects BOTH the managed concept's sources and the localized
+      # concept's sources, since vocab data is inconsistent about where
+      # the adoption source lives. Glossarist V3 drops localized sources
+      # on parse (similar to the locality bug), so fall back to the raw
+      # YAML for those.
+      def adoption_info(concept, raw: nil)
+        candidate_sources = managed_sources(concept)
+        candidate_sources += localized_sources_raw(raw) if raw
+
+        adopt = candidate_sources.find do |s|
+          src = source_origin_source(s)
+          src && (src.to_s.match?(/\AVIM|OIML V [12]/) || urn?(src))
+        end
+
+        return nil unless adopt
+        {
+          "kind"          => adoption_kind(source_origin_source(adopt)),
+          "relationship"  => adoption_relationship(adopt),
+          "modification"  => source_modification(adopt),
+          "ref_source"    => source_origin_source(adopt),
+          "ref_id"        => source_origin_id(adopt),
+          "is_vimline"    => vimline_source?(source_origin_source(adopt)),
+        }
+      end
+
+      def managed_sources(concept)
+        srcs = concept.data&.sources
+        return [] unless srcs
+        srcs.respond_to?(:to_a) ? srcs.to_a : Array(srcs)
+      end
+
+      # Pull localized sources from the raw YAML hash. The localized doc is
+      # the one with `data.definition` (vs. the managed doc with
+      # `data.localized_concepts`).
+      def localized_sources_raw(raw)
+        return [] unless raw.is_a?(Array)
+        loc_doc = raw.find { |d| d.is_a?(Hash) && d.dig("data", "definition") }
+        return [] unless loc_doc
+        data = loc_doc["data"] || {}
+        # Source attribution can live in several places in vocab v3:
+        #   - data.sources                       (concept-level)
+        #   - data.definition[].sources          (per-paragraph)
+        #   - data.notes[].sources / examples[].sources (per-note / per-example)
+        out = []
+        out.concat(Array(data["sources"]))
+        Array(data["definition"]).each { |d| out.concat(Array(d.is_a?(Hash) ? d["sources"] : nil)) }
+        Array(data["notes"]).each     { |n| out.concat(Array(n.is_a?(Hash) ? n["sources"] : nil)) }
+        Array(data["examples"]).each  { |x| out.concat(Array(x.is_a?(Hash) ? x["sources"] : nil)) }
+        out
+      end
+
+      def source_modification(src)
+        if src.is_a?(Hash)
+          src["modification"]
+        elsif src.respond_to?(:modification)
+          src.modification
+        end
+      end
+
+      def urn?(s)
+        s.is_a?(String) && s.start_with?("urn:oiml:pub:v:")
+      end
+
+      def vimline_source?(s)
+        return false unless s.is_a?(String)
+        s.start_with?("urn:oiml:pub:v:") || s.match?(/\AOIML V [12]/) || s.match?(/\AVIM[L]?\b/)
+      end
+
+      def adoption_kind(s)
+        case s.to_s
+        when /\AVIM[L]?\b/, /\AOIML V 2-200\b/, /urn:oiml:pub:v:2:/ then "vim"
+        when /\AVIML\b/,    /\AOIML V 1\b/,    /urn:oiml:pub:v:1:/ then "viml"
+        when /\AOIML [RDG]\b/                                    then "oiml_pub"
+        else "other"
+        end
+      end
+
+      # ConceptSource#status carries the adoption relationship in vocab v3:
+      # "identical" = verbatim quote, "modified" = adapted with `modification`
+      # text describing the change. Fall back to the source `type` field
+      # ("authoritative"/"similar"/"derived") for older data without status.
+      def adoption_relationship(src)
+        if src.is_a?(Hash)
+          return src["status"] if src["status"]
+          return src["type"] if src["type"]
+          return "authoritative"
+        end
+        status = src.respond_to?(:status) ? Array(src.status).first : nil
+        return status if status
+        type = src.respond_to?(:type) ? Array(src.type).first : nil
+        type || "authoritative"
+      end
+
+      def source_origin_source(src)
+        if src.is_a?(Hash)
+          return src.dig("origin", "ref", "source")
+        end
+        ref = src.respond_to?(:origin) ? src.origin&.ref : nil
+        ref&.respond_to?(:source) ? ref.source : nil
+      end
+
+      def source_origin_id(src)
+        if src.is_a?(Hash)
+          return src.dig("origin", "ref", "id")
+        end
+        ref = src.respond_to?(:origin) ? src.origin&.ref : nil
+        ref&.respond_to?(:id) ? ref.id : nil
       end
     end
   end

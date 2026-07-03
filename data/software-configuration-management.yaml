@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: software configuration management
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -28,6 +31,7 @@ data:
       document only covers the software related requirements. Configuration management
       regarding hardware prats are to give in the relevant Recommendation.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

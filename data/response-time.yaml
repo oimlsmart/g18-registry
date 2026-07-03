@@ -6,9 +6,15 @@ data:
   - type: expression
     status: preferred
     text: response time
+    usage_info:
+    field:
+    international: false
   - type: symbol
     status: preferred
     text: stem:[tau_{0.5}]
+    usage_info:
+    field:
+    international: true
   kind: undefined
   official_concept:
   editions_present:
@@ -29,6 +35,7 @@ data:
       90 % of its stable value
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -44,6 +51,7 @@ data:
       when the response reaches 50 % of its final steady value
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -59,6 +67,7 @@ data:
       the signal reaches 90 % of its stable value
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -74,6 +83,7 @@ data:
       90 % of its stable value
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -89,6 +99,7 @@ data:
       instant when the response reaches 50 % of its final steady value
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

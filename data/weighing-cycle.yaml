@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: weighing cycle
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +29,7 @@ data:
       * the discharge to bulk of a single discrete load'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -42,6 +46,7 @@ data:
       state"
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -57,6 +62,7 @@ data:
       or state for the first time
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -73,6 +79,7 @@ data:
       state'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -88,6 +95,7 @@ data:
       discharge to bulk of a single discrete load'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

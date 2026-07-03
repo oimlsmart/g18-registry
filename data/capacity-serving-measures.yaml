@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: capacity serving measures
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -27,6 +30,7 @@ data:
       used also for the consumption of specific volumes of beverages'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -43,6 +47,7 @@ data:
       used also for the consumption of specific volumes of beverages'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

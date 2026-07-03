@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: aprons
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -24,6 +27,7 @@ data:
       ofthe load receptor
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

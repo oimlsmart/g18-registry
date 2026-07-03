@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: continuous totalizing automatic weighing instrument
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -24,6 +27,7 @@ data:
       of the particles of a bulk product
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

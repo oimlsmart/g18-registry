@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: rider
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -25,6 +28,7 @@ data:
       on a graduated bar integral with the beam or on the beam itself
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -39,6 +43,7 @@ data:
       on a graduated bar integral with the beam or on the beam itself
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

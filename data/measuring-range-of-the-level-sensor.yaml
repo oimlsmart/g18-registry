@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: measuring range of the level sensor
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -28,6 +31,7 @@ data:
       be above the maximum permissible filling height of the tank or compartment
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -45,6 +49,7 @@ data:
       be above the maximum permissible filling height of the tank or compartment
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -62,6 +67,7 @@ data:
       be above the maximum permissible filling height of the tank or compartment
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

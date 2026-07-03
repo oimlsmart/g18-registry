@@ -6,9 +6,15 @@ data:
   - type: expression
     status: preferred
     text: specific molar absorption coefficient
+    usage_info:
+    field:
+    international: false
   - type: symbol
     status: preferred
     text: stem:[epsilon = A/(b c)]
+    usage_info:
+    field:
+    international: true
   kind: undefined
   official_concept:
   editions_present:
@@ -33,6 +39,7 @@ data:
     - 2. The specific molar absorption coefficient stem:[epsilon] slightly depends
       on the amount of substance concentration c.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -51,6 +58,7 @@ data:
       used. The specific molar absorption coefficient ε slightly depends on the amount
       of substance concentration c.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

@@ -6,9 +6,15 @@ data:
   - type: expression
     status: preferred
     text: sample correction factor
+    usage_info:
+    field:
+    international: false
   - type: abbreviation
     status: preferred
     text: SCF
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -28,9 +34,10 @@ data:
       the degrees of freedom, and a finite population correction factor (N–n)/(N–1)
       with n as the sample size and N as the inspection lot size
     notes:
-    - Note 1:SCF always has a positive sign because tp, n-1 has a negative sign for
-      p = 0.005. Note 2:See Annex F, F.3 for the statistical background to SCF.
+    - SCF always has a positive sign because tp, n-1 has a negative sign for p = 0.005.
+    - See Annex F, F.3 for the statistical background to SCF.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

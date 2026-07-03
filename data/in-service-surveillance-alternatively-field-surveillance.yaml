@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: in-service surveillance (alternatively "field surveillance")
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -23,14 +26,15 @@ data:
     definition: form of metrological supervision aimed at establishing that a measuring
       instrument in use in the field complies with the statutory requirements
     notes:
-    - 'Note 1:“Field surveillance” should not only cover the instrument itself but
-      also the user, to evaluate the proper use of the instrument. Note 2:on the relation
-      between market surveillance and field surveillance: Both types of surveillance
-      can in principle overlap but where a conformity assessment of a measuring instrument
-      indicates that the findings can be directly related to the responsibilities
-      of manufacturers or their representatives, the matter should be dealt with by
-      market surveillance'
+    - '"Field surveillance" should not only cover the instrument itself but also the
+      user, to evaluate the proper use of the instrument.'
+    - 'On the relation between market surveillance and field surveillance: Both types
+      of surveillance can in principle overlap but where a conformity assessment of
+      a measuring instrument indicates that the findings can be directly related to
+      the responsibilities of manufacturers or their representatives, the matter should
+      be dealt with by market surveillance.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

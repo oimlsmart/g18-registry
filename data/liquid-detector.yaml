@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: liquid detector
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -28,6 +31,7 @@ data:
     notes:
     - A liquid detector may also be used for high level detection.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -45,6 +49,7 @@ data:
     notes:
     - 'Note:  A liquid detector may also be used for highlevel detection.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -62,6 +67,7 @@ data:
     notes:
     - 'Note:  A liquid detector may also be used for highlevel detection.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

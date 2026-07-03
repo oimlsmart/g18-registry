@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: working range
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -25,6 +28,7 @@ data:
       can be measured with a repeatability within specified limits
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -40,6 +44,7 @@ data:
       to within specified limits
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -58,6 +63,7 @@ data:
       range. The zero absorbance of the spectrometer is adjusted using a blank reference
       solution.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -75,6 +81,7 @@ data:
       bring the element of interest within the working range. The zero absorbance
       of the spectrometer is adjusted using a blank reference solution.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -89,6 +96,7 @@ data:
       can be measured with a repeatability within specified limits
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -104,6 +112,7 @@ data:
       to within specified limits
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: measurement proces data
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -23,10 +26,11 @@ data:
     definition: data used during the measurement process to construct the measurement
       result
     notes:
-    - 'Note 1: Examples of measurement process data include values of measurement
-      parameters, values of connection settings or values of session parameters. Note
-      2: See Annex C for clarification regarding measurement-related terms.'
+    - Examples of measurement process data include values of measurement parameters,
+      values of connection settings or values of session parameters.
+    - See Annex C for clarification regarding measurement-related terms.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

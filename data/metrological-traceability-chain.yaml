@@ -6,9 +6,15 @@ data:
   - type: expression
     status: preferred
     text: metrological traceability chain
+    usage_info:
+    field:
+    international: false
   - type: expression
     status: admitted
     text: traceability chain
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,13 +32,20 @@ data:
     definition: sequence of measurement standards and calibrations that is used to
       relate a measurement result to a reference
     notes:
-    - 'Note 1: A metrological traceability chain id defined through a calibration
-      hierarchy. Note 2: A metrological traceability chain is used to establish metrological
-      traceability of measurement result. Note 3: A comparison between two measurement
-      standards may be vied as a calibration if the comparison is used to chek and
-      , if necessary, correct the quantity value and measurement uncertainty attributes
-      to one of the measurement standards.'
+    - A metrological traceability chain id defined through a calibration hierarchy.
+    - A metrological traceability chain is used to establish metrological traceability
+      of measurement result.
+    - A comparison between two measurement standards may be vied as a calibration
+      if the comparison is used to chek and, if necessary, correct the quantity value
+      and measurement uncertainty attributes to one of the measurement standards.
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2007
+      ref_id: '2.42'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
 status: current

@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: non-automatic checking facility type N checking facility
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -24,6 +27,7 @@ data:
       [SOURCE: OIML D 11:2013 3.19.2, [8], modified — Synonym presentation]'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

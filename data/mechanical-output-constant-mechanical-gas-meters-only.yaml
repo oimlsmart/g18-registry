@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: mechanical output constant (mechanical gas meters only)
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -27,6 +30,7 @@ data:
       mechanical output is an element to drive an ancillary device
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

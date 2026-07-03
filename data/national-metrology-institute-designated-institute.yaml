@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: National Metrology Institute (Designated Institute)
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -23,10 +26,12 @@ data:
     definition: Institute in a country that has a responsibility, sometimes set out
       legally, for the conservation of one or more national measurement standards
     notes:
-    - 'Note 1: The recommended role of National Metrology Institute (NMI) is described
-      in detail in OIML D 1:2012, 3.2.3 [10]. Note 2: The recommended role of Designated
-      Institute (DI) is described in CIPM 2005-07 [11] and CIPM 2005-06 (V4) [12.'
+    - The recommended role of National Metrology Institute (NMI) is described in detail
+      in OIML D 1:2012, 3.2.3 [10].
+    - The recommended role of Designated Institute (DI) is described in CIPM 2005-07
+      [11] and CIPM 2005-06 (V4) [12.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

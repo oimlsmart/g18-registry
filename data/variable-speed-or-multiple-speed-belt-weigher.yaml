@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: variable speed or multiple speed belt weigher
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -24,6 +27,7 @@ data:
       at a variable speed (within a range) or at more than one set speed.
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

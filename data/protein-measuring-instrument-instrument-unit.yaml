@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: protein measuring instrument; instrument; unit
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +29,7 @@ data:
     - 'Note: An instrument may be approved with multiple calibrations in order to
       analyze more than one type of grain.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

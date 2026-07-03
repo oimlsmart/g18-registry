@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: Rockwell (hardness) scale
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -28,6 +31,7 @@ data:
       material
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -45,6 +49,7 @@ data:
       material
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

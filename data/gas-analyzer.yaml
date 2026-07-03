@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: gas analyzer
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +29,7 @@ data:
     notes:
     - "(ISO 7504: 2001)"
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -43,6 +47,7 @@ data:
     - 'Note: A gas analyzer measures all components covered by this Recommendation
       (CO, NO, NO2, or NOx), or measures only CO, or only NO and NO2, or NOx.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -58,6 +63,7 @@ data:
       [ISO 7504: 2001]'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

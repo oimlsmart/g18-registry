@@ -6,9 +6,15 @@ data:
   - type: expression
     status: preferred
     text: additional device
+    usage_info:
+    field:
+    international: false
   - type: expression
     status: preferred
     text: Additional device
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -32,6 +38,7 @@ data:
       - gas elimination device; - device used for the transfer point; - anti-swirl
       device; - branches or bypasses; - valves, hoses."
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -50,6 +57,7 @@ data:
       * device used for the transfer point, * anti-swirl device, * branches or bypasses,
       * valves, hoses."
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -67,6 +75,7 @@ data:
       - valves, hoses, and in general, all the gaseous piping.'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -84,6 +93,7 @@ data:
       devices located upstream or downstream of the meter; - sampling systems; - piping.'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -100,6 +110,7 @@ data:
       transducers, etc.
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -118,6 +129,7 @@ data:
       glass; filter; pump; device used for the transfer point; anti-swirl device;
       branches or bypasses; and valves, hoses.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -136,6 +148,7 @@ data:
       point; c) anti-swirl device; d) branches or bypasses; e) valves, hoses, and
       in general, all the gaseous piping.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -154,6 +167,7 @@ data:
       valves, hoses.'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -172,6 +186,7 @@ data:
       valves, hoses.'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -189,6 +204,7 @@ data:
       devices located upstream or downstream of the meter; sampling systems; piping.'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -205,6 +221,7 @@ data:
       transducers, etc.
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

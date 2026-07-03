@@ -6,9 +6,15 @@ data:
   - type: expression
     status: preferred
     text: subsequent verification
+    usage_info:
+    field:
+    international: false
   - type: expression
     status: admitted
     text: in-service inspection
+    usage_info:
+    field:
+    international: false
   kind: defined_in_viml
   official_concept:
     source: urn:oiml:pub:v:1:2000
@@ -44,6 +50,13 @@ data:
       expiry of the period of validity of a previous verification either at the request
       of the user (owner) or when its verification is declared t be no longer valid.
     examples: []
+    source:
+      kind: viml
+      relationship: identical
+      modification:
+      ref_source: OIML V 1:2000
+      ref_id: '2.16'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
     related:
@@ -70,6 +83,7 @@ data:
       of weights, all elements in the population will be deemed verified
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -88,6 +102,7 @@ data:
       2.4.3]'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -100,13 +115,14 @@ data:
     g18_entry: '03543'
     definition: verification of measuring instrument after a previous verification
     notes:
-    - 'Note 1: Subsequent verification of a measuring instrument includes mandatory
-      periodic verification, verification after repair, and voluntary verification.
-      Note 2: Subsequent verification of a measuring instrument may be carried out
-      before expiry of the period of validity of a previous  verification either at
-      the request of the user (owner) or when its verification mark is declared to
-      be no longer valid.'
+    - Subsequent verification of a measuring instrument includes mandatory periodic
+      verification, verification after repair, and voluntary verification.
+    - Subsequent verification of a measuring instrument may be carried out before
+      expiry of the period of validity of a previous verification either at the request
+      of the user (owner) or when its verification mark is declared to be no longer
+      valid.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -120,6 +136,7 @@ data:
     definition: verification of measuring instrument after a previous verification
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -137,6 +154,13 @@ data:
       expiry of the period of validity of a previous verification either at the request
       of the user (owner) or when its verification is declared to be no longer valid.
     examples: []
+    source:
+      kind: viml
+      relationship: identical
+      modification:
+      ref_source: OIML V 1:2000
+      ref_id: '2.16'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -154,6 +178,13 @@ data:
       expiry of the period of validity of a previous  verification either at the request
       of the user (owner) or when its verification is declared to be no longer valid.
     examples: []
+    source:
+      kind: viml
+      relationship: identical
+      modification:
+      ref_source: OIML V 1:2000
+      ref_id: '2.16'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -172,6 +203,7 @@ data:
       2.4.3'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

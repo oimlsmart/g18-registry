@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: securing
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -25,6 +28,7 @@ data:
       part
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -35,11 +39,17 @@ data:
     clause: 3.2.54
     link:
     g18_entry: '03477'
-    definition: means preventing unauthorised access to hardware or software adapted
-      form [OIML V 1:2022, 2.21]
+    definition: means preventing unauthorised access to hardware or software
     notes:
     - 'Note: This may be achieved by means of passwords.'
     examples: []
+    source:
+      kind: viml
+      relationship: modified
+      modification:
+      ref_source: OIML V 1:2022
+      ref_id: '2.21'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
 status: current

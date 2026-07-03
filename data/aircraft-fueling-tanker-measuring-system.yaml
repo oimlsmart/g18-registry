@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: aircraft fueling tanker measuring system
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -24,6 +27,7 @@ data:
       from a tank mounted on the vehicle
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

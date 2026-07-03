@@ -6,12 +6,21 @@ data:
   - type: expression
     status: preferred
     text: maximum tare effect
+    usage_info:
+    field:
+    international: false
   - type: symbol
     status: preferred
     text: stem:[T_{+}]
+    usage_info:
+    field:
+    international: true
   - type: symbol
     status: preferred
     text: stem:[T_{-}]
+    usage_info:
+    field:
+    international: true
   kind: undefined
   official_concept:
   editions_present:
@@ -30,6 +39,7 @@ data:
       device
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

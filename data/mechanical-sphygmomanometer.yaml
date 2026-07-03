@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: mechanical sphygmomanometer
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +29,7 @@ data:
       the arterial blood pressure by means of an inflatable cuff
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -41,6 +45,7 @@ data:
       the arterial blood pressure by means of an inflatable cuff
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: cryptographic certificate
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -30,6 +33,7 @@ data:
       the certificate
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -48,6 +52,7 @@ data:
     - Note:The trusted party signature binds the public key to the unique identification
       of the subject.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

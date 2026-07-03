@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: family of measuring instruments
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -27,6 +30,7 @@ data:
       and technical performance characteristics, as defined in the relevant Recommendation
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -49,6 +53,7 @@ data:
       type examination. It does not preclude the possibility of listing more than
       one family in one certificate.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

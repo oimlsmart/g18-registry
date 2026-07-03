@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: semi-automatic adjustment means
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -28,6 +31,7 @@ data:
     - For those gas analytical systems that require the calibration gas mixture to
       be entered manually, the adjustment means are considered to be semi-automatic.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -45,6 +49,7 @@ data:
     - 'Note: For those gas analytical systems that require the calibration gas mixture
       to be entered manually, the adjustment means are considered to be semi-automatic.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -62,6 +67,7 @@ data:
     - 'Note: For those gas analytical systems that require the calibration gas mixture
       to be entered manually, the adjustment means are considered to be semi-automatic.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

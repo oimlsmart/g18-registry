@@ -6,9 +6,15 @@ data:
   - type: expression
     status: preferred
     text: weighted mean error
+    usage_info:
+    field:
+    international: false
   - type: abbreviation
     status: preferred
     text: WME
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -38,6 +44,7 @@ data:
       the WME and t the meter over the actual operating only and update the markings
       dingly.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -53,6 +60,7 @@ data:
       > 0.9·Qmax a weighting factor of 0.4 shall be used instead of 1.'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -70,6 +78,7 @@ data:
       flow rate Qi; Ei = the error at the flow rate Qi.'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -93,6 +102,7 @@ data:
       and adjust the meter over the actual operating range only and update the markings
       accordingly.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

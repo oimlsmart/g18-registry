@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: time stamp
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -27,6 +30,7 @@ data:
       of two different records and tracking progress over time
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -41,6 +45,7 @@ data:
       date and/or time at which a certain incident (e.g. measurement or event) occurred.
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

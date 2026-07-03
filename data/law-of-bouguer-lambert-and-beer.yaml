@@ -6,9 +6,15 @@ data:
   - type: expression
     status: preferred
     text: law of Bouguer-Lambert and Beer
+    usage_info:
+    field:
+    international: false
   - type: symbol
     status: preferred
     text: stem:[A = lg(1/tau) = epsilon b c]
+    usage_info:
+    field:
+    international: true
   kind: undefined
   official_concept:
   editions_present:
@@ -33,6 +39,7 @@ data:
       and non-scattering.
     - 2. Adapted from ISO 6286, clause 3.3.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -46,11 +53,12 @@ data:
     definition: absorbance A is proportional to the optical path length b and the
       amount of substance concentration c
     notes:
-    - 'Note 1 :  Conditions for validity: A beam of parallel monochromatic radiation
-      traverses, at normal incidence, an absorbing medium with planeparallel surfaces
-      and which is homogeneous, isotropic, non-luminescent and non-scattering. Note
-      2:  Adapted from ISO 6286, clause 3.3.'
+    - 'Conditions for validity: A beam of parallel monochromatic radiation traverses,
+      at normal incidence, an absorbing medium with planeparallel surfaces and which
+      is homogeneous, isotropic, non-luminescent and non-scattering.'
+    - Adapted from ISO 6286, clause 3.3.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

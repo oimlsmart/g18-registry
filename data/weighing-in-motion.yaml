@@ -6,9 +6,15 @@ data:
   - type: expression
     status: preferred
     text: weighing-in-motion
+    usage_info:
+    field:
+    international: false
   - type: abbreviation
     status: preferred
     text: WIM
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -28,6 +34,7 @@ data:
       and analysis of the dynamic vehicle tyre forces
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -41,6 +48,7 @@ data:
     definition: weighing objects that are in motion
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -54,6 +62,7 @@ data:
     definition: determining the mass of railway vehicles that are in motion
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -70,6 +79,7 @@ data:
       vehicle tyre forces
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

@@ -6,9 +6,15 @@ data:
   - type: expression
     status: preferred
     text: constant of odometer or chronotachograph
+    usage_info:
+    field:
+    international: false
   - type: symbol
     status: preferred
     text: stem:[k]
+    usage_info:
+    field:
+    international: true
   kind: undefined
   official_concept:
   editions_present:
@@ -30,6 +36,7 @@ data:
       per kilometre, imp/km
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

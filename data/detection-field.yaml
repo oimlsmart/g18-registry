@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: detection field
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -24,6 +27,7 @@ data:
       point (considering the possible variation of the location of the detection point)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

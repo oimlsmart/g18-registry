@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: test procedure
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -24,6 +27,7 @@ data:
     definition: detailed description of the test operations
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -37,6 +41,7 @@ data:
     definition: detailed description of the test operations
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -50,6 +55,7 @@ data:
     definition: a detailed description of the tests
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -63,6 +69,7 @@ data:
     definition: a detailed description of the tests
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -76,6 +83,7 @@ data:
     definition: detailed description of the test operations (OIML D 11, 3.21.1)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -89,6 +97,7 @@ data:
     definition: detailed description of the tests
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -102,6 +111,7 @@ data:
     definition: detailed description of the test operations
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -112,9 +122,10 @@ data:
     clause: 3.4.5
     link:
     g18_entry: '02694'
-    definition: detailed description of the test operations [OIML D11, 3.20.1]
+    definition: detailed description of the test operations
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -128,6 +139,7 @@ data:
     definition: a detailed description of the tests
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

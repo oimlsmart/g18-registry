@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: analogue data processing module
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -25,6 +28,7 @@ data:
       result in a digital format via a digital interface without displaying it
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: relative error of indication
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -23,10 +26,12 @@ data:
     definition: indication minus reference quantity value, divided by the reference
       quantity value
     notes:
-    - 'Note 1:  The relative error is usually expressed as a percentage of the reference
-      quantity value. Note 2:    Since this Recommendation deals only with relative
-      error, the short form “error” is used for relative error.'
+    - The relative error is usually expressed as a percentage of the reference quantity
+      value.
+    - Since this Recommendation deals only with relative error, the short form "error"
+      is used for relative error.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

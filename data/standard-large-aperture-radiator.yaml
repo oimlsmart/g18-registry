@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: standard large aperture radiator
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -29,6 +32,7 @@ data:
       an angular dimension of the standard reference radiator should be wide enough
       to cover the instantaneous field of view of the thermographic instrument.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -47,6 +51,7 @@ data:
       angle, an angular dimension of the standard reference radiator should be wide
       enough to cover the instantaneous field of view of the thermographic  instrument.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

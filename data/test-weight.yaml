@@ -6,9 +6,15 @@ data:
   - type: expression
     status: preferred
     text: test weight
+    usage_info:
+    field:
+    international: false
   - type: symbol
     status: preferred
     text: stem:[m_{t}]
+    usage_info:
+    field:
+    international: true
   kind: undefined
   official_concept:
   editions_present:
@@ -27,6 +33,7 @@ data:
     definition: weight that is to be tested according to this Recommendation
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -40,6 +47,7 @@ data:
     definition: weight that is to be tested according to this Recommendation
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

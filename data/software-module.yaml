@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: software module
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -28,6 +31,7 @@ data:
     notes:
     - "[similar IEC 61508-4:1998, 3.3.7]"
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -45,6 +49,7 @@ data:
     - 'Note: The software of measuring instruments consist of one or more software
       modules.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

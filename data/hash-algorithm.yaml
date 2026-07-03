@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: hash algorithm
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -23,12 +26,13 @@ data:
     definition: function that converts a data string into a numeric string output
       of fixed length
     notes:
-    - 'Note 1: Hash algorithms are designed to be collision-resistant, meaning that
-      there is a very low probability that the same string would be created for different
-      data. Note 2: Hash algorithms are used for software identification, authentication
-      of measurements, protection of settings etc. Note 3: Typical hash algorithms
-      are SHA-2 (256-bit hash) or stronger.'
+    - Hash algorithms are designed to be collision-resistant, meaning that there is
+      a very low probability that the same string would be created for different data.
+    - Hash algorithms are used for software identification, authentication of measurements,
+      protection of settings etc.
+    - Typical hash algorithms are SHA-2 (256-bit hash) or stronger.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

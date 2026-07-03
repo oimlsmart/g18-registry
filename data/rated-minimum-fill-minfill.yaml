@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: rated minimum fill, Minfill
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -27,6 +30,7 @@ data:
     - 'Note: For AGFIs which accomplish the fill by more than one weighing cycle Minfill
       is larger than the minimum capacity, Min.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

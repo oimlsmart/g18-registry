@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: direct selling to the public
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -29,6 +32,7 @@ data:
     notes:
     - "(note in Annex B)"
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -44,6 +48,7 @@ data:
       having access to the place of measurement and one of them being a consumer
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -62,6 +67,7 @@ data:
     notes:
     - "(note in Annex B)"
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -77,6 +83,7 @@ data:
       having access to the place of measurement and one of them being a consumer
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

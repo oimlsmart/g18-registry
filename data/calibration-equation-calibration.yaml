@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: calibration equation calibration
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +29,7 @@ data:
     - Note:Both these terms are used in the same context as ‘calibration function’
       in Note 1 of VIM 2.39.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

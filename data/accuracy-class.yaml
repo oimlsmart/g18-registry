@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: accuracy class
+    usage_info:
+    field:
+    international: false
   kind: defined_in_vim
   official_concept:
     source: urn:oiml:pub:v:2:1993
@@ -34,6 +37,7 @@ data:
       that are intended to keep errors within specified limits
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -49,6 +53,7 @@ data:
     notes:
     - "[VIM:1993, 5.19]"
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -63,6 +68,7 @@ data:
       requirements intended to maintain the mass values within specified limits
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -77,6 +83,7 @@ data:
       requirements intended to keep errors within specified limits
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -91,6 +98,7 @@ data:
       [Adapted from VIM:1993, 5.19]
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
     related:
@@ -110,6 +118,7 @@ data:
       intended to keep errors within specified limits
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -123,11 +132,18 @@ data:
     definition: class of measuring instruments or measuring systems that meet stated
       metrological requirements that are intended to keep measurement errors or instrumental
       measurement uncertainties within specified limits under specified operating
-      conditions [OIML V2-200:2012, 4.25]
+      conditions
     notes:
     - Note:In this Recommendation, the stated metrological requirements for accuracy
       class include permissible responses to disturbances.
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2012
+      ref_id: '4.25'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -140,10 +156,16 @@ data:
     g18_entry: '02665'
     definition: class of measuring instruments or measuring systems that meet stated
       metrological requirements that are intended to keep measurement errors or instrumental
-      uncertainties within specified limits under specified operating conditions [VIM,
-      4.25]
+      uncertainties within specified limits under specified operating conditions
     notes: []
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2012
+      ref_id: '4.25'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -158,6 +180,7 @@ data:
       that are intended to keep errors within specified limits
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -172,6 +195,7 @@ data:
       requirements intended to maintain the mass values within specified limits
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -186,6 +210,7 @@ data:
       requirements intended to keep errors within specified limits
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -200,6 +225,7 @@ data:
       intended to keep errors within specified limits
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: "(gross) calorific value"
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -34,6 +37,7 @@ data:
     - 3. The calorific value should be determined on a mass or volumetric basis.
     - 4. (adapted from ISO 6976)
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

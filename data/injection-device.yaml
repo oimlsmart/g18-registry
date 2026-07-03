@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: injection device
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -25,6 +28,7 @@ data:
       column
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -39,6 +43,7 @@ data:
       column
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -52,6 +57,7 @@ data:
     definition: the means of introducing a sample into the column
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -65,6 +71,7 @@ data:
     definition: means by which a sample is introduced into the gas chromatographic  column
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -78,6 +85,7 @@ data:
     definition: means by which a portion of a sample is introduced into the gas chromatographic  column
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -91,6 +99,7 @@ data:
     definition: the means of introducing a sample into the column
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

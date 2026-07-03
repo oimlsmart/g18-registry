@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: instability of the calibration characteristic
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +29,7 @@ data:
       in the lamp circuit per 1 hour
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -41,6 +45,7 @@ data:
       in the lamp circuit per 1 hour
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

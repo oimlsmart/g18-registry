@@ -6,27 +6,51 @@ data:
   - type: expression
     status: preferred
     text: maximum permissible error
+    usage_info:
+    field:
+    international: false
   - type: expression
     status: admitted
     text: limit of error
+    usage_info:
+    field:
+    international: false
   - type: expression
     status: admitted
     text: limits of permissible error
+    usage_info: of a measuring instrument
+    field:
+    international: false
   - type: expression
     status: admitted
     text: maximum permissible error, limit of error
+    usage_info:
+    field:
+    international: false
   - type: expression
     status: admitted
     text: maximum permissible measurement error
+    usage_info:
+    field:
+    international: false
   - type: symbol
     status: preferred
     text: stem:[delta m]
+    usage_info:
+    field:
+    international: true
   - type: abbreviation
     status: preferred
     text: MPE
+    usage_info:
+    field:
+    international: false
   - type: abbreviation
     status: preferred
     text: mpe
+    usage_info:
+    field:
+    international: false
   kind: defined_in_vim
   official_concept:
     source: urn:oiml:pub:v:2:1993
@@ -56,6 +80,7 @@ data:
     notes:
     - "[VIM:1993, 5.21; OIML D 11:2004, 3.6]"
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -70,6 +95,7 @@ data:
       of indication
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -85,6 +111,7 @@ data:
       measuring instrument, or measuring system
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -99,6 +126,13 @@ data:
       etc. for a given instrument
     notes: []
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:1993
+      ref_id: '5.21'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -112,6 +146,7 @@ data:
     definition: extreme value for an error permitted by this Recommendation
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -126,6 +161,7 @@ data:
     notes:
     - "(adapted from VIM:2007, 4.26)"
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -140,6 +176,13 @@ data:
       permitted by this Recommendation
     notes: []
     examples: []
+    source:
+      kind: vim
+      relationship: modified
+      modification:
+      ref_source: OIML V 2-200:1993
+      ref_id: '5.21'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
     related:
@@ -159,6 +202,7 @@ data:
       for a given measuring instrument
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -172,6 +216,13 @@ data:
     definition: extreme values permitted by the present Recommendation for an error
     notes: []
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:1993
+      ref_id: '5.21'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
     related:
@@ -191,6 +242,13 @@ data:
       etc. for a given measuring instrument
     notes: []
     examples: []
+    source:
+      kind: other
+      relationship: identical
+      modification:
+      ref_source: OIML V 2:1993
+      ref_id: '5.21'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
     related:
@@ -212,6 +270,13 @@ data:
       position
     notes: []
     examples: []
+    source:
+      kind: vim
+      relationship: modified
+      modification:
+      ref_source: OIML V 2-200:1993
+      ref_id: '5.21'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
     related:
@@ -232,6 +297,7 @@ data:
       determined by corresponding reference weights
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -246,6 +312,13 @@ data:
       etc. for a given measuring instrument
     notes: []
     examples: []
+    source:
+      kind: other
+      relationship: identical
+      modification:
+      ref_source: OIML V 2:1993
+      ref_id: '5.21'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -261,6 +334,13 @@ data:
       value
     notes: []
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:1993
+      ref_id: '5.21'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -275,6 +355,13 @@ data:
       Recommendation
     notes: []
     examples: []
+    source:
+      kind: vim
+      relationship: modified
+      modification:
+      ref_source: OIML V 2-200:1993
+      ref_id: '5.21'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
     related:
@@ -294,6 +381,7 @@ data:
       to clause 5) for a load cell [Adapted from VIM:1993, 5.21]
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
     related:
@@ -313,6 +401,7 @@ data:
       etc. for a given measuring instrument (VIM:1993, 5.21)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
     related:
@@ -335,6 +424,7 @@ data:
       accuracy has a negligible error for the purpose of this comparison
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -354,6 +444,7 @@ data:
       recommendation are always relative to the absolute value of the reference (not
       to the value of the device under test or to any other value).'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
     related:
@@ -373,13 +464,20 @@ data:
       quantity value, permitted by specifications or regulations for a given measurement,
       measuring instrument, or measuring system
     notes:
-    - '3.10 Note 1: Usually the term “maximum permissible errors” or “limits of error
-      are used, where there are two extreme values. Note 2: The term “tolerance should
-      not be used to designate “maximum permissible error”. Additional note: Maximum
-      permissible errors for type approval and initial verification and verification
+    - Usually the term "maximum permissible errors" or "limits of error are used,
+      where there are two extreme values.
+    - The term "tolerance should not be used to designate "maximum permissible error".
+    - Maximum permissible errors for type approval and initial verification and verification
       after repair od refractometer are defined in 5.2.1. Maximum permissible errors
-      forrefractometer in service are defined in 5.2.2.'
+      forrefractometer in service are defined in 5.2.2.
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2007
+      ref_id: '4.26'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -392,9 +490,16 @@ data:
     g18_entry: '03237'
     definition: extreme value of measurement error , with respect to a known reference
       quantity value, permitted by specifications or regulations for a given measurement,  measuring
-      instrument, or measuring system adapted from [OIML V 1:2022, 0.05]
+      instrument, or measuring system
     notes: []
     examples: []
+    source:
+      kind: viml
+      relationship: modified
+      modification:
+      ref_source: OIML V 1:2022
+      ref_id: '0.05'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -407,10 +512,16 @@ data:
     g18_entry: '03231'
     definition: extreme value of measurement error, with respect to a known reference
       quantity value, permitted by specifications or regulations for a given measurement,
-      measuring instrument, or measuring system [OIML V2-200:2012, 4.26] [OIML V1:2013,
-      0.05]
+      measuring instrument, or measuring system
     notes: []
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2012
+      ref_id: '4.26'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -427,6 +538,13 @@ data:
     notes:
     - "(for notes, refer to the VIM)"
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2012
+      ref_id: '4.26'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -440,6 +558,7 @@ data:
     definition: extreme value for an error permitted by this Recommendation
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -454,10 +573,17 @@ data:
       quantity value, permitted by specifications or regulations for a given measurement,
       measuring instrument, or measuring system
     notes:
-    - NOTE 1 Usually, the term "maximum permissible errors" or "limits of error" is
-      used where there are two extreme values. NOTE 2 The term "tolerance" should
-      not be used to designate "maximum permissible error".
+    - Usually, the term "maximum permissible errors" or "limits of error" is used
+      where there are two extreme values.
+    - The term "tolerance" should not be used to designate "maximum permissible error".
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2007
+      ref_id: '4.26'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -473,6 +599,13 @@ data:
       measuring instrument, or measuring system
     notes: []
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2007
+      ref_id: '4.26'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -487,6 +620,7 @@ data:
       of indication
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -498,9 +632,16 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r135-e04.pdf
     g18_entry: '01875'
     definition: extreme value of an error permitted by pecifications, regulations,
-      etc. for a given measuring instrument [VIM, 5.21]
+      etc. for a given measuring instrument
     notes: []
     examples: []
+    source:
+      kind: other
+      relationship: identical
+      modification:
+      ref_source: OIML V 2:1993
+      ref_id: '5.21'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -516,6 +657,13 @@ data:
       value
     notes: []
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:1993
+      ref_id: '5.21'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -530,6 +678,7 @@ data:
       etc. for a given measuring instrument [VIM:1993, 5.21]
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -547,6 +696,7 @@ data:
       accuracy has a negligible error for the purpose of this comparison
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

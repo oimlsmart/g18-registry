@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: Participant
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -24,6 +27,7 @@ data:
       that accedes to a DoMC
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

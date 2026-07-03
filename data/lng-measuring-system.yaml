@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: LNG measuring system
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -24,6 +27,7 @@ data:
       etc.) that id used for the measurement of liquefied natural gas (LNG)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

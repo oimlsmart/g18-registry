@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: surveillance
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -25,6 +28,7 @@ data:
       6.1 and VIML, A.20)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

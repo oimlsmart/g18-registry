@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: random sampling
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -25,6 +28,7 @@ data:
       probability to be included in the sample).
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -41,6 +45,7 @@ data:
     notes:
     - Note:This is also referred to as “sampling without replacement”.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

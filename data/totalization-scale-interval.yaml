@@ -6,12 +6,21 @@ data:
   - type: expression
     status: preferred
     text: totalization scale interval
+    usage_info:
+    field:
+    international: false
   - type: symbol
     status: preferred
     text: stem:[d]
+    usage_info:
+    field:
+    international: true
   - type: symbol
     status: preferred
     text: stem:[d_{t}]
+    usage_info:
+    field:
+    international: true
   kind: undefined
   official_concept:
   editions_present:
@@ -29,6 +38,7 @@ data:
     definition: scale interval of a principal totalization indicating device
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -44,6 +54,7 @@ data:
       with the instrument in its normal weighing mode
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

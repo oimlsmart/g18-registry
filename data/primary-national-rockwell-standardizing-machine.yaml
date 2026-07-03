@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: primary national Rockwell standardizing machine
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -27,6 +30,7 @@ data:
       is usually a National Metrology Institute (NMI).
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -43,6 +47,7 @@ data:
       is usually a National Metrology Institute (NMI).
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: secured communication
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -28,6 +31,7 @@ data:
     notes:
     - This is accomplished by sealing devices and/or checking facilities.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -45,6 +49,7 @@ data:
     notes:
     - 'Note: This is accomplished by sealing devices and/or checking facilities.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

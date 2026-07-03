@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: built-in manifold
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -27,6 +30,7 @@ data:
       has two possible outlets: its own outlet valve and its own diverting valve'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -43,6 +47,7 @@ data:
       has two possible outlets: its own outlet valve and its own diverting valve'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -59,6 +64,7 @@ data:
       has two possible outlets: its own outlet valve and its own diverting valve'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

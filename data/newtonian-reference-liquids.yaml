@@ -6,9 +6,15 @@ data:
   - type: expression
     status: preferred
     text: Newtonian reference liquids
+    usage_info:
+    field:
+    international: false
   - type: abbreviation
     status: preferred
     text: RL
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -30,6 +36,7 @@ data:
       liquid, according to Neton’s Law odf Viscosity. The kinematic viscosity is the
       ration of the dynamic viscosity to the density of the liquid.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

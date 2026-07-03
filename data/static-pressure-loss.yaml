@@ -6,12 +6,21 @@ data:
   - type: expression
     status: preferred
     text: pressure differential
+    usage_info:
+    field:
+    international: false
   - type: expression
     status: preferred
     text: static pressure loss
+    usage_info:
+    field:
+    international: false
   - type: symbol
     status: preferred
     text: stem:[Delta p]
+    usage_info:
+    field:
+    international: true
   kind: undefined
   official_concept:
   editions_present:
@@ -30,6 +39,7 @@ data:
       gas meter while the gas is flowing
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

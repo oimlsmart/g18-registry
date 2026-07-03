@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: range-finding based speed meter
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -28,6 +31,7 @@ data:
       sensing method that determines target range and speed based on the time-of-flight
       of laser light pulses reflected off a target.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

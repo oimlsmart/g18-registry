@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: data domain
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -32,6 +35,7 @@ data:
       access by any other software modules by means of the language'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -46,6 +50,7 @@ data:
     notes:
     - 'Note: Data domains may belong to one software module only, or to several.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

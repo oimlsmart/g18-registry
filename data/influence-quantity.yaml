@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: influence quantity
+    usage_info:
+    field:
+    international: false
   kind: defined_in_vim
   official_concept:
     source: urn:oiml:pub:v:2:1993
@@ -34,6 +37,7 @@ data:
       the value of the measurand or the indication of the tank
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -50,6 +54,7 @@ data:
     notes:
     - "(VIM:2007, 2.52)"
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -64,6 +69,7 @@ data:
       influences the value of the measurand or the indication of the G
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -80,6 +86,7 @@ data:
     notes:
     - "(VIM:2007, 2.52)"
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -94,6 +101,7 @@ data:
       the values of the measurand or the indication of the instrument
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -110,6 +118,7 @@ data:
     - An influence quantity does not affect the actual mass of the load being weighed,
       but affects the value (weighing result) indicated by the instrument.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -124,6 +133,7 @@ data:
       the value of the measurand or the indication of the measuring system
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -138,6 +148,7 @@ data:
       the value of the measurand or the indication of the measuring system
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -152,6 +163,7 @@ data:
       (VIM:1993, 2.7) the measurement
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
     related:
@@ -171,6 +183,7 @@ data:
       of the measurement IM:1993, 2.7]."
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -185,6 +198,7 @@ data:
       of the measurement IM:1993, 2.7]]"
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -199,6 +213,7 @@ data:
       the values of the measurand or the indication of the instrument
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -213,6 +228,7 @@ data:
       (VIM:1993, 2.7) the measurement
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
     related:
@@ -232,6 +248,7 @@ data:
       the measurement
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -247,6 +264,7 @@ data:
       ased on VIM:1993, 2.7]"
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
     related:
@@ -267,6 +285,7 @@ data:
     notes:
     - "[VIM:1993, 2.7]"
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -281,6 +300,7 @@ data:
       the value of the measurand or the indication of the instrument
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -295,6 +315,7 @@ data:
       of the measurement IM:1993, 2.7]"
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -310,6 +331,7 @@ data:
       at the instant the measurements on the load cell are being observed or recorded.)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
     related:
@@ -329,6 +351,7 @@ data:
       the measurement
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -344,6 +367,7 @@ data:
       (VIM:1993, 2.7).
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
     related:
@@ -364,6 +388,7 @@ data:
       2.7)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
     related:
@@ -384,6 +409,7 @@ data:
       2.7]."
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
     related:
@@ -403,6 +429,7 @@ data:
       the value of the measurand or the indication of the instrument
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -418,6 +445,7 @@ data:
       IM:1993, clause 2.7 or D 11 clause T.12)"
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -433,6 +461,7 @@ data:
       2.10]
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -451,6 +480,7 @@ data:
       ambient temperature, measurement angle, acceleration of measured vehicle, distance
       and speed of other vehicles on the same or neighbouring lanes.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
     related:
@@ -474,6 +504,7 @@ data:
       of the water passing through the meter affects the measurand.'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -486,9 +517,16 @@ data:
     g18_entry: '03123'
     definition: quantity that, in a direct measurement, does not affect the quantity
       that is actually measured, but affects the relation between the indication and
-      the measurement result [OIML V 2-200:2012, 2.52] [OIML V 1:2013, 0.07]
+      the measurement result
     notes: []
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2012
+      ref_id: '2.52'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -501,10 +539,17 @@ data:
     g18_entry: '03124'
     definition: quantity that, in a direct measurement, does not affect the quantity
       that is actually measured, but affects the relation between the indication and
-      the measurement result [VIM 2.52]
+      the measurement result
     notes:
     - "(For examples and notes, refer to the VIM [2])"
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2012
+      ref_id: '2.52'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -517,9 +562,16 @@ data:
     g18_entry: '03128'
     definition: quantity that, in a direct measurement, does not affect the quantity
       that is actually measured, but affects the relation between the indication and
-      the measurement result [VIM 2.52]
+      the measurement result
     notes: []
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2012
+      ref_id: '2.52'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -532,9 +584,16 @@ data:
     g18_entry: '03129'
     definition: quantity that, in a direct measurement, does not affect the quantity
       that is actually measured, but affects the relation between the indication and
-      the measurement result [VIM 2.52]
+      the measurement result
     notes: []
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2012
+      ref_id: '2.52'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -550,6 +609,7 @@ data:
       the measurement result (VIM 2.52)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -564,6 +624,7 @@ data:
       the value of the measurand or the indication of the Tank
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -576,9 +637,16 @@ data:
     g18_entry: '03126'
     definition: quantity that, in a direct measurement, does not affect the quantity
       that is actually measured, but that affects the relation between the indication
-      and the measurement result [VIM, 2.52]
+      and the measurement result
     notes: []
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2012
+      ref_id: '2.52'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -601,6 +669,13 @@ data:
       on this measured object may need to be taken into consideration as a contributor
       in the definition of the measurand.'
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2012
+      ref_id: '2.52'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -613,9 +688,16 @@ data:
     g18_entry: '02772'
     definition: quantity that, in a direct measurement, does not affect the quantity
       that is actually measured, but that affects the relation between the indication
-      and the measurement result [VIM, 2.52] [1]
+      and the measurement result
     notes: []
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2012
+      ref_id: '2.52'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -628,19 +710,26 @@ data:
     g18_entry: 02322-R046-1
     definition: quantity that, in direct measurement, does not affect the quantity
       that is actually measured, but affects the relation between the indication and
-      the measurement result [OIML V2:200:2012, 2.52]
+      the measurement result
     notes:
-    - 'Note 1: The concept of influence quantity is understood to include values associated
+    - The concept of influence quantity is understood to include values associated
       with measurement standards, reference materials and reference data upon which
       the result of a measurement may depend, as well as phenomena such as short-term
       measuring instrument fluctuations and quantities such as ambient temperature,
-      barometric pressure and humidity. Note 2: In the GUM [5], the concept ‘influence
-      quantity’ is defined as in the second edition of the VIM, covering not only
-      the quantities affecting the measuring system, as in the definition above, but
-      also those quantities that affect the quantities actually measured. Also, in
-      the GUM this concept is not restricted to direct measurements. [OIML V2-200:2012,
-      2.52, Note 2]'
+      barometric pressure and humidity.
+    - In the GUM [5], the concept 'influence quantity' is defined as in the second
+      edition of the VIM, covering not only the quantities affecting the measuring
+      system, as in the definition above, but also those quantities that affect the
+      quantities actually measured. Also, in the GUM this concept is not restricted
+      to direct measurements. [OIML V2-200:2012, 2.52, Note 2]
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2012
+      ref_id: '2.52'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -656,6 +745,7 @@ data:
       and the measurement result (VIM 2.52)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -670,6 +760,7 @@ data:
       the measurement
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -684,6 +775,7 @@ data:
       the value of the measurand or the indication of the Tank
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -699,6 +791,7 @@ data:
       and the measurement result [VIM:2007, 2.5]
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -713,6 +806,7 @@ data:
       the value of the measurand or the indication of the ALG
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -728,6 +822,7 @@ data:
       the measurement result [VIM:2007, 2.52]
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -742,6 +837,7 @@ data:
       the values of the measurand or the indication of the instrument
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -758,6 +854,7 @@ data:
     - 'Note: An influence quantity does not affect the actual mass of the load being
       weighed, but affects the value  (weighing result) indicated by the instrument.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -772,6 +869,7 @@ data:
       the value of the measurand or the indication of the measuring system
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -786,6 +884,7 @@ data:
       the measurement [VIM:1993, 2.7]
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -800,6 +899,7 @@ data:
       the measurement [VIM:1993, 2.7]
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -814,6 +914,7 @@ data:
       the values of the measurand or the indication of the Instrument
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -829,6 +930,7 @@ data:
       [VIM:1993, 2.7]
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -843,6 +945,7 @@ data:
       the value of the measurand or the indication of the instrument
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -857,6 +960,7 @@ data:
       the measurement [VIM:1993, 2.7]
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -872,6 +976,7 @@ data:
       (VIM:1993, 2.7).
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -887,6 +992,7 @@ data:
       2.7)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -902,6 +1008,7 @@ data:
       clause 2.7 or D 11 clause T.12)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

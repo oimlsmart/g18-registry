@@ -6,12 +6,21 @@ data:
   - type: expression
     status: preferred
     text: dimensional volume
+    usage_info:
+    field:
+    international: false
   - type: abbreviation
     status: preferred
     text: Dim Vol
+    usage_info:
+    field:
+    international: false
   - type: abbreviation
     status: admitted
     text: DV
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -31,6 +40,7 @@ data:
       (H) (DV = L × W × H)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

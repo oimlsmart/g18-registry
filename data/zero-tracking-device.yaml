@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: zero tracking device
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -24,6 +27,7 @@ data:
     definition: device for maintaining the zero indication within certain limits automatically
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -38,6 +42,7 @@ data:
       the load receptor
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

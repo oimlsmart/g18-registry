@@ -6,9 +6,15 @@ data:
   - type: expression
     status: preferred
     text: mean area error
+    usage_info:
+    field:
+    international: false
   - type: symbol
     status: preferred
     text: stem:[(bar chi)_{e}]
+    usage_info:
+    field:
+    international: true
   kind: undefined
   official_concept:
   editions_present:
@@ -31,6 +37,7 @@ data:
       leather measurement indication; and n is the number of measurements.'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -46,6 +53,7 @@ data:
       indication; and n is the number of measurements.'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

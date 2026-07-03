@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: non-automatic weighing instrument
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -25,6 +28,7 @@ data:
       weighing process to decide that the weighing result is acceptable
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -54,6 +58,7 @@ data:
       (3) In this Recommendation a non-automatic weighing instrument is called an
       "instrument".
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -68,6 +73,7 @@ data:
       weighing process to decide whether the weighing result is acceptable
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -82,6 +88,7 @@ data:
       weighing process to decide that the weighing result is acceptable
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -97,20 +104,21 @@ data:
       weighing instrument may be: graduated or non-graduated; or self-indicating,
       semi-self-indicating or non-self-indicating'
     notes:
-    - 'Note 1: Deciding that the weighing result is acceptable includes any intelligent
-      action by the operator that affects the result, such as taking an action when
-      an indication is stable or adjusting the mass of the weighed load, and to make
-      a decision regarding the acceptance of each weighing result on observing the
-      indication or releasing a print out. A non- automatic weighing process allows
-      the operator to take an action (i.e. adjust the load, adjust the unit price,
-      determine that the load is acceptable, etc.) which influences the weighing result
-      in the case where the weighing result is not acceptable. Note 2: In case of
-      doubt as to whether an instrument is a non-automatic weighing instrument or
-      an automatic weighing instrument, the definitions for automatic weighing instruments
-      given in OIML Recommendations R 50, R 51, R 61, R 106, R 107 and R 134 have
-      higher priority than the criteria of Note 1 above. Note 3: In this Recommendation
-      a non-automatic weighing instrument is called an “instrument”.'
+    - Deciding that the weighing result is acceptable includes any intelligent action
+      by the operator that affects the result, such as taking an action when an indication
+      is stable or adjusting the mass of the weighed load, and to make a decision
+      regarding the acceptance of each weighing result on observing the indication
+      or releasing a print out. A non-automatic weighing process allows the operator
+      to take an action (i.e. adjust the load, adjust the unit price, determine that
+      the load is acceptable, etc.) which influences the weighing result in the case
+      where the weighing result is not acceptable.
+    - In case of doubt as to whether an instrument is a non-automatic weighing instrument
+      or an automatic weighing instrument, the definitions for automatic weighing
+      instruments given in OIML Recommendations R 50, R 51, R 61, R 106, R 107 and
+      R 134 have higher priority than the criteria of Note 1 above.
+    - In this Recommendation a non-automatic weighing instrument is called an "instrument".
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

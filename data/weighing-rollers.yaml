@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: weighing rollers
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -25,6 +28,7 @@ data:
       load receptor
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -41,6 +45,7 @@ data:
     - 'Note:  An ‘inclusive of conveyor’ type belt weigher will normally have weighing
       rollers or idlers.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

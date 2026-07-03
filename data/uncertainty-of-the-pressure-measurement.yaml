@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: uncertainty of the pressure measurement
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +29,7 @@ data:
       to the measured pressure
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -42,6 +46,7 @@ data:
       Annex B)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

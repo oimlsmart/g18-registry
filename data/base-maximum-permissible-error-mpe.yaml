@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: base maximum permissible error mpe
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -29,6 +32,7 @@ data:
       of the base maximum permissible error and the maximum permissible error shift
       as described in Annex B.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

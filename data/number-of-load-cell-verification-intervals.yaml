@@ -6,9 +6,15 @@ data:
   - type: expression
     status: preferred
     text: number of load cell verification intervals
+    usage_info:
+    field:
+    international: false
   - type: symbol
     status: preferred
     text: stem:[n]
+    usage_info:
+    field:
+    international: true
   kind: undefined
   official_concept:
   editions_present:
@@ -27,6 +33,7 @@ data:
       measuring range is divided
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

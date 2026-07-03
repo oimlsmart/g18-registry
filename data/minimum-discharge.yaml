@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: minimum discharge
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -24,6 +27,7 @@ data:
     definition: smallest load that can be discharged from a subtractive weigher
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -37,6 +41,7 @@ data:
     definition: smallest load that can be discharged from a subtractive weighing instrument
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

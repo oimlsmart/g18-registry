@@ -6,9 +6,15 @@ data:
   - type: expression
     status: preferred
     text: flow rate
+    usage_info:
+    field:
+    international: false
   - type: symbol
     status: preferred
     text: stem:[Q]
+    usage_info:
+    field:
+    international: true
   kind: undefined
   official_concept:
   editions_present:
@@ -29,6 +35,7 @@ data:
     - Note:ISO 4006:1991 [3] 4.1.2 prefers the use of the symbol qV for this quantity,
       but Q is used in this Recommendation as it is well established in the industry.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -43,6 +50,7 @@ data:
       and the time taken for this quantity to pass through the gas meter
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: across-the road speed meter
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -24,13 +27,14 @@ data:
       of the measurement angle,a configured value of the expected measurement angle
       or combination of the two
     notes:
-    - 'Note 1:  A variation of measurement angle can lead to negative or positive
-      residual cosine error for this calss of speed meters. Note 2:A speed meter that
-      is installed above the road and compensates for cosine error is also referred
-      to as across-the road speed meter, for simplicity. Note 3: Typical examples
-      are most Doppler-radar based speed meters, 2D and 3D laser ecanners and image-nbased
-      speed meters.'
+    - A variation of measurement angle can lead to negative or positive residual cosine
+      error for this calss of speed meters.
+    - A speed meter that is installed above the road and compensates for cosine error
+      is also referred to as across-the road speed meter, for simplicity.
+    - Typical examples are most Doppler-radar based speed meters, 2D and 3D laser
+      ecanners and image-nbased speed meters.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

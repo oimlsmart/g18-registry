@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: actual volume Va
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -23,10 +26,12 @@ data:
     definition: total volume of water passing through the meter, disregarding the
       time taken
     notes:
-    - Note 1:This is the measurand. Note 2:The actual volume is calculated from a
-      reference volume as determined by a suitable measurement standard, taking into
-      account differences in metering conditions, as appropriate.
+    - This is the measurand.
+    - The actual volume is calculated from a reference volume as determined by a suitable
+      measurement standard, taking into account differences in metering conditions,
+      as appropriate.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

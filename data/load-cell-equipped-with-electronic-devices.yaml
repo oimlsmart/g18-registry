@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: load cell equipped with electronic devices
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +29,7 @@ data:
     examples:
     - 'of electronics: p-n junction, amplifier, encoder, A/D converter, CPU, I/O interface,
       etc. (not including strain gauge bridge circuits).'
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

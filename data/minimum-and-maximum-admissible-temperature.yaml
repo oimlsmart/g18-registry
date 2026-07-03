@@ -6,12 +6,21 @@ data:
   - type: expression
     status: preferred
     text: minimum and maximum admissible temperature
+    usage_info:
+    field:
+    international: false
   - type: symbol
     status: preferred
     text: stem:[mAT]
+    usage_info:
+    field:
+    international: true
   - type: symbol
     status: preferred
     text: stem:[MAT]
+    usage_info:
+    field:
+    international: true
   kind: undefined
   official_concept:
   editions_present:
@@ -32,6 +41,7 @@ data:
       of the rated operating conditions (ROC)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: associated measuring instrument
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +29,7 @@ data:
       by the calculator with a view to making a correction and/or a conversion
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -40,6 +44,7 @@ data:
       measuring certain gas properties, for the purpose of making a correction
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -55,6 +60,7 @@ data:
       a correction and/or a conversion
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -66,14 +72,20 @@ data:
     link:
     g18_entry: '02866'
     definition: instrument for the measurement of a quantity, other than the measurand,
-      the value of which is used to correct or convert a measurement result [OIML
-      V1:2013, 5.09]
+      the value of which is used to correct or convert a measurement result
     notes:
     - 'Note: Within the scope of this Recommendation, this concerns the instrument
       which is connected to the calculator or the correction device, for measuring
       certain quantity values which are characteristic of the gas, with a view to
       making a correction.'
     examples: []
+    source:
+      kind: viml
+      relationship: identical
+      modification:
+      ref_source: OIML V 1:2013
+      ref_id: '5.09'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -88,6 +100,7 @@ data:
       measuring certain gas properties, for the purpose of making a correction
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -103,6 +116,7 @@ data:
       by the calculator with a view to making a correction and/or a conversion
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

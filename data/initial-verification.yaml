@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: initial verification
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -25,6 +28,13 @@ data:
       previously
     notes: []
     examples: []
+    source:
+      kind: viml
+      relationship: identical
+      modification:
+      ref_source: OIML V 1:2000
+      ref_id: '15'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -46,6 +56,7 @@ data:
       measuring instruments and processes (1988))"
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -60,6 +71,7 @@ data:
       verified previously [VML 2.4.2].
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -74,6 +86,7 @@ data:
       previously (OIML V 1, 2.12)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -88,6 +101,7 @@ data:
       previously [from VIML, 2.12 [3]]
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -102,6 +116,13 @@ data:
       previously
     notes: []
     examples: []
+    source:
+      kind: viml
+      relationship: identical
+      modification:
+      ref_source: OIML V 1:2000
+      ref_id: '2.15'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -116,6 +137,13 @@ data:
       previously
     notes: []
     examples: []
+    source:
+      kind: viml
+      relationship: identical
+      modification:
+      ref_source: OIML V 1:2000
+      ref_id: '15'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -137,6 +165,7 @@ data:
       (1988))
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -151,6 +180,7 @@ data:
       verified previously [VML 2.4.2].
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

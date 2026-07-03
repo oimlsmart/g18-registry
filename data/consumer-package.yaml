@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: consumer package
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -24,6 +27,7 @@ data:
       final purchasers through retail sales agencies or other means
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: temperature probe
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -30,6 +33,7 @@ data:
     - esophagus, or a surgically created cavity. (2) The part of the probe in contact
       with a body cavity is called the applied part.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -49,6 +53,7 @@ data:
     - "(sublingual), rectum, or armpit. (2) The part of the probe in contact with
       a body cavity or tissue is called the applied pa"
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -64,10 +69,10 @@ data:
       It comprises a temperature sensor with associated parts including coverings,
       seals, inner leads, and connecting plug, where appropriate
     notes:
-    - 'Note 1:  A body cavity may be the rectum, esophagus, or a surgically created
-      cavity. Note 2:  The part of the probe in contact with a body cavity is called
-      the applied part.'
+    - A body cavity may be the rectum, esophagus, or a surgically created cavity.
+    - The part of the probe in contact with a body cavity is called the applied part.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -83,10 +88,11 @@ data:
       sensor with associated parts including coverings, seals, inner leads, and connecting
       plug, where appropriate
     notes:
-    - 'Note 1:  A body cavity or tissue may be the mouth (sublingual), rectum, or
-      armpit. Note 2: . The part of the probe in contact with a body cavity or tissue
-      is called the applied part'
+    - A body cavity or tissue may be the mouth (sublingual), rectum, or armpit.
+    - The part of the probe in contact with a body cavity or tissue is called the
+      applied part
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

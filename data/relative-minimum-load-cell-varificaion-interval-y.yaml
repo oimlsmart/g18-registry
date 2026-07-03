@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: relative minimum load cell varificaion interval (Y)
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +29,7 @@ data:
     - 'Note: This ratio describes the resolution of the load cell independent from
       the load call capacity.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

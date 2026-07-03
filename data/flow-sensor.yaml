@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: flow sensor
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +29,7 @@ data:
       is a function of the volume or the mass or the volumetric or mass flow rate
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -41,6 +45,7 @@ data:
       is a function of the volume or the mass or the volumetric or mass flow rate
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

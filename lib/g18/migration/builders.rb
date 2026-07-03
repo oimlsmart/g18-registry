@@ -39,6 +39,7 @@ module G18
         src_id = Loaders.source_ref(concept)
         bib_e  = bib[src_id]
         edges  = Loaders.see_edges(concept)
+        adoption = Loaders.adoption_info(concept, raw: entry[:raw])
         pub = {
           "edition"            => entry[:edition],
           "publication"        => (bib_e && bib_e["reference"]) || src_id,
@@ -51,6 +52,7 @@ module G18
           "definition"         => Loaders.definition_text(concept),
           "notes"              => Loaders.notes_text(concept),
           "examples"           => Loaders.examples_text(concept),
+          "source"             => adoption,
           "consistency"        => "pending",
           "consistency_reason" => "",
         }

@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: concentric meter manifold
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -24,6 +27,7 @@ data:
     definition: pipe fitting specific to the connection of a concentric meter
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -37,6 +41,7 @@ data:
     definition: pipe fitting specific to the connection of a concentric meter(3.1.18)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

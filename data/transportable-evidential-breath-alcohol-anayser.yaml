@@ -6,9 +6,15 @@ data:
   - type: expression
     status: preferred
     text: transportable evidential breath alcohol anayser
+    usage_info:
+    field:
+    international: false
   - type: abbreviation
     status: preferred
     text: transportable EBA
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -29,6 +35,7 @@ data:
     - 'Note:  In scope of this Recommendation, transportable EBAs are designated as
       use-case 2.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

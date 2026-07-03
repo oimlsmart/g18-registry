@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: error
+    usage_info: of indication
+    field:
+    international: false
   kind: defined_in_vim
   official_concept:
     source: urn:oiml:pub:v:2:1993
@@ -34,6 +37,7 @@ data:
     notes:
     - "(VIM:2007, 2.16)"
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -49,6 +53,7 @@ data:
     notes:
     - "[VIM:1993, 5.20; OIML D 11:2004, 3.5]"
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -63,6 +68,7 @@ data:
       quantity
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -77,6 +83,7 @@ data:
     notes:
     - "(VIM:2007, 2.16)"
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -91,6 +98,7 @@ data:
       ofthe mass IM:1993, 5.20]"
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -105,6 +113,7 @@ data:
       ofthe corresponding mass dapted from VIM:1993, 1993, 3.10]"
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -119,6 +128,13 @@ data:
       input quantity
     notes: []
     examples: []
+    source:
+      kind: other
+      relationship: identical
+      modification:
+      ref_source: OIML V 2:1993
+      ref_id: '5.20'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
     related:
@@ -139,6 +155,7 @@ data:
       true value of the mass relating to those readings dapted from VIM:1993, 5.20]"
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
     related:
@@ -157,6 +174,7 @@ data:
     definition: indicated quantity value minus the reference (true) quantity value
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -172,6 +190,13 @@ data:
     - 'Note: This reference value is sometimes referred to as a (conventional) true
       quantity value. [VIML, 4.06]'
     examples: []
+    source:
+      kind: viml
+      relationship: identical
+      modification:
+      ref_source: OIML V 1:2013
+      ref_id: '4.06'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -182,10 +207,16 @@ data:
     clause: '2.13'
     link:
     g18_entry: '02768'
-    definition: measured quantity value minus a reference quantity value [VIM, 2.16]
-      [1])
+    definition: measured quantity value minus a reference quantity value
     notes: []
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2012
+      ref_id: '2.16'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -205,6 +236,7 @@ data:
       values it was decided that a separate definition for a relative error is not
       needed.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -216,9 +248,16 @@ data:
     link:
     g18_entry: '02607'
     definition: indication of an instrument minus the (conventional) true value of
-      the corresponding input quantity [VIM 5.20]
+      the corresponding input quantity
     notes: []
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2007
+      ref_id: '5.20'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -233,6 +272,7 @@ data:
       2.16]
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -247,6 +287,7 @@ data:
       quantity
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -261,6 +302,7 @@ data:
       2.16]
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -275,6 +317,7 @@ data:
       the mass [VIM:1993, 5.20]
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -289,6 +332,7 @@ data:
       the corresponding mass [adapted from VIM:1993, 1993, 3.10]
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -300,9 +344,16 @@ data:
     link:
     g18_entry: '03041'
     definition: indication of an instrument minus the (conventional) true value of
-      the mass [VIM 5.20]
+      the mass
     notes: []
     examples: []
+    source:
+      kind: other
+      relationship: identical
+      modification:
+      ref_source: OIML V 2:1993
+      ref_id: '5.20'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -317,6 +368,7 @@ data:
       value of the area [VIM:1993, 5.20]
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

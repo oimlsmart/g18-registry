@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: power converter (power supply device)
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +29,7 @@ data:
     notes:
     - "(OIML D 11:2004, 3.22)"
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -40,6 +44,7 @@ data:
       suitable for other sub-assemblies
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -54,6 +59,7 @@ data:
       suitable for other sub-assemblies
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -68,6 +74,7 @@ data:
       suitable for other sub-assemblies
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -79,9 +86,10 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r099-1-e08.pdf
     g18_entry: '02374'
     definition: sub assembly converting the voltage from the mains power to a voltage
-      suitable for other sub-assemblies [OIML D 11:2004, 3.22]
+      suitable for other sub-assemblies
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

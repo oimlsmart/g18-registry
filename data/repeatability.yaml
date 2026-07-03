@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: repeatability
+    usage_info:
+    field:
+    international: false
   kind: defined_in_vim
   official_concept:
     source: urn:oiml:pub:v:2:1993
@@ -38,6 +41,7 @@ data:
     notes:
     - ng results that agree one with the other the same or constant operating ions.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -54,6 +58,7 @@ data:
       at the same location under similar ambient conditions
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -69,6 +74,7 @@ data:
       way on the load receptor under reasonably constant test conditions
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -86,6 +92,7 @@ data:
       procedures'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -101,6 +108,7 @@ data:
       way on the load receptor under reasonably constant test conditions
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -116,6 +124,7 @@ data:
       short period of time
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -131,6 +140,7 @@ data:
       short period of time
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -148,6 +158,7 @@ data:
     - ethod of measurement, the operator, the ring instrument, the location, and the
       onmental condition
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -169,6 +180,7 @@ data:
       terms of the dispersion characteristics of th results."
     - 2. [VIM:1993, 3.6]
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -186,6 +198,7 @@ data:
     - The same conditions would include the same method of measurement, measuring
       instrument, operator, location, and ambient environmental conditions.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -201,6 +214,7 @@ data:
       short period of time.
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -216,6 +230,7 @@ data:
       the load cell under constant test conditions [Adapted from VIM:1993, 5.27]
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
     related:
@@ -238,6 +253,7 @@ data:
     - The same conditions would include the same method of measurement, measuring
       instrument, operator, location, and ambient environmental conditions.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -253,6 +269,7 @@ data:
       measurement [VIM:1993, 5.27]
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
     related:
@@ -273,6 +290,7 @@ data:
       3.6)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
     related:
@@ -293,6 +311,7 @@ data:
       conditions of measurement
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -310,6 +329,7 @@ data:
     - 'The same conditions include the following: ethod of measurement, the operator,
       the ring instrument, the location, and the onmental conditions.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -327,6 +347,7 @@ data:
     - 'The same conditions include the following: ethod of measurement, the operator,
       the ring instrument, the location, and the onmental conditions.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -343,6 +364,7 @@ data:
       is synonymous with the term "precision" for an instrument
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -358,6 +380,7 @@ data:
       same defined conditions within a relatively short period of time
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -373,6 +396,7 @@ data:
       same defined conditions within a relatively short period of time
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -384,9 +408,15 @@ data:
     link:
     g18_entry: '02668'
     definition: measurement precision under a set of repeatability conditions of measurement
-      [VIM 2.21]
     notes: []
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2012
+      ref_id: '2.21'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -401,6 +431,7 @@ data:
       other under the same operating conditions of measurement [based on VIM 3.6]
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -418,6 +449,7 @@ data:
     - 'Note:  For an instrument, this is its ability to provide weighing results that
       agree one with the other under the same or constant operating conditions.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -434,6 +466,7 @@ data:
       at the same location under similar ambient conditions
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -449,6 +482,7 @@ data:
       way on the load receptor under reasonably constant test conditions
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -463,6 +497,7 @@ data:
       of the same measurand according to the following conditions:'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -478,6 +513,7 @@ data:
       way on the load receptor under reasonably constant test conditions
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -493,6 +529,7 @@ data:
       short period of time
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -508,6 +545,7 @@ data:
       short period of time
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -525,6 +563,7 @@ data:
     - 'Note: The same conditions include the following: the method of measurement,
       the operator, the measuring instrument, the location, and the environmental  condition'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -539,12 +578,14 @@ data:
       the maximum (Amax) and minimum (Amin) successive area measurements carried out
       under the same conditions of measurement R = Amax – Amin
     notes:
-    - 'Note 1:  Repeatability conditions include: the same measurement procedure;
-      the same operator; the same measuring instrument, used under the same conditions;
-      the same location; and repetition over a short period of time. Repeatability
-      may be expressed quantitatively in terms of the dispersion characteristics of
-      the results. Note 2:  [VIM:1993, 3.6]'
+    - 'Repeatability conditions include: the same measurement procedure; the same
+      operator; the same measuring instrument, used under the same conditions; the
+      same location; and repetition over a short period of time. Repeatability may
+      be expressed quantitatively in terms of the dispersion characteristics of the
+      results.'
+    - "[VIM:1993, 3.6]"
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -562,6 +603,7 @@ data:
     - The same conditions would include the same method of measurement, measuring
       instrument, operator, location, and ambient environmental  conditions.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -577,6 +619,7 @@ data:
       short period of time.
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -594,6 +637,7 @@ data:
     - 'Note:  The same conditions would include the same method of measurement, measuring
       instrument, operator, location, and ambient environmental  conditions.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -609,6 +653,7 @@ data:
       measurement [VIM:1993, 5.27]
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -624,6 +669,7 @@ data:
       3.6)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -642,6 +688,7 @@ data:
       the measuring instrument, the operator, the location and the ambient environmental
       conditions.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -657,6 +704,7 @@ data:
       conditions of measurement
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -675,6 +723,7 @@ data:
       the operator, the measuring instrument, the location, and the environmental
       conditions.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -693,6 +742,7 @@ data:
       the operator, the measuring instrument, the location, and the environmental
       conditions.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -709,6 +759,7 @@ data:
       is synonymous with the term "precision" for an instrument
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

@@ -6,12 +6,21 @@ data:
   - type: expression
     status: preferred
     text: minimum flowrate
+    usage_info:
+    field:
+    international: false
   - type: symbol
     status: preferred
     text: stem:[Q_{"min"}]
+    usage_info:
+    field:
+    international: false
   - type: symbol
     status: preferred
     text: stem:[Q_{1}]
+    usage_info:
+    field:
+    international: true
   kind: undefined
   official_concept:
   editions_present:
@@ -30,6 +39,7 @@ data:
       the maximum permissible error
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -45,6 +55,7 @@ data:
       operating conditions
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -59,6 +70,7 @@ data:
       of this Recommendation
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

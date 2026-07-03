@@ -6,9 +6,15 @@ data:
   - type: expression
     status: preferred
     text: Product
+    usage_info:
+    field:
+    international: false
   - type: expression
     status: preferred
     text: product
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -28,6 +34,7 @@ data:
       subject to inspection/evaluation for the issuance of OIML certificates.
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -40,15 +47,17 @@ data:
     g18_entry: '02505'
     definition: all of the prepackage that is not packing material
     notes:
-    - 'Note 1: Product includes liquids or gasses that were put in the prepackage
-      together with the product and that are not intended to be left over after use
-      of the product (e.g. air in chocolate mousse). Note 2: Product includes liquids
-      or gasses that were not put in the prepackage with the product and that are
-      intended to be left over after use of the product (e.g. liquid in mozzarella
-      cheese, air in hair gel). Note 3: Product includes liquids or gasses that were
-      not put in the prepackage with the product and that are not intended to be left
-      over after use of the product (e.g. curdling of yoghurt or honey).'
+    - Product includes liquids or gasses that were put in the prepackage together
+      with the product and that are not intended to be left over after use of the
+      product (e.g. air in chocolate mousse).
+    - Product includes liquids or gasses that were not put in the prepackage with
+      the product and that are intended to be left over after use of the product (e.g.
+      liquid in mozzarella cheese, air in hair gel).
+    - Product includes liquids or gasses that were not put in the prepackage with
+      the product and that are not intended to be left over after use of the product
+      (e.g. curdling of yoghurt or honey).
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -61,15 +70,17 @@ data:
     g18_entry: '02490'
     definition: all of the prepackage that is not packing material
     notes:
-    - 'Note 1:  Product includes liquids or gasses that were put in the prepackage
-      together with the product and that are not intended to be left over after use
-      of the product (e.g. air in chocolate mousse). Note 2:  Product includes liquids
-      or gasses that were not put in the prepackage with the product and that are
-      intended to be left over after use of the product (e.g. liquid in mozzarella
-      cheese, air in hair gel). Note 3:  Product includes liquids or gasses that were
-      not put in the prepackage with the product and that are not intended to be left
-      over after use of the product (e.g. curdling of yoghurt or honey).'
+    - Product includes liquids or gasses that were put in the prepackage together
+      with the product and that are not intended to be left over after use of the
+      product (e.g. air in chocolate mousse).
+    - Product includes liquids or gasses that were not put in the prepackage with
+      the product and that are intended to be left over after use of the product (e.g.
+      liquid in mozzarella cheese, air in hair gel).
+    - Product includes liquids or gasses that were not put in the prepackage with
+      the product and that are not intended to be left over after use of the product
+      (e.g. curdling of yoghurt or honey).
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

@@ -6,9 +6,15 @@ data:
   - type: expression
     status: preferred
     text: angle
+    usage_info:
+    field:
+    international: false
   - type: symbol
     status: preferred
     text: stem:[alpha]
+    usage_info:
+    field:
+    international: true
   kind: undefined
   official_concept:
   editions_present:
@@ -28,6 +34,7 @@ data:
       direction (seat tube) and the vertical (see Fig. 1)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -42,6 +49,7 @@ data:
       (seat tube) and the vertical (see Fig. 1) 2
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

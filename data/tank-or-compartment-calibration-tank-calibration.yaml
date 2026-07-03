@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: tank or compartment calibration (tank calibration)
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -30,6 +33,7 @@ data:
       entered in or emptied from the tank
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -49,6 +53,7 @@ data:
       entered in or emptied from the tank.
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -68,6 +73,7 @@ data:
       entered in or emptied from the tank.
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

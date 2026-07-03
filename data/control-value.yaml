@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: control value
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -27,6 +30,7 @@ data:
       complete revolutions
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -42,6 +46,7 @@ data:
       on the (empty) force receptor
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -58,6 +63,7 @@ data:
       complete revolutions
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

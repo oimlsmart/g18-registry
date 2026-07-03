@@ -6,9 +6,15 @@ data:
   - type: expression
     status: preferred
     text: sample temperature sensitivity
+    usage_info:
+    field:
+    international: false
   - type: abbreviation
     status: preferred
     text: STS
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -31,6 +37,7 @@ data:
       a limit is placed on the value of the average error shift caused by allowable
       temperature variations.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -49,6 +56,7 @@ data:
       limit is placed on the value of the average error shift caused by allowable
       temperature variations.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

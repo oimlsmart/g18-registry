@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: load receptor
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -24,6 +27,7 @@ data:
     definition: part of the instrument intended to receive the load
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -37,6 +41,7 @@ data:
     definition: part of the instrument intended to receive the load
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -50,6 +55,7 @@ data:
     definition: part of the instrument intended to receive the load
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -63,6 +69,7 @@ data:
     definition: part of the instrument intended to receive the load
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -78,6 +85,7 @@ data:
       upon it
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -91,6 +99,7 @@ data:
     definition: the part of the belt weigher intended to receive the load
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -106,6 +115,7 @@ data:
       upon it
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -119,6 +129,7 @@ data:
     definition: part of the instrument intended to receive the load
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -132,6 +143,7 @@ data:
     definition: part of the instrument intended to sense the load on the belt
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -144,11 +156,12 @@ data:
     g18_entry: '02540'
     definition: part of the instrument that is intended to receive the load
     notes:
-    - 'Note 1: The load receptor may support all the wheels of an axle, a bogie, or
-      a single wagon simultaneously. Note 2: Two or more load receptors may be placed
-      in series and used as a single load receptor for full-draught weighing or partial
-      weighing (see 0.3.1.2).'
+    - The load receptor may support all the wheels of an axle, a bogie, or a single
+      wagon simultaneously.
+    - Two or more load receptors may be placed in series and used as a single load
+      receptor for full-draught weighing or partial weighing (see 0.3.1.2).
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -162,6 +175,7 @@ data:
     definition: part of the instrument intended to receive the load
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -175,6 +189,7 @@ data:
     definition: part of the instrument intended to receive the load
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -188,6 +203,7 @@ data:
     definition: part of the instrument intended to receive the load
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -203,6 +219,7 @@ data:
       is placed upon it
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

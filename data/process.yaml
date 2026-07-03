@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: process
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -23,6 +26,7 @@ data:
     definition: Processes are not relevant to issuing OIML certificates.
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

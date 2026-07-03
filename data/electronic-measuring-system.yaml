@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: electronic measuring system
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -23,6 +26,7 @@ data:
     definition: a measuring system equipped with electronic devices
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

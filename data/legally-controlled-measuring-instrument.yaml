@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: legally controlled measuring instrument
+    usage_info:
+    field:
+    international: false
   kind: defined_in_viml
   official_concept:
     source: urn:oiml:pub:v:1:2000
@@ -39,6 +42,13 @@ data:
       counting machines, medical measuring instruments, water dispensing machines,
       timing instruments in vehicle washes.'
     examples: []
+    source:
+      kind: viml
+      relationship: identical
+      modification:
+      ref_source: OIML V 1:2000
+      ref_id: '4.3'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
     related:
@@ -57,12 +67,20 @@ data:
     definition: measuring instrument which conforms to prescribed requirements, in
       particular legal metrological requirements
     notes:
-    - 'Note 1: For the purposes of this Document the following instruments may fall
-      under control according to national regulations: measuring instruments, coin
-      counting machines, medical measuring instruments, water dispensing machines,
-      timing instruments in vehicle washers. Note 2:Legally controlled measuring instrument
-      is hereafter referred to as a “measuring instrument”.'
+    - 'For the purposes of this Document the following instruments may fall under
+      control according to national regulations: measuring instruments, coin counting
+      machines, medical measuring instruments, water dispensing machines, timing instruments
+      in vehicle washers.'
+    - Legally controlled measuring instrument is hereafter referred to as a "measuring
+      instrument".
     examples: []
+    source:
+      kind: viml
+      relationship: identical
+      modification:
+      ref_source: OIML V 1:2000
+      ref_id: '4.3'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -82,6 +100,13 @@ data:
       coin countingmachines, medical measuring instruments, water dispensing machines,
       timing instruments in vehicle washes.'
     examples: []
+    source:
+      kind: viml
+      relationship: identical
+      modification:
+      ref_source: OIML V 1:2000
+      ref_id: '4.3'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
 status: current

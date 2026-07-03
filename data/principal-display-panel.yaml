@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: principal display panel
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -25,6 +28,7 @@ data:
       shown or examined under normal and customary conditions of display
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -41,6 +45,7 @@ data:
     - 'Note: This is normally the main or front panel of the prepackage and there
       could be more than one.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

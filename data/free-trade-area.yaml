@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: free trade area
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -30,6 +33,7 @@ data:
     - ity assessment procedures where, rom public authorities, first party bodie cturers)
       and other private bodies, ut certain functions as third parties.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -48,6 +52,7 @@ data:
       where, apart from public authorities, first party bodies (manufacturers) and
       other private bodies as third parties, carry out certain functions.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -67,6 +72,7 @@ data:
       where, apart from public authorities, first party bodies (manufacturers) and
       other private bodies, carry out certain functions as third parties.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

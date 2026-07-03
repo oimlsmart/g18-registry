@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: acceptable solution
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +29,7 @@ data:
       be met. It does not prejudice any other solution that also meets the requirement
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

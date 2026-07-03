@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: average error shift
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -25,6 +28,7 @@ data:
       at one point of the range
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -44,6 +48,7 @@ data:
       for the mean of replicated measurements, i.e. the mean of measured values on
       the same test sample (usually taken under repeatability conditions).'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -64,6 +69,7 @@ data:
       of measured values on the same test sample (usually taken under repeatability
       conditions).
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

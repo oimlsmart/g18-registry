@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: device-specific parameter
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -27,6 +30,7 @@ data:
       (e.g. maximum value, minimum value, units of measurement, etc.)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -43,6 +47,7 @@ data:
       as those that should be secured and those that may be accessed (settable parameters)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -62,6 +67,7 @@ data:
       (unalterable) and those that may be accessed (settable) by an authorized person
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -73,14 +79,20 @@ data:
     link:
     g18_entry: '02982'
     definition: legally relevant parameter with a value that depends on the individual
-      instrument, component and/or module(s) subject to legal control adapted from
-      [OIML V 1:2022, 4.12]
+      instrument, component and/or module(s) subject to legal control
     notes:
-    - 'Note 1: Device-specific parameters comprise adjustment parameters (e.g. span
-      adjustment or other adjustments or corrections) and configuration parameters
-      (e.g. maximum value, minimum value, units of measurement, etc.) Note 2: See
-      also 6.2.3.4.'
+    - Device-specific parameters comprise adjustment parameters (e.g. span adjustment
+      or other adjustments or corrections) and configuration parameters (e.g. maximum
+      value, minimum value, units of measurement, etc.)
+    - See also 6.2.3.4.
     examples: []
+    source:
+      kind: viml
+      relationship: modified
+      modification:
+      ref_source: OIML V 1:2022
+      ref_id: '4.12'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -98,6 +110,7 @@ data:
       adjustment or other adjustments or corrections) and configuration parameters
       (e.g. maximum value, minimum value, units of measurement, etc.)'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -112,6 +125,7 @@ data:
       instrument (VIML, 4.12)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -131,6 +145,7 @@ data:
       parameters) by an authorized person
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -147,6 +162,7 @@ data:
       as those that should be secured and those that may be accessed (settable parameters)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -166,6 +182,7 @@ data:
       (unalterable) and those that may be accessed (settable) by an authorized person
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

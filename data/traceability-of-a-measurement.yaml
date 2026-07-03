@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: traceability of a measurement
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -27,6 +30,7 @@ data:
     notes:
     - "(adapted from VIM:2007, 2.41)"
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -43,6 +47,7 @@ data:
       (adapted from VIM:2007, 2.41)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

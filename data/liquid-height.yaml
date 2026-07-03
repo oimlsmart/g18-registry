@@ -6,9 +6,15 @@ data:
   - type: expression
     status: preferred
     text: liquid height
+    usage_info:
+    field:
+    international: false
   - type: symbol
     status: preferred
     text: stem:[h]
+    usage_info:
+    field:
+    international: true
   kind: undefined
   official_concept:
   editions_present:
@@ -29,6 +35,7 @@ data:
     notes:
     - "(see figure 1)"
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -43,6 +50,7 @@ data:
       point bottom, measured along the vertical measurement axis (see figure 1)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: resolution (of an indicating device)
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -28,6 +31,7 @@ data:
       the difference between subsequent scale marks.
     - 2. (VIM:1993, 5.12)
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

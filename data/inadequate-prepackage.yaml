@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: inadequate prepackage
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +29,7 @@ data:
     - Note:An inadequate prepackage is sometimes also referred to as a non-conforming
       prepackage.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

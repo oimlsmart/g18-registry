@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: secondary indications
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -24,6 +27,7 @@ data:
     definition: indications, signals and symbols that are not primary indications
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -37,6 +41,7 @@ data:
     definition: indications, signals and symbols that are not primary indications
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -50,6 +55,7 @@ data:
     definition: indications, signals and symbols that are not primary indications
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -63,6 +69,7 @@ data:
     definition: indications, signals and symbols that are not primary indications
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -76,6 +83,7 @@ data:
     definition: indications, signals and symbols that are not primary indications
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -89,6 +97,7 @@ data:
     definition: indication, signal or symbol that is not a primary indication
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -102,6 +111,7 @@ data:
     definition: indications, signals and symbols that are not primary indications
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -115,6 +125,7 @@ data:
     definition: indications, signals and symbols that are not primary indications
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -128,6 +139,7 @@ data:
     definition: indications, signals and symbols that are not primary indications
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

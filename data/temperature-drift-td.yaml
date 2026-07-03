@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: temperature drift, Td
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -24,6 +27,7 @@ data:
       temperature mode
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

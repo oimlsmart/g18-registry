@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: demountable contact sensor
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -24,6 +27,7 @@ data:
       dismantling it for the purpose of a separate calibration and/or verification
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

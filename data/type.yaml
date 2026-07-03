@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: type
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +29,7 @@ data:
       properties are suitably defined
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -39,6 +43,7 @@ data:
     definition: definite model of weights or weight set to which it conforms
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -54,6 +59,7 @@ data:
       properties are suitably defined
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -67,6 +73,7 @@ data:
     definition: definite model of weights or weight set to which it conforms
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

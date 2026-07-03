@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: relative DR or Z
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -24,6 +27,7 @@ data:
       load output return, DR. This ratio is used to describe multi- interval instruments
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

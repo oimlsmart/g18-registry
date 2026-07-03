@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: sensitivity of a detector
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -28,6 +31,7 @@ data:
     notes:
     - An electrochemical detector of the coulombic type does not follow this equation.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -46,6 +50,7 @@ data:
     - 'Note: An electrochemical detector of the coulombic type does not follow this
       equation.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

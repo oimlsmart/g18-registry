@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: analogue-active load cell
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -28,6 +31,7 @@ data:
       an electronic representation of the measurand value, active temperature compensation,
       and similar function being of influence to the measurand value.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

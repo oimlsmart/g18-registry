@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: meter
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -27,6 +30,7 @@ data:
       correction devices if present) and an indicating device
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -43,6 +47,7 @@ data:
     - A meter includes at least a transducer, a calculator (including adjustment or
       correction devices if present) and an indicating device.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -58,6 +63,7 @@ data:
     notes:
     - The display may be a remote indicating device.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -75,6 +81,7 @@ data:
       adjustment or correction devices if present), a conversio device (if necessary),
       and an indicating device.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -92,6 +99,7 @@ data:
       adjustment or correction devices if present) and an indicating device (see Figure
       1).'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -107,6 +115,7 @@ data:
     notes:
     - 'Note: The display may be a remote indicating device.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -124,6 +133,7 @@ data:
       adjustment or correction devices if present), a conversion device (if necessary),
       and an indicating device.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

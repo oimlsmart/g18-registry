@@ -6,9 +6,15 @@ data:
   - type: expression
     status: preferred
     text: maximum permissible error mpe
+    usage_info:
+    field:
+    international: false
   - type: expression
     status: preferred
     text: maximum permissible error MPE
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -30,6 +36,7 @@ data:
       original notes removed.]'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -44,16 +51,18 @@ data:
       quantity value, permitted by specifications or regulations for a given measurement,
       measuring instrument or measuring system
     notes:
-    - 'Note 1: Usually, the term “maximum permissible errors” or “limits of errors”
-      is used where there are two extreme values. Note 2: The term “tolerance” should
-      not be used to designate “maximum permissible error”. [OIML V 2-200:2012, 4.26]
-      Note 3: In this Recommendation, the maximum permissible error is a combination
-      of the base maximum permissible error and the maximum permissible error shift
-      as described in Annex B. Note 4: For the application of this Recommendation,
-      “specifications or regulations” means: the provisions contained in this Recommendation,
-      and the terms “measuring instrument” and “measuring system” mean: electricity
-      meter.'
+    - Usually, the term "maximum permissible errors" or "limits of errors" is used
+      where there are two extreme values.
+    - The term "tolerance" should not be used to designate "maximum permissible error".
+      [OIML V 2-200:2012, 4.26]
+    - In this Recommendation, the maximum permissible error is a combination of the
+      base maximum permissible error and the maximum permissible error shift as described
+      in Annex B.
+    - 'For the application of this Recommendation, "specifications or regulations"
+      means: the provisions contained in this Recommendation, and the terms "measuring
+      instrument" and "measuring system" mean: electricity meter.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

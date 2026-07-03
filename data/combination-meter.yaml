@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: combination meter
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -27,6 +30,7 @@ data:
       or both
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -45,6 +49,7 @@ data:
     - Note:The meter reading is obtained from two independent totalizers, or from
       one totalizer which adds up the values from both water meters
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

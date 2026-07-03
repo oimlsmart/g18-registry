@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: calibrated section
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +29,7 @@ data:
     - 'Note: The volume inside a calibrated section, when it has been accurately determined
       in advance, may be used to define the base volume of the pipe prover.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

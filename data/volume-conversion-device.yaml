@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: volume conversion device
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -29,6 +32,7 @@ data:
     - The quotient of the volume at base conditions or of the mass to the volume at
       metering conditions is referred to as the "conversion factor".
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -47,6 +51,7 @@ data:
     - 'Note: The quotient of the volume at base conditions or of the mass to the volume
       at metering conditions is referred to as the “conversion factor”.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

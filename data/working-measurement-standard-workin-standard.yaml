@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: working measurement standard workin standard
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -21,12 +24,20 @@ data:
     link:
     g18_entry: '03647'
     definition: measurement standard that is used routinely to calibrate or verified
-      measuring instruments or measuring systems [VIM, 5.7]
+      measuring instruments or measuring systems
     notes:
-    - 'Note 1: A working measurement standard is usually calibrated with respect to
-      reference measurement standard. Note 2:  In relation to verification, the terms
-      “check standard” or “control standard” are also sometimes used.'
+    - A working measurement standard is usually calibrated with respect to reference
+      measurement standard.
+    - In relation to verification, the terms "check standard" or "control standard"
+      are also sometimes used.
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2012
+      ref_id: '5.7'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
 status: current

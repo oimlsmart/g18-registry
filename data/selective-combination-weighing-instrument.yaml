@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: selective combination weighing instrument
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -24,6 +27,7 @@ data:
       appropriate combination of the loads and combines them into one fill
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

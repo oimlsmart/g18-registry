@@ -8,6 +8,9 @@ data:
     status: preferred
     text: maximum permissible measurement error (MPE) maximum permissible error limit
       of error
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -24,14 +27,22 @@ data:
     g18_entry: '02446'
     definition: extreme value of measurement error, with respect to a known reference
       quantity value, permitted by specifications or regulations for a given measurement,
-      measuring instrument, or measuring system [VIM 4.26]
+      measuring instrument, or measuring system
     notes:
-    - 'Note 1: Usually the term “maximum permissible errors” or “limits of error”
-      are used, where there are two extreme values. Note 2: The term “tolerance” should
-      not be used to designate “maximum permissible error”. Additional note: The MPEs
-      in 4.4.2 of this Recommendation are errors associated with a meter in use in
-      the market place. The errors for the OIML test procedures are based on 4.4.1.'
+    - Usually the term "maximum permissible errors" or "limits of error" are used,
+      where there are two extreme values.
+    - The term "tolerance" should not be used to designate "maximum permissible error".
+    - 'Additional note: The MPEs in 4.4.2 of this Recommendation are errors associated
+      with a meter in use in the market place. The errors for the OIML test procedures
+      are based on 4.4.1.'
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2012
+      ref_id: '4.26'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
 status: current

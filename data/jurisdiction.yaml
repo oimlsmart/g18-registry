@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: jurisdiction
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -29,6 +32,7 @@ data:
       a particular provincial government, (3) the legal metrology agency of a particular
       country, and (4) the agency of a particular city government charged with enforcing
       pollution laws.
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -39,14 +43,15 @@ data:
     clause: 1.1.7
     link: https://www.oiml.org/en/files/pdf_D/d019-e88.pdf
     g18_entry: '00131'
-    definition: 'the sphere within which a particular government or a given agency
-      of such a government has power to make or enforce law or regulation Examples:
-      The spheres of legal authority of(1) a particular national government, (2) a
-      particular provincial government, (3) the legal metrology agency of a particular
-      country, and the agency of a particular city government charged with enforcing
-      pollution laws.'
+    definition: the sphere within which a particular government or a given agency
+      of such a government has power to make or enforce law or regulation
     notes: []
-    examples: []
+    examples:
+    - The spheres of legal authority of (1) a particular national government, (2)
+      a particular provincial government, (3) the legal metrology agency of a particular
+      country, and the agency of a particular city government charged with enforcing
+      pollution laws.
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

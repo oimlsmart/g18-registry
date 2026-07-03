@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: displacement sensing device
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -24,6 +27,7 @@ data:
       with the belt or integral with a non-drive pulley
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

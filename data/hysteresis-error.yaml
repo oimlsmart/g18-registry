@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: hysteresis error
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +29,7 @@ data:
       the other by decreasing the load from maximum load, Dmax
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -41,6 +45,7 @@ data:
       is reached by increasing or decreasing the pressure
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -56,6 +61,7 @@ data:
       range) is reached by increasing or decreasing the pressure
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -71,6 +77,7 @@ data:
       the other by decreasing the load from maximum load (Dmax)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -86,6 +93,7 @@ data:
       is reached by increasing or decreasing the pressure
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -101,6 +109,7 @@ data:
       range) is reached by increasing or decreasing the pressure
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: Complete Evaluation Report
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +29,7 @@ data:
     - Complete Evaluation Reports are issued under the Mutual Acceptance Arrangement
       (MAA).
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

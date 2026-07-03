@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: minimum measured quantity of a measuring system minimum delivery
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +29,7 @@ data:
     - 'Note: Measuring systems should not be used for measuring quantities less than
       the MMQ.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

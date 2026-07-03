@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: multi-load
+    usage_info: AGFI
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -23,6 +26,7 @@ data:
     definition: cumulative or selective combination AGFI
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

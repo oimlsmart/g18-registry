@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: electro-mechanical pressure transducer
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -24,6 +27,7 @@ data:
     definition: component that transforms pressure signals into electrical signals
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -40,6 +44,7 @@ data:
       and outputs'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

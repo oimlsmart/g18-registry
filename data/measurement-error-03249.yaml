@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: measurement error
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -20,19 +23,25 @@ data:
     clause: 3.2.36
     link:
     g18_entry: '03253'
-    definition: measured quantity value minus reference quantity value adapted from
-      [OIML V-2-200:2012, 2.16]
+    definition: measured quantity value minus reference quantity value
     notes:
-    - 'Note 1: The concept of ‘measurement error’ can be used both when there is single
-      reference quantity value to refer to, which occurs if a calibration is made
-      by means of measurement standard with a measured quantity value having a negligible
-      measurement uncertainty or if a conventinal quantity value is given, in which
-      case the measurement error is known, and if a measurand is supposed to be represented
-      by a unique true quantity calue or set of true quantity calues of negligibly
-      range, in which case the measurement error is not known. Note 2: Measurement
-      implies compsrison of quantities or counting entities. Note 3: See Annex C for
-      clarification regarding measurement-related terms.'
+    - The concept of 'measurement error' can be used both when there is single reference
+      quantity value to refer to, which occurs if a calibration is made by means of
+      measurement standard with a measured quantity value having a negligible measurement
+      uncertainty or if a conventinal quantity value is given, in which case the measurement
+      error is known, and if a measurand is supposed to be represented by a unique
+      true quantity calue or set of true quantity calues of negligibly range, in which
+      case the measurement error is not known.
+    - Measurement implies compsrison of quantities or counting entities.
+    - See Annex C for clarification regarding measurement-related terms.
     examples: []
+    source:
+      kind: vim
+      relationship: modified
+      modification:
+      ref_source: OIML V 2-200:2012
+      ref_id: '2.16'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -43,11 +52,18 @@ data:
     clause: 3.7.11
     link:
     g18_entry: '03254'
-    definition: measured quantity minus a reference quantity value [VIM 2.16]
+    definition: measured quantity minus a reference quantity value
     notes:
     - 'Note: The term “measurement error” in this Recommendation refers to load cell
       measurement errors. (For additional notes, refer to the VIM)'
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2012
+      ref_id: '2.16'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -62,6 +78,7 @@ data:
       2.16)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -74,15 +91,16 @@ data:
     g18_entry: '03671'
     definition: measured quantity value minus a reference quantity value (VIM, 2.16)
     notes:
-    - 'Note 1: The concept of ‘measurement error’ can be used both when there is single
-      reference quantity value to refer to, which occurs if a calibration is made
-      by means of measurement standard with a measured quantity value having a negligible
-      measurement uncertainty or if a conventinal quantity value is given, in which
-      case the measurement error is known, and if a measurand is supposed to be represented
-      by a unique true quantity calue or set of true quantity calues of negligibly
-      range, in which case the measurement error is not known. Note 2: Measurement
-      error should not be confused with production error or mistake..'
+    - The concept of 'measurement error' can be used both when there is single reference
+      quantity value to refer to, which occurs if a calibration is made by means of
+      measurement standard with a measured quantity value having a negligible measurement
+      uncertainty or if a conventinal quantity value is given, in which case the measurement
+      error is known, and if a measurand is supposed to be represented by a unique
+      true quantity calue or set of true quantity calues of negligibly range, in which
+      case the measurement error is not known.
+    - Measurement error should not be confused with production error or mistake.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

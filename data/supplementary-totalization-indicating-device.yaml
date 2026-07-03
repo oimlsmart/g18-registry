@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: supplementary totalization indicating device
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -27,6 +30,7 @@ data:
       device may be resettable to zero by theuser
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -42,6 +46,7 @@ data:
       loads conveyed over a fairly long period of operation
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -57,6 +62,7 @@ data:
       conveyed over a fairly long period of operation
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -73,6 +79,7 @@ data:
       This device may be resettable to zero by the user
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -88,6 +95,7 @@ data:
       the loads conveyed over a fairly long period of operation
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

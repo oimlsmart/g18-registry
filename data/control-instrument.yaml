@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: control instrument
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -29,6 +32,7 @@ data:
       provided b the instrument being tested, which allows the weighing cycle to be
       interrupted (see 6.3).'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -45,6 +49,7 @@ data:
       mode is provided by the instrument being tested"
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -61,6 +66,7 @@ data:
       being tested is used as the control instrument"
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -74,6 +80,7 @@ data:
     definition: weighing instrument used to determine the mass of a reference vehicle
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -88,6 +95,7 @@ data:
       reference wagon
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -102,6 +110,7 @@ data:
       by static weighing
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -120,6 +129,7 @@ data:
       by the instrument being tested, which allows the weighing cycle to be interrupted
       (see 6.3).'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -137,6 +147,7 @@ data:
       when a static weighing mode is provided by the instrument being tested.'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -151,6 +162,7 @@ data:
       mass of the test load(s) [VIML:2013, 5.08] [2]
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -162,9 +174,16 @@ data:
     link:
     g18_entry: '02949'
     definition: weighing instrument used to determine the conventional value of the
-      mass of the test load(s) [VIML, 5.08 [2]]
+      mass of the test load(s)
     notes: []
     examples: []
+    source:
+      kind: viml
+      relationship: identical
+      modification:
+      ref_source: OIML V 1:2013
+      ref_id: '5.08'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -181,6 +200,7 @@ data:
       mode is provided by the instrument being tested'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

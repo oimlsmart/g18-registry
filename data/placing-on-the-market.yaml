@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: placing on the market
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +29,7 @@ data:
       free of charge
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -42,6 +46,7 @@ data:
     - 'Note: In the context of this Document, this definition applies to individual
       instruments rather than an approved type of measuring instrument.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -57,6 +62,7 @@ data:
       be either against payment or free of charge
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -72,6 +78,7 @@ data:
       free of charge
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

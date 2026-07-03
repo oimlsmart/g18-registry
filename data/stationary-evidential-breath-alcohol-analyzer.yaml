@@ -6,9 +6,15 @@ data:
   - type: expression
     status: preferred
     text: stationary evidential breath alcohol analyzer
+    usage_info:
+    field:
+    international: false
   - type: abbreviation
     status: preferred
     text: stationry EBA
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -30,6 +36,7 @@ data:
     - 'Note: In scope of this Recommendation, stationary EBAs are designated as use-case
       1.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

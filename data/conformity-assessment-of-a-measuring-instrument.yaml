@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: conformity assessment of a measuring instrument
+    usage_info:
+    field:
+    international: false
   kind: defined_in_viml
   official_concept:
     source: urn:oiml:pub:v:1:2000
@@ -46,6 +49,13 @@ data:
       * marking
       * etc.
     examples: []
+    source:
+      kind: viml
+      relationship: identical
+      modification:
+      ref_source: OIML V 1:2000
+      ref_id: '2.11'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
     related:
@@ -65,12 +75,19 @@ data:
       or not a single instrument, an instrument lot or a production series of instruments
       comply with all statutory requirements applicable to this instrument type
     notes:
-    - 'Note 1: Conformity assessment does not only concern metrological requirements
-      but may also cover requirements relating to: safety; EMC; software identification;
-      ease of use; marking, etc.'
-    - 'Note 2: Conformity assessment of a measuring instrument is hereafter referred
-      to as "conformity assessment".'
+    - 'Conformity assessment does not only concern metrological requirements but may
+      also cover requirements relating to: safety; EMC; software identification; ease
+      of use; marking, etc.'
+    - Conformity assessment of a measuring instrument is hereafter referred to as
+      "conformity assessment".
     examples: []
+    source:
+      kind: viml
+      relationship: identical
+      modification:
+      ref_source: OIML V 1:2000
+      ref_id: '2.11'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -89,6 +106,13 @@ data:
       but may also cover requirements relating to: safety; EMC; software identification;
       ease of use; marking; etc.'
     examples: []
+    source:
+      kind: viml
+      relationship: identical
+      modification:
+      ref_source: OIML V 1:2000
+      ref_id: '2.11'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
 status: current

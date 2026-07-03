@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: sample line
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -28,6 +31,7 @@ data:
       and secondary treatment gas) which are necessary to prepare the sample for analysis.
     - '2. (ISO 7504: 2001)'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -44,6 +48,7 @@ data:
     - 'Note: A sample line may include devices such as coarse and fine filters, dryers
       or separators which are necessary to prepare the sample for analysis.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -57,10 +62,11 @@ data:
     definition: line provided to remove a representative sample of a gas to be analyzed
       and to transport it to the analyzer
     notes:
-    - 'Note 1:  A sample line may include devices such as filters, dryers or condensers
-      (primary and secondary treatment gas) which are necessary to prepare the sample
-      for analysis. Note 2:  (ISO 7504: 2001)'
+    - A sample line may include devices such as filters, dryers or condensers (primary
+      and secondary treatment gas) which are necessary to prepare the sample for analysis.
+    - "(ISO 7504: 2001)"
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

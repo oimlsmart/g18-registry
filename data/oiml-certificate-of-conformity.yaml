@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: OIML Certificate of Conformity
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -25,6 +28,7 @@ data:
       OIML Recommendation
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -40,6 +44,7 @@ data:
       conformity with the requirements of the relevant Recommendation
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

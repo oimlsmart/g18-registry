@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: procedure
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -24,6 +27,7 @@ data:
     definition: the set of written directions necessary to use a method effectively
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -37,6 +41,7 @@ data:
     definition: the set of written directions necessary to use a method effectively
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

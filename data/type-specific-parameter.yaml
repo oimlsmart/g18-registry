@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: type specific parameter
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -28,6 +31,7 @@ data:
       price calculation and rounding, software identification'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -45,6 +49,7 @@ data:
     - 'Note: Examples of type-specific parameters are: parameters used for mass calculation,
       stability analysis or price calculation and rounding, software identification'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

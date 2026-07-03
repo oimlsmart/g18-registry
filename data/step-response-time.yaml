@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: step response time
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -29,6 +32,7 @@ data:
     notes:
     - "(VIM:2007, 4.23)"
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -46,6 +50,7 @@ data:
       “response time” in this Recommendation) [VIM:2007, 4.23]
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

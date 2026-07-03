@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: azimuth angle of speed meter
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +29,7 @@ data:
     - 'Note: In order documents, the azimuth angle of speed meter is sometimes called
       the horizontal alignment angle.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: negative energy flow
+    usage_info: for bi-directional and uni-directional meters
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -25,6 +28,7 @@ data:
     - 'Note: For positive-direction only, the opposite direction is termed reverse
       energy flow (see 2.2.39).'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: prepackaged product
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -29,6 +32,7 @@ data:
       modification
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -44,6 +48,7 @@ data:
       to being offered for sale
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

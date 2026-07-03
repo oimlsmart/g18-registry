@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: software separation
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +29,7 @@ data:
       These parts communicate via a software interface
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -40,6 +44,7 @@ data:
       part and a legally irrelevant part. These parts communicate via an interface
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -55,6 +60,7 @@ data:
       software is to be considered as legally relevant
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -70,6 +76,7 @@ data:
       software is to be considered as legally relevant
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -81,11 +88,17 @@ data:
     link:
     g18_entry: '03524'
     definition: separation of software in measuring instruments, which can be divided
-      into a legally relevant module(s) and legally non-relevant module(s) adapted
-      form [OIML V 1:2022, 6.02]
+      into a legally relevant module(s) and legally non-relevant module(s)
     notes:
     - 'Note: These module(s) communicate via a software interface.'
     examples: []
+    source:
+      kind: viml
+      relationship: modified
+      modification:
+      ref_source: OIML V 1:2022
+      ref_id: '6.02'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -101,6 +114,7 @@ data:
     notes:
     - 'Note: These padt communicate via a software interface.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -115,6 +129,7 @@ data:
       into a legally relevant part and a legally non-relevant part (VIML, 6.02)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -131,6 +146,7 @@ data:
     - 'Note: if no software separation exists, the whole software is to be considered
       as legally relevant'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -145,6 +161,7 @@ data:
       part and a legally irrelevant part. These parts communicate via an interface
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -160,6 +177,7 @@ data:
       software is to be considered as legally relevant
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -175,6 +193,7 @@ data:
       software is to be considered as legally relevant
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

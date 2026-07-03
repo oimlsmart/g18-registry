@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: preconditioning
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +29,7 @@ data:
       for, this is the first process in the test procedure
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -41,6 +45,7 @@ data:
     notes:
     - 'Note: Where called for, this is the first process in a test procedure.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

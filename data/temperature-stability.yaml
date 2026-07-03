@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: temperature stability
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +29,7 @@ data:
       specification of its final temperature
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -41,6 +45,7 @@ data:
       relevant specification of its final temperature
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: quality
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -28,6 +31,7 @@ data:
       (2) "Inherent" as opposed to "assigned" means existing in something, especially
       as a permanent characteristic.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -41,11 +45,11 @@ data:
     definition: degree to which a set of inherent characteristics fulfils requirements
       [ISO 9000:2000, 3.1.1]
     notes:
-    - 'Note 1: The term "quality" can be used with adjectives such as poor, good or
-      excellent.'
-    - 'Note 2: "Inherent" as opposed to "assigned" means existing in something, especially
+    - The term "quality" can be used with adjectives such as poor, good or excellent.
+    - '"Inherent" as opposed to "assigned" means existing in something, especially
       as a permanent characteristic.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

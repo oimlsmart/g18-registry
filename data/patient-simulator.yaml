@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: patient simulator
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -27,6 +30,7 @@ data:
     - This device is not used for testing accuracy but is required in assessing stability
       of performance.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -43,6 +47,7 @@ data:
     - 'Note: This device is not used for testing measurement accuracy but is required
       in assessing stability of performance.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -59,6 +64,7 @@ data:
     - 'Note: This device is not used for testing accuracy but is required in assessing
       stability of performance.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

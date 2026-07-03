@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: uncertainty of measurement
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -25,6 +28,7 @@ data:
       attributed to a measurand, based on the information used
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -40,6 +44,7 @@ data:
     notes:
     - "(adapted from VIM:2007, 2.26)"
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -55,6 +60,7 @@ data:
       [adapted from VIM:2007, 2.26]
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

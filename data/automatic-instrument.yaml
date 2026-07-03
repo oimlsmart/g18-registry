@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: automatic instrument
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -24,6 +27,7 @@ data:
     definition: an instrument which does not require the intervention of an operator
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -37,6 +41,7 @@ data:
     definition: instrument that measures without the intervention of an operator
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

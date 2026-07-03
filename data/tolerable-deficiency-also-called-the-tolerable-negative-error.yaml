@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: tolerable deficiency (also called the tolerable negative error)
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -24,6 +27,7 @@ data:
     notes:
     - The symbol 'T' means tolerable deficiency.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

@@ -6,9 +6,15 @@ data:
   - type: expression
     status: preferred
     text: minimum capacity
+    usage_info:
+    field:
+    international: false
   - type: symbol
     status: preferred
     text: stem:[Min]
+    usage_info:
+    field:
+    international: true
   kind: undefined
   official_concept:
   editions_present:
@@ -28,6 +34,7 @@ data:
       to an excessive relative error
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -44,6 +51,7 @@ data:
     - For filling instruments which effect the fill by one weighing cycle, Min is
       equal to the rated minimum fill (Minfill).
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -58,6 +66,7 @@ data:
       be subject to an excessive relative error
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -72,6 +81,7 @@ data:
       may be subject to an excessive relative error
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -86,6 +96,7 @@ data:
       to an excessive relative error
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -100,6 +111,7 @@ data:
       totalizing may be subject to an excessive relative error
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: blank test solution
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -25,6 +28,7 @@ data:
       does not contain the element or elements to be determined
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -40,6 +44,7 @@ data:
       a reference standard solution of that element
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -54,6 +59,7 @@ data:
       does not contain the element or elements to be determined
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -69,6 +75,7 @@ data:
       reference standard solution of that element
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

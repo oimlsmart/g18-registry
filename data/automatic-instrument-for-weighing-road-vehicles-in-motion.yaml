@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: automatic instrument for weighing road vehicles in motion
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +29,7 @@ data:
       road vehicle in motion
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -42,6 +46,7 @@ data:
       vehicle is crossing over the load receptor of the weighing instrument.
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: mass flow rate, Qm
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -23,6 +26,7 @@ data:
     definition: mass of product which passes per unit of time
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

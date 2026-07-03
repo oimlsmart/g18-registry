@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: accredited calibration laboratory
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +29,7 @@ data:
       [2])
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

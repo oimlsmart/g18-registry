@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: error (of a measuring instrument)
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -29,6 +32,7 @@ data:
       an igned value or best estimate of the value is d in practice. For a material
       measure, the indication is th ue assigned to it. [Adapted from :1993, 5.20]
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -47,6 +51,7 @@ data:
       a material measure, the indication is the value assigned to it. [Adapted from
       VIM:1993, 5.20]
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

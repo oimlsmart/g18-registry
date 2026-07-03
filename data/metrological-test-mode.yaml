@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: metrological test mode
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -27,6 +30,7 @@ data:
       mode (e.g. higher resolution, intermediate results, etc.), and access to maintenance
       and adjustment means is possible.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

@@ -6,12 +6,21 @@ data:
   - type: expression
     status: preferred
     text: transitional flowrate
+    usage_info:
+    field:
+    international: false
   - type: symbol
     status: preferred
     text: stem:[Q_{2}]
+    usage_info:
+    field:
+    international: true
   - type: symbol
     status: preferred
     text: stem:[Q_{t}]
+    usage_info:
+    field:
+    international: true
   kind: undefined
   official_concept:
   editions_present:
@@ -32,6 +41,7 @@ data:
       error
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -47,6 +57,7 @@ data:
       and the "lower zone", each characterized by its own maximum permissible error
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

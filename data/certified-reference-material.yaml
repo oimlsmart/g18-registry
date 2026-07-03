@@ -6,9 +6,15 @@ data:
   - type: expression
     status: preferred
     text: certified reference material
+    usage_info:
+    field:
+    international: false
   - type: abbreviation
     status: preferred
     text: CRM
+    usage_info:
+    field:
+    international: false
   kind: defined_in_vim
   official_concept:
     source: urn:oiml:pub:v:2:2007
@@ -39,6 +45,7 @@ data:
       with associated uncertainties and traceabilities, using valid procedures
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
     related:
@@ -59,6 +66,7 @@ data:
       with uncertainty and traceability
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -74,6 +82,7 @@ data:
       to a certificate or other documentation which is issued by a certifying body
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -89,6 +98,13 @@ data:
       and traceabilities, using valid procedures
     notes: []
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2007
+      ref_id: '5.14'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -104,6 +120,13 @@ data:
       and traceabilities, using valid procedures
     notes: []
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2012
+      ref_id: '5.14'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -119,6 +142,13 @@ data:
       and traceabilities, using valid procedures
     notes: []
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2007
+      ref_id: '5.14'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -136,21 +166,27 @@ data:
     - EXAMPLE Human serum with assigned quantity value for the concentration of cholesterol
       and associated measurement uncertainty stated in an accompanying certificate,
       used as a calibrator or measurement trueness control material.
-    - NOTE 1 "Documentation" is given in the form of a "certificate" (see ISO Guide
-      31:2000).
-    - NOTE 2 Procedures for the production and certification of certified reference
-      materials are given, e.g. in ISO Guide 34 and ISO Guide 35. 5.14 (6.14)
-    - NOTE 3 In this definition, "uncertainty" covers both "measurement uncertainty"
-      and "uncertainty associated with the value of a nominal property", such as for
-      identity and sequence. "Traceability" covers both "metrological traceability
-      of a quantity value" and "traceability of a nominal property value".
-    - NOTE 4 Specified quantity values of certified reference materials require metrological
+    - '"Documentation" is given in the form of a "certificate" (see ISO Guide 31:2000).'
+    - Procedures for the production and certification of certified reference materials
+      are given, e.g. in ISO Guide 34 and ISO Guide 35. 5.14 (6.14)
+    - In this definition, "uncertainty" covers both "measurement uncertainty" and
+      "uncertainty associated with the value of a nominal property", such as for identity
+      and sequence. "Traceability" covers both "metrological traceability of a quantity
+      value" and "traceability of a nominal property value".
+    - Specified quantity values of certified reference materials require metrological
       traceability with associated measurement uncertainty (Accred. Qual. Assur.:2006)[45].
-    - NOTE 5 ISO/REMCO has an analogous definition (Accred. Qual. Assur.:2006)[45]
-      but uses the modifiers "metrological" and "metrologically" to refer to both
-      quantity and nominal property. Refer to Annex B for guidelines on producing
-      whole-grain CRMs. Further general information is in OIML D 18:2008.
+    - ISO/REMCO has an analogous definition (Accred. Qual. Assur.:2006)[45] but uses
+      the modifiers "metrological" and "metrologically" to refer to both quantity
+      and nominal property. Refer to Annex B for guidelines on producing whole-grain
+      CRMs. Further general information is in OIML D 18:2008.'
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2007
+      ref_id: '5.14'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -166,6 +202,13 @@ data:
       and traceabilities, using valid procedures
     notes: []
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2007
+      ref_id: '5.14'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -181,6 +224,7 @@ data:
       to a certificate or other documentation which is issued by a certifying body
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

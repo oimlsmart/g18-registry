@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: primary indication
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +29,7 @@ data:
     notes:
     - monly referred to as secondary ications.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -41,6 +45,7 @@ data:
     notes:
     - monly referred to as secondary ications.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -55,6 +60,7 @@ data:
       metrological control
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -70,6 +76,7 @@ data:
     notes:
     - ommonly referred to as secondary ndications.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -83,6 +90,7 @@ data:
     definition: indication which is subject to legal metrological control
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -99,6 +107,7 @@ data:
     - 'Note:  Indications other than primary indications are commonly referred to
       as secondary indications.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -113,6 +122,7 @@ data:
       this Recommendation
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -129,6 +139,7 @@ data:
     - 'Note:  Indications other than primary indications are commonly referred to
       as secondary indications.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -145,6 +156,7 @@ data:
     - 'Note:  Indications other than primary indications are commonly referred to
       as secondary indications.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

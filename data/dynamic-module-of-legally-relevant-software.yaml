@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: dynamic module of legally relevant software
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +29,7 @@ data:
     - 'Note: Such dynamic modules may incorporate or utilise machine learning or artificial
       intelligence characteristics and processes.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

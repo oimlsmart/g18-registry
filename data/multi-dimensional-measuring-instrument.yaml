@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: multi-dimensional measuring instrument
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -28,6 +31,7 @@ data:
       is determined
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -43,6 +47,7 @@ data:
       (rectangular box) which fully encloses thet object
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

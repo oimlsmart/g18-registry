@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: sampling probe
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +29,7 @@ data:
       connected'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -40,6 +44,7 @@ data:
       take gas samples
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -55,6 +60,7 @@ data:
       2001] [16]'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -70,6 +76,7 @@ data:
     notes:
     - "[ISO 7504: 2001]"
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -84,6 +91,7 @@ data:
       take gas samples
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

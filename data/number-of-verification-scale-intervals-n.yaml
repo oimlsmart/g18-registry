@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: number of verification scale intervals, n
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -24,6 +27,7 @@ data:
       n = Max / e'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

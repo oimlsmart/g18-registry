@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: static measuring system
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -28,6 +31,7 @@ data:
     notes:
     - Hereafter referred to as measuring system.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -45,6 +49,7 @@ data:
     notes:
     - 'Note: Hereafter referred to as measuring system.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -62,6 +67,7 @@ data:
     notes:
     - 'Note: Hereafter referred to as measuring system.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

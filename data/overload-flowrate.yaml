@@ -6,9 +6,15 @@ data:
   - type: expression
     status: preferred
     text: overload flowrate
+    usage_info:
+    field:
+    international: false
   - type: symbol
     status: preferred
     text: stem:[Q_{4}]
+    usage_info:
+    field:
+    international: true
   kind: undefined
   official_concept:
   editions_present:
@@ -29,6 +35,7 @@ data:
       operating conditions
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

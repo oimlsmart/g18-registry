@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: accuracy measurement accuracy {accuracy of measurement}
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -20,18 +23,25 @@ data:
     clause: '2.1'
     link:
     g18_entry: '02782'
-    definition: "{closeness of agreement between a measured quantity value and a true
-      quantity value of a measurand [VIM, 2.13}"
+    definition: closeness of agreement between a measured quantity value and a true
+      quantity value of a measurand
     notes:
-    - "{NOTE 1 The concept ‘measurement accuracy’ is not a quantity and is not given
-      a numerical quantity value. A measurement is said to be more accurate when it
-      offers a smaller measurement error. NOTE 2 The term “measurement accuracy” should
-      not be used for measurement trueness and the term “measurement precision” should
-      not be used for ‘measurement accuracy’, which, however, is related to both these
-      concepts. NOTE 3 ‘Measurement accuracy’ is sometimes understood as closeness
-      of agreement between measured quantity values that are being attributed to the
-      measurand.}"
+    - The concept 'measurement accuracy' is not a quantity and is not given a numerical
+      quantity value. A measurement is said to be more accurate when it offers a smaller
+      measurement error.
+    - The term "measurement accuracy" should not be used for measurement trueness
+      and the term "measurement precision" should not be used for 'measurement accuracy',
+      which, however, is related to both these concepts.
+    - "'Measurement accuracy' is sometimes understood as closeness of agreement between
+      measured quantity values that are being attributed to the measurand."
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2012
+      ref_id: '2.13'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
 status: current

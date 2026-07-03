@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: reproducibility measurement reproducibility
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -20,8 +23,7 @@ data:
     clause: 2.1 Tab. 1.13
     link:
     g18_entry: '02794'
-    definition: "{measurement precision under reproducibility conditions of measurement
-      [VIM 2.25]}"
+    definition: measurement precision under reproducibility conditions of measurement
     notes:
     - "{NOTE Relevant statistical terms are given in ISO 5725-1:1994 and ISO 5725-2:1994.}
       In this Recommendation, the reproducibility of measurements between units of
@@ -30,6 +32,13 @@ data:
       instrument when selected influence factors are varied is assessed by the magnitude
       of the error shift or fault."
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2012
+      ref_id: '2.25'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
 status: current

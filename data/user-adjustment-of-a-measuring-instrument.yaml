@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: user adjustment (of a measuring instrument)
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -23,6 +26,7 @@ data:
     definition: adjustment employing only the means at the disposal of the user
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

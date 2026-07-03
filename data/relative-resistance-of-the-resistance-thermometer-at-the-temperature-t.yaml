@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: relative resistance of the resistance thermometer at the temperature t
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -24,6 +27,7 @@ data:
       at the temperature 0 °C.
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

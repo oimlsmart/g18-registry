@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: metrological supervision
+    usage_info:
+    field:
+    international: false
   kind: defined_in_viml
   official_concept:
     source: urn:oiml:pub:v:1:2000
@@ -40,6 +43,13 @@ data:
     - Metrological supervision includes checking the correctness of the quantities
       indicated on and contained in prepackages.
     examples: []
+    source:
+      kind: viml
+      relationship: identical
+      modification:
+      ref_source: OIML V 1:2000
+      ref_id: '2.3'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
     related:
@@ -63,6 +73,13 @@ data:
     - Metrological supervision includes checking the correctness of the quantities
       indicated on and contained in prepackages.
     examples: []
+    source:
+      kind: viml
+      relationship: identical
+      modification:
+      ref_source: OIML V 1:2000
+      ref_id: '2.3'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
     related:
@@ -84,6 +101,7 @@ data:
       of the quantities indicated on prepacked articles [VML 2.6].
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -99,6 +117,7 @@ data:
     notes:
     - "(For notes, refer to the VIML)"
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -112,11 +131,18 @@ data:
     definition: activity of legal metrological control to check the observance of
       metrology laws and regulations
     notes:
-    - 'Note 1: Metrological supervision also includes checking the correctness of
-      quantities indicated on and contained in pre-packages and the correct use of
-      units of measurement. Note 2: For achieving these purposes, means and methods
-      such as market surveillance and quality management may be utilized.'
+    - Metrological supervision also includes checking the correctness of quantities
+      indicated on and contained in pre-packages and the correct use of units of measurement.
+    - For achieving these purposes, means and methods such as market surveillance
+      and quality management may be utilized.
     examples: []
+    source:
+      kind: viml
+      relationship: identical
+      modification:
+      ref_source: OIML V 1:2000
+      ref_id: '2.03'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -135,6 +161,13 @@ data:
     - Note:Metrological supervision includes checking the correctness of the quantities
       indicated on and contained in prepackages.
     examples: []
+    source:
+      kind: viml
+      relationship: identical
+      modification:
+      ref_source: OIML V 1:2000
+      ref_id: '2.3'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -153,6 +186,13 @@ data:
     - 'Note: Metrological supervision includes checking the correctness of the quantities
       indicated on and contained in prepackages.'
     examples: []
+    source:
+      kind: viml
+      relationship: identical
+      modification:
+      ref_source: OIML V 1:2000
+      ref_id: '2.3'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -171,6 +211,13 @@ data:
     - 'Note: Metrological supervision includes checking the correctness of the quantities
       indicated on and contained in prepackages.'
     examples: []
+    source:
+      kind: viml
+      relationship: identical
+      modification:
+      ref_source: OIML V 1:2000
+      ref_id: '2.3'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -187,6 +234,7 @@ data:
       of the quantities indicated on prepacked articles [VML 2.6].
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

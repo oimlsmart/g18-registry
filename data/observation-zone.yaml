@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: observation zone
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -24,6 +27,7 @@ data:
     definition: region of the plasma monitored during the measurement process
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -37,6 +41,7 @@ data:
     definition: region of the plasma monitored during the measurement process
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

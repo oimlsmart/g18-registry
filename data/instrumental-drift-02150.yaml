@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: instrumental drift
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -29,6 +32,7 @@ data:
       be analyzed.
     - 2. (VIM:2007, 4.21)
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -45,6 +49,7 @@ data:
     - 'Note: Instrumental drift is related neither to a change in quantity being measured
       nor to a change of any recognized influence quantity.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -56,13 +61,19 @@ data:
     link:
     g18_entry: '02778'
     definition: continuous or incremental change over time in the indication, due
-      to changes in the metrological properties of a measuring instrument [VIM, 4.21]
-      [1]
+      to changes in the metrological properties of a measuring instrument
     notes:
     - 'Note: In this Recommendation, “drift” means a change in the indication which
       occurs during a stated period of time at a given concentration of CO, NO and
       NO2 in a sample to be analyzed.'
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2012
+      ref_id: '4.21'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -76,10 +87,12 @@ data:
     definition: continuous or incremental change over time in the indication, due
       to changes in the metrological properties of a measuring instrument.
     notes:
-    - 'Note 1: In this Recommendation, “drift” means a change in the indication which
-      occurs during a stated period of time at a given concentration of SO2 in a sample
-      to be analyzed. Note 2:. [VIM:2007, 4.21]'
+    - In this Recommendation, "drift" means a change in the indication which occurs
+      during a stated period of time at a given concentration of SO2 in a sample to
+      be analyzed.
+    - "[VIM:2007, 4.21]"
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

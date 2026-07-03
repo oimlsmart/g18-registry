@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: dynamic range of a detector
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -27,6 +30,7 @@ data:
       detection limit
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -45,6 +49,7 @@ data:
       the linear range
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -61,6 +66,7 @@ data:
       detection limit
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -79,6 +85,7 @@ data:
       the linear range
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: integrity
+    usage_info: of software, measurement data, or parameters
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +29,7 @@ data:
     notes:
     - Note:Software may include prameters and data, see 3.2.70.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -41,6 +45,7 @@ data:
       or maintenance (OIML D 31, 3.1.21)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

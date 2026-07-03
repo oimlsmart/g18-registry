@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: validation
+    usage_info:
+    field:
+    international: false
   kind: defined_in_vim
   official_concept:
     source: urn:oiml:pub:v:2:2012
@@ -38,6 +41,7 @@ data:
     notes:
     - "[derived from ISO/IEC 14598 and IEC 61508- 1998]"
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
     related:
@@ -60,6 +64,7 @@ data:
     - (1) The term "validated" is used to designate the corresponding status. (2)
       The use conditions for validation can be real or simulated.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
     related:
@@ -79,9 +84,10 @@ data:
       requirements for a specific intended use or application have been fulfilled
       [ISO 9000:2000, 3.8.5]
     notes:
-    - 'Note 1: The term “validated” is used to designate the corresponding status.
-      Note 2: ’The use conditions for validation can be real or simulated.'
+    - The term "validated" is used to designate the corresponding status.
+    - The use conditions for validation can be real or simulated.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

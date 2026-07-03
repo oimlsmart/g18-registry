@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: maximum number of load cell verification intervals (nLC)
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -24,6 +27,7 @@ data:
       maximum measuring range may be divided
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

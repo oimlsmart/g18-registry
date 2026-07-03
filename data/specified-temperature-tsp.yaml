@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: specified temperature, tsp
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -27,6 +30,7 @@ data:
     - 'Note: The difference between tsp and the gas temperature has an influence on
       the value of the MPE'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

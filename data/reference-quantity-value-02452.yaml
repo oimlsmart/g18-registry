@@ -6,9 +6,15 @@ data:
   - type: expression
     status: preferred
     text: reference quantity value
+    usage_info:
+    field:
+    international: false
   - type: expression
     status: admitted
     text: reference value
+    usage_info:
+    field:
+    international: false
   kind: defined_in_vim
   official_concept:
     source: urn:oiml:pub:v:2:2012
@@ -35,13 +41,14 @@ data:
     definition: quantity value used as a basis for comparison with values of quantities
       of the same kind
     notes:
-    - 'Note 1: A reference quantity value can be a true quantity value of a measurand,
-      in which case it is unknown, or a conventional quantity value, in which case
-      it is known. Note 2: A reference quantity value with associated measurement
-      uncertainty is usually provided with reference to a) a material, e.g. a certified
-      reference material, b) a device, e.g. a stabilized laser, c) a reference measurement
-      procedure, or d) a comparison of measurement standards.'
+    - A reference quantity value can be a true quantity value of a measurand, in which
+      case it is unknown, or a conventional quantity value, in which case it is known.
+    - A reference quantity value with associated measurement uncertainty is usually
+      provided with reference to a) a material, e.g. a certified reference material,
+      b) a device, e.g. a stabilized laser, c) a reference measurement procedure,
+      or d) a comparison of measurement standards.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
     related:
@@ -60,13 +67,20 @@ data:
     definition: quantity value used as a basis for comparison with values of quantities
       of the same kind
     notes:
-    - 'Note 1: A reference quantity value can be a true quantity value of a measurand,
-      in which case it is unknown, or a conventional quantity value, in which case
-      it is known. Note 2: A reference quantity value with associated measurement
-      uncertainty is usually provided with reference to a) a material, e.g. a certified
-      reference material, b) a device, e.g. a stabilized laser, c) a reference measurement
-      procedure, or d) a comparison of measurement standards.'
+    - A reference quantity value can be a true quantity value of a measurand, in which
+      case it is unknown, or a conventional quantity value, in which case it is known.
+    - A reference quantity value with associated measurement uncertainty is usually
+      provided with reference to a) a material, e.g. a certified reference material,
+      b) a device, e.g. a stabilized laser, c) a reference measurement procedure,
+      or d) a comparison of measurement standards.
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2012
+      ref_id: '5.18'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -81,6 +95,13 @@ data:
       of the same kind
     notes: []
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2007
+      ref_id: '5.18'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -94,17 +115,24 @@ data:
     definition: quantity value used as a basis for comparison with values of quantities
       of the same kind
     notes:
-    - NOTE 1 A reference quantity value can be a true quantity value of a measurand,
-      in which case it is unknown, or a conventional quantity value, in which case
-      it is known. NOTE 2 A reference quantity value with associated measurement uncertainty
-      is usually provided with reference to a) a material, e.g. a certified reference
-      material, b) a device, e.g. a stabilized laser, c) a reference measurement procedure,
+    - A reference quantity value can be a true quantity value of a measurand, in which
+      case it is unknown, or a conventional quantity value, in which case it is known.
+    - A reference quantity value with associated measurement uncertainty is usually
+      provided with reference to a) a material, e.g. a certified reference material,
+      b) a device, e.g. a stabilized laser, c) a reference measurement procedure,
       d) a comparison of measurement standards. In this Recommendation, the PMB of
       the whole-grain CRM is the reference quantity value used to assess the measurement
       accuracy at verification and to assess the accuracy of calibrations at type
       evaluation. Where a CRM is not used, the reference quantity value is the mean
       PMB at reference conditions prior to a test.
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2007
+      ref_id: '5.18'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
 status: current

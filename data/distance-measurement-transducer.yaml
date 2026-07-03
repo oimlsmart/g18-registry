@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: distance measurement transducer
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -25,6 +28,7 @@ data:
       into pulses or digital data which are passed to the taximeter
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -39,6 +43,7 @@ data:
       into pulses or digital data which are passed to the taximeter
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

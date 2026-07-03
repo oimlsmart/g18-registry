@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: load measuring device
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -27,6 +30,7 @@ data:
       in units of mass
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -42,6 +46,7 @@ data:
       device, and an indicating device
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -57,6 +62,7 @@ data:
       device, and an indicating or printing device
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -72,6 +78,7 @@ data:
       device, and an indicating device
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -87,6 +94,7 @@ data:
       device, and an indicating or printing device
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

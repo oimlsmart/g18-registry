@@ -28,7 +28,7 @@ function termCount(pubId: string, ed: string) {
 }
 
 // Terms under a publication that are "problematic": divergent definitions
-// (≥2 distinct defs), outdated VIM refs, or ID-conflicting.
+// (≥2 distinct defs), outdated VIM refs, modified adoptions, or ID-conflicting.
 function problemTerms(pubId: string): any[] {
   const out: any[] = [];
   for (const t of terms as any[]) {
@@ -36,10 +36,12 @@ function problemTerms(pubId: string): any[] {
     if (pubs.length === 0) continue;
     const dd = new Set(t.publications.map((p: any) => (p.definition || "").trim()).filter(Boolean)).size;
     const lc = t.latest_check;
+    const modifiedCount = pubs.filter((p: any) => p.source?.relationship === "modified").length;
     const reasons: string[] = [];
     if (dd >= 2) reasons.push(`${dd} distinct defs`);
     if (lc && !lc.found) reasons.push(`cites superseded edition`);
     if (lc && lc.found && t.official_concept && lc.concept_id !== t.official_concept.id) reasons.push(`concept id mismatch`);
+    if (modifiedCount > 0) reasons.push(`${modifiedCount} modified adoption${modifiedCount > 1 ? "s" : ""}`);
     if (reasons.length) out.push({ name: t.name, slug: t.slug, reasons });
   }
   return out;

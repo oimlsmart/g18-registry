@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: weigh zone
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -25,6 +28,7 @@ data:
       on both ends
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -38,6 +42,7 @@ data:
     definition: zone in which a wagon must be located when it is weighed
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -52,6 +57,7 @@ data:
       the wagon is weighed
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -67,6 +73,7 @@ data:
       vehicle being weighed
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

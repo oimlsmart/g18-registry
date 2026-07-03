@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: resolution of a displaying device
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -27,6 +30,7 @@ data:
     - 'Note: For a digital indicating device, this is the change in the indication
       when the least significant digit changes by one step.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

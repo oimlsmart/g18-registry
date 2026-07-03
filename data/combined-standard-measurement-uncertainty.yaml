@@ -6,9 +6,15 @@ data:
   - type: expression
     status: preferred
     text: combined standard measurement uncertainty
+    usage_info:
+    field:
+    international: false
   - type: expression
     status: admitted
     text: combined standard uncertainty
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -31,6 +37,13 @@ data:
       must also be taken into account when calculating the combined standard measurement
       uncertainty; see also GUM:1995, 2.3.4.
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2012
+      ref_id: '2.31'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
 status: current

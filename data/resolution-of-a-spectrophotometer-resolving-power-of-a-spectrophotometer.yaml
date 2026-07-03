@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: resolution of a spectrophotometer; resolving power of a spectrophotometer
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -30,6 +33,7 @@ data:
       as resolved, if the extinction between the two maxima is reduced to at least
       90 % of the line’s maxima. [Adapted from [7], clause 4.5]'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

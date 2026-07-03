@@ -6,9 +6,15 @@ data:
   - type: expression
     status: preferred
     text: flowrate
+    usage_info:
+    field:
+    international: false
   - type: symbol
     status: preferred
     text: stem:[Q]
+    usage_info:
+    field:
+    international: true
   kind: undefined
   official_concept:
   editions_present:
@@ -27,6 +33,7 @@ data:
       and the time taken for this volume to pass through the water meter
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -41,6 +48,7 @@ data:
       and the time taken for this quantity to pass through the gas meter
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

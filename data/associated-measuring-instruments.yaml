@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: associated measuring instruments
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -25,6 +28,7 @@ data:
       view to making a correction
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -40,6 +44,7 @@ data:
       of water, with a view to making a correction and/or a conversion
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

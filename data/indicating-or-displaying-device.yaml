@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: indicating or displaying device
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +29,7 @@ data:
     - 'Note:  A printing device, which provides an indication at the end of the measurement,
       is not an indicating device.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

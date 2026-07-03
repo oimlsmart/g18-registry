@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: event
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -25,6 +28,7 @@ data:
       adjustment factor or update of software module is made
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -36,13 +40,20 @@ data:
     link:
     g18_entry: '03051'
     definition: action in which a modification of a measuring instrument parameter,
-      adjustment factor or update of software module is made [OIML V 1:2022, 6.06]
+      adjustment factor or update of software module is made
     notes:
     - 'Note: For purpose of this Document, events are considered changes in the value
       of the legally relevant parameters, or a modification or update of legally relevant
       sotware, or other activities that are legally relevant and which may influence
       the metrological data and/or characteristics.'
     examples: []
+    source:
+      kind: viml
+      relationship: identical
+      modification:
+      ref_source: OIML V 1:2022
+      ref_id: '6.06'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
 status: current

@@ -6,9 +6,15 @@ data:
   - type: expression
     status: preferred
     text: measurement repeatability
+    usage_info:
+    field:
+    international: false
   - type: expression
     status: admitted
     text: repeatability
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -27,6 +33,7 @@ data:
       (OIML V 2-100, 2.21)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -38,9 +45,15 @@ data:
     link:
     g18_entry: '03403'
     definition: measurement precision under a set of repeatability conditions of measurement
-      [VIM, 2.21]
     notes: []
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2012
+      ref_id: '2.21'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -54,6 +67,13 @@ data:
     definition: measurement precision under a set of repeatability conditions of measurement
     notes: []
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2007
+      ref_id: '2.21'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -68,6 +88,13 @@ data:
     notes:
     - "(-)"
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2007
+      ref_id: '2.21'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
 status: current

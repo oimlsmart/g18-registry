@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: oscillometric method
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -33,6 +36,7 @@ data:
       values can be ematically derived using an appropriate rithm. It is possible
       to carry out the urement during the inflation phase.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -55,6 +59,7 @@ data:
       pressure values can be mathematically derived using an appropriate algorithm.
       It is possible to carry out the measurement during the inflation phase.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -77,6 +82,7 @@ data:
       pressure values can be mathematically derived using an appropriate algorithm.
       It is possible to carry out the measurement during the inflation phase.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

@@ -6,9 +6,15 @@ data:
   - type: expression
     status: preferred
     text: measurement transducer
+    usage_info:
+    field:
+    international: false
   - type: expression
     status: admitted
     text: transducer
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -31,6 +37,7 @@ data:
     - For the purposes of this Recommendation, the measurement transducer includes
       the flow or quantity sensor.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -49,6 +56,7 @@ data:
     notes:
     - ment transducer includes the flow or volume sensor
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -66,6 +74,7 @@ data:
     - For the purpose of this Recommendation, the measurement transducer includes
       the flow or volume sensor.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -83,6 +92,7 @@ data:
     - Note:The measurement transducer may function autonomously or use an external
       power source and may be based on a mechanical, electrical or electronic principle.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -100,6 +110,13 @@ data:
       measuring device and its output signal represents the output quantity which
       is based on the input from the sensor(s), being the input quantity.'
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2012
+      ref_id: '3.7'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -117,6 +134,7 @@ data:
     - 'Note: For the purpose of this Recommendation, the measurement transducer includes
       the flow or volume sensor.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

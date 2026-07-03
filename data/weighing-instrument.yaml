@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: weighing instrument
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -33,6 +36,7 @@ data:
       preferably used for an embodiment (or material measure) of mass that is regulated
       in regard to its physical and metrological characteristics.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -55,6 +59,7 @@ data:
       for an embodiment (= material measure) of mass t is regulated in regard to its
       physical an metrological characteristics.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -78,6 +83,7 @@ data:
       an embodiment (i.e. material measure) of mass that is regulated in regard to
       its physical and metrological characteristics.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -95,6 +101,7 @@ data:
       automatic or non-automatic
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -109,6 +116,7 @@ data:
       using the action of gravity (see "dynamic vehicle tyre force").
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -124,6 +132,7 @@ data:
       instrument is classified as automatic or non-automatic.
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -138,6 +147,7 @@ data:
       the action of gravity
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -154,6 +164,7 @@ data:
     - 'Note: According to its method of operation, a weighing instrument is classified
       as an automatic (3.2.1) or non-automatic instrument.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -175,6 +186,7 @@ data:
       also be used to determine other quantities, magnitudes, parameters or characteristics
       related to the determined mass.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -196,6 +208,7 @@ data:
       method of operation, a weighing instrument is classified as an automatic or
       non-automatic instrument.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -213,6 +226,7 @@ data:
       as an automatic weighing instrument or a non- automatic weighing instrument.
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -235,6 +249,7 @@ data:
       preferably used for an embodiment (= material measure) of mass that is regulated
       in regard to its physical and metrological  characteristics.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -258,6 +273,7 @@ data:
       used for an embodiment (i.e. material measure) of mass that is regulated in
       regard to its physical and metrological characteristics'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -272,6 +288,7 @@ data:
       using the action of gravity (see “dynamic vehicle tyre force”).
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

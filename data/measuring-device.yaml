@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: measuring device
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +29,7 @@ data:
       the calculator. It consists of a meter sensor and a transduce
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -40,6 +44,7 @@ data:
       signal to the processor from which the associated quantities are calculated
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -55,6 +60,7 @@ data:
       for the measurement calculator, comprising a sensor and a transducer.
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -70,6 +76,7 @@ data:
       the calculator. It consists of a meter sensor and a transduce
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

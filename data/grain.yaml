@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: grain
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -24,6 +27,7 @@ data:
       and cereal grains
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -40,6 +44,7 @@ data:
       for the sample temperature (see 4.3)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

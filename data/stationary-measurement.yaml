@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: stationary measurement
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +29,7 @@ data:
     - 'Note: In other documents, stationary measurements are sometimes called static
       measurements or measurements from a static point.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

@@ -6,9 +6,15 @@ data:
   - type: expression
     status: preferred
     text: field surveillance
+    usage_info:
+    field:
+    international: false
   - type: expression
     status: admitted
     text: in-service surveillance
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -31,6 +37,7 @@ data:
       related to the responsibilities of manufacturers or their representatives, the
       matter should be dealt with by market surveillance.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

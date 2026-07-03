@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: trigger line
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -23,11 +26,10 @@ data:
     definition: physical or virtual line segment on one or several lanes of the road
       at which automatic speed measurements are carried out
     notes:
-    - 'Note 1: The trigger line is typically perpendicular to the direction of the
-      road.'
-    - 'Note 2: The trigger line is not necessarily in the same position for every
-      measurement.'
+    - The trigger line is typically perpendicular to the direction of the road.
+    - The trigger line is not necessarily in the same position for every measurement.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

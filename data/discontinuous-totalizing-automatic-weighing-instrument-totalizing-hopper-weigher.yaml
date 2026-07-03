@@ -8,6 +8,9 @@ data:
     status: preferred
     text: discontinuous totalizing automatic weighing instrument (totalizing hopper
       weigher)
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -30,6 +33,7 @@ data:
     - In this Recommendation a discontinuous totalizing automatic weighing instrument
       is called an "instrument".
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -47,6 +51,7 @@ data:
     - 'Note: In this Recommendation a discontinuous totalizing automatic weighing
       instrument is called an “instrument”.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

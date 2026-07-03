@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: auxiliary battery
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +29,7 @@ data:
       the instrument for a reasonable period of time'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -41,6 +45,7 @@ data:
       the instrument for a reasonable period of time.
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -56,6 +61,7 @@ data:
       to the complete instrument for a reasonable period of time. (OIML D 11, 3.25)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -71,6 +77,7 @@ data:
       the instrument for a reasonable period of time.
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -86,6 +93,7 @@ data:
       complete instrument for a reasonable period of time.
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: software examination
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +29,7 @@ data:
       documentation or running the program under controlled conditions)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -41,6 +45,7 @@ data:
       documentation or running the program under controlled conditions)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -56,6 +61,7 @@ data:
       documentation or running the program under controlled conditions)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -68,10 +74,10 @@ data:
     g18_entry: '03517'
     definition: technical operation that consists of determining one or more characteristics
       of the software according to the specific procedure (e.g. analysis of technical
-      documentation or running the program under controlled conditions) [OIML D 31,
-      3.1.47]
+      documentation or running the program under controlled conditions)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

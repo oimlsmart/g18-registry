@@ -6,9 +6,15 @@ data:
   - type: expression
     status: preferred
     text: calibration gas mixture
+    usage_info:
+    field:
+    international: false
   - type: abbreviation
     status: preferred
     text: CGM
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -30,6 +36,7 @@ data:
       of normative documents
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -46,6 +53,7 @@ data:
       with the requirements of normative documents
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -62,6 +70,7 @@ data:
       of normative documents
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

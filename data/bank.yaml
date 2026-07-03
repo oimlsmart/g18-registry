@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: bank
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -28,6 +31,7 @@ data:
     notes:
     - Testing using banks generates transient flowrates.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -44,6 +48,7 @@ data:
       or using a sequential control device (see 3.4.6)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

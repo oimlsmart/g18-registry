@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: net quantity
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -29,6 +32,7 @@ data:
       cedures for determining whether a duction lot meets regulatory requirements
       provided in OIML R 87 Net contents in kages
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -42,13 +46,14 @@ data:
     definition: quantity of the identified product in the prepackage exclusive of
       packing material
     notes:
-    - 'Note 1:  ‘Packing material’ includes wrappers and any other material packed
-      with such product. See 2.6, Note 3. Note 2:  This term relates to specifications
-      on a prepackage and does not account for the actual quantity in an individual
-      prepackage. For prepackages with constant nominal quantity, the procedures for
-      determining whether an inspection lot meets regulatory requirements are provided
-      in OIML R 87 [1].'
+    - "'Packing material' includes wrappers and any other material packed with such
+      product. See 2.6, Note 3."
+    - This term relates to specifications on a prepackage and does not account for
+      the actual quantity in an individual prepackage. For prepackages with constant
+      nominal quantity, the procedures for determining whether an inspection lot meets
+      regulatory requirements are provided in OIML R 87 [1].
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

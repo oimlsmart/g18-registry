@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: stationary speed meter
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -25,6 +28,7 @@ data:
     notes:
     - 'Note: A stationary speed meter is either fixed or mobile.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

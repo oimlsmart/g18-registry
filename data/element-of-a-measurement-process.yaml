@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: element of a measurement process
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -24,6 +27,7 @@ data:
       the instrument, the operator, and the procedure
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

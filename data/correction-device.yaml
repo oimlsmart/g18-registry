@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: correction device
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -29,6 +32,7 @@ data:
       measuring devices, or stored in the memory of the instrument
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -45,6 +49,7 @@ data:
       calibration curves
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -64,6 +69,7 @@ data:
     - The characteristics of the gas may either be measured using associated measuring
       instruments, or stored in a memory in the instrument.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -82,6 +88,7 @@ data:
       or be stored in a memory in the instrument
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -96,6 +103,7 @@ data:
       g. flowrate, Reynolds number (curve linearization), or pressure and/or temperature
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -109,6 +117,7 @@ data:
     definition: device which automatically corrects the setting of the filling instrument
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -127,6 +136,7 @@ data:
       or stored in a memory within the instrument
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -145,6 +155,7 @@ data:
     - Note:For the definition of the term “correction”, see ISO?IEC Guide 99:2007/OIML
       V2-200:2012 (VIM), 2.53, [1].
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -161,6 +172,7 @@ data:
       calibration curves
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -180,6 +192,7 @@ data:
     - 'Note: The characteristics of the liquid shall either be measured using associated
       measuring devices, or stored in a memory in the instrument'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -193,6 +206,7 @@ data:
     definition: device which automatically corrects the setting of the AGFI
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -208,6 +222,7 @@ data:
       temperature
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -227,6 +242,7 @@ data:
     - 'Note: The characteristics of the gas may either be measured using associated
       measuring instruments, or stored in a memory in the instrument.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -245,6 +261,7 @@ data:
       or stored in a memory within the instrument
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: nebulizer
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -27,6 +30,7 @@ data:
       chamber where larger droplets remain on the chamber walls and are removed as
       waste.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -40,6 +44,7 @@ data:
     definition: A device that converts a liquid sample into an aerosol
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -53,6 +58,7 @@ data:
     definition: device that converts a liquid sample into an aerosol
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -69,6 +75,7 @@ data:
       spray chamber where larger droplets remain on the chamber walls and are removed
       as waste.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

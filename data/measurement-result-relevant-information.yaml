@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: measurement result relevant information
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +29,7 @@ data:
     - 'Note: Measurement result relevant information includes measurement result relevant
       data and measurement result relevant metadata, see Annex C.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

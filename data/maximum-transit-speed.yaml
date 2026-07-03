@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: maximum transit speed
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +29,7 @@ data:
       instrument beyond those specified
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -41,6 +45,7 @@ data:
       weighing instrument beyond those specified
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -56,6 +61,7 @@ data:
       of a weighing instrument beyond those specified
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -71,6 +77,7 @@ data:
       beyond those specified.
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: non-interruptible / interruptible measurement
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -29,6 +32,7 @@ data:
       called interruptible.
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

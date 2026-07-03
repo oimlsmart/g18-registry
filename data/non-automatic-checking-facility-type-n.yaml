@@ -6,9 +6,15 @@ data:
   - type: expression
     status: preferred
     text: non-automatic checking facility (Type N)
+    usage_info:
+    field:
+    international: false
   - type: expression
     status: preferred
     text: non-automatic checking facility (type N)
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +32,7 @@ data:
     definition: checking facility that requires the intervention of an operator
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -39,6 +46,7 @@ data:
     definition: checking facility that requires the intervention of an operator
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

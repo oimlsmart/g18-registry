@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: capacity (contained in a standard graduated flask)
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -31,6 +34,7 @@ data:
       passing through the upper edge of the scale mark, is tangential to the lowest
       point of the meniscus, when viewed in this plane.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -51,6 +55,7 @@ data:
       plane passing through the upper edge of the scale mark, is tangential to the
       lowest point of the meniscus, when viewed in this plane.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

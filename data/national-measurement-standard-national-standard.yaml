@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: national measurement standard national standard
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -22,9 +25,16 @@ data:
     g18_entry: '03323'
     definition: measurement standard recognised by a national authority to serve in
       a state or economy as the basis for assignig quantity values to other measurement
-      standards for the kind of quantity concerned [VIM, 5.3]
+      standards for the kind of quantity concerned
     notes: []
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2012
+      ref_id: '5.3'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
 status: current

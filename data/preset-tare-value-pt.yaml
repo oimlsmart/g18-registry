@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: preset tare value, PT
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -30,6 +33,7 @@ data:
       value is determined once and is applied to other weighings without determining
       the individual tare values.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -47,6 +51,7 @@ data:
     - 'Note : “introduced” includes procedures such as keying in, recalling from a
       data storage device, or inserting via an interface.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -61,11 +66,12 @@ data:
       the instrument. It is a predetermined tare value that is used for one or several
       weighings
     notes:
-    - 'Note 1 : “Introduced” includes procedures such as: keying in, recalling from
-      a data storage, or inserting via an interface. Note 2: “Predetermined” means
-      that a tare value is determined once and is applied to other weighings without
-      determining the individual tare values.'
+    - '"Introduced" includes procedures such as: keying in, recalling from a data
+      storage, or inserting via an interface.'
+    - '"Predetermined" means that a tare value is determined once and is applied to
+      other weighings without determining the individual tare values.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: steady pressure
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -28,6 +31,7 @@ data:
       variation in one minute not exceeding 5 % of the above values'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -45,6 +49,7 @@ data:
       variation in one minute not exceeding 5 % of the above values'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

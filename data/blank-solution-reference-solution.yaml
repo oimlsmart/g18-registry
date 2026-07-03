@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: blank solution reference solution
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -25,6 +28,7 @@ data:
     notes: []
     examples:
     - Solvent.
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

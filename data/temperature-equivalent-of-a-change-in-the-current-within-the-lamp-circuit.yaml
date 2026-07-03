@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: temperature equivalent of a change in the current within the lamp circuit
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -25,6 +28,7 @@ data:
       ribbon caused by a given change in the current within its circuit
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -44,6 +48,7 @@ data:
       limits
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

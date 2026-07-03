@@ -6,9 +6,15 @@ data:
   - type: expression
     status: preferred
     text: maximum permissible error, MPE
+    usage_info:
+    field:
+    international: false
   - type: expression
     status: preferred
     text: maximum permissible error, mpe
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -28,6 +34,7 @@ data:
       etc. for a given instrument IM:1993, 5.21 ]"
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -44,6 +51,7 @@ data:
       at zero at no-load, in the reference position
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -58,11 +66,11 @@ data:
       quantity value, permitted by specifications or regulations for a given measurement,
       measuring instrument, or measuring system (VIM, 4.26)
     notes:
-    - 'Note 1: Usually, the term "maximum permissible errors" or "limits of error"
-      is used where there are two extreme values.'
-    - 'Note 2: The term "tolerance" should not be used to designate "maximum permissible
-      error".'
+    - Usually, the term "maximum permissible errors" or "limits of error" is used
+      where there are two extreme values.
+    - The term "tolerance" should not be used to designate "maximum permissible error".
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -79,6 +87,7 @@ data:
       being at zero and no load, in the reference position [Adapted from VIM 5.21]
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -93,6 +102,7 @@ data:
       etc. for a given instrument [VIM: 1993, 5.21]'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -107,6 +117,7 @@ data:
       etc. for a given instrument [VIM:1993, 5.21 ]
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -123,6 +134,7 @@ data:
       at zero at no-load, in the reference position
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

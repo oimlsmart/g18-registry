@@ -6,9 +6,15 @@ data:
   - type: expression
     status: preferred
     text: absorbance
+    usage_info:
+    field:
+    international: false
   - type: symbol
     status: preferred
     text: stem:[A = lg(1/tau)]
+    usage_info:
+    field:
+    international: true
   kind: undefined
   official_concept:
   editions_present:
@@ -31,6 +37,7 @@ data:
     - 2. Absorbance has the dimension one and is expressed with the derived coherent
       SI unit one (1).
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -47,6 +54,7 @@ data:
     notes:
     - the instrument is the Beer-Lambert law.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -61,6 +69,7 @@ data:
       is dependent on the path length and the concentration of the absorbing substance
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -77,6 +86,7 @@ data:
     - 'Note: Absorbance has the dimension one and is expressed with the derived coherent
       SI unit one (1).'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

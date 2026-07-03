@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: motor vehicle
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +29,7 @@ data:
       and/or goods; towing vehicles used for the carriage of persons and/or goods"
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -41,6 +45,7 @@ data:
       goods; - towing vehicles used for the carriage of persons and/or goods'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

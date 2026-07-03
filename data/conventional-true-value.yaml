@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: conventional true value
+    usage_info:
+    field:
+    international: false
   kind: defined_in_vim
   official_concept:
     source: urn:oiml:pub:v:2:2007
@@ -34,6 +37,7 @@ data:
       as having an uncertainty appropriate for a given purpose VIM: 1993, 1.20]"
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -49,6 +53,7 @@ data:
       purpose
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
     related:
@@ -69,6 +74,7 @@ data:
       IM:1993, 1.20]"
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -84,6 +90,7 @@ data:
     notes:
     - "[VIM:1993, 1.20]"
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -100,6 +107,7 @@ data:
     - A conventional true value is, in general, regarded as sufficiently close to
       the true valu for the difference to be insignificant for the given purpose.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -114,6 +122,7 @@ data:
       for the true value
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -128,6 +137,7 @@ data:
       as having an uncertainty appropriate for a given purpose [VIM:1993, 1.20]
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -143,6 +153,7 @@ data:
       2.12]
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -158,6 +169,7 @@ data:
       1.20]
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -174,6 +186,7 @@ data:
     - 'Note: A conventional true value is, in general, regarded as sufficiently close
       to the true value for the difference to be insignificant for the given purpose.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -188,6 +201,7 @@ data:
       for the true value
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

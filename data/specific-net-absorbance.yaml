@@ -6,9 +6,15 @@ data:
   - type: expression
     status: preferred
     text: specific net absorbance
+    usage_info:
+    field:
+    international: false
   - type: symbol
     status: preferred
     text: stem:[Delta k]
+    usage_info:
+    field:
+    international: true
   kind: undefined
   official_concept:
   editions_present:
@@ -28,6 +34,7 @@ data:
       by the thickness, t, of the radiation sensitive layer of the dosimeter as follows:'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -42,6 +49,7 @@ data:
       t, of the radiation sensitive layer of the dosimeter as follows: Δk = ΔA /t'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

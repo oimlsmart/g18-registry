@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: marking
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -20,10 +23,17 @@ data:
     clause: 3.1.4
     link:
     g18_entry: '03215'
-    definition: affixing of one or more marks [VIML 2.19]
+    definition: affixing of one or more marks
     notes:
     - "(For notes, refer to the VIML)"
     examples: []
+    source:
+      kind: viml
+      relationship: identical
+      modification:
+      ref_source: OIML V 1:2013
+      ref_id: '2.19'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
 status: current

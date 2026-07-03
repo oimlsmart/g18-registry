@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: OIML test report
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -27,6 +30,7 @@ data:
     - The OIML Test Report shall always be accompanied by the OIML Certificate of
       Conformity which validates it.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -46,6 +50,7 @@ data:
       may be issued if several test laboratories are involved in covering all of the
       tests and examinations specified in the relevant OIML Recommenadtion.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

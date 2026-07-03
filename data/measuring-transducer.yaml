@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: measuring transducer
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +29,7 @@ data:
     notes:
     - "(VIM:2007, 3.7)"
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -41,6 +45,7 @@ data:
     notes:
     - "[VIM:1993, 4.3]"
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -56,6 +61,7 @@ data:
       power source
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -67,9 +73,16 @@ data:
     link:
     g18_entry: '03285'
     definition: device, used in measurement, that provides an output quantity having
-      a specified relation to the input quantity [VIM 3.7]
+      a specified relation to the input quantity
     notes: []
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2012
+      ref_id: '3.7'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -81,9 +94,16 @@ data:
     link:
     g18_entry: '02649'
     definition: device, used in measurement, that provides an output quantity having
-      a specified relation to the input quantity [VIM 3.7]
+      a specified relation to the input quantity
     notes: []
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2012
+      ref_id: '3.7'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -98,6 +118,7 @@ data:
       to the input quantity [VIM:2007, 3.7]
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

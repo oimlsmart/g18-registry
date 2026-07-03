@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: temperature inhomogeneity of the target area
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -30,6 +33,7 @@ data:
       limits
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -46,6 +50,7 @@ data:
       seals, inner leads, and connecting plug, where appropriate
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

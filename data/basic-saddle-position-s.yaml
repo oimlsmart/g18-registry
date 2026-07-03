@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: basic saddle position S
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +29,7 @@ data:
       by the angle stem:[alpha] (see Fig. 1)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -41,6 +45,7 @@ data:
       by the angle α (see Fig. 1)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

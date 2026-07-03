@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: reference (quantity) value
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +29,7 @@ data:
     notes:
     - "(VIM:2007, 5.18)"
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -40,6 +44,7 @@ data:
       of the same kind [VIM:2007, 5.18]
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

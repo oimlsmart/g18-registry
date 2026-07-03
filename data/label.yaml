@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: label
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -30,6 +33,7 @@ data:
       prescribed by this Recommendation
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -47,6 +51,7 @@ data:
       or to the contents of the prepackage
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

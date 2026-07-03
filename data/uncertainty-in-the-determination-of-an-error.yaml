@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: uncertainty in the determination of an error
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -28,6 +31,7 @@ data:
     - the components due to a meter verified or calibrated are notably linked to the
       resolution of its indicating device and to the periodic variation.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -45,6 +49,7 @@ data:
     - 'Note: the components due to a meter verified or calibrated are notably linked
       to the resolution  of its indicating device and to the periodic variation.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

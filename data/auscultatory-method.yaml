@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: auscultatory method
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -28,6 +31,7 @@ data:
       of 13, 4" (i.e. 4th phase Korotkoff sound) may be appropriate'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -45,6 +49,7 @@ data:
       "k4" .e. 4th phase Korotkoff sound) may be appropriate.
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -61,6 +66,7 @@ data:
       pressure and the disappearance of sounds with the diastolic blood pressure
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -77,6 +83,7 @@ data:
       pressure and the disappearance of sounds with the diastolic blood pressure
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -94,6 +101,7 @@ data:
       of 13, “k4” (i.e. 4th phase Korotkoff sound) may be appropriate
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -111,6 +119,7 @@ data:
       “k4” (i.e. 4th phase Korotkoff sound) may be appropriate.
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

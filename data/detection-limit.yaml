@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: detection limit
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -31,6 +34,7 @@ data:
       noise level and depends somewhat on whether the gas chromatograph is used for
       quantitative or qualitative analysis.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -49,6 +53,7 @@ data:
     - t all amenable compounds have a base peak their spectra; the base peak is the
       most or abundant ion in a mass spectrum.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -69,6 +74,7 @@ data:
       established by measuring the output signal of several aliquots of the blank
       test solution.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -92,6 +98,7 @@ data:
       to 10 times standard deviation of the background and al would include the variations
       associated wit sampling and analysis
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -111,6 +118,7 @@ data:
       example, two or ten) of th noise level and may depend somewhat on whether the
       gas chromatograph is being used for quantitative or qualitative analysis
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -136,6 +144,7 @@ data:
       temperature may be 0 oC or 20 oC and for pressure one atmosphere or 101 325
       Pa."
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -155,6 +164,7 @@ data:
       The baseline noise is established by measuring the output signal of several
       aliquots of a blank test solution.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -175,6 +185,7 @@ data:
       or ten) of the noise level and depends somewhat on whether the gas chromatograph
       is used for quantitative or qualitative analysis.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -194,6 +205,7 @@ data:
       have a base peak in their spectra; the base peak is the most intense or abundant
       ion in a mass spectrum.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -214,6 +226,7 @@ data:
       established by measuring the output signal of several aliquots of the blank
       test solution.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -237,6 +250,7 @@ data:
       a value equal to 10 times the standard deviation of the background and also
       would include the variations associated with sampling and analysis'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -256,6 +270,7 @@ data:
       (for example, two or ten) of the noise level and may depend somewhat on whether
       the gas chromatograph is being used for quantitative or qualitative analysis'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -270,18 +285,18 @@ data:
       equal to three times the mean short term noise level, as determined on a statistical
       basis
     notes:
-    - 'Note 1: The detection limit is sometimes defined as an output signal equal
-      to some other multiple (e.g., two or ten) of the noise level [2]. The noise
-      level is the random background output signal of an instrument when sampling
-      a blank or clean filtered air.'
-    - 'Note 2: In this Document, the concentration of an airborne pollutant in either
-      a gas or vapor phase is most often expressed in terms of the volume fraction
-      of the pollutant in air: parts-per-million (ppm) [v/v (10-6)]. Conditions of
-      temperature and pressure shall be specified for conversions to units of mass
-      per unit volume (usually mg/m3). Standard conditions may be specified, and for
-      temperature may be 0 oC or 20 oC and for pressure one atmosphere or 101 325
-      Pa.'
+    - The detection limit is sometimes defined as an output signal equal to some other
+      multiple (e.g., two or ten) of the noise level [2]. The noise level is the random
+      background output signal of an instrument when sampling a blank or clean filtered
+      air.
+    - 'In this Document, the concentration of an airborne pollutant in either a gas
+      or vapor phase is most often expressed in terms of the volume fraction of the
+      pollutant in air: parts-per-million (ppm) [v/v (10-6)]. Conditions of temperature
+      and pressure shall be specified for conversions to units of mass per unit volume
+      (usually mg/m3). Standard conditions may be specified, and for temperature may
+      be 0 oC or 20 oC and for pressure one atmosphere or 101 325 Pa.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

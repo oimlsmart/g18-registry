@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: dimensional weight (Dim Wt or DW)
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -24,6 +27,7 @@ data:
       a conversion factor to the object's volume (see 2.13) or dimensions (see 2.12)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

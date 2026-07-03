@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: reference (operationg) conditions
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -22,10 +25,17 @@ data:
     g18_entry: '03431'
     definition: operating condition prescribed for evaluating the performance of a
       measuring instrument or measuring system or for the comparison of measurement
-      results [VIM 4.11]
+      results
     notes:
     - "(For noters, refer to the VIM)."
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2012
+      ref_id: '4.11'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
 status: current

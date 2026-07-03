@@ -6,9 +6,15 @@ data:
   - type: expression
     status: preferred
     text: repeatability condition of measurement
+    usage_info:
+    field:
+    international: false
   - type: expression
     status: admitted
     text: repeatability condition
+    usage_info:
+    field:
+    international: false
   kind: defined_in_vim
   official_concept:
     source: urn:oiml:pub:v:2:2012
@@ -39,11 +45,12 @@ data:
       operating conditions and same location, and replicate measurements on the same
       or similar objects over a short period of time
     notes:
-    - 'Note 1: A condition of measurement is a repeatability condition only with respect
-      to a specified set of repeatability conditions. Note 2: In chemistry, the term
-      “intra-serial precision condition of measurement” is sometimes used to designate
-      this concept.'
+    - A condition of measurement is a repeatability condition only with respect to
+      a specified set of repeatability conditions.
+    - In chemistry, the term "intra-serial precision condition of measurement" is
+      sometimes used to designate this concept.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
     related:
@@ -65,6 +72,7 @@ data:
       or similar objects over a short period of time (OIML V 2-200, 2.20]
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -80,11 +88,18 @@ data:
       operating conditions and same location, and replicate measurements on the same
       or similar objects over a short period of time
     notes:
-    - NOTE 1 A condition of measurement is a repeatability condition only with respect
-      to a specified set of repeatability conditions. NOTE 2 In chemistry, the term
-      "intra-serial precision condition of measurement" is sometimes used to designate
-      this concept.
+    - A condition of measurement is a repeatability condition only with respect to
+      a specified set of repeatability conditions.
+    - In chemistry, the term "intra-serial precision condition of measurement" is
+      sometimes used to designate this concept.
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2007
+      ref_id: '2.20'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
 status: current

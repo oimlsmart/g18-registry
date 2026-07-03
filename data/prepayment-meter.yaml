@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: prepayment meter
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -23,11 +26,11 @@ data:
     definition: electricity meter intended to allow electrical energy to be delivered
       up to a predetermined amount
     notes:
-    - 'Note 1: Such a meter measures energy continuously and stores and displays the
-      measured energy.'
-    - 'Note 2: National authorities may specify requirements in relation to prepayment
-      meters.'
+    - Such a meter measures energy continuously and stores and displays the measured
+      energy.
+    - National authorities may specify requirements in relation to prepayment meters.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

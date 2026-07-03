@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: adjustable water meter
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -24,6 +27,7 @@ data:
       and/or correction device (3.1.7)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

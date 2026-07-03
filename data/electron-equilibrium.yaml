@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: electron equilibrium
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -28,6 +31,7 @@ data:
       sum of the energies of the secondary electrons leaving that volume
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -45,6 +49,7 @@ data:
       sum of the energies of the secondary electrons leaving that volume
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -62,6 +67,7 @@ data:
       of the energies of the secondary electrons leaving that volume
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -79,6 +85,7 @@ data:
       sum of the energies of the secondary electrons leaving that volume
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -96,6 +103,7 @@ data:
       sum of the energies of the secondary electrons leaving that volume
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -113,6 +121,7 @@ data:
       of the energies of the secondary electrons leaving that volume
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

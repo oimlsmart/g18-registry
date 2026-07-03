@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: measurement process
+    usage_info:
+    field:
+    international: false
   kind: defined_in_vim
   official_concept:
     source: urn:oiml:pub:v:2:1993
@@ -37,6 +40,7 @@ data:
     - rformance and quality of the ement ; it includes, for example, the ple, method,
       procedure, values of the nce quantities and the measurement rds.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
     related:
@@ -59,6 +63,7 @@ data:
     - rformance and quality of the ement; it includes for example the ple, method,
       procedure, values of the nce quantities and the measurement rds (VIM:1993, 2.08).
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -76,6 +81,7 @@ data:
       of the measurement ; it includes, for example, the principle, method, procedure,
       values of the influence quantities and the measurement standards.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

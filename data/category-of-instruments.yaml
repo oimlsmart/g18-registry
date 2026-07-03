@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: category of instruments
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -25,6 +28,7 @@ data:
       or method of measurement
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -40,6 +44,7 @@ data:
       the measuring range, and the principle or method of measurement
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

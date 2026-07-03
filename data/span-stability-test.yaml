@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: span stability test
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -25,6 +28,7 @@ data:
       characteristics over a period of use
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -39,6 +43,7 @@ data:
       characteristics over a period of use
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -52,6 +57,7 @@ data:
     definition: test to verify that the EUT is capable of maintaining its span stability
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -66,6 +72,7 @@ data:
       over a period of use
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -80,6 +87,7 @@ data:
       characteristics over a period of use
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -93,6 +101,7 @@ data:
     definition: test to verify that the EUT is capable of maintaining its span stability
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -107,6 +116,7 @@ data:
       characteristics over a period of use
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -121,6 +131,7 @@ data:
       characteristics over a period of use
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -135,6 +146,7 @@ data:
       characteristics over a period of use
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

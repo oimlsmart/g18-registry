@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: zero setting
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -25,6 +28,7 @@ data:
       0 kPa (0 mmHg) at atmospheric pressure (gauge pressure: 0 kPa (0 Hg))'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -39,6 +43,7 @@ data:
       kPa (0 mmHg) at atmospheric pressure (gauge pressure: 0 kPa (0 mmHg))'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

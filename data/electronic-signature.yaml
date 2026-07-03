@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: electronic signature
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -24,13 +27,14 @@ data:
       to verify the origin of software or data, i.e to prove their authenticity, or
       to chek that the software or data are unchanged, i.e.to prove their integrity
     notes:
-    - 'Note 1: For electronic signing, a public key system uded in general, i.e. a
-      pair of keys where only one needs to be kept secret; the other may be public.
-      Note 2: The secret key is used when software or data are secured. The public
-      key ise used when software or data are verified before use. Note 3: The veryfing
-      instance may require a cryptographic certufucate of the securing instance (see
-      3.1.7) to be sure of the authenticity of the public key.'
+    - For electronic signing, a public key system uded in general, i.e. a pair of
+      keys where only one needs to be kept secret; the other may be public.
+    - The secret key is used when software or data are secured. The public key ise
+      used when software or data are verified before use.
+    - The veryfing instance may require a cryptographic certufucate of the securing
+      instance (see 3.1.7) to be sure of the authenticity of the public key.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: peripheral device
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -27,6 +30,7 @@ data:
     examples:
     - Printer, secondary display, keyboard, terminal, data storage device, personal
       computer.
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -42,6 +46,7 @@ data:
       terminal, data storage device, personal computer.'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

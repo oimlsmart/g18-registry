@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: magnetism
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -24,6 +27,7 @@ data:
     definition: effect that generates an attractive or repulsive force
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -37,6 +41,7 @@ data:
     definition: effect that generates an attractive or repulsive force
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

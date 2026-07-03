@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: axle load
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -24,6 +27,7 @@ data:
       at the time of weighing
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

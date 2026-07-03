@@ -6,12 +6,21 @@ data:
   - type: expression
     status: preferred
     text: rated operating condition
+    usage_info:
+    field:
+    international: false
   - type: expression
     status: preferred
     text: rated operating conditions
+    usage_info:
+    field:
+    international: false
   - type: abbreviation
     status: preferred
     text: ROC
+    usage_info:
+    field:
+    international: false
   kind: defined_in_vim
   official_concept:
     source: urn:oiml:pub:v:2:1993
@@ -41,6 +50,7 @@ data:
       are intended to lie within given limits
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -56,6 +66,7 @@ data:
     notes:
     - "(VIM:2007, 4.9)"
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -73,6 +84,7 @@ data:
     - The rated operating conditions generally ify intervals of values for the quantity
       g measured and for any influence tity.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -87,6 +99,7 @@ data:
       4.9) order that a measuring instrument or measuring system perform asdesigned
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
     related:
@@ -107,6 +120,7 @@ data:
       maximum permissible errors
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -124,6 +138,7 @@ data:
       quantity values for which the indication of an instrument is intended to lie
       within maximum permissible errors.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -139,6 +154,7 @@ data:
       permissible errors
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -154,6 +170,7 @@ data:
       permissible errors
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -170,6 +187,7 @@ data:
     notes:
     - "(adapted from VIM:2007, 4.9)"
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -185,6 +203,13 @@ data:
       the maximum permissible errors
     notes: []
     examples: []
+    source:
+      kind: vim
+      relationship: modified
+      modification:
+      ref_source: OIML V 2-200:1993
+      ref_id: '5.5'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
     related:
@@ -206,6 +231,7 @@ data:
       IM:1993, 5.5]"
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -221,6 +247,7 @@ data:
       maximum permissible errors IM: 1993, 5.5]"
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -237,6 +264,7 @@ data:
     notes:
     - "[adapted from VIM:1993, 5.5]"
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -252,6 +280,7 @@ data:
       intended to lie within given limits [Adapted from VIM:1993, 5.5]
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
     related:
@@ -273,6 +302,7 @@ data:
       ased on VIM:1993, 5.5]"
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
     related:
@@ -293,6 +323,7 @@ data:
       maximum permissible errors
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -308,6 +339,7 @@ data:
       maximum permissible errors
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -323,6 +355,7 @@ data:
       errors dapted from VIM:1993, 5.5]"
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
     related:
@@ -345,6 +378,7 @@ data:
     - specify ranges or rated values of the measurand and of the influence quantities
       [Adapted from VIM:1993, 5.5]
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -360,6 +394,7 @@ data:
       maximum permissible errors
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -375,6 +410,7 @@ data:
       permissible errors
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -390,6 +426,7 @@ data:
       maximum permissible errors (adapted from VIM:1993, 5.5)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
     related:
@@ -411,6 +448,7 @@ data:
       dapted from VIM:1993, 5.5]"
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
     related:
@@ -431,6 +469,7 @@ data:
       maximum permissible errors
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -446,6 +485,7 @@ data:
       maximum permissible errors 11 clause T.13)."
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -461,6 +501,7 @@ data:
       errors
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -476,6 +517,7 @@ data:
       permissible errors [adapted from VIM:1993, 5.05]
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
     related:
@@ -497,6 +539,7 @@ data:
     - 'Note: Rated operating conditions generally specify intervals of values for
       a quantity being measured and for any influence quantity.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
     related:
@@ -519,6 +562,15 @@ data:
       for the influence quantities for which the errors (of indication) are required
       to be within the maximum permissible errors.
     examples: []
+    source:
+      kind: vim
+      relationship: modified
+      modification: '"requiring fulfillment" replaces "that must be fulfilled"; "meter"
+        replaces "measuring instrument or measuring system"; note replaced the original
+        note'
+      ref_source: OIML V 2-200:2012
+      ref_id: '4.9'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -530,10 +582,16 @@ data:
     link:
     g18_entry: '03416'
     definition: operating condition that must be fulfilled during measurement in order
-      that a measuring instrument or measuring system perform as designed [OIML V
-      2-200:2012, 4.9] [OIML V 1:2013, 0.08]
+      that a measuring instrument or measuring system perform as designed
     notes: []
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2012
+      ref_id: '4.9'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -545,10 +603,17 @@ data:
     link:
     g18_entry: '03419'
     definition: operating condition that must be fulfilled during measurement in order
-      that a measuring instrument or measuring system perform as designed [VIM 4.9]
+      that a measuring instrument or measuring system perform as designed
     notes:
     - "(For notes, refer to the VIM)"
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2012
+      ref_id: '4.9'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -560,9 +625,16 @@ data:
     link:
     g18_entry: '03417'
     definition: operating condition that must be fulfilled during measurement in order
-      that a measuring instrument or measuring system perform as designed [VIM 4.9]
+      that a measuring instrument or measuring system perform as designed
     notes: []
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2012
+      ref_id: '4.9'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -580,6 +652,7 @@ data:
     - 'Note: Rated operating conditions generally specify intervals of values for
       a quantity being measured and for any influence quantity.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -595,6 +668,7 @@ data:
       permissible errors
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -611,6 +685,7 @@ data:
     - 'Note: Rated operating conditions generally specify intervals of values for
       a quantity being measured and for any influence quantity.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -626,6 +701,7 @@ data:
       are intended to lie within given limits
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -637,11 +713,18 @@ data:
     link:
     g18_entry: '02450'
     definition: operating condition that must be fulfilled during measurement in order
-      that a measuring instrument or measuring system performs as designed [VIM 4.9]
+      that a measuring instrument or measuring system performs as designed
     notes:
     - 'Note:  Rated operating conditions generally specify intervals of values for
       a quantity being measured and for any influence quantity.'
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2012
+      ref_id: '4.9'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -652,13 +735,19 @@ data:
     clause: '1.7'
     link:
     g18_entry: '02788'
-    definition: "{rated operating condition operating condition that must be fulfilled
-      during measurement in order that a measuring instrument or measuring system
-      perform as designed [VIM 4.9]}"
+    definition: operating condition that must be fulfilled during measurement in order
+      that a measuring instrument or measuring system perform as designed
     notes:
     - "{NOTE Rated operating conditions generally specify intervals of values for
       a quantity being measured and for any influence quantity}"
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2012
+      ref_id: '4.9'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -670,12 +759,18 @@ data:
     link:
     g18_entry: '03422'
     definition: operating conditions that must be fulfilled during measurement in
-      order that a measuring instrument or measuring system perform as designed [VIM,
-      4.9]
+      order that a measuring instrument or measuring system perform as designed
     notes:
     - 'Note: Rated operating conditions generally specify intervals of values for
       a quantity being measured and for any influence quantity.'
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2012
+      ref_id: '4.9'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -692,6 +787,13 @@ data:
     - Note:Rated operating conditions generally specify intervals of values for a
       quantity being measured and for any influence quantity.
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2012
+      ref_id: '4.9'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -703,10 +805,16 @@ data:
     link:
     g18_entry: '02773'
     definition: operating conditions that must be fulfilled during measurement in
-      order that a measuring instrument or measuring system perform as designed [VIM,
-      4.9] [1]
+      order that a measuring instrument or measuring system perform as designed
     notes: []
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2012
+      ref_id: '4.9'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -720,11 +828,12 @@ data:
     definition: operating condition that must be fulfilled during measurement in order
       that a measuring instrument or measuring system perform as designed
     notes:
-    - 'Note 1: Rated operating conditions generally specify intervals of values for
-      a quantity being measured and for any influence quantity. [OIML V2-200:2012,
-      4.9] Note 2: For the application of this Recommendation, the terms “measuring
-      instrument” and “measuring system” mean: electricity meter.'
+    - Rated operating conditions generally specify intervals of values for a quantity
+      being measured and for any influence quantity. [OIML V2-200:2012, 4.9]
+    - 'For the application of this Recommendation, the terms "measuring instrument"
+      and "measuring system" mean: electricity meter.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -740,6 +849,7 @@ data:
       to be within the limits of the maximum permissible error
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -755,6 +865,7 @@ data:
       maximum permissible errors
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -770,6 +881,7 @@ data:
       are intended to lie within given limits
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -785,6 +897,7 @@ data:
       4.9]
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -802,6 +915,7 @@ data:
     - 'Note: The rated operating conditions generally specify intervals of values
       for the quantity being measured and for any influence quantity.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -817,6 +931,7 @@ data:
       4.9]
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -832,6 +947,7 @@ data:
       maximum permissible errors
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -849,6 +965,7 @@ data:
       of influence quantity values for which the indication of an instrument is intended
       to lie within maximum permissible errors.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -864,6 +981,7 @@ data:
       permissible errors [adapted from VIM:2007, 4.9]
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -879,6 +997,7 @@ data:
       the maximum permissible errors specified in this Recommendation [VIM:1993, 5.5]
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -894,6 +1013,7 @@ data:
       maximum permissible errors [VIM: 1993, 5.5]'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -909,6 +1029,7 @@ data:
       maximum permissible errors
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -924,6 +1045,7 @@ data:
       maximum permissible errors
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -939,6 +1061,7 @@ data:
       errors [adapted from VIM:1993, 5.5]
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -954,6 +1077,7 @@ data:
       permissible errors
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -969,6 +1093,7 @@ data:
       maximum permissible errors (adapted from VIM:1993, 5.5)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -984,6 +1109,7 @@ data:
       maximum permissible errors (D 11 clause T.13).
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -999,6 +1125,7 @@ data:
       errors
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

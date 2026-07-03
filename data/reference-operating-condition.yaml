@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: reference operating condition
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +29,13 @@ data:
     - 'Note: Reference operating conditions specify intervals of values of the measurand
       and of the influence quantities.'
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2012
+      ref_id: '4.11'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
 status: current

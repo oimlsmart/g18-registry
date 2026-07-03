@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: reference position
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -27,6 +30,7 @@ data:
       and transversal) inclinations
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -40,6 +44,7 @@ data:
     definition: position of the instrument at which its operation is adjusted
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -56,6 +61,7 @@ data:
       and transversal) inclinations
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -72,6 +78,7 @@ data:
       and transversal) inclinations
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -85,6 +92,7 @@ data:
     definition: position of the instrument at which its operation is adjusted
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

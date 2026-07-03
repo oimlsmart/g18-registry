@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: maximum wagon mass
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -24,6 +27,7 @@ data:
       subject to an excessive relative error
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

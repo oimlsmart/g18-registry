@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: inclination sensor
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -24,6 +27,7 @@ data:
     definition: measuring device for the pitch and roll angles
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -37,6 +41,7 @@ data:
     definition: measuring device for the pitch and roll angles
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -50,6 +55,7 @@ data:
     definition: measuring device for the pitch and roll angles
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

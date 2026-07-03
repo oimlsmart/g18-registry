@@ -6,12 +6,21 @@ data:
   - type: expression
     status: preferred
     text: noise equivalent temperature difference
+    usage_info:
+    field:
+    international: false
   - type: expression
     status: admitted
     text: temperature resolution
+    usage_info:
+    field:
+    international: false
   - type: symbol
     status: preferred
     text: stem:[Delta T_{"NETD"}]
+    usage_info:
+    field:
+    international: true
   kind: undefined
   official_concept:
   editions_present:
@@ -32,6 +41,7 @@ data:
       temperature and a specified thermogram rate
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -47,6 +57,7 @@ data:
       temperature and a specified thermogram rate
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

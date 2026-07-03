@@ -6,9 +6,15 @@ data:
   - type: expression
     status: preferred
     text: minimum dead load output return
+    usage_info:
+    field:
+    international: false
   - type: symbol
     status: preferred
     text: stem:[DR]
+    usage_info:
+    field:
+    international: true
   kind: undefined
   official_concept:
   editions_present:
@@ -28,6 +34,7 @@ data:
       and after load application
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -43,6 +50,7 @@ data:
       Dmax
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

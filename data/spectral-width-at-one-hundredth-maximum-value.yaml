@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: spectral width at one-hundredth maximum value
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -28,6 +31,7 @@ data:
     - 1. The coherent SI unit is the metre (m), but often the nanometre (nm) is used.
     - 2. The optical quantity can be e.g. radiant luminous flux, absorbance, etc.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -45,6 +49,7 @@ data:
     - 'Note: The coherent SI unit is the metre (m), but often the nanometre (nm) is
       used. The optical quantity can be e.g. radiant luminous flux, absorbance, etc.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

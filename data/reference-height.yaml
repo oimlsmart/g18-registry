@@ -6,9 +6,15 @@ data:
   - type: expression
     status: preferred
     text: reference height
+    usage_info:
+    field:
+    international: false
   - type: symbol
     status: preferred
     text: stem:[H]
+    usage_info:
+    field:
+    international: true
   kind: undefined
   official_concept:
   editions_present:
@@ -29,6 +35,7 @@ data:
     notes:
     - "(see figure 1)"
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -42,6 +49,7 @@ data:
     definition: distance between the dipping datum point and the upper reference point
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -56,6 +64,7 @@ data:
       reference point top and the reference point bottom (see figure 1)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -69,6 +78,7 @@ data:
     definition: distance between the dipping datum point and the upper reference point
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

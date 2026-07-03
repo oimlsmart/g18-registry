@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: measurand
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -25,6 +28,7 @@ data:
     notes:
     - "[VIM:1993, 2.6]"
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -35,9 +39,16 @@ data:
     clause: 3.1.2
     link:
     g18_entry: '02647'
-    definition: quantity intended to be measured [VIM 2.3]
+    definition: quantity intended to be measured
     notes: []
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2012
+      ref_id: '2.3'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
 status: current

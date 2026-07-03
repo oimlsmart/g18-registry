@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: audit trail
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -27,6 +30,7 @@ data:
       the metrological characteristics
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -43,6 +47,7 @@ data:
       of this Recommendation. Every log entry has a unique time and date stamp
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -62,6 +67,7 @@ data:
       cification and parameters, volumes and rgy at base conditions, calibration datum,
       alarm logs.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -78,6 +84,7 @@ data:
       may influence the mettrological
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -91,11 +98,17 @@ data:
     definition: continuous data file containing a time stamped information record
       of events, e.g. changes in the values of the parameters of a measuring instrument
       or software updates, or other activities that are legally relevant and which
-      are critical forthe metrological characteristics adapted from [OIML V 1:2022,
-      6.05]
+      are critical forthe metrological characteristics
     notes:
     - 'Note: Regarding examples for events logged in an audit trial, see 3.2.20'
     examples: []
+    source:
+      kind: viml
+      relationship: modified
+      modification:
+      ref_source: OIML V 1:2022
+      ref_id: '6.05'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -112,6 +125,7 @@ data:
       the metrological characteristics [VIML:2013, 6.05] [2]
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -128,6 +142,7 @@ data:
       the metrological characteristics (OIML D 31)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -141,9 +156,10 @@ data:
     definition: continuous data file containing a time stamped information record
       of events, e.g. changes in the values of parameters of a device or software
       updates, or other activities that are legally relevant and which may influence
-      the metrological characteristics [OIML D 31, 3.1.2]
+      the metrological characteristics
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -158,6 +174,7 @@ data:
       of the legally relevant parameters of a device
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -174,6 +191,7 @@ data:
       of this Recommendation. Every log entry has a unique time and date stamp
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -192,6 +210,7 @@ data:
       temperatures and calorific values, conversion equation specification and parameters,
       volumes and energy at base conditions, calibration datum, and alarm logs.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

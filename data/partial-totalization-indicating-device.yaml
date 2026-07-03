@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: partial totalization indicating device
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +29,7 @@ data:
       is resettable to zero by the user
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -40,6 +44,7 @@ data:
       period
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -54,6 +59,7 @@ data:
       period
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -69,6 +75,7 @@ data:
       is resettable to zero by the user
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

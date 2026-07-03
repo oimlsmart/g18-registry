@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: indicated value
+    usage_info: of a quantity
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -23,6 +26,7 @@ data:
     definition: value Yi of a quantity, as indicated by the meter
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

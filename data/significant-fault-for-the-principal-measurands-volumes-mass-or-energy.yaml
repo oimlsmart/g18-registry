@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: 'significant fault (for the principal measurands: volumes, mass or energy)'
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -37,6 +40,7 @@ data:
     - 3. When a device is used for measuring two or more principal measurands (a calculator
       for example), it has a significant fault for each measurand.
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

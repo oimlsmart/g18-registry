@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: volume) magnetic susceptibility ()
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -25,6 +28,7 @@ data:
       The quantity µ / µ0 is sometimes referred to as the relative permeability, µr'
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

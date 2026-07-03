@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: OIML type evaluation report
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +29,7 @@ data:
       additional national requirements specified in the Declaration (OIML B 18, 3.31)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

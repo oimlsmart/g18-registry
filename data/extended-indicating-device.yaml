@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: extended indicating device
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -24,6 +27,7 @@ data:
       value less than the verification interval, e, following a manual command
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

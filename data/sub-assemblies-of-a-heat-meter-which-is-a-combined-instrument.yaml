@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: sub-assemblies of a heat meter, which is a combined instrument
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -24,6 +27,7 @@ data:
       acombination of these
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: electronic sub-assembly
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +29,7 @@ data:
     notes: []
     examples:
     - A/D converter, display.
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -40,6 +44,7 @@ data:
       having a recognizable function of its own
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -54,6 +59,7 @@ data:
       having a recognizable function of its own
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -69,6 +75,7 @@ data:
     notes: []
     examples:
     - A/D converter, display.
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -84,6 +91,7 @@ data:
     notes: []
     examples:
     - A/D converter, display
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -98,6 +106,7 @@ data:
       a recognizable function of its own
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -117,6 +126,7 @@ data:
       and that can be separately evaluated according to prescribed metrological and
       technical performance requirements in the relevant Recommendation.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -131,6 +141,7 @@ data:
       having a recognizable function of its own
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -145,6 +156,7 @@ data:
       having a recognizable function of its own
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -159,6 +171,7 @@ data:
       a recognizable function of its own
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -173,6 +186,7 @@ data:
       a recognizable function of its own
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -187,6 +201,7 @@ data:
       having a recognizable function of its own
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -201,6 +216,7 @@ data:
       and having a recognizable function of its own
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -215,6 +231,7 @@ data:
       has a recognizable function of its own
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -229,6 +246,7 @@ data:
       having a recognizable function of its own
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -243,6 +261,7 @@ data:
       (3.5.3) and having a recognizable function of its own
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -253,11 +272,12 @@ data:
     clause: T.2.2.2
     link: https://www.oiml.org/en/files/pdf_R/r107-1-e07.pdf
     g18_entry: '01329'
-    definition: 'part of an electronic device employing electronic components and
-      having a recognizable function of its own Examples: A/D converter, display.
-      [OIML D 11: 2004, 3.3]'
+    definition: part of an electronic device employing electronic components and having
+      a recognizable function of its own
     notes: []
-    examples: []
+    examples:
+    - A/D converter, display.
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -268,11 +288,12 @@ data:
     clause: T.2.8.2
     link: https://www.oiml.org/en/files/pdf_R/r051-1-e06.pdf
     g18_entry: '00599'
-    definition: 'part of an electronic device, employing electronic components and
-      having a recognizable function of its own Examples: A/D converter, display.
-      [OIML D 11: 2004, 3.3]'
+    definition: part of an electronic device, employing electronic components and
+      having a recognizable function of its own
     notes: []
-    examples: []
+    examples:
+    - A/D converter, display.
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -283,11 +304,12 @@ data:
     clause: T.2.3.2
     link: https://www.oiml.org/en/files/pdf_R/r076-1-e06.pdf
     g18_entry: '00905'
-    definition: 'part of an electronic device, employing electronic components and
-      having a recognizable function of its own Examples: A/D converter, display [OIML
-      D 11: 2004, 3.3]'
+    definition: part of an electronic device, employing electronic components and
+      having a recognizable function of its own
     notes: []
-    examples: []
+    examples:
+    - A/D converter, display
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -302,6 +324,7 @@ data:
       has a recognizable function of its own
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -316,6 +339,7 @@ data:
       a recognizable function of its own
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

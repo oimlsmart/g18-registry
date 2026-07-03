@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: drift
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -25,6 +28,7 @@ data:
     notes:
     - "(VIM:1993, 5.16)"
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -39,6 +43,7 @@ data:
     notes:
     - "(VIM:1993, 5.16)"
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: '2010'
@@ -53,6 +58,7 @@ data:
       time at a given mass concentration of ethanol in air
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -68,6 +74,7 @@ data:
       4.21)
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -82,6 +89,7 @@ data:
       [VIM:1993, 5.16]
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

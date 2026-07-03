@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: uncertainty of a measurement
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -21,12 +24,18 @@ data:
     link:
     g18_entry: '03608'
     definition: non-negative parameter characterizing the dispersion of the quantity
-      values being attributed to a measurand, based on the information used [OIML
-      V 2-200, 2.26]
+      values being attributed to a measurand, based on the information used
     notes:
     - 'Note: For more information, see OIML G 1-100 Evaluation of measurement data
       – Guide to the expression of uncertainty in measurement.'
     examples: []
+    source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2012
+      ref_id: '2.26'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
 status: current

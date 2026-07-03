@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: totalisation device
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -24,6 +27,7 @@ data:
       over the mass of product passing along the force receptor
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

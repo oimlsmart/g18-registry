@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: coefficient w of the vehicle
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -30,6 +33,7 @@ data:
       test conditions (point 4.2.4.).
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -49,6 +53,7 @@ data:
       test conditions (point 4.2.4.).
     notes: []
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: test interface
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -26,6 +29,7 @@ data:
     - 'Note: To record and analyse signals from field experiments or to insert recorded
       or artificial data, e.g. to support metrological control.'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current

@@ -6,6 +6,9 @@ data:
   - type: expression
     status: preferred
     text: sample solution
+    usage_info:
+    field:
+    international: false
   kind: undefined
   official_concept:
   editions_present:
@@ -29,6 +32,7 @@ data:
     - 2. In laboratory medicine the "system" usually is a subsystem of a patient such
       as blood or urine. [Adapted from [9], subclauses 4.114 and 4.4]
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -47,6 +51,7 @@ data:
       medicine the “system” usually is a subsystem of a patient such as blood or urine.
       [Adapted from [9], subclauses 4.114 and 4.4]'
     examples: []
+    source:
     consistency: pending
     consistency_reason: ''
 status: current
