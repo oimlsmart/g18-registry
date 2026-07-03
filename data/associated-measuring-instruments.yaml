@@ -26,8 +26,15 @@ data:
     definition: instruments connected to the calculator or the correction device,
       for measuring certain quantities which are characteristic of the gas, with a
       view to making a correction
+    definition_paragraphs:
+    - text: instruments connected to the calculator or the correction device, for
+        measuring certain quantities which are characteristic of the gas, with a view
+        to making a correction
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -42,8 +49,15 @@ data:
     definition: instruments connected to the calculator, the correction device or
       the conversion device, for measuring certain quantities which are characteristic
       of water, with a view to making a correction and/or a conversion
+    definition_paragraphs:
+    - text: instruments connected to the calculator, the correction device or the
+        conversion device, for measuring certain quantities which are characteristic
+        of water, with a view to making a correction and/or a conversion
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

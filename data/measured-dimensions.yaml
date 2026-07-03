@@ -26,8 +26,14 @@ data:
     g18_entry: '01711'
     definition: the length (L), width (W) or height (H), measured by the instrument,
       of the smallest rectangular box which fully encloses the object
+    definition_paragraphs:
+    - text: the length (L), width (W) or height (H), measured by the instrument, of
+        the smallest rectangular box which fully encloses the object
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '03247'
     definition: the length (L), width (W) or height (H), measured by the measuring
       instrument, of the smallest rectangular box which fully encloses the object
+    definition_paragraphs:
+    - text: the length (L), width (W) or height (H), measured by the measuring instrument,
+        of the smallest rectangular box which fully encloses the object
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

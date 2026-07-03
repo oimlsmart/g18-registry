@@ -26,12 +26,23 @@ data:
     g18_entry: '01319'
     definition: weighing instrument used to determine the conventional true value
       of the mass of the test loads during material tests
+    definition_paragraphs:
+    - text: weighing instrument used to determine the conventional true value of the
+        mass of the test loads during material tests
+      sources: []
     notes:
     - 'Control instruments used for testing may be: * separate from the instrument
       being tested; or * integral, when a non-automatic (static) weighing mode is
       provided b the instrument being tested, which allows the weighing cycle to be
       interrupted (see 6.3).'
+    note_paragraphs:
+    - text: 'Control instruments used for testing may be: * separate from the instrument
+        being tested; or * integral, when a non-automatic (static) weighing mode is
+        provided b the instrument being tested, which allows the weighing cycle to
+        be interrupted (see 6.3).'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -47,8 +58,16 @@ data:
       of the mass of the test load(s). Control instruments used for testing may be:
       separate from the instrument being tested; or integral, when a static weighing
       mode is provided by the instrument being tested"
+    definition_paragraphs:
+    - text: "- - Weighing instrument used to determine the conventional true value
+        of the mass of the test load(s). Control instruments used for testing may
+        be: separate from the instrument being tested; or integral, when a static
+        weighing mode is provided by the instrument being tested"
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -64,8 +83,16 @@ data:
       delivered by the filling instrument. The control instrument used during testing
       may be: Separate from the instrument being tested; or Integral, when the instrument
       being tested is used as the control instrument"
+    definition_paragraphs:
+    - text: "• • weighing instrument used to determine the mass of the test fill(s)
+        delivered by the filling instrument. The control instrument used during testing
+        may be: Separate from the instrument being tested; or Integral, when the instrument
+        being tested is used as the control instrument"
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -78,8 +105,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r134-e03.pdf
     g18_entry: '01788'
     definition: weighing instrument used to determine the mass of a reference vehicle
+    definition_paragraphs:
+    - text: weighing instrument used to determine the mass of a reference vehicle
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -93,8 +125,14 @@ data:
     g18_entry: '01258'
     definition: a non-automatic weighing instrument used to determine the mass ofa
       reference wagon
+    definition_paragraphs:
+    - text: a non-automatic weighing instrument used to determine the mass ofa reference
+        wagon
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -108,8 +146,14 @@ data:
     g18_entry: '02532'
     definition: weighing instrument used to determine the mass of a reference wagon
       by static weighing
+    definition_paragraphs:
+    - text: weighing instrument used to determine the mass of a reference wagon by
+        static weighing
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -123,12 +167,23 @@ data:
     g18_entry: '01319'
     definition: weighing instrument used to determine the conventional true value
       of the mass of the test loads during material tests
+    definition_paragraphs:
+    - text: weighing instrument used to determine the conventional true value of the
+        mass of the test loads during material tests
+      sources: []
     notes:
     - 'Note: Control instruments used for testing may be:separate from the instrument
       being tested; or integral, when a non-automatic (static) weighing mode is provided
       by the instrument being tested, which allows the weighing cycle to be interrupted
       (see 6.3).'
+    note_paragraphs:
+    - text: 'Note: Control instruments used for testing may be:separate from the instrument
+        being tested; or integral, when a non-automatic (static) weighing mode is
+        provided by the instrument being tested, which allows the weighing cycle to
+        be interrupted (see 6.3).'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -145,8 +200,17 @@ data:
       rigid reference vehicle. The control instruments used as a reference instrument
       during testing may be: - separate from the instrument being tested; or - integral,
       when a static weighing mode is provided by the instrument being tested.'
+    definition_paragraphs:
+    - text: 'weighing instrument used to determine the static reference vehicle mass
+        of the reference vehicles and the static single-axle loads of a two-axle rigid
+        reference vehicle. The control instruments used as a reference instrument
+        during testing may be: - separate from the instrument being tested; or - integral,
+        when a static weighing mode is provided by the instrument being tested.'
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -160,8 +224,14 @@ data:
     g18_entry: '02950'
     definition: weighing instrument used to determine the conventional value of the
       mass of the test load(s) [VIML:2013, 5.08] [2]
+    definition_paragraphs:
+    - text: weighing instrument used to determine the conventional value of the mass
+        of the test load(s) [VIML:2013, 5.08] [2]
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -175,8 +245,20 @@ data:
     g18_entry: '02949'
     definition: weighing instrument used to determine the conventional value of the
       mass of the test load(s)
+    definition_paragraphs:
+    - text: weighing instrument used to determine the conventional value of the mass
+        of the test load(s)
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2013
+        ref_id: '5.08'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical
@@ -198,8 +280,16 @@ data:
       of the mass of the test load(s). Control instruments used for testing may be:
       - separate from the instrument being tested; or - integral, when a static weighing
       mode is provided by the instrument being tested'
+    definition_paragraphs:
+    - text: 'weighing instrument used to determine the conventional true value of
+        the mass of the test load(s). Control instruments used for testing may be:
+        - separate from the instrument being tested; or - integral, when a static
+        weighing mode is provided by the instrument being tested'
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

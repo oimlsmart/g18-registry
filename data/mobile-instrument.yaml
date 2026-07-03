@@ -27,13 +27,28 @@ data:
     definition: non-automatic weighing instrument mounted on or incorporated (1) A
       vehicle-mounted instrument is a into a vehicle complet mounted for tha mounted
       (2) A v parts o instrum patient chair w
+    definition_paragraphs:
+    - text: non-automatic weighing instrument mounted on or incorporated (1) A vehicle-mounted
+        instrument is a into a vehicle complet mounted for tha mounted (2) A v parts
+        o instrum patient chair w
+      sources: []
     notes:
     - e weighing instrument which is firmly on a vehicle, and which is designed t
       special purpose
+    note_paragraphs:
+    - text: e weighing instrument which is firmly on a vehicle, and which is designed
+        t special purpose
+      sources: []
     examples:
     - Postal scale on a vehicle (mobile post office). ehicle-incorporated instrument
       uses f the vehicle for the weighing ent
     - Garbage weighers, lifters, pallet lifters, fork lifters, whee eighers.
+    example_paragraphs:
+    - text: Postal scale on a vehicle (mobile post office). ehicle-incorporated instrument
+        uses f the vehicle for the weighing ent
+      sources: []
+    - text: Garbage weighers, lifters, pallet lifters, fork lifters, whee eighers.
+      sources: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -47,14 +62,31 @@ data:
     g18_entry: '00886'
     definition: non-automatic weighing instrument mounted on or incorporated into
       a vehicle
+    definition_paragraphs:
+    - text: non-automatic weighing instrument mounted on or incorporated into a vehicle
+      sources: []
     notes:
-    - 'A vehicle-mounted instrument is a complete weighing instrument which is firmly
-      mounted on a vehicle, and which is designed for that special purpose. Example:
-      Postal scale mounted on a vehicle (mobile post office).'
-    - 'A vehicle-incorporated instrument uses parts of the vehicle for the weighing
-      instrument. Examples: Garbage weighers, patient lifters, pallet lifters, fork
-      lifters, wheel chair weighers.'
-    examples: []
+    - A vehicle-mounted instrument is a complete weighing instrument which is firmly
+      mounted on a vehicle, and which is designed for that special purpose.
+    - A vehicle-incorporated instrument uses parts of the vehicle for the weighing
+      instrument.
+    note_paragraphs:
+    - text: A vehicle-mounted instrument is a complete weighing instrument which is
+        firmly mounted on a vehicle, and which is designed for that special purpose.
+      sources: []
+    - text: A vehicle-incorporated instrument uses parts of the vehicle for the weighing
+        instrument.
+      sources: []
+    examples:
+    - Postal scale mounted on a vehicle (mobile post office).
+    - Garbage weighers, patient lifters, pallet lifters, fork lifters, wheel chair
+      weighers.
+    example_paragraphs:
+    - text: Postal scale mounted on a vehicle (mobile post office).
+      sources: []
+    - text: Garbage weighers, patient lifters, pallet lifters, fork lifters, wheel
+        chair weighers.
+      sources: []
     source:
     consistency: pending
     consistency_reason: ''

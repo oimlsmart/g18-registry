@@ -31,8 +31,14 @@ data:
     g18_entry: '01715'
     definition: value of the dimension for each axis below which the measuring result
       may be subject to an excessive relative error
+    definition_paragraphs:
+    - text: value of the dimension for each axis below which the measuring result
+        may be subject to an excessive relative error
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

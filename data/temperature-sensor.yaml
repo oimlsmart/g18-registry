@@ -25,8 +25,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r080-1-e09.pdf
     g18_entry: '02264'
     definition: measuring device for the temperature of the liquid
+    definition_paragraphs:
+    - text: measuring device for the temperature of the liquid
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -39,8 +44,13 @@ data:
     link:
     g18_entry: '03558'
     definition: measuring device for the temperature of the liquid
+    definition_paragraphs:
+    - text: measuring device for the temperature of the liquid
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -53,8 +63,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r080-1-e09.pdf
     g18_entry: 02264-R080-1
     definition: measuring device for the temperature of the liquid
+    definition_paragraphs:
+    - text: measuring device for the temperature of the liquid
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -27,8 +27,15 @@ data:
     definition: numerical factor (single constant or coming from a mathematical (adapted
       from VIM:2007, 2.53) function "f(q)") by which the uncorrected result is multiplied
       to compensate for the estimated systematic error
+    definition_paragraphs:
+    - text: numerical factor (single constant or coming from a mathematical (adapted
+        from VIM:2007, 2.53) function "f(q)") by which the uncorrected result is multiplied
+        to compensate for the estimated systematic error
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -43,8 +50,15 @@ data:
     definition: numerical factor (single constant or coming from a mathematical function
       “f(q)”) by which the uncorrected result is multiplied to compensate for the
       estimated systematic error [adapted from VIM:2007, 2.53]
+    definition_paragraphs:
+    - text: numerical factor (single constant or coming from a mathematical function
+        “f(q)”) by which the uncorrected result is multiplied to compensate for the
+        estimated systematic error [adapted from VIM:2007, 2.53]
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

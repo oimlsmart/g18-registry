@@ -25,9 +25,16 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r099-1-e08.pdf
     g18_entry: '02348a'
     definition: quantity value attributed by agreement to a quantity for a given purpose
+    definition_paragraphs:
+    - text: quantity value attributed by agreement to a quantity for a given purpose
+      sources: []
     notes:
     - "(VIM:2007, 2.12)"
+    note_paragraphs:
+    - text: "(VIM:2007, 2.12)"
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +48,14 @@ data:
     g18_entry: '02348'
     definition: quantity value attributed by agreement to a quantity for a given purpose
       [VIM:2007, 2.12]
+    definition_paragraphs:
+    - text: quantity value attributed by agreement to a quantity for a given purpose
+        [VIM:2007, 2.12]
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -26,8 +26,14 @@ data:
     g18_entry: '01126'
     definition: focimeter which displays measured values rounded to the nearest incremental
       value
+    definition_paragraphs:
+    - text: focimeter which displays measured values rounded to the nearest incremental
+        value
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '01126'
     definition: focimeter which displays measured values rounded to the nearest incremental
       value
+    definition_paragraphs:
+    - text: focimeter which displays measured values rounded to the nearest incremental
+        value
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

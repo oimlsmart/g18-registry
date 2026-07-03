@@ -26,8 +26,15 @@ data:
     definition: a device for adjusting the EBA by a procedure other than that specified
       in 3.9, notably by the simulation of the effects of the passage of a standard
       mixture of gases as described in 3.9
+    definition_paragraphs:
+    - text: a device for adjusting the EBA by a procedure other than that specified
+        in 3.9, notably by the simulation of the effects of the passage of a standard
+        mixture of gases as described in 3.9
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

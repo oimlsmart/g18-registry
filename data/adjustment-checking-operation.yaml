@@ -25,8 +25,14 @@ data:
     g18_entry: '01672'
     definition: an operation involving all relevant internal elements which verifies
       that the EBA is suitably adjusted
+    definition_paragraphs:
+    - text: an operation involving all relevant internal elements which verifies that
+        the EBA is suitably adjusted
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

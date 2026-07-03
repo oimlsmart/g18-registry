@@ -25,8 +25,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r117-1-e07.pdf
     g18_entry: '01552'
     definition: price to pay corresponding to the minimum specified quantity deviation
+    definition_paragraphs:
+    - text: price to pay corresponding to the minimum specified quantity deviation
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -39,8 +44,13 @@ data:
     link:
     g18_entry: '03314'
     definition: price to pay corresponding to the minimum specified quantity deviation
+    definition_paragraphs:
+    - text: price to pay corresponding to the minimum specified quantity deviation
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

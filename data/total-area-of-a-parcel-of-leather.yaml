@@ -31,8 +31,14 @@ data:
     g18_entry: '01902'
     definition: sum of the areas of pieces of leather individually measured and bundled
       into a parcel
+    definition_paragraphs:
+    - text: sum of the areas of pieces of leather individually measured and bundled
+        into a parcel
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

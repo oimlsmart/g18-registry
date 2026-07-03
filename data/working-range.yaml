@@ -26,8 +26,14 @@ data:
     g18_entry: '01072'
     definition: range of concentrations of a component of interest in solution that
       can be measured with a repeatability within specified limits
+    definition_paragraphs:
+    - text: range of concentrations of a component of interest in solution that can
+        be measured with a repeatability within specified limits
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -42,8 +48,15 @@ data:
     definition: range of concentrations over which the output signal of the instrument
       is directly proportional to the concentration of the element being measured
       to within specified limits
+    definition_paragraphs:
+    - text: range of concentrations over which the output signal of the instrument
+        is directly proportional to the concentration of the element being measured
+        to within specified limits
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -58,11 +71,22 @@ data:
     definition: the range of concentrations of an element of interest in solution
       Dilution, or concentration, of a sample that can be measured with repeatability
       within specified limits
+    definition_paragraphs:
+    - text: the range of concentrations of an element of interest in solution Dilution,
+        or concentration, of a sample that can be measured with repeatability within
+        specified limits
+      sources: []
     notes:
     - solution may be necessary to bring the element of interest within the working
       range. The zero absorbance of the spectrometer is adjusted using a blank reference
       solution.
+    note_paragraphs:
+    - text: solution may be necessary to bring the element of interest within the
+        working range. The zero absorbance of the spectrometer is adjusted using a
+        blank reference solution.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -76,11 +100,21 @@ data:
     g18_entry: '02518'
     definition: range of concentrations of an element of interest in solution that
       can be measured within specified limits
+    definition_paragraphs:
+    - text: range of concentrations of an element of interest in solution that can
+        be measured within specified limits
+      sources: []
     notes:
     - 'Note:  Dilution, or concentration, of a sample solution may be necessary to
       bring the element of interest within the working range. The zero absorbance
       of the spectrometer is adjusted using a blank reference solution.'
+    note_paragraphs:
+    - text: 'Note:  Dilution, or concentration, of a sample solution may be necessary
+        to bring the element of interest within the working range. The zero absorbance
+        of the spectrometer is adjusted using a blank reference solution.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -94,8 +128,14 @@ data:
     g18_entry: '01072'
     definition: range of concentrations of a component of interest in solution that
       can be measured with a repeatability within specified limits
+    definition_paragraphs:
+    - text: range of concentrations of a component of interest in solution that can
+        be measured with a repeatability within specified limits
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -110,8 +150,15 @@ data:
     definition: range of concentrations over which the output signal of the instrument
       is directly proportional to the concentration of the element being measured
       to within specified limits
+    definition_paragraphs:
+    - text: range of concentrations over which the output signal of the instrument
+        is directly proportional to the concentration of the element being measured
+        to within specified limits
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

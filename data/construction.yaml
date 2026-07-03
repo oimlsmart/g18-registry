@@ -25,11 +25,20 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r107-1-e07.pdf
     g18_entry: '01323'
     definition: In this Recommendation the term "device" is
+    definition_paragraphs:
+    - text: In this Recommendation the term "device" is
+      sources: []
     notes:
     - used for any means by which a specific function is performed irrespective of
       the physical realization e.g. by a mechanism or key initiating an operation;
       the device may a small part or a major portion of an instrument.
+    note_paragraphs:
+    - text: used for any means by which a specific function is performed irrespective
+        of the physical realization e.g. by a mechanism or key initiating an operation;
+        the device may a small part or a major portion of an instrument.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -42,11 +51,20 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r051-1-e06.pdf
     g18_entry: '00577'
     definition: (-) In this Recommendation the term "device" is
+    definition_paragraphs:
+    - text: (-) In this Recommendation the term "device" is
+      sources: []
     notes:
     - used for any means by which a specific function is performed irrespective of
       the physical realization, e.g. by a mechanism, a key or software initiating
       an operation. The device may be a small part or a major portion of an instrument.
+    note_paragraphs:
+    - text: used for any means by which a specific function is performed irrespective
+        of the physical realization, e.g. by a mechanism, a key or software initiating
+        an operation. The device may be a small part or a major portion of an instrument.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -59,12 +77,22 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r061-1-e04.pdf
     g18_entry: '00762'
     definition: (-) In this Recommendation, the term "device" is
+    definition_paragraphs:
+    - text: (-) In this Recommendation, the term "device" is
+      sources: []
     notes:
     - applied to any part of a filling instrument which uses any means to perform
       one or more specific functions irrespective of the physical realization, e.g.
       by a mechanism or a key initiating an operation. The device may be a small part
       or a major portion of a filling instrument.
+    note_paragraphs:
+    - text: applied to any part of a filling instrument which uses any means to perform
+        one or more specific functions irrespective of the physical realization, e.g.
+        by a mechanism or a key initiating an operation. The device may be a small
+        part or a major portion of a filling instrument.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -77,9 +105,17 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r106-1-e97.pdf
     g18_entry: '01260'
     definition: (-) In this Recommendation the term "device" is
+    definition_paragraphs:
+    - text: (-) In this Recommendation the term "device" is
+      sources: []
     notes:
     - applied to any part which uses any means to perform one or more specific functions.
+    note_paragraphs:
+    - text: applied to any part which uses any means to perform one or more specific
+        functions.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -92,12 +128,22 @@ data:
     link:
     g18_entry: '02943'
     definition: "(-)"
+    definition_paragraphs:
+    - text: "(-)"
+      sources: []
     notes:
     - 'Note: In this Recommendation the term “device” is used for any means by which
       a specific function is performed irrespective of the physical realization, e.g.
       by a mechanism or a key initiating an operation; the device may be a small part
       or a major portion of an instrument.'
+    note_paragraphs:
+    - text: 'Note: In this Recommendation the term “device” is used for any means
+        by which a specific function is performed irrespective of the physical realization,
+        e.g. by a mechanism or a key initiating an operation; the device may be a
+        small part or a major portion of an instrument.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -110,12 +156,22 @@ data:
     link:
     g18_entry: '02944'
     definition: "(-)"
+    definition_paragraphs:
+    - text: "(-)"
+      sources: []
     notes:
     - 'Note: In OIML R 61 the term “device” is applied to any part of the AGFI which
       uses any means to perform one or more specific functions irrespective of the
       physical realization e.g. by a mechanism or a key initiating an operation; the
       device may be a small part or a major portion of the AGFI.'
+    note_paragraphs:
+    - text: 'Note: In OIML R 61 the term “device” is applied to any part of the AGFI
+        which uses any means to perform one or more specific functions irrespective
+        of the physical realization e.g. by a mechanism or a key initiating an operation;
+        the device may be a small part or a major portion of the AGFI.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -128,12 +184,22 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r107-1-e07.pdf
     g18_entry: '01323'
     definition: "(-)"
+    definition_paragraphs:
+    - text: "(-)"
+      sources: []
     notes:
     - 'Note: In this Recommendation the term “device” is used for any means by which
       a specific function is performed irrespective of the physical realization e.g.
       by a mechanism or a key initiating an operation; the device may be a small part
       or a major portion of an instrument.'
+    note_paragraphs:
+    - text: 'Note: In this Recommendation the term “device” is used for any means
+        by which a specific function is performed irrespective of the physical realization
+        e.g. by a mechanism or a key initiating an operation; the device may be a
+        small part or a major portion of an instrument.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -146,12 +212,22 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r051-1-e06.pdf
     g18_entry: '00577'
     definition: "(-)"
+    definition_paragraphs:
+    - text: "(-)"
+      sources: []
     notes:
     - 'Note: In this Recommendation the term “device” is used for any means by which
       a specific function is performed irrespective of the physical realization, e.g.
       by a mechanism, a key or software initiating an operation. The device may be
       a small part or a major portion of an instrument'
+    note_paragraphs:
+    - text: 'Note: In this Recommendation the term “device” is used for any means
+        by which a specific function is performed irrespective of the physical realization,
+        e.g. by a mechanism, a key or software initiating an operation. The device
+        may be a small part or a major portion of an instrument'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

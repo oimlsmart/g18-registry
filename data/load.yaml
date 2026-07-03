@@ -32,8 +32,14 @@ data:
     g18_entry: '00751'
     definition: amount of material (or object) that can be carried at any one time
       byspecified means
+    definition_paragraphs:
+    - text: amount of material (or object) that can be carried at any one time byspecified
+        means
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -47,8 +53,14 @@ data:
     g18_entry: '03198'
     definition: amount of product that is currently introducing the force on the load
       receptor
+    definition_paragraphs:
+    - text: amount of product that is currently introducing the force on the load
+        receptor
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

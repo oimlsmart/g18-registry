@@ -35,8 +35,14 @@ data:
     g18_entry: '00825'
     definition: class of measuring instrument that meets certain metrological requirements
       that are intended to keep errors within specified limits
+    definition_paragraphs:
+    - text: class of measuring instrument that meets certain metrological requirements
+        that are intended to keep errors within specified limits
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -50,9 +56,17 @@ data:
     g18_entry: '01948'
     definition: class of measuring instrument that meets certain metrological requirements
       that are intended to maintain errors within specified limits
+    definition_paragraphs:
+    - text: class of measuring instrument that meets certain metrological requirements
+        that are intended to maintain errors within specified limits
+      sources: []
     notes:
     - "[VIM:1993, 5.19]"
+    note_paragraphs:
+    - text: "[VIM:1993, 5.19]"
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -66,8 +80,14 @@ data:
     g18_entry: '01441'
     definition: class designation of a weight or weight set which meets certain metrological
       requirements intended to maintain the mass values within specified limits
+    definition_paragraphs:
+    - text: class designation of a weight or weight set which meets certain metrological
+        requirements intended to maintain the mass values within specified limits
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -81,8 +101,14 @@ data:
     g18_entry: '01783'
     definition: class of liquid-in-glass thermometers that meet certain metrological
       requirements intended to keep errors within specified limits
+    definition_paragraphs:
+    - text: class of liquid-in-glass thermometers that meet certain metrological requirements
+        intended to keep errors within specified limits
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -96,8 +122,14 @@ data:
     g18_entry: '00708'
     definition: class of load cells that are subject to the same conditions of accuracy
       [Adapted from VIM:1993, 5.19]
+    definition_paragraphs:
+    - text: class of load cells that are subject to the same conditions of accuracy
+        [Adapted from VIM:1993, 5.19]
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -116,8 +148,14 @@ data:
     g18_entry: '01434'
     definition: class of pressure balances that meet certain metrological requirements
       intended to keep errors within specified limits
+    definition_paragraphs:
+    - text: class of pressure balances that meet certain metrological requirements
+        intended to keep errors within specified limits
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -133,10 +171,27 @@ data:
       metrological requirements that are intended to keep measurement errors or instrumental
       measurement uncertainties within specified limits under specified operating
       conditions
+    definition_paragraphs:
+    - text: class of measuring instruments or measuring systems that meet stated metrological
+        requirements that are intended to keep measurement errors or instrumental
+        measurement uncertainties within specified limits under specified operating
+        conditions
+      sources:
+      - kind: vim
+        relationship: identical
+        modification:
+        ref_source: OIML V 2-200:2012
+        ref_id: '4.25'
+        is_vimline: true
     notes:
     - Note:In this Recommendation, the stated metrological requirements for accuracy
       class include permissible responses to disturbances.
+    note_paragraphs:
+    - text: Note:In this Recommendation, the stated metrological requirements for
+        accuracy class include permissible responses to disturbances.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: vim
       relationship: identical
@@ -157,8 +212,21 @@ data:
     definition: class of measuring instruments or measuring systems that meet stated
       metrological requirements that are intended to keep measurement errors or instrumental
       uncertainties within specified limits under specified operating conditions
+    definition_paragraphs:
+    - text: class of measuring instruments or measuring systems that meet stated metrological
+        requirements that are intended to keep measurement errors or instrumental
+        uncertainties within specified limits under specified operating conditions
+      sources:
+      - kind: vim
+        relationship: identical
+        modification:
+        ref_source: OIML V 2-200:2012
+        ref_id: '4.25'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: vim
       relationship: identical
@@ -178,8 +246,14 @@ data:
     g18_entry: '00825'
     definition: class of measuring instrument that meets certain metrological requirements
       that are intended to keep errors within specified limits
+    definition_paragraphs:
+    - text: class of measuring instrument that meets certain metrological requirements
+        that are intended to keep errors within specified limits
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -193,8 +267,14 @@ data:
     g18_entry: '01441'
     definition: class designation of a weight or weight set which meets certain metrological
       requirements intended to maintain the mass values within specified limits
+    definition_paragraphs:
+    - text: class designation of a weight or weight set which meets certain metrological
+        requirements intended to maintain the mass values within specified limits
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -208,8 +288,14 @@ data:
     g18_entry: '01783'
     definition: class of liquid-in-glass thermometers that meet certain metrological
       requirements intended to keep errors within specified limits
+    definition_paragraphs:
+    - text: class of liquid-in-glass thermometers that meet certain metrological requirements
+        intended to keep errors within specified limits
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -223,8 +309,14 @@ data:
     g18_entry: '01434'
     definition: class of pressure balances that meet certain metrological requirements
       intended to keep errors within specified limits
+    definition_paragraphs:
+    - text: class of pressure balances that meet certain metrological requirements
+        intended to keep errors within specified limits
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

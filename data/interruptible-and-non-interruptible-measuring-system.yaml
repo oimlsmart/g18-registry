@@ -27,8 +27,15 @@ data:
     definition: an interruptible measuring system is a measuring system in which the
       liquid flow can be stopped easily and rapidly (this does not include an emergency
       stop). In other cases the measuring system is considered to be non-interruptible
+    definition_paragraphs:
+    - text: an interruptible measuring system is a measuring system in which the liquid
+        flow can be stopped easily and rapidly (this does not include an emergency
+        stop). In other cases the measuring system is considered to be non-interruptible
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -43,8 +50,15 @@ data:
     definition: an interruptible measuring system is a measuring system in which the
       liquid flow can be stopped easily and rapidly (this does not include an emergency
       stop). In other cases, the measuring system is considered to be non-interruptible
+    definition_paragraphs:
+    - text: an interruptible measuring system is a measuring system in which the liquid
+        flow can be stopped easily and rapidly (this does not include an emergency
+        stop). In other cases, the measuring system is considered to be non-interruptible
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -27,8 +27,15 @@ data:
     definition: technical operation that consists of determining one or more characteristics
       of the software according to the specific procedure (e.g. analysis of technical
       documentation or running the program under controlled conditions)
+    definition_paragraphs:
+    - text: technical operation that consists of determining one or more characteristics
+        of the software according to the specific procedure (e.g. analysis of technical
+        documentation or running the program under controlled conditions)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -43,8 +50,15 @@ data:
     definition: technical operation that consists of determining one or more characteristics
       of the software according to the specific procedure (e.g. analysis of technical
       documentation or running the program under controlled conditions)
+    definition_paragraphs:
+    - text: technical operation that consists of determining one or more characteristics
+        of the software according to the specific procedure (e.g. analysis of technical
+        documentation or running the program under controlled conditions)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -59,8 +73,15 @@ data:
     definition: technical operation that consists of determining one or more characteristics
       of the software according to the specific procedure (e.g. analysis of technical
       documentation or running the program under controlled conditions)
+    definition_paragraphs:
+    - text: technical operation that consists of determining one or more characteristics
+        of the software according to the specific procedure (e.g. analysis of technical
+        documentation or running the program under controlled conditions)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -75,8 +96,21 @@ data:
     definition: technical operation that consists of determining one or more characteristics
       of the software according to the specific procedure (e.g. analysis of technical
       documentation or running the program under controlled conditions)
+    definition_paragraphs:
+    - text: technical operation that consists of determining one or more characteristics
+        of the software according to the specific procedure (e.g. analysis of technical
+        documentation or running the program under controlled conditions)
+      sources:
+      - kind: other
+        relationship: identical
+        modification:
+        ref_source: OIML D031:2008
+        ref_id: 3.1.47
+        is_vimline: false
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

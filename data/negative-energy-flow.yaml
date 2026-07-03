@@ -24,10 +24,18 @@ data:
     link:
     g18_entry: 02337-R046-1
     definition: direction of energy flow opposite to positive
+    definition_paragraphs:
+    - text: direction of energy flow opposite to positive
+      sources: []
     notes:
     - 'Note: For positive-direction only, the opposite direction is termed reverse
       energy flow (see 2.2.39).'
+    note_paragraphs:
+    - text: 'Note: For positive-direction only, the opposite direction is termed reverse
+        energy flow (see 2.2.39).'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

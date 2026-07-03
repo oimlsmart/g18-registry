@@ -27,8 +27,15 @@ data:
     definition: weighing-in-motion of wagons that travel independently across a load
       receptor. (This is usually achieved by means of an incline of the approach to
       the load receptor)
+    definition_paragraphs:
+    - text: weighing-in-motion of wagons that travel independently across a load receptor.
+        (This is usually achieved by means of an incline of the approach to the load
+        receptor)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -43,8 +50,15 @@ data:
     definition: determining the mass of wagons that travel independently across the
       load receptor(s) (this is usually achieved by means of an incline of the approach
       to the load receptor)
+    definition_paragraphs:
+    - text: determining the mass of wagons that travel independently across the load
+        receptor(s) (this is usually achieved by means of an incline of the approach
+        to the load receptor)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

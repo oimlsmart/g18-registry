@@ -24,8 +24,13 @@ data:
     link:
     g18_entry: '03549'
     definition: Service are not relevant to issuing OIML certificates.
+    definition_paragraphs:
+    - text: Service are not relevant to issuing OIML certificates.
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

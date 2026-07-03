@@ -27,8 +27,16 @@ data:
       or principle of a feature that is considered to comply with a particular requirement.
       An acceptable solution provides an example of how a particular requirement may
       be met. It does not prejudice any other solution that also meets the requirement
+    definition_paragraphs:
+    - text: design or principle of a software module or hardware unit, or design or
+        principle of a feature that is considered to comply with a particular requirement.
+        An acceptable solution provides an example of how a particular requirement
+        may be met. It does not prejudice any other solution that also meets the requirement
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

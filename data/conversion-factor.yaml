@@ -32,8 +32,14 @@ data:
     g18_entry: '01717'
     definition: the factor applied to the volume or dimensions of an object to determine
       its dimensional weight
+    definition_paragraphs:
+    - text: the factor applied to the volume or dimensions of an object to determine
+        its dimensional weight
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -47,8 +53,14 @@ data:
     g18_entry: '02957'
     definition: factor applied to the volume or dimensions of an object to determine
       its dimensional weight
+    definition_paragraphs:
+    - text: factor applied to the volume or dimensions of an object to determine its
+        dimensional weight
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -61,8 +73,13 @@ data:
     link:
     g18_entry: '02956'
     definition: ratio of the converted quantity to the quantity at metering conditions
+    definition_paragraphs:
+    - text: ratio of the converted quantity to the quantity at metering conditions
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

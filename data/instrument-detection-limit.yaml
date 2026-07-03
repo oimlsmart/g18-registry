@@ -32,8 +32,15 @@ data:
     definition: figure of merit which is calculated as three times the observed standard
       deviation of the baseline noise, established by measuring the output signal
       from a blank test solution free of interferents
+    definition_paragraphs:
+    - text: figure of merit which is calculated as three times the observed standard
+        deviation of the baseline noise, established by measuring the output signal
+        from a blank test solution free of interferents
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -26,10 +26,19 @@ data:
     g18_entry: '00310'
     definition: value of the integral of one cycle of the blood pressure curve divided
       by the time of one heart beat period
+    definition_paragraphs:
+    - text: value of the integral of one cycle of the blood pressure curve divided
+        by the time of one heart beat period
+      sources: []
     notes:
     - Because of hydrostatic effects, this value should be measured with the cuff
       at the heart level.
+    note_paragraphs:
+    - text: Because of hydrostatic effects, this value should be measured with the
+        cuff at the heart level.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -43,10 +52,19 @@ data:
     g18_entry: '00325'
     definition: value of the integral of one cycle of the blood pressure curve divided
       by the time of one heart beat period
+    definition_paragraphs:
+    - text: value of the integral of one cycle of the blood pressure curve divided
+        by the time of one heart beat period
+      sources: []
     notes:
     - Because of hydrostatic effects, this value should be measured with the cuff
       at the heart level.
+    note_paragraphs:
+    - text: Because of hydrostatic effects, this value should be measured with the
+        cuff at the heart level.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -60,11 +78,21 @@ data:
     g18_entry: '03243'
     definition: value of the integral of one cycle of the blood pressure curve divided
       by the time of one heart beat period
+    definition_paragraphs:
+    - text: value of the integral of one cycle of the blood pressure curve divided
+        by the time of one heart beat period
+      sources: []
     notes:
     - 'Note: Because of hydrostatic effects, this value should be measured with the
       cuff at the heart level. The calculation of the mean arterial blood pressure
       using on;ly the systolic and diastolic blood pressure values is not recommended.'
+    note_paragraphs:
+    - text: 'Note: Because of hydrostatic effects, this value should be measured with
+        the cuff at the heart level. The calculation of the mean arterial blood pressure
+        using on;ly the systolic and diastolic blood pressure values is not recommended.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -78,10 +106,19 @@ data:
     g18_entry: '00310'
     definition: value of the integral of one cycle of the blood pressure curve divided
       by the time of one heart beat period
+    definition_paragraphs:
+    - text: value of the integral of one cycle of the blood pressure curve divided
+        by the time of one heart beat period
+      sources: []
     notes:
     - 'Note: Because of hydrostatic effects, this value should be measured with the
       cuff at the heart level.'
+    note_paragraphs:
+    - text: 'Note: Because of hydrostatic effects, this value should be measured with
+        the cuff at the heart level.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -95,10 +132,19 @@ data:
     g18_entry: '00325'
     definition: value of the integral of one cycle of the blood pressure curve divided
       by the time of one heart beat period
+    definition_paragraphs:
+    - text: value of the integral of one cycle of the blood pressure curve divided
+        by the time of one heart beat period
+      sources: []
     notes:
     - 'Note: Because of hydrostatic effects, this value should be measured with the
       cuff at the heart level.'
+    note_paragraphs:
+    - text: 'Note: Because of hydrostatic effects, this value should be measured with
+        the cuff at the heart level.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

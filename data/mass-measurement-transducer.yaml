@@ -26,8 +26,14 @@ data:
     g18_entry: '01618'
     definition: a device which measures a quantity related to the mass of the liquid
       and which provides a signal to the processor from which the mass is determined
+    definition_paragraphs:
+    - text: a device which measures a quantity related to the mass of the liquid and
+        which provides a signal to the processor from which the mass is determined
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '01618'
     definition: a device which measures a quantity related to the mass of the liquid
       and which provides a signal to the processor from which the mass is determined
+    definition_paragraphs:
+    - text: a device which measures a quantity related to the mass of the liquid and
+        which provides a signal to the processor from which the mass is determined
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

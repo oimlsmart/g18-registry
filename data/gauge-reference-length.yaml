@@ -26,8 +26,13 @@ data:
     g18_entry: '02316'
     definition: the distance between the dipping datum point and the zero point of
       ALG
+    definition_paragraphs:
+    - text: the distance between the dipping datum point and the zero point of ALG
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +46,13 @@ data:
     g18_entry: 02316-R085-1
     definition: distance between the dipping datum point and the zero point of the
       ALG
+    definition_paragraphs:
+    - text: distance between the dipping datum point and the zero point of the ALG
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

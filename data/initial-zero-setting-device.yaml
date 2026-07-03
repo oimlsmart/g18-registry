@@ -26,8 +26,14 @@ data:
     g18_entry: '00615'
     definition: device for setting the indication to zero automatically at the time
       the instrument is switched on and before it is ready for use
+    definition_paragraphs:
+    - text: device for setting the indication to zero automatically at the time the
+        instrument is switched on and before it is ready for use
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '00615'
     definition: device for setting the indication to zero automatically at the time
       the instrument is switched on and before it is ready for use
+    definition_paragraphs:
+    - text: device for setting the indication to zero automatically at the time the
+        instrument is switched on and before it is ready for use
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

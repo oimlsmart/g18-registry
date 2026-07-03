@@ -26,10 +26,19 @@ data:
     g18_entry: '00908'
     definition: additional device which repeats or further processes the weighing
       result and other primary indications
+    definition_paragraphs:
+    - text: additional device which repeats or further processes the weighing result
+        and other primary indications
+      sources: []
     notes: []
+    note_paragraphs: []
     examples:
     - Printer, secondary display, keyboard, terminal, data storage device, personal
       computer.
+    example_paragraphs:
+    - text: Printer, secondary display, keyboard, terminal, data storage device, personal
+        computer.
+      sources: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -44,8 +53,15 @@ data:
     definition: 'additional device which repeats or further processes the weighing
       result and other primary indications Examples: Printer, secondary display, keyboard,
       terminal, data storage device, personal computer.'
+    definition_paragraphs:
+    - text: 'additional device which repeats or further processes the weighing result
+        and other primary indications Examples: Printer, secondary display, keyboard,
+        terminal, data storage device, personal computer.'
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

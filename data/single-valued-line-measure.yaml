@@ -26,8 +26,13 @@ data:
     g18_entry: '01155'
     definition: a line measure with two scale marks representing one value of length
       only
+    definition_paragraphs:
+    - text: a line measure with two scale marks representing one value of length only
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +46,13 @@ data:
     g18_entry: '01155'
     definition: a line measure with two scale marks representing one value of length
       only
+    definition_paragraphs:
+    - text: a line measure with two scale marks representing one value of length only
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

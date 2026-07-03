@@ -25,9 +25,17 @@ data:
     g18_entry: '03777'
     definition: speed meter installed in a vehicle which is intended to be in motion
       during measurements
+    definition_paragraphs:
+    - text: speed meter installed in a vehicle which is intended to be in motion during
+        measurements
+      sources: []
     notes:
     - 'Note: An ego speed meter is part of a moving speed meter.'
+    note_paragraphs:
+    - text: 'Note: An ego speed meter is part of a moving speed meter.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

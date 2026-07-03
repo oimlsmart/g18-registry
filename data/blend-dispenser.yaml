@@ -28,8 +28,16 @@ data:
       or blends of more than one product through a single nozzle; examples include
       gasoline (a multigrade-dispenser) and mixtures of gasoline and lubricating oil
       (a gasoline-oil-dispenser)
+    definition_paragraphs:
+    - text: fuel dispenser providing mixtures of various grades of a single product
+        or blends of more than one product through a single nozzle; examples include
+        gasoline (a multigrade-dispenser) and mixtures of gasoline and lubricating
+        oil (a gasoline-oil-dispenser)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -45,9 +53,19 @@ data:
       or blends of more than one product through a single nozzle; examples include
       gasoline (a multigrade-dispenser) and mixtures of gasoline and lubricating oil
       (a gasoline-oil-dispenser)
+    definition_paragraphs:
+    - text: fuel dispenser providing mixtures of various grades of a single product
+        or blends of more than one product through a single nozzle; examples include
+        gasoline (a multigrade-dispenser) and mixtures of gasoline and lubricating
+        oil (a gasoline-oil-dispenser)
+      sources: []
     notes:
     - Note:Additive injection can be considered to be a type of gasoline-oil-dispenser.
+    note_paragraphs:
+    - text: Note:Additive injection can be considered to be a type of gasoline-oil-dispenser.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

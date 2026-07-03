@@ -25,8 +25,14 @@ data:
     g18_entry: 02334-R046-1
     definition: capability of the meter to measure energy flow in only one direction
       (positive direction)
+    definition_paragraphs:
+    - text: capability of the meter to measure energy flow in only one direction (positive
+        direction)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -25,10 +25,19 @@ data:
     g18_entry: '02921'
     definition: specified section in pover defined with a pipe (or culinder) and displacer(s)
       that has a constant cross-sectional area
+    definition_paragraphs:
+    - text: specified section in pover defined with a pipe (or culinder) and displacer(s)
+        that has a constant cross-sectional area
+      sources: []
     notes:
     - 'Note: The volume inside a calibrated section, when it has been accurately determined
       in advance, may be used to define the base volume of the pipe prover.'
+    note_paragraphs:
+    - text: 'Note: The volume inside a calibrated section, when it has been accurately
+        determined in advance, may be used to define the base volume of the pipe prover.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

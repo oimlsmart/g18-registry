@@ -26,9 +26,17 @@ data:
     g18_entry: '01329'
     definition: "[ part of an electronic device employing electronic components and
       having a recognizable function of its own OIML D 11: 2004, 3.3]"
+    definition_paragraphs:
+    - text: "[ part of an electronic device employing electronic components and having
+        a recognizable function of its own OIML D 11: 2004, 3.3]"
+      sources: []
     notes: []
+    note_paragraphs: []
     examples:
     - A/D converter, display.
+    example_paragraphs:
+    - text: A/D converter, display.
+      sources: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -42,8 +50,14 @@ data:
     g18_entry: '02032'
     definition: part of an electronic device, employing electronic components and
       having a recognizable function of its own
+    definition_paragraphs:
+    - text: part of an electronic device, employing electronic components and having
+        a recognizable function of its own
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -57,8 +71,14 @@ data:
     g18_entry: '00458'
     definition: part of an electronic device, employing electronic components and
       having a recognizable function of its own
+    definition_paragraphs:
+    - text: part of an electronic device, employing electronic components and having
+        a recognizable function of its own
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -72,9 +92,17 @@ data:
     g18_entry: '00599'
     definition: "[ part of an electronic device, employing electronic components and
       having a recognizable function of its own OIML D 11: 2004, 3.3]"
+    definition_paragraphs:
+    - text: "[ part of an electronic device, employing electronic components and having
+        a recognizable function of its own OIML D 11: 2004, 3.3]"
+      sources: []
     notes: []
+    note_paragraphs: []
     examples:
     - A/D converter, display.
+    example_paragraphs:
+    - text: A/D converter, display.
+      sources: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -88,9 +116,17 @@ data:
     g18_entry: '00905'
     definition: "[ part of an electronic device, employing electronic components and
       having a recognizable function of its own OIML D 11: 2004, 3.3]"
+    definition_paragraphs:
+    - text: "[ part of an electronic device, employing electronic components and having
+        a recognizable function of its own OIML D 11: 2004, 3.3]"
+      sources: []
     notes: []
+    note_paragraphs: []
     examples:
     - A/D converter, display
+    example_paragraphs:
+    - text: A/D converter, display
+      sources: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -104,8 +140,14 @@ data:
     g18_entry: '01977'
     definition: part of an electronic device employing electronic components and having
       a recognizable function of its own
+    definition_paragraphs:
+    - text: part of an electronic device employing electronic components and having
+        a recognizable function of its own
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -120,12 +162,24 @@ data:
     definition: 'part of an electronic device, employing electronic components OIML
       B 3 [2] contains the following and having a recognizable function of its own.
       Examples: amplifiers, comparators, power converters'
+    definition_paragraphs:
+    - text: 'part of an electronic device, employing electronic components OIML B
+        3 [2] contains the following and having a recognizable function of its own.
+        Examples: amplifiers, comparators, power converters'
+      sources: []
     notes:
     - 'definition of a "module": Identifiable part of measuring instrument or of a
       family of measuring instruments that performs a specific function or functions
       and that can be separately evaluated according to prescribed metrological and
       technical performance requirements in the relevant Recommendation.'
+    note_paragraphs:
+    - text: 'definition of a "module": Identifiable part of measuring instrument or
+        of a family of measuring instruments that performs a specific function or
+        functions and that can be separately evaluated according to prescribed metrological
+        and technical performance requirements in the relevant Recommendation.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -139,8 +193,14 @@ data:
     g18_entry: '00773'
     definition: part of an electronic device, employing electronic components and
       having a recognizable function of its own
+    definition_paragraphs:
+    - text: part of an electronic device, employing electronic components and having
+        a recognizable function of its own
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -154,8 +214,14 @@ data:
     g18_entry: '01794'
     definition: part of an electronic device comprized of electronic components and
       having a recognizable function of its own
+    definition_paragraphs:
+    - text: part of an electronic device comprized of electronic components and having
+        a recognizable function of its own
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -169,8 +235,14 @@ data:
     g18_entry: '01721'
     definition: part of an electronic device employing electronic components and having
       a recognizable function of its own
+    definition_paragraphs:
+    - text: part of an electronic device employing electronic components and having
+        a recognizable function of its own
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -184,8 +256,14 @@ data:
     g18_entry: '01636'
     definition: part of an electronic device employing electronic components and having
       a recognizable function of its own
+    definition_paragraphs:
+    - text: part of an electronic device employing electronic components and having
+        a recognizable function of its own
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -199,8 +277,14 @@ data:
     g18_entry: '00493'
     definition: a part of an electronic device, employing electronic components and
       having a recognizable function of its own
+    definition_paragraphs:
+    - text: a part of an electronic device, employing electronic components and having
+        a recognizable function of its own
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -214,8 +298,14 @@ data:
     g18_entry: '01265'
     definition: a part of an electronic device comprised of electronic components
       and having a recognizable function of its own
+    definition_paragraphs:
+    - text: a part of an electronic device comprised of electronic components and
+        having a recognizable function of its own
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -229,8 +319,14 @@ data:
     g18_entry: '01229'
     definition: a part of an electronic device employing electronic components that
       has a recognizable function of its own
+    definition_paragraphs:
+    - text: a part of an electronic device employing electronic components that has
+        a recognizable function of its own
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -244,8 +340,14 @@ data:
     g18_entry: '03034'
     definition: a part of an electronic device, employing electronic components and
       having a recognizable function of its own
+    definition_paragraphs:
+    - text: a part of an electronic device, employing electronic components and having
+        a recognizable function of its own
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -259,8 +361,14 @@ data:
     g18_entry: '02435'
     definition: part of an electronic device (3.5.1), employing electronic component(s)
       (3.5.3) and having a recognizable function of its own
+    definition_paragraphs:
+    - text: part of an electronic device (3.5.1), employing electronic component(s)
+        (3.5.3) and having a recognizable function of its own
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -274,9 +382,23 @@ data:
     g18_entry: '01329'
     definition: part of an electronic device employing electronic components and having
       a recognizable function of its own
+    definition_paragraphs:
+    - text: part of an electronic device employing electronic components and having
+        a recognizable function of its own
+      sources:
+      - kind: other
+        relationship: identical
+        modification:
+        ref_source: OIML D011:2004
+        ref_id: '3.3'
+        is_vimline: false
     notes: []
+    note_paragraphs: []
     examples:
     - A/D converter, display.
+    example_paragraphs:
+    - text: A/D converter, display.
+      sources: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -290,9 +412,23 @@ data:
     g18_entry: '00599'
     definition: part of an electronic device, employing electronic components and
       having a recognizable function of its own
+    definition_paragraphs:
+    - text: part of an electronic device, employing electronic components and having
+        a recognizable function of its own
+      sources:
+      - kind: other
+        relationship: identical
+        modification:
+        ref_source: OIML D011:2004
+        ref_id: '3.3'
+        is_vimline: false
     notes: []
+    note_paragraphs: []
     examples:
     - A/D converter, display.
+    example_paragraphs:
+    - text: A/D converter, display.
+      sources: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -306,9 +442,23 @@ data:
     g18_entry: '00905'
     definition: part of an electronic device, employing electronic components and
       having a recognizable function of its own
+    definition_paragraphs:
+    - text: part of an electronic device, employing electronic components and having
+        a recognizable function of its own
+      sources:
+      - kind: other
+        relationship: identical
+        modification:
+        ref_source: OIML D011:2004
+        ref_id: '3.3'
+        is_vimline: false
     notes: []
+    note_paragraphs: []
     examples:
     - A/D converter, display
+    example_paragraphs:
+    - text: A/D converter, display
+      sources: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -322,8 +472,14 @@ data:
     g18_entry: '03033'
     definition: part of an electronic device comprized of electronic components and  that
       has a recognizable function of its own
+    definition_paragraphs:
+    - text: part of an electronic device comprized of electronic components and  that
+        has a recognizable function of its own
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -337,8 +493,14 @@ data:
     g18_entry: '01636'
     definition: part of an electronic device employing electronic components and having
       a recognizable function of its own
+    definition_paragraphs:
+    - text: part of an electronic device employing electronic components and having
+        a recognizable function of its own
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

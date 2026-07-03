@@ -26,8 +26,14 @@ data:
     g18_entry: '01401'
     definition: conditions of use prescribed for the instrument including types ofmaterial,
       site and method of operation
+    definition_paragraphs:
+    - text: conditions of use prescribed for the instrument including types ofmaterial,
+        site and method of operation
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '01401'
     definition: conditions of use prescribed for the instrument including types of
       material, site and method of operation
+    definition_paragraphs:
+    - text: conditions of use prescribed for the instrument including types of material,
+        site and method of operation
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

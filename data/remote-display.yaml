@@ -26,8 +26,14 @@ data:
     g18_entry: '01347'
     definition: terminal without keys that can be used for the primary indications
       or for their repetition
+    definition_paragraphs:
+    - text: terminal without keys that can be used for the primary indications or
+        for their repetition
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '01347'
     definition: terminal without keys that can be used for the primary indications
       or for their repetition
+    definition_paragraphs:
+    - text: terminal without keys that can be used for the primary indications or
+        for their repetition
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

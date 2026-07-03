@@ -25,10 +25,19 @@ data:
     g18_entry: '03692'
     definition: software module whose functional behaviour depends on predefined device-specific
       parameters that may change over time during use
+    definition_paragraphs:
+    - text: software module whose functional behaviour depends on predefined device-specific
+        parameters that may change over time during use
+      sources: []
     notes:
     - 'Note: Such dynamic modules may incorporate or utilise machine learning or artificial
       intelligence characteristics and processes.'
+    note_paragraphs:
+    - text: 'Note: Such dynamic modules may incorporate or utilise machine learning
+        or artificial intelligence characteristics and processes.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

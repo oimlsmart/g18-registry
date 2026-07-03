@@ -25,10 +25,19 @@ data:
     g18_entry: '03742'
     definition: horizontal angle between the course of the road and the centre line
       of speed meter (see Figure 2)
+    definition_paragraphs:
+    - text: horizontal angle between the course of the road and the centre line of
+        speed meter (see Figure 2)
+      sources: []
     notes:
     - 'Note: In order documents, the azimuth angle of speed meter is sometimes called
       the horizontal alignment angle.'
+    note_paragraphs:
+    - text: 'Note: In order documents, the azimuth angle of speed meter is sometimes
+        called the horizontal alignment angle.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

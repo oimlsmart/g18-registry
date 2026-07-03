@@ -26,8 +26,21 @@ data:
     definition: measurement standard recognised by a national authority to serve in
       a state or economy as the basis for assignig quantity values to other measurement
       standards for the kind of quantity concerned
+    definition_paragraphs:
+    - text: measurement standard recognised by a national authority to serve in a
+        state or economy as the basis for assignig quantity values to other measurement
+        standards for the kind of quantity concerned
+      sources:
+      - kind: vim
+        relationship: identical
+        modification:
+        ref_source: OIML V 2-200:2012
+        ref_id: '5.3'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: vim
       relationship: identical

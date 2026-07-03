@@ -27,8 +27,16 @@ data:
       function or funtctions, and that can be separately evaluated according to specific
       metrological and technical performance requirements as specified in the relevant
       Recommendation
+    definition_paragraphs:
+    - text: identifiable hardware part of an instrument that performe a specific function
+        or funtctions, and that can be separately evaluated according to specific
+        metrological and technical performance requirements as specified in the relevant
+        Recommendation
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

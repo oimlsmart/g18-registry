@@ -25,9 +25,16 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r140-e07.pdf
     g18_entry: '02087'
     definition: slow change in a metrological characteristic of a measuring instrument
+    definition_paragraphs:
+    - text: slow change in a metrological characteristic of a measuring instrument
+      sources: []
     notes:
     - "(VIM:1993, 5.16)"
+    note_paragraphs:
+    - text: "(VIM:1993, 5.16)"
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -40,9 +47,16 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r137-1-e06.pdf
     g18_entry: '01956'
     definition: slow change of a metrological characteristic of a measuring instrument
+    definition_paragraphs:
+    - text: slow change of a metrological characteristic of a measuring instrument
+      sources: []
     notes:
     - "(VIM:1993, 5.16)"
+    note_paragraphs:
+    - text: "(VIM:1993, 5.16)"
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -56,8 +70,14 @@ data:
     g18_entry: '01673'
     definition: the change in the indication which occurs during a stated period of
       time at a given mass concentration of ethanol in air
+    definition_paragraphs:
+    - text: the change in the indication which occurs during a stated period of time
+        at a given mass concentration of ethanol in air
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -72,8 +92,15 @@ data:
     definition: continuous or incremental change over time in indication, due to changes
       in metrological properties of a measuring instrument (adapted from OIML V 2-200,
       4.21)
+    definition_paragraphs:
+    - text: continuous or incremental change over time in indication, due to changes
+        in metrological properties of a measuring instrument (adapted from OIML V
+        2-200, 4.21)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -87,8 +114,14 @@ data:
     g18_entry: '02087'
     definition: slow change in a metrological characteristic of a measuring instrument
       [VIM:1993, 5.16]
+    definition_paragraphs:
+    - text: slow change in a metrological characteristic of a measuring instrument
+        [VIM:1993, 5.16]
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

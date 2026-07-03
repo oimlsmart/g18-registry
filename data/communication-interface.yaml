@@ -27,8 +27,15 @@ data:
     definition: electronic, optical, radio or other technical interface that enables
       information to be passed between components of a measuring instrument (e.g.
       electronic devices) or sub-assemblies
+    definition_paragraphs:
+    - text: electronic, optical, radio or other technical interface that enables information
+        to be passed between components of a measuring instrument (e.g. electronic
+        devices) or sub-assemblies
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -43,11 +50,22 @@ data:
     definition: part of an instrument that enables information to be passed between
       measuring instruments, components of measuring instruments or other external
       systems
+    definition_paragraphs:
+    - text: part of an instrument that enables information to be passed between measuring
+        instruments, components of measuring instruments or other external systems
+      sources: []
     notes:
     - Communication interfaces can utilize wired, optical, radio, etc. communication
       and they are usually designed to use a specific protocol.
     - This definition does not include communication between software modules.
+    note_paragraphs:
+    - text: Communication interfaces can utilize wired, optical, radio, etc. communication
+        and they are usually designed to use a specific protocol.
+      sources: []
+    - text: This definition does not include communication between software modules.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -62,8 +80,14 @@ data:
     definition: electronic, optical, radio or other hardware and software interface
       that enables information to be automatically passed between instruments and
       modules
+    definition_paragraphs:
+    - text: electronic, optical, radio or other hardware and software interface that
+        enables information to be automatically passed between instruments and modules
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

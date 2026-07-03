@@ -31,8 +31,14 @@ data:
     g18_entry: '01853'
     definition: solution of known concentration of the analyte providing the independent
       variable of the calibration function
+    definition_paragraphs:
+    - text: solution of known concentration of the analyte providing the independent
+        variable of the calibration function
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -25,9 +25,18 @@ data:
     g18_entry: '03734'
     definition: device that is not constructed for a specific purpose, but that can
       be adapted to a metrological task by software.
+    definition_paragraphs:
+    - text: device that is not constructed for a specific purpose, but that can be
+        adapted to a metrological task by software.
+      sources: []
     notes:
     - Note:This kind of device might have undeclared interfaces to operating system
+    note_paragraphs:
+    - text: Note:This kind of device might have undeclared interfaces to operating
+        system
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +50,14 @@ data:
     g18_entry: '03610'
     definition: device that is not constructed for a specific purpose, but that can
       be adapted to a legally relevant task by software.
+    definition_paragraphs:
+    - text: device that is not constructed for a specific purpose, but that can be
+        adapted to a legally relevant task by software.
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

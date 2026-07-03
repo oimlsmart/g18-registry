@@ -27,8 +27,16 @@ data:
       a weighing result in units of mass and may additionally display: the difference
       between the mass of an article and a reference value; the mean value and/or
       the standard deviation of a number of consecutive weighings"
+    definition_paragraphs:
+    - text: "- - part of the load-measuring device that displays the value of a weighing
+        result in units of mass and may additionally display: the difference between
+        the mass of an article and a reference value; the mean value and/or the standard
+        deviation of a number of consecutive weighings"
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -44,8 +52,17 @@ data:
       result in units of mass and which may additionally display: The difference between
       the mass of a load and a reference value; and/or The value of the fill(s) and/or
       related quantities or parameters of a number of consecutive weighings'
+    definition_paragraphs:
+    - text: 'part of the load measuring device that displays the value of a weighing
+        result in units of mass and which may additionally display: The difference
+        between the mass of a load and a reference value; and/or The value of the
+        fill(s) and/or related quantities or parameters of a number of consecutive
+        weighings'
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

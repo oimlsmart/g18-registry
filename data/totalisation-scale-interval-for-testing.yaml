@@ -33,8 +33,16 @@ data:
       units of mass, with the instrument a speciatl mod for testing purposes. This
       scale interval for testing, e, is equal to totalisation scale interval, d, if
       the special mode is not available
+    definition_paragraphs:
+    - text: difference between two consecutive indicated values, expressed in units
+        of mass, with the instrument a speciatl mod for testing purposes. This scale
+        interval for testing, e, is equal to totalisation scale interval, d, if the
+        special mode is not available
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

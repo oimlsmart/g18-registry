@@ -28,8 +28,16 @@ data:
       that have an influence on the metrological characteristics. This especially
       applies to volatile failures that are not recognizable afterwards when the measurement
       values are used
+    definition_paragraphs:
+    - text: continuous data file containing an information record of failures/faults
+        that have an influence on the metrological characteristics. This especially
+        applies to volatile failures that are not recognizable afterwards when the
+        measurement values are used
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -44,8 +52,15 @@ data:
     definition: continuous data file containing an information record of failures
       or significant defects that have an influence on the legally relevant  characteristics
       of the measuring instrument
+    definition_paragraphs:
+    - text: continuous data file containing an information record of failures or significant
+        defects that have an influence on the legally relevant  characteristics of
+        the measuring instrument
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -60,8 +75,15 @@ data:
     definition: continuous data file containing an information record of failures
       or significant defects that have an influence on the metrological characteristics
       of the measuring instrument (OIML D 31, 3.1.15)
+    definition_paragraphs:
+    - text: continuous data file containing an information record of failures or significant
+        defects that have an influence on the metrological characteristics of the
+        measuring instrument (OIML D 31, 3.1.15)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

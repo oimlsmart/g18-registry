@@ -25,8 +25,14 @@ data:
     g18_entry: '02175'
     definition: exchange of information between two or more units (e.g. software modules,
       electronic devices, subassemblies, etc.) according to specific rules.
+    definition_paragraphs:
+    - text: exchange of information between two or more units (e.g. software modules,
+        electronic devices, subassemblies, etc.) according to specific rules.
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

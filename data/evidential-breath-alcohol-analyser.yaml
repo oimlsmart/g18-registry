@@ -31,8 +31,14 @@ data:
     g18_entry: '03053'
     definition: instrument the measures and displays the breath alcohol mass concentration
       of exhaled human breath within specified error limits
+    definition_paragraphs:
+    - text: instrument the measures and displays the breath alcohol mass concentration
+        of exhaled human breath within specified error limits
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

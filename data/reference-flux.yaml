@@ -33,8 +33,15 @@ data:
     definition: radiant luminous flux of monochromatic radiation transmitted by The
       coherent SI unit is the watt (W). an optical cell containing the solution used
       as reference and reaching the detector
+    definition_paragraphs:
+    - text: radiant luminous flux of monochromatic radiation transmitted by The coherent
+        SI unit is the watt (W). an optical cell containing the solution used as reference
+        and reaching the detector
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -48,9 +55,17 @@ data:
     g18_entry: '01850'
     definition: radiant luminous flux of monochromatic radiation transmitted by an
       optical cell containing the solution used as reference and reaching the detector
+    definition_paragraphs:
+    - text: radiant luminous flux of monochromatic radiation transmitted by an optical
+        cell containing the solution used as reference and reaching the detector
+      sources: []
     notes:
     - 'Note:  The coherent SI unit is the watt (W).'
+    note_paragraphs:
+    - text: 'Note:  The coherent SI unit is the watt (W).'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

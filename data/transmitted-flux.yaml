@@ -33,11 +33,24 @@ data:
     definition: radiant luminous flux of the radiation emerging from the medium through
       an external surface which in the flux direction is opposite to the external
       surface of the flux incidence
+    definition_paragraphs:
+    - text: radiant luminous flux of the radiation emerging from the medium through
+        an external surface which in the flux direction is opposite to the external
+        surface of the flux incidence
+      sources: []
     notes:
     - 1. Adapted from ISO 6286, Table 1, No.
     - '2.'
     - 2. The coherent SI unit is the watt (W).
+    note_paragraphs:
+    - text: 1. Adapted from ISO 6286, Table 1, No.
+      sources: []
+    - text: '2.'
+      sources: []
+    - text: 2. The coherent SI unit is the watt (W).
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -52,10 +65,21 @@ data:
     definition: radiant luminous flux of the radiation emerging from the medium through
       an external surface which in the flux direction is opposite to the external
       surface of the flux incidence
+    definition_paragraphs:
+    - text: radiant luminous flux of the radiation emerging from the medium through
+        an external surface which in the flux direction is opposite to the external
+        surface of the flux incidence
+      sources: []
     notes:
     - Adapted from ISO 6286, Table 1, No. 2.
     - The coherent SI unit is the watt (W).
+    note_paragraphs:
+    - text: Adapted from ISO 6286, Table 1, No. 2.
+      sources: []
+    - text: The coherent SI unit is the watt (W).
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

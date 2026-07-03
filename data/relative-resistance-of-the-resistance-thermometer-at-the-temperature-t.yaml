@@ -25,8 +25,14 @@ data:
     g18_entry: '03453'
     definition: Ratio of the thermometer resistance at the temperature t to its resistance
       at the temperature 0 °C.
+    definition_paragraphs:
+    - text: Ratio of the thermometer resistance at the temperature t to its resistance
+        at the temperature 0 °C.
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -31,8 +31,14 @@ data:
     g18_entry: '01662'
     definition: an instrument which measures the mass concentration of ethanol by
       analyzing deep lung air, usable for evidential purposes
+    definition_paragraphs:
+    - text: an instrument which measures the mass concentration of ethanol by analyzing
+        deep lung air, usable for evidential purposes
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -26,9 +26,18 @@ data:
     definition: part of the associated measuring device that provides an output quantity
       for the calculator, the correction device or the conversion device, and having
       a determined relationship to the input quantity
+    definition_paragraphs:
+    - text: part of the associated measuring device that provides an output quantity
+        for the calculator, the correction device or the conversion device, and having
+        a determined relationship to the input quantity
+      sources: []
     notes:
     - "(See also T.t.1)"
+    note_paragraphs:
+    - text: "(See also T.t.1)"
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

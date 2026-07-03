@@ -24,8 +24,19 @@ data:
     link:
     g18_entry: '02670'
     definition: measurement precision under reproducibility condition of measurement
+    definition_paragraphs:
+    - text: measurement precision under reproducibility condition of measurement
+      sources:
+      - kind: vim
+        relationship: identical
+        modification:
+        ref_source: OIML V 2-200:2012
+        ref_id: '2.25'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: vim
       relationship: identical

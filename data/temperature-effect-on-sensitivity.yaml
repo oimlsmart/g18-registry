@@ -25,8 +25,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r060-e00.pdf
     g18_entry: '00744'
     definition: change in sensitivity due to a change in ambient temperature
+    definition_paragraphs:
+    - text: change in sensitivity due to a change in ambient temperature
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -39,8 +44,13 @@ data:
     link:
     g18_entry: '03556'
     definition: change in sensivity due to a change in ambient temperature
+    definition_paragraphs:
+    - text: change in sensivity due to a change in ambient temperature
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -27,8 +27,14 @@ data:
     definition: consists of program code and a dedicated data domain; it receives,
       filters, or transmits data between software modules (not necessarily legally
       relevant).
+    definition_paragraphs:
+    - text: consists of program code and a dedicated data domain; it receives, filters,
+        or transmits data between software modules (not necessarily legally relevant).
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -42,11 +48,28 @@ data:
     g18_entry: '03521'
     definition: program code and dedicated data domain; receiving, filtering, or transmitting
       data between software modules
+    definition_paragraphs:
+    - text: program code and dedicated data domain; receiving, filtering, or transmitting
+        data between software modules
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2022
+        ref_id: '6.03'
+        is_vimline: true
     notes:
     - A software interface is not legally relevant.
     - A software interface i san interface between two or more software modules, used
       to exchange data and transmit commands.
+    note_paragraphs:
+    - text: A software interface is not legally relevant.
+      sources: []
+    - text: A software interface i san interface between two or more software modules,
+        used to exchange data and transmit commands.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical

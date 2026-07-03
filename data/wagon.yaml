@@ -26,8 +26,14 @@ data:
     g18_entry: '01311'
     definition: a loaded or unloaded railway goods vehicle that is recognized by the
       instrument as a vehicle to be weighed
+    definition_paragraphs:
+    - text: a loaded or unloaded railway goods vehicle that is recognized by the instrument
+        as a vehicle to be weighed
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '02527'
     definition: wagon that is recognized by the automatic rail-weighbridge as a railway
       vehicle to be weighed
+    definition_paragraphs:
+    - text: wagon that is recognized by the automatic rail-weighbridge as a railway
+        vehicle to be weighed
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

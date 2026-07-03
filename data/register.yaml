@@ -24,10 +24,18 @@ data:
     link:
     g18_entry: '02292-R046-1'
     definition: part of the meter that stores the measured values.
+    definition_paragraphs:
+    - text: part of the meter that stores the measured values.
+      sources: []
     notes:
     - Note:The register may be an electromechanical device or an electronic device
       and may be integral to the indicating device.
+    note_paragraphs:
+    - text: Note:The register may be an electromechanical device or an electronic
+        device and may be integral to the indicating device.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

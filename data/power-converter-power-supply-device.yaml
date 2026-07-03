@@ -26,9 +26,17 @@ data:
     g18_entry: '02373'
     definition: sub assembly converting the voltage from the mains power to a voltage
       suitable for other sub assemblies
+    definition_paragraphs:
+    - text: sub assembly converting the voltage from the mains power to a voltage
+        suitable for other sub assemblies
+      sources: []
     notes:
     - "(OIML D 11:2004, 3.22)"
+    note_paragraphs:
+    - text: "(OIML D 11:2004, 3.22)"
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -42,8 +50,14 @@ data:
     g18_entry: '00255'
     definition: sub-assembly converting the voltage from the mains power to a voltage
       suitable for other sub-assemblies
+    definition_paragraphs:
+    - text: sub-assembly converting the voltage from the mains power to a voltage
+        suitable for other sub-assemblies
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -57,8 +71,14 @@ data:
     g18_entry: '03411'
     definition: sub-assembly converting the voltage from the mains power to a voltage
       suitable for other sub-assemblies
+    definition_paragraphs:
+    - text: sub-assembly converting the voltage from the mains power to a voltage
+        suitable for other sub-assemblies
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -72,8 +92,14 @@ data:
     g18_entry: '02248-D011'
     definition: sub-assembly converting the voltage from the mains power to a voltage
       suitable for other sub-assemblies
+    definition_paragraphs:
+    - text: sub-assembly converting the voltage from the mains power to a voltage
+        suitable for other sub-assemblies
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -87,8 +113,20 @@ data:
     g18_entry: '02374'
     definition: sub assembly converting the voltage from the mains power to a voltage
       suitable for other sub-assemblies
+    definition_paragraphs:
+    - text: sub assembly converting the voltage from the mains power to a voltage
+        suitable for other sub-assemblies
+      sources:
+      - kind: other
+        relationship: identical
+        modification:
+        ref_source: OIML D011:2004
+        ref_id: '3.22'
+        is_vimline: false
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

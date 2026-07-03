@@ -31,12 +31,24 @@ data:
     g18_entry: 02312-R046-1
     definition: ratio of the r.m.s. value of the harmonic content to the r.m.s. value
       of the fundamental term
+    definition_paragraphs:
+    - text: ratio of the r.m.s. value of the harmonic content to the r.m.s. value
+        of the fundamental term
+      sources: []
     notes:
     - The harmonic content is obtained e.g. by subtracting from a non-sinusoidal alternating
       quantity its fundamental term.
     - The distortion factor is usually expressed as a percentage. It is equivalent
       to THD, total harmonic distortion.
+    note_paragraphs:
+    - text: The harmonic content is obtained e.g. by subtracting from a non-sinusoidal
+        alternating quantity its fundamental term.
+      sources: []
+    - text: The distortion factor is usually expressed as a percentage. It is equivalent
+        to THD, total harmonic distortion.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

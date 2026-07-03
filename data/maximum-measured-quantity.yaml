@@ -27,8 +27,15 @@ data:
     definition: the maximum measurable quantity as specified by the manufacturer of
       the measurement transducer (for testing of devices) or of the calibrated tank
       for installed instruments
+    definition_paragraphs:
+    - text: the maximum measurable quantity as specified by the manufacturer of the
+        measurement transducer (for testing of devices) or of the calibrated tank
+        for installed instruments
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -43,8 +50,15 @@ data:
     definition: the maximum measurable quantity as specified by the manufacturer of
       the measurement transducer (for testing of devices) or of the calibrated tank
       for installed instruments
+    definition_paragraphs:
+    - text: the maximum measurable quantity as specified by the manufacturer of the
+        measurement transducer (for testing of devices) or of the calibrated tank
+        for installed instruments
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

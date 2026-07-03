@@ -48,8 +48,15 @@ data:
     definition: conditions of use giving the range of values of influence quantities
       for which the specified metrological characteristics of ameasuring instrument
       are intended to lie within given limits
+    definition_paragraphs:
+    - text: conditions of use giving the range of values of influence quantities for
+        which the specified metrological characteristics of ameasuring instrument
+        are intended to lie within given limits
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -63,9 +70,17 @@ data:
     g18_entry: '02145'
     definition: operating conditions that must be fulfilled during measurement in
       order that a measuring instrument or measuring system perform as designed
+    definition_paragraphs:
+    - text: operating conditions that must be fulfilled during measurement in order
+        that a measuring instrument or measuring system perform as designed
+      sources: []
     notes:
     - "(VIM:2007, 4.9)"
+    note_paragraphs:
+    - text: "(VIM:2007, 4.9)"
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -80,10 +95,20 @@ data:
     definition: conditions of use, giving the range of values of influence quantities
       for which the metrological characteristics are intended spec tolie within the
       specified permissible errors bein quan
+    definition_paragraphs:
+    - text: conditions of use, giving the range of values of influence quantities
+        for which the metrological characteristics are intended spec tolie within
+        the specified permissible errors bein quan
+      sources: []
     notes:
     - The rated operating conditions generally ify intervals of values for the quantity
       g measured and for any influence tity.
+    note_paragraphs:
+    - text: The rated operating conditions generally ify intervals of values for the
+        quantity g measured and for any influence tity.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -97,8 +122,14 @@ data:
     g18_entry: '02358'
     definition: operating condition that must be fulfilled during measurement in (VIM:2007,
       4.9) order that a measuring instrument or measuring system perform asdesigned
+    definition_paragraphs:
+    - text: operating condition that must be fulfilled during measurement in (VIM:2007,
+        4.9) order that a measuring instrument or measuring system perform asdesigned
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -118,8 +149,15 @@ data:
     definition: conditions of use, giving the range of values of influence quantities
       for which the metrological characteristics are intended tolie within the specified
       maximum permissible errors
+    definition_paragraphs:
+    - text: conditions of use, giving the range of values of influence quantities
+        for which the metrological characteristics are intended tolie within the specified
+        maximum permissible errors
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -133,11 +171,21 @@ data:
     g18_entry: '01399'
     definition: "[V conditions of use for which specified metrological characteristics
       of an instrument are intended to lie within given limits IM: 1993, 5.5]"
+    definition_paragraphs:
+    - text: "[V conditions of use for which specified metrological characteristics
+        of an instrument are intended to lie within given limits IM: 1993, 5.5]"
+      sources: []
     notes:
     - These conditions of use are the range of weight values and the range of influence
       quantity values for which the indication of an instrument is intended to lie
       within maximum permissible errors.
+    note_paragraphs:
+    - text: These conditions of use are the range of weight values and the range of
+        influence quantity values for which the indication of an instrument is intended
+        to lie within maximum permissible errors.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -152,8 +200,15 @@ data:
     definition: conditions of use, giving the range of values of influence quantities
       for which the metrological characteristics are intended tobe within the maximum
       permissible errors
+    definition_paragraphs:
+    - text: conditions of use, giving the range of values of influence quantities
+        for which the metrological characteristics are intended tobe within the maximum
+        permissible errors
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -168,8 +223,15 @@ data:
     definition: conditions of use, giving the range of values of influence quantities
       for which the metrological characteristics are intended to be within the maximum
       permissible errors
+    definition_paragraphs:
+    - text: conditions of use, giving the range of values of influence quantities
+        for which the metrological characteristics are intended to be within the maximum
+        permissible errors
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -184,9 +246,18 @@ data:
     definition: conditions of use giving the range of values of influence quantities
       for which the metrological characteristics are intended to lie within the maximum
       permissible errors
+    definition_paragraphs:
+    - text: conditions of use giving the range of values of influence quantities for
+        which the metrological characteristics are intended to lie within the maximum
+        permissible errors
+      sources: []
     notes:
     - "(adapted from VIM:2007, 4.9)"
+    note_paragraphs:
+    - text: "(adapted from VIM:2007, 4.9)"
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -201,8 +272,21 @@ data:
     definition: conditions of use giving the range of values of the influence factors,
       for which the errors (of indication) of the water meter are required to be within
       the maximum permissible errors
+    definition_paragraphs:
+    - text: conditions of use giving the range of values of the influence factors,
+        for which the errors (of indication) of the water meter are required to be
+        within the maximum permissible errors
+      sources:
+      - kind: vim
+        relationship: modified
+        modification:
+        ref_source: OIML V 2-200:1993
+        ref_id: '5.5'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: vim
       relationship: modified
@@ -229,8 +313,16 @@ data:
       influence quantities for which the metrological characteristics are intended
       to lie within the maximum permissible errors specified in this Recommendation
       IM:1993, 5.5]"
+    definition_paragraphs:
+    - text: "[V conditions of use, giving the ranges of the measurand and of the influence
+        quantities for which the metrological characteristics are intended to lie
+        within the maximum permissible errors specified in this Recommendation IM:1993,
+        5.5]"
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -245,8 +337,15 @@ data:
     definition: "[V conditions of use, giving the range of values of influence quantities
       for which the metrological characteristics are intended tolie within the specified
       maximum permissible errors IM: 1993, 5.5]"
+    definition_paragraphs:
+    - text: "[V conditions of use, giving the range of values of influence quantities
+        for which the metrological characteristics are intended tolie within the specified
+        maximum permissible errors IM: 1993, 5.5]"
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -261,9 +360,18 @@ data:
     definition: conditions of use giving the range of values of the measurand and
       the influence quantities, for which the errors of the gas meter are required
       to be within the limits of the maximum permissible error
+    definition_paragraphs:
+    - text: conditions of use giving the range of values of the measurand and the
+        influence quantities, for which the errors of the gas meter are required to
+        be within the limits of the maximum permissible error
+      sources: []
     notes:
     - "[adapted from VIM:1993, 5.5]"
+    note_paragraphs:
+    - text: "[adapted from VIM:1993, 5.5]"
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -278,8 +386,15 @@ data:
     definition: conditions of use giving the range of values of influence quantities
       for which specified metrological characteristics of a measuring instrument are
       intended to lie within given limits [Adapted from VIM:1993, 5.5]
+    definition_paragraphs:
+    - text: conditions of use giving the range of values of influence quantities for
+        which specified metrological characteristics of a measuring instrument are
+        intended to lie within given limits [Adapted from VIM:1993, 5.5]
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -300,8 +415,16 @@ data:
       influence quantities for which the metrological characteristics are intended
       to lie within the maximum permissible deviations specified in this Recommendation
       ased on VIM:1993, 5.5]"
+    definition_paragraphs:
+    - text: "[b conditions of use, giving the ranges of the measurand and of the influence
+        quantities for which the metrological characteristics are intended to lie
+        within the maximum permissible deviations specified in this Recommendation
+        ased on VIM:1993, 5.5]"
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -321,8 +444,15 @@ data:
     definition: conditions of use which give the ranges of the influence quantities
       for which the metrological characteristics are intended tolie within the specified
       maximum permissible errors
+    definition_paragraphs:
+    - text: conditions of use which give the ranges of the influence quantities for
+        which the metrological characteristics are intended tolie within the specified
+        maximum permissible errors
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -337,8 +467,15 @@ data:
     definition: conditions of use which give the ranges of the influence quantities
       for which the metrological characteristics are intended to lie within the specified
       maximum permissible errors
+    definition_paragraphs:
+    - text: conditions of use which give the ranges of the influence quantities for
+        which the metrological characteristics are intended to lie within the specified
+        maximum permissible errors
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -353,8 +490,15 @@ data:
     definition: "[a conditions of use for which specified metrological characteristics
       of a measuring instrument are intended to lie within the specified maximum permissible
       errors dapted from VIM:1993, 5.5]"
+    definition_paragraphs:
+    - text: "[a conditions of use for which specified metrological characteristics
+        of a measuring instrument are intended to lie within the specified maximum
+        permissible errors dapted from VIM:1993, 5.5]"
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -374,10 +518,20 @@ data:
     definition: conditions of use, for which the metrological characteristics of The
       rated operating conditions generally the load cell are intended to lie within
       the specified mpe (see 2.4.9)
+    definition_paragraphs:
+    - text: conditions of use, for which the metrological characteristics of The rated
+        operating conditions generally the load cell are intended to lie within the
+        specified mpe (see 2.4.9)
+      sources: []
     notes:
     - specify ranges or rated values of the measurand and of the influence quantities
       [Adapted from VIM:1993, 5.5]
+    note_paragraphs:
+    - text: specify ranges or rated values of the measurand and of the influence quantities
+        [Adapted from VIM:1993, 5.5]
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -392,8 +546,15 @@ data:
     definition: conditions of use giving the range of values of influence quantities
       for which the metrological characteristics are intended to lie within the specified
       maximum permissible errors
+    definition_paragraphs:
+    - text: conditions of use giving the range of values of influence quantities for
+        which the metrological characteristics are intended to lie within the specified
+        maximum permissible errors
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -408,8 +569,15 @@ data:
     definition: conditions of use, specifying the range of values of influence quantities
       for which the metrological characteristics are intended to be within the maximum
       permissible errors
+    definition_paragraphs:
+    - text: conditions of use, specifying the range of values of influence quantities
+        for which the metrological characteristics are intended to be within the maximum
+        permissible errors
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -424,8 +592,15 @@ data:
     definition: conditions of use giving the range of values of influence quantities
       for which the metrological characteristics are intended to lie within the specified
       maximum permissible errors (adapted from VIM:1993, 5.5)
+    definition_paragraphs:
+    - text: conditions of use giving the range of values of influence quantities for
+        which the metrological characteristics are intended to lie within the specified
+        maximum permissible errors (adapted from VIM:1993, 5.5)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -446,8 +621,16 @@ data:
       of the influence quantities for which the metrological characteristics are intended
       to lie within the maximum permissible errors specified in this Recommendation
       dapted from VIM:1993, 5.5]"
+    definition_paragraphs:
+    - text: "[A the conditions of use, giving the ranges of the measurand and of the
+        influence quantities for which the metrological characteristics are intended
+        to lie within the maximum permissible errors specified in this Recommendation
+        dapted from VIM:1993, 5.5]"
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -467,8 +650,15 @@ data:
     definition: conditions of use which give the ranges of the influence quantities
       for which the metrological characteristics are intended tolie within the specified
       maximum permissible errors
+    definition_paragraphs:
+    - text: conditions of use which give the ranges of the influence quantities for
+        which the metrological characteristics are intended tolie within the specified
+        maximum permissible errors
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -483,8 +673,15 @@ data:
     definition: "(D conditions of use, giving the range of values of influence quantities
       for which the metrological characteristics are intended tobe within the specified
       maximum permissible errors 11 clause T.13)."
+    definition_paragraphs:
+    - text: "(D conditions of use, giving the range of values of influence quantities
+        for which the metrological characteristics are intended tobe within the specified
+        maximum permissible errors 11 clause T.13)."
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -499,8 +696,15 @@ data:
     definition: the conditions of use of a pressure balance for which its metrological
       characteristics are intended to meet the requirements concerning maximum permissible
       errors
+    definition_paragraphs:
+    - text: the conditions of use of a pressure balance for which its metrological
+        characteristics are intended to meet the requirements concerning maximum permissible
+        errors
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -515,8 +719,15 @@ data:
     definition: conditions of use, specifying the range of values of influence quantities
       for which the metrological characteristics are intended to lie within the maximum
       permissible errors [adapted from VIM:1993, 5.05]
+    definition_paragraphs:
+    - text: conditions of use, specifying the range of values of influence quantities
+        for which the metrological characteristics are intended to lie within the
+        maximum permissible errors [adapted from VIM:1993, 5.05]
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -535,10 +746,19 @@ data:
     g18_entry: '03726'
     definition: operating conditions that must be fulfilled during measurement in
       order that a measuring instrument or measuring system perform as designed
+    definition_paragraphs:
+    - text: operating conditions that must be fulfilled during measurement in order
+        that a measuring instrument or measuring system perform as designed
+      sources: []
     notes:
     - 'Note: Rated operating conditions generally specify intervals of values for
       a quantity being measured and for any influence quantity.'
+    note_paragraphs:
+    - text: 'Note: Rated operating conditions generally specify intervals of values
+        for a quantity being measured and for any influence quantity.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -557,11 +777,29 @@ data:
     g18_entry: '02424'
     definition: operating condition requiring fulfilment during measurement in order
       that a meter perform as designed
+    definition_paragraphs:
+    - text: operating condition requiring fulfilment during measurement in order that
+        a meter perform as designed
+      sources:
+      - kind: vim
+        relationship: modified
+        modification: '"requiring fulfillment" replaces "that must be fulfilled";
+          "meter" replaces "measuring instrument or measuring system"; note replaced
+          the original note'
+        ref_source: OIML V 2-200:2012
+        ref_id: '4.9'
+        is_vimline: true
     notes:
     - Note:The rated operating conditions specify intervals for the flow rate and
       for the influence quantities for which the errors (of indication) are required
       to be within the maximum permissible errors.
+    note_paragraphs:
+    - text: Note:The rated operating conditions specify intervals for the flow rate
+        and for the influence quantities for which the errors (of indication) are
+        required to be within the maximum permissible errors.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: vim
       relationship: modified
@@ -583,8 +821,26 @@ data:
     g18_entry: '03416'
     definition: operating condition that must be fulfilled during measurement in order
       that a measuring instrument or measuring system perform as designed
+    definition_paragraphs:
+    - text: operating condition that must be fulfilled during measurement in order
+        that a measuring instrument or measuring system perform as designed
+      sources:
+      - kind: vim
+        relationship: identical
+        modification:
+        ref_source: OIML V 2-200:2012
+        ref_id: '4.9'
+        is_vimline: true
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2013
+        ref_id: '0.08'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: vim
       relationship: identical
@@ -604,9 +860,23 @@ data:
     g18_entry: '03419'
     definition: operating condition that must be fulfilled during measurement in order
       that a measuring instrument or measuring system perform as designed
+    definition_paragraphs:
+    - text: operating condition that must be fulfilled during measurement in order
+        that a measuring instrument or measuring system perform as designed
+      sources:
+      - kind: vim
+        relationship: identical
+        modification:
+        ref_source: OIML V 2-200:2012
+        ref_id: '4.9'
+        is_vimline: true
     notes:
     - "(For notes, refer to the VIM)"
+    note_paragraphs:
+    - text: "(For notes, refer to the VIM)"
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: vim
       relationship: identical
@@ -626,8 +896,20 @@ data:
     g18_entry: '03417'
     definition: operating condition that must be fulfilled during measurement in order
       that a measuring instrument or measuring system perform as designed
+    definition_paragraphs:
+    - text: operating condition that must be fulfilled during measurement in order
+        that a measuring instrument or measuring system perform as designed
+      sources:
+      - kind: vim
+        relationship: identical
+        modification:
+        ref_source: OIML V 2-200:2012
+        ref_id: '4.9'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: vim
       relationship: identical
@@ -648,10 +930,20 @@ data:
     definition: operating conditions that must be fulfilled during measurement in
       order that a measuring instrument or measuring system perform as designed [VIML:2013,
       0.08]
+    definition_paragraphs:
+    - text: operating conditions that must be fulfilled during measurement in order
+        that a measuring instrument or measuring system perform as designed [VIML:2013,
+        0.08]
+      sources: []
     notes:
     - 'Note: Rated operating conditions generally specify intervals of values for
       a quantity being measured and for any influence quantity.'
+    note_paragraphs:
+    - text: 'Note: Rated operating conditions generally specify intervals of values
+        for a quantity being measured and for any influence quantity.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -666,8 +958,15 @@ data:
     definition: conditions of use, giving the range of values of influence quantities
       for which the metrological characteristics are intended to be within the maximum
       permissible errors
+    definition_paragraphs:
+    - text: conditions of use, giving the range of values of influence quantities
+        for which the metrological characteristics are intended to be within the maximum
+        permissible errors
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -681,10 +980,20 @@ data:
     g18_entry: '03421'
     definition: operating condition that must be fulfilled during measurement in order
       that a measuring instrument or measuring system perform as designed (VIM, 4.9)
+    definition_paragraphs:
+    - text: operating condition that must be fulfilled during measurement in order
+        that a measuring instrument or measuring system perform as designed (VIM,
+        4.9)
+      sources: []
     notes:
     - 'Note: Rated operating conditions generally specify intervals of values for
       a quantity being measured and for any influence quantity.'
+    note_paragraphs:
+    - text: 'Note: Rated operating conditions generally specify intervals of values
+        for a quantity being measured and for any influence quantity.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -699,8 +1008,15 @@ data:
     definition: conditions of use giving the range of values of influence quantities
       for which the specified metrological characteristics of a measuring instrument
       are intended to lie within given limits
+    definition_paragraphs:
+    - text: conditions of use giving the range of values of influence quantities for
+        which the specified metrological characteristics of a measuring instrument
+        are intended to lie within given limits
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -714,10 +1030,25 @@ data:
     g18_entry: '02450'
     definition: operating condition that must be fulfilled during measurement in order
       that a measuring instrument or measuring system performs as designed
+    definition_paragraphs:
+    - text: operating condition that must be fulfilled during measurement in order
+        that a measuring instrument or measuring system performs as designed
+      sources:
+      - kind: vim
+        relationship: identical
+        modification:
+        ref_source: OIML V 2-200:2012
+        ref_id: '4.9'
+        is_vimline: true
     notes:
     - 'Note:  Rated operating conditions generally specify intervals of values for
       a quantity being measured and for any influence quantity.'
+    note_paragraphs:
+    - text: 'Note:  Rated operating conditions generally specify intervals of values
+        for a quantity being measured and for any influence quantity.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: vim
       relationship: identical
@@ -737,10 +1068,25 @@ data:
     g18_entry: '02788'
     definition: operating condition that must be fulfilled during measurement in order
       that a measuring instrument or measuring system perform as designed
+    definition_paragraphs:
+    - text: operating condition that must be fulfilled during measurement in order
+        that a measuring instrument or measuring system perform as designed
+      sources:
+      - kind: vim
+        relationship: identical
+        modification:
+        ref_source: OIML V 2-200:2012
+        ref_id: '4.9'
+        is_vimline: true
     notes:
     - "{NOTE Rated operating conditions generally specify intervals of values for
       a quantity being measured and for any influence quantity}"
+    note_paragraphs:
+    - text: "{NOTE Rated operating conditions generally specify intervals of values
+        for a quantity being measured and for any influence quantity}"
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: vim
       relationship: identical
@@ -760,10 +1106,25 @@ data:
     g18_entry: '03422'
     definition: operating conditions that must be fulfilled during measurement in
       order that a measuring instrument or measuring system perform as designed
+    definition_paragraphs:
+    - text: operating conditions that must be fulfilled during measurement in order
+        that a measuring instrument or measuring system perform as designed
+      sources:
+      - kind: vim
+        relationship: identical
+        modification:
+        ref_source: OIML V 2-200:2012
+        ref_id: '4.9'
+        is_vimline: true
     notes:
     - 'Note: Rated operating conditions generally specify intervals of values for
       a quantity being measured and for any influence quantity.'
+    note_paragraphs:
+    - text: 'Note: Rated operating conditions generally specify intervals of values
+        for a quantity being measured and for any influence quantity.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: vim
       relationship: identical
@@ -783,10 +1144,31 @@ data:
     g18_entry: 02232-D011
     definition: operating condition that must be fulfilled during measurement in order
       that a measuring instrument or measuring system perform as designed
+    definition_paragraphs:
+    - text: operating condition that must be fulfilled during measurement in order
+        that a measuring instrument or measuring system perform as designed
+      sources:
+      - kind: vim
+        relationship: identical
+        modification:
+        ref_source: OIML V 2-200:2012
+        ref_id: '4.9'
+        is_vimline: true
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2013
+        ref_id: '0.08'
+        is_vimline: true
     notes:
     - Note:Rated operating conditions generally specify intervals of values for a
       quantity being measured and for any influence quantity.
+    note_paragraphs:
+    - text: Note:Rated operating conditions generally specify intervals of values
+        for a quantity being measured and for any influence quantity.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: vim
       relationship: identical
@@ -806,8 +1188,20 @@ data:
     g18_entry: '02773'
     definition: operating conditions that must be fulfilled during measurement in
       order that a measuring instrument or measuring system perform as designed
+    definition_paragraphs:
+    - text: operating conditions that must be fulfilled during measurement in order
+        that a measuring instrument or measuring system perform as designed
+      sources:
+      - kind: vim
+        relationship: identical
+        modification:
+        ref_source: OIML V 2-200:2012
+        ref_id: '4.9'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: vim
       relationship: identical
@@ -827,12 +1221,25 @@ data:
     g18_entry: 02325-R046-1
     definition: operating condition that must be fulfilled during measurement in order
       that a measuring instrument or measuring system perform as designed
+    definition_paragraphs:
+    - text: operating condition that must be fulfilled during measurement in order
+        that a measuring instrument or measuring system perform as designed
+      sources: []
     notes:
     - Rated operating conditions generally specify intervals of values for a quantity
       being measured and for any influence quantity. [OIML V2-200:2012, 4.9]
     - 'For the application of this Recommendation, the terms "measuring instrument"
       and "measuring system" mean: electricity meter.'
+    note_paragraphs:
+    - text: Rated operating conditions generally specify intervals of values for a
+        quantity being measured and for any influence quantity. [OIML V2-200:2012,
+        4.9]
+      sources: []
+    - text: 'For the application of this Recommendation, the terms "measuring instrument"
+        and "measuring system" mean: electricity meter.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -847,8 +1254,15 @@ data:
     definition: conditions of use giving the range of values of the measurand and
       the influence quantities, for which the errors of the gas meter are required
       to be within the limits of the maximum permissible error
+    definition_paragraphs:
+    - text: conditions of use giving the range of values of the measurand and the
+        influence quantities, for which the errors of the gas meter are required to
+        be within the limits of the maximum permissible error
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -863,8 +1277,15 @@ data:
     definition: conditions of use that give the ranges of the influence quantities
       for which the metrological characteristics are intended to lie within the specified
       maximum permissible errors
+    definition_paragraphs:
+    - text: conditions of use that give the ranges of the influence quantities for
+        which the metrological characteristics are intended to lie within the specified
+        maximum permissible errors
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -879,8 +1300,15 @@ data:
     definition: conditions of use giving the range of values of influence quantities
       for which the specified metrological characteristics of a measuring instrument
       are intended to lie within given limits
+    definition_paragraphs:
+    - text: conditions of use giving the range of values of influence quantities for
+        which the specified metrological characteristics of a measuring instrument
+        are intended to lie within given limits
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -895,8 +1323,15 @@ data:
     definition: operating conditions that must be fulfilled during measurement in
       order that a measuring instrument or measuring system perform as designed [VIM:2007,
       4.9]
+    definition_paragraphs:
+    - text: operating conditions that must be fulfilled during measurement in order
+        that a measuring instrument or measuring system perform as designed [VIM:2007,
+        4.9]
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -911,10 +1346,20 @@ data:
     definition: conditions of use, giving the range of values of influence quantities
       for which the metrological characteristics are intended to lie within the specified
       permissible errors
+    definition_paragraphs:
+    - text: conditions of use, giving the range of values of influence quantities
+        for which the metrological characteristics are intended to lie within the
+        specified permissible errors
+      sources: []
     notes:
     - 'Note: The rated operating conditions generally specify intervals of values
       for the quantity being measured and for any influence quantity.'
+    note_paragraphs:
+    - text: 'Note: The rated operating conditions generally specify intervals of values
+        for the quantity being measured and for any influence quantity.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -929,8 +1374,15 @@ data:
     definition: operating condition that must be fulfilled during measurement in order
       that a measuring instrument or measuring system perform as designed [VIM:2007,
       4.9]
+    definition_paragraphs:
+    - text: operating condition that must be fulfilled during measurement in order
+        that a measuring instrument or measuring system perform as designed [VIM:2007,
+        4.9]
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -945,8 +1397,15 @@ data:
     definition: conditions of use, giving the range of values of influence quantities
       for which the metrological characteristics are intended to lie within the specified
       maximum permissible errors
+    definition_paragraphs:
+    - text: conditions of use, giving the range of values of influence quantities
+        for which the metrological characteristics are intended to lie within the
+        specified maximum permissible errors
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -960,11 +1419,21 @@ data:
     g18_entry: '01399'
     definition: 'conditions of use for which specified metrological characteristics
       of an instrument are intended to lie within given limits [VIM: 1993, 5.5]'
+    definition_paragraphs:
+    - text: 'conditions of use for which specified metrological characteristics of
+        an instrument are intended to lie within given limits [VIM: 1993, 5.5]'
+      sources: []
     notes:
     - 'Note: These conditions of use are the range of weight values and the range
       of influence quantity values for which the indication of an instrument is intended
       to lie within maximum permissible errors.'
+    note_paragraphs:
+    - text: 'Note: These conditions of use are the range of weight values and the
+        range of influence quantity values for which the indication of an instrument
+        is intended to lie within maximum permissible errors.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -979,8 +1448,15 @@ data:
     definition: conditions of use giving the range of values of influence quantities
       for which the metrological characteristics are intended to lie within the maximum
       permissible errors [adapted from VIM:2007, 4.9]
+    definition_paragraphs:
+    - text: conditions of use giving the range of values of influence quantities for
+        which the metrological characteristics are intended to lie within the maximum
+        permissible errors [adapted from VIM:2007, 4.9]
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -995,8 +1471,16 @@ data:
     definition: conditions of use, giving the ranges of the measurand and of the  influence
       quantities for which the metrological characteristics are intended to lie within
       the maximum permissible errors specified in this Recommendation [VIM:1993, 5.5]
+    definition_paragraphs:
+    - text: conditions of use, giving the ranges of the measurand and of the  influence
+        quantities for which the metrological characteristics are intended to lie
+        within the maximum permissible errors specified in this Recommendation [VIM:1993,
+        5.5]
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -1011,8 +1495,15 @@ data:
     definition: 'conditions of use, giving the range of values of influence quantities
       for which the metrological characteristics are intended to lie within the specified
       maximum permissible errors [VIM: 1993, 5.5]'
+    definition_paragraphs:
+    - text: 'conditions of use, giving the range of values of influence quantities
+        for which the metrological characteristics are intended to lie within the
+        specified maximum permissible errors [VIM: 1993, 5.5]'
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -1027,8 +1518,15 @@ data:
     definition: conditions of use which give the ranges of the influence quantities
       for which the metrological characteristics are intended to lie within the specified
       maximum permissible errors
+    definition_paragraphs:
+    - text: conditions of use which give the ranges of the influence quantities for
+        which the metrological characteristics are intended to lie within the specified
+        maximum permissible errors
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -1043,8 +1541,15 @@ data:
     definition: conditions of use which give the ranges of the influence quantities
       for which the metrological characteristics are intended to lie within the specified
       maximum permissible errors
+    definition_paragraphs:
+    - text: conditions of use which give the ranges of the influence quantities for
+        which the metrological characteristics are intended to lie within the specified
+        maximum permissible errors
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -1059,8 +1564,15 @@ data:
     definition: conditions of use for which specified metrological characteristics
       of a measuring instrument are intended to lie within the specified maximum permissible
       errors [adapted from VIM:1993, 5.5]
+    definition_paragraphs:
+    - text: conditions of use for which specified metrological characteristics of
+        a measuring instrument are intended to lie within the specified maximum permissible
+        errors [adapted from VIM:1993, 5.5]
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -1075,8 +1587,15 @@ data:
     definition: conditions of use, specifying the range of values of influence quantities
       for which the metrological characteristics are intended to be within the maximum
       permissible errors
+    definition_paragraphs:
+    - text: conditions of use, specifying the range of values of influence quantities
+        for which the metrological characteristics are intended to be within the maximum
+        permissible errors
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -1091,8 +1610,15 @@ data:
     definition: conditions of use giving the range of values of influence quantities
       for which the metrological characteristics are intended to lie within the specified
       maximum permissible errors (adapted from VIM:1993, 5.5)
+    definition_paragraphs:
+    - text: conditions of use giving the range of values of influence quantities for
+        which the metrological characteristics are intended to lie within the specified
+        maximum permissible errors (adapted from VIM:1993, 5.5)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -1107,8 +1633,15 @@ data:
     definition: conditions of use, giving the range of values of influence quantities
       for which the metrological characteristics are intended to be within the specified
       maximum permissible errors (D 11 clause T.13).
+    definition_paragraphs:
+    - text: conditions of use, giving the range of values of influence quantities
+        for which the metrological characteristics are intended to be within the specified
+        maximum permissible errors (D 11 clause T.13).
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -1123,8 +1656,15 @@ data:
     definition: the conditions of use of a pressure balance for which its metrological
       characteristics are intended to meet the requirements concerning maximum permissible
       errors
+    definition_paragraphs:
+    - text: the conditions of use of a pressure balance for which its metrological
+        characteristics are intended to meet the requirements concerning maximum permissible
+        errors
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

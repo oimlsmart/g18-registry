@@ -27,8 +27,15 @@ data:
     definition: the quantity of indicated mass below which the maximum permissible
       error may be exceeded. This quantity applies to liquid contained in the tank
       (inventory) or transferred into or out of the tank (transfer)
+    definition_paragraphs:
+    - text: the quantity of indicated mass below which the maximum permissible error
+        may be exceeded. This quantity applies to liquid contained in the tank (inventory)
+        or transferred into or out of the tank (transfer)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -43,8 +50,15 @@ data:
     definition: the quantity of indicated mass below which the maximum permissible
       error may be exceeded. This quantity applies to liquid contained in the tank
       (inventory) or transferred into or out of the tank (transfer)
+    definition_paragraphs:
+    - text: the quantity of indicated mass below which the maximum permissible error
+        may be exceeded. This quantity applies to liquid contained in the tank (inventory)
+        or transferred into or out of the tank (transfer)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

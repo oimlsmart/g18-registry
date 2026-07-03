@@ -41,8 +41,14 @@ data:
     g18_entry: '02118'
     definition: difference of indication of a measuring system and the true value
       of the measurand
+    definition_paragraphs:
+    - text: difference of indication of a measuring system and the true value of the
+        measurand
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -56,8 +62,20 @@ data:
     g18_entry: '00798'
     definition: indication of a weighing instrument minus the (conventional) true
       value of the mass
+    definition_paragraphs:
+    - text: indication of a weighing instrument minus the (conventional) true value
+        of the mass
+      sources:
+      - kind: vim
+        relationship: modified
+        modification:
+        ref_source: OIML V 2-200:1993
+        ref_id: '5.20'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: vim
       relationship: modified
@@ -82,8 +100,14 @@ data:
     g18_entry: '01722'
     definition: the indication of a measuring instrument minus the true value of VIM:1993,
       5.20. the corresponding input quantity
+    definition_paragraphs:
+    - text: the indication of a measuring instrument minus the true value of VIM:1993,
+        5.20. the corresponding input quantity
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -102,10 +126,18 @@ data:
     g18_entry: '03042'
     definition: indication minus a reference quantity value [ OIML V 1:2022, 0.04
       ]
+    definition_paragraphs:
+    - text: indication minus a reference quantity value [ OIML V 1:2022, 0.04 ]
+      sources: []
     notes:
     - Note:This reference value is sometimes referred to as a (conventional) true
       quantity value. See, however also OIML V 2-200:2012. 2.12, Note 1)
+    note_paragraphs:
+    - text: Note:This reference value is sometimes referred to as a (conventional)
+        true quantity value. See, however also OIML V 2-200:2012. 2.12, Note 1)
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -118,8 +150,25 @@ data:
     link:
     g18_entry: '03047'
     definition: indication minus a reference quantity value
+    definition_paragraphs:
+    - text: indication minus a reference quantity value
+      sources:
+      - kind: vim
+        relationship: identical
+        modification:
+        ref_source: OIML V 2-200:2012
+        ref_id: '4.1'
+        is_vimline: true
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2013
+        ref_id: '0.04'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: vim
       relationship: identical
@@ -138,8 +187,19 @@ data:
     link:
     g18_entry: '03045'
     definition: indicated value minus a reference quantity value
+    definition_paragraphs:
+    - text: indicated value minus a reference quantity value
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2013
+        ref_id: '0.04'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical
@@ -158,10 +218,18 @@ data:
     link:
     g18_entry: '03046'
     definition: indication minus a reference quantity value
+    definition_paragraphs:
+    - text: indication minus a reference quantity value
+      sources: []
     notes:
     - 'Note: This reference value is sometimes referred to as a (conventional) true
       quantity value. [VIML:2013, 0.04]'
+    note_paragraphs:
+    - text: 'Note: This reference value is sometimes referred to as a (conventional)
+        true quantity value. [VIML:2013, 0.04]'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -174,8 +242,19 @@ data:
     link:
     g18_entry: '02220'
     definition: indication minus a reference quantity value
+    definition_paragraphs:
+    - text: indication minus a reference quantity value
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2013
+        ref_id: '0.04'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical
@@ -195,8 +274,14 @@ data:
     g18_entry: '00859'
     definition: indication of the measuring instrument minus the conventional true
       value of the corresponding input quantity [adapted from VIM:1993, 5.20].
+    definition_paragraphs:
+    - text: indication of the measuring instrument minus the conventional true value
+        of the corresponding input quantity [adapted from VIM:1993, 5.20].
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

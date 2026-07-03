@@ -28,9 +28,21 @@ data:
       rollers. When there is only one weighing roller, the weigh length is equal to
       half the distance between the axes of the nearest carrying rollers on either
       side of the weighing roller
+    definition_paragraphs:
+    - text: the distance between the two imaginary lines at the half distance between
+        the axes of the end weighing rollers and the axes of the nearest carrying
+        rollers. When there is only one weighing roller, the weigh length is equal
+        to half the distance between the axes of the nearest carrying rollers on either
+        side of the weighing roller
+      sources: []
     notes:
     - 'Note: The weigh length is not applicable to belt weighers inclusive of conveyor.'
+    note_paragraphs:
+    - text: 'Note: The weigh length is not applicable to belt weighers inclusive of
+        conveyor.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

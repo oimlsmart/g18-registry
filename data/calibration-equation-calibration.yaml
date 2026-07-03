@@ -25,10 +25,19 @@ data:
     g18_entry: '02801'
     definition: set of calibration coefficients for one type of grain to convert raw
       instrument data into a protein content measurement
+    definition_paragraphs:
+    - text: set of calibration coefficients for one type of grain to convert raw instrument
+        data into a protein content measurement
+      sources: []
     notes:
     - Note:Both these terms are used in the same context as ‘calibration function’
       in Note 1 of VIM 2.39.
+    note_paragraphs:
+    - text: Note:Both these terms are used in the same context as ‘calibration function’
+        in Note 1 of VIM 2.39.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

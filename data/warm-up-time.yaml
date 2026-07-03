@@ -27,11 +27,22 @@ data:
     definition: time between the instant at which power is applied to a gas analytical
       system and the instant at which the system is capable of complying with the
       metrological requirements
+    definition_paragraphs:
+    - text: time between the instant at which power is applied to a gas analytical
+        system and the instant at which the system is capable of complying with the
+        metrological requirements
+      sources: []
     notes:
     - For a gas analyzer this is the time between the instant at which power is applied
       to it and th instant at which the measurement result of the volume fraction,
       a CGM being supplied to the input, is within the permissible limits.
+    note_paragraphs:
+    - text: For a gas analyzer this is the time between the instant at which power
+        is applied to it and th instant at which the measurement result of the volume
+        fraction, a CGM being supplied to the input, is within the permissible limits.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -46,8 +57,15 @@ data:
     definition: elapsed time between the moment power is applied to an instrument
       and the moment at which the instrument is capable of complying with the metrological
       requirements
+    definition_paragraphs:
+    - text: elapsed time between the moment power is applied to an instrument and
+        the moment at which the instrument is capable of complying with the metrological
+        requirements
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -62,8 +80,15 @@ data:
     definition: time between the moment that power is applied to an instrument and
       the moment at which the instrument is capable of complying with the requirements
       of this Recommendation
+    definition_paragraphs:
+    - text: time between the moment that power is applied to an instrument and the
+        moment at which the instrument is capable of complying with the requirements
+        of this Recommendation
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -77,8 +102,14 @@ data:
     g18_entry: '00642'
     definition: time between the moment at which power is applied to the instrument
       and the moment at which the instrument is capable of complying with the requirements
+    definition_paragraphs:
+    - text: time between the moment at which power is applied to the instrument and
+        the moment at which the instrument is capable of complying with the requirements
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -93,8 +124,15 @@ data:
     definition: time between the moment power is applied to an instrument and the
       moment at which the instrument is capable of complying with the requirements
       of this Recommendation
+    definition_paragraphs:
+    - text: time between the moment power is applied to an instrument and the moment
+        at which the instrument is capable of complying with the requirements of this
+        Recommendation
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -108,8 +146,14 @@ data:
     g18_entry: '00795'
     definition: time between the moment at which power is applied to an instrument
       and the moment at which the instrument is capable of complying with the requirements.
+    definition_paragraphs:
+    - text: time between the moment at which power is applied to an instrument and
+        the moment at which the instrument is capable of complying with the requirements.
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -123,8 +167,14 @@ data:
     g18_entry: '01818'
     definition: time between the moment that power is applied to an instrument and
       the moment at which the instrument is capable of complying with the requirements
+    definition_paragraphs:
+    - text: time between the moment that power is applied to an instrument and the
+        moment at which the instrument is capable of complying with the requirements
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -138,8 +188,14 @@ data:
     g18_entry: '00727'
     definition: time between the moment power is applied to a load cell and the moment
       at which the load cell is capable of complying with the requirements
+    definition_paragraphs:
+    - text: time between the moment power is applied to a load cell and the moment
+        at which the load cell is capable of complying with the requirements
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -153,8 +209,14 @@ data:
     g18_entry: '00524'
     definition: the time between the moment that power is applied to a belt weigher
       and the moment that the belt weigher is capable of complying with the requirements
+    definition_paragraphs:
+    - text: the time between the moment that power is applied to a belt weigher and
+        the moment that the belt weigher is capable of complying with the requirements
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -168,8 +230,14 @@ data:
     g18_entry: '01290'
     definition: the time between the moment that power is applied to an instrument
       and the moment at which the instrument is capable of complying with the requirements
+    definition_paragraphs:
+    - text: the time between the moment that power is applied to an instrument and
+        the moment at which the instrument is capable of complying with the requirements
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -183,8 +251,14 @@ data:
     g18_entry: '03625'
     definition: time between the moment power is applied to a load cell and the moment
       at which the load cell is capable of complying with the requirements
+    definition_paragraphs:
+    - text: time between the moment power is applied to a load cell and the moment
+        at which the load cell is capable of complying with the requirements
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -198,8 +272,14 @@ data:
     g18_entry: '03629'
     definition: time between the moment that power is applied to an instrument and
       the moment that the instrument is capable of complying with the requirements
+    definition_paragraphs:
+    - text: time between the moment that power is applied to an instrument and the
+        moment that the instrument is capable of complying with the requirements
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -213,8 +293,14 @@ data:
     g18_entry: '03626'
     definition: time between the moment power is applied to an instrument and the
       moment at which the instrument is capable of complying with the requirements
+    definition_paragraphs:
+    - text: time between the moment power is applied to an instrument and the moment
+        at which the instrument is capable of complying with the requirements
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -228,8 +314,14 @@ data:
     g18_entry: '03628'
     definition: time between the moment that power is applied to an instrument and
       the moment that the instrument is capable of complying with the requirements
+    definition_paragraphs:
+    - text: time between the moment that power is applied to an instrument and the
+        moment that the instrument is capable of complying with the requirements
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -244,11 +336,23 @@ data:
     definition: period of time that the gas analytical system requires from applying
       power to the instrument to attaining the operating mode at which the instrument
       will operate within the maximum permissible errors
+    definition_paragraphs:
+    - text: period of time that the gas analytical system requires from applying power
+        to the instrument to attaining the operating mode at which the instrument
+        will operate within the maximum permissible errors
+      sources: []
     notes:
     - 'Note: For a gas analyzer this is the time between the instant at which power
       is applied to it and the instant at which the measurement result of the volume
       fraction, a CGM being supplied to the input, is within the permissible limits.'
+    note_paragraphs:
+    - text: 'Note: For a gas analyzer this is the time between the instant at which
+        power is applied to it and the instant at which the measurement result of
+        the volume fraction, a CGM being supplied to the input, is within the permissible
+        limits.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -262,8 +366,14 @@ data:
     g18_entry: '02593'
     definition: time between the moment that power is applied to an instrument and
       the moment at which the instrument is capable of complying with the requirements
+    definition_paragraphs:
+    - text: time between the moment that power is applied to an instrument and the
+        moment at which the instrument is capable of complying with the requirements
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -278,11 +388,23 @@ data:
     definition: time between the instant at which power is applied to a gas analytical
       system and the instant at which the system is capable of complying with the
       metrological requirements
+    definition_paragraphs:
+    - text: time between the instant at which power is applied to a gas analytical
+        system and the instant at which the system is capable of complying with the
+        metrological requirements
+      sources: []
     notes:
     - 'Note: For a gas analyzer this is the time between the instant at which power
       is applied to it and the instant at which the measurement result of the volume
       fraction, a CGM being supplied to the input, is within the permissible limits.'
+    note_paragraphs:
+    - text: 'Note: For a gas analyzer this is the time between the instant at which
+        power is applied to it and the instant at which the measurement result of
+        the volume fraction, a CGM being supplied to the input, is within the permissible
+        limits.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -297,8 +419,15 @@ data:
     definition: elapsed time between the moment power is applied to an instrument
       and the moment at which the instrument is capable of complying with the metrological
       requirements
+    definition_paragraphs:
+    - text: elapsed time between the moment power is applied to an instrument and
+        the moment at which the instrument is capable of complying with the metrological
+        requirements
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -313,8 +442,15 @@ data:
     definition: time between the moment that power is applied to an instrument and
       the moment at which the instrument is capable of complying with the requirements
       of this Recommendation
+    definition_paragraphs:
+    - text: time between the moment that power is applied to an instrument and the
+        moment at which the instrument is capable of complying with the requirements
+        of this Recommendation
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -328,8 +464,14 @@ data:
     g18_entry: '00642'
     definition: time between the moment at which power is applied to the instrument
       and the moment at which the instrument is capable of complying with the requirements
+    definition_paragraphs:
+    - text: time between the moment at which power is applied to the instrument and
+        the moment at which the instrument is capable of complying with the requirements
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -344,8 +486,15 @@ data:
     definition: time between the moment power is applied to an instrument and the
       moment at which the instrument is capable of complying with the requirements
       of this Recommendation
+    definition_paragraphs:
+    - text: time between the moment power is applied to an instrument and the moment
+        at which the instrument is capable of complying with the requirements of this
+        Recommendation
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -359,8 +508,14 @@ data:
     g18_entry: '03627'
     definition: time between the moment that power is applied to an instrument and
       the moment at which the instrument is capable of complying with the requirements
+    definition_paragraphs:
+    - text: time between the moment that power is applied to an instrument and the
+        moment at which the instrument is capable of complying with the requirements
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

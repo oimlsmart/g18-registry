@@ -26,9 +26,23 @@ data:
     definition: operating condition prescribed for evaluating the performance of a
       measuring instrument or measuring system or for the comparison of measurement
       results
+    definition_paragraphs:
+    - text: operating condition prescribed for evaluating the performance of a measuring
+        instrument or measuring system or for the comparison of measurement results
+      sources:
+      - kind: vim
+        relationship: identical
+        modification:
+        ref_source: OIML V 2-200:2012
+        ref_id: '4.11'
+        is_vimline: true
     notes:
     - "(For noters, refer to the VIM)."
+    note_paragraphs:
+    - text: "(For noters, refer to the VIM)."
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: vim
       relationship: identical

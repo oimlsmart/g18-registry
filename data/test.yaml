@@ -26,8 +26,20 @@ data:
     g18_entry: '02217'
     definition: series of operations intended to verify the compliance of the equipment
       under test (EUT) with the specified requirements
+    definition_paragraphs:
+    - text: series of operations intended to verify the compliance of the equipment
+        under test (EUT) with the specified requirements
+      sources:
+      - kind: other
+        relationship: identical
+        modification:
+        ref_source: OIML D011:2004
+        ref_id: '3.20'
+        is_vimline: false
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,9 +53,17 @@ data:
     g18_entry: '02367'
     definition: series of operations intended to verify the compliance of the equipment
       under test (EUT) with specified requirements
+    definition_paragraphs:
+    - text: series of operations intended to verify the compliance of the equipment
+        under test (EUT) with specified requirements
+      sources: []
     notes:
     - "(OIML D 11:2004, 3.20)"
+    note_paragraphs:
+    - text: "(OIML D 11:2004, 3.20)"
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -57,8 +77,14 @@ data:
     g18_entry: '01971'
     definition: series of operations intended to verify the compliance of the equipment
       under test (EUT) with certain requirements
+    definition_paragraphs:
+    - text: series of operations intended to verify the compliance of the equipment
+        under test (EUT) with certain requirements
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -72,8 +98,14 @@ data:
     g18_entry: '00249'
     definition: series of operations intended to verify the compliance of the equipment
       under test (EUT) with specified requirements
+    definition_paragraphs:
+    - text: series of operations intended to verify the compliance of the equipment
+        under test (EUT) with specified requirements
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -89,9 +121,19 @@ data:
       on 13.1. Test, ISO/IEC Guide 2:1996 more characteristics or performance of a
       given product, material, St equipment, organism, physical phenomenon, process
       or service General according to a specified procedure.
+    definition_paragraphs:
+    - text: technical operation that consists of the determination of one or Based
+        on 13.1. Test, ISO/IEC Guide 2:1996 more characteristics or performance of
+        a given product, material, St equipment, organism, physical phenomenon, process
+        or service General according to a specified procedure.
+      sources: []
     notes:
     - andardization and Related Activities— Vocabulary
+    note_paragraphs:
+    - text: andardization and Related Activities— Vocabulary
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -105,8 +147,14 @@ data:
     g18_entry: '01734'
     definition: a series of operations intended to verify the compliance of the EUT
       with certain requirements
+    definition_paragraphs:
+    - text: a series of operations intended to verify the compliance of the EUT with
+        certain requirements
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -120,8 +168,14 @@ data:
     g18_entry: '01658'
     definition: a series of operations intended to verify the compliance of the equipment
       under test with certain requirements
+    definition_paragraphs:
+    - text: a series of operations intended to verify the compliance of the equipment
+        under test with certain requirements
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -135,8 +189,14 @@ data:
     g18_entry: '03561'
     definition: series of operations intended to verify the compliance of the EUT
       (equipment under test) with certain requirements
+    definition_paragraphs:
+    - text: series of operations intended to verify the compliance of the EUT (equipment
+        under test) with certain requirements
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -150,8 +210,14 @@ data:
     g18_entry: 02241-D011
     definition: series of operations intended to verify the compliance of the equipment
       under test (EUT) with specified requirements
+    definition_paragraphs:
+    - text: series of operations intended to verify the compliance of the equipment
+        under test (EUT) with specified requirements
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -165,8 +231,20 @@ data:
     g18_entry: '02693'
     definition: series of operations intended to verify the compliance of the equipment
       under test (EUT) with certain requirements
+    definition_paragraphs:
+    - text: series of operations intended to verify the compliance of the equipment
+        under test (EUT) with certain requirements
+      sources:
+      - kind: other
+        relationship: identical
+        modification:
+        ref_source: OIML D011:2004
+        ref_id: '3.20'
+        is_vimline: false
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -180,8 +258,20 @@ data:
     g18_entry: '02368'
     definition: series of operations intended to verify the compliance of the equipment
       under test (EUT) with specified requirements
+    definition_paragraphs:
+    - text: series of operations intended to verify the compliance of the equipment
+        under test (EUT) with specified requirements
+      sources:
+      - kind: other
+        relationship: identical
+        modification:
+        ref_source: OIML D011:2004
+        ref_id: '3.20'
+        is_vimline: false
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -196,10 +286,20 @@ data:
     definition: technical operation that consists of the determination of one or more
       characteristics or performance of a given product, material,  equipment, organism,
       physical phenomenon, process or service according to a specified procedure.
+    definition_paragraphs:
+    - text: technical operation that consists of the determination of one or more
+        characteristics or performance of a given product, material,  equipment, organism,
+        physical phenomenon, process or service according to a specified procedure.
+      sources: []
     notes:
     - 'Note:  Based on 13.1. Test, ISO/IEC Guide 2:1996 Standardization and Related
       Activities — General Vocabulary'
+    note_paragraphs:
+    - text: 'Note:  Based on 13.1. Test, ISO/IEC Guide 2:1996 Standardization and
+        Related Activities — General Vocabulary'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -213,8 +313,14 @@ data:
     g18_entry: '01658'
     definition: a series of operations intended to verify the compliance of the equipment
       under test with certain requirements
+    definition_paragraphs:
+    - text: a series of operations intended to verify the compliance of the equipment
+        under test with certain requirements
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

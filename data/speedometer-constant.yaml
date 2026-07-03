@@ -30,8 +30,18 @@ data:
       per minute, rev/min, or in impulses per minute, imp/min. The speedometer constant
       is numerically equal to odometer constant k when the same driving system is
       used for both instruments
+    definition_paragraphs:
+    - text: characteristic quantity showing the type (revolutions of the driving shaft
+        or impulses) and the frequency of signals at which the speedometer must indicate
+        a speed of 60 km/h. The speedometer constant may be expressed in revolutions
+        per minute, rev/min, or in impulses per minute, imp/min. The speedometer constant
+        is numerically equal to odometer constant k when the same driving system is
+        used for both instruments
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -49,8 +59,18 @@ data:
       per minute, rev/min, or in impulses per minute, imp/min. The speedometer constant
       is numerically equal to odometer constant k when the same driving system is
       used for both instruments
+    definition_paragraphs:
+    - text: characteristic quantity showing the type (revolutions of the driving shaft
+        or impulses) and the frequency of signals at which the speedometer must indicate
+        a speed of 60 km/h. The speedometer constant may be expressed in revolutions
+        per minute, rev/min, or in impulses per minute, imp/min. The speedometer constant
+        is numerically equal to odometer constant k when the same driving system is
+        used for both instruments
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

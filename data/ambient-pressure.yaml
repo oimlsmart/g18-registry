@@ -28,8 +28,16 @@ data:
       place of the measurements. The ambient pressure may be atmospheric pressure,
       or it may have a value near to that of atmospheric pressure when measurements
       are carried out in an enclosed, sealed space
+    definition_paragraphs:
+    - text: the pressure of the environment of the instrument at the time and place
+        of the measurements. The ambient pressure may be atmospheric pressure, or
+        it may have a value near to that of atmospheric pressure when measurements
+        are carried out in an enclosed, sealed space
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -45,8 +53,16 @@ data:
       time of the measurements. The ambient pressure may be atmospheric pressure,
       or it may have a value near to that of the atmospheric pressure when measurements
       are carried out in an enclosed, sealed space
+    definition_paragraphs:
+    - text: the pressure of the environment of the instrument, at the place and time
+        of the measurements. The ambient pressure may be atmospheric pressure, or
+        it may have a value near to that of the atmospheric pressure when measurements
+        are carried out in an enclosed, sealed space
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -62,8 +78,16 @@ data:
       place of the measurements. The ambient pressure may be atmospheric pressure,
       or it may have a value near to that of atmospheric pressure when measurements
       are carried out in an enclosed, sealed space
+    definition_paragraphs:
+    - text: the pressure of the environment of the instrument at the time and place
+        of the measurements. The ambient pressure may be atmospheric pressure, or
+        it may have a value near to that of atmospheric pressure when measurements
+        are carried out in an enclosed, sealed space
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -79,8 +103,16 @@ data:
       time of the measurements. The ambient pressure may be atmospheric pressure,
       or it may have a value near to that of the atmospheric pressure when measurements
       are carried out in an enclosed, sealed space
+    definition_paragraphs:
+    - text: the pressure of the environment of the instrument, at the place and time
+        of the measurements. The ambient pressure may be atmospheric pressure, or
+        it may have a value near to that of the atmospheric pressure when measurements
+        are carried out in an enclosed, sealed space
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -27,8 +27,16 @@ data:
       minimum flow rate Qmin that divides the flow rate range into two zones, the
       “upper zone” and the “lower zone”, each characterized by its own maximum permissible
       error
+    definition_paragraphs:
+    - text: flow rate which occurs between the maximum flow rate Qmax and the minimum
+        flow rate Qmin that divides the flow rate range into two zones, the “upper
+        zone” and the “lower zone”, each characterized by its own maximum permissible
+        error
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

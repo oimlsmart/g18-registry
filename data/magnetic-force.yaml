@@ -62,8 +62,14 @@ data:
     g18_entry: '01453'
     definition: force produced on magnetic or magnetically susceptible material byexternal
       magnetic fields
+    definition_paragraphs:
+    - text: force produced on magnetic or magnetically susceptible material byexternal
+        magnetic fields
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -76,8 +82,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r111-1-e04.pdf
     g18_entry: '01454'
     definition: measure of the ability of a medium to modify a magnetic field
+    definition_paragraphs:
+    - text: measure of the ability of a medium to modify a magnetic field
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

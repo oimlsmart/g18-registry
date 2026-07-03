@@ -27,8 +27,16 @@ data:
       blackbody radiator. This should take into account the intrinsic emissivity of
       the surface, the geometrical factor, the temperature distribution, and the ambient
       thermal radiation
+    definition_paragraphs:
+    - text: apparent emissivity of a blackbody cavity or a surface of a flat-plate
+        blackbody radiator. This should take into account the intrinsic emissivity
+        of the surface, the geometrical factor, the temperature distribution, and
+        the ambient thermal radiation
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

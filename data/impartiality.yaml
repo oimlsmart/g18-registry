@@ -24,8 +24,13 @@ data:
     link:
     g18_entry: '03172'
     definition: No OIML guidance
+    definition_paragraphs:
+    - text: No OIML guidance
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

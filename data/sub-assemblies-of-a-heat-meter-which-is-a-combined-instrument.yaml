@@ -25,8 +25,14 @@ data:
     g18_entry: '00846'
     definition: the flow sensor, the temperature sensor pair and the calculator or
       acombination of these
+    definition_paragraphs:
+    - text: the flow sensor, the temperature sensor pair and the calculator or acombination
+        of these
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

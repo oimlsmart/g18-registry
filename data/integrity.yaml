@@ -26,9 +26,18 @@ data:
     definition: assurance that the software, measurement data, or parameters have
       not been subjected to any  unintentional, accidental or inadmissible changes
       while in use, transfer, storage, repair or maintenance
+    definition_paragraphs:
+    - text: assurance that the software, measurement data, or parameters have not
+        been subjected to any  unintentional, accidental or inadmissible changes while
+        in use, transfer, storage, repair or maintenance
+      sources: []
     notes:
     - Note:Software may include prameters and data, see 3.2.70.
+    note_paragraphs:
+    - text: Note:Software may include prameters and data, see 3.2.70.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -43,8 +52,15 @@ data:
     definition: assurance that the programs, data, or parameters have not been subjected
       to any unauthorised or unintended changes while in use, transfer, storage, repair
       or maintenance (OIML D 31, 3.1.21)
+    definition_paragraphs:
+    - text: assurance that the programs, data, or parameters have not been subjected
+        to any unauthorised or unintended changes while in use, transfer, storage,
+        repair or maintenance (OIML D 31, 3.1.21)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

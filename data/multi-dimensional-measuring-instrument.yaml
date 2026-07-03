@@ -29,8 +29,16 @@ data:
       cases determines the volume of that box. If the object is not of the form of
       a rectangular box, the smallest rectangular box which fully encloses the object
       is determined
+    definition_paragraphs:
+    - text: a measuring instrument which measures the length (L), width (W) and height
+        (H) of a rectangular parallelepiped (a rectangular box), and in some cases
+        determines the volume of that box. If the object is not of the form of a rectangular
+        box, the smallest rectangular box which fully encloses the object is determined
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -45,8 +53,15 @@ data:
     definition: instrument that measures the dimnesions of an object and determines
       the length (L), width (W) and height (H) of the smallest rectangular parallelepiped
       (rectangular box) which fully encloses thet object
+    definition_paragraphs:
+    - text: instrument that measures the dimnesions of an object and determines the
+        length (L), width (W) and height (H) of the smallest rectangular parallelepiped
+        (rectangular box) which fully encloses thet object
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

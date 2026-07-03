@@ -25,6 +25,16 @@ data:
     g18_entry: '03055'
     definition: product of a combined standard measurement uncertainty and a factor
       larger than the number one
+    definition_paragraphs:
+    - text: product of a combined standard measurement uncertainty and a factor larger
+        than the number one
+      sources:
+      - kind: vim
+        relationship: identical
+        modification:
+        ref_source: OIML V 2-200:2012
+        ref_id: '2.35'
+        is_vimline: true
     notes:
     - The factor depends upon the type of probability distribution of the output quantity
       in ,easurement model and on the selected coverage probability.
@@ -32,7 +42,18 @@ data:
     - Expanded measurement uncertainty is termed "overall uncertainty" in paragraph
       5 of Recommendation INC-1 (1980) (see the GUM) and simply "uncertainty" pn IEC
       documents.
+    note_paragraphs:
+    - text: The factor depends upon the type of probability distribution of the output
+        quantity in ,easurement model and on the selected coverage probability.
+      sources: []
+    - text: The term "factor" in this definition refers to a coverage factor.
+      sources: []
+    - text: Expanded measurement uncertainty is termed "overall uncertainty" in paragraph
+        5 of Recommendation INC-1 (1980) (see the GUM) and simply "uncertainty" pn
+        IEC documents.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: vim
       relationship: identical

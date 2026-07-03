@@ -26,8 +26,14 @@ data:
     g18_entry: '01521'
     definition: solution that is prepared in the same way as the sample solution but
       does not contain the element or elements to be determined
+    definition_paragraphs:
+    - text: solution that is prepared in the same way as the sample solution but does
+        not contain the element or elements to be determined
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -42,8 +48,15 @@ data:
     definition: a solution that contains all the chemicals except for the element
       to be determined in the same concentration as required for the preparation of
       a reference standard solution of that element
+    definition_paragraphs:
+    - text: a solution that contains all the chemicals except for the element to be
+        determined in the same concentration as required for the preparation of a
+        reference standard solution of that element
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -57,8 +70,14 @@ data:
     g18_entry: '01521'
     definition: solution that is prepared in the same way as the sample solution but
       does not contain the element or elements to be determined
+    definition_paragraphs:
+    - text: solution that is prepared in the same way as the sample solution but does
+        not contain the element or elements to be determined
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -73,8 +92,15 @@ data:
     definition: solution that contains all the chemicals except for the element to
       be determined in the same concentration as required for the preparation of a
       reference standard solution of that element
+    definition_paragraphs:
+    - text: solution that contains all the chemicals except for the element to be
+        determined in the same concentration as required for the preparation of a
+        reference standard solution of that element
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -31,8 +31,14 @@ data:
     g18_entry: 02302-2
     definition: lowest value of current at which the meter is specified by the manufacturer
       to meet the accuracy requirements
+    definition_paragraphs:
+    - text: lowest value of current at which the meter is specified by the manufacturer
+        to meet the accuracy requirements
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -25,10 +25,18 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r093-e99.pdf
     g18_entry: '01133'
     definition: deviation of a ray of light through a specific point on a lens
+    definition_paragraphs:
+    - text: deviation of a ray of light through a specific point on a lens
+      sources: []
     notes:
     - The unit for expressing prismatic power is the centimetre per metre (cm/m).
       The name for this unit is the "prism dioptre", for which th symbol is D.
+    note_paragraphs:
+    - text: The unit for expressing prismatic power is the centimetre per metre (cm/m).
+        The name for this unit is the "prism dioptre", for which th symbol is D.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,10 +49,19 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r093-e99.pdf
     g18_entry: '01133'
     definition: deviation of a ray of light through a specific point on a lens
+    definition_paragraphs:
+    - text: deviation of a ray of light through a specific point on a lens
+      sources: []
     notes:
     - 'Note: The unit for expressing prismatic power is the centimetre per metre (cm/m).
       The name for this unit is the “prism dioptre”, for which the symbol is D.'
+    note_paragraphs:
+    - text: 'Note: The unit for expressing prismatic power is the centimetre per metre
+        (cm/m). The name for this unit is the “prism dioptre”, for which the symbol
+        is D.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -27,8 +27,15 @@ data:
     definition: treatment of the equipment under test, with the object of eliminating
       or partially counteracting the effects of its previous history. Where called
       for, this is the first process in the test procedure
+    definition_paragraphs:
+    - text: treatment of the equipment under test, with the object of eliminating
+        or partially counteracting the effects of its previous history. Where called
+        for, this is the first process in the test procedure
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -42,9 +49,17 @@ data:
     g18_entry: '02429'
     definition: treatment of the equipment under test (3.1.17) with the objective
       of eliminating or partially counteracting the effects of its previous history
+    definition_paragraphs:
+    - text: treatment of the equipment under test (3.1.17) with the objective of eliminating
+        or partially counteracting the effects of its previous history
+      sources: []
     notes:
     - 'Note: Where called for, this is the first process in a test procedure.'
+    note_paragraphs:
+    - text: 'Note: Where called for, this is the first process in a test procedure.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

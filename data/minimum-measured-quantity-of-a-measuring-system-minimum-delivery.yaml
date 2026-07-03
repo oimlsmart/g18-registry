@@ -25,10 +25,19 @@ data:
     g18_entry: '03311'
     definition: minimum totalized mass in one batch of gas required to fulfill the
       metrological criteria of the specific measuring system
+    definition_paragraphs:
+    - text: minimum totalized mass in one batch of gas required to fulfill the metrological
+        criteria of the specific measuring system
+      sources: []
     notes:
     - 'Note: Measuring systems should not be used for measuring quantities less than
       the MMQ.'
+    note_paragraphs:
+    - text: 'Note: Measuring systems should not be used for measuring quantities less
+        than the MMQ.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

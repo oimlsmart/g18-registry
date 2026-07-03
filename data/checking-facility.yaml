@@ -36,10 +36,20 @@ data:
     definition: facility that is incorporated in a measuring instrument and which
       "Acted upon" refers to any adequate response enables significant faults to be
       detected and acted upon by ac me
+    definition_paragraphs:
+    - text: facility that is incorporated in a measuring instrument and which "Acted
+        upon" refers to any adequate response enables significant faults to be detected
+        and acted upon by ac me
+      sources: []
     notes:
     - the measuring instrument (luminous signal, oustic signal, prevention of the
       asurement process, etc.).
+    note_paragraphs:
+    - text: the measuring instrument (luminous signal, oustic signal, prevention of
+        the asurement process, etc.).
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -54,10 +64,20 @@ data:
     definition: facility that is incorporated in a measuring instrument and which
       1. "Acted upon" refers to any adequate enables significant faults to be detected
       and acted upon res (lu of 2.
+    definition_paragraphs:
+    - text: facility that is incorporated in a measuring instrument and which 1. "Acted
+        upon" refers to any adequate enables significant faults to be detected and
+        acted upon res (lu of 2.
+      sources: []
     notes:
     - ponse by the measuring instrument minous signal, acoustic signal, prevention
       the measurement process, etc.). (OIML D 11:2004, 3.18 [1])
+    note_paragraphs:
+    - text: ponse by the measuring instrument minous signal, acoustic signal, prevention
+        the measurement process, etc.). (OIML D 11:2004, 3.18 [1])
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -72,10 +92,27 @@ data:
     definition: facility that is incorporated in a measuring instrument and which
       1. "Acted upon" refers to any adequate enables significant faults to be detected
       and acted upon
+    definition_paragraphs:
+    - text: facility that is incorporated in a measuring instrument and which 1. "Acted
+        upon" refers to any adequate enables significant faults to be detected and
+        acted upon
+      sources:
+      - kind: other
+        relationship: identical
+        modification:
+        ref_source: OIML D011:2004
+        ref_id: '3.18'
+        is_vimline: false
     notes:
     - '"Acted upon" refers to any adequate response by the measuring instrument (luminous
       signal, acoustic signal, prevention of the measurement process, etc.).'
+    note_paragraphs:
+    - text: '"Acted upon" refers to any adequate response by the measuring instrument
+        (luminous signal, acoustic signal, prevention of the measurement process,
+        etc.).'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -91,10 +128,22 @@ data:
       that "Acted upon" refers to any adequate response enables: by significant faults;
       and/or pr incorrect functioning of a specific device of the ALG; and/or disturbed
       communication between specific devices of the ALG tobe detected and acted upon'
+    definition_paragraphs:
+    - text: '- - - facility incorporated in an electronic automatic level gauge that
+        "Acted upon" refers to any adequate response enables: by significant faults;
+        and/or pr incorrect functioning of a specific device of the ALG; and/or disturbed
+        communication between specific devices of the ALG tobe detected and acted
+        upon'
+      sources: []
     notes:
     - the ALG (luminous signal, acoustic signal, evention of the measurement process,
       etc.).
+    note_paragraphs:
+    - text: the ALG (luminous signal, acoustic signal, evention of the measurement
+        process, etc.).
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -109,10 +158,21 @@ data:
     definition: facility that is incorporated in the instrument and that enables 1.
       "Acted upon" means any adequate response significant faults to be detected and
       acted upon
+    definition_paragraphs:
+    - text: facility that is incorporated in the instrument and that enables 1. "Acted
+        upon" means any adequate response significant faults to be detected and acted
+        upon
+      sources: []
     notes:
     - by the instrument (luminous or acoustic signal, blocking of process, etc.);
     - 2. Adapted from OIML D 11:2004, 3.18.
+    note_paragraphs:
+    - text: by the instrument (luminous or acoustic signal, blocking of process, etc.);
+      sources: []
+    - text: 2. Adapted from OIML D 11:2004, 3.18.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -128,8 +188,16 @@ data:
       presence of a necessary device, * enables an incorrectness in the generation,
       transmission, processing and/or indication of a measurement data to be detected
       and acted upon, and * enables significant faults to be detected and acted upon'
+    definition_paragraphs:
+    - text: 'facility incorporated in a measuring system which: * checks for the presence
+        of a necessary device, * enables an incorrectness in the generation, transmission,
+        processing and/or indication of a measurement data to be detected and acted
+        upon, and * enables significant faults to be detected and acted upon'
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -143,11 +211,21 @@ data:
     g18_entry: '02034'
     definition: facility which is incorporated in a measuring system and which enables
       significant faults to be detected and acted upon
+    definition_paragraphs:
+    - text: facility which is incorporated in a measuring system and which enables
+        significant faults to be detected and acted upon
+      sources: []
     notes:
     - The checking of a transmission device aims at verifying that all the information
       which is transmitted (and only that information) is fu received by the receiving
       equipment.
+    note_paragraphs:
+    - text: The checking of a transmission device aims at verifying that all the information
+        which is transmitted (and only that information) is fu received by the receiving
+        equipment.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -161,11 +239,21 @@ data:
     g18_entry: '02100'
     definition: facility that is incorporated in a measuring system and which enables
       significant faults to be detected and acted upon
+    definition_paragraphs:
+    - text: facility that is incorporated in a measuring system and which enables
+        significant faults to be detected and acted upon
+      sources: []
     notes:
     - The checking of a transmission device aims at verifying that all the information
       which is transmitted (and only that information) is fu received by the receiving
       equipment.
+    note_paragraphs:
+    - text: The checking of a transmission device aims at verifying that all the information
+        which is transmitted (and only that information) is fu received by the receiving
+        equipment.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -180,10 +268,20 @@ data:
     definition: facility incorporated in a water meter with electronic devices and
       The checking of a transmission device aims at which enables significant faults
       to be detected and acted upon v t r
+    definition_paragraphs:
+    - text: facility incorporated in a water meter with electronic devices and The
+        checking of a transmission device aims at which enables significant faults
+        to be detected and acted upon v t r
+      sources: []
     notes:
     - erifying that all the information which is ransmitted (and only that information)
       is fully eceived by the receiving equipment.
+    note_paragraphs:
+    - text: erifying that all the information which is ransmitted (and only that information)
+        is fully eceived by the receiving equipment.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -198,10 +296,20 @@ data:
     definition: facility that is incorporated in a measuring instrument and which
       «Acted upon» refers to any adequate response enables significant faults to be
       detected and acted upon by ac me
+    definition_paragraphs:
+    - text: facility that is incorporated in a measuring instrument and which «Acted
+        upon» refers to any adequate response enables significant faults to be detected
+        and acted upon by ac me
+      sources: []
     notes:
     - the measuring instrument (luminous signal, oustic signal, prevention of the
       asurement process, etc.).
+    note_paragraphs:
+    - text: the measuring instrument (luminous signal, oustic signal, prevention of
+        the asurement process, etc.).
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -215,10 +323,19 @@ data:
     g18_entry: '01653'
     definition: a facility that is incorporated in a measuring instrument which enables
       significant faults to be detected and acted upon
+    definition_paragraphs:
+    - text: a facility that is incorporated in a measuring instrument which enables
+        significant faults to be detected and acted upon
+      sources: []
     notes:
     - '"Acted upon" refers to any adequate response by the measuring instrument (luminous
       or acoustic signal, prevention of the measurement process, etc.).'
+    note_paragraphs:
+    - text: '"Acted upon" refers to any adequate response by the measuring instrument
+        (luminous or acoustic signal, prevention of the measurement process, etc.).'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -233,10 +350,20 @@ data:
     definition: a facility that is incorporated in a measuring system and enables
       The checking of a transmission device aims at significant faults to be detected
       and acted upon
+    definition_paragraphs:
+    - text: a facility that is incorporated in a measuring system and enables The
+        checking of a transmission device aims at significant faults to be detected
+        and acted upon
+      sources: []
     notes:
     - verifying that all information that is transmitted (and only that information)
       is fully received by the receiving equipment.
+    note_paragraphs:
+    - text: verifying that all information that is transmitted (and only that information)
+        is fully received by the receiving equipment.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -250,8 +377,14 @@ data:
     g18_entry: '03745'
     definition: facility that is incorporated in a measuring instrument and which
       enables significant faults to be detected and acted upon
+    definition_paragraphs:
+    - text: facility that is incorporated in a measuring instrument and which enables
+        significant faults to be detected and acted upon
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -270,10 +403,20 @@ data:
     g18_entry: '03713'
     definition: facility that is incorporated in a measuring instrument and which
       enables significant faults to be detected and acted upon
+    definition_paragraphs:
+    - text: facility that is incorporated in a measuring instrument and which enables
+        significant faults to be detected and acted upon
+      sources: []
     notes:
     - 'Note: “Acted upon” refers to any adequate response by the measuring instrument
       (luminous signal, acoustic signal, prevention of the measurement process, etc.).'
+    note_paragraphs:
+    - text: 'Note: “Acted upon” refers to any adequate response by the measuring instrument
+        (luminous signal, acoustic signal, prevention of the measurement process,
+        etc.).'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -288,6 +431,11 @@ data:
     definition: 'facility that is incorporated in a meter and which enables significant
       fault(s) (3.2.8) to be detected and acted upon [SOURCE: OIML D11:2013, 3.19,
       [8], , modified — “meter” replaces “measuring instrument”; “Note 3” added]'
+    definition_paragraphs:
+    - text: 'facility that is incorporated in a meter and which enables significant
+        fault(s) (3.2.8) to be detected and acted upon [SOURCE: OIML D11:2013, 3.19,
+        [8], , modified — “meter” replaces “measuring instrument”; “Note 3” added]'
+      sources: []
     notes:
     - 'Typically, checking facilities detect and act upon: incorrect function of specific
       device of the meter, and/or disturbed communication between specific devices
@@ -298,7 +446,21 @@ data:
     - The checking of a transmission device aims to verify whether all the information
       which is transmitted (and only that information) is fully received by the receiving
       equipment.
+    note_paragraphs:
+    - text: 'Typically, checking facilities detect and act upon: incorrect function
+        of specific device of the meter, and/or disturbed communication between specific
+        devices of the meter.'
+      sources: []
+    - text: '"Act upon" refers to any adequate response by measuring instrument (for
+        example: a luminous signal, an acoustic signal, interruption or blocking of
+        the measurement process, etc.).'
+      sources: []
+    - text: The checking of a transmission device aims to verify whether all the information
+        which is transmitted (and only that information) is fully received by the
+        receiving equipment.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -312,10 +474,26 @@ data:
     g18_entry: '02928'
     definition: facility that is incorporated in a measuring instrument and which
       enables significant  defect to be detected and acted upon
+    definition_paragraphs:
+    - text: facility that is incorporated in a measuring instrument and which enables
+        significant  defect to be detected and acted upon
+      sources:
+      - kind: viml
+        relationship: modified
+        modification:
+        ref_source: OIML V 1:2022
+        ref_id: '5.07'
+        is_vimline: true
     notes:
     - '"Acted upon" refers to any adequate response by the measuring instrument (luminous
       signal, acoustic signal, prevention of the measurement process, etc.).'
+    note_paragraphs:
+    - text: '"Acted upon" refers to any adequate response by the measuring instrument
+        (luminous signal, acoustic signal, prevention of the measurement process,
+        etc.).'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: modified
@@ -338,11 +516,30 @@ data:
 
       * incorrect functioning of a specific device of the measuring instrument or system, and/or
       * disturbed communication between specific devices of the measuring instrument or system
+    definition_paragraphs:
+    - text: |-
+        facility, incorporated in a measuring instrument (or system), which enables significant faults to be detected and acted upon, including
+
+        * incorrect functioning of a specific device of the measuring instrument or system, and/or
+        * disturbed communication between specific devices of the measuring instrument or system
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2013
+        ref_id: '5.07'
+        is_vimline: true
     notes:
     - 'Note:  “Acted upon” refers to any adequate response by the measuring instrument
       (for example a luminous signal, an acoustic signal, interruption or blocking
       of the measurement process, etc.).'
+    note_paragraphs:
+    - text: 'Note:  “Acted upon” refers to any adequate response by the measuring
+        instrument (for example a luminous signal, an acoustic signal, interruption
+        or blocking of the measurement process, etc.).'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical
@@ -362,8 +559,14 @@ data:
     g18_entry: '02930'
     definition: facility incorporated in a measuring instrument which enables significant
       faults to be detected and acted upon (OIML D11, 3.3)
+    definition_paragraphs:
+    - text: facility incorporated in a measuring instrument which enables significant
+        faults to be detected and acted upon (OIML D11, 3.3)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -378,6 +581,11 @@ data:
     definition: facility that is incorporated in a measuring instrument and which
       enables significant defects to be detected and acted upon (adapted from OIML
       V 1, 5.07)
+    definition_paragraphs:
+    - text: facility that is incorporated in a measuring instrument and which enables
+        significant defects to be detected and acted upon (adapted from OIML V 1,
+        5.07)
+      sources: []
     notes:
     - 'Note: “Acted upon” refers to any adequate response by the measuring instrument
       (luminous signal, acoustic signal, prevention of the measurement process, etc.)
@@ -385,7 +593,16 @@ data:
       in significant faults, and/or •incorrect functioning of a specific device of
       the measuring instrument, and/or •disturbed communication between specific devices
       of the measuring instrument.'
+    note_paragraphs:
+    - text: 'Note: “Acted upon” refers to any adequate response by the measuring instrument
+        (luminous signal, acoustic signal, prevention of the measurement process,
+        etc.) These significant defects could be for example events that otherwise
+        will result in significant faults, and/or •incorrect functioning of a specific
+        device of the measuring instrument, and/or •disturbed communication between
+        specific devices of the measuring instrument.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -401,8 +618,16 @@ data:
       of a necessary device, enables an incorrectness in the generation, transmission,
       processing and/or indication of a measurement data to be detected and acted
       upon, and - enables significant faults to be detected and acted upon
+    definition_paragraphs:
+    - text: facility incorporated in a measuring system which checks for the presence
+        of a necessary device, enables an incorrectness in the generation, transmission,
+        processing and/or indication of a measurement data to be detected and acted
+        upon, and - enables significant faults to be detected and acted upon
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -416,10 +641,20 @@ data:
     g18_entry: '02927'
     definition: facility that is incorporated in a measuring instrument and which
       enables significant faults to be detected and acted upon
+    definition_paragraphs:
+    - text: facility that is incorporated in a measuring instrument and which enables
+        significant faults to be detected and acted upon
+      sources: []
     notes:
     - 'Note: "Acted upon" refers to any adequate response by the measuring instrument
       (luminous signal, acoustic signal, prevention of the measurement process, etc.).'
+    note_paragraphs:
+    - text: 'Note: "Acted upon" refers to any adequate response by the measuring instrument
+        (luminous signal, acoustic signal, prevention of the measurement process,
+        etc.).'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -433,10 +668,20 @@ data:
     g18_entry: '02471'
     definition: facility incorporated in a measuring instrument and which enables
       significant faults to be detected and acted upon
+    definition_paragraphs:
+    - text: facility incorporated in a measuring instrument and which enables significant
+        faults to be detected and acted upon
+      sources: []
     notes:
     - 'Note: “Acted upon” refers to any adequate response by the measuring instrument
       (luminous signal, acoustic signal, prevention of the measurement process, etc.).'
+    note_paragraphs:
+    - text: 'Note: “Acted upon” refers to any adequate response by the measuring instrument
+        (luminous signal, acoustic signal, prevention of the measurement process,
+        etc.).'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -450,6 +695,10 @@ data:
     g18_entry: 02235-D011
     definition: facility incorporated in a measuring instrument which enables significant
       faults to be detected and acted upon
+    definition_paragraphs:
+    - text: facility incorporated in a measuring instrument which enables significant
+        faults to be detected and acted upon
+      sources: []
     notes:
     - Typically, checking facilities detect and act upon incorrect functioning of
       a specific device of the measuring instrument, and/or disturbed communication
@@ -457,7 +706,17 @@ data:
     - '"Act upon" refers to any adequate response by the measuring instrument (for
       example: a luminous signal, an acoustic signal, interruption or blocking of
       the measurement process, etc.).'
+    note_paragraphs:
+    - text: Typically, checking facilities detect and act upon incorrect functioning
+        of a specific device of the measuring instrument, and/or disturbed communication
+        between specific devices of the measuring instrument.
+      sources: []
+    - text: '"Act upon" refers to any adequate response by the measuring instrument
+        (for example: a luminous signal, an acoustic signal, interruption or blocking
+        of the measurement process, etc.).'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -471,8 +730,14 @@ data:
     g18_entry: '02776'
     definition: facility that is incorporated in a measuring instrument and which
       enables significant faults to be detected and acted upon
+    definition_paragraphs:
+    - text: facility that is incorporated in a measuring instrument and which enables
+        significant faults to be detected and acted upon
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -486,6 +751,10 @@ data:
     g18_entry: 02331-R046-1
     definition: facility that is incorporated in a measuring instrument and which
       enables significant faults to be detected and acted upon
+    definition_paragraphs:
+    - text: facility that is incorporated in a measuring instrument and which enables
+        significant faults to be detected and acted upon
+      sources: []
     notes:
     - '"Acted upon" refers to any adequate response by the measuring instrument (luminous
       signal, acoustic signal, prevention of the measurement process, etc.). [OIML
@@ -497,7 +766,22 @@ data:
       measured during the fault.'
     - Faults that are detected and acted upon by means of a checking facility shall
       not be considered as significant faults.
+    note_paragraphs:
+    - text: '"Acted upon" refers to any adequate response by the measuring instrument
+        (luminous signal, acoustic signal, prevention of the measurement process,
+        etc.). [OIML V 1:2013, 5.07]'
+      sources: []
+    - text: 'For the application of this Recommendation, the term "measuring instrument"
+        means: electricity meter and the action following the detection of a significant
+        fault should be either to stop measuring and record the time and duration
+        of the stop, or record the time and duration of the fault and the amount of
+        energy measured during the fault.'
+      sources: []
+    - text: Faults that are detected and acted upon by means of a checking facility
+        shall not be considered as significant faults.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -511,10 +795,20 @@ data:
     g18_entry: '02295-R080-1'
     definition: facility that is incorporated in a measuring instrument and which
       enables significant faults to be detected and acted upon
+    definition_paragraphs:
+    - text: facility that is incorporated in a measuring instrument and which enables
+        significant faults to be detected and acted upon
+      sources: []
     notes:
     - 'Note: "Acted upon" refers to any adequate response by the measuring instrument
       (luminous signal, acoustic signal, prevention of the measurement process, etc.).'
+    note_paragraphs:
+    - text: 'Note: "Acted upon" refers to any adequate response by the measuring instrument
+        (luminous signal, acoustic signal, prevention of the measurement process,
+        etc.).'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -528,11 +822,23 @@ data:
     g18_entry: '02148'
     definition: facility that is incorporated in a measuring instrument and which
       enables significant faults to be detected and acted upon
+    definition_paragraphs:
+    - text: facility that is incorporated in a measuring instrument and which enables
+        significant faults to be detected and acted upon
+      sources: []
     notes:
     - '"Acted upon" refers to any adequate response by the measuring instrument (luminous
       signal, acoustic signal, prevention of the measurement process, etc.).'
     - "(OIML D 11:2004, 3.18 [1])"
+    note_paragraphs:
+    - text: '"Acted upon" refers to any adequate response by the measuring instrument
+        (luminous signal, acoustic signal, prevention of the measurement process,
+        etc.).'
+      sources: []
+    - text: "(OIML D 11:2004, 3.18 [1])"
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -548,10 +854,21 @@ data:
       enables: - significant faults; and/or - incorrect functioning of a specific
       device of the ALG; and/or - disturbed communication between specific devices
       of the ALG to be detected and acted upon'
+    definition_paragraphs:
+    - text: 'facility incorporated in an electronic automatic level gauge that enables:
+        - significant faults; and/or - incorrect functioning of a specific device
+        of the ALG; and/or - disturbed communication between specific devices of the
+        ALG to be detected and acted upon'
+      sources: []
     notes:
     - '"Acted upon" refers to any adequate response by the ALG (luminous signal, acoustic
       signal,prevention of the measurement process, etc.).'
+    note_paragraphs:
+    - text: '"Acted upon" refers to any adequate response by the ALG (luminous signal,
+        acoustic signal,prevention of the measurement process, etc.).'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -565,11 +882,21 @@ data:
     g18_entry: '02363'
     definition: facility that is incorporated in the instrument and that enables significant
       faults to be detected and acted upon
+    definition_paragraphs:
+    - text: facility that is incorporated in the instrument and that enables significant
+        faults to be detected and acted upon
+      sources: []
     notes:
     - 'Note: “Acted upon” means any adequate response by the instrument (luminous
       or acoustic signal, blocking of process, etc.); Adapted from OIML D 11:2004,
       3.18.'
+    note_paragraphs:
+    - text: 'Note: “Acted upon” means any adequate response by the instrument (luminous
+        or acoustic signal, blocking of process, etc.); Adapted from OIML D 11:2004,
+        3.18.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -583,11 +910,21 @@ data:
     g18_entry: '02100'
     definition: facility that is incorporated in a measuring system and which enables
       significant faults to be detected and acted upon
+    definition_paragraphs:
+    - text: facility that is incorporated in a measuring system and which enables
+        significant faults to be detected and acted upon
+      sources: []
     notes:
     - 'Note: The checking of a transmission device aims at verifying that all the
       information which is transmitted (and only that information) is fully received
       by the receiving equipment.'
+    note_paragraphs:
+    - text: 'Note: The checking of a transmission device aims at verifying that all
+        the information which is transmitted (and only that information) is fully
+        received by the receiving equipment.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -601,10 +938,19 @@ data:
     g18_entry: '01653'
     definition: a facility that is incorporated in a measuring system and enables
       significant faults to be detected and acted upon
+    definition_paragraphs:
+    - text: a facility that is incorporated in a measuring system and enables significant
+        faults to be detected and acted upon
+      sources: []
     notes:
     - 'Note: “Acted upon” refers to any adequate response by the measuring instrument
       (luminous or acoustic signal, prevention of the measurement process, etc.).'
+    note_paragraphs:
+    - text: 'Note: “Acted upon” refers to any adequate response by the measuring instrument
+        (luminous or acoustic signal, prevention of the measurement process, etc.).'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

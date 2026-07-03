@@ -37,8 +37,14 @@ data:
     g18_entry: '02992'
     definition: calculated value obtained by applying a conversion factor to the object’s
       dimensional volume (see 2.2.4) or measured dimensions (see 2.2.3)
+    definition_paragraphs:
+    - text: calculated value obtained by applying a conversion factor to the object’s
+        dimensional volume (see 2.2.4) or measured dimensions (see 2.2.3)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

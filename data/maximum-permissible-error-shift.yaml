@@ -26,13 +26,27 @@ data:
     definition: extreme value of the change in error of indication of a meter, permitted
       by this Recommendation, when a single influence factor is taken from its value
       at reference conditions and varied within the rated operating conditions
+    definition_paragraphs:
+    - text: extreme value of the change in error of indication of a meter, permitted
+        by this Recommendation, when a single influence factor is taken from its value
+        at reference conditions and varied within the rated operating conditions
+      sources: []
     notes:
     - For each influence factor there is one corresponding maximum permissible error
       shift.
     - In this Recommendation, the maximum permissible error is a combination of the
       base maximum permissible error and the maximum permissible error shift as described
       in Annex B.
+    note_paragraphs:
+    - text: For each influence factor there is one corresponding maximum permissible
+        error shift.
+      sources: []
+    - text: In this Recommendation, the maximum permissible error is a combination
+        of the base maximum permissible error and the maximum permissible error shift
+        as described in Annex B.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

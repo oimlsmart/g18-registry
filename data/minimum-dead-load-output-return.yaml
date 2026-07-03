@@ -32,8 +32,14 @@ data:
     g18_entry: '00720'
     definition: difference in load cell output at minimum dead load, measured before
       and after load application
+    definition_paragraphs:
+    - text: difference in load cell output at minimum dead load, measured before and
+        after load application
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -48,8 +54,14 @@ data:
     definition: difference of load cell output, expressed in units of mass at the
       minimum dead load (Dmin), measured before and after application of a load of
       Dmax
+    definition_paragraphs:
+    - text: difference of load cell output, expressed in units of mass at the minimum
+        dead load (Dmin), measured before and after application of a load of Dmax
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

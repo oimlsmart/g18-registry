@@ -24,8 +24,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r126-e98.pdf
     g18_entry: '01664'
     definition: an EBA that may be used within or outside a building
+    definition_paragraphs:
+    - text: an EBA that may be used within or outside a building
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

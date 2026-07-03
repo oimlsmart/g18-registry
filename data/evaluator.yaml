@@ -26,8 +26,14 @@ data:
     g18_entry: '02156'
     definition: "- G.3-2 person on the staff of the certification body who is in charge
       of the type evaluation of a measuring instrument"
+    definition_paragraphs:
+    - text: "- G.3-2 person on the staff of the certification body who is in charge
+        of the type evaluation of a measuring instrument"
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '02156'
     definition: person on the staff of the certification body who is in charge of
       the type evaluation of a measuring instrument
+    definition_paragraphs:
+    - text: person on the staff of the certification body who is in charge of the
+        type evaluation of a measuring instrument
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

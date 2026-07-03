@@ -24,8 +24,13 @@ data:
     link:
     g18_entry: '02531'
     definition: number of wagons coupled together with or without a locomotive
+    definition_paragraphs:
+    - text: number of wagons coupled together with or without a locomotive
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

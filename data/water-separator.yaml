@@ -26,8 +26,14 @@ data:
     g18_entry: '02334'
     definition: device that removes water from the exhaust gas sample to a level that
       prevents condensation within the gas handling system downstream from its location
+    definition_paragraphs:
+    - text: device that removes water from the exhaust gas sample to a level that
+        prevents condensation within the gas handling system downstream from its location
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: 02334-R099-1
     definition: device that removes water from the exhaust gas sample to a level that
       prevents condensation within the gas handling system downstream from its location
+    definition_paragraphs:
+    - text: device that removes water from the exhaust gas sample to a level that
+        prevents condensation within the gas handling system downstream from its location
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

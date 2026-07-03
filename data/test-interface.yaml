@@ -25,10 +25,19 @@ data:
     g18_entry: '03789'
     definition: software or hardware interface from which measurement signals or data
       can be read or to which measurement signals can be inserted
+    definition_paragraphs:
+    - text: software or hardware interface from which measurement signals or data
+        can be read or to which measurement signals can be inserted
+      sources: []
     notes:
     - 'Note: To record and analyse signals from field experiments or to insert recorded
       or artificial data, e.g. to support metrological control.'
+    note_paragraphs:
+    - text: 'Note: To record and analyse signals from field experiments or to insert
+        recorded or artificial data, e.g. to support metrological control.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

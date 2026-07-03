@@ -26,8 +26,14 @@ data:
     g18_entry: '00184'
     definition: combination of a product and the packing material in which it is prepacked
       (see OIML R 87 [5])
+    definition_paragraphs:
+    - text: combination of a product and the packing material in which it is prepacked
+        (see OIML R 87 [5])
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -40,8 +46,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r087-e04.pdf
     g18_entry: '01119'
     definition: combination of a product and the packing material in which it is prepacked
+    definition_paragraphs:
+    - text: combination of a product and the packing material in which it is prepacked
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -59,6 +70,14 @@ data:
       packing material encloses the product completely or only partially, but in any
       case in such a way that the actual quantity of product cannot be altered without
       the packing material either being opened or undergoing a perceptible modification
+    definition_paragraphs:
+    - text: single item for presentation as such to a consumer, consisting of a product
+        and its packing material, made up before being offered for sale and in which
+        the quantity of the product has a predetermined value, whether the packing
+        material encloses the product completely or only partially, but in any case
+        in such a way that the actual quantity of product cannot be altered without
+        the packing material either being opened or undergoing a perceptible modification
+      sources: []
     notes:
     - For the purpose of this Recommendation "prepackage" includes those prepackages
       marked with a constant nominal quantity and thus excludes those prepackages
@@ -66,7 +85,17 @@ data:
       to the value determined prior to the prepackage being offered for sale.
     - The actual quantity of some products may change after packing due to desiccation
       or chemical reactions.
+    note_paragraphs:
+    - text: For the purpose of this Recommendation "prepackage" includes those prepackages
+        marked with a constant nominal quantity and thus excludes those prepackages
+        marked with random nominal quantities. The term "predetermined value" refers
+        to the value determined prior to the prepackage being offered for sale.
+      sources: []
+    - text: The actual quantity of some products may change after packing due to desiccation
+        or chemical reactions.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -79,12 +108,20 @@ data:
     link:
     g18_entry: '02486'
     definition: ''
+    definition_paragraphs: []
     notes:
     - 'Note: For the purpose of this Recommendation prepackages include prepackages
       marked with a constant nominal quantity or random nominal quantities. The term
       “predetermined value” refers to the value determined prior to the prepackage
       being offered for sale.'
+    note_paragraphs:
+    - text: 'Note: For the purpose of this Recommendation prepackages include prepackages
+        marked with a constant nominal quantity or random nominal quantities. The
+        term “predetermined value” refers to the value determined prior to the prepackage
+        being offered for sale.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -97,9 +134,16 @@ data:
     link:
     g18_entry: 02257-D016
     definition: combination of a product and the packing material in which it is prepacked
+    definition_paragraphs:
+    - text: combination of a product and the packing material in which it is prepacked
+      sources: []
     notes:
     - "(see OIML R 87)"
+    note_paragraphs:
+    - text: "(see OIML R 87)"
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -113,8 +157,14 @@ data:
     g18_entry: '00184'
     definition: combination of a product and the packing material in which it is prepacked
       (see OIML R 87 [5])
+    definition_paragraphs:
+    - text: combination of a product and the packing material in which it is prepacked
+        (see OIML R 87 [5])
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

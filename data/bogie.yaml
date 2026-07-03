@@ -25,8 +25,14 @@ data:
     g18_entry: '02579'
     definition: set of two or more axles included in a defined group at each end of
       a wagon and their respective interspaces
+    definition_paragraphs:
+    - text: set of two or more axles included in a defined group at each end of a
+        wagon and their respective interspaces
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

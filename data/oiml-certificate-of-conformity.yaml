@@ -26,8 +26,15 @@ data:
     definition: document issued by an OIML Issuing Authority indicating that the identified
       measuring instrument type is in conformity with the requirements of the applicable
       OIML Recommendation
+    definition_paragraphs:
+    - text: document issued by an OIML Issuing Authority indicating that the identified
+        measuring instrument type is in conformity with the requirements of the applicable
+        OIML Recommendation
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -42,8 +49,15 @@ data:
     definition: document issued under the rules of the System by the Issuing Authority
       providing confidence that the identified type of measuring instrument is in
       conformity with the requirements of the relevant Recommendation
+    definition_paragraphs:
+    - text: document issued under the rules of the System by the Issuing Authority
+        providing confidence that the identified type of measuring instrument is in
+        conformity with the requirements of the relevant Recommendation
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

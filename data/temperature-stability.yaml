@@ -27,8 +27,15 @@ data:
     definition: temperature stability has been reached when all parts of the equipment
       under test are within 3 °C of each other, or as otherwise specified in the relevant
       specification of its final temperature
+    definition_paragraphs:
+    - text: temperature stability has been reached when all parts of the equipment
+        under test are within 3 °C of each other, or as otherwise specified in the
+        relevant specification of its final temperature
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -43,8 +50,15 @@ data:
     definition: condition in which all parts of the equipment under test (3.1.17)
       have a temperature within 3 °C of each other, or as otherwise specified in the
       relevant specification of its final temperature
+    definition_paragraphs:
+    - text: condition in which all parts of the equipment under test (3.1.17) have
+        a temperature within 3 °C of each other, or as otherwise specified in the
+        relevant specification of its final temperature
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

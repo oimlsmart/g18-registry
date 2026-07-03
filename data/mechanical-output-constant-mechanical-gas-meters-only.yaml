@@ -28,8 +28,17 @@ data:
       the value of the quantity corresponding to one complete revolution of the test
       element by the transmission ratio of the indicating device to this shaft. he
       mechanical output is an element to drive an ancillary device
+    definition_paragraphs:
+    - text: value of the quantity corresponding to one complete revolution of the
+        shaft of the mechanical output. This value is determined by multiplying the
+        value of the quantity corresponding to one complete revolution of the test
+        element by the transmission ratio of the indicating device to this shaft.
+        he mechanical output is an element to drive an ancillary device
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

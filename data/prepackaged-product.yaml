@@ -30,8 +30,19 @@ data:
       in any case in such a way that the actual quantity of product cannot be altered
       without the packing material either being opened or undergoing a perceptible
       modification
+    definition_paragraphs:
+    - text: single item for presentation as such to a consumer, consisting of a product
+        and the packing material into which it was put before being offered for sale
+        and in which the quantity of product has a predetermined value, whether the
+        packing material encloses the product completely or only partially, but in
+        any case in such a way that the actual quantity of product cannot be altered
+        without the packing material either being opened or undergoing a perceptible
+        modification
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -46,8 +57,15 @@ data:
     definition: any commodity that is enclosed in a container or wrapped in any manner,
       and for which its quantity has been determined and indicated on its label prior
       to being offered for sale
+    definition_paragraphs:
+    - text: any commodity that is enclosed in a container or wrapped in any manner,
+        and for which its quantity has been determined and indicated on its label
+        prior to being offered for sale
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

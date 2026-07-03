@@ -31,10 +31,19 @@ data:
     g18_entry: '00791'
     definition: rated value of the fill below which the weighing results may be subject
       to errors outside the limits specified in this Recommendation
+    definition_paragraphs:
+    - text: rated value of the fill below which the weighing results may be subject
+        to errors outside the limits specified in this Recommendation
+      sources: []
     notes:
     - for filling instruments which effect the fill by more than one weighing cycle,
       Minfill is larger than the minimum capacity (Min).
+    note_paragraphs:
+    - text: for filling instruments which effect the fill by more than one weighing
+        cycle, Minfill is larger than the minimum capacity (Min).
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

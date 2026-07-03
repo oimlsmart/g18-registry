@@ -27,8 +27,16 @@ data:
       on a remotely configurable device, that enables and inhibits the capability
       to receive adjustment values or changes to sealable configuration parameters
       from a remote device
+    definition_paragraphs:
+    - text: physically sealable hardware, such as a two-position switch, located on
+        a remotely configurable device, that enables and inhibits the capability to
+        receive adjustment values or changes to sealable configuration parameters
+        from a remote device
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -44,8 +52,16 @@ data:
       on a remotely configurable device, that enables and inhibits the capability
       to receive adjustment values or changes to sealable configuration parameters
       from a remote device
+    definition_paragraphs:
+    - text: physically sealable hardware, such as a two-position switch, located on
+        a remotely configurable device, that enables and inhibits the capability to
+        receive adjustment values or changes to sealable configuration parameters
+        from a remote device
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

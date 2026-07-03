@@ -27,11 +27,22 @@ data:
     definition: organization that has been authorized by the national responsible
       This term may also apply to distributors, body to provide a declaration of conformity
       of a manufactured impor measuring instrument to legal requirements r a m i
+    definition_paragraphs:
+    - text: organization that has been authorized by the national responsible This
+        term may also apply to distributors, body to provide a declaration of conformity
+        of a manufactured impor measuring instrument to legal requirements r a m i
+      sources: []
     notes:
     - ters, assemblers, installers, repackagers, elabelers, etc. that have responsibility
       for ssuring the quality and performance of a easuring instrument prior to its
       being placed n service (see ISO/IEC Guide 22 [4]).
+    note_paragraphs:
+    - text: ters, assemblers, installers, repackagers, elabelers, etc. that have responsibility
+        for ssuring the quality and performance of a easuring instrument prior to
+        its being placed n service (see ISO/IEC Guide 22 [4]).
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -46,12 +57,24 @@ data:
     definition: organization that has been authorized by the national responsible
       body to provide a declaration of conformity of a manufactured measuring instrument
       to legal requirements
+    definition_paragraphs:
+    - text: organization that has been authorized by the national responsible body
+        to provide a declaration of conformity of a manufactured measuring instrument
+        to legal requirements
+      sources: []
     notes:
     - 'Note: This term may also apply to distributors, importers, assemblers, installers,
       repackagers, relabelers, etc. that have responsibility for assuring the quality
       and performance of a measuring instrument prior to its being placed in service
       (see ISO/IEC Guide 22 [4]).'
+    note_paragraphs:
+    - text: 'Note: This term may also apply to distributors, importers, assemblers,
+        installers, repackagers, relabelers, etc. that have responsibility for assuring
+        the quality and performance of a measuring instrument prior to its being placed
+        in service (see ISO/IEC Guide 22 [4]).'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

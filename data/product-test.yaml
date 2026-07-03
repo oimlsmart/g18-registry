@@ -25,8 +25,14 @@ data:
     g18_entry: '03393'
     definition: test carried out on a complete instrument using the type of product
       that it is intended to weigh
+    definition_paragraphs:
+    - text: test carried out on a complete instrument using the type of product that
+        it is intended to weigh
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

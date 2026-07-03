@@ -26,8 +26,13 @@ data:
     g18_entry: '01429'
     definition: a pressure value that is perfectly consistent with the definition
       of pressure
+    definition_paragraphs:
+    - text: a pressure value that is perfectly consistent with the definition of pressure
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +46,13 @@ data:
     g18_entry: '01429'
     definition: a pressure value that is perfectly consistent with the definition
       of pressure
+    definition_paragraphs:
+    - text: a pressure value that is perfectly consistent with the definition of pressure
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -26,6 +26,11 @@ data:
     definition: laboratory performing certain or all test on type of measuring instrument.
       A Test Laboratory is designated by an OIML Issuing Authority and accepted by
       the OIML-CS Management Committee
+    definition_paragraphs:
+    - text: laboratory performing certain or all test on type of measuring instrument.
+        A Test Laboratory is designated by an OIML Issuing Authority and accepted
+        by the OIML-CS Management Committee
+      sources: []
     notes:
     - A Test Laboratory may be an internal Test Laboratory of an OIML Issuing Authority,
       a third-party Test Laboratory or Manufacturer's Test Laboratory (MTL).
@@ -33,7 +38,19 @@ data:
       issuing the OIML type evaluation report.
     - In the OIML-CS the term "Test Laboratory" is used instead of the term "Testing
       Laboratory".
+    note_paragraphs:
+    - text: A Test Laboratory may be an internal Test Laboratory of an OIML Issuing
+        Authority, a third-party Test Laboratory or Manufacturer's Test Laboratory
+        (MTL).
+      sources: []
+    - text: The OIML Issuing Authority, and not the Test Laboratory, is responsible
+        for issuing the OIML type evaluation report.
+      sources: []
+    - text: In the OIML-CS the term "Test Laboratory" is used instead of the term
+        "Testing Laboratory".
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -25,9 +25,17 @@ data:
     g18_entry: '02283-R046-1'
     definition: electricity meter intended to measure and display electrical energy
       where energy will have more than one tariff rate
+    definition_paragraphs:
+    - text: electricity meter intended to measure and display electrical energy where
+        energy will have more than one tariff rate
+      sources: []
     notes:
     - 'Note: The tariff rate may be determined by time, load or some other quantity'
+    note_paragraphs:
+    - text: 'Note: The tariff rate may be determined by time, load or some other quantity'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

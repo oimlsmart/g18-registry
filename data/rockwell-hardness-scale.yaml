@@ -29,8 +29,17 @@ data:
       (see Table 1) used. A specific range of Rockwell hardness values is associated
       with each scale such that higher Rockwell hardness values indicate a harder
       material
+    definition_paragraphs:
+    - text: designation (see 3.2) given to a Rockwell hardness test which defines
+        the specific combination of indenter type, preliminary force, and total force
+        (see Table 1) used. A specific range of Rockwell hardness values is associated
+        with each scale such that higher Rockwell hardness values indicate a harder
+        material
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -47,8 +56,17 @@ data:
       (see Table 1) used. A specific range of Rockwell hardness values is associated
       with each scale such that higher Rockwell hardness values indicate a harder
       material
+    definition_paragraphs:
+    - text: designation (see 3.2) given to a Rockwell hardness test which defines
+        the specific combination of indenter type, preliminary force, and total force
+        (see Table 1) used. A specific range of Rockwell hardness values is associated
+        with each scale such that higher Rockwell hardness values indicate a harder
+        material
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

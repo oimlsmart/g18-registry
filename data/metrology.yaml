@@ -24,10 +24,24 @@ data:
     link:
     g18_entry: '03299'
     definition: science of measurement and its application
+    definition_paragraphs:
+    - text: science of measurement and its application
+      sources:
+      - kind: vim
+        relationship: identical
+        modification:
+        ref_source: OIML V 2-200:2012
+        ref_id: '2.2'
+        is_vimline: true
     notes:
     - 'Note: Metrology includes all theoretical and practical aspects of measurement,
       whatever the measurement uncertainty and any field of application.'
+    note_paragraphs:
+    - text: 'Note: Metrology includes all theoretical and practical aspects of measurement,
+        whatever the measurement uncertainty and any field of application.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: vim
       relationship: identical

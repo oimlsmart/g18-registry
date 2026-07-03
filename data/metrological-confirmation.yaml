@@ -27,11 +27,22 @@ data:
     definition: set of operations required to ensure that an item of measuring and
       test equipment is in compliance with requirements for its intended use (see
       ISO 10012-1 [11])
+    definition_paragraphs:
+    - text: set of operations required to ensure that an item of measuring and test
+        equipment is in compliance with requirements for its intended use (see ISO
+        10012-1 [11])
+      sources: []
     notes:
     - (1) Metrological confirmation normally includes calibration, any necessary adjustment
       or repair and subsequent recalibration, as well as any required sealing and
       labeling. (2) In this Document, this term is referred to as "confirmation".
+    note_paragraphs:
+    - text: (1) Metrological confirmation normally includes calibration, any necessary
+        adjustment or repair and subsequent recalibration, as well as any required
+        sealing and labeling. (2) In this Document, this term is referred to as "confirmation".
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -46,11 +57,22 @@ data:
     definition: set of operations required to ensure that an item of measuring and
       test equipment is in compliance with requirements for its intended use (see
       ISO 10012-1 [11])
+    definition_paragraphs:
+    - text: set of operations required to ensure that an item of measuring and test
+        equipment is in compliance with requirements for its intended use (see ISO
+        10012-1 [11])
+      sources: []
     notes:
     - 'Note: Metrological confirmation normally includes calibration, any necessary
       adjustment or repair and subsequent recalibration, as well as any required sealing
       and labeling. In this Document, this term is referred to as “confirmation”.'
+    note_paragraphs:
+    - text: 'Note: Metrological confirmation normally includes calibration, any necessary
+        adjustment or repair and subsequent recalibration, as well as any required
+        sealing and labeling. In this Document, this term is referred to as “confirmation”.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

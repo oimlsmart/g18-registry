@@ -27,8 +27,15 @@ data:
     definition: a container which is calibrated and for which the results are given
       in a tank calibration table. This table is used in conjunction with the mass
       measurement transducer to determine the mass contained in the tank
+    definition_paragraphs:
+    - text: a container which is calibrated and for which the results are given in
+        a tank calibration table. This table is used in conjunction with the mass
+        measurement transducer to determine the mass contained in the tank
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -43,8 +50,15 @@ data:
     definition: a container which is calibrated and for which the results are given
       in a tank calibration table. This table is used in conjunction with the mass
       measurement transducer to determine the mass contained in the tank
+    definition_paragraphs:
+    - text: a container which is calibrated and for which the results are given in
+        a tank calibration table. This table is used in conjunction with the mass
+        measurement transducer to determine the mass contained in the tank
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

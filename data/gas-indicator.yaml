@@ -26,8 +26,14 @@ data:
     g18_entry: '01575'
     definition: device that allows easy detection of any air or gas bubbles that maybe
       present in the liquid flow
+    definition_paragraphs:
+    - text: device that allows easy detection of any air or gas bubbles that maybe
+        present in the liquid flow
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '03091'
     definition: device that allows easy detection of any air or gas bubbles that may
       be present in the liquid flow
+    definition_paragraphs:
+    - text: device that allows easy detection of any air or gas bubbles that may be
+        present in the liquid flow
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

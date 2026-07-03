@@ -24,8 +24,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_D/d031-e08.pdf
     g18_entry: '02204'
     definition: source code or executable code
+    definition_paragraphs:
+    - text: source code or executable code
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -26,9 +26,18 @@ data:
     definition: the value of a dimensionless fraction expressed as a decimal (for
       example, 0.7) representing that portion of an error observed in the (weighing)
       instrument which attributed to the load cell alone
+    definition_paragraphs:
+    - text: the value of a dimensionless fraction expressed as a decimal (for example,
+        0.7) representing that portion of an error observed in the (weighing) instrument
+        which attributed to the load cell alone
+      sources: []
     notes:
     - 'Note: This value is used in determining the MPE (see 3.7.10).'
+    note_paragraphs:
+    - text: 'Note: This value is used in determining the MPE (see 3.7.10).'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

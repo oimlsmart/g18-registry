@@ -26,8 +26,14 @@ data:
     g18_entry: '02366'
     definition: any part of the software, including stored parameters, which has aninfluence
       on the calculated, displayed, transmitted, or stored measurement result
+    definition_paragraphs:
+    - text: any part of the software, including stored parameters, which has aninfluence
+        on the calculated, displayed, transmitted, or stored measurement result
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -42,8 +48,15 @@ data:
     definition: programs, data, type-specific and device-specific parameters that
       belong to the taximeter, and define or fulfill functions that are subject to
       legal control
+    definition_paragraphs:
+    - text: programs, data, type-specific and device-specific parameters that belong
+        to the taximeter, and define or fulfill functions that are subject to legal
+        control
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -59,10 +72,22 @@ data:
       Examples of legally relevant software are: belong to the measuring instrument
       or module, and that define or fina fulfill functions which are subject to legal
       control dec wei sev'
+    definition_paragraphs:
+    - text: 'programs, data, type specific and device specific parameters that Examples
+        of legally relevant software are: belong to the measuring instrument or module,
+        and that define or fina fulfill functions which are subject to legal control
+        dec wei sev'
+      sources: []
     notes:
     - l results of the weighing including the imal sign and the unit, identification
       of the ghing range and the load receptor (if eral load receptors have been used).
+    note_paragraphs:
+    - text: l results of the weighing including the imal sign and the unit, identification
+        of the ghing range and the load receptor (if eral load receptors have been
+        used).
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -78,11 +103,23 @@ data:
       Examples: Final results of the measurement, belong to the measuring instrument
       or module, and define or i.e. fulfil functions which are subject to legal control
       (inc iden load been'
+    definition_paragraphs:
+    - text: 'programs, data, type-specific and device-specific parameters that Examples:
+        Final results of the measurement, belong to the measuring instrument or module,
+        and define or i.e. fulfil functions which are subject to legal control (inc
+        iden load been'
+      sources: []
     notes:
     - gross, net and tare / preset tare value luding the decimal sign and the unit),
       tification of the weighing range and the receptor (if several load receptors
       have used), software identification.
+    note_paragraphs:
+    - text: gross, net and tare / preset tare value luding the decimal sign and the
+        unit), tification of the weighing range and the receptor (if several load
+        receptors have used), software identification.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -96,8 +133,14 @@ data:
     g18_entry: '02198'
     definition: all software modules of measuring instrument or component that are
       subject to legal control
+    definition_paragraphs:
+    - text: all software modules of measuring instrument or component that are subject
+        to legal control
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -110,8 +153,13 @@ data:
     link:
     g18_entry: '03667'
     definition: part of the software that is subject to legal control (VIML, 6.10)
+    definition_paragraphs:
+    - text: part of the software that is subject to legal control (VIML, 6.10)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -128,8 +176,17 @@ data:
       that are subject to legal control examples of legally relevant software are:
       final results of the measurement including the decimal sign and the unit, identification
       of the weighing range and the load receptor(s)'
+    definition_paragraphs:
+    - text: 'program, data, type-specific and device-specific parameters that belong
+        to the measuring instrument or device, and define or fulfill functions that
+        are subject to legal control examples of legally relevant software are: final
+        results of the measurement including the decimal sign and the unit, identification
+        of the weighing range and the load receptor(s)'
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -143,8 +200,14 @@ data:
     g18_entry: '02367'
     definition: any part of the software, including stored parameters, which has an
       influence on the calculated, displayed, transmitted, or stored measurement result
+    definition_paragraphs:
+    - text: any part of the software, including stored parameters, which has an influence
+        on the calculated, displayed, transmitted, or stored measurement result
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -159,8 +222,15 @@ data:
     definition: programs, data, type-specific and device-specific parameters that
       belong to the taximeter, and define or fulfill functions that are subject to
       legal control
+    definition_paragraphs:
+    - text: programs, data, type-specific and device-specific parameters that belong
+        to the taximeter, and define or fulfill functions that are subject to legal
+        control
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -178,8 +248,18 @@ data:
       final results of the weighing including the decimal sign and the unit, identification
       of the weighing range and the load receptor (if several load receptors have
       been used).'
+    definition_paragraphs:
+    - text: 'programs, data, type specific and device specific parameters that belong
+        to the measuring instrument or module, and that define or fulfill functions
+        which are subject to legal control Examples of legally relevant software are:
+        final results of the weighing including the decimal sign and the unit, identification
+        of the weighing range and the load receptor (if several load receptors have
+        been used).'
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -197,8 +277,18 @@ data:
       i.e. gross, net and tare / preset tare value (including the decimal sign and
       the unit), identification of the weighing range and the load receptor (if several
       load receptors have been used), software identification.'
+    definition_paragraphs:
+    - text: 'programs, data, type-specific and device-specific parameters that belong
+        to the measuring instrument or module, and define or fulfil functions which
+        are subject to legal control Examples: Final results of the measurement, i.e.
+        gross, net and tare / preset tare value (including the decimal sign and the
+        unit), identification of the weighing range and the load receptor (if several
+        load receptors have been used), software identification.'
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

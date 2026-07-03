@@ -27,8 +27,15 @@ data:
     definition: any device, instrument, function or software (of a taximeter) that
       influences the measurement result or any other primary indication is considered
       as metrologically relevant
+    definition_paragraphs:
+    - text: any device, instrument, function or software (of a taximeter) that influences
+        the measurement result or any other primary indication is considered as metrologically
+        relevant
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -43,8 +50,15 @@ data:
     definition: any device, instrument, function or software of an instrument that
       influences the weighing result or any other primary indication is considered
       as metrologically relevant
+    definition_paragraphs:
+    - text: any device, instrument, function or software of an instrument that influences
+        the weighing result or any other primary indication is considered as metrologically
+        relevant
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -59,8 +73,15 @@ data:
     definition: any device, module, part, component, function or software of a weighing
       instrument that influences the weighing result or any other primary indication
       is considered as metrologically relevant
+    definition_paragraphs:
+    - text: any device, module, part, component, function or software of a weighing
+        instrument that influences the weighing result or any other primary indication
+        is considered as metrologically relevant
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -75,8 +96,15 @@ data:
     definition: any device, module, part, component or function of a weighing instrument
       that may influence the weighing result or any other primary indication is considered
       as metrologically relevant
+    definition_paragraphs:
+    - text: any device, module, part, component or function of a weighing instrument
+        that may influence the weighing result or any other primary indication is
+        considered as metrologically relevant
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -91,8 +119,14 @@ data:
     definition: attribute of any devoice, intrumnet, function or software that may
       influence the measurement result or any other primary indication [VIML:2013,
       4.03]
+    definition_paragraphs:
+    - text: attribute of any devoice, intrumnet, function or software that may influence
+        the measurement result or any other primary indication [VIML:2013, 4.03]
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -107,8 +141,15 @@ data:
     definition: any device, instrument, function or software of an instrument that
       influences the measurement result or any other primary indication is considered
       to be  metrologically relevant
+    definition_paragraphs:
+    - text: any device, instrument, function or software of an instrument that influences
+        the measurement result or any other primary indication is considered to be  metrologically
+        relevant
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -123,8 +164,15 @@ data:
     definition: any device, instrument, function or software (of a taximeter) that
       influences the measurement result or any other primary indication is considered
       as metrologically relevant
+    definition_paragraphs:
+    - text: any device, instrument, function or software (of a taximeter) that influences
+        the measurement result or any other primary indication is considered as metrologically
+        relevant
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -139,8 +187,15 @@ data:
     definition: any device, instrument, function or software of an instrument that
       influences the weighing result or any other primary indication is considered
       as metrologically relevant
+    definition_paragraphs:
+    - text: any device, instrument, function or software of an instrument that influences
+        the weighing result or any other primary indication is considered as metrologically
+        relevant
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -155,8 +210,15 @@ data:
     definition: any device, module, part, component, function or software of a weighing
       instrument that influences the weighing result or any other primary indication
       is considered as metrologically relevant
+    definition_paragraphs:
+    - text: any device, module, part, component, function or software of a weighing
+        instrument that influences the weighing result or any other primary indication
+        is considered as metrologically relevant
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -171,8 +233,15 @@ data:
     definition: any device, module, part, component or function of a weighing instrument
       that may influence the weighing result or any other primary indication is considered
       as metrologically relevant
+    definition_paragraphs:
+    - text: any device, module, part, component or function of a weighing instrument
+        that may influence the weighing result or any other primary indication is
+        considered as metrologically relevant
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

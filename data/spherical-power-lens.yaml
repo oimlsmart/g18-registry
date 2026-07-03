@@ -26,9 +26,17 @@ data:
     g18_entry: '01134'
     definition: lens bringing a paraxial pencil of parallel rays to a single focus
       This definition could also apply to single point
+    definition_paragraphs:
+    - text: lens bringing a paraxial pencil of parallel rays to a single focus This
+        definition could also apply to single point
+      sources: []
     notes:
     - vision aspheric lenses.
+    note_paragraphs:
+    - text: vision aspheric lenses.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -42,9 +50,16 @@ data:
     g18_entry: '01134'
     definition: lens bringing a paraxial pencil of parallel rays to a single focus
       point
+    definition_paragraphs:
+    - text: lens bringing a paraxial pencil of parallel rays to a single focus point
+      sources: []
     notes:
     - 'Note:  This definition could also apply to single vision aspheric lenses.'
+    note_paragraphs:
+    - text: 'Note:  This definition could also apply to single vision aspheric lenses.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -28,9 +28,19 @@ data:
       to give confidence to the National Authority that qua operations are performed
       according to metrological expectations when they are not performed using associated
       measuring instruments subject to control and/or secured communications
+    definition_paragraphs:
+    - text: provisions established by the user of a measuring system in order to give
+        confidence to the National Authority that qua operations are performed according
+        to metrological expectations when they are not performed using associated
+        measuring instruments subject to control and/or secured communications
+      sources: []
     notes:
     - Documented provisions may be part of a lity assurance system.
+    note_paragraphs:
+    - text: Documented provisions may be part of a lity assurance system.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -46,9 +56,19 @@ data:
       to give confidence to the National Authority that operations are performed according
       to metrological expectations when they are not performed using associated measuring
       instruments subject to control and/or secured communications
+    definition_paragraphs:
+    - text: provisions established by the user of a measuring system in order to give
+        confidence to the National Authority that operations are performed according
+        to metrological expectations when they are not performed using associated
+        measuring instruments subject to control and/or secured communications
+      sources: []
     notes:
     - Documented provisions may be part of a quality assurance system.
+    note_paragraphs:
+    - text: Documented provisions may be part of a quality assurance system.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

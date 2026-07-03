@@ -25,8 +25,14 @@ data:
     g18_entry: '03113'
     definition: device which provides a supply of product from bulk to the weighing
       module that may operate in one or more stages
+    definition_paragraphs:
+    - text: device which provides a supply of product from bulk to the weighing module
+        that may operate in one or more stages
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -25,8 +25,14 @@ data:
     g18_entry: '03704'
     definition: water meter (3.1.1) that incorporates and utilizes legally relevant
       software modules
+    definition_paragraphs:
+    - text: water meter (3.1.1) that incorporates and utilizes legally relevant software
+        modules
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -36,8 +36,15 @@ data:
     definition: value attributed to a particular quantity (e.g. area of leather) and
       [VIM:1993, 1.20] accepted, by convention, as having an uncertainty appropriate
       for a given purpose
+    definition_paragraphs:
+    - text: value attributed to a particular quantity (e.g. area of leather) and [VIM:1993,
+        1.20] accepted, by convention, as having an uncertainty appropriate for a
+        given purpose
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -56,8 +63,20 @@ data:
     g18_entry: '02533'
     definition: value attributed to a particular quantity and accepted, sometimes
       by convention, as having an uncertainty appropriate for a given purpose
+    definition_paragraphs:
+    - text: value attributed to a particular quantity and accepted, sometimes by convention,
+        as having an uncertainty appropriate for a given purpose
+      sources:
+      - kind: vim
+        relationship: identical
+        modification:
+        ref_source: OIML V 2-200:2007
+        ref_id: '1.20'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: vim
       relationship: identical
@@ -78,8 +97,15 @@ data:
     definition: value attributed to a particular quantity (e.g. area of leather) and
       accepted, by convention, as having an uncertainty appropriate for a given purpose
       [VIM:1993, 1.20]
+    definition_paragraphs:
+    - text: value attributed to a particular quantity (e.g. area of leather) and accepted,
+        by convention, as having an uncertainty appropriate for a given purpose [VIM:1993,
+        1.20]
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

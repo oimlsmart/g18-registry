@@ -25,8 +25,14 @@ data:
     g18_entry: '02258-R080-1'
     definition: distance between the free surface of the liquid and the reference
       point bottom, measured along the vertical measurement axis (see figure 1)
+    definition_paragraphs:
+    - text: distance between the free surface of the liquid and the reference point
+        bottom, measured along the vertical measurement axis (see figure 1)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

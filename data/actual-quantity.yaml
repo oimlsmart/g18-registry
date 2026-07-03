@@ -26,8 +26,14 @@ data:
     g18_entry: '01108'
     definition: actual quantity of product that a prepackage in fact contains as determined
       by measurements made by legal metrology officials
+    definition_paragraphs:
+    - text: actual quantity of product that a prepackage in fact contains as determined
+        by measurements made by legal metrology officials
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -40,10 +46,18 @@ data:
     link:
     g18_entry: '02491'
     definition: amount of product that a prepackage contains as determined by measurement
+    definition_paragraphs:
+    - text: amount of product that a prepackage contains as determined by measurement
+      sources: []
     notes:
     - Note:The actual quantity in a prepackage “i” is designated by the symbol Qi
       or qi.
+    note_paragraphs:
+    - text: Note:The actual quantity in a prepackage “i” is designated by the symbol
+        Qi or qi.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

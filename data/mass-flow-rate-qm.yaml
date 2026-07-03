@@ -24,8 +24,13 @@ data:
     link:
     g18_entry: '03400'
     definition: mass of product which passes per unit of time
+    definition_paragraphs:
+    - text: mass of product which passes per unit of time
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

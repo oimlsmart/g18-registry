@@ -27,8 +27,16 @@ data:
       in given organisation or in a given laboratory, containing the specification
       of the reference and working measurement standards, their metrological characteristic
       and the methods and means of dissemination of units
+    definition_paragraphs:
+    - text: hierarchy scheme for given type of measuring instrument at given location,
+        in given organisation or in a given laboratory, containing the specification
+        of the reference and working measurement standards, their metrological characteristic
+        and the methods and means of dissemination of units
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

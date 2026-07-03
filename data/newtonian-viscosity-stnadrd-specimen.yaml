@@ -34,8 +34,17 @@ data:
       international or national measurement standards, by a metrologically valid procedure,
       and is documented in a calibration certificate together with the associated
       uncertainty, and a statement of metrological traceability
+    definition_paragraphs:
+    - text: Newtonian liquid sufficiently homogeneous and stable with respect to viscosity
+        (dynamic and kinematic) which has been determined traceable to international
+        or national measurement standards, by a metrologically valid procedure, and
+        is documented in a calibration certificate together with the associated uncertainty,
+        and a statement of metrological traceability
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -26,10 +26,20 @@ data:
     definition: set of prepackages taken at random from an inspection lot to be inspected
       to determine conformance with specified criteria for purposes of making decisions
       concerning acceptance or rejection of the entire inspection lot
+    definition_paragraphs:
+    - text: set of prepackages taken at random from an inspection lot to be inspected
+        to determine conformance with specified criteria for purposes of making decisions
+        concerning acceptance or rejection of the entire inspection lot
+      sources: []
     notes:
     - 'Note: Lower case letters are used as symbols related to the sample in this
       Recommendation.'
+    note_paragraphs:
+    - text: 'Note: Lower case letters are used as symbols related to the sample in
+        this Recommendation.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

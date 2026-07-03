@@ -25,8 +25,14 @@ data:
     g18_entry: '03203'
     definition: measurable quantity into which a load cell converts the measured input
       quantity
+    definition_paragraphs:
+    - text: measurable quantity into which a load cell converts the measured input
+        quantity
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -27,8 +27,15 @@ data:
     definition: sequence of readable characters (e.g. version number, checksum) that
       is inextricably linked to the software or software module under consideration.
       It can be checked on an instrument whilst in use
+    definition_paragraphs:
+    - text: sequence of readable characters (e.g. version number, checksum) that is
+        inextricably linked to the software or software module under consideration.
+        It can be checked on an instrument whilst in use
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -42,8 +49,14 @@ data:
     g18_entry: '00354'
     definition: sequence of readable characters of software, and that is inextricably
       linked to the software (e.g. version number, checksum)
+    definition_paragraphs:
+    - text: sequence of readable characters of software, and that is inextricably
+        linked to the software (e.g. version number, checksum)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -57,8 +70,14 @@ data:
     g18_entry: '01352'
     definition: sequence of readable characters of software that is inextricably linked
       to the software (e.g. version number, checksum)
+    definition_paragraphs:
+    - text: sequence of readable characters of software that is inextricably linked
+        to the software (e.g. version number, checksum)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -72,8 +91,14 @@ data:
     g18_entry: '00595'
     definition: sequence of readable characters of software, inextricably linked tothe
       software (e.g. version number, checksum)
+    definition_paragraphs:
+    - text: sequence of readable characters of software, inextricably linked tothe
+        software (e.g. version number, checksum)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -87,8 +112,14 @@ data:
     g18_entry: '00937'
     definition: sequence of readable characters of software that is inextricably linked
       to the software (e.g. version number, checksum)
+    definition_paragraphs:
+    - text: sequence of readable characters of software that is inextricably linked
+        to the software (e.g. version number, checksum)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -102,10 +133,19 @@ data:
     g18_entry: '03518'
     definition: sequence of readable characters (e.g. name, version number, checksum)
       that represents the software or software module under consideration.
+    definition_paragraphs:
+    - text: sequence of readable characters (e.g. name, version number, checksum)
+        that represents the software or software module under consideration.
+      sources: []
     notes:
     - 'Note: Software identification can be checked on an instrument whilst in use,
       see 6.2.1.'
+    note_paragraphs:
+    - text: 'Note: Software identification can be checked on an instrument whilst
+        in use, see 6.2.1.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -120,9 +160,18 @@ data:
     definition: sequence of readable characters (e.g. version number, checksum) that
       represents the software or software module under consideration. (OIML D 31,
       3.1.48)
+    definition_paragraphs:
+    - text: sequence of readable characters (e.g. version number, checksum) that represents
+        the software or software module under consideration. (OIML D 31, 3.1.48)
+      sources: []
     notes:
     - 'Note: The identification can be checked on an instrument whilst it is in use.'
+    note_paragraphs:
+    - text: 'Note: The identification can be checked on an instrument whilst it is
+        in use.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -137,8 +186,15 @@ data:
     definition: sequence of readable characters (e.g. version number, checksum) that
       is inextricably linked to the software or software module under consideration.
       It can be checked on an instrument whilst in use [VIML:2013, 6.01]
+    definition_paragraphs:
+    - text: sequence of readable characters (e.g. version number, checksum) that is
+        inextricably linked to the software or software module under consideration.
+        It can be checked on an instrument whilst in use [VIML:2013, 6.01]
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -152,10 +208,19 @@ data:
     g18_entry: '03683'
     definition: sequence of readable characters (e.g. version number, checksum) that
       represents the software or software module under consideration
+    definition_paragraphs:
+    - text: sequence of readable characters (e.g. version number, checksum) that represents
+        the software or software module under consideration
+      sources: []
     notes:
     - 'Note: This software identification can be checked on an instrument whilst in
       use.'
+    note_paragraphs:
+    - text: 'Note: This software identification can be checked on an instrument whilst
+        in use.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -169,8 +234,14 @@ data:
     g18_entry: '02557'
     definition: sequence of readable characters of software, and that is inextricably
       linked to the software (e.g. version number, checksum)
+    definition_paragraphs:
+    - text: sequence of readable characters of software, and that is inextricably
+        linked to the software (e.g. version number, checksum)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -184,8 +255,14 @@ data:
     g18_entry: '00354'
     definition: sequence of readable characters of software, and that is inextricably
       linked to the software (e.g. version number, checksum)
+    definition_paragraphs:
+    - text: sequence of readable characters of software, and that is inextricably
+        linked to the software (e.g. version number, checksum)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -199,8 +276,14 @@ data:
     g18_entry: '01352'
     definition: sequence of readable characters of software that is inextricably linked
       to the software (e.g. version number, checksum)
+    definition_paragraphs:
+    - text: sequence of readable characters of software that is inextricably linked
+        to the software (e.g. version number, checksum)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -214,8 +297,14 @@ data:
     g18_entry: '00595'
     definition: sequence of readable characters of software, and that is inextricably
       linked to the software (e.g. version number, checksum)
+    definition_paragraphs:
+    - text: sequence of readable characters of software, and that is inextricably
+        linked to the software (e.g. version number, checksum)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -229,8 +318,14 @@ data:
     g18_entry: '00937'
     definition: sequence of readable characters of software that is inextricably linked
       to the software (e.g. version number, checksum)
+    definition_paragraphs:
+    - text: sequence of readable characters of software that is inextricably linked
+        to the software (e.g. version number, checksum)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

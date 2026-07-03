@@ -25,8 +25,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r061-1-e04.pdf
     g18_entry: '00794'
     definition: smallest load that can be discharged from a subtractive weigher
+    definition_paragraphs:
+    - text: smallest load that can be discharged from a subtractive weigher
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -39,8 +44,13 @@ data:
     link:
     g18_entry: '03305'
     definition: smallest load that can be discharged from a subtractive weighing instrument
+    definition_paragraphs:
+    - text: smallest load that can be discharged from a subtractive weighing instrument
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

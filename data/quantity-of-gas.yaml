@@ -27,8 +27,15 @@ data:
     definition: "(s total quantity of gas obtained by integrating the flow over time,
       expressed as volume V, mass m or energy E passed through the gas meter, disregarding
       the time taken. This is the measurand ee 2.1.2)"
+    definition_paragraphs:
+    - text: "(s total quantity of gas obtained by integrating the flow over time,
+        expressed as volume V, mass m or energy E passed through the gas meter, disregarding
+        the time taken. This is the measurand ee 2.1.2)"
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -43,8 +50,15 @@ data:
     definition: total quantity of gas obtained by integrating the flow passed through
       the gas meter over time, which is expressed as volume V or mass m, disregarding
       the time taken. The quantity of gas is the measurand concerned (see 0)
+    definition_paragraphs:
+    - text: total quantity of gas obtained by integrating the flow passed through
+        the gas meter over time, which is expressed as volume V or mass m, disregarding
+        the time taken. The quantity of gas is the measurand concerned (see 0)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

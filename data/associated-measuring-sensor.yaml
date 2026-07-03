@@ -28,8 +28,17 @@ data:
       the measurand, which converts the characteristic quantity emperature, pressure,
       density, viscosity, etc.) of the liquid into ameasurement signal (resistance,
       electrical current, frequency, etc.) destined for the associated measuring transducer"
+    definition_paragraphs:
+    - text: "(t part of the associated measuring device, directly affected by the
+        measurand, which converts the characteristic quantity emperature, pressure,
+        density, viscosity, etc.) of the liquid into ameasurement signal (resistance,
+        electrical current, frequency, etc.) destined for the associated measuring
+        transducer"
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -45,8 +54,16 @@ data:
       measurand, which converts the characteristic quantity (temperature, pressure,
       density, viscosity, etc.) of the liquid into a measurement signal (resistance,
       electrical current, frequency, etc.) destined for the associated measuring transducer
+    definition_paragraphs:
+    - text: part of the associated measuring device, directly affected by the measurand,
+        which converts the characteristic quantity (temperature, pressure, density,
+        viscosity, etc.) of the liquid into a measurement signal (resistance, electrical
+        current, frequency, etc.) destined for the associated measuring transducer
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

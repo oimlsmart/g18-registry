@@ -29,6 +29,15 @@ data:
       the maximum permissible error corresponding to a quantity equal to one minute
       at Qmax are always considered as significant, - faults smaller than the relevant
       minimum specified quantity deviation are never considered as significant.'
+    definition_paragraphs:
+    - text: 'fault, the magnitude of which is greater than one tenth of the magnitude
+        of the maximum permissible error for the relevant measurand However, whatever
+        is the measured quantity: - faults greater than one tenth of the magnitude
+        of the maximum permissible error corresponding to a quantity equal to one
+        minute at Qmax are always considered as significant, - faults smaller than
+        the relevant minimum specified quantity deviation are never considered as
+        significant.'
+      sources: []
     notes:
     - 1. For the principal measurands this concept applies only to the electronic
       parts of the measuring system (in general the calculator) but not to the meter
@@ -39,7 +48,21 @@ data:
       basis of the maximum permissible error applicable to the calculator.
     - 3. When a device is used for measuring two or more principal measurands (a calculator
       for example), it has a significant fault for each measurand.
+    note_paragraphs:
+    - text: 1. For the principal measurands this concept applies only to the electronic
+        parts of the measuring system (in general the calculator) but not to the meter
+        as such. Meters shall be tested and assessed according to the specific applicable
+        OIML International Recommendation(s).
+      sources: []
+    - text: 2. The significant fault for a calculator is calculated on the basis of
+        the maximum permissible error applicable to the principal measurand and not
+        on the basis of the maximum permissible error applicable to the calculator.
+      sources: []
+    - text: 3. When a device is used for measuring two or more principal measurands
+        (a calculator for example), it has a significant fault for each measurand.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

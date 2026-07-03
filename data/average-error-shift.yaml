@@ -26,8 +26,15 @@ data:
     definition: the resulting ‘average’ value is indicative of average variation over
       the encompassed measurement range, as opposed to the variation in measured values
       at one point of the range
+    definition_paragraphs:
+    - text: the resulting ‘average’ value is indicative of average variation over
+        the encompassed measurement range, as opposed to the variation in measured
+        values at one point of the range
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -43,11 +50,23 @@ data:
       same grain type with different moisture levels. The resulting ‘average’ value
       is indicative of the average variation over the encompassed measurement range,
       as opposed to the variation in measured values at one point of the range
+    definition_paragraphs:
+    - text: algebraic mean of error shift values calculated from samples of the same
+        grain type with different moisture levels. The resulting ‘average’ value is
+        indicative of the average variation over the encompassed measurement range,
+        as opposed to the variation in measured values at one point of the range
+      sources: []
     notes:
     - 'Note: In this Recommendation, reference to a resulting ‘mean’ value is reserved
       for the mean of replicated measurements, i.e. the mean of measured values on
       the same test sample (usually taken under repeatability conditions).'
+    note_paragraphs:
+    - text: 'Note: In this Recommendation, reference to a resulting ‘mean’ value is
+        reserved for the mean of replicated measurements, i.e. the mean of measured
+        values on the same test sample (usually taken under repeatability conditions).'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -61,6 +80,10 @@ data:
     g18_entry: '02800'
     definition: algebraic mean of error shift values calculated from samples of the
       same grain type with different protein (PMB) levels
+    definition_paragraphs:
+    - text: algebraic mean of error shift values calculated from samples of the same
+        grain type with different protein (PMB) levels
+      sources: []
     notes:
     - Note:The resulting ‘average’ value is indicative of the average variation over
       the encompassed measurement range, as opposed to the variation in measured values
@@ -68,7 +91,16 @@ data:
       ‘mean’ value is reserved for the mean of replicated measurements, i.e. the mean
       of measured values on the same test sample (usually taken under repeatability
       conditions).
+    note_paragraphs:
+    - text: Note:The resulting ‘average’ value is indicative of the average variation
+        over the encompassed measurement range, as opposed to the variation in measured
+        values at one point of the range. In this Recommendation, reference to a resulting
+        ‘mean’ value is reserved for the mean of replicated measurements, i.e. the
+        mean of measured values on the same test sample (usually taken under repeatability
+        conditions).
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -25,11 +25,20 @@ data:
     link: https://www.oiml.org/en/files/pdf_D/d029-e08.pdf
     g18_entry: '02158'
     definition: '- G.3-3 -- For this application, "supplier" must be'
+    definition_paragraphs:
+    - text: '- G.3-3 -- For this application, "supplier" must be'
+      sources: []
     notes:
     - understood as "applicant" for type evaluation or for OIML Type Evaluation. Although
       the instrument may be manufactured by another company, the applicant has to
       assume responsibility for compliance.
+    note_paragraphs:
+    - text: understood as "applicant" for type evaluation or for OIML Type Evaluation.
+        Although the instrument may be manufactured by another company, the applicant
+        has to assume responsibility for compliance.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -42,12 +51,22 @@ data:
     link: https://www.oiml.org/en/files/pdf_D/d029-e08.pdf
     g18_entry: '02158'
     definition: "-"
+    definition_paragraphs:
+    - text: "-"
+      sources: []
     notes:
     - 'Note: For this application, "supplier" must be understood as "applicant" for
       type evaluation or for OIML Type Evaluation. Although the instrument may be
       manufactured by another company, the applicant has to assume responsibility
       for compliance.'
+    note_paragraphs:
+    - text: 'Note: For this application, "supplier" must be understood as "applicant"
+        for type evaluation or for OIML Type Evaluation. Although the instrument may
+        be manufactured by another company, the applicant has to assume responsibility
+        for compliance.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

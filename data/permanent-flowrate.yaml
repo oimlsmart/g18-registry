@@ -32,8 +32,15 @@ data:
     definition: m3 highest flowrate within the rated operating conditions, at which
       the water meter is required to operate in a satisfactory manner within the maximum
       permissible error. Flowrate is expressed in /h in this Recommendation
+    definition_paragraphs:
+    - text: m3 highest flowrate within the rated operating conditions, at which the
+        water meter is required to operate in a satisfactory manner within the maximum
+        permissible error. Flowrate is expressed in /h in this Recommendation
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

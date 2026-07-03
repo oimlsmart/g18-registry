@@ -25,9 +25,17 @@ data:
     g18_entry: '03786'
     definition: speed meter which is designed for stationary measurements and does
       not correct for non-zero ego speed
+    definition_paragraphs:
+    - text: speed meter which is designed for stationary measurements and does not
+        correct for non-zero ego speed
+      sources: []
     notes:
     - 'Note: A stationary speed meter is either fixed or mobile.'
+    note_paragraphs:
+    - text: 'Note: A stationary speed meter is either fixed or mobile.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

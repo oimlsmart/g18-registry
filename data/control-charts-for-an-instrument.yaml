@@ -28,8 +28,16 @@ data:
       processes with respect to time or a sequence of such measurements, together
       with the limits within which the measurement values are expected to lie, when
       the instrument is in a state of statistical control
+    definition_paragraphs:
+    - text: graphical plots of test results from the same or similar samples or processes
+        with respect to time or a sequence of such measurements, together with the
+        limits within which the measurement values are expected to lie, when the instrument
+        is in a state of statistical control
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -45,8 +53,16 @@ data:
       processes with respect to time or a sequence of such measurements, together
       with the limits within which the measurement values are expected to lie, when
       the instrument is in a state of statistical control
+    definition_paragraphs:
+    - text: graphical plots of test results from the same or similar samples or processes
+        with respect to time or a sequence of such measurements, together with the
+        limits within which the measurement values are expected to lie, when the instrument
+        is in a state of statistical control
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -31,8 +31,19 @@ data:
       a semi-automatic device (load balanced automatically following a single manual
       command); an automatic device (load balanced automatically without the intervention
       of an operator)"
+    definition_paragraphs:
+    - text: "- - - - - device for setting the indication to zero when a load is on
+        the load receptor: without altering the weighing range for net loads (additive
+        tare device); or reducing the weighing range for net loads (subtractive tare
+        device). Itmay function as: a non-automatic device (load balanced by operator);
+        a semi-automatic device (load balanced automatically following a single manual
+        command); an automatic device (load balanced automatically without the intervention
+        of an operator)"
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -51,8 +62,19 @@ data:
       a semi-automatic device (load balanced automatically following a single manual
       command); or an automatic device (load balanced automatically without the intervention
       of an operator)."
+    definition_paragraphs:
+    - text: "- - - - - device for setting the indication to zero when a load is on
+        the load receptor: without altering the weighing range for net loads (additive
+        tare device); or reducing the weighing range for net loads (subtractive tare
+        device). Itmay function as: a non-automatic device (load balanced by an operator);
+        a semi-automatic device (load balanced automatically following a single manual
+        command); or an automatic device (load balanced automatically without the
+        intervention of an operator)."
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -71,8 +93,19 @@ data:
       device (load balanced automatically following a single manual command); or an
       automatic device (load balanced automatically without the intervention of an
       operator)"
+    definition_paragraphs:
+    - text: "• • • • • device for taring: without altering the weighing range for
+        net loads (additive tare device); or reducing the weighing range for net loads
+        (subtractive tare device). The tare device may function as: a nonautomatic
+        device (load balanced by the operator or tare preset by the operator); a semi-automatic
+        device (load balanced automatically following a single manual command); or
+        an automatic device (load balanced automatically without the intervention
+        of an operator)"
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -87,12 +120,25 @@ data:
     definition: 'device for setting the indication to zero when a load is on the load
       receptor: a) without altering the weighing range for net loads (additive tare
       device); or b) reducing the weighing range for net loads (subtractive tare device)'
+    definition_paragraphs:
+    - text: 'device for setting the indication to zero when a load is on the load
+        receptor: a) without altering the weighing range for net loads (additive tare
+        device); or b) reducing the weighing range for net loads (subtractive tare
+        device)'
+      sources: []
     notes:
     - 'Note:  The tare device functions as a) a non-automatic device (load balanced
       by operator), b) a semi-automatic device (load balanced automatically following
       a single manual command), c) an automatic device (load balanced automatically
       without the intervention of an operator).'
+    note_paragraphs:
+    - text: 'Note:  The tare device functions as a) a non-automatic device (load balanced
+        by operator), b) a semi-automatic device (load balanced automatically following
+        a single manual command), c) an automatic device (load balanced automatically
+        without the intervention of an operator).'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -110,8 +156,19 @@ data:
       function as: a non-automatic device (load balanced by operator); a semi-automatic
       device (load balanced automatically following a single manual command); an automatic
       device (load balanced automatically without the intervention of an operator)'
+    definition_paragraphs:
+    - text: 'device for setting the indication to zero when a load is on the load
+        receptor: without altering the weighing range for net loads (additive tare
+        device); or reducing the weighing range for net loads (subtractive tare device).
+        It may function as: a non-automatic device (load balanced by operator); a
+        semi-automatic device (load balanced automatically following a single manual
+        command); an automatic device (load balanced automatically without the intervention
+        of an operator)'
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -130,8 +187,19 @@ data:
       device (load balanced automatically following a single manual command); or an
       automatic device (load balanced automatically without the intervention of an
       operator).'
+    definition_paragraphs:
+    - text: 'device for setting the indication to zero when a load is on the load
+        receptor: without altering the weighing range for net loads (additive tare
+        device); or reducing the weighing range for net loads (subtractive tare device).
+        It may function as: a non-automatic device (load balanced by an operator);
+        a semi-automatic device (load balanced automatically following a single manual
+        command); or an automatic device (load balanced automatically without the
+        intervention of an operator).'
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

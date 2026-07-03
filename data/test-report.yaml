@@ -32,6 +32,11 @@ data:
     definition: in the present publication, "Test Report" means a report comprised
       of the OIML Test Report (see 3.8) and, when applicable, a complementary Test
       Report containing test results for any agreed upon additional requirements
+    definition_paragraphs:
+    - text: in the present publication, "Test Report" means a report comprised of
+        the OIML Test Report (see 3.8) and, when applicable, a complementary Test
+        Report containing test results for any agreed upon additional requirements
+      sources: []
     notes:
     - "(1) The Test Report gives the results of the examinations and testing carried
       out during type evaluation on an identified sample or samples of a given type
@@ -39,7 +44,18 @@ data:
       (2) The Test Report constitutes the evaluation report referred to in 3."
     - 4. (3) The complementary Test Report may be validated by a letter from the OIML
       Issuing Authority.
+    note_paragraphs:
+    - text: "(1) The Test Report gives the results of the examinations and testing
+        carried out during type evaluation on an identified sample or samples of a
+        given type and a conclusion as to whether the sample(s) meet the specified
+        requirements. (2) The Test Report constitutes the evaluation report referred
+        to in 3."
+      sources: []
+    - text: 4. (3) The complementary Test Report may be validated by a letter from
+        the OIML Issuing Authority.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -56,9 +72,20 @@ data:
       the results of the Test examinations and testing carried out during type evaluation
       on refe an identified sample or samples of a given type and a conclusion as
       to whether the sample or samples meet the specified requirements
+    definition_paragraphs:
+    - text: Report, prepared according to the Test Report Format specified For the
+        implementation of the System, the in the relevant Recommendation, that gives
+        the results of the Test examinations and testing carried out during type evaluation
+        on refe an identified sample or samples of a given type and a conclusion as
+        to whether the sample or samples meet the specified requirements
+      sources: []
     notes:
     - Report constitutes the evaluation report rred to in 2.7.
+    note_paragraphs:
+    - text: Report constitutes the evaluation report rred to in 2.7.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

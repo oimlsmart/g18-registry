@@ -25,8 +25,14 @@ data:
     g18_entry: '03571'
     definition: device that uses information supplied by the force receptor to integrate
       over the mass of product passing along the force receptor
+    definition_paragraphs:
+    - text: device that uses information supplied by the force receptor to integrate
+        over the mass of product passing along the force receptor
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

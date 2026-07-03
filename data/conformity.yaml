@@ -25,9 +25,17 @@ data:
     g18_entry: '02161'
     definition: "- G.3-1 fulfilment by a measuring instrument type of metrological
       and technical requirements as specified in the relevant Recommendation"
+    definition_paragraphs:
+    - text: "- G.3-1 fulfilment by a measuring instrument type of metrological and
+        technical requirements as specified in the relevant Recommendation"
+      sources: []
     notes:
     - "(OIML B 3)"
+    note_paragraphs:
+    - text: "(OIML B 3)"
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +49,14 @@ data:
     g18_entry: '00097'
     definition: "(I fulfilment by the measuring instrument type of specified requirements
       SO/IEC Guide 2, 12.1)"
+    definition_paragraphs:
+    - text: "(I fulfilment by the measuring instrument type of specified requirements
+        SO/IEC Guide 2, 12.1)"
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -56,8 +70,14 @@ data:
     g18_entry: '00087'
     definition: fulfilment by a measuring instrument type of metrological and technical
       requirements as specified in the relevant Recommendation
+    definition_paragraphs:
+    - text: fulfilment by a measuring instrument type of metrological and technical
+        requirements as specified in the relevant Recommendation
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

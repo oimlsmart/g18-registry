@@ -26,8 +26,14 @@ data:
     g18_entry: '01439'
     definition: the level of the piston, with respect to a clearly defined part of
       the support column or the base of a pressure balance
+    definition_paragraphs:
+    - text: the level of the piston, with respect to a clearly defined part of the
+        support column or the base of a pressure balance
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '01439'
     definition: the level of the piston, with respect to a clearly defined part of
       the support column or the base of a pressure balance
+    definition_paragraphs:
+    - text: the level of the piston, with respect to a clearly defined part of the
+        support column or the base of a pressure balance
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

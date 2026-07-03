@@ -28,8 +28,16 @@ data:
       measuring system during the mass determining process, when the load transport
       system has stopped or, in the case of vehicle mounted or incorporated catchweighers,
       when the load receptor is stationary
+    definition_paragraphs:
+    - text: instrument that operates with a stable equilibrium (T.3.2.5) based measuring
+        system during the mass determining process, when the load transport system
+        has stopped or, in the case of vehicle mounted or incorporated catchweighers,
+        when the load receptor is stationary
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -45,8 +53,16 @@ data:
       measuring system during the mass determining process, when the load transport
       system has stopped or, in the case of vehicle mounted or incorporated catchweighers,
       when the load receptor is stationary
+    definition_paragraphs:
+    - text: instrument that operates with a stable equilibrium (T.3.2.5) based measuring
+        system during the mass determining process, when the load transport system
+        has stopped or, in the case of vehicle mounted or incorporated catchweighers,
+        when the load receptor is stationary
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

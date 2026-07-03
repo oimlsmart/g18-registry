@@ -31,8 +31,19 @@ data:
       signature. The assignment of a public key to a subject can be verified by using
       the public key of the trustworthy institution and decrypting the signature of
       the certificate
+    definition_paragraphs:
+    - text: data set containing the public key belonging to a measuring instrument
+        or a person plus a unique identification of the subject, e.g. serial number
+        of the measuring instrument or name or Personal Identification Number (PIN)
+        of the person. The data set is signed by a trustworthy institution with an
+        electronic signature. The assignment of a public key to a subject can be verified
+        by using the public key of the trustworthy institution and decrypting the
+        signature of the certificate
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -48,10 +59,21 @@ data:
       or a person plus a unique identification of the subject, e.g. serial number
       of the measuring instrument or name or Personal Identification Number (PIN)
       of the person, plus a date of expiry, plus a trusted party signature
+    definition_paragraphs:
+    - text: dataset containing the public key belonging to a measuring instrument
+        or a person plus a unique identification of the subject, e.g. serial number
+        of the measuring instrument or name or Personal Identification Number (PIN)
+        of the person, plus a date of expiry, plus a trusted party signature
+      sources: []
     notes:
     - Note:The trusted party signature binds the public key to the unique identification
       of the subject.
+    note_paragraphs:
+    - text: Note:The trusted party signature binds the public key to the unique identification
+        of the subject.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

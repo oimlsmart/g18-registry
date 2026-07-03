@@ -26,8 +26,14 @@ data:
     g18_entry: '00972'
     definition: calculated sum or difference of more than one measured weight value
       and/or calculated net value
+    definition_paragraphs:
+    - text: calculated sum or difference of more than one measured weight value and/or
+        calculated net value
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '00972'
     definition: calculated sum or difference of more than one measured weight value
       and/or calculated net value
+    definition_paragraphs:
+    - text: calculated sum or difference of more than one measured weight value and/or
+        calculated net value
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

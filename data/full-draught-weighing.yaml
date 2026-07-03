@@ -26,8 +26,14 @@ data:
     g18_entry: '01804'
     definition: determination of the mass of a vehicle that is entirely supported
       on the load receptor(s)
+    definition_paragraphs:
+    - text: determination of the mass of a vehicle that is entirely supported on the
+        load receptor(s)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -40,8 +46,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r106-1-e97.pdf
     g18_entry: '01273'
     definition: weighing a wagon that is entirely supported on the load receptor(s)
+    definition_paragraphs:
+    - text: weighing a wagon that is entirely supported on the load receptor(s)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -55,8 +66,14 @@ data:
     g18_entry: '01804'
     definition: determination of the mass of a vehicle that is entirely supported
       on the load receptor(s)
+    definition_paragraphs:
+    - text: determination of the mass of a vehicle that is entirely supported on the
+        load receptor(s)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

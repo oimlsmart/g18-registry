@@ -25,8 +25,14 @@ data:
     g18_entry: '01667'
     definition: the mode of usage which corresponds to the program of operations specified
       for EBA's in service
+    definition_paragraphs:
+    - text: the mode of usage which corresponds to the program of operations specified
+        for EBA's in service
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

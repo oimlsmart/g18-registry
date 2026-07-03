@@ -32,10 +32,19 @@ data:
     definition: evidential breath alcohol analyzer intended only for use in a fixed
       location within buildings or places providing stable environmental operating
       conditions
+    definition_paragraphs:
+    - text: evidential breath alcohol analyzer intended only for use in a fixed location
+        within buildings or places providing stable environmental operating conditions
+      sources: []
     notes:
     - 'Note: In scope of this Recommendation, stationary EBAs are designated as use-case
       1.'
+    note_paragraphs:
+    - text: 'Note: In scope of this Recommendation, stationary EBAs are designated
+        as use-case 1.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

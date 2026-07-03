@@ -201,6 +201,65 @@ const allExamples = computed(() => {
   }
   return out;
 });
+
+// Cross-edition drift: detect when 2010 and 202X have different
+// authoritative sources or different definition text. The most important
+// signal for TC1 reviewing 202X — did 202X intentionally diverge from
+// 2010, or just refresh the source citation?
+const crossEditionDrift = computed(() => {
+  const pubs = term.value?.publications || [];
+  const editions = new Set(pubs.map(p => p.edition));
+  if (!(editions.has("2010") && editions.has("202X"))) return null;
+  const e2010 = pubs.filter(p => p.edition === "2010");
+  const e202X = pubs.filter(p => p.edition === "202X");
+  const d2010 = new Set(e2010.map(p => (p.definition || "").trim()).filter(Boolean));
+  const d202X = new Set(e202X.map(p => (p.definition || "").trim()).filter(Boolean));
+  // Identical if every 2010 def appears in 202X and vice versa.
+  const same = d2010.size === d202X.size && [...d2010].every(d => d202X.has(d));
+  if (same) return null;
+  const src2010 = e2010.map(p => p.source?.ref_source).filter(Boolean);
+  const src202X = e202X.map(p => p.source?.ref_source).filter(Boolean);
+  const srcChanged = JSON.stringify(src2010.sort()) !== JSON.stringify(src202X.sort());
+  return {
+    sameText: false,
+    srcChanged,
+    src2010: src2010[0] || null,
+    src202X: src202X[0] || null,
+    rel2010: e2010[0]?.source?.relationship || null,
+    rel202X: e202X[0]?.source?.relationship || null,
+  };
+});
+
+// Authoritative baseline text for match comparison. From the official
+// concept (VIM/VIML citation).
+const authoritativeText = computed(() => {
+  const oc = term.value?.official_concept;
+  return oc?.definition_text ? (oc.definition_text as string).trim() : "";
+});
+
+// Per-publication match status vs authoritative: matches / modified / differs / no-baseline.
+function pubMatchStatus(p: any): { key: string; label: string } {
+  if (!authoritativeText.value) return { key: "nobaseline", label: "no baseline" };
+  const def = (p.definition || "").trim();
+  if (!def) return { key: "empty", label: "—" };
+  if (def === authoritativeText.value) return { key: "match", label: "matches VIM" };
+  if (p.source?.relationship === "modified") return { key: "modified", label: "modified" };
+  return { key: "differs", label: "differs" };
+}
+
+// TC/SC filter for the publication instances table.
+const allTCs = computed(() => {
+  const set = new Set<string>();
+  for (const p of term.value?.publications || []) {
+    if (p.tc_sc?.trim()) set.add(p.tc_sc);
+  }
+  return Array.from(set).sort();
+});
+const onlyTC = ref("");
+const filteredPublications = computed(() => {
+  if (!onlyTC.value) return term.value?.publications || [];
+  return (term.value?.publications || []).filter(p => p.tc_sc === onlyTC.value);
+});
 </script>
 
 <template>
@@ -237,6 +296,22 @@ const allExamples = computed(() => {
           <div v-if="edge.ref?.definition_text" class="authority-defn-body" style="font-size:0.92em">{{ edge.ref.definition_text }}</div>
         </li>
       </ul>
+    </section>
+
+    <section v-if="crossEditionDrift" class="card admonition warn" style="background:#fffbeb">
+      <h2 style="margin-top:0">Cross-edition drift</h2>
+      <p style="margin:0.3em 0">
+        The 2010 and 202X editions use <strong>different definition text</strong>
+        <span v-if="crossEditionDrift.srcChanged"> and cite <strong>different sources</strong></span>.
+        TC 1 must decide: is this an intentional update, or should 202X be re-aligned with 2010?
+      </p>
+      <table style="margin-top:0.5em;font-size:0.9em">
+        <thead><tr><th>Edition</th><th>Source</th><th>Relationship</th></tr></thead>
+        <tbody>
+          <tr><td>2010</td><td>{{ crossEditionDrift.src2010 || '—' }}</td><td>{{ crossEditionDrift.rel2010 || '—' }}</td></tr>
+          <tr><td>202X</td><td>{{ crossEditionDrift.src202X || '—' }}</td><td>{{ crossEditionDrift.rel202X || '—' }}</td></tr>
+        </tbody>
+      </table>
     </section>
 
     <section class="card" v-if="designations.length">
@@ -331,6 +406,10 @@ const allExamples = computed(() => {
               <span :class="['edition-pill', `edition-${ed.toLowerCase()}`]">{{ ed }}</span>
             </label>
           </span>
+          <select v-model="onlyTC" v-if="allTCs.length > 1" aria-label="Filter by TC/SC">
+            <option value="">All TC/SCs</option>
+            <option v-for="tc in allTCs" :key="tc" :value="tc">{{ tc }}</option>
+          </select>
         </div>
       </div>
 
@@ -387,22 +466,33 @@ const allExamples = computed(() => {
       <!-- Flat mode: original table -->
       <template v-else>
         <table>
-          <thead><tr><th>Ed.</th><th>Year</th><th>Publication</th><th>Clause</th><th>G 18 #</th><th>Definition</th><th>Notes</th><th>Examples</th><th>Source</th><th>Consistency</th></tr></thead>
+          <thead><tr><th>Ed.</th><th>Year</th><th>Publication</th><th>Clause</th><th>G 18 #</th><th>Definition</th><th>Match</th><th>Notes</th><th>Source</th><th>Consistency</th></tr></thead>
           <tbody>
-            <tr v-for="p in term.publications" :key="p.g18_entry" v-show="rowVisible(p)" :class="{ 'row-divergent': distinctDefs.length > 1 && p.definition?.trim() !== distinctDefs[0], 'row-modified': p.source?.relationship === 'modified' }">
+            <tr v-for="p in filteredPublications" :key="p.g18_entry" v-show="rowVisible(p)" :class="{ 'row-divergent': distinctDefs.length > 1 && p.definition?.trim() !== distinctDefs[0], 'row-modified': p.source?.relationship === 'modified', 'row-differs': pubMatchStatus(p).key === 'differs' }">
               <td><span :class="['edition-pill', `edition-${p.edition?.toLowerCase()}`]">{{ p.edition }}</span></td>
               <td class="num">{{ p.year }}</td>
-              <td><SLink :to="`/publications/${p.publication_id}/`">{{ p.publication }}</SLink></td>
+              <td><SLink :to="`/publications/${p.publication_id}/`">{{ p.publication }}</SLink><br /><span class="muted" style="font-size:0.8em">{{ p.tc_sc || '—' }}</span></td>
               <td class="num">{{ p.clause }}</td>
               <td class="num"><code>{{ p.g18_entry }}</code></td>
-              <td style="max-width:540px"><div style="white-space:pre-wrap">{{ p.definition }}</div></td>
+              <td style="max-width:540px">
+                <div v-for="(para, pi) in (p.definition_paragraphs && p.definition_paragraphs.length ? p.definition_paragraphs : [{text: p.definition, sources: []}])" :key="pi" class="def-para">
+                  <div style="white-space:pre-wrap">{{ para.text }}</div>
+                  <div v-if="para.sources && para.sources.length" class="para-sources">
+                    <span v-for="(s, si) in para.sources" :key="si" :class="['rel-pill', `rel-${s.relationship}`]">
+                      {{ s.ref_source }}{{ s.ref_id ? ' §' + s.ref_id : '' }} ({{ s.relationship }})
+                    </span>
+                  </div>
+                  <div v-if="para.sources && para.sources.some(s => s.modification)" class="para-mod">
+                    <strong>Modified:</strong> {{ para.sources.find(s => s.modification).modification }}
+                  </div>
+                </div>
+              </td>
+              <td><span :class="['match-pill', `match-${pubMatchStatus(p).key}`]">{{ pubMatchStatus(p).label }}</span></td>
               <td v-if="(p.notes || []).length" style="max-width:320px"><ul class="inline-notes"><li v-for="(n, ni) in p.notes" :key="ni">{{ n }}</li></ul></td>
-              <td v-else class="muted">—</td>
-              <td v-if="(p.examples || []).length" style="max-width:320px"><ul class="inline-notes"><li v-for="(x, xi) in p.examples" :key="xi">{{ x }}</li></ul></td>
               <td v-else class="muted">—</td>
               <td>
                 <span v-if="p.source" :class="['rel-pill', `rel-${p.source.relationship}`]" :title="p.source.modification || ''">
-                  {{ p.source.relationship }}
+                  {{ p.source.kind }}: {{ p.source.relationship }}
                 </span>
                 <span v-else class="muted">OIML</span>
               </td>
@@ -524,4 +614,40 @@ const allExamples = computed(() => {
 .rel-similar   { background: #eef0f3; color: var(--ink-muted); }
 .prov-pub { display: inline-block; margin-right: 0.6em; }
 .row-modified { background: #fffbeb !important; }
+.row-differs { background: #fef2f2 !important; }
+
+.def-para {
+  padding: 0.3em 0;
+  border-bottom: 1px dashed var(--rule-soft);
+}
+.def-para:last-child { border-bottom: 0; }
+.para-sources {
+  margin-top: 0.3em;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3em;
+}
+.para-mod {
+  margin-top: 0.3em;
+  padding: 0.3em 0.5em;
+  background: #fef3c7;
+  border-left: 3px solid var(--oiml-amber-deep);
+  font-size: 0.85em;
+  line-height: 1.4;
+}
+
+.match-pill {
+  display: inline-block;
+  padding: 0.1em 0.5em;
+  border-radius: 3px;
+  font-size: 0.74em;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  white-space: nowrap;
+}
+.match-match { background: #dcfce7; color: var(--green); }
+.match-modified { background: #fef3c7; color: var(--oiml-amber-deep); }
+.match-differs { background: #fee2e2; color: var(--red); }
+.match-empty, .match-nobaseline { background: #eef0f3; color: var(--ink-muted); }
 </style>

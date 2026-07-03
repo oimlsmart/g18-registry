@@ -26,8 +26,15 @@ data:
     definition: 'primary external source of electrical power for an instrument, including
       all sub-assemblies Examples: Public or local power grid (AC or DC) or external
       generator.'
+    definition_paragraphs:
+    - text: 'primary external source of electrical power for an instrument, including
+        all sub-assemblies Examples: Public or local power grid (AC or DC) or external
+        generator.'
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

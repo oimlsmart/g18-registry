@@ -26,8 +26,14 @@ data:
     g18_entry: '01781'
     definition: set of values of temperature for which the error of the thermometer
       is intended to lie within specified limits
+    definition_paragraphs:
+    - text: set of values of temperature for which the error of the thermometer is
+        intended to lie within specified limits
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '01781'
     definition: set of values of temperature for which the error of the thermometer
       is intended to lie within specified limits
+    definition_paragraphs:
+    - text: set of values of temperature for which the error of the thermometer is
+        intended to lie within specified limits
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

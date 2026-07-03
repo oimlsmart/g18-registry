@@ -24,8 +24,13 @@ data:
     link:
     g18_entry: 02244-D011
     definition: required (simulated) influence quantity value for performing the test
+    definition_paragraphs:
+    - text: required (simulated) influence quantity value for performing the test
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

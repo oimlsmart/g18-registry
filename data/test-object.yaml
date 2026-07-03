@@ -26,8 +26,15 @@ data:
     g18_entry: '01738'
     definition: an object whose dimensions are verified by appropriate reference standards
       and intended to verify the compliance of the EUT with certain metrological requirements
+    definition_paragraphs:
+    - text: an object whose dimensions are verified by appropriate reference standards
+        and intended to verify the compliance of the EUT with certain metrological
+        requirements
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +48,14 @@ data:
     g18_entry: '00141'
     definition: a physical object, device, or material that is subject to a measurement
       and embodies the physical quantity to be measured or calibrated
+    definition_paragraphs:
+    - text: a physical object, device, or material that is subject to a measurement
+        and embodies the physical quantity to be measured or calibrated
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -56,8 +69,15 @@ data:
     g18_entry: '03563'
     definition: object whose dimensions are verified by appropriate reference standards
       and intended to verify the compliance of the EUT with certain metrological requirements
+    definition_paragraphs:
+    - text: object whose dimensions are verified by appropriate reference standards
+        and intended to verify the compliance of the EUT with certain metrological
+        requirements
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -71,8 +91,14 @@ data:
     g18_entry: '00141'
     definition: a physical object, device, or material that is subject to a measurement
       and embodies the physical quantity to be measured or calibrated
+    definition_paragraphs:
+    - text: a physical object, device, or material that is subject to a measurement
+        and embodies the physical quantity to be measured or calibrated
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

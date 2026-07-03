@@ -24,8 +24,13 @@ data:
     link:
     g18_entry: '02416'
     definition: water temperature in the pipe measured upstream of the meter
+    definition_paragraphs:
+    - text: water temperature in the pipe measured upstream of the meter
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

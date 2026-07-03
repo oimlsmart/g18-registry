@@ -25,8 +25,14 @@ data:
     g18_entry: 00763b
     definition: device which provides information on the mass of the load to be measured.
       This device may consist of all or part of a non- automatic weighing instrument
+    definition_paragraphs:
+    - text: device which provides information on the mass of the load to be measured.
+        This device may consist of all or part of a non- automatic weighing instrument
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -40,8 +46,14 @@ data:
     g18_entry: '00495'
     definition: the part of a belt weigher providing information on the mass of the
       load to be measured
+    definition_paragraphs:
+    - text: the part of a belt weigher providing information on the mass of the load
+        to be measured
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

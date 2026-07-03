@@ -26,8 +26,14 @@ data:
     g18_entry: '00963'
     definition: "(t value of metrologically controlled weights that balances the load
       aking into account the reduction ratio of the load)"
+    definition_paragraphs:
+    - text: "(t value of metrologically controlled weights that balances the load
+        aking into account the reduction ratio of the load)"
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '00963'
     definition: value of metrologically controlled weights that balances the load
       (taking into account the reduction ratio of the load)
+    definition_paragraphs:
+    - text: value of metrologically controlled weights that balances the load (taking
+        into account the reduction ratio of the load)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -26,8 +26,14 @@ data:
     g18_entry: '02110'
     definition: number of photosensitive elements which form the thermographic instrument
       photodetector
+    definition_paragraphs:
+    - text: number of photosensitive elements which form the thermographic instrument
+        photodetector
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '02110'
     definition: number of photosensitive elements which form the thermographic instrument
       photodetector
+    definition_paragraphs:
+    - text: number of photosensitive elements which form the thermographic instrument
+        photodetector
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

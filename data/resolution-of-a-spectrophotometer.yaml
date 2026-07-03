@@ -32,13 +32,26 @@ data:
     definition: mean of the wavelength of two adjacent emission or absorption lines,
       the signals of which are practically still separated by the spectrophotometer,
       divided by the absolute wavelength difference of the two lines
+    definition_paragraphs:
+    - text: mean of the wavelength of two adjacent emission or absorption lines, the
+        signals of which are practically still separated by the spectrophotometer,
+        divided by the absolute wavelength difference of the two lines
+      sources: []
     notes:
     - Two equally strong emission lines are considered as resolved, if the signal
       in the region between the two maxima of the lines is reduced to at least 80
       % of the line's maxima. Two equally strong absorption lines are considered as
       resolved, if the extinction between the two maxima is reduced to at least 90
       % of the line's maxima. [Adapted from [7], clause 4.5]
+    note_paragraphs:
+    - text: Two equally strong emission lines are considered as resolved, if the signal
+        in the region between the two maxima of the lines is reduced to at least 80
+        % of the line's maxima. Two equally strong absorption lines are considered
+        as resolved, if the extinction between the two maxima is reduced to at least
+        90 % of the line's maxima. [Adapted from [7], clause 4.5]
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

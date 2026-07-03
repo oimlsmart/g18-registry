@@ -31,8 +31,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r080-1-e09.pdf
     g18_entry: '02296'
     definition: checking facility that operates without the intervention of an operator
+    definition_paragraphs:
+    - text: checking facility that operates without the intervention of an operator
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -45,8 +50,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r085-1-e08.pdf
     g18_entry: '02309'
     definition: checking facility that operates without the intervention of an operator
+    definition_paragraphs:
+    - text: checking facility that operates without the intervention of an operator
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -59,9 +69,16 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r099-1-e08.pdf
     g18_entry: '02363'
     definition: checking facility operating without the intervention of the user
+    definition_paragraphs:
+    - text: checking facility operating without the intervention of the user
+      sources: []
     notes:
     - Adapted from OIML D 11:2004, 3.18.1.
+    note_paragraphs:
+    - text: Adapted from OIML D 11:2004, 3.18.1.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -77,9 +94,19 @@ data:
       An automatic checking facility performs isincorporated in an instrument and
       which enables significant sec faults to be detected and acted upon IML D 11:
       2004, 3.18 and 3.18.1]"
+    definition_paragraphs:
+    - text: "[O facility, operating without the intervention of an operator, which
+        An automatic checking facility performs isincorporated in an instrument and
+        which enables significant sec faults to be detected and acted upon IML D 11:
+        2004, 3.18 and 3.18.1]"
+      sources: []
     notes:
     - uring and monitoring activities.
+    note_paragraphs:
+    - text: uring and monitoring activities.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -92,8 +119,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r117-1-e07.pdf
     g18_entry: '01541'
     definition: checking facility operating without the intervention of an operator
+    definition_paragraphs:
+    - text: checking facility operating without the intervention of an operator
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -106,8 +138,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r139-e07.pdf
     g18_entry: '02035'
     definition: checking facility operating without the intervention of an operator
+    definition_paragraphs:
+    - text: checking facility operating without the intervention of an operator
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -120,8 +157,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r140-e07.pdf
     g18_entry: '02101'
     definition: checking facility that operates without the intervention of an operator
+    definition_paragraphs:
+    - text: checking facility that operates without the intervention of an operator
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -134,8 +176,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r049-1-e06.pdf
     g18_entry: '00461'
     definition: checking facility operating without the intervention of an operator
+    definition_paragraphs:
+    - text: checking facility operating without the intervention of an operator
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -148,8 +195,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_D/d011-e04.pdf
     g18_entry: '00244'
     definition: checking facility that operates without the intervention of an operator
+    definition_paragraphs:
+    - text: checking facility that operates without the intervention of an operator
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -162,8 +214,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r125-e98.pdf
     g18_entry: '01654'
     definition: a checking facility operating without the intervention of an operator
+    definition_paragraphs:
+    - text: a checking facility operating without the intervention of an operator
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -176,8 +233,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r105-e93.pdf
     g18_entry: '01247'
     definition: a checking facility operating without the intervention of an operator
+    definition_paragraphs:
+    - text: a checking facility operating without the intervention of an operator
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -191,8 +253,14 @@ data:
     g18_entry: '02438'
     definition: 'checking facility (3.5.4) that operates without the intervention
       of an operator [SORUCE: OIML D 11:2013, 3.19.1.] [8]'
+    definition_paragraphs:
+    - text: 'checking facility (3.5.4) that operates without the intervention of an
+        operator [SORUCE: OIML D 11:2013, 3.19.1.] [8]'
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -205,8 +273,19 @@ data:
     link:
     g18_entry: '02885'
     definition: checking facility operating without the intervention of an operator
+    definition_paragraphs:
+    - text: checking facility operating without the intervention of an operator
+      sources:
+      - kind: other
+        relationship: identical
+        modification:
+        ref_source: OIML D011:2013
+        ref_id: 3.19.1
+        is_vimline: false
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -220,8 +299,14 @@ data:
     g18_entry: '02886'
     definition: checking facility that operates without the intervention of an operator
       (OIML D11, 3.19.1.)
+    definition_paragraphs:
+    - text: checking facility that operates without the intervention of an operator
+        (OIML D11, 3.19.1.)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -234,8 +319,13 @@ data:
     link:
     g18_entry: '02884'
     definition: checking facility operating without the intervention of an operator
+    definition_paragraphs:
+    - text: checking facility operating without the intervention of an operator
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -248,8 +338,13 @@ data:
     link:
     g18_entry: '02883'
     definition: checking facility that operates without the intervention of an operator.
+    definition_paragraphs:
+    - text: checking facility that operates without the intervention of an operator.
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -262,8 +357,13 @@ data:
     link:
     g18_entry: 02236-D011
     definition: checking facility that operates without the intervention of an operator
+    definition_paragraphs:
+    - text: checking facility that operates without the intervention of an operator
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -276,8 +376,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r080-1-e09.pdf
     g18_entry: '02296-R080-1'
     definition: checking facility operating without the intervention of an operator
+    definition_paragraphs:
+    - text: checking facility operating without the intervention of an operator
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -291,8 +396,14 @@ data:
     g18_entry: '02364'
     definition: checking facility that operates without the intervention of the user
       [Adapted from OIML D11:2004, 3.18.1.]
+    definition_paragraphs:
+    - text: checking facility that operates without the intervention of the user [Adapted
+        from OIML D11:2004, 3.18.1.]
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -307,9 +418,25 @@ data:
     definition: facility, operating without the intervention of an operator, which
       is incorporated in an instrument and which enables significant faults to be
       detected and acted upon
+    definition_paragraphs:
+    - text: facility, operating without the intervention of an operator, which is
+        incorporated in an instrument and which enables significant faults to be detected
+        and acted upon
+      sources:
+      - kind: other
+        relationship: identical
+        modification:
+        ref_source: OIML D011:2004
+        ref_id: 3.18 and 3.18.1
+        is_vimline: false
     notes:
     - 'Note: An automatic checking facility performs securing and monitoring activities.'
+    note_paragraphs:
+    - text: 'Note: An automatic checking facility performs securing and monitoring
+        activities.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -322,8 +449,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r140-e07.pdf
     g18_entry: '02101'
     definition: checking facility that operates without the intervention of an operator
+    definition_paragraphs:
+    - text: checking facility that operates without the intervention of an operator
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -336,8 +468,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r125-e98.pdf
     g18_entry: '01654'
     definition: a checking facility operating without the intervention of an operator
+    definition_paragraphs:
+    - text: a checking facility operating without the intervention of an operator
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -350,8 +487,13 @@ data:
     link:
     g18_entry: '02309-1'
     definition: checking facility that operates without the intervention of an operator
+    definition_paragraphs:
+    - text: checking facility that operates without the intervention of an operator
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

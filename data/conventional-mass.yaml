@@ -29,9 +29,20 @@ data:
       a weight taken at a reference temperature (tref) of 20 °C, the conventional
       mass is the mass of areference weight of a density (rref) of 8 000 kg m–3 which
       it balances in air of a reference density (r0) of 1.2 kg m–3
+    definition_paragraphs:
+    - text: Conventional value of the result of weighing in air, in accordance with
+        OIML D 28 Conventional value of the result of weighing in air [3]. For a weight
+        taken at a reference temperature (tref) of 20 °C, the conventional mass is
+        the mass of areference weight of a density (rref) of 8 000 kg m–3 which it
+        balances in air of a reference density (r0) of 1.2 kg m–3
+      sources: []
     notes:
     - Also called the conventional value of mass.
+    note_paragraphs:
+    - text: Also called the conventional value of mass.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -48,9 +59,20 @@ data:
       a weight taken at a reference temperature (tref) of 20 °C, the conventional
       mass is the mass of a reference weight of a density (rref) of 8 000 kg m–3 which
       it balances in air of a reference density (r0) of 1.2 kg m–3
+    definition_paragraphs:
+    - text: Conventional value of the result of weighing in air, in accordance with
+        OIML D 28 Conventional value of the result of weighing in air [3]. For a weight
+        taken at a reference temperature (tref) of 20 °C, the conventional mass is
+        the mass of a reference weight of a density (rref) of 8 000 kg m–3 which it
+        balances in air of a reference density (r0) of 1.2 kg m–3
+      sources: []
     notes:
     - 'Note: Also called the conventional value of mass.'
+    note_paragraphs:
+    - text: 'Note: Also called the conventional value of mass.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

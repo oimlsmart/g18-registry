@@ -25,8 +25,14 @@ data:
     g18_entry: '03188'
     definition: attribute of part of a measuring instrument, a device or software
       subject to legal control [VIML:2013, 4.08]
+    definition_paragraphs:
+    - text: attribute of part of a measuring instrument, a device or software subject
+        to legal control [VIML:2013, 4.08]
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -25,8 +25,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r049-2-e06.pdf
     g18_entry: '00469'
     definition: pipe fitting specific to the connection of a concentric meter
+    definition_paragraphs:
+    - text: pipe fitting specific to the connection of a concentric meter
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -39,8 +44,13 @@ data:
     link:
     g18_entry: '02387'
     definition: pipe fitting specific to the connection of a concentric meter(3.1.18)
+    definition_paragraphs:
+    - text: pipe fitting specific to the connection of a concentric meter(3.1.18)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

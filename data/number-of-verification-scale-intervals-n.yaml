@@ -25,8 +25,14 @@ data:
     g18_entry: '00951'
     definition: 'quotient of the maximum capacity and the verification scale interval:
       n = Max / e'
+    definition_paragraphs:
+    - text: 'quotient of the maximum capacity and the verification scale interval:
+        n = Max / e'
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

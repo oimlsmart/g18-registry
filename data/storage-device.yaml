@@ -27,8 +27,15 @@ data:
     definition: storage used for keeping measurement data ready after completion of
       the measurement for later legally relevant purposes (e.g. the conclusion of
       a commercial transaction)
+    definition_paragraphs:
+    - text: storage used for keeping measurement data ready after completion of the
+        measurement for later legally relevant purposes (e.g. the conclusion of a
+        commercial transaction)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -42,9 +49,23 @@ data:
     g18_entry: '03541'
     definition: devoice used for storing measurement that are necessary to construct
       the measurement result
+    definition_paragraphs:
+    - text: devoice used for storing measurement that are necessary to construct the
+        measurement result
+      sources:
+      - kind: viml
+        relationship: modified
+        modification:
+        ref_source: OIML V 1:2022
+        ref_id: '6.07'
+        is_vimline: true
     notes:
     - 'Note: See Annex C for clarification regarding measurement-related terms.'
+    note_paragraphs:
+    - text: 'Note: See Annex C for clarification regarding measurement-related terms.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: modified

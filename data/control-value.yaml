@@ -28,8 +28,16 @@ data:
       indicating device when a known additional mass has been simulated or deposited
       on the load receptor with the empty belt running for a prescribed number of
       complete revolutions
+    definition_paragraphs:
+    - text: the value, in units of mass, that is indicated by the totalization indicating
+        device when a known additional mass has been simulated or deposited on the
+        load receptor with the empty belt running for a prescribed number of complete
+        revolutions
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -44,8 +52,15 @@ data:
     definition: value, in units of mass, that is indicated by the totalization indicating
       device when a known additional mass has been actually or by simulation introduced
       on the (empty) force receptor
+    definition_paragraphs:
+    - text: value, in units of mass, that is indicated by the totalization indicating
+        device when a known additional mass has been actually or by simulation introduced
+        on the (empty) force receptor
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -61,8 +76,16 @@ data:
       indicating device when a known additional mass has been simulated or deposited
       on the load receptor with the empty belt running for a prescribed number of
       complete revolutions
+    definition_paragraphs:
+    - text: the value, in units of mass, that is indicated by the totalization indicating
+        device when a known additional mass has been simulated or deposited on the
+        load receptor with the empty belt running for a prescribed number of complete
+        revolutions
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

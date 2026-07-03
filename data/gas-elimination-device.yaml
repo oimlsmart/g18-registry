@@ -27,8 +27,15 @@ data:
     definition: device used to remove any air, gas, or vapor contained in the liquid.
       There are several different types of gas elimination devices, including gas
       separators, gas extractors, and special gas extractors
+    definition_paragraphs:
+    - text: device used to remove any air, gas, or vapor contained in the liquid.
+        There are several different types of gas elimination devices, including gas
+        separators, gas extractors, and special gas extractors
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,10 +48,18 @@ data:
     link:
     g18_entry: '03089'
     definition: device used to remove any air, gas, or vapor contained in the liquid
+    definition_paragraphs:
+    - text: device used to remove any air, gas, or vapor contained in the liquid
+      sources: []
     notes:
     - 'Note: There are several different types of gas elimination devices, including
       gas separators, gas extractors, and special gas extractors'
+    note_paragraphs:
+    - text: 'Note: There are several different types of gas elimination devices, including
+        gas separators, gas extractors, and special gas extractors'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

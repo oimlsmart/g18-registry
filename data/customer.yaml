@@ -28,8 +28,16 @@ data:
       application for type evaluation of a measuring instrument to an Issuing Authority
       participating in a DoMC in order to receive Test Report and OIML Certificate
       for that instrument type
+    definition_paragraphs:
+    - text: a manufacturer and/or an authorized representative who submits an application
+        for type evaluation of a measuring instrument to an Issuing Authority participating
+        in a DoMC in order to receive Test Report and OIML Certificate for that instrument
+        type
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -45,8 +53,16 @@ data:
       for type evaluation of a measuring instrument to an Issuing Authority participating
       in a DoMC in order to receive a Test Report and OIML Certificate for that instrument
       type
+    definition_paragraphs:
+    - text: manufacturer and/or an authorized representative who submits an application
+        for type evaluation of a measuring instrument to an Issuing Authority participating
+        in a DoMC in order to receive a Test Report and OIML Certificate for that
+        instrument type
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

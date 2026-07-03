@@ -24,8 +24,13 @@ data:
     link:
     g18_entry: '03103'
     definition: value of volume provided by the volume measuring syste
+    definition_paragraphs:
+    - text: value of volume provided by the volume measuring syste
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -38,8 +43,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r080-1-e09.pdf
     g18_entry: '02249-R080-1'
     definition: value of volume provided by the volume measuring system
+    definition_paragraphs:
+    - text: value of volume provided by the volume measuring system
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

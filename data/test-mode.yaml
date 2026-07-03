@@ -25,8 +25,14 @@ data:
     g18_entry: '03790'
     definition: mode of operation in which speed measurements for test and examination
       purposes are carried out
+    definition_paragraphs:
+    - text: mode of operation in which speed measurements for test and examination
+        purposes are carried out
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

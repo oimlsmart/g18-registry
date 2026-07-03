@@ -25,8 +25,14 @@ data:
     g18_entry: '01299'
     definition: a span stability error greater than one half of the absolute value
       ofthe maximum permissible error applicable to the load
+    definition_paragraphs:
+    - text: a span stability error greater than one half of the absolute value ofthe
+        maximum permissible error applicable to the load
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

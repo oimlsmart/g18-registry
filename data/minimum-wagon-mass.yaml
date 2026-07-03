@@ -25,8 +25,14 @@ data:
     g18_entry: '02576'
     definition: wagon mass below which a weighing-in-motion result may be subject
       to an excessive relative error
+    definition_paragraphs:
+    - text: wagon mass below which a weighing-in-motion result may be subject to an
+        excessive relative error
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -27,8 +27,15 @@ data:
     definition: an automatic weighing instrument for continuously weighing a bulk
       product on a conveyor belt, without systematic subdivision ofthe mass and without
       interrupting the movement of the conveyor belt
+    definition_paragraphs:
+    - text: an automatic weighing instrument for continuously weighing a bulk product
+        on a conveyor belt, without systematic subdivision ofthe mass and without
+        interrupting the movement of the conveyor belt
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -43,10 +50,20 @@ data:
     definition: automatic weighing instrument for continuously weighing a bulk product
       for example on a conveyor belt, without interrupting the movement of the conveyor
       belt
+    definition_paragraphs:
+    - text: automatic weighing instrument for continuously weighing a bulk product
+        for example on a conveyor belt, without interrupting the movement of the conveyor
+        belt
+      sources: []
     notes:
     - 'Note: In this Recommendation a continuous totalizing automatic weighing instrument
       of the conveyor belt type is called a “belt weigher”.'
+    note_paragraphs:
+    - text: 'Note: In this Recommendation a continuous totalizing automatic weighing
+        instrument of the conveyor belt type is called a “belt weigher”.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

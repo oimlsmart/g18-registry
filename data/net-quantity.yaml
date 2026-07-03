@@ -27,11 +27,22 @@ data:
     definition: the quantity of the identified product in the package exclusive of
       This term relates to specifications on a wrappers and any other material packed
       with such product pac con pro pro are pac
+    definition_paragraphs:
+    - text: the quantity of the identified product in the package exclusive of This
+        term relates to specifications on a wrappers and any other material packed
+        with such product pac con pro pro are pac
+      sources: []
     notes:
     - kage and does not account for the actual tents in an individual package. The
       cedures for determining whether a duction lot meets regulatory requirements
       provided in OIML R 87 Net contents in kages
+    note_paragraphs:
+    - text: kage and does not account for the actual tents in an individual package.
+        The cedures for determining whether a duction lot meets regulatory requirements
+        provided in OIML R 87 Net contents in kages
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -45,6 +56,10 @@ data:
     g18_entry: '02483'
     definition: quantity of the identified product in the prepackage exclusive of
       packing material
+    definition_paragraphs:
+    - text: quantity of the identified product in the prepackage exclusive of packing
+        material
+      sources: []
     notes:
     - "'Packing material' includes wrappers and any other material packed with such
       product. See 2.6, Note 3."
@@ -52,7 +67,17 @@ data:
       the actual quantity in an individual prepackage. For prepackages with constant
       nominal quantity, the procedures for determining whether an inspection lot meets
       regulatory requirements are provided in OIML R 87 [1].
+    note_paragraphs:
+    - text: "'Packing material' includes wrappers and any other material packed with
+        such product. See 2.6, Note 3."
+      sources: []
+    - text: This term relates to specifications on a prepackage and does not account
+        for the actual quantity in an individual prepackage. For prepackages with
+        constant nominal quantity, the procedures for determining whether an inspection
+        lot meets regulatory requirements are provided in OIML R 87 [1].
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -26,13 +26,26 @@ data:
     g18_entry: '02220'
     definition: legally relevant parameter with a value that depends on the type of
       instrument only
+    definition_paragraphs:
+    - text: legally relevant parameter with a value that depends on the type of instrument
+        only
+      sources: []
     notes:
     - Type-specific parameters are part of the legally relevant software.
+    note_paragraphs:
+    - text: Type-specific parameters are part of the legally relevant software.
+      sources: []
     examples:
     - Considering a measuring system of liquids other than water, the range of kinematic
       viscosity of a turbine is a type-specific parameter fixed by the type approval
       of the turbine. All the manufactured turbines of the same type have the same
       range of viscosity.
+    example_paragraphs:
+    - text: Considering a measuring system of liquids other than water, the range
+        of kinematic viscosity of a turbine is a type-specific parameter fixed by
+        the type approval of the turbine. All the manufactured turbines of the same
+        type have the same range of viscosity.
+      sources: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -48,8 +61,16 @@ data:
       taximeter only. They are fixed at type approval of the taximeter. Examples of
       type-specific parameters include software identification and parameters used
       for fare calculation and rounding
+    definition_paragraphs:
+    - text: legally relevant parameter with a value that depends on the type of taximeter
+        only. They are fixed at type approval of the taximeter. Examples of type-specific
+        parameters include software identification and parameters used for fare calculation
+        and rounding
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -64,10 +85,20 @@ data:
     definition: legally relevant parameter with a value that depends on the type ofinstrument
       only Type-specific parameters are part of the legally relevant software. They
       are fixed at type approval of the instrument.
+    definition_paragraphs:
+    - text: legally relevant parameter with a value that depends on the type ofinstrument
+        only Type-specific parameters are part of the legally relevant software. They
+        are fixed at type approval of the instrument.
+      sources: []
     notes: []
+    note_paragraphs: []
     examples:
     - Parameters used for weight value calculation, stability analysis or price calculation
       and rounding, software identification.
+    example_paragraphs:
+    - text: Parameters used for weight value calculation, stability analysis or price
+        calculation and rounding, software identification.
+      sources: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -82,10 +113,20 @@ data:
     definition: legally relevant parameter with a value that depends on the type ofinstrument
       only. Type-specific parameters are part of the legally relevant software. They
       are fixed at type approval of the instrument
+    definition_paragraphs:
+    - text: legally relevant parameter with a value that depends on the type ofinstrument
+        only. Type-specific parameters are part of the legally relevant software.
+        They are fixed at type approval of the instrument
+      sources: []
     notes: []
+    note_paragraphs: []
     examples:
     - Parameters used for mass calculation, stability analysis or price calculation
       and rounding, software identification.
+    example_paragraphs:
+    - text: Parameters used for mass calculation, stability analysis or price calculation
+        and rounding, software identification.
+      sources: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -99,13 +140,32 @@ data:
     g18_entry: '03599'
     definition: legally relevant parameter with a value that depends on the type of
       instrument, component and/or module subject ot legal control
+    definition_paragraphs:
+    - text: legally relevant parameter with a value that depends on the type of instrument,
+        component and/or module subject ot legal control
+      sources:
+      - kind: viml
+        relationship: modified
+        modification:
+        ref_source: OIML V 1:2022
+        ref_id: '2.04'
+        is_vimline: true
     notes:
-    - 'Note: Type-specific parameters are part of the legally relevant software. Example:
-      Considering a measuring system of liquids other than water, the range of kinematic
+    - Type-specific parameters are part of the legally relevant software.
+    note_paragraphs:
+    - text: Type-specific parameters are part of the legally relevant software.
+      sources: []
+    examples:
+    - Considering a measuring system of liquids other than water, the range of kinematic
       viscosity of a turbine is a type-specific parameter fixed by the type approval
       of the turbine. All the manufactured turbines of the same type have the same
-      range of viscosity.'
-    examples: []
+      range of viscosity.
+    example_paragraphs:
+    - text: Considering a measuring system of liquids other than water, the range
+        of kinematic viscosity of a turbine is a type-specific parameter fixed by
+        the type approval of the turbine. All the manufactured turbines of the same
+        type have the same range of viscosity.
+      sources: []
     source:
       kind: viml
       relationship: modified
@@ -125,12 +185,23 @@ data:
     g18_entry: '03600'
     definition: legally relevant parameter with a value that depends on the type of
       instrument only
+    definition_paragraphs:
+    - text: legally relevant parameter with a value that depends on the type of instrument
+        only
+      sources: []
     notes:
     - 'Note: Type-specific parameters are part of the legally relevant software. [VIML:2013,
       4.11] Example of type-specific parameters are: parameters used for weight (load)
       value calculation, stability analysis or price calculation and rounding, software
       identification'
+    note_paragraphs:
+    - text: 'Note: Type-specific parameters are part of the legally relevant software.
+        [VIML:2013, 4.11] Example of type-specific parameters are: parameters used
+        for weight (load) value calculation, stability analysis or price calculation
+        and rounding, software identification'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -144,11 +215,22 @@ data:
     g18_entry: '03685'
     definition: legally relevant parameter with a value that depends on the type of
       instrument only (VIML, 4.11)
+    definition_paragraphs:
+    - text: legally relevant parameter with a value that depends on the type of instrument
+        only (VIML, 4.11)
+      sources: []
     notes:
     - 'Note: Type-specific parameters are part of the legally relevant software. Example
       of type-specific parameters are: parameters used for weight value calculation,
       stability analysis or price calculation and rounding, software identification'
+    note_paragraphs:
+    - text: 'Note: Type-specific parameters are part of the legally relevant software.
+        Example of type-specific parameters are: parameters used for weight value
+        calculation, stability analysis or price calculation and rounding, software
+        identification'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -165,8 +247,16 @@ data:
       of the instrument examples of type-specific parameters are: parameters used
       for mass calculation, stability analysis or price calculation and rounding,
       software identification'
+    definition_paragraphs:
+    - text: 'legally relevant parameter with a value that depends on the type of instrument
+        only a legally relevant parameter is fixed at type evaluation of the instrument
+        examples of type-specific parameters are: parameters used for mass calculation,
+        stability analysis or price calculation and rounding, software identification'
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -180,10 +270,19 @@ data:
     g18_entry: '00352'
     definition: legally relevant parameter with a value that depends on the type of
       taximeter only. They are fixed at type approval of the taximeter
+    definition_paragraphs:
+    - text: legally relevant parameter with a value that depends on the type of taximeter
+        only. They are fixed at type approval of the taximeter
+      sources: []
     notes: []
+    note_paragraphs: []
     examples:
     - Type-specific parameters include software identification and parameters used
       for fare calculation and rounding.
+    example_paragraphs:
+    - text: Type-specific parameters include software identification and parameters
+        used for fare calculation and rounding.
+      sources: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -200,8 +299,17 @@ data:
       software. They are fixed at type approval of the instrument. Examples: Parameters
       used for weight value calculation, stability analysis or price calculation and
       rounding, software identification.'
+    definition_paragraphs:
+    - text: 'legally relevant parameter with a value that depends on the type of instrument
+        only Type-specific parameters are part of the legally relevant software. They
+        are fixed at type approval of the instrument. Examples: Parameters used for
+        weight value calculation, stability analysis or price calculation and rounding,
+        software identification.'
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -218,8 +326,17 @@ data:
       software. They are fixed at type approval of the instrument Examples: Parameters
       used for weight value calculation, stability analysis or price calculation and
       rounding, software identification.'
+    definition_paragraphs:
+    - text: 'legally relevant parameter with a value that depends on the type of instrument
+        only. Type-specific parameters are part of the legally relevant software.
+        They are fixed at type approval of the instrument Examples: Parameters used
+        for weight value calculation, stability analysis or price calculation and
+        rounding, software identification.'
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

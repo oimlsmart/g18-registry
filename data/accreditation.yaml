@@ -27,8 +27,15 @@ data:
     definition: "( procedure by which an authoritative body gives formal recognition
       that a body or person is competent to carry out specific tasks ISO/IEC Guide
       2, 12.11)"
+    definition_paragraphs:
+    - text: "( procedure by which an authoritative body gives formal recognition that
+        a body or person is competent to carry out specific tasks ISO/IEC Guide 2,
+        12.11)"
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -43,8 +50,15 @@ data:
     definition: third-party attestation related to a conformity assessment body conveying
       formal demonstration of its competence to carry out specific conformity assessment
       tasks (from ISO/IEC 17000:2004, 5.6 [2] and VIML, a.19 [3])
+    definition_paragraphs:
+    - text: third-party attestation related to a conformity assessment body conveying
+        formal demonstration of its competence to carry out specific conformity assessment
+        tasks (from ISO/IEC 17000:2004, 5.6 [2] and VIML, a.19 [3])
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -59,8 +73,15 @@ data:
     definition: third-party attestation related to a conformity assessment body conveying
       formal demonstration of its competence to carry out specific conformity assessment
       tasks [ISO/IEC 17000:2004; 5.6] [1]
+    definition_paragraphs:
+    - text: third-party attestation related to a conformity assessment body conveying
+        formal demonstration of its competence to carry out specific conformity assessment
+        tasks [ISO/IEC 17000:2004; 5.6] [1]
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

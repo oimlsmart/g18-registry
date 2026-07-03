@@ -28,9 +28,19 @@ data:
       large) domain into a smaller range. A "good" hash function is such that the
       results of applying the function to a (large) set of values in the domain will
       be evenly distributed (and apparently at random) over the range
+    definition_paragraphs:
+    - text: (mathematical) function which maps values from a large (possibly very
+        large) domain into a smaller range. A "good" hash function is such that the
+        results of applying the function to a (large) set of values in the domain
+        will be evenly distributed (and apparently at random) over the range
+      sources: []
     notes:
     - "[ISO/IEC 9594-8:2001]"
+    note_paragraphs:
+    - text: "[ISO/IEC 9594-8:2001]"
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -44,6 +54,10 @@ data:
     g18_entry: '03094'
     definition: "(mathematical) function which maps data of arbitrary size into data
       of fixed size called a digest adapted from [ISO/IEC 9594-8:2017] [3]"
+    definition_paragraphs:
+    - text: "(mathematical) function which maps data of arbitrary size into data of
+        fixed size called a digest adapted from [ISO/IEC 9594-8:2017] [3]"
+      sources: []
     notes:
     - A "good" hash function is such that the results of applying the function to
       a (large) set of values in the domain will be evenly distributed (and apparently
@@ -52,7 +66,18 @@ data:
       preimage resistance, and second preimage resistance, where preimage resistance
       refers to the inability (computational infeasibility) to reconstruct a preimage
       or message digest.'
+    note_paragraphs:
+    - text: A "good" hash function is such that the results of applying the function
+        to a (large) set of values in the domain will be evenly distributed (and apparently
+        at random) over the range.
+      sources: []
+    - text: 'A cryptographic hash function has three additional properties: collision-resistance,
+        preimage resistance, and second preimage resistance, where preimage resistance
+        refers to the inability (computational infeasibility) to reconstruct a preimage
+        or message digest.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -66,11 +91,21 @@ data:
     g18_entry: '03095'
     definition: "(mathematical) function which maps values from a large (possibly
       very large) domain into a smaller range (OIMLD 31, 3.1.20)"
+    definition_paragraphs:
+    - text: "(mathematical) function which maps values from a large (possibly very
+        large) domain into a smaller range (OIMLD 31, 3.1.20)"
+      sources: []
     notes:
     - 'Note: A “good” hash function is such that the results of applying the function
       to a (large) set of values in the domain will be evenly distributed (and apparently
       at random) over the range.'
+    note_paragraphs:
+    - text: 'Note: A “good” hash function is such that the results of applying the
+        function to a (large) set of values in the domain will be evenly distributed
+        (and apparently at random) over the range.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

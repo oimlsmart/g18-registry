@@ -26,8 +26,14 @@ data:
     g18_entry: '01114'
     definition: difference between the actual quantity of product in a prepackage
       and its nominal quantity
+    definition_paragraphs:
+    - text: difference between the actual quantity of product in a prepackage and
+        its nominal quantity
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,11 +47,21 @@ data:
     g18_entry: '02493'
     definition: difference between the actual quantity of product in a prepackage
       and the nominal quantity of that prepackage
+    definition_paragraphs:
+    - text: difference between the actual quantity of product in a prepackage and
+        the nominal quantity of that prepackage
+      sources: []
     notes:
     - Note:The individual prepackage error for a prepackage “i” is designated by the
       symbol Ei or ei and can be calculated by Ei = Qi – Qnom or by ei = qi – Qnom
       where Qnom is the nominal quantity.
+    note_paragraphs:
+    - text: Note:The individual prepackage error for a prepackage “i” is designated
+        by the symbol Ei or ei and can be calculated by Ei = Qi – Qnom or by ei =
+        qi – Qnom where Qnom is the nominal quantity.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

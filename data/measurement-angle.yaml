@@ -25,11 +25,21 @@ data:
     g18_entry: '03772'
     definition: angle between the velocity vector and the line connecting the speed
       meter and the vehicle at the instance of the measurement
+    definition_paragraphs:
+    - text: angle between the velocity vector and the line connecting the speed meter
+        and the vehicle at the instance of the measurement
+      sources: []
     notes:
     - "Note: The measurement angle has a horizontal and a vertical component. Figure
       3 shows an illustration of the horizontal component of the measurement angle
       \U0001D6FC."
+    note_paragraphs:
+    - text: "Note: The measurement angle has a horizontal and a vertical component.
+        Figure 3 shows an illustration of the horizontal component of the measurement
+        angle \U0001D6FC."
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

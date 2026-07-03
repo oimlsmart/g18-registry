@@ -25,10 +25,19 @@ data:
     g18_entry: '03754'
     definition: vertical angle between the road surface and the centre line of the
       speed meter (see Figure 2)
+    definition_paragraphs:
+    - text: vertical angle between the road surface and the centre line of the speed
+        meter (see Figure 2)
+      sources: []
     notes:
     - 'Note: In other documents, the elevation angle of speed meter is sometimes called
       the vertical alignment angle.'
+    note_paragraphs:
+    - text: 'Note: In other documents, the elevation angle of speed meter is sometimes
+        called the vertical alignment angle.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

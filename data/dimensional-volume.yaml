@@ -38,8 +38,15 @@ data:
     definition: volume of smallest rectangular box which fully encloses the object,
       and is the product of the indicated values of length (L), width (W) and height
       (H) (DV = L × W × H)
+    definition_paragraphs:
+    - text: volume of smallest rectangular box which fully encloses the object, and
+        is the product of the indicated values of length (L), width (W) and height
+        (H) (DV = L × W × H)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

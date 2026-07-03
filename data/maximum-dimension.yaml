@@ -32,8 +32,14 @@ data:
     g18_entry: '01714'
     definition: the maximum measurable dimension for each axis as specified by the
       manufacturer for the measuring instrument
+    definition_paragraphs:
+    - text: the maximum measurable dimension for each axis as specified by the manufacturer
+        for the measuring instrument
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -47,8 +53,14 @@ data:
     g18_entry: '03224'
     definition: maximum measurable dimension for each axis as specified by the manufacturer
       for the measuring instrument
+    definition_paragraphs:
+    - text: maximum measurable dimension for each axis as specified by the manufacturer
+        for the measuring instrument
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

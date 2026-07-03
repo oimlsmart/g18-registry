@@ -32,13 +32,26 @@ data:
     g18_entry: '01847'
     definition: absorbance divided by the optical pathlength b and the amount of substance
       concentration c
+    definition_paragraphs:
+    - text: absorbance divided by the optical pathlength b and the amount of substance
+        concentration c
+      sources: []
     notes:
     - 1. The derived SI unit is the square metre per mole (1 m2/mol), but the litre
       per mole per mm (L/(mol × mm)) or litre per mole per cm (L/(mol × cm)) is often
       used.
     - 2. The specific molar absorption coefficient stem:[epsilon] slightly depends
       on the amount of substance concentration c.
+    note_paragraphs:
+    - text: 1. The derived SI unit is the square metre per mole (1 m2/mol), but the
+        litre per mole per mm (L/(mol × mm)) or litre per mole per cm (L/(mol × cm))
+        is often used.
+      sources: []
+    - text: 2. The specific molar absorption coefficient stem:[epsilon] slightly depends
+        on the amount of substance concentration c.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -52,12 +65,23 @@ data:
     g18_entry: '01847'
     definition: absorbance divided by the optical pathlength b and the amount of substance
       concentration c
+    definition_paragraphs:
+    - text: absorbance divided by the optical pathlength b and the amount of substance
+        concentration c
+      sources: []
     notes:
     - The derived SI unit is the square metre per mole (1 m2/mol), but the litre per
       mole per mm (L/(mol × mm)) or litre per mole per cm (L/(mol × cm)) is often
       used. The specific molar absorption coefficient ε slightly depends on the amount
       of substance concentration c.
+    note_paragraphs:
+    - text: The derived SI unit is the square metre per mole (1 m2/mol), but the litre
+        per mole per mm (L/(mol × mm)) or litre per mole per cm (L/(mol × cm)) is
+        often used. The specific molar absorption coefficient ε slightly depends on
+        the amount of substance concentration c.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -37,8 +37,15 @@ data:
     definition: for the purposes of this Recommendation, the difference between the
       largest and the smallest results of successive measurements of the same quantity
       carried out under the same conditions
+    definition_paragraphs:
+    - text: for the purposes of this Recommendation, the difference between the largest
+        and the smallest results of successive measurements of the same quantity carried
+        out under the same conditions
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -53,8 +60,15 @@ data:
     definition: 'for the purposes of this Recommendation: difference between the largest
       and the smallest results of successive measurements of the same quantity carried
       out under the same conditions'
+    definition_paragraphs:
+    - text: 'for the purposes of this Recommendation: difference between the largest
+        and the smallest results of successive measurements of the same quantity carried
+        out under the same conditions'
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -69,8 +83,15 @@ data:
     definition: 'for the purpose of this Recommendation: difference between the (adapted
       from VIM:2007, 2.21) largest and the smallest results of successive measurements
       of a same quantity carried out under the same conditions'
+    definition_paragraphs:
+    - text: 'for the purpose of this Recommendation: difference between the (adapted
+        from VIM:2007, 2.21) largest and the smallest results of successive measurements
+        of a same quantity carried out under the same conditions'
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -90,8 +111,15 @@ data:
     definition: difference between load cell output readings taken from consecutive
       tests under the same loading and environmental conditions of measurement [Adapted
       from VIM:1993, 5.27]
+    definition_paragraphs:
+    - text: difference between load cell output readings taken from consecutive tests
+        under the same loading and environmental conditions of measurement [Adapted
+        from VIM:1993, 5.27]
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -111,8 +139,15 @@ data:
     definition: difference between the largest and the smallest results of the several
       successive measurements of the same quantity carried out under the same repeatability
       condition 1 1 OIMLV 2-200:2012
+    definition_paragraphs:
+    - text: difference between the largest and the smallest results of the several
+        successive measurements of the same quantity carried out under the same repeatability
+        condition 1 1 OIMLV 2-200:2012
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -126,8 +161,14 @@ data:
     g18_entry: '03457'
     definition: difference between load cell output readings taken from consecutive
       tests under the same loading and environmental conditions of measurement
+    definition_paragraphs:
+    - text: difference between load cell output readings taken from consecutive tests
+        under the same loading and environmental conditions of measurement
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -142,8 +183,15 @@ data:
     definition: for the purposes of this Recommendation, the difference between the
       largest and the smallest results of successive measurements of the same quantity
       carried out under the same conditions
+    definition_paragraphs:
+    - text: for the purposes of this Recommendation, the difference between the largest
+        and the smallest results of successive measurements of the same quantity carried
+        out under the same conditions
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -157,19 +205,24 @@ data:
     g18_entry: '02615'
     definition: difference between the highest and lowest results of successive measurements
       of the same load carried out under the same (or reasonably constant) conditions
-      of measurement
+      of measurement [VIM 3.6]
+    definition_paragraphs:
+    - text: difference between the highest and lowest results of successive measurements
+        of the same load carried out under the same (or reasonably constant) conditions
+        of measurement [VIM 3.6]
+      sources: []
     notes:
     - 'Note: Repeatability conditions include: the same measurement procedure; the
       same operator; the same measuring instrument, used under the same conditions;
       the same location; repetition over a short period of time.'
+    note_paragraphs:
+    - text: 'Note: Repeatability conditions include: the same measurement procedure;
+        the same operator; the same measuring instrument, used under the same conditions;
+        the same location; repetition over a short period of time.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
-      kind: vim
-      relationship: identical
-      modification:
-      ref_source: OIML V 2-200:2007
-      ref_id: '3.6'
-      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -183,8 +236,15 @@ data:
     definition: 'for the purpose of this Recommendation: difference between the largest
       and the smallest results of successive measurements of a same quantity carried
       out under the same conditions [adapted from VIM:2007, 2.21]'
+    definition_paragraphs:
+    - text: 'for the purpose of this Recommendation: difference between the largest
+        and the smallest results of successive measurements of a same quantity carried
+        out under the same conditions [adapted from VIM:2007, 2.21]'
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

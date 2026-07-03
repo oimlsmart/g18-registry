@@ -33,8 +33,21 @@ data:
       balance is calibrated with reference weights of well known mass, the balance
       can be used to indicate the conventional mass, mc, of a body under conventionally
       chosen conditions'
+    definition_paragraphs:
+    - text: 'instrument indicating apparent mass that is sensitive to the following
+        forces: gravity air buoyancy equal to the weight of the displaced air. vertical
+        component of the magnetic interaction between the weight and the balance and/or
+        the environment H and M are vectors; z is the vertical cartesian coordinate.
+        If magnetic effects are negligible, i.e. the permanent magnetization (M) of
+        the weight and the magnetic susceptibility (c) are sufficiently small, and
+        the balance is calibrated with reference weights of well known mass, the balance
+        can be used to indicate the conventional mass, mc, of a body under conventionally
+        chosen conditions'
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -55,8 +68,21 @@ data:
       () are sufficiently small, and the balance is calibrated with reference weights
       of well known mass, the balance can be used to indicate the conventional mass,
       mc, of a body under conventionally chosen conditions'
+    definition_paragraphs:
+    - text: 'instrument indicating apparent mass that is sensitive to the following
+        forces: gravity air buoyancy equal to the weight of the displaced air vertical
+        component of the magnetic interaction between the weight and the balance and/or
+        the                                           environment H and M are vectors;
+        z is the vertical Cartesian coordinate. If magnetic effects are negligible,
+        i.e. the permanent magnetization (M) of the weight and the magnetic susceptibility
+        () are sufficiently small, and the balance is calibrated with reference weights
+        of well known mass, the balance can be used to indicate the conventional mass,
+        mc, of a body under conventionally chosen conditions'
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

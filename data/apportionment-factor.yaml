@@ -33,8 +33,16 @@ data:
       example, 0.7) used in determining mpe (see 2.4.9). It represents that apportionment
       of a whole error (as may apply to a weighing instrument) which has been assigned
       to the load cell alone
+    definition_paragraphs:
+    - text: the value of a dimensionless fraction expressed as a decimal (for example,
+        0.7) used in determining mpe (see 2.4.9). It represents that apportionment
+        of a whole error (as may apply to a weighing instrument) which has been assigned
+        to the load cell alone
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

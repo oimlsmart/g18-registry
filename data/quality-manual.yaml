@@ -26,10 +26,19 @@ data:
     g18_entry: '00174'
     definition: document specifying the quality management system of an organization
       [ISO 9000:2000, 3.7.4]
+    definition_paragraphs:
+    - text: document specifying the quality management system of an organization [ISO
+        9000:2000, 3.7.4]
+      sources: []
     notes:
     - Quality manuals can vary in detail and format to suit the size and complexity
       of an individual organization.
+    note_paragraphs:
+    - text: Quality manuals can vary in detail and format to suit the size and complexity
+        of an individual organization.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -43,10 +52,19 @@ data:
     g18_entry: '00174'
     definition: document specifying the quality management system of an organization
       [ISO 9000:2000, 3.7.4]
+    definition_paragraphs:
+    - text: document specifying the quality management system of an organization [ISO
+        9000:2000, 3.7.4]
+      sources: []
     notes:
     - 'Note: Quality manuals can vary in detail and format to suit the size and complexity
       of an individual  organization.'
+    note_paragraphs:
+    - text: 'Note: Quality manuals can vary in detail and format to suit the size
+        and complexity of an individual  organization.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

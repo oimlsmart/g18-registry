@@ -25,6 +25,9 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r015-e74.pdf
     g18_entry: '00304'
     definition: the mass of that amount of grain required to fill a specified receptacle
+    definition_paragraphs:
+    - text: the mass of that amount of grain required to fill a specified receptacle
+      sources: []
     notes:
     - 'This property depends not only on the intrinsic quality of the grain in question,
       but also on its moisture content, the capacity, shape and dimensions of the
@@ -35,7 +38,19 @@ data:
       The hectolitre mass is then obtained by dividing the mass of the grain in kilograms
       by the volume of the receptacle in hectolitres ; i is thus expressed in kilograms
       per hectolitre.'
+    note_paragraphs:
+    - text: 'This property depends not only on the intrinsic quality of the grain
+        in question, but also on its moisture content, the capacity, shape and dimensions
+        of the receptacle used to measure its volume, and the way in which the receptacle
+        is filled. It is therefore determined : from the mass of grain in a specified
+        condition which is required to MI a receptacle of 20 litres and of specified
+        shape and dimensions, the receptacle being filled with the grain under specified
+        conditions. The hectolitre mass is then obtained by dividing the mass of the
+        grain in kilograms by the volume of the receptacle in hectolitres ; i is thus
+        expressed in kilograms per hectolitre.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -48,6 +63,9 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r015-e74.pdf
     g18_entry: '00304'
     definition: the mass of that amount of grain required to fill a specified receptacle
+    definition_paragraphs:
+    - text: the mass of that amount of grain required to fill a specified receptacle
+      sources: []
     notes:
     - 'This property depends not only on the intrinsic quality of the grain in question,
       but also on its moisture content, the capacity, shape and dimensions of the
@@ -58,7 +76,19 @@ data:
       The hectolitre mass is then obtained by dividing the mass of the grain in kilograms
       by the volume of the receptacle in hectolitres ; it is thus expressed in kilograms
       per hectolitre.'
+    note_paragraphs:
+    - text: 'This property depends not only on the intrinsic quality of the grain
+        in question, but also on its moisture content, the capacity, shape and dimensions
+        of the receptacle used to measure its volume, and the way in which the receptacle
+        is filled. It is therefore determined: from the mass of grain in a specified
+        condition which is required to MI a receptacle of 20 litres and of specified
+        shape and dimensions, the receptacle being filled with the grain under specified
+        conditions. The hectolitre mass is then obtained by dividing the mass of the
+        grain in kilograms by the volume of the receptacle in hectolitres ; it is
+        thus expressed in kilograms per hectolitre.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -25,11 +25,22 @@ data:
     g18_entry: '03159'
     definition: process of cumulative measurement of the quantity value of a measurand
       that can be easily and rapidly stopped during normal operation
+    definition_paragraphs:
+    - text: process of cumulative measurement of the quantity value of a measurand
+        that can be easily and rapidly stopped during normal operation
+      sources: []
     notes:
     - 'Examples include: a) discontinuos totalising automatic weighing instrument,
       b) fuel dispenser.'
     - See also non-interruptible cumulative measurement (3.2.48).
+    note_paragraphs:
+    - text: 'Examples include: a) discontinuos totalising automatic weighing instrument,
+        b) fuel dispenser.'
+      sources: []
+    - text: See also non-interruptible cumulative measurement (3.2.48).
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

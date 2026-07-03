@@ -27,8 +27,15 @@ data:
     definition: part of the meter that receives the output signals from the transducer(s)
       and, possibly, from associated measuring instruments, transforms them and, if
       appropriate, stores the results in memory until they are used
+    definition_paragraphs:
+    - text: part of the meter that receives the output signals from the transducer(s)
+        and, possibly, from associated measuring instruments, transforms them and,
+        if appropriate, stores the results in memory until they are used
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -43,8 +50,15 @@ data:
     definition: part of the meter that receives the output signals from the transducer(s)
       and, possibly, from associated measuring instruments, transforms them and, if
       appropriate, stores the results in memory until they are used
+    definition_paragraphs:
+    - text: part of the meter that receives the output signals from the transducer(s)
+        and, possibly, from associated measuring instruments, transforms them and,
+        if appropriate, stores the results in memory until they are used
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

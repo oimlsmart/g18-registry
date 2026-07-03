@@ -32,8 +32,14 @@ data:
     g18_entry: '01605'
     definition: closeness of the agreement between the result of a measurement and
       a true value of the measurand
+    definition_paragraphs:
+    - text: closeness of the agreement between the result of a measurement and a true
+        value of the measurand
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -47,8 +53,14 @@ data:
     g18_entry: '00146'
     definition: the closeness of the agreement between the result of a measurement
       and the conventional true value of the measurand
+    definition_paragraphs:
+    - text: the closeness of the agreement between the result of a measurement and
+        the conventional true value of the measurand
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -62,6 +74,10 @@ data:
     g18_entry: '03705'
     definition: closeness of agreement between a measured quantity value and a true
       quantity value of the measurand
+    definition_paragraphs:
+    - text: closeness of agreement between a measured quantity value and a true quantity
+        value of the measurand
+      sources: []
     notes:
     - The concept of "measurement accuracy" is not a quantity and is not given a numerical
       quantity value. A measurement is said to be more accurate when it offers a smaller
@@ -71,7 +87,20 @@ data:
       which, however, is related to both concepts.
     - '"Measurement accuracy" is sometimes understood as closeness of agreement between
       measured quantity values that are being attributed to the measurand.'
+    note_paragraphs:
+    - text: The concept of "measurement accuracy" is not a quantity and is not given
+        a numerical quantity value. A measurement is said to be more accurate when
+        it offers a smaller measurement error.
+      sources: []
+    - text: The term "measurement accuracy" should not be used for measurement trueness
+        and the term "measurement precision" should not be used for "measurement accuracy",
+        which, however, is related to both concepts.
+      sources: []
+    - text: '"Measurement accuracy" is sometimes understood as closeness of agreement
+        between measured quantity values that are being attributed to the measurand.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: vim
       relationship: identical
@@ -91,6 +120,16 @@ data:
     g18_entry: '02443'
     definition: closeness of agreement between a measured quantity value and a true
       quantity value of the measurand
+    definition_paragraphs:
+    - text: closeness of agreement between a measured quantity value and a true quantity
+        value of the measurand
+      sources:
+      - kind: vim
+        relationship: identical
+        modification:
+        ref_source: OIML V 2-200:2007
+        ref_id: '2.13'
+        is_vimline: true
     notes:
     - The concept of "measurement accuracy" is not a quantity and is not given a numerical
       quantity value. A measurement is said to be more accurate when it offers a smaller
@@ -100,7 +139,20 @@ data:
       which, however, is related to both concepts.
     - '"Measurement accuracy" is sometimes understood as closeness of agreement between
       measured quantity values that are being attributed to the measurand.'
+    note_paragraphs:
+    - text: The concept of "measurement accuracy" is not a quantity and is not given
+        a numerical quantity value. A measurement is said to be more accurate when
+        it offers a smaller measurement error.
+      sources: []
+    - text: The term "measurement accuracy" should not be used for measurement trueness
+        and the term "measurement precision" should not be used for "measurement accuracy",
+        which, however, is related to both concepts.
+      sources: []
+    - text: '"Measurement accuracy" is sometimes understood as closeness of agreement
+        between measured quantity values that are being attributed to the measurand.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: vim
       relationship: identical
@@ -120,8 +172,14 @@ data:
     g18_entry: '01605'
     definition: closeness of the agreement between the result of a measurement and
       a true value of the measurand
+    definition_paragraphs:
+    - text: closeness of the agreement between the result of a measurement and a true
+        value of the measurand
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -135,8 +193,14 @@ data:
     g18_entry: '00146'
     definition: the closeness of the agreement between the result of a measurement
       and the conventional true value of the measurand
+    definition_paragraphs:
+    - text: the closeness of the agreement between the result of a measurement and
+        the conventional true value of the measurand
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

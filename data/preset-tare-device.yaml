@@ -27,8 +27,15 @@ data:
     definition: "(T device for subtracting a preset tare value (T.3.2.4.1) from a
       gross .3.2.1) or net (T.3.2.2) weight value and indicating the result ofthe
       calculation. The weighing range for net loads is reduced accordingly"
+    definition_paragraphs:
+    - text: "(T device for subtracting a preset tare value (T.3.2.4.1) from a gross
+        .3.2.1) or net (T.3.2.2) weight value and indicating the result ofthe calculation.
+        The weighing range for net loads is reduced accordingly"
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -43,8 +50,15 @@ data:
     definition: device for subtracting a preset tare value from a gross or net weight
       value and indicating the result of the calculation. The weighing range for net
       loads is reduced accordingly
+    definition_paragraphs:
+    - text: device for subtracting a preset tare value from a gross or net weight
+        value and indicating the result of the calculation. The weighing range for
+        net loads is reduced accordingly
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -59,8 +73,15 @@ data:
     definition: device for subtracting a preset tare value from a gross or net weight
       value and indicating the result of the calculation. The weighing range for net
       loads is reduced accordingly
+    definition_paragraphs:
+    - text: device for subtracting a preset tare value from a gross or net weight
+        value and indicating the result of the calculation. The weighing range for
+        net loads is reduced accordingly
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -75,8 +96,15 @@ data:
     definition: device for subtracting a preset tare value (T.3.2.4.1) from a gross
       (T.3.2.1) or net (T.3.2.2) weight value and indicating the result  of the calculation.
       The weighing range for net loads is reduced accordingly
+    definition_paragraphs:
+    - text: device for subtracting a preset tare value (T.3.2.4.1) from a gross (T.3.2.1)
+        or net (T.3.2.2) weight value and indicating the result  of the calculation.
+        The weighing range for net loads is reduced accordingly
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -91,8 +119,15 @@ data:
     definition: device for subtracting a preset tare value from a gross or net weight
       value and indicating the result of the calculation. The weighing range for net
       loads is reduced accordingly
+    definition_paragraphs:
+    - text: device for subtracting a preset tare value from a gross or net weight
+        value and indicating the result of the calculation. The weighing range for
+        net loads is reduced accordingly
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

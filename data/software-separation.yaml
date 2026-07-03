@@ -27,8 +27,15 @@ data:
     definition: software in measuring instruments/electronic devices/sub- assemblies
       can be divided into a legally relevant part and a legally non-relevant part.
       These parts communicate via a software interface
+    definition_paragraphs:
+    - text: software in measuring instruments/electronic devices/sub- assemblies can
+        be divided into a legally relevant part and a legally non-relevant part. These
+        parts communicate via a software interface
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -42,8 +49,14 @@ data:
     g18_entry: '00356'
     definition: software in measuring devices can be divided into a legally relevant
       part and a legally irrelevant part. These parts communicate via an interface
+    definition_paragraphs:
+    - text: software in measuring devices can be divided into a legally relevant part
+        and a legally irrelevant part. These parts communicate via an interface
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -58,8 +71,15 @@ data:
     definition: unambiguous separation of software into legally relevant software
       and non-legally relevant software. If no software separation exists, the whole
       software is to be considered as legally relevant
+    definition_paragraphs:
+    - text: unambiguous separation of software into legally relevant software and
+        non-legally relevant software. If no software separation exists, the whole
+        software is to be considered as legally relevant
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -74,8 +94,15 @@ data:
     definition: unambiguous separation of software into legally relevant software
       and non-legally relevant software. If no software separation exists, the whole
       software is to be considered as legally relevant
+    definition_paragraphs:
+    - text: unambiguous separation of software into legally relevant software and
+        non-legally relevant software. If no software separation exists, the whole
+        software is to be considered as legally relevant
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -89,9 +116,23 @@ data:
     g18_entry: '03524'
     definition: separation of software in measuring instruments, which can be divided
       into a legally relevant module(s) and legally non-relevant module(s)
+    definition_paragraphs:
+    - text: separation of software in measuring instruments, which can be divided
+        into a legally relevant module(s) and legally non-relevant module(s)
+      sources:
+      - kind: viml
+        relationship: modified
+        modification:
+        ref_source: OIML V 1:2022
+        ref_id: '6.02'
+        is_vimline: true
     notes:
     - 'Note: These module(s) communicate via a software interface.'
+    note_paragraphs:
+    - text: 'Note: These module(s) communicate via a software interface.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: modified
@@ -111,9 +152,17 @@ data:
     g18_entry: '03525'
     definition: separation of software in measuring instruments, which can be divided
       into a legally relevant part and a legally non-relevant part [VIML:2013, 6.02]
+    definition_paragraphs:
+    - text: separation of software in measuring instruments, which can be divided
+        into a legally relevant part and a legally non-relevant part [VIML:2013, 6.02]
+      sources: []
     notes:
     - 'Note: These padt communicate via a software interface.'
+    note_paragraphs:
+    - text: 'Note: These padt communicate via a software interface.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -127,8 +176,14 @@ data:
     g18_entry: '03537'
     definition: separation of software in measuring instruments, which can be divided
       into a legally relevant part and a legally non-relevant part (VIML, 6.02)
+    definition_paragraphs:
+    - text: separation of software in measuring instruments, which can be divided
+        into a legally relevant part and a legally non-relevant part (VIML, 6.02)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -142,10 +197,19 @@ data:
     g18_entry: '02558'
     definition: unambiguous separation of software into legally relevant software
       and non-legally relevant software
+    definition_paragraphs:
+    - text: unambiguous separation of software into legally relevant software and
+        non-legally relevant software
+      sources: []
     notes:
     - 'Note: if no software separation exists, the whole software is to be considered
       as legally relevant'
+    note_paragraphs:
+    - text: 'Note: if no software separation exists, the whole software is to be considered
+        as legally relevant'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -159,8 +223,14 @@ data:
     g18_entry: '00356'
     definition: software in measuring devices can be divided into a legally relevant
       part and a legally irrelevant part. These parts communicate via an interface
+    definition_paragraphs:
+    - text: software in measuring devices can be divided into a legally relevant part
+        and a legally irrelevant part. These parts communicate via an interface
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -175,8 +245,15 @@ data:
     definition: unambiguous separation of software into legally relevant software
       and non-legally relevant software. If no software separation exists, the whole
       software is to be considered as legally relevant
+    definition_paragraphs:
+    - text: unambiguous separation of software into legally relevant software and
+        non-legally relevant software. If no software separation exists, the whole
+        software is to be considered as legally relevant
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -191,8 +268,15 @@ data:
     definition: unambiguous separation of software into legally relevant software
       and non-legally relevant software. If no software separation exists, the whole
       software is to be considered as legally relevant
+    definition_paragraphs:
+    - text: unambiguous separation of software into legally relevant software and
+        non-legally relevant software. If no software separation exists, the whole
+        software is to be considered as legally relevant
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

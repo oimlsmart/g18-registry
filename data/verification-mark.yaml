@@ -36,10 +36,20 @@ data:
     definition: mark applied to a measuring instrument certifying that the verification
       of the measuring instrument was carried out with satisfactory results [VIML
       3.7]
+    definition_paragraphs:
+    - text: mark applied to a measuring instrument certifying that the verification
+        of the measuring instrument was carried out with satisfactory results [VIML
+        3.7]
+      sources: []
     notes:
     - The verification mark may also identify the body responsible for verification
       and/or indicate the year or date of verification or its expiry date.
+    note_paragraphs:
+    - text: The verification mark may also identify the body responsible for verification
+        and/or indicate the year or date of verification or its expiry date.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -59,8 +69,15 @@ data:
     definition: mark applied to a measuring instrument in a conspicuous manner certifying
       that the verification of the measuring instrument was carried out and compliance
       with statutory requirements was confirmed (form VIML, 3.04)
+    definition_paragraphs:
+    - text: mark applied to a measuring instrument in a conspicuous manner certifying
+        that the verification of the measuring instrument was carried out and compliance
+        with statutory requirements was confirmed (form VIML, 3.04)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -74,10 +91,26 @@ data:
     g18_entry: '00181'
     definition: mark applied to a measuring instrument certifying that the verification
       of the measuring instrument was carried out with satisfactory results
+    definition_paragraphs:
+    - text: mark applied to a measuring instrument certifying that the verification
+        of the measuring instrument was carried out with satisfactory results
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2000
+        ref_id: '3.7'
+        is_vimline: true
     notes:
     - 'Note: The verification mark may also identify the body responsible for verification
       and/or indicate the year or date of verification or its expiry date.'
+    note_paragraphs:
+    - text: 'Note: The verification mark may also identify the body responsible for
+        verification and/or indicate the year or date of verification or its expiry
+        date.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical

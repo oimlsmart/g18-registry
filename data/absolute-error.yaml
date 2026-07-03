@@ -34,8 +34,14 @@ data:
     g18_entry: '01638'
     definition: the result of a measurement minus the (conventional) true value of
       the measurand (VIM:1993, 3.10)
+    definition_paragraphs:
+    - text: the result of a measurement minus the (conventional) true value of the
+        measurand (VIM:1993, 3.10)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -54,8 +60,14 @@ data:
     g18_entry: '01638'
     definition: the result of a measurement minus the (conventional) true value of
       the measurand [VIM:1993, 3.10]
+    definition_paragraphs:
+    - text: the result of a measurement minus the (conventional) true value of the
+        measurand [VIM:1993, 3.10]
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

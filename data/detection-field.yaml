@@ -25,8 +25,14 @@ data:
     g18_entry: '03747'
     definition: section on the road containing all possible locations of a detection
       point (considering the possible variation of the location of the detection point)
+    definition_paragraphs:
+    - text: section on the road containing all possible locations of a detection point
+        (considering the possible variation of the location of the detection point)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

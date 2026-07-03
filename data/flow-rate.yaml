@@ -31,10 +31,20 @@ data:
     g18_entry: '02407'
     definition: Q = dV/dt where V is actual volume (3.2.1) and t is time taken for
       this volume to pass through the meter
+    definition_paragraphs:
+    - text: Q = dV/dt where V is actual volume (3.2.1) and t is time taken for this
+        volume to pass through the meter
+      sources: []
     notes:
     - Note:ISO 4006:1991 [3] 4.1.2 prefers the use of the symbol qV for this quantity,
       but Q is used in this Recommendation as it is well established in the industry.
+    note_paragraphs:
+    - text: Note:ISO 4006:1991 [3] 4.1.2 prefers the use of the symbol qV for this
+        quantity, but Q is used in this Recommendation as it is well established in
+        the industry.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -48,8 +58,14 @@ data:
     g18_entry: '02679'
     definition: quotient of the actual quantity of gas passing through the gas meter
       and the time taken for this quantity to pass through the gas meter
+    definition_paragraphs:
+    - text: quotient of the actual quantity of gas passing through the gas meter and
+        the time taken for this quantity to pass through the gas meter
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

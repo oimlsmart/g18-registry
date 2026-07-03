@@ -40,8 +40,16 @@ data:
       acceptable for the tank or individually for each of its compartments. It shall
       be specified only for measuring systems suitable for measuring partial volumes.
       Alternatively, the terms "minimum delivery" or "minimum receipt" may be used.
+    definition_paragraphs:
+    - text: smallest volume of liquid for which the measurement is metrologically
+        acceptable for the tank or individually for each of its compartments. It shall
+        be specified only for measuring systems suitable for measuring partial volumes.
+        Alternatively, the terms "minimum delivery" or "minimum receipt" may be used.
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -57,8 +65,17 @@ data:
       acceptable for that system or element. In measuring systems intended for delivery
       operations, this smallest quantity is referred to as the minimum delivery; in
       those intended for receiving operations, it is referred to as the minimum receipt
+    definition_paragraphs:
+    - text: smallest quantity of liquid for which the measurement is metrologically
+        acceptable for that system or element. In measuring systems intended for delivery
+        operations, this smallest quantity is referred to as the minimum delivery;
+        in those intended for receiving operations, it is referred to as the minimum
+        receipt
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -72,10 +89,19 @@ data:
     g18_entry: '02077'
     definition: smallest quantity for which the measurement is metrologically acceptable
       for that system
+    definition_paragraphs:
+    - text: smallest quantity for which the measurement is metrologically acceptable
+        for that system
+      sources: []
     notes:
     - A measuring system has a minimum measured quantity for each principal measurand
       it processes (volumes, mass or energy).
+    note_paragraphs:
+    - text: A measuring system has a minimum measured quantity for each principal
+        measurand it processes (volumes, mass or energy).
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -89,8 +115,14 @@ data:
     g18_entry: '01216'
     definition: the smallest quantity for which the measurement is metrologically
       acceptable for the system
+    definition_paragraphs:
+    - text: the smallest quantity for which the measurement is metrologically acceptable
+        for the system
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -104,11 +136,21 @@ data:
     g18_entry: '03309'
     definition: smallest quantity of liquid for which the measurement is metrologically
       acceptable for that system or element.
+    definition_paragraphs:
+    - text: smallest quantity of liquid for which the measurement is metrologically
+        acceptable for that system or element.
+      sources: []
     notes:
     - 'Note: In measuring systems intended for delivery operations, this smallest
       quantity is referred to as the minimum delivery; in those intended for receiving
       operations, it is referred to as the minimum  receipt.'
+    note_paragraphs:
+    - text: 'Note: In measuring systems intended for delivery operations, this smallest
+        quantity is referred to as the minimum delivery; in those intended for receiving
+        operations, it is referred to as the minimum  receipt.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -124,8 +166,16 @@ data:
       acceptable for the tank or individually for each of its compartments. It shall
       be specified only for measuring systems suitable for measuring partial volumes.
       Alternatively, the terms “minimum delivery” or “minimum receipt” may be used.
+    definition_paragraphs:
+    - text: smallest volume of liquid for which the measurement is metrologically
+        acceptable for the tank or individually for each of its compartments. It shall
+        be specified only for measuring systems suitable for measuring partial volumes.
+        Alternatively, the terms “minimum delivery” or “minimum receipt” may be used.
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -141,8 +191,16 @@ data:
       acceptable for the tank or individually for each of its compartments. It shall
       be specified only for measuring systems suitable for measuring partial volumes.
       Alternatively, the terms “minimum delivery” or “minimum receipt” may be used.
+    definition_paragraphs:
+    - text: smallest volume of liquid for which the measurement is metrologically
+        acceptable for the tank or individually for each of its compartments. It shall
+        be specified only for measuring systems suitable for measuring partial volumes.
+        Alternatively, the terms “minimum delivery” or “minimum receipt” may be used.
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -156,10 +214,19 @@ data:
     g18_entry: '02077'
     definition: smallest quantity for which the measurement is metrologically acceptable
       for that system
+    definition_paragraphs:
+    - text: smallest quantity for which the measurement is metrologically acceptable
+        for that system
+      sources: []
     notes:
     - 'Note: A measuring system has a minimum measured quantity for each principal
       measurand it processes (volumes, mass or energy).'
+    note_paragraphs:
+    - text: 'Note: A measuring system has a minimum measured quantity for each principal
+        measurand it processes (volumes, mass or energy).'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -26,6 +26,10 @@ data:
     g18_entry: '00411'
     definition: instrument intended to measure continuously, memorize and display
       the volume of water passing through the measurement transducer at metering conditions
+    definition_paragraphs:
+    - text: instrument intended to measure continuously, memorize and display the
+        volume of water passing through the measurement transducer at metering conditions
+      sources: []
     notes:
     - "(1) A water meter includes at least a measurement transducer, a calculator
       (including adjustment or correction devices, i present) and an indicating device.
@@ -35,7 +39,18 @@ data:
       meter, automatically directs the flow through either the small or large meter
       or both. Meter reading is obtained from two independent totalizers or one totalizer,
       which adds up the values from both water meters."
+    note_paragraphs:
+    - text: "(1) A water meter includes at least a measurement transducer, a calculator
+        (including adjustment or correction devices, i present) and an indicating
+        device. These three devices may be in different housings. (2) A water meter
+        may be a combination meter comprising one large meter, one small meter and
+        a changeover device that, depending on the magnitude of the flowrate passing
+        through the meter, automatically directs the flow through either the small
+        or large meter or both. Meter reading is obtained from two independent totalizers
+        or one totalizer, which adds up the values from both water meters."
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -50,13 +65,28 @@ data:
     definition: instrument intended to measure continuously, memorize, and display
       the volume of water passing through the measurement transducer ( 3.1.2) at metering
       conditions (3.2.11)
+    definition_paragraphs:
+    - text: instrument intended to measure continuously, memorize, and display the
+        volume of water passing through the measurement transducer ( 3.1.2) at metering
+        conditions (3.2.11)
+      sources: []
     notes:
     - A water meter includes at least a measurement transducer, a calculator (including
       adjustment or correction devices, if present) and an indicating device. These
       three devices can be in different housings.
     - A water meter may be a combination meter (see 3.1.16).
     - In this Recommendation, a water meter is also referred to as a "meter".
+    note_paragraphs:
+    - text: A water meter includes at least a measurement transducer, a calculator
+        (including adjustment or correction devices, if present) and an indicating
+        device. These three devices can be in different housings.
+      sources: []
+    - text: A water meter may be a combination meter (see 3.1.16).
+      sources: []
+    - text: In this Recommendation, a water meter is also referred to as a "meter".
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

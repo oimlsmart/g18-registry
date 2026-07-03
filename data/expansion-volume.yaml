@@ -25,8 +25,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r080-1-e09.pdf
     g18_entry: '02247'
     definition: difference between total and nominal capacity
+    definition_paragraphs:
+    - text: difference between total and nominal capacity
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -39,8 +44,13 @@ data:
     link:
     g18_entry: '03057'
     definition: difference between total and nominal capacity
+    definition_paragraphs:
+    - text: difference between total and nominal capacity
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -53,8 +63,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r080-1-e09.pdf
     g18_entry: 02247-R080-1
     definition: difference between total and nominal capacity
+    definition_paragraphs:
+    - text: difference between total and nominal capacity
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

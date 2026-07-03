@@ -26,8 +26,14 @@ data:
     g18_entry: '01592'
     definition: total volume or mass that has passed through the meter during a measurement.
       Often referred to as "known quantity"
+    definition_paragraphs:
+    - text: total volume or mass that has passed through the meter during a measurement.
+        Often referred to as "known quantity"
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '03586'
     definition: total volume or mass that has passed through the meter during a measurement.
       Often referred to as “known quantity”
+    definition_paragraphs:
+    - text: total volume or mass that has passed through the meter during a measurement.
+        Often referred to as “known quantity”
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

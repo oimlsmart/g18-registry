@@ -25,8 +25,14 @@ data:
     g18_entry: '01665'
     definition: breath delivered from the mouth of a subject that originates from
       the alveoli of the lungs, normally referred to as end-expiratory breath
+    definition_paragraphs:
+    - text: breath delivered from the mouth of a subject that originates from the
+        alveoli of the lungs, normally referred to as end-expiratory breath
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

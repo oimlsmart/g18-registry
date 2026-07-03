@@ -26,8 +26,15 @@ data:
     definition: the difference between the indications obtained with two inputs of
       gas of a given mass concentration, a gas of a specified higher mass concentration
       being injected between these two inputs
+    definition_paragraphs:
+    - text: the difference between the indications obtained with two inputs of gas
+        of a given mass concentration, a gas of a specified higher mass concentration
+        being injected between these two inputs
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -25,8 +25,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r134-e03.pdf
     g18_entry: '01803'
     definition: means to print the weight value of a vehicle weighed on the instrument
+    definition_paragraphs:
+    - text: means to print the weight value of a vehicle weighed on the instrument
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -39,8 +44,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r050-1-e97.pdf
     g18_entry: '00507'
     definition: a device for printing in units of mass
+    definition_paragraphs:
+    - text: a device for printing in units of mass
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -54,8 +64,14 @@ data:
     g18_entry: '01272'
     definition: the means to print the weight values of wagons weighed on the instrument
       and/or a summation of those wagon weights
+    definition_paragraphs:
+    - text: the means to print the weight values of wagons weighed on the instrument
+        and/or a summation of those wagon weights
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -68,8 +84,13 @@ data:
     link:
     g18_entry: '03389'
     definition: device to produce a printout (see 2.4.3) of the weighing results
+    definition_paragraphs:
+    - text: device to produce a printout (see 2.4.3) of the weighing results
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -82,8 +103,13 @@ data:
     link:
     g18_entry: '03388'
     definition: device to produce a printout (see 2.4.3) of the weighing results
+    definition_paragraphs:
+    - text: device to produce a printout (see 2.4.3) of the weighing results
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -96,8 +122,13 @@ data:
     link:
     g18_entry: '03387'
     definition: means to produce hard copies of the weighing results
+    definition_paragraphs:
+    - text: means to produce hard copies of the weighing results
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

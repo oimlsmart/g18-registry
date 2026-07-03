@@ -28,9 +28,19 @@ data:
       forms part of a multi-segment gas storage system. The segments operate at different
       pressure levels from one another in refueling systems fitted with or using a
       sequential control device (see T.4.9 below)
+    definition_paragraphs:
+    - text: test reservoir or a set of test reservoirs manifolded together which forms
+        part of a multi-segment gas storage system. The segments operate at different
+        pressure levels from one another in refueling systems fitted with or using
+        a sequential control device (see T.4.9 below)
+      sources: []
     notes:
     - Testing using banks generates transient flowrates.
+    note_paragraphs:
+    - text: Testing using banks generates transient flowrates.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -46,8 +56,16 @@ data:
       of a multi-segment gas storage system and for which the segments operate at
       different pressure levels from one another in refueling systems fitted with
       or using a sequential control device (see 3.4.6)
+    definition_paragraphs:
+    - text: reservoir or set of reservoirs connected together, which form(s) part
+        of a multi-segment gas storage system and for which the segments operate at
+        different pressure levels from one another in refueling systems fitted with
+        or using a sequential control device (see 3.4.6)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

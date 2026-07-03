@@ -31,8 +31,20 @@ data:
       to indicate that the flowrate is either above its maximum or below its minimum
       value, or to draw the attention of the user to a fault in the operation of the
       belt weigher."
+    definition_paragraphs:
+    - text: "• • • or • • A device that enables certain functions of the belt weigher
+        to be checked and that is particularly intended: to simulate the effect of
+        a constant load per unit length by means of a weight, chain, or electrical
+        reference signal, or to compare two integrations of a load per unit length
+        over equal time intervals, to indicate that the maximum load has been exceeded,
+        or to indicate that the flowrate is either above its maximum or below its
+        minimum value, or to draw the attention of the user to a fault in the operation
+        of the belt weigher."
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

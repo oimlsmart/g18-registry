@@ -28,8 +28,16 @@ data:
       value that is traceable to a specific Rockwell hardness standard. Reference
       test blocks are used for the indirect verification and the daily verification
       of Rockwell hardness machines
+    definition_paragraphs:
+    - text: hardness test block that has been certified to have a Rockwell hardness
+        value that is traceable to a specific Rockwell hardness standard. Reference
+        test blocks are used for the indirect verification and the daily verification
+        of Rockwell hardness machines
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -45,8 +53,16 @@ data:
       value that is traceable to a specific Rockwell hardness standard. Reference
       test blocks are used for the indirect verification and the daily verification
       of Rockwell hardness machines
+    definition_paragraphs:
+    - text: hardness test block that has been certified to have a Rockwell hardness
+        value that is traceable to a specific Rockwell hardness standard. Reference
+        test blocks are used for the indirect verification and the daily verification
+        of Rockwell hardness machines
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

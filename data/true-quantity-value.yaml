@@ -24,8 +24,13 @@ data:
     link:
     g18_entry: '03587'
     definition: quantity value consistent with the definition of quantity
+    definition_paragraphs:
+    - text: quantity value consistent with the definition of quantity
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

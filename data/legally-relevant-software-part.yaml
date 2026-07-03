@@ -26,8 +26,14 @@ data:
     g18_entry: '02198'
     definition: part of all software modules of a measuring instrument, electronic
       device, or sub-assembly that is legally relevant
+    definition_paragraphs:
+    - text: part of all software modules of a measuring instrument, electronic device,
+        or sub-assembly that is legally relevant
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '03720'
     definition: all software modules of measuring instrument/component that are subject
       to legal control
+    definition_paragraphs:
+    - text: all software modules of measuring instrument/component that are subject
+        to legal control
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -56,11 +68,28 @@ data:
     g18_entry: '03189'
     definition: part of all software modules of measuring instrument, electronic device,
       or sub-assembly that is legally relevant
+    definition_paragraphs:
+    - text: part of all software modules of measuring instrument, electronic device,
+        or sub-assembly that is legally relevant
+      sources:
+      - kind: other
+        relationship: identical
+        modification:
+        ref_source: OIML D031:2008
+        ref_id: 3.1.31
+        is_vimline: false
     notes:
     - 'Note: Examples of legally relevant software are software involved in determining
       the final results of the measurement including the decimal sign and the unit,
       identifying the weighing range, software identification and configuration information.'
+    note_paragraphs:
+    - text: 'Note: Examples of legally relevant software are software involved in
+        determining the final results of the measurement including the decimal sign
+        and the unit, identifying the weighing range, software identification and
+        configuration information.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

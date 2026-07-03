@@ -28,8 +28,17 @@ data:
       must receive so that the indicated and/or recorded distance increases by 1 km.
       The constant k may be expressed in revolutions per kilometre, rev/km, or impulses
       per kilometre, imp/km
+    definition_paragraphs:
+    - text: characteristic quantity showing the type (revolutions of the driving shaft
+        or impulses) and number of signals which the odometer or chronotachograph
+        must receive so that the indicated and/or recorded distance increases by 1
+        km. The constant k may be expressed in revolutions per kilometre, rev/km,
+        or impulses per kilometre, imp/km
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

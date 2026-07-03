@@ -28,8 +28,16 @@ data:
       parameters (2.2.8.3) are changed. The reference number of the counter at the
       time of initial or subsequent verification is fixed and secured by appropriate
       hardware or software means
+    definition_paragraphs:
+    - text: non-resettable counter device that increments each time device- specific
+        parameters (2.2.8.3) are changed. The reference number of the counter at the
+        time of initial or subsequent verification is fixed and secured by appropriate
+        hardware or software means
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -45,8 +53,16 @@ data:
       parameters (2.2.8.3) are changed. The reference number of the counter at the
       time of initial or subsequent verification is fixed and secured by appropriate
       hardware or software means
+    definition_paragraphs:
+    - text: non-resettable counter device that increments each time device-specific
+        parameters (2.2.8.3) are changed. The reference number of the counter at the
+        time of initial or subsequent verification is fixed and secured by appropriate
+        hardware or software means
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -36,10 +36,20 @@ data:
     definition: all the information, equipment and operations relevant to a given
       This concept embraces all aspects relating to measurement the pe (VIM:1993,
       2.08) measur princi influe standa
+    definition_paragraphs:
+    - text: all the information, equipment and operations relevant to a given This
+        concept embraces all aspects relating to measurement the pe (VIM:1993, 2.08)
+        measur princi influe standa
+      sources: []
     notes:
     - rformance and quality of the ement ; it includes, for example, the ple, method,
       procedure, values of the nce quantities and the measurement rds.
+    note_paragraphs:
+    - text: rformance and quality of the ement ; it includes, for example, the ple,
+        method, procedure, values of the nce quantities and the measurement rds.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -59,10 +69,21 @@ data:
     definition: all the information, equipment and operations relevant to a given
       This concept embraces all aspects relating to measurement the pe measur princi
       influe standa
+    definition_paragraphs:
+    - text: all the information, equipment and operations relevant to a given This
+        concept embraces all aspects relating to measurement the pe measur princi
+        influe standa
+      sources: []
     notes:
     - rformance and quality of the ement; it includes for example the ple, method,
       procedure, values of the nce quantities and the measurement rds (VIM:1993, 2.08).
+    note_paragraphs:
+    - text: rformance and quality of the ement; it includes for example the ple, method,
+        procedure, values of the nce quantities and the measurement rds (VIM:1993,
+        2.08).
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -76,11 +97,21 @@ data:
     g18_entry: '00140'
     definition: all the information, equipment and operations relevant to a given
       measurement [VIM:1993,  2.08]
+    definition_paragraphs:
+    - text: all the information, equipment and operations relevant to a given measurement
+        [VIM:1993,  2.08]
+      sources: []
     notes:
     - 'Note: This concept embraces all aspects relating to the performance and quality
       of the measurement ; it includes, for example, the principle, method, procedure,
       values of the influence quantities and the measurement standards.'
+    note_paragraphs:
+    - text: 'Note: This concept embraces all aspects relating to the performance and
+        quality of the measurement ; it includes, for example, the principle, method,
+        procedure, values of the influence quantities and the measurement standards.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

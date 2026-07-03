@@ -26,10 +26,19 @@ data:
     g18_entry: '00315'
     definition: maximum value of the arterial blood pressure as a result of the contraction
       of the systemic ventricle
+    definition_paragraphs:
+    - text: maximum value of the arterial blood pressure as a result of the contraction
+        of the systemic ventricle
+      sources: []
     notes:
     - Because of hydrostatic effects, this value should be measured with the cuff
       at the heart level.
+    note_paragraphs:
+    - text: Because of hydrostatic effects, this value should be measured with the
+        cuff at the heart level.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -43,10 +52,19 @@ data:
     g18_entry: '00330'
     definition: maximum value of the arterial blood pressure as a result of the contraction
       of the systemic ventricle
+    definition_paragraphs:
+    - text: maximum value of the arterial blood pressure as a result of the contraction
+        of the systemic ventricle
+      sources: []
     notes:
     - Because of hydrostatic effects, this value should be measured with the cuff
       at the heart level.
+    note_paragraphs:
+    - text: Because of hydrostatic effects, this value should be measured with the
+        cuff at the heart level.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -60,10 +78,19 @@ data:
     g18_entry: '03547'
     definition: maximum value of the arterial blood pressure as a result of the contraction
       of the systemic ventricle
+    definition_paragraphs:
+    - text: maximum value of the arterial blood pressure as a result of the contraction
+        of the systemic ventricle
+      sources: []
     notes:
     - 'Note: Because of hydrostatic effects, this value should be measured with the
       cuff at the heart level.'
+    note_paragraphs:
+    - text: 'Note: Because of hydrostatic effects, this value should be measured with
+        the cuff at the heart level.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -77,10 +104,19 @@ data:
     g18_entry: '03548'
     definition: maximum value of the arterial blood pressure as a result of the contraction
       of the systemic ventricle
+    definition_paragraphs:
+    - text: maximum value of the arterial blood pressure as a result of the contraction
+        of the systemic ventricle
+      sources: []
     notes:
     - 'Note: Because of hydrostatic effects, this value should be measured with the
       cuff at the heart level.'
+    note_paragraphs:
+    - text: 'Note: Because of hydrostatic effects, this value should be measured with
+        the cuff at the heart level.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -94,10 +130,19 @@ data:
     g18_entry: '00315'
     definition: maximum value of the arterial blood pressure as a result of the contraction
       of the systemic ventricle
+    definition_paragraphs:
+    - text: maximum value of the arterial blood pressure as a result of the contraction
+        of the systemic ventricle
+      sources: []
     notes:
     - 'Note: Because of hydrostatic effects, this value should be measured with the
       cuff at the heart level.'
+    note_paragraphs:
+    - text: 'Note: Because of hydrostatic effects, this value should be measured with
+        the cuff at the heart level.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -111,10 +156,19 @@ data:
     g18_entry: '00330'
     definition: maximum value of the arterial blood pressure as a result of the contraction
       of the systemic ventricle
+    definition_paragraphs:
+    - text: maximum value of the arterial blood pressure as a result of the contraction
+        of the systemic ventricle
+      sources: []
     notes:
     - 'Note: Because of hydrostatic effects, this value should be measured with the
       cuff at the heart level.'
+    note_paragraphs:
+    - text: 'Note: Because of hydrostatic effects, this value should be measured with
+        the cuff at the heart level.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

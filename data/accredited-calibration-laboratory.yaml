@@ -27,8 +27,16 @@ data:
       that is formally recognized by an accreditation authority and that is competent
       to carry out the calibration (e.g. competence in accordance with ISO/IEC 17025:2017
       [2])
+    definition_paragraphs:
+    - text: laboratory that performs calibration of measuring instruments and that
+        is formally recognized by an accreditation authority and that is competent
+        to carry out the calibration (e.g. competence in accordance with ISO/IEC 17025:2017
+        [2])
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

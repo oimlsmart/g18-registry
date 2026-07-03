@@ -30,8 +30,18 @@ data:
       a delivery order, etc. The parties interested in a transaction may be the parties
       themselves or their representatives (for example, the employee in afilling station
       or the driver of a truck)
+    definition_paragraphs:
+    - text: a transaction is settled when the parties interested in the transaction
+        have made their agreement known (explicitly or implicitly) regarding the amount
+        of the transaction. This may be a payment, signing a credit card voucher,
+        signing a delivery order, etc. The parties interested in a transaction may
+        be the parties themselves or their representatives (for example, the employee
+        in afilling station or the driver of a truck)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -47,11 +57,23 @@ data:
       have made their agreement known (explicitly or implicitly) regarding the amount
       of the transaction (this may be accomplished by a payment, signing a credit
       card voucher, signing a delivery order, etc.)
+    definition_paragraphs:
+    - text: transaction conclusion when the parties interested in the transaction
+        have made their agreement known (explicitly or implicitly) regarding the amount
+        of the transaction (this may be accomplished by a payment, signing a credit
+        card voucher, signing a delivery order, etc.)
+      sources: []
     notes:
     - 'Note: The parties interested in a transaction may be the parties themselves
       or their representatives (for example, the employee in a filling station or
       the driver of a truck).'
+    note_paragraphs:
+    - text: 'Note: The parties interested in a transaction may be the parties themselves
+        or their representatives (for example, the employee in a filling station or
+        the driver of a truck).'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

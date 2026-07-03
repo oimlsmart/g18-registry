@@ -32,8 +32,14 @@ data:
     g18_entry: '00721'
     definition: smallest load cell verification interval (mass) into which the load
       cell measuring range can be divided
+    definition_paragraphs:
+    - text: smallest load cell verification interval (mass) into which the load cell
+        measuring range can be divided
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -47,8 +53,14 @@ data:
     g18_entry: '03307'
     definition: smallest load cell verification interval in units of mass into which
       the maximum measuring range (Emax – Emin ) can be divided
+    definition_paragraphs:
+    - text: smallest load cell verification interval in units of mass into which the
+        maximum measuring range (Emax – Emin ) can be divided
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

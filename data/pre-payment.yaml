@@ -26,8 +26,14 @@ data:
     g18_entry: '01584'
     definition: type of payment requiring payment for a certain quantity of liquid
       before the delivery commences
+    definition_paragraphs:
+    - text: type of payment requiring payment for a certain quantity of liquid before
+        the delivery commences
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '02006'
     definition: type of payment in attended or unattended service mode requiring payment
       for a quantity of gas before the delivery commences
+    definition_paragraphs:
+    - text: type of payment in attended or unattended service mode requiring payment
+        for a quantity of gas before the delivery commences
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -56,8 +68,14 @@ data:
     g18_entry: '03375'
     definition: type of payment in attended or unattended service mode requiring payment
       for a quantity of gas before the delivery commences
+    definition_paragraphs:
+    - text: type of payment in attended or unattended service mode requiring payment
+        for a quantity of gas before the delivery commences
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -71,8 +89,14 @@ data:
     g18_entry: '03376'
     definition: type of payment requiring payment for a certain quantity of liquid
       before the delivery commences
+    definition_paragraphs:
+    - text: type of payment requiring payment for a certain quantity of liquid before
+        the delivery commences
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

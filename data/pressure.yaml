@@ -26,8 +26,14 @@ data:
     g18_entry: '00673'
     definition: No gauge or vacuum pressure (see International Recommendations 's
       17 and 19) to which the elastic sensing element can be submitted
+    definition_paragraphs:
+    - text: No gauge or vacuum pressure (see International Recommendations 's 17 and
+        19) to which the elastic sensing element can be submitted
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '00673'
     definition: gauge or vacuum pressure (see International Recommendations No's 17
       and 19) to which the elastic sensing element can be submitted
+    definition_paragraphs:
+    - text: gauge or vacuum pressure (see International Recommendations No's 17 and
+        19) to which the elastic sensing element can be submitted
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

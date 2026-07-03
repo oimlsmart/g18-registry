@@ -26,9 +26,17 @@ data:
     g18_entry: '01127'
     definition: aperture on the instrument against which the lens or contact lens
       The focimeter measures the vertex power is placed for measurement r s
+    definition_paragraphs:
+    - text: aperture on the instrument against which the lens or contact lens The
+        focimeter measures the vertex power is placed for measurement r s
+      sources: []
     notes:
     - elative to the surface placed against the lens upport.
+    note_paragraphs:
+    - text: elative to the surface placed against the lens upport.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -42,10 +50,19 @@ data:
     g18_entry: '01127'
     definition: aperture on the instrument against which the lens or contact lens
       is placed for measurement
+    definition_paragraphs:
+    - text: aperture on the instrument against which the lens or contact lens is placed
+        for measurement
+      sources: []
     notes:
     - 'Note:  The focimeter measures the vertex power relative to the surface placed
       against the lens support.'
+    note_paragraphs:
+    - text: 'Note:  The focimeter measures the vertex power relative to the surface
+        placed against the lens support.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

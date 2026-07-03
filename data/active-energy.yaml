@@ -24,11 +24,21 @@ data:
     link:
     g18_entry: 02315-R046-1
     definition: active power integrated over time
+    definition_paragraphs:
+    - text: active power integrated over time
+      sources: []
     notes:
     - 'where: E is the active energy. Other symbols are as defined in 0'
     - Active energy is usually expressed in kWh or MWh. Refer to 3.1 for requirements
       on units of measurement.
+    note_paragraphs:
+    - text: 'where: E is the active energy. Other symbols are as defined in 0'
+      sources: []
+    - text: Active energy is usually expressed in kWh or MWh. Refer to 3.1 for requirements
+        on units of measurement.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

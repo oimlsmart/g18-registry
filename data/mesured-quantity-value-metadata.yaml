@@ -24,9 +24,16 @@ data:
     link:
     g18_entry: '03693'
     definition: metadata related to the measures quantity value
+    definition_paragraphs:
+    - text: metadata related to the measures quantity value
+      sources: []
     notes:
     - Note:See Annex C for clarification regarding measurement-related terms.
+    note_paragraphs:
+    - text: Note:See Annex C for clarification regarding measurement-related terms.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -27,10 +27,20 @@ data:
     definition: means allowing the user to adjust the gas analytical system without
       having the possibility of changing the input measurement signal, whether the
       automatic adjustment is required or not
+    definition_paragraphs:
+    - text: means allowing the user to adjust the gas analytical system without having
+        the possibility of changing the input measurement signal, whether the automatic
+        adjustment is required or not
+      sources: []
     notes:
     - For those gas analytical systems that require the calibration gas mixture to
       be entered manually, the adjustment means are considered to be semi-automatic.
+    note_paragraphs:
+    - text: For those gas analytical systems that require the calibration gas mixture
+        to be entered manually, the adjustment means are considered to be semi-automatic.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -45,10 +55,21 @@ data:
     definition: means allowing the user to adjust the gas analytical system without
       having the possibility of changing the input measurement signal, whether the
       automatic adjustment is required or not
+    definition_paragraphs:
+    - text: means allowing the user to adjust the gas analytical system without having
+        the possibility of changing the input measurement signal, whether the automatic
+        adjustment is required or not
+      sources: []
     notes:
     - 'Note: For those gas analytical systems that require the calibration gas mixture
       to be entered manually, the adjustment means are considered to be semi-automatic.'
+    note_paragraphs:
+    - text: 'Note: For those gas analytical systems that require the calibration gas
+        mixture to be entered manually, the adjustment means are considered to be
+        semi-automatic.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -63,10 +84,21 @@ data:
     definition: means allowing the user to adjust the gas analytical system without
       having the possibility of changing the input measurement signal, whether the
       automatic adjustment is required or not
+    definition_paragraphs:
+    - text: means allowing the user to adjust the gas analytical system without having
+        the possibility of changing the input measurement signal, whether the automatic
+        adjustment is required or not
+      sources: []
     notes:
     - 'Note: For those gas analytical systems that require the calibration gas mixture
       to be entered manually, the adjustment means are considered to be semi-automatic.'
+    note_paragraphs:
+    - text: 'Note: For those gas analytical systems that require the calibration gas
+        mixture to be entered manually, the adjustment means are considered to be
+        semi-automatic.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -36,12 +36,30 @@ data:
     definition: '(hereinafter referred to as "measuring instrument"): measuring instrument
       which conforms to prescribed requirements, in particular legal metrological
       requirements'
+    definition_paragraphs:
+    - text: '(hereinafter referred to as "measuring instrument"): measuring instrument
+        which conforms to prescribed requirements, in particular legal metrological
+        requirements'
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2000
+        ref_id: '4.3'
+        is_vimline: true
     notes:
     - 'for the purposes of this Document the following instruments may fall under
       legal control according to national regulations: measuring instruments, coin
       counting machines, medical measuring instruments, water dispensing machines,
       timing instruments in vehicle washes.'
+    note_paragraphs:
+    - text: 'for the purposes of this Document the following instruments may fall
+        under legal control according to national regulations: measuring instruments,
+        coin counting machines, medical measuring instruments, water dispensing machines,
+        timing instruments in vehicle washes.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical
@@ -66,6 +84,16 @@ data:
     g18_entry: 02260-D016
     definition: measuring instrument which conforms to prescribed requirements, in
       particular legal metrological requirements
+    definition_paragraphs:
+    - text: measuring instrument which conforms to prescribed requirements, in particular
+        legal metrological requirements
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2000
+        ref_id: '4.3'
+        is_vimline: true
     notes:
     - 'For the purposes of this Document the following instruments may fall under
       control according to national regulations: measuring instruments, coin counting
@@ -73,7 +101,17 @@ data:
       in vehicle washers.'
     - Legally controlled measuring instrument is hereafter referred to as a "measuring
       instrument".
+    note_paragraphs:
+    - text: 'For the purposes of this Document the following instruments may fall
+        under control according to national regulations: measuring instruments, coin
+        counting machines, medical measuring instruments, water dispensing machines,
+        timing instruments in vehicle washers.'
+      sources: []
+    - text: Legally controlled measuring instrument is hereafter referred to as a
+        "measuring instrument".
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical
@@ -94,12 +132,30 @@ data:
     definition: "(hereinafter referred to as “measuring instrument”): measuring instrument
       which conforms to prescribed requirements, in particular legal metrological
       requirements"
+    definition_paragraphs:
+    - text: "(hereinafter referred to as “measuring instrument”): measuring instrument
+        which conforms to prescribed requirements, in particular legal metrological
+        requirements"
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2000
+        ref_id: '4.3'
+        is_vimline: true
     notes:
     - 'Note: For the purposes of this Document the following instruments may fall
       under legal control according to national regulations: measuring instruments,
       coin countingmachines, medical measuring instruments, water dispensing machines,
       timing instruments in vehicle washes.'
+    note_paragraphs:
+    - text: 'Note: For the purposes of this Document the following instruments may
+        fall under legal control according to national regulations: measuring instruments,
+        coin countingmachines, medical measuring instruments, water dispensing machines,
+        timing instruments in vehicle washes.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical

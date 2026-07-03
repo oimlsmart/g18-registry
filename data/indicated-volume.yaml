@@ -30,8 +30,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r080-1-e09.pdf
     g18_entry: '02249'
     definition: value of volume provided by the volume measuring system
+    definition_paragraphs:
+    - text: value of volume provided by the volume measuring system
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -45,8 +50,13 @@ data:
     g18_entry: '00424'
     definition: volume of water indicated by the meter, corresponding to the actual
       volume
+    definition_paragraphs:
+    - text: volume of water indicated by the meter, corresponding to the actual volume
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

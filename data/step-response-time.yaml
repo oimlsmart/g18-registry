@@ -29,9 +29,20 @@ data:
       two specified constant quantity values and the instant when a corresponding
       indication settles within specified limits around its final steady value (referred
       to as esponse time" in this Recommendation)'
+    definition_paragraphs:
+    - text: '"r duration between the instant when an input quantity value of a measuring
+        instrument or measuring system is subjected to an abrupt change between two
+        specified constant quantity values and the instant when a corresponding indication
+        settles within specified limits around its final steady value (referred to
+        as esponse time" in this Recommendation)'
+      sources: []
     notes:
     - "(VIM:2007, 4.23)"
+    note_paragraphs:
+    - text: "(VIM:2007, 4.23)"
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -48,8 +59,17 @@ data:
       specified constant quantity values and the instant when a corresponding indication
       settles within specified limits around its final steady value (referred to as
       “response time” in this Recommendation) [VIM:2007, 4.23]
+    definition_paragraphs:
+    - text: duration between the instant when an input quantity value of a measuring
+        instrument or measuring system is subjected to an abrupt change between two
+        specified constant quantity values and the instant when a corresponding indication
+        settles within specified limits around its final steady value (referred to
+        as “response time” in this Recommendation) [VIM:2007, 4.23]
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

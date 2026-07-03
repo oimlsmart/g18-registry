@@ -38,8 +38,15 @@ data:
     definition: ratio of the maximum capacity, Emax, to the minimum load cell verification
       interval, vmin. This ratio describes the resolution of the load cell independent
       from the load cell capacity
+    definition_paragraphs:
+    - text: ratio of the maximum capacity, Emax, to the minimum load cell verification
+        interval, vmin. This ratio describes the resolution of the load cell independent
+        from the load cell capacity
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

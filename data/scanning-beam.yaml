@@ -25,8 +25,14 @@ data:
     g18_entry: '03787'
     definition: radiation beam emitted in a periodically changing angle from the speed
       meter
+    definition_paragraphs:
+    - text: radiation beam emitted in a periodically changing angle from the speed
+        meter
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

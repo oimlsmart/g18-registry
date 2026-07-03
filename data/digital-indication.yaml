@@ -25,8 +25,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r107-1-e07.pdf
     g18_entry: '01378'
     definition: indication providing the weighing results in a digitized form
+    definition_paragraphs:
+    - text: indication providing the weighing results in a digitized form
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -40,8 +45,14 @@ data:
     g18_entry: '00651'
     definition: indication in which the scale marks are composed of a sequence ofaligned
       figures that do not permit interpolation to fractions of the scale interval
+    definition_paragraphs:
+    - text: indication in which the scale marks are composed of a sequence ofaligned
+        figures that do not permit interpolation to fractions of the scale interval
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -55,8 +66,14 @@ data:
     g18_entry: '00965'
     definition: indication in which the scale marks are composed of a sequence ofaligned
       figures that do not permit interpolation to fractions of the scale interval
+    definition_paragraphs:
+    - text: indication in which the scale marks are composed of a sequence ofaligned
+        figures that do not permit interpolation to fractions of the scale interval
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -70,8 +87,14 @@ data:
     g18_entry: '00797'
     definition: indication in which the scale marks comprise a sequence of aligned
       figures that do not permit interpolation to fractions of a scale interval
+    definition_paragraphs:
+    - text: indication in which the scale marks comprise a sequence of aligned figures
+        that do not permit interpolation to fractions of a scale interval
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -85,8 +108,14 @@ data:
     g18_entry: '01894'
     definition: the output or display is indicated by a sequence of aligned digits
       that do not permit interpolation to a fraction of the scale interval
+    definition_paragraphs:
+    - text: the output or display is indicated by a sequence of aligned digits that
+        do not permit interpolation to a fraction of the scale interval
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -100,8 +129,14 @@ data:
     g18_entry: '01820'
     definition: indication in which the scale marks are a sequence of aligned figures
       that do not permit interpolation to a fraction of the scale interval
+    definition_paragraphs:
+    - text: indication in which the scale marks are a sequence of aligned figures
+        that do not permit interpolation to a fraction of the scale interval
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -115,8 +150,14 @@ data:
     g18_entry: '01292'
     definition: an indication in which the scale marks are a sequence of aligned figures
       that do not permit interpolation to a fraction of a scale interval
+    definition_paragraphs:
+    - text: an indication in which the scale marks are a sequence of aligned figures
+        that do not permit interpolation to a fraction of a scale interval
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -130,8 +171,14 @@ data:
     g18_entry: '02989'
     definition: indication in which the scale marks comprise a sequence of aligned
       figures that do not permit interpolation to fractions of a scale interval
+    definition_paragraphs:
+    - text: indication in which the scale marks comprise a sequence of aligned figures
+        that do not permit interpolation to fractions of a scale interval
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -145,8 +192,20 @@ data:
     g18_entry: '02603'
     definition: measurement results are displayed by a digital measuring instrument
       in a digitized form
+    definition_paragraphs:
+    - text: measurement results are displayed by a digital measuring instrument in
+        a digitized form
+      sources:
+      - kind: vim
+        relationship: identical
+        modification:
+        ref_source: OIML V 2-200:2007
+        ref_id: '4.11'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: vim
       relationship: identical
@@ -165,8 +224,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r107-1-e07.pdf
     g18_entry: '01378'
     definition: indication providing the weighing results in a digitized form
+    definition_paragraphs:
+    - text: indication providing the weighing results in a digitized form
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -180,8 +244,14 @@ data:
     g18_entry: '00651'
     definition: indication in which the scale marks are composed of a sequence of
       aligned figures that do not permit interpolation to fractions of the scale interval
+    definition_paragraphs:
+    - text: indication in which the scale marks are composed of a sequence of aligned
+        figures that do not permit interpolation to fractions of the scale interval
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -195,8 +265,14 @@ data:
     g18_entry: '00965'
     definition: indication in which the scale marks are composed of a sequence of
       aligned figures that do not permit interpolation to fractions of the scale interval
+    definition_paragraphs:
+    - text: indication in which the scale marks are composed of a sequence of aligned
+        figures that do not permit interpolation to fractions of the scale interval
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -210,8 +286,14 @@ data:
     g18_entry: '01894'
     definition: the output or display is indicated by a sequence of aligned digits
       that do not permit interpolation to a fraction of the scale interval
+    definition_paragraphs:
+    - text: the output or display is indicated by a sequence of aligned digits that
+        do not permit interpolation to a fraction of the scale interval
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -225,8 +307,14 @@ data:
     g18_entry: '01820'
     definition: indication in which the scale marks are a sequence of aligned figures
       that do not permit interpolation to a fraction of the scale interval
+    definition_paragraphs:
+    - text: indication in which the scale marks are a sequence of aligned figures
+        that do not permit interpolation to a fraction of the scale interval
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -40,10 +40,22 @@ data:
       the metrological and technical weig performance requirements in the relevant
       Recommendation. The modules of a weighing instrument are subject to specified
       partial error limits
+    definition_paragraphs:
+    - text: identifiable part of an instrument or device that performs a specific
+        function or functions, and that can be separately cell evaluated according
+        to the metrological and technical weig performance requirements in the relevant
+        Recommendation. The modules of a weighing instrument are subject to specified
+        partial error limits
+      sources: []
     notes:
     - 'Typical modules of an instrument are: load , indicator, analog or digital processors,
       hing module, remote display, software.'
+    note_paragraphs:
+    - text: 'Typical modules of an instrument are: load , indicator, analog or digital
+        processors, hing module, remote display, software.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -65,11 +77,24 @@ data:
       and technical performance dig requirements in the relevant Recommendation. The
       modules of a termina weighing instrument are subject to specified partial error
       limits
+    definition_paragraphs:
+    - text: identifiable part of an instrument that performs a specific function or
+        functions, and that can be separately evaluated ins according to the metrological
+        and technical performance dig requirements in the relevant Recommendation.
+        The modules of a termina weighing instrument are subject to specified partial
+        error limits
+      sources: []
     notes:
     - 'typical modules of an automatic weighing trument are: load cell, indicator,
       analog or ital data processing device, computer l, weighing module, digital
       display.'
+    note_paragraphs:
+    - text: 'typical modules of an automatic weighing trument are: load cell, indicator,
+        analog or ital data processing device, computer l, weighing module, digital
+        display.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -91,10 +116,22 @@ data:
       metrological and technical performance pro requirements in the relevant Recommendation.
       The modules of a primary weighing instrument are subject to specified partial
       error limits
+    definition_paragraphs:
+    - text: identifiable part of an instrument that performs a specific function or
+        functions, and that can be separately evaluated are according to specific
+        metrological and technical performance pro requirements in the relevant Recommendation.
+        The modules of a primary weighing instrument are subject to specified partial
+        error limits
+      sources: []
     notes:
     - 'Typical modules of a weighing instrument : load cell, indicator, analog or
       digital data cessing device, weighing module, terminal, display.'
+    note_paragraphs:
+    - text: 'Typical modules of a weighing instrument : load cell, indicator, analog
+        or digital data cessing device, weighing module, terminal, display.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -115,8 +152,16 @@ data:
       instruments that performs a specific function or functions and that can be separately
       evaluated according to prescribed metrological and technical performance requirements
       in the relevant Recommendation
+    definition_paragraphs:
+    - text: identifiable part of a measuring instrument or of a family of measuring
+        instruments that performs a specific function or functions and that can be
+        separately evaluated according to prescribed metrological and technical performance
+        requirements in the relevant Recommendation
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -136,8 +181,15 @@ data:
     definition: device performing a specific function or functions and (usually) manufactured
       and constructed such that it can be separately evaluated according to prescribed
       metrological and technical performance requirements (OIML D11, 3.2)
+    definition_paragraphs:
+    - text: device performing a specific function or functions and (usually) manufactured
+        and constructed such that it can be separately evaluated according to prescribed
+        metrological and technical performance requirements (OIML D11, 3.2)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -153,6 +205,12 @@ data:
       instruments that performs a specific function or functions, and that can be
       separately evaluated according to the prescribed metrological and technical
       performance requirements in the relevant Recommendation [VIML;2013, 4.04]
+    definition_paragraphs:
+    - text: identifiable part of an measuring instrument or family of measuring instruments
+        that performs a specific function or functions, and that can be separately
+        evaluated according to the prescribed metrological and technical performance
+        requirements in the relevant Recommendation [VIML;2013, 4.04]
+      sources: []
     notes:
     - The modules of a weighing instrument may be subject to specified partial error
       limits.
@@ -160,7 +218,19 @@ data:
       authority (see 6.2.6).
     - 'Typical modules of an automaticweighing instrument are: load cell (force receptor),
       indicator, analog or digital processors, weighing module, remote display, software.'
+    note_paragraphs:
+    - text: The modules of a weighing instrument may be subject to specified partial
+        error limits.
+      sources: []
+    - text: Modules may be examined separately (subject to agreement with the metrological
+        authority (see 6.2.6).
+      sources: []
+    - text: 'Typical modules of an automaticweighing instrument are: load cell (force
+        receptor), indicator, analog or digital processors, weighing module, remote
+        display, software.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -172,15 +242,38 @@ data:
     clause: 3.3.11
     link:
     g18_entry: '03673'
-    definition: 'identifiable part of a measuring instrument or of a family of measuring
+    definition: identifiable part of a measuring instrument or of a family of measuring
       instruments that performs a specific function or functions and that can be separately
       evaluated according to prescribed metrological and technical performance requirements
-      as specified in th relevant Recommendation (VIML, 4.04) Example: Typical modules
-      of a weighing instrument are weighing module, load cell, indicator, analog or
-      digital data processing device, terminal, primary display.'
+      as specified in th relevant Recommendation
+    definition_paragraphs:
+    - text: identifiable part of a measuring instrument or of a family of measuring
+        instruments that performs a specific function or functions and that can be
+        separately evaluated according to prescribed metrological and technical performance
+        requirements as specified in th relevant Recommendation
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2013
+        ref_id: '4.04'
+        is_vimline: true
     notes: []
-    examples: []
+    note_paragraphs: []
+    examples:
+    - Typical modules of a weighing instrument are weighing module, load cell, indicator,
+      analog or digital data processing device, terminal, primary display.
+    example_paragraphs:
+    - text: Typical modules of a weighing instrument are weighing module, load cell,
+        indicator, analog or digital data processing device, terminal, primary display.
+      sources: []
     source:
+      kind: viml
+      relationship: identical
+      modification:
+      ref_source: OIML V 1:2013
+      ref_id: '4.04'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
   - edition: 202X
@@ -194,11 +287,22 @@ data:
     definition: device performing a specific function or functions and (usually) manufactured
       and constructed such that it can be separately evaluated according to prescribed
       metrological and technical performance requirements
+    definition_paragraphs:
+    - text: device performing a specific function or functions and (usually) manufactured
+        and constructed such that it can be separately evaluated according to prescribed
+        metrological and technical performance requirements
+      sources: []
     notes:
     - 'Note:A module may be a complete measuring instrument (for example: counter
       scale, electricity meter) or a part of a measuring instrument (for example:
       printer, indicator).'
+    note_paragraphs:
+    - text: 'Note:A module may be a complete measuring instrument (for example: counter
+        scale, electricity meter) or a part of a measuring instrument (for example:
+        printer, indicator).'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -211,11 +315,18 @@ data:
     link:
     g18_entry: '02544'
     definition: ''
+    definition_paragraphs: []
     notes:
     - 'Note: Typical modules of an automatic weighing instrument are: load cell, indicator,
       analogue or digital data processing device, weighing module, terminal, primary
       display.'
+    note_paragraphs:
+    - text: 'Note: Typical modules of an automatic weighing instrument are: load cell,
+        indicator, analogue or digital data processing device, weighing module, terminal,
+        primary display.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -232,10 +343,22 @@ data:
       metrological and technical performance requirements in the relevant Recommendation.
       The modules of a weighing instrument are subject to specified partial error
       limits
+    definition_paragraphs:
+    - text: identifiable part of an instrument or device that performs a specific
+        function or functions, and that can be separately evaluated according to the
+        metrological and technical performance requirements in the relevant Recommendation.
+        The modules of a weighing instrument are subject to specified partial error
+        limits
+      sources: []
     notes:
     - 'Typical modules of an instrument are: load cell, indicator, analog or digital
       processors, weighing module, remote display, software.'
+    note_paragraphs:
+    - text: 'Typical modules of an instrument are: load cell, indicator, analog or
+        digital processors, weighing module, remote display, software.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -251,11 +374,23 @@ data:
       or functions, and that can be separately evaluated according to the metrological
       and technical performance requirements in the relevant Recommendation. The modules
       of a weighing instrument are subject to specified partial error limits
+    definition_paragraphs:
+    - text: identifiable part of an instrument that performs a specific function or
+        functions, and that can be separately evaluated according to the metrological
+        and technical performance requirements in the relevant Recommendation. The
+        modules of a weighing instrument are subject to specified partial error limits
+      sources: []
     notes:
     - 'Note: Typical modules of an automatic weighing instrument are: load cell, indicator,
       analog or digital data processing device, computer terminal, weighing module,
       digital display.'
+    note_paragraphs:
+    - text: 'Note: Typical modules of an automatic weighing instrument are: load cell,
+        indicator, analog or digital data processing device, computer terminal, weighing
+        module, digital display.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -271,10 +406,22 @@ data:
       or functions, and that can be separately evaluated according to specific metrological
       and technical performance requirements in the relevant Recommendation. The modules
       of a weighing instrument are subject to specified partial error limits
+    definition_paragraphs:
+    - text: identifiable part of an instrument that performs a specific function or
+        functions, and that can be separately evaluated according to specific metrological
+        and technical performance requirements in the relevant Recommendation. The
+        modules of a weighing instrument are subject to specified partial error limits
+      sources: []
     notes:
     - 'Note:Typical modules of a weighing instrument are: load cell, indicator, analog
       or digital data processing device, weighing module, terminal, primary display.'
+    note_paragraphs:
+    - text: 'Note:Typical modules of a weighing instrument are: load cell, indicator,
+        analog or digital data processing device, weighing module, terminal, primary
+        display.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

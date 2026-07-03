@@ -27,10 +27,21 @@ data:
     definition: facility allowing the user to initiate an adjustment of the instrument
       without having the possibility of influencing its magnitude, whether or not
       the adjustment is automatically required
+    definition_paragraphs:
+    - text: facility allowing the user to initiate an adjustment of the instrument
+        without having the possibility of influencing its magnitude, whether or not
+        the adjustment is automatically required
+      sources: []
     notes:
     - For those instruments that require the values of the volume fractions of the
       reference gas to be entered manually, the facility is considered to be semi-automatic.
+    note_paragraphs:
+    - text: For those instruments that require the values of the volume fractions
+        of the reference gas to be entered manually, the facility is considered to
+        be semi-automatic.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -45,11 +56,22 @@ data:
     definition: facility allowing the user to initiate an adjustment of the instrument
       without having the possibility of influencing its magnitude, whether or not
       the adjustment is automatically required
+    definition_paragraphs:
+    - text: facility allowing the user to initiate an adjustment of the instrument
+        without having the possibility of influencing its magnitude, whether or not
+        the adjustment is automatically required
+      sources: []
     notes:
     - 'Note:  For those instruments that require the values of the volume fractions
       of the reference gas to be entered manually, the facility is considered to be
       semi-automatic.'
+    note_paragraphs:
+    - text: 'Note:  For those instruments that require the values of the volume fractions
+        of the reference gas to be entered manually, the facility is considered to
+        be semi-automatic.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

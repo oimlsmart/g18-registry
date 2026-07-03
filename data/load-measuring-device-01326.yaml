@@ -27,8 +27,16 @@ data:
       of an equilibrium device for balancing the force coming from the load transmitting
       device, and an indicating or printing device for displaying the weighing result
       in units of mass
+    definition_paragraphs:
+    - text: part of the instrument for measuring the mass of the load by means of
+        an equilibrium device for balancing the force coming from the load transmitting
+        device, and an indicating or printing device for displaying the weighing result
+        in units of mass
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

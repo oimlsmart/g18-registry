@@ -27,11 +27,22 @@ data:
     definition: the concentration of the sample component of interest that gives This
       term is also referred to as «minimum a detector output signal equal to three
       times the short-term noise det man def oth noi
+    definition_paragraphs:
+    - text: the concentration of the sample component of interest that gives This
+        term is also referred to as «minimum a detector output signal equal to three
+        times the short-term noise det man def oth noi
+      sources: []
     notes:
     - ectability» in some references and ufacturer's literature. It is sometimes ined
       as an output signal equal to some er multiple (for example, two or ten) of th
       se.
+    note_paragraphs:
+    - text: ectability» in some references and ufacturer's literature. It is sometimes
+        ined as an output signal equal to some er multiple (for example, two or ten)
+        of th se.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -45,11 +56,21 @@ data:
     g18_entry: '01481'
     definition: the concentration of the sample component of interest that gives a
       detector output signal equal to three times the short-term noise
+    definition_paragraphs:
+    - text: the concentration of the sample component of interest that gives a detector
+        output signal equal to three times the short-term noise
+      sources: []
     notes:
     - 'Note: This term is also referred to as «minimum detectability» in some references
       and manufacturer’s literature. It is sometimes defined as an output signal equal
       to some other multiple (for example, two or ten) of the noise.'
+    note_paragraphs:
+    - text: 'Note: This term is also referred to as «minimum detectability» in some
+        references and manufacturer’s literature. It is sometimes defined as an output
+        signal equal to some other multiple (for example, two or ten) of the noise.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

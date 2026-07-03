@@ -27,8 +27,15 @@ data:
     definition: part of the meter converting the flow, the volume or the mass of the
       liquid to be measured into signals, representing volume or mass, destined for
       the calculator. It consists of a meter sensor and a transduce
+    definition_paragraphs:
+    - text: part of the meter converting the flow, the volume or the mass of the liquid
+        to be measured into signals, representing volume or mass, destined for the
+        calculator. It consists of a meter sensor and a transduce
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -42,8 +49,14 @@ data:
     g18_entry: '01702'
     definition: a device which measures the dimensions of an object and provides a
       signal to the processor from which the associated quantities are calculated
+    definition_paragraphs:
+    - text: a device which measures the dimensions of an object and provides a signal
+        to the processor from which the associated quantities are calculated
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -58,8 +71,15 @@ data:
     definition: part of the meter converting the flow, the volume or the mass of the
       measurand into signals representing the measured quantity required as input
       for the measurement calculator, comprising a sensor and a transducer.
+    definition_paragraphs:
+    - text: part of the meter converting the flow, the volume or the mass of the measurand
+        into signals representing the measured quantity required as input for the
+        measurement calculator, comprising a sensor and a transducer.
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -74,8 +94,15 @@ data:
     definition: part of the meter converting the flow, the volume or the mass of the
       liquid to be measured into signals, representing volume or mass, destined for
       the calculator. It consists of a meter sensor and a transduce
+    definition_paragraphs:
+    - text: part of the meter converting the flow, the volume or the mass of the liquid
+        to be measured into signals, representing volume or mass, destined for the
+        calculator. It consists of a meter sensor and a transduce
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

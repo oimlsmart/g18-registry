@@ -26,10 +26,21 @@ data:
     g18_entry: '02356'
     definition: number larger than one by which a combined standard measurement uncertainty
       is multiplied to obtain an expanded measurement uncertainty
+    definition_paragraphs:
+    - text: number larger than one by which a combined standard measurement uncertainty
+        is multiplied to obtain an expanded measurement uncertainty
+      sources: []
     notes:
     - 1. A coverage factor is usually symbolized by the letter k (see also GUM, 2.3.6).
     - 2. (VIM:2007, 2.38)
+    note_paragraphs:
+    - text: 1. A coverage factor is usually symbolized by the letter k (see also GUM,
+        2.3.6).
+      sources: []
+    - text: 2. (VIM:2007, 2.38)
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -43,10 +54,21 @@ data:
     g18_entry: '02357'
     definition: number larger than one by which a combined standard measurement uncertainty
       is multiplied to obtain an expanded measurement uncertainty
+    definition_paragraphs:
+    - text: number larger than one by which a combined standard measurement uncertainty
+        is multiplied to obtain an expanded measurement uncertainty
+      sources: []
     notes:
     - A coverage factor is usually symbolized by the letter k (see also GUM, 2.3.6).
     - "[VIM:2007, 2.38]"
+    note_paragraphs:
+    - text: A coverage factor is usually symbolized by the letter k (see also GUM,
+        2.3.6).
+      sources: []
+    - text: "[VIM:2007, 2.38]"
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

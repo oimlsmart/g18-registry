@@ -25,8 +25,14 @@ data:
     g18_entry: '02923'
     definition: third-party attestation related to products, processes, systems or
       person (from ISO/IEC 17000:2004, 5.5 and VIML, A.18)]
+    definition_paragraphs:
+    - text: third-party attestation related to products, processes, systems or person
+        (from ISO/IEC 17000:2004, 5.5 and VIML, A.18)]
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,15 @@ data:
     definition: third-party attestation related to a conformity assessment body conveying
       a formal demonstration of its competence to carry out specific conformity assessment
       tasks [ISO/IEC 17000:2004, 5.5]
+    definition_paragraphs:
+    - text: third-party attestation related to a conformity assessment body conveying
+        a formal demonstration of its competence to carry out specific conformity
+        assessment tasks [ISO/IEC 17000:2004, 5.5]
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

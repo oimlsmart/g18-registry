@@ -33,8 +33,15 @@ data:
     definition: "- - value expressed in units of length of: the difference between
       the values corresponding to two consecutive scale marks, for analog indication;
       or the difference between two consecutive indicated values, for digital indication"
+    definition_paragraphs:
+    - text: "- - value expressed in units of length of: the difference between the
+        values corresponding to two consecutive scale marks, for analog indication;
+        or the difference between two consecutive indicated values, for digital indication"
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -49,8 +56,15 @@ data:
     definition: 'value expressed in units of mass that is the difference between:
       * the values corresponding to two consecutive scale marks for analog indication;
       or * two consecutive indicated values for digital indication'
+    definition_paragraphs:
+    - text: 'value expressed in units of mass that is the difference between: * the
+        values corresponding to two consecutive scale marks for analog indication;
+        or * two consecutive indicated values for digital indication'
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -65,8 +79,15 @@ data:
     definition: "• • value, expressed in units of mass, of the difference between:
       the values corresponding to two consecutive scale marks for analog indication;
       or two consecutive indicated values for digital indication"
+    definition_paragraphs:
+    - text: "• • value, expressed in units of mass, of the difference between: the
+        values corresponding to two consecutive scale marks for analog indication;
+        or two consecutive indicated values for digital indication"
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -81,8 +102,15 @@ data:
     definition: "• • value, expressed in units of area, of the difference between:
       the values corresponding to two consecutive scale marks for analogue indication,
       or two consecutive indicated values for digital indication"
+    definition_paragraphs:
+    - text: "• • value, expressed in units of area, of the difference between: the
+        values corresponding to two consecutive scale marks for analogue indication,
+        or two consecutive indicated values for digital indication"
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -96,8 +124,14 @@ data:
     g18_entry: '01812'
     definition: value expressed in units of mass for weighing-in-motion that is the
       difference between two consecutive indicated or printed values
+    definition_paragraphs:
+    - text: value expressed in units of mass for weighing-in-motion that is the difference
+        between two consecutive indicated or printed values
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -111,9 +145,17 @@ data:
     g18_entry: '01718'
     definition: the difference between two consecutive indicated values of the dimensions
       for each range in each axis
+    definition_paragraphs:
+    - text: the difference between two consecutive indicated values of the dimensions
+        for each range in each axis
+      sources: []
     notes:
     - Adapted from VIM:1993, 4.22
+    note_paragraphs:
+    - text: Adapted from VIM:1993, 4.22
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -127,8 +169,14 @@ data:
     g18_entry: '01023'
     definition: the difference between the scale values corresponding to two successive
       scale marks
+    definition_paragraphs:
+    - text: the difference between the scale values corresponding to two successive
+        scale marks
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -144,8 +192,16 @@ data:
       is the difference between: the values corresponding to two consecutive scale
       marks for analogue indication, or two consecutive indicated or printed values
       for digital indication"
+    definition_paragraphs:
+    - text: "• • a value expressed in units of mass for weighing-in-motion that is
+        the difference between: the values corresponding to two consecutive scale
+        marks for analogue indication, or two consecutive indicated or printed values
+        for digital indication"
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -162,8 +218,23 @@ data:
 
       * the values corresponding to two consecutive scale marks, for analog indication, or
       * two consecutive indicated values, for digital indication
+    definition_paragraphs:
+    - text: |-
+        value expressed in units of the measured quantity of the difference between
+
+        * the values corresponding to two consecutive scale marks, for analog indication, or
+        * two consecutive indicated values, for digital indication
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2013
+        ref_id: '5.01'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical
@@ -185,8 +256,16 @@ data:
       between: a) the values corresponding to two consecutive scale marks for analogue
       indication, or b) two consecutive indicated values for digital indication (VIML,
       5.01)'
+    definition_paragraphs:
+    - text: 'value, expressed in units of the measured quantity of the difference
+        between: a) the values corresponding to two consecutive scale marks for analogue
+        indication, or b) two consecutive indicated values for digital indication
+        (VIML, 5.01)'
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -201,8 +280,15 @@ data:
     definition: 'value expressed in units of length of: the difference between the
       values corresponding to two consecutive scale marks, for analog indication;
       or the difference between two consecutive indicated values, for digital indication'
+    definition_paragraphs:
+    - text: 'value expressed in units of length of: the difference between the values
+        corresponding to two consecutive scale marks, for analog indication; or the
+        difference between two consecutive indicated values, for digital indication'
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -217,8 +303,15 @@ data:
     definition: 'value expressed in units of mass that is the difference between:
       the values corresponding to two consecutive scale marks for analog indication;
       or two consecutive indicated values for digital indication'
+    definition_paragraphs:
+    - text: 'value expressed in units of mass that is the difference between: the
+        values corresponding to two consecutive scale marks for analog indication;
+        or two consecutive indicated values for digital indication'
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -232,8 +325,14 @@ data:
     g18_entry: '01023'
     definition: the difference between the scale values corresponding to two successive
       scale marks
+    definition_paragraphs:
+    - text: the difference between the scale values corresponding to two successive
+        scale marks
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

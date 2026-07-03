@@ -32,8 +32,14 @@ data:
     g18_entry: '00941'
     definition: value of the load below which the weighing results may be subject
       to an excessive relative error
+    definition_paragraphs:
+    - text: value of the load below which the weighing results may be subject to an
+        excessive relative error
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -47,10 +53,19 @@ data:
     g18_entry: '00789'
     definition: smallest discrete load that can be weighed automatically on the load
       receptor of the filling instrument
+    definition_paragraphs:
+    - text: smallest discrete load that can be weighed automatically on the load receptor
+        of the filling instrument
+      sources: []
     notes:
     - For filling instruments which effect the fill by one weighing cycle, Min is
       equal to the rated minimum fill (Minfill).
+    note_paragraphs:
+    - text: For filling instruments which effect the fill by one weighing cycle, Min
+        is equal to the rated minimum fill (Minfill).
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -64,8 +79,14 @@ data:
     g18_entry: '01810'
     definition: load below which a weighing-in-motion result before totalizing may
       be subject to an excessive relative error
+    definition_paragraphs:
+    - text: load below which a weighing-in-motion result before totalizing may be
+        subject to an excessive relative error
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -79,8 +100,14 @@ data:
     g18_entry: '01281'
     definition: the load below which a weighing-in-motion result before totalizing
       may be subject to an excessive relative error
+    definition_paragraphs:
+    - text: the load below which a weighing-in-motion result before totalizing may
+        be subject to an excessive relative error
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -94,8 +121,14 @@ data:
     g18_entry: '00941'
     definition: value of the load below which the weighing results may be subject
       to an excessive relative error
+    definition_paragraphs:
+    - text: value of the load below which the weighing results may be subject to an
+        excessive relative error
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -109,8 +142,14 @@ data:
     g18_entry: '03300'
     definition: value of the load below which the weighing-in-motion results before
       totalizing may be subject to an excessive relative error
+    definition_paragraphs:
+    - text: value of the load below which the weighing-in-motion results before totalizing
+        may be subject to an excessive relative error
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

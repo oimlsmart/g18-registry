@@ -26,8 +26,15 @@ data:
     definition: descriptive and graphical specification of metrological traceability
       chain for a given type of measuring instrument which serves to evidence their
       metrological traceability
+    definition_paragraphs:
+    - text: descriptive and graphical specification of metrological traceability chain
+        for a given type of measuring instrument which serves to evidence their metrological
+        traceability
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

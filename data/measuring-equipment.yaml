@@ -27,6 +27,12 @@ data:
       measurement standards, reference materials, reference data, reagents, consumables
       or auxiliary apparaturs) that is required for the correct performance of laboratory
       activities and that can influence the results
+    definition_paragraphs:
+    - text: equipment (including, but not limited to, measuring instrument, software,
+        measurement standards, reference materials, reference data, reagents, consumables
+        or auxiliary apparaturs) that is required for the correct performance of laboratory
+        activities and that can influence the results
+      sources: []
     notes:
     - In the context of this Document, a measuring instrument is a component of the
       measuring equipment which plays an important role for measurement. Some measuring
@@ -34,7 +40,17 @@ data:
       a physical quantity.
     - In the context of this Document, measuring equipment may be considered as being
       equivalent to measuring system.
+    note_paragraphs:
+    - text: In the context of this Document, a measuring instrument is a component
+        of the measuring equipment which plays an important role for measurement.
+        Some measuring instrument can be used independently to complere a measurement
+        process or realise a physical quantity.
+      sources: []
+    - text: In the context of this Document, measuring equipment may be considered
+        as being equivalent to measuring system.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

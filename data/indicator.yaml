@@ -27,8 +27,15 @@ data:
     definition: to electronic device of an instrument that may perform the analog-
       -digital conversion of the output signal of the load cell, and that further
       processes the data, and displays the weighing result inunits of mass
+    definition_paragraphs:
+    - text: to electronic device of an instrument that may perform the analog- -digital
+        conversion of the output signal of the load cell, and that further processes
+        the data, and displays the weighing result inunits of mass
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -43,8 +50,15 @@ data:
     definition: to electronic device of an instrument that may perform the analog-
       -digital conversion of the output signal of the load cell, and which further
       processes the data, and displays the weighing result in units of mass
+    definition_paragraphs:
+    - text: to electronic device of an instrument that may perform the analog- -digital
+        conversion of the output signal of the load cell, and which further processes
+        the data, and displays the weighing result in units of mass
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -59,8 +73,15 @@ data:
     definition: to electronic device of an instrument that may perform the analog-
       -digital conversion of the output signal of the load cell, and which further
       processes the data, and displays the weighing result in units of mass
+    definition_paragraphs:
+    - text: to electronic device of an instrument that may perform the analog- -digital
+        conversion of the output signal of the load cell, and which further processes
+        the data, and displays the weighing result in units of mass
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -75,8 +96,14 @@ data:
     definition: a device which displays the dimensions measured and the associated
       quantities calculated by the processor. It may or may not be associated with
       the processor
+    definition_paragraphs:
+    - text: a device which displays the dimensions measured and the associated quantities
+        calculated by the processor. It may or may not be associated with the processor
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -90,8 +117,14 @@ data:
     g18_entry: '01622'
     definition: a device which displays the mass calculated by the processor and other
       quantities. It may or may not be part of the processor
+    definition_paragraphs:
+    - text: a device which displays the mass calculated by the processor and other
+        quantities. It may or may not be part of the processor
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -104,8 +137,13 @@ data:
     link:
     g18_entry: '03110'
     definition: device that displays the measures dimension and any associated quantities
+    definition_paragraphs:
+    - text: device that displays the measures dimension and any associated quantities
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -120,8 +158,15 @@ data:
     definition: electronic device that may perform the analogue-to-digital conversion
       of the output signal of the force receptor, and further processes the data,
       and displays the weighing result in units of mass
+    definition_paragraphs:
+    - text: electronic device that may perform the analogue-to-digital conversion
+        of the output signal of the force receptor, and further processes the data,
+        and displays the weighing result in units of mass
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -136,8 +181,15 @@ data:
     definition: electronic device of an instrument that may perform the analogue-to-digital
       conversion of the output signal of the load cell, further processes the data,
       and displays the weighing result
+    definition_paragraphs:
+    - text: electronic device of an instrument that may perform the analogue-to-digital
+        conversion of the output signal of the load cell, further processes the data,
+        and displays the weighing result
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -152,8 +204,15 @@ data:
     definition: electronic device of an instrument that may perform the analogue-to-digital
       conversion of the output signal of the load cell, further processes the data,
       and displays the weighing result
+    definition_paragraphs:
+    - text: electronic device of an instrument that may perform the analogue-to-digital
+        conversion of the output signal of the load cell, further processes the data,
+        and displays the weighing result
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -168,8 +227,15 @@ data:
     definition: electronic device of an instrument that may perform the analog-to-digital
       conversion of the output signal of the load cell, and that further processes
       the data, and displays the weighing result in units of mass
+    definition_paragraphs:
+    - text: electronic device of an instrument that may perform the analog-to-digital
+        conversion of the output signal of the load cell, and that further processes
+        the data, and displays the weighing result in units of mass
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -184,8 +250,15 @@ data:
     definition: electronic device of an instrument that may perform the analog-to-digital
       conversion of the output signal of the load cell, and which further processes
       the data, and displays the weighing result in units of mass
+    definition_paragraphs:
+    - text: electronic device of an instrument that may perform the analog-to-digital
+        conversion of the output signal of the load cell, and which further processes
+        the data, and displays the weighing result in units of mass
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -200,8 +273,15 @@ data:
     definition: electronic device of an instrument that may perform the analog-to-digital
       conversion of the output signal of the load cell, and which further processes
       the data, and displays the weighing result in units of mass
+    definition_paragraphs:
+    - text: electronic device of an instrument that may perform the analog-to-digital
+        conversion of the output signal of the load cell, and which further processes
+        the data, and displays the weighing result in units of mass
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -215,8 +295,14 @@ data:
     g18_entry: '01622'
     definition: a device which displays the mass calculated by the processor and other
       quantities. It may or may not be part of the processor
+    definition_paragraphs:
+    - text: a device which displays the mass calculated by the processor and other
+        quantities. It may or may not be part of the processor
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

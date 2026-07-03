@@ -27,11 +27,23 @@ data:
       this Recommendation, when the current and power factor are varied within the
       intervals given by the rated operating conditions, and when the meter is otherwise
       operated at reference conditions
+    definition_paragraphs:
+    - text: extreme value of the error of indication of a meter, permitted by this
+        Recommendation, when the current and power factor are varied within the intervals
+        given by the rated operating conditions, and when the meter is otherwise operated
+        at reference conditions
+      sources: []
     notes:
     - Note:In this Recommendation, the maximum permissible error is a combination
       of the base maximum permissible error and the maximum permissible error shift
       as described in Annex B.
+    note_paragraphs:
+    - text: Note:In this Recommendation, the maximum permissible error is a combination
+        of the base maximum permissible error and the maximum permissible error shift
+        as described in Annex B.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

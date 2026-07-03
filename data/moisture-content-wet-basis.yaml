@@ -24,8 +24,13 @@ data:
     link:
     g18_entry: '02476'
     definition: ratio of moisture to the total mass of the grain sample
+    definition_paragraphs:
+    - text: ratio of moisture to the total mass of the grain sample
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

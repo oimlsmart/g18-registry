@@ -39,8 +39,16 @@ data:
       flowrate Q1, that divides the flowrate range into twozones, the upper flowrate
       zone and the lower flowrate zone, each characterized by its own maximum permissible
       error
+    definition_paragraphs:
+    - text: flowrate which occurs between the permanent flowrate Q3, and theminimum
+        flowrate Q1, that divides the flowrate range into twozones, the upper flowrate
+        zone and the lower flowrate zone, each characterized by its own maximum permissible
+        error
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -55,8 +63,15 @@ data:
     definition: flowrate which occurs between the maximum flowrate Qmax and theminimum
       flowrate Qmin that divides the flowrate range into twozones, the "upper zone"
       and the "lower zone", each characterized by its own maximum permissible error
+    definition_paragraphs:
+    - text: flowrate which occurs between the maximum flowrate Qmax and theminimum
+        flowrate Qmin that divides the flowrate range into twozones, the "upper zone"
+        and the "lower zone", each characterized by its own maximum permissible error
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -25,10 +25,19 @@ data:
     g18_entry: '03769'
     definition: observed error in a measurement where all influence quantities have
       been minimized.
+    definition_paragraphs:
+    - text: observed error in a measurement where all influence quantities have been
+        minimized.
+      sources: []
     notes:
     - 'Note: Typically, the linearity error is determined using a simulator in the
       laboratory.'
+    note_paragraphs:
+    - text: 'Note: Typically, the linearity error is determined using a simulator
+        in the laboratory.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

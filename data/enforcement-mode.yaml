@@ -25,9 +25,17 @@ data:
     g18_entry: '03755'
     definition: mode of operation in which speed measurements for traffic enforcement
       cases are carried out
+    definition_paragraphs:
+    - text: mode of operation in which speed measurements for traffic enforcement
+        cases are carried out
+      sources: []
     notes:
     - 'Note: The enforcement mode is the preferred mode for metrological control.'
+    note_paragraphs:
+    - text: 'Note: The enforcement mode is the preferred mode for metrological control.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

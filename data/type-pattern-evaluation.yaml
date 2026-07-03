@@ -39,8 +39,16 @@ data:
       specimens of an identified type (pattern) of measuring instrument against documented
       requirements, the results of which are contained in an evaluation report, in
       order to determine whether the type may be approved. (VIML 2.5)
+    definition_paragraphs:
+    - text: systematic examination and testing of the performance of one or more specimens
+        of an identified type (pattern) of measuring instrument against documented
+        requirements, the results of which are contained in an evaluation report,
+        in order to determine whether the type may be approved. (VIML 2.5)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -62,9 +70,26 @@ data:
       of measuring same me instruments against documented requirements, the results
       of only "t which are contained in the evaluation report, in order to determine
       whether the type may be approved
+    definition_paragraphs:
+    - text: systematic examination and testing of the performance of one or "Pattern"
+        is used in legal metrology with the more specimens of an identified type (pattern)
+        of measuring same me instruments against documented requirements, the results
+        of only "t which are contained in the evaluation report, in order to determine
+        whether the type may be approved
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2000
+        ref_id: '2.5'
+        is_vimline: true
     notes:
     - aning as "type"; in the entries below, ype" is used.
+    note_paragraphs:
+    - text: aning as "type"; in the entries below, ype" is used.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical
@@ -90,10 +115,20 @@ data:
     definition: conformity assessment procedure on one or more specimens of an identified
       type (pattern) of measuring instruments which results in an evaluation report
       and/or an evaluation certificate
+    definition_paragraphs:
+    - text: conformity assessment procedure on one or more specimens of an identified
+        type (pattern) of measuring instruments which results in an evaluation report
+        and/or an evaluation certificate
+      sources: []
     notes:
     - "'Pattern' is used in legal metrology with the same meaning as 'type'; in the
       entries below, only 'type'is used."
+    note_paragraphs:
+    - text: "'Pattern' is used in legal metrology with the same meaning as 'type';
+        in the entries below, only 'type'is used."
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -113,8 +148,21 @@ data:
     definition: conformity assessment procedure on one or more specimens of an identified
       type (pattern) of measuring instruments which results in an evaluation report
       or a certificate
+    definition_paragraphs:
+    - text: conformity assessment procedure on one or more specimens of an identified
+        type (pattern) of measuring instruments which results in an evaluation report
+        or a certificate
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2022
+        ref_id: '2.04'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical
@@ -135,11 +183,23 @@ data:
     definition: conformity assessment procedure on one or more specimens of an identified
       type (pattern) of measuring instruments which results in an evaluation report
       and/or an evaluation certificate (VIML, 2.04)
+    definition_paragraphs:
+    - text: conformity assessment procedure on one or more specimens of an identified
+        type (pattern) of measuring instruments which results in an evaluation report
+        and/or an evaluation certificate (VIML, 2.04)
+      sources: []
     notes:
     - '"Pattern" is used in legal metrology with the same meaning as "type".'
     - for the purposes of the OIML-CS, "evaluation report" should be read as "OIML
       type evaluation report".
+    note_paragraphs:
+    - text: '"Pattern" is used in legal metrology with the same meaning as "type".'
+      sources: []
+    - text: for the purposes of the OIML-CS, "evaluation report" should be read as
+        "OIML type evaluation report".
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -154,9 +214,24 @@ data:
     definition: conformity assessment procedure on one or more specimens of an identified
       type (pattern) of measuring instruments which results in an evaluation report
       and/or an evaluation certificate
+    definition_paragraphs:
+    - text: conformity assessment procedure on one or more specimens of an identified
+        type (pattern) of measuring instruments which results in an evaluation report
+        and/or an evaluation certificate
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2013
+        ref_id: '2.04'
+        is_vimline: true
     notes:
     - "(For notes, refer to the VIML)"
+    note_paragraphs:
+    - text: "(For notes, refer to the VIML)"
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical
@@ -177,11 +252,23 @@ data:
     definition: conformity assessment procedure on one or more specimens of an identified
       type (pattern) of measuring instruments which results in an evaluation report
       and/or an evaluation certificate (VIML, 2.04)
+    definition_paragraphs:
+    - text: conformity assessment procedure on one or more specimens of an identified
+        type (pattern) of measuring instruments which results in an evaluation report
+        and/or an evaluation certificate (VIML, 2.04)
+      sources: []
     notes:
     - '"Pattern" is used in legal metrology with the same meaning as "type".'
     - for the purposes of the OIML-CS, "evaluation report" should be read as "OIML
       type evaluation report".
+    note_paragraphs:
+    - text: '"Pattern" is used in legal metrology with the same meaning as "type".'
+      sources: []
+    - text: for the purposes of the OIML-CS, "evaluation report" should be read as
+        "OIML type evaluation report".
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -196,10 +283,26 @@ data:
     definition: conformity assessment procedure on one or more specimens of an identified
       type (pattern) of measuring instruments which results in an evaluation report
       and/or an evaluation certificate
+    definition_paragraphs:
+    - text: conformity assessment procedure on one or more specimens of an identified
+        type (pattern) of measuring instruments which results in an evaluation report
+        and/or an evaluation certificate
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2013
+        ref_id: '2.04'
+        is_vimline: true
     notes:
     - 'Note:  ‘Pattern’ is used in legal metrology with the same meaning as ‘type’;
       in the entries below, only ‘type’ is used.'
+    note_paragraphs:
+    - text: 'Note:  ‘Pattern’ is used in legal metrology with the same meaning as
+        ‘type’; in the entries below, only ‘type’ is used.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical
@@ -220,10 +323,26 @@ data:
     definition: conformity assessment procedure on one or more specimens of an identified
       type (pattern) of measuring instruments which results in an evaluation report
       and / or an evaluation certificate
+    definition_paragraphs:
+    - text: conformity assessment procedure on one or more specimens of an identified
+        type (pattern) of measuring instruments which results in an evaluation report
+        and / or an evaluation certificate
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2013
+        ref_id: '2.04'
+        is_vimline: true
     notes:
     - "{Note “Pattern” is used in legal metrology with the same meaning as “type”;
       in the entries below, only “type” is used.}"
+    note_paragraphs:
+    - text: "{Note “Pattern” is used in legal metrology with the same meaning as “type”;
+        in the entries below, only “type” is used.}"
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical
@@ -245,10 +364,27 @@ data:
       specimens of an identified type (pattern) of measuring instruments against documented
       requirements, the results of which are contained in the evaluation report, in
       order to determine whether the type may be approved
+    definition_paragraphs:
+    - text: systematic examination and testing of the performance of one or more specimens
+        of an identified type (pattern) of measuring instruments against documented
+        requirements, the results of which are contained in the evaluation report,
+        in order to determine whether the type may be approved
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2000
+        ref_id: '2.5'
+        is_vimline: true
     notes:
     - 'Note:  “Pattern” is used in legal metrology with the same meaning as “type”;
       in the entries below, only “type” is used.'
+    note_paragraphs:
+    - text: 'Note:  “Pattern” is used in legal metrology with the same meaning as
+        “type”; in the entries below, only “type” is used.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical

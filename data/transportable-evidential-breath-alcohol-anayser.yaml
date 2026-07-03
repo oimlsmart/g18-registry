@@ -31,10 +31,19 @@ data:
     g18_entry: '03583'
     definition: easily transportable evidential breath alcohol anayser intended for
       use in mobile applications (e.g. in vehicles)
+    definition_paragraphs:
+    - text: easily transportable evidential breath alcohol anayser intended for use
+        in mobile applications (e.g. in vehicles)
+      sources: []
     notes:
     - 'Note:  In scope of this Recommendation, transportable EBAs are designated as
       use-case 2.'
+    note_paragraphs:
+    - text: 'Note:  In scope of this Recommendation, transportable EBAs are designated
+        as use-case 2.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

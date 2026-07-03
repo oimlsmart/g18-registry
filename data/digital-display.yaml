@@ -27,8 +27,15 @@ data:
     definition: "(i either incorporated in the indicator housing or in the computer
       terminal housing or realized as a display in a separate housing .e. terminal
       without keys), e.g. for use in combination with a weighing module"
+    definition_paragraphs:
+    - text: "(i either incorporated in the indicator housing or in the computer terminal
+        housing or realized as a display in a separate housing .e. terminal without
+        keys), e.g. for use in combination with a weighing module"
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -47,10 +54,25 @@ data:
       secondary display: Additional peripheral device (optional) which repeats the
       weighing result and any other primary indication, or provides further, non-metrological
       information'
+    definition_paragraphs:
+    - text: 'b) a) a digital display can be realized as a primary display or as a
+        secondary display: primary display: Either incorporated in the indicator housing
+        orin the terminal housing or realized as a display in a separate housing (i.e.
+        terminal without keys), e.g. for use in combination with a weighing module.
+        secondary display: Additional peripheral device (optional) which repeats the
+        weighing result and any other primary indication, or provides further, non-metrological
+        information'
+      sources: []
     notes:
     - The terms "primary display" and "secondary display" should not be confused with
       the terms "primary indication" and "secondary indication" (T.1.3.1 and T.1.3.2)
+    note_paragraphs:
+    - text: The terms "primary display" and "secondary display" should not be confused
+        with the terms "primary indication" and "secondary indication" (T.1.3.1 and
+        T.1.3.2)
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -63,12 +85,23 @@ data:
     link:
     g18_entry: '02988'
     definition: output device visualizing actual information in volatile digital format
+    definition_paragraphs:
+    - text: output device visualizing actual information in volatile digital format
+      sources: []
     notes:
     - A digital display may be a primary display or secondary display.
     - The terms "primary display" and "secondary display" should not be confused with
       the terms "primary indication" and "secondary indication" (see 2.4.1.1. and
       2.4.1.2).
+    note_paragraphs:
+    - text: A digital display may be a primary display or secondary display.
+      sources: []
+    - text: The terms "primary display" and "secondary display" should not be confused
+        with the terms "primary indication" and "secondary indication" (see 2.4.1.1.
+        and 2.4.1.2).
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -83,8 +116,15 @@ data:
     definition: either incorporated in the indicator housing or in the computer terminal
       housing or realized as a display in a separate housing (i.e. terminal without
       keys), e.g. for use in combination with a weighing module
+    definition_paragraphs:
+    - text: either incorporated in the indicator housing or in the computer terminal
+        housing or realized as a display in a separate housing (i.e. terminal without
+        keys), e.g. for use in combination with a weighing module
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -103,10 +143,25 @@ data:
       b) secondary display: Additional peripheral device (optional) which repeats
       the weighing result and any other primary indication, or provides further, non-metrological
       information'
+    definition_paragraphs:
+    - text: 'a digital display can be realized as a primary display or as a secondary
+        display: a) primary display: Either incorporated in the indicator housing
+        or in the terminal housing or realized as a display in a separate housing
+        (i.e. terminal without keys), e.g. for use in combination with a weighing
+        module. b) secondary display: Additional peripheral device (optional) which
+        repeats the weighing result and any other primary indication, or provides
+        further, non-metrological information'
+      sources: []
     notes:
     - Note:The terms “primary display” and “secondary display” should not be confused
       with the terms “primary indication” and “secondaryindication” (T.1.3.1 and T.1.3.2)
+    note_paragraphs:
+    - text: Note:The terms “primary display” and “secondary display” should not be
+        confused with the terms “primary indication” and “secondaryindication” (T.1.3.1
+        and T.1.3.2)
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

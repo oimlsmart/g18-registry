@@ -29,8 +29,17 @@ data:
       in the liquid, and which automatically stops the flow of liquid if there is
       a risk of air or gases, accumulated in the form of pockets no more than slightly
       mixed with the liquid, entering the meter
+    definition_paragraphs:
+    - text: gas elimination device that, like the gas separator but under less stringent
+        operating conditions, continuously separates any air or gases contained in
+        the liquid, and which automatically stops the flow of liquid if there is a
+        risk of air or gases, accumulated in the form of pockets no more than slightly
+        mixed with the liquid, entering the meter
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -47,8 +56,17 @@ data:
       in the liquid, and which automatically stops the flow of liquid if there is
       a risk of air or gases, accumulated in the form of pockets no more than slightly
       mixed with the liquid, entering the meter
+    definition_paragraphs:
+    - text: gas elimination device which, like the gas separator but under less stringent
+        operating conditions, continuously separates any air or gases contained in
+        the liquid, and which automatically stops the flow of liquid if there is a
+        risk of air or gases, accumulated in the form of pockets no more than slightly
+        mixed with the liquid, entering the meter
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

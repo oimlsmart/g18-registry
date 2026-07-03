@@ -26,8 +26,14 @@ data:
     g18_entry: '01150'
     definition: the volume of the liquid contained in the bottom of the tank up to
       the dipping datum point, when the ship is on an even keel and has no list
+    definition_paragraphs:
+    - text: the volume of the liquid contained in the bottom of the tank up to the
+        dipping datum point, when the ship is on an even keel and has no list
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '01150'
     definition: the volume of the liquid contained in the bottom of the tank up to
       the dipping datum point, when the ship is on an even keel and has no list
+    definition_paragraphs:
+    - text: the volume of the liquid contained in the bottom of the tank up to the
+        dipping datum point, when the ship is on an even keel and has no list
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

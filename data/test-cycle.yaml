@@ -27,8 +27,15 @@ data:
     definition: sequence of applying the test forces during the Rockwell hardness
       test. The test cycle may be described by force variations with time as the indenter
       penetrates the test sample
+    definition_paragraphs:
+    - text: sequence of applying the test forces during the Rockwell hardness test.
+        The test cycle may be described by force variations with time as the indenter
+        penetrates the test sample
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -43,8 +50,15 @@ data:
     definition: sequence of applying the test forces during the Rockwell hardness
       test. The test cycle may be described by force variations with time as the indenter
       penetrates the test sample
+    definition_paragraphs:
+    - text: sequence of applying the test forces during the Rockwell hardness test.
+        The test cycle may be described by force variations with time as the indenter
+        penetrates the test sample
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -34,8 +34,22 @@ data:
       emperature, pressure, density, relative density, etc.) measured using associated
       measuring devices, or stored in a memory. The ratio of the converted quantity
       to the quantity at metering conditions is referred to as the "conversion factor."'
+    definition_paragraphs:
+    - text: '(t device, which automatically converts: * the volume measured at metering
+        conditions into a volume at base conditions, or * the volume measured at metering
+        conditions into a mass, or * the measured mass into a volume at metering conditions,
+        or * the measured mass into a volume at base conditions, or * the volume at
+        metering conditions or the measured mass of a mixture of pure ethanol (ethyl
+        alcohol) and water into a volume or the mass of pure ethanol contained in
+        that mixture, bytaking account of the characteristics of the liquid emperature,
+        pressure, density, relative density, etc.) measured using associated measuring
+        devices, or stored in a memory. The ratio of the converted quantity to the
+        quantity at metering conditions is referred to as the "conversion factor."'
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -48,12 +62,23 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r140-e07.pdf
     g18_entry: '02053'
     definition: "-- 1. In this Recommendation the wording"
+    definition_paragraphs:
+    - text: "-- 1. In this Recommendation the wording"
+      sources: []
     notes:
     - '"conversion device" covers conversion devices as such, as well as the conversion
       function in a calculator.'
     - 2. A calculator, a correction device and a conversion device may be combined
       in a single unit.
+    note_paragraphs:
+    - text: '"conversion device" covers conversion devices as such, as well as the
+        conversion function in a calculator.'
+      sources: []
+    - text: 2. A calculator, a correction device and a conversion device may be combined
+        in a single unit.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -72,8 +97,19 @@ data:
       values stored in a memory. The quotient of the volume at base conditions, or
       of the mass, to the volume at metering conditions is referred to as the "conversion
       factor"
+    definition_paragraphs:
+    - text: a device that automatically converts the volume measured at metering conditions
+        into a volume at base conditions or into a mass, by taking account of the
+        characteristics of the measured liquid (temperature, pressure, density, relative
+        density, etc.) using associated measuring instruments, or associated values
+        stored in a memory. The quotient of the volume at base conditions, or of the
+        mass, to the volume at metering conditions is referred to as the "conversion
+        factor"
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -86,12 +122,23 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r140-e07.pdf
     g18_entry: '02053'
     definition: "(-)"
+    definition_paragraphs:
+    - text: "(-)"
+      sources: []
     notes:
     - In this Recommendation the wording "conversion device" covers conversion devices
       as such, as well as the conversion function in a calculator.
     - A calculator, a correction device and a conversion device may be combined in
       a single unit.
+    note_paragraphs:
+    - text: In this Recommendation the wording "conversion device" covers conversion
+        devices as such, as well as the conversion function in a calculator.
+      sources: []
+    - text: A calculator, a correction device and a conversion device may be combined
+        in a single unit.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -110,8 +157,19 @@ data:
       values stored in a memory. The quotient of the volume at base conditions, or
       of the mass, to the volume at metering conditions is referred to as the “conversion
       factor”
+    definition_paragraphs:
+    - text: a device that automatically converts the volume measured at metering conditions
+        into a volume at base conditions or into a mass, by taking account of the
+        characteristics of the measured liquid (temperature, pressure, density, relative
+        density, etc.) using associated measuring instruments, or associated values
+        stored in a memory. The quotient of the volume at base conditions, or of the
+        mass, to the volume at metering conditions is referred to as the “conversion
+        factor”
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -132,8 +190,21 @@ data:
       by taking account of the characteristics of the liquid (temperature, pressure,
       density, relative density, etc.) measured using associated measuring devices,
       or stored in a memory'
+    definition_paragraphs:
+    - text: 'device, which automatically converts: the volume measured at metering
+        conditions into a volume at base conditions, or the volume measured at metering
+        conditions into a mass, or the measured mass into a volume at metering conditions,
+        or the measured mass into a volume at base conditions, or the volume at metering
+        conditions or the measured mass of a mixture of pure ethanol (ethyl alcohol)
+        and water into a volume or the mass of pure ethanol contained in that mixture,
+        by taking account of the characteristics of the liquid (temperature, pressure,
+        density, relative density, etc.) measured using associated measuring devices,
+        or stored in a memory'
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

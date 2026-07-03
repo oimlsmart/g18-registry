@@ -25,8 +25,14 @@ data:
     g18_entry: '01742'
     definition: wavelength used in a spectrophotometer for measuring the optical absorbance
       of a PMMA dosimeter
+    definition_paragraphs:
+    - text: wavelength used in a spectrophotometer for measuring the optical absorbance
+        of a PMMA dosimeter
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -35,8 +35,14 @@ data:
     g18_entry: '00983'
     definition: difference between the intrinsic error over a period of use and the
       initial intrinsic error of an instrument
+    definition_paragraphs:
+    - text: difference between the intrinsic error over a period of use and the initial
+        intrinsic error of an instrument
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -50,8 +56,14 @@ data:
     g18_entry: '00234'
     definition: difference between the intrinsic error after a period of use and the
       initial intrinsic error of a measuring instrument
+    definition_paragraphs:
+    - text: difference between the intrinsic error after a period of use and the initial
+        intrinsic error of a measuring instrument
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -65,8 +77,14 @@ data:
     g18_entry: '01872'
     definition: difference between the intrinsic error over a period of use and [OIML
       D 11, 3.11] the initial intrinsic error of a measuring instrument
+    definition_paragraphs:
+    - text: difference between the intrinsic error over a period of use and [OIML
+        D 11, 3.11] the initial intrinsic error of a measuring instrument
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -80,8 +98,14 @@ data:
     g18_entry: '00862'
     definition: difference between the intrinsic error after a period of use and the
       initial intrinsic error
+    definition_paragraphs:
+    - text: difference between the intrinsic error after a period of use and the initial
+        intrinsic error
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -95,8 +119,14 @@ data:
     g18_entry: '01236'
     definition: the difference between the intrinsic error over a period of use and
       the initial intrinsic error of a measuring system
+    definition_paragraphs:
+    - text: the difference between the intrinsic error over a period of use and the
+        initial intrinsic error of a measuring system
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -110,8 +140,14 @@ data:
     g18_entry: '03751'
     definition: difference between the intrinsic error after a period of use and the
       initial intrinsic error of a measuring instrument
+    definition_paragraphs:
+    - text: difference between the intrinsic error after a period of use and the initial
+        intrinsic error of a measuring instrument
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -130,8 +166,20 @@ data:
     g18_entry: '03016'
     definition: difference between the intrinsic error after a period of use and the
       initial intrinsic error [OIML V1:2013, 5.11] of a measuring instrument
+    definition_paragraphs:
+    - text: difference between the intrinsic error after a period of use and the initial
+        intrinsic error [OIML V1:2013, 5.11] of a measuring instrument
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2013
+        ref_id: '5.16'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical
@@ -151,8 +199,20 @@ data:
     g18_entry: '03018'
     definition: difference between the intrinsic error after a period of use and the
       initial intrinsic error of a measuring instrument
+    definition_paragraphs:
+    - text: difference between the intrinsic error after a period of use and the initial
+        intrinsic error of a measuring instrument
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2013
+        ref_id: '5.16'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical
@@ -172,8 +232,14 @@ data:
     g18_entry: '03017'
     definition: difference between the intrinsic error after a period of use and the
       initial intrinsic error of a measuring instrument [VIML:2013, 5.16]
+    definition_paragraphs:
+    - text: difference between the intrinsic error after a period of use and the initial
+        intrinsic error of a measuring instrument [VIML:2013, 5.16]
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -187,8 +253,20 @@ data:
     g18_entry: 02227-D011
     definition: difference between the intrinsic error after a period of use and the
       initial intrinsic error of a measuring instrument
+    definition_paragraphs:
+    - text: difference between the intrinsic error after a period of use and the initial
+        intrinsic error of a measuring instrument
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2013
+        ref_id: '5.16'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical
@@ -208,8 +286,14 @@ data:
     g18_entry: '00983'
     definition: difference between the intrinsic error over a period of use and the
       initial intrinsic error of an instrument
+    definition_paragraphs:
+    - text: difference between the intrinsic error over a period of use and the initial
+        intrinsic error of an instrument
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -223,8 +307,20 @@ data:
     g18_entry: '01872'
     definition: difference between the intrinsic error over a period of use and the
       initial intrinsic error of a measuring instrument
+    definition_paragraphs:
+    - text: difference between the intrinsic error over a period of use and the initial
+        intrinsic error of a measuring instrument
+      sources:
+      - kind: other
+        relationship: identical
+        modification:
+        ref_source: OIML D011:2004
+        ref_id: '3.11'
+        is_vimline: false
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -238,8 +334,14 @@ data:
     g18_entry: '00862'
     definition: difference between the intrinsic error after a period of use and the
       initial intrinsic error
+    definition_paragraphs:
+    - text: difference between the intrinsic error after a period of use and the initial
+        intrinsic error
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

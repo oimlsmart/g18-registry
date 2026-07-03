@@ -26,8 +26,15 @@ data:
     definition: data about data or data elements, possibly including their data descriptions,
       and data about data ownership, access paths, access rights and data volatility
       [ISO/IEC 2382:2015 Information technology - Vocabulary]
+    definition_paragraphs:
+    - text: data about data or data elements, possibly including their data descriptions,
+        and data about data ownership, access paths, access rights and data volatility
+        [ISO/IEC 2382:2015 Information technology - Vocabulary]
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -27,8 +27,15 @@ data:
     definition: condition of the instrument such that the printed or stored weight
       values of each separate weighing test show no more than two adjacent values,
       with one of them being the final weight value
+    definition_paragraphs:
+    - text: condition of the instrument such that the printed or stored weight values
+        of each separate weighing test show no more than two adjacent values, with
+        one of them being the final weight value
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -43,8 +50,15 @@ data:
     definition: condition of the instrument such that the printed or stored weighing
       values show no more than two adjacent values with one of them being the final
       weight value
+    definition_paragraphs:
+    - text: condition of the instrument such that the printed or stored weighing values
+        show no more than two adjacent values with one of them being the final weight
+        value
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -59,9 +73,19 @@ data:
     definition: condition of balance in which an instrument displays a constant value
       or no more than two adjacent values, one of which is the final weight value,
       for any given load applied
+    definition_paragraphs:
+    - text: condition of balance in which an instrument displays a constant value
+        or no more than two adjacent values, one of which is the final weight value,
+        for any given load applied
+      sources: []
     notes:
     - 'Note: This definition is only applicable to static weighing and not to weighing-in-motion.'
+    note_paragraphs:
+    - text: 'Note: This definition is only applicable to static weighing and not to
+        weighing-in-motion.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -76,8 +100,15 @@ data:
     definition: condition of the instrument such that the printed or stored weight
       values of each separate weighing test show no more than two adjacent values,
       with one of them being the final weight value
+    definition_paragraphs:
+    - text: condition of the instrument such that the printed or stored weight values
+        of each separate weighing test show no more than two adjacent values, with
+        one of them being the final weight value
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -92,8 +123,15 @@ data:
     definition: condition of the instrument such that the printed or stored weighing
       values show no more than two adjacent values with one of them being the final
       weight value
+    definition_paragraphs:
+    - text: condition of the instrument such that the printed or stored weighing values
+        show no more than two adjacent values with one of them being the final weight
+        value
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

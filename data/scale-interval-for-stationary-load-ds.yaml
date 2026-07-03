@@ -27,8 +27,16 @@ data:
       vehicles or test weights of the difference between: the values corresponding
       to two consecutive scale marks for analogue indication; or two consecutive indicated
       values for digital indication'
+    definition_paragraphs:
+    - text: 'value expressed in units of mass for weighing stationary railway vehicles
+        or test weights of the difference between: the values corresponding to two
+        consecutive scale marks for analogue indication; or two consecutive indicated
+        values for digital indication'
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -25,8 +25,14 @@ data:
     g18_entry: '00784'
     definition: mass equal to the mean of ten of the largest particles or pieces of
       the product taken from one or more fills
+    definition_paragraphs:
+    - text: mass equal to the mean of ten of the largest particles or pieces of the
+        product taken from one or more fills
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

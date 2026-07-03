@@ -25,8 +25,14 @@ data:
     g18_entry: '00121'
     definition: any single factor that can affect the measurement result, for example,
       the instrument, the operator, and the procedure
+    definition_paragraphs:
+    - text: any single factor that can affect the measurement result, for example,
+        the instrument, the operator, and the procedure
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

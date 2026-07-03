@@ -34,8 +34,17 @@ data:
       meter [SOURCE: ISO/IEC Guide 99:2007/OIML V 2-200:2012 (VIM), 4.26, [1], modified
       — “meter” replaces “measurement, measuring instrument, or measuring system”;
       original notes removed.]'
+    definition_paragraphs:
+    - text: 'extreme value of measurement error (3.2.4), with respect to a known reference
+        quantity value, permitted by specifications or regulations for a given meter
+        [SOURCE: ISO/IEC Guide 99:2007/OIML V 2-200:2012 (VIM), 4.26, [1], modified
+        — “meter” replaces “measurement, measuring instrument, or measuring system”;
+        original notes removed.]'
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -50,6 +59,11 @@ data:
     definition: extreme value of measurement error, with respect to a known reference
       quantity value, permitted by specifications or regulations for a given measurement,
       measuring instrument or measuring system
+    definition_paragraphs:
+    - text: extreme value of measurement error, with respect to a known reference
+        quantity value, permitted by specifications or regulations for a given measurement,
+        measuring instrument or measuring system
+      sources: []
     notes:
     - Usually, the term "maximum permissible errors" or "limits of errors" is used
       where there are two extreme values.
@@ -61,7 +75,23 @@ data:
     - 'For the application of this Recommendation, "specifications or regulations"
       means: the provisions contained in this Recommendation, and the terms "measuring
       instrument" and "measuring system" mean: electricity meter.'
+    note_paragraphs:
+    - text: Usually, the term "maximum permissible errors" or "limits of errors" is
+        used where there are two extreme values.
+      sources: []
+    - text: The term "tolerance" should not be used to designate "maximum permissible
+        error". [OIML V 2-200:2012, 4.26]
+      sources: []
+    - text: In this Recommendation, the maximum permissible error is a combination
+        of the base maximum permissible error and the maximum permissible error shift
+        as described in Annex B.
+      sources: []
+    - text: 'For the application of this Recommendation, "specifications or regulations"
+        means: the provisions contained in this Recommendation, and the terms "measuring
+        instrument" and "measuring system" mean: electricity meter.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

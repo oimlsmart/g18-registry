@@ -33,8 +33,16 @@ data:
       unit during influence quantity testing at type approval stage. Ref(x) is equal
       to the best accuracy class for which the instrument may be verified for operational
       use
+    definition_paragraphs:
+    - text: value for accuracy class determined by static testing of the weighing
+        unit during influence quantity testing at type approval stage. Ref(x) is equal
+        to the best accuracy class for which the instrument may be verified for operational
+        use
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

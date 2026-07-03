@@ -25,8 +25,14 @@ data:
     g18_entry: '02504'
     definition: prepackage individually measured and marked with its actual quantity
       at the time of packing
+    definition_paragraphs:
+    - text: prepackage individually measured and marked with its actual quantity at
+        the time of packing
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -40,8 +46,14 @@ data:
     g18_entry: '02488'
     definition: prepackage individually measured and marked with its actual quantity
       at the time of packing
+    definition_paragraphs:
+    - text: prepackage individually measured and marked with its actual quantity at
+        the time of packing
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

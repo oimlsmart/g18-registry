@@ -29,9 +29,20 @@ data:
       quality management system, regul that a measuring instrument meets the legal
       metrological (norm requirements for initial verification according to its approved
       type, if required
+    definition_paragraphs:
+    - text: statement provided under the sole responsibility of an authorized Legal
+        requirements may be issued as laws or manufacturer, having a validated quality
+        management system, regul that a measuring instrument meets the legal metrological
+        (norm requirements for initial verification according to its approved type,
+        if required
+      sources: []
     notes:
     - ations or in documentary standards s) referenced in them.
+    note_paragraphs:
+    - text: ations or in documentary standards s) referenced in them.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -47,10 +58,21 @@ data:
       manufacturer, having a validated quality management system, that a measuring
       instrument meets the legal metrological requirements for initial verification
       according to its approved type, if required
+    definition_paragraphs:
+    - text: statement provided under the sole responsibility of an authorized manufacturer,
+        having a validated quality management system, that a measuring instrument
+        meets the legal metrological requirements for initial verification according
+        to its approved type, if required
+      sources: []
     notes:
     - 'Note: Legal requirements may be issued as laws or regulations or in documentary
       standards (norms) referenced in them.'
+    note_paragraphs:
+    - text: 'Note: Legal requirements may be issued as laws or regulations or in documentary
+        standards (norms) referenced in them.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

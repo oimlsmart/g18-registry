@@ -26,8 +26,14 @@ data:
     g18_entry: '02238'
     definition: capacity below which the maximum permissible error is exceeded, taking
       account of the shape of the tank and the calibration method
+    definition_paragraphs:
+    - text: capacity below which the maximum permissible error is exceeded, taking
+        account of the shape of the tank and the calibration method
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '02238-R071'
     definition: capacity below which the maximum permissible error is exceeded, taking
       account of the shape of the tank and the calibration method
+    definition_paragraphs:
+    - text: capacity below which the maximum permissible error is exceeded, taking
+        account of the shape of the tank and the calibration method
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

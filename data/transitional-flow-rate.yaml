@@ -33,8 +33,16 @@ data:
       minimum flow rate that divides the flow rate range into two zones, the upper
       flow rate zone and the lower flow rate zone, each characterized by its own maximum
       permissible error(s) (3.2.5)
+    definition_paragraphs:
+    - text: flow rate (3.3.1) between the permanent flow rate (3.3.2) and the minimum
+        flow rate that divides the flow rate range into two zones, the upper flow
+        rate zone and the lower flow rate zone, each characterized by its own maximum
+        permissible error(s) (3.2.5)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

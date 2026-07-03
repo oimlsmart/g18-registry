@@ -26,10 +26,20 @@ data:
     g18_entry: '01855'
     definition: material of sufficient homogeneous and well-established absorbance
       to be used for the calibration or control of spectrophotometers
+    definition_paragraphs:
+    - text: material of sufficient homogeneous and well-established absorbance to
+        be used for the calibration or control of spectrophotometers
+      sources: []
     notes:
     - 1. It may be in the form of a liquid or solid; for example a glass filter.
     - 2. Adapted from ISO Guide 30 and VIM, clause 6.13.
+    note_paragraphs:
+    - text: 1. It may be in the form of a liquid or solid; for example a glass filter.
+      sources: []
+    - text: 2. Adapted from ISO Guide 30 and VIM, clause 6.13.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -43,10 +53,20 @@ data:
     g18_entry: '01855'
     definition: material of sufficient homogeneous and well-established absorbance
       to be used for the calibration or control of spectrophotometers
+    definition_paragraphs:
+    - text: material of sufficient homogeneous and well-established absorbance to
+        be used for the calibration or control of spectrophotometers
+      sources: []
     notes:
     - It may be in the form of a liquid or solid; for example a glass filter.
     - Adapted from ISO Guide 30 and VIM, clause 6.13.
+    note_paragraphs:
+    - text: It may be in the form of a liquid or solid; for example a glass filter.
+      sources: []
+    - text: Adapted from ISO Guide 30 and VIM, clause 6.13.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

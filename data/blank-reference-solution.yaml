@@ -26,8 +26,14 @@ data:
     g18_entry: '01194'
     definition: a solution that is used to set the zero absorbance on the spectrometer
       and that normally consists of a pure solvent such as deionized water
+    definition_paragraphs:
+    - text: a solution that is used to set the zero absorbance on the spectrometer
+        and that normally consists of a pure solvent such as deionized water
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '02513'
     definition: solution used to set the zero absorbance on the spectrometer and that
       normally consists of a pure solvent such as de-ionized water
+    definition_paragraphs:
+    - text: solution used to set the zero absorbance on the spectrometer and that
+        normally consists of a pure solvent such as de-ionized water
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

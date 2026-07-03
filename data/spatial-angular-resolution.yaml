@@ -29,8 +29,17 @@ data:
       instrument, when the ratio between the peak increment of the slit temperature
       over the screen temperature to the temperature difference of the radiator and
       the screen reaches the preset value
+    definition_paragraphs:
+    - text: dimension (angle, or sensitive elements) of a slit on a screen installed
+        in front of a large aperture radiator in the field of view of the thermographic
+        instrument, when the ratio between the peak increment of the slit temperature
+        over the screen temperature to the temperature difference of the radiator
+        and the screen reaches the preset value
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -47,8 +56,17 @@ data:
       instrument, when the ratio between the peak increment of the slit temperature
       over the screen temperature to the temperature difference of the radiator and
       the screen reaches the preset value
+    definition_paragraphs:
+    - text: dimension (angle, or sensitive elements) of a slit on a screen installed
+        in front of a large aperture radiator in the field of view of the thermographic
+        instrument, when the ratio between the peak increment of the slit temperature
+        over the screen temperature to the temperature difference of the radiator
+        and the screen reaches the preset value
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

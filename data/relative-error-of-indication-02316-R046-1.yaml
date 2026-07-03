@@ -25,12 +25,24 @@ data:
     g18_entry: 02316-R046-1
     definition: indication minus reference quantity value, divided by the reference
       quantity value
+    definition_paragraphs:
+    - text: indication minus reference quantity value, divided by the reference quantity
+        value
+      sources: []
     notes:
     - The relative error is usually expressed as a percentage of the reference quantity
       value.
     - Since this Recommendation deals only with relative error, the short form "error"
       is used for relative error.
+    note_paragraphs:
+    - text: The relative error is usually expressed as a percentage of the reference
+        quantity value.
+      sources: []
+    - text: Since this Recommendation deals only with relative error, the short form
+        "error" is used for relative error.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

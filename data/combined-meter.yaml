@@ -26,8 +26,14 @@ data:
     g18_entry: '00471'
     definition: meter which has separable measurement transducer (including flow or
       volume sensor) and calculator (including indicating device)
+    definition_paragraphs:
+    - text: meter which has separable measurement transducer (including flow or volume
+        sensor) and calculator (including indicating device)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '02383'
     definition: meter whose measurement transducer (3.1.2), calculator (3.1.4), and
       indicating device (3.1.5) are separable
+    definition_paragraphs:
+    - text: meter whose measurement transducer (3.1.2), calculator (3.1.4), and indicating
+        device (3.1.5) are separable
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

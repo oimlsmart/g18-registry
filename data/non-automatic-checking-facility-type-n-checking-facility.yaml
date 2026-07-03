@@ -25,8 +25,14 @@ data:
     g18_entry: '02441'
     definition: 'checking facility (3.5.4) that requires the intervention of an operator
       [SOURCE: OIML D 11:2013 3.19.2, [8], modified — Synonym presentation]'
+    definition_paragraphs:
+    - text: 'checking facility (3.5.4) that requires the intervention of an operator
+        [SOURCE: OIML D 11:2013 3.19.2, [8], modified — Synonym presentation]'
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

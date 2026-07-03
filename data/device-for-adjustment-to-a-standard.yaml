@@ -28,13 +28,28 @@ data:
       least 90 % and a temperature of 34 °C ± 1 °C(*). The mixture of air and ethanol
       passes through the entire gas analysis train, starting with the mouthpiece,
       in the direction normally taken by exhaled air
+    definition_paragraphs:
+    - text: a device for adjusting the EBA using, as a standard, a mixture of Adjustment
+        using a dry gas is possible gases having a relative humidity of at least 90
+        % and a temperature of 34 °C ± 1 °C(*). The mixture of air and ethanol passes
+        through the entire gas analysis train, starting with the mouthpiece, in the
+        direction normally taken by exhaled air
+      sources: []
     notes:
     - provided that the difference of effect between wet and dry gases is known or
       can be automatically corrected. (*) This ± 1 °C tolerance does not correspond
       to the uncertainty when preparing calibration gases (which is usually of 0.1
       °C); it is the tolerance on the nominal temperature of calibration gases in
       use.
+    note_paragraphs:
+    - text: provided that the difference of effect between wet and dry gases is known
+        or can be automatically corrected. (*) This ± 1 °C tolerance does not correspond
+        to the uncertainty when preparing calibration gases (which is usually of 0.1
+        °C); it is the tolerance on the nominal temperature of calibration gases in
+        use.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -28,8 +28,16 @@ data:
       temperature sensor of a pair to a continuous power dissipation of mW when immersed
       to the minimum immersion depth in a water bath, having a mean water velocity
       of 0.1 m/s
+    definition_paragraphs:
+    - text: increase in temperature signal that is obtained by subjecting each temperature
+        sensor of a pair to a continuous power dissipation of mW when immersed to
+        the minimum immersion depth in a water bath, having a mean water velocity
+        of 0.1 m/s
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -45,8 +53,16 @@ data:
       temperature sensor of a pair to a continuous power dissipation of 5 mW when
       immersed to the minimum immersion depth in a water bath, having a mean water
       velocity of 0.1 m/s
+    definition_paragraphs:
+    - text: increase in temperature signal that is obtained by subjecting each temperature
+        sensor of a pair to a continuous power dissipation of 5 mW when immersed to
+        the minimum immersion depth in a water bath, having a mean water velocity
+        of 0.1 m/s
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

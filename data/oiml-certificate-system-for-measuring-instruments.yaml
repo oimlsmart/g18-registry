@@ -25,8 +25,14 @@ data:
     g18_entry: '00088'
     definition: voluntary system for issuing, registering, and using OIML Certificates
       of Conformity
+    definition_paragraphs:
+    - text: voluntary system for issuing, registering, and using OIML Certificates
+        of Conformity
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

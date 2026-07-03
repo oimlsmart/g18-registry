@@ -35,8 +35,14 @@ data:
     g18_entry: '02285'
     definition: quantity which is not the object of the measurement but which influences
       the value of the measurand or the indication of the tank
+    definition_paragraphs:
+    - text: quantity which is not the object of the measurement but which influences
+        the value of the measurand or the indication of the tank
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -51,9 +57,18 @@ data:
     definition: quantity that, in a direct measurement, does not affect the quantity
       that is actually measured, but that affects the relation between the indication
       and the measurement result
+    definition_paragraphs:
+    - text: quantity that, in a direct measurement, does not affect the quantity that
+        is actually measured, but that affects the relation between the indication
+        and the measurement result
+      sources: []
     notes:
     - "(VIM:2007, 2.52)"
+    note_paragraphs:
+    - text: "(VIM:2007, 2.52)"
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -67,8 +82,14 @@ data:
     g18_entry: '02321'
     definition: AL quantity which is not the subject of the measurement but which
       influences the value of the measurand or the indication of the G
+    definition_paragraphs:
+    - text: AL quantity which is not the subject of the measurement but which influences
+        the value of the measurand or the indication of the G
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -83,9 +104,18 @@ data:
     definition: quantity that, in a direct measurement, does not affect the quantity
       that is actually measured, but affects the relation between the indication and
       the measurement result
+    definition_paragraphs:
+    - text: quantity that, in a direct measurement, does not affect the quantity that
+        is actually measured, but affects the relation between the indication and
+        the measurement result
+      sources: []
     notes:
     - "(VIM:2007, 2.52)"
+    note_paragraphs:
+    - text: "(VIM:2007, 2.52)"
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -99,8 +129,14 @@ data:
     g18_entry: '00374'
     definition: quantity that is not the subject of the measurement but which influences
       the values of the measurand or the indication of the instrument
+    definition_paragraphs:
+    - text: quantity that is not the subject of the measurement but which influences
+        the values of the measurand or the indication of the instrument
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -114,10 +150,19 @@ data:
     g18_entry: '01396'
     definition: "[V quantity that is not the measurand but that affects the result
       of the measurement IM: 1993, 2.10]"
+    definition_paragraphs:
+    - text: "[V quantity that is not the measurand but that affects the result of
+        the measurement IM: 1993, 2.10]"
+      sources: []
     notes:
     - An influence quantity does not affect the actual mass of the load being weighed,
       but affects the value (weighing result) indicated by the instrument.
+    note_paragraphs:
+    - text: An influence quantity does not affect the actual mass of the load being
+        weighed, but affects the value (weighing result) indicated by the instrument.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -131,8 +176,14 @@ data:
     g18_entry: '01577'
     definition: quantity which is not the subject of the measurement but which influences
       the value of the measurand or the indication of the measuring system
+    definition_paragraphs:
+    - text: quantity which is not the subject of the measurement but which influences
+        the value of the measurand or the indication of the measuring system
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -146,8 +197,14 @@ data:
     g18_entry: '02022'
     definition: quantity which is not the subject of the measurement but which influences
       the value of the measurand or the indication of the measuring system
+    definition_paragraphs:
+    - text: quantity which is not the subject of the measurement but which influences
+        the value of the measurand or the indication of the measuring system
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -161,8 +218,14 @@ data:
     g18_entry: '02092'
     definition: quantity that is not the measurand but which affects the result of
       (VIM:1993, 2.7) the measurement
+    definition_paragraphs:
+    - text: quantity that is not the measurand but which affects the result of (VIM:1993,
+        2.7) the measurement
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -181,8 +244,14 @@ data:
     g18_entry: '00449'
     definition: "[V quantity that is not the measurand but which affects the result
       of the measurement IM:1993, 2.7]."
+    definition_paragraphs:
+    - text: "[V quantity that is not the measurand but which affects the result of
+        the measurement IM:1993, 2.7]."
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -196,8 +265,14 @@ data:
     g18_entry: '00664'
     definition: "[V quantity that is not the measurand but that affects the result
       of the measurement IM:1993, 2.7]]"
+    definition_paragraphs:
+    - text: "[V quantity that is not the measurand but that affects the result of
+        the measurement IM:1993, 2.7]]"
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -211,8 +286,14 @@ data:
     g18_entry: '00986'
     definition: quantity that is not the subject of the measurement but which influences
       the values of the measurand or the indication of the instrument
+    definition_paragraphs:
+    - text: quantity that is not the subject of the measurement but which influences
+        the values of the measurand or the indication of the instrument
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -226,8 +307,14 @@ data:
     g18_entry: '01967'
     definition: quantity that is not the measurand but which affects the result of
       (VIM:1993, 2.7) the measurement
+    definition_paragraphs:
+    - text: quantity that is not the measurand but which affects the result of (VIM:1993,
+        2.7) the measurement
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -246,8 +333,14 @@ data:
     g18_entry: '00236'
     definition: quantity that is not the measurand but that affects the result of
       the measurement
+    definition_paragraphs:
+    - text: quantity that is not the measurand but that affects the result of the
+        measurement
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -262,8 +355,15 @@ data:
     definition: "[b quantity that is not the subject of the measurement but which
       influences the value of the measurand or the indication of the filling instrument
       ased on VIM:1993, 2.7]"
+    definition_paragraphs:
+    - text: "[b quantity that is not the subject of the measurement but which influences
+        the value of the measurand or the indication of the filling instrument ased
+        on VIM:1993, 2.7]"
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -282,9 +382,17 @@ data:
     g18_entry: '01915'
     definition: quantity that is not the subject of the measurement but which influences
       the value of the measurand or the indication of the measurement instrument
+    definition_paragraphs:
+    - text: quantity that is not the subject of the measurement but which influences
+        the value of the measurand or the indication of the measurement instrument
+      sources: []
     notes:
     - "[VIM:1993, 2.7]"
+    note_paragraphs:
+    - text: "[VIM:1993, 2.7]"
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -298,8 +406,14 @@ data:
     g18_entry: '01828'
     definition: quantity that is not the subject of the measurement but which influences
       the value of the measurand or the indication of the instrument
+    definition_paragraphs:
+    - text: quantity that is not the subject of the measurement but which influences
+        the value of the measurand or the indication of the instrument
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -313,8 +427,14 @@ data:
     g18_entry: '00856'
     definition: "[V quantity that is not the measurand but that affects the result
       of the measurement IM:1993, 2.7]"
+    definition_paragraphs:
+    - text: "[V quantity that is not the measurand but that affects the result of
+        the measurement IM:1993, 2.7]"
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -329,8 +449,15 @@ data:
     definition: quantity that is not the measurand but that affects the result of
       the measurement. [VIM:1993, 2.7] (For example, temperature or humidity level
       at the instant the measurements on the load cell are being observed or recorded.)
+    definition_paragraphs:
+    - text: quantity that is not the measurand but that affects the result of the
+        measurement. [VIM:1993, 2.7] (For example, temperature or humidity level at
+        the instant the measurements on the load cell are being observed or recorded.)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -349,8 +476,14 @@ data:
     g18_entry: '01728'
     definition: a quantity that is not the measurand but that affects the result of
       the measurement
+    definition_paragraphs:
+    - text: a quantity that is not the measurand but that affects the result of the
+        measurement
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -365,8 +498,15 @@ data:
     definition: a quantity that is not the subject of the measurement but that can
       influence the value of the measurand or the indication of the measuring system
       (VIM:1993, 2.7).
+    definition_paragraphs:
+    - text: a quantity that is not the subject of the measurement but that can influence
+        the value of the measurand or the indication of the measuring system (VIM:1993,
+        2.7).
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -386,8 +526,15 @@ data:
     definition: a quantity which is not the subject of the measurement but which influences
       the value of the measurand or the indication of the measuring instrument (VIM:1993,
       2.7)
+    definition_paragraphs:
+    - text: a quantity which is not the subject of the measurement but which influences
+        the value of the measurand or the indication of the measuring instrument (VIM:1993,
+        2.7)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -407,8 +554,15 @@ data:
     definition: "[A a quantity that is not the measurand but that affects the value
       of the measurand or the indication of the belt weigher dapted from VIM:1993,
       2.7]."
+    definition_paragraphs:
+    - text: "[A a quantity that is not the measurand but that affects the value of
+        the measurand or the indication of the belt weigher dapted from VIM:1993,
+        2.7]."
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -427,8 +581,14 @@ data:
     g18_entry: '01301'
     definition: a quantity that is not the subject of the measurement but which influences
       the value of the measurand or the indication of the instrument
+    definition_paragraphs:
+    - text: a quantity that is not the subject of the measurement but which influences
+        the value of the measurand or the indication of the instrument
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -443,8 +603,15 @@ data:
     definition: "(V a quantity which is not the subject of the measurement but which
       influences the value of the measurand or the indication of the measuring instrument
       IM:1993, clause 2.7 or D 11 clause T.12)"
+    definition_paragraphs:
+    - text: "(V a quantity which is not the subject of the measurement but which influences
+        the value of the measurand or the indication of the measuring instrument IM:1993,
+        clause 2.7 or D 11 clause T.12)"
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -459,8 +626,15 @@ data:
     definition: a quantity that is not the subject of the measurement but which influences
       the value of the measurand or the indication of the measuring system [VIM:1993,
       2.10]
+    definition_paragraphs:
+    - text: a quantity that is not the subject of the measurement but which influences
+        the value of the measurand or the indication of the measuring system [VIM:1993,
+        2.10]
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -475,11 +649,23 @@ data:
     definition: quantity that, in a direct measurement, does not affect the quantity
       that is actually measured, but affects the relation between the indication and
       the measurement result
+    definition_paragraphs:
+    - text: quantity that, in a direct measurement, does not affect the quantity that
+        is actually measured, but affects the relation between the indication and
+        the measurement result
+      sources: []
     notes:
     - 'Note: For speed meters the following quantities are examples of influence quantities:
       ambient temperature, measurement angle, acceleration of measured vehicle, distance
       and speed of other vehicles on the same or neighbouring lanes.'
+    note_paragraphs:
+    - text: 'Note: For speed meters the following quantities are examples of influence
+        quantities: ambient temperature, measurement angle, acceleration of measured
+        vehicle, distance and speed of other vehicles on the same or neighbouring
+        lanes.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -502,8 +688,18 @@ data:
       2.52 [1],.modified – original exampes and notes removed; “EXAMPLE” added] EXAMPLE:The
       ambient temperature of the meter is an influence quantity, whereas the temperature
       of the water passing through the meter affects the measurand.'
+    definition_paragraphs:
+    - text: 'quantity that, in a direct measurement, does not affect the quantity
+        that is actually measured, but affects the relation between the indication
+        and the measurement result [SOURCE: ISO/IEC Guide 99:2007/OIML V2-200:2012
+        (VIM) 2.52 [1],.modified – original exampes and notes removed; “EXAMPLE” added]
+        EXAMPLE:The ambient temperature of the meter is an influence quantity, whereas
+        the temperature of the water passing through the meter affects the measurand.'
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -518,8 +714,27 @@ data:
     definition: quantity that, in a direct measurement, does not affect the quantity
       that is actually measured, but affects the relation between the indication and
       the measurement result
+    definition_paragraphs:
+    - text: quantity that, in a direct measurement, does not affect the quantity that
+        is actually measured, but affects the relation between the indication and
+        the measurement result
+      sources:
+      - kind: vim
+        relationship: identical
+        modification:
+        ref_source: OIML V 2-200:2012
+        ref_id: '2.52'
+        is_vimline: true
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2013
+        ref_id: '0.07'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: vim
       relationship: identical
@@ -540,9 +755,24 @@ data:
     definition: quantity that, in a direct measurement, does not affect the quantity
       that is actually measured, but affects the relation between the indication and
       the measurement result
+    definition_paragraphs:
+    - text: quantity that, in a direct measurement, does not affect the quantity that
+        is actually measured, but affects the relation between the indication and
+        the measurement result
+      sources:
+      - kind: vim
+        relationship: identical
+        modification:
+        ref_source: OIML V 2-200:2012
+        ref_id: '2.52'
+        is_vimline: true
     notes:
     - "(For examples and notes, refer to the VIM [2])"
+    note_paragraphs:
+    - text: "(For examples and notes, refer to the VIM [2])"
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: vim
       relationship: identical
@@ -563,8 +793,21 @@ data:
     definition: quantity that, in a direct measurement, does not affect the quantity
       that is actually measured, but affects the relation between the indication and
       the measurement result
+    definition_paragraphs:
+    - text: quantity that, in a direct measurement, does not affect the quantity that
+        is actually measured, but affects the relation between the indication and
+        the measurement result
+      sources:
+      - kind: vim
+        relationship: identical
+        modification:
+        ref_source: OIML V 2-200:2012
+        ref_id: '2.52'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: vim
       relationship: identical
@@ -585,8 +828,21 @@ data:
     definition: quantity that, in a direct measurement, does not affect the quantity
       that is actually measured, but affects the relation between the indication and
       the measurement result
+    definition_paragraphs:
+    - text: quantity that, in a direct measurement, does not affect the quantity that
+        is actually measured, but affects the relation between the indication and
+        the measurement result
+      sources:
+      - kind: vim
+        relationship: identical
+        modification:
+        ref_source: OIML V 2-200:2012
+        ref_id: '2.52'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: vim
       relationship: identical
@@ -607,8 +863,15 @@ data:
     definition: quantity that, in a direct measurement, does not affect the quantity
       that is actually measured, but affects the relation between the indication and
       the measurement result (VIM 2.52)
+    definition_paragraphs:
+    - text: quantity that, in a direct measurement, does not affect the quantity that
+        is actually measured, but affects the relation between the indication and
+        the measurement result (VIM 2.52)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -622,8 +885,14 @@ data:
     g18_entry: '03122'
     definition: quantity which is not the object of the measurement but which influences
       the value of the measurand or the indication of the Tank
+    definition_paragraphs:
+    - text: quantity which is not the object of the measurement but which influences
+        the value of the measurand or the indication of the Tank
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -638,8 +907,21 @@ data:
     definition: quantity that, in a direct measurement, does not affect the quantity
       that is actually measured, but that affects the relation between the indication
       and the measurement result
+    definition_paragraphs:
+    - text: quantity that, in a direct measurement, does not affect the quantity that
+        is actually measured, but that affects the relation between the indication
+        and the measurement result
+      sources:
+      - kind: vim
+        relationship: identical
+        modification:
+        ref_source: OIML V 2-200:2012
+        ref_id: '2.52'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: vim
       relationship: identical
@@ -660,15 +942,45 @@ data:
     definition: quantity that, in a direct measurement, does not affect the quantity
       that is actually measured, but affects the relation between the indication and
       the measurement result
+    definition_paragraphs:
+    - text: quantity that, in a direct measurement, does not affect the quantity that
+        is actually measured, but affects the relation between the indication and
+        the measurement result
+      sources:
+      - kind: vim
+        relationship: identical
+        modification:
+        ref_source: OIML V 2-200:2012
+        ref_id: '2.52'
+        is_vimline: true
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2013
+        ref_id: '0.07'
+        is_vimline: true
     notes:
-    - 'Note:An influence quantity is not related to the measurand but is a quantity
-      that affects the result of the measurement as indicated by the equipment under
-      test (EUT). Example: The temperature of a measuring instrument is an influence
-      quantity, but the temperature of the measured object (used as a reference for
-      determining the fault or the error) is not. This influence of the environment
-      on this measured object may need to be taken into consideration as a contributor
-      in the definition of the measurand.'
-    examples: []
+    - An influence quantity is not related to the measurand but is a quantity that
+      affects the result of the measurement as indicated by the equipment under test
+      (EUT).
+    note_paragraphs:
+    - text: An influence quantity is not related to the measurand but is a quantity
+        that affects the result of the measurement as indicated by the equipment under
+        test (EUT).
+      sources: []
+    examples:
+    - The temperature of a measuring instrument is an influence quantity, but the
+      temperature of the measured object (used as a reference for determining the
+      fault or the error) is not. This influence of the environment on this measured
+      object may need to be taken into consideration as a contributor in the definition
+      of the measurand.
+    example_paragraphs:
+    - text: The temperature of a measuring instrument is an influence quantity, but
+        the temperature of the measured object (used as a reference for determining
+        the fault or the error) is not. This influence of the environment on this
+        measured object may need to be taken into consideration as a contributor in
+        the definition of the measurand.
+      sources: []
     source:
       kind: vim
       relationship: identical
@@ -689,8 +1001,21 @@ data:
     definition: quantity that, in a direct measurement, does not affect the quantity
       that is actually measured, but that affects the relation between the indication
       and the measurement result
+    definition_paragraphs:
+    - text: quantity that, in a direct measurement, does not affect the quantity that
+        is actually measured, but that affects the relation between the indication
+        and the measurement result
+      sources:
+      - kind: vim
+        relationship: identical
+        modification:
+        ref_source: OIML V 2-200:2012
+        ref_id: '2.52'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: vim
       relationship: identical
@@ -711,6 +1036,17 @@ data:
     definition: quantity that, in direct measurement, does not affect the quantity
       that is actually measured, but affects the relation between the indication and
       the measurement result
+    definition_paragraphs:
+    - text: quantity that, in direct measurement, does not affect the quantity that
+        is actually measured, but affects the relation between the indication and
+        the measurement result
+      sources:
+      - kind: vim
+        relationship: identical
+        modification:
+        ref_source: OIML V 2-200:2012
+        ref_id: '2.52'
+        is_vimline: true
     notes:
     - The concept of influence quantity is understood to include values associated
       with measurement standards, reference materials and reference data upon which
@@ -722,7 +1058,21 @@ data:
       system, as in the definition above, but also those quantities that affect the
       quantities actually measured. Also, in the GUM this concept is not restricted
       to direct measurements. [OIML V2-200:2012, 2.52, Note 2]
+    note_paragraphs:
+    - text: The concept of influence quantity is understood to include values associated
+        with measurement standards, reference materials and reference data upon which
+        the result of a measurement may depend, as well as phenomena such as short-term
+        measuring instrument fluctuations and quantities such as ambient temperature,
+        barometric pressure and humidity.
+      sources: []
+    - text: In the GUM [5], the concept 'influence quantity' is defined as in the
+        second edition of the VIM, covering not only the quantities affecting the
+        measuring system, as in the definition above, but also those quantities that
+        affect the quantities actually measured. Also, in the GUM this concept is
+        not restricted to direct measurements. [OIML V2-200:2012, 2.52, Note 2]
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: vim
       relationship: identical
@@ -743,8 +1093,15 @@ data:
     definition: quantity that, in a direct measurement, does not affect the quantity
       that is actually measured, but that affects the relation between the indication
       and the measurement result (VIM 2.52)
+    definition_paragraphs:
+    - text: quantity that, in a direct measurement, does not affect the quantity that
+        is actually measured, but that affects the relation between the indication
+        and the measurement result (VIM 2.52)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -758,8 +1115,14 @@ data:
     g18_entry: '02616'
     definition: quantity that is not the measurand but that affects the result of
       the measurement
+    definition_paragraphs:
+    - text: quantity that is not the measurand but that affects the result of the
+        measurement
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -773,8 +1136,14 @@ data:
     g18_entry: '02285-R080-1'
     definition: quantity which is not the object of the measurement but which influences
       the value of the measurand or the indication of the Tank
+    definition_paragraphs:
+    - text: quantity which is not the object of the measurement but which influences
+        the value of the measurand or the indication of the Tank
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -789,8 +1158,15 @@ data:
     definition: quantity that, in a direct measurement, does not affect the quantity
       that is actually measured, but that affects the relation between the indication
       and the measurement result [VIM:2007, 2.5]
+    definition_paragraphs:
+    - text: quantity that, in a direct measurement, does not affect the quantity that
+        is actually measured, but that affects the relation between the indication
+        and the measurement result [VIM:2007, 2.5]
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -804,8 +1180,14 @@ data:
     g18_entry: 02321-R085-1
     definition: quantity which is not the subject of the measurement but which influences
       the value of the measurand or the indication of the ALG
+    definition_paragraphs:
+    - text: quantity which is not the subject of the measurement but which influences
+        the value of the measurand or the indication of the ALG
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -820,8 +1202,15 @@ data:
     definition: quantity that, in a direct measurement, does not affect the quantity
       that is actually measured, but affects the relation between the indication and
       the measurement result [VIM:2007, 2.52]
+    definition_paragraphs:
+    - text: quantity that, in a direct measurement, does not affect the quantity that
+        is actually measured, but affects the relation between the indication and
+        the measurement result [VIM:2007, 2.52]
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -835,8 +1224,14 @@ data:
     g18_entry: '00374'
     definition: quantity that is not the subject of the measurement but which influences
       the values of the measurand or the indication of the instrument
+    definition_paragraphs:
+    - text: quantity that is not the subject of the measurement but which influences
+        the values of the measurand or the indication of the instrument
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -850,10 +1245,19 @@ data:
     g18_entry: '01396'
     definition: 'quantity that is not the measurand but that affects the result of
       the measurement [VIM: 1993, 2.10]'
+    definition_paragraphs:
+    - text: 'quantity that is not the measurand but that affects the result of the
+        measurement [VIM: 1993, 2.10]'
+      sources: []
     notes:
     - 'Note: An influence quantity does not affect the actual mass of the load being
       weighed, but affects the value  (weighing result) indicated by the instrument.'
+    note_paragraphs:
+    - text: 'Note: An influence quantity does not affect the actual mass of the load
+        being weighed, but affects the value  (weighing result) indicated by the instrument.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -867,8 +1271,14 @@ data:
     g18_entry: '03127'
     definition: quantity which is not the subject of the measurement but which influences
       the value of the measurand or the indication of the measuring system
+    definition_paragraphs:
+    - text: quantity which is not the subject of the measurement but which influences
+        the value of the measurand or the indication of the measuring system
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -882,8 +1292,14 @@ data:
     g18_entry: '02092'
     definition: quantity that is not the measurand but which affects the result of
       the measurement [VIM:1993, 2.7]
+    definition_paragraphs:
+    - text: quantity that is not the measurand but which affects the result of the
+        measurement [VIM:1993, 2.7]
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -897,8 +1313,14 @@ data:
     g18_entry: '00664'
     definition: quantity that is not the measurand but that affects the result of
       the measurement [VIM:1993, 2.7]
+    definition_paragraphs:
+    - text: quantity that is not the measurand but that affects the result of the
+        measurement [VIM:1993, 2.7]
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -912,8 +1334,14 @@ data:
     g18_entry: '00986'
     definition: quantity that is not the subject of the measurement but which influences
       the values of the measurand or the indication of the Instrument
+    definition_paragraphs:
+    - text: quantity that is not the subject of the measurement but which influences
+        the values of the measurand or the indication of the Instrument
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -928,8 +1356,15 @@ data:
     definition: quantity that is not the subject of the measurement but which influences
       the value of the measurand or the indication of the measurement  instrument
       [VIM:1993, 2.7]
+    definition_paragraphs:
+    - text: quantity that is not the subject of the measurement but which influences
+        the value of the measurand or the indication of the measurement  instrument
+        [VIM:1993, 2.7]
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -943,8 +1378,14 @@ data:
     g18_entry: '01828'
     definition: quantity that is not the subject of the measurement but which influences
       the value of the measurand or the indication of the instrument
+    definition_paragraphs:
+    - text: quantity that is not the subject of the measurement but which influences
+        the value of the measurand or the indication of the instrument
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -958,8 +1399,14 @@ data:
     g18_entry: '00856'
     definition: quantity that is not the measurand but that affects the result of
       the measurement [VIM:1993, 2.7]
+    definition_paragraphs:
+    - text: quantity that is not the measurand but that affects the result of the
+        measurement [VIM:1993, 2.7]
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -974,8 +1421,15 @@ data:
     definition: a quantity that is not the subject of the measurement but that can
       influence the value of the measurand or the indication of the measuring system
       (VIM:1993, 2.7).
+    definition_paragraphs:
+    - text: a quantity that is not the subject of the measurement but that can influence
+        the value of the measurand or the indication of the measuring system (VIM:1993,
+        2.7).
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -990,8 +1444,15 @@ data:
     definition: a quantity which is not the subject of the measurement but which influences
       the value of the measurand or the indication of the measuring instrument (VIM:1993,
       2.7)
+    definition_paragraphs:
+    - text: a quantity which is not the subject of the measurement but which influences
+        the value of the measurand or the indication of the measuring instrument (VIM:1993,
+        2.7)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -1006,8 +1467,15 @@ data:
     definition: a quantity which is not the subject of the measurement but which influences
       the value of the measurand or the indication of the measuring  instrument (VIM:1993,
       clause 2.7 or D 11 clause T.12)
+    definition_paragraphs:
+    - text: a quantity which is not the subject of the measurement but which influences
+        the value of the measurand or the indication of the measuring  instrument
+        (VIM:1993, clause 2.7 or D 11 clause T.12)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

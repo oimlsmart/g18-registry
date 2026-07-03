@@ -26,8 +26,15 @@ data:
     definition: identification or classification of instruments according to characteristics
       that may include the measured quantity, the measuring range, and the principle
       or method of measurement
+    definition_paragraphs:
+    - text: identification or classification of instruments according to characteristics
+        that may include the measured quantity, the measuring range, and the principle
+        or method of measurement
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -42,8 +49,15 @@ data:
     definition: identification or classification of instruments according to unique
       metrological and technical characteristics that may include the measured quantity,
       the measuring range, and the principle or method of measurement
+    definition_paragraphs:
+    - text: identification or classification of instruments according to unique metrological
+        and technical characteristics that may include the measured quantity, the
+        measuring range, and the principle or method of measurement
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

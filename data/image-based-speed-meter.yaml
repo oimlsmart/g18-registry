@@ -25,8 +25,14 @@ data:
     g18_entry: '03764'
     definition: speed meter incorporating one or more video or photo cameras and determining
       the speed of the vehicles by image processing
+    definition_paragraphs:
+    - text: speed meter incorporating one or more video or photo cameras and determining
+        the speed of the vehicles by image processing
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -26,9 +26,17 @@ data:
     g18_entry: '02042'
     definition: device that provides an output quantity having a determined relationship
       to the input quantity
+    definition_paragraphs:
+    - text: device that provides an output quantity having a determined relationship
+        to the input quantity
+      sources: []
     notes:
     - "(VIM:2007, 3.7)"
+    note_paragraphs:
+    - text: "(VIM:2007, 3.7)"
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -42,9 +50,17 @@ data:
     g18_entry: '01927'
     definition: device that provides an output quantity having a determined relationship
       to the input quantity
+    definition_paragraphs:
+    - text: device that provides an output quantity having a determined relationship
+        to the input quantity
+      sources: []
     notes:
     - "[VIM:1993, 4.3]"
+    note_paragraphs:
+    - text: "[VIM:1993, 4.3]"
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -59,8 +75,15 @@ data:
     definition: a device that transforms the flow of the liquid to be measured into
       signals aimed at the calculator. It may be either autonomous or use an external
       power source
+    definition_paragraphs:
+    - text: a device that transforms the flow of the liquid to be measured into signals
+        aimed at the calculator. It may be either autonomous or use an external power
+        source
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -74,8 +97,20 @@ data:
     g18_entry: '03285'
     definition: device, used in measurement, that provides an output quantity having
       a specified relation to the input quantity
+    definition_paragraphs:
+    - text: device, used in measurement, that provides an output quantity having a
+        specified relation to the input quantity
+      sources:
+      - kind: vim
+        relationship: identical
+        modification:
+        ref_source: OIML V 2-200:2012
+        ref_id: '3.7'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: vim
       relationship: identical
@@ -95,8 +130,20 @@ data:
     g18_entry: '02649'
     definition: device, used in measurement, that provides an output quantity having
       a specified relation to the input quantity
+    definition_paragraphs:
+    - text: device, used in measurement, that provides an output quantity having a
+        specified relation to the input quantity
+      sources:
+      - kind: vim
+        relationship: identical
+        modification:
+        ref_source: OIML V 2-200:2012
+        ref_id: '3.7'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: vim
       relationship: identical
@@ -116,8 +163,14 @@ data:
     g18_entry: '02042'
     definition: device that provides an output quantity having a determined relationship
       to the input quantity [VIM:2007, 3.7]
+    definition_paragraphs:
+    - text: device that provides an output quantity having a determined relationship
+        to the input quantity [VIM:2007, 3.7]
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

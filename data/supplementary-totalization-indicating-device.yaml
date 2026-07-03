@@ -28,8 +28,16 @@ data:
       that of the principal totalization indicating device and indicating thesum of
       the weight values of consecutive loads weighed over ong period of time. This
       device may be resettable to zero by theuser
+    definition_paragraphs:
+    - text: a l totalization indicating device with a scale interval greater than
+        that of the principal totalization indicating device and indicating thesum
+        of the weight values of consecutive loads weighed over ong period of time.
+        This device may be resettable to zero by theuser
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -44,8 +52,15 @@ data:
     definition: an indicating device with a scale interval greater than that of the
       general totalization indicating device and intended to indicate themass of the
       loads conveyed over a fairly long period of operation
+    definition_paragraphs:
+    - text: an indicating device with a scale interval greater than that of the general
+        totalization indicating device and intended to indicate themass of the loads
+        conveyed over a fairly long period of operation
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -60,8 +75,15 @@ data:
     definition: indicating device with a scale interval greater than that of the general
       totalization indicating device and  intended to indicate the mass of the loads
       conveyed over a fairly long period of operation
+    definition_paragraphs:
+    - text: indicating device with a scale interval greater than that of the general
+        totalization indicating device and  intended to indicate the mass of the loads
+        conveyed over a fairly long period of operation
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -77,8 +99,16 @@ data:
       that of the principal totalization indicating device and indicating the sum
       of the weight values of consecutive loads weighed over a long period of time.
       This device may be resettable to zero by the user
+    definition_paragraphs:
+    - text: totalization indicating device with a scale interval greater than that
+        of the principal totalization indicating device and indicating the sum of
+        the weight values of consecutive loads weighed over a long period of time.
+        This device may be resettable to zero by the user
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -93,8 +123,15 @@ data:
     definition: an indicating device with a scale interval greater than that of the
       general totalization indicating device and intended to indicate the mass of
       the loads conveyed over a fairly long period of operation
+    definition_paragraphs:
+    - text: an indicating device with a scale interval greater than that of the general
+        totalization indicating device and intended to indicate the mass of the loads
+        conveyed over a fairly long period of operation
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

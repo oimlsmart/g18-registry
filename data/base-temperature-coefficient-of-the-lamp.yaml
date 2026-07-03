@@ -27,8 +27,15 @@ data:
     definition: dimensionless quantity numerically equal to a change in the radiance
       temperature of the tungsten ribbon (in °C) under changes in the base temperature
       by 1 °C at constant lamp current
+    definition_paragraphs:
+    - text: dimensionless quantity numerically equal to a change in the radiance temperature
+        of the tungsten ribbon (in °C) under changes in the base temperature by 1
+        °C at constant lamp current
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -43,8 +50,15 @@ data:
     definition: dimensionless quantity numerically equal to a change in the radiance
       temperature of the tungsten ribbon (in °C) under changes in the base temperature
       by 1 °C at constant lamp current
+    definition_paragraphs:
+    - text: dimensionless quantity numerically equal to a change in the radiance temperature
+        of the tungsten ribbon (in °C) under changes in the base temperature by 1
+        °C at constant lamp current
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

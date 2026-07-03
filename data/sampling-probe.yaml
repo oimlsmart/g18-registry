@@ -27,8 +27,15 @@ data:
     definition: 'device inserted into the gas, designed to take a representative (ISO
       7504: 2001) sample thereof, to which a sample line or a sample container is
       connected'
+    definition_paragraphs:
+    - text: 'device inserted into the gas, designed to take a representative (ISO
+        7504: 2001) sample thereof, to which a sample line or a sample container is
+        connected'
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -42,8 +49,14 @@ data:
     g18_entry: '02333'
     definition: tube that is introduced into the exhaust tail pipe of a vehicle to
       take gas samples
+    definition_paragraphs:
+    - text: tube that is introduced into the exhaust tail pipe of a vehicle to take
+        gas samples
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -58,8 +71,15 @@ data:
     definition: 'device inserted into the gas, designed to take a representative sample
       thereof, to which a sample line or a sample container is connected [ISO 7504:
       2001] [16]'
+    definition_paragraphs:
+    - text: 'device inserted into the gas, designed to take a representative sample
+        thereof, to which a sample line or a sample container is connected [ISO 7504:
+        2001] [16]'
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -73,9 +93,17 @@ data:
     g18_entry: '02124'
     definition: device inserted into the gas, designed to take a representative sample
       thereof, to which a sample line or a sample container is connected
+    definition_paragraphs:
+    - text: device inserted into the gas, designed to take a representative sample
+        thereof, to which a sample line or a sample container is connected
+      sources: []
     notes:
     - "[ISO 7504: 2001]"
+    note_paragraphs:
+    - text: "[ISO 7504: 2001]"
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -89,8 +117,14 @@ data:
     g18_entry: 02333-R099-1
     definition: tube that is introduced into the exhaust tail pipe of a vehicle to
       take gas samples
+    definition_paragraphs:
+    - text: tube that is introduced into the exhaust tail pipe of a vehicle to take
+        gas samples
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

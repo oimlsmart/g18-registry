@@ -26,8 +26,14 @@ data:
     g18_entry: '00675'
     definition: pressure greater than nominal pressure, but at which the limit of
       elastic deformation of the elastic sensing element is not exceeded
+    definition_paragraphs:
+    - text: pressure greater than nominal pressure, but at which the limit of elastic
+        deformation of the elastic sensing element is not exceeded
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '00675'
     definition: pressure greater than nominal pressure, but at which the limit of
       elastic deformation of the elastic sensing element is not exceeded
+    definition_paragraphs:
+    - text: pressure greater than nominal pressure, but at which the limit of elastic
+        deformation of the elastic sensing element is not exceeded
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -28,8 +28,16 @@ data:
       electronic device, or sub-assembly (EPROM, hard disk, etc.). This code is interpreted
       by the microprocessor and transposed into certain logical, arithmetical, decoding,
       or data transporting operations
+    definition_paragraphs:
+    - text: file installed on the computer system of the measuring instrument, electronic
+        device, or sub-assembly (EPROM, hard disk, etc.). This code is interpreted
+        by the microprocessor and transposed into certain logical, arithmetical, decoding,
+        or data transporting operations
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -43,11 +51,21 @@ data:
     g18_entry: '03054'
     definition: digital information installed in the measuring instrument or component
       (EPROM, hard disk, etc.)
+    definition_paragraphs:
+    - text: digital information installed in the measuring instrument or component
+        (EPROM, hard disk, etc.)
+      sources: []
     notes:
     - 'Note: This code interpreted by the central processing unit (CPU) of the measuring
       instrument and converted into certain logical, arithmetical, decoding or data
       transporting operations.'
+    note_paragraphs:
+    - text: 'Note: This code interpreted by the central processing unit (CPU) of the
+        measuring instrument and converted into certain logical, arithmetical, decoding
+        or data transporting operations.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -31,8 +31,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r110-e94.pdf
     g18_entry: '01419'
     definition: the minimum pressure to be measured
+    definition_paragraphs:
+    - text: the minimum pressure to be measured
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -45,8 +50,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r110-e94.pdf
     g18_entry: '01419'
     definition: the minimum pressure to be measured
+    definition_paragraphs:
+    - text: the minimum pressure to be measured
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

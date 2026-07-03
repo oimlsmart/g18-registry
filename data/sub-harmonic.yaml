@@ -26,8 +26,15 @@ data:
     definition: frequency that is an integer fraction of the fundamental frequency
       of the signal, that is, 1/n times the fundamental frequency, where n is an integer
       greater than 1
+    definition_paragraphs:
+    - text: frequency that is an integer fraction of the fundamental frequency of
+        the signal, that is, 1/n times the fundamental frequency, where n is an integer
+        greater than 1
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -26,8 +26,15 @@ data:
     definition: device that indicates the actual force at a given time effected on
       the force receptor expressed as its quantity value or as a procentage of maximum
       capacity, Max, or alternatively as a quantity caonverted to mass values
+    definition_paragraphs:
+    - text: device that indicates the actual force at a given time effected on the
+        force receptor expressed as its quantity value or as a procentage of maximum
+        capacity, Max, or alternatively as a quantity caonverted to mass values
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

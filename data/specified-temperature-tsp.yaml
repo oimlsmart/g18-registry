@@ -26,10 +26,20 @@ data:
     definition: median temperature for gas meters with built-in conversion devices,
       used as a reference for the determination of the applicable operating temperature
       range
+    definition_paragraphs:
+    - text: median temperature for gas meters with built-in conversion devices, used
+        as a reference for the determination of the applicable operating temperature
+        range
+      sources: []
     notes:
     - 'Note: The difference between tsp and the gas temperature has an influence on
       the value of the MPE'
+    note_paragraphs:
+    - text: 'Note: The difference between tsp and the gas temperature has an influence
+        on the value of the MPE'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

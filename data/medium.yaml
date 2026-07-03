@@ -26,6 +26,11 @@ data:
     definition: fluid that is put in the prepackage together with the product, either
       separated from, in or surrounding the product, and that is intended to be left
       over after use of the product, except for items naturally in the product
+    definition_paragraphs:
+    - text: fluid that is put in the prepackage together with the product, either
+        separated from, in or surrounding the product, and that is intended to be
+        left over after use of the product, except for items naturally in the product
+      sources: []
     notes:
     - For the purpose of this Recommendation a fluid includes either a liquid, semi-liquid
       or frozen liquids, ora gas or a mixture of gasses, whether under positive, negative
@@ -38,7 +43,26 @@ data:
       CODEX STAN 1-1985 "Labelling of prepackaged foods" which covers foods on which
       the drained mass must be marked, and the ice-glaze as specified in CODEX standards
       on ice-glazed foods.
+    note_paragraphs:
+    - text: For the purpose of this Recommendation a fluid includes either a liquid,
+        semi-liquid or frozen liquids, ora gas or a mixture of gasses, whether under
+        positive, negative or atmospheric pressure, or a combination of both a) and
+        b).
+      sources: []
+    - text: The term "use" includes consumption.
+      sources: []
+    - text: A medium is sometimes also referred to as a "liquid packing medium".
+      sources: []
+    - text: A medium can be separated from the product and other solid items that
+        were put in the prepackage by measuring procedures in Annex C and Annex D.
+      sources: []
+    - text: A medium also includesthe liquid mediums as specified in Clause 4.3.3
+        of the CODEX STAN 1-1985 "Labelling of prepackaged foods" which covers foods
+        on which the drained mass must be marked, and the ice-glaze as specified in
+        CODEX standards on ice-glazed foods.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -53,6 +77,11 @@ data:
     definition: fluid that is put in the prepackage together with the product, either
       separated from, in or surrounding the product, and that is intended to be left
       over after use of the product, except for items naturally in the product
+    definition_paragraphs:
+    - text: fluid that is put in the prepackage together with the product, either
+        separated from, in or surrounding the product, and that is intended to be
+        left over after use of the product, except for items naturally in the product
+      sources: []
     notes:
     - For the purpose of this Recommendation 'fluid' includes either liquid, semi-liquid
       or frozen liquids, ora gas or a mixture of gasses, whether below, at or above
@@ -65,7 +94,25 @@ data:
       STAN 1-1985 Labelling of prepackaged foods [2] which covers foods on which the
       "drained weight" must be marked, andthe ice-glaze as specified in CODEX standards
       on ice-glazed foods.
+    note_paragraphs:
+    - text: For the purpose of this Recommendation 'fluid' includes either liquid,
+        semi-liquid or frozen liquids, ora gas or a mixture of gasses, whether below,
+        at or above atmospheric pressure, or a combination of both a) and b).
+      sources: []
+    - text: The term "use" would include consumption.
+      sources: []
+    - text: A medium is sometimes also referred to as "liquid packing medium".
+      sources: []
+    - text: A medium can be separated from the product and other solid items that
+        were put in the prepackage by measuring procedures in OIML R 87 [1].
+      sources: []
+    - text: A medium also includes the liquid mediums as specified in 4.3.3 of the
+        CODEX STAN 1-1985 Labelling of prepackaged foods [2] which covers foods on
+        which the "drained weight" must be marked, andthe ice-glaze as specified in
+        CODEX standards on ice-glazed foods.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

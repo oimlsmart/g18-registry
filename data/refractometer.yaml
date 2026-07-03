@@ -30,8 +30,18 @@ data:
       by the international organizations, e.g. the International Sucrose Mass Fraction
       Scale, %mass (Brix), then the refractometer shall be accompanied by a conversion
       table for the refractive index values
+    definition_paragraphs:
+    - text: instrument for measuring the refractive index. If the refractometer is
+        provided with another scale or an additional scale calibrated in the units
+        of the fraction of soluble dry substances in aqueous solutions, which are
+        recognized by the international organizations, e.g. the International Sucrose
+        Mass Fraction Scale, %mass (Brix), then the refractometer shall be accompanied
+        by a conversion table for the refractive index values
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -47,8 +57,16 @@ data:
       If they are provided with appropriate scales, they are used to determine the
       content of sugar in liquids, in which case the relation between the mass fraction
       and the refractive index shall have been specified (see 3)
+    definition_paragraphs:
+    - text: refractometers are instruments for measuring the refractive index. If
+        they are provided with appropriate scales, they are used to determine the
+        content of sugar in liquids, in which case the relation between the mass fraction
+        and the refractive index shall have been specified (see 3)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -61,13 +79,25 @@ data:
     link:
     g18_entry: '02116'
     definition: instrument for measuring the refractive index.
+    definition_paragraphs:
+    - text: instrument for measuring the refractive index.
+      sources: []
     notes:
     - 'Note: If the refractometer is provided with another scale or an additional
       scale calibrated in the units of the fraction of soluble dry substances in aqueous
       solutions, which are recognized by the international organizations, e.g. the
       International Sucrose Mass Fraction Scale, %mass (Brix), then the refractometer
       shall be accompanied by a conversion table for the refractive index values'
+    note_paragraphs:
+    - text: 'Note: If the refractometer is provided with another scale or an additional
+        scale calibrated in the units of the fraction of soluble dry substances in
+        aqueous solutions, which are recognized by the international organizations,
+        e.g. the International Sucrose Mass Fraction Scale, %mass (Brix), then the
+        refractometer shall be accompanied by a conversion table for the refractive
+        index values'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -83,8 +113,16 @@ data:
       If they are provided with appropriate scales, they are used to determine the
       content of sugar in liquids, in which case the relation between the mass fraction
       and the refractive index shall have been specified (see 3)
+    definition_paragraphs:
+    - text: refractometers are instruments for measuring the refractive index. If
+        they are provided with appropriate scales, they are used to determine the
+        content of sugar in liquids, in which case the relation between the mass fraction
+        and the refractive index shall have been specified (see 3)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

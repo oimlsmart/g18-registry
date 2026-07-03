@@ -24,6 +24,15 @@ data:
     link:
     g18_entry: '02447'
     definition: measured quantity value minus a reference quantity value
+    definition_paragraphs:
+    - text: measured quantity value minus a reference quantity value
+      sources:
+      - kind: vim
+        relationship: identical
+        modification:
+        ref_source: OIML V 2-200:2012
+        ref_id: '2.16'
+        is_vimline: true
     notes:
     - The concept of 'measurement error' can be used both when there is a single reference
       quantity value to refer to, which occurs if a calibration is made by means of
@@ -34,7 +43,21 @@ data:
       to be represented by a unique true quantity value or a set of true quality values
       of negligible range, in which case the measurement error is not known.
     - Measurement error should not be confused with production error or mistake.
+    note_paragraphs:
+    - text: The concept of 'measurement error' can be used both when there is a single
+        reference quantity value to refer to, which occurs if a calibration is made
+        by means of a measurement standard with a measured quantity value having a
+        negligible measurement uncertainty or if a conventional quantity value is
+        given, in which case the measurement error is known, and true quantity values
+        of negligible range, in which case the measurement error is not known, and
+        if a measurand is supposed to be represented by a unique true quantity value
+        or a set of true quality values of negligible range, in which case the measurement
+        error is not known.
+      sources: []
+    - text: Measurement error should not be confused with production error or mistake.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: vim
       relationship: identical

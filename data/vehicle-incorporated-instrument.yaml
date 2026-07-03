@@ -27,10 +27,20 @@ data:
     definition: "(l instrument where components of the vehicle which are also components
       of the weighing instrument, i.e. parts of the vehicle evers, joints and/or force
       transmission) are used for the instrument"
+    definition_paragraphs:
+    - text: "(l instrument where components of the vehicle which are also components
+        of the weighing instrument, i.e. parts of the vehicle evers, joints and/or
+        force transmission) are used for the instrument"
+      sources: []
     notes:
     - For example, a front-end loader (front-end loading vehicle) that determines
       the quantity of loose material held in the bucket (load receptor).
+    note_paragraphs:
+    - text: For example, a front-end loader (front-end loading vehicle) that determines
+        the quantity of loose material held in the bucket (load receptor).
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -47,8 +57,17 @@ data:
       force transmission) are used for the instrument For example, a front-end loader
       (front-end loading vehicle) that determines the quantity of loose material held
       in the bucket (load receptor).
+    definition_paragraphs:
+    - text: instrument where components of the vehicle which are also components of
+        the weighing instrument, i.e. parts of the vehicle (levers, joints and/or
+        force transmission) are used for the instrument For example, a front-end loader
+        (front-end loading vehicle) that determines the quantity of loose material
+        held in the bucket (load receptor).
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

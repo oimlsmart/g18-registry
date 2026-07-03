@@ -27,8 +27,15 @@ data:
     definition: storage on the instrument or external storage device used for keeping
       measurement data ready after completion of the measurement for subsequent legally
       relevant purposes
+    definition_paragraphs:
+    - text: storage on the instrument or external storage device used for keeping
+        measurement data ready after completion of the measurement for subsequent
+        legally relevant purposes
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -42,8 +49,14 @@ data:
     g18_entry: '01353'
     definition: storage device used for keeping weighing data ready after completion
       of the weighing for later legally relevant purposes
+    definition_paragraphs:
+    - text: storage device used for keeping weighing data ready after completion of
+        the weighing for later legally relevant purposes
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -58,8 +71,14 @@ data:
     definition: "( internal memory storage of the instrument or external removable)
       storage device used for keeping measurement data ready after completion of the
       measurement"
+    definition_paragraphs:
+    - text: "( internal memory storage of the instrument or external removable) storage
+        device used for keeping measurement data ready after completion of the measurement"
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -73,8 +92,14 @@ data:
     g18_entry: '03657'
     definition: storage device used for keeping weighing data ready after completion
       of the measurement for subsequent indication, data transfer, totalizing, etc.
+    definition_paragraphs:
+    - text: storage device used for keeping weighing data ready after completion of
+        the measurement for subsequent indication, data transfer, totalizing, etc.
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -88,8 +113,14 @@ data:
     g18_entry: '02559'
     definition: storage device used for keeping weighing data ready after completion
       of the measurement for subsequent indication, data transfer, totalizing, etc.
+    definition_paragraphs:
+    - text: storage device used for keeping weighing data ready after completion of
+        the measurement for subsequent indication, data transfer, totalizing, etc.
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -104,8 +135,15 @@ data:
     definition: storage device used for keeping measurement data ready after completion
       of the measurement for later legally relevant purposes (e.g. the conclusion
       of commercial transaction)
+    definition_paragraphs:
+    - text: storage device used for keeping measurement data ready after completion
+        of the measurement for later legally relevant purposes (e.g. the conclusion
+        of commercial transaction)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -119,8 +157,14 @@ data:
     g18_entry: '01353'
     definition: storage device used for keeping weighing data ready after completion
       of the weighing for later legally relevant purposes
+    definition_paragraphs:
+    - text: storage device used for keeping weighing data ready after completion of
+        the weighing for later legally relevant purposes
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -135,8 +179,15 @@ data:
     definition: storage on the instrument or external storage device used for keeping
       measurement data ready after completion of the measurement for subsequent legally
       relevant purposes
+    definition_paragraphs:
+    - text: storage on the instrument or external storage device used for keeping
+        measurement data ready after completion of the measurement for subsequent
+        legally relevant purposes
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -151,8 +202,14 @@ data:
     definition: internal memory storage of the instrument or external (removable)
       storage device used for keeping measurement data ready after completion of the
       measurement
+    definition_paragraphs:
+    - text: internal memory storage of the instrument or external (removable) storage
+        device used for keeping measurement data ready after completion of the measurement
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

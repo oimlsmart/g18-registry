@@ -31,8 +31,14 @@ data:
     g18_entry: '00723'
     definition: number of load cell verification intervals into which the load cell
       measuring range is divided
+    definition_paragraphs:
+    - text: number of load cell verification intervals into which the load cell measuring
+        range is divided
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

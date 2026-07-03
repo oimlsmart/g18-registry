@@ -25,8 +25,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r060-e00.pdf
     g18_entry: '00743'
     definition: change in minimum dead load output due to a change in ambient temperature
+    definition_paragraphs:
+    - text: change in minimum dead load output due to a change in ambient temperature
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -40,8 +45,14 @@ data:
     g18_entry: '03555'
     definition: change of the signal output under minimum dead load due to a change
       in ambient temperature
+    definition_paragraphs:
+    - text: change of the signal output under minimum dead load due to a change in
+        ambient temperature
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

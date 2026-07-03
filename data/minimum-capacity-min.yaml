@@ -25,8 +25,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r107-1-e07.pdf
     g18_entry: '01363'
     definition: smallest discrete load that can be weighed automatically
+    definition_paragraphs:
+    - text: smallest discrete load that can be weighed automatically
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -40,8 +45,14 @@ data:
     g18_entry: '00624'
     definition: value of the load below which the weighing result may be subject to
       an excessive relative error
+    definition_paragraphs:
+    - text: value of the load below which the weighing result may be subject to an
+        excessive relative error
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -54,8 +65,13 @@ data:
     link:
     g18_entry: '03404'
     definition: minimum force that the force receptor is intended to measure
+    definition_paragraphs:
+    - text: minimum force that the force receptor is intended to measure
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -69,10 +85,19 @@ data:
     g18_entry: '03301'
     definition: smallest discrete load that can be weighed automatically on t a load
       receptor of the AGFI
+    definition_paragraphs:
+    - text: smallest discrete load that can be weighed automatically on t a load receptor
+        of the AGFI
+      sources: []
     notes:
     - 'Note: For AGFIs which accomplish the fill by one weighing cycle the minimum
       capacity, Min, is equal to the rated minimum fill, Minfill.'
+    note_paragraphs:
+    - text: 'Note: For AGFIs which accomplish the fill by one weighing cycle the minimum
+        capacity, Min, is equal to the rated minimum fill, Minfill.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -86,8 +111,14 @@ data:
     g18_entry: '02585'
     definition: mass value below which a weighing-in-motion result before totalizing
       may be subject to an excessive relative error
+    definition_paragraphs:
+    - text: mass value below which a weighing-in-motion result before totalizing may
+        be subject to an excessive relative error
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -100,8 +131,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r107-1-e07.pdf
     g18_entry: '01363'
     definition: smallest discrete load that can be weighed automatically
+    definition_paragraphs:
+    - text: smallest discrete load that can be weighed automatically
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -115,8 +151,14 @@ data:
     g18_entry: '00624'
     definition: value of the load below which the weighing result may be subject to
       an excessive relative error
+    definition_paragraphs:
+    - text: value of the load below which the weighing result may be subject to an
+        excessive relative error
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

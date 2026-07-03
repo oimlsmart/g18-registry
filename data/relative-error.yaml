@@ -45,8 +45,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r143-e09.pdf
     g18_entry: '02142'
     definition: error of measurement divided by the reference value of the measurand
+    definition_paragraphs:
+    - text: error of measurement divided by the reference value of the measurand
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -60,8 +65,14 @@ data:
     g18_entry: '02352'
     definition: error of measurement divided by the conventional true quantity value
       of the measurand
+    definition_paragraphs:
+    - text: error of measurement divided by the conventional true quantity value of
+        the measurand
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -74,8 +85,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r117-1-e07.pdf
     g18_entry: '01560'
     definition: error (of indication) divided by the reference (true) quantity
+    definition_paragraphs:
+    - text: error (of indication) divided by the reference (true) quantity
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -89,8 +105,14 @@ data:
     g18_entry: '02012'
     definition: absolute error of measurement divided by the (conventional) true value
       of the measurand
+    definition_paragraphs:
+    - text: absolute error of measurement divided by the (conventional) true value
+        of the measurand
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -103,8 +125,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r140-e07.pdf
     g18_entry: '02071'
     definition: error of measurement divided by a true value of the measurand
+    definition_paragraphs:
+    - text: error of measurement divided by a true value of the measurand
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -119,8 +146,21 @@ data:
     definition: error of measurement divided by a true value of the measurand. The
       error is expressed as a percentage, and is calculated by stem:[e = (Y_{i} -
       Y_{"ref"}) / Y_{"ref"} xx 100%]
+    definition_paragraphs:
+    - text: error of measurement divided by a true value of the measurand. The error
+        is expressed as a percentage, and is calculated by stem:[e = (Y_{i} - Y_{"ref"})
+        / Y_{"ref"} xx 100%]
+      sources:
+      - kind: vim
+        relationship: identical
+        modification:
+        ref_source: OIML V 2-200:1993
+        ref_id: '3.12'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: vim
       relationship: identical
@@ -140,8 +180,14 @@ data:
     g18_entry: '01639'
     definition: The absolute error of measurement divided by the conventional true
       value of the measurand (VIM:1993, 3.12)
+    definition_paragraphs:
+    - text: The absolute error of measurement divided by the conventional true value
+        of the measurand (VIM:1993, 3.12)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -159,8 +205,13 @@ data:
     link:
     g18_entry: '03452'
     definition: error (of indication) divided by the reference (true) quantity
+    definition_paragraphs:
+    - text: error (of indication) divided by the reference (true) quantity
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -174,8 +225,13 @@ data:
     g18_entry: '02770'
     definition: absolute error of measurement divided by the reference value of the
       measurand
+    definition_paragraphs:
+    - text: absolute error of measurement divided by the reference value of the measurand
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -189,8 +245,14 @@ data:
     g18_entry: '02353'
     definition: error of measurement divided by the conventional true quantity value
       of the measurand
+    definition_paragraphs:
+    - text: error of measurement divided by the conventional true quantity value of
+        the measurand
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -203,8 +265,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r140-e07.pdf
     g18_entry: '02071'
     definition: error of measurement divided by a true value of the measurand
+    definition_paragraphs:
+    - text: error of measurement divided by a true value of the measurand
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -218,8 +285,14 @@ data:
     g18_entry: '01639'
     definition: The absolute error of measurement divided by the conventional true
       value of the measurand (VIM:1993, 3.12)
+    definition_paragraphs:
+    - text: The absolute error of measurement divided by the conventional true value
+        of the measurand (VIM:1993, 3.12)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -232,8 +305,13 @@ data:
     link:
     g18_entry: '02142'
     definition: error of measurement divided by the reference value of the measurand
+    definition_paragraphs:
+    - text: error of measurement divided by the reference value of the measurand
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

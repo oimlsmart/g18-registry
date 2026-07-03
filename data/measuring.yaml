@@ -26,8 +26,14 @@ data:
     g18_entry: '01880'
     definition: set of operations, performed manually, semi-automatically or automatically,
       having the object of determining a value of a quantity
+    definition_paragraphs:
+    - text: set of operations, performed manually, semi-automatically or automatically,
+        having the object of determining a value of a quantity
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '01880'
     definition: set of operations, performed manually, semi-automatically or automatically,
       having the object of determining a value of a quantity
+    definition_paragraphs:
+    - text: set of operations, performed manually, semi-automatically or automatically,
+        having the object of determining a value of a quantity
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

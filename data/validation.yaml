@@ -38,9 +38,20 @@ data:
       measurement, test, etc.) that the particular requirements for the specific intended
       use are fulfilled. In the present case the related requirements are those of
       this Document'
+    definition_paragraphs:
+    - text: 'confirmation by examination and provision of objective evidence (i.e.
+        information that can be proved true, based on facts 4: obtained from observations,
+        measurement, test, etc.) that the particular requirements for the specific
+        intended use are fulfilled. In the present case the related requirements are
+        those of this Document'
+      sources: []
     notes:
     - "[derived from ISO/IEC 14598 and IEC 61508- 1998]"
+    note_paragraphs:
+    - text: "[derived from ISO/IEC 14598 and IEC 61508- 1998]"
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -60,10 +71,20 @@ data:
     definition: confirmation, through the provision of objective evidence, that the
       requirements for a specific intended use or application have been fulfilled
       [ISO 9000:2000, 3.8.5]
+    definition_paragraphs:
+    - text: confirmation, through the provision of objective evidence, that the requirements
+        for a specific intended use or application have been fulfilled [ISO 9000:2000,
+        3.8.5]
+      sources: []
     notes:
     - (1) The term "validated" is used to designate the corresponding status. (2)
       The use conditions for validation can be real or simulated.
+    note_paragraphs:
+    - text: (1) The term "validated" is used to designate the corresponding status.
+        (2) The use conditions for validation can be real or simulated.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -83,10 +104,21 @@ data:
     definition: confirmation, through the provision of objective evidence, that the
       requirements for a specific intended use or application have been fulfilled
       [ISO 9000:2000, 3.8.5]
+    definition_paragraphs:
+    - text: confirmation, through the provision of objective evidence, that the requirements
+        for a specific intended use or application have been fulfilled [ISO 9000:2000,
+        3.8.5]
+      sources: []
     notes:
     - The term "validated" is used to designate the corresponding status.
     - The use conditions for validation can be real or simulated.
+    note_paragraphs:
+    - text: The term "validated" is used to designate the corresponding status.
+      sources: []
+    - text: The use conditions for validation can be real or simulated.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -25,8 +25,14 @@ data:
     g18_entry: '00999'
     definition: any package intended solely for industrial or institutional use or
       for wholesale distribution
+    definition_paragraphs:
+    - text: any package intended solely for industrial or institutional use or for
+        wholesale distribution
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

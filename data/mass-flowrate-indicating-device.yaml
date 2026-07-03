@@ -26,8 +26,15 @@ data:
     definition: device that indicates the instantaneous flowrate either as the mass
       of the product conveyed in unit of time or as a percentage of the maximum mass
       flowrate
+    definition_paragraphs:
+    - text: device that indicates the instantaneous flowrate either as the mass of
+        the product conveyed in unit of time or as a percentage of the maximum mass
+        flowrate
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

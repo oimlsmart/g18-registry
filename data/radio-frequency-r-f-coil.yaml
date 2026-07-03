@@ -26,11 +26,21 @@ data:
     g18_entry: '01516'
     definition: tube, wound around the outer quartz tube of the torch, through which
       the r.f. energy is transmitted to the argon
+    definition_paragraphs:
+    - text: tube, wound around the outer quartz tube of the torch, through which the
+        r.f. energy is transmitted to the argon
+      sources: []
     notes:
     - This coil is generally water-cooled, consists of 3 or 4 turns, and is constructed
       of a copper tube that may be plated with silver or gold and is also known as
       the load coil.
+    note_paragraphs:
+    - text: This coil is generally water-cooled, consists of 3 or 4 turns, and is
+        constructed of a copper tube that may be plated with silver or gold and is
+        also known as the load coil.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -44,11 +54,21 @@ data:
     g18_entry: '01516'
     definition: tube, wound around the outer quartz tube of the torch, through which
       the r.f. energy is transmitted to the argon
+    definition_paragraphs:
+    - text: tube, wound around the outer quartz tube of the torch, through which the
+        r.f. energy is transmitted to the argon
+      sources: []
     notes:
     - 'Note: This coil is generally water-cooled, consists of 3 or 4 turns, and is
       constructed of a copper tube that may be plated with silver or gold and is also
       known as the load coil'
+    note_paragraphs:
+    - text: 'Note: This coil is generally water-cooled, consists of 3 or 4 turns,
+        and is constructed of a copper tube that may be plated with silver or gold
+        and is also known as the load coil'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -25,8 +25,14 @@ data:
     g18_entry: '03701'
     definition: software on remote unit used fot the purpose of verification of measuring
       instrument
+    definition_paragraphs:
+    - text: software on remote unit used fot the purpose of verification of measuring
+        instrument
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

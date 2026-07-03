@@ -24,8 +24,13 @@ data:
     link:
     g18_entry: '03748'
     definition: point on the road at which passing vehicles are detected
+    definition_paragraphs:
+    - text: point on the road at which passing vehicles are detected
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

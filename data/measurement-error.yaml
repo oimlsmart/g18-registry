@@ -24,8 +24,19 @@ data:
     link:
     g18_entry: '02218'
     definition: measured quantity value minus a reference quantity value
+    definition_paragraphs:
+    - text: measured quantity value minus a reference quantity value
+      sources:
+      - kind: vim
+        relationship: identical
+        modification:
+        ref_source: OIML V 2-200:2012
+        ref_id: '2.16'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: vim
       relationship: identical

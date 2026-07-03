@@ -32,12 +32,26 @@ data:
     definition: function proportional to the product of the relative spectral distribution
       of the radiant energy, the relative spectral transmittance of all optical parts
       and the relative spectral sensitivity of the detector
+    definition_paragraphs:
+    - text: function proportional to the product of the relative spectral distribution
+        of the radiant energy, the relative spectral transmittance of all optical
+        parts and the relative spectral sensitivity of the detector
+      sources: []
     notes:
     - 1. Adapted from [5], clause
     - '5.'
     - 2. The relative instrumental spectral function generally has different values
       for each particular wavelength.
+    note_paragraphs:
+    - text: 1. Adapted from [5], clause
+      sources: []
+    - text: '5.'
+      sources: []
+    - text: 2. The relative instrumental spectral function generally has different
+        values for each particular wavelength.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

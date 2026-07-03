@@ -32,6 +32,10 @@ data:
     g18_entry: '01857'
     definition: fraction of the absorbance of the solution on which the measurement
       is made due to a specified component
+    definition_paragraphs:
+    - text: fraction of the absorbance of the solution on which the measurement is
+        made due to a specified component
+      sources: []
     notes:
     - 1. The characteristic partial internal absorbance has the dimension one and
       is expressed with the derived coherent SI unit one (1).
@@ -39,7 +43,19 @@ data:
       for. Conditions for validity: see 2.'
     - '9.'
     - 3. Adapted from ISO 6286, Table 2, Nos. 19 and 20.
+    note_paragraphs:
+    - text: 1. The characteristic partial internal absorbance has the dimension one
+        and is expressed with the derived coherent SI unit one (1).
+      sources: []
+    - text: '2. The absorbance of the optical cell containing this solution is corrected
+        for. Conditions for validity: see 2.'
+      sources: []
+    - text: '9.'
+      sources: []
+    - text: 3. Adapted from ISO 6286, Table 2, Nos. 19 and 20.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -53,12 +69,23 @@ data:
     g18_entry: '01857'
     definition: fraction of the absorbance of the solution on which the measurement
       is made due to a specified component
+    definition_paragraphs:
+    - text: fraction of the absorbance of the solution on which the measurement is
+        made due to a specified component
+      sources: []
     notes:
     - 'Note: The characteristic partial internal absorbance has the dimension one
       and is expressed with the derived coherent SI unit one (1). The absorbance of
       the optical cell containing this solution is corrected for. Conditions for validity:
       see 2.9. Adapted from ISO 6286, Table 2, Nos. 19 and 20.'
+    note_paragraphs:
+    - text: 'Note: The characteristic partial internal absorbance has the dimension
+        one and is expressed with the derived coherent SI unit one (1). The absorbance
+        of the optical cell containing this solution is corrected for. Conditions
+        for validity: see 2.9. Adapted from ISO 6286, Table 2, Nos. 19 and 20.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

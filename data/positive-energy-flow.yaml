@@ -24,8 +24,13 @@ data:
     link:
     g18_entry: 02336-R046-1
     definition: direction of energy flow towards the consumer
+    definition_paragraphs:
+    - text: direction of energy flow towards the consumer
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

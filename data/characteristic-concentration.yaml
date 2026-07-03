@@ -32,9 +32,18 @@ data:
     definition: the concentration/mass of the element being determined needed to produce
       a signal of 0.0044 absorbance which is equivalent to a 1 % decrease in transmitted
       radiation
+    definition_paragraphs:
+    - text: the concentration/mass of the element being determined needed to produce
+        a signal of 0.0044 absorbance which is equivalent to a 1 % decrease in transmitted
+        radiation
+      sources: []
     notes:
     - Sensitivity has historically been used for this term.
+    note_paragraphs:
+    - text: Sensitivity has historically been used for this term.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

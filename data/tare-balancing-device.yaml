@@ -26,8 +26,14 @@ data:
     g18_entry: '00618'
     definition: tare device without indication of the tare value (T.3.2.3) when the
       instrument is loaded
+    definition_paragraphs:
+    - text: tare device without indication of the tare value (T.3.2.3) when the instrument
+        is loaded
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '00926'
     definition: tare device without indication of the tare value when the instrument
       is loaded
+    definition_paragraphs:
+    - text: tare device without indication of the tare value when the instrument is
+        loaded
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -56,8 +68,14 @@ data:
     g18_entry: '00618'
     definition: tare device without indication of the tare value (T.3.2.3) when the
       instrument is loaded
+    definition_paragraphs:
+    - text: tare device without indication of the tare value (T.3.2.3) when the instrument
+        is loaded
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -71,8 +89,14 @@ data:
     g18_entry: '00926'
     definition: tare device without indication of the tare value when the instrument
       is loaded
+    definition_paragraphs:
+    - text: tare device without indication of the tare value when the instrument is
+        loaded
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

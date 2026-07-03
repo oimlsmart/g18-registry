@@ -26,8 +26,14 @@ data:
     g18_entry: '00709'
     definition: symbol assigned to a load cell that indicates the conditions of humidity
       under which the load cell has been tested
+    definition_paragraphs:
+    - text: symbol assigned to a load cell that indicates the conditions of humidity
+        under which the load cell has been tested
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '03098'
     definition: symbol assigned to a load cell that indicates the conditions of humidity
       under which the load cell has been tested
+    definition_paragraphs:
+    - text: symbol assigned to a load cell that indicates the conditions of humidity
+        under which the load cell has been tested
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

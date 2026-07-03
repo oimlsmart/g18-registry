@@ -26,9 +26,17 @@ data:
     g18_entry: '01374'
     definition: "[V value of a quantity provided by a measuring instrument IM: 1993,
       3.2]"
+    definition_paragraphs:
+    - text: "[V value of a quantity provided by a measuring instrument IM: 1993, 3.2]"
+      sources: []
     notes:
     - '"Indication", "indicate" or "indicating" include both displaying, and/or printing.'
+    note_paragraphs:
+    - text: '"Indication", "indicate" or "indicating" include both displaying, and/or
+        printing.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -42,10 +50,18 @@ data:
     g18_entry: '01374'
     definition: 'value of a quantity provided by a measuring instrument [VIM: 1993,
       3.2]'
+    definition_paragraphs:
+    - text: 'value of a quantity provided by a measuring instrument [VIM: 1993, 3.2]'
+      sources: []
     notes:
     - 'Note: “Indication”, “indicate” or “indicating” include both displaying, and/or
       printing.'
+    note_paragraphs:
+    - text: 'Note: “Indication”, “indicate” or “indicating” include both displaying,
+        and/or printing.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

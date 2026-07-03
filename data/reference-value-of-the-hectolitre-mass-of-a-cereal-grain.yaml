@@ -25,8 +25,14 @@ data:
     g18_entry: '00305'
     definition: the 'reference value' of the hectolitre mass of a cereal grain is
       that obtained by making the measurement with a national Standard Instrument
+    definition_paragraphs:
+    - text: the 'reference value' of the hectolitre mass of a cereal grain is that
+        obtained by making the measurement with a national Standard Instrument
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

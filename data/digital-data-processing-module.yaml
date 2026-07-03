@@ -25,8 +25,14 @@ data:
     g18_entry: '02547'
     definition: module that further processes the data, and supplies the weighing
       result in a digital format via a digital interface without displaying it
+    definition_paragraphs:
+    - text: module that further processes the data, and supplies the weighing result
+        in a digital format via a digital interface without displaying it
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

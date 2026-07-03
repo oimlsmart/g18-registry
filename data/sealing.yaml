@@ -27,8 +27,15 @@ data:
     definition: means intended to protect the measuring instrument against any unauthorized
       modification, readjustment, removal of parts, software, etc. It can be achieved
       by hardware, software or a combination of both
+    definition_paragraphs:
+    - text: means intended to protect the measuring instrument against any unauthorized
+        modification, readjustment, removal of parts, software, etc. It can be achieved
+        by hardware, software or a combination of both
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -42,9 +49,24 @@ data:
     g18_entry: '03473'
     definition: means intended to protect the measuring instrument against any modification,
       readjustment, removal of parts, software, etc.
+    definition_paragraphs:
+    - text: means intended to protect the measuring instrument against any modification,
+        readjustment, removal of parts, software, etc.
+      sources:
+      - kind: viml
+        relationship: modified
+        modification:
+        ref_source: OIML V 1:2022
+        ref_id: '2.20'
+        is_vimline: true
     notes:
     - 'Note: This may be achieved by hardware, software or a combination of both.'
+    note_paragraphs:
+    - text: 'Note: This may be achieved by hardware, software or a combination of
+        both.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: modified
@@ -64,9 +86,23 @@ data:
     g18_entry: '03474'
     definition: means intended to protect the measuring instrument against any unauthorized
       modification, readjustment, removal of parts, software, etc.
+    definition_paragraphs:
+    - text: means intended to protect the measuring instrument against any unauthorized
+        modification, readjustment, removal of parts, software, etc.
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2013
+        ref_id: '2.20'
+        is_vimline: true
     notes:
     - "(For notes, refer to her VIML)"
+    note_paragraphs:
+    - text: "(For notes, refer to her VIML)"
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical
@@ -86,9 +122,18 @@ data:
     g18_entry: '03492'
     definition: means intended to protect the measuring instrument against any unauthorized
       modification, readjustment, removal of parts, software, etc. (OIML V 1, 2.20)
+    definition_paragraphs:
+    - text: means intended to protect the measuring instrument against any unauthorized
+        modification, readjustment, removal of parts, software, etc. (OIML V 1, 2.20)
+      sources: []
     notes:
     - 'Note: This may be achieved by hardware, software or a combination of both.'
+    note_paragraphs:
+    - text: 'Note: This may be achieved by hardware, software or a combination of
+        both.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -27,8 +27,15 @@ data:
     definition: specified set of values of the flow rate, the return temperature and
       the temperature difference, fixed to ensure valid intercomparison of the results
       of measurements
+    definition_paragraphs:
+    - text: specified set of values of the flow rate, the return temperature and the
+        temperature difference, fixed to ensure valid intercomparison of the results
+        of measurements
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -43,8 +50,15 @@ data:
     definition: specified set of values of the flow rate, the return temperature and
       the temperature difference, fixed to ensure valid intercomparison of the results
       of measurements
+    definition_paragraphs:
+    - text: specified set of values of the flow rate, the return temperature and the
+        temperature difference, fixed to ensure valid intercomparison of the results
+        of measurements
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

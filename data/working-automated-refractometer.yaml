@@ -25,12 +25,23 @@ data:
     g18_entry: '02117'
     definition: instrument in which the test sample is supplied manually or automatically
       to the device in the continuous mode, depending on the technological process
+    definition_paragraphs:
+    - text: instrument in which the test sample is supplied manually or automatically
+        to the device in the continuous mode, depending on the technological process
+      sources: []
     notes:
     - A working automated refractometer may be equipped with a built-in microprocessor
       displaying the measurement data. It may also be connected to one or several
       secondary indicating devices, printing units and other auxiliary devices, including
       a universal computer.
+    note_paragraphs:
+    - text: A working automated refractometer may be equipped with a built-in microprocessor
+        displaying the measurement data. It may also be connected to one or several
+        secondary indicating devices, printing units and other auxiliary devices,
+        including a universal computer.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

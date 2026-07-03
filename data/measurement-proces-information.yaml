@@ -25,10 +25,19 @@ data:
     g18_entry: '03257'
     definition: set of values of qualitative or quantitative variables representing
       the measurement process
+    definition_paragraphs:
+    - text: set of values of qualitative or quantitative variables representing the
+        measurement process
+      sources: []
     notes:
     - 'Note: Measurement proces information includes measurement proces data and measurement
       process metadata, see Annex C.'
+    note_paragraphs:
+    - text: 'Note: Measurement proces information includes measurement proces data
+        and measurement process metadata, see Annex C.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

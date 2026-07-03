@@ -31,8 +31,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r080-1-e09.pdf
     g18_entry: '02297'
     definition: automatic checking facility that operates at each measurement cycle
+    definition_paragraphs:
+    - text: automatic checking facility that operates at each measurement cycle
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -45,8 +50,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r085-1-e08.pdf
     g18_entry: '02310'
     definition: automatic checking facility that operates at each measurement cycle
+    definition_paragraphs:
+    - text: automatic checking facility that operates at each measurement cycle
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -59,9 +69,16 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r099-1-e08.pdf
     g18_entry: '02364'
     definition: automatic checking facility operating during each measurement cycle
+    definition_paragraphs:
+    - text: automatic checking facility operating during each measurement cycle
+      sources: []
     notes:
     - Adapted from OIML D 11:2004, 3.18.1.1
+    note_paragraphs:
+    - text: Adapted from OIML D 11:2004, 3.18.1.1
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -75,8 +92,13 @@ data:
     g18_entry: '01542'
     definition: automatic checking facility operating during the entire measurement
       operation
+    definition_paragraphs:
+    - text: automatic checking facility operating during the entire measurement operation
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -90,8 +112,13 @@ data:
     g18_entry: '02036'
     definition: automatic checking facility operating during the entire measurement
       operation
+    definition_paragraphs:
+    - text: automatic checking facility operating during the entire measurement operation
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -105,8 +132,14 @@ data:
     g18_entry: '02102'
     definition: automatic checking facility operating continuously during the entire
       measurement operation
+    definition_paragraphs:
+    - text: automatic checking facility operating continuously during the entire measurement
+        operation
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -120,8 +153,13 @@ data:
     g18_entry: '00462'
     definition: automatic checking facility operating during the entire measurement
       operation
+    definition_paragraphs:
+    - text: automatic checking facility operating during the entire measurement operation
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -134,8 +172,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_D/d011-e04.pdf
     g18_entry: '00245'
     definition: automatic checking facility that operates at each measurement cycle
+    definition_paragraphs:
+    - text: automatic checking facility that operates at each measurement cycle
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -151,8 +194,16 @@ data:
       from OIML D 11, 3.18 and 3.18.1] significant faults to be detected and acted
       upon and which operates on each measurement cycle without the intervention of
       the operator
+    definition_paragraphs:
+    - text: facility incorporated in a measuring instrument which enables [Adapted
+        from OIML D 11, 3.18 and 3.18.1] significant faults to be detected and acted
+        upon and which operates on each measurement cycle without the intervention
+        of the operator
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -166,8 +217,14 @@ data:
     g18_entry: '01038'
     definition: an automatic checking facility that operates during the entire measurement
       operation
+    definition_paragraphs:
+    - text: an automatic checking facility that operates during the entire measurement
+        operation
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -180,8 +237,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r125-e98.pdf
     g18_entry: '01655'
     definition: an automatic checking facility operating at each measurement cycle
+    definition_paragraphs:
+    - text: an automatic checking facility operating at each measurement cycle
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -195,8 +257,13 @@ data:
     g18_entry: '01248'
     definition: an automatic checking facility operating during all the measurement
       operation
+    definition_paragraphs:
+    - text: an automatic checking facility operating during all the measurement operation
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -209,8 +276,19 @@ data:
     link:
     g18_entry: '03364'
     definition: automatic checking facility that operates at each measurement cycle
+    definition_paragraphs:
+    - text: automatic checking facility that operates at each measurement cycle
+      sources:
+      - kind: other
+        relationship: identical
+        modification:
+        ref_source: OIML D011:2013
+        ref_id: 3.19.1.1
+        is_vimline: false
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -224,8 +302,14 @@ data:
     g18_entry: '03409'
     definition: automatic checking facility that operates at each measurement cycle
       (OIML D 11, 3.19.1.1)
+    definition_paragraphs:
+    - text: automatic checking facility that operates at each measurement cycle (OIML
+        D 11, 3.19.1.1)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -239,8 +323,13 @@ data:
     g18_entry: '03366'
     definition: automatic checking facility operating during the entire measurement
       operation
+    definition_paragraphs:
+    - text: automatic checking facility operating during the entire measurement operation
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -253,8 +342,13 @@ data:
     link:
     g18_entry: 02237-D011
     definition: automatic checking facility that operates at each measurement cycle
+    definition_paragraphs:
+    - text: automatic checking facility that operates at each measurement cycle
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -270,8 +364,16 @@ data:
       faults to be detected and acted upon and which operates on each measurement
       cycle without the intervention of the operator [adapted from OIML D 11, 3.18
       and 3.18.1]
+    definition_paragraphs:
+    - text: facility incorporated in a measuring instrument which enables significant
+        faults to be detected and acted upon and which operates on each measurement
+        cycle without the intervention of the operator [adapted from OIML D 11, 3.18
+        and 3.18.1]
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -284,8 +386,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r125-e98.pdf
     g18_entry: '01655'
     definition: an automatic checking facility operating at each measurement cycle
+    definition_paragraphs:
+    - text: an automatic checking facility operating at each measurement cycle
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -299,8 +406,14 @@ data:
     g18_entry: '01038'
     definition: an automatic checking facility that operates during the entire measurement
       operation
+    definition_paragraphs:
+    - text: an automatic checking facility that operates during the entire measurement
+        operation
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

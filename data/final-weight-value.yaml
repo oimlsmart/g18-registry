@@ -27,9 +27,19 @@ data:
     definition: weight value that is achieved when an automatic operation is ended
       and the instrument is completely at rest and balanced, with no disturbances
       affecting the indication
+    definition_paragraphs:
+    - text: weight value that is achieved when an automatic operation is ended and
+        the instrument is completely at rest and balanced, with no disturbances affecting
+        the indication
+      sources: []
     notes:
     - This definition is only applicable to static weighing and not to dynamic weighing.
+    note_paragraphs:
+    - text: This definition is only applicable to static weighing and not to dynamic
+        weighing.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -43,8 +53,14 @@ data:
     g18_entry: '00633'
     definition: weight value that is achieved when the instrument is completely atrest
       and balanced, with no disturbances affecting the indication
+    definition_paragraphs:
+    - text: weight value that is achieved when the instrument is completely atrest
+        and balanced, with no disturbances affecting the indication
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -58,8 +74,14 @@ data:
     g18_entry: '00962'
     definition: weight value that is achieved when the instrument is completely atrest
       and balanced, with no disturbances affecting the indication
+    definition_paragraphs:
+    - text: weight value that is achieved when the instrument is completely atrest
+        and balanced, with no disturbances affecting the indication
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -74,9 +96,19 @@ data:
     definition: weight value that is achieved when the instrument is completely at
       rest and balanced, with no environmental influences or disturbances affecting
       the indication
+    definition_paragraphs:
+    - text: weight value that is achieved when the instrument is completely at rest
+        and balanced, with no environmental influences or disturbances affecting the
+        indication
+      sources: []
     notes:
     - 'Note:  This definition is only applicable to static weighing and not to weighing-in-motion.'
+    note_paragraphs:
+    - text: 'Note:  This definition is only applicable to static weighing and not
+        to weighing-in-motion.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -91,10 +123,20 @@ data:
     definition: weight value that is achieved when an automatic operation is ended
       and the instrument is completely at rest and balanced, with no disturbances
       affecting the indication
+    definition_paragraphs:
+    - text: weight value that is achieved when an automatic operation is ended and
+        the instrument is completely at rest and balanced, with no disturbances affecting
+        the indication
+      sources: []
     notes:
     - 'Note: This definition is only applicable to static weighing and not to dynamic
       weighing.'
+    note_paragraphs:
+    - text: 'Note: This definition is only applicable to static weighing and not to
+        dynamic weighing.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -108,8 +150,14 @@ data:
     g18_entry: '00633'
     definition: weight value that is achieved when the instrument is completely at
       rest and balanced, with no disturbances affecting the indication
+    definition_paragraphs:
+    - text: weight value that is achieved when the instrument is completely at rest
+        and balanced, with no disturbances affecting the indication
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -123,8 +171,14 @@ data:
     g18_entry: '00962'
     definition: weight value that is achieved when the instrument is completely at
       rest and balanced, with no disturbances affecting the indication
+    definition_paragraphs:
+    - text: weight value that is achieved when the instrument is completely at rest
+        and balanced, with no disturbances affecting the indication
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

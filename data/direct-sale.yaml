@@ -25,8 +25,14 @@ data:
     g18_entry: '01215'
     definition: a measuring transaction during which both the buyer and the seller
       (or their agents) are present when the quantity is being determined
+    definition_paragraphs:
+    - text: a measuring transaction during which both the buyer and the seller (or
+        their agents) are present when the quantity is being determined
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

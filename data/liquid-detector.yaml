@@ -28,9 +28,19 @@ data:
       tank and to check, before startup and after stopping, that all or part of the
       measuring system is either filled completely with liquid (full hose measuring
       systems) or completely empty ofliquid (empty hose measuring system)
+    definition_paragraphs:
+    - text: device intended to detect the presence of liquid in the pipework orthe
+        tank and to check, before startup and after stopping, that all or part of
+        the measuring system is either filled completely with liquid (full hose measuring
+        systems) or completely empty ofliquid (empty hose measuring system)
+      sources: []
     notes:
     - A liquid detector may also be used for high level detection.
+    note_paragraphs:
+    - text: A liquid detector may also be used for high level detection.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -46,9 +56,19 @@ data:
       the tank and to check, before startup and after stopping, that all or part of
       the measuring system is either filled completely with liquid (full hose measuring
       systems) or completely empty of liquid (empty hose measuring system)
+    definition_paragraphs:
+    - text: device intended to detect the presence of liquid in the pipework or the
+        tank and to check, before startup and after stopping, that all or part of
+        the measuring system is either filled completely with liquid (full hose measuring
+        systems) or completely empty of liquid (empty hose measuring system)
+      sources: []
     notes:
     - 'Note:  A liquid detector may also be used for highlevel detection.'
+    note_paragraphs:
+    - text: 'Note:  A liquid detector may also be used for highlevel detection.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -64,9 +84,19 @@ data:
       the tank and to check, before startup and after stopping, that all or part of
       the measuring system is either filled completely with liquid (full hose measuring
       systems) or completely empty of liquid (empty hose measuring system)
+    definition_paragraphs:
+    - text: device intended to detect the presence of liquid in the pipework or the
+        tank and to check, before startup and after stopping, that all or part of
+        the measuring system is either filled completely with liquid (full hose measuring
+        systems) or completely empty of liquid (empty hose measuring system)
+      sources: []
     notes:
     - 'Note:  A liquid detector may also be used for highlevel detection.'
+    note_paragraphs:
+    - text: 'Note:  A liquid detector may also be used for highlevel detection.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

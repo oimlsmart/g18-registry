@@ -25,8 +25,14 @@ data:
     g18_entry: '00714'
     definition: measurable quantity into which a load cell converts the measured quantity
       (mass)
+    definition_paragraphs:
+    - text: measurable quantity into which a load cell converts the measured quantity
+        (mass)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

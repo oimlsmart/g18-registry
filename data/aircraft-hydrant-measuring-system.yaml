@@ -26,8 +26,14 @@ data:
     g18_entry: '01530'
     definition: mobile measuring system intended for refuelling aircraft, supplied
       from hydrant pits
+    definition_paragraphs:
+    - text: mobile measuring system intended for refuelling aircraft, supplied from
+        hydrant pits
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '02847'
     definition: mobile measuring system intended for fueling aircraft, supplied from
       hydrant pits
+    definition_paragraphs:
+    - text: mobile measuring system intended for fueling aircraft, supplied from hydrant
+        pits
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

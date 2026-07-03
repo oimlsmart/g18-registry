@@ -25,8 +25,14 @@ data:
     g18_entry: '02581'
     definition: single-axle load of known conventional true value determined statically
       for a wagon
+    definition_paragraphs:
+    - text: single-axle load of known conventional true value determined statically
+        for a wagon
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

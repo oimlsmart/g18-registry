@@ -26,8 +26,14 @@ data:
     g18_entry: '01058'
     definition: record of the detector output signal versus time that has peaks corresponding
       to specific components of the sample
+    definition_paragraphs:
+    - text: record of the detector output signal versus time that has peaks corresponding
+        to specific components of the sample
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '01485'
     definition: a record of the detector output signal versus time that has specific
       peaks associated with measured components of a sample
+    definition_paragraphs:
+    - text: a record of the detector output signal versus time that has specific peaks
+        associated with measured components of a sample
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -56,8 +68,14 @@ data:
     g18_entry: '01501'
     definition: a record of the detector output signal versus time that has peaks
       corresponding to components of a sample
+    definition_paragraphs:
+    - text: a record of the detector output signal versus time that has peaks corresponding
+        to components of a sample
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -71,8 +89,14 @@ data:
     g18_entry: '01058'
     definition: record of the detector output signal versus time that has peaks corresponding
       to specific components of the sample
+    definition_paragraphs:
+    - text: record of the detector output signal versus time that has peaks corresponding
+        to specific components of the sample
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -86,8 +110,14 @@ data:
     g18_entry: '01485'
     definition: a record of the detector output signal versus time that has specific
       peaks associated with measured components of a sample
+    definition_paragraphs:
+    - text: a record of the detector output signal versus time that has specific peaks
+        associated with measured components of a sample
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -101,8 +131,14 @@ data:
     g18_entry: '01501'
     definition: a record of the detector output signal versus time that has peaks
       corresponding to components of a sample
+    definition_paragraphs:
+    - text: a record of the detector output signal versus time that has peaks corresponding
+        to components of a sample
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

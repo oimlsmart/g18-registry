@@ -33,8 +33,15 @@ data:
     definition: time interval between the instant of a stepwise concentration change
       of the substance (SO2) being measured and the instant at which the signal reaches
       90 % of its stable value
+    definition_paragraphs:
+    - text: time interval between the instant of a stepwise concentration change of
+        the substance (SO2) being measured and the instant at which the signal reaches
+        90 % of its stable value
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -49,8 +56,15 @@ data:
     definition: time interval between the instant when the flow, the temperature orthe
       temperature difference is subjected to a specified abrupt change, and the instant
       when the response reaches 50 % of its final steady value
+    definition_paragraphs:
+    - text: time interval between the instant when the flow, the temperature orthe
+        temperature difference is subjected to a specified abrupt change, and the
+        instant when the response reaches 50 % of its final steady value
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -65,8 +79,15 @@ data:
     definition: time interval between the instant of a stepwise concentration change
       of the component being measured (CO, NO, NO2 or NOx) and the instant at which
       the signal reaches 90 % of its stable value
+    definition_paragraphs:
+    - text: time interval between the instant of a stepwise concentration change of
+        the component being measured (CO, NO, NO2 or NOx) and the instant at which
+        the signal reaches 90 % of its stable value
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -81,8 +102,15 @@ data:
     definition: time interval between the instant of a stepwise concentration change
       of the substance (SO2) being measured and the instant at which the signal reaches
       90 % of its stable value
+    definition_paragraphs:
+    - text: time interval between the instant of a stepwise concentration change of
+        the substance (SO2) being measured and the instant at which the signal reaches
+        90 % of its stable value
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -97,8 +125,15 @@ data:
     definition: time interval between the instant when the flow, the temperature or
       the temperature difference is subjected to a specified abrupt change, and the
       instant when the response reaches 50 % of its final steady value
+    definition_paragraphs:
+    - text: time interval between the instant when the flow, the temperature or the
+        temperature difference is subjected to a specified abrupt change, and the
+        instant when the response reaches 50 % of its final steady value
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

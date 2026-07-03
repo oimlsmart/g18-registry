@@ -25,8 +25,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r016-2-e02.pdf
     g18_entry: '00332'
     definition: component that transforms pressure signals into electrical signals
+    definition_paragraphs:
+    - text: component that transforms pressure signals into electrical signals
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -42,8 +47,16 @@ data:
       the pneumatic system; at least one electro-mechanical transducer to measure
       cuff pressure; at least one measured value display; and if needed, signal inputs
       and outputs'
+    definition_paragraphs:
+    - text: 'system that consists of: at least one cuff, which is connected to the
+        pneumatic system; at least one electro-mechanical transducer to measure cuff
+        pressure; at least one measured value display; and if needed, signal inputs
+        and outputs'
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

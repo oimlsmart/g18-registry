@@ -26,8 +26,14 @@ data:
     g18_entry: '00683'
     definition: difference between the values of displacement of the reference point
       for a given value of pressure, obtained for decreasing and increasing pressures
+    definition_paragraphs:
+    - text: difference between the values of displacement of the reference point for
+        a given value of pressure, obtained for decreasing and increasing pressures
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '00683'
     definition: T difference between the values of displacement of the reference point
       for a given value of pressure, obtained for decreasing and increasing pressures
+    definition_paragraphs:
+    - text: T difference between the values of displacement of the reference point
+        for a given value of pressure, obtained for decreasing and increasing pressures
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

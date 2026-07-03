@@ -37,8 +37,21 @@ data:
     definition: procedure (other than type approval) which includes the examination
       and marking and/or issuing of a verification certificate, that ascertains and
       confirms that the measuring instrument complies with the statutory requirements
+    definition_paragraphs:
+    - text: procedure (other than type approval) which includes the examination and
+        marking and/or issuing of a verification certificate, that ascertains and
+        confirms that the measuring instrument complies with the statutory requirements
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2000
+        ref_id: '2.13'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical
@@ -65,8 +78,22 @@ data:
       and marking of a measuring instrument and/or issuing of a verification certificate,
       that establishes and confirm that the measuring instrument complies with the
       statutory requirements
+    definition_paragraphs:
+    - text: procedure other than type approval which includes the examination and
+        marking of a measuring instrument and/or issuing of a verification certificate,
+        that establishes and confirm that the measuring instrument complies with the
+        statutory requirements
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2000
+        ref_id: '2.13'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical
@@ -87,8 +114,21 @@ data:
     definition: procedure (other than type approval) which includes the examination
       and marking and/or issuing of a verification certificate, that ascertains and
       confirms that the measuring instrument complies with the statutory requirements
+    definition_paragraphs:
+    - text: procedure (other than type approval) which includes the examination and
+        marking and/or issuing of a verification certificate, that ascertains and
+        confirms that the measuring instrument complies with the statutory requirements
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2000
+        ref_id: '2.13'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical
@@ -114,9 +154,17 @@ data:
     definition: conformity assessment procedure (other than type evaluation) which
       results in the affixing of a verification mark and/or issuing of a verification
       certificate
+    definition_paragraphs:
+    - text: conformity assessment procedure (other than type evaluation) which results
+        in the affixing of a verification mark and/or issuing of a verification certificate
+      sources: []
     notes:
     - 'Note: See also OIML V 2-200:2012, 2.44.'
+    note_paragraphs:
+    - text: 'Note: See also OIML V 2-200:2012, 2.44.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -136,9 +184,23 @@ data:
     definition: conformity assessment procedure (other than type evaluation) which
       results in the affixing of a verification mark and/or issuing of a verification
       certificate
+    definition_paragraphs:
+    - text: conformity assessment procedure (other than type evaluation) which results
+        in the affixing of a verification mark and/or issuing of a verification certificate
+      sources:
+      - kind: viml
+        relationship: modified
+        modification:
+        ref_source: OIML V 1:2022
+        ref_id: '2.09'
+        is_vimline: true
     notes:
     - 'Note: See also OIML V 2-200:2012, 2.44.'
+    note_paragraphs:
+    - text: 'Note: See also OIML V 2-200:2012, 2.44.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: modified
@@ -159,9 +221,23 @@ data:
     definition: conformity assessment procedure (other than type evaluation) which
       results in the affixing of a verification mark and/or issuing of a verification
       certificate
+    definition_paragraphs:
+    - text: conformity assessment procedure (other than type evaluation) which results
+        in the affixing of a verification mark and/or issuing of a verification certificate
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2022
+        ref_id: '2.09'
+        is_vimline: true
     notes:
     - 'Note: See also OIML V 2-200:2012, 2.44.'
+    note_paragraphs:
+    - text: 'Note: See also OIML V 2-200:2012, 2.44.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical
@@ -182,9 +258,18 @@ data:
     definition: conformity assessment procedure (other than type evaluation) which
       results in the affixing of a verification mark and/or issuing of a verification
       certificate (OIML V 1, 2.09)
+    definition_paragraphs:
+    - text: conformity assessment procedure (other than type evaluation) which results
+        in the affixing of a verification mark and/or issuing of a verification certificate
+        (OIML V 1, 2.09)
+      sources: []
     notes:
     - 'Note: See OIML V 2-200:2012, 2.44 for more information.'
+    note_paragraphs:
+    - text: 'Note: See OIML V 2-200:2012, 2.44 for more information.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -199,8 +284,15 @@ data:
     definition: conformity assessment procedure (other than type evaluation) which
       results in the affixing of a verification mark and/or issuing of a verification
       certificate [form VIML, 2.09]
+    definition_paragraphs:
+    - text: conformity assessment procedure (other than type evaluation) which results
+        in the affixing of a verification mark and/or issuing of a verification certificate
+        [form VIML, 2.09]
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -215,9 +307,23 @@ data:
     definition: conformity assessment procedure (other than type evaluation) which
       results in the affixing of a verification mark and/or issuing of a verification
       certificate
+    definition_paragraphs:
+    - text: conformity assessment procedure (other than type evaluation) which results
+        in the affixing of a verification mark and/or issuing of a verification certificate
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2013
+        ref_id: '2.09'
+        is_vimline: true
     notes:
     - 'Note: See also OIML V2-200:2010, 2.44.'
+    note_paragraphs:
+    - text: 'Note: See also OIML V2-200:2010, 2.44.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical
@@ -238,9 +344,23 @@ data:
     definition: conformity assessment procedure (other than type evaluation) which
       results in the affixing of a verification mark and/or issuing of a verification
       certificate
+    definition_paragraphs:
+    - text: conformity assessment procedure (other than type evaluation) which results
+        in the affixing of a verification mark and/or issuing of a verification certificate
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2013
+        ref_id: '2.09'
+        is_vimline: true
     notes:
     - "{Note See also OIML V2-200:2012, 2.44.}"
+    note_paragraphs:
+    - text: "{Note See also OIML V2-200:2012, 2.44.}"
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical
@@ -261,8 +381,21 @@ data:
     definition: verification of a measuring instrument conformity assessment procedure
       (other than type evaluation) which results in the affixing of a verification
       mark and/or issuing of a verification certificate
+    definition_paragraphs:
+    - text: verification of a measuring instrument conformity assessment procedure
+        (other than type evaluation) which results in the affixing of a verification
+        mark and/or issuing of a verification certificate
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2000
+        ref_id: '2.10'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical
@@ -283,8 +416,21 @@ data:
     definition: procedure (other than type approval) which includes the examination
       and marking and/or issuing of a verification certificate, that ascertains and
       confirms that the measuring instrument complies with the statutory requirements
+    definition_paragraphs:
+    - text: procedure (other than type approval) which includes the examination and
+        marking and/or issuing of a verification certificate, that ascertains and
+        confirms that the measuring instrument complies with the statutory requirements
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2000
+        ref_id: '2.13'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical
@@ -305,8 +451,21 @@ data:
     definition: procedure (other than type approval) which includes the examination
       and marking and/or issuing of a verification certificate, that ascertains and
       confirms that the measuring instrument complies with the statutory requirements
+    definition_paragraphs:
+    - text: procedure (other than type approval) which includes the examination and
+        marking and/or issuing of a verification certificate, that ascertains and
+        confirms that the measuring instrument complies with the statutory requirements
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2000
+        ref_id: '2.13'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical
@@ -328,8 +487,22 @@ data:
       and marking of a measuring instrument and/or issuing of a verification certificate,
       that establishes and confirms that the measuring instrument complies with the
       statutory requirements
+    definition_paragraphs:
+    - text: procedure other than type approval which includes the examination and
+        marking of a measuring instrument and/or issuing of a verification certificate,
+        that establishes and confirms that the measuring instrument complies with
+        the statutory requirements
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2000
+        ref_id: '2.13'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical
@@ -350,8 +523,21 @@ data:
     definition: procedure (other than type approval) which includes the examination
       and marking and/or issuing of a verification certificate, that ascertains and
       confirms that the measuring instrument complies with the statutory requirements
+    definition_paragraphs:
+    - text: procedure (other than type approval) which includes the examination and
+        marking and/or issuing of a verification certificate, that ascertains and
+        confirms that the measuring instrument complies with the statutory requirements
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2000
+        ref_id: '2.13'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical

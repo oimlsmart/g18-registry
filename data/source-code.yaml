@@ -27,8 +27,14 @@ data:
     definition: computer program written in a form (programming language) that is
       legible and editable. Source code is compiled or interpreted into executable
       code
+    definition_paragraphs:
+    - text: computer program written in a form (programming language) that is legible
+        and editable. Source code is compiled or interpreted into executable code
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -42,9 +48,17 @@ data:
     g18_entry: '03526'
     definition: computer program written in a form (programming language) that is
       legible and editable.
+    definition_paragraphs:
+    - text: computer program written in a form (programming language) that is legible
+        and editable.
+      sources: []
     notes:
     - 'Note: Source code is compiled or interpreted into executable code.'
+    note_paragraphs:
+    - text: 'Note: Source code is compiled or interpreted into executable code.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

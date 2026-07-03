@@ -26,8 +26,14 @@ data:
     g18_entry: '01404'
     definition: "[O test to verify whether the equipment under test (EUT) is capable
       ofaccomplishing its intended functions IML D 11: 2004, 3.20.3]"
+    definition_paragraphs:
+    - text: "[O test to verify whether the equipment under test (EUT) is capable ofaccomplishing
+        its intended functions IML D 11: 2004, 3.20.3]"
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '01586'
     definition: test intended to verify whether the equipment under test (EUT) iscapable
       of accomplishing its intended functions
+    definition_paragraphs:
+    - text: test intended to verify whether the equipment under test (EUT) iscapable
+        of accomplishing its intended functions
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -56,8 +68,14 @@ data:
     g18_entry: '02027'
     definition: test intended to verify whether the measuring system under test (EUT)
       is capable of accomplishing its intended functions
+    definition_paragraphs:
+    - text: test intended to verify whether the measuring system under test (EUT)
+        is capable of accomplishing its intended functions
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -71,8 +89,14 @@ data:
     g18_entry: '02097'
     definition: test intended to verify whether the measuring equipment under test
       (EUT) is capable of accomplishing its intended functions
+    definition_paragraphs:
+    - text: test intended to verify whether the measuring equipment under test (EUT)
+        is capable of accomplishing its intended functions
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -86,8 +110,14 @@ data:
     g18_entry: '00455'
     definition: test intended to verify whether the water meter (equipment under test,
       EUT) is capable of accomplishing its intended functions
+    definition_paragraphs:
+    - text: test intended to verify whether the water meter (equipment under test,
+        EUT) is capable of accomplishing its intended functions
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -101,8 +131,14 @@ data:
     g18_entry: '00671'
     definition: test to verify that the equipment under test (EUT) is able to accomplish
       its intended functions
+    definition_paragraphs:
+    - text: test to verify that the equipment under test (EUT) is able to accomplish
+        its intended functions
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -116,8 +152,14 @@ data:
     g18_entry: '00992'
     definition: test to verify whether the equipment under test (EUT) is capable ofperforming
       its intended functions
+    definition_paragraphs:
+    - text: test to verify whether the equipment under test (EUT) is capable ofperforming
+        its intended functions
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -131,8 +173,14 @@ data:
     g18_entry: '01974'
     definition: test intended to verify whether the equipment under test (EUT) iscapable
       of accomplishing its intended functions
+    definition_paragraphs:
+    - text: test intended to verify whether the equipment under test (EUT) iscapable
+        of accomplishing its intended functions
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -146,8 +194,14 @@ data:
     g18_entry: '00252'
     definition: test intended to verify whether the EUT is able to accomplish its
       intended functions
+    definition_paragraphs:
+    - text: test intended to verify whether the EUT is able to accomplish its intended
+        functions
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -161,8 +215,14 @@ data:
     g18_entry: '00816'
     definition: test to verify whether the equipment under test (EUT) is able to accomplish
       its intended functions
+    definition_paragraphs:
+    - text: test to verify whether the equipment under test (EUT) is able to accomplish
+        its intended functions
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -176,8 +236,14 @@ data:
     g18_entry: '01923'
     definition: test to verify whether the equipment under test (EUT) is able to accomplish
       its intended functions
+    definition_paragraphs:
+    - text: test to verify whether the equipment under test (EUT) is able to accomplish
+        its intended functions
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -191,8 +257,14 @@ data:
     g18_entry: '01836'
     definition: test to verify that the equipment under test (EUT) is capable of accomplishing
       its intended functions
+    definition_paragraphs:
+    - text: test to verify that the equipment under test (EUT) is capable of accomplishing
+        its intended functions
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -206,8 +278,14 @@ data:
     g18_entry: '00707'
     definition: test to verify whether the load cell under test is capable of performing
       its intended functions
+    definition_paragraphs:
+    - text: test to verify whether the load cell under test is capable of performing
+        its intended functions
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -221,8 +299,14 @@ data:
     g18_entry: '01737'
     definition: a test intended to verify whether the EUT is able to accomplish its
       intended functions
+    definition_paragraphs:
+    - text: a test intended to verify whether the EUT is able to accomplish its intended
+        functions
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -236,8 +320,14 @@ data:
     g18_entry: '01042'
     definition: a test to verify that the measuring system under test (EUT) is capable
       of accomplishing its intended functions
+    definition_paragraphs:
+    - text: a test to verify that the measuring system under test (EUT) is capable
+        of accomplishing its intended functions
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -251,8 +341,14 @@ data:
     g18_entry: '01661'
     definition: a test intended to verify whether the equipment under test is able
       to accomplish its intended functions
+    definition_paragraphs:
+    - text: a test intended to verify whether the equipment under test is able to
+        accomplish its intended functions
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -266,8 +362,14 @@ data:
     g18_entry: '00537'
     definition: a test to verify whether the equipment under test (EUT) is capable
       of accomplishing its intended functions
+    definition_paragraphs:
+    - text: a test to verify whether the equipment under test (EUT) is capable of
+        accomplishing its intended functions
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -281,8 +383,14 @@ data:
     g18_entry: '01309'
     definition: a test to verify that the equipment under test (EUT) is capable of
       accomplishing its intended functions
+    definition_paragraphs:
+    - text: a test to verify that the equipment under test (EUT) is capable of accomplishing
+        its intended functions
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -296,8 +404,14 @@ data:
     g18_entry: '01252'
     definition: a test intended to verify whether the measuring system being tested
       (equipment under test or EUT) is capable of accomplishing its intended functions
+    definition_paragraphs:
+    - text: a test intended to verify whether the measuring system being tested (equipment
+        under test or EUT) is capable of accomplishing its intended functions
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -312,8 +426,15 @@ data:
     definition: 'test intended to verify whether the equipment under test (3.1.17)
       is able to accomplish its intended functions [SOURCE: OIML D 11:2013, 3.21.4]
       [8].]'
+    definition_paragraphs:
+    - text: 'test intended to verify whether the equipment under test (3.1.17) is
+        able to accomplish its intended functions [SOURCE: OIML D 11:2013, 3.21.4]
+        [8].]'
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -327,8 +448,20 @@ data:
     g18_entry: '03382'
     definition: test intended to verify whether the measuring system under test (EUT)
       is able to accomplish its intended functions
+    definition_paragraphs:
+    - text: test intended to verify whether the measuring system under test (EUT)
+        is able to accomplish its intended functions
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2013
+        ref_id: '5.21'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical
@@ -348,8 +481,14 @@ data:
     g18_entry: '03358'
     definition: test to verify whether the load cell under test is capable of performing
       its intended functions
+    definition_paragraphs:
+    - text: test to verify whether the load cell under test is capable of performing
+        its intended functions
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -363,8 +502,14 @@ data:
     g18_entry: '03410'
     definition: test intended to verify whether the EUT is able to accomplish its
       intended functions (OIML D 11, 3.21.4)
+    definition_paragraphs:
+    - text: test intended to verify whether the EUT is able to accomplish its intended
+        functions (OIML D 11, 3.21.4)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -378,8 +523,14 @@ data:
     g18_entry: '03362'
     definition: test intended to verify whether the  EUT is able to accomplish its
       intended functions
+    definition_paragraphs:
+    - text: test intended to verify whether the  EUT is able to accomplish its intended
+        functions
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -393,8 +544,14 @@ data:
     g18_entry: '03363'
     definition: test intended to verify whether the equipment under test (EUT) is
       able to accomplish its intended functions [VIML:2013.5.21]
+    definition_paragraphs:
+    - text: test intended to verify whether the equipment under test (EUT) is able
+        to accomplish its intended functions [VIML:2013.5.21]
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -408,8 +565,14 @@ data:
     g18_entry: '03357'
     definition: test intended to verify whether the equipment under test (EUT) is
       capable of accomplishing its intended functions
+    definition_paragraphs:
+    - text: test intended to verify whether the equipment under test (EUT) is capable
+        of accomplishing its intended functions
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -423,8 +586,14 @@ data:
     g18_entry: '03359'
     definition: test intended to verify whether the equipment under test (EUT) is
       able to accomplish its intended functions (VIML, 5.21)
+    definition_paragraphs:
+    - text: test intended to verify whether the equipment under test (EUT) is able
+        to accomplish its intended functions (VIML, 5.21)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -438,8 +607,20 @@ data:
     g18_entry: '03360'
     definition: test intended to verify whether the EUT is able to accomplish its
       intended functions
+    definition_paragraphs:
+    - text: test intended to verify whether the EUT is able to accomplish its intended
+        functions
+      sources:
+      - kind: other
+        relationship: identical
+        modification:
+        ref_source: OIML D011:2013
+        ref_id: 3.20.3
+        is_vimline: false
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -453,8 +634,20 @@ data:
     g18_entry: 02245-D011
     definition: test intended to verify whether the EUT is able to accomplish its
       intended functions
+    definition_paragraphs:
+    - text: test intended to verify whether the EUT is able to accomplish its intended
+        functions
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2013
+        ref_id: '5.21'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical
@@ -474,8 +667,14 @@ data:
     g18_entry: '02625'
     definition: test to verify that the equipment under test (EUT) is capable of accomplishing
       its intended functions
+    definition_paragraphs:
+    - text: test to verify that the equipment under test (EUT) is capable of accomplishing
+        its intended functions
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -489,8 +688,20 @@ data:
     g18_entry: '01404'
     definition: test to verify whether the equipment under test (EUT) is capable of
       accomplishing its intended functions
+    definition_paragraphs:
+    - text: test to verify whether the equipment under test (EUT) is capable of accomplishing
+        its intended functions
+      sources:
+      - kind: other
+        relationship: identical
+        modification:
+        ref_source: OIML D011:2004
+        ref_id: 3.20.3
+        is_vimline: false
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -504,8 +715,14 @@ data:
     g18_entry: '02097'
     definition: test intended to verify whether the measuring equipment under test
       (EUT) is capable of accomplishing its intended functions
+    definition_paragraphs:
+    - text: test intended to verify whether the measuring equipment under test (EUT)
+        is capable of accomplishing its intended functions
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -519,8 +736,14 @@ data:
     g18_entry: '00671'
     definition: test to verify that the equipment under test (EUT) is able to accomplish
       its intended functions
+    definition_paragraphs:
+    - text: test to verify that the equipment under test (EUT) is able to accomplish
+        its intended functions
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -534,8 +757,14 @@ data:
     g18_entry: '00992'
     definition: test to verify whether the equipment under test (EUT) is capable of
       performing its intended functions
+    definition_paragraphs:
+    - text: test to verify whether the equipment under test (EUT) is capable of performing
+        its intended functions
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -549,8 +778,14 @@ data:
     g18_entry: '03361'
     definition: test to verify that the equipment under test (EUT) is capable of accomplishing
       its  specified functions
+    definition_paragraphs:
+    - text: test to verify that the equipment under test (EUT) is capable of accomplishing
+        its  specified functions
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -564,8 +799,14 @@ data:
     g18_entry: '01923'
     definition: test to verify whether the equipment under test (EUT) is able to accomplish
       its intended functions
+    definition_paragraphs:
+    - text: test to verify whether the equipment under test (EUT) is able to accomplish
+        its intended functions
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -579,8 +820,14 @@ data:
     g18_entry: '01042'
     definition: a test to verify that the measuring system under test (EUT) is capable
       of accomplishing its intended functions
+    definition_paragraphs:
+    - text: a test to verify that the measuring system under test (EUT) is capable
+        of accomplishing its intended functions
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -594,8 +841,14 @@ data:
     g18_entry: '01661'
     definition: a test intended to verify whether the equipment under test is able
       to accomplish its intended functions
+    definition_paragraphs:
+    - text: a test intended to verify whether the equipment under test is able to
+        accomplish its intended functions
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -609,8 +862,20 @@ data:
     g18_entry: '02696'
     definition: test intended to verify whether the equipment under test (EUT) is
       capable of accomplishing its intended functions
+    definition_paragraphs:
+    - text: test intended to verify whether the equipment under test (EUT) is capable
+        of accomplishing its intended functions
+      sources:
+      - kind: other
+        relationship: identical
+        modification:
+        ref_source: OIML D011:2013
+        ref_id: 3.20.3
+        is_vimline: false
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

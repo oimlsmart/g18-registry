@@ -26,8 +26,14 @@ data:
     g18_entry: '01558'
     definition: test intended to verify whether the meter or the measuring system
       is able to maintain its performance characteristics over a period of use
+    definition_paragraphs:
+    - text: test intended to verify whether the meter or the measuring system is able
+        to maintain its performance characteristics over a period of use
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '02028'
     definition: test intended to verify whether the meter or the measuring system
       is able to maintain its performance characteristics over a period of use
+    definition_paragraphs:
+    - text: test intended to verify whether the meter or the measuring system is able
+        to maintain its performance characteristics over a period of use
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -56,8 +68,14 @@ data:
     g18_entry: '02098'
     definition: test intended to verify whether the metering module is able to maintain
       its performance characteristics over a period of use
+    definition_paragraphs:
+    - text: test intended to verify whether the metering module is able to maintain
+        its performance characteristics over a period of use
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -71,8 +89,14 @@ data:
     g18_entry: '00456'
     definition: test intended to verify whether the water meter is able to maintain
       its performance characteristics over a period of use
+    definition_paragraphs:
+    - text: test intended to verify whether the water meter is able to maintain its
+        performance characteristics over a period of use
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -86,8 +110,14 @@ data:
     g18_entry: '03039'
     definition: test intended to verify whether the meter or the measuring system
       is able to maintain its performance characteristics over a period of use
+    definition_paragraphs:
+    - text: test intended to verify whether the meter or the measuring system is able
+        to maintain its performance characteristics over a period of use
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -101,8 +131,14 @@ data:
     g18_entry: '02098'
     definition: test intended to verify whether the metering module is able to maintain
       its performance characteristics over a period of use
+    definition_paragraphs:
+    - text: test intended to verify whether the metering module is able to maintain
+        its performance characteristics over a period of use
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

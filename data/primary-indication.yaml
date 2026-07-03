@@ -26,9 +26,17 @@ data:
     g18_entry: '02010'
     definition: indication (displayed, printed or memorized) which is subject to Indications
       other than primary indications are legal metrology control com ind
+    definition_paragraphs:
+    - text: indication (displayed, printed or memorized) which is subject to Indications
+        other than primary indications are legal metrology control com ind
+      sources: []
     notes:
     - monly referred to as secondary ications.
+    note_paragraphs:
+    - text: monly referred to as secondary ications.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -42,9 +50,17 @@ data:
     g18_entry: '02067'
     definition: indication (displayed, printed or memorized) which is subject to Indications
       other than primary indications are legal metrological control com ind
+    definition_paragraphs:
+    - text: indication (displayed, printed or memorized) which is subject to Indications
+        other than primary indications are legal metrological control com ind
+      sources: []
     notes:
     - monly referred to as secondary ications.
+    note_paragraphs:
+    - text: monly referred to as secondary ications.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -58,8 +74,14 @@ data:
     g18_entry: '00425'
     definition: indication (displayed, printed or memorized) which is subject to legal
       metrological control
+    definition_paragraphs:
+    - text: indication (displayed, printed or memorized) which is subject to legal
+        metrological control
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -73,9 +95,17 @@ data:
     g18_entry: '01043'
     definition: an indication (displayed, printed or memorized) that is subject to
       Indications other than primary indications are legal metrology control c i
+    definition_paragraphs:
+    - text: an indication (displayed, printed or memorized) that is subject to Indications
+        other than primary indications are legal metrology control c i
+      sources: []
     notes:
     - ommonly referred to as secondary ndications.
+    note_paragraphs:
+    - text: ommonly referred to as secondary ndications.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -88,8 +118,13 @@ data:
     link:
     g18_entry: '02395'
     definition: indication which is subject to legal metrological control
+    definition_paragraphs:
+    - text: indication which is subject to legal metrological control
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -103,10 +138,19 @@ data:
     g18_entry: '03381'
     definition: indication (displayed, printed or memorized) which is subject to legal
       metrology control
+    definition_paragraphs:
+    - text: indication (displayed, printed or memorized) which is subject to legal
+        metrology control
+      sources: []
     notes:
     - 'Note:  Indications other than primary indications are commonly referred to
       as secondary indications.'
+    note_paragraphs:
+    - text: 'Note:  Indications other than primary indications are commonly referred
+        to as secondary indications.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -120,8 +164,14 @@ data:
     g18_entry: '02601'
     definition: indication, signal or symbol that is subject to the requirements of
       this Recommendation
+    definition_paragraphs:
+    - text: indication, signal or symbol that is subject to the requirements of this
+        Recommendation
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -135,10 +185,19 @@ data:
     g18_entry: '02067'
     definition: indication (displayed, printed or memorized) which is subject to legal
       metrological control
+    definition_paragraphs:
+    - text: indication (displayed, printed or memorized) which is subject to legal
+        metrological control
+      sources: []
     notes:
     - 'Note:  Indications other than primary indications are commonly referred to
       as secondary indications.'
+    note_paragraphs:
+    - text: 'Note:  Indications other than primary indications are commonly referred
+        to as secondary indications.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -152,10 +211,19 @@ data:
     g18_entry: '01043'
     definition: an indication (displayed, printed or memorized) that is subject to
       legal metrology control
+    definition_paragraphs:
+    - text: an indication (displayed, printed or memorized) that is subject to legal
+        metrology control
+      sources: []
     notes:
     - 'Note:  Indications other than primary indications are commonly referred to
       as secondary indications.'
+    note_paragraphs:
+    - text: 'Note:  Indications other than primary indications are commonly referred
+        to as secondary indications.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

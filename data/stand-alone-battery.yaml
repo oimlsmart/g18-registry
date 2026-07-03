@@ -25,8 +25,14 @@ data:
     g18_entry: '02249-D011'
     definition: non-rechargeable battery or rechargeable battery which shall be (re)charged
       only when not connected to the EUT
+    definition_paragraphs:
+    - text: non-rechargeable battery or rechargeable battery which shall be (re)charged
+        only when not connected to the EUT
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -29,10 +29,20 @@ data:
     definition: automatic weighing instrument that weighs a bulk product by dividing
       it into discrete loads, determining the mass of each screte load in sequence,
       summing the weighing results and delivering the discrete loads to bulk
+    definition_paragraphs:
+    - text: automatic weighing instrument that weighs a bulk product by dividing it
+        into discrete loads, determining the mass of each screte load in sequence,
+        summing the weighing results and delivering the discrete loads to bulk
+      sources: []
     notes:
     - In this Recommendation a discontinuous totalizing automatic weighing instrument
       is called an "instrument".
+    note_paragraphs:
+    - text: In this Recommendation a discontinuous totalizing automatic weighing instrument
+        is called an "instrument".
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -47,10 +57,20 @@ data:
     definition: automatic weighing instrument that weighs a bulk product by dividing
       it into discrete loads, determining the mass of each discrete load in sequence,
       summing the weighing results and delivering the discrete loads to bulk
+    definition_paragraphs:
+    - text: automatic weighing instrument that weighs a bulk product by dividing it
+        into discrete loads, determining the mass of each discrete load in sequence,
+        summing the weighing results and delivering the discrete loads to bulk
+      sources: []
     notes:
     - 'Note: In this Recommendation a discontinuous totalizing automatic weighing
       instrument is called an “instrument”.'
+    note_paragraphs:
+    - text: 'Note: In this Recommendation a discontinuous totalizing automatic weighing
+        instrument is called an “instrument”.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -25,8 +25,14 @@ data:
     g18_entry: '02969'
     definition: AGFI comprising one weighing module with the facility to apply more
       than one weighing cycle for the composition of the desired fill
+    definition_paragraphs:
+    - text: AGFI comprising one weighing module with the facility to apply more than
+        one weighing cycle for the composition of the desired fill
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

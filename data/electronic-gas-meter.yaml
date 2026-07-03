@@ -25,11 +25,20 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r137-1-e06.pdf
     g18_entry: '01975'
     definition: gas meter equipped with electronic devices
+    definition_paragraphs:
+    - text: gas meter equipped with electronic devices
+      sources: []
     notes:
     - For the purposes of this Recommendation auxiliary equipment, as far as it is
       subject to metrological control, is considered part of the gas meter, unless
       the auxiliary equipment is approved and verified separately.
+    note_paragraphs:
+    - text: For the purposes of this Recommendation auxiliary equipment, as far as
+        it is subject to metrological control, is considered part of the gas meter,
+        unless the auxiliary equipment is approved and verified separately.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -42,11 +51,20 @@ data:
     link:
     g18_entry: '02697'
     definition: gas meter equipped with electronic devices
+    definition_paragraphs:
+    - text: gas meter equipped with electronic devices
+      sources: []
     notes:
     - Note:For the purposes of this Recommendation ancillary equipment, as far as
       it is subject to metrological control, is considered part of the gas meter,
       unless the ancillary equipment is approved and verified separately.
+    note_paragraphs:
+    - text: Note:For the purposes of this Recommendation ancillary equipment, as far
+        as it is subject to metrological control, is considered part of the gas meter,
+        unless the ancillary equipment is approved and verified separately.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

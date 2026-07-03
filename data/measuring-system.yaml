@@ -35,8 +35,14 @@ data:
     g18_entry: '01581'
     definition: system comprising a meter for quantities (volume or mass) of liquids
       and its ancillary devices and additional devices
+    definition_paragraphs:
+    - text: system comprising a meter for quantities (volume or mass) of liquids and
+        its ancillary devices and additional devices
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -50,8 +56,14 @@ data:
     g18_entry: '01995'
     definition: system which comprises the meter itself and all the ancillary devices
       and additional devices
+    definition_paragraphs:
+    - text: system which comprises the meter itself and all the ancillary devices
+        and additional devices
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -66,8 +78,15 @@ data:
     definition: system which comprises the metering module (see T.1.8), and all the
       ancillary devices and additional devices and, when appropriate, a documented
       provisions system ensuring the quality and the traceability of data
+    definition_paragraphs:
+    - text: system which comprises the metering module (see T.1.8), and all the ancillary
+        devices and additional devices and, when appropriate, a documented provisions
+        system ensuring the quality and the traceability of data
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -82,8 +101,14 @@ data:
     definition: system that is comprised of the meter itself and all the ancillary
       devices and other equipment assembled to carry out the specified measurement
       task
+    definition_paragraphs:
+    - text: system that is comprised of the meter itself and all the ancillary devices
+        and other equipment assembled to carry out the specified measurement task
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -97,8 +122,14 @@ data:
     g18_entry: 01213a
     definition: a direct mass flow instrument and other apparatus assembled to carry
       out a specified measurement operation [VIM:1993, 4.05]
+    definition_paragraphs:
+    - text: a direct mass flow instrument and other apparatus assembled to carry out
+        a specified measurement operation [VIM:1993, 4.05]
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -119,9 +150,25 @@ data:
       including any reagent and supply, assembled and adapter to give information
       used to generate measured quantity values withinspecified intervals for quantities
       of specified kinds
+    definition_paragraphs:
+    - text: set of one or more measuring instruments and often other devices, including
+        any reagent and supply, assembled and adapter to give information used to
+        generate measured quantity values withinspecified intervals for quantities
+        of specified kinds
+      sources:
+      - kind: vim
+        relationship: identical
+        modification:
+        ref_source: OIML V 2-200:2012
+        ref_id: '3.2'
+        is_vimline: true
     notes:
     - Note:A measuring system may consist of only one measuring instrument.
+    note_paragraphs:
+    - text: Note:A measuring system may consist of only one measuring instrument.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: vim
       relationship: identical
@@ -143,9 +190,19 @@ data:
       including any reagent and supply, assembled and adapter to give information
       used to generate measured quantity values withinspecified intervals for quantities
       of specified kinds (VIM3, 3.2)
+    definition_paragraphs:
+    - text: set of one or more measuring instruments and often other devices, including
+        any reagent and supply, assembled and adapter to give information used to
+        generate measured quantity values withinspecified intervals for quantities
+        of specified kinds (VIM3, 3.2)
+      sources: []
     notes:
     - Note:A measuring system may consist of only one measuring instrument.
+    note_paragraphs:
+    - text: Note:A measuring system may consist of only one measuring instrument.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -159,8 +216,14 @@ data:
     g18_entry: '03281'
     definition: system comprising a meter for quantities (volume or mass) of liquids
       and its ancillary devices and additional devices
+    definition_paragraphs:
+    - text: system comprising a meter for quantities (volume or mass) of liquids and
+        its ancillary devices and additional devices
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -175,8 +238,15 @@ data:
     definition: system which comprises the metering module (see T.1.8), and all the
       ancillary devices and additional devices and, when appropriate, a documented
       provisions system ensuring the quality and the traceability of data
+    definition_paragraphs:
+    - text: system which comprises the metering module (see T.1.8), and all the ancillary
+        devices and additional devices and, when appropriate, a documented provisions
+        system ensuring the quality and the traceability of data
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -191,8 +261,14 @@ data:
     definition: system that is comprised of the meter itself and all the ancillary
       devices and other equipment assembled to carry out the specified measurement
       task
+    definition_paragraphs:
+    - text: system that is comprised of the meter itself and all the ancillary devices
+        and other equipment assembled to carry out the specified measurement task
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

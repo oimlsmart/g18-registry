@@ -25,10 +25,19 @@ data:
     g18_entry: '03263'
     definition: set of values of qualitative or quantitative variables relevant to
       the measurement result
+    definition_paragraphs:
+    - text: set of values of qualitative or quantitative variables relevant to the
+        measurement result
+      sources: []
     notes:
     - 'Note: Measurement result relevant information includes measurement result relevant
       data and measurement result relevant metadata, see Annex C.'
+    note_paragraphs:
+    - text: 'Note: Measurement result relevant information includes measurement result
+        relevant data and measurement result relevant metadata, see Annex C.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

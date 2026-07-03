@@ -25,9 +25,17 @@ data:
     g18_entry: '03450'
     definition: ratio of the maximum measuring range, to two times the minimum dead
       load output return, DR
+    definition_paragraphs:
+    - text: ratio of the maximum measuring range, to two times the minimum dead load
+        output return, DR
+      sources: []
     notes:
     - Note:This ratio is used to describe multi-interval instruments.
+    note_paragraphs:
+    - text: Note:This ratio is used to describe multi-interval instruments.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

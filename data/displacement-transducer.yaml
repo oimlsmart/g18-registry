@@ -27,8 +27,15 @@ data:
     definition: a device on the conveyor providing information either corresponding
       to the displacement of a defined length of the belt orproportional to the speed
       of the belt
+    definition_paragraphs:
+    - text: a device on the conveyor providing information either corresponding to
+        the displacement of a defined length of the belt orproportional to the speed
+        of the belt
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -43,8 +50,15 @@ data:
     definition: device on the conveyor providing information either corresponding
       to the displacement of a defined length of the belt or proportional to the speed
       of the belt
+    definition_paragraphs:
+    - text: device on the conveyor providing information either corresponding to the
+        displacement of a defined length of the belt or proportional to the speed
+        of the belt
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

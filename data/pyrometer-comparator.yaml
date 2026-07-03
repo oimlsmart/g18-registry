@@ -25,8 +25,14 @@ data:
     g18_entry: '02831'
     definition: device using the optical radiation of sources and indicating their
       temperature differences with no traceability needed (see 2.1.10)
+    definition_paragraphs:
+    - text: device using the optical radiation of sources and indicating their temperature
+        differences with no traceability needed (see 2.1.10)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

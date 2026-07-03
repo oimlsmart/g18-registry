@@ -26,8 +26,15 @@ data:
     definition: Signal produced in the detector resulting from the detection of X-rays
       other than X-rays from the analyzed element and from any noise produced elsewhere
       in the XRF spectrometer.
+    definition_paragraphs:
+    - text: Signal produced in the detector resulting from the detection of X-rays
+        other than X-rays from the analyzed element and from any noise produced elsewhere
+        in the XRF spectrometer.
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

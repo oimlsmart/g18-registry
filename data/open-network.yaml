@@ -27,8 +27,15 @@ data:
     definition: network of arbitrary participants (electronic devices with arbitrary
       functions). The number, identity and location of a participant can be dynamic
       and unknown to the other participants (see also Closed network)
+    definition_paragraphs:
+    - text: network of arbitrary participants (electronic devices with arbitrary functions).
+        The number, identity and location of a participant can be dynamic and unknown
+        to the other participants (see also Closed network)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -45,8 +52,23 @@ data:
       and unknown to the other participants. This is in contrast to a closed network
       [D 31, 3.1.6] which is a network of a fixed number of participants with a known
       identity functionality and location
+    definition_paragraphs:
+    - text: network of arbitrary participants (electronic devices with arbitrary functions).
+        The number, identity and location of a participant can be dynamic and unknown
+        to the other participants. This is in contrast to a closed network [D 31,
+        3.1.6] which is a network of a fixed number of participants with a known identity
+        functionality and location
+      sources:
+      - kind: other
+        relationship: identical
+        modification:
+        ref_source: OIML D031:2008
+        ref_id: 3.1.35
+        is_vimline: false
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -60,12 +82,28 @@ data:
     g18_entry: '02810'
     definition: network of arbitrary participants (electronic devices with arbitrary
       functions)
+    definition_paragraphs:
+    - text: network of arbitrary participants (electronic devices with arbitrary functions)
+      sources:
+      - kind: other
+        relationship: identical
+        modification:
+        ref_source: OIML D031:2008
+        ref_id: 3.1.35
+        is_vimline: false
     notes:
     - Note:The number, identity and location of a participant can be dynamic and unknown
       to the other participants. This is in contrast to a closed network [OIML D 31:2008,
       3.1.6] which is a network of a fixed number of participants with a known identity
       functionality and location.
+    note_paragraphs:
+    - text: Note:The number, identity and location of a participant can be dynamic
+        and unknown to the other participants. This is in contrast to a closed network
+        [OIML D 31:2008, 3.1.6] which is a network of a fixed number of participants
+        with a known identity functionality and location.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

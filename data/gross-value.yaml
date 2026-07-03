@@ -37,8 +37,14 @@ data:
     g18_entry: '00628'
     definition: indication of the weight value of a load on an instrument, with no
       tare or preset tare device in operation
+    definition_paragraphs:
+    - text: indication of the weight value of a load on an instrument, with no tare
+        or preset tare device in operation
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

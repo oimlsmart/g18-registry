@@ -29,8 +29,17 @@ data:
       transaction at a later date, when the customer is not present for the determination
       of the amount, or for special applications identified and legislated by the
       state)
+    definition_paragraphs:
+    - text: storage used for keeping measurement data ready after completion of the
+        measurement for later legally relevant purposes (e.g. conclusion of a trading
+        transaction at a later date, when the customer is not present for the determination
+        of the amount, or for special applications identified and legislated by the
+        state)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -47,8 +56,17 @@ data:
       transaction at a later date, when the customer is not present for the determination
       of the amount, or for special applications identified and legislated by the
       state)
+    definition_paragraphs:
+    - text: storage used for keeping measurement data ready after completion of the
+        measurement for later legally relevant purposes (e.g. conclusion of a trading
+        transaction at a later date, when the customer is not present for the determination
+        of the amount, or for special applications identified and legislated by the
+        state)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

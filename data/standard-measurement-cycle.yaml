@@ -26,10 +26,20 @@ data:
     definition: the measurement cycle of an EBA consists of all steps necessary to
       obtain a valid result, from starting the measurement, sampling, analysing, internal
       control procedures, calculation, and displaying the result
+    definition_paragraphs:
+    - text: the measurement cycle of an EBA consists of all steps necessary to obtain
+        a valid result, from starting the measurement, sampling, analysing, internal
+        control procedures, calculation, and displaying the result
+      sources: []
     notes:
     - 'Note: Since national authorities may define specific measurement cycles for
       their country, “standard” refers to the respective country.'
+    note_paragraphs:
+    - text: 'Note: Since national authorities may define specific measurement cycles
+        for their country, “standard” refers to the respective country.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

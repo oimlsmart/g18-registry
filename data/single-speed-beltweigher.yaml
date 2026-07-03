@@ -27,8 +27,14 @@ data:
     definition: a belt weigher that is installed with a conveyor belt designed to
       operate at a single speed, designated in this Recommendation as the nominal
       speed
+    definition_paragraphs:
+    - text: a belt weigher that is installed with a conveyor belt designed to operate
+        at a single speed, designated in this Recommendation as the nominal speed
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -42,8 +48,14 @@ data:
     g18_entry: '03513'
     definition: belt weigher that is installed with a conveyor belt designed to operate
       at a single speed
+    definition_paragraphs:
+    - text: belt weigher that is installed with a conveyor belt designed to operate
+        at a single speed
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

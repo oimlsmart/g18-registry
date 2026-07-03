@@ -26,8 +26,14 @@ data:
     g18_entry: '01420'
     definition: an equation that relates the generated pressure and the mass of the
       used weights, taking into account the other input quantities
+    definition_paragraphs:
+    - text: an equation that relates the generated pressure and the mass of the used
+        weights, taking into account the other input quantities
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '01420'
     definition: an equation that relates the generated pressure and the mass of the
       used weights, taking into account the other input quantities
+    definition_paragraphs:
+    - text: an equation that relates the generated pressure and the mass of the used
+        weights, taking into account the other input quantities
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

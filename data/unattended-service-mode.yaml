@@ -27,8 +27,15 @@ data:
     definition: operating mode of a self-service arrangement in which the self- service
       device controls the authorization for the delivery, based onan action of the
       customer
+    definition_paragraphs:
+    - text: operating mode of a self-service arrangement in which the self- service
+        device controls the authorization for the delivery, based onan action of the
+        customer
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -43,11 +50,22 @@ data:
     definition: operating mode of a self-service arrangement in which the self- service
       arrangement controls the authorization for the delivery, based on an action
       of the customer
+    definition_paragraphs:
+    - text: operating mode of a self-service arrangement in which the self- service
+        arrangement controls the authorization for the delivery, based on an action
+        of the customer
+      sources: []
     notes:
     - In unattended service mode, the end of the measurement operation is the end
       of the registration (printing and/or memorizing) of information concerning the
       measurement operation.
+    note_paragraphs:
+    - text: In unattended service mode, the end of the measurement operation is the
+        end of the registration (printing and/or memorizing) of information concerning
+        the measurement operation.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -62,11 +80,22 @@ data:
     definition: operating mode of a self-service arrangement in which the self-service
       arrangement controls the authorization for the delivery, based on an action
       of the customer
+    definition_paragraphs:
+    - text: operating mode of a self-service arrangement in which the self-service
+        arrangement controls the authorization for the delivery, based on an action
+        of the customer
+      sources: []
     notes:
     - 'Note:  In unattended service mode, the end of the measurement operation is
       the end of the registration (printing and/or memorizing) of information concerning
       the measurement operation.'
+    note_paragraphs:
+    - text: 'Note:  In unattended service mode, the end of the measurement operation
+        is the end of the registration (printing and/or memorizing) of information
+        concerning the measurement operation.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -81,8 +110,15 @@ data:
     definition: operating mode of a self-service arrangement in which the self-service
       device controls the authorization for the delivery, based on an action of the
       customer
+    definition_paragraphs:
+    - text: operating mode of a self-service arrangement in which the self-service
+        device controls the authorization for the delivery, based on an action of
+        the customer
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

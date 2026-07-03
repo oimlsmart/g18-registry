@@ -26,9 +26,17 @@ data:
     g18_entry: '01012'
     definition: a standard, traceable to national standards, used for the verification
       of cryogenic liquid measuring devices and systems
+    definition_paragraphs:
+    - text: a standard, traceable to national standards, used for the verification
+        of cryogenic liquid measuring devices and systems
+      sources: []
     notes:
     - This is usually referred to as "master meter" in this field.
+    note_paragraphs:
+    - text: This is usually referred to as "master meter" in this field.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -42,9 +50,17 @@ data:
     g18_entry: '01012'
     definition: a standard, traceable to national standards, used for the verification
       of cryogenic liquid measuring devices and systems
+    definition_paragraphs:
+    - text: a standard, traceable to national standards, used for the verification
+        of cryogenic liquid measuring devices and systems
+      sources: []
     notes:
     - 'Note: This is usually referred to as “master meter” in this field.'
+    note_paragraphs:
+    - text: 'Note: This is usually referred to as “master meter” in this field.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

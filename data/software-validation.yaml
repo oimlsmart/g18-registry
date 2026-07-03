@@ -28,8 +28,23 @@ data:
       measurement, test, etc.) that the particular requirements for the specific intended
       use are fulfilled. In the present case the related requirements are those of
       this Recommendation
+    definition_paragraphs:
+    - text: confirmation by examination and provision of objective evidence (i.e.
+        information that can be proved true, based on facts obtained from observations,
+        measurement, test, etc.) that the particular requirements for the specific
+        intended use are fulfilled. In the present case the related requirements are
+        those of this Recommendation
+      sources:
+      - kind: other
+        relationship: identical
+        modification:
+        ref_source: OIML D031:2008
+        ref_id: 3.1.56
+        is_vimline: false
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -45,9 +60,26 @@ data:
       information that can be proved true, based on facts obtained from observations,
       measurement, tests, etc.) that the particular requirements for the specific
       intended use are fulfilled
+    definition_paragraphs:
+    - text: confirmation by examination and provision of objective evidence (i.e.
+        information that can be proved true, based on facts obtained from observations,
+        measurement, tests, etc.) that the particular requirements for the specific
+        intended use are fulfilled
+      sources:
+      - kind: other
+        relationship: identical
+        modification:
+        ref_source: OIML D031:2008
+        ref_id: 3.1.56
+        is_vimline: false
     notes:
     - 'Note: In the present case the related requirements are those of this Recommendation.'
+    note_paragraphs:
+    - text: 'Note: In the present case the related requirements are those of this
+        Recommendation.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

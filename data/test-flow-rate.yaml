@@ -28,8 +28,15 @@ data:
       calibrated reference device. The quotient of the actual volume passing through
       the water meter divided by the time for that volume to pass through the water
       meter
+    definition_paragraphs:
+    - text: mean flowrate during a test, calculated from the indications of a calibrated
+        reference device. The quotient of the actual volume passing through the water
+        meter divided by the time for that volume to pass through the water meter
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -43,8 +50,14 @@ data:
     g18_entry: '02419'
     definition: mean flow rate (3.3.1) during a test, calculated from the indications
       of a calibrated reference device
+    definition_paragraphs:
+    - text: mean flow rate (3.3.1) during a test, calculated from the indications
+        of a calibrated reference device
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

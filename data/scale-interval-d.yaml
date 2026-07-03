@@ -26,8 +26,15 @@ data:
     definition: value, expressed in units of measured quantity, of the difference
       between the values corresponding to two consecutive scale marks for analogue
       indication, or two consecutive indicated values for digital indication
+    definition_paragraphs:
+    - text: value, expressed in units of measured quantity, of the difference between
+        the values corresponding to two consecutive scale marks for analogue indication,
+        or two consecutive indicated values for digital indication
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +48,14 @@ data:
     g18_entry: '03468'
     definition: value expressed in units of mass for weighing-in-motion that is the
       difference between two consecutive indicated or printed values
+    definition_paragraphs:
+    - text: value expressed in units of mass for weighing-in-motion that is the difference
+        between two consecutive indicated or printed values
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -57,8 +70,15 @@ data:
     definition: 'value, expressed in units of area, of the difference between: the
       values corresponding to two consecutive scale marks for analogue indication,
       or two consecutive indicated values for digital indication'
+    definition_paragraphs:
+    - text: 'value, expressed in units of area, of the difference between: the values
+        corresponding to two consecutive scale marks for analogue indication, or two
+        consecutive indicated values for digital indication'
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -25,9 +25,18 @@ data:
     g18_entry: '02970'
     definition: level at which the level gauge sensor is able to measure the minimum
       filling height at the maximum inclination of the tank
+    definition_paragraphs:
+    - text: level at which the level gauge sensor is able to measure the minimum filling
+        height at the maximum inclination of the tank
+      sources: []
     notes:
     - 'Note: Below this level a measurement of the filling height cannot be guaranteed.'
+    note_paragraphs:
+    - text: 'Note: Below this level a measurement of the filling height cannot be
+        guaranteed.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

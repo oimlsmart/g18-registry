@@ -39,8 +39,16 @@ data:
       permanently, within its rated operating conditions, without deterioration of
       its metrological performance. mAT and AT are respectively the lower and upper
       of the rated operating conditions (ROC)
+    definition_paragraphs:
+    - text: M minimum and maximum water temperatures that a water meter can withstand
+        permanently, within its rated operating conditions, without deterioration
+        of its metrological performance. mAT and AT are respectively the lower and
+        upper of the rated operating conditions (ROC)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

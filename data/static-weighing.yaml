@@ -25,8 +25,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r134-e03.pdf
     g18_entry: '01807'
     definition: weighing of vehicles or test loads that are stationary
+    definition_paragraphs:
+    - text: weighing of vehicles or test loads that are stationary
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -40,8 +45,14 @@ data:
     g18_entry: '01279'
     definition: weighing a wagon while stationary and uncoupled to obtain a weight
       for the purposes of testing
+    definition_paragraphs:
+    - text: weighing a wagon while stationary and uncoupled to obtain a weight for
+        the purposes of testing
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -54,8 +65,13 @@ data:
     link:
     g18_entry: '02573'
     definition: determining the mass of a stationary load
+    definition_paragraphs:
+    - text: determining the mass of a stationary load
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -68,8 +84,13 @@ data:
     link:
     g18_entry: '03538'
     definition: weighing of vehicles or test loads that are stationary
+    definition_paragraphs:
+    - text: weighing of vehicles or test loads that are stationary
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

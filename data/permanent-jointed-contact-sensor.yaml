@@ -25,8 +25,14 @@ data:
     g18_entry: '02828'
     definition: contact sensor of an internal or external thermometer that cannot
       be removed from the BBR without dismantling the latter
+    definition_paragraphs:
+    - text: contact sensor of an internal or external thermometer that cannot be removed
+        from the BBR without dismantling the latter
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

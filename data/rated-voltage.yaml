@@ -31,8 +31,14 @@ data:
     g18_entry: '00853'
     definition: voltage of the external power supply required to operate the heat
       meter, conventionally the voltage of the AC mains supply
+    definition_paragraphs:
+    - text: voltage of the external power supply required to operate the heat meter,
+        conventionally the voltage of the AC mains supply
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

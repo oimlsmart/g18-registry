@@ -26,8 +26,14 @@ data:
     g18_entry: '00470'
     definition: "(i meter that does not have separable measurement transducer ncluding
       flow or volume sensor) and calculator (including indicating device)"
+    definition_paragraphs:
+    - text: "(i meter that does not have separable measurement transducer ncluding
+        flow or volume sensor) and calculator (including indicating device)"
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '02382'
     definition: meter whose measurement transducer (3.1.2), calculator (3.1.4), and
       indicating device (3.1.5) are not separable
+    definition_paragraphs:
+    - text: meter whose measurement transducer (3.1.2), calculator (3.1.4), and indicating
+        device (3.1.5) are not separable
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

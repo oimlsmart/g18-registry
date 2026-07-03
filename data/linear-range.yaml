@@ -28,8 +28,16 @@ data:
       gas over which its sensitivity remains constant to within specified limits.
       It is expressed as the ratio of the upper limit of linearity and the detection
       limit
+    definition_paragraphs:
+    - text: range of mass flow rate or concentration of the analyte in the carrier
+        gas over which its sensitivity remains constant to within specified limits.
+        It is expressed as the ratio of the upper limit of linearity and the detection
+        limit
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -45,8 +53,16 @@ data:
       of interest in the carrier gas over which the sensitivity of a detector remains
       constant within specified limits and is expressed as the ratio of its upper
       limit to the detection limit
+    definition_paragraphs:
+    - text: the range of mass flow rates or concentrations of the sample component
+        of interest in the carrier gas over which the sensitivity of a detector remains
+        constant within specified limits and is expressed as the ratio of its upper
+        limit to the detection limit
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -61,8 +77,15 @@ data:
     definition: the range of concentrations over which the output signal of the instrument
       is proportional to the concentration of the substance to within a specified
       percentage, for example ± 5-10 %.
+    definition_paragraphs:
+    - text: the range of concentrations over which the output signal of the instrument
+        is proportional to the concentration of the substance to within a specified
+        percentage, for example ± 5-10 %.
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -78,8 +101,16 @@ data:
       gas over which its sensitivity remains constant to within specified limits.
       It is expressed as the ratio of the upper limit of linearity and the detection
       limit
+    definition_paragraphs:
+    - text: range of mass flow rate or concentration of the analyte in the carrier
+        gas over which its sensitivity remains constant to within specified limits.
+        It is expressed as the ratio of the upper limit of linearity and the detection
+        limit
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -95,8 +126,16 @@ data:
       of interest in the carrier gas over which the sensitivity of a detector remains
       constant within specified limits and is expressed as the ratio of its upper
       limit to the detection limit
+    definition_paragraphs:
+    - text: the range of mass flow rates or concentrations of the sample component
+        of interest in the carrier gas over which the sensitivity of a detector remains
+        constant within specified limits and is expressed as the ratio of its upper
+        limit to the detection limit
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -111,8 +150,15 @@ data:
     definition: the range of concentrations over which the output signal of the instrument
       is proportional to the concentration of the substance to within a specified
       percentage, for example  ± 5-10 %.
+    definition_paragraphs:
+    - text: the range of concentrations over which the output signal of the instrument
+        is proportional to the concentration of the substance to within a specified
+        percentage, for example  ± 5-10 %.
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

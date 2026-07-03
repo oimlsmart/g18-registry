@@ -25,8 +25,14 @@ data:
     g18_entry: '02580'
     definition: fraction of the wagon mass that rests via the axle on the load receptor
       at the time of weighing
+    definition_paragraphs:
+    - text: fraction of the wagon mass that rests via the axle on the load receptor
+        at the time of weighing
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

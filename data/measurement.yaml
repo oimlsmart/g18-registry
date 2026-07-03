@@ -25,6 +25,16 @@ data:
     g18_entry: '03251'
     definition: process of experimentally obtaining one or more quantity values that
       can reasonably by attributed to a quantity
+    definition_paragraphs:
+    - text: process of experimentally obtaining one or more quantity values that can
+        reasonably by attributed to a quantity
+      sources:
+      - kind: vim
+        relationship: modified
+        modification:
+        ref_source: OIML V 2-200:2012
+        ref_id: '2.1'
+        is_vimline: true
     notes:
     - Measurement does not apply to nominal properties.
     - Measurement implies comparison of quantities or couting of entities.
@@ -34,7 +44,21 @@ data:
       including the measurement conditions.
     - Annex C illustrates the terms and definitions related to the measurement process
       and their usage in thie OIML Document.
+    note_paragraphs:
+    - text: Measurement does not apply to nominal properties.
+      sources: []
+    - text: Measurement implies comparison of quantities or couting of entities.
+      sources: []
+    - text: Measurement presupposes a description of the quantity commensurate with
+        the intended use of measurement result, a measurement procedure, and a calibrated
+        measuring g system operating according to the specified measurement procedure,
+        including the measurement conditions.
+      sources: []
+    - text: Annex C illustrates the terms and definitions related to the measurement
+        process and their usage in thie OIML Document.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: vim
       relationship: modified

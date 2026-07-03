@@ -23,12 +23,20 @@ data:
     clause: '3.6'
     link:
     g18_entry: '02925'
-    definition: 'reference material, accompanied by documentation issued by an authoritative
+    definition: reference material, accompanied by documentation issued by an authoritative
       body and providing one or more specified property values with associated uncertainties
-      and traceabilities, using valid procedures Example: Human serum with assigned
-      quantity value for the concentration of cholesterol and associated measurement
-      uncertainty stated in an accompanying certificate, used as a calibrator or measurement
-      trueness control material. (VIM3, 5.14)'
+      and traceabilities, using valid procedures
+    definition_paragraphs:
+    - text: reference material, accompanied by documentation issued by an authoritative
+        body and providing one or more specified property values with associated uncertainties
+        and traceabilities, using valid procedures
+      sources:
+      - kind: vim
+        relationship: identical
+        modification:
+        ref_source: OIML V 2-200:2012
+        ref_id: '5.14'
+        is_vimline: true
     notes:
     - "'Documentation' is given in the form of a 'certificate' (see ISO Guide 31:2000)."
     - Procedures for the production and certification of certified reference materials
@@ -42,8 +50,41 @@ data:
     - ISO/REMCO has an analogous definition (Accred. Qual. Assur.:2006) but uses the
       modifiers "metrological" and "metrologically" to refer to both quantity and
       nominal property
-    examples: []
+    note_paragraphs:
+    - text: "'Documentation' is given in the form of a 'certificate' (see ISO Guide
+        31:2000)."
+      sources: []
+    - text: Procedures for the production and certification of certified reference
+        materials are given, e.g. in ISO Guide 34 and ISO Guide 35.
+      sources: []
+    - text: In this definition, "uncertainty" covers both 'measurement uncertainty'
+        and 'uncertainty associated with the value of a nominal property', such as
+        for identity and sequence. "Traceability" covers both 'metrological traceability
+        of a quantity value' and 'traceability of a nominal property value'.
+      sources: []
+    - text: Specified quantity values of certified reference materials require metrological
+        traceability with associated measurement uncertainty (Accred. Qual. Assur.:2006).
+      sources: []
+    - text: ISO/REMCO has an analogous definition (Accred. Qual. Assur.:2006) but
+        uses the modifiers "metrological" and "metrologically" to refer to both quantity
+        and nominal property
+      sources: []
+    examples:
+    - Human serum with assigned quantity value for the concentration of cholesterol
+      and associated measurement uncertainty stated in an accompanying certificate,
+      used as a calibrator or measurement trueness control material.
+    example_paragraphs:
+    - text: Human serum with assigned quantity value for the concentration of cholesterol
+        and associated measurement uncertainty stated in an accompanying certificate,
+        used as a calibrator or measurement trueness control material.
+      sources: []
     source:
+      kind: vim
+      relationship: identical
+      modification:
+      ref_source: OIML V 2-200:2012
+      ref_id: '5.14'
+      is_vimline: true
     consistency: pending
     consistency_reason: ''
 status: current

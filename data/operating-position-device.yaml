@@ -26,10 +26,19 @@ data:
     g18_entry: '00360'
     definition: device to switch the taximeter into specific operating positions (see
       2.3.3)
+    definition_paragraphs:
+    - text: device to switch the taximeter into specific operating positions (see
+        2.3.3)
+      sources: []
     notes:
     - The operating position device may, for example, consist of specific keys and
       switches for specific functions.
+    note_paragraphs:
+    - text: The operating position device may, for example, consist of specific keys
+        and switches for specific functions.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -43,10 +52,19 @@ data:
     g18_entry: '00360'
     definition: device to switch the taximeter into specific operating positions (see
       2.3.3)
+    definition_paragraphs:
+    - text: device to switch the taximeter into specific operating positions (see
+        2.3.3)
+      sources: []
     notes:
     - 'Note: The operating position device may, for example, consist of specific keys
       and switches for specific functions.'
+    note_paragraphs:
+    - text: 'Note: The operating position device may, for example, consist of specific
+        keys and switches for specific functions.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

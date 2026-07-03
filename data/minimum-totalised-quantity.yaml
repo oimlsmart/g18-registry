@@ -32,8 +32,14 @@ data:
     definition: totalised quantity, in units of mass, below which totalised values
       may be subject to errors exceeding the applicable maximum permissible errors
       (mpe)
+    definition_paragraphs:
+    - text: totalised quantity, in units of mass, below which totalised values may
+        be subject to errors exceeding the applicable maximum permissible errors (mpe)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

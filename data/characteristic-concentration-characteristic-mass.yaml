@@ -26,9 +26,18 @@ data:
     definition: concentration or mass of an element which produces a change from the
       blank test solution of 0.004 4 absorbance units (1 % absorption) at the wavelength
       of the absorption line employed
+    definition_paragraphs:
+    - text: concentration or mass of an element which produces a change from the blank
+        test solution of 0.004 4 absorbance units (1 % absorption) at the wavelength
+        of the absorption line employed
+      sources: []
     notes:
     - 'Note: Historically, sensitivity has been used for this term in this field.'
+    note_paragraphs:
+    - text: 'Note: Historically, sensitivity has been used for this term in this field.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

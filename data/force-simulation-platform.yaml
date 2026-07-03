@@ -25,8 +25,14 @@ data:
     g18_entry: '03084'
     definition: platform designed to be loaded with standard weights for the purpose
       of simulating a force on the force receptor
+    definition_paragraphs:
+    - text: platform designed to be loaded with standard weights for the purpose of
+        simulating a force on the force receptor
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

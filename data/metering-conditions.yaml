@@ -26,8 +26,14 @@ data:
     g18_entry: '01546'
     definition: 'values of the conditions which characterize the liquid during measurement
       at the point of measurement (example: temperature and pressure of the liquid)'
+    definition_paragraphs:
+    - text: 'values of the conditions which characterize the liquid during measurement
+        at the point of measurement (example: temperature and pressure of the liquid)'
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '02056'
     definition: conditions of the gas at which the quantity is measured at the point
       of measurement (temperature and pressure of the measured gas)
+    definition_paragraphs:
+    - text: conditions of the gas at which the quantity is measured at the point of
+        measurement (temperature and pressure of the measured gas)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -56,8 +68,14 @@ data:
     g18_entry: '00434'
     definition: 'conditions of the water, the volume of which is to be measured, at
       the point of measurement (example: temperature and pressure of the water)'
+    definition_paragraphs:
+    - text: 'conditions of the water, the volume of which is to be measured, at the
+        point of measurement (example: temperature and pressure of the water)'
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -71,8 +89,14 @@ data:
     g18_entry: '01025'
     definition: the conditions of the volume of the liquid at the point of measurement.
       For example, temperature and pressure
+    definition_paragraphs:
+    - text: the conditions of the volume of the liquid at the point of measurement.
+        For example, temperature and pressure
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -86,8 +110,14 @@ data:
     g18_entry: '02403'
     definition: conditions of the water, the volume of which is to be measured, at
       the point of measurement EXAMPLE:Water temperature, water pressure.
+    definition_paragraphs:
+    - text: conditions of the water, the volume of which is to be measured, at the
+        point of measurement EXAMPLE:Water temperature, water pressure.
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -101,8 +131,14 @@ data:
     g18_entry: '01546'
     definition: 'values of the conditions which characterise the liquid during measurement
       at the point of measurement (example: temperature and pressure of the liquid)'
+    definition_paragraphs:
+    - text: 'values of the conditions which characterise the liquid during measurement
+        at the point of measurement (example: temperature and pressure of the liquid)'
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -116,8 +152,14 @@ data:
     g18_entry: '03290'
     definition: conditions of the gas at which the quantity is measured at the point
       of measurement (temperature and pressure of the measured gas)
+    definition_paragraphs:
+    - text: conditions of the gas at which the quantity is measured at the point of
+        measurement (temperature and pressure of the measured gas)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -131,8 +173,14 @@ data:
     g18_entry: '01025'
     definition: the conditions of the volume of the liquid at the point of measurement.
       For example, temperature and pressure
+    definition_paragraphs:
+    - text: the conditions of the volume of the liquid at the point of measurement.
+        For example, temperature and pressure
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

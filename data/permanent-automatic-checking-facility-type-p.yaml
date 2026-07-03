@@ -24,8 +24,13 @@ data:
     link:
     g18_entry: '03365'
     definition: automatic checking facility that operates at each measurement cycle
+    definition_paragraphs:
+    - text: automatic checking facility that operates at each measurement cycle
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -38,8 +43,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r080-1-e09.pdf
     g18_entry: '02297-R080-1'
     definition: automatic checking facility that operates at each measurement cycle
+    definition_paragraphs:
+    - text: automatic checking facility that operates at each measurement cycle
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -52,8 +62,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r085-1-e08.pdf
     g18_entry: 02310-R085-1
     definition: automatic checking facility that operates at each measurement cycle
+    definition_paragraphs:
+    - text: automatic checking facility that operates at each measurement cycle
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -67,8 +82,14 @@ data:
     g18_entry: '02365'
     definition: automatic checking facility operating during each measurement cycle
       [adapted from OIML D 11:2004, 3.18.1.1]
+    definition_paragraphs:
+    - text: automatic checking facility operating during each measurement cycle [adapted
+        from OIML D 11:2004, 3.18.1.1]
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -82,8 +103,14 @@ data:
     g18_entry: '02102'
     definition: automatic checking facility operating continuously during the entire
       measurement operation
+    definition_paragraphs:
+    - text: automatic checking facility operating continuously during the entire measurement
+        operation
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -25,8 +25,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r061-1-e04.pdf
     g18_entry: '00752'
     definition: one load, or more loads combined, that make up the predetermined mass
+    definition_paragraphs:
+    - text: one load, or more loads combined, that make up the predetermined mass
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -40,8 +45,13 @@ data:
     g18_entry: '03075'
     definition: one load, or several loads combined, that make up the predetermined
       mass
+    definition_paragraphs:
+    - text: one load, or several loads combined, that make up the predetermined mass
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

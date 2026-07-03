@@ -25,8 +25,14 @@ data:
     g18_entry: '01531'
     definition: mobile measuring system intended for refuelling aircraft, supplied
       from a tank mounted on the vehicle
+    definition_paragraphs:
+    - text: mobile measuring system intended for refuelling aircraft, supplied from
+        a tank mounted on the vehicle
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

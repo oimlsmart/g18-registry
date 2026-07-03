@@ -25,8 +25,13 @@ data:
     g18_entry: '03114'
     definition: mass flowrate of product from a preceding feeding device onto force
       receptor
+    definition_paragraphs:
+    - text: mass flowrate of product from a preceding feeding device onto force receptor
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

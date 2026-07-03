@@ -25,8 +25,14 @@ data:
     g18_entry: '03286'
     definition: effect on true alcohol concentration of the sample caused by previous
       samples
+    definition_paragraphs:
+    - text: effect on true alcohol concentration of the sample caused by previous
+        samples
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

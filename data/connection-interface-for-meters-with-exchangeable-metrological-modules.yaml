@@ -25,8 +25,13 @@ data:
     g18_entry: '02392'
     definition: pipe fitting specific to the connection of exchangeable metrological
       modules
+    definition_paragraphs:
+    - text: pipe fitting specific to the connection of exchangeable metrological modules
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

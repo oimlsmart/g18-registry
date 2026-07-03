@@ -26,8 +26,14 @@ data:
     g18_entry: '02279'
     definition: 'conditions under which the volume of liquid is to be measured, at
       the point of measurement (example: temperature, viscosity, position of the tank).'
+    definition_paragraphs:
+    - text: 'conditions under which the volume of liquid is to be measured, at the
+        point of measurement (example: temperature, viscosity, position of the tank).'
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '03646'
     definition: 'conditions under which the volume of liquid is to be measured, at
       the point of measurement (example: temperature, viscosity, position of the tank)'
+    definition_paragraphs:
+    - text: 'conditions under which the volume of liquid is to be measured, at the
+        point of measurement (example: temperature, viscosity, position of the tank)'
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -56,8 +68,14 @@ data:
     g18_entry: '02279-R080-1'
     definition: 'conditions under which the volume of liquid is to be measured, at
       the point of measurement (example: temperature, viscosity, position of the tank)'
+    definition_paragraphs:
+    - text: 'conditions under which the volume of liquid is to be measured, at the
+        point of measurement (example: temperature, viscosity, position of the tank)'
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

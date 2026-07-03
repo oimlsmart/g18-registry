@@ -26,8 +26,14 @@ data:
     g18_entry: '00876'
     definition: instrument allowing the direct reading of the complete or partial
       weighing result
+    definition_paragraphs:
+    - text: instrument allowing the direct reading of the complete or partial weighing
+        result
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '00876'
     definition: instrument allowing the direct reading of the complete or partial
       weighing result
+    definition_paragraphs:
+    - text: instrument allowing the direct reading of the complete or partial weighing
+        result
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

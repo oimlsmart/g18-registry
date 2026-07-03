@@ -27,8 +27,15 @@ data:
     definition: assurance that the programs, data, or parameters have not been subjected
       to any unauthorized or unintended changes while in use, transfer, storage, repair
       or maintenance
+    definition_paragraphs:
+    - text: assurance that the programs, data, or parameters have not been subjected
+        to any unauthorized or unintended changes while in use, transfer, storage,
+        repair or maintenance
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -43,8 +50,15 @@ data:
     definition: assurance that the programs, data or parameters have not been subjected
       to any unauthorized or unintended changes during their use, transfer, storage,
       repair or maintenance
+    definition_paragraphs:
+    - text: assurance that the programs, data or parameters have not been subjected
+        to any unauthorized or unintended changes during their use, transfer, storage,
+        repair or maintenance
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -59,8 +73,15 @@ data:
     definition: assurance that the programs, data or parameters have not been subjected
       to any unauthorized or unintended changes while in use, transfer, storage, repair
       or maintenance
+    definition_paragraphs:
+    - text: assurance that the programs, data or parameters have not been subjected
+        to any unauthorized or unintended changes while in use, transfer, storage,
+        repair or maintenance
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

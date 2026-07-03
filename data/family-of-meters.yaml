@@ -30,8 +30,19 @@ data:
       accuracy class; the same electronic device for each meter size; a similar standard
       of design and component assembly; and the same materials for those components
       that are critical to the performance of the meter"
+    definition_paragraphs:
+    - text: "• • • • • • • • group of meters of different sizes and/or different flowrates,
+        in which all the meters shall have the following characteristics: the same
+        manufacturer; geometric similarity of the measuring part; the same metering
+        principle; roughly the same ratios Qmax/Qmin and Qmax/Qt; the same accuracy
+        class; the same electronic device for each meter size; a similar standard
+        of design and component assembly; and the same materials for those components
+        that are critical to the performance of the meter"
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

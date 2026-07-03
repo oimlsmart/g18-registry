@@ -35,8 +35,14 @@ data:
     g18_entry: '01387'
     definition: indication of an instrument minus the (conventional) true value ofthe
       mass
+    definition_paragraphs:
+    - text: indication of an instrument minus the (conventional) true value ofthe
+        mass
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -49,8 +55,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r117-1-e07.pdf
     g18_entry: '01559'
     definition: indicated quantity value minus the reference (true) quantity value
+    definition_paragraphs:
+    - text: indicated quantity value minus the reference (true) quantity value
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -64,8 +75,13 @@ data:
     g18_entry: '00426'
     definition: "[a indicated volume minus the actual volume dapted from VIM:1993,
       5.20]"
+    definition_paragraphs:
+    - text: "[a indicated volume minus the actual volume dapted from VIM:1993, 5.20]"
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -84,9 +100,17 @@ data:
     g18_entry: '01904'
     definition: indication of a measuring instrument minus the (conventional) true
       value of the area
+    definition_paragraphs:
+    - text: indication of a measuring instrument minus the (conventional) true value
+        of the area
+      sources: []
     notes:
     - "[VIM:1993, 5.20]"
+    note_paragraphs:
+    - text: "[VIM:1993, 5.20]"
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -100,8 +124,14 @@ data:
     g18_entry: '01821'
     definition: indication of an instrument minus the (conventional) true value of
       the mass
+    definition_paragraphs:
+    - text: indication of an instrument minus the (conventional) true value of the
+        mass
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -115,8 +145,14 @@ data:
     g18_entry: '01293'
     definition: the indication of an instrument minus the (conventional) true value
       of the mass
+    definition_paragraphs:
+    - text: the indication of an instrument minus the (conventional) true value of
+        the mass
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -130,8 +166,14 @@ data:
     g18_entry: '01231'
     definition: the indication of a measuring system minus the (conventional) true
       value of the measure [VIM:1993, 5.24]
+    definition_paragraphs:
+    - text: the indication of a measuring system minus the (conventional) true value
+        of the measure [VIM:1993, 5.24]
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -150,8 +192,14 @@ data:
     g18_entry: '01387'
     definition: indication of an instrument minus the (conventional) true value of
       the mass
+    definition_paragraphs:
+    - text: indication of an instrument minus the (conventional) true value of the
+        mass
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

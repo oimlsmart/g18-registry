@@ -27,8 +27,15 @@ data:
     definition: "( depth of immersion in a thermostatic bath with a temperature of
       80 ± 5) °C at an ambient temperature of (25 ± 5) °C, beyond which deeper immersion
       changes the output value by an amount corresponding to less than 0.1 K"
+    definition_paragraphs:
+    - text: "( depth of immersion in a thermostatic bath with a temperature of 80
+        ± 5) °C at an ambient temperature of (25 ± 5) °C, beyond which deeper immersion
+        changes the output value by an amount corresponding to less than 0.1 K"
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -43,8 +50,15 @@ data:
     definition: depth of immersion in a thermostatic bath with a temperature of (80
       ± 5) °C at an ambient temperature of (25 ± 5) °C, beyond which deeper immersion
       changes the output value by an amount corresponding to less than 0.1 K
+    definition_paragraphs:
+    - text: depth of immersion in a thermostatic bath with a temperature of (80 ±
+        5) °C at an ambient temperature of (25 ± 5) °C, beyond which deeper immersion
+        changes the output value by an amount corresponding to less than 0.1 K
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -25,12 +25,24 @@ data:
     g18_entry: '03744'
     definition: line starting from the speed meter lying in the centre of the region
       monitored by the speed meter (see Figure 2)
+    definition_paragraphs:
+    - text: line starting from the speed meter lying in the centre of the region monitored
+        by the speed meter (see Figure 2)
+      sources: []
     notes:
     - For a speed meter with a fixed beam, the centre line is in the centre of the
       beam.
     - For a speed meter with a scanning beam, the centre line is in the centre of
       the scanning region.
+    note_paragraphs:
+    - text: For a speed meter with a fixed beam, the centre line is in the centre
+        of the beam.
+      sources: []
+    - text: For a speed meter with a scanning beam, the centre line is in the centre
+        of the scanning region.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

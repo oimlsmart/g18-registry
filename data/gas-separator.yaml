@@ -26,8 +26,14 @@ data:
     g18_entry: '01571'
     definition: gas elimination device used for continuously separating, and removing,
       any mixed air or gases contained in the liquid
+    definition_paragraphs:
+    - text: gas elimination device used for continuously separating, and removing,
+        any mixed air or gases contained in the liquid
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '03092'
     definition: gas elimination device used for continuously separate and remove any
       mixed air or gases contained in the liquid
+    definition_paragraphs:
+    - text: gas elimination device used for continuously separate and remove any mixed
+        air or gases contained in the liquid
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -37,8 +37,15 @@ data:
     definition: set of operations carried out on a measuring system so that it (VIM:2007,
       3.11) provides prescribed indications corresponding to given values of a quantity
       to be measured
+    definition_paragraphs:
+    - text: set of operations carried out on a measuring system so that it (VIM:2007,
+        3.11) provides prescribed indications corresponding to given values of a quantity
+        to be measured
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -58,8 +65,15 @@ data:
     definition: set of operations carried out on a measuring system so that it (VIM:2007,
       3.11) provides prescribed indications corresponding to given values of aquantity
       to be measured
+    definition_paragraphs:
+    - text: set of operations carried out on a measuring system so that it (VIM:2007,
+        3.11) provides prescribed indications corresponding to given values of aquantity
+        to be measured
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -78,8 +92,14 @@ data:
     g18_entry: '03706'
     definition: set of operations carried out on a measuring system so that it provides
       prescribed indications corresponding to given values of a quantity to be measured
+    definition_paragraphs:
+    - text: set of operations carried out on a measuring system so that it provides
+        prescribed indications corresponding to given values of a quantity to be measured
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: vim
       relationship: identical
@@ -99,10 +119,25 @@ data:
     g18_entry: '02442'
     definition: set of operations carried out on a measuring system so that it provides
       prescribed indications corresponding to given values of a quantity to be measured
+    definition_paragraphs:
+    - text: set of operations carried out on a measuring system so that it provides
+        prescribed indications corresponding to given values of a quantity to be measured
+      sources:
+      - kind: vim
+        relationship: identical
+        modification:
+        ref_source: OIML V 2-200:2012
+        ref_id: '3.11'
+        is_vimline: true
     notes:
     - 'Additional note: A change in the value of any of a device’s sealable calibration
       parameters or sealable configuration parameters.'
+    note_paragraphs:
+    - text: 'Additional note: A change in the value of any of a device’s sealable
+        calibration parameters or sealable configuration parameters.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: vim
       relationship: identical
@@ -122,6 +157,16 @@ data:
     g18_entry: '02783'
     definition: set of operations carried out on a measuring system so that it provides
       prescribed indications corresponding to given values of a quantity to be measured
+    definition_paragraphs:
+    - text: set of operations carried out on a measuring system so that it provides
+        prescribed indications corresponding to given values of a quantity to be measured
+      sources:
+      - kind: vim
+        relationship: identical
+        modification:
+        ref_source: OIML V 2-200:2012
+        ref_id: '3.11'
+        is_vimline: true
     notes:
     - Types of adjustment of a measuring system include zero adjustment of a measuring
       system, offset adjustment, and span adjustment (sometimes called gain adjustment).
@@ -134,7 +179,25 @@ data:
       that require a higher level of expertise (e.g. adjustment of the calibration
       equation slope, modification of hardware/software components or settings) may
       be less accessible due to increased security requirements.
+    note_paragraphs:
+    - text: Types of adjustment of a measuring system include zero adjustment of a
+        measuring system, offset adjustment, and span adjustment (sometimes called
+        gain adjustment).
+      sources: []
+    - text: Adjustment of a measuring system should not be confused with calibration,
+        which is a prerequisite for adjustment.
+      sources: []
+    - text: After an adjustment of a measuring system, the measuring system must usually
+        be recalibrated.
+      sources: []
+    - text: For protein measuring instruments, alignment with the reference method
+        is typically accomplished through a bias adjustment to the calibration equation.
+        Other mechanisms that require a higher level of expertise (e.g. adjustment
+        of the calibration equation slope, modification of hardware/software components
+        or settings) may be less accessible due to increased security requirements.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: vim
       relationship: identical
@@ -154,8 +217,20 @@ data:
     g18_entry: '02758'
     definition: set of operations carried out on a measuring system so that it provides
       prescribed indications corresponding to given values of a quantity to be measured
+    definition_paragraphs:
+    - text: set of operations carried out on a measuring system so that it provides
+        prescribed indications corresponding to given values of a quantity to be measured
+      sources:
+      - kind: vim
+        relationship: identical
+        modification:
+        ref_source: OIML V 2-200:2012
+        ref_id: '3.11'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: vim
       relationship: identical
@@ -176,8 +251,15 @@ data:
     definition: set of operations carried out on a measuring system so that it provides
       prescribed indications corresponding to given values of a quantity to be measured
       [VIM:2007, 3.11]
+    definition_paragraphs:
+    - text: set of operations carried out on a measuring system so that it provides
+        prescribed indications corresponding to given values of a quantity to be measured
+        [VIM:2007, 3.11]
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

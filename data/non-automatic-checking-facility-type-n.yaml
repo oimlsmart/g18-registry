@@ -30,8 +30,13 @@ data:
     link:
     g18_entry: '02239-D011'
     definition: checking facility that requires the intervention of an operator
+    definition_paragraphs:
+    - text: checking facility that requires the intervention of an operator
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -44,8 +49,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r140-e07.pdf
     g18_entry: '02104'
     definition: checking facility that requires the intervention of an operator
+    definition_paragraphs:
+    - text: checking facility that requires the intervention of an operator
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

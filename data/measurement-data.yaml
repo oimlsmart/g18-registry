@@ -24,10 +24,18 @@ data:
     link:
     g18_entry: '03252'
     definition: data used during the measurement process
+    definition_paragraphs:
+    - text: data used during the measurement process
+      sources: []
     notes:
     - 'Note: Measurement data include measured quantity vlue, measurement result relevant
       data and mesurement proces data, see Annex C.'
+    note_paragraphs:
+    - text: 'Note: Measurement data include measured quantity vlue, measurement result
+        relevant data and mesurement proces data, see Annex C.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

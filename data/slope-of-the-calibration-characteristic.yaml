@@ -26,8 +26,14 @@ data:
     g18_entry: '00404'
     definition: ratio of a small change in the current in the lamp circuit to the
       corresponding change in its radiance temperature
+    definition_paragraphs:
+    - text: ratio of a small change in the current in the lamp circuit to the corresponding
+        change in its radiance temperature
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '00404'
     definition: ratio of a small change in the current in the lamp circuit to the
       corresponding change in its radiance temperature
+    definition_paragraphs:
+    - text: ratio of a small change in the current in the lamp circuit to the corresponding
+        change in its radiance temperature
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

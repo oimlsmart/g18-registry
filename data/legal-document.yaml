@@ -25,11 +25,23 @@ data:
     g18_entry: '02201'
     definition: any legislative text adopted by, or by virtue of, government and/or
       parliament decision
+    definition_paragraphs:
+    - text: any legislative text adopted by, or by virtue of, government and/or parliament
+        decision
+      sources: []
     notes:
     - Legal documents may be primary legislation (for example named treaty, law or
       act) or secondary legislation (for example named decree, decision or regulation).
     - '"Legal document" is sometimes referred to as "Legal instrument".'
+    note_paragraphs:
+    - text: Legal documents may be primary legislation (for example named treaty,
+        law or act) or secondary legislation (for example named decree, decision or
+        regulation).
+      sources: []
+    - text: '"Legal document" is sometimes referred to as "Legal instrument".'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

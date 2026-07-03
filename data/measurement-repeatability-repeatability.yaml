@@ -33,8 +33,13 @@ data:
     link:
     g18_entry: '03724'
     definition: measurement precision under a set of repeatability conditions of measurement
+    definition_paragraphs:
+    - text: measurement precision under a set of repeatability conditions of measurement
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

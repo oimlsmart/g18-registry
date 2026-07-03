@@ -26,8 +26,14 @@ data:
     g18_entry: '01779'
     definition: short, optional scale, either at the lower end or the upper of the
       thermometer, that contains a reference point, usually the ice point (0 °C)
+    definition_paragraphs:
+    - text: short, optional scale, either at the lower end or the upper of the thermometer,
+        that contains a reference point, usually the ice point (0 °C)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '01779'
     definition: short, optional scale, either at the lower end or the upper of the
       thermometer, that contains a reference point, usually the ice point (0 °C)
+    definition_paragraphs:
+    - text: short, optional scale, either at the lower end or the upper of the thermometer,
+        that contains a reference point, usually the ice point (0 °C)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

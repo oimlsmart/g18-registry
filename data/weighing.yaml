@@ -26,8 +26,14 @@ data:
     g18_entry: '00754'
     definition: process of determining the mass of a load from the effect of gravity
       on that load
+    definition_paragraphs:
+    - text: process of determining the mass of a load from the effect of gravity on
+        that load
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '03633'
     definition: process of determining the mass of a load using the effect of gravity
       on that load
+    definition_paragraphs:
+    - text: process of determining the mass of a load using the effect of gravity
+        on that load
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

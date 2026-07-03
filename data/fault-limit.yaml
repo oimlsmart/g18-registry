@@ -25,8 +25,19 @@ data:
     g18_entry: '03069'
     definition: value specified in this Recommendation delimiting non-significant
       faults
+    definition_paragraphs:
+    - text: value specified in this Recommendation delimiting non-significant faults
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2013
+        ref_id: '5.13'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical
@@ -46,8 +57,19 @@ data:
     g18_entry: '03072'
     definition: value specified in this Recommendation delimiting non-significant
       faults
+    definition_paragraphs:
+    - text: value specified in this Recommendation delimiting non-significant faults
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2013
+        ref_id: '5.12'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical
@@ -66,8 +88,19 @@ data:
     link:
     g18_entry: '03070'
     definition: value delimiting non-significant faults
+    definition_paragraphs:
+    - text: value delimiting non-significant faults
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2013
+        ref_id: '5.13'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical
@@ -87,8 +120,14 @@ data:
     g18_entry: '03071'
     definition: value specified (in this Recommendation) delimiting non-significant
       faults [VIML:2013, 5.13]
+    definition_paragraphs:
+    - text: value specified (in this Recommendation) delimiting non-significant faults
+        [VIML:2013, 5.13]
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -102,8 +141,14 @@ data:
     g18_entry: '03662'
     definition: value specified in the applicable Recommendation delimiting non-significant
       faults (VIML, 5.13)
+    definition_paragraphs:
+    - text: value specified in the applicable Recommendation delimiting non-significant
+        faults (VIML, 5.13)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -117,8 +162,20 @@ data:
     g18_entry: 02225-D011
     definition: value specified in the applicable Recommendation delimiting non-significant
       faults
+    definition_paragraphs:
+    - text: value specified in the applicable Recommendation delimiting non-significant
+        faults
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2013
+        ref_id: '5.13'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical

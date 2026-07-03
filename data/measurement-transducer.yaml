@@ -33,10 +33,20 @@ data:
     definition: part of the meter which transforms the flow of the gas to be measured
       into signals which are passed to the calculator. It may be autonomous or use
       an external power source
+    definition_paragraphs:
+    - text: part of the meter which transforms the flow of the gas to be measured
+        into signals which are passed to the calculator. It may be autonomous or use
+        an external power source
+      sources: []
     notes:
     - For the purposes of this Recommendation, the measurement transducer includes
       the flow or quantity sensor.
+    note_paragraphs:
+    - text: For the purposes of this Recommendation, the measurement transducer includes
+        the flow or quantity sensor.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -53,9 +63,20 @@ data:
       are passed to the measure calculator. It can be based on a mechanical, or an
       electrical, or sensor an electronic principle. It may be autonomous or use an
       external power source
+    definition_paragraphs:
+    - text: part of the meter which transforms the flow or the volume of the For the
+        purposes of this Recommendation, the water to be measured into signals which
+        are passed to the measure calculator. It can be based on a mechanical, or
+        an electrical, or sensor an electronic principle. It may be autonomous or
+        use an external power source
+      sources: []
     notes:
     - ment transducer includes the flow or volume sensor
+    note_paragraphs:
+    - text: ment transducer includes the flow or volume sensor
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -70,10 +91,20 @@ data:
     definition: a part of the meter that transforms the flow of the liquid to be measured
       into a signal(s) which is (are) sent to the calculator. It may either be autonomous
       or use an external power source
+    definition_paragraphs:
+    - text: a part of the meter that transforms the flow of the liquid to be measured
+        into a signal(s) which is (are) sent to the calculator. It may either be autonomous
+        or use an external power source
+      sources: []
     notes:
     - For the purpose of this Recommendation, the measurement transducer includes
       the flow or volume sensor.
+    note_paragraphs:
+    - text: For the purpose of this Recommendation, the measurement transducer includes
+        the flow or volume sensor.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -88,10 +119,20 @@ data:
     definition: part of the meter that transforms the flow rate (3.3.1) or volume
       of water to be measured into signals which are passed to the calculator (3.1.40
       and includes the sensor (3.1.3)
+    definition_paragraphs:
+    - text: part of the meter that transforms the flow rate (3.3.1) or volume of water
+        to be measured into signals which are passed to the calculator (3.1.40 and
+        includes the sensor (3.1.3)
+      sources: []
     notes:
     - Note:The measurement transducer may function autonomously or use an external
       power source and may be based on a mechanical, electrical or electronic principle.
+    note_paragraphs:
+    - text: Note:The measurement transducer may function autonomously or use an external
+        power source and may be based on a mechanical, electrical or electronic principle.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -105,11 +146,33 @@ data:
     g18_entry: '03248'
     definition: device that provides an output quantity having a specified relation
       to the input quantity
+    definition_paragraphs:
+    - text: device that provides an output quantity having a specified relation to
+        the input quantity
+      sources:
+      - kind: vim
+        relationship: identical
+        modification:
+        ref_source: OIML V 2-200:2012
+        ref_id: '3.7'
+        is_vimline: true
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2013
+        ref_id: '0.11'
+        is_vimline: true
     notes:
     - 'Note: For the purpose of this Recommendation this transducer is part of the
       measuring device and its output signal represents the output quantity which
       is based on the input from the sensor(s), being the input quantity.'
+    note_paragraphs:
+    - text: 'Note: For the purpose of this Recommendation this transducer is part
+        of the measuring device and its output signal represents the output quantity
+        which is based on the input from the sensor(s), being the input quantity.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: vim
       relationship: identical
@@ -130,10 +193,20 @@ data:
     definition: a part of the meter that transforms the flow of the liquid to be measured
       into a signal(s) which is (are) sent to the calculator. It may either be autonomous
       or use an external power source
+    definition_paragraphs:
+    - text: a part of the meter that transforms the flow of the liquid to be measured
+        into a signal(s) which is (are) sent to the calculator. It may either be autonomous
+        or use an external power source
+      sources: []
     notes:
     - 'Note: For the purpose of this Recommendation, the measurement transducer includes
       the flow or volume sensor.'
+    note_paragraphs:
+    - text: 'Note: For the purpose of this Recommendation, the measurement transducer
+        includes the flow or volume sensor.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -30,11 +30,20 @@ data:
     link:
     g18_entry: 02313-R046-1
     definition: ratio of the active power to the apparent power
+    definition_paragraphs:
+    - text: ratio of the active power to the apparent power
+      sources: []
     notes:
     - Note:At sinusoidal and either one-phase or symmetrical three-phase conditions,
       the power factor = cos  = the cosine of the phase difference   between voltage
       U and current I.
+    note_paragraphs:
+    - text: Note:At sinusoidal and either one-phase or symmetrical three-phase conditions,
+        the power factor = cos  = the cosine of the phase difference   between voltage
+        U and current I.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

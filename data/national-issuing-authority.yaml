@@ -27,8 +27,16 @@ data:
       Member that is responsible for national type approval and that issues Type Approval
       Certificates (see VIML 2) for specific categories of measuring instruments on
       the basis ofexamination and testing under its own control"
+    definition_paragraphs:
+    - text: ". certifying body or person in an OIML Member State or Corresponding
+        Member that is responsible for national type approval and that issues Type
+        Approval Certificates (see VIML 2) for specific categories of measuring instruments
+        on the basis ofexamination and testing under its own control"
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

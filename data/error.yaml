@@ -34,9 +34,16 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r143-e09.pdf
     g18_entry: '02139'
     definition: measured quantity value minus a reference quantity value
+    definition_paragraphs:
+    - text: measured quantity value minus a reference quantity value
+      sources: []
     notes:
     - "(VIM:2007, 2.16)"
+    note_paragraphs:
+    - text: "(VIM:2007, 2.16)"
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -50,9 +57,17 @@ data:
     g18_entry: '02184'
     definition: indication of a measuring instrument minus a true value of the corresponding
       input quantity
+    definition_paragraphs:
+    - text: indication of a measuring instrument minus a true value of the corresponding
+        input quantity
+      sources: []
     notes:
     - "[VIM:1993, 5.20; OIML D 11:2004, 3.5]"
+    note_paragraphs:
+    - text: "[VIM:1993, 5.20; OIML D 11:2004, 3.5]"
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -66,8 +81,13 @@ data:
     g18_entry: '02326'
     definition: indication of an ALG minus a true value of the corresponding input
       quantity
+    definition_paragraphs:
+    - text: indication of an ALG minus a true value of the corresponding input quantity
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -80,9 +100,16 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r099-1-e08.pdf
     g18_entry: '02350'
     definition: measured quantity value minus a reference quantity value
+    definition_paragraphs:
+    - text: measured quantity value minus a reference quantity value
+      sources: []
     notes:
     - "(VIM:2007, 2.16)"
+    note_paragraphs:
+    - text: "(VIM:2007, 2.16)"
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -96,8 +123,14 @@ data:
     g18_entry: '00654'
     definition: "[V indication of an instrument minus the (conventional) true value
       ofthe mass IM:1993, 5.20]"
+    definition_paragraphs:
+    - text: "[V indication of an instrument minus the (conventional) true value ofthe
+        mass IM:1993, 5.20]"
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -111,8 +144,14 @@ data:
     g18_entry: '00977'
     definition: "[a indication of an instrument minus the (conventional) true value
       ofthe corresponding mass dapted from VIM:1993, 1993, 3.10]"
+    definition_paragraphs:
+    - text: "[a indication of an instrument minus the (conventional) true value ofthe
+        corresponding mass dapted from VIM:1993, 1993, 3.10]"
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -126,8 +165,20 @@ data:
     g18_entry: '00228'
     definition: indication of a measuring instrument minus a true value of the corresponding
       input quantity
+    definition_paragraphs:
+    - text: indication of a measuring instrument minus a true value of the corresponding
+        input quantity
+      sources:
+      - kind: other
+        relationship: identical
+        modification:
+        ref_source: OIML V 2:1993
+        ref_id: '5.20'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: other
       relationship: identical
@@ -153,8 +204,15 @@ data:
     definition: "[A the value, in units of mass, of the difference between two readings
       from a totalization indicating device on a belt weigher, minus the (conventional)
       true value of the mass relating to those readings dapted from VIM:1993, 5.20]"
+    definition_paragraphs:
+    - text: "[A the value, in units of mass, of the difference between two readings
+        from a totalization indicating device on a belt weigher, minus the (conventional)
+        true value of the mass relating to those readings dapted from VIM:1993, 5.20]"
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -172,8 +230,13 @@ data:
     link:
     g18_entry: '03043'
     definition: indicated quantity value minus the reference (true) quantity value
+    definition_paragraphs:
+    - text: indicated quantity value minus the reference (true) quantity value
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -186,10 +249,24 @@ data:
     link:
     g18_entry: '03044'
     definition: indication minus a reference quantity value
+    definition_paragraphs:
+    - text: indication minus a reference quantity value
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2013
+        ref_id: '4.06'
+        is_vimline: true
     notes:
     - 'Note: This reference value is sometimes referred to as a (conventional) true
       quantity value. [VIML, 4.06]'
+    note_paragraphs:
+    - text: 'Note: This reference value is sometimes referred to as a (conventional)
+        true quantity value. [VIML, 4.06]'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical
@@ -208,8 +285,19 @@ data:
     link:
     g18_entry: '02768'
     definition: measured quantity value minus a reference quantity value
+    definition_paragraphs:
+    - text: measured quantity value minus a reference quantity value
+      sources:
+      - kind: vim
+        relationship: identical
+        modification:
+        ref_source: OIML V 2-200:2012
+        ref_id: '2.16'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: vim
       relationship: identical
@@ -228,6 +316,9 @@ data:
     link:
     g18_entry: '02660'
     definition: measured quantity value minus a reference quantity value (VIM 2.16)
+    definition_paragraphs:
+    - text: measured quantity value minus a reference quantity value (VIM 2.16)
+      sources: []
     notes:
     - Note:The presented VIM definition of (measurement) error is often interpreted
       as the definition for an absolute error. However, when expressing a parameter
@@ -235,7 +326,16 @@ data:
       error. Since in all cases in this document the errors are expressed in relative
       values it was decided that a separate definition for a relative error is not
       needed.
+    note_paragraphs:
+    - text: Note:The presented VIM definition of (measurement) error is often interpreted
+        as the definition for an absolute error. However, when expressing a parameter
+        as a percentage or in dB this definition could also be applied to a relative
+        error. Since in all cases in this document the errors are expressed in relative
+        values it was decided that a separate definition for a relative error is not
+        needed.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -249,8 +349,20 @@ data:
     g18_entry: '02607'
     definition: indication of an instrument minus the (conventional) true value of
       the corresponding input quantity
+    definition_paragraphs:
+    - text: indication of an instrument minus the (conventional) true value of the
+        corresponding input quantity
+      sources:
+      - kind: vim
+        relationship: identical
+        modification:
+        ref_source: OIML V 2-200:2007
+        ref_id: '5.20'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: vim
       relationship: identical
@@ -270,8 +382,13 @@ data:
     g18_entry: '02139'
     definition: measured quantity value minus a reference quantity value [VIM:2007,
       2.16]
+    definition_paragraphs:
+    - text: measured quantity value minus a reference quantity value [VIM:2007, 2.16]
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -285,8 +402,13 @@ data:
     g18_entry: 02326-R085-1
     definition: indication of an ALG minus a true value of the corresponding input
       quantity
+    definition_paragraphs:
+    - text: indication of an ALG minus a true value of the corresponding input quantity
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -300,8 +422,13 @@ data:
     g18_entry: '02351'
     definition: measured quantity value minus a reference quantity value [VIM:2007,
       2.16]
+    definition_paragraphs:
+    - text: measured quantity value minus a reference quantity value [VIM:2007, 2.16]
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -315,8 +442,14 @@ data:
     g18_entry: '00654'
     definition: indication of an instrument minus the (conventional) true value of
       the mass [VIM:1993, 5.20]
+    definition_paragraphs:
+    - text: indication of an instrument minus the (conventional) true value of the
+        mass [VIM:1993, 5.20]
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -330,8 +463,14 @@ data:
     g18_entry: '00977'
     definition: indication of an instrument minus the (conventional) true value of
       the corresponding mass [adapted from VIM:1993, 1993, 3.10]
+    definition_paragraphs:
+    - text: indication of an instrument minus the (conventional) true value of the
+        corresponding mass [adapted from VIM:1993, 1993, 3.10]
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -345,8 +484,20 @@ data:
     g18_entry: '03041'
     definition: indication of an instrument minus the (conventional) true value of
       the mass
+    definition_paragraphs:
+    - text: indication of an instrument minus the (conventional) true value of the
+        mass
+      sources:
+      - kind: other
+        relationship: identical
+        modification:
+        ref_source: OIML V 2:1993
+        ref_id: '5.20'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: other
       relationship: identical
@@ -366,8 +517,14 @@ data:
     g18_entry: '01904'
     definition: indication of a measuring instrument minus the (conventional) true
       value of the area [VIM:1993, 5.20]
+    definition_paragraphs:
+    - text: indication of a measuring instrument minus the (conventional) true value
+        of the area [VIM:1993, 5.20]
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

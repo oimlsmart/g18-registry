@@ -25,11 +25,21 @@ data:
     g18_entry: '03721'
     definition: instrument in which the test sample is supplied to the device manually,
       the indication being displayed or printed
+    definition_paragraphs:
+    - text: instrument in which the test sample is supplied to the device manually,
+        the indication being displayed or printed
+      sources: []
     notes:
     - 'Note: Type II refractometers shall be equipped with: an automatic temperature
       correction device; a primary indicating device; zero-setting and zero-checking
       devices.'
+    note_paragraphs:
+    - text: 'Note: Type II refractometers shall be equipped with: an automatic temperature
+        correction device; a primary indicating device; zero-setting and zero-checking
+        devices.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

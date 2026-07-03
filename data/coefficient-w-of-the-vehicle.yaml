@@ -31,8 +31,19 @@ data:
       as constant k. The coefficient w varies according to vehicle load, and the dimensions,
       pressure and degree of wear of the tyres. It must be determined under standard
       test conditions (point 4.2.4.).
+    definition_paragraphs:
+    - text: characteristic quantity showing the type (revolutions of the driving shaft
+        or impulses) and number of signals emitted by the device provided on the vehicle,
+        for connection to the odometer or chronotachograph, when the vehicle covers
+        a distance of 1 km. The coefficient w must be expressed in the same units
+        as constant k. The coefficient w varies according to vehicle load, and the
+        dimensions, pressure and degree of wear of the tyres. It must be determined
+        under standard test conditions (point 4.2.4.).
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -51,8 +62,19 @@ data:
       as constant k. The coefficient w varies according to vehicle load, and the dimensions,
       pressure and degree of wear of the tyres. It must be determined under standard
       test conditions (point 4.2.4.).
+    definition_paragraphs:
+    - text: characteristic quantity showing the type (revolutions of the driving shaft
+        or impulses) and number of signals emitted by the device provided on the vehicle,
+        for connection to the odometer or chronotachograph, when the vehicle covers
+        a distance of 1 km. The coefficient w must be expressed in the same units
+        as constant k. The coefficient w varies according to vehicle load, and the
+        dimensions, pressure and degree of wear of the tyres. It must be determined
+        under standard test conditions (point 4.2.4.).
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

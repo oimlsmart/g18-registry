@@ -30,8 +30,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r138-e07.pdf
     g18_entry: '01984'
     definition: volume that the vessel is meant to contain when filled to the brim
+    definition_paragraphs:
+    - text: volume that the vessel is meant to contain when filled to the brim
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

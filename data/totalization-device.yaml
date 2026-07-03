@@ -26,8 +26,14 @@ data:
     g18_entry: '01332'
     definition: device that calculates the sum of consecutive loads weighed and discharged
       to bulk
+    definition_paragraphs:
+    - text: device that calculates the sum of consecutive loads weighed and discharged
+        to bulk
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -43,8 +49,16 @@ data:
       and the displacement transducer to do either: an addition of partial loads,
       or an integration of the product of the load per unit length and the speed of
       the belt"
+    definition_paragraphs:
+    - text: "• • a device that uses information supplied by the weighing unit and
+        the displacement transducer to do either: an addition of partial loads, or
+        an integration of the product of the load per unit length and the speed of
+        the belt"
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -59,8 +73,15 @@ data:
     definition: device that uses information supplied by the weighing module and the
       displacement transducer, either -  to add partial loads, or -  to integrate
       the product of the load per unit length and the speed of the belt
+    definition_paragraphs:
+    - text: device that uses information supplied by the weighing module and the displacement
+        transducer, either -  to add partial loads, or -  to integrate the product
+        of the load per unit length and the speed of the belt
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -74,8 +95,14 @@ data:
     g18_entry: '01332'
     definition: device that calculates the sum of consecutive loads weighed and discharged
       to bulk
+    definition_paragraphs:
+    - text: device that calculates the sum of consecutive loads weighed and discharged
+        to bulk
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

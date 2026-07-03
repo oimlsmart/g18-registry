@@ -26,8 +26,15 @@ data:
     definition: meter in which current and voltage act on solid state (electronic)
       elements to produce an output proportional to the energy to be measured [IEC
       62052-11:2003, 3.1.2]
+    definition_paragraphs:
+    - text: meter in which current and voltage act on solid state (electronic) elements
+        to produce an output proportional to the energy to be measured [IEC 62052-11:2003,
+        3.1.2]
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

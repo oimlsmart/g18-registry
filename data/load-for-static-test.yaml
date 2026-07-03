@@ -24,8 +24,13 @@ data:
     link:
     g18_entry: '03669'
     definition: load that is used in static tests only
+    definition_paragraphs:
+    - text: load that is used in static tests only
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

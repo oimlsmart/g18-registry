@@ -24,9 +24,22 @@ data:
     link:
     g18_entry: '03215'
     definition: affixing of one or more marks
+    definition_paragraphs:
+    - text: affixing of one or more marks
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2013
+        ref_id: '2.19'
+        is_vimline: true
     notes:
     - "(For notes, refer to the VIML)"
+    note_paragraphs:
+    - text: "(For notes, refer to the VIML)"
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical

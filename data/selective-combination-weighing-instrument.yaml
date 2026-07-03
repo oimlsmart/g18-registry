@@ -25,8 +25,14 @@ data:
     g18_entry: '03682'
     definition: AGFI comprising more than one weighing module and which computes an
       appropriate combination of the loads and combines them into one fill
+    definition_paragraphs:
+    - text: AGFI comprising more than one weighing module and which computes an appropriate
+        combination of the loads and combines them into one fill
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

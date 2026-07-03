@@ -25,8 +25,14 @@ data:
     g18_entry: '02940'
     definition: body that performs conformity assessment activities, excluding accreditation
       (ISO/IEC 17000, 4.6)
+    definition_paragraphs:
+    - text: body that performs conformity assessment activities, excluding accreditation
+        (ISO/IEC 17000, 4.6)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

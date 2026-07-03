@@ -24,8 +24,13 @@ data:
     link:
     g18_entry: '02530'
     definition: wagon joined with other wagons
+    definition_paragraphs:
+    - text: wagon joined with other wagons
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

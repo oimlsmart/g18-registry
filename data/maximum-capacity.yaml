@@ -38,8 +38,13 @@ data:
     g18_entry: '00940'
     definition: maximum weighing capacity, not taking into account the additive tare
       capacity
+    definition_paragraphs:
+    - text: maximum weighing capacity, not taking into account the additive tare capacity
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -53,8 +58,14 @@ data:
     g18_entry: '00790'
     definition: largest discrete load that can be weighed automatically on the load
       receptor of the filling instrument
+    definition_paragraphs:
+    - text: largest discrete load that can be weighed automatically on the load receptor
+        of the filling instrument
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -68,8 +79,14 @@ data:
     g18_entry: '01809'
     definition: largest load that an instrument is designed to weigh in motion without
       totalizing
+    definition_paragraphs:
+    - text: largest load that an instrument is designed to weigh in motion without
+        totalizing
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -83,8 +100,14 @@ data:
     g18_entry: '00716'
     definition: largest value of a quantity (mass) which may be applied to a load
       cell without exceeding the mpe (see 2.4.9).
+    definition_paragraphs:
+    - text: largest value of a quantity (mass) which may be applied to a load cell
+        without exceeding the mpe (see 2.4.9).
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -98,8 +121,14 @@ data:
     g18_entry: '00518'
     definition: the maximum instantaneous net load that the weighing unit is intended
       to weigh on the portion of the conveyor belt representing the weigh length
+    definition_paragraphs:
+    - text: the maximum instantaneous net load that the weighing unit is intended
+        to weigh on the portion of the conveyor belt representing the weigh length
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -113,8 +142,14 @@ data:
     g18_entry: '01280'
     definition: the largest load that an instrument is designed to weigh-in- motion
       without totalizing
+    definition_paragraphs:
+    - text: the largest load that an instrument is designed to weigh-in- motion without
+        totalizing
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -128,8 +163,14 @@ data:
     g18_entry: '03221'
     definition: largest value of a quantity expressed in units of mass, which may
       be applied to a load cell
+    definition_paragraphs:
+    - text: largest value of a quantity expressed in units of mass, which may be applied
+        to a load cell
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -143,8 +184,13 @@ data:
     g18_entry: '00940'
     definition: maximum weighing capacity, not taking into account the additive tare
       capacity
+    definition_paragraphs:
+    - text: maximum weighing capacity, not taking into account the additive tare capacity
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -157,8 +203,13 @@ data:
     link:
     g18_entry: '01809'
     definition: largest load that an instrument is designed to weigh in motion without  totalizing
+    definition_paragraphs:
+    - text: largest load that an instrument is designed to weigh in motion without  totalizing
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -26,9 +26,17 @@ data:
     g18_entry: '02014'
     definition: smallest mass of gas for which the measurement is metrologically acceptable
       for that system
+    definition_paragraphs:
+    - text: smallest mass of gas for which the measurement is metrologically acceptable
+        for that system
+      sources: []
     notes:
     - This smallest mass is also referred to as the minimum delivery.
+    note_paragraphs:
+    - text: This smallest mass is also referred to as the minimum delivery.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -42,11 +50,21 @@ data:
     g18_entry: '01022'
     definition: the smallest quantity of liquid for which the measurement is metrologically
       acceptable
+    definition_paragraphs:
+    - text: the smallest quantity of liquid for which the measurement is metrologically
+        acceptable
+      sources: []
     notes:
     - In a measuring system intended to deliver, this quantity is called the minimum
       delivery, and in those used for receiving operations it is called the minimum
       receipt.
+    note_paragraphs:
+    - text: In a measuring system intended to deliver, this quantity is called the
+        minimum delivery, and in those used for receiving operations it is called
+        the minimum receipt.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -60,11 +78,21 @@ data:
     g18_entry: '01022'
     definition: the smallest quantity of liquid for which the measurement is metrologically
       acceptable
+    definition_paragraphs:
+    - text: the smallest quantity of liquid for which the measurement is metrologically
+        acceptable
+      sources: []
     notes:
     - 'Note: In a measuring system intended to deliver, this quantity is called the
       minimum delivery, and in those used for receiving operations it is called the
       minimum receipt.'
+    note_paragraphs:
+    - text: 'Note: In a measuring system intended to deliver, this quantity is called
+        the minimum delivery, and in those used for receiving operations it is called
+        the minimum receipt.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

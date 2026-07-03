@@ -27,9 +27,18 @@ data:
     definition: 'battery that is intended to power specific functions of an instrument
       in the absence of the primary power supply (for example: to preserve stored
       data)'
+    definition_paragraphs:
+    - text: 'battery that is intended to power specific functions of an instrument
+        in the absence of the primary power supply (for example: to preserve stored
+        data)'
+      sources: []
     notes:
     - "(OIML D 11:2004, 3.24)"
+    note_paragraphs:
+    - text: "(OIML D 11:2004, 3.24)"
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -43,9 +52,17 @@ data:
     g18_entry: '00257'
     definition: battery that is intended to power specific functions of an instrument
       in the absence of the primary power supply
+    definition_paragraphs:
+    - text: battery that is intended to power specific functions of an instrument
+        in the absence of the primary power supply
+      sources: []
     notes: []
+    note_paragraphs: []
     examples:
     - to preserve stored data
+    example_paragraphs:
+    - text: to preserve stored data
+      sources: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -57,11 +74,19 @@ data:
     clause: '3.34'
     link:
     g18_entry: '03711'
-    definition: 'battery that is intended to maintain power supply for specific functions
-      of an instrument in the absence of the primary power supply. Example: To preserve
-      stored data.'
+    definition: battery that is intended to maintain power supply for specific functions
+      of an instrument in the absence of the primary power supply.
+    definition_paragraphs:
+    - text: battery that is intended to maintain power supply for specific functions
+        of an instrument in the absence of the primary power supply.
+      sources: []
     notes: []
-    examples: []
+    note_paragraphs: []
+    examples:
+    - To preserve stored data.
+    example_paragraphs:
+    - text: To preserve stored data.
+      sources: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -73,11 +98,25 @@ data:
     clause: A.1.16
     link:
     g18_entry: '02900'
-    definition: 'battery that is intended to maintain power supply for specific functions
-      of an instrument in the absence of the primary power supply Example: To preserve
-      stored data. (OIML D 11, 3.26)'
+    definition: battery that is intended to maintain power supply for specific functions
+      of an instrument in the absence of the primary power supply
+    definition_paragraphs:
+    - text: battery that is intended to maintain power supply for specific functions
+        of an instrument in the absence of the primary power supply
+      sources:
+      - kind: other
+        relationship: identical
+        modification:
+        ref_source: OIML D011:2004
+        ref_id: '3.26'
+        is_vimline: false
     notes: []
-    examples: []
+    note_paragraphs: []
+    examples:
+    - To preserve stored data.
+    example_paragraphs:
+    - text: To preserve stored data.
+      sources: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -89,10 +128,19 @@ data:
     clause: 2.3.4
     link:
     g18_entry: '02469'
-    definition: 'battery intended to power specific functions of an instrument in
-      the absence of the primary power supply. Example: to preserve stored data'
+    definition: battery intended to power specific functions of an instrument in the
+      absence of the primary power supply.
+    definition_paragraphs:
+    - text: battery intended to power specific functions of an instrument in the absence
+        of the primary power supply.
+      sources: []
     notes: []
-    examples: []
+    note_paragraphs: []
+    examples:
+    - to preserve stored data
+    example_paragraphs:
+    - text: to preserve stored data
+      sources: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -104,11 +152,19 @@ data:
     clause: '3.26'
     link:
     g18_entry: 02251-D011
-    definition: 'battery that is intended to maintain power supply for specific functions
-      of an instrument in the absence of the primary power supply Example: To preserve
-      stored data.'
+    definition: battery that is intended to maintain power supply for specific functions
+      of an instrument in the absence of the primary power supply
+    definition_paragraphs:
+    - text: battery that is intended to maintain power supply for specific functions
+        of an instrument in the absence of the primary power supply
+      sources: []
     notes: []
-    examples: []
+    note_paragraphs: []
+    examples:
+    - To preserve stored data.
+    example_paragraphs:
+    - text: To preserve stored data.
+      sources: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -123,8 +179,21 @@ data:
     definition: 'battery that is intended to power specific functions of an instrument
       in the absence of the primary power supply (for example: to preserve stored
       data)'
+    definition_paragraphs:
+    - text: 'battery that is intended to power specific functions of an instrument
+        in the absence of the primary power supply (for example: to preserve stored
+        data)'
+      sources:
+      - kind: other
+        relationship: identical
+        modification:
+        ref_source: OIML D011:2004
+        ref_id: '3.24'
+        is_vimline: false
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

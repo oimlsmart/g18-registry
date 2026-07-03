@@ -28,8 +28,16 @@ data:
       with the design drawing. It is the basis for the inclination correction function.
       The zero point of the inclination represents the zero point for both (longitudinal
       and transversal) inclinations
+    definition_paragraphs:
+    - text: position for the discharge (or loading) of the measuring tank in accordance
+        with the design drawing. It is the basis for the inclination correction function.
+        The zero point of the inclination represents the zero point for both (longitudinal
+        and transversal) inclinations
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -42,8 +50,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r076-1-e06.pdf
     g18_entry: '00991'
     definition: position of the instrument at which its operation is adjusted
+    definition_paragraphs:
+    - text: position of the instrument at which its operation is adjusted
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -59,8 +72,16 @@ data:
       with the design drawing. It is the basis for the inclination correction function.
       The zero point of the inclination represents the zero point for both (longitudinal
       and transversal) inclinations
+    definition_paragraphs:
+    - text: position for the discharge (or loading) of the measuring tank in accordance
+        with the design drawing. It is the basis for the inclination correction function.
+        The zero point of the inclination represents the zero point for both (longitudinal
+        and transversal) inclinations
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -76,8 +97,16 @@ data:
       with the design drawing. It is the basis for the inclination correction function.
       The zero point of the inclination represents the zero point for both (longitudinal
       and transversal) inclinations
+    definition_paragraphs:
+    - text: position for the discharge (or loading) of the measuring tank in accordance
+        with the design drawing. It is the basis for the inclination correction function.
+        The zero point of the inclination represents the zero point for both (longitudinal
+        and transversal) inclinations
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -90,8 +119,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r076-1-e06.pdf
     g18_entry: '00991'
     definition: position of the instrument at which its operation is adjusted
+    definition_paragraphs:
+    - text: position of the instrument at which its operation is adjusted
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

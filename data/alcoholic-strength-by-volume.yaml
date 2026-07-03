@@ -26,8 +26,15 @@ data:
     definition: The “alcoholic strength by volume” of a mixture of water and alcohol
       is the ratio of the volume of alcohol, measured at 20 OC, contained in the mixture
       to the total volume of the mixture, measured at the same temperature.
+    definition_paragraphs:
+    - text: The “alcoholic strength by volume” of a mixture of water and alcohol is
+        the ratio of the volume of alcohol, measured at 20 OC, contained in the mixture
+        to the total volume of the mixture, measured at the same temperature.
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

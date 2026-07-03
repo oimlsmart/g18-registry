@@ -25,8 +25,14 @@ data:
     g18_entry: '03544'
     definition: AGFI for which the fill is determined by controlling the output feed
       from the weigh hopper
+    definition_paragraphs:
+    - text: AGFI for which the fill is determined by controlling the output feed from
+        the weigh hopper
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

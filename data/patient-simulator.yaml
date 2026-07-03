@@ -26,10 +26,19 @@ data:
     g18_entry: '00335'
     definition: device for simulating the oscillometric cuff pulses and/or auscultatory
       sounds during inflation and deflation
+    definition_paragraphs:
+    - text: device for simulating the oscillometric cuff pulses and/or auscultatory
+        sounds during inflation and deflation
+      sources: []
     notes:
     - This device is not used for testing accuracy but is required in assessing stability
       of performance.
+    note_paragraphs:
+    - text: This device is not used for testing accuracy but is required in assessing
+        stability of performance.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -43,10 +52,19 @@ data:
     g18_entry: '03354'
     definition: device for simulating the oscillometric cuff pulses and/or auscultatory
       sounds during inflation and deflation
+    definition_paragraphs:
+    - text: device for simulating the oscillometric cuff pulses and/or auscultatory
+        sounds during inflation and deflation
+      sources: []
     notes:
     - 'Note: This device is not used for testing measurement accuracy but is required
       in assessing stability of performance.'
+    note_paragraphs:
+    - text: 'Note: This device is not used for testing measurement accuracy but is
+        required in assessing stability of performance.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -60,10 +78,19 @@ data:
     g18_entry: '00335'
     definition: device for simulating the oscillometric cuff pulses and/or auscultatory
       sounds during inflation and deflation
+    definition_paragraphs:
+    - text: device for simulating the oscillometric cuff pulses and/or auscultatory
+        sounds during inflation and deflation
+      sources: []
     notes:
     - 'Note: This device is not used for testing accuracy but is required in assessing
       stability of performance.'
+    note_paragraphs:
+    - text: 'Note: This device is not used for testing accuracy but is required in
+        assessing stability of performance.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -31,8 +31,14 @@ data:
     g18_entry: '03267'
     definition: measurement precision under reproducibility conditions of measurement
       (OIML V 2-100, 2.25)
+    definition_paragraphs:
+    - text: measurement precision under reproducibility conditions of measurement
+        (OIML V 2-100, 2.25)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -45,6 +51,15 @@ data:
     link:
     g18_entry: '02449'
     definition: measurement precision under reproducibility conditions of measurement
+    definition_paragraphs:
+    - text: measurement precision under reproducibility conditions of measurement
+      sources:
+      - kind: vim
+        relationship: identical
+        modification:
+        ref_source: OIML V 2-200:2007
+        ref_id: '2.25'
+        is_vimline: true
     notes:
     - 'Note: Relevant statistical terms are given in ISO 5725-1:1994 and ISO 5725-2:1994.'
     - 'Additional note: In this Recommendation, the reproducibility of measurements
@@ -52,7 +67,18 @@ data:
       by the standard deviation of differences (SDDI). The reproducibility of measurements
       from one instrument when select influence factors are varied is assessed by
       the magnitude of the error shift or fault.'
+    note_paragraphs:
+    - text: 'Note: Relevant statistical terms are given in ISO 5725-1:1994 and ISO
+        5725-2:1994.'
+      sources: []
+    - text: 'Additional note: In this Recommendation, the reproducibility of measurements
+        between units of the same type of instrument under reference conditions is
+        assessed by the standard deviation of differences (SDDI). The reproducibility
+        of measurements from one instrument when select influence factors are varied
+        is assessed by the magnitude of the error shift or fault.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: vim
       relationship: identical

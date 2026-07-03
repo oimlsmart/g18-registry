@@ -25,8 +25,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r060-e00.pdf
     g18_entry: '00712'
     definition: part of the load cell measuring range into which that range is divided
+    definition_paragraphs:
+    - text: part of the load cell measuring range into which that range is divided
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -39,8 +44,13 @@ data:
     link:
     g18_entry: '03200'
     definition: subdivision of the load cell measuring range
+    definition_paragraphs:
+    - text: subdivision of the load cell measuring range
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

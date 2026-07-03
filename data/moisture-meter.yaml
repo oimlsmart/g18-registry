@@ -25,8 +25,14 @@ data:
     g18_entry: '02477'
     definition: instrument that measures a parameter (electrical, optical, etc.) to
       predict the moisture content of a grain within specified error limits
+    definition_paragraphs:
+    - text: instrument that measures a parameter (electrical, optical, etc.) to predict
+        the moisture content of a grain within specified error limits
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

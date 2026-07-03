@@ -26,8 +26,15 @@ data:
     definition: measurement standard designated for the calibration of other measurement
       standards for quantities of given kind in a given organization or at given location
       [VIM3, 5.6]
+    definition_paragraphs:
+    - text: measurement standard designated for the calibration of other measurement
+        standards for quantities of given kind in a given organization or at given
+        location [VIM3, 5.6]
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

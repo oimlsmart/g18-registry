@@ -25,10 +25,19 @@ data:
     g18_entry: '02496'
     definition: prepackage containing an actual quantity (see 2.1.1) that is less
       than the nominal quantity (see 2.1.7)
+    definition_paragraphs:
+    - text: prepackage containing an actual quantity (see 2.1.1) that is less than
+        the nominal quantity (see 2.1.7)
+      sources: []
     notes:
     - Note:An inadequate prepackage is sometimes also referred to as a non-conforming
       prepackage.
+    note_paragraphs:
+    - text: Note:An inadequate prepackage is sometimes also referred to as a non-conforming
+        prepackage.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

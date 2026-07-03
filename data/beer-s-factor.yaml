@@ -33,11 +33,23 @@ data:
     definition: characteristic partial internal absorbance divided by the amount of
       substance concentration of the analyte. The Beer's factor is constant for specified
       experimental conditions
+    definition_paragraphs:
+    - text: characteristic partial internal absorbance divided by the amount of substance
+        concentration of the analyte. The Beer's factor is constant for specified
+        experimental conditions
+      sources: []
     notes:
     - 1. The coherent SI unit is the cubic metre per mole (m3/mol) but often the litre
       per mole (l/mol, L/mol) is preferred.
     - 2. For conditions of validity see 2.9.
+    note_paragraphs:
+    - text: 1. The coherent SI unit is the cubic metre per mole (m3/mol) but often
+        the litre per mole (l/mol, L/mol) is preferred.
+      sources: []
+    - text: 2. For conditions of validity see 2.9.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -52,11 +64,23 @@ data:
     definition: characteristic partial internal absorbance divided by the amount of
       substance concentration of the analyte. The Beer’s factor is constant for specified
       experimental conditions
+    definition_paragraphs:
+    - text: characteristic partial internal absorbance divided by the amount of substance
+        concentration of the analyte. The Beer’s factor is constant for specified
+        experimental conditions
+      sources: []
     notes:
     - The coherent SI unit is the cubic metre per mole (m3/mol) but often the litre
       per mole (l/mol, L/mol) is preferred.
     - For conditions of validity see 2.9.
+    note_paragraphs:
+    - text: The coherent SI unit is the cubic metre per mole (m3/mol) but often the
+        litre per mole (l/mol, L/mol) is preferred.
+      sources: []
+    - text: For conditions of validity see 2.9.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

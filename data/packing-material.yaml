@@ -25,8 +25,14 @@ data:
     g18_entry: '02501'
     definition: everything of the prepackage that is intended to be left over after
       use of the product, except for items naturally in the product
+    definition_paragraphs:
+    - text: everything of the prepackage that is intended to be left over after use
+        of the product, except for items naturally in the product
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -40,8 +46,14 @@ data:
     g18_entry: '02485'
     definition: everything of the prepackage that is intended to be left over after
       use of the product, except for items naturally in the product
+    definition_paragraphs:
+    - text: everything of the prepackage that is intended to be left over after use
+        of the product, except for items naturally in the product
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -25,8 +25,14 @@ data:
     g18_entry: '01219'
     definition: a system in which the discharge hose remains full of liquid prior
       to and after the completion of a measurement and delivery
+    definition_paragraphs:
+    - text: a system in which the discharge hose remains full of liquid prior to and
+        after the completion of a measurement and delivery
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

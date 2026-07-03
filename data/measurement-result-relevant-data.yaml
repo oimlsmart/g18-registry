@@ -24,11 +24,20 @@ data:
     link:
     g18_entry: '03261'
     definition: data used during the process of constructing the measurement result
+    definition_paragraphs:
+    - text: data used during the process of constructing the measurement result
+      sources: []
     notes:
     - 'Note: Examples of measurement result relevant data include digital number or
       analogue value originating from a sensor or measuring instrument ID, in cases
       where it is part of the measurement result, see Annex C.'
+    note_paragraphs:
+    - text: 'Note: Examples of measurement result relevant data include digital number
+        or analogue value originating from a sensor or measuring instrument ID, in
+        cases where it is part of the measurement result, see Annex C.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

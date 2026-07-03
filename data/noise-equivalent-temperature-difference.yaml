@@ -39,8 +39,15 @@ data:
     definition: temperature increment equal to the root-mean-square value of the noise
       in a thermogram, when observing a homogeneous background set with a specified
       temperature and a specified thermogram rate
+    definition_paragraphs:
+    - text: temperature increment equal to the root-mean-square value of the noise
+        in a thermogram, when observing a homogeneous background set with a specified
+        temperature and a specified thermogram rate
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -55,8 +62,15 @@ data:
     definition: temperature increment equal to the root-mean-square value of the noise
       in a thermogram, when observing a homogeneous background set with a specified
       temperature and a specified thermogram rate
+    definition_paragraphs:
+    - text: temperature increment equal to the root-mean-square value of the noise
+        in a thermogram, when observing a homogeneous background set with a specified
+        temperature and a specified thermogram rate
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

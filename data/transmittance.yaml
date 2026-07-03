@@ -32,10 +32,19 @@ data:
     g18_entry: '01843'
     definition: ratio of the transmitted radiant luminous flux to the incident flux
       1. ISO 6286, Table 1, No. 4. 2. exp one
+    definition_paragraphs:
+    - text: ratio of the transmitted radiant luminous flux to the incident flux 1.
+        ISO 6286, Table 1, No. 4. 2. exp one
+      sources: []
     notes:
     - Transmittance has the dimension one and is ressed with the derived coherent
       SI unit (1).
+    note_paragraphs:
+    - text: Transmittance has the dimension one and is ressed with the derived coherent
+        SI unit (1).
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -48,11 +57,21 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r135-e04.pdf
     g18_entry: '01843'
     definition: ratio of the transmitted radiant luminous flux to the incident flux
+    definition_paragraphs:
+    - text: ratio of the transmitted radiant luminous flux to the incident flux
+      sources: []
     notes:
     - ISO 6286, Table 1, No. 4.
     - Transmittance has the dimension one and is expressed with the derived coherent
       SI unit one (1).
+    note_paragraphs:
+    - text: ISO 6286, Table 1, No. 4.
+      sources: []
+    - text: Transmittance has the dimension one and is expressed with the derived
+        coherent SI unit one (1).
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

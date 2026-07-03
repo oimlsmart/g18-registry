@@ -32,8 +32,14 @@ data:
     g18_entry: '00660'
     definition: "[V extreme value of an error permitted by specifications, regulations,
       etc. for a given instrument IM:1993, 5.21 ]"
+    definition_paragraphs:
+    - text: "[V extreme value of an error permitted by specifications, regulations,
+        etc. for a given instrument IM:1993, 5.21 ]"
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -49,8 +55,16 @@ data:
       the indication of an instrument and the corresponding true value, as determined
       by reference standard masses or standard weights, with the instrument being
       at zero at no-load, in the reference position
+    definition_paragraphs:
+    - text: maximum difference, positive or negative, allowed by regulation between
+        the indication of an instrument and the corresponding true value, as determined
+        by reference standard masses or standard weights, with the instrument being
+        at zero at no-load, in the reference position
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -65,11 +79,24 @@ data:
     definition: extreme value of measurement error, with respect to a known reference
       quantity value, permitted by specifications or regulations for a given measurement,
       measuring instrument, or measuring system (VIM, 4.26)
+    definition_paragraphs:
+    - text: extreme value of measurement error, with respect to a known reference
+        quantity value, permitted by specifications or regulations for a given measurement,
+        measuring instrument, or measuring system (VIM, 4.26)
+      sources: []
     notes:
     - Usually, the term "maximum permissible errors" or "limits of error" is used
       where there are two extreme values.
     - The term "tolerance" should not be used to designate "maximum permissible error".
+    note_paragraphs:
+    - text: Usually, the term "maximum permissible errors" or "limits of error" is
+        used where there are two extreme values.
+      sources: []
+    - text: The term "tolerance" should not be used to designate "maximum permissible
+        error".
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -85,8 +112,16 @@ data:
       between the indication of a weighing instrument and the corresponding true value,
       as determined by reference standard masses or standard weights, with the instrument
       being at zero and no load, in the reference position [Adapted from VIM 5.21]
+    definition_paragraphs:
+    - text: extreme value of an error permitted by specifications or regulations between
+        the indication of a weighing instrument and the corresponding true value,
+        as determined by reference standard masses or standard weights, with the instrument
+        being at zero and no load, in the reference position [Adapted from VIM 5.21]
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -100,8 +135,14 @@ data:
     g18_entry: '01394'
     definition: 'extreme values of an error permitted by specifications, regulations,
       etc. for a given instrument [VIM: 1993, 5.21]'
+    definition_paragraphs:
+    - text: 'extreme values of an error permitted by specifications, regulations,
+        etc. for a given instrument [VIM: 1993, 5.21]'
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -115,8 +156,14 @@ data:
     g18_entry: '00660'
     definition: extreme value of an error permitted by specifications, regulations,
       etc. for a given instrument [VIM:1993, 5.21 ]
+    definition_paragraphs:
+    - text: extreme value of an error permitted by specifications, regulations, etc.
+        for a given instrument [VIM:1993, 5.21 ]
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -132,8 +179,16 @@ data:
       the indication of an instrument and the corresponding true value, as determined
       by reference standard masses or standard weights, with the instrument being
       at zero at no-load, in the reference position
+    definition_paragraphs:
+    - text: maximum difference, positive or negative, allowed by regulation between
+        the indication of an instrument and the corresponding true value, as determined
+        by reference standard masses or standard weights, with the instrument being
+        at zero at no-load, in the reference position
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

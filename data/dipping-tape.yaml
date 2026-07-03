@@ -25,9 +25,16 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r071-e08.pdf
     g18_entry: '02239'
     definition: material measure of length for measuring the liquid level
+    definition_paragraphs:
+    - text: material measure of length for measuring the liquid level
+      sources: []
     notes:
     - See OIML Recommendation R 35-1 for general requirements.
+    note_paragraphs:
+    - text: See OIML Recommendation R 35-1 for general requirements.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -40,9 +47,16 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r071-e08.pdf
     g18_entry: '02239-R071'
     definition: material measure of length for measuring the liquid level
+    definition_paragraphs:
+    - text: material measure of length for measuring the liquid level
+      sources: []
     notes:
     - 'Note: See OIML Recommendation R 35-1 for general requirements.'
+    note_paragraphs:
+    - text: 'Note: See OIML Recommendation R 35-1 for general requirements.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

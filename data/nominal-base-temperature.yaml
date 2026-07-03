@@ -26,8 +26,13 @@ data:
     g18_entry: '00408'
     definition: temperature at which the socket (and terminals) of the lamp shall
       be thermostated
+    definition_paragraphs:
+    - text: temperature at which the socket (and terminals) of the lamp shall be thermostated
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +46,13 @@ data:
     g18_entry: '00408'
     definition: temperature at which the socket (and terminals) of the lamp shall
       be thermostated
+    definition_paragraphs:
+    - text: temperature at which the socket (and terminals) of the lamp shall be thermostated
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

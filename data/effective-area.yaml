@@ -26,8 +26,14 @@ data:
     g18_entry: '01421'
     definition: the area determined for a given piston-cylinder assembly which is
       used in the conversion equation for the calculation of the measured pressure
+    definition_paragraphs:
+    - text: the area determined for a given piston-cylinder assembly which is used
+        in the conversion equation for the calculation of the measured pressure
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '01421'
     definition: the area determined for a given piston-cylinder assembly which is
       used in the conversion equation for the calculation of the measured pressure
+    definition_paragraphs:
+    - text: the area determined for a given piston-cylinder assembly which is used
+        in the conversion equation for the calculation of the measured pressure
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -26,8 +26,14 @@ data:
     g18_entry: '02302'
     definition: element that senses the presence of the liquid surface and gives information
       on its level
+    definition_paragraphs:
+    - text: element that senses the presence of the liquid surface and gives information
+        on its level
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: 02302-R085-1
     definition: element that senses the presence of the liquid surface and gives information
       on its level
+    definition_paragraphs:
+    - text: element that senses the presence of the liquid surface and gives information
+        on its level
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

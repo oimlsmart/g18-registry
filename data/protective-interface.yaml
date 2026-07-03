@@ -29,8 +29,17 @@ data:
       clearly defined and which could be taken as being a measurement result; - falsify
       displayed, processed or stored measurement results or primary indications; -adjust
       the instrument or change any adjustment factor'
+    definition_paragraphs:
+    - text: 'interface which only allows the introduction of data into the data processing
+        device of the taximeter, which cannot: - display data that are not clearly
+        defined and which could be taken as being a measurement result; - falsify
+        displayed, processed or stored measurement results or primary indications;
+        -adjust the instrument or change any adjustment factor'
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -48,8 +57,18 @@ data:
       a weighing result; * falsify displayed, processed or stored weighing results
       or primary indications; or * adjust the instrument or change any adjustment
       factor, except releasing an adjustment procedure with incorporated devices'
+    definition_paragraphs:
+    - text: 'interface (hardware and/or software) which only allows the introduction
+        of such data into the data processing device of an instrument, which cannot:
+        * display data which are not clearly defined and which could be taken as being
+        a weighing result; * falsify displayed, processed or stored weighing results
+        or primary indications; or * adjust the instrument or change any adjustment
+        factor, except releasing an adjustment procedure with incorporated devices'
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -69,8 +88,20 @@ data:
       or change any adjustment factor, except releasing an adjustment procedure with
       incorporated devices or, in the case of class I instruments with external adjustment
       weights as well"
+    definition_paragraphs:
+    - text: "- - - interface (hardware and/or software) which only allows the introduction
+        of such data into the data processing device of an instrument, module or electronic
+        component, which cannot: display data which are not clearly defined and which
+        could be taken for a weighing result; falsify displayed, processed or stored
+        weighing results or primary indications; or adjust the instrument or change
+        any adjustment factor, except releasing an adjustment procedure with incorporated
+        devices or, in the case of class I instruments with external adjustment weights
+        as well"
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -84,8 +115,14 @@ data:
     g18_entry: '03394'
     definition: legally relevant software module that handles all data flow to the
       legally relevant software modul(s) in order to prevent inadmissible influences
+    definition_paragraphs:
+    - text: legally relevant software module that handles all data flow to the legally
+        relevant software modul(s) in order to prevent inadmissible influences
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -100,8 +137,15 @@ data:
     definition: interface (hardware and/or software) which only allows the introduction
       into the instrument of data or instructuons that cannot influence the metrological
       properties of instrument
+    definition_paragraphs:
+    - text: interface (hardware and/or software) which only allows the introduction
+        into the instrument of data or instructuons that cannot influence the metrological
+        properties of instrument
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -116,8 +160,15 @@ data:
     definition: interface (hardware and/or software) which only allows the introduction
       of data or instructions that cannot influence the metrological properties of
       the instrument
+    definition_paragraphs:
+    - text: interface (hardware and/or software) which only allows the introduction
+        of data or instructions that cannot influence the metrological properties
+        of the instrument
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -135,8 +186,18 @@ data:
       could be taken for a weighing result; falsify displayed, processed or stored
       weighing results or primary indications; or adjust the instrument or change
       any adjustment factor.'
+    definition_paragraphs:
+    - text: 'interface (hardware and/or software) which only allows the introduction
+        of such data into the data processing device of an instrument, module or electronic
+        component, which cannot: display data which are not clearly defined and which
+        could be taken for a weighing result; falsify displayed, processed or stored
+        weighing results or primary indications; or adjust the instrument or change
+        any adjustment factor.'
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -153,8 +214,17 @@ data:
       clearly defined and which could be taken as being a measurement result; - falsify
       displayed, processed or stored measurement results or primary indications; -adjust
       the instrument or change any adjustment factor'
+    definition_paragraphs:
+    - text: 'interface which only allows the introduction of data into the data processing
+        device of the taximeter, which cannot: - display data that are not clearly
+        defined and which could be taken as being a measurement result; - falsify
+        displayed, processed or stored measurement results or primary indications;
+        -adjust the instrument or change any adjustment factor'
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -172,8 +242,18 @@ data:
       a weighing result; falsify displayed, processed or stored weighing results or
       primary indications; or adjust the instrument or change any adjustment factor,
       except releasing an adjustment procedure with incorporated devices'
+    definition_paragraphs:
+    - text: 'interface (hardware and/or software) which only allows the introduction
+        of such data into the data processing device of an instrument, which cannot:
+        display data which are not clearly defined and which could be taken as being
+        a weighing result; falsify displayed, processed or stored weighing results
+        or primary indications; or adjust the instrument or change any adjustment
+        factor, except releasing an adjustment procedure with incorporated devices'
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -193,8 +273,20 @@ data:
       any adjustment factor, except releasing an adjustment procedure with incorporated
       devices or, in the case of class I instruments with external adjustment weights
       as well'
+    definition_paragraphs:
+    - text: 'interface (hardware and/or software) which only allows the introduction
+        of such data into the data processing device of an instrument, module or electronic
+        component, which cannot: display data which are not clearly defined and which
+        could be taken for a weighing result; falsify displayed, processed or stored
+        weighing results or primary indications; or adjust the instrument or change
+        any adjustment factor, except releasing an adjustment procedure with incorporated
+        devices or, in the case of class I instruments with external adjustment weights
+        as well'
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

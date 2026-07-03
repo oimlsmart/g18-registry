@@ -32,8 +32,14 @@ data:
     g18_entry: '01680'
     definition: 'net absorbance, stem:[Delta]A, at the analysis wavelength divided
       by the thickness, t, of the radiation sensitive layer of the dosimeter as follows:'
+    definition_paragraphs:
+    - text: 'net absorbance, stem:[Delta]A, at the analysis wavelength divided by
+        the thickness, t, of the radiation sensitive layer of the dosimeter as follows:'
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -47,8 +53,14 @@ data:
     g18_entry: '01680'
     definition: 'net absorbance, ΔA, at the analysis wavelength divided by the thickness,
       t, of the radiation sensitive layer of the dosimeter as follows: Δk = ΔA /t'
+    definition_paragraphs:
+    - text: 'net absorbance, ΔA, at the analysis wavelength divided by the thickness,
+        t, of the radiation sensitive layer of the dosimeter as follows: Δk = ΔA /t'
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

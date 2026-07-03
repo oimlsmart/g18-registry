@@ -26,8 +26,15 @@ data:
     definition: 'auxiliary devices such as: – repeating indicating devices – ticket
       printers – daily report printers – devices to read key cards, magnetic cards
       or bank-notes – self-service equipment, etc.'
+    definition_paragraphs:
+    - text: 'auxiliary devices such as: – repeating indicating devices – ticket printers
+        – daily report printers – devices to read key cards, magnetic cards or bank-notes
+        – self-service equipment, etc.'
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

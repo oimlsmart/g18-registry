@@ -24,8 +24,13 @@ data:
     link:
     g18_entry: '03402'
     definition: mass flowrate obtained at the maximum capacity of the force receptor
+    definition_paragraphs:
+    - text: mass flowrate obtained at the maximum capacity of the force receptor
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -25,11 +25,21 @@ data:
     g18_entry: '03040'
     definition: A parameter used as a measure of the ability of a detector to distinguish
       between two adjacent energy peaks arising from elements in a sample.
+    definition_paragraphs:
+    - text: A parameter used as a measure of the ability of a detector to distinguish
+        between two adjacent energy peaks arising from elements in a sample.
+      sources: []
     notes:
     - 'Note: For this Recommendation, it is expressed as the full width at half maximum
       height of the manganese K-alpha line (5.9 keV) in units of energy or in percent
       as related to the energy of the peak.'
+    note_paragraphs:
+    - text: 'Note: For this Recommendation, it is expressed as the full width at half
+        maximum height of the manganese K-alpha line (5.9 keV) in units of energy
+        or in percent as related to the energy of the peak.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

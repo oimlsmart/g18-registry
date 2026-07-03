@@ -26,8 +26,14 @@ data:
     g18_entry: '00865'
     definition: momentary variations in the indication which cannot be interpreted,
       memorized or transmitted as measurements
+    definition_paragraphs:
+    - text: momentary variations in the indication which cannot be interpreted, memorized
+        or transmitted as measurements
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '00865'
     definition: momentary variations in the indication which cannot be interpreted,
       memorized or transmitted as measurements
+    definition_paragraphs:
+    - text: momentary variations in the indication which cannot be interpreted, memorized
+        or transmitted as measurements
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

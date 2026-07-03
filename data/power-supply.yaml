@@ -25,8 +25,14 @@ data:
     g18_entry: '01227'
     definition: a device that provides the electronic devices with the required electrical
       energy, using one or several sources of D.C. or A.C
+    definition_paragraphs:
+    - text: a device that provides the electronic devices with the required electrical
+        energy, using one or several sources of D.C. or A.C
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

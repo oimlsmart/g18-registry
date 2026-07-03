@@ -37,6 +37,11 @@ data:
     definition: systematic, independent and documented process for obtaining audit
       evidence and evaluating it objectively to determine the extent to which audit
       criteria are fulfilled [ISO 9000:2000, 3.9.1]
+    definition_paragraphs:
+    - text: systematic, independent and documented process for obtaining audit evidence
+        and evaluating it objectively to determine the extent to which audit criteria
+        are fulfilled [ISO 9000:2000, 3.9.1]
+      sources: []
     notes:
     - 'Internal audits, sometimes called "first-party audits", are conducted by, or
       on behalf of, th organization itself for internal purposes and can form the
@@ -53,7 +58,29 @@ data:
     - 6. When quality and environmental management systems are audited together, this
       is termed a "combined audit". When two or more auditing organizations cooperate
       to audit a single auditee jointly, t is termed "joint audit".
+    note_paragraphs:
+    - text: 'Internal audits, sometimes called "first-party audits", are conducted
+        by, or on behalf of, th organization itself for internal purposes and can
+        form the basis of an organization''s self- declaration of conformity. External
+        audits include what are generally termed "second-" or "third-party audits".
+        Second-party audits are conducted by parties having an interest in the organization,
+        such a customers, or by other persons on their behalf Third-party audits are
+        conducted by external independent organizations. Such organizations provide
+        certification or registration of conformity with requirements such as those
+        of ISO 9001 and ISO 14001:'
+      sources: []
+    - text: '1'
+      sources: []
+    - text: '9'
+      sources: []
+    - text: '9'
+      sources: []
+    - text: 6. When quality and environmental management systems are audited together,
+        this is termed a "combined audit". When two or more auditing organizations
+        cooperate to audit a single auditee jointly, t is termed "joint audit".
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -73,6 +100,11 @@ data:
     definition: systematic, independent and documented process for obtaining audit
       evidence and evaluating it objectively to determine the extent to which audit
       criteria are fulfilled [ISO 9000:2000, 3.9.1]
+    definition_paragraphs:
+    - text: systematic, independent and documented process for obtaining audit evidence
+        and evaluating it objectively to determine the extent to which audit criteria
+        are fulfilled [ISO 9000:2000, 3.9.1]
+      sources: []
     notes:
     - 'Note: Internal audits, sometimes called “first-party audits”, are conducted
       by, or on behalf of, the organization itself for internal purposes and can form
@@ -85,7 +117,22 @@ data:
       ISO 14001:1996. When quality and environmental management systems are audited
       together, this is termed a “combined audit”. When two or more auditing organizations
       cooperate to audit a single auditee jointly, this is termed “joint audit”.'
+    note_paragraphs:
+    - text: 'Note: Internal audits, sometimes called “first-party audits”, are conducted
+        by, or on behalf of, the organization itself for internal purposes and can
+        form the basis of an organization’s self- declaration of conformity. External
+        audits include what are generally termed “second-” or “third-party audits”.
+        Second-party audits are conducted by parties having an interest in the organization,
+        such as customers, or by other persons on their behalf. Third-party audits
+        are conducted by external independent organizations. Such organizations provide
+        certification or registration of conformity with requirements such as those
+        of ISO 9001 and ISO 14001:1996. When quality and environmental management
+        systems are audited together, this is termed a “combined audit”. When two
+        or more auditing organizations cooperate to audit a single auditee jointly,
+        this is termed “joint audit”.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

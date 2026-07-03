@@ -26,8 +26,14 @@ data:
     g18_entry: '02248'
     definition: conventional true value of volume of liquid in a tank or compartment
       at working temperature t.
+    definition_paragraphs:
+    - text: conventional true value of volume of liquid in a tank or compartment at
+        working temperature t.
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '03588'
     definition: conventional true value of volume of liquid in a tank or compartment
       at working temperature t.
+    definition_paragraphs:
+    - text: conventional true value of volume of liquid in a tank or compartment at
+        working temperature t.
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -56,8 +68,14 @@ data:
     g18_entry: '02248-R080-1'
     definition: conventional true value of volume of liquid in a tank or compartment
       at working temperature t.
+    definition_paragraphs:
+    - text: conventional true value of volume of liquid in a tank or compartment at
+        working temperature t.
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

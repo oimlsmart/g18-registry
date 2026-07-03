@@ -28,8 +28,16 @@ data:
       be adapted to the metrological task by software. In general this software is
       founded on an operating system that permits loading and execution of software
       for specific purposes
+    definition_paragraphs:
+    - text: computer that is not constructed for a specific purpose but that can be
+        adapted to the metrological task by software. In general this software is
+        founded on an operating system that permits loading and execution of software
+        for specific purposes
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -45,8 +53,22 @@ data:
       be adapted to the metrological task by software. In general this software is
       founded on an operating system that permits loading and execution of software
       for specific purposes
+    definition_paragraphs:
+    - text: computer that is not constructed for a specific purpose but that can be
+        adapted to the metrological task by software. In general this software is
+        founded on an operating system that permits loading and execution of software
+        for specific purposes
+      sources:
+      - kind: other
+        relationship: identical
+        modification:
+        ref_source: OIML D031:2008
+        ref_id: 3.1.54
+        is_vimline: false
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -60,10 +82,25 @@ data:
     g18_entry: '02815'
     definition: computer that is not constructed for a specific purpose but that can
       be adapted to the metrological task by software
+    definition_paragraphs:
+    - text: computer that is not constructed for a specific purpose but that can be
+        adapted to the metrological task by software
+      sources:
+      - kind: other
+        relationship: identical
+        modification:
+        ref_source: OIML D031:2008
+        ref_id: 3.1.54
+        is_vimline: false
     notes:
     - 'Note: In general this software is founded on an operating system that permits
       loading and execution of software for specific purposes.'
+    note_paragraphs:
+    - text: 'Note: In general this software is founded on an operating system that
+        permits loading and execution of software for specific purposes.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

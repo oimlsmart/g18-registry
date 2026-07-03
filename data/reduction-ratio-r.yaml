@@ -26,8 +26,15 @@ data:
     definition: 'The reduction ratio of a load transmitting device is: R = FM / FL   where:
       FM = force acting on the load measuring device, FL = force acting on the load
       receptor'
+    definition_paragraphs:
+    - text: 'The reduction ratio of a load transmitting device is: R = FM / FL   where:
+        FM = force acting on the load measuring device, FL = force acting on the load
+        receptor'
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

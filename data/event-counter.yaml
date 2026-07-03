@@ -25,8 +25,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_D/d031-e08.pdf
     g18_entry: '02188'
     definition: non resettable counter that increments each time an event occurs
+    definition_paragraphs:
+    - text: non resettable counter that increments each time an event occurs
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -39,8 +44,13 @@ data:
     link:
     g18_entry: '03052'
     definition: non-resettable counter that increments each time an event occurs
+    definition_paragraphs:
+    - text: non-resettable counter that increments each time an event occurs
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

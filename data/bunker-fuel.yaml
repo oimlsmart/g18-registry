@@ -25,8 +25,14 @@ data:
     g18_entry: '02913'
     definition: Fuel with a dynamic viscosity of over 20 mPa·s atmetering conditions,
       used for the propulsion of vessels
+    definition_paragraphs:
+    - text: Fuel with a dynamic viscosity of over 20 mPa·s atmetering conditions,
+        used for the propulsion of vessels
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

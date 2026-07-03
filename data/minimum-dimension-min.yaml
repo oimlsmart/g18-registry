@@ -24,8 +24,13 @@ data:
     link:
     g18_entry: '03304'
     definition: value of the smallest measured dimension for each axis
+    definition_paragraphs:
+    - text: value of the smallest measured dimension for each axis
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -25,10 +25,19 @@ data:
     g18_entry: '03228'
     definition: range of values of the quantity expressed in units of mass that may
       be applied to a load cell
+    definition_paragraphs:
+    - text: range of values of the quantity expressed in units of mass that may be
+        applied to a load cell
+      sources: []
     notes:
     - 'Note: maximum measuring range is the reange between maximum capacity Emax and
       minimum dead load Emin maximum measuring range = (Emax - Emin)'
+    note_paragraphs:
+    - text: 'Note: maximum measuring range is the reange between maximum capacity
+        Emax and minimum dead load Emin maximum measuring range = (Emax - Emin)'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

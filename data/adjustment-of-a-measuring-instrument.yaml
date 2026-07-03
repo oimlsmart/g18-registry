@@ -26,8 +26,15 @@ data:
     definition: set of operations carried out on a measuring system so that it provides
       prescribed indications corresponding to given values of a quantity to be measured
       [VIM:2007, 3.11]
+    definition_paragraphs:
+    - text: set of operations carried out on a measuring system so that it provides
+        prescribed indications corresponding to given values of a quantity to be measured
+        [VIM:2007, 3.11]
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

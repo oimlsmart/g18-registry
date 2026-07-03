@@ -26,8 +26,15 @@ data:
     definition: maximum permissible deviation of the temperature t (°C), calculated
       from the thermometer resistance using the relative resistance tables (Annex
       A), from the true (measured) temperature.
+    definition_paragraphs:
+    - text: maximum permissible deviation of the temperature t (°C), calculated from
+        the thermometer resistance using the relative resistance tables (Annex A),
+        from the true (measured) temperature.
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

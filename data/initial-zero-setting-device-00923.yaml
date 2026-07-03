@@ -26,8 +26,14 @@ data:
     g18_entry: '01337'
     definition: device for setting the indication to zero automatically at the time
       the instrument is switched on and before it is ready for use
+    definition_paragraphs:
+    - text: device for setting the indication to zero automatically at the time the
+        instrument is switched on and before it is ready for use
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '00923'
     definition: device for setting the indication to zero automatically at the time
       the instrument is switched on and before it is ready for use
+    definition_paragraphs:
+    - text: device for setting the indication to zero automatically at the time the
+        instrument is switched on and before it is ready for use
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -56,8 +68,14 @@ data:
     g18_entry: '00780'
     definition: device for automatically setting the indication to zero at the time
       the filling instrument is switched on and before it is ready for use
+    definition_paragraphs:
+    - text: device for automatically setting the indication to zero at the time the
+        filling instrument is switched on and before it is ready for use
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -71,8 +89,14 @@ data:
     g18_entry: '01801'
     definition: device for setting the indication to zero automatically at the time
       the instrument is switched on and before it is ready for use
+    definition_paragraphs:
+    - text: device for setting the indication to zero automatically at the time the
+        instrument is switched on and before it is ready for use
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -86,8 +110,14 @@ data:
     g18_entry: '03140'
     definition: device for setting the indication to zero automatically at the time
       the instrument is switched on or reset and before it is ready for use
+    definition_paragraphs:
+    - text: device for setting the indication to zero automatically at the time the
+        instrument is switched on or reset and before it is ready for use
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -101,8 +131,14 @@ data:
     g18_entry: '01337'
     definition: device for setting the indication to zero automatically at the time
       the instrument is switched on and before it is ready for use
+    definition_paragraphs:
+    - text: device for setting the indication to zero automatically at the time the
+        instrument is switched on and before it is ready for use
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -116,8 +152,14 @@ data:
     g18_entry: '00923'
     definition: device for setting the indication to zero automatically at the time
       the instrument is switched on and before it is ready for use
+    definition_paragraphs:
+    - text: device for setting the indication to zero automatically at the time the
+        instrument is switched on and before it is ready for use
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -131,8 +173,14 @@ data:
     g18_entry: '01801'
     definition: device for setting the indication to zero automatically at the time
       the instrument is switched on and before it is ready for use
+    definition_paragraphs:
+    - text: device for setting the indication to zero automatically at the time the
+        instrument is switched on and before it is ready for use
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

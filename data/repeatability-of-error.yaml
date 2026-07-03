@@ -25,8 +25,14 @@ data:
     g18_entry: '02669'
     definition: repeatability under reference conditions and not changing the flow
       rate between the measurements
+    definition_paragraphs:
+    - text: repeatability under reference conditions and not changing the flow rate
+        between the measurements
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -35,8 +35,14 @@ data:
     g18_entry: '01320'
     definition: "[ value attributed to a particular quantity and accepted, by convention,
       as having an uncertainty appropriate for a given purpose VIM: 1993, 1.20]"
+    definition_paragraphs:
+    - text: "[ value attributed to a particular quantity and accepted, by convention,
+        as having an uncertainty appropriate for a given purpose VIM: 1993, 1.20]"
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -51,8 +57,14 @@ data:
     definition: value attributed to a particular quantity and accepted, sometimes
       (VIM:2007, 2.12) by convention, as having an uncertainty appropriate for a given
       purpose
+    definition_paragraphs:
+    - text: value attributed to a particular quantity and accepted, sometimes (VIM:2007,
+        2.12) by convention, as having an uncertainty appropriate for a given purpose
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -72,8 +84,15 @@ data:
     definition: "[V value attributed to a particular quantity (mass of a body) and
       accepted, by convention, as having an uncertainty appropriate for a given purpose
       IM:1993, 1.20]"
+    definition_paragraphs:
+    - text: "[V value attributed to a particular quantity (mass of a body) and accepted,
+        by convention, as having an uncertainty appropriate for a given purpose IM:1993,
+        1.20]"
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -87,9 +106,17 @@ data:
     g18_entry: '01941'
     definition: value Yref attributed to a particular quantity and accepted, sometimes
       by convention, as having an uncertainty appropriate for a given purpose
+    definition_paragraphs:
+    - text: value Yref attributed to a particular quantity and accepted, sometimes
+        by convention, as having an uncertainty appropriate for a given purpose
+      sources: []
     notes:
     - "[VIM:1993, 1.20]"
+    note_paragraphs:
+    - text: "[VIM:1993, 1.20]"
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -103,10 +130,19 @@ data:
     g18_entry: '00868'
     definition: value of a quantity which, for the purpose of this Recommendation,
       is considered as a true value
+    definition_paragraphs:
+    - text: value of a quantity which, for the purpose of this Recommendation, is
+        considered as a true value
+      sources: []
     notes:
     - A conventional true value is, in general, regarded as sufficiently close to
       the true valu for the difference to be insignificant for the given purpose.
+    note_paragraphs:
+    - text: A conventional true value is, in general, regarded as sufficiently close
+        to the true valu for the difference to be insignificant for the given purpose.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -120,8 +156,14 @@ data:
     g18_entry: '00150'
     definition: a value of quantity which, for a given purpose, may be substituted
       for the true value
+    definition_paragraphs:
+    - text: a value of quantity which, for a given purpose, may be substituted for
+        the true value
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -135,8 +177,14 @@ data:
     g18_entry: '01320'
     definition: value attributed to a particular quantity and accepted, by convention,
       as having an uncertainty appropriate for a given purpose [VIM:1993, 1.20]
+    definition_paragraphs:
+    - text: value attributed to a particular quantity and accepted, by convention,
+        as having an uncertainty appropriate for a given purpose [VIM:1993, 1.20]
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -151,8 +199,14 @@ data:
     definition: value attributed to a particular quantity and accepted, sometimes
       by convention, as having an uncertainty appropriate for a given purpose [VIM:2007,
       2.12]
+    definition_paragraphs:
+    - text: value attributed to a particular quantity and accepted, sometimes by convention,
+        as having an uncertainty appropriate for a given purpose [VIM:2007, 2.12]
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -167,8 +221,15 @@ data:
     definition: value attributed to a particular quantity (mass of a body) and accepted,
       by convention, as having an uncertainty appropriate for a given purpose [VIM:1993,
       1.20]
+    definition_paragraphs:
+    - text: value attributed to a particular quantity (mass of a body) and accepted,
+        by convention, as having an uncertainty appropriate for a given purpose [VIM:1993,
+        1.20]
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -182,10 +243,20 @@ data:
     g18_entry: '00868'
     definition: value of a quantity which, for the purpose of this Recommendation,
       is considered as a true value
+    definition_paragraphs:
+    - text: value of a quantity which, for the purpose of this Recommendation, is
+        considered as a true value
+      sources: []
     notes:
     - 'Note: A conventional true value is, in general, regarded as sufficiently close
       to the true value for the difference to be insignificant for the given purpose.'
+    note_paragraphs:
+    - text: 'Note: A conventional true value is, in general, regarded as sufficiently
+        close to the true value for the difference to be insignificant for the given
+        purpose.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -199,8 +270,14 @@ data:
     g18_entry: '00150'
     definition: a value of quantity which, for a given purpose, may be substituted
       for the true value
+    definition_paragraphs:
+    - text: a value of quantity which, for a given purpose, may be substituted for
+        the true value
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

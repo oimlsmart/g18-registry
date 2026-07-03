@@ -33,12 +33,24 @@ data:
     definition: 'absorbance A is proportional to the optical pathlength b and the
       1. Conditions for validity: A beam of parallel amount of substance concentration
       c'
+    definition_paragraphs:
+    - text: 'absorbance A is proportional to the optical pathlength b and the 1. Conditions
+        for validity: A beam of parallel amount of substance concentration c'
+      sources: []
     notes:
     - monochromatic radiation traverses, at normal incidence, an absorbing medium
       with planeparallel surfaces and which is homogeneous, isotropic, non-luminescent
       and non-scattering.
     - 2. Adapted from ISO 6286, clause 3.3.
+    note_paragraphs:
+    - text: monochromatic radiation traverses, at normal incidence, an absorbing medium
+        with planeparallel surfaces and which is homogeneous, isotropic, non-luminescent
+        and non-scattering.
+      sources: []
+    - text: 2. Adapted from ISO 6286, clause 3.3.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -52,12 +64,24 @@ data:
     g18_entry: '01848'
     definition: absorbance A is proportional to the optical path length b and the
       amount of substance concentration c
+    definition_paragraphs:
+    - text: absorbance A is proportional to the optical path length b and the amount
+        of substance concentration c
+      sources: []
     notes:
     - 'Conditions for validity: A beam of parallel monochromatic radiation traverses,
       at normal incidence, an absorbing medium with planeparallel surfaces and which
       is homogeneous, isotropic, non-luminescent and non-scattering.'
     - Adapted from ISO 6286, clause 3.3.
+    note_paragraphs:
+    - text: 'Conditions for validity: A beam of parallel monochromatic radiation traverses,
+        at normal incidence, an absorbing medium with planeparallel surfaces and which
+        is homogeneous, isotropic, non-luminescent and non-scattering.'
+      sources: []
+    - text: Adapted from ISO 6286, clause 3.3.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -25,8 +25,14 @@ data:
     g18_entry: '02621'
     definition: conditions of use prescribed for operating the instrument including
       types of wagons, site installation, maintenance and methods of weighing
+    definition_paragraphs:
+    - text: conditions of use prescribed for operating the instrument including types
+        of wagons, site installation, maintenance and methods of weighing
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

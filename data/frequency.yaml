@@ -30,8 +30,13 @@ data:
     link:
     g18_entry: 02307-R046-1
     definition: frequency of the voltage (and current) supplied to the meter
+    definition_paragraphs:
+    - text: frequency of the voltage (and current) supplied to the meter
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

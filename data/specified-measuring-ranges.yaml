@@ -30,12 +30,27 @@ data:
       upper and lower limits t of the specified measuring range are called maximum
       value and 2. Main minimum value, respectively (for example: maximum flowrate
       2 characte 000 m3/h, minimum flowrate 50 m3/h) f 3 m p'
+    definition_paragraphs:
+    - text: 'set of values of measurands or quantities characteristic of the gas 1.
+        This definition applies to the measuring for which the error is intended to
+        lie within the limits specified s in this Recommendation. In general the upper
+        and lower limits t of the specified measuring range are called maximum value
+        and 2. Main minimum value, respectively (for example: maximum flowrate 2 characte
+        000 m3/h, minimum flowrate 50 m3/h) f 3 m p'
+      sources: []
     notes:
     - ystem and also to the elements that compose he measuring system. measurands
       or quantities ristic for the metering module are lowrate, pressure or temperature
       of the gas. . A conversion device has a specified easuring range for each quantity
       that it rocesses.
+    note_paragraphs:
+    - text: ystem and also to the elements that compose he measuring system. measurands
+        or quantities ristic for the metering module are lowrate, pressure or temperature
+        of the gas. . A conversion device has a specified easuring range for each
+        quantity that it rocesses.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -52,13 +67,28 @@ data:
       In general the upper and lower limits of the specified measuring range are called
       maximum value and minimum value, respectively (for example: maximum flowrate
       2000 m3/h, minimum flowrate 50 m3/h)'
+    definition_paragraphs:
+    - text: 'set of values of measurands or quantities characteristic of the gas for
+        which the error is intended to lie within the limits specified in this Recommendation.
+        In general the upper and lower limits of the specified measuring range are
+        called maximum value and minimum value, respectively (for example: maximum
+        flowrate 2000 m3/h, minimum flowrate 50 m3/h)'
+      sources: []
     notes:
     - 'Note:  This definition applies to the measuring system and also to the elements
       that compose the measuring system. Main measurands or quantities characteristic
       for the metering module are flowrate, pressure or temperature of the gas. A
       conversion device has a specified measuring range for each quantity that it
       processes.'
+    note_paragraphs:
+    - text: 'Note:  This definition applies to the measuring system and also to the
+        elements that compose the measuring system. Main measurands or quantities
+        characteristic for the metering module are flowrate, pressure or temperature
+        of the gas. A conversion device has a specified measuring range for each quantity
+        that it processes.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

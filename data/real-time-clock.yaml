@@ -26,8 +26,14 @@ data:
     g18_entry: '00345'
     definition: device incorporated into the taximeter that tracks the current time
       and date
+    definition_paragraphs:
+    - text: device incorporated into the taximeter that tracks the current time and
+        date
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '00345'
     definition: device incorporated into the taximeter that tracks the current time
       and date
+    definition_paragraphs:
+    - text: device incorporated into the taximeter that tracks the current time and
+        date
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -26,8 +26,14 @@ data:
     g18_entry: '00788'
     definition: time taken to complete the last stage of delivery of the product to
       aload receptor
+    definition_paragraphs:
+    - text: time taken to complete the last stage of delivery of the product to aload
+        receptor
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '03079'
     definition: time taken to complete the last stage of delivery of the product to
       a load receptor
+    definition_paragraphs:
+    - text: time taken to complete the last stage of delivery of the product to a
+        load receptor
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

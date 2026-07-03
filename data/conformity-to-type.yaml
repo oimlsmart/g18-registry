@@ -32,6 +32,11 @@ data:
     definition: conformity assessment procedure focused on the assessment of measuring
       instruments to give assurance that manufactured (or production) instruments
       meet approved type
+    definition_paragraphs:
+    - text: conformity assessment procedure focused on the assessment of measuring
+        instruments to give assurance that manufactured (or production) instruments
+        meet approved type
+      sources: []
     notes:
     - 'Note: The concept of CTT as considered in this Dokumnet refers to a systematic
       pre-market conformity assessment procedure applicable to measuring instruments.
@@ -39,7 +44,17 @@ data:
       performed as part of a systematic program but often are performed ad-hoc by
       public authorities based on risk assessment and market intelligence, e.g. user
       complaints. ‘Market surveillance’ is further discussed in Annex 7.'
+    note_paragraphs:
+    - text: 'Note: The concept of CTT as considered in this Dokumnet refers to a systematic
+        pre-market conformity assessment procedure applicable to measuring instruments.
+        It should not be confused with ‘market surveillance’ activities, which are
+        sometimes performed as part of a systematic program but often are performed
+        ad-hoc by public authorities based on risk assessment and market intelligence,
+        e.g. user complaints. ‘Market surveillance’ is further discussed in Annex
+        7.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

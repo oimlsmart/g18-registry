@@ -26,8 +26,21 @@ data:
     definition: verification of a homogenous batch of measuring instruments based
       on the results of examination of a statistically appropriate number of specimens
       selected at random from an identified lot
+    definition_paragraphs:
+    - text: verification of a homogenous batch of measuring instruments based on the
+        results of examination of a statistically appropriate number of specimens
+        selected at random from an identified lot
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2000
+        ref_id: '2.14'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical

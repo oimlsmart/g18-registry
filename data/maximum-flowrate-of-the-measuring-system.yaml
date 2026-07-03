@@ -34,8 +34,16 @@ data:
       branches (where appropriate) forming the system when one of these meters reaches
       its maximum flowrate under the specified conditions of use, all meters being
       in use
+    definition_paragraphs:
+    - text: flowrate equal to the sum of the flowrates of all the meters in parallel
+        branches (where appropriate) forming the system when one of these meters reaches
+        its maximum flowrate under the specified conditions of use, all meters being
+        in use
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -51,8 +59,16 @@ data:
       branches (where appropriate) forming the system when one of these meters reaches
       its maximum flowrate under the specified conditions of use, all meters being
       in use
+    definition_paragraphs:
+    - text: flowrate equal to the sum of the flowrates of all the meters in parallel
+        branches (where appropriate) forming the system when one of these meters reaches
+        its maximum flowrate under the specified conditions of use, all meters being
+        in use
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

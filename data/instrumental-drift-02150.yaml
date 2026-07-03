@@ -26,12 +26,24 @@ data:
     g18_entry: '02150'
     definition: continuous or incremental change over time in the indication, due
       to changes in the metrological properties of a measuring instrument.
+    definition_paragraphs:
+    - text: continuous or incremental change over time in the indication, due to changes
+        in the metrological properties of a measuring instrument.
+      sources: []
     notes:
     - 1. In this Recommendation, "drift" means a change in the indication which occurs
       during a stated period of time at a given concentration of SO2 in a sample to
       be analyzed.
     - 2. (VIM:2007, 4.21)
+    note_paragraphs:
+    - text: 1. In this Recommendation, "drift" means a change in the indication which
+        occurs during a stated period of time at a given concentration of SO2 in a
+        sample to be analyzed.
+      sources: []
+    - text: 2. (VIM:2007, 4.21)
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -45,10 +57,19 @@ data:
     g18_entry: '03147'
     definition: continuous or incremental change over time in indication, due to changes
       in metrological properties of measuring instrument (VIM3, 4.21)
+    definition_paragraphs:
+    - text: continuous or incremental change over time in indication, due to changes
+        in metrological properties of measuring instrument (VIM3, 4.21)
+      sources: []
     notes:
     - 'Note: Instrumental drift is related neither to a change in quantity being measured
       nor to a change of any recognized influence quantity.'
+    note_paragraphs:
+    - text: 'Note: Instrumental drift is related neither to a change in quantity being
+        measured nor to a change of any recognized influence quantity.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -62,11 +83,27 @@ data:
     g18_entry: '02778'
     definition: continuous or incremental change over time in the indication, due
       to changes in the metrological properties of a measuring instrument
+    definition_paragraphs:
+    - text: continuous or incremental change over time in the indication, due to changes
+        in the metrological properties of a measuring instrument
+      sources:
+      - kind: vim
+        relationship: identical
+        modification:
+        ref_source: OIML V 2-200:2012
+        ref_id: '4.21'
+        is_vimline: true
     notes:
     - 'Note: In this Recommendation, “drift” means a change in the indication which
       occurs during a stated period of time at a given concentration of CO, NO and
       NO2 in a sample to be analyzed.'
+    note_paragraphs:
+    - text: 'Note: In this Recommendation, “drift” means a change in the indication
+        which occurs during a stated period of time at a given concentration of CO,
+        NO and NO2 in a sample to be analyzed.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: vim
       relationship: identical
@@ -86,12 +123,24 @@ data:
     g18_entry: '02150'
     definition: continuous or incremental change over time in the indication, due
       to changes in the metrological properties of a measuring instrument.
+    definition_paragraphs:
+    - text: continuous or incremental change over time in the indication, due to changes
+        in the metrological properties of a measuring instrument.
+      sources: []
     notes:
     - In this Recommendation, "drift" means a change in the indication which occurs
       during a stated period of time at a given concentration of SO2 in a sample to
       be analyzed.
     - "[VIM:2007, 4.21]"
+    note_paragraphs:
+    - text: In this Recommendation, "drift" means a change in the indication which
+        occurs during a stated period of time at a given concentration of SO2 in a
+        sample to be analyzed.
+      sources: []
+    - text: "[VIM:2007, 4.21]"
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

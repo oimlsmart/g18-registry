@@ -24,8 +24,13 @@ data:
     link:
     g18_entry: '03246'
     definition: quantity value attributed to the measurand
+    definition_paragraphs:
+    - text: quantity value attributed to the measurand
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -33,10 +33,20 @@ data:
     definition: distance covered by the radiation flux between the entry and exit
       1. ISO 6286, Table 2, No. 13. surfaces of a solution contained in an optical
       cell 2 t u
+    definition_paragraphs:
+    - text: distance covered by the radiation flux between the entry and exit 1. ISO
+        6286, Table 2, No. 13. surfaces of a solution contained in an optical cell
+        2 t u
+      sources: []
     notes:
     - ". The coherent SI unit is the metre (m), but he centimetre (cm) or millimetre
       (mm) are sually preferred."
+    note_paragraphs:
+    - text: ". The coherent SI unit is the metre (m), but he centimetre (cm) or millimetre
+        (mm) are sually preferred."
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -50,10 +60,19 @@ data:
     g18_entry: '01845'
     definition: distance covered by the radiation flux between the entry and exit
       surfaces of a solution contained in an optical cell
+    definition_paragraphs:
+    - text: distance covered by the radiation flux between the entry and exit surfaces
+        of a solution contained in an optical cell
+      sources: []
     notes:
     - 'Note: ISO 6286, Table 2, No. 13.The coherent SI unit is the metre (m), but
       the centimetre (cm) or millimetre (mm) are usually preferred.'
+    note_paragraphs:
+    - text: 'Note: ISO 6286, Table 2, No. 13.The coherent SI unit is the metre (m),
+        but the centimetre (cm) or millimetre (mm) are usually preferred.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

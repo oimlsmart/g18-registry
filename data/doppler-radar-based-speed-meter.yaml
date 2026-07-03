@@ -25,8 +25,14 @@ data:
     g18_entry: '03750'
     definition: speed meter emitting microwave radiation and detecting the Doppler
       shift of the radiation reflected by moving objects
+    definition_paragraphs:
+    - text: speed meter emitting microwave radiation and detecting the Doppler shift
+        of the radiation reflected by moving objects
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

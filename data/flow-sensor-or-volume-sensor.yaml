@@ -26,8 +26,15 @@ data:
     definition: part of the water meter (such as a disc, piston, wheel, turbine .
       element, electromagnetic coil, or other transducer) which senses the flowrate
       or volume of water passing through the meter
+    definition_paragraphs:
+    - text: part of the water meter (such as a disc, piston, wheel, turbine . element,
+        electromagnetic coil, or other transducer) which senses the flowrate or volume
+        of water passing through the meter
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -42,9 +49,18 @@ data:
     definition: part of the water meter (such as a disc, piston, wheel, turbine element,
       or electromagnetic coil) that senses the flow rate or volume of water passing
       through the meter
+    definition_paragraphs:
+    - text: part of the water meter (such as a disc, piston, wheel, turbine element,
+        or electromagnetic coil) that senses the flow rate or volume of water passing
+        through the meter
+      sources: []
     notes:
     - The measurement transducer includes the flow sensor or volume sensor.
+    note_paragraphs:
+    - text: The measurement transducer includes the flow sensor or volume sensor.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

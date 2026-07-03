@@ -26,8 +26,14 @@ data:
     g18_entry: '00248'
     definition: facility that is incorporated in a measuring instrument and which
       enables significant durability errors to be detected and acted upon
+    definition_paragraphs:
+    - text: facility that is incorporated in a measuring instrument and which enables
+        significant durability errors to be detected and acted upon
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,20 @@ data:
     g18_entry: '01874'
     definition: facility that is incorporated in a measuring instrument which enables
       the detection of and action upon significant durability errors
+    definition_paragraphs:
+    - text: facility that is incorporated in a measuring instrument which enables
+        the detection of and action upon significant durability errors
+      sources:
+      - kind: other
+        relationship: identical
+        modification:
+        ref_source: OIML D011:2004
+        ref_id: '3.19'
+        is_vimline: false
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -56,10 +74,20 @@ data:
     g18_entry: 02240-D011
     definition: facility incorporated in a measuring instrument that enables significant
       durability errors to be detected and acted upon
+    definition_paragraphs:
+    - text: facility incorporated in a measuring instrument that enables significant
+        durability errors to be detected and acted upon
+      sources: []
     notes:
     - Note:“Act upon” refers to any adequate response by the measuring instrument
       (luminous signal, acoustic signal, prevention of the measurement process, etc.).
+    note_paragraphs:
+    - text: Note:“Act upon” refers to any adequate response by the measuring instrument
+        (luminous signal, acoustic signal, prevention of the measurement process,
+        etc.).
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -73,8 +101,14 @@ data:
     g18_entry: '01874'
     definition: facility that is incorporated in a measuring instrument which enables
       the detection of and action upon significant durability errors
+    definition_paragraphs:
+    - text: facility that is incorporated in a measuring instrument which enables
+        the detection of and action upon significant durability errors
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

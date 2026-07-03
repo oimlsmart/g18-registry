@@ -26,9 +26,17 @@ data:
     g18_entry: '02355'
     definition: factor product of a combined standard measurement uncertainty and
       a larger than the number one
+    definition_paragraphs:
+    - text: factor product of a combined standard measurement uncertainty and a larger
+        than the number one
+      sources: []
     notes:
     - "(VIM:2007, 2.35)"
+    note_paragraphs:
+    - text: "(VIM:2007, 2.35)"
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -42,8 +50,14 @@ data:
     g18_entry: '02356'
     definition: product of a combined standard measurement uncertainty and a factor
       larger than the number one [VIM:2007, 2.35]
+    definition_paragraphs:
+    - text: product of a combined standard measurement uncertainty and a factor larger
+        than the number one [VIM:2007, 2.35]
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

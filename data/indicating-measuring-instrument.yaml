@@ -26,11 +26,23 @@ data:
     definition: 'measuring instrument providing an output signal carrying information
       about the value of the quantity being measured Examples:  Voltmeter, micrometer,
       thermometer, electronic balance.'
+    definition_paragraphs:
+    - text: 'measuring instrument providing an output signal carrying information
+        about the value of the quantity being measured Examples:  Voltmeter, micrometer,
+        thermometer, electronic balance.'
+      sources: []
     notes:
     - An indicating measuring instrument may provide a record of its indication.
     - An output signal may be presented in visual or acustic for. It may also be transmitted
       to one more other devices.
+    note_paragraphs:
+    - text: An indicating measuring instrument may provide a record of its indication.
+      sources: []
+    - text: An output signal may be presented in visual or acustic for. It may also
+        be transmitted to one more other devices.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

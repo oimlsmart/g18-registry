@@ -25,8 +25,14 @@ data:
     g18_entry: '02659'
     definition: volume of gas corresponding to one full revolution of the moving part(s)
       inside the meter (working cycle)
+    definition_paragraphs:
+    - text: volume of gas corresponding to one full revolution of the moving part(s)
+        inside the meter (working cycle)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

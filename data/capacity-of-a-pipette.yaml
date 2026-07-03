@@ -28,11 +28,23 @@ data:
       of water at the reference temperature, delivered by the pipette at this temperature
       when it is emptied as specified in the appendix, point A.3., after filling it
       to the scale mark
+    definition_paragraphs:
+    - text: the capacity corresponding to any scale mark, is equal to the volume of
+        water at the reference temperature, delivered by the pipette at this temperature
+        when it is emptied as specified in the appendix, point A.3., after filling
+        it to the scale mark
+      sources: []
     notes:
     - The meniscus formed by the water in the pipette, must be so adjusted that the
       horizontal plane passing through the upper edge of the scale mark, is tangential
       to the lowest point of the meniscus, when viewed in this plane.
+    note_paragraphs:
+    - text: The meniscus formed by the water in the pipette, must be so adjusted that
+        the horizontal plane passing through the upper edge of the scale mark, is
+        tangential to the lowest point of the meniscus, when viewed in this plane.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -48,11 +60,23 @@ data:
       of water at the reference temperature, delivered by the pipette at this temperature
       when it is emptied as specified in the appendix, point A.3., after filling it
       to the scale mark
+    definition_paragraphs:
+    - text: the capacity corresponding to any scale mark, is equal to the volume of
+        water at the reference temperature, delivered by the pipette at this temperature
+        when it is emptied as specified in the appendix, point A.3., after filling
+        it to the scale mark
+      sources: []
     notes:
     - 'Note: The meniscus formed by the water in the pipette, must be so adjusted
       that the horizontal plane passing through the upper edge of the scale mark,
       is tangential to the lowest point of the meniscus, when viewed in this plane.'
+    note_paragraphs:
+    - text: 'Note: The meniscus formed by the water in the pipette, must be so adjusted
+        that the horizontal plane passing through the upper edge of the scale mark,
+        is tangential to the lowest point of the meniscus, when viewed in this plane.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

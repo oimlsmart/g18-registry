@@ -25,8 +25,14 @@ data:
     g18_entry: '03197'
     definition: amount of product that currently is introducing the force on the load
       receptor
+    definition_paragraphs:
+    - text: amount of product that currently is introducing the force on the load
+        receptor
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

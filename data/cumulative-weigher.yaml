@@ -25,8 +25,14 @@ data:
     g18_entry: '00759'
     definition: automatic gravimetric filling instrument with one weighing unit with
       the facility to effect the fill by more than one weighing cycle
+    definition_paragraphs:
+    - text: automatic gravimetric filling instrument with one weighing unit with the
+        facility to effect the fill by more than one weighing cycle
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

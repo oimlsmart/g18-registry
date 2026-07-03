@@ -24,12 +24,23 @@ data:
     link:
     g18_entry: '03284'
     definition: measuring system intended for the measurement of bunker fuel
+    definition_paragraphs:
+    - text: measuring system intended for the measurement of bunker fuel
+      sources: []
     notes:
     - These measuring systems are located either on a special bunkering vessel, such
       as a bunker barge/tanker, or on the receiving vessel.
     - In the process of bunkering, there is often a high possibility of entrined air
       entering the liquid, caused by emptying tanks and other issues.
+    note_paragraphs:
+    - text: These measuring systems are located either on a special bunkering vessel,
+        such as a bunker barge/tanker, or on the receiving vessel.
+      sources: []
+    - text: In the process of bunkering, there is often a high possibility of entrined
+        air entering the liquid, caused by emptying tanks and other issues.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

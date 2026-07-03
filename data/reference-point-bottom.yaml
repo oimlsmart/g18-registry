@@ -32,8 +32,14 @@ data:
     g18_entry: '02255'
     definition: reference point in the lower part of the tank, under normal operating
       conditions below the liquid level
+    definition_paragraphs:
+    - text: reference point in the lower part of the tank, under normal operating
+        conditions below the liquid level
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -47,8 +53,14 @@ data:
     g18_entry: '03443'
     definition: reference point in the lower part of the tank, under normal operating
       conditions below the liquid level
+    definition_paragraphs:
+    - text: reference point in the lower part of the tank, under normal operating
+        conditions below the liquid level
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -62,8 +74,14 @@ data:
     g18_entry: 02255-R080-1
     definition: reference point in the lower part of the tank, under normal operating
       conditions below the liquid level
+    definition_paragraphs:
+    - text: reference point in the lower part of the tank, under normal operating
+        conditions below the liquid level
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

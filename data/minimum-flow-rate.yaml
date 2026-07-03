@@ -38,8 +38,14 @@ data:
     g18_entry: '01221'
     definition: the lowest flow rate at which the measuring system is required to
       meet the applicable maximum permissible errors
+    definition_paragraphs:
+    - text: the lowest flow rate at which the measuring system is required to meet
+        the applicable maximum permissible errors
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -53,8 +59,14 @@ data:
     g18_entry: '02411'
     definition: lowest flow rate (3.3.1) at which the meter is to operate within the
       maximum permissible error(s) (3.2.5)
+    definition_paragraphs:
+    - text: lowest flow rate (3.3.1) at which the meter is to operate within the maximum
+        permissible error(s) (3.2.5)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -68,8 +80,14 @@ data:
     g18_entry: '03306'
     definition: flowrate above which the weighing results comply with the requirements
       of this Recommendation
+    definition_paragraphs:
+    - text: flowrate above which the weighing results comply with the requirements
+        of this Recommendation
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -84,8 +102,15 @@ data:
     definition: lowest flow rate at which a gas meter is required to operate within
       the limits of its maximum permissible error, whilst operated within its rated
       operating conditions
+    definition_paragraphs:
+    - text: lowest flow rate at which a gas meter is required to operate within the
+        limits of its maximum permissible error, whilst operated within its rated
+        operating conditions
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

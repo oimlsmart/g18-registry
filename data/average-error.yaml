@@ -26,8 +26,14 @@ data:
     g18_entry: '01109'
     definition: sum of individual prepackage errors considering their arithmetic sign
       divided by the number of prepackages in the sample
+    definition_paragraphs:
+    - text: sum of individual prepackage errors considering their arithmetic sign
+        divided by the number of prepackages in the sample
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,12 +47,24 @@ data:
     g18_entry: '02492'
     definition: sum of individual prepackage errors considering their arithmetic signs
       divided by the number of prepackages in the inspection lot or sample
+    definition_paragraphs:
+    - text: sum of individual prepackage errors considering their arithmetic signs
+        divided by the number of prepackages in the inspection lot or sample
+      sources: []
     notes:
     - The average error for all prepackages in a sample with sample size n is designated
       by the symbol eave.
     - The average error for all prepackages in an inspection lot with N prepackages
       is designated by the symbol Eave.
+    note_paragraphs:
+    - text: The average error for all prepackages in a sample with sample size n is
+        designated by the symbol eave.
+      sources: []
+    - text: The average error for all prepackages in an inspection lot with N prepackages
+        is designated by the symbol Eave.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

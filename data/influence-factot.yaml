@@ -25,8 +25,14 @@ data:
     g18_entry: '01578'
     definition: influence quantity having a value within the rated operating conditions
       of the measuring system, as specified in this Recommendation
+    definition_paragraphs:
+    - text: influence quantity having a value within the rated operating conditions
+        of the measuring system, as specified in this Recommendation
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -25,8 +25,14 @@ data:
     g18_entry: '02880'
     definition: operation that brings the measuring system into a condition suitable
       for the commencement of the delivery
+    definition_paragraphs:
+    - text: operation that brings the measuring system into a condition suitable for
+        the commencement of the delivery
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

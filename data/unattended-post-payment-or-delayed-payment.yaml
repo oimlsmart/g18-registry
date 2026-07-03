@@ -28,8 +28,16 @@ data:
       delivered quantity is required after the delivery, but in which the transaction
       is not settled when the customer leaves the site, following an implicit agreement
       with the supplier
+    definition_paragraphs:
+    - text: type of payment in unattended service mode in which payment for the delivered
+        quantity is required after the delivery, but in which the transaction is not
+        settled when the customer leaves the site, following an implicit agreement
+        with the supplier
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -45,8 +53,16 @@ data:
       delivered quantity is required after the delivery, but in which the transaction
       is not settled when the customer leaves the site, following an implicit agreement
       with the supplier
+    definition_paragraphs:
+    - text: type of payment in unattended service mode in which payment for the delivered
+        quantity is required after the delivery, but in which the transaction is not
+        settled when the customer leaves the site, following an implicit agreement
+        with the supplier
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

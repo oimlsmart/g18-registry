@@ -27,8 +27,15 @@ data:
     definition: value expressed in units of mass for weighing vehicles or test loads
       that are stationary that is the difference between two consecutive indicated
       or printed values
+    definition_paragraphs:
+    - text: value expressed in units of mass for weighing vehicles or test loads that
+        are stationary that is the difference between two consecutive indicated or
+        printed values
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +48,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r106-1-e97.pdf
     g18_entry: '01285'
     definition: the scale interval used for static tests
+    definition_paragraphs:
+    - text: the scale interval used for static tests
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -57,8 +69,15 @@ data:
     definition: value, expressed in units of mass, for stationary weighing vehicles
       or test weights that is the difference between two consecutive indicated or
       printed values
+    definition_paragraphs:
+    - text: value, expressed in units of mass, for stationary weighing vehicles or
+        test weights that is the difference between two consecutive indicated or printed
+        values
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

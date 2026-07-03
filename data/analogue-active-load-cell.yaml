@@ -26,11 +26,21 @@ data:
     definition: load cell which is capable of performing the functions as described
       under " analogue-passive” load cell (3.1.3.1) and which also utilizes active
       electronics
+    definition_paragraphs:
+    - text: load cell which is capable of performing the functions as described under
+        " analogue-passive” load cell (3.1.3.1) and which also utilizes active electronics
+      sources: []
     notes:
     - 'Note: This type of load cell may utilise the active electronics for gaining
       an electronic representation of the measurand value, active temperature compensation,
       and similar function being of influence to the measurand value.'
+    note_paragraphs:
+    - text: 'Note: This type of load cell may utilise the active electronics for gaining
+        an electronic representation of the measurand value, active temperature compensation,
+        and similar function being of influence to the measurand value.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -25,11 +25,20 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r116-e06.pdf
     g18_entry: '01517'
     definition: device used to transform the liquid sample into an aerosol
+    definition_paragraphs:
+    - text: device used to transform the liquid sample into an aerosol
+      sources: []
     notes:
     - The nebulizer produces droplets of varying sizes that pass through the spray
       chamber where larger droplets remain on the chamber walls and are removed as
       waste.
+    note_paragraphs:
+    - text: The nebulizer produces droplets of varying sizes that pass through the
+        spray chamber where larger droplets remain on the chamber walls and are removed
+        as waste.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -42,8 +51,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r100-e91.pdf
     g18_entry: '01200'
     definition: A device that converts a liquid sample into an aerosol
+    definition_paragraphs:
+    - text: A device that converts a liquid sample into an aerosol
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -56,8 +70,13 @@ data:
     link:
     g18_entry: '02519'
     definition: device that converts a liquid sample into an aerosol
+    definition_paragraphs:
+    - text: device that converts a liquid sample into an aerosol
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -70,11 +89,20 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r116-e06.pdf
     g18_entry: '01517'
     definition: device used to transform the liquid sample into an aerosol
+    definition_paragraphs:
+    - text: device used to transform the liquid sample into an aerosol
+      sources: []
     notes:
     - 'Note: The nebulizer produces droplets of varying sizes that pass through the
       spray chamber where larger droplets remain on the chamber walls and are removed
       as waste.'
+    note_paragraphs:
+    - text: 'Note: The nebulizer produces droplets of varying sizes that pass through
+        the spray chamber where larger droplets remain on the chamber walls and are
+        removed as waste.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

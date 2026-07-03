@@ -24,9 +24,16 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r087-e04.pdf
     g18_entry: '01123'
     definition: deficiency in the quantity of product permitted in a prepackage
+    definition_paragraphs:
+    - text: deficiency in the quantity of product permitted in a prepackage
+      sources: []
     notes:
     - The symbol 'T' means tolerable deficiency.
+    note_paragraphs:
+    - text: The symbol 'T' means tolerable deficiency.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

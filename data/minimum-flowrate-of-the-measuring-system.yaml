@@ -32,8 +32,14 @@ data:
     g18_entry: '02076'
     definition: flowrate equal to or greater than the smallest "minimum flowrate"
       of the individual meters
+    definition_paragraphs:
+    - text: flowrate equal to or greater than the smallest "minimum flowrate" of the
+        individual meters
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -47,8 +53,14 @@ data:
     g18_entry: '00442'
     definition: lowest flowrate at which the water meter is required to operate within
       the maximum permissible error
+    definition_paragraphs:
+    - text: lowest flowrate at which the water meter is required to operate within
+        the maximum permissible error
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

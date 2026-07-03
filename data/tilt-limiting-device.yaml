@@ -26,8 +26,14 @@ data:
     g18_entry: '00610'
     definition: device which prevents the instrument from operating above a predetermined
       value of tilt
+    definition_paragraphs:
+    - text: device which prevents the instrument from operating above a predetermined
+        value of tilt
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '00610'
     definition: device which prevents the instrument from operating above a predetermined
       value of tilt
+    definition_paragraphs:
+    - text: device which prevents the instrument from operating above a predetermined
+        value of tilt
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

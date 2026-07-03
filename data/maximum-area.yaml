@@ -33,8 +33,15 @@ data:
     definition: highest value of the marked range on the indicator for an analogue
       display. Nominally the highest value that can be detected by the digital indicator
       plus one scale interval for electronic displays
+    definition_paragraphs:
+    - text: highest value of the marked range on the indicator for an analogue display.
+        Nominally the highest value that can be detected by the digital indicator
+        plus one scale interval for electronic displays
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -49,8 +56,15 @@ data:
     definition: highest value of the marked range on the indicator for an analogue
       display. Nominally the highest value that can be detected by the digital indicator
       plus one scale interval for electronic displays
+    definition_paragraphs:
+    - text: highest value of the marked range on the indicator for an analogue display.
+        Nominally the highest value that can be detected by the digital indicator
+        plus one scale interval for electronic displays
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -32,9 +32,17 @@ data:
     g18_entry: '01743'
     definition: 'optical absorbance, Astem:[lambda], at the analysis wavelength, stem:[lambda],
       divided by the dosimeter thickness, t:'
+    definition_paragraphs:
+    - text: 'optical absorbance, Astem:[lambda], at the analysis wavelength, stem:[lambda],
+        divided by the dosimeter thickness, t:'
+      sources: []
     notes:
     - The thickness, t, is a measure of optical path length.
+    note_paragraphs:
+    - text: The thickness, t, is a measure of optical path length.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -48,9 +56,17 @@ data:
     g18_entry: '01743'
     definition: 'optical absorbance, Aλ, at the analysis wavelength, λ, divided by
       the dosimeter thickness, t: kλ = Aλ /t'
+    definition_paragraphs:
+    - text: 'optical absorbance, Aλ, at the analysis wavelength, λ, divided by the
+        dosimeter thickness, t: kλ = Aλ /t'
+      sources: []
     notes:
     - 'Note: The thickness, t, is a measure of optical path length.'
+    note_paragraphs:
+    - text: 'Note: The thickness, t, is a measure of optical path length.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

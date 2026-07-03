@@ -26,8 +26,15 @@ data:
     definition: maximum absolute value of the difference allowed by national regulation,
       between the measured conventional mass and the nominal value of a weight, as
       determined by corresponding reference weights
+    definition_paragraphs:
+    - text: maximum absolute value of the difference allowed by national regulation,
+        between the measured conventional mass and the nominal value of a weight,
+        as determined by corresponding reference weights
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

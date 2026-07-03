@@ -25,8 +25,14 @@ data:
     g18_entry: '03791'
     definition: horizontal distance along the road from the speed meter to the trigger
       line
+    definition_paragraphs:
+    - text: horizontal distance along the road from the speed meter to the trigger
+        line
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -26,8 +26,14 @@ data:
     g18_entry: '00614'
     definition: device for setting the indication to zero automatically without the
       intervention of an operator
+    definition_paragraphs:
+    - text: device for setting the indication to zero automatically without the intervention
+        of an operator
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '00614'
     definition: device for setting the indication to zero automatically without the
       intervention of an operator
+    definition_paragraphs:
+    - text: device for setting the indication to zero automatically without the intervention
+        of an operator
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

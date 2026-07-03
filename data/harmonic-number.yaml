@@ -24,10 +24,18 @@ data:
     link:
     g18_entry: 02311-R046-1
     definition: integer number used to identify a harmonic
+    definition_paragraphs:
+    - text: integer number used to identify a harmonic
+      sources: []
     notes:
     - 'Note: The harmonic number is the ratio of the frequency of a harmonic to the
       fundamental frequency of the signal.'
+    note_paragraphs:
+    - text: 'Note: The harmonic number is the ratio of the frequency of a harmonic
+        to the fundamental frequency of the signal.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

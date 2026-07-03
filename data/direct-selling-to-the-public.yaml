@@ -29,9 +29,20 @@ data:
       transaction related to the measurement is a consumer or any other party requiring
       a similar level of protection, and * all the parties in the transaction accept
       the measurement result obtained at that time and place'
+    definition_paragraphs:
+    - text: 'sales transaction in which: * the measurement result serves as the basis
+        for the price to pay, and * at least one of the parties involved in the transaction
+        related to the measurement is a consumer or any other party requiring a similar
+        level of protection, and * all the parties in the transaction accept the measurement
+        result obtained at that time and place'
+      sources: []
     notes:
     - "(note in Annex B)"
+    note_paragraphs:
+    - text: "(note in Annex B)"
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -46,8 +57,16 @@ data:
     definition: a transaction (selling or buying) of quantities of liquids whose settlement
       is associated with indications provided by a measuring system, any of the parties
       having access to the place of measurement and one of them being a consumer
+    definition_paragraphs:
+    - text: a transaction (selling or buying) of quantities of liquids whose settlement
+        is associated with indications provided by a measuring system, any of the
+        parties having access to the place of measurement and one of them being a
+        consumer
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -64,9 +83,20 @@ data:
       transaction related to the measurement is a consumer or any other party requiring
       a similar level of protection, and all the parties in the transaction accept
       the measurement result obtained at that time and place'
+    definition_paragraphs:
+    - text: 'sales transaction in which: the measurement result serves as the basis
+        for the price to pay, and at least one of the parties involved in the transaction
+        related to the measurement is a consumer or any other party requiring a similar
+        level of protection, and all the parties in the transaction accept the measurement
+        result obtained at that time and place'
+      sources: []
     notes:
     - "(note in Annex B)"
+    note_paragraphs:
+    - text: "(note in Annex B)"
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -81,8 +111,16 @@ data:
     definition: a transaction (selling or buying) of quantities of liquids whose settlement
       is associated with indications provided by a measuring system, any of the parties
       having access to the place of measurement and one of them being a consumer
+    definition_paragraphs:
+    - text: a transaction (selling or buying) of quantities of liquids whose settlement
+        is associated with indications provided by a measuring system, any of the
+        parties having access to the place of measurement and one of them being a
+        consumer
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

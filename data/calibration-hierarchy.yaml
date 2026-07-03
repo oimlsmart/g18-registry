@@ -26,8 +26,21 @@ data:
     definition: sequence of calibrations from a reference to the final measuring system,
       where the outcome of each calibration depends on the outcome of the previous
       calibration
+    definition_paragraphs:
+    - text: sequence of calibrations from a reference to the final measuring system,
+        where the outcome of each calibration depends on the outcome of the previous
+        calibration
+      sources:
+      - kind: vim
+        relationship: identical
+        modification:
+        ref_source: OIML V 2-200:2012
+        ref_id: '2.40'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: vim
       relationship: identical

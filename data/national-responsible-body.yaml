@@ -28,8 +28,16 @@ data:
       does not conduct type evaluation but is responsible for the metrological control
       of measuring instruments, including the approval or recognition of specific
       types of measuring instruments for national use
+    definition_paragraphs:
+    - text: organization within an OIML Member State or Corresponding Member that
+        does not conduct type evaluation but is responsible for the metrological control
+        of measuring instruments, including the approval or recognition of specific
+        types of measuring instruments for national use
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -43,12 +51,24 @@ data:
     g18_entry: '00163'
     definition: national organization or agency responsible for implementing laws
       or regulation regarding metrological control of measuring instruments
+    definition_paragraphs:
+    - text: national organization or agency responsible for implementing laws or regulation
+        regarding metrological control of measuring instruments
+      sources: []
     notes:
     - The national service of legal metrology may fall under the jurisdiction of the
       national responsible body referred to in this Document; therefore, when delegated
       the responsibility, the national service of legal metrology should be substituted
       for the "national responsible body" throughout the text of this Document.
+    note_paragraphs:
+    - text: The national service of legal metrology may fall under the jurisdiction
+        of the national responsible body referred to in this Document; therefore,
+        when delegated the responsibility, the national service of legal metrology
+        should be substituted for the "national responsible body" throughout the text
+        of this Document.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -63,8 +83,15 @@ data:
     definition: organization or agency in a particular country that is responsible
       for determining whether the dosimetry system meets the performance requirements
       designated by law or regulations
+    definition_paragraphs:
+    - text: organization or agency in a particular country that is responsible for
+        determining whether the dosimetry system meets the performance requirements
+        designated by law or regulations
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -79,8 +106,15 @@ data:
     definition: organization or agency in a particular country that is responsible
       for determining whether the dosimetry system meets the performance requirements
       designated by law or regulations
+    definition_paragraphs:
+    - text: organization or agency in a particular country that is responsible for
+        determining whether the dosimetry system meets the performance requirements
+        designated by law or regulations
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -95,8 +129,15 @@ data:
     definition: the organization or agency in a particular country that is responsible
       for determining whether the dosimetry system meets the performance requirements
       designated by law or regulation
+    definition_paragraphs:
+    - text: the organization or agency in a particular country that is responsible
+        for determining whether the dosimetry system meets the performance requirements
+        designated by law or regulation
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -110,13 +151,25 @@ data:
     g18_entry: '00163'
     definition: national organization or agency responsible for implementing laws
       or regulation regarding metrological control of measuring instruments
+    definition_paragraphs:
+    - text: national organization or agency responsible for implementing laws or regulation
+        regarding metrological control of measuring instruments
+      sources: []
     notes:
     - 'Note: The national service of legal metrology may fall under the jurisdiction
       of the national responsible body referred to in this Document; therefore, when
       delegated the responsibility, the national service of legal metrology should
       be substituted for the “national responsible body” throughout the text of this
       Document.'
+    note_paragraphs:
+    - text: 'Note: The national service of legal metrology may fall under the jurisdiction
+        of the national responsible body referred to in this Document; therefore,
+        when delegated the responsibility, the national service of legal metrology
+        should be substituted for the “national responsible body” throughout the text
+        of this Document.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -131,8 +184,15 @@ data:
     definition: organization or agency in a particular country that is responsible
       for determining whether the dosimetry system meets the performance requirements
       designated by law or regulations
+    definition_paragraphs:
+    - text: organization or agency in a particular country that is responsible for
+        determining whether the dosimetry system meets the performance requirements
+        designated by law or regulations
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -147,8 +207,15 @@ data:
     definition: organization or agency in a particular country that is responsible
       for determining whether the dosimetry system meets the performance requirements
       designated by law or regulations
+    definition_paragraphs:
+    - text: organization or agency in a particular country that is responsible for
+        determining whether the dosimetry system meets the performance requirements
+        designated by law or regulations
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -163,8 +230,15 @@ data:
     definition: the organization or agency in a particular country that is responsible
       for determining whether the dosimetry system meets the performance requirements
       designated by law or regulation
+    definition_paragraphs:
+    - text: the organization or agency in a particular country that is responsible
+        for determining whether the dosimetry system meets the performance requirements
+        designated by law or regulation
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

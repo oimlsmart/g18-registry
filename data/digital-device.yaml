@@ -26,9 +26,17 @@ data:
     g18_entry: '01331'
     definition: electronic device that only performs digital functions and that provides
       a digitized output or display.
+    definition_paragraphs:
+    - text: electronic device that only performs digital functions and that provides
+        a digitized output or display.
+      sources: []
     notes: []
+    note_paragraphs: []
     examples:
     - Printer, remote display, terminal, data storage device, personal computer
+    example_paragraphs:
+    - text: Printer, remote display, terminal, data storage device, personal computer
+      sources: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -42,10 +50,19 @@ data:
     g18_entry: '00907'
     definition: electronic device that only performs digital functions and provides
       a digitized output or display
+    definition_paragraphs:
+    - text: electronic device that only performs digital functions and provides a
+        digitized output or display
+      sources: []
     notes: []
+    note_paragraphs: []
     examples:
     - Printer, primary or secondary display, keyboard, terminal, data storage device,
       personal computer.
+    example_paragraphs:
+    - text: Printer, primary or secondary display, keyboard, terminal, data storage
+        device, personal computer.
+      sources: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -59,8 +76,14 @@ data:
     g18_entry: '02987'
     definition: 'device that provides a digitised output or display Examples: Printer,
       remote display, terminal, data storage device, personal computer'
+    definition_paragraphs:
+    - text: 'device that provides a digitised output or display Examples: Printer,
+        remote display, terminal, data storage device, personal computer'
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -75,8 +98,15 @@ data:
     definition: 'electronic device that only performs digital functions and that provides
       a digitized output or display. Examples: Printer, remote display, terminal,
       data storage device, personal computer'
+    definition_paragraphs:
+    - text: 'electronic device that only performs digital functions and that provides
+        a digitized output or display. Examples: Printer, remote display, terminal,
+        data storage device, personal computer'
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -91,8 +121,15 @@ data:
     definition: 'electronic device that only performs digital functions and provides
       a digitized output or display Examples: Printer, primary or secondary display,
       keyboard, terminal, data storage device, personal computer.'
+    definition_paragraphs:
+    - text: 'electronic device that only performs digital functions and provides a
+        digitized output or display Examples: Printer, primary or secondary display,
+        keyboard, terminal, data storage device, personal computer.'
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -38,8 +38,14 @@ data:
     g18_entry: '01966'
     definition: density of the gas flowing through the gas meter, corresponding to
       pw and tw
+    definition_paragraphs:
+    - text: density of the gas flowing through the gas meter, corresponding to pw
+        and tw
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -53,8 +59,14 @@ data:
     g18_entry: '02689'
     definition: density of the gas flowing through the gas meter, corresponding to
       stem:[rho_{"w"}] and stem:[t_{"w"}]
+    definition_paragraphs:
+    - text: density of the gas flowing through the gas meter, corresponding to stem:[rho_{"w"}]
+        and stem:[t_{"w"}]
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

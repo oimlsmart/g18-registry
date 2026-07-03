@@ -24,8 +24,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_D/d031-e08.pdf
     g18_entry: '02207'
     definition: generic term comprising program code, data, and parameters
+    definition_paragraphs:
+    - text: generic term comprising program code, data, and parameters
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

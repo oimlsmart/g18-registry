@@ -42,11 +42,23 @@ data:
     definition: condition of measurement, out of a set of conditions that includes
       different locations, operators, measuring systems, and replicate measurements
       on the same or similar objects
+    definition_paragraphs:
+    - text: condition of measurement, out of a set of conditions that includes different
+        locations, operators, measuring systems, and replicate measurements on the
+        same or similar objects
+      sources: []
     notes:
     - Different measuring systems may use different measurement procedures.
     - A specification should give the conditions changed and unchanged, to the extent
       practical.
+    note_paragraphs:
+    - text: Different measuring systems may use different measurement procedures.
+      sources: []
+    - text: A specification should give the conditions changed and unchanged, to the
+        extent practical.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -66,8 +78,15 @@ data:
     definition: condition of measurement, out of a set of conditions that includes
       different locations, operators, measuring systems, and replicate measurements
       on the same or similar objects (OIML V 2-200, 2.24)
+    definition_paragraphs:
+    - text: condition of measurement, out of a set of conditions that includes different
+        locations, operators, measuring systems, and replicate measurements on the
+        same or similar objects (OIML V 2-200, 2.24)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -82,11 +101,29 @@ data:
     definition: condition of measurement, out of a set of conditions that includes
       different locations, operators, measuring systems, and replicate measurements
       on the same or similar objects
+    definition_paragraphs:
+    - text: condition of measurement, out of a set of conditions that includes different
+        locations, operators, measuring systems, and replicate measurements on the
+        same or similar objects
+      sources:
+      - kind: vim
+        relationship: identical
+        modification:
+        ref_source: OIML V 2-200:2007
+        ref_id: '2.24'
+        is_vimline: true
     notes:
     - Different measuring systems may use different measurement procedures.
     - A specification should give the conditions changed and unchanged, to the extent
       practical.
+    note_paragraphs:
+    - text: Different measuring systems may use different measurement procedures.
+      sources: []
+    - text: A specification should give the conditions changed and unchanged, to the
+        extent practical.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: vim
       relationship: identical
@@ -107,12 +144,31 @@ data:
     definition: condition of measurement, out of a set of conditions that includes
       different locations, operators, measuring systems, and replicate measurements
       on the same or similar objects
+    definition_paragraphs:
+    - text: condition of measurement, out of a set of conditions that includes different
+        locations, operators, measuring systems, and replicate measurements on the
+        same or similar objects
+      sources:
+      - kind: vim
+        relationship: identical
+        modification:
+        ref_source: OIML V 2-200:2007
+        ref_id: '2.24'
+        is_vimline: true
     notes:
     - The different measuring systems may use different measurement procedures.
     - A specification should give the conditions changed and unchanged, to the extent
       practical. For the tests in this Recommendation, the conditions changed and
       unchanged are summarized in R 146-2, Annex A, A.3.4.
+    note_paragraphs:
+    - text: The different measuring systems may use different measurement procedures.
+      sources: []
+    - text: A specification should give the conditions changed and unchanged, to the
+        extent practical. For the tests in this Recommendation, the conditions changed
+        and unchanged are summarized in R 146-2, Annex A, A.3.4.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: vim
       relationship: identical

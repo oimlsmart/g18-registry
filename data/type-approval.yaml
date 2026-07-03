@@ -41,10 +41,22 @@ data:
       complies with the relevant statutory requirements and is suitable for use in
       the regulated area in such a way that it is expected to provide reliable measurement
       results over a defined period of time'
+    definition_paragraphs:
+    - text: '- G.3-2 decision of legal relevance, based on the evaluation report that
+        For the purpose of this Document, the "type the type of a measuring instrument
+        complies with the relevant statutory requirements and is suitable for use
+        in the regulated area in such a way that it is expected to provide reliable
+        measurement results over a defined period of time'
+      sources: []
     notes:
     - approval" is named "type evaluation". Consequently "Type evaluation" in the
       sense of this Document includes examination, tests and decision.
+    note_paragraphs:
+    - text: approval" is named "type evaluation". Consequently "Type evaluation" in
+        the sense of this Document includes examination, tests and decision.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -60,8 +72,17 @@ data:
       the type of a measuring instrument complies with the relevant statutory requirements
       and is suitable for use in the regulated area in such a way that it is expected
       to provide reliable measurement results over a defined period of time IML 2.6)"
+    definition_paragraphs:
+    - text: "(V decision of legal relevance, based on the evaluation report, that
+        the type of a measuring instrument complies with the relevant statutory requirements
+        and is suitable for use in the regulated area in such a way that it is expected
+        to provide reliable measurement results over a defined period of time IML
+        2.6)"
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -77,8 +98,22 @@ data:
       the type of measuring instrument complies with the respective statutory requirements
       and is suitable for use in the regulated area in such a way that it is expected
       to provide reliable measurement results over a defined period of time
+    definition_paragraphs:
+    - text: decision of legal relevance, based on the evaluation report, that the
+        type of measuring instrument complies with the respective statutory requirements
+        and is suitable for use in the regulated area in such a way that it is expected
+        to provide reliable measurement results over a defined period of time
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2000
+        ref_id: '2.6'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical
@@ -105,8 +140,16 @@ data:
       of a type evaluation test report for the type of weights or weight set and professional
       judgment, that the type is in conformity with the mandatory requirements of
       this Recommendation for legal applications
+    definition_paragraphs:
+    - text: process of making a decision by a responsible body, based on a review
+        of a type evaluation test report for the type of weights or weight set and
+        professional judgment, that the type is in conformity with the mandatory requirements
+        of this Recommendation for legal applications
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -122,8 +165,22 @@ data:
       the type of measuring instrument complies with the relevant statutory requirements
       and is suitable for use in the regulated area in such a way that it is expected
       to provide reliable measurement results over a defined period of time
+    definition_paragraphs:
+    - text: decision of legal relevance, based on the evaluation report, that the
+        type of measuring instrument complies with the relevant statutory requirements
+        and is suitable for use in the regulated area in such a way that it is expected
+        to provide reliable measurement results over a defined period of time
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2000
+        ref_id: '2.6'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical
@@ -149,9 +206,18 @@ data:
     definition: decision of legal relevance, based on the review of type evaluation
       report, that the type of e measuring instrument complies with the relevant statutory
       requirements and results in the issuance of the type approval certificate
+    definition_paragraphs:
+    - text: decision of legal relevance, based on the review of type evaluation report,
+        that the type of e measuring instrument complies with the relevant statutory
+        requirements and results in the issuance of the type approval certificate
+      sources: []
     notes:
     - 'Note:  See olso VIML A.25'
+    note_paragraphs:
+    - text: 'Note:  See olso VIML A.25'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -172,8 +238,16 @@ data:
       the type of a measuring instrument complies with the relevant statutory requirements
       and is suitable for use in the regulated area in such a way that it is expected
       to provide reliable measurement results over a defined period of time
+    definition_paragraphs:
+    - text: decision of legal relevance, based on the evaluation report, that the
+        type of a measuring instrument complies with the relevant statutory requirements
+        and is suitable for use in the regulated area in such a way that it is expected
+        to provide reliable measurement results over a defined period of time
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -188,9 +262,24 @@ data:
     definition: decision of legal relevance, based on the review of type evaluation
       report, that the type of e measuring instrument complies with the relevant statutory
       requirements and results in the issuance of the type approval certificate
+    definition_paragraphs:
+    - text: decision of legal relevance, based on the review of type evaluation report,
+        that the type of e measuring instrument complies with the relevant statutory
+        requirements and results in the issuance of the type approval certificate
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2022
+        ref_id: '2.05'
+        is_vimline: true
     notes:
     - 'Note:  See also VIML, A.25'
+    note_paragraphs:
+    - text: 'Note:  See also VIML, A.25'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical
@@ -212,10 +301,21 @@ data:
       report, that the type of e measuring instrument complies with the relevant statutory
       requirements and results in the issuance of the type approval certificate (VIML
       2.05)
+    definition_paragraphs:
+    - text: decision of legal relevance, based on the review of type evaluation report,
+        that the type of e measuring instrument complies with the relevant statutory
+        requirements and results in the issuance of the type approval certificate
+        (VIML 2.05)
+      sources: []
     notes:
     - 'Note:  For the purposes of the OIML-CS, “type approval certificate” should
       be read as “OIML certificate”.'
+    note_paragraphs:
+    - text: 'Note:  For the purposes of the OIML-CS, “type approval certificate” should
+        be read as “OIML certificate”.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -230,8 +330,21 @@ data:
     definition: decision of legal relevance, based on the review of type evaluation
       report, that the type of e measuring instrument complies with the relevant statutory
       requirements and results in the issuance of the type approval certificate
+    definition_paragraphs:
+    - text: decision of legal relevance, based on the review of type evaluation report,
+        that the type of e measuring instrument complies with the relevant statutory
+        requirements and results in the issuance of the type approval certificate
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2013
+        ref_id: '2.05'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical
@@ -253,8 +366,16 @@ data:
       report, that the type of e measuring instrument complies with the relevant statutory
       requirements and results in the issuance of the type approval certificate (form
       VIML, 2.05)
+    definition_paragraphs:
+    - text: decision of legal relevance, based on the review of type evaluation report,
+        that the type of e measuring instrument complies with the relevant statutory
+        requirements and results in the issuance of the type approval certificate
+        (form VIML, 2.05)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -269,9 +390,24 @@ data:
     definition: decision of legal relevance, based on the review of the type evaluation
       report, that the type of a measuring instrument complies with the relevant statutory
       requirements and results in the issuance of the type approval certificate
+    definition_paragraphs:
+    - text: decision of legal relevance, based on the review of the type evaluation
+        report, that the type of a measuring instrument complies with the relevant
+        statutory requirements and results in the issuance of the type approval certificate
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2013
+        ref_id: '2.05'
+        is_vimline: true
     notes:
     - 'Note:  See also VIML A.25'
+    note_paragraphs:
+    - text: 'Note:  See also VIML A.25'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical
@@ -292,9 +428,24 @@ data:
     definition: decision of legal relevance, based on the review of the type evaluation
       report, that the type of a measuring instrument complies with the relevant statutory
       requirements and results in the issuance of the type approval certificate
+    definition_paragraphs:
+    - text: decision of legal relevance, based on the review of the type evaluation
+        report, that the type of a measuring instrument complies with the relevant
+        statutory requirements and results in the issuance of the type approval certificate
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2013
+        ref_id: '2.05'
+        is_vimline: true
     notes:
     - "{Note See also A.25}"
+    note_paragraphs:
+    - text: "{Note See also A.25}"
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical
@@ -316,8 +467,22 @@ data:
       the type of measuring instrument complies with the respective statutory requirements
       and is suitable for use in the regulated area in such a way that it is expected
       to provide reliable measurement results over a defined period of time
+    definition_paragraphs:
+    - text: decision of legal relevance, based on the evaluation report, that the
+        type of measuring instrument complies with the respective statutory requirements
+        and is suitable for use in the regulated area in such a way that it is expected
+        to provide reliable measurement results over a defined period of time
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2000
+        ref_id: '2.6'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical
@@ -339,11 +504,23 @@ data:
       type of a measuring instrument complies with the relevant statutory requirements
       and is suitable for use in the regulated area in such a way that it is expected
       to provide reliable measurement results over a defined period of time
+    definition_paragraphs:
+    - text: decision of legal relevance, based on the evaluation report that the type
+        of a measuring instrument complies with the relevant statutory requirements
+        and is suitable for use in the regulated area in such a way that it is expected
+        to provide reliable measurement results over a defined period of time
+      sources: []
     notes:
     - 'Note:  For the purpose of this Document, the “type approval” is named “type
       evaluation”. Consequently “Type evaluation” in the sense of this Document includes
       examination, tests and decision.'
+    note_paragraphs:
+    - text: 'Note:  For the purpose of this Document, the “type approval” is named
+        “type evaluation”. Consequently “Type evaluation” in the sense of this Document
+        includes examination, tests and decision.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -359,8 +536,22 @@ data:
       the type of measuring instrument complies with the respective statutory requirements
       and is suitable for use in the regulated area in such a way that it is expected
       to provide reliable measurement results over a defined period of time
+    definition_paragraphs:
+    - text: decision of legal relevance, based on the evaluation report, that the
+        type of measuring instrument complies with the respective statutory requirements
+        and is suitable for use in the regulated area in such a way that it is expected
+        to provide reliable measurement results over a defined period of time
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2000
+        ref_id: '2.6'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical
@@ -382,8 +573,16 @@ data:
       of a type evaluation test report for the type of weights or weight set and professional
       judgment, that the type is in conformity with the mandatory requirements of
       this Recommendation for legal applications
+    definition_paragraphs:
+    - text: process of making a decision by a responsible body, based on a review
+        of a type evaluation test report for the type of weights or weight set and
+        professional judgment, that the type is in conformity with the mandatory requirements
+        of this Recommendation for legal applications
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -399,8 +598,22 @@ data:
       the type of measuring instrument complies with the relevant statutory requirements
       and is suitable for use in the regulated area in such a way that it is expected
       to provide reliable measurement results over a defined period of time
+    definition_paragraphs:
+    - text: decision of legal relevance, based on the evaluation report, that the
+        type of measuring instrument complies with the relevant statutory requirements
+        and is suitable for use in the regulated area in such a way that it is expected
+        to provide reliable measurement results over a defined period of time
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2000
+        ref_id: '2.6'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical

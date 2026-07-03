@@ -26,8 +26,15 @@ data:
     definition: identifiable group of modules belonging to the same manufactured type
       that have similar design features but may differ in some metrological and technical
       performance requirements as defined in the relevant Recommendation
+    definition_paragraphs:
+    - text: identifiable group of modules belonging to the same manufactured type
+        that have similar design features but may differ in some metrological and
+        technical performance requirements as defined in the relevant Recommendation
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -26,8 +26,15 @@ data:
     definition: closeness of agreement between indications or measured quantity values
       obtained by replicate measurements on the same or similar objects under specified
       conditions (OIML V 2-200, 2.15)
+    definition_paragraphs:
+    - text: closeness of agreement between indications or measured quantity values
+        obtained by replicate measurements on the same or similar objects under specified
+        conditions (OIML V 2-200, 2.15)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -42,8 +49,21 @@ data:
     definition: closeness of agreement between indications or measured quantity values
       obtained by replicate measurements on the same or similar objects under specified
       conditions
+    definition_paragraphs:
+    - text: closeness of agreement between indications or measured quantity values
+        obtained by replicate measurements on the same or similar objects under specified
+        conditions
+      sources:
+      - kind: vim
+        relationship: identical
+        modification:
+        ref_source: OIML V 2-200:2012
+        ref_id: '2.15'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: vim
       relationship: identical

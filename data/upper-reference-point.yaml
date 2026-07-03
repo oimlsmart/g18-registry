@@ -26,8 +26,14 @@ data:
     g18_entry: '02231'
     definition: point located on the vertical measurement axis, with reference to
       which the ullage is measured
+    definition_paragraphs:
+    - text: point located on the vertical measurement axis, with reference to which
+        the ullage is measured
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -42,8 +48,15 @@ data:
     definition: point clearly marked on the principal gauge hatch located along the
       vertical axis ascending from the dipping datum point to indicate the reference
       position to which ullage is measured
+    definition_paragraphs:
+    - text: point clearly marked on the principal gauge hatch located along the vertical
+        axis ascending from the dipping datum point to indicate the reference position
+        to which ullage is measured
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -57,8 +70,14 @@ data:
     g18_entry: '01142'
     definition: the point on the vertical measurement axis, with reference to which
       the ullage height is measured
+    definition_paragraphs:
+    - text: the point on the vertical measurement axis, with reference to which the
+        ullage height is measured
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -72,8 +91,14 @@ data:
     g18_entry: 02231-R071
     definition: point located on the vertical measurement axis, with reference to
       which the ullage is measured
+    definition_paragraphs:
+    - text: point located on the vertical measurement axis, with reference to which
+        the ullage is measured
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -88,8 +113,15 @@ data:
     definition: point clearly marked on the principal gauge hatch located along the
       vertical axis ascending from the dipping datum point to indicate the reference
       position to which ullage is measured
+    definition_paragraphs:
+    - text: point clearly marked on the principal gauge hatch located along the vertical
+        axis ascending from the dipping datum point to indicate the reference position
+        to which ullage is measured
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -103,8 +135,14 @@ data:
     g18_entry: '01142'
     definition: the point on the vertical measurement axis, with reference to which
       the ullage height is measured
+    definition_paragraphs:
+    - text: the point on the vertical measurement axis, with reference to which the
+        ullage height is measured
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

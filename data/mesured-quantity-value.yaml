@@ -24,9 +24,22 @@ data:
     link:
     g18_entry: '03250'
     definition: quantity value representing a measurement results
+    definition_paragraphs:
+    - text: quantity value representing a measurement results
+      sources:
+      - kind: vim
+        relationship: identical
+        modification:
+        ref_source: OIML V 2-200:2012
+        ref_id: '2.10'
+        is_vimline: true
     notes:
     - "(For notes, refer to the VIM)"
+    note_paragraphs:
+    - text: "(For notes, refer to the VIM)"
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: vim
       relationship: identical

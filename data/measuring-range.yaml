@@ -25,8 +25,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r136-1-e04.pdf
     g18_entry: '01903'
     definition: range in which the maximum and minimum areas are intended to lie
+    definition_paragraphs:
+    - text: range in which the maximum and minimum areas are intended to lie
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -39,8 +44,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r110-e94.pdf
     g18_entry: '01417'
     definition: the range of pressure to be measured with the pressure balance
+    definition_paragraphs:
+    - text: the range of pressure to be measured with the pressure balance
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -53,8 +63,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r136-1-e04.pdf
     g18_entry: '01903'
     definition: range in which the maximum and minimum areas are intended to lie.
+    definition_paragraphs:
+    - text: range in which the maximum and minimum areas are intended to lie.
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -67,8 +82,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r110-e94.pdf
     g18_entry: '01417'
     definition: the range of pressure to be measured with the pressure balance
+    definition_paragraphs:
+    - text: the range of pressure to be measured with the pressure balance
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

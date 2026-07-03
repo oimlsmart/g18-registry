@@ -26,8 +26,14 @@ data:
     g18_entry: '02317'
     definition: vertical distance between the dipping datum point and the liquid The
       term "innage" is synonymous. level
+    definition_paragraphs:
+    - text: vertical distance between the dipping datum point and the liquid The term
+        "innage" is synonymous. level
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -40,9 +46,16 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r085-1-e08.pdf
     g18_entry: 02317-R085-1
     definition: vertical distance between the dipping datum point and the liquid level
+    definition_paragraphs:
+    - text: vertical distance between the dipping datum point and the liquid level
+      sources: []
     notes:
     - 'Note: The term “innage” is synonymous.'
+    note_paragraphs:
+    - text: 'Note: The term “innage” is synonymous.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

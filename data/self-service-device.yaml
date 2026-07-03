@@ -28,8 +28,16 @@ data:
       allows one or more measuring systems to perform in this self-service arrangement.
       The self-service device includes all the elements and constituents that are
       mandatory so that a measuring system performs in a self-service arrangement
+    definition_paragraphs:
+    - text: specific device that is part of a self-service arrangement and which allows
+        one or more measuring systems to perform in this self-service arrangement.
+        The self-service device includes all the elements and constituents that are
+        mandatory so that a measuring system performs in a self-service arrangement
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -43,12 +51,25 @@ data:
     g18_entry: '02003'
     definition: specific device that is part of a self-service arrangement and which
       allows one or more measuring systems to perform in this self-service arrangement
+    definition_paragraphs:
+    - text: specific device that is part of a self-service arrangement and which allows
+        one or more measuring systems to perform in this self-service arrangement
+      sources: []
     notes:
     - 1. The self-service device includes all the elements and constituents that are
       mandatory so that a measuring system performs in a self- service arrangement.
     - 2. The arrangement is made of a self-service device and connected measuring
       systems.
+    note_paragraphs:
+    - text: 1. The self-service device includes all the elements and constituents
+        that are mandatory so that a measuring system performs in a self- service
+        arrangement.
+      sources: []
+    - text: 2. The arrangement is made of a self-service device and connected measuring
+        systems.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -62,11 +83,23 @@ data:
     g18_entry: '03481'
     definition: specific device that is part of a self-service arrangement and which
       allows one or more measuring systems to perform in this self-service arrangement
+    definition_paragraphs:
+    - text: specific device that is part of a self-service arrangement and which allows
+        one or more measuring systems to perform in this self-service arrangement
+      sources: []
     notes:
     - The self-service device includes all the elements and constituents that are
       mandatory so that a measuring system performs in a self-service arrangement.
     - The arrangement is made of a self-service device and connected measuring systems.
+    note_paragraphs:
+    - text: The self-service device includes all the elements and constituents that
+        are mandatory so that a measuring system performs in a self-service arrangement.
+      sources: []
+    - text: The arrangement is made of a self-service device and connected measuring
+        systems.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

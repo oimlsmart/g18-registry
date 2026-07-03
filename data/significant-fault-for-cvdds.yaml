@@ -28,9 +28,19 @@ data:
       error for the calorific de value. However a fault, the magnitude of which is
       smaller than 2 scale intervals of the CVDD is never considered as a significant
       fault
+    definition_paragraphs:
+    - text: fault, the magnitude of which is greater than one fifth of the For CVDDs
+        this concept applies to the whole magnitude of the maximum permissible error
+        for the calorific de value. However a fault, the magnitude of which is smaller
+        than 2 scale intervals of the CVDD is never considered as a significant fault
+      sources: []
     notes:
     - vice.
+    note_paragraphs:
+    - text: vice.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

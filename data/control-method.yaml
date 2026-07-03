@@ -27,8 +27,15 @@ data:
     definition: the method used to determine the mass of the product used as the test
       load during material tests. This will generally involve the use of a weighing
       instrument, referred to as the control instrument
+    definition_paragraphs:
+    - text: the method used to determine the mass of the product used as the test
+        load during material tests. This will generally involve the use of a weighing
+        instrument, referred to as the control instrument
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -42,10 +49,19 @@ data:
     g18_entry: '02952'
     definition: method used to determine the mass of the product used as the test
       load during product tests
+    definition_paragraphs:
+    - text: method used to determine the mass of the product used as the test load
+        during product tests
+      sources: []
     notes:
     - 'Note: This will generally involve the use of a weighing instrument, referred
       to as the control instrument (see 2.1.10).'
+    note_paragraphs:
+    - text: 'Note: This will generally involve the use of a weighing instrument, referred
+        to as the control instrument (see 2.1.10).'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -59,10 +75,19 @@ data:
     g18_entry: '02951'
     definition: method used to determine the mass of the product used as the test
       load during product tests
+    definition_paragraphs:
+    - text: method used to determine the mass of the product used as the test load
+        during product tests
+      sources: []
     notes:
     - 'Note: This will generally involve the use of a weighing instrument, referred
       to as the control instrument (see 2.1.10).'
+    note_paragraphs:
+    - text: 'Note: This will generally involve the use of a weighing instrument, referred
+        to as the control instrument (see 2.1.10).'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

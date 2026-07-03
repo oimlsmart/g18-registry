@@ -29,6 +29,14 @@ data:
       are returned to the same specified temperature as that of the reactants, all
       of these products being in the gaseous state except for water formed by combustion,
       which is condensed to the liquid state at this specified temperature
+    definition_paragraphs:
+    - text: amount of heat which would be released by the complete combustion in air
+        of a specified quantity of gas, in such a way that the pressure at which the
+        reaction takes place remains constant, and all the products of combustion
+        are returned to the same specified temperature as that of the reactants, all
+        of these products being in the gaseous state except for water formed by combustion,
+        which is condensed to the liquid state at this specified temperature
+      sources: []
     notes:
     - In the following parts of this Recommendation, calorific value is used for gross
       calorific value.
@@ -36,7 +44,20 @@ data:
       and pressure; consequently the energy at base conditions is considered.
     - The calorific value should be determined on a mass or volumetric basis.
     - Adapted from ISO 6976.
+    note_paragraphs:
+    - text: In the following parts of this Recommendation, calorific value is used
+        for gross calorific value.
+      sources: []
+    - text: The condensation enthalpy and combustion enthalpy depend directly upon
+        the temperature and pressure; consequently the energy at base conditions is
+        considered.
+      sources: []
+    - text: The calorific value should be determined on a mass or volumetric basis.
+      sources: []
+    - text: Adapted from ISO 6976.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

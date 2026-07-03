@@ -27,12 +27,24 @@ data:
     definition: document specifying which procedures and associated resources shall
       be applied by whom and when to a specific project, product, process or contract
       [ISO 9000:2000, 3.7.5]
+    definition_paragraphs:
+    - text: document specifying which procedures and associated resources shall be
+        applied by whom and when to a specific project, product, process or contract
+        [ISO 9000:2000, 3.7.5]
+      sources: []
     notes:
     - "(1) These procedures generally include those referring to quality management
       processes and to product realization processes. (2) A quality plan often makes
       reference to parts of the quality manual or to procedure documents. (3) A quality
       plan is generally one of the results of quality planning."
+    note_paragraphs:
+    - text: "(1) These procedures generally include those referring to quality management
+        processes and to product realization processes. (2) A quality plan often makes
+        reference to parts of the quality manual or to procedure documents. (3) A
+        quality plan is generally one of the results of quality planning."
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -47,12 +59,24 @@ data:
     definition: document specifying which procedures and associated resources shall
       be applied by whom and when to a specific project, product, process or contract
       [ISO 9000:2000, 3.7.5]
+    definition_paragraphs:
+    - text: document specifying which procedures and associated resources shall be
+        applied by whom and when to a specific project, product, process or contract
+        [ISO 9000:2000, 3.7.5]
+      sources: []
     notes:
     - 'Note: These procedures generally include those referring to quality management
       processes and to product realization processes. A quality plan often makes reference
       to parts of the quality manual or to procedure documents. A quality plan is
       generally one of the results of quality planning.'
+    note_paragraphs:
+    - text: 'Note: These procedures generally include those referring to quality management
+        processes and to product realization processes. A quality plan often makes
+        reference to parts of the quality manual or to procedure documents. A quality
+        plan is generally one of the results of quality planning.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

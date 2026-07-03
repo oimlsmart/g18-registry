@@ -25,8 +25,14 @@ data:
     g18_entry: '02823'
     definition: instability of the BBR temperature maintained [or ‘controlled’] in
       a specified stationery temperature mode
+    definition_paragraphs:
+    - text: instability of the BBR temperature maintained [or ‘controlled’] in a specified
+        stationery temperature mode
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

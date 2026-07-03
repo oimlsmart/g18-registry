@@ -25,8 +25,14 @@ data:
     g18_entry: '00998'
     definition: a package that is customarily produced or distributed for sale to
       final purchasers through retail sales agencies or other means
+    definition_paragraphs:
+    - text: a package that is customarily produced or distributed for sale to final
+        purchasers through retail sales agencies or other means
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

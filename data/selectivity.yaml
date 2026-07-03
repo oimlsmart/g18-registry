@@ -26,8 +26,14 @@ data:
     g18_entry: '01500'
     definition: an indication of a detector's ability to respond to certain classes
       of compounds more readily and to a greater degree than to others
+    definition_paragraphs:
+    - text: an indication of a detector's ability to respond to certain classes of
+        compounds more readily and to a greater degree than to others
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '01500'
     definition: an indication of a detector’s ability to respond to certain classes
       of compounds more readily and to a greater degree than to others
+    definition_paragraphs:
+    - text: an indication of a detector’s ability to respond to certain classes of
+        compounds more readily and to a greater degree than to others
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

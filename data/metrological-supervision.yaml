@@ -39,10 +39,27 @@ data:
       use, maintenance and repair of a measuring instrument and/or in respect of its
       use, performed in order to check that it is used correctly as regards the observance
       of metrology laws and regulations
+    definition_paragraphs:
+    - text: control exercised in respect of the manufacture, import, installation,
+        use, maintenance and repair of a measuring instrument and/or in respect of
+        its use, performed in order to check that it is used correctly as regards
+        the observance of metrology laws and regulations
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2000
+        ref_id: '2.3'
+        is_vimline: true
     notes:
     - Metrological supervision includes checking the correctness of the quantities
       indicated on and contained in prepackages.
+    note_paragraphs:
+    - text: Metrological supervision includes checking the correctness of the quantities
+        indicated on and contained in prepackages.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical
@@ -69,10 +86,27 @@ data:
       maintenance and repair of measuring instruments and/or in respect of their use,
       performed in order to check that they are used correctly as regards the observance
       of metrology laws and regulations
+    definition_paragraphs:
+    - text: control exercised in respect of the manufacture, import, installation,
+        maintenance and repair of measuring instruments and/or in respect of their
+        use, performed in order to check that they are used correctly as regards the
+        observance of metrology laws and regulations
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2000
+        ref_id: '2.3'
+        is_vimline: true
     notes:
     - Metrological supervision includes checking the correctness of the quantities
       indicated on and contained in prepackages.
+    note_paragraphs:
+    - text: Metrological supervision includes checking the correctness of the quantities
+        indicated on and contained in prepackages.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical
@@ -99,8 +133,16 @@ data:
       and repair of measuring instruments, or in respect of their use, to check that
       they are used correctly and honestly. It extends also to control of correctness
       of the quantities indicated on prepacked articles [VML 2.6].
+    definition_paragraphs:
+    - text: procedures for control exercised in respect of the manufacture, installation
+        and repair of measuring instruments, or in respect of their use, to check
+        that they are used correctly and honestly. It extends also to control of correctness
+        of the quantities indicated on prepacked articles [VML 2.6].
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -114,9 +156,17 @@ data:
     g18_entry: '03293'
     definition: activity of legal metrological control to check the observance of
       metrology laws and regulations
+    definition_paragraphs:
+    - text: activity of legal metrological control to check the observance of metrology
+        laws and regulations
+      sources: []
     notes:
     - "(For notes, refer to the VIML)"
+    note_paragraphs:
+    - text: "(For notes, refer to the VIML)"
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -130,12 +180,31 @@ data:
     g18_entry: '02211'
     definition: activity of legal metrological control to check the observance of
       metrology laws and regulations
+    definition_paragraphs:
+    - text: activity of legal metrological control to check the observance of metrology
+        laws and regulations
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2000
+        ref_id: '2.03'
+        is_vimline: true
     notes:
     - Metrological supervision also includes checking the correctness of quantities
       indicated on and contained in pre-packages and the correct use of units of measurement.
     - For achieving these purposes, means and methods such as market surveillance
       and quality management may be utilized.
+    note_paragraphs:
+    - text: Metrological supervision also includes checking the correctness of quantities
+        indicated on and contained in pre-packages and the correct use of units of
+        measurement.
+      sources: []
+    - text: For achieving these purposes, means and methods such as market surveillance
+        and quality management may be utilized.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical
@@ -157,10 +226,27 @@ data:
       use, maintenance and repair of measuring instruments, performed in order to
       check that they are used correctly as regards the observance of metrology laws
       and regulations
+    definition_paragraphs:
+    - text: control exercised in respect of the manufacture, import, installation,
+        use, maintenance and repair of measuring instruments, performed in order to
+        check that they are used correctly as regards the observance of metrology
+        laws and regulations
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2000
+        ref_id: '2.3'
+        is_vimline: true
     notes:
     - Note:Metrological supervision includes checking the correctness of the quantities
       indicated on and contained in prepackages.
+    note_paragraphs:
+    - text: Note:Metrological supervision includes checking the correctness of the
+        quantities indicated on and contained in prepackages.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical
@@ -182,10 +268,27 @@ data:
       use, maintenance and repair of a measuring instrument and/or in respect of its
       use, performed in order to check that it is used correctly as regards the observance
       of metrology laws and regulations
+    definition_paragraphs:
+    - text: control exercised in respect of the manufacture, import, installation,
+        use, maintenance and repair of a measuring instrument and/or in respect of
+        its use, performed in order to check that it is used correctly as regards
+        the observance of metrology laws and regulations
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2000
+        ref_id: '2.3'
+        is_vimline: true
     notes:
     - 'Note: Metrological supervision includes checking the correctness of the quantities
       indicated on and contained in prepackages.'
+    note_paragraphs:
+    - text: 'Note: Metrological supervision includes checking the correctness of the
+        quantities indicated on and contained in prepackages.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical
@@ -207,10 +310,27 @@ data:
       use, maintenance and repair of a measuring instrument and/or in respect of its
       use, performed in order to check that it is used correctly as regards the observance
       of metrology laws and regulations
+    definition_paragraphs:
+    - text: control exercised in respect of the manufacture, import, installation,
+        use, maintenance and repair of a measuring instrument and/or in respect of
+        its use, performed in order to check that it is used correctly as regards
+        the observance of metrology laws and regulations
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2000
+        ref_id: '2.3'
+        is_vimline: true
     notes:
     - 'Note: Metrological supervision includes checking the correctness of the quantities
       indicated on and contained in prepackages.'
+    note_paragraphs:
+    - text: 'Note: Metrological supervision includes checking the correctness of the
+        quantities indicated on and contained in prepackages.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical
@@ -232,8 +352,16 @@ data:
       and repair of measuring instruments, or in respect of their use, to check that
       they are used correctly and honestly. It extends also to control of correctness
       of the quantities indicated on prepacked articles [VML 2.6].
+    definition_paragraphs:
+    - text: procedures for control exercised in respect of the manufacture, installation
+        and repair of measuring instruments, or in respect of their use, to check
+        that they are used correctly and honestly. It extends also to control of correctness
+        of the quantities indicated on prepacked articles [VML 2.6].
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

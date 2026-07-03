@@ -26,8 +26,14 @@ data:
     g18_entry: '01424'
     definition: the time during which the piston rotates freely after spinning to
       a specified rotation rate, until it stops
+    definition_paragraphs:
+    - text: the time during which the piston rotates freely after spinning to a specified
+        rotation rate, until it stops
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '01424'
     definition: the time during which the piston rotates freely after spinning to
       a specified rotation rate, until it stops
+    definition_paragraphs:
+    - text: the time during which the piston rotates freely after spinning to a specified
+        rotation rate, until it stops
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

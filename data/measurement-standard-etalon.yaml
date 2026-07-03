@@ -25,8 +25,20 @@ data:
     g18_entry: '03271'
     definition: realisation of the definition of a given quantity, with stated quantity
       value and associated measurement uncertainty, used as reference
+    definition_paragraphs:
+    - text: realisation of the definition of a given quantity, with stated quantity
+        value and associated measurement uncertainty, used as reference
+      sources:
+      - kind: vim
+        relationship: identical
+        modification:
+        ref_source: OIML V 2-200:2012
+        ref_id: '5.1'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: vim
       relationship: identical
@@ -46,9 +58,17 @@ data:
     g18_entry: '03264'
     definition: realisation of the definition of a given quantity, with stated quantity
       value and associated measurement uncertainty, used as reference
+    definition_paragraphs:
+    - text: realisation of the definition of a given quantity, with stated quantity
+        value and associated measurement uncertainty, used as reference
+      sources: []
     notes:
     - 'Note: For examples and notes see VIM3, 5.1'
+    note_paragraphs:
+    - text: 'Note: For examples and notes see VIM3, 5.1'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

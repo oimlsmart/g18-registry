@@ -26,11 +26,21 @@ data:
     g18_entry: '01486'
     definition: the elapsed time between injection of a sample and the appearance
       of the maximum output peak of the component of interest
+    definition_paragraphs:
+    - text: the elapsed time between injection of a sample and the appearance of the
+        maximum output peak of the component of interest
+      sources: []
     notes:
     - 'A related term is capacity factor k'', which is defined as follows: where tm
       = the time for the mobile phase to proceed from the point of injection to the
       point of detection.'
+    note_paragraphs:
+    - text: 'A related term is capacity factor k'', which is defined as follows: where
+        tm = the time for the mobile phase to proceed from the point of injection
+        to the point of detection.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -44,11 +54,21 @@ data:
     g18_entry: '01486'
     definition: the elapsed time between injection of a sample and the appearance
       of the maximum output peak of the component of interest
+    definition_paragraphs:
+    - text: the elapsed time between injection of a sample and the appearance of the
+        maximum output peak of the component of interest
+      sources: []
     notes:
     - 'Note: A related term is capacity factor k’, which is defined as follows: where
       tm = the time for the mobile phase to proceed from the point of injection to
       the point of detection.'
+    note_paragraphs:
+    - text: 'Note: A related term is capacity factor k’, which is defined as follows:
+        where tm = the time for the mobile phase to proceed from the point of injection
+        to the point of detection.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

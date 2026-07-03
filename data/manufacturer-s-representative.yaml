@@ -26,8 +26,14 @@ data:
     g18_entry: '00200'
     definition: any business designated by the manufacturer to act on its behalf for
       specified tasks
+    definition_paragraphs:
+    - text: any business designated by the manufacturer to act on its behalf for specified
+        tasks
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: 02270-D016
     definition: any natural or legal person designated by the manufacturer to act
       on his behalf for specified tasks
+    definition_paragraphs:
+    - text: any natural or legal person designated by the manufacturer to act on his
+        behalf for specified tasks
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -56,8 +68,14 @@ data:
     g18_entry: '00200'
     definition: any business designated by the manufacturer to act on its behalf for
       specified tasks
+    definition_paragraphs:
+    - text: any business designated by the manufacturer to act on its behalf for specified
+        tasks
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

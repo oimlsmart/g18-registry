@@ -25,8 +25,14 @@ data:
     g18_entry: '00109'
     definition: Issuing Authority or National Responsible Body of an OIML Member State
       that accedes to a DoMC
+    definition_paragraphs:
+    - text: Issuing Authority or National Responsible Body of an OIML Member State
+        that accedes to a DoMC
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

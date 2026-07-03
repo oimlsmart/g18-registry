@@ -25,8 +25,14 @@ data:
     g18_entry: '00603'
     definition: device that temporarily changes the actual scale interval, d, to a
       value less than the verification interval, e, following a manual command
+    definition_paragraphs:
+    - text: device that temporarily changes the actual scale interval, d, to a value
+        less than the verification interval, e, following a manual command
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

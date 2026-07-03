@@ -27,13 +27,35 @@ data:
     definition: extreme value of measurement error, with respect to a known reference
       quantity value, permitted by specifications or regulations for a given measurement,
       measuring instrument, or measuring system
+    definition_paragraphs:
+    - text: extreme value of measurement error, with respect to a known reference
+        quantity value, permitted by specifications or regulations for a given measurement,
+        measuring instrument, or measuring system
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2022
+        ref_id: '0.05'
+        is_vimline: true
     notes:
     - Usually the term "maximum permissible errors" or "limits of error" are used,
       where there are two extreme values.
     - the term "tolerance" should not be used to designate 'maximum permissible error'.
       [OIML V2-200:2012, 4.26]
     - Usually the term "maximum permissible errors" is abbreviated to "MPE", or "mpe".
+    note_paragraphs:
+    - text: Usually the term "maximum permissible errors" or "limits of error" are
+        used, where there are two extreme values.
+      sources: []
+    - text: the term "tolerance" should not be used to designate 'maximum permissible
+        error'. [OIML V2-200:2012, 4.26]
+      sources: []
+    - text: Usually the term "maximum permissible errors" is abbreviated to "MPE",
+        or "mpe".
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical
@@ -54,11 +76,24 @@ data:
     definition: extreme value of measurement error, with respect to a known reference
       quantity value, permitted by specifications or regulations for a given measurement,
       measuring instrument, or measuring system (VIM, 4.26)
+    definition_paragraphs:
+    - text: extreme value of measurement error, with respect to a known reference
+        quantity value, permitted by specifications or regulations for a given measurement,
+        measuring instrument, or measuring system (VIM, 4.26)
+      sources: []
     notes:
     - Usually, the term "maximum permissible errors" or "limits of error" are used
       where there are two extreme values.
     - the term "tolerance" should not be used to designate 'maximum permissible error'.
+    note_paragraphs:
+    - text: Usually, the term "maximum permissible errors" or "limits of error" are
+        used where there are two extreme values.
+      sources: []
+    - text: the term "tolerance" should not be used to designate 'maximum permissible
+        error'.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

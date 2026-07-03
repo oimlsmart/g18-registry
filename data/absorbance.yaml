@@ -31,12 +31,24 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r135-e04.pdf
     g18_entry: '01844'
     definition: logarithm to base ten of the reciprocal of the transmittance
+    definition_paragraphs:
+    - text: logarithm to base ten of the reciprocal of the transmittance
+      sources: []
     notes:
     - 1. ISO 6286, Table 1, No.
     - '5.'
     - 2. Absorbance has the dimension one and is expressed with the derived coherent
       SI unit one (1).
+    note_paragraphs:
+    - text: 1. ISO 6286, Table 1, No.
+      sources: []
+    - text: '5.'
+      sources: []
+    - text: 2. Absorbance has the dimension one and is expressed with the derived
+        coherent SI unit one (1).
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -51,9 +63,18 @@ data:
     definition: a value equal to the logarithm of the ratio of the incident light
       to The principle of measurement of absorbance the transmitted light and is dependent
       on the path length and the by concentration of the absorbing substance
+    definition_paragraphs:
+    - text: a value equal to the logarithm of the ratio of the incident light to The
+        principle of measurement of absorbance the transmitted light and is dependent
+        on the path length and the by concentration of the absorbing substance
+      sources: []
     notes:
     - the instrument is the Beer-Lambert law.
+    note_paragraphs:
+    - text: the instrument is the Beer-Lambert law.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -67,8 +88,14 @@ data:
     g18_entry: '02511'
     definition: logarithm of the ratio of incident to transmitted radiant power, which
       is dependent on the path length and the concentration of the absorbing substance
+    definition_paragraphs:
+    - text: logarithm of the ratio of incident to transmitted radiant power, which
+        is dependent on the path length and the concentration of the absorbing substance
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -82,10 +109,19 @@ data:
     g18_entry: '01844'
     definition: logarithm to base ten of the reciprocal of the transmittance [ISO
       6286, Table 1, No. 5]
+    definition_paragraphs:
+    - text: logarithm to base ten of the reciprocal of the transmittance [ISO 6286,
+        Table 1, No. 5]
+      sources: []
     notes:
     - 'Note: Absorbance has the dimension one and is expressed with the derived coherent
       SI unit one (1).'
+    note_paragraphs:
+    - text: 'Note: Absorbance has the dimension one and is expressed with the derived
+        coherent SI unit one (1).'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

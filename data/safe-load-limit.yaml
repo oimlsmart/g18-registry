@@ -31,8 +31,14 @@ data:
     g18_entry: '00726'
     definition: maximum load that can be applied without producing a permanent shift
       in the performance characteristics beyond those specified
+    definition_paragraphs:
+    - text: maximum load that can be applied without producing a permanent shift in
+        the performance characteristics beyond those specified
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

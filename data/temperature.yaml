@@ -32,8 +32,14 @@ data:
     g18_entry: '01462'
     definition: In degrees Celsius, is related to the absolute thermodynamic temperature
       scale, called the Kelvin scale, by t = T – 273.15 K.
+    definition_paragraphs:
+    - text: In degrees Celsius, is related to the absolute thermodynamic temperature
+        scale, called the Kelvin scale, by t = T – 273.15 K.
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -48,8 +54,15 @@ data:
     definition: dimensionless quantity numerically equal to a change in the radiance
       temperature of the ribbon (in °C) under changes of the ambient temperature by
       1 °C at a constant lamp current
+    definition_paragraphs:
+    - text: dimensionless quantity numerically equal to a change in the radiance temperature
+        of the ribbon (in °C) under changes of the ambient temperature by 1 °C at
+        a constant lamp current
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

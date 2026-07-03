@@ -26,8 +26,15 @@ data:
     definition: Definitive model of a measuring instrument or module (including a
       family of instruments or modules) of which all of the elements affecting its
       metrological properties are suitably defined
+    definition_paragraphs:
+    - text: Definitive model of a measuring instrument or module (including a family
+        of instruments or modules) of which all of the elements affecting its metrological
+        properties are suitably defined
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -26,8 +26,21 @@ data:
     definition: extreme value of a measurement error, with respect to a known reference
       quantity value, permitted by specifications or regulations for a given measurement,
       measuring instrument, or measuring system
+    definition_paragraphs:
+    - text: extreme value of a measurement error, with respect to a known reference
+        quantity value, permitted by specifications or regulations for a given measurement,
+        measuring instrument, or measuring system
+      sources:
+      - kind: vim
+        relationship: identical
+        modification:
+        ref_source: OIML V 2-200:2012
+        ref_id: '0.05'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: vim
       relationship: identical

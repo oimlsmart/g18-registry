@@ -25,8 +25,14 @@ data:
     g18_entry: '00637'
     definition: value, in units of mass, used for the classification and verification
       of an instrument expressed
+    definition_paragraphs:
+    - text: value, in units of mass, used for the classification and verification
+        of an instrument expressed
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -40,8 +46,14 @@ data:
     g18_entry: '00949'
     definition: value, expressed in units of mass, used for the classification and
       verification of an instrument
+    definition_paragraphs:
+    - text: value, expressed in units of mass, used for the classification and verification
+        of an instrument
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

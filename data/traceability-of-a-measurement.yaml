@@ -27,9 +27,18 @@ data:
     definition: property of the result of a measurement or the value of a standard
       whereby it can be related to stated references, usually national or international
       standards, through an unbroken chain of comparisons all having stated uncertainties
+    definition_paragraphs:
+    - text: property of the result of a measurement or the value of a standard whereby
+        it can be related to stated references, usually national or international
+        standards, through an unbroken chain of comparisons all having stated uncertainties
+      sources: []
     notes:
     - "(adapted from VIM:2007, 2.41)"
+    note_paragraphs:
+    - text: "(adapted from VIM:2007, 2.41)"
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -45,8 +54,16 @@ data:
       whereby it can be related to stated references, usually national or international
       standards, through an unbroken chain of comparisons all having stated uncertainties
       (adapted from VIM:2007, 2.41)
+    definition_paragraphs:
+    - text: property of the result of a measurement or the value of a standard whereby
+        it can be related to stated references, usually national or international
+        standards, through an unbroken chain of comparisons all having stated uncertainties
+        (adapted from VIM:2007, 2.41)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

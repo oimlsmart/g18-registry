@@ -24,11 +24,21 @@ data:
     link:
     g18_entry: '02911'
     definition: device constructed for the specific purpose of metrological task
+    definition_paragraphs:
+    - text: device constructed for the specific purpose of metrological task
+      sources: []
     notes:
     - Built-for-purpose device include devices that may not incorporate an operating
       system.
     - If an operating system is present, it is not directly accessible.
+    note_paragraphs:
+    - text: Built-for-purpose device include devices that may not incorporate an operating
+        system.
+      sources: []
+    - text: If an operating system is present, it is not directly accessible.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

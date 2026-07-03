@@ -26,8 +26,14 @@ data:
     g18_entry: '00691'
     definition: instrument designed to indicate the distance covered by the vehicle
       following a totalisation of vehicle wheel revolutions
+    definition_paragraphs:
+    - text: instrument designed to indicate the distance covered by the vehicle following
+        a totalisation of vehicle wheel revolutions
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '00691'
     definition: instrument designed to indicate the distance covered by the vehicle
       following a totalization of vehicle wheel revolutions
+    definition_paragraphs:
+    - text: instrument designed to indicate the distance covered by the vehicle following
+        a totalization of vehicle wheel revolutions
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

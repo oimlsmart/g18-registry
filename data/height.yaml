@@ -31,8 +31,14 @@ data:
     g18_entry: '03096'
     definition: linear measures dimension that is oriented 90 degrees relative to
       the length and width
+    definition_paragraphs:
+    - text: linear measures dimension that is oriented 90 degrees relative to the
+        length and width
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

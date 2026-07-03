@@ -27,8 +27,15 @@ data:
     definition: instrument for measuring certain measurands which are characteristic
       of the gas (temperature, pressure, calorific value, etc.) and which are used
       by the calculator with a view to making a correction and/or a conversion
+    definition_paragraphs:
+    - text: instrument for measuring certain measurands which are characteristic of
+        the gas (temperature, pressure, calorific value, etc.) and which are used
+        by the calculator with a view to making a correction and/or a conversion
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -42,8 +49,14 @@ data:
     g18_entry: '01934'
     definition: instrument connected to the calculator or the correction device for
       measuring certain gas properties, for the purpose of making a correction
+    definition_paragraphs:
+    - text: instrument connected to the calculator or the correction device for measuring
+        certain gas properties, for the purpose of making a correction
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -58,8 +71,15 @@ data:
     definition: instrument connected to the calculator (3.1.4) or the correction device
       (3.1.7) for measuring a quantity, characteristic of water, with a view to making
       a correction and/or a conversion
+    definition_paragraphs:
+    - text: instrument connected to the calculator (3.1.4) or the correction device
+        (3.1.7) for measuring a quantity, characteristic of water, with a view to
+        making a correction and/or a conversion
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -73,12 +93,29 @@ data:
     g18_entry: '02866'
     definition: instrument for the measurement of a quantity, other than the measurand,
       the value of which is used to correct or convert a measurement result
+    definition_paragraphs:
+    - text: instrument for the measurement of a quantity, other than the measurand,
+        the value of which is used to correct or convert a measurement result
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2013
+        ref_id: '5.09'
+        is_vimline: true
     notes:
     - 'Note: Within the scope of this Recommendation, this concerns the instrument
       which is connected to the calculator or the correction device, for measuring
       certain quantity values which are characteristic of the gas, with a view to
       making a correction.'
+    note_paragraphs:
+    - text: 'Note: Within the scope of this Recommendation, this concerns the instrument
+        which is connected to the calculator or the correction device, for measuring
+        certain quantity values which are characteristic of the gas, with a view to
+        making a correction.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical
@@ -98,8 +135,14 @@ data:
     g18_entry: '02654'
     definition: instrument connected to the calculator or the correction device for
       measuring certain gas properties, for the purpose of making a correction
+    definition_paragraphs:
+    - text: instrument connected to the calculator or the correction device for measuring
+        certain gas properties, for the purpose of making a correction
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -114,8 +157,15 @@ data:
     definition: instrument for measuring certain measurands which are characteristic
       of the gas (temperature, pressure, calorific value, etc.) and which are used
       by the calculator with a view to making a correction and/or a conversion
+    definition_paragraphs:
+    - text: instrument for measuring certain measurands which are characteristic of
+        the gas (temperature, pressure, calorific value, etc.) and which are used
+        by the calculator with a view to making a correction and/or a conversion
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

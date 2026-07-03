@@ -26,13 +26,33 @@ data:
     definition: property of a measurement result whereby the result can be related
       to a reference through a documented unbroken chain of calibrations, each contributing
       to the measurement uncertainty
+    definition_paragraphs:
+    - text: property of a measurement result whereby the result can be related to
+        a reference through a documented unbroken chain of calibrations, each contributing
+        to the measurement uncertainty
+      sources:
+      - kind: vim
+        relationship: identical
+        modification:
+        ref_source: OIML V 2-200:2012
+        ref_id: '2.41'
+        is_vimline: true
     notes:
     - For this definition, a 'reference'can be a definition of a measurement unit
       through its practical realization, or a measurement procedure including the
       measurement unity for a non-ordinal quantity, or a measurement standard.
     - Metrological traceability requires an established calibration hierarchy. For
       other nores see [VIM, 2.41]
+    note_paragraphs:
+    - text: For this definition, a 'reference'can be a definition of a measurement
+        unit through its practical realization, or a measurement procedure including
+        the measurement unity for a non-ordinal quantity, or a measurement standard.
+      sources: []
+    - text: Metrological traceability requires an established calibration hierarchy.
+        For other nores see [VIM, 2.41]
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: vim
       relationship: identical
@@ -53,8 +73,21 @@ data:
     definition: property of a measurement result whereby the result can be related
       to a reference through a documented unbroken chain of calibrations, each contributing
       to the measurement uncertainty
+    definition_paragraphs:
+    - text: property of a measurement result whereby the result can be related to
+        a reference through a documented unbroken chain of calibrations, each contributing
+        to the measurement uncertainty
+      sources:
+      - kind: vim
+        relationship: identical
+        modification:
+        ref_source: OIML V 2-200:2012
+        ref_id: '2.41'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: vim
       relationship: identical

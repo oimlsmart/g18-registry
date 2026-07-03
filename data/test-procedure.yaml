@@ -25,8 +25,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r137-1-e06.pdf
     g18_entry: '01972'
     definition: detailed description of the test operations
+    definition_paragraphs:
+    - text: detailed description of the test operations
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -39,8 +44,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_D/d011-e04.pdf
     g18_entry: '00250'
     definition: detailed description of the test operations
+    definition_paragraphs:
+    - text: detailed description of the test operations
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -53,8 +63,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r129-e00.pdf
     g18_entry: '01735'
     definition: a detailed description of the tests
+    definition_paragraphs:
+    - text: a detailed description of the tests
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -67,8 +82,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r125-e98.pdf
     g18_entry: '01669b'
     definition: a detailed description of the tests
+    definition_paragraphs:
+    - text: a detailed description of the tests
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -81,8 +101,13 @@ data:
     link:
     g18_entry: '03615'
     definition: detailed description of the test operations (OIML D 11, 3.21.1)
+    definition_paragraphs:
+    - text: detailed description of the test operations (OIML D 11, 3.21.1)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -95,8 +120,13 @@ data:
     link:
     g18_entry: '03564'
     definition: detailed description of the tests
+    definition_paragraphs:
+    - text: detailed description of the tests
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -109,8 +139,13 @@ data:
     link:
     g18_entry: 02242-D011
     definition: detailed description of the test operations
+    definition_paragraphs:
+    - text: detailed description of the test operations
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -123,8 +158,19 @@ data:
     link:
     g18_entry: '02694'
     definition: detailed description of the test operations
+    definition_paragraphs:
+    - text: detailed description of the test operations
+      sources:
+      - kind: other
+        relationship: identical
+        modification:
+        ref_source: OIML D011:2004
+        ref_id: 3.20.1
+        is_vimline: false
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -137,8 +183,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r125-e98.pdf
     g18_entry: '01669'
     definition: a detailed description of the tests
+    definition_paragraphs:
+    - text: a detailed description of the tests
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

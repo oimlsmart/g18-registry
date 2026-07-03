@@ -27,10 +27,23 @@ data:
     definition: difference between a higher and lower wavelength value at which the
       value of an optical quantity is reduced to half of its maximum value between
       the two wavelengths
+    definition_paragraphs:
+    - text: difference between a higher and lower wavelength value at which the value
+        of an optical quantity is reduced to half of its maximum value between the
+        two wavelengths
+      sources: []
     notes:
     - 1. The coherent SI unit is the metre (m), but often the nanometre (nm) is used.
     - 2. The optical quantity can be e.g. radiant luminous flux, absorbance, etc.
+    note_paragraphs:
+    - text: 1. The coherent SI unit is the metre (m), but often the nanometre (nm)
+        is used.
+      sources: []
+    - text: 2. The optical quantity can be e.g. radiant luminous flux, absorbance,
+        etc.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -45,10 +58,21 @@ data:
     definition: difference between a higher and lower wavelength value at which the
       value of an optical quantity is reduced to half of its maximum value between
       the two wavelengths
+    definition_paragraphs:
+    - text: difference between a higher and lower wavelength value at which the value
+        of an optical quantity is reduced to half of its maximum value between the
+        two wavelengths
+      sources: []
     notes:
     - 'Note: The coherent SI unit is the metre (m), but often the nanometre (nm) is
       used. The optical quantity can be e.g. radiant luminous flux, absorbance, etc.'
+    note_paragraphs:
+    - text: 'Note: The coherent SI unit is the metre (m), but often the nanometre
+        (nm) is used. The optical quantity can be e.g. radiant luminous flux, absorbance,
+        etc.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

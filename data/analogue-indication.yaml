@@ -27,8 +27,15 @@ data:
     definition: the output or display is indicated by an index and graduated scale,
       one of which is fixed and the position of the other is a continuous function
       of the particular quantity being measured
+    definition_paragraphs:
+    - text: the output or display is indicated by an index and graduated scale, one
+        of which is fixed and the position of the other is a continuous function of
+        the particular quantity being measured
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -42,8 +49,14 @@ data:
     g18_entry: '01291a'
     definition: an indication allowing the determination of an equilibrium position
       to a fraction of the scale interval
+    definition_paragraphs:
+    - text: an indication allowing the determination of an equilibrium position to
+        a fraction of the scale interval
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -57,8 +70,20 @@ data:
     g18_entry: '02604'
     definition: measurement results are displayed by an analogue measuring instrument
       in a form which is a continuous function of the measurand
+    definition_paragraphs:
+    - text: measurement results are displayed by an analogue measuring instrument
+        in a form which is a continuous function of the measurand
+      sources:
+      - kind: vim
+        relationship: identical
+        modification:
+        ref_source: OIML V 2-200:2007
+        ref_id: '4.10'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: vim
       relationship: identical
@@ -79,8 +104,15 @@ data:
     definition: the output or display is indicated by an index and graduated scale,
       one of which is fixed and the position of the other is a continuous function
       of the particular quantity being measured
+    definition_paragraphs:
+    - text: the output or display is indicated by an index and graduated scale, one
+        of which is fixed and the position of the other is a continuous function of
+        the particular quantity being measured
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

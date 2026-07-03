@@ -30,8 +30,18 @@ data:
       concentration at which a further increase in either flow rate or concentration
       will not give an observable increase in detector output signal. It is expressed
       as the ratio of its upper limit to the detection limit
+    definition_paragraphs:
+    - text: the range of mass flow rates or concentrations of the sample component
+        of interest over which an incremental change produces a measurable change
+        in the detector output signal. Its upper limit is the highest mass flow rate
+        or concentration at which a further increase in either flow rate or concentration
+        will not give an observable increase in detector output signal. It is expressed
+        as the ratio of its upper limit to the detection limit
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -49,8 +59,18 @@ data:
       concentration at which a further increase in either flow rate or concentration
       will not give an observable increase in detector output signal. It is expressed
       as the ratio of its upper limit to the detection limit
+    definition_paragraphs:
+    - text: the range of mass flow rates or concentrations of the sample component
+        of interest over which an incremental change produces a measurable change
+        in the detector output signal. Its upper limit is the highest mass flow rate
+        or concentration at which a further increase in either flow rate or concentration
+        will not give an observable increase in detector output signal. It is expressed
+        as the ratio of its upper limit to the detection limit
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

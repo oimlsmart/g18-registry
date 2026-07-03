@@ -26,8 +26,14 @@ data:
     g18_entry: '00358'
     definition: numbers and/or letters identifying the taxi or the national registration
       number specified for the taxi
+    definition_paragraphs:
+    - text: numbers and/or letters identifying the taxi or the national registration
+        number specified for the taxi
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '00358'
     definition: numbers and/or letters identifying the taxi or the national registration
       number specified for the taxi
+    definition_paragraphs:
+    - text: numbers and/or letters identifying the taxi or the national registration
+        number specified for the taxi
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

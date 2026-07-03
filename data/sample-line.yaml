@@ -26,11 +26,23 @@ data:
     g18_entry: '02125'
     definition: line provided to remove a representative sample of a gas to be analyzed
       and to transport it to the analyzer
+    definition_paragraphs:
+    - text: line provided to remove a representative sample of a gas to be analyzed
+        and to transport it to the analyzer
+      sources: []
     notes:
     - 1. A sample line may include devices such as filters, dryers or condensers (primary
       and secondary treatment gas) which are necessary to prepare the sample for analysis.
     - '2. (ISO 7504: 2001)'
+    note_paragraphs:
+    - text: 1. A sample line may include devices such as filters, dryers or condensers
+        (primary and secondary treatment gas) which are necessary to prepare the sample
+        for analysis.
+      sources: []
+    - text: '2. (ISO 7504: 2001)'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -44,10 +56,19 @@ data:
     g18_entry: '02754'
     definition: line provided to remove a representative sample of a gas to be analyzed
       and to transport it to the analyzer [ISO 7504:2001] [16]
+    definition_paragraphs:
+    - text: line provided to remove a representative sample of a gas to be analyzed
+        and to transport it to the analyzer [ISO 7504:2001] [16]
+      sources: []
     notes:
     - 'Note: A sample line may include devices such as coarse and fine filters, dryers
       or separators which are necessary to prepare the sample for analysis.'
+    note_paragraphs:
+    - text: 'Note: A sample line may include devices such as coarse and fine filters,
+        dryers or separators which are necessary to prepare the sample for analysis.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -61,11 +82,23 @@ data:
     g18_entry: '02125'
     definition: line provided to remove a representative sample of a gas to be analyzed
       and to transport it to the analyzer
+    definition_paragraphs:
+    - text: line provided to remove a representative sample of a gas to be analyzed
+        and to transport it to the analyzer
+      sources: []
     notes:
     - A sample line may include devices such as filters, dryers or condensers (primary
       and secondary treatment gas) which are necessary to prepare the sample for analysis.
     - "(ISO 7504: 2001)"
+    note_paragraphs:
+    - text: A sample line may include devices such as filters, dryers or condensers
+        (primary and secondary treatment gas) which are necessary to prepare the sample
+        for analysis.
+      sources: []
+    - text: "(ISO 7504: 2001)"
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -25,8 +25,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r107-1-e07.pdf
     g18_entry: '01324'
     definition: part of the instrument intended to receive the load
+    definition_paragraphs:
+    - text: part of the instrument intended to receive the load
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -39,8 +44,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r051-1-e06.pdf
     g18_entry: '00578'
     definition: part of the instrument intended to receive the load
+    definition_paragraphs:
+    - text: part of the instrument intended to receive the load
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -53,8 +63,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r076-1-e06.pdf
     g18_entry: '00893'
     definition: part of the instrument intended to receive the load
+    definition_paragraphs:
+    - text: part of the instrument intended to receive the load
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -67,8 +82,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r061-1-e04.pdf
     g18_entry: 00763a
     definition: part of the instrument intended to receive the load
+    definition_paragraphs:
+    - text: part of the instrument intended to receive the load
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -83,8 +103,15 @@ data:
     definition: part of the weigh zone that is identified to receive the load and
       which realizes a change in the balance of the instrument when a load is placed
       upon it
+    definition_paragraphs:
+    - text: part of the weigh zone that is identified to receive the load and which
+        realizes a change in the balance of the instrument when a load is placed upon
+        it
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -97,8 +124,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r050-1-e97.pdf
     g18_entry: '00488'
     definition: the part of the belt weigher intended to receive the load
+    definition_paragraphs:
+    - text: the part of the belt weigher intended to receive the load
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -113,8 +145,15 @@ data:
     definition: the part of the weigh zone that is intended to receive the load and
       which realizes a change in the balance of the instrument when a load is placed
       upon it
+    definition_paragraphs:
+    - text: the part of the weigh zone that is intended to receive the load and which
+        realizes a change in the balance of the instrument when a load is placed upon
+        it
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -127,8 +166,13 @@ data:
     link:
     g18_entry: '03205'
     definition: part of the instrument intended to receive the load
+    definition_paragraphs:
+    - text: part of the instrument intended to receive the load
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -141,8 +185,13 @@ data:
     link:
     g18_entry: '03207'
     definition: part of the instrument intended to sense the load on the belt
+    definition_paragraphs:
+    - text: part of the instrument intended to sense the load on the belt
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -155,12 +204,23 @@ data:
     link:
     g18_entry: '02540'
     definition: part of the instrument that is intended to receive the load
+    definition_paragraphs:
+    - text: part of the instrument that is intended to receive the load
+      sources: []
     notes:
     - The load receptor may support all the wheels of an axle, a bogie, or a single
       wagon simultaneously.
     - Two or more load receptors may be placed in series and used as a single load
       receptor for full-draught weighing or partial weighing (see 0.3.1.2).
+    note_paragraphs:
+    - text: The load receptor may support all the wheels of an axle, a bogie, or a
+        single wagon simultaneously.
+      sources: []
+    - text: Two or more load receptors may be placed in series and used as a single
+        load receptor for full-draught weighing or partial weighing (see 0.3.1.2).
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -173,8 +233,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r107-1-e07.pdf
     g18_entry: '01324'
     definition: part of the instrument intended to receive the load
+    definition_paragraphs:
+    - text: part of the instrument intended to receive the load
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -187,8 +252,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r051-1-e06.pdf
     g18_entry: '00578'
     definition: part of the instrument intended to receive the load
+    definition_paragraphs:
+    - text: part of the instrument intended to receive the load
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -201,8 +271,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r076-1-e06.pdf
     g18_entry: '00893'
     definition: part of the instrument intended to receive the load
+    definition_paragraphs:
+    - text: part of the instrument intended to receive the load
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -217,8 +292,15 @@ data:
     definition: part of the weigh zone which receives the wheel loads of a vehicle
       and which realizes a change in the balance of the instrument when a wheel load
       is placed upon it
+    definition_paragraphs:
+    - text: part of the weigh zone which receives the wheel loads of a vehicle and
+        which realizes a change in the balance of the instrument when a wheel load
+        is placed upon it
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -28,9 +28,19 @@ data:
       including their data domains that may be in relationship with other entities.
       The software of measuring instruments, electronic devices or sub-assemblies
       consists of one or more software modules
+    definition_paragraphs:
+    - text: logic entities such as programs, subroutines, libraries, and objects including
+        their data domains that may be in relationship with other entities. The software
+        of measuring instruments, electronic devices or sub-assemblies consists of
+        one or more software modules
+      sources: []
     notes:
     - "[similar IEC 61508-4:1998, 3.3.7]"
+    note_paragraphs:
+    - text: "[similar IEC 61508-4:1998, 3.3.7]"
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -45,10 +55,20 @@ data:
     definition: software entity such as a program, subroutine, library, peremeter
       or date set, and other objects including their data domain that may be in relationship
       with other entities
+    definition_paragraphs:
+    - text: software entity such as a program, subroutine, library, peremeter or date
+        set, and other objects including their data domain that may be in relationship
+        with other entities
+      sources: []
     notes:
     - 'Note: The software of measuring instruments consist of one or more software
       modules.'
+    note_paragraphs:
+    - text: 'Note: The software of measuring instruments consist of one or more software
+        modules.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

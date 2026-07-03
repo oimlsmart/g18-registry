@@ -27,8 +27,15 @@ data:
     definition: device indicating the value of the load on the load receptor and enabling
       the use of the instrument as a control instrument to weigh discrete loads for
       control purposes
+    definition_paragraphs:
+    - text: device indicating the value of the load on the load receptor and enabling
+        the use of the instrument as a control instrument to weigh discrete loads
+        for control purposes
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -43,8 +50,15 @@ data:
     definition: device indicating the value of the load on the load receptor and enabling
       the use of the instrument as a control instrument to weigh discrete loads for
       control purposes
+    definition_paragraphs:
+    - text: device indicating the value of the load on the load receptor and enabling
+        the use of the instrument as a control instrument to weigh discrete loads
+        for control purposes
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

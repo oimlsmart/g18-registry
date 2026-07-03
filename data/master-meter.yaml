@@ -25,8 +25,14 @@ data:
     g18_entry: '01212'
     definition: a working standard, traceable to national standards, used for the
       verification of a direct mass flow instrument
+    definition_paragraphs:
+    - text: a working standard, traceable to national standards, used for the verification
+        of a direct mass flow instrument
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

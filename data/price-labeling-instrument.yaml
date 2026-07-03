@@ -26,8 +26,14 @@ data:
     g18_entry: '00884'
     definition: price-computing instrument that prints the weight value, unit price
       and price to pay for prepackages
+    definition_paragraphs:
+    - text: price-computing instrument that prints the weight value, unit price and
+        price to pay for prepackages
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '00884'
     definition: price-computing instrument that prints the weight value, unit price
       and price to pay for prepackages
+    definition_paragraphs:
+    - text: price-computing instrument that prints the weight value, unit price and
+        price to pay for prepackages
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

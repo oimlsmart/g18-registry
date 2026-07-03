@@ -25,8 +25,14 @@ data:
     g18_entry: '00629'
     definition: indication of the weight value of a load placed on an instrument after
       operation of a tare device
+    definition_paragraphs:
+    - text: indication of the weight value of a load placed on an instrument after
+        operation of a tare device
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

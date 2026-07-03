@@ -31,8 +31,14 @@ data:
     g18_entry: '02781'
     definition: pressure within the eye front chamber, given in millimetres of mercury
       (mmHg) or kilopascals (kPa)
+    definition_paragraphs:
+    - text: pressure within the eye front chamber, given in millimetres of mercury
+        (mmHg) or kilopascals (kPa)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

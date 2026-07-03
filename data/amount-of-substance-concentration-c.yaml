@@ -25,10 +25,19 @@ data:
     g18_entry: '01846'
     definition: amount of substance of the compound dissolved, divided by the volume
       of the solution [Adapted from ISO 6286, Table 2, No. 21.2]
+    definition_paragraphs:
+    - text: amount of substance of the compound dissolved, divided by the volume of
+        the solution [Adapted from ISO 6286, Table 2, No. 21.2]
+      sources: []
     notes:
     - 'Note: The coherent SI unit is the mole per cubic metre (mol/m3), but the mole
       per litre (mol/l, mol/L) or its subunits are often preferred.'
+    note_paragraphs:
+    - text: 'Note: The coherent SI unit is the mole per cubic metre (mol/m3), but
+        the mole per litre (mol/l, mol/L) or its subunits are often preferred.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

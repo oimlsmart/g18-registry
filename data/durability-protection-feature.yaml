@@ -27,8 +27,17 @@ data:
       the detection of, and acting upon significant durability errors. The same classification
       for types P, I or N applies to durability protection features. Certain devices
       may be employed simultaneously, for checking and for durability protection
+    definition_paragraphs:
+    - text: a feature that is incorporated in a measuring system and that enables
+        the detection of, and acting upon significant durability errors. The same
+        classification for types P, I or N applies to durability protection features.
+        Certain devices may be employed simultaneously, for checking and for durability
+        protection
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

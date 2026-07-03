@@ -26,8 +26,14 @@ data:
     g18_entry: '00785'
     definition: value, expressed in units of mass, preset by the operator by means
       of the fill setting device, in order to define the nominal value of the fills
+    definition_paragraphs:
+    - text: value, expressed in units of mass, preset by the operator by means of
+        the fill setting device, in order to define the nominal value of the fills
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -42,8 +48,15 @@ data:
     definition: value, expressed in units of mass, preset by the operator by means
       of the fill setting device, in order to define the nominal value of the mass
       of the fills
+    definition_paragraphs:
+    - text: value, expressed in units of mass, preset by the operator by means of
+        the fill setting device, in order to define the nominal value of the mass
+        of the fills
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -25,13 +25,27 @@ data:
     g18_entry: '03775'
     definition: stationary speed meter which can be moved to different locations between
       measurements
+    definition_paragraphs:
+    - text: stationary speed meter which can be moved to different locations between
+        measurements
+      sources: []
     notes:
     - Stationary speed meters installed in a parked vehicle or on a parked trailer
       are also considered as mobile speed meters.
     - Portable speed meters which are used hand-held or which are (temporarily) installed
       on a tripod or similar temporary stand to guide the hand of the operator for
       a limited series of measurements are also considered as mobile speed meters.
+    note_paragraphs:
+    - text: Stationary speed meters installed in a parked vehicle or on a parked trailer
+        are also considered as mobile speed meters.
+      sources: []
+    - text: Portable speed meters which are used hand-held or which are (temporarily)
+        installed on a tripod or similar temporary stand to guide the hand of the
+        operator for a limited series of measurements are also considered as mobile
+        speed meters.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -24,8 +24,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r061-1-e04.pdf
     g18_entry: '00804'
     definition: maximum permissible error for influence quantity values
+    definition_paragraphs:
+    - text: maximum permissible error for influence quantity values
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

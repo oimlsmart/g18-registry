@@ -28,8 +28,16 @@ data:
       at speeds between: 1 % and 10 % of the upper limit of the measuring range per
       second, for pressure gauges and vacuum gauges, 1 % and 10 % of the sunl of the
       upper limits of the measuring ranges per second, for pressure-vacuum gauges'
+    definition_paragraphs:
+    - text: 'a pressure which varies in any way whatever, periodic or otherwise, at
+        speeds between: 1 % and 10 % of the upper limit of the measuring range per
+        second, for pressure gauges and vacuum gauges, 1 % and 10 % of the sunl of
+        the upper limits of the measuring ranges per second, for pressure-vacuum gauges'
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -45,8 +53,16 @@ data:
       at speeds between: 1 % and 10 % of the upper limit of the measuring range per
       second, for pressure gauges and vacuum gauges, 1 % and 10 % of the sum of the
       upper limits of the measuring ranges per second, for pressure-vacuum gauges'
+    definition_paragraphs:
+    - text: 'a pressure which varies in any way whatever, periodic or otherwise, at
+        speeds between: 1 % and 10 % of the upper limit of the measuring range per
+        second, for pressure gauges and vacuum gauges, 1 % and 10 % of the sum of
+        the upper limits of the measuring ranges per second, for pressure-vacuum gauges'
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

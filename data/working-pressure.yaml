@@ -37,8 +37,14 @@ data:
     g18_entry: '00447'
     definition: average water pressure in the pipe measured upstream and downstream
       of the water meter
+    definition_paragraphs:
+    - text: average water pressure in the pipe measured upstream and downstream of
+        the water meter
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -53,8 +59,15 @@ data:
     definition: gauge pressure of the gas to be measured at the gas meter. The gauge
       pressure is the difference between the absolute pressure of the gas and the
       atmospheric pressure
+    definition_paragraphs:
+    - text: gauge pressure of the gas to be measured at the gas meter. The gauge pressure
+        is the difference between the absolute pressure of the gas and the atmospheric
+        pressure
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

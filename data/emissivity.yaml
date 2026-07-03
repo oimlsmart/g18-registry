@@ -25,8 +25,14 @@ data:
     g18_entry: '02832'
     definition: ratio of the radiance of a substance to the radiance of a blackbody
       at the same temperature as that of the substance
+    definition_paragraphs:
+    - text: ratio of the radiance of a substance to the radiance of a blackbody at
+        the same temperature as that of the substance
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

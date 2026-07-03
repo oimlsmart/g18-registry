@@ -36,10 +36,19 @@ data:
     g18_entry: '00190'
     definition: function of an investigation to ascertain that the legal requirements
       related to the matter under investigation are observed.
+    definition_paragraphs:
+    - text: function of an investigation to ascertain that the legal requirements
+        related to the matter under investigation are observed.
+      sources: []
     notes:
     - A more general form of the definition is given in the VIML under 2.21 for inspection
       of a measuring instrument)
+    note_paragraphs:
+    - text: A more general form of the definition is given in the VIML under 2.21
+        for inspection of a measuring instrument)
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -59,8 +68,15 @@ data:
     definition: Inspection is the examination of product (see G.3.2-1 and determination
       of its conformity with the applicable OIML Recommendation(s). OIML guidance
       to subclause 3.2 (G.3.1-1)
+    definition_paragraphs:
+    - text: Inspection is the examination of product (see G.3.2-1 and determination
+        of its conformity with the applicable OIML Recommendation(s). OIML guidance
+        to subclause 3.2 (G.3.1-1)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -76,8 +92,16 @@ data:
       determination of its conformity with specific requirements or, on the basis
       of professional judgment, with general requirements (from ISO/IEC 17000:2004,
       4.3 [2] and VIML, A.11 [3])
+    definition_paragraphs:
+    - text: examination of product design, product, process or installation and determination
+        of its conformity with specific requirements or, on the basis of professional
+        judgment, with general requirements (from ISO/IEC 17000:2004, 4.3 [2] and
+        VIML, A.11 [3])
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -91,8 +115,14 @@ data:
     g18_entry: '00190'
     definition: function of an investigation to ascertain that the legal requirements
       related to the matter under investigation are observed.
+    definition_paragraphs:
+    - text: function of an investigation to ascertain that the legal requirements
+        related to the matter under investigation are observed.
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

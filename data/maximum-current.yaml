@@ -31,8 +31,14 @@ data:
     g18_entry: 02304-R046-1
     definition: highest value of current at which the meter is specified by the manufacturer
       to meet the accuracy requirements
+    definition_paragraphs:
+    - text: highest value of current at which the meter is specified by the manufacturer
+        to meet the accuracy requirements
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

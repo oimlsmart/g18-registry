@@ -26,8 +26,15 @@ data:
     definition: 'body of performs one ore more the following activities: testing;
       calibration; sampling, associated with dubsequent testing or calibration (ISO/IEC
       17025, 3.6)'
+    definition_paragraphs:
+    - text: 'body of performs one ore more the following activities: testing; calibration;
+        sampling, associated with dubsequent testing or calibration (ISO/IEC 17025,
+        3.6)'
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

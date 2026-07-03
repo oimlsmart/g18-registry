@@ -26,8 +26,14 @@ data:
     g18_entry: '01333'
     definition: device for setting the indication to zero when there is no load on
       the load receptor
+    definition_paragraphs:
+    - text: device for setting the indication to zero when there is no load on the
+        load receptor
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '00919'
     definition: device for setting the indication to zero when there is no load on
       the load receptor
+    definition_paragraphs:
+    - text: device for setting the indication to zero when there is no load on the
+        load receptor
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -56,8 +68,14 @@ data:
     g18_entry: '00776'
     definition: device for setting the indication to zero when there is no load on
       the load receptor
+    definition_paragraphs:
+    - text: device for setting the indication to zero when there is no load on the
+        load receptor
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -70,8 +88,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r136-1-e04.pdf
     g18_entry: '01895'
     definition: device for setting the indication to zero
+    definition_paragraphs:
+    - text: device for setting the indication to zero
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -85,8 +108,14 @@ data:
     g18_entry: '01797'
     definition: means used to set the weight indicating device to zero when the load
       receptor is empty
+    definition_paragraphs:
+    - text: means used to set the weight indicating device to zero when the load receptor
+        is empty
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -100,8 +129,14 @@ data:
     g18_entry: '00503'
     definition: a device enabling zero totalization to be obtained over a whole number
       of revolutions of the empty conveyor belt
+    definition_paragraphs:
+    - text: a device enabling zero totalization to be obtained over a whole number
+        of revolutions of the empty conveyor belt
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -115,8 +150,14 @@ data:
     g18_entry: '01268'
     definition: the means used to set the weight indicating device to zero when the
       load receptor is empty
+    definition_paragraphs:
+    - text: the means used to set the weight indicating device to zero when the load
+        receptor is empty
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -130,8 +171,14 @@ data:
     g18_entry: '03652'
     definition: device enabling the indication to be set to zero in absence of any
       mass passing along the force receptor
+    definition_paragraphs:
+    - text: device enabling the indication to be set to zero in absence of any mass
+        passing along the force receptor
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -145,8 +192,14 @@ data:
     g18_entry: '03651'
     definition: device for setting the indication to zero when there is no load on
       the load receptor
+    definition_paragraphs:
+    - text: device for setting the indication to zero when there is no load on the
+        load receptor
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -160,10 +213,19 @@ data:
     g18_entry: '03650'
     definition: device enabling the indication to be set to zero when there is no
       load on the load receptor
+    definition_paragraphs:
+    - text: device enabling the indication to be set to zero when there is no load
+        on the load receptor
+      sources: []
     notes:
     - 'Note:  Usually obtained over a whole number of revolutions of the empty conveyor
       belt.'
+    note_paragraphs:
+    - text: 'Note:  Usually obtained over a whole number of revolutions of the empty
+        conveyor belt.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -177,8 +239,14 @@ data:
     g18_entry: '02560'
     definition: device for setting the indication to zero when there is no load on
       the load receptor
+    definition_paragraphs:
+    - text: device for setting the indication to zero when there is no load on the
+        load receptor
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -192,8 +260,14 @@ data:
     g18_entry: '01333'
     definition: device for setting the indication to zero when there is no load on
       the load receptor
+    definition_paragraphs:
+    - text: device for setting the indication to zero when there is no load on the
+        load receptor
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -207,8 +281,14 @@ data:
     g18_entry: '03649'
     definition: device for setting the indication to zero when there is no load on
       the load receptor
+    definition_paragraphs:
+    - text: device for setting the indication to zero when there is no load on the
+        load receptor
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -221,8 +301,13 @@ data:
     link:
     g18_entry: '01895'
     definition: device for setting the indication to zero
+    definition_paragraphs:
+    - text: device for setting the indication to zero
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

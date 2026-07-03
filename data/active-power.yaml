@@ -24,6 +24,9 @@ data:
     link:
     g18_entry: 02314-R046-1
     definition: rate at which energy is transported
+    definition_paragraphs:
+    - text: rate at which energy is transported
+      sources: []
     notes:
     - 'Note:In an electrical system active power is measured as the time mean of the
       instantaneous power, which is calculated at each instant as the product of voltage
@@ -31,7 +34,17 @@ data:
       p is the instantaneous power. At sinusoidal conditions active power is the product
       of the r.m.s. values of current and voltage and the cosine of the phase angle
       between them, calculated for each phase. It is usually expressed in kW:'
+    note_paragraphs:
+    - text: 'Note:In an electrical system active power is measured as the time mean
+        of the instantaneous power, which is calculated at each instant as the product
+        of voltage and current: where:u is the instantaneous voltage,i is the instantaneous
+        current, p is the instantaneous power. At sinusoidal conditions active power
+        is the product of the r.m.s. values of current and voltage and the cosine
+        of the phase angle between them, calculated for each phase. It is usually
+        expressed in kW:'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

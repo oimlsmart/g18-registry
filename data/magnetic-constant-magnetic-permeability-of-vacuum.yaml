@@ -27,8 +27,17 @@ data:
       by a dipole, also the force between the dipole and a magnetized sample, is proportional
       to this dipole moment. The force between the dipole and a sample having a magnetic
       susceptibility is proportional to the square of the dipole moment
+    definition_paragraphs:
+    - text: parameter of a magnetic dipole. The magnetic field strength generated
+        by a dipole, also the force between the dipole and a magnetized sample, is
+        proportional to this dipole moment. The force between the dipole and a sample
+        having a magnetic susceptibility is proportional to the square of the dipole
+        moment
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

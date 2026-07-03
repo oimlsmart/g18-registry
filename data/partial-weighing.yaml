@@ -27,8 +27,15 @@ data:
     definition: weighing of a vehicle in two or more parts successively on the same
       load receptor. The results are automatically added to indicate or print the
       vehicle weight
+    definition_paragraphs:
+    - text: weighing of a vehicle in two or more parts successively on the same load
+        receptor. The results are automatically added to indicate or print the vehicle
+        weight
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -42,8 +49,14 @@ data:
     g18_entry: '01274'
     definition: weighing a wagon in two or more parts on the same load receptor. The
       results are automatically added to indicate or print the wagon weight
+    definition_paragraphs:
+    - text: weighing a wagon in two or more parts on the same load receptor. The results
+        are automatically added to indicate or print the wagon weight
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -57,8 +70,14 @@ data:
     g18_entry: '02566'
     definition: determining the mass of a wagon in two or more parts (i.e. axle or
       bogie partial weighing) successively on the same load receptor
+    definition_paragraphs:
+    - text: determining the mass of a wagon in two or more parts (i.e. axle or bogie
+        partial weighing) successively on the same load receptor
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -72,8 +91,14 @@ data:
     g18_entry: '03353'
     definition: weighing a vehicle in two or more parts successively on the same load
       receptor
+    definition_paragraphs:
+    - text: weighing a vehicle in two or more parts successively on the same load
+        receptor
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -26,8 +26,15 @@ data:
     g18_entry: '01597'
     definition: part of a measuring device, directly affected by the flow of the liquid
       to be measured and which converts the flow into a signal destined for the transducer
+    definition_paragraphs:
+    - text: part of a measuring device, directly affected by the flow of the liquid
+        to be measured and which converts the flow into a signal destined for the
+        transducer
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +48,14 @@ data:
     g18_entry: '03490'
     definition: part of a measuring device, directly affected by the flow of the liquid
       to be measured, which converts the flow into a signal destined for the transducer
+    definition_paragraphs:
+    - text: part of a measuring device, directly affected by the flow of the liquid
+        to be measured, which converts the flow into a signal destined for the transducer
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

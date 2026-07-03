@@ -25,8 +25,14 @@ data:
     g18_entry: '01262'
     definition: two or more load receptors placed in series that are used as a single
       load receptor for full draught weighing
+    definition_paragraphs:
+    - text: two or more load receptors placed in series that are used as a single
+        load receptor for full draught weighing
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

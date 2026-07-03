@@ -25,8 +25,20 @@ data:
     g18_entry: '03177'
     definition: generic term used to globally designate legal operations to which
       measuring instruments may be subjected, e.g. type approval, verification, etc.
+    definition_paragraphs:
+    - text: generic term used to globally designate legal operations to which measuring
+        instruments may be subjected, e.g. type approval, verification, etc.
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2022
+        ref_id: '2.2'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical
@@ -46,8 +58,20 @@ data:
     g18_entry: '02210'
     definition: generic term used to globally designate legal operations to which
       measuring instruments may be subjected, e.g. type approval, verification, etc.
+    definition_paragraphs:
+    - text: generic term used to globally designate legal operations to which measuring
+        instruments may be subjected, e.g. type approval, verification, etc.
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2000
+        ref_id: '2.02'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical
@@ -67,8 +91,20 @@ data:
     g18_entry: 02256-D016
     definition: generic term used to globally designate legal operations to which
       measuring instruments may be subjected, e.g. type approval, verification, etc.
+    definition_paragraphs:
+    - text: generic term used to globally designate legal operations to which measuring
+        instruments may be subjected, e.g. type approval, verification, etc.
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2000
+        ref_id: '2.2'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical

@@ -27,8 +27,16 @@ data:
       of the objectives of a service of legal metrology. Thus, pattern evaluation
       may be one element of a metrological control system; periodic verification may
       be another element, etc.
+    definition_paragraphs:
+    - text: a particular procedure used or requirement imposed to accomplish one of
+        the objectives of a service of legal metrology. Thus, pattern evaluation may
+        be one element of a metrological control system; periodic verification may
+        be another element, etc.
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -32,8 +32,21 @@ data:
     definition: type examination eertificate, issued by an OIML Issuing Authority,
       attesting the conformity of type of measuring instrument or module with the
       relevant requirements of an OIML Recommendation at the time of testing and evaluation
+    definition_paragraphs:
+    - text: type examination eertificate, issued by an OIML Issuing Authority, attesting
+        the conformity of type of measuring instrument or module with the relevant
+        requirements of an OIML Recommendation at the time of testing and evaluation
+      sources:
+      - kind: other
+        relationship: identical
+        modification:
+        ref_source: OIML B18:2022
+        ref_id: '3.26'
+        is_vimline: false
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -49,8 +62,16 @@ data:
       attesting the conformity of type of measuring instrument or module with the
       relevant requirements of an OIML Recommendation at the time of testing and evaluation
       (OIML B 18)
+    definition_paragraphs:
+    - text: Type Examination Certificate, issued by an OIML Issuing Authority, attesting
+        the conformity of type of measuring instrument or module with the relevant
+        requirements of an OIML Recommendation at the time of testing and evaluation
+        (OIML B 18)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -66,8 +87,16 @@ data:
       attesting the conformity of type of measuring instrument or module with the
       relevant requirements of an OIML Recommendation at the time of testing and evaluation
       (OIML B 18, 3.25)
+    definition_paragraphs:
+    - text: Type Examination certificate, issued by an OIML Issuing Authority, attesting
+        the conformity of type of measuring instrument or module with the relevant
+        requirements of an OIML Recommendation at the time of testing and evaluation
+        (OIML B 18, 3.25)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

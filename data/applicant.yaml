@@ -25,8 +25,14 @@ data:
     g18_entry: '00116'
     definition: Issuing Authority or National Responsible Body that applies to bea
       Participant in a particular DoMC
+    definition_paragraphs:
+    - text: Issuing Authority or National Responsible Body that applies to bea Participant
+        in a particular DoMC
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

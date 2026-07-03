@@ -25,12 +25,24 @@ data:
     g18_entry: '01955'
     definition: smallest difference between indications of an indicating device that
       can be meaningfully distinguished
+    definition_paragraphs:
+    - text: smallest difference between indications of an indicating device that can
+        be meaningfully distinguished
+      sources: []
     notes:
     - 1. For a digital device, this is the change in the indication when the least
       significant digit changes by one step. For an analogue device, this is half
       the difference between subsequent scale marks.
     - 2. (VIM:1993, 5.12)
+    note_paragraphs:
+    - text: 1. For a digital device, this is the change in the indication when the
+        least significant digit changes by one step. For an analogue device, this
+        is half the difference between subsequent scale marks.
+      sources: []
+    - text: 2. (VIM:1993, 5.12)
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

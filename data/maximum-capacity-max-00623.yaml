@@ -25,8 +25,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r107-1-e07.pdf
     g18_entry: '01362'
     definition: largest discrete load that can be weighed automatically
+    definition_paragraphs:
+    - text: largest discrete load that can be weighed automatically
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -40,8 +45,13 @@ data:
     g18_entry: '00623'
     definition: maximum weighing capacity, not taking into account the additive tare
       capacity
+    definition_paragraphs:
+    - text: maximum weighing capacity, not taking into account the additive tare capacity
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -54,8 +64,13 @@ data:
     link:
     g18_entry: '03401'
     definition: maximum force that the force receptor is intended to measure
+    definition_paragraphs:
+    - text: maximum force that the force receptor is intended to measure
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -69,8 +84,14 @@ data:
     g18_entry: '03223'
     definition: largest discrete load that can be weighed automatically on a load
       receptor of the AGFI
+    definition_paragraphs:
+    - text: largest discrete load that can be weighed automatically on a load receptor
+        of the AGFI
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -83,8 +104,13 @@ data:
     link:
     g18_entry: '02584'
     definition: maximum permissible wagon mass.
+    definition_paragraphs:
+    - text: maximum permissible wagon mass.
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -97,8 +123,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r107-1-e07.pdf
     g18_entry: '01362'
     definition: largest discrete load that can be weighed automatically
+    definition_paragraphs:
+    - text: largest discrete load that can be weighed automatically
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -112,8 +143,13 @@ data:
     g18_entry: '00623'
     definition: maximum weighing capacity, not taking into account the additive tare
       capacity
+    definition_paragraphs:
+    - text: maximum weighing capacity, not taking into account the additive tare capacity
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

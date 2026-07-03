@@ -26,8 +26,14 @@ data:
     g18_entry: '01789'
     definition: zone comprising the load receptor (T.2.1) with an apron (T.1.6.1)
       on both ends
+    definition_paragraphs:
+    - text: zone comprising the load receptor (T.2.1) with an apron (T.1.6.1) on both
+        ends
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -40,8 +46,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r106-1-e97.pdf
     g18_entry: '01259'
     definition: zone in which a wagon must be located when it is weighed
+    definition_paragraphs:
+    - text: zone in which a wagon must be located when it is weighed
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -55,8 +66,14 @@ data:
     g18_entry: '02538'
     definition: zone of the rails on which all axles of a wagon must be located when
       the wagon is weighed
+    definition_paragraphs:
+    - text: zone of the rails on which all axles of a wagon must be located when the
+        wagon is weighed
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -71,8 +88,15 @@ data:
     definition: zone of the road comprising the load receptor with aprons in advance
       of and beyond each end of the load receptor in the direction of travel of the
       vehicle being weighed
+    definition_paragraphs:
+    - text: zone of the road comprising the load receptor with aprons in advance of
+        and beyond each end of the load receptor in the direction of travel of the
+        vehicle being weighed
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

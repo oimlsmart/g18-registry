@@ -25,8 +25,14 @@ data:
     g18_entry: '02946'
     definition: automatic weighing instrument for continuously totalizing the weight
       of the particles of a bulk product
+    definition_paragraphs:
+    - text: automatic weighing instrument for continuously totalizing the weight of
+        the particles of a bulk product
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

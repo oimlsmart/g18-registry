@@ -25,8 +25,14 @@ data:
     g18_entry: '01238'
     definition: a measuring system is considered as interruptible/noninterruptible
       when the liquid flow can/cannot be stopped, easily and rapidly
+    definition_paragraphs:
+    - text: a measuring system is considered as interruptible/noninterruptible when
+        the liquid flow can/cannot be stopped, easily and rapidly
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -27,8 +27,15 @@ data:
     definition: checking of the declared or alleged identity of a user, process, or
       device (e.g. checking that downloaded software originates from the owner of
       the type approval certificate)
+    definition_paragraphs:
+    - text: checking of the declared or alleged identity of a user, process, or device
+        (e.g. checking that downloaded software originates from the owner of the type
+        approval certificate)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -42,10 +49,19 @@ data:
     g18_entry: '02876'
     definition: checking of the declared or alleged identity of a user, process, or
       measuring instrument
+    definition_paragraphs:
+    - text: checking of the declared or alleged identity of a user, process, or measuring
+        instrument
+      sources: []
     notes:
     - 'Note: This may be necessary when checking that downloaded software originates
       from the owner of the certificate.'
+    note_paragraphs:
+    - text: 'Note: This may be necessary when checking that downloaded software originates
+        from the owner of the certificate.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -59,10 +75,19 @@ data:
     g18_entry: '02877'
     definition: checking of the declared or alleged identity of a user, process, or
       measuring instrument (OIML D 31, 3.1.2) [5]
+    definition_paragraphs:
+    - text: checking of the declared or alleged identity of a user, process, or measuring
+        instrument (OIML D 31, 3.1.2) [5]
+      sources: []
     notes:
     - 'Note: This may be necessary when checking that downloaded software originates
       from the owner of the certificate.'
+    note_paragraphs:
+    - text: 'Note: This may be necessary when checking that downloaded software originates
+        from the owner of the certificate.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

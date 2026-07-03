@@ -36,22 +36,26 @@ module G18
 
       def build_publication_entry(entry, bib)
         concept = entry[:concept]
+        raw     = entry[:raw]
         src_id = Loaders.source_ref(concept)
         bib_e  = bib[src_id]
         edges  = Loaders.see_edges(concept)
-        adoption = Loaders.adoption_info(concept, raw: entry[:raw])
+        adoption = Loaders.adoption_info(concept, raw: raw)
         pub = {
           "edition"            => entry[:edition],
           "publication"        => (bib_e && bib_e["reference"]) || src_id,
           "publication_id"     => src_id,
           "tc_sc"              => (bib_e && bib_e["tc_sc"]) || "",
           "year"               => (bib_e && Loaders.parse_year(bib_e["id"])) || Loaders.parse_year(src_id),
-          "clause"             => Loaders.clause_ref(concept, raw: entry[:raw]),
+          "clause"             => Loaders.clause_ref(concept, raw: raw),
           "link"               => (bib_e && bib_e["link"]),
           "g18_entry"          => Loaders.identifier(concept),
           "definition"         => Loaders.definition_text(concept),
+          "definition_paragraphs" => Loaders.definition_paragraphs(concept, raw: raw),
           "notes"              => Loaders.notes_text(concept),
+          "note_paragraphs"    => Loaders.note_paragraphs(concept, raw: raw),
           "examples"           => Loaders.examples_text(concept),
+          "example_paragraphs" => Loaders.example_paragraphs(concept, raw: raw),
           "source"             => adoption,
           "consistency"        => "pending",
           "consistency_reason" => "",

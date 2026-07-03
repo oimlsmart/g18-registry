@@ -29,6 +29,13 @@ data:
       time, to ensure that all the elements of the conformity assessment system work
       properly and result in general compliance of the products with the provisions
       of the applicable regulations across a country or free trade area-
+    definition_paragraphs:
+    - text: form of metrological supervision aimed at a measuring instrument and prepackage
+        which is placed on the market and/or put into service for the first time,
+        to ensure that all the elements of the conformity assessment system work properly
+        and result in general compliance of the products with the provisions of the
+        applicable regulations across a country or free trade area-
+      sources: []
     notes:
     - 'In the above definition the words "placed on the market and/or put into service"
       should b applied to describe different situations as follows: - "placed on the
@@ -39,7 +46,19 @@ data:
       is put into service; - "put into service": to describe the situat when a manufacturer
       manufactures a measuring instrument to be used by itself (i not necessary to
       place it on the market).'
+    note_paragraphs:
+    - text: 'In the above definition the words "placed on the market and/or put into
+        service" should b applied to describe different situations as follows: - "placed
+        on the market": should be used in the case when all the relevant conformity
+        assessment procedures are finalized before a measuring instrument or prepackage
+        is put into service; - "placed on the market and put into service one or more
+        conformity assessment procedure(s) may be or have to be carried ou when a
+        measuring instrument is put into service; - "put into service": to describe
+        the situat when a manufacturer manufactures a measuring instrument to be used
+        by itself (i not necessary to place it on the market).'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -57,6 +76,19 @@ data:
       system function correctly, resulting in general compliance of the products with
       the provisions of the applicable regulations across a country or free trade
       area
+    definition_paragraphs:
+    - text: form of metrological supervision aimed at measuring instruments and prepackages
+        intended to be placed on the market and/or put into service for the first
+        time, to ensure that all the elements of the conformity assessment system
+        function correctly, resulting in general compliance of the products with the
+        provisions of the applicable regulations across a country or free trade area
+      sources:
+      - kind: other
+        relationship: identical
+        modification:
+        ref_source: OIML D016:2011
+        ref_id: '2.23'
+        is_vimline: false
     notes:
     - 'In the above definition the words "to be placed on the market and/or put into
       service" should be applied to describe different situations as follows: "to
@@ -74,7 +106,28 @@ data:
       by enforcement authorities, that instruments in use in marketplaces (in the
       field) do comply with the requirements that apply to them (required characteristics,
       integrity, accuracy, proper use).
+    note_paragraphs:
+    - text: 'In the above definition the words "to be placed on the market and/or
+        put into service" should be applied to describe different situations as follows:
+        "to be placed on the market": should be used in the case when all the relevant
+        conformity assessment procedures are to be finalized before measuring instruments
+        or prepackages are put into service; "to be placed on the market and put into
+        service": one or more conformity assessment procedures may be or have to be
+        carried out when measuring instruments are put into service; "put into service":
+        to describe the situation when a manufacturer manufactures a measuring instrument
+        to be used (it is not necessary to place it on the market).'
+      sources: []
+    - text: Market surveillance is exerted by enforcement authorities for the purpose
+        of detecting whether products placed on the national market (i.e. sold or
+        offered for sale) fail to comply with the regulations that apply to them.
+      sources: []
+    - text: This must be distinguished from "field surveillance" which consists in
+        a surveillance by enforcement authorities, that instruments in use in marketplaces
+        (in the field) do comply with the requirements that apply to them (required
+        characteristics, integrity, accuracy, proper use).
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -92,6 +145,13 @@ data:
       system function correctly, resulting in general compliance of the products with
       the provisions of the applicable regulations across a country or free trade
       area
+    definition_paragraphs:
+    - text: form of metrological supervision aimed at measuring instruments and prepackages
+        intended to be placed on the market and/or put into service for the first
+        time, to ensure that all the elements of the conformity assessment system
+        function correctly, resulting in general compliance of the products with the
+        provisions of the applicable regulations across a country or free trade area
+      sources: []
     notes:
     - 'Note:In the above definition the words “to be placed on the market and/or put
       into service” should be applied to describe different situations as follows:
@@ -102,7 +162,19 @@ data:
       carried out when measuring instruments are put into service; “put into service”:
       to describe the situation when a manufacturer manufactures a measuring instrument
       to be used (it is not necessary to place it on the market)'
+    note_paragraphs:
+    - text: 'Note:In the above definition the words “to be placed on the market and/or
+        put into service” should be applied to describe different situations as follows:
+        “to be placed on the market”: should be used in the case when all the relevant
+        conformity assessment procedures are to be finalized before measuring instruments
+        or prepackages are put into service; “to be placed on the market and put into
+        service”: one or more conformity assessment procedures may be or have to be
+        carried out when measuring instruments are put into service; “put into service”:
+        to describe the situation when a manufacturer manufactures a measuring instrument
+        to be used (it is not necessary to place it on the market)'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -119,6 +191,13 @@ data:
       time, to ensure that all the elements of the conformity assessment system work
       properly and result in general compliance of the products with the provisions
       of the applicable regulations across a country or free trade area
+    definition_paragraphs:
+    - text: form of metrological supervision aimed at a measuring instrument and prepackage
+        which is placed on the market and/or put into service for the first time,
+        to ensure that all the elements of the conformity assessment system work properly
+        and result in general compliance of the products with the provisions of the
+        applicable regulations across a country or free trade area
+      sources: []
     notes:
     - 'Note: In the above definition the words “placed on the market and/or put into
       service” should be applied to describe different situations as follows: “placed
@@ -129,7 +208,19 @@ data:
       instrument is put into service; “put into service”: to describe the situation
       when a manufacturer manufactures a measuring instrument to be used by itself
       (it is not necessary to place it on the market).'
+    note_paragraphs:
+    - text: 'Note: In the above definition the words “placed on the market and/or
+        put into service” should be applied to describe different situations as follows:
+        “placed on the market”: should be used in the case when all the relevant conformity
+        assessment procedures are finalized before a measuring instrument or prepackage
+        is put into service; “placed on the market and put into service”: one or more
+        conformity assessment procedure(s) may be or have to be carried out when a
+        measuring instrument is put into service; “put into service”: to describe
+        the situation when a manufacturer manufactures a measuring instrument to be
+        used by itself (it is not necessary to place it on the market).'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

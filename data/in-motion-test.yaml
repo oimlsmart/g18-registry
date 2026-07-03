@@ -26,8 +26,14 @@ data:
     g18_entry: '01834'
     definition: test with reference vehicles that are in motion on the load receptor
       to determine an error
+    definition_paragraphs:
+    - text: test with reference vehicles that are in motion on the load receptor to
+        determine an error
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '01834'
     definition: test with reference vehicles that are in motion on the load receptor
       to determine an error
+    definition_paragraphs:
+    - text: test with reference vehicles that are in motion on the load receptor to
+        determine an error
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

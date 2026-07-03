@@ -38,9 +38,20 @@ data:
       an instrument, this is its ability to provide measurements of the same measurand
       carried out under the same weighi conditions of measurement under VIM: 1993,
       3.6] condit"
+    definition_paragraphs:
+    - text: "[ closeness of the agreement between the results of successive For an
+        instrument, this is its ability to provide measurements of the same measurand
+        carried out under the same weighi conditions of measurement under VIM: 1993,
+        3.6] condit"
+      sources: []
     notes:
     - ng results that agree one with the other the same or constant operating ions.
+    note_paragraphs:
+    - text: ng results that agree one with the other the same or constant operating
+        ions.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -56,8 +67,16 @@ data:
       on a uniform test sample when there is a relatively short time interval between
       measurements carried out by the same observer using the same test procedures
       at the same location under similar ambient conditions
+    definition_paragraphs:
+    - text: closeness of the agreement between the results of successive measurements
+        on a uniform test sample when there is a relatively short time interval between
+        measurements carried out by the same observer using the same test procedures
+        at the same location under similar ambient conditions
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -72,8 +91,15 @@ data:
     definition: ability of an instrument to provide results that agree one with the
       other when the same load is deposited several times and in a practically identical
       way on the load receptor under reasonably constant test conditions
+    definition_paragraphs:
+    - text: ability of an instrument to provide results that agree one with the other
+        when the same load is deposited several times and in a practically identical
+        way on the load receptor under reasonably constant test conditions
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -90,8 +116,17 @@ data:
       a short period of time by the same observer; and • carried out at the same location
       under similar ambient conditions, using the same measuring instrument and test
       procedures'
+    definition_paragraphs:
+    - text: 'closeness of agreement among the results of successive measurements of
+        the same measurand according to the following conditions: • repeated over
+        a short period of time by the same observer; and • carried out at the same
+        location under similar ambient conditions, using the same measuring instrument
+        and test procedures'
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -106,8 +141,15 @@ data:
     definition: ability of an instrument to provide results that agree one with the
       other when the same load is deposited several times and in a practically identical
       way on the load receptor under reasonably constant test conditions
+    definition_paragraphs:
+    - text: ability of an instrument to provide results that agree one with the other
+        when the same load is deposited several times and in a practically identical
+        way on the load receptor under reasonably constant test conditions
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -122,8 +164,15 @@ data:
     definition: closeness of agreement between results of successive measurements
       of the same measurand carried out under the same conditions and within a relatively
       short period of time
+    definition_paragraphs:
+    - text: closeness of agreement between results of successive measurements of the
+        same measurand carried out under the same conditions and within a relatively
+        short period of time
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -138,8 +187,15 @@ data:
     definition: closeness of agreement between results of successive measurements
       of the same measurand carried out under the same conditions and within a relative
       short period of time
+    definition_paragraphs:
+    - text: closeness of agreement between results of successive measurements of the
+        same measurand carried out under the same conditions and within a relative
+        short period of time
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -154,10 +210,20 @@ data:
     definition: 'closeness of agreement between successive measurements of the The
       same conditions include the following: same measurand carried out under the
       same conditions and the m within a short period of time measu envir'
+    definition_paragraphs:
+    - text: 'closeness of agreement between successive measurements of the The same
+        conditions include the following: same measurand carried out under the same
+        conditions and the m within a short period of time measu envir'
+      sources: []
     notes:
     - ethod of measurement, the operator, the ring instrument, the location, and the
       onmental condition
+    note_paragraphs:
+    - text: ethod of measurement, the operator, the ring instrument, the location,
+        and the onmental condition
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -173,13 +239,28 @@ data:
       1. Repeatability conditions include: between the maximum (Amax) and minimum
       (Amin) successive area measurements carried out under the same conditions of
       measurement = Amax – Amin'
+    definition_paragraphs:
+    - text: 'R closeness of the agreement between the results of the difference 1.
+        Repeatability conditions include: between the maximum (Amax) and minimum (Amin)
+        successive area measurements carried out under the same conditions of measurement
+        = Amax – Amin'
+      sources: []
     notes:
     - "• the same measurement procedure; • the same operator; • the same measuring
       instrument, used under the same conditions; • the same location; and • repetition
       over a short period of time. Repeatability may be expressed quantitatively in
       terms of the dispersion characteristics of th results."
     - 2. [VIM:1993, 3.6]
+    note_paragraphs:
+    - text: "• the same measurement procedure; • the same operator; • the same measuring
+        instrument, used under the same conditions; • the same location; and • repetition
+        over a short period of time. Repeatability may be expressed quantitatively
+        in terms of the dispersion characteristics of th results."
+      sources: []
+    - text: 2. [VIM:1993, 3.6]
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -194,10 +275,20 @@ data:
     definition: closeness of agreement between the results of successive measurements
       of the same sample carried out under the same conditions and within a relatively
       short period of time.
+    definition_paragraphs:
+    - text: closeness of agreement between the results of successive measurements
+        of the same sample carried out under the same conditions and within a relatively
+        short period of time.
+      sources: []
     notes:
     - The same conditions would include the same method of measurement, measuring
       instrument, operator, location, and ambient environmental conditions.
+    note_paragraphs:
+    - text: The same conditions would include the same method of measurement, measuring
+        instrument, operator, location, and ambient environmental conditions.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -212,8 +303,15 @@ data:
     definition: closeness of agreement between the results of successive measurements
       of the same sample carried out under the same conditions and within a relatively
       short period of time.
+    definition_paragraphs:
+    - text: closeness of agreement between the results of successive measurements
+        of the same sample carried out under the same conditions and within a relatively
+        short period of time.
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -228,8 +326,15 @@ data:
     definition: ability of a load cell to provide successive results that are in agreement
       when the same load is applied several times and applied in the same manner on
       the load cell under constant test conditions [Adapted from VIM:1993, 5.27]
+    definition_paragraphs:
+    - text: ability of a load cell to provide successive results that are in agreement
+        when the same load is applied several times and applied in the same manner
+        on the load cell under constant test conditions [Adapted from VIM:1993, 5.27]
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -249,10 +354,20 @@ data:
     definition: the closeness of agreement between the results of successive measurements
       of the same sample carried out under the same conditions and within a relatively
       short period of time
+    definition_paragraphs:
+    - text: the closeness of agreement between the results of successive measurements
+        of the same sample carried out under the same conditions and within a relatively
+        short period of time
+      sources: []
     notes:
     - The same conditions would include the same method of measurement, measuring
       instrument, operator, location, and ambient environmental conditions.
+    note_paragraphs:
+    - text: The same conditions would include the same method of measurement, measuring
+        instrument, operator, location, and ambient environmental conditions.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -267,8 +382,15 @@ data:
     definition: the ability of a measuring instrument to provide closely similar indications
       for repeated applications of the same measurand under the same conditions of
       measurement [VIM:1993, 5.27]
+    definition_paragraphs:
+    - text: the ability of a measuring instrument to provide closely similar indications
+        for repeated applications of the same measurand under the same conditions
+        of measurement [VIM:1993, 5.27]
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -288,8 +410,15 @@ data:
     definition: the closeness of the agreement between the results of successive measurements
       of the same measurand carried out under the same conditions of measurement (VIM:1993,
       3.6)
+    definition_paragraphs:
+    - text: the closeness of the agreement between the results of successive measurements
+        of the same measurand carried out under the same conditions of measurement
+        (VIM:1993, 3.6)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -309,8 +438,15 @@ data:
     definition: the ability of a pressure balance to give uniform indications of the
       measured pressure for multiple applications of the same load under constant
       conditions of measurement
+    definition_paragraphs:
+    - text: the ability of a pressure balance to give uniform indications of the measured
+        pressure for multiple applications of the same load under constant conditions
+        of measurement
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -325,10 +461,20 @@ data:
     definition: the closeness of agreement between results of successive measurements
       of the same measurand carried out under the same the m conditions and within
       a relatively short period of time measu envir
+    definition_paragraphs:
+    - text: the closeness of agreement between results of successive measurements
+        of the same measurand carried out under the same the m conditions and within
+        a relatively short period of time measu envir
+      sources: []
     notes:
     - 'The same conditions include the following: ethod of measurement, the operator,
       the ring instrument, the location, and the onmental conditions.'
+    note_paragraphs:
+    - text: 'The same conditions include the following: ethod of measurement, the
+        operator, the ring instrument, the location, and the onmental conditions.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -343,10 +489,20 @@ data:
     definition: the closeness of agreement between results of successive measurements
       of the same measurand carried out under the same the m conditions and within
       a relatively short period of time measu envir
+    definition_paragraphs:
+    - text: the closeness of agreement between results of successive measurements
+        of the same measurand carried out under the same the m conditions and within
+        a relatively short period of time measu envir
+      sources: []
     notes:
     - 'The same conditions include the following: ethod of measurement, the operator,
       the ring instrument, the location, and the onmental conditions.'
+    note_paragraphs:
+    - text: 'The same conditions include the following: ethod of measurement, the
+        operator, the ring instrument, the location, and the onmental conditions.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -362,8 +518,16 @@ data:
       of the same quantity of a pollutant carried out by the same instrument and under
       the same conditions of use within a relatively short period of time. Repeatability
       is synonymous with the term "precision" for an instrument
+    definition_paragraphs:
+    - text: the closeness of the agreement between the results of successive measurements
+        of the same quantity of a pollutant carried out by the same instrument and
+        under the same conditions of use within a relatively short period of time.
+        Repeatability is synonymous with the term "precision" for an instrument
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -378,8 +542,15 @@ data:
     definition: the closeness of agreement between the results of successive measurements
       of the same quantity being measured using the same instrument and under the
       same defined conditions within a relatively short period of time
+    definition_paragraphs:
+    - text: the closeness of agreement between the results of successive measurements
+        of the same quantity being measured using the same instrument and under the
+        same defined conditions within a relatively short period of time
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -394,8 +565,15 @@ data:
     definition: closeness of agreement between the results of successive measurements
       of the same quantity being measured using the same instrument and under the
       same defined conditions within a relatively short period of time
+    definition_paragraphs:
+    - text: closeness of agreement between the results of successive measurements
+        of the same quantity being measured using the same instrument and under the
+        same defined conditions within a relatively short period of time
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -408,8 +586,19 @@ data:
     link:
     g18_entry: '02668'
     definition: measurement precision under a set of repeatability conditions of measurement
+    definition_paragraphs:
+    - text: measurement precision under a set of repeatability conditions of measurement
+      sources:
+      - kind: vim
+        relationship: identical
+        modification:
+        ref_source: OIML V 2-200:2012
+        ref_id: '2.21'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: vim
       relationship: identical
@@ -429,8 +618,14 @@ data:
     g18_entry: '02595'
     definition: ability of an instrument to provide results that agree one with the
       other under the same operating conditions of measurement [based on VIM 3.6]
+    definition_paragraphs:
+    - text: ability of an instrument to provide results that agree one with the other
+        under the same operating conditions of measurement [based on VIM 3.6]
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -445,10 +640,20 @@ data:
     definition: 'closeness of the agreement between the results of successive measurements
       of the same measurand carried out under the same conditions of measurement [VIM:
       1993, 3.6]'
+    definition_paragraphs:
+    - text: 'closeness of the agreement between the results of successive measurements
+        of the same measurand carried out under the same conditions of measurement
+        [VIM: 1993, 3.6]'
+      sources: []
     notes:
     - 'Note:  For an instrument, this is its ability to provide weighing results that
       agree one with the other under the same or constant operating conditions.'
+    note_paragraphs:
+    - text: 'Note:  For an instrument, this is its ability to provide weighing results
+        that agree one with the other under the same or constant operating conditions.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -464,8 +669,16 @@ data:
       on a uniform test sample when there is a relatively short time interval between
       measurements carried out by the same observer using the same test procedures
       at the same location under similar ambient conditions
+    definition_paragraphs:
+    - text: closeness of the agreement between the results of successive measurements
+        on a uniform test sample when there is a relatively short time interval between
+        measurements carried out by the same observer using the same test procedures
+        at the same location under similar ambient conditions
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -480,8 +693,15 @@ data:
     definition: ability of an instrument to provide results that agree one with the
       other when the same load is deposited several times and in a practically identical
       way on the load receptor under reasonably constant test conditions
+    definition_paragraphs:
+    - text: ability of an instrument to provide results that agree one with the other
+        when the same load is deposited several times and in a practically identical
+        way on the load receptor under reasonably constant test conditions
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -495,8 +715,14 @@ data:
     g18_entry: '00822'
     definition: 'closeness of agreement among the results of successive measurements
       of the same measurand according to the following conditions:'
+    definition_paragraphs:
+    - text: 'closeness of agreement among the results of successive measurements of
+        the same measurand according to the following conditions:'
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -511,8 +737,15 @@ data:
     definition: ability of an instrument to provide results that agree one with the
       other when the same load is deposited several times and in a practically  identical
       way on the load receptor under reasonably constant test conditions
+    definition_paragraphs:
+    - text: ability of an instrument to provide results that agree one with the other
+        when the same load is deposited several times and in a practically  identical
+        way on the load receptor under reasonably constant test conditions
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -527,8 +760,15 @@ data:
     definition: closeness of agreement between results of successive measurements
       of the same measurand carried out under the same conditions and within a relatively
       short period of time
+    definition_paragraphs:
+    - text: closeness of agreement between results of successive measurements of the
+        same measurand carried out under the same conditions and within a relatively
+        short period of time
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -543,8 +783,15 @@ data:
     definition: closeness of agreement between results of successive measurements
       of the same measurand carried out under the same conditions and within a relative
       short period of time
+    definition_paragraphs:
+    - text: closeness of agreement between results of successive measurements of the
+        same measurand carried out under the same conditions and within a relative
+        short period of time
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -559,10 +806,19 @@ data:
     definition: closeness of agreement between successive measurements of the same
       measurand carried out under the same conditions and within a short period of
       time
+    definition_paragraphs:
+    - text: closeness of agreement between successive measurements of the same measurand
+        carried out under the same conditions and within a short period of time
+      sources: []
     notes:
     - 'Note: The same conditions include the following: the method of measurement,
       the operator, the measuring instrument, the location, and the environmental  condition'
+    note_paragraphs:
+    - text: 'Note: The same conditions include the following: the method of measurement,
+        the operator, the measuring instrument, the location, and the environmental  condition'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -577,6 +833,11 @@ data:
     definition: closeness of the agreement between the results of the difference between
       the maximum (Amax) and minimum (Amin) successive area measurements carried out
       under the same conditions of measurement R = Amax – Amin
+    definition_paragraphs:
+    - text: closeness of the agreement between the results of the difference between
+        the maximum (Amax) and minimum (Amin) successive area measurements carried
+        out under the same conditions of measurement R = Amax – Amin
+      sources: []
     notes:
     - 'Repeatability conditions include: the same measurement procedure; the same
       operator; the same measuring instrument, used under the same conditions; the
@@ -584,7 +845,17 @@ data:
       be expressed quantitatively in terms of the dispersion characteristics of the
       results.'
     - "[VIM:1993, 3.6]"
+    note_paragraphs:
+    - text: 'Repeatability conditions include: the same measurement procedure; the
+        same operator; the same measuring instrument, used under the same conditions;
+        the same location; and repetition over a short period of time. Repeatability
+        may be expressed quantitatively in terms of the dispersion characteristics
+        of the results.'
+      sources: []
+    - text: "[VIM:1993, 3.6]"
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -599,10 +870,20 @@ data:
     definition: closeness of agreement between the results of successive measurements
       of the same sample carried out under the same conditions and within a relatively
       short period of time.
+    definition_paragraphs:
+    - text: closeness of agreement between the results of successive measurements
+        of the same sample carried out under the same conditions and within a relatively
+        short period of time.
+      sources: []
     notes:
     - The same conditions would include the same method of measurement, measuring
       instrument, operator, location, and ambient environmental  conditions.
+    note_paragraphs:
+    - text: The same conditions would include the same method of measurement, measuring
+        instrument, operator, location, and ambient environmental  conditions.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -617,8 +898,15 @@ data:
     definition: closeness of agreement between the results of successive measurements
       of the same sample carried out under the same conditions and within a relatively
       short period of time.
+    definition_paragraphs:
+    - text: closeness of agreement between the results of successive measurements
+        of the same sample carried out under the same conditions and within a relatively
+        short period of time.
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -633,10 +921,20 @@ data:
     definition: the closeness of agreement between the results of successive measurements
       of the same sample carried out under the same conditions and within a relatively
       short period of time
+    definition_paragraphs:
+    - text: the closeness of agreement between the results of successive measurements
+        of the same sample carried out under the same conditions and within a relatively
+        short period of time
+      sources: []
     notes:
     - 'Note:  The same conditions would include the same method of measurement, measuring
       instrument, operator, location, and ambient environmental  conditions.'
+    note_paragraphs:
+    - text: 'Note:  The same conditions would include the same method of measurement,
+        measuring instrument, operator, location, and ambient environmental  conditions.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -651,8 +949,15 @@ data:
     definition: the ability of a measuring instrument to provide closely similar indications
       for repeated applications of the same measurand under the same conditions of
       measurement [VIM:1993, 5.27]
+    definition_paragraphs:
+    - text: the ability of a measuring instrument to provide closely similar indications
+        for repeated applications of the same measurand under the same conditions
+        of measurement [VIM:1993, 5.27]
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -667,8 +972,15 @@ data:
     definition: the closeness of the agreement between the results of successive measurements
       of the same measurand carried out under the same conditions of measurement (VIM:1993,
       3.6)
+    definition_paragraphs:
+    - text: the closeness of the agreement between the results of successive measurements
+        of the same measurand carried out under the same conditions of measurement
+        (VIM:1993, 3.6)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -683,11 +995,22 @@ data:
     definition: Closeness of agreement between the results of successive measurements
       of the same sample using the same instrument, under the same defined conditions
       of use, and within a relatively short period of time.
+    definition_paragraphs:
+    - text: Closeness of agreement between the results of successive measurements
+        of the same sample using the same instrument, under the same defined conditions
+        of use, and within a relatively short period of time.
+      sources: []
     notes:
     - 'Note:  The same defined conditions would include the following: method of measurement,
       the measuring instrument, the operator, the location and the ambient environmental
       conditions.'
+    note_paragraphs:
+    - text: 'Note:  The same defined conditions would include the following: method
+        of measurement, the measuring instrument, the operator, the location and the
+        ambient environmental conditions.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -702,8 +1025,15 @@ data:
     definition: the ability of a pressure balance to give uniform indications of the
       measured pressure for multiple applications of the same load under constant
       conditions of measurement
+    definition_paragraphs:
+    - text: the ability of a pressure balance to give uniform indications of the measured
+        pressure for multiple applications of the same load under constant conditions
+        of measurement
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -718,11 +1048,22 @@ data:
     definition: the closeness of agreement between results of successive measurements
       of the same measurand carried out under the same conditions and within a relatively
       short period of time
+    definition_paragraphs:
+    - text: the closeness of agreement between results of successive measurements
+        of the same measurand carried out under the same conditions and within a relatively
+        short period of time
+      sources: []
     notes:
     - 'Note: The same conditions include the following: the method of measurement,
       the operator, the measuring instrument, the location, and the environmental
       conditions.'
+    note_paragraphs:
+    - text: 'Note: The same conditions include the following: the method of measurement,
+        the operator, the measuring instrument, the location, and the environmental
+        conditions.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -737,11 +1078,22 @@ data:
     definition: the closeness of agreement between results of successive measurements
       of the same measurand carried out under the same conditions and within a relatively
       short period of time
+    definition_paragraphs:
+    - text: the closeness of agreement between results of successive measurements
+        of the same measurand carried out under the same conditions and within a relatively
+        short period of time
+      sources: []
     notes:
     - 'Note: The same conditions include the following: the method of measurement,
       the operator, the measuring instrument, the location, and the environmental
       conditions.'
+    note_paragraphs:
+    - text: 'Note: The same conditions include the following: the method of measurement,
+        the operator, the measuring instrument, the location, and the environmental
+        conditions.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -757,8 +1109,16 @@ data:
       of the same quantity of a pollutant carried out by the same instrument and under
       the same conditions of use within a relatively short period of time. Repeatability
       is synonymous with the term "precision" for an instrument
+    definition_paragraphs:
+    - text: the closeness of the agreement between the results of successive measurements
+        of the same quantity of a pollutant carried out by the same instrument and
+        under the same conditions of use within a relatively short period of time.
+        Repeatability is synonymous with the term "precision" for an instrument
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

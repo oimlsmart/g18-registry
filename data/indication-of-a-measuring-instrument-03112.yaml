@@ -25,10 +25,19 @@ data:
     g18_entry: '03112'
     definition: quantity value provided by a measuring instrument or measuring system
       [VIML:2013, 0.03]
+    definition_paragraphs:
+    - text: quantity value provided by a measuring instrument or measuring system
+        [VIML:2013, 0.03]
+      sources: []
     notes:
     - 'Note: “Indication”, “indicate” or “indicating” include both displaying, and/or
       printing.'
+    note_paragraphs:
+    - text: 'Note: “Indication”, “indicate” or “indicating” include both displaying,
+        and/or printing.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -42,10 +51,19 @@ data:
     g18_entry: '03663'
     definition: quantity value provided by a measuring instrument or measuring system
       (VIM, 4.1)
+    definition_paragraphs:
+    - text: quantity value provided by a measuring instrument or measuring system
+        (VIM, 4.1)
+      sources: []
     notes:
     - 'Note: “Indication”, “indicate” or “indicating” include both displaying, and/or
       printing.'
+    note_paragraphs:
+    - text: 'Note: “Indication”, “indicate” or “indicating” include both displaying,
+        and/or printing.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

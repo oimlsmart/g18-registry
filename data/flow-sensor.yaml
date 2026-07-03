@@ -27,8 +27,15 @@ data:
     definition: a sub-assembly through which the heat-conveying liquid flows, ateither
       the flow or return of a heatexchange circuit, and which emits a signal, which
       is a function of the volume or the mass or the volumetric or mass flow rate
+    definition_paragraphs:
+    - text: a sub-assembly through which the heat-conveying liquid flows, ateither
+        the flow or return of a heatexchange circuit, and which emits a signal, which
+        is a function of the volume or the mass or the volumetric or mass flow rate
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -43,8 +50,15 @@ data:
     definition: a sub-assembly through which the heat-conveying liquid flows, at either
       the flow or return of a heat exchange circuit, and which emits a signal, which
       is a function of the volume or the mass or the volumetric or mass flow rate
+    definition_paragraphs:
+    - text: a sub-assembly through which the heat-conveying liquid flows, at either
+        the flow or return of a heat exchange circuit, and which emits a signal, which
+        is a function of the volume or the mass or the volumetric or mass flow rate
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

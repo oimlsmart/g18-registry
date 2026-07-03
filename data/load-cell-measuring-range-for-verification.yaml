@@ -25,8 +25,14 @@ data:
     g18_entry: '03202'
     definition: range between the maximum load of the measuring range Dmax and minimum
       load of the measuring range Dmin load cell measuring range = (Dmax - Dmin)
+    definition_paragraphs:
+    - text: range between the maximum load of the measuring range Dmax and minimum
+        load of the measuring range Dmin load cell measuring range = (Dmax - Dmin)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

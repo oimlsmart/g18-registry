@@ -34,8 +34,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r080-1-e09.pdf
     g18_entry: '02294'
     definition: intrinsic error as determined prior to each performance tests
+    definition_paragraphs:
+    - text: intrinsic error as determined prior to each performance tests
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -49,8 +54,14 @@ data:
     g18_entry: '02329'
     definition: intrinsic error of an ALG as determined prior to performance tests
       and durability evaluations
+    definition_paragraphs:
+    - text: intrinsic error of an ALG as determined prior to performance tests and
+        durability evaluations
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -64,8 +75,14 @@ data:
     g18_entry: '01390'
     definition: intrinsic error of an instrument as determined prior to the performance
       and span stability tests
+    definition_paragraphs:
+    - text: intrinsic error of an instrument as determined prior to the performance
+        and span stability tests
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -78,8 +95,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r117-1-e07.pdf
     g18_entry: '01564'
     definition: intrinsic error as determined prior to all performance tests
+    definition_paragraphs:
+    - text: intrinsic error as determined prior to all performance tests
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -93,8 +115,14 @@ data:
     g18_entry: '02019'
     definition: intrinsic error of a measuring system as determined prior to all performance
       tests
+    definition_paragraphs:
+    - text: intrinsic error of a measuring system as determined prior to all performance
+        tests
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -107,8 +135,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r140-e07.pdf
     g18_entry: '02081'
     definition: intrinsic error as determined prior to all performance tests
+    definition_paragraphs:
+    - text: intrinsic error as determined prior to all performance tests
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -122,8 +155,14 @@ data:
     g18_entry: '00430'
     definition: intrinsic error of a water meter as determined prior to all performance
       tests
+    definition_paragraphs:
+    - text: intrinsic error of a water meter as determined prior to all performance
+        tests
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -137,8 +176,14 @@ data:
     g18_entry: '00657'
     definition: ntrinsic error of an instrument, as determined prior to the performance
       and span stability tests
+    definition_paragraphs:
+    - text: ntrinsic error of an instrument, as determined prior to the performance
+        and span stability tests
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -152,8 +197,14 @@ data:
     g18_entry: '00979'
     definition: intrinsic error of an instrument as determined prior to the performance
       and span stability tests
+    definition_paragraphs:
+    - text: intrinsic error of an instrument as determined prior to the performance
+        and span stability tests
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -167,8 +218,14 @@ data:
     g18_entry: '00231'
     definition: intrinsic error of a measuring instrument as determined prior to performance
       tests and durability evaluations
+    definition_paragraphs:
+    - text: intrinsic error of a measuring instrument as determined prior to performance
+        tests and durability evaluations
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -182,8 +239,14 @@ data:
     g18_entry: '00800'
     definition: intrinsic error of a weighing instrument as determined prior to performance
       and span stability tests
+    definition_paragraphs:
+    - text: intrinsic error of a weighing instrument as determined prior to performance
+        and span stability tests
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -197,8 +260,14 @@ data:
     g18_entry: '01823'
     definition: intrinsic error of an instrument as determined prior to performance
       tests and durability evaluations
+    definition_paragraphs:
+    - text: intrinsic error of an instrument as determined prior to performance tests
+        and durability evaluations
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -212,8 +281,14 @@ data:
     g18_entry: '00861'
     definition: intrinsic error of a measuring instrument as determined prior to performance
       tests and durability tests
+    definition_paragraphs:
+    - text: intrinsic error of a measuring instrument as determined prior to performance
+        tests and durability tests
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -227,8 +302,14 @@ data:
     g18_entry: '01724'
     definition: the intrinsic error of a measuring instrument as determined prior
       to performance tests
+    definition_paragraphs:
+    - text: the intrinsic error of a measuring instrument as determined prior to performance
+        tests
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -242,8 +323,14 @@ data:
     g18_entry: '01030'
     definition: the error of the instrument as determined prior to any of the performance
       tests
+    definition_paragraphs:
+    - text: the error of the instrument as determined prior to any of the performance
+        tests
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -257,8 +344,14 @@ data:
     g18_entry: '01641'
     definition: the intrinsic error of a measuring instrument as determined prior
       to performance tests
+    definition_paragraphs:
+    - text: the intrinsic error of a measuring instrument as determined prior to performance
+        tests
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -272,8 +365,14 @@ data:
     g18_entry: '00527'
     definition: the intrinsic error of a belt weigher as determined prior to performance
       tests and durability evaluations
+    definition_paragraphs:
+    - text: the intrinsic error of a belt weigher as determined prior to performance
+        tests and durability evaluations
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -287,8 +386,14 @@ data:
     g18_entry: '01295'
     definition: the intrinsic error of an instrument as determined prior to performance
       tests and durability evaluations
+    definition_paragraphs:
+    - text: the intrinsic error of an instrument as determined prior to performance
+        tests and durability evaluations
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -302,8 +407,14 @@ data:
     g18_entry: '01233'
     definition: the intrinsic error of a measuring system as determined prior to performance
       tests and durability evaluations
+    definition_paragraphs:
+    - text: the intrinsic error of a measuring system as determined prior to performance
+        tests and durability evaluations
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -317,8 +428,14 @@ data:
     g18_entry: '03767'
     definition: intrinsic error of a measuring instrument as determined prior to performance
       tests and durability evaluations
+    definition_paragraphs:
+    - text: intrinsic error of a measuring instrument as determined prior to performance
+        tests and durability evaluations
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -338,8 +455,15 @@ data:
     definition: 'intrinsic error (3.2.6) of a meter as determined prior to performance
       test(s) (3.4.6) and durability (3.2.10) evaluations [SOURCE: OIML D 11:2013,
       3.9, [8], modified — “meter” replaces “measuring instrument”]'
+    definition_paragraphs:
+    - text: 'intrinsic error (3.2.6) of a meter as determined prior to performance
+        test(s) (3.4.6) and durability (3.2.10) evaluations [SOURCE: OIML D 11:2013,
+        3.9, [8], modified — “meter” replaces “measuring instrument”]'
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -353,8 +477,20 @@ data:
     g18_entry: '03136'
     definition: intrinsic error of a measuring instrument as determined prior to performance
       tests and durability evaluations
+    definition_paragraphs:
+    - text: intrinsic error of a measuring instrument as determined prior to performance
+        tests and durability evaluations
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2013
+        ref_id: '5.11'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical
@@ -374,8 +510,14 @@ data:
     g18_entry: '03137'
     definition: intrinsic error of a measuring instrument as determined prior to performance
       tests and durability evaluations [VIML:2013, 5.11]
+    definition_paragraphs:
+    - text: intrinsic error of a measuring instrument as determined prior to performance
+        tests and durability evaluations [VIML:2013, 5.11]
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -389,8 +531,20 @@ data:
     g18_entry: '03133'
     definition: intrinsic error of a measuring instrument as determined prior to performance
       tests
+    definition_paragraphs:
+    - text: intrinsic error of a measuring instrument as determined prior to performance
+        tests
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2013
+        ref_id: '5.11'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical
@@ -410,8 +564,14 @@ data:
     g18_entry: '03148'
     definition: intrinsic error of a measuring instrument as determined prior to performance
       tests and durability evaluations
+    definition_paragraphs:
+    - text: intrinsic error of a measuring instrument as determined prior to performance
+        tests and durability evaluations
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -424,8 +584,13 @@ data:
     link:
     g18_entry: '03135'
     definition: intrinsic error as determined prior to all performance tests
+    definition_paragraphs:
+    - text: intrinsic error as determined prior to all performance tests
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -439,8 +604,14 @@ data:
     g18_entry: '03131'
     definition: intrinsic error of a measuring instrument as determined prior to performance
       tests and durability evaluations (VIML, 5.11)
+    definition_paragraphs:
+    - text: intrinsic error of a measuring instrument as determined prior to performance
+        tests and durability evaluations (VIML, 5.11)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -453,8 +624,13 @@ data:
     link:
     g18_entry: '03130'
     definition: intrinsic error as determined prior to each  performance tests
+    definition_paragraphs:
+    - text: intrinsic error as determined prior to each  performance tests
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -468,8 +644,20 @@ data:
     g18_entry: '03134'
     definition: intrinsic error of a measuring instrument as determined prior to performance
       tests and durability evaluations
+    definition_paragraphs:
+    - text: intrinsic error of a measuring instrument as determined prior to performance
+        tests and durability evaluations
+      sources:
+      - kind: other
+        relationship: identical
+        modification:
+        ref_source: OIML D011:2013
+        ref_id: '3.8'
+        is_vimline: false
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -483,8 +671,14 @@ data:
     g18_entry: '02223'
     definition: intrinsic error of a measuring instrument as determined prior to performance
       tests and durability evaluations
+    definition_paragraphs:
+    - text: intrinsic error of a measuring instrument as determined prior to performance
+        tests and durability evaluations
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -498,8 +692,20 @@ data:
     g18_entry: 02321-R046-1
     definition: intrinsic error of a measuring instrument as determined prior to performance
       tests and durability evaluations
+    definition_paragraphs:
+    - text: intrinsic error of a measuring instrument as determined prior to performance
+        tests and durability evaluations
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2013
+        ref_id: '5.11'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical
@@ -519,8 +725,14 @@ data:
     g18_entry: '02609'
     definition: intrinsic error of an instrument as determined prior to performance
       tests and durability evaluations
+    definition_paragraphs:
+    - text: intrinsic error of an instrument as determined prior to performance tests
+        and durability evaluations
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -533,8 +745,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r080-1-e09.pdf
     g18_entry: '02294-R080-1'
     definition: intrinsic error as determined prior to each  performance tests
+    definition_paragraphs:
+    - text: intrinsic error as determined prior to each  performance tests
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -548,8 +765,14 @@ data:
     g18_entry: '02329-R085-1'
     definition: error of an ALG as determined prior to performance tests and durability
       evaluations
+    definition_paragraphs:
+    - text: error of an ALG as determined prior to performance tests and durability
+        evaluations
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -563,8 +786,14 @@ data:
     g18_entry: '01390'
     definition: intrinsic error of an instrument as determined prior to the performance
       and span stability test
+    definition_paragraphs:
+    - text: intrinsic error of an instrument as determined prior to the performance
+        and span stability test
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -577,8 +806,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r140-e07.pdf
     g18_entry: '02081'
     definition: intrinsic error as determined prior to all performance tests
+    definition_paragraphs:
+    - text: intrinsic error as determined prior to all performance tests
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -592,8 +826,14 @@ data:
     g18_entry: '00657'
     definition: intrinsic error of an instrument, as determined prior to the performance
       and span stability tests
+    definition_paragraphs:
+    - text: intrinsic error of an instrument, as determined prior to the performance
+        and span stability tests
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -607,8 +847,14 @@ data:
     g18_entry: '00979'
     definition: intrinsic error of an instrument as determined prior to the performance
       and span stability tests
+    definition_paragraphs:
+    - text: intrinsic error of an instrument as determined prior to the performance
+        and span stability tests
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -622,8 +868,14 @@ data:
     g18_entry: '03132'
     definition: intrinsic error of an instrument as determined prior to performance
       tests and durability evaluations
+    definition_paragraphs:
+    - text: intrinsic error of an instrument as determined prior to performance tests
+        and durability evaluations
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -637,8 +889,14 @@ data:
     g18_entry: '00861'
     definition: intrinsic error of a measuring instrument as determined prior to performance
       tests and durability tests
+    definition_paragraphs:
+    - text: intrinsic error of a measuring instrument as determined prior to performance
+        tests and durability tests
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -651,8 +909,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r081-e98.pdf
     g18_entry: '01030'
     definition: intrinsic error as determined prior to any of the  performance tests
+    definition_paragraphs:
+    - text: intrinsic error as determined prior to any of the  performance tests
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -666,8 +929,14 @@ data:
     g18_entry: '01641'
     definition: the intrinsic error of a measuring instrument as determined prior
       to performance tests
+    definition_paragraphs:
+    - text: the intrinsic error of a measuring instrument as determined prior to performance
+        tests
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

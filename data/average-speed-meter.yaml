@@ -25,9 +25,17 @@ data:
     g18_entry: '03741'
     definition: fixed-distance speed meter with cloest detection fields separated
       by more than 50 m
+    definition_paragraphs:
+    - text: fixed-distance speed meter with cloest detection fields separated by more
+        than 50 m
+      sources: []
     notes:
     - 'Note: Avarage speed meter are also referred to as section speed meters.'
+    note_paragraphs:
+    - text: 'Note: Avarage speed meter are also referred to as section speed meters.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -26,8 +26,13 @@ data:
     g18_entry: '02066'
     definition: volume at metering conditions, volume at base conditions, mass or
       energy
+    definition_paragraphs:
+    - text: volume at metering conditions, volume at base conditions, mass or energy
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +46,14 @@ data:
     g18_entry: '02066'
     definition: the part of a package that is most likely to be displayed, presented,
       shown or examined under normal and customary conditions of display
+    definition_paragraphs:
+    - text: the part of a package that is most likely to be displayed, presented,
+        shown or examined under normal and customary conditions of display
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

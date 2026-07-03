@@ -25,8 +25,19 @@ data:
     link: https://www.oiml.org/en/files/pdf_D/d031-e08.pdf
     g18_entry: '02203'
     definition: ability of a measuring instrument to accomplish its intended functions
+    definition_paragraphs:
+    - text: ability of a measuring instrument to accomplish its intended functions
+      sources:
+      - kind: other
+        relationship: identical
+        modification:
+        ref_source: OIML D011:2004
+        ref_id: '3.16'
+        is_vimline: false
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -39,8 +50,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r085-1-e08.pdf
     g18_entry: '02324'
     definition: ability of the ALG to accomplish the intended functions
+    definition_paragraphs:
+    - text: ability of the ALG to accomplish the intended functions
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -53,8 +69,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_D/d011-e04.pdf
     g18_entry: '00241'
     definition: ability of a measuring instrument to accomplish its intended functions
+    definition_paragraphs:
+    - text: ability of a measuring instrument to accomplish its intended functions
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -67,8 +88,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r136-1-e04.pdf
     g18_entry: '01920'
     definition: ability of the measuring instrument to accomplish its intended functions
+    definition_paragraphs:
+    - text: ability of the measuring instrument to accomplish its intended functions
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -82,8 +108,13 @@ data:
     g18_entry: '01733'
     definition: the ability of the measuring instrument to accomplish its intended
       functions
+    definition_paragraphs:
+    - text: the ability of the measuring instrument to accomplish its intended functions
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -97,8 +128,13 @@ data:
     g18_entry: '01652'
     definition: the ability of the measuring instrument to accomplish its intended
       functions
+    definition_paragraphs:
+    - text: the ability of the measuring instrument to accomplish its intended functions
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -112,8 +148,13 @@ data:
     g18_entry: '01244'
     definition: the capability of the measuring system to accomplish the intended
       functions
+    definition_paragraphs:
+    - text: the capability of the measuring system to accomplish the intended functions
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -126,8 +167,13 @@ data:
     link:
     g18_entry: '03356'
     definition: ability of the measuring instrument to accomplish its intended functions
+    definition_paragraphs:
+    - text: ability of the measuring instrument to accomplish its intended functions
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -140,8 +186,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r085-1-e08.pdf
     g18_entry: 02324-R085-1
     definition: ability of the ALG to accomplish the intended functions
+    definition_paragraphs:
+    - text: ability of the ALG to accomplish the intended functions
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -154,8 +205,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r136-1-e04.pdf
     g18_entry: '01920'
     definition: ability of the measuring instrument to accomplish its intended functions
+    definition_paragraphs:
+    - text: ability of the measuring instrument to accomplish its intended functions
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -169,8 +225,13 @@ data:
     g18_entry: '01652'
     definition: the ability of the measuring instrument to accomplish its intended
       functions
+    definition_paragraphs:
+    - text: the ability of the measuring instrument to accomplish its intended functions
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

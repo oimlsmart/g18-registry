@@ -25,8 +25,14 @@ data:
     g18_entry: '03347'
     definition: type evaluation conducted on the basis of the relevant OIML Recommendation(s)
       (OIML B 18, 3.30)
+    definition_paragraphs:
+    - text: type evaluation conducted on the basis of the relevant OIML Recommendation(s)
+        (OIML B 18, 3.30)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

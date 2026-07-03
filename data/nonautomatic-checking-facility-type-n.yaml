@@ -24,8 +24,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r125-e98.pdf
     g18_entry: '01657'
     definition: a checking facility which requires the intervention of an operator
+    definition_paragraphs:
+    - text: a checking facility which requires the intervention of an operator
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

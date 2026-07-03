@@ -26,6 +26,11 @@ data:
     definition: set of operations carried out on a measuring system so that it provides
       prescribed indications corresponding to given values of a quantity to be measured
       (VIM:2007, 3.11)
+    definition_paragraphs:
+    - text: set of operations carried out on a measuring system so that it provides
+        prescribed indications corresponding to given values of a quantity to be measured
+        (VIM:2007, 3.11)
+      sources: []
     notes:
     - Types of adjustment of a measuring system include zero adjustment of a measuring
       system, offset adjustment, and span adjustment (sometimes called gain adjustment).
@@ -33,7 +38,19 @@ data:
       is a prerequisite for adjustment.
     - After an adjustment of a measuring system, the measuring system must usually
       be recalibrated.
+    note_paragraphs:
+    - text: Types of adjustment of a measuring system include zero adjustment of a
+        measuring system, offset adjustment, and span adjustment (sometimes called
+        gain adjustment).
+      sources: []
+    - text: Adjustment of a measuring system should not be confused with calibration,
+        which is a prerequisite for adjustment.
+      sources: []
+    - text: After an adjustment of a measuring system, the measuring system must usually
+        be recalibrated.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

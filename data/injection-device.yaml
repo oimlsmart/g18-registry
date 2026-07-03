@@ -26,8 +26,13 @@ data:
     g18_entry: '01046'
     definition: means by which a sample is introduced into the gas chromatographic
       column
+    definition_paragraphs:
+    - text: means by which a sample is introduced into the gas chromatographic column
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +46,14 @@ data:
     g18_entry: '01062'
     definition: means by which a portion of a sample is introduced into the gas chromatographic
       column
+    definition_paragraphs:
+    - text: means by which a portion of a sample is introduced into the gas chromatographic
+        column
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -55,8 +66,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r113-e94.pdf
     g18_entry: '01488'
     definition: the means of introducing a sample into the column
+    definition_paragraphs:
+    - text: the means of introducing a sample into the column
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -69,8 +85,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r082-e06.pdf
     g18_entry: '01046'
     definition: means by which a sample is introduced into the gas chromatographic  column
+    definition_paragraphs:
+    - text: means by which a sample is introduced into the gas chromatographic  column
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -83,8 +104,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r083-e06.pdf
     g18_entry: '01062'
     definition: means by which a portion of a sample is introduced into the gas chromatographic  column
+    definition_paragraphs:
+    - text: means by which a portion of a sample is introduced into the gas chromatographic  column
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -97,8 +123,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r113-e94.pdf
     g18_entry: '01488'
     definition: the means of introducing a sample into the column
+    definition_paragraphs:
+    - text: the means of introducing a sample into the column
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -28,8 +28,17 @@ data:
       and, if applicable, from ancillary devices and/or other devices, processes them
       and, if appropriate, stores the results in memory until they are used. In addition,
       the calculator may be capable of communicating both ways with other devices
+    definition_paragraphs:
+    - text: part of the ALG that receives the output signals from the transducer and,
+        if applicable, from ancillary devices and/or other devices, processes them
+        and, if appropriate, stores the results in memory until they are used. In
+        addition, the calculator may be capable of communicating both ways with other
+        devices
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -45,8 +54,17 @@ data:
       device(s) and, possibly, from associated measuring devices, processes them and,
       if appropriate, stores the results in memory until they are used. In addition,
       the calculator may be capable of communicating both ways with ancillary devices
+    definition_paragraphs:
+    - text: part of the meter that receives the output signals from the measuring
+        device(s) and, possibly, from associated measuring devices, processes them
+        and, if appropriate, stores the results in memory until they are used. In
+        addition, the calculator may be capable of communicating both ways with ancillary
+        devices
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -63,13 +81,28 @@ data:
       associated measuring instruments, transforms them, and, if appropriate, stores
       the results in memory until they are used. In addition, the calculator may be
       capable of transmitting and receiving data from peripheral equipment
+    definition_paragraphs:
+    - text: part of the measuring system that receives the output signals from the
+        flow measuring device(s) or from another calculator and possibly from the
+        associated measuring instruments, transforms them, and, if appropriate, stores
+        the results in memory until they are used. In addition, the calculator may
+        be capable of transmitting and receiving data from peripheral equipment
+      sources: []
     notes:
     - A measuring system may have one, two or more calculators, for instance a mechanical
       calculator to produce the volume at metering conditions and which transmits
       the value to a mechanical indicating device, an electronic calculator which
       also calculates the volume at metering conditions, associated with an electronic
       indicating device, and another one to calculate the converted value.
+    note_paragraphs:
+    - text: A measuring system may have one, two or more calculators, for instance
+        a mechanical calculator to produce the volume at metering conditions and which
+        transmits the value to a mechanical indicating device, an electronic calculator
+        which also calculates the volume at metering conditions, associated with an
+        electronic indicating device, and another one to calculate the converted value.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -85,8 +118,16 @@ data:
       and, possibly, from associated measuring instruments, transforms them and, if
       appropriate, stores the results in memory until they are used. In addition,
       the calculator may be capable of communicating both ways with ancillary devices
+    definition_paragraphs:
+    - text: part of the meter which receives the output signals from the transducer(s)
+        and, possibly, from associated measuring instruments, transforms them and,
+        if appropriate, stores the results in memory until they are used. In addition,
+        the calculator may be capable of communicating both ways with ancillary devices
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -102,8 +143,17 @@ data:
       transducer(s) and, possibly, associated measuring instruments, transforms them
       and, if appropriate, stores the results in memory until they are used. In addition,
       the calculator may be capable of communicating both ways with ancillary devices
+    definition_paragraphs:
+    - text: part of the gas meter which receives the output signals from the measuring
+        transducer(s) and, possibly, associated measuring instruments, transforms
+        them and, if appropriate, stores the results in memory until they are used.
+        In addition, the calculator may be capable of communicating both ways with
+        ancillary devices
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -117,8 +167,14 @@ data:
     g18_entry: '00849'
     definition: a sub-assembly which receives signals from the flow sensor and the
       temperature sensors and calculates and indicates the quantity ofheat exchanged
+    definition_paragraphs:
+    - text: a sub-assembly which receives signals from the flow sensor and the temperature
+        sensors and calculates and indicates the quantity ofheat exchanged
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -134,8 +190,16 @@ data:
       transforms it and, if appropriate, stores in memory the results until they are
       used. Additionally, the calculator may be capable of communicating both ways
       with the peripheral equipment
+    definition_paragraphs:
+    - text: a part of the meter that receives the output signal from the transducer(s),
+        transforms it and, if appropriate, stores in memory the results until they
+        are used. Additionally, the calculator may be capable of communicating both
+        ways with the peripheral equipment
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -151,8 +215,16 @@ data:
       checks and transforms it and, if appropriate, memorizes the results until they
       are used. In addition, the calculator may be capable of communicating both ways
       with peripheral equipment
+    definition_paragraphs:
+    - text: a device that receives the output quantity from the transducer(s), checks
+        and transforms it and, if appropriate, memorizes the results until they are
+        used. In addition, the calculator may be capable of communicating both ways
+        with peripheral equipment
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -167,10 +239,22 @@ data:
     definition: part of the meter that transforms the output signals from the measurement
       transducer(s) (3.1.2) and, possibly, from associated measuring instruments and
       stores the results in memory until they are used
+    definition_paragraphs:
+    - text: part of the meter that transforms the output signals from the measurement
+        transducer(s) (3.1.2) and, possibly, from associated measuring instruments
+        and stores the results in memory until they are used
+      sources: []
     notes:
     - The gearing is considered to be the calculator in a mechanical meter.
     - The calculator may be capable of communicating both ways with ancillary devices.
+    note_paragraphs:
+    - text: The gearing is considered to be the calculator in a mechanical meter.
+      sources: []
+    - text: The calculator may be capable of communicating both ways with ancillary
+        devices.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -183,12 +267,22 @@ data:
     link:
     g18_entry: '02915'
     definition: association of metering calculator and operational calculator
+    definition_paragraphs:
+    - text: association of metering calculator and operational calculator
+      sources: []
     notes:
     - 'Note: The metering calculator and the operational calculator may be two separate
       elements or they may form a single unit. Only where there is a particular need
       to dissociate the two kinds of calculators is the association of both functions
       called the calculator in this Recommendation.'
+    note_paragraphs:
+    - text: 'Note: The metering calculator and the operational calculator may be two
+        separate elements or they may form a single unit. Only where there is a particular
+        need to dissociate the two kinds of calculators is the association of both
+        functions called the calculator in this Recommendation.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -203,10 +297,20 @@ data:
     definition: part of the meter that receives the output signals from the measuring
       device(s) and, possiblyalso from associated measuring devices, processes them
       and,  as required , stores the results in memory until they are used.
+    definition_paragraphs:
+    - text: part of the meter that receives the output signals from the measuring
+        device(s) and, possiblyalso from associated measuring devices, processes them
+        and,  as required , stores the results in memory until they are used.
+      sources: []
     notes:
     - 'Note:  In addition, the calculator may be capable of communicating both ways
       with ancillary devices'
+    note_paragraphs:
+    - text: 'Note:  In addition, the calculator may be capable of communicating both
+        ways with ancillary devices'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -222,8 +326,17 @@ data:
       transducer(s) and, possibly, associated measuring instruments, transforms them
       and, if appropriate, stores the results in memory until they are used. In addition,
       the calculator may be capable of communicating both ways with ancillary devices
+    definition_paragraphs:
+    - text: part of the gas meter which receives the output signals from the measuring
+        transducer(s) and, possibly, associated measuring instruments, transforms
+        them and, if appropriate, stores the results in memory until they are used.
+        In addition, the calculator may be capable of communicating both ways with
+        ancillary devices
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -239,8 +352,17 @@ data:
       and, if applicable, from ancillary devices and/or other devices, processes them
       and, if appropriate, stores the results in memory until they are used. In addition,
       the calculator may be capable of communicating both ways with other devices
+    definition_paragraphs:
+    - text: part of the ALG that receives the output signals from the transducer and,
+        if applicable, from ancillary devices and/or other devices, processes them
+        and, if appropriate, stores the results in memory until they are used. In
+        addition, the calculator may be capable of communicating both ways with other
+        devices
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -257,13 +379,29 @@ data:
       associated measuring instruments, transforms them, and, if appropriate, stores
       the results in memory until they are used. In addition, the calculator may be
       capable of transmitting and receiving data from peripheral equipment
+    definition_paragraphs:
+    - text: part of the measuring system that receives the output signals from the
+        flow measuring device(s) or from another calculator and possibly from the
+        associated measuring instruments, transforms them, and, if appropriate, stores
+        the results in memory until they are used. In addition, the calculator may
+        be capable of transmitting and receiving data from peripheral equipment
+      sources: []
     notes:
     - 'Note:  A measuring system may have one, two or more calculators, for instance
       a mechanical calculator to produce the volume at metering conditions and which
       transmits the value to a mechanical indicating device, an electronic calculator
       which also calculates the volume at metering conditions, associated with an
       electronic indicating device, and another one to calculate the converted value'
+    note_paragraphs:
+    - text: 'Note:  A measuring system may have one, two or more calculators, for
+        instance a mechanical calculator to produce the volume at metering conditions
+        and which transmits the value to a mechanical indicating device, an electronic
+        calculator which also calculates the volume at metering conditions, associated
+        with an electronic indicating device, and another one to calculate the converted
+        value'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -277,8 +415,14 @@ data:
     g18_entry: '00849'
     definition: a sub-assembly which receives signals from the flow sensor and the
       temperature sensors and calculates and indicates the quantity of heat exchanged
+    definition_paragraphs:
+    - text: a sub-assembly which receives signals from the flow sensor and the temperature
+        sensors and calculates and indicates the quantity of heat exchanged
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -294,8 +438,16 @@ data:
       transforms it and, if appropriate, stores in memory the results until they are
       used. Additionally, the calculator may be capable of communicating both ways
       with the peripheral equipment
+    definition_paragraphs:
+    - text: a part of the meter that receives the output signal from the transducer(s),
+        transforms it and, if appropriate, stores in memory the results until they
+        are used. Additionally, the calculator may be capable of communicating both
+        ways with the peripheral equipment
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -308,12 +460,22 @@ data:
     link:
     g18_entry: '02722'
     definition: association of metering calculator and operational calculator
+    definition_paragraphs:
+    - text: association of metering calculator and operational calculator
+      sources: []
     notes:
     - 'Note: The metering calculator and the operational calculator may be two separate
       elements or they may form a single unit. Only where there is a particular need
       to dissociate the two kinds of calculators is the association of both functions
       called the calculator in this Recommendation.'
+    note_paragraphs:
+    - text: 'Note: The metering calculator and the operational calculator may be two
+        separate elements or they may form a single unit. Only where there is a particular
+        need to dissociate the two kinds of calculators is the association of both
+        functions called the calculator in this Recommendation.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

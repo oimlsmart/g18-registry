@@ -25,9 +25,16 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r140-e07.pdf
     g18_entry: '02064'
     definition: parameter which indicates the deviation from the ideal gas
+    definition_paragraphs:
+    - text: parameter which indicates the deviation from the ideal gas
+      sources: []
     notes:
     - "(see ISO 12213-1)"
+    note_paragraphs:
+    - text: "(see ISO 12213-1)"
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -40,9 +47,16 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r140-e07.pdf
     g18_entry: '02064'
     definition: parameter which indicates the deviation from the ideal gas
+    definition_paragraphs:
+    - text: parameter which indicates the deviation from the ideal gas
+      sources: []
     notes:
     - "(see ISO 12213-1)"
+    note_paragraphs:
+    - text: "(see ISO 12213-1)"
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

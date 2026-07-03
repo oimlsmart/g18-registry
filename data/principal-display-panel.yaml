@@ -26,8 +26,14 @@ data:
     g18_entry: '00996'
     definition: the part of a package that is most likely to be displayed, presented,
       shown or examined under normal and customary conditions of display
+    definition_paragraphs:
+    - text: the part of a package that is most likely to be displayed, presented,
+        shown or examined under normal and customary conditions of display
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,10 +47,19 @@ data:
     g18_entry: '02489'
     definition: part of a prepackage that is designed to be visible under normal conditions
       of display for sale
+    definition_paragraphs:
+    - text: part of a prepackage that is designed to be visible under normal conditions
+        of display for sale
+      sources: []
     notes:
     - 'Note: This is normally the main or front panel of the prepackage and there
       could be more than one.'
+    note_paragraphs:
+    - text: 'Note: This is normally the main or front panel of the prepackage and
+        there could be more than one.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

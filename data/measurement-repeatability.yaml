@@ -31,8 +31,14 @@ data:
     g18_entry: '03266'
     definition: measurement precision under a set of repeatability conditions of measurement
       (OIML V 2-100, 2.21)
+    definition_paragraphs:
+    - text: measurement precision under a set of repeatability conditions of measurement
+        (OIML V 2-100, 2.21)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -45,8 +51,19 @@ data:
     link:
     g18_entry: '03403'
     definition: measurement precision under a set of repeatability conditions of measurement
+    definition_paragraphs:
+    - text: measurement precision under a set of repeatability conditions of measurement
+      sources:
+      - kind: vim
+        relationship: identical
+        modification:
+        ref_source: OIML V 2-200:2012
+        ref_id: '2.21'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: vim
       relationship: identical
@@ -65,8 +82,19 @@ data:
     link:
     g18_entry: '02448'
     definition: measurement precision under a set of repeatability conditions of measurement
+    definition_paragraphs:
+    - text: measurement precision under a set of repeatability conditions of measurement
+      sources:
+      - kind: vim
+        relationship: identical
+        modification:
+        ref_source: OIML V 2-200:2007
+        ref_id: '2.21'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: vim
       relationship: identical
@@ -85,9 +113,14 @@ data:
     link:
     g18_entry: '02792'
     definition: ''
+    definition_paragraphs: []
     notes:
     - "(-)"
+    note_paragraphs:
+    - text: "(-)"
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: vim
       relationship: identical

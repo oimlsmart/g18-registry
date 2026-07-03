@@ -24,8 +24,13 @@ data:
     link:
     g18_entry: '02834'
     definition: wavelength range over which the BBR specifications are valid
+    definition_paragraphs:
+    - text: wavelength range over which the BBR specifications are valid
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

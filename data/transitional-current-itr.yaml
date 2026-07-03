@@ -26,8 +26,15 @@ data:
     definition: value of current at and above which the meter is specified by the
       manufacturer to lie within the smallest maximum permissible error corresponding
       to the accuracy class of the meter
+    definition_paragraphs:
+    - text: value of current at and above which the meter is specified by the manufacturer
+        to lie within the smallest maximum permissible error corresponding to the
+        accuracy class of the meter
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

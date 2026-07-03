@@ -26,8 +26,14 @@ data:
     g18_entry: '01567'
     definition: element which, in an indicating device comprising several elements,
       carries the graduated scale with the smallest scale interval
+    definition_paragraphs:
+    - text: element which, in an indicating device comprising several elements, carries
+        the graduated scale with the smallest scale interval
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '00435'
     definition: element which, in an indicating device comprising several elements,
       carries the graduated scale with the verification scale interval
+    definition_paragraphs:
+    - text: element which, in an indicating device comprising several elements, carries
+        the graduated scale with the verification scale interval
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -56,8 +68,14 @@ data:
     g18_entry: '02404'
     definition: element which, in an indicating device (3.1.5) comprising several
       elements, carries the graduated scale with the verification scale interval
+    definition_paragraphs:
+    - text: element which, in an indicating device (3.1.5) comprising several elements,
+        carries the graduated scale with the verification scale interval
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -71,8 +89,14 @@ data:
     g18_entry: '03080'
     definition: element which, in an indicating device comprising several elements,
       carries the graduated scale with the smallest scale interval
+    definition_paragraphs:
+    - text: element which, in an indicating device comprising several elements, carries
+        the graduated scale with the smallest scale interval
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -25,10 +25,25 @@ data:
     g18_entry: '03608'
     definition: non-negative parameter characterizing the dispersion of the quantity
       values being attributed to a measurand, based on the information used
+    definition_paragraphs:
+    - text: non-negative parameter characterizing the dispersion of the quantity values
+        being attributed to a measurand, based on the information used
+      sources:
+      - kind: vim
+        relationship: identical
+        modification:
+        ref_source: OIML V 2-200:2012
+        ref_id: '2.26'
+        is_vimline: true
     notes:
     - 'Note: For more information, see OIML G 1-100 Evaluation of measurement data
       – Guide to the expression of uncertainty in measurement.'
+    note_paragraphs:
+    - text: 'Note: For more information, see OIML G 1-100 Evaluation of measurement
+        data – Guide to the expression of uncertainty in measurement.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: vim
       relationship: identical

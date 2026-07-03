@@ -27,8 +27,15 @@ data:
     definition: device which controls the cut-off of the final feed so that the average
       mass of the fills corresponds to the preset value. This device may include an
       adjustable compensation for the material inflight
+    definition_paragraphs:
+    - text: device which controls the cut-off of the final feed so that the average
+        mass of the fills corresponds to the preset value. This device may include
+        an adjustable compensation for the material inflight
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -43,8 +50,15 @@ data:
     definition: device which controls the cut-off of the final feed so that the average
       value of the mass of the fills corresponds to the preset value and may include
       a correction device for the material feed into the weighing module
+    definition_paragraphs:
+    - text: device which controls the cut-off of the final feed so that the average
+        value of the mass of the fills corresponds to the preset value and may include
+        a correction device for the material feed into the weighing module
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

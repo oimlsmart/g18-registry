@@ -32,8 +32,13 @@ data:
     link:
     g18_entry: '03756'
     definition: indication minus a reference quantity value
+    definition_paragraphs:
+    - text: indication minus a reference quantity value
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -27,8 +27,15 @@ data:
     definition: dimensionless value representative of the burning efficiency of anengine
       in terms of the air/fuel ratio in the exhaust gases and determined with a referenced
       standardized formula
+    definition_paragraphs:
+    - text: dimensionless value representative of the burning efficiency of anengine
+        in terms of the air/fuel ratio in the exhaust gases and determined with a
+        referenced standardized formula
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -43,8 +50,15 @@ data:
     definition: dimensionless value representative of the burning efficiency of an
       engine in terms of the air/fuel ratio in the exhaust gases and determined with
       a referenced standardized formula
+    definition_paragraphs:
+    - text: dimensionless value representative of the burning efficiency of an engine
+        in terms of the air/fuel ratio in the exhaust gases and determined with a
+        referenced standardized formula
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

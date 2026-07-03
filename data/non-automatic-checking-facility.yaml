@@ -31,8 +31,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r117-1-e07.pdf
     g18_entry: '01544'
     definition: checking facility that requires the intervention of an operator
+    definition_paragraphs:
+    - text: checking facility that requires the intervention of an operator
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -45,8 +50,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r140-e07.pdf
     g18_entry: '02104'
     definition: checking facility that requires the intervention of an operator
+    definition_paragraphs:
+    - text: checking facility that requires the intervention of an operator
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -59,8 +69,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r049-1-e06.pdf
     g18_entry: '00464'
     definition: checking facility which requires the intervention of an operator
+    definition_paragraphs:
+    - text: checking facility which requires the intervention of an operator
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -73,8 +88,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_D/d011-e04.pdf
     g18_entry: '00247'
     definition: checking facility that requires the intervention of an operator
+    definition_paragraphs:
+    - text: checking facility that requires the intervention of an operator
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -87,8 +107,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r081-e98.pdf
     g18_entry: '01040'
     definition: A checking facility that requires the intervention of an operator
+    definition_paragraphs:
+    - text: A checking facility that requires the intervention of an operator
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -101,8 +126,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r125-e98.pdf
     g18_entry: '01657'
     definition: a checking facility which requires the intervention of an operator
+    definition_paragraphs:
+    - text: a checking facility which requires the intervention of an operator
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -115,8 +145,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r105-e93.pdf
     g18_entry: '01250'
     definition: a checking facility that requires intervention of an operator
+    definition_paragraphs:
+    - text: a checking facility that requires intervention of an operator
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -129,8 +164,19 @@ data:
     link:
     g18_entry: '03329'
     definition: checking facility, requiring the intervention of an operator
+    definition_paragraphs:
+    - text: checking facility, requiring the intervention of an operator
+      sources:
+      - kind: other
+        relationship: identical
+        modification:
+        ref_source: OIML D011:2013
+        ref_id: 3.19.2
+        is_vimline: false
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -144,8 +190,14 @@ data:
     g18_entry: '03408'
     definition: checking facility which requires the intervention of an operator (OIML
       D 11, 3.19.2)
+    definition_paragraphs:
+    - text: checking facility which requires the intervention of an operator (OIML
+        D 11, 3.19.2)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -158,8 +210,13 @@ data:
     link:
     g18_entry: '03330'
     definition: checking facility that requires the intervention of an operator
+    definition_paragraphs:
+    - text: checking facility that requires the intervention of an operator
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -24,12 +24,23 @@ data:
     link:
     g18_entry: '03700'
     definition: property or function of software module that may be subject to a test
+    definition_paragraphs:
+    - text: property or function of software module that may be subject to a test
+      sources: []
     notes:
     - Test items are typically examined and tested as part of remote verification
       procedures.
     - Examples of potential test items include correctness of algorithms, software
       identity and software integrity.
+    note_paragraphs:
+    - text: Test items are typically examined and tested as part of remote verification
+        procedures.
+      sources: []
+    - text: Examples of potential test items include correctness of algorithms, software
+        identity and software integrity.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -31,8 +31,14 @@ data:
     g18_entry: '00438'
     definition: quotient of the actual volume of water passing through the water meter
       and the time taken for this volume to pass through the water meter
+    definition_paragraphs:
+    - text: quotient of the actual volume of water passing through the water meter
+        and the time taken for this volume to pass through the water meter
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -46,8 +52,14 @@ data:
     g18_entry: '01957'
     definition: quotient of the actual quantity of gas passing through the gas meter
       and the time taken for this quantity to pass through the gas meter
+    definition_paragraphs:
+    - text: quotient of the actual quantity of gas passing through the gas meter and
+        the time taken for this quantity to pass through the gas meter
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

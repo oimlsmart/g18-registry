@@ -26,8 +26,14 @@ data:
     g18_entry: '00478'
     definition: treatment of the equipment under test, after conditioning, in order
       that the properties of the equipment under test may be stabilized before measurement
+    definition_paragraphs:
+    - text: treatment of the equipment under test, after conditioning, in order that
+        the properties of the equipment under test may be stabilized before measurement
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '02431'
     definition: treatment of the equipment under test (3.1.170, after conditioning
       (3.4.10), in order that its properties can be stabilized before measurement
+    definition_paragraphs:
+    - text: treatment of the equipment under test (3.1.170, after conditioning (3.4.10),
+        in order that its properties can be stabilized before measurement
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

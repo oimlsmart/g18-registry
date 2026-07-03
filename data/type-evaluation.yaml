@@ -39,8 +39,16 @@ data:
       one or (VIML 2.5) more specimens of an identified type of measuring instruments
       against documented requirements, the results of which are contained in the evaluation
       report, in order to determine whether the type may be approved"
+    definition_paragraphs:
+    - text: "- G.3-2 systematic examination and testing of the performance of one
+        or (VIML 2.5) more specimens of an identified type of measuring instruments
+        against documented requirements, the results of which are contained in the
+        evaluation report, in order to determine whether the type may be approved"
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -61,8 +69,16 @@ data:
       one or (VIML 2.5) more specimens of an identified type of measuring instrument
       against documented requirements, the results of which are contained in the evaluation
       report, in order to determine whether the type may be approved"
+    definition_paragraphs:
+    - text: "- G.3-1 systematic examination and testing of the performance of one
+        or (VIML 2.5) more specimens of an identified type of measuring instrument
+        against documented requirements, the results of which are contained in the
+        evaluation report, in order to determine whether the type may be approved"
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -83,8 +99,16 @@ data:
       V 1:2000, 2.5] more specimens of an identified type (pattern) of measuring instruments
       against documented requirements, the results of which are contained in the evaluation
       report, in order to determine whether the type may be approved
+    definition_paragraphs:
+    - text: systematic examination and testing of the performance of one or [OIML
+        V 1:2000, 2.5] more specimens of an identified type (pattern) of measuring
+        instruments against documented requirements, the results of which are contained
+        in the evaluation report, in order to determine whether the type may be approved
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -100,8 +124,16 @@ data:
       more specimens of an identified type of measuring instrument against documented
       requirements, the results of which are contained in an evaluation report, in
       order to determine whether the type may be approved IML 2.5)"
+    definition_paragraphs:
+    - text: "(V systematic examination and testing of the performance of one or more
+        specimens of an identified type of measuring instrument against documented
+        requirements, the results of which are contained in an evaluation report,
+        in order to determine whether the type may be approved IML 2.5)"
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -116,8 +148,15 @@ data:
     definition: systematic examination and testing of the performance of a type ofweights
       or weight sets against the documented requirements ofthis Recommendation, the
       results of which are contained in a test report
+    definition_paragraphs:
+    - text: systematic examination and testing of the performance of a type ofweights
+        or weight sets against the documented requirements ofthis Recommendation,
+        the results of which are contained in a test report
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -134,9 +173,26 @@ data:
       of measuring instrument against documented requirements, the results of which
       are contained in the evaluation report, in order to determine whether the type
       may be approved
+    definition_paragraphs:
+    - text: systematic examination and testing of the performance of one or The term
+        "pattern" is used in legal metrology more samples of an identified type of
+        measuring instrument against documented requirements, the results of which
+        are contained in the evaluation report, in order to determine whether the
+        type may be approved
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2000
+        ref_id: '2.5'
+        is_vimline: true
     notes:
     - with the same meaning as "type"; below only the term "type" is used.
+    note_paragraphs:
+    - text: with the same meaning as "type"; below only the term "type" is used.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical
@@ -158,8 +214,16 @@ data:
       specimens of an identified type or pattern of measuring instrument against documented
       requirements, the results of which are contained in the evaluation report, in
       order to determine whether the type may be approved
+    definition_paragraphs:
+    - text: systematic examination and testing of the performance of one or more specimens
+        of an identified type or pattern of measuring instrument against documented
+        requirements, the results of which are contained in the evaluation report,
+        in order to determine whether the type may be approved
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -174,9 +238,18 @@ data:
     definition: conformity assessment procedure on one or more specimens of an identified
       type (pattern) of measuring instruments which results in an evalution report
       and / or an evaluation certificate
+    definition_paragraphs:
+    - text: conformity assessment procedure on one or more specimens of an identified
+        type (pattern) of measuring instruments which results in an evalution report
+        and / or an evaluation certificate
+      sources: []
     notes:
     - 'Note:  “Pattern” is used in legal metrology with the same meaning as”type”.'
+    note_paragraphs:
+    - text: 'Note:  “Pattern” is used in legal metrology with the same meaning as”type”.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -192,8 +265,22 @@ data:
       specimens of an identified type of measuring instruments against documented
       requirements, the results of which are contained in the evaluation report, in
       order to determine whether the type may be approved
+    definition_paragraphs:
+    - text: systematic examination and testing of the performance of one or more specimens
+        of an identified type of measuring instruments against documented requirements,
+        the results of which are contained in the evaluation report, in order to determine
+        whether the type may be approved
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2000
+        ref_id: '2.5'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical
@@ -214,8 +301,15 @@ data:
     definition: systematic examination and testing of the performance of a type of
       weights or weight sets against the documented requirements of this Recommendation,
       the results of which are contained in a test report
+    definition_paragraphs:
+    - text: systematic examination and testing of the performance of a type of weights
+        or weight sets against the documented requirements of this Recommendation,
+        the results of which are contained in a test report
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -231,10 +325,27 @@ data:
       samples of an identified type of measuring instrument against documented requirements,
       the results of which are contained in the evaluation report, in order to determine
       whether the type may be approved
+    definition_paragraphs:
+    - text: systematic examination and testing of the performance of one or more samples
+        of an identified type of measuring instrument against documented requirements,
+        the results of which are contained in the evaluation report, in order to determine
+        whether the type may be approved
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2000
+        ref_id: '2.5'
+        is_vimline: true
     notes:
     - 'Note:  The term “pattern” is used in legal metrology with the same meaning
       as “type”; below only the term “type” is used. [VIML, 2.5]'
+    note_paragraphs:
+    - text: 'Note:  The term “pattern” is used in legal metrology with the same meaning
+        as “type”; below only the term “type” is used. [VIML, 2.5]'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical

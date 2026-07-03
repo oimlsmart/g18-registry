@@ -25,11 +25,27 @@ data:
     g18_entry: '02677'
     definition: smallest difference between displayed indications that can be meaningfully
       distinguished
+    definition_paragraphs:
+    - text: smallest difference between displayed indications that can be meaningfully
+        distinguished
+      sources:
+      - kind: vim
+        relationship: identical
+        modification:
+        ref_source: OIML V 2-200:2012
+        ref_id: '4.15'
+        is_vimline: true
     notes:
     - Note:For a digital device, this is the change in the indication when the least
       significant digit changes by one step. For an analogue device, this is half
       the difference between subsequent scale marks.
+    note_paragraphs:
+    - text: Note:For a digital device, this is the change in the indication when the
+        least significant digit changes by one step. For an analogue device, this
+        is half the difference between subsequent scale marks.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: vim
       relationship: identical

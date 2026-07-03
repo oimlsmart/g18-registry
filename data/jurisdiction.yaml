@@ -26,12 +26,23 @@ data:
     g18_entry: '00131'
     definition: the sphere within which a particular government or a given agency
       of such a government has power to make or enforce law or regulation
+    definition_paragraphs:
+    - text: the sphere within which a particular government or a given agency of such
+        a government has power to make or enforce law or regulation
+      sources: []
     notes: []
+    note_paragraphs: []
     examples:
     - The spheres of legal authority of (1) a particular national government, (2)
       a particular provincial government, (3) the legal metrology agency of a particular
       country, and (4) the agency of a particular city government charged with enforcing
       pollution laws.
+    example_paragraphs:
+    - text: The spheres of legal authority of (1) a particular national government,
+        (2) a particular provincial government, (3) the legal metrology agency of
+        a particular country, and (4) the agency of a particular city government charged
+        with enforcing pollution laws.
+      sources: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -45,12 +56,23 @@ data:
     g18_entry: '00131'
     definition: the sphere within which a particular government or a given agency
       of such a government has power to make or enforce law or regulation
+    definition_paragraphs:
+    - text: the sphere within which a particular government or a given agency of such
+        a government has power to make or enforce law or regulation
+      sources: []
     notes: []
+    note_paragraphs: []
     examples:
     - The spheres of legal authority of (1) a particular national government, (2)
       a particular provincial government, (3) the legal metrology agency of a particular
       country, and the agency of a particular city government charged with enforcing
       pollution laws.
+    example_paragraphs:
+    - text: The spheres of legal authority of (1) a particular national government,
+        (2) a particular provincial government, (3) the legal metrology agency of
+        a particular country, and the agency of a particular city government charged
+        with enforcing pollution laws.
+      sources: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -26,8 +26,14 @@ data:
     g18_entry: '00764'
     definition: device which provides a supply of product from bulk to the weighing
       unit. It may operate in one or more stages
+    definition_paragraphs:
+    - text: device which provides a supply of product from bulk to the weighing unit.
+        It may operate in one or more stages
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '03074'
     definition: device which provides a supply of product rom bulk to the weighing
       module that may operate in one or more stages
+    definition_paragraphs:
+    - text: device which provides a supply of product rom bulk to the weighing module
+        that may operate in one or more stages
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

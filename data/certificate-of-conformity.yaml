@@ -27,9 +27,18 @@ data:
     definition: document provided by the national responsible body indicating confidence
       that an identified weight or weight set, or samples thereof, is in conformity
       with the relevant requirements of this Recommendation
+    definition_paragraphs:
+    - text: document provided by the national responsible body indicating confidence
+        that an identified weight or weight set, or samples thereof, is in conformity
+        with the relevant requirements of this Recommendation
+      sources: []
     notes:
     - see OIML Certificate System for Measuring Instruments
+    note_paragraphs:
+    - text: see OIML Certificate System for Measuring Instruments
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -44,9 +53,18 @@ data:
     definition: document provided by the national responsible body indicating confidence
       that an identified weight or weight set, or samples thereof, is in conformity
       with the relevant requirements of this Recommendation
+    definition_paragraphs:
+    - text: document provided by the national responsible body indicating confidence
+        that an identified weight or weight set, or samples thereof, is in conformity
+        with the relevant requirements of this Recommendation
+      sources: []
     notes:
     - 'Note: see OIML Certificate System for Measuring Instruments'
+    note_paragraphs:
+    - text: 'Note: see OIML Certificate System for Measuring Instruments'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

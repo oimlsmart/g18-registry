@@ -26,8 +26,14 @@ data:
     g18_entry: '02015'
     definition: absolute value of the maximum permissible error for the minimum measured
       quantity of a measuring system
+    definition_paragraphs:
+    - text: absolute value of the maximum permissible error for the minimum measured
+        quantity of a measuring system
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '03313'
     definition: absolute value of the maximum permissible error for the minimum measured
       quantity of a measuring system
+    definition_paragraphs:
+    - text: absolute value of the maximum permissible error for the minimum measured
+        quantity of a measuring system
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

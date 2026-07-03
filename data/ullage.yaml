@@ -26,8 +26,14 @@ data:
     g18_entry: '02233'
     definition: distance between the free surface of the liquid and the upper reference
       point, measured along the vertical measurement axis
+    definition_paragraphs:
+    - text: distance between the free surface of the liquid and the upper reference
+        point, measured along the vertical measurement axis
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,9 +47,17 @@ data:
     g18_entry: '02318'
     definition: distance between the liquid level and the upper reference point, measured
       along the vertical measurement axis
+    definition_paragraphs:
+    - text: distance between the liquid level and the upper reference point, measured
+        along the vertical measurement axis
+      sources: []
     notes:
     - The term "outage" is synonymous.
+    note_paragraphs:
+    - text: The term "outage" is synonymous.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -57,8 +71,14 @@ data:
     g18_entry: 02233-R071
     definition: distance between the free surface of the liquid and the upper reference
       point, measured along the vertical measurement axis
+    definition_paragraphs:
+    - text: distance between the free surface of the liquid and the upper reference
+        point, measured along the vertical measurement axis
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -72,9 +92,17 @@ data:
     g18_entry: '02318-R085-1'
     definition: distance between the liquid level and the upper reference point, measured
       along the vertical measurement axis
+    definition_paragraphs:
+    - text: distance between the liquid level and the upper reference point, measured
+        along the vertical measurement axis
+      sources: []
     notes:
     - 'Note: The term “outage” is synonymous.'
+    note_paragraphs:
+    - text: 'Note: The term “outage” is synonymous.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -32,8 +32,15 @@ data:
     definition: maximum internal pressure that a meter can withstand permanently,
       within its rated operating condition(s) (3.4.4), without deterioration of its
       metrological performance
+    definition_paragraphs:
+    - text: maximum internal pressure that a meter can withstand permanently, within
+        its rated operating condition(s) (3.4.4), without deterioration of its metrological
+        performance
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

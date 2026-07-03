@@ -26,8 +26,14 @@ data:
     g18_entry: '02341'
     definition: facility performing the adjustment of the instrument as programmed
       without the intervention of the user, to initiate the adjustment or its magnitude
+    definition_paragraphs:
+    - text: facility performing the adjustment of the instrument as programmed without
+        the intervention of the user, to initiate the adjustment or its magnitude
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: 02341-R099-1
     definition: facility performing the adjustment of the instrument as programmed
       without the intervention of the user, to initiate the adjustment or its magnitude
+    definition_paragraphs:
+    - text: facility performing the adjustment of the instrument as programmed without
+        the intervention of the user, to initiate the adjustment or its magnitude
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

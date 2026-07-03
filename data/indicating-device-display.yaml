@@ -25,9 +25,18 @@ data:
     g18_entry: '02291-R046-1'
     definition: part of the meter that displays the measurement results either continuously
       or on demand
+    definition_paragraphs:
+    - text: part of the meter that displays the measurement results either continuously
+        or on demand
+      sources: []
     notes:
     - 'Note: An indicating device may also be used to display other relevant information.'
+    note_paragraphs:
+    - text: 'Note: An indicating device may also be used to display other relevant
+        information.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

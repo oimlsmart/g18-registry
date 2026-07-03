@@ -30,8 +30,19 @@ data:
       of a substance can be stopped easily and rapidly during normal operation – not
       only in case of emergency – without falsifying the measurement result, it is
       called interruptible.
+    definition_paragraphs:
+    - text: a non-interruptible measurement is a cumulative continuous measuring process
+        with no definite end. The measuring process cannot be stopped and continued
+        again by a user or operator without inadmissibly disturbing the measurement
+        or the supply with goods or energy. If the cumulative measurement of a quantity
+        of a substance can be stopped easily and rapidly during normal operation –
+        not only in case of emergency – without falsifying the measurement result,
+        it is called interruptible.
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

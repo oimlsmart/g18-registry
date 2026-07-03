@@ -33,10 +33,20 @@ data:
     definition: device intended to perform a particular function, directly involved
       in elaborating, transmitting or displaying measurement - z results - r - p -
       m - p - c
+    definition_paragraphs:
+    - text: device intended to perform a particular function, directly involved in
+        elaborating, transmitting or displaying measurement - z results - r - p -
+        m - p - c
+      sources: []
     notes: []
+    note_paragraphs: []
     examples:
     - 'of ancillary devices: ero setting device; epeating indicating device; rinting
       device; emory device; rice indicating device; onversion device.'
+    example_paragraphs:
+    - text: 'of ancillary devices: ero setting device; epeating indicating device;
+        rinting device; emory device; rice indicating device; onversion device.'
+      sources: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -51,10 +61,20 @@ data:
     definition: "- - - - device intended to perform a particular function, directly
       involved in elaborating, transmitting or displaying measurement results. Examples:
       repeating indicating device; printing device; memory device; conversion device."
+    definition_paragraphs:
+    - text: "- - - - device intended to perform a particular function, directly involved
+        in elaborating, transmitting or displaying measurement results. Examples:
+        repeating indicating device; printing device; memory device; conversion device."
+      sources: []
     notes:
     - for the purpose of this Recommendation ancillary equipment, in so far as it
       is subject t metrological control, is considered to be part of the ALG.
+    note_paragraphs:
+    - text: for the purpose of this Recommendation ancillary equipment, in so far
+        as it is subject t metrological control, is considered to be part of the ALG.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -68,8 +88,14 @@ data:
     g18_entry: '00372'
     definition: device intended to perform a particular function, directly involved
       in elaborating, transmitting or displaying results
+    definition_paragraphs:
+    - text: device intended to perform a particular function, directly involved in
+        elaborating, transmitting or displaying results
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -83,12 +109,23 @@ data:
     g18_entry: '01532'
     definition: device intended to perform a particular function, directly involved
       in elaborating, transmitting or displaying measurement * zer results
+    definition_paragraphs:
+    - text: device intended to perform a particular function, directly involved in
+        elaborating, transmitting or displaying measurement * zer results
+      sources: []
     notes:
     - 'Main ancillary devices are: o-setting device, * repeating indicating device,
       * printing device, * memory device, * price indicating device, * totalizing
       indicating device, * correction device, * conversion device, * pre-setting device,
       * self-service device.'
+    note_paragraphs:
+    - text: 'Main ancillary devices are: o-setting device, * repeating indicating
+        device, * printing device, * memory device, * price indicating device, * totalizing
+        indicating device, * correction device, * conversion device, * pre-setting
+        device, * self-service device.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -105,10 +142,22 @@ data:
       devices are: - zero setting device; - repeating indicating device; - printing
       device; - memory device; - price indicating device; - totalizing indicating
       device; - pre-setting device; - self-service device.'
+    definition_paragraphs:
+    - text: 'device intended to perform a particular function, directly involved in
+        elaborating, transmitting or displaying measurement results Main ancillary
+        devices are: - zero setting device; - repeating indicating device; - printing
+        device; - memory device; - price indicating device; - totalizing indicating
+        device; - pre-setting device; - self-service device.'
+      sources: []
     notes:
     - An ancillary device may or may not be subject to legal metrology control according
       to its function in the measuring system or to national regulations.
+    note_paragraphs:
+    - text: An ancillary device may or may not be subject to legal metrology control
+        according to its function in the measuring system or to national regulations.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -125,13 +174,29 @@ data:
       transmitting or displaying measurement results Main ancillary devices are: -
       repeating indicating device; - printing device; - memory device; - totalizing
       indicating device; - conversion device.'
+    definition_paragraphs:
+    - text: 'device, other than the main indicating device, connected to a calculator,
+        intended to perform a particular function, directly involved in elaborating,
+        transmitting or displaying measurement results Main ancillary devices are:
+        - repeating indicating device; - printing device; - memory device; - totalizing
+        indicating device; - conversion device.'
+      sources: []
     notes:
     - 1. An ancillary device may or may not be subject to legal metrology control
       according to its function in the measuring system or to national regulations.
     - 2. An ancillary device may be integrated into the calculator, into the meter,
       or constitutes peripheral equipment linked to the calculator by means of an
       interface.
+    note_paragraphs:
+    - text: 1. An ancillary device may or may not be subject to legal metrology control
+        according to its function in the measuring system or to national regulations.
+      sources: []
+    - text: 2. An ancillary device may be integrated into the calculator, into the
+        meter, or constitutes peripheral equipment linked to the calculator by means
+        of an interface.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -149,10 +214,22 @@ data:
       indicating device; c) repeating indicating device; d) printing device; e) memory
       device; f) tariff control device; g) pre-setting device; and h) self service
       device"
+    definition_paragraphs:
+    - text: "( ( ( ( ( ( ( ( device intended to perform a particular function, directly
+        involved in elaborating, transmitting or displaying measurement to results.
+        nat he main ancillary devices are: a) zero setting device; b) price indicating
+        device; c) repeating indicating device; d) printing device; e) memory device;
+        f) tariff control device; g) pre-setting device; and h) self service device"
+      sources: []
     notes:
     - An ancillary device may or may not be subject legal metrological control according
       to ional regulations.
+    note_paragraphs:
+    - text: An ancillary device may or may not be subject legal metrological control
+        according to ional regulations.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -168,10 +245,22 @@ data:
       involved in elaborating, transmitting or displaying measurement results. he
       main ancillary devices are: ) repeating indicating device; ) printing device;
       ) memory device; and ) communication device'
+    definition_paragraphs:
+    - text: 'd c b a device intended to perform a particular function, directly involved
+        in elaborating, transmitting or displaying measurement results. he main ancillary
+        devices are: ) repeating indicating device; ) printing device; ) memory device;
+        and ) communication device'
+      sources: []
     notes:
     - 1. An ancillary device is not necessarily subject to metrological control.
     - 2. An ancillary device may be integrated in the gas meter.
+    note_paragraphs:
+    - text: 1. An ancillary device is not necessarily subject to metrological control.
+      sources: []
+    - text: 2. An ancillary device may be integrated in the gas meter.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -185,9 +274,17 @@ data:
     g18_entry: '01018'
     definition: a device intended to perform a particular function, directly involved
       in elaborating, memorizing, transmitting or displaying the measurement result
+    definition_paragraphs:
+    - text: a device intended to perform a particular function, directly involved
+        in elaborating, memorizing, transmitting or displaying the measurement result
+      sources: []
     notes: []
+    note_paragraphs: []
     examples:
     - are a printing device or a remote indicator.
+    example_paragraphs:
+    - text: are a printing device or a remote indicator.
+      sources: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -202,8 +299,15 @@ data:
     definition: a device associated with the instrument which is intended to perform
       a specific function, e.g. a repeat indication device, ticket printer, card reader,
       data input terminal, etc.
+    definition_paragraphs:
+    - text: a device associated with the instrument which is intended to perform a
+        specific function, e.g. a repeat indication device, ticket printer, card reader,
+        data input terminal, etc.
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -217,6 +321,10 @@ data:
     g18_entry: 02347-R049-1
     definition: device intended to perform a specific function, directly involved
       in elaborating, transmitting or displaying measured values
+    definition_paragraphs:
+    - text: device intended to perform a specific function, directly involved in elaborating,
+        transmitting or displaying measured values
+      sources: []
     notes:
     - Fore the definition of "measures value", see ISO/IEC Guide 99:2007/OIML V 2-200:2012
       (VIM) 2.10, [1].
@@ -228,7 +336,22 @@ data:
       permanently or added temporarily).'
     - Depending on national legislation, ancillary devices may be subject to legal
       metrological control.
+    note_paragraphs:
+    - text: Fore the definition of "measures value", see ISO/IEC Guide 99:2007/OIML
+        V 2-200:2012 (VIM) 2.10, [1].
+      sources: []
+    - text: 'The main ancillary device are: zero-setting device; price-indicationg
+        device; repeating indicating device; printing device; memory device; traffi
+        control device; pre-setting device; self-service device; flow sensor movement
+        detector (for detecting movement of the flow sensor before is clearly visible
+        on the indicationg device; remote or automatic reading device (which may be
+        incorporated permanently or added temporarily).'
+      sources: []
+    - text: Depending on national legislation, ancillary devices may be subject to
+        legal metrological control.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -242,13 +365,32 @@ data:
     g18_entry: '02859'
     definition: device intended to perform a particular function, directly involved
       in elaborating, transmitting or displaying measurement results
+    definition_paragraphs:
+    - text: device intended to perform a particular function, directly involved in
+        elaborating, transmitting or displaying measurement results
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2013
+        ref_id: '5.06'
+        is_vimline: true
     notes:
     - An ancillary device may or may not be subject to legal metrological control
       according to its function in the measuring system or to national regulations.
     - 'Main ancillary devices are: zero-setting device; repeating indicating device;
       printing device; memory device, price indicating device; totalising indicating
       device; pre-setting device; self-service device.'
+    note_paragraphs:
+    - text: An ancillary device may or may not be subject to legal metrological control
+        according to its function in the measuring system or to national regulations.
+      sources: []
+    - text: 'Main ancillary devices are: zero-setting device; repeating indicating
+        device; printing device; memory device, price indicating device; totalising
+        indicating device; pre-setting device; self-service device.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical
@@ -268,12 +410,23 @@ data:
     g18_entry: '02858'
     definition: device intended to perform a particular function, directly involved
       in elaborating, transmitting or displaying measurement results
+    definition_paragraphs:
+    - text: device intended to perform a particular function, directly involved in
+        elaborating, transmitting or displaying measurement results
+      sources: []
     notes:
     - 'Note: Main ancillary devices are: zero-setting device; repeating indicating
       device; printing device; memory device, price indicating device; totalizing
       indicating device; correction device; conversion device; pre-setting device;
       self-service device.'
+    note_paragraphs:
+    - text: 'Note: Main ancillary devices are: zero-setting device; repeating indicating
+        device; printing device; memory device, price indicating device; totalizing
+        indicating device; correction device; conversion device; pre-setting device;
+        self-service device.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -287,13 +440,32 @@ data:
     g18_entry: '02860'
     definition: device intended to perform a particular function, directly involved
       in elaborating, transmitting or displaying measurement results
+    definition_paragraphs:
+    - text: device intended to perform a particular function, directly involved in
+        elaborating, transmitting or displaying measurement results
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2013
+        ref_id: '5.06'
+        is_vimline: true
     notes:
     - An ancillary device may or may not be subject to legal metrology control according
       to its function in the measuring system or to national regulations.
     - 'Main ancillary devices are: zero-setting device; repeating indicating device;
       printing device; memory device; price indicating device; totalising indicating
       device; presetting device; self-service device.'
+    note_paragraphs:
+    - text: An ancillary device may or may not be subject to legal metrology control
+        according to its function in the measuring system or to national regulations.
+      sources: []
+    - text: 'Main ancillary devices are: zero-setting device; repeating indicating
+        device; printing device; memory device; price indicating device; totalising
+        indicating device; presetting device; self-service device.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical
@@ -315,8 +487,16 @@ data:
       in elaborating, transmitting or displaying measurement results. Examples of
       ancillary devices: zero setting device; repeating indicating device; printing
       device; memory device; price indicating device; conversion device.'
+    definition_paragraphs:
+    - text: 'Device intended to perform a particular function, directly involved in
+        elaborating, transmitting or displaying measurement results. Examples of ancillary
+        devices: zero setting device; repeating indicating device; printing device;
+        memory device; price indicating device; conversion device.'
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -330,9 +510,24 @@ data:
     g18_entry: '02298-R046-1'
     definition: device intended to perform a particular function, directly involved
       in elaborating, transmitting or displaying measurement results
+    definition_paragraphs:
+    - text: device intended to perform a particular function, directly involved in
+        elaborating, transmitting or displaying measurement results
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2013
+        ref_id: '5.06'
+        is_vimline: true
     notes:
     - Note:An ancillary device is not part of the basic metrology function of a meter.
+    note_paragraphs:
+    - text: Note:An ancillary device is not part of the basic metrology function of
+        a meter.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical
@@ -354,10 +549,22 @@ data:
       in elaborating, transmitting or displaying measurement results The main ancillary
       devices are: repeating indicating device, printing device, memory device, and
       communication device.'
+    definition_paragraphs:
+    - text: 'device intended to perform a particular function, directly involved in
+        elaborating, transmitting or displaying measurement results The main ancillary
+        devices are: repeating indicating device, printing device, memory device,
+        and communication device.'
+      sources: []
     notes:
     - An ancillary device is not necessarily subject to metrological control.
     - An ancillary device may be integrated in the gas meter.
+    note_paragraphs:
+    - text: An ancillary device is not necessarily subject to metrological control.
+      sources: []
+    - text: An ancillary device may be integrated in the gas meter.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -373,8 +580,16 @@ data:
       in elaborating, transmitting or displaying measurement results Examples of ancillary
       devices: zero setting device; repeating indicating device; printing device;
       memory device; price indicating device; conversion device.'
+    definition_paragraphs:
+    - text: 'device intended to perform a particular function, directly involved in
+        elaborating, transmitting or displaying measurement results Examples of ancillary
+        devices: zero setting device; repeating indicating device; printing device;
+        memory device; price indicating device; conversion device.'
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -388,8 +603,14 @@ data:
     g18_entry: '00372'
     definition: device intended to perform a particular function, directly involved
       in elaborating, transmitting or displaying  results
+    definition_paragraphs:
+    - text: device intended to perform a particular function, directly involved in
+        elaborating, transmitting or displaying  results
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -406,12 +627,28 @@ data:
       transmitting or displaying measurement results Main ancillary devices are: -
       repeating indicating device; - printing device; - memory device; - totalizing
       indicating device; - conversion device.'
+    definition_paragraphs:
+    - text: 'device, other than the main indicating device, connected to a calculator,
+        intended to perform a particular function, directly involved in elaborating,
+        transmitting or displaying measurement results Main ancillary devices are:
+        - repeating indicating device; - printing device; - memory device; - totalizing
+        indicating device; - conversion device.'
+      sources: []
     notes:
     - An ancillary device may or may not be subject to legal metrology control according
       to its function in the measuring system or to national regulations.
     - An ancillary device may be integrated into the calculator, into the meter, or
       constitutes peripheral equipment linked to the calculator by means of an interface.
+    note_paragraphs:
+    - text: An ancillary device may or may not be subject to legal metrology control
+        according to its function in the measuring system or to national regulations.
+      sources: []
+    - text: An ancillary device may be integrated into the calculator, into the meter,
+        or constitutes peripheral equipment linked to the calculator by means of an
+        interface.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -426,8 +663,15 @@ data:
     definition: a device intended to perform a particular function, directly involved
       in elaborating, memorizing, transmitting or displaying the measurement result.
       Examples are a printing device or a remote indicator.
+    definition_paragraphs:
+    - text: a device intended to perform a particular function, directly involved
+        in elaborating, memorizing, transmitting or displaying the measurement result.
+        Examples are a printing device or a remote indicator.
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -442,8 +686,15 @@ data:
     definition: a device associated with the instrument which is intended to perform
       a specific function, e.g. a repeat indication device, ticket printer, card reader,
       data input terminal, etc.
+    definition_paragraphs:
+    - text: a device associated with the instrument which is intended to perform a
+        specific function, e.g. a repeat indication device, ticket printer, card reader,
+        data input terminal, etc.
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -458,10 +709,21 @@ data:
     definition: 'device intended to perform a particular function, directly involved
       in elaborating, transmitting or displaying measurement results. Examples: repeating
       indicating device; printing device; memory device; conversion device.'
+    definition_paragraphs:
+    - text: 'device intended to perform a particular function, directly involved in
+        elaborating, transmitting or displaying measurement results. Examples: repeating
+        indicating device; printing device; memory device; conversion device.'
+      sources: []
     notes:
     - 'Note: For the purpose of this Recommendation ancillary equipment, in so far
       as it is subject to metrological control, is considered to be part of the ALG.'
+    note_paragraphs:
+    - text: 'Note: For the purpose of this Recommendation ancillary equipment, in
+        so far as it is subject to metrological control, is considered to be part
+        of the ALG.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

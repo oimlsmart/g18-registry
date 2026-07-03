@@ -25,8 +25,14 @@ data:
     g18_entry: '02582'
     definition: sum of all axle loads in a defined bogie; a fraction of the wagon
       mass imposed on the static bogie from the effect of gravity at the time of weighing
+    definition_paragraphs:
+    - text: sum of all axle loads in a defined bogie; a fraction of the wagon mass
+        imposed on the static bogie from the effect of gravity at the time of weighing
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

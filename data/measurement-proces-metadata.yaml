@@ -24,11 +24,20 @@ data:
     link:
     g18_entry: '03258'
     definition: metadata related to the measurement process
+    definition_paragraphs:
+    - text: metadata related to the measurement process
+      sources: []
     notes:
     - 'Note: Examples of measurement process metadata include format of the measurement
       parameters, format of the connection settings or format of the session parameters,
       see Annex C.'
+    note_paragraphs:
+    - text: 'Note: Examples of measurement process metadata include format of the
+        measurement parameters, format of the connection settings or format of the
+        session parameters, see Annex C.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

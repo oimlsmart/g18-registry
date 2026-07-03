@@ -31,8 +31,14 @@ data:
     g18_entry: '00802'
     definition: maximum permissible deviation of each fill from the average value
       of all the fills of a test sequence
+    definition_paragraphs:
+    - text: maximum permissible deviation of each fill from the average value of all
+        the fills of a test sequence
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -25,8 +25,14 @@ data:
     g18_entry: '03196'
     definition: any type of measuring system (including dispensers, road tankers,
       etc.) that id used for the measurement of liquefied natural gas (LNG)
+    definition_paragraphs:
+    - text: any type of measuring system (including dispensers, road tankers, etc.)
+        that id used for the measurement of liquefied natural gas (LNG)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

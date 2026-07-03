@@ -32,11 +32,22 @@ data:
     definition: measurement variation (relative to the moisture values obtained at
       reference conditions) resulting from the range of grain sample temperatures
       permitted in commercial measurements
+    definition_paragraphs:
+    - text: measurement variation (relative to the moisture values obtained at reference
+        conditions) resulting from the range of grain sample temperatures permitted
+        in commercial measurements
+      sources: []
     notes:
     - 'Note:  STS is controlled in approved moisture calibrations. During assessment,
       a limit is placed on the value of the average error shift caused by allowable
       temperature variations.'
+    note_paragraphs:
+    - text: 'Note:  STS is controlled in approved moisture calibrations. During assessment,
+        a limit is placed on the value of the average error shift caused by allowable
+        temperature variations.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -51,11 +62,22 @@ data:
     definition: measurement variation (relative to the PMB values obtained at reference
       conditions) resulting from the range of grain sample temperatures permitted
       in commercial measurements
+    definition_paragraphs:
+    - text: measurement variation (relative to the PMB values obtained at reference
+        conditions) resulting from the range of grain sample temperatures permitted
+        in commercial measurements
+      sources: []
     notes:
     - 'Note: STS is controlled in approved PMB calibrations. During assessment, a
       limit is placed on the value of the average error shift caused by allowable
       temperature variations.'
+    note_paragraphs:
+    - text: 'Note: STS is controlled in approved PMB calibrations. During assessment,
+        a limit is placed on the value of the average error shift caused by allowable
+        temperature variations.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

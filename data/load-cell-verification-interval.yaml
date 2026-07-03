@@ -32,8 +32,14 @@ data:
     g18_entry: '00715'
     definition: load cell interval, expressed in units of mass, used in the test of
       the load cell for accuracy classification
+    definition_paragraphs:
+    - text: load cell interval, expressed in units of mass, used in the test of the
+        load cell for accuracy classification
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -47,8 +53,14 @@ data:
     g18_entry: '03204'
     definition: load cell interval, expressed in units of mass, used in the test of
       the load cell for accuracy classification
+    definition_paragraphs:
+    - text: load cell interval, expressed in units of mass, used in the test of the
+        load cell for accuracy classification
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

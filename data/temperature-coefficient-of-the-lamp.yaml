@@ -27,8 +27,15 @@ data:
     definition: dimensionless quantity numerically equal to a change in the radiance
       temperature of the ribbon (in °C) under changes of the ambient temperature by
       1 °C at a constant lamp current
+    definition_paragraphs:
+    - text: dimensionless quantity numerically equal to a change in the radiance temperature
+        of the ribbon (in °C) under changes of the ambient temperature by 1 °C at
+        a constant lamp current
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +48,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r048-e04.pdf
     g18_entry: '00407'
     definition: change in minimum dead load output due to a change in ambient temperature
+    definition_paragraphs:
+    - text: change in minimum dead load output due to a change in ambient temperature
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -25,8 +25,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r080-1-e09.pdf
     g18_entry: '02269'
     definition: point at which the liquid is defined as being delivered or received
+    definition_paragraphs:
+    - text: point at which the liquid is defined as being delivered or received
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -39,8 +44,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r117-1-e07.pdf
     g18_entry: '01603'
     definition: point at which the liquid is defined as being delivered or received
+    definition_paragraphs:
+    - text: point at which the liquid is defined as being delivered or received
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -53,8 +63,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r139-e07.pdf
     g18_entry: '02001'
     definition: point at which the gas is defined as being delivered
+    definition_paragraphs:
+    - text: point at which the gas is defined as being delivered
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -68,8 +83,14 @@ data:
     g18_entry: '01027'
     definition: the point at which the quantity of liquid measured is defined as being
       delivered or received
+    definition_paragraphs:
+    - text: the point at which the quantity of liquid measured is defined as being
+        delivered or received
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -83,8 +104,14 @@ data:
     g18_entry: '03602'
     definition: point (physical location) in the measuring system downstream of the
       meter after which the gas is defined as being delivered
+    definition_paragraphs:
+    - text: point (physical location) in the measuring system downstream of the meter
+        after which the gas is defined as being delivered
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -97,8 +124,13 @@ data:
     link:
     g18_entry: '03579'
     definition: point at which the liquid is defined as being delivered or received
+    definition_paragraphs:
+    - text: point at which the liquid is defined as being delivered or received
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -111,8 +143,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r080-1-e09.pdf
     g18_entry: '03580'
     definition: point at which the liquid is defined as being delivered or received
+    definition_paragraphs:
+    - text: point at which the liquid is defined as being delivered or received
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -125,8 +162,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r080-1-e09.pdf
     g18_entry: '02269-R080-1'
     definition: point at which the liquid is defined as being delivered or received
+    definition_paragraphs:
+    - text: point at which the liquid is defined as being delivered or received
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -140,8 +182,14 @@ data:
     g18_entry: '01027'
     definition: the point at which the quantity of liquid measured is defined as being
       delivered or received
+    definition_paragraphs:
+    - text: the point at which the quantity of liquid measured is defined as being
+        delivered or received
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

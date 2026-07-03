@@ -26,8 +26,14 @@ data:
     g18_entry: '02246'
     definition: maximum volume of liquid which a tank or compartment may contain up
       to overflowing, under rated operating conditions and atreference temperature
+    definition_paragraphs:
+    - text: maximum volume of liquid which a tank or compartment may contain up to
+        overflowing, under rated operating conditions and atreference temperature
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '01138'
     definition: the maximum volume of liquid the tank may contain up to overflowing
       under rated operating conditions, at reference temperature
+    definition_paragraphs:
+    - text: the maximum volume of liquid the tank may contain up to overflowing under
+        rated operating conditions, at reference temperature
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -56,8 +68,14 @@ data:
     g18_entry: '03570'
     definition: maximum volume of liquid which a tank or compartment may contain up
       to overflowing, under rated operating conditions and at reference temperature
+    definition_paragraphs:
+    - text: maximum volume of liquid which a tank or compartment may contain up to
+        overflowing, under rated operating conditions and at reference temperature
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -71,8 +89,14 @@ data:
     g18_entry: 02246-R080-1
     definition: maximum volume of liquid which a tank or compartment may contain up
       to overflowing, under rated operating conditions and at reference temperature
+    definition_paragraphs:
+    - text: maximum volume of liquid which a tank or compartment may contain up to
+        overflowing, under rated operating conditions and at reference temperature
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -86,8 +110,14 @@ data:
     g18_entry: '01138'
     definition: the maximum volume of liquid the tank may contain up to overflowing
       under rated operating conditions, at reference temperature
+    definition_paragraphs:
+    - text: the maximum volume of liquid the tank may contain up to overflowing under
+        rated operating conditions, at reference temperature
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -25,8 +25,14 @@ data:
     g18_entry: '03540'
     definition: property of measuring instrument, whereby its metrological properties
       remain constant in time (OIML V 2-100, 4.19)
+    definition_paragraphs:
+    - text: property of measuring instrument, whereby its metrological properties
+        remain constant in time (OIML V 2-100, 4.19)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

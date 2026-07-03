@@ -25,8 +25,14 @@ data:
     g18_entry: '03352'
     definition: device that indicates the mass of the loads conveyed over a limited
       period of time
+    definition_paragraphs:
+    - text: device that indicates the mass of the loads conveyed over a limited period
+        of time
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

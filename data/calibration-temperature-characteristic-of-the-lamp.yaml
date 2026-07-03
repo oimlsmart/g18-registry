@@ -26,8 +26,14 @@ data:
     g18_entry: '00403'
     definition: relationship between the values of the radiance temperature of the
       tungsten ribbon and the values of the current in its circuit
+    definition_paragraphs:
+    - text: relationship between the values of the radiance temperature of the tungsten
+        ribbon and the values of the current in its circuit
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '00403'
     definition: relationship between the values of the radiance temperature of the
       tungsten ribbon and the values of the current in its circuit
+    definition_paragraphs:
+    - text: relationship between the values of the radiance temperature of the tungsten
+        ribbon and the values of the current in its circuit
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

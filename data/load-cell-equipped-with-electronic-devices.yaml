@@ -25,10 +25,19 @@ data:
     g18_entry: '00705'
     definition: load cell employing an assembly of electronic components having a
       recognizable function of its own
+    definition_paragraphs:
+    - text: load cell employing an assembly of electronic components having a recognizable
+        function of its own
+      sources: []
     notes: []
+    note_paragraphs: []
     examples:
     - 'of electronics: p-n junction, amplifier, encoder, A/D converter, CPU, I/O interface,
       etc. (not including strain gauge bridge circuits).'
+    example_paragraphs:
+    - text: 'of electronics: p-n junction, amplifier, encoder, A/D converter, CPU,
+        I/O interface, etc. (not including strain gauge bridge circuits).'
+      sources: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -26,8 +26,14 @@ data:
     g18_entry: '02303'
     definition: device that provides an output quantity, having a determined relationship
       to the input quantity
+    definition_paragraphs:
+    - text: device that provides an output quantity, having a determined relationship
+        to the input quantity
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -44,9 +50,20 @@ data:
       can either be incorporated with the meter sensor or beexternal to the meter
       sensor. In the latter case, it can be approved either with the sensor or with
       the calculator.
+    definition_paragraphs:
+    - text: part of the measuring device that provides an output signal, representing
+        volume or mass, having a determined relationship to the input signal. The
+        transducer can either be incorporated with the meter sensor or beexternal
+        to the meter sensor. In the latter case, it can be approved either with the
+        sensor or with the calculator.
+      sources: []
     notes:
     - "(See also T.a.8)"
+    note_paragraphs:
+    - text: "(See also T.a.8)"
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -60,8 +77,14 @@ data:
     g18_entry: 02303-R085-1
     definition: device that provides an output quantity, having a determined relationship
       to the input quantity
+    definition_paragraphs:
+    - text: device that provides an output quantity, having a determined relationship
+        to the input quantity
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -76,12 +99,25 @@ data:
     definition: part of the measuring device that provides an output signal, representing
       volume or mass, having a determined relationship to the input signal (See also
       T.a.8)
+    definition_paragraphs:
+    - text: part of the measuring device that provides an output signal, representing
+        volume or mass, having a determined relationship to the input signal (See
+        also T.a.8)
+      sources: []
     notes:
     - The transducer can either be incorporated with the meter sensor or be external
       to the meter sensor. In the latter case, it can be approved either with the
       sensor or with the calculator.
     - A pulser id a specific type of measuring transducer.
+    note_paragraphs:
+    - text: The transducer can either be incorporated with the meter sensor or be
+        external to the meter sensor. In the latter case, it can be approved either
+        with the sensor or with the calculator.
+      sources: []
+    - text: A pulser id a specific type of measuring transducer.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -32,8 +32,14 @@ data:
     g18_entry: '00719'
     definition: smallest value of a quantity (mass) which may be applied to a load
       cell without exceeding the mpe (see 2.4.9)
+    definition_paragraphs:
+    - text: smallest value of a quantity (mass) which may be applied to a load cell
+        without exceeding the mpe (see 2.4.9)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -47,8 +53,14 @@ data:
     g18_entry: '03302'
     definition: smallest value of a quantity (expressed in mass units) that may be
       applied to a load cell
+    definition_paragraphs:
+    - text: smallest value of a quantity (expressed in mass units) that may be applied
+        to a load cell
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -24,8 +24,25 @@ data:
     link:
     g18_entry: '03108'
     definition: quantity value provided by a measuring instrument or a measuring system
+    definition_paragraphs:
+    - text: quantity value provided by a measuring instrument or a measuring system
+      sources:
+      - kind: vim
+        relationship: identical
+        modification:
+        ref_source: OIML V 2-200:2012
+        ref_id: '4.1'
+        is_vimline: true
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2013
+        ref_id: '0.03'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: vim
       relationship: identical
@@ -44,8 +61,19 @@ data:
     link:
     g18_entry: '03109'
     definition: quantity value provided by a measuring instrument or a measuring system
+    definition_paragraphs:
+    - text: quantity value provided by a measuring instrument or a measuring system
+      sources:
+      - kind: vim
+        relationship: identical
+        modification:
+        ref_source: OIML V 2-200:2012
+        ref_id: '4.1'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: vim
       relationship: identical
@@ -64,8 +92,25 @@ data:
     link:
     g18_entry: '02219'
     definition: quantity value provided by a measuring instrument or a measuring system
+    definition_paragraphs:
+    - text: quantity value provided by a measuring instrument or a measuring system
+      sources:
+      - kind: vim
+        relationship: identical
+        modification:
+        ref_source: OIML V 2-200:2012
+        ref_id: '4.1'
+        is_vimline: true
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2013
+        ref_id: '0.03'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: vim
       relationship: identical
@@ -84,6 +129,15 @@ data:
     link:
     g18_entry: '02600'
     definition: quantity value provided by a measuring instrument or a measuring system
+    definition_paragraphs:
+    - text: quantity value provided by a measuring instrument or a measuring system
+      sources:
+      - kind: vim
+        relationship: identical
+        modification:
+        ref_source: OIML V 2-200:2007
+        ref_id: '4.1'
+        is_vimline: true
     notes:
     - An indication may be presented in visual or acoustic form or may be transferred
       to another device. An indication is often given by the position of a pointer
@@ -92,7 +146,18 @@ data:
       material measures.
     - An indication and a corresponding value of the quantity being measured are not
       necessarily values of quantities of the same kind.
+    note_paragraphs:
+    - text: An indication may be presented in visual or acoustic form or may be transferred
+        to another device. An indication is often given by the position of a pointer
+        on the display for analog outputs, a displayed or printed number for digital
+        outputs, a code pattern for code outputs, or an assigned quantity value for
+        material measures.
+      sources: []
+    - text: An indication and a corresponding value of the quantity being measured
+        are not necessarily values of quantities of the same kind.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: vim
       relationship: identical

@@ -25,10 +25,19 @@ data:
     g18_entry: '02167'
     definition: "- G.3-1 report, issued by the OIML Issuing Authority, composed of
       the OIML Evaluation Report and of the Additional Test Reports"
+    definition_paragraphs:
+    - text: "- G.3-1 report, issued by the OIML Issuing Authority, composed of the
+        OIML Evaluation Report and of the Additional Test Reports"
+      sources: []
     notes:
     - Complete Evaluation Reports are issued under the Mutual Acceptance Arrangement
       (MAA).
+    note_paragraphs:
+    - text: Complete Evaluation Reports are issued under the Mutual Acceptance Arrangement
+        (MAA).
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

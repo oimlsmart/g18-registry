@@ -26,8 +26,14 @@ data:
     g18_entry: '02345'
     definition: facility to adjust the instrument to a designated value without the
       use of an external reference gas
+    definition_paragraphs:
+    - text: facility to adjust the instrument to a designated value without the use
+        of an external reference gas
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: 02345-R099-1
     definition: facility to adjust the instrument to a designated value without the
       use of an external reference gas
+    definition_paragraphs:
+    - text: facility to adjust the instrument to a designated value without the use
+        of an external reference gas
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

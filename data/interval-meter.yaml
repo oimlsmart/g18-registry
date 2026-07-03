@@ -25,8 +25,14 @@ data:
     g18_entry: '02281-1'
     definition: electricity meter which displays and stores the result as measured
       in predetermined time intervals
+    definition_paragraphs:
+    - text: electricity meter which displays and stores the result as measured in
+        predetermined time intervals
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

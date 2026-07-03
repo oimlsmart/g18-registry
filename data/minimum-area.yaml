@@ -32,8 +32,14 @@ data:
     g18_entry: '01900'
     definition: smallest value that can be measured below which the indicated result
       may be subject to excessive relative error
+    definition_paragraphs:
+    - text: smallest value that can be measured below which the indicated result may
+        be subject to excessive relative error
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -47,8 +53,14 @@ data:
     g18_entry: '01900'
     definition: smallest value that can be measured below which the indicated result
       may be subject to excessive relative error
+    definition_paragraphs:
+    - text: smallest value that can be measured below which the indicated result may
+        be subject to excessive relative error
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

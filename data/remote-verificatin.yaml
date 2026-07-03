@@ -25,8 +25,14 @@ data:
     g18_entry: '03697'
     definition: set of procedures to support verification of an instrument during
       use, potentially without a person on site
+    definition_paragraphs:
+    - text: set of procedures to support verification of an instrument during use,
+        potentially without a person on site
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -27,8 +27,16 @@ data:
       a specific point in time that can include 1) algorithm design (e.g. topology
       and weights of a neutral network): 2) trial of evolution of dynamic parameters
       of a module; 3) evoled parameters of dynamic parts of the module'
+    definition_paragraphs:
+    - text: 'static representation of a dynamic module of legally relevant softwareat
+        a specific point in time that can include 1) algorithm design (e.g. topology
+        and weights of a neutral network): 2) trial of evolution of dynamic parameters
+        of a module; 3) evoled parameters of dynamic parts of the module'
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

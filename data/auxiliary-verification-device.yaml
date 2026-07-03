@@ -26,8 +26,14 @@ data:
     g18_entry: '00930'
     definition: device permitting separate verification of one or more main devices
       of an instrument
+    definition_paragraphs:
+    - text: device permitting separate verification of one or more main devices of
+        an instrument
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '00930'
     definition: device permitting separate verification of one or more main devices
       of an instrument
+    definition_paragraphs:
+    - text: device permitting separate verification of one or more main devices of
+        an instrument
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

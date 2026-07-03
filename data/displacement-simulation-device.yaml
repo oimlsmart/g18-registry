@@ -28,8 +28,17 @@ data:
       the displacement transducer in a similar manner to how it would operate with
       the conveyor (e.g. by use of puls generator or motor to simulate rotation of
       wheel which incorporates the displacement transducer)
+    definition_paragraphs:
+    - text: device used in simulation tests on continuously totalizing  weigher without
+        its conveyor and intended to simulate displacement of the belt by activating
+        the displacement transducer in a similar manner to how it would operate with
+        the conveyor (e.g. by use of puls generator or motor to simulate rotation
+        of wheel which incorporates the displacement transducer)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

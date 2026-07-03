@@ -27,8 +27,15 @@ data:
     definition: "( act of carrying out technical operations that consists of determining
       the metrological and technical characteristics of an instrument according to
       specified procedures. ISO/IEC Guide 2, 13.1)"
+    definition_paragraphs:
+    - text: "( act of carrying out technical operations that consists of determining
+        the metrological and technical characteristics of an instrument according
+        to specified procedures. ISO/IEC Guide 2, 13.1)"
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -43,8 +50,15 @@ data:
     definition: determionation of one or more characteristics of an object of conformity
       assessment, according to a procedure (from ISO/IEC 17000:2004, 4.2 and VIML,
       A.10)
+    definition_paragraphs:
+    - text: determionation of one or more characteristics of an object of conformity
+        assessment, according to a procedure (from ISO/IEC 17000:2004, 4.2 and VIML,
+        A.10)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

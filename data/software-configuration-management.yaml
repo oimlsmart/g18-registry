@@ -25,12 +25,24 @@ data:
     g18_entry: '03699'
     definition: process to establish and maintain the integrity of the lagally relevant
       software of a measuring instrument adapted form [ISO/IEC/IEEE 12207:2017, 6.3.5]
+    definition_paragraphs:
+    - text: process to establish and maintain the integrity of the lagally relevant
+        software of a measuring instrument adapted form [ISO/IEC/IEEE 12207:2017,
+        6.3.5]
+      sources: []
     notes:
     - Note:Configuration management as discpline covers all aspects of legally relevant
       parts of the measureing instrument, whether software or hardware. However, this
       document only covers the software related requirements. Configuration management
       regarding hardware prats are to give in the relevant Recommendation.
+    note_paragraphs:
+    - text: Note:Configuration management as discpline covers all aspects of legally
+        relevant parts of the measureing instrument, whether software or hardware.
+        However, this document only covers the software related requirements. Configuration
+        management regarding hardware prats are to give in the relevant Recommendation.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

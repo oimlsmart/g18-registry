@@ -26,10 +26,20 @@ data:
     definition: rated value of the mass of the fill below which the weighing results
       may be subject to errors exceeding the required limitations specified in this
       Recommendation
+    definition_paragraphs:
+    - text: rated value of the mass of the fill below which the weighing results may
+        be subject to errors exceeding the required limitations specified in this
+        Recommendation
+      sources: []
     notes:
     - 'Note: For AGFIs which accomplish the fill by more than one weighing cycle Minfill
       is larger than the minimum capacity, Min.'
+    note_paragraphs:
+    - text: 'Note: For AGFIs which accomplish the fill by more than one weighing cycle
+        Minfill is larger than the minimum capacity, Min.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -24,8 +24,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r125-e98.pdf
     g18_entry: '01633'
     definition: the quantity of liquid equivalent to a zero signal from the measurement  transducer
+    definition_paragraphs:
+    - text: the quantity of liquid equivalent to a zero signal from the measurement  transducer
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

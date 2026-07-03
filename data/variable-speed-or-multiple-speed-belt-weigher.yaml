@@ -25,8 +25,14 @@ data:
     g18_entry: '03616'
     definition: belt weigher that is installed with a conveyor belt designed to operate
       at a variable speed (within a range) or at more than one set speed.
+    definition_paragraphs:
+    - text: belt weigher that is installed with a conveyor belt designed to operate
+        at a variable speed (within a range) or at more than one set speed.
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

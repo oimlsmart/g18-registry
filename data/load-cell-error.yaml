@@ -35,8 +35,15 @@ data:
     definition: difference between the load cell measurement result and the true value
       of the measurand (the applied force expressed in mass) [Adapted from VIM:1993,
       5.20]
+    definition_paragraphs:
+    - text: difference between the load cell measurement result and the true value
+        of the measurand (the applied force expressed in mass) [Adapted from VIM:1993,
+        5.20]
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

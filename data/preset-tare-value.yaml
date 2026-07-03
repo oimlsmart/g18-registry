@@ -27,8 +27,16 @@ data:
       instrument and is intended to be applied to other weighings without determining
       individual tares. "Introduced" includes procedures such as: keying in, recalling
       from a data storage device, or inserting via an interface'
+    definition_paragraphs:
+    - text: 'numerical value, representing a weight, that is introduced into the instrument
+        and is intended to be applied to other weighings without determining individual
+        tares. "Introduced" includes procedures such as: keying in, recalling from
+        a data storage device, or inserting via an interface'
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -25,12 +25,23 @@ data:
     g18_entry: '03495'
     definition: incident that has an undesirable impact on the compliqnce of measuring
       instrument or a fault
+    definition_paragraphs:
+    - text: incident that has an undesirable impact on the compliqnce of measuring
+        instrument or a fault
+      sources: []
     notes:
     - 'Note: Examples of significant defect include: a) deletion of the audit trail;
       b) inadmissible parameter changes; c) unauthorised updates; d) accidental software
       changes due to physical effects; e) a significant fault due to the effect of
       an influence quantity.'
+    note_paragraphs:
+    - text: 'Note: Examples of significant defect include: a) deletion of the audit
+        trail; b) inadmissible parameter changes; c) unauthorised updates; d) accidental
+        software changes due to physical effects; e) a significant fault due to the
+        effect of an influence quantity.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -44,8 +55,14 @@ data:
     g18_entry: '03496'
     definition: event that has an impact on the properties re functions of the measuring
       instrument or a fault
+    definition_paragraphs:
+    - text: event that has an impact on the properties re functions of the measuring
+        instrument or a fault
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -25,8 +25,14 @@ data:
     g18_entry: '02990'
     definition: analogue-active load cell which includes an analogue to digital conversion
       device providing a representation of the measurand value in some digital format
+    definition_paragraphs:
+    - text: analogue-active load cell which includes an analogue to digital conversion
+        device providing a representation of the measurand value in some digital format
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

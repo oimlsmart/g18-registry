@@ -24,9 +24,16 @@ data:
     link:
     g18_entry: '02568'
     definition: weighing a wagon for each bogie weight on the same load receptor
+    definition_paragraphs:
+    - text: weighing a wagon for each bogie weight on the same load receptor
+      sources: []
     notes:
     - 'Note: the results are automatically added to indicate the wagon weight'
+    note_paragraphs:
+    - text: 'Note: the results are automatically added to indicate the wagon weight'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

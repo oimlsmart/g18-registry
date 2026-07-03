@@ -25,10 +25,19 @@ data:
     g18_entry: '01663'
     definition: an EBA intended only for use within buildings or places providing
       similar environmental conditions
+    definition_paragraphs:
+    - text: an EBA intended only for use within buildings or places providing similar
+        environmental conditions
+      sources: []
     notes:
     - The use of non-portable EBA's in mobile laboratories may be considered, providing
       adapted conditions of transport are assured.
+    note_paragraphs:
+    - text: The use of non-portable EBA's in mobile laboratories may be considered,
+        providing adapted conditions of transport are assured.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

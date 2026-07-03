@@ -25,10 +25,19 @@ data:
     g18_entry: '02280-R046-1'
     definition: instrument intended to measure electrical energy continuously by integrating
       power with respect to time and to store the result
+    definition_paragraphs:
+    - text: instrument intended to measure electrical energy continuously by integrating
+        power with respect to time and to store the result
+      sources: []
     notes:
     - 'Note: It is recognized that “continuously” may also cover meters with a sampling
       rate sufficiently high to fulfil the requirements of this Recommendation.'
+    note_paragraphs:
+    - text: 'Note: It is recognized that “continuously” may also cover meters with
+        a sampling rate sufficiently high to fulfil the requirements of this Recommendation.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

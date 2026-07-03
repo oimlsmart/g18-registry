@@ -34,8 +34,14 @@ data:
     g18_entry: '00735'
     definition: rrror of a load cell, determined under reference conditions (see 2.5.3)
       [Adapted from VIM:1993, 5.24]
+    definition_paragraphs:
+    - text: rrror of a load cell, determined under reference conditions (see 2.5.3)
+        [Adapted from VIM:1993, 5.24]
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -53,8 +59,13 @@ data:
     link:
     g18_entry: '03201'
     definition: error resulting from a load cel, determined under reference conditions
+    definition_paragraphs:
+    - text: error resulting from a load cel, determined under reference conditions
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

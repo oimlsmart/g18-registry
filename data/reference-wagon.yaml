@@ -27,8 +27,15 @@ data:
     definition: a wagon of known weight that is typical of those to be used for weighing
       on the instrument and which has been selected for the purposes of in-motion
       testing
+    definition_paragraphs:
+    - text: a wagon of known weight that is typical of those to be used for weighing
+        on the instrument and which has been selected for the purposes of in-motion
+        testing
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -42,8 +49,14 @@ data:
     g18_entry: '02528'
     definition: wagon weighed on the control instrument for temporary use as a mass
       standard for in-motion testing
+    definition_paragraphs:
+    - text: wagon weighed on the control instrument for temporary use as a mass standard
+        for in-motion testing
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

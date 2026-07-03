@@ -25,8 +25,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r137-1-e06.pdf
     g18_entry: '01973'
     definition: description of a series of tests for a certain type of equipment
+    definition_paragraphs:
+    - text: description of a series of tests for a certain type of equipment
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -39,8 +44,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_D/d011-e04.pdf
     g18_entry: '00251'
     definition: description of a series of tests for certain types of equipment
+    definition_paragraphs:
+    - text: description of a series of tests for certain types of equipment
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -53,8 +63,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r129-e00.pdf
     g18_entry: '01736'
     definition: a description of a series of tests for a certain type of equipment
+    definition_paragraphs:
+    - text: a description of a series of tests for a certain type of equipment
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -67,8 +82,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r125-e98.pdf
     g18_entry: '01660'
     definition: a description of a series of tests for certain types of equipment
+    definition_paragraphs:
+    - text: a description of a series of tests for certain types of equipment
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -81,8 +101,19 @@ data:
     link:
     g18_entry: 02243-D011
     definition: description of a series of tests for certain types of equipment
+    definition_paragraphs:
+    - text: description of a series of tests for certain types of equipment
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2013
+        ref_id: '5.20'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical
@@ -101,8 +132,19 @@ data:
     link:
     g18_entry: '02695'
     definition: description of a series of tests for a certain type of equipment
+    definition_paragraphs:
+    - text: description of a series of tests for a certain type of equipment
+      sources:
+      - kind: other
+        relationship: identical
+        modification:
+        ref_source: OIML D011:2004
+        ref_id: 3.20.2
+        is_vimline: false
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -115,8 +157,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r129-e00.pdf
     g18_entry: '03565'
     definition: description of a series of tests for a certain type of equipment
+    definition_paragraphs:
+    - text: description of a series of tests for a certain type of equipment
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -129,8 +176,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r125-e98.pdf
     g18_entry: '01660'
     definition: a description of a series of tests for certain types of equipment
+    definition_paragraphs:
+    - text: a description of a series of tests for certain types of equipment
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

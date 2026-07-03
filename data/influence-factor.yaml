@@ -35,8 +35,14 @@ data:
     g18_entry: '02291'
     definition: influence quantity having a value within the rated operating conditions
       specified in 5.1.1.
+    definition_paragraphs:
+    - text: influence quantity having a value within the rated operating conditions
+        specified in 5.1.1.
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -50,8 +56,14 @@ data:
     g18_entry: '02322'
     definition: influence quantity having a value within the specified rated operating
       conditions of the ALG
+    definition_paragraphs:
+    - text: influence quantity having a value within the specified rated operating
+        conditions of the ALG
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -65,9 +77,17 @@ data:
     g18_entry: '02359'
     definition: influence quantity having a value within the rated operating conditions
       of the instrument
+    definition_paragraphs:
+    - text: influence quantity having a value within the rated operating conditions
+        of the instrument
+      sources: []
     notes:
     - Adapted from OIML D 11:2004, 3.13.1.
+    note_paragraphs:
+    - text: Adapted from OIML D 11:2004, 3.13.1.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -81,8 +101,14 @@ data:
     g18_entry: '00375'
     definition: influence quantity having a value within the specified rated operating
       conditions of the instrument
+    definition_paragraphs:
+    - text: influence quantity having a value within the specified rated operating
+        conditions of the instrument
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -96,8 +122,14 @@ data:
     g18_entry: '01397'
     definition: "[O influence quantity having a value within the specified rated operating
       conditions of the instrument IML D 11: 2004, 3.13.1]"
+    definition_paragraphs:
+    - text: "[O influence quantity having a value within the specified rated operating
+        conditions of the instrument IML D 11: 2004, 3.13.1]"
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -111,8 +143,14 @@ data:
     g18_entry: '02023'
     definition: influence quantity having a value within the rated operating conditions
       of the measuring system, as specified in this International Recommendation
+    definition_paragraphs:
+    - text: influence quantity having a value within the rated operating conditions
+        of the measuring system, as specified in this International Recommendation
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -126,8 +164,14 @@ data:
     g18_entry: '02093'
     definition: influence quantity having a value within the rated operating conditions
       of the measuring system as specified in this Recommendation
+    definition_paragraphs:
+    - text: influence quantity having a value within the rated operating conditions
+        of the measuring system as specified in this Recommendation
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -141,8 +185,14 @@ data:
     g18_entry: '00450'
     definition: influence quantity having a value within the rated operating conditions
       of the water meter, as specified in this Recommendation
+    definition_paragraphs:
+    - text: influence quantity having a value within the rated operating conditions
+        of the water meter, as specified in this Recommendation
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -156,8 +206,14 @@ data:
     g18_entry: '00665'
     definition: influence quantity having a value within the specified rated operating
       conditions of the instrument
+    definition_paragraphs:
+    - text: influence quantity having a value within the specified rated operating
+        conditions of the instrument
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -171,8 +227,14 @@ data:
     g18_entry: '00987'
     definition: influence quantity having a value within the specified rated operating
       conditions of the instrument
+    definition_paragraphs:
+    - text: influence quantity having a value within the specified rated operating
+        conditions of the instrument
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -186,9 +248,17 @@ data:
     g18_entry: '01968'
     definition: influence quantity having a value within the rated operating conditions
       of the gas meter, as specified in this Recommendation
+    definition_paragraphs:
+    - text: influence quantity having a value within the rated operating conditions
+        of the gas meter, as specified in this Recommendation
+      sources: []
     notes:
     - "(OIML D 11, 3.13.1)"
+    note_paragraphs:
+    - text: "(OIML D 11, 3.13.1)"
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -202,8 +272,14 @@ data:
     g18_entry: '00237'
     definition: influence quantity having a value within the rated operating conditions
       of a measuring instrument specified in the relevant Recommendation
+    definition_paragraphs:
+    - text: influence quantity having a value within the rated operating conditions
+        of a measuring instrument specified in the relevant Recommendation
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -217,8 +293,14 @@ data:
     g18_entry: '00810'
     definition: influence quantity having a value within the specified rated operating
       conditions of the filling instrument
+    definition_paragraphs:
+    - text: influence quantity having a value within the specified rated operating
+        conditions of the filling instrument
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -232,8 +314,14 @@ data:
     g18_entry: '01916'
     definition: influence quantity having a value within the specified rated operating
       conditions of the instrument
+    definition_paragraphs:
+    - text: influence quantity having a value within the specified rated operating
+        conditions of the instrument
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -247,8 +335,14 @@ data:
     g18_entry: '01829'
     definition: influence quantity having a value within the specified rated operating
       conditions of the instrument
+    definition_paragraphs:
+    - text: influence quantity having a value within the specified rated operating
+        conditions of the instrument
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -261,8 +355,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r075-1-e02.pdf
     g18_entry: '00857'
     definition: influence quantity having a value within the rated operating conditions
+    definition_paragraphs:
+    - text: influence quantity having a value within the rated operating conditions
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -277,8 +376,15 @@ data:
     definition: influence quantity having a value within the specified rated operating
       conditions of the load cell. (For example, a specific temperature or a specific
       power voltage in which the load cell can be tested).
+    definition_paragraphs:
+    - text: influence quantity having a value within the specified rated operating
+        conditions of the load cell. (For example, a specific temperature or a specific
+        power voltage in which the load cell can be tested).
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -292,8 +398,14 @@ data:
     g18_entry: '01729'
     definition: an influence quantity having a value within the rated operating conditions
       of the measuring instrument, specified in this Recommendation
+    definition_paragraphs:
+    - text: an influence quantity having a value within the rated operating conditions
+        of the measuring instrument, specified in this Recommendation
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -307,8 +419,14 @@ data:
     g18_entry: '01035'
     definition: an influence quantity having a value within the rated operating conditions
       of the measuring system, as specified in this Recommendation
+    definition_paragraphs:
+    - text: an influence quantity having a value within the rated operating conditions
+        of the measuring system, as specified in this Recommendation
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -322,8 +440,14 @@ data:
     g18_entry: '01647'
     definition: an influence quantity having a value within the rated operating conditions
       of the measuring instrument specified in this Recommendation
+    definition_paragraphs:
+    - text: an influence quantity having a value within the rated operating conditions
+        of the measuring instrument specified in this Recommendation
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -337,8 +461,14 @@ data:
     g18_entry: '00531'
     definition: an influence quantity having a value within the specified rated operating
       conditions of the belt weigher
+    definition_paragraphs:
+    - text: an influence quantity having a value within the specified rated operating
+        conditions of the belt weigher
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -352,8 +482,14 @@ data:
     g18_entry: '01302'
     definition: an influence quantity having a value within the specified rated operating
       conditions of the instrument
+    definition_paragraphs:
+    - text: an influence quantity having a value within the specified rated operating
+        conditions of the instrument
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -368,8 +504,15 @@ data:
     definition: "(D an influence quantity having a value within the rated operating
       conditions of the measuring instrument specified in the appropriate International
       Recommendation 11 clause T.12.1)"
+    definition_paragraphs:
+    - text: "(D an influence quantity having a value within the rated operating conditions
+        of the measuring instrument specified in the appropriate International Recommendation
+        11 clause T.12.1)"
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -383,8 +526,14 @@ data:
     g18_entry: '01240'
     definition: an influence quantity having a value within the rated operating conditions
       of the measuring system, as specified in this Recommendation
+    definition_paragraphs:
+    - text: an influence quantity having a value within the rated operating conditions
+        of the measuring system, as specified in this Recommendation
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -398,8 +547,14 @@ data:
     g18_entry: '03765'
     definition: influence quantity having a value which ranges within the rated operating
       conditions of a measuring instrument
+    definition_paragraphs:
+    - text: influence quantity having a value which ranges within the rated operating
+        conditions of a measuring instrument
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -421,8 +576,17 @@ data:
       [SOUROCE: OIML D11:2013, 3.15.1, [8] modified — “meter” replaces “measuring
       instrument”; “specified in this part of ISO 4064/OIML R49”is added; original
       notes removed.]'
+    definition_paragraphs:
+    - text: 'influence quantity (3.4.1) having a value within the rated operating
+        condition(s) (3.4.4) of a meter specified in this part of ISO 4064/OIML R
+        49 [SOUROCE: OIML D11:2013, 3.15.1, [8] modified — “meter” replaces “measuring
+        instrument”; “specified in this part of ISO 4064/OIML R49”is added; original
+        notes removed.]'
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -436,8 +600,20 @@ data:
     g18_entry: '03119'
     definition: influence quantity having a value which ranges within the rated operating
       conditions of a measuring instrument
+    definition_paragraphs:
+    - text: influence quantity having a value which ranges within the rated operating
+        conditions of a measuring instrument
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2013
+        ref_id: '5.18'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical
@@ -457,8 +633,14 @@ data:
     g18_entry: '03120'
     definition: influence quantity having a value within the rated operating conditions
       of the measuring instrument, specified in this Recommendation
+    definition_paragraphs:
+    - text: influence quantity having a value within the rated operating conditions
+        of the measuring instrument, specified in this Recommendation
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -472,11 +654,21 @@ data:
     g18_entry: '03121'
     definition: influence quantity having a value within the rated operating conditions
       of the measuring instrument
+    definition_paragraphs:
+    - text: influence quantity having a value within the rated operating conditions
+        of the measuring instrument
+      sources: []
     notes:
     - 'Note: The variation of an indication as a consequence of an influence factor
       is considered an error and not a fault. [Adapted from VIML:2013, 5.18 – part
       fo mote omitted]'
+    note_paragraphs:
+    - text: 'Note: The variation of an indication as a consequence of an influence
+        factor is considered an error and not a fault. [Adapted from VIML:2013, 5.18
+        – part fo mote omitted]'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -490,8 +682,14 @@ data:
     g18_entry: '01578'
     definition: influence quantity having a value within the rated operating conditions
       of the measuring system, as specified in this Recommendation
+    definition_paragraphs:
+    - text: influence quantity having a value within the rated operating conditions
+        of the measuring system, as specified in this Recommendation
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -505,8 +703,14 @@ data:
     g18_entry: '03117'
     definition: influence quantity having a value within the rated operating conditions
       of a measuring instrument (VIML, 5.18)
+    definition_paragraphs:
+    - text: influence quantity having a value within the rated operating conditions
+        of a measuring instrument (VIML, 5.18)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -520,8 +724,14 @@ data:
     g18_entry: '03116'
     definition: influence quantity having a value within the rated operating conditions
       specified in 5.1.1.
+    definition_paragraphs:
+    - text: influence quantity having a value within the rated operating conditions
+        specified in 5.1.1.
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -535,12 +745,30 @@ data:
     g18_entry: 02230-D011
     definition: influence quantity having a value which ranges within the rated operating
       conditions of a measuring instrument
+    definition_paragraphs:
+    - text: influence quantity having a value which ranges within the rated operating
+        conditions of a measuring instrument
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2013
+        ref_id: '5.18'
+        is_vimline: true
     notes:
     - The rated operating conditions shall be in conformity with the applicable requirements
       specified in the applicable Recommendation.
     - The variation of an indication as a consequence of an influence factor is considered
       an error and not a fault.
+    note_paragraphs:
+    - text: The rated operating conditions shall be in conformity with the applicable
+        requirements specified in the applicable Recommendation.
+      sources: []
+    - text: The variation of an indication as a consequence of an influence factor
+        is considered an error and not a fault.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical
@@ -560,8 +788,20 @@ data:
     g18_entry: 02323-R046-1
     definition: influence quantity having a value which ranges within the rated operating
       conditions of a measuring instrument
+    definition_paragraphs:
+    - text: influence quantity having a value which ranges within the rated operating
+        conditions of a measuring instrument
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2013
+        ref_id: '5.18'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical
@@ -581,8 +821,14 @@ data:
     g18_entry: '02617'
     definition: influence quantity having a value within the specified rated operating
       conditions of the instrument
+    definition_paragraphs:
+    - text: influence quantity having a value within the specified rated operating
+        conditions of the instrument
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -596,8 +842,14 @@ data:
     g18_entry: '02291-R080-1'
     definition: influence quantity having a value within the rated operating conditions
       specified in 5.1.1.
+    definition_paragraphs:
+    - text: influence quantity having a value within the rated operating conditions
+        specified in 5.1.1.
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -611,8 +863,14 @@ data:
     g18_entry: 02322-R085-1
     definition: influence quantity having a value within the specified rated operating
       conditions of the ALG
+    definition_paragraphs:
+    - text: influence quantity having a value within the specified rated operating
+        conditions of the ALG
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -626,8 +884,14 @@ data:
     g18_entry: '02360'
     definition: influence quantity having a value within the rated operating conditions
       of the instrument [Adapted from OIML D 11:2004, 3.13.1]
+    definition_paragraphs:
+    - text: influence quantity having a value within the rated operating conditions
+        of the instrument [Adapted from OIML D 11:2004, 3.13.1]
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -641,8 +905,14 @@ data:
     g18_entry: '00375'
     definition: influence quantity having a value within the specified rated operating
       conditions of the instrument
+    definition_paragraphs:
+    - text: influence quantity having a value within the specified rated operating
+        conditions of the instrument
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -656,8 +926,20 @@ data:
     g18_entry: '01397'
     definition: influence quantity having a value within the specified rated operating
       conditions of the instrument
+    definition_paragraphs:
+    - text: influence quantity having a value within the specified rated operating
+        conditions of the instrument
+      sources:
+      - kind: other
+        relationship: identical
+        modification:
+        ref_source: OIML D011:2004
+        ref_id: 3.13.1
+        is_vimline: false
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -671,8 +953,14 @@ data:
     g18_entry: '02093'
     definition: influence quantity having a value within the rated operating conditions
       of the measuring system as specified in this Recommendation
+    definition_paragraphs:
+    - text: influence quantity having a value within the rated operating conditions
+        of the measuring system as specified in this Recommendation
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -686,8 +974,14 @@ data:
     g18_entry: '00665'
     definition: influence quantity having a value within the specified rated operating
       conditions of the instrument
+    definition_paragraphs:
+    - text: influence quantity having a value within the specified rated operating
+        conditions of the instrument
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -701,8 +995,14 @@ data:
     g18_entry: '00987'
     definition: influence quantity having a value within the specified rated operating
       conditions of the instrument
+    definition_paragraphs:
+    - text: influence quantity having a value within the specified rated operating
+        conditions of the instrument
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -716,8 +1016,14 @@ data:
     g18_entry: '01829'
     definition: influence quantity having a value within the specified rated operating
       conditions of the instrument
+    definition_paragraphs:
+    - text: influence quantity having a value within the specified rated operating
+        conditions of the instrument
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -731,8 +1037,14 @@ data:
     g18_entry: '01916'
     definition: influence quantity having a value within the specified rated operating
       conditions of the instrument
+    definition_paragraphs:
+    - text: influence quantity having a value within the specified rated operating
+        conditions of the instrument
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -745,8 +1057,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r075-1-e02.pdf
     g18_entry: '00857'
     definition: influence quantity having a value within the rated operating conditions
+    definition_paragraphs:
+    - text: influence quantity having a value within the rated operating conditions
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -760,8 +1077,14 @@ data:
     g18_entry: '01035'
     definition: an influence quantity having a value within the rated operating conditions
       of the measuring system, as specified in this Recommendation
+    definition_paragraphs:
+    - text: an influence quantity having a value within the rated operating conditions
+        of the measuring system, as specified in this Recommendation
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -775,8 +1098,14 @@ data:
     g18_entry: '01647'
     definition: an influence quantity having a value within the rated operating conditions
       of the measuring instrument specified in this Recommendation
+    definition_paragraphs:
+    - text: an influence quantity having a value within the rated operating conditions
+        of the measuring instrument specified in this Recommendation
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -791,8 +1120,15 @@ data:
     definition: an influence quantity having a value within the rated operating conditions
       of the measuring instrument specified in the appropriate International Recommendation
       (D 11 clause T.12.1)
+    definition_paragraphs:
+    - text: an influence quantity having a value within the rated operating conditions
+        of the measuring instrument specified in the appropriate International Recommendation
+        (D 11 clause T.12.1)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -806,10 +1142,25 @@ data:
     g18_entry: '03115'
     definition: influence quantity having a value within the specified rated operating
       conditions of the measuring instrument
+    definition_paragraphs:
+    - text: influence quantity having a value within the specified rated operating
+        conditions of the measuring instrument
+      sources:
+      - kind: other
+        relationship: identical
+        modification:
+        ref_source: OIML D011:2013
+        ref_id: 3.13.1
+        is_vimline: false
     notes:
     - 'Note: The variation of an indication as a consequence of an influence factor
       is considered an error and not a fault.'
+    note_paragraphs:
+    - text: 'Note: The variation of an indication as a consequence of an influence
+        factor is considered an error and not a fault.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -823,9 +1174,23 @@ data:
     g18_entry: '03118'
     definition: influence quantity having a value which ranges within the rated operating
       conditions of a measuring instrument
+    definition_paragraphs:
+    - text: influence quantity having a value which ranges within the rated operating
+        conditions of a measuring instrument
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2013
+        ref_id: '5.17'
+        is_vimline: true
     notes:
     - "(For notes, refer to the VIML)"
+    note_paragraphs:
+    - text: "(For notes, refer to the VIML)"
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical

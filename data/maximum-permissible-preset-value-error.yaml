@@ -30,8 +30,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r061-1-e04.pdf
     g18_entry: '00803'
     definition: maximum permissible setting error for each preset value of the fill
+    definition_paragraphs:
+    - text: maximum permissible setting error for each preset value of the fill
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

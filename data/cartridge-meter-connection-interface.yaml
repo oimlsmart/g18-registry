@@ -25,8 +25,14 @@ data:
     g18_entry: '02389'
     definition: pipe fitting specific to the connection of an axial or concentric
       cartridge meter (3.1.20)
+    definition_paragraphs:
+    - text: pipe fitting specific to the connection of an axial or concentric cartridge
+        meter (3.1.20)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

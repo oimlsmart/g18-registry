@@ -25,8 +25,14 @@ data:
     g18_entry: '01537'
     definition: person that is allowed to perform specified activities on legally
       controlled measuring systems or components, under applicable national laws
+    definition_paragraphs:
+    - text: person that is allowed to perform specified activities on legally controlled
+        measuring systems or components, under applicable national laws
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

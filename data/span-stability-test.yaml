@@ -26,8 +26,14 @@ data:
     g18_entry: '01405'
     definition: test to verify whether the EUT is capable of maintaining its performance
       characteristics over a period of use
+    definition_paragraphs:
+    - text: test to verify whether the EUT is capable of maintaining its performance
+        characteristics over a period of use
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '00672'
     definition: test to verify that the EUT is capable of maintaining its performance
       characteristics over a period of use
+    definition_paragraphs:
+    - text: test to verify that the EUT is capable of maintaining its performance
+        characteristics over a period of use
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -55,8 +67,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r061-1-e04.pdf
     g18_entry: '00817'
     definition: test to verify that the EUT is capable of maintaining its span stability
+    definition_paragraphs:
+    - text: test to verify that the EUT is capable of maintaining its span stability
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -70,8 +87,14 @@ data:
     g18_entry: '01837'
     definition: test to verify that the EUT is capable of maintaining its span stability
       over a period of use
+    definition_paragraphs:
+    - text: test to verify that the EUT is capable of maintaining its span stability
+        over a period of use
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -85,8 +108,14 @@ data:
     g18_entry: '01310'
     definition: a test to verify that the EUT is capable of maintaining its performance
       characteristics over a period of use
+    definition_paragraphs:
+    - text: a test to verify that the EUT is capable of maintaining its performance
+        characteristics over a period of use
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -99,8 +128,13 @@ data:
     link:
     g18_entry: '03530'
     definition: test to verify that the EUT is capable of maintaining its span stability
+    definition_paragraphs:
+    - text: test to verify that the EUT is capable of maintaining its span stability
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -114,8 +148,14 @@ data:
     g18_entry: '02626'
     definition: test to verify that the EUT is capable of maintaining its performance
       characteristics over a period of use
+    definition_paragraphs:
+    - text: test to verify that the EUT is capable of maintaining its performance
+        characteristics over a period of use
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -129,8 +169,14 @@ data:
     g18_entry: '01405'
     definition: test to verify whether the EUT is capable of maintaining its performance
       characteristics over a period of use
+    definition_paragraphs:
+    - text: test to verify whether the EUT is capable of maintaining its performance
+        characteristics over a period of use
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -144,8 +190,14 @@ data:
     g18_entry: '00672'
     definition: test to verify that the EUT is capable of maintaining its performance
       characteristics over a period of use
+    definition_paragraphs:
+    - text: test to verify that the EUT is capable of maintaining its performance
+        characteristics over a period of use
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

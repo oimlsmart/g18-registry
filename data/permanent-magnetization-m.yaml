@@ -28,8 +28,17 @@ data:
       is a vector whose magnitude and direction are not necessarily constant within
       the material). The magnetization of a body generates an inhomogeneous magnetic
       field in space and  thus may produce magnetic forces on other materials
+    definition_paragraphs:
+    - text: parameter that specifies a magnetic state of material bodies such as weights,
+        in the absence of an external magnetic field (most generally, magnetization
+        is a vector whose magnitude and direction are not necessarily constant within
+        the material). The magnetization of a body generates an inhomogeneous magnetic
+        field in space and  thus may produce magnetic forces on other materials
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

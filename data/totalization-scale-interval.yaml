@@ -36,8 +36,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r107-1-e07.pdf
     g18_entry: '01358'
     definition: scale interval of a principal totalization indicating device
+    definition_paragraphs:
+    - text: scale interval of a principal totalization indicating device
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -52,8 +57,15 @@ data:
     definition: the value, expressed in units of mass, of the difference between two
       consecutive indicated values, for general and partial totalization devices,
       with the instrument in its normal weighing mode
+    definition_paragraphs:
+    - text: the value, expressed in units of mass, of the difference between two consecutive
+        indicated values, for general and partial totalization devices, with the instrument
+        in its normal weighing mode
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

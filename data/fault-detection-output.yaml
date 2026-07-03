@@ -26,8 +26,14 @@ data:
     g18_entry: '00732'
     definition: electrical representation issued by the load cell indicating that
       a fault condition exists
+    definition_paragraphs:
+    - text: electrical representation issued by the load cell indicating that a fault
+        condition exists
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '03068'
     definition: electrical representation issued by the load cell indicating that
       a fault condition exists
+    definition_paragraphs:
+    - text: electrical representation issued by the load cell indicating that a fault
+        condition exists
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

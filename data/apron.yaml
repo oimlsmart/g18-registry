@@ -26,8 +26,14 @@ data:
     g18_entry: '01790'
     definition: part of the weigh zone that is not the load receptor but which is
       located on either end of the load receptor
+    definition_paragraphs:
+    - text: part of the weigh zone that is not the load receptor but which is located
+        on either end of the load receptor
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '02539'
     definition: part of the rails that is not the load receptor but which is located
       on either end of the load receptor and which serves as approach rails
+    definition_paragraphs:
+    - text: part of the rails that is not the load receptor but which is located on
+        either end of the load receptor and which serves as approach rails
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -56,8 +68,14 @@ data:
     g18_entry: '01790'
     definition: part of the weigh zone that is not the load receptor but which is
       located on either end of the load receptor
+    definition_paragraphs:
+    - text: part of the weigh zone that is not the load receptor but which is located
+        on either end of the load receptor
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

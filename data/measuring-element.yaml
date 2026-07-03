@@ -25,10 +25,19 @@ data:
     g18_entry: '02288-R046-1'
     definition: part of the meter that transforms a current and a voltage into a signal
       proportional to the power and or energy
+    definition_paragraphs:
+    - text: part of the meter that transforms a current and a voltage into a signal
+        proportional to the power and or energy
+      sources: []
     notes:
     - 'Note: A measuring element can be based on an electromagnetic, electrical or
       an electronic principle.'
+    note_paragraphs:
+    - text: 'Note: A measuring element can be based on an electromagnetic, electrical
+        or an electronic principle.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

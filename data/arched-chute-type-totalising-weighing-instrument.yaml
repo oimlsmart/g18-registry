@@ -26,6 +26,11 @@ data:
     definition: weigher designed such that it causes a vertical flow of bulk product
       to effect a centripetal force propotionally to the mass of the product passing
       along the circular arched surface of force receptor (2.2.1)
+    definition_paragraphs:
+    - text: weigher designed such that it causes a vertical flow of bulk product to
+        effect a centripetal force propotionally to the mass of the product passing
+        along the circular arched surface of force receptor (2.2.1)
+      sources: []
     notes:
     - Not allchuteweighters meet the definition stated in this Recommendation.
     - Arched chute weighers are designed such that a vertical flow of bulk products
@@ -36,7 +41,22 @@ data:
     - arched chute weighers that horizontal flows, using only centripetal force, are
       not covered by definition of a weighing instrument in 2.1.1 and therefore are
       not covered by this Recommendation.
+    note_paragraphs:
+    - text: Not allchuteweighters meet the definition stated in this Recommendation.
+      sources: []
+    - text: Arched chute weighers are designed such that a vertical flow of bulk products
+        uses the action of gravity to effect a centripetal force proportional to the
+        mass of the product.
+      sources: []
+    - text: the force receptore of an arched chute weigher is equipped with a circular
+        arched surface.
+      sources: []
+    - text: arched chute weighers that horizontal flows, using only centripetal force,
+        are not covered by definition of a weighing instrument in 2.1.1 and therefore
+        are not covered by this Recommendation.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

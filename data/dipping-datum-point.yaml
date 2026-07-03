@@ -28,8 +28,16 @@ data:
       of the dipping datum plate, or with the bottom surface of the tank if a dipping
       datum plate is not provided. It constitutes the origin for the measurement of
       liquid levels (zero reference or dipping reference point)
+    definition_paragraphs:
+    - text: intersection of the vertical measurement axis with the upper surface of
+        the dipping datum plate, or with the bottom surface of the tank if a dipping
+        datum plate is not provided. It constitutes the origin for the measurement
+        of liquid levels (zero reference or dipping reference point)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -45,8 +53,16 @@ data:
       of the dip plate, or with the bottom surface of the tank if adip plate is not
       provided. It constitutes the origin for the measurement of liquid levels (zero
       reference or dipping reference point)
+    definition_paragraphs:
+    - text: intersection of the vertical measurement axis with the upper surface of
+        the dip plate, or with the bottom surface of the tank if adip plate is not
+        provided. It constitutes the origin for the measurement of liquid levels (zero
+        reference or dipping reference point)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -62,8 +78,16 @@ data:
       of the dip plate, or with the bottom surface of the tank if a dip plate is not
       provided. It constitutes the origin for the measurement of liquid levels (zero
       reference for innage height)
+    definition_paragraphs:
+    - text: the intersection of the vertical measurement axis with the upper surface
+        of the dip plate, or with the bottom surface of the tank if a dip plate is
+        not provided. It constitutes the origin for the measurement of liquid levels
+        (zero reference for innage height)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -79,8 +103,16 @@ data:
       of the dipping datum plate, or with the bottom surface of the tank if a dipping
       datum plate is not provided. It constitutes the origin for the measurement of
       liquid levels (zero reference or dipping reference point)
+    definition_paragraphs:
+    - text: intersection of the vertical measurement axis with the upper surface of
+        the dipping datum plate, or with the bottom surface of the tank if a dipping
+        datum plate is not provided. It constitutes the origin for the measurement
+        of liquid levels (zero reference or dipping reference point)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -96,8 +128,16 @@ data:
       of the dip plate, or with the bottom surface of the tank if a dip plate is not
       provided. It constitutes the origin for the measurement of liquid levels (zero
       reference or dipping reference point)
+    definition_paragraphs:
+    - text: intersection of the vertical measurement axis with the upper surface of
+        the dip plate, or with the bottom surface of the tank if a dip plate is not
+        provided. It constitutes the origin for the measurement of liquid levels (zero
+        reference or dipping reference point)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -113,8 +153,16 @@ data:
       of the dip plate, or with the bottom surface of the tank if a dip plate is not
       provided. It constitutes the origin for the measurement of liquid levels (zero
       reference for innage height)
+    definition_paragraphs:
+    - text: the intersection of the vertical measurement axis with the upper surface
+        of the dip plate, or with the bottom surface of the tank if a dip plate is
+        not provided. It constitutes the origin for the measurement of liquid levels
+        (zero reference for innage height)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

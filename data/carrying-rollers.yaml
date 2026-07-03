@@ -26,8 +26,14 @@ data:
     g18_entry: '00490'
     definition: the rollers by means of which the conveyor belt is supported on afixed
       frame
+    definition_paragraphs:
+    - text: the rollers by means of which the conveyor belt is supported on afixed
+        frame
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '02922'
     definition: arrangements (commonly idlers) by which the conveyor belt is supported
       as it approaches and departs the load receptor
+    definition_paragraphs:
+    - text: arrangements (commonly idlers) by which the conveyor belt is supported
+        as it approaches and departs the load receptor
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

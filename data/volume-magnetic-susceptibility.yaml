@@ -32,8 +32,15 @@ data:
     definition: 'measure of the ability of a medium to modify a magnetic field. It
       isrelated to the magnetic permeability (µ) by the relation: µ / µ0 + c. The
       quantity µ / µ0 is sometimes referred to as the relative permeability, µr'
+    definition_paragraphs:
+    - text: 'measure of the ability of a medium to modify a magnetic field. It isrelated
+        to the magnetic permeability (µ) by the relation: µ / µ0 + c. The quantity
+        µ / µ0 is sometimes referred to as the relative permeability, µr'
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

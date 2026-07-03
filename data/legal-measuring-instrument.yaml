@@ -26,8 +26,13 @@ data:
     g18_entry: '00223'
     definition: ". a measuring instrument which conforms to all the prescribed legal
       requirements"
+    definition_paragraphs:
+    - text: ". a measuring instrument which conforms to all the prescribed legal requirements"
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +46,13 @@ data:
     g18_entry: '00223'
     definition: a measuring instrument which conforms to all the prescribed legal
       requirements
+    definition_paragraphs:
+    - text: a measuring instrument which conforms to all the prescribed legal requirements
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

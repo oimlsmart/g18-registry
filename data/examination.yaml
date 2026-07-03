@@ -25,9 +25,17 @@ data:
     g18_entry: '02160'
     definition: "- G.3-1 visual inspection of an instrument or device and relevant
       documentation to ensure that some specified requirements are met"
+    definition_paragraphs:
+    - text: "- G.3-1 visual inspection of an instrument or device and relevant documentation
+        to ensure that some specified requirements are met"
+      sources: []
     notes:
     - "(OIML B 3)"
+    note_paragraphs:
+    - text: "(OIML B 3)"
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +49,14 @@ data:
     g18_entry: '00106'
     definition: official visual inspection of an instrument or device and relevant
       documentation to assure that some specified requirements are met
+    definition_paragraphs:
+    - text: official visual inspection of an instrument or device and relevant documentation
+        to assure that some specified requirements are met
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -56,8 +70,14 @@ data:
     g18_entry: '00086'
     definition: "(official) visual inspection of an instrument or device and relevant
       documentation to ensure that some specified requirements are met"
+    definition_paragraphs:
+    - text: "(official) visual inspection of an instrument or device and relevant
+        documentation to ensure that some specified requirements are met"
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

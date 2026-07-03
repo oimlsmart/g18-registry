@@ -25,8 +25,14 @@ data:
     g18_entry: '03644'
     definition: linear measured dimension that oriented 90 degree relative to the
       length and height
+    definition_paragraphs:
+    - text: linear measured dimension that oriented 90 degree relative to the length
+        and height
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

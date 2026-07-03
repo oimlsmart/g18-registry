@@ -26,8 +26,14 @@ data:
     g18_entry: '00605'
     definition: value expressed in units of mass preset by the operator by means ofthe
       setting device in order to establish the limit between consecutive sub-groups
+    definition_paragraphs:
+    - text: value expressed in units of mass preset by the operator by means ofthe
+        setting device in order to establish the limit between consecutive sub-groups
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '00605'
     definition: value expressed in units of mass preset by the operator by means of
       the setting device in order to establish the limit between consecutive  sub-groups
+    definition_paragraphs:
+    - text: value expressed in units of mass preset by the operator by means of the
+        setting device in order to establish the limit between consecutive  sub-groups
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

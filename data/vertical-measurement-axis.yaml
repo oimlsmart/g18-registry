@@ -27,8 +27,15 @@ data:
     definition: vertical line which passes through the middle of the still well (guide
       pipe), if provided, belonging to the gauge hatch concerned, and corresponding
       to the position intended for automatic or manual level gauges
+    definition_paragraphs:
+    - text: vertical line which passes through the middle of the still well (guide
+        pipe), if provided, belonging to the gauge hatch concerned, and corresponding
+        to the position intended for automatic or manual level gauges
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -42,8 +49,14 @@ data:
     g18_entry: '01140'
     definition: the vertical line through the position that will be used for manual
       or automatic measurement; it passes through the guiding device, if provided
+    definition_paragraphs:
+    - text: the vertical line through the position that will be used for manual or
+        automatic measurement; it passes through the guiding device, if provided
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -58,8 +71,15 @@ data:
     definition: vertical line which passes through the middle of the still well (guide
       pipe), if provided, belonging to the gauge hatch concerned, and corresponding
       to the position intended for automatic or manual level gauges
+    definition_paragraphs:
+    - text: vertical line which passes through the middle of the still well (guide
+        pipe), if provided, belonging to the gauge hatch concerned, and corresponding
+        to the position intended for automatic or manual level gauges
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -73,8 +93,14 @@ data:
     g18_entry: '01140'
     definition: the vertical line through the position that will be used for manual
       or automatic measurement; it passes through the guiding device, if provided
+    definition_paragraphs:
+    - text: the vertical line through the position that will be used for manual or
+        automatic measurement; it passes through the guiding device, if provided
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

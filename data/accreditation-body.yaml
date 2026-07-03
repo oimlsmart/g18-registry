@@ -24,10 +24,18 @@ data:
     link:
     g18_entry: '02838'
     definition: autoritative body that performs accreditation (ISO/IEC 17000, 4.7)
+    definition_paragraphs:
+    - text: autoritative body that performs accreditation (ISO/IEC 17000, 4.7)
+      sources: []
     notes:
     - 'Note: The authority of an accreditation body can be derived from government,
       public authorities, contracts, market acceptance or scheme owners.'
+    note_paragraphs:
+    - text: 'Note: The authority of an accreditation body can be derived from government,
+        public authorities, contracts, market acceptance or scheme owners.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

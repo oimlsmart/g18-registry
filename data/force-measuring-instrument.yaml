@@ -26,8 +26,14 @@ data:
     g18_entry: '00820'
     definition: instrument that measures the force applied by the force generating
       device of a material testing machine
+    definition_paragraphs:
+    - text: instrument that measures the force applied by the force generating device
+        of a material testing machine
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '00820'
     definition: instrument that measures the force applied by the force generating
       device of a material testing machine
+    definition_paragraphs:
+    - text: instrument that measures the force applied by the force generating device
+        of a material testing machine
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

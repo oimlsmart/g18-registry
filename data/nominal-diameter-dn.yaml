@@ -25,6 +25,10 @@ data:
     g18_entry: '02420'
     definition: alphanumeric designation of size for components of a pipework system,
       which is used for reference purposes
+    definition_paragraphs:
+    - text: alphanumeric designation of size for components of a pipework system,
+        which is used for reference purposes
+      sources: []
     notes:
     - The nominal diameter is expressed by the letters DN followed by a dimensionless
       whole number which is indirectly related to the physical size, in millimetres,
@@ -34,7 +38,20 @@ data:
       standard.
     - In those standards which use the DN designation system, any relationship between
       DN and component dimensions should be given, e.g. DN/OD or DN/ID.
+    note_paragraphs:
+    - text: The nominal diameter is expressed by the letters DN followed by a dimensionless
+        whole number which is indirectly related to the physical size, in millimetres,
+        of the bore or outside diameter of the end connections.
+      sources: []
+    - text: The number following the letters DN does not represent a measurable value
+        and should not be used for calculation purposes except where specified in
+        the relevant standard.
+      sources: []
+    - text: In those standards which use the DN designation system, any relationship
+        between DN and component dimensions should be given, e.g. DN/OD or DN/ID.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

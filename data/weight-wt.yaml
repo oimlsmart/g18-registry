@@ -25,8 +25,14 @@ data:
     g18_entry: '01713'
     definition: for this Recommendation, the weight of the object measured on a weighing
       instrument
+    definition_paragraphs:
+    - text: for this Recommendation, the weight of the object measured on a weighing
+        instrument
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

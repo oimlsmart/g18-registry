@@ -26,8 +26,14 @@ data:
     g18_entry: '00621'
     definition: adjustment intended to eliminate the difference between the static
       load value and the dynamic load value
+    definition_paragraphs:
+    - text: adjustment intended to eliminate the difference between the static load
+        value and the dynamic load value
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '00621'
     definition: adjustment intended to eliminate the difference between the static
       load value and the dynamic load value
+    definition_paragraphs:
+    - text: adjustment intended to eliminate the difference between the static load
+        value and the dynamic load value
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

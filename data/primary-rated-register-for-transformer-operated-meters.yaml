@@ -26,8 +26,15 @@ data:
     definition: register where the scale factor(s) due to the used instrument transformer(s)
       is considered such that the measured energy on the primary side of the instrument
       transformer(s) is indicated
+    definition_paragraphs:
+    - text: register where the scale factor(s) due to the used instrument transformer(s)
+        is considered such that the measured energy on the primary side of the instrument
+        transformer(s) is indicated
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

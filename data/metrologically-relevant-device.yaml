@@ -26,8 +26,15 @@ data:
     definition: any device, module, part, component or function of instrument that
       may influence the weighing result or any other primary indication that is considered
       to be metrologically relevant
+    definition_paragraphs:
+    - text: any device, module, part, component or function of instrument that may
+        influence the weighing result or any other primary indication that is considered
+        to be metrologically relevant
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

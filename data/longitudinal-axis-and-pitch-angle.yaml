@@ -28,8 +28,16 @@ data:
       when the tank is in normal position. The vertical angle by which this axis is
       rotated is referred to as the pitch angle. It is positive ifthe front part of
       the tank is lifted
+    definition_paragraphs:
+    - text: symmetry axis of the tank parallel to the main direction of travel, when
+        the tank is in normal position. The vertical angle by which this axis is rotated
+        is referred to as the pitch angle. It is positive ifthe front part of the
+        tank is lifted
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -45,8 +53,16 @@ data:
       when the tank is in normal position. The vertical angle by which this axis is
       rotated is referred to as the pitch angle. It is positive if the front part
       of the tank is lifted
+    definition_paragraphs:
+    - text: symmetry axis of the tank parallel to the main direction of travel, when
+        the tank is in normal position. The vertical angle by which this axis is rotated
+        is referred to as the pitch angle. It is positive if the front part of the
+        tank is lifted
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -62,8 +78,16 @@ data:
       when the tank is in normal position. The vertical angle by which this axis is
       rotated is referred to as the pitch angle. It is positive if the front part
       of the tank is lifted
+    definition_paragraphs:
+    - text: symmetry axis of the tank parallel to the main direction of travel, when
+        the tank is in normal position. The vertical angle by which this axis is rotated
+        is referred to as the pitch angle. It is positive if the front part of the
+        tank is lifted
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

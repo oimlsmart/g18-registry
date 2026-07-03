@@ -25,11 +25,21 @@ data:
     g18_entry: '03294'
     definition: mode in which the EBA is subject to metrological control such as verification
       or adjustment
+    definition_paragraphs:
+    - text: mode in which the EBA is subject to metrological control such as verification
+        or adjustment
+      sources: []
     notes:
     - 'Note: In this mode, more information will be available compared to the measuring
       mode (e.g. higher resolution, intermediate results, etc.), and access to maintenance
       and adjustment means is possible.'
+    note_paragraphs:
+    - text: 'Note: In this mode, more information will be available compared to the
+        measuring mode (e.g. higher resolution, intermediate results, etc.), and access
+        to maintenance and adjustment means is possible.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

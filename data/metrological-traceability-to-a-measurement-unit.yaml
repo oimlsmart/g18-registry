@@ -31,10 +31,19 @@ data:
     g18_entry: '03297'
     definition: metrological traceability where the reference is a definition of measurement
       unit throught its practical realisation
+    definition_paragraphs:
+    - text: metrological traceability where the reference is a definition of measurement
+        unit throught its practical realisation
+      sources: []
     notes:
     - 'Note: The expression “traceability to the SI” means ‘metrological traceability
       to a measurement unit of the International System of Units’.'
+    note_paragraphs:
+    - text: 'Note: The expression “traceability to the SI” means ‘metrological traceability
+        to a measurement unit of the International System of Units’.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

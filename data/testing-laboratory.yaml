@@ -28,12 +28,26 @@ data:
       by the Issuing Authority to carry out examination and testing of a sample or
       samples of a measuring instrument submitted for evaluation, with the Issuing
       Authority assuming responsibility for the evaluation report"
+    definition_paragraphs:
+    - text: "- G.3-1 any necessary specialized laboratory or laboratories designated
+        by the Issuing Authority to carry out examination and testing of a sample
+        or samples of a measuring instrument submitted for evaluation, with the Issuing
+        Authority assuming responsibility for the evaluation report"
+      sources: []
     notes:
     - 1. When used in connection with the MAA, a Testing Laboratory may be part of
       the organization containing the OIML Issuing Authority, or a subcontracting
       Testing Laboratory of the OIML Issuing Authority.
     - 2. A Testing Laboratory may be a subcontractor of an inspection body.
+    note_paragraphs:
+    - text: 1. When used in connection with the MAA, a Testing Laboratory may be part
+        of the organization containing the OIML Issuing Authority, or a subcontracting
+        Testing Laboratory of the OIML Issuing Authority.
+      sources: []
+    - text: 2. A Testing Laboratory may be a subcontractor of an inspection body.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -50,9 +64,20 @@ data:
       and testing of a sample or samples of a measuring instrument submitted for type
       evaluation, with the principal laboratory assuming responsibility for the evaluation
       results reported
+    definition_paragraphs:
+    - text: principal laboratory including any necessary specialized laboratory or
+        laboratories designated by the Issuing Authority to carry out examination
+        and testing of a sample or samples of a measuring instrument submitted for
+        type evaluation, with the principal laboratory assuming responsibility for
+        the evaluation results reported
+      sources: []
     notes:
     - See Note under 3.11.
+    note_paragraphs:
+    - text: See Note under 3.11.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -66,8 +91,14 @@ data:
     g18_entry: '00132'
     definition: a laboratory which measures, examines, tests, calibrates or otherwise
       determines the characteristics or performance of materials or products
+    definition_paragraphs:
+    - text: a laboratory which measures, examines, tests, calibrates or otherwise
+        determines the characteristics or performance of materials or products
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -81,8 +112,14 @@ data:
     g18_entry: '00132'
     definition: a laboratory which measures, examines, tests, calibrates or otherwise
       determines the characteristics or performance of materials or products
+    definition_paragraphs:
+    - text: a laboratory which measures, examines, tests, calibrates or otherwise
+        determines the characteristics or performance of materials or products
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

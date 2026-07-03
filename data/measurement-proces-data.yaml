@@ -25,11 +25,22 @@ data:
     g18_entry: '03256'
     definition: data used during the measurement process to construct the measurement
       result
+    definition_paragraphs:
+    - text: data used during the measurement process to construct the measurement
+        result
+      sources: []
     notes:
     - Examples of measurement process data include values of measurement parameters,
       values of connection settings or values of session parameters.
     - See Annex C for clarification regarding measurement-related terms.
+    note_paragraphs:
+    - text: Examples of measurement process data include values of measurement parameters,
+        values of connection settings or values of session parameters.
+      sources: []
+    - text: See Annex C for clarification regarding measurement-related terms.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

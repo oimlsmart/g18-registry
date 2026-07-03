@@ -26,8 +26,16 @@ data:
     definition: publication addressing categories of measuring instruments or devices
       that includes metrological and technical performance requirements, a test procedure
       for evaluating conformity to the requirements, and a Test Report Format
+    definition_paragraphs:
+    - text: publication addressing categories of measuring instruments or devices
+        that includes metrological and technical performance requirements, a test
+        procedure for evaluating conformity to the requirements, and a Test Report
+        Format
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

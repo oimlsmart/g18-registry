@@ -27,8 +27,15 @@ data:
     definition: totalization indicating device that indicates the sum of the weight
       values of all consecutive loads weighed and discharged tobulk. This device is
       not resettable to zero by the user
+    definition_paragraphs:
+    - text: totalization indicating device that indicates the sum of the weight values
+        of all consecutive loads weighed and discharged tobulk. This device is not
+        resettable to zero by the user
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -43,8 +50,15 @@ data:
     definition: totalization indicating device that indicates the sum of the weight
       values of all consecutive loads weighed and discharged to bulk. This device
       is not resettable to zero by the user
+    definition_paragraphs:
+    - text: totalization indicating device that indicates the sum of the weight values
+        of all consecutive loads weighed and discharged to bulk. This device is not
+        resettable to zero by the user
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

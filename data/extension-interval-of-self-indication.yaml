@@ -26,8 +26,14 @@ data:
     g18_entry: '00944'
     definition: value by which it is possible to extend the range of self- indication
       within the weighing range
+    definition_paragraphs:
+    - text: value by which it is possible to extend the range of self- indication
+        within the weighing range
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '00944'
     definition: value by which it is possible to extend the range of self-indication
       within the weighing range
+    definition_paragraphs:
+    - text: value by which it is possible to extend the range of self-indication within
+        the weighing range
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

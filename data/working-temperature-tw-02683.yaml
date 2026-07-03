@@ -24,8 +24,13 @@ data:
     link:
     g18_entry: '02683'
     definition: temperature of the gas to be measured at the gas meter
+    definition_paragraphs:
+    - text: temperature of the gas to be measured at the gas meter
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

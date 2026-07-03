@@ -25,8 +25,14 @@ data:
     g18_entry: '03737'
     definition: Device to orient the speed meter such that the azimuth and/or elevation
       are correct
+    definition_paragraphs:
+    - text: Device to orient the speed meter such that the azimuth and/or elevation
+        are correct
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

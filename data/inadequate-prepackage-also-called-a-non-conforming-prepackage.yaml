@@ -25,8 +25,14 @@ data:
     g18_entry: '01111'
     definition: prepackage with an individual prepackage error (see 2.5) less than
       the nominal quantity (also called a negative error)
+    definition_paragraphs:
+    - text: prepackage with an individual prepackage error (see 2.5) less than the
+        nominal quantity (also called a negative error)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

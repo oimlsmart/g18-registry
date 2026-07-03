@@ -35,9 +35,17 @@ data:
     g18_entry: '02200'
     definition: device intended to be used to make measurements, alone or in conjunction
       with supplementary device(s)
+    definition_paragraphs:
+    - text: device intended to be used to make measurements, alone or in conjunction
+        with supplementary device(s)
+      sources: []
     notes:
     - "[VIM:1993, 4.1]"
+    note_paragraphs:
+    - text: "[VIM:1993, 4.1]"
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -51,9 +59,17 @@ data:
     g18_entry: '01881'
     definition: instrument intended to be used to make measurements, alone or in conjunction
       with supplementary device(s)
+    definition_paragraphs:
+    - text: instrument intended to be used to make measurements, alone or in conjunction
+        with supplementary device(s)
+      sources: []
     notes:
     - "[VIM:1993, 4.1]"
+    note_paragraphs:
+    - text: "[VIM:1993, 4.1]"
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -67,8 +83,14 @@ data:
     g18_entry: '00079'
     definition: device intended to be used to make measurements, alone or in conjunction
       with supplementary device(s) (VIM:1993, 4.1)
+    definition_paragraphs:
+    - text: device intended to be used to make measurements, alone or in conjunction
+        with supplementary device(s) (VIM:1993, 4.1)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -87,11 +109,27 @@ data:
     g18_entry: '00258'
     definition: a device intended to make a measurement, alone or in conjunction with
       other equipment
+    definition_paragraphs:
+    - text: a device intended to make a measurement, alone or in conjunction with
+        other equipment
+      sources:
+      - kind: other
+        relationship: identical
+        modification:
+        ref_source: OIML V 2:1984
+        ref_id: '4.01'
+        is_vimline: true
     notes:
     - 'In this Document, the term measuring instrument is used as a common denomination
       covering: material measures, measuring instruments, measuring transducers and
       measuring systems.'
+    note_paragraphs:
+    - text: 'In this Document, the term measuring instrument is used as a common denomination
+        covering: material measures, measuring instruments, measuring transducers
+        and measuring systems.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: other
       relationship: identical
@@ -116,8 +154,20 @@ data:
     g18_entry: '03275'
     definition: device used for making measurements, alone or in conjunction with
       one or more supplementary devices
+    definition_paragraphs:
+    - text: device used for making measurements, alone or in conjunction with one
+        or more supplementary devices
+      sources:
+      - kind: viml
+        relationship: modified
+        modification:
+        ref_source: OIML V 1:2022
+        ref_id: '0.10'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: modified
@@ -137,11 +187,28 @@ data:
     g18_entry: '03277'
     definition: device used for making measurements, alone or in conjunction with
       one or more supplementary devices
+    definition_paragraphs:
+    - text: device used for making measurements, alone or in conjunction with one
+        or more supplementary devices
+      sources:
+      - kind: vim
+        relationship: identical
+        modification:
+        ref_source: OIML V 2-200:2012
+        ref_id: '3.1'
+        is_vimline: true
     notes:
     - A measuring instrument that can be used alone is a measuring system.
     - A measuring instrument that may be an indicationg measuring instrumentor material
       measure.
+    note_paragraphs:
+    - text: A measuring instrument that can be used alone is a measuring system.
+      sources: []
+    - text: A measuring instrument that may be an indicationg measuring instrumentor
+        material measure.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: vim
       relationship: identical
@@ -161,11 +228,22 @@ data:
     g18_entry: '03278'
     definition: device used for making measurements, alone or in conjunction with
       one or more supplementary devices (VIM3, 3.1)
+    definition_paragraphs:
+    - text: device used for making measurements, alone or in conjunction with one
+        or more supplementary devices (VIM3, 3.1)
+      sources: []
     notes:
     - A measuring instrument that can be used alone is a measuring system.
     - A measuring instrument that may be an indicationg measuring instrumentor material
       measure.
+    note_paragraphs:
+    - text: A measuring instrument that can be used alone is a measuring system.
+      sources: []
+    - text: A measuring instrument that may be an indicationg measuring instrumentor
+        material measure.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -179,9 +257,23 @@ data:
     g18_entry: '03276'
     definition: device used for making measurements, alone or in conjunction with
       one or more supplementary devices
+    definition_paragraphs:
+    - text: device used for making measurements, alone or in conjunction with one
+        or more supplementary devices
+      sources:
+      - kind: vim
+        relationship: identical
+        modification:
+        ref_source: OIML V 2-200:2012
+        ref_id: '3.1'
+        is_vimline: true
     notes:
     - 'Note: A measuring instrument that can be used alone is a measuring system.'
+    note_paragraphs:
+    - text: 'Note: A measuring instrument that can be used alone is a measuring system.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: vim
       relationship: identical
@@ -206,6 +298,15 @@ data:
       a specific evaluation of conformity. VIM 3.1 – measuring instrument device used
       for making measurements, alone or in conjunction with one or more supplementary
       devices
+    definition_paragraphs:
+    - text: In this Document, the term “measuring instrument” covers measuring instruments
+        in the sense of the VIM (see VIM, 3.1), as well as measuring systems (VIM,
+        3.2), material measures (VIM, 3.6) and any part of a measuring instrument
+        or measuring system which can be the object of specific requirements and of
+        a specific evaluation of conformity. VIM 3.1 – measuring instrument device
+        used for making measurements, alone or in conjunction with one or more supplementary
+        devices
+      sources: []
     notes:
     - A measuring instrument that can be used alone is a measuring system.
     - A measuring instrument may be an indicating measuring instrument or a material
@@ -218,7 +319,25 @@ data:
     - VIM 3.6 – material measure measuring instrument reproducing or supplying, in
       a permanent manner during its use, quantities of one or more given kinds, each
       with an assigned quantity value
+    note_paragraphs:
+    - text: A measuring instrument that can be used alone is a measuring system.
+      sources: []
+    - text: A measuring instrument may be an indicating measuring instrument or a
+        material measure.
+      sources: []
+    - text: VIM 3.2 – measuring system set of one or more measuring instruments and
+        often other devices, including any reagent and supply, assembled and adapted
+        to give information used to generate measured quantity values within specified
+        intervals for quantities of specified kinds
+      sources: []
+    - text: A measuring system may consist of only one measuring instrument.
+      sources: []
+    - text: VIM 3.6 – material measure measuring instrument reproducing or supplying,
+        in a permanent manner during its use, quantities of one or more given kinds,
+        each with an assigned quantity value
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -232,8 +351,14 @@ data:
     g18_entry: '01881'
     definition: device intended to be used to make measurements, alone or in  conjunction
       with supplementary device(s) [VIM:1993, 4.1]
+    definition_paragraphs:
+    - text: device intended to be used to make measurements, alone or in  conjunction
+        with supplementary device(s) [VIM:1993, 4.1]
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -247,11 +372,27 @@ data:
     g18_entry: '00258'
     definition: a device intended to make a measurement, alone or in conjunction with
       other equipment
+    definition_paragraphs:
+    - text: a device intended to make a measurement, alone or in conjunction with
+        other equipment
+      sources:
+      - kind: other
+        relationship: identical
+        modification:
+        ref_source: OIML V 2:1984
+        ref_id: '4.01'
+        is_vimline: true
     notes:
     - 'In this Document, the term measuring instrument is used as a common denominationcovering:
       material measures, measuring instruments, measuring transducers and measuring
       systems.'
+    note_paragraphs:
+    - text: 'In this Document, the term measuring instrument is used as a common denominationcovering:
+        material measures, measuring instruments, measuring transducers and measuring
+        systems.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: other
       relationship: identical

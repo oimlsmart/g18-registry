@@ -28,8 +28,16 @@ data:
       connecting two or more fixed tanks. Such a pipeline is characterized by a flowrate
       of the liquid to be measured which, in general, either does not change or changes
       little during a prolonged period
+    definition_paragraphs:
+    - text: measuring system which in principle is installed on a fixed pipeline connecting
+        two or more fixed tanks. Such a pipeline is characterized by a flowrate of
+        the liquid to be measured which, in general, either does not change or changes
+        little during a prolonged period
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -43,11 +51,21 @@ data:
     g18_entry: '03367'
     definition: measuring system which (in principle) is installed on a fixed pipeline
       connecting two or more fixed tanks
+    definition_paragraphs:
+    - text: measuring system which (in principle) is installed on a fixed pipeline
+        connecting two or more fixed tanks
+      sources: []
     notes:
     - 'Note: Such a pipeline is characterized by a flowrate of the liquid to be measured
       which, in general, either does not change or changes little during a prolonged
       period'
+    note_paragraphs:
+    - text: 'Note: Such a pipeline is characterized by a flowrate of the liquid to
+        be measured which, in general, either does not change or changes little during
+        a prolonged period'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

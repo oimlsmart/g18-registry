@@ -25,8 +25,14 @@ data:
     g18_entry: '01705'
     definition: devices such as indicators that repeat the indication, ticket printers,
       card readers, data input terminals, etc
+    definition_paragraphs:
+    - text: devices such as indicators that repeat the indication, ticket printers,
+        card readers, data input terminals, etc
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -25,10 +25,19 @@ data:
     g18_entry: '02213'
     definition: Part of the metrological supervision which consists in examining whether
       instruments subject to legal metrology control are correctly used.
+    definition_paragraphs:
+    - text: Part of the metrological supervision which consists in examining whether
+        instruments subject to legal metrology control are correctly used.
+      sources: []
     notes:
     - 'Note: For further terms and definitions see the publications of the OIML, the
       BIPM, and ILAC.'
+    note_paragraphs:
+    - text: 'Note: For further terms and definitions see the publications of the OIML,
+        the BIPM, and ILAC.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -31,6 +31,16 @@ data:
     g18_entry: '03296'
     definition: sequence of measurement standards and calibrations that is used to
       relate a measurement result to a reference
+    definition_paragraphs:
+    - text: sequence of measurement standards and calibrations that is used to relate
+        a measurement result to a reference
+      sources:
+      - kind: vim
+        relationship: identical
+        modification:
+        ref_source: OIML V 2-200:2007
+        ref_id: '2.42'
+        is_vimline: true
     notes:
     - A metrological traceability chain id defined through a calibration hierarchy.
     - A metrological traceability chain is used to establish metrological traceability
@@ -38,7 +48,18 @@ data:
     - A comparison between two measurement standards may be vied as a calibration
       if the comparison is used to chek and, if necessary, correct the quantity value
       and measurement uncertainty attributes to one of the measurement standards.
+    note_paragraphs:
+    - text: A metrological traceability chain id defined through a calibration hierarchy.
+      sources: []
+    - text: A metrological traceability chain is used to establish metrological traceability
+        of measurement result.
+      sources: []
+    - text: A comparison between two measurement standards may be vied as a calibration
+        if the comparison is used to chek and, if necessary, correct the quantity
+        value and measurement uncertainty attributes to one of the measurement standards.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: vim
       relationship: identical

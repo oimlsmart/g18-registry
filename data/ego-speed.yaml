@@ -24,8 +24,13 @@ data:
     link:
     g18_entry: '03752'
     definition: speed (relative to the road surface) of the speed meter during a measurement
+    definition_paragraphs:
+    - text: speed (relative to the road surface) of the speed meter during a measurement
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -28,9 +28,19 @@ data:
       ensuring that information transferred from one of these elements to another
       may not be tampered with by the user, by external influences or by fault of
       the system
+    definition_paragraphs:
+    - text: communication, physical or not, between elements of a measuring system
+        ensuring that information transferred from one of these elements to another
+        may not be tampered with by the user, by external influences or by fault of
+        the system
+      sources: []
     notes:
     - This is accomplished by sealing devices and/or checking facilities.
+    note_paragraphs:
+    - text: This is accomplished by sealing devices and/or checking facilities.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -46,9 +56,19 @@ data:
       ensuring that information transferred from one of these elements to another
       may not be tampered with by the user, by external influences or by fault of
       the system
+    definition_paragraphs:
+    - text: communication, physical or not, between elements of a measuring system
+        ensuring that information transferred from one of these elements to another
+        may not be tampered with by the user, by external influences or by fault of
+        the system
+      sources: []
     notes:
     - 'Note: This is accomplished by sealing devices and/or checking facilities.'
+    note_paragraphs:
+    - text: 'Note: This is accomplished by sealing devices and/or checking facilities.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

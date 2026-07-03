@@ -27,8 +27,16 @@ data:
       OIML type evaluation reports for types of measuring instruments (including families
       of measuring instruments, modules or families of modules), based on the requirements
       in the relevant OIML Recommendation(s) (OIML B 18, 3.26)
+    definition_paragraphs:
+    - text: system for issuing, registering and using OIML Certificates and associated
+        OIML type evaluation reports for types of measuring instruments (including
+        families of measuring instruments, modules or families of modules), based
+        on the requirements in the relevant OIML Recommendation(s) (OIML B 18, 3.26)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

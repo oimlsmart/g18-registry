@@ -26,8 +26,14 @@ data:
     g18_entry: '02135'
     definition: means to adjust the indication of the gas analyzer to the value of
       the SO2 volume fraction in a CGM
+    definition_paragraphs:
+    - text: means to adjust the indication of the gas analyzer to the value of the
+        SO2 volume fraction in a CGM
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '02764'
     definition: means to adjust the indication of the gas analyzer to the value of
       the CO, NO and NO2 volume fraction in a CGM
+    definition_paragraphs:
+    - text: means to adjust the indication of the gas analyzer to the value of the
+        CO, NO and NO2 volume fraction in a CGM
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -56,8 +68,14 @@ data:
     g18_entry: '02135'
     definition: means to adjust the indication of the gas analyzer to the value of
       the SO2 volume fraction in a CGM
+    definition_paragraphs:
+    - text: means to adjust the indication of the gas analyzer to the value of the
+        SO2 volume fraction in a CGM
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

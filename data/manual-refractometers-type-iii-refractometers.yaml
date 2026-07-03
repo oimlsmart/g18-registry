@@ -27,12 +27,26 @@ data:
       the indication are visible throught an eye-piece and cannot be seen by all interested
       parties simultaneously. The result is obtained by seeking the graduation lin
       that coincides with the line which separates the clear zone from the dark zone
+    definition_paragraphs:
+    - text: instrument in which the test sample is supplied to the device manually,
+        the indication are visible throught an eye-piece and cannot be seen by all
+        interested parties simultaneously. The result is obtained by seeking the graduation
+        lin that coincides with the line which separates the clear zone from the dark
+        zone
+      sources: []
     notes:
     - 'Note: Type III refractometers shall meet the following main provisions: they
       shall use the phenomenon of light refraction, which is the only method that
       guarantees sufficient readability on this type of instrument; they shall be
       equipped with a built-in thermometer, so as to allow temperature corrctions.'
+    note_paragraphs:
+    - text: 'Note: Type III refractometers shall meet the following main provisions:
+        they shall use the phenomenon of light refraction, which is the only method
+        that guarantees sufficient readability on this type of instrument; they shall
+        be equipped with a built-in thermometer, so as to allow temperature corrctions.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -26,8 +26,14 @@ data:
     g18_entry: '01137'
     definition: the volume of liquid the tank contains under rated operating conditions,
       at reference temperature
+    definition_paragraphs:
+    - text: the volume of liquid the tank contains under rated operating conditions,
+        at reference temperature
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '01137'
     definition: the volume of liquid the tank contains under rated operating conditions,
       at reference temperature
+    definition_paragraphs:
+    - text: the volume of liquid the tank contains under rated operating conditions,
+        at reference temperature
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

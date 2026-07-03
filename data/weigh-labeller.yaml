@@ -26,8 +26,14 @@ data:
     g18_entry: '00563'
     definition: "(e catchweigher that labels individual pre-assembled discrete loads
       .g. prepackages) with the weight value"
+    definition_paragraphs:
+    - text: "(e catchweigher that labels individual pre-assembled discrete loads .g.
+        prepackages) with the weight value"
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '00563'
     definition: catchweigher that labels individual pre-assembled discrete loads (e.g.
       prepackages) with the weight value
+    definition_paragraphs:
+    - text: catchweigher that labels individual pre-assembled discrete loads (e.g.
+        prepackages) with the weight value
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -26,8 +26,13 @@ data:
     g18_entry: '02206'
     definition: to prevent unauthorized access to the device's hardware or software
       part
+    definition_paragraphs:
+    - text: to prevent unauthorized access to the device's hardware or software part
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -40,9 +45,22 @@ data:
     link:
     g18_entry: '03477'
     definition: means preventing unauthorised access to hardware or software
+    definition_paragraphs:
+    - text: means preventing unauthorised access to hardware or software
+      sources:
+      - kind: viml
+        relationship: modified
+        modification:
+        ref_source: OIML V 1:2022
+        ref_id: '2.21'
+        is_vimline: true
     notes:
     - 'Note: This may be achieved by means of passwords.'
+    note_paragraphs:
+    - text: 'Note: This may be achieved by means of passwords.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: modified

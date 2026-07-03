@@ -31,6 +31,10 @@ data:
     g18_entry: '03259'
     definition: set of quantity values being attributed to a measurand together with
       any other available relevant information adapted from [V 2-200:2012, 2.9]
+    definition_paragraphs:
+    - text: set of quantity values being attributed to a measurand together with any
+        other available relevant information adapted from [V 2-200:2012, 2.9]
+      sources: []
     notes:
     - The relevant information may consist of e.g. measurement uncertainty, date and
       time of measurement, number of measurement, identification of sensor and in
@@ -39,7 +43,20 @@ data:
     - The measurement result (including the measured quantity value according to V
       2:200:2012) is used for the legally relevant purpousae, e.g. conclusion of transaction.
     - See Annex C for clarification regarding measurement-related terms.
+    note_paragraphs:
+    - text: The relevant information may consist of e.g. measurement uncertainty,
+        date and time of measurement, number of measurement, identification of sensor
+        and in the case where price calculation is part of legally relevant software,
+        unit price and price to pay.
+      sources: []
+    - text: The measurement result (including the measured quantity value according
+        to V 2:200:2012) is used for the legally relevant purpousae, e.g. conclusion
+        of transaction.
+      sources: []
+    - text: See Annex C for clarification regarding measurement-related terms.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -54,6 +71,11 @@ data:
     definition: 'In the contex of this Document, result is defined as: set of quantity
       values being attributed to a measurand together with any other available relevant
       information (VIM3, 2.9)'
+    definition_paragraphs:
+    - text: 'In the contex of this Document, result is defined as: set of quantity
+        values being attributed to a measurand together with any other available relevant
+        information (VIM3, 2.9)'
+      sources: []
     notes:
     - A measurement result generally contains "relevant information" about the set
       of quantity values, such that some may be more representative of the measureand
@@ -68,7 +90,25 @@ data:
       result was defined as value attributed to a measurand and explained to mean
       an indication, or an uncorrected result, or a correxcted result, according to
       the context.
+    note_paragraphs:
+    - text: A measurement result generally contains "relevant information" about the
+        set of quantity values, such that some may be more representative of the measureand
+        than others. This may be expressed in the form of probability density function
+        (PDF).
+      sources: []
+    - text: A measurement result is generally expressed as single measured quantity
+        value and a measurement uncertainty. If the measurement uncertainty is considered
+        to be negligible for some purpose, the measurement result may be expressed
+        as single measured quantity value. In many fields, this is the common way
+        of expressing a measurement result.
+      sources: []
+    - text: In the traditional literature and in the precious edition of the VIM,
+        measurement result was defined as value attributed to a measurand and explained
+        to mean an indication, or an uncorrected result, or a correxcted result, according
+        to the context.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -82,8 +122,14 @@ data:
     g18_entry: '03672'
     definition: set of quantity values being attributed to a measurand together with
       any other available relevant information (VIM 2.9)
+    definition_paragraphs:
+    - text: set of quantity values being attributed to a measurand together with any
+        other available relevant information (VIM 2.9)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

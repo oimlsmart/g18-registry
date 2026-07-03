@@ -27,10 +27,27 @@ data:
     definition: measuring instrument intended to measure an electrical or non- 1.
       For the purpose of this Document, ancillary electrical quantity using electronic
       means and/or equipped with electronic devices
+    definition_paragraphs:
+    - text: measuring instrument intended to measure an electrical or non- 1. For
+        the purpose of this Document, ancillary electrical quantity using electronic
+        means and/or equipped with electronic devices
+      sources:
+      - kind: other
+        relationship: identical
+        modification:
+        ref_source: OIML D011:2004
+        ref_id: '3.1'
+        is_vimline: false
     notes:
     - For the purpose of this Document, ancillary equipment, as long as it is subject
       to legal metrological control, is considered to be part of the measuring instrument.
+    note_paragraphs:
+    - text: For the purpose of this Document, ancillary equipment, as long as it is
+        subject to legal metrological control, is considered to be part of the measuring
+        instrument.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -45,10 +62,20 @@ data:
     definition: measuring instrument intended to measure an electrical or non- For
       the purpose of this Document, auxiliary electrical quantity using electronic
       means and/or equipped with electronic devices
+    definition_paragraphs:
+    - text: measuring instrument intended to measure an electrical or non- For the
+        purpose of this Document, auxiliary electrical quantity using electronic means
+        and/or equipped with electronic devices
+      sources: []
     notes:
     - equipment, provided that it is subject to metrological control, is considered
       to be a par of the measuring instrument.
+    note_paragraphs:
+    - text: equipment, provided that it is subject to metrological control, is considered
+        to be a par of the measuring instrument.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -62,11 +89,21 @@ data:
     g18_entry: '03028'
     definition: measuring instrument intended to measure an electrical or non-electrical
       quantity using electronic means and/or equipped with electronic parts
+    definition_paragraphs:
+    - text: measuring instrument intended to measure an electrical or non-electrical
+        quantity using electronic means and/or equipped with electronic parts
+      sources: []
     notes:
     - 'Note: For the purpose of this Document, auxiliary equipment, provided that
       it is subject to legal metrological control, is considered to be part of the
       measuring instrument. [OIML D 11:2013, 3.1]'
+    note_paragraphs:
+    - text: 'Note: For the purpose of this Document, auxiliary equipment, provided
+        that it is subject to legal metrological control, is considered to be part
+        of the measuring instrument. [OIML D 11:2013, 3.1]'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -80,8 +117,14 @@ data:
     g18_entry: '03030'
     definition: instrument intended to measure an electrical or non-electrical quantity
       using electronic means and/or equipped with electronic devices
+    definition_paragraphs:
+    - text: instrument intended to measure an electrical or non-electrical quantity
+        using electronic means and/or equipped with electronic devices
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -95,8 +138,20 @@ data:
     g18_entry: '03029'
     definition: instrument intended to measure an electrical or non-electrical quantity
       using electronic means and/or equipped with electronic devices
+    definition_paragraphs:
+    - text: instrument intended to measure an electrical or non-electrical quantity
+        using electronic means and/or equipped with electronic devices
+      sources:
+      - kind: other
+        relationship: identical
+        modification:
+        ref_source: OIML D011:2013
+        ref_id: '3.1'
+        is_vimline: false
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -110,11 +165,21 @@ data:
     g18_entry: '02215'
     definition: instrument intended to measure an electrical or non-electrical quantity
       using electronic means and/or equipped with electronic devices
+    definition_paragraphs:
+    - text: instrument intended to measure an electrical or non-electrical quantity
+        using electronic means and/or equipped with electronic devices
+      sources: []
     notes:
     - Note:For the purpose of this Document, auxiliary equipment, provided that it
       is subject to metrological control, is considered to be a part of the measuring
       instrument.
+    note_paragraphs:
+    - text: Note:For the purpose of this Document, auxiliary equipment, provided that
+        it is subject to metrological control, is considered to be a part of the measuring
+        instrument.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

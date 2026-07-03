@@ -26,9 +26,23 @@ data:
     g18_entry: '02216'
     definition: part of an electronic device employing electronic components and having
       a recognizable function of its own
+    definition_paragraphs:
+    - text: part of an electronic device employing electronic components and having
+        a recognizable function of its own
+      sources:
+      - kind: other
+        relationship: identical
+        modification:
+        ref_source: OIML D011:2004
+        ref_id: '3.3'
+        is_vimline: false
     notes: []
+    note_paragraphs: []
     examples:
     - Amplifiers, comparators, power converters, etc.
+    example_paragraphs:
+    - text: Amplifiers, comparators, power converters, etc.
+      sources: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +55,13 @@ data:
     link:
     g18_entry: '02299-R046-1'
     definition: part of a device having a recognizable function of its own
+    definition_paragraphs:
+    - text: part of a device having a recognizable function of its own
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

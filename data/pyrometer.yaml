@@ -25,8 +25,14 @@ data:
     g18_entry: '02830'
     definition: thermometer using the optical radiation of a source and indicating
       temperature values which are calibrated and traceable to (inter)national standards
+    definition_paragraphs:
+    - text: thermometer using the optical radiation of a source and indicating temperature
+        values which are calibrated and traceable to (inter)national standards
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

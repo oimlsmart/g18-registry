@@ -30,8 +30,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r099-1-e08.pdf
     g18_entry: '02371'
     definition: value of the number without regard to its sign
+    definition_paragraphs:
+    - text: value of the number without regard to its sign
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

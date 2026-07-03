@@ -33,8 +33,14 @@ data:
     g18_entry: '00427'
     definition: "[a error (of indication) divided by the actual volume dapted from
       VIM:1993, 3.12]"
+    definition_paragraphs:
+    - text: "[a error (of indication) divided by the actual volume dapted from VIM:1993,
+        3.12]"
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

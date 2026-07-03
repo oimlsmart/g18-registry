@@ -26,8 +26,13 @@ data:
     g18_entry: '00342'
     definition: part of a measuring instrument, device or software subject to legal
       control
+    definition_paragraphs:
+    - text: part of a measuring instrument, device or software subject to legal control
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -40,8 +45,13 @@ data:
     link:
     g18_entry: '03718'
     definition: subject to legal control
+    definition_paragraphs:
+    - text: subject to legal control
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -54,6 +64,9 @@ data:
     link:
     g18_entry: '03184'
     definition: subject to legal control
+    definition_paragraphs:
+    - text: subject to legal control
+      sources: []
     notes:
     - If a measuring instrument is under legal control, then the measurement data,
       software and parameters that are critical for the metrological characteristics,
@@ -62,7 +75,18 @@ data:
     - The relevant Recommendations define what is legally relevant and formulate requirements
       to those items (e.g., data, functions, securing and protection features and
       information for the completion of the transaction).
+    note_paragraphs:
+    - text: If a measuring instrument is under legal control, then the measurement
+        data, software and parameters that are critical for the metrological characteristics,
+        including the metrological functions, securing and protection features, and/or
+        for the completion of the transaction, are also under legal control.
+      sources: []
+    - text: The relevant Recommendations define what is legally relevant and formulate
+        requirements to those items (e.g., data, functions, securing and protection
+        features and information for the completion of the transaction).
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -76,8 +100,14 @@ data:
     g18_entry: '03185'
     definition: attribute of a part of a measuring instrument, device or software
       subject to legal control (OIML V 1, 4.08)
+    definition_paragraphs:
+    - text: attribute of a part of a measuring instrument, device or software subject
+        to legal control (OIML V 1, 4.08)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -93,8 +123,22 @@ data:
       measuring instrument which interferes with properties regulated by legal metrology,
       e.g. the accuracy of the measurement or the correct functioning of the measuring
       instrument
+    definition_paragraphs:
+    - text: software/hardware/data or part of the software/hardware/data of a measuring
+        instrument which interferes with properties regulated by legal metrology,
+        e.g. the accuracy of the measurement or the correct functioning of the measuring
+        instrument
+      sources:
+      - kind: other
+        relationship: identical
+        modification:
+        ref_source: OIML D031:2008
+        ref_id: 3.1.29
+        is_vimline: false
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -110,8 +154,22 @@ data:
       measuring instrument which interferes with properties regulated under legal
       metrology, e.g. the accuracy of the measurement or the correct functioning of
       the measuring instrument
+    definition_paragraphs:
+    - text: software/hardware/data or part of the software/hardware/data of a measuring
+        instrument which interferes with properties regulated under legal metrology,
+        e.g. the accuracy of the measurement or the correct functioning of the measuring
+        instrument
+      sources:
+      - kind: other
+        relationship: identical
+        modification:
+        ref_source: OIML D031:2008
+        ref_id: 3.1.29
+        is_vimline: false
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -125,8 +183,13 @@ data:
     g18_entry: '02536'
     definition: part of a measuring instrument, device or software subject to legal
       control
+    definition_paragraphs:
+    - text: part of a measuring instrument, device or software subject to legal control
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -140,8 +203,13 @@ data:
     g18_entry: '00342'
     definition: part of a measuring instrument, device or software subject to legal
       control
+    definition_paragraphs:
+    - text: part of a measuring instrument, device or software subject to legal control
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -155,8 +223,20 @@ data:
     g18_entry: '02339-1'
     definition: attribute of a part of a measuring instrument, device or software
       subject to legal control
+    definition_paragraphs:
+    - text: attribute of a part of a measuring instrument, device or software subject
+        to legal control
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2013
+        ref_id: '4.08'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical

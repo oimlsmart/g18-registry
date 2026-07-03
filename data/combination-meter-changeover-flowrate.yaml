@@ -32,8 +32,15 @@ data:
     definition: change-over flowrate Qx1 is when flow stops in the larger meter with
       decreasing flowrate. Change-over flowrate Qx2 is when flow starts in the larger
       meter with increasing flowrate
+    definition_paragraphs:
+    - text: change-over flowrate Qx1 is when flow stops in the larger meter with decreasing
+        flowrate. Change-over flowrate Qx2 is when flow starts in the larger meter
+        with increasing flowrate
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

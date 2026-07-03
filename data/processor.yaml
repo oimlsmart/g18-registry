@@ -28,8 +28,17 @@ data:
       all the necessary signals from the measuring device to enable it to calculate
       the volume or other associated quantities. It may also store information, provide
       checking facilities for the information and communicate with auxiliary devices
+    definition_paragraphs:
+    - text: a device which contains all the necessary information and receives all
+        the necessary signals from the measuring device to enable it to calculate
+        the volume or other associated quantities. It may also store information,
+        provide checking facilities for the information and communicate with auxiliary
+        devices
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -46,8 +55,17 @@ data:
       the mass contained in the tank as well as other quantities. It may also store
       information, provide checking facilities for the information and communicate
       with ancillary devices
+    definition_paragraphs:
+    - text: a device which contains all the necessary information and receives all
+        the necessary signals from the transducers thus enabling it to calculate the
+        mass contained in the tank as well as other quantities. It may also store
+        information, provide checking facilities for the information and communicate
+        with ancillary devices
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -64,8 +82,17 @@ data:
       the mass contained in the tank as well as other quantities. It may also store
       information, provide checking facilities for the information and communicate
       with ancillary devices
+    definition_paragraphs:
+    - text: a device which contains all the necessary information and receives all
+        the necessary signals from the transducers thus enabling it to calculate the
+        mass contained in the tank as well as other quantities. It may also store
+        information, provide checking facilities for the information and communicate
+        with ancillary devices
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -25,8 +25,13 @@ data:
     g18_entry: '00750'
     definition: quantity of matter in any solid object or in any volume of liquid
       orgas
+    definition_paragraphs:
+    - text: quantity of matter in any solid object or in any volume of liquid orgas
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

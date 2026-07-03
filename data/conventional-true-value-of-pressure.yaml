@@ -27,8 +27,15 @@ data:
     definition: a pressure value that is considered sufficiently close to the corresponding
       true value to be substituted for that value for purpose of the evaluation of
       errors
+    definition_paragraphs:
+    - text: a pressure value that is considered sufficiently close to the corresponding
+        true value to be substituted for that value for purpose of the evaluation
+        of errors
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -43,8 +50,15 @@ data:
     definition: a pressure value that is considered sufficiently close to the corresponding
       true value to be substituted for that value for purpose of the evaluation of
       errors
+    definition_paragraphs:
+    - text: a pressure value that is considered sufficiently close to the corresponding
+        true value to be substituted for that value for purpose of the evaluation
+        of errors
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -30,8 +30,18 @@ data:
       (viscosity, temperature, pressure, etc.) and the pre-established calibration
       curves. The characteristics of the liquid shall either be measured using associated
       measuring devices, or stored in the memory of the instrument
+    definition_paragraphs:
+    - text: device connected to or incorporated in the meter for automatically correcting
+        the measured quantity at the time of measurement, by taking into account the
+        flowrate and/or the characteristics of the liquid to be measured (viscosity,
+        temperature, pressure, etc.) and the pre-established calibration curves. The
+        characteristics of the liquid shall either be measured using associated measuring
+        devices, or stored in the memory of the instrument
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -47,8 +57,16 @@ data:
       correcting the mass, by taking into account the flowrate and/or the characteristics
       of the gas to be measured (viscosity, temperature, pressure, etc.) and the pre-established
       calibration curves
+    definition_paragraphs:
+    - text: device connected to or incorporated in the meter for automatically correcting
+        the mass, by taking into account the flowrate and/or the characteristics of
+        the gas to be measured (viscosity, temperature, pressure, etc.) and the pre-established
+        calibration curves
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -65,10 +83,22 @@ data:
       account the flowrate and/or the characteristics of the gas to be measured (temperature,
       pressure, gas composition, etc.) and by also taking into account pre- established
       calibration curves
+    definition_paragraphs:
+    - text: device connected to or incorporated in the meter/and or a calculator for
+        automatically correcting the volume at metering conditions, by taking into
+        account the flowrate and/or the characteristics of the gas to be measured
+        (temperature, pressure, gas composition, etc.) and by also taking into account
+        pre- established calibration curves
+      sources: []
     notes:
     - The characteristics of the gas may either be measured using associated measuring
       instruments, or stored in a memory in the instrument.
+    note_paragraphs:
+    - text: The characteristics of the gas may either be measured using associated
+        measuring instruments, or stored in a memory in the instrument.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -86,8 +116,18 @@ data:
       pressure) and the pre-established calibration curves. The characteristics of
       the water to be measured may either be measured using associated measuring instruments,
       or be stored in a memory in the instrument
+    definition_paragraphs:
+    - text: device connected to or incorporated in the meter for automatically correcting
+        the volume at metering conditions, by taking into account the flowrate and/or
+        the characteristics of the water to be measured (e.g. temperature and pressure)
+        and the pre-established calibration curves. The characteristics of the water
+        to be measured may either be measured using associated measuring instruments,
+        or be stored in a memory in the instrument
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -101,8 +141,14 @@ data:
     g18_entry: '01932'
     definition: e. device intended for correction of known errors as a function of
       g. flowrate, Reynolds number (curve linearization), or pressure and/or temperature
+    definition_paragraphs:
+    - text: e. device intended for correction of known errors as a function of g.
+        flowrate, Reynolds number (curve linearization), or pressure and/or temperature
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -115,8 +161,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r061-1-e04.pdf
     g18_entry: '00770'
     definition: device which automatically corrects the setting of the filling instrument
+    definition_paragraphs:
+    - text: device which automatically corrects the setting of the filling instrument
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -134,8 +185,18 @@ data:
       pressure, etc.) and pre-established calibration curves. The characteristics
       of the liquid may either be measured using associated measuring instruments,
       or stored in a memory within the instrument
+    definition_paragraphs:
+    - text: a device connected to or incorporated in the meter for automatically correcting
+        the volume in metering conditions, by taking account of the flowrate and/or
+        the characteristics of the liquid to be measured (viscosity, temperature,
+        pressure, etc.) and pre-established calibration curves. The characteristics
+        of the liquid may either be measured using associated measuring instruments,
+        or stored in a memory within the instrument
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -151,10 +212,21 @@ data:
       of the volume of water at metering conditions (3.2.11), by taking into account
       the flow rate (3.3.1) and/or the characteristics of the water to be measured
       and the pre-established calibration curves
+    definition_paragraphs:
+    - text: device connected to or incorporated in the meter for automatic correction
+        of the volume of water at metering conditions (3.2.11), by taking into account
+        the flow rate (3.3.1) and/or the characteristics of the water to be measured
+        and the pre-established calibration curves
+      sources: []
     notes:
     - Note:For the definition of the term “correction”, see ISO?IEC Guide 99:2007/OIML
       V2-200:2012 (VIM), 2.53, [1].
+    note_paragraphs:
+    - text: Note:For the definition of the term “correction”, see ISO?IEC Guide 99:2007/OIML
+        V2-200:2012 (VIM), 2.53, [1].
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -170,8 +242,16 @@ data:
       correcting the mass, by taking into account the flow rate and/or the characteristics
       of the gas to be measured (viscosity, temperature, pressure, etc.) and the pre-established
       calibration curves
+    definition_paragraphs:
+    - text: device connected to or incorporated in the meter for automatically correcting
+        the mass, by taking into account the flow rate and/or the characteristics
+        of the gas to be measured (viscosity, temperature, pressure, etc.) and the
+        pre-established calibration curves
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -188,10 +268,21 @@ data:
       account the flowrate and/or the characteristics of the liquid to be measured
       (viscosity, temperature, pressure, etc.) and the pre-established calibration
       curves.
+    definition_paragraphs:
+    - text: device connected to or incorporated in the meter for automatically correcting
+        the measured quantity at the time of measurement, by taking into account the
+        flowrate and/or the characteristics of the liquid to be measured (viscosity,
+        temperature, pressure, etc.) and the pre-established calibration curves.
+      sources: []
     notes:
     - 'Note: The characteristics of the liquid shall either be measured using associated
       measuring devices, or stored in a memory in the instrument'
+    note_paragraphs:
+    - text: 'Note: The characteristics of the liquid shall either be measured using
+        associated measuring devices, or stored in a memory in the instrument'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -204,8 +295,13 @@ data:
     link:
     g18_entry: '02960'
     definition: device which automatically corrects the setting of the AGFI
+    definition_paragraphs:
+    - text: device which automatically corrects the setting of the AGFI
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -220,8 +316,14 @@ data:
     definition: device intended for correction of known errors as a function of e.g.
       flow rate, Reynolds number (curve linearization), or density, pressure and/or
       temperature
+    definition_paragraphs:
+    - text: device intended for correction of known errors as a function of e.g. flow
+        rate, Reynolds number (curve linearization), or density, pressure and/or temperature
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -238,10 +340,22 @@ data:
       account the flowrate and/or the characteristics of the gas to be measured (temperature,
       pressure, gas composition, etc.) and by also taking into account pre-established
       calibration curves
+    definition_paragraphs:
+    - text: device connected to or incorporated in the meter/and or a calculator for
+        automatically correcting the volume at metering conditions, by taking into
+        account the flowrate and/or the characteristics of the gas to be measured
+        (temperature, pressure, gas composition, etc.) and by also taking into account
+        pre-established calibration curves
+      sources: []
     notes:
     - 'Note: The characteristics of the gas may either be measured using associated
       measuring instruments, or stored in a memory in the instrument.'
+    note_paragraphs:
+    - text: 'Note: The characteristics of the gas may either be measured using associated
+        measuring instruments, or stored in a memory in the instrument.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -259,8 +373,18 @@ data:
       pressure, etc.) and pre-established calibration curves. The characteristics
       of the liquid may either be measured using associated measuring instruments,
       or stored in a memory within the instrument
+    definition_paragraphs:
+    - text: a device connected to or incorporated in the meter for automatically correcting
+        the volume in metering conditions, by taking account of the flowrate and/or
+        the characteristics of the liquid to be measured (viscosity, temperature,
+        pressure, etc.) and pre-established calibration curves. The characteristics
+        of the liquid may either be measured using associated measuring instruments,
+        or stored in a memory within the instrument
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -26,8 +26,14 @@ data:
     g18_entry: '00347'
     definition: device installed in a taxi that converts the distance to be measured
       into pulses or digital data which are passed to the taximeter
+    definition_paragraphs:
+    - text: device installed in a taxi that converts the distance to be measured into
+        pulses or digital data which are passed to the taximeter
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '00347'
     definition: device installed in a taxi that converts the distance to be measured
       into pulses or digital data which are passed to the taximeter
+    definition_paragraphs:
+    - text: device installed in a taxi that converts the distance to be measured into
+        pulses or digital data which are passed to the taximeter
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

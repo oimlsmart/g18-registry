@@ -25,8 +25,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r109-e93.pdf
     g18_entry: '01411'
     definition: a pressure greater than ambient pressure
+    definition_paragraphs:
+    - text: a pressure greater than ambient pressure
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -40,8 +45,14 @@ data:
     g18_entry: '01203'
     definition: a pressure greater than ambient pressure, the latter being considered
       as the datum point
+    definition_paragraphs:
+    - text: a pressure greater than ambient pressure, the latter being considered
+        as the datum point
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -54,8 +65,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r109-e93.pdf
     g18_entry: '01411'
     definition: a pressure greater than ambient pressure
+    definition_paragraphs:
+    - text: a pressure greater than ambient pressure
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -69,8 +85,14 @@ data:
     g18_entry: '01203'
     definition: a pressure greater than ambient pressure, the latter being considered
       as the datum point
+    definition_paragraphs:
+    - text: a pressure greater than ambient pressure, the latter being considered
+        as the datum point
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

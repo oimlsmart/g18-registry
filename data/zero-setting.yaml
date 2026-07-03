@@ -26,8 +26,14 @@ data:
     g18_entry: '00334'
     definition: 'mm procedure that corrects a deviation of the pressure reading to
       0 kPa (0 mmHg) at atmospheric pressure (gauge pressure: 0 kPa (0 Hg))'
+    definition_paragraphs:
+    - text: 'mm procedure that corrects a deviation of the pressure reading to 0 kPa
+        (0 mmHg) at atmospheric pressure (gauge pressure: 0 kPa (0 Hg))'
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '00334'
     definition: 'procedure that corrects a deviation of the pressure reading to 0
       kPa (0 mmHg) at atmospheric pressure (gauge pressure: 0 kPa (0 mmHg))'
+    definition_paragraphs:
+    - text: 'procedure that corrects a deviation of the pressure reading to 0 kPa
+        (0 mmHg) at atmospheric pressure (gauge pressure: 0 kPa (0 mmHg))'
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

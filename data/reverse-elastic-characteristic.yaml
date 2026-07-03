@@ -26,8 +26,14 @@ data:
     g18_entry: '00681'
     definition: relation between the displacement of the reference point and pressure,
       when the pressure decreases
+    definition_paragraphs:
+    - text: relation between the displacement of the reference point and pressure,
+        when the pressure decreases
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '00681'
     definition: relation between the displacement of the reference point and pressure
       when the pressure decreases
+    definition_paragraphs:
+    - text: relation between the displacement of the reference point and pressure
+        when the pressure decreases
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

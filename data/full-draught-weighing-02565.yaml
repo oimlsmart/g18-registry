@@ -25,8 +25,14 @@ data:
     g18_entry: '02565'
     definition: determining the mass of a wagon that is entirely supported on the
       load receptor(s)
+    definition_paragraphs:
+    - text: determining the mass of a wagon that is entirely supported on the load
+        receptor(s)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

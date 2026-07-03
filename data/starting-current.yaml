@@ -32,8 +32,15 @@ data:
     definition: lowest value of current specified by the manufacturer at which the
       meter should register electrical energy at unity power factor and, for poly-phase
       meters, with balanced load
+    definition_paragraphs:
+    - text: lowest value of current specified by the manufacturer at which the meter
+        should register electrical energy at unity power factor and, for poly-phase
+        meters, with balanced load
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

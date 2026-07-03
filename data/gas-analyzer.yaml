@@ -26,9 +26,17 @@ data:
     g18_entry: '02126'
     definition: assembly which enables qualitative and/or quantitative determinations
       (measurements) of substances on the basis of their chemical or physical properties
+    definition_paragraphs:
+    - text: assembly which enables qualitative and/or quantitative determinations
+        (measurements) of substances on the basis of their chemical or physical properties
+      sources: []
     notes:
     - "(ISO 7504: 2001)"
+    note_paragraphs:
+    - text: "(ISO 7504: 2001)"
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -43,10 +51,20 @@ data:
     definition: 'assembly which enables qualitative and/or quantitative determinations
       (measurements) of substances content on the basis of their chemical or physical
       properties [ISO 7504: 2001] [16]'
+    definition_paragraphs:
+    - text: 'assembly which enables qualitative and/or quantitative determinations
+        (measurements) of substances content on the basis of their chemical or physical
+        properties [ISO 7504: 2001] [16]'
+      sources: []
     notes:
     - 'Note: A gas analyzer measures all components covered by this Recommendation
       (CO, NO, NO2, or NOx), or measures only CO, or only NO and NO2, or NOx.'
+    note_paragraphs:
+    - text: 'Note: A gas analyzer measures all components covered by this Recommendation
+        (CO, NO, NO2, or NOx), or measures only CO, or only NO and NO2, or NOx.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -61,8 +79,15 @@ data:
     definition: 'assembly which enables qualitative and/or quantitative determinations
       (measurements) of substances on the basis of their chemical or physical properties
       [ISO 7504: 2001]'
+    definition_paragraphs:
+    - text: 'assembly which enables qualitative and/or quantitative determinations
+        (measurements) of substances on the basis of their chemical or physical properties
+        [ISO 7504: 2001]'
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

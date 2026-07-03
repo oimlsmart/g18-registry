@@ -24,8 +24,13 @@ data:
     link:
     g18_entry: '03462'
     definition: Resistance of the resistance thermometer at the temperature 0 °C.
+    definition_paragraphs:
+    - text: Resistance of the resistance thermometer at the temperature 0 °C.
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

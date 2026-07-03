@@ -26,8 +26,14 @@ data:
     g18_entry: '00508'
     definition: "( a device that indicates the percentage of the maximum capacity
       Max) or the mass of the load acting on the weighing unit at a given time"
+    definition_paragraphs:
+    - text: "( a device that indicates the percentage of the maximum capacity Max)
+        or the mass of the load acting on the weighing unit at a given time"
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '03146'
     definition: device that indicates the percentage of the maximum capacity, Max,
       or the mass of the load acting on the weighing module at a given time
+    definition_paragraphs:
+    - text: device that indicates the percentage of the maximum capacity, Max, or
+        the mass of the load acting on the weighing module at a given time
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

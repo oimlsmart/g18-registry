@@ -26,8 +26,14 @@ data:
     g18_entry: '02307'
     definition: additional device (ancillary device) repeating the indication of the
       indicating device
+    definition_paragraphs:
+    - text: additional device (ancillary device) repeating the indication of the indicating
+        device
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: 02307-R085-1
     definition: additional device (ancillary device) repeating the indication of the
       indicating device
+    definition_paragraphs:
+    - text: additional device (ancillary device) repeating the indication of the indicating
+        device
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

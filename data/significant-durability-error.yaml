@@ -32,12 +32,29 @@ data:
       measurement result; implies the impossibility to perform any measurement; or
       is so obviously wrong that it is bound to be noticed by all those interested
       in the result of measurement."
+    definition_paragraphs:
+    - text: "- - - durability error greater than e. (1) A durability error can be
+        due to errors, occurring after a period of instrument use, are not considered
+        to be significant durability errors, even when they exceed e, if they are
+        clearly the result of the failure of a device/component, or of a disturbance
+        and for which the indication: cannot be interpreted, memorized, or transmitted
+        as a measurement result; implies the impossibility to perform any measurement;
+        or is so obviously wrong that it is bound to be noticed by all those interested
+        in the result of measurement."
+      sources: []
     notes:
     - mechanical wear and tear or due to drift and ageing of electronic parts. The
       concept of significant durability error applies only to electronic parts. (2)
       For a multi-interval instrument, the value of e is that appropriate to the partial
       weighin range.
+    note_paragraphs:
+    - text: mechanical wear and tear or due to drift and ageing of electronic parts.
+        The concept of significant durability error applies only to electronic parts.
+        (2) For a multi-interval instrument, the value of e is that appropriate to
+        the partial weighin range.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -51,6 +68,10 @@ data:
     g18_entry: '00235'
     definition: durability error greater than the value specified in the relevant
       The relevant Recommendation may specify Recommendation
+    definition_paragraphs:
+    - text: durability error greater than the value specified in the relevant The
+        relevant Recommendation may specify Recommendation
+      sources: []
     notes:
     - 'that durability errors are not significant, even when they exceed the value
       defined in 3.12, in the following cases: (a) The indication cannot be interpreted,
@@ -59,7 +80,18 @@ data:
       wrong that it is bound to be noticed by all those intereste in the result of
       the measurement; or (d) A durability error cannot be detected and acted upon
       due to a breakdown of the appropriate durability protection facility.'
+    note_paragraphs:
+    - text: 'that durability errors are not significant, even when they exceed the
+        value defined in 3.12, in the following cases: (a) The indication cannot be
+        interpreted, memorized or transmitted as a measurement result; (b) The indication
+        implies the impossibility to perform any measurement; (c) The indication is
+        so obviously wrong that it is bound to be noticed by all those intereste in
+        the result of the measurement; or (d) A durability error cannot be detected
+        and acted upon due to a breakdown of the appropriate durability protection
+        facility.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -73,8 +105,19 @@ data:
     g18_entry: '01873'
     definition: durability error greater than the value specified in the appropriate
       Recommendation
+    definition_paragraphs:
+    - text: durability error greater than the value specified in the appropriate Recommendation
+      sources:
+      - kind: other
+        relationship: identical
+        modification:
+        ref_source: OIML D011:2004
+        ref_id: '3.12'
+        is_vimline: false
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -92,8 +135,18 @@ data:
       as significant when: – the indication cannot be interpreted, memorized or transmitted
       as a measurement result, – the indication is such that it is impossible to perform
       any measurement'
+    definition_paragraphs:
+    - text: 'for masses equal to or greater than the minimum measured quantity, a
+        durability error greater than one-fifth of the absolute value of the maximum
+        permissible error for the measured quantity. Durability errors are not considered
+        as significant when: – the indication cannot be interpreted, memorized or
+        transmitted as a measurement result, – the indication is such that it is impossible
+        to perform any measurement'
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -106,8 +159,19 @@ data:
     link:
     g18_entry: '03497'
     definition: durability error exceeding the value specified in this Recommendation
+    definition_paragraphs:
+    - text: durability error exceeding the value specified in this Recommendation
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2013
+        ref_id: '5.17'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical
@@ -126,9 +190,22 @@ data:
     link:
     g18_entry: '03498'
     definition: durability error exceeding the value specified in the applicable Recommendation
+    definition_paragraphs:
+    - text: durability error exceeding the value specified in the applicable Recommendation
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2013
+        ref_id: '5.17'
+        is_vimline: true
     notes:
     - "(For notes, refer to the VIML)"
+    note_paragraphs:
+    - text: "(For notes, refer to the VIML)"
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical
@@ -147,6 +224,15 @@ data:
     link:
     g18_entry: '02228-D011'
     definition: durability error exceeding the value specified in the applicable Recommendation
+    definition_paragraphs:
+    - text: durability error exceeding the value specified in the applicable Recommendation
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2013
+        ref_id: '5.17'
+        is_vimline: true
     notes:
     - 'Note:Some durability errors exceeding the value specified may still be considered
       not significant. The applicable Recommendation shall state when such exception
@@ -157,7 +243,19 @@ data:
       be noticed by all those interested in the result of the measurement; or (d)a
       durability error cannot be detected and acted upon due to a breakdown of the
       appropriate durability protection facility.'
+    note_paragraphs:
+    - text: 'Note:Some durability errors exceeding the value specified may still be
+        considered not significant. The applicable Recommendation shall state when
+        such exception applies. For example, the occurrence of one or some of the
+        following errors may be acceptable: (a)the indication cannot be interpreted,
+        memorized or transmitted as a measurement result; (b)the indication implies
+        the impossibility to perform any measurement; (c)the indication is so obviously
+        wrong that it is bound to be noticed by all those interested in the result
+        of the measurement; or (d)a durability error cannot be detected and acted
+        upon due to a breakdown of the appropriate durability protection facility.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical
@@ -182,12 +280,28 @@ data:
       or transmitted as a measurement result; implies the impossibility to perform
       any measurement; or is so obviously wrong that it is bound to be noticed by
       all those interested in the result of measurement.'
+    definition_paragraphs:
+    - text: 'durability error greater than e. errors, occurring after a period of
+        instrument use, are not considered to be significant durability errors, even
+        when they exceed e, if they are clearly the result of the failure of a device/component,
+        or of a disturbance and for which the indication: cannot be interpreted, memorized,
+        or transmitted as a measurement result; implies the impossibility to perform
+        any measurement; or is so obviously wrong that it is bound to be noticed by
+        all those interested in the result of measurement.'
+      sources: []
     notes:
     - 'Note: A durability error can be due to mechanical wear and tear or due to drift
       and ageing of electronic parts. The concept of significant durability error
       applies only to electronic parts. For a multi-interval instrument, the value
       of e is that appropriate to the partial weighing range'
+    note_paragraphs:
+    - text: 'Note: A durability error can be due to mechanical wear and tear or due
+        to drift and ageing of electronic parts. The concept of significant durability
+        error applies only to electronic parts. For a multi-interval instrument, the
+        value of e is that appropriate to the partial weighing range'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -200,8 +314,19 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r135-e04.pdf
     g18_entry: '01873'
     definition: durability error greater than the value specified in the appropriate  Recommendation
+    definition_paragraphs:
+    - text: durability error greater than the value specified in the appropriate  Recommendation
+      sources:
+      - kind: other
+        relationship: identical
+        modification:
+        ref_source: OIML D011:2004
+        ref_id: '3.12'
+        is_vimline: false
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

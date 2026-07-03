@@ -27,8 +27,16 @@ data:
       Associates accepting to abide by the rules of OIML-CS. The scope of certification
       and/or acceptance of OIML type evaluation reports issued with an OIML Certificate
       under SchemeA or B are detailed in separate annexes which part of Declaration
+    definition_paragraphs:
+    - text: Document that is signed by OIML Issuing Authorities, Utilizers and Associates
+        accepting to abide by the rules of OIML-CS. The scope of certification and/or
+        acceptance of OIML type evaluation reports issued with an OIML Certificate
+        under SchemeA or B are detailed in separate annexes which part of Declaration
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

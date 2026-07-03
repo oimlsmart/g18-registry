@@ -25,11 +25,21 @@ data:
     g18_entry: '03688'
     definition: servers that are accessed over the internet or another network, and
       the software and databases that run on those servers
+    definition_paragraphs:
+    - text: servers that are accessed over the internet or another network, and the
+        software and databases that run on those servers
+      sources: []
     notes:
     - Note:Cloud servers may not be physically accessible to all parties and may be
       located in a different country, Their physical location may not be konown and
       not fixed.
+    note_paragraphs:
+    - text: Note:Cloud servers may not be physically accessible to all parties and
+        may be located in a different country, Their physical location may not be
+        konown and not fixed.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

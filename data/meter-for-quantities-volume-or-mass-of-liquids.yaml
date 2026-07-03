@@ -27,8 +27,16 @@ data:
       of liquid passing through the measuring device at metering conditions, including
       at least a measuring device, a calculator (including adjustment or correction
       devices if present) and an indicating device
+    definition_paragraphs:
+    - text: instrument intended to measure continuously and display the quantity of
+        liquid passing through the measuring device at metering conditions, including
+        at least a measuring device, a calculator (including adjustment or correction
+        devices if present) and an indicating device
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

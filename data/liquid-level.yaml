@@ -26,8 +26,14 @@ data:
     g18_entry: '02252'
     definition: level of the surface of the liquid, or the vapor/liquid interface
       in the tank
+    definition_paragraphs:
+    - text: level of the surface of the liquid, or the vapor/liquid interface in the
+        tank
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '03195'
     definition: level of the surface of the liquid, or the vapor/liquid interface
       in the tank
+    definition_paragraphs:
+    - text: level of the surface of the liquid, or the vapor/liquid interface in the
+        tank
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -56,8 +68,14 @@ data:
     g18_entry: 02252-R080-1
     definition: level of the surface of the liquid, or the vapor/liquid interface
       in the tank
+    definition_paragraphs:
+    - text: level of the surface of the liquid, or the vapor/liquid interface in the
+        tank
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -27,8 +27,15 @@ data:
     definition: 'parameter of a measuring instrument, electronic device, or a sub-
       assembly subject to legal control. The following types of legally relevant parameters
       can be distinguished: type-specific parameters and device-specific parameters'
+    definition_paragraphs:
+    - text: 'parameter of a measuring instrument, electronic device, or a sub- assembly
+        subject to legal control. The following types of legally relevant parameters
+        can be distinguished: type-specific parameters and device-specific parameters'
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -43,8 +50,15 @@ data:
     definition: 'parameter of a measuring instrument or a module subject to legal
       control. The following types of legally relevant parameters can bedistinguished:
       type-specific parameter and device-specific parameter'
+    definition_paragraphs:
+    - text: 'parameter of a measuring instrument or a module subject to legal control.
+        The following types of legally relevant parameters can bedistinguished: type-specific
+        parameter and device-specific parameter'
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -60,9 +74,18 @@ data:
       defines or fulfils functions which are subject to legal control. The following
       types of legally relevant parameter can be distinguished: type-specific and
       device-specific'
+    definition_paragraphs:
+    - text: 'parameter that belongs to the measuring instrument or device, and defines
+        or fulfils functions which are subject to legal control. The following types
+        of legally relevant parameter can be distinguished: type-specific and device-specific'
+      sources: []
     notes:
     - "(under T.2.8: Software)"
+    note_paragraphs:
+    - text: "(under T.2.8: Software)"
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -77,8 +100,15 @@ data:
     definition: 'parameter of a measuring instrument or a module subject to legal
       control. The following types of legally relevant parameters can bedistinguished:
       type-specific parameters and device-specific parameters'
+    definition_paragraphs:
+    - text: 'parameter of a measuring instrument or a module subject to legal control.
+        The following types of legally relevant parameters can bedistinguished: type-specific
+        parameters and device-specific parameters'
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -92,10 +122,19 @@ data:
     g18_entry: '03719'
     definition: parameter of a measuring instrument/component, (electronic) device,
       software or a module subject to legal control
+    definition_paragraphs:
+    - text: parameter of a measuring instrument/component, (electronic) device, software
+        or a module subject to legal control
+      sources: []
     notes:
     - 'Note: The following types of legally relevant parameters can be distinguished:
       type-specific parameters and device-specific parameters.'
+    note_paragraphs:
+    - text: 'Note: The following types of legally relevant parameters can be distinguished:
+        type-specific parameters and device-specific parameters.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -109,10 +148,19 @@ data:
     g18_entry: '03186'
     definition: parameter of a measuring instrument, component, and/or module(s) subject
       to legal control
+    definition_paragraphs:
+    - text: parameter of a measuring instrument, component, and/or module(s) subject
+        to legal control
+      sources: []
     notes:
     - 'Note: The following types of legally relevant parameters can be distinguished:
       type-specific parameters and device-specific parameters.'
+    note_paragraphs:
+    - text: 'Note: The following types of legally relevant parameters can be distinguished:
+        type-specific parameters and device-specific parameters.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -126,10 +174,19 @@ data:
     g18_entry: '03187'
     definition: parameter of a measuring instrument (electronic) device, sub-assembly,
       software or a module subject to legal control
+    definition_paragraphs:
+    - text: parameter of a measuring instrument (electronic) device, sub-assembly,
+        software or a module subject to legal control
+      sources: []
     notes:
     - 'Note: The following types of legally relevant parameters can be distinguished:
       type-specific parameters and device-specific parameters.'
+    note_paragraphs:
+    - text: 'Note: The following types of legally relevant parameters can be distinguished:
+        type-specific parameters and device-specific parameters.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -143,10 +200,19 @@ data:
     g18_entry: '03666'
     definition: parameter of a measuring instrument (electronic) device, sub-assembly,
       software or a module subject to legal control
+    definition_paragraphs:
+    - text: parameter of a measuring instrument (electronic) device, sub-assembly,
+        software or a module subject to legal control
+      sources: []
     notes:
     - 'Note: The following types of legally relevant parameters can be distinguished:
       type-specific parameters and device-specific parameters (VIML, 4.10).'
+    note_paragraphs:
+    - text: 'Note: The following types of legally relevant parameters can be distinguished:
+        type-specific parameters and device-specific parameters (VIML, 4.10).'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -161,8 +227,15 @@ data:
     definition: 'parameter of a measuring instrument or a module subject to legal
       control the following types of legally relevant parameters can be distinguished:
       type-specific parameters and device-specific parameters'
+    definition_paragraphs:
+    - text: 'parameter of a measuring instrument or a module subject to legal control
+        the following types of legally relevant parameters can be distinguished: type-specific
+        parameters and device-specific parameters'
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -177,8 +250,15 @@ data:
     definition: 'parameter of a measuring instrument or a module subject to legal
       control. The following types of legally relevant parameters can be distinguished:
       type-specific parameter and device-specific parameter'
+    definition_paragraphs:
+    - text: 'parameter of a measuring instrument or a module subject to legal control.
+        The following types of legally relevant parameters can be distinguished: type-specific
+        parameter and device-specific parameter'
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -194,9 +274,18 @@ data:
       defines or fulfils functions which are subject to legal control. The following
       types of legally relevant parameter can be distinguished: type-specific and
       device-specific'
+    definition_paragraphs:
+    - text: 'parameter that belongs to the measuring instrument or device, and defines
+        or fulfils functions which are subject to legal control. The following types
+        of legally relevant parameter can be distinguished: type-specific and device-specific'
+      sources: []
     notes:
     - "(under T.2.8: Software)"
+    note_paragraphs:
+    - text: "(under T.2.8: Software)"
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -211,8 +300,15 @@ data:
     definition: 'parameter of a measuring instrument or a module subject to legal
       control. The following types of legally relevant parameters can be distinguished:
       type-specific parameters and device-specific parameters'
+    definition_paragraphs:
+    - text: 'parameter of a measuring instrument or a module subject to legal control.
+        The following types of legally relevant parameters can be distinguished: type-specific
+        parameters and device-specific parameters'
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

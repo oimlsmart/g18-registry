@@ -25,8 +25,14 @@ data:
     g18_entry: '03245'
     definition: part of the measuring device, directly affected by a measurand quantity
       parameter producing an input signal for the transducer
+    definition_paragraphs:
+    - text: part of the measuring device, directly affected by a measurand quantity
+        parameter producing an input signal for the transducer
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

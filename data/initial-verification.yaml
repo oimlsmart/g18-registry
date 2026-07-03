@@ -26,8 +26,19 @@ data:
     g18_entry: '00194'
     definition: verification of a measuring instrument which has not been verified
       previously
+    definition_paragraphs:
+    - text: verification of a measuring instrument which has not been verified previously
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2000
+        ref_id: '15'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical
@@ -54,8 +65,21 @@ data:
       byits acceptance as evidenced by stamping and/or the issuing of acertificate
       of verification dapted from OIML D 20 Initial and subsequent verification of
       measuring instruments and processes (1988))"
+    definition_paragraphs:
+    - text: "(A series of tests and visual examinations carried out before the equipment/weight
+        is put into service to determine whether a weight or weight set has been manufactured
+        to replicate a given type and conforms to that type and to regulations, and
+        that its metrological characteristics lie within the limits required for initial
+        verification of copies of that type. If the weights or weight set pass all
+        the tests and examinations, it is given legal character byits acceptance as
+        evidenced by stamping and/or the issuing of acertificate of verification dapted
+        from OIML D 20 Initial and subsequent verification of measuring instruments
+        and processes (1988))"
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -69,8 +93,14 @@ data:
     g18_entry: '00262'
     definition: the verification of a new measuring instrument which has not been
       verified previously [VML 2.4.2].
+    definition_paragraphs:
+    - text: the verification of a new measuring instrument which has not been verified
+        previously [VML 2.4.2].
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -84,8 +114,14 @@ data:
     g18_entry: '03139'
     definition: verification of a measuring instrument which has not been verified
       previously (OIML V 1, 2.12)
+    definition_paragraphs:
+    - text: verification of a measuring instrument which has not been verified previously
+        (OIML V 1, 2.12)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -99,8 +135,14 @@ data:
     g18_entry: '03138'
     definition: verification of a measuring instrument which has not been verified
       previously [from VIML, 2.12 [3]]
+    definition_paragraphs:
+    - text: verification of a measuring instrument which has not been verified previously
+        [from VIML, 2.12 [3]]
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -114,8 +156,19 @@ data:
     g18_entry: 02264-D016
     definition: verification of a measuring instrument which has not been verified
       previously
+    definition_paragraphs:
+    - text: verification of a measuring instrument which has not been verified previously
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2000
+        ref_id: '2.15'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical
@@ -135,8 +188,19 @@ data:
     g18_entry: '00194'
     definition: verification of a measuring instrument which has not been verified
       previously
+    definition_paragraphs:
+    - text: verification of a measuring instrument which has not been verified previously
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2000
+        ref_id: '15'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical
@@ -163,8 +227,21 @@ data:
       by stamping and/or the issuing of a certificate of verification (Adapted from
       OIML D 20 Initial and subsequent verification of measuring instruments and processes
       (1988))
+    definition_paragraphs:
+    - text: series of tests and visual examinations carried out before the equipment/weight
+        is put into service to determine whether a weight or weight set has been manufactured
+        to replicate a given type and conforms to that type and to regulations, and
+        that its metrological characteristics lie within the limits required for initial
+        verification of copies of that type. If the weights or weight set pass all
+        the tests and examinations, it is given legal character by its acceptance
+        as evidenced by stamping and/or the issuing of a certificate of verification
+        (Adapted from OIML D 20 Initial and subsequent verification of measuring instruments
+        and processes (1988))
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -178,8 +255,14 @@ data:
     g18_entry: '00262'
     definition: the verification of a new measuring instrument which has not been
       verified previously [VML 2.4.2].
+    definition_paragraphs:
+    - text: the verification of a new measuring instrument which has not been verified
+        previously [VML 2.4.2].
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

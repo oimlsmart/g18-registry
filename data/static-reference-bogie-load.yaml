@@ -25,8 +25,14 @@ data:
     g18_entry: '02583'
     definition: bogie load of known conventional true value determined statically
       on a control instrument for a wagon equipped with four or more axles
+    definition_paragraphs:
+    - text: bogie load of known conventional true value determined statically on a
+        control instrument for a wagon equipped with four or more axles
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

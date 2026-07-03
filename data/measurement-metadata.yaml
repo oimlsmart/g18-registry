@@ -24,10 +24,19 @@ data:
     link:
     g18_entry: '03255'
     definition: metadata related to the measurement process
+    definition_paragraphs:
+    - text: metadata related to the measurement process
+      sources: []
     notes:
     - 'Note: Measurement metadata include the measured quantity value metadata, measurement
       results relevant metadata and measurement process metadata, see Annex C.'
+    note_paragraphs:
+    - text: 'Note: Measurement metadata include the measured quantity value metadata,
+        measurement results relevant metadata and measurement process metadata, see
+        Annex C.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

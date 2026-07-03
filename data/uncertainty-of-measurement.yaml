@@ -26,8 +26,14 @@ data:
     g18_entry: '02120'
     definition: parameter characterizing the dispersion of the quantity values being
       attributed to a measurand, based on the information used
+    definition_paragraphs:
+    - text: parameter characterizing the dispersion of the quantity values being attributed
+        to a measurand, based on the information used
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,9 +47,17 @@ data:
     g18_entry: '02068'
     definition: parameter, associated with the result of a measurement, that characterizes
       the dispersion of the values that could reasonably be attributed to the measurand
+    definition_paragraphs:
+    - text: parameter, associated with the result of a measurement, that characterizes
+        the dispersion of the values that could reasonably be attributed to the measurand
+      sources: []
     notes:
     - "(adapted from VIM:2007, 2.26)"
+    note_paragraphs:
+    - text: "(adapted from VIM:2007, 2.26)"
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -58,8 +72,15 @@ data:
     definition: parameter, associated with the result of a measurement, that characterizes
       the dispersion of the values that could reasonably be attributed to the measurand
       [adapted from VIM:2007, 2.26]
+    definition_paragraphs:
+    - text: parameter, associated with the result of a measurement, that characterizes
+        the dispersion of the values that could reasonably be attributed to the measurand
+        [adapted from VIM:2007, 2.26]
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

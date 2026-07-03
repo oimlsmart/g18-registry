@@ -26,8 +26,14 @@ data:
     g18_entry: '00786'
     definition: value of the test weights or masses which, in static tests, balance
       the value selected on the indication of the fill setting device
+    definition_paragraphs:
+    - text: value of the test weights or masses which, in static tests, balance the
+        value selected on the indication of the fill setting device
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '03535'
     definition: value of the test weights which, in static tests, balance the value
       selected on the indication of the fill setting device
+    definition_paragraphs:
+    - text: value of the test weights which, in static tests, balance the value selected
+        on the indication of the fill setting device
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

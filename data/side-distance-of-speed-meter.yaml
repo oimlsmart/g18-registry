@@ -25,8 +25,14 @@ data:
     g18_entry: '03781'
     definition: horizontal distance from the reference point of the speed meter to
       the closest edge of the closest lane (see Figure 2; inner edge of the lane marking)
+    definition_paragraphs:
+    - text: horizontal distance from the reference point of the speed meter to the
+        closest edge of the closest lane (see Figure 2; inner edge of the lane marking)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

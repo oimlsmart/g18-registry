@@ -24,8 +24,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r087-e04.pdf
     g18_entry: '01110'
     definition: quantity of product in a prepackage
+    definition_paragraphs:
+    - text: quantity of product in a prepackage
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

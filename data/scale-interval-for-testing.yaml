@@ -29,8 +29,16 @@ data:
       with the instrument in a special mode for testing purposes. Where such a special
       mode is not available, the scale interval for testing is equal to the totalization
       scale interval
+    definition_paragraphs:
+    - text: the value, expressed in units of mass, of the difference between two consecutive
+        indicated values, for general and partial totalization devices, with the instrument
+        in a special mode for testing purposes. Where such a special mode is not available,
+        the scale interval for testing is equal to the totalization scale interval
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -46,8 +54,16 @@ data:
       units of mass, with the instrument in a special mode for testing purposes. This
       scale interval for testing, e, is equal to the totalization accepted scale interval,
       d, if the special mode is not available
+    definition_paragraphs:
+    - text: difference between two consecutive indicated values, expressed in units
+        of mass, with the instrument in a special mode for testing purposes. This
+        scale interval for testing, e, is equal to the totalization accepted scale
+        interval, d, if the special mode is not available
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

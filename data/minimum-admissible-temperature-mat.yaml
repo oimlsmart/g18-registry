@@ -26,9 +26,18 @@ data:
     definition: minimum water temperature that a meter can withstand permanently,
       within its rated operating condition(s) (3.4.4), without deterioration of its
       metrological performance
+    definition_paragraphs:
+    - text: minimum water temperature that a meter can withstand permanently, within
+        its rated operating condition(s) (3.4.4), without deterioration of its metrological
+        performance
+      sources: []
     notes:
     - Note:mAT is the lower of the rated operating conditions for temperature.
+    note_paragraphs:
+    - text: Note:mAT is the lower of the rated operating conditions for temperature.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

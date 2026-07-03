@@ -25,8 +25,14 @@ data:
     g18_entry: '03780'
     definition: closest driving distance between entry and exit detection fields of
       fixed-distance speed meters
+    definition_paragraphs:
+    - text: closest driving distance between entry and exit detection fields of fixed-distance
+        speed meters
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

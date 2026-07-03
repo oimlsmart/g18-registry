@@ -44,12 +44,25 @@ data:
       the same measurement procedure, same operators, same measuring system, same
       operating conditions and same location, and replicate measurements on the same
       or similar objects over a short period of time
+    definition_paragraphs:
+    - text: condition of measurement, out of a set of conditions, that includes the
+        same measurement procedure, same operators, same measuring system, same operating
+        conditions and same location, and replicate measurements on the same or similar
+        objects over a short period of time
+      sources: []
     notes:
-    - A condition of measurement is a repeatability condition only with respect to
-      a specified set of repeatability conditions.
-    - In chemistry, the term "intra-serial precision condition of measurement" is
-      sometimes used to designate this concept.
+    - 'Note 1: A condition of measurement is a repeatability condition only with respect
+      to a specified set of repeatability conditions. Note 2: In chemistry, the term
+      “intra-serial precision condition of measurement” is sometimes used to designate
+      this concept.'
+    note_paragraphs:
+    - text: 'Note 1: A condition of measurement is a repeatability condition only
+        with respect to a specified set of repeatability conditions. Note 2: In chemistry,
+        the term “intra-serial precision condition of measurement” is sometimes used
+        to designate this concept.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -70,8 +83,16 @@ data:
       the same measurement procedure, same operators, same measuring system, same
       operating conditions and same location, and replicate measurements on the same
       or similar objects over a short period of time (OIML V 2-200, 2.20]
+    definition_paragraphs:
+    - text: condition of measurement, out of a set of conditions, that includes the
+        same measurement procedure, same operators, same measuring system, same operating
+        conditions and same location, and replicate measurements on the same or similar
+        objects over a short period of time (OIML V 2-200, 2.20]
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -87,12 +108,32 @@ data:
       the same measurement procedure, same operators, same measuring system, same
       operating conditions and same location, and replicate measurements on the same
       or similar objects over a short period of time
+    definition_paragraphs:
+    - text: condition of measurement, out of a set of conditions that includes the
+        same measurement procedure, same operators, same measuring system, same operating
+        conditions and same location, and replicate measurements on the same or similar
+        objects over a short period of time
+      sources:
+      - kind: vim
+        relationship: identical
+        modification:
+        ref_source: OIML V 2-200:2007
+        ref_id: '2.20'
+        is_vimline: true
     notes:
     - A condition of measurement is a repeatability condition only with respect to
       a specified set of repeatability conditions.
     - In chemistry, the term "intra-serial precision condition of measurement" is
       sometimes used to designate this concept.
+    note_paragraphs:
+    - text: A condition of measurement is a repeatability condition only with respect
+        to a specified set of repeatability conditions.
+      sources: []
+    - text: In chemistry, the term "intra-serial precision condition of measurement"
+        is sometimes used to designate this concept.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: vim
       relationship: identical

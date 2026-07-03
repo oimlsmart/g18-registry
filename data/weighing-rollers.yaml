@@ -26,8 +26,14 @@ data:
     g18_entry: '00491'
     definition: the rollers by means of which the conveyor belt is supported on the
       load receptor
+    definition_paragraphs:
+    - text: the rollers by means of which the conveyor belt is supported on the load
+        receptor
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,10 +47,19 @@ data:
     g18_entry: '03640'
     definition: arrangements (commonly idlers) by which the conveyor belt is supported
       on the weighing module
+    definition_paragraphs:
+    - text: arrangements (commonly idlers) by which the conveyor belt is supported
+        on the weighing module
+      sources: []
     notes:
     - 'Note:  An ‘inclusive of conveyor’ type belt weigher will normally have weighing
       rollers or idlers.'
+    note_paragraphs:
+    - text: 'Note:  An ‘inclusive of conveyor’ type belt weigher will normally have
+        weighing rollers or idlers.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

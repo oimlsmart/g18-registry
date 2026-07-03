@@ -27,8 +27,15 @@ data:
     definition: test carried out on a complete instrument using a test load or loads
       of the type that it is intended to weigh, and using the load conveyor or load
       transport system to move it on to and off the load receptor
+    definition_paragraphs:
+    - text: test carried out on a complete instrument using a test load or loads of
+        the type that it is intended to weigh, and using the load conveyor or load
+        transport system to move it on to and off the load receptor
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -43,12 +50,24 @@ data:
     definition: optional part of the meter that receives the digital output signals
       from the metering calculator and, possibly, from associated measuring instruments,
       which processes them into data for the indicating device
+    definition_paragraphs:
+    - text: optional part of the meter that receives the digital output signals from
+        the metering calculator and, possibly, from associated measuring instruments,
+        which processes them into data for the indicating device
+      sources: []
     notes:
     - 'Note: The metering calculator and the operational calculator may be two separate
       elements or form a single unit. Except in the case of a particular need to dissociate
       the two kinds of calculators, the association of both functions is called the
       calculator in this Recommendation.'
+    note_paragraphs:
+    - text: 'Note: The metering calculator and the operational calculator may be two
+        separate elements or form a single unit. Except in the case of a particular
+        need to dissociate the two kinds of calculators, the association of both functions
+        is called the calculator in this Recommendation.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

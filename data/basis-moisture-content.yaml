@@ -38,9 +38,19 @@ data:
     definition: basis moisture concentration, expressed as a percentage by mass, specified
       by the national responsible body for reporting protein content of the particular
       grain type
+    definition_paragraphs:
+    - text: basis moisture concentration, expressed as a percentage by mass, specified
+        by the national responsible body for reporting protein content of the particular
+        grain type
+      sources: []
     notes:
     - Note:When the specified MB is 0 %, the reported protein content is at ‘dry basis’.
+    note_paragraphs:
+    - text: Note:When the specified MB is 0 %, the reported protein content is at
+        ‘dry basis’.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

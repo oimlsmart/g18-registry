@@ -26,8 +26,15 @@ data:
     definition: for this Recommendation, the volume of the smallest rectangular box
       which fully encloses the object, that is the product of the indicated values
       of length (L), width (W) and height (H)
+    definition_paragraphs:
+    - text: for this Recommendation, the volume of the smallest rectangular box which
+        fully encloses the object, that is the product of the indicated values of
+        length (L), width (W) and height (H)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

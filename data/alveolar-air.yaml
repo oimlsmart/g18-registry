@@ -25,8 +25,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r126-e98.pdf
     g18_entry: '01666'
     definition: air contained in the pulmonary alveoli
+    definition_paragraphs:
+    - text: air contained in the pulmonary alveoli
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -40,8 +45,14 @@ data:
     g18_entry: '02851'
     definition: air contained in the pulmonary alveoli where the gaseous exchange
       takes place between the blood and the gas contained within the alveoli
+    definition_paragraphs:
+    - text: air contained in the pulmonary alveoli where the gaseous exchange takes
+        place between the blood and the gas contained within the alveoli
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

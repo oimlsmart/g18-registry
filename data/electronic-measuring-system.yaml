@@ -24,8 +24,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r105-e93.pdf
     g18_entry: '01222'
     definition: a measuring system equipped with electronic devices
+    definition_paragraphs:
+    - text: a measuring system equipped with electronic devices
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -25,9 +25,17 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r076-1-e06.pdf
     g18_entry: '00889'
     definition: value of a quantity provided by a measuring instrument
+    definition_paragraphs:
+    - text: value of a quantity provided by a measuring instrument
+      sources: []
     notes:
     - '"Indication", "indicate" or "indicating" includes both displaying and/or printing.'
+    note_paragraphs:
+    - text: '"Indication", "indicate" or "indicating" includes both displaying and/or
+        printing.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -40,10 +48,18 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r076-1-e06.pdf
     g18_entry: '00889'
     definition: value of a quantity provided by a measuring instrument
+    definition_paragraphs:
+    - text: value of a quantity provided by a measuring instrument
+      sources: []
     notes:
     - 'Note: “Indication”, “indicate” or “indicating” includes both displaying and/or
       printing.'
+    note_paragraphs:
+    - text: 'Note: “Indication”, “indicate” or “indicating” includes both displaying
+        and/or printing.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

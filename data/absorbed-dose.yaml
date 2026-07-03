@@ -32,8 +32,15 @@ data:
     definition: the quotient of dē by dm, where dē is the incremental mean energy
       imparted by ionizing radiation to a quantity of matter of mass dm. The unit
       for absorbed dose is the gray (Gy), where 1 Gy = 1 J/kg
+    definition_paragraphs:
+    - text: the quotient of dē by dm, where dē is the incremental mean energy imparted
+        by ionizing radiation to a quantity of matter of mass dm. The unit for absorbed
+        dose is the gray (Gy), where 1 Gy = 1 J/kg
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

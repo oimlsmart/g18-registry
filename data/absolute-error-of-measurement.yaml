@@ -25,8 +25,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r143-e09.pdf
     g18_entry: '02141'
     definition: result of measurement minus the reference value of the measurand
+    definition_paragraphs:
+    - text: result of measurement minus the reference value of the measurand
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -40,8 +45,13 @@ data:
     g18_entry: '02011'
     definition: result of a measurement minus the (conventional) true value of the
       measurand
+    definition_paragraphs:
+    - text: result of a measurement minus the (conventional) true value of the measurand
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -54,11 +64,21 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r140-e07.pdf
     g18_entry: '02070'
     definition: result of a measurement minus a true value of the measurand
+    definition_paragraphs:
+    - text: result of a measurement minus a true value of the measurand
+      sources: []
     notes:
     - 1. Since a true value cannot be determined, in practice a conventional true
       value is used.
     - 2. (VIM:2007, 2.16)
+    note_paragraphs:
+    - text: 1. Since a true value cannot be determined, in practice a conventional
+        true value is used.
+      sources: []
+    - text: 2. (VIM:2007, 2.16)
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -72,8 +92,14 @@ data:
     g18_entry: '01415'
     definition: the difference between the indication of the instrument to be verified
       and that of the standard instrument for the same pressure
+    definition_paragraphs:
+    - text: the difference between the indication of the instrument to be verified
+        and that of the standard instrument for the same pressure
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -87,8 +113,14 @@ data:
     g18_entry: '01209'
     definition: the difference between the indication of the instrument to be verified
       and that of the standard instrument, for the same pressure
+    definition_paragraphs:
+    - text: the difference between the indication of the instrument to be verified
+        and that of the standard instrument, for the same pressure
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -101,8 +133,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r143-e09.pdf
     g18_entry: '02141'
     definition: result of measurement minus the reference value of the measurand
+    definition_paragraphs:
+    - text: result of measurement minus the reference value of the measurand
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -116,10 +153,19 @@ data:
     g18_entry: '02070'
     definition: result of a measurement minus a true value of the measurand (VIM:2007,
       2.16)
+    definition_paragraphs:
+    - text: result of a measurement minus a true value of the measurand (VIM:2007,
+        2.16)
+      sources: []
     notes:
     - 'Note: Since a true value cannot be determined, in practice a conventional true
       value is used.'
+    note_paragraphs:
+    - text: 'Note: Since a true value cannot be determined, in practice a conventional
+        true value is used.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -133,8 +179,14 @@ data:
     g18_entry: '01415'
     definition: the difference between the indication of the instrument to be verified
       and that of the standard instrument for the same pressure
+    definition_paragraphs:
+    - text: the difference between the indication of the instrument to be verified
+        and that of the standard instrument for the same pressure
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -148,8 +200,14 @@ data:
     g18_entry: '01209'
     definition: the difference between the indication of the instrument to be verified
       and that of the standard instrument, for the same pressure
+    definition_paragraphs:
+    - text: the difference between the indication of the instrument to be verified
+        and that of the standard instrument, for the same pressure
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

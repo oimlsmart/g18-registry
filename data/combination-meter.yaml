@@ -28,8 +28,16 @@ data:
       device that, depending on the magnitude of the flowrate passing through the
       meter, automatically directs the flow through either the small or large meter
       or both
+    definition_paragraphs:
+    - text: meter comprising one large meter, one small meter and a changeover device
+        that, depending on the magnitude of the flowrate passing through the meter,
+        automatically directs the flow through either the small or large meter or
+        both
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -45,10 +53,21 @@ data:
       device that, depending on the magnitude of the flow rate (3.3.1) passing through
       the meter, automatically directs the flow through either the small or the large
       meter, or both
+    definition_paragraphs:
+    - text: meter comprising one large meter, one small meter, and a changeover device
+        that, depending on the magnitude of the flow rate (3.3.1) passing through
+        the meter, automatically directs the flow through either the small or the
+        large meter, or both
+      sources: []
     notes:
     - Note:The meter reading is obtained from two independent totalizers, or from
       one totalizer which adds up the values from both water meters
+    note_paragraphs:
+    - text: Note:The meter reading is obtained from two independent totalizers, or
+        from one totalizer which adds up the values from both water meters
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

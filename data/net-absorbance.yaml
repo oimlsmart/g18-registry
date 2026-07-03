@@ -33,8 +33,15 @@ data:
     definition: 'change in measured optical absorbance at the analysis wavelength(s)
       determined as the absolute difference between the pre-irradiation absorbance,
       A0, and the post-irradiation absorbance, A, as follows:'
+    definition_paragraphs:
+    - text: 'change in measured optical absorbance at the analysis wavelength(s) determined
+        as the absolute difference between the pre-irradiation absorbance, A0, and
+        the post-irradiation absorbance, A, as follows:'
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -49,8 +56,15 @@ data:
     definition: 'change in measured optical absorbance at the analysis wavelength(s)
       determined as the absolute difference between the pre-irradiation absorbance,
       A0, and the post-irradiation absorbance, A, as follows:'
+    definition_paragraphs:
+    - text: 'change in measured optical absorbance at the analysis wavelength(s) determined
+        as the absolute difference between the pre-irradiation absorbance, A0, and
+        the post-irradiation absorbance, A, as follows:'
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -38,6 +38,17 @@ data:
     definition: testing and evaluation of a measuring instrument to ascertain whether
       or not a single instrument, an instrument lot or a production series of instruments
       comply with all statutory requirements applicable to this instrument type
+    definition_paragraphs:
+    - text: testing and evaluation of a measuring instrument to ascertain whether
+        or not a single instrument, an instrument lot or a production series of instruments
+        comply with all statutory requirements applicable to this instrument type
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2000
+        ref_id: '2.11'
+        is_vimline: true
     notes:
     - |-
       Conformity assessment does not only concern metrological requirements but may also cover requirements relating to:
@@ -48,7 +59,19 @@ data:
       * ease of use
       * marking
       * etc.
+    note_paragraphs:
+    - text: |-
+        Conformity assessment does not only concern metrological requirements but may also cover requirements relating to:
+
+        * safety
+        * EMC
+        * software identification
+        * ease of use
+        * marking
+        * etc.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical
@@ -74,13 +97,33 @@ data:
     definition: testing and evaluation of measuring instruments to ascertain whether
       or not a single instrument, an instrument lot or a production series of instruments
       comply with all statutory requirements applicable to this instrument type
+    definition_paragraphs:
+    - text: testing and evaluation of measuring instruments to ascertain whether or
+        not a single instrument, an instrument lot or a production series of instruments
+        comply with all statutory requirements applicable to this instrument type
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2000
+        ref_id: '2.11'
+        is_vimline: true
     notes:
     - 'Conformity assessment does not only concern metrological requirements but may
       also cover requirements relating to: safety; EMC; software identification; ease
       of use; marking, etc.'
     - Conformity assessment of a measuring instrument is hereafter referred to as
       "conformity assessment".
+    note_paragraphs:
+    - text: 'Conformity assessment does not only concern metrological requirements
+        but may also cover requirements relating to: safety; EMC; software identification;
+        ease of use; marking, etc.'
+      sources: []
+    - text: Conformity assessment of a measuring instrument is hereafter referred
+        to as "conformity assessment".
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical
@@ -101,11 +144,28 @@ data:
     definition: testing and evaluation of a measuring instrument to ascertain whether
       or not a single instrument, an instrument lot or a production series of instruments
       comply with all statutory requirements applicable to this instrument type
+    definition_paragraphs:
+    - text: testing and evaluation of a measuring instrument to ascertain whether
+        or not a single instrument, an instrument lot or a production series of instruments
+        comply with all statutory requirements applicable to this instrument type
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2000
+        ref_id: '2.11'
+        is_vimline: true
     notes:
     - 'Note: Conformity assessment does not only concern metrological requirements
       but may also cover requirements relating to: safety; EMC; software identification;
       ease of use; marking; etc.'
+    note_paragraphs:
+    - text: 'Note: Conformity assessment does not only concern metrological requirements
+        but may also cover requirements relating to: safety; EMC; software identification;
+        ease of use; marking; etc.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical

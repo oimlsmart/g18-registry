@@ -29,10 +29,22 @@ data:
       with which it establishes thermal equilibrium. It comprises a temperature sensor
       with associated parts including coverings, seals, inner leads, and connecting
       plug, where appropriate
+    definition_paragraphs:
+    - text: a temperature probe is the component of a thermometer of which (1) A body
+        cavity may be the rectum, part is applied to a body cavity or tissue with
+        which it establishes thermal equilibrium. It comprises a temperature sensor
+        with associated parts including coverings, seals, inner leads, and connecting
+        plug, where appropriate
+      sources: []
     notes:
     - esophagus, or a surgically created cavity. (2) The part of the probe in contact
       with a body cavity is called the applied part.
+    note_paragraphs:
+    - text: esophagus, or a surgically created cavity. (2) The part of the probe in
+        contact with a body cavity is called the applied part.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -49,10 +61,22 @@ data:
       tissue with which it establishes thermal equilibrium. It comprises a temperature
       sensor with associated parts including coverings, seals, inner leads, and connecting
       plug, where appropriate
+    definition_paragraphs:
+    - text: a temperature probe is the component of a thermometer of which (1) A body
+        cavity or tissue may be the mouth part is applied to a body cavity or tissue
+        with which it establishes thermal equilibrium. It comprises a temperature
+        sensor with associated parts including coverings, seals, inner leads, and
+        connecting plug, where appropriate
+      sources: []
     notes:
     - "(sublingual), rectum, or armpit. (2) The part of the probe in contact with
       a body cavity or tissue is called the applied pa"
+    note_paragraphs:
+    - text: "(sublingual), rectum, or armpit. (2) The part of the probe in contact
+        with a body cavity or tissue is called the applied pa"
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -68,10 +92,23 @@ data:
       is applied to a body cavity or tissue with which it establishes thermal equilibrium.
       It comprises a temperature sensor with associated parts including coverings,
       seals, inner leads, and connecting plug, where appropriate
+    definition_paragraphs:
+    - text: a temperature probe is the component of a thermometer of which part is
+        applied to a body cavity or tissue with which it establishes thermal equilibrium.
+        It comprises a temperature sensor with associated parts including coverings,
+        seals, inner leads, and connecting plug, where appropriate
+      sources: []
     notes:
     - A body cavity may be the rectum, esophagus, or a surgically created cavity.
     - The part of the probe in contact with a body cavity is called the applied part.
+    note_paragraphs:
+    - text: A body cavity may be the rectum, esophagus, or a surgically created cavity.
+      sources: []
+    - text: The part of the probe in contact with a body cavity is called the applied
+        part.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -87,11 +124,24 @@ data:
       or tissue with which it establishes thermal equilibrium. It comprises a temperature
       sensor with associated parts including coverings, seals, inner leads, and connecting
       plug, where appropriate
+    definition_paragraphs:
+    - text: component of a thermometer of which part is applied to a body cavity or
+        tissue with which it establishes thermal equilibrium. It comprises a temperature
+        sensor with associated parts including coverings, seals, inner leads, and
+        connecting plug, where appropriate
+      sources: []
     notes:
     - A body cavity or tissue may be the mouth (sublingual), rectum, or armpit.
     - The part of the probe in contact with a body cavity or tissue is called the
       applied part
+    note_paragraphs:
+    - text: A body cavity or tissue may be the mouth (sublingual), rectum, or armpit.
+      sources: []
+    - text: The part of the probe in contact with a body cavity or tissue is called
+        the applied part
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

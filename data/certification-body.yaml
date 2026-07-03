@@ -24,10 +24,18 @@ data:
     link:
     g18_entry: '02924'
     definition: third-party conformity assessment body operating certification schems
+    definition_paragraphs:
+    - text: third-party conformity assessment body operating certification schems
+      sources: []
     notes:
     - 'Note:  A certification body can be non-governmental or governmental (with or
       without a regulatory authority).'
+    note_paragraphs:
+    - text: 'Note:  A certification body can be non-governmental or governmental (with
+        or without a regulatory authority).'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

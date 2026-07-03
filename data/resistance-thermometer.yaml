@@ -25,8 +25,14 @@ data:
     g18_entry: '03463'
     definition: Temperature responsive device consisting of one or more sensing resistors
       with wire leads and protective sheath.
+    definition_paragraphs:
+    - text: Temperature responsive device consisting of one or more sensing resistors
+        with wire leads and protective sheath.
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

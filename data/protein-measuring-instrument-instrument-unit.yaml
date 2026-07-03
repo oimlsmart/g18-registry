@@ -25,10 +25,19 @@ data:
     g18_entry: '02812'
     definition: instrument that infers the protein content in grain samples that are
       within the scope of its calibration
+    definition_paragraphs:
+    - text: instrument that infers the protein content in grain samples that are within
+        the scope of its calibration
+      sources: []
     notes:
     - 'Note: An instrument may be approved with multiple calibrations in order to
       analyze more than one type of grain.'
+    note_paragraphs:
+    - text: 'Note: An instrument may be approved with multiple calibrations in order
+        to analyze more than one type of grain.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

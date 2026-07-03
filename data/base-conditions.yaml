@@ -26,8 +26,14 @@ data:
     g18_entry: '02280'
     definition: 'specified conditions under which the measured volume of liquid isconverted
       (example: temperature, density, pressure).'
+    definition_paragraphs:
+    - text: 'specified conditions under which the measured volume of liquid isconverted
+        (example: temperature, density, pressure).'
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,11 +47,21 @@ data:
     g18_entry: '01545'
     definition: 'specified values of the conditions to which the measured quantity
       of liquid is converted (example: base temperature and base pressure of the liquid)'
+    definition_paragraphs:
+    - text: 'specified values of the conditions to which the measured quantity of
+        liquid is converted (example: base temperature and base pressure of the liquid)'
+      sources: []
     notes:
     - Metering and base conditions (which refer only to the volume of liquid to be
       measured or indicated) should not be confused with the "rated operating conditions"
       and "reference conditions" which apply to influence quantities
+    note_paragraphs:
+    - text: Metering and base conditions (which refer only to the volume of liquid
+        to be measured or indicated) should not be confused with the "rated operating
+        conditions" and "reference conditions" which apply to influence quantities
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -59,9 +75,17 @@ data:
     g18_entry: '02057'
     definition: specified conditions to which the measured quantities of gas are The
       terms "reference conditions" are converted
+    definition_paragraphs:
+    - text: specified conditions to which the measured quantities of gas are The terms
+        "reference conditions" are converted
+      sources: []
     notes:
     - frequently used instead of "base conditions".
+    note_paragraphs:
+    - text: frequently used instead of "base conditions".
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -75,12 +99,23 @@ data:
     g18_entry: '01953'
     definition: "( conditions to which the measured volume of gas is converted examples:
       base temperature and base pressure)."
+    definition_paragraphs:
+    - text: "( conditions to which the measured volume of gas is converted examples:
+        base temperature and base pressure)."
+      sources: []
     notes:
     - Operating and base conditions relate to the volume of gas to be measured or
       indicated only and should not be confused with "rated operating conditions"
       and "reference conditions" (VIM:1993, 5.05 and 5.07) which refer to influence
       quantities.
+    note_paragraphs:
+    - text: Operating and base conditions relate to the volume of gas to be measured
+        or indicated only and should not be confused with "rated operating conditions"
+        and "reference conditions" (VIM:1993, 5.05 and 5.07) which refer to influence
+        quantities.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -94,12 +129,23 @@ data:
     g18_entry: '01026'
     definition: the specified conditions of temperature and pressure to which the
       measured volume is converted
+    definition_paragraphs:
+    - text: the specified conditions of temperature and pressure to which the measured
+        volume is converted
+      sources: []
     notes:
     - Although the term "reference conditions" is often used instead of "base conditions",
       metering and base conditions (that refer only to the volume of the liquid to
       be measured or indicated), should not be confused with the "rated operating
       conditions" and "reference conditions" that apply to influence quantities.
+    note_paragraphs:
+    - text: Although the term "reference conditions" is often used instead of "base
+        conditions", metering and base conditions (that refer only to the volume of
+        the liquid to be measured or indicated), should not be confused with the "rated
+        operating conditions" and "reference conditions" that apply to influence quantities.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -113,10 +159,19 @@ data:
     g18_entry: '01651'
     definition: the specified conditions to which a measured quantity is converted,
       e.g. base temperature and base pressure
+    definition_paragraphs:
+    - text: the specified conditions to which a measured quantity is converted, e.g.
+        base temperature and base pressure
+      sources: []
     notes:
     - The values chosen as base conditions should preferably be 15 °C or 20 °C and
       101 325 Pa.
+    note_paragraphs:
+    - text: The values chosen as base conditions should preferably be 15 °C or 20
+        °C and 101 325 Pa.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -130,11 +185,21 @@ data:
     g18_entry: '02903'
     definition: 'specified values of the conditions to which the measured quantity
       of liquid is converted (example: base temperature and base pressure of the liquid)'
+    definition_paragraphs:
+    - text: 'specified values of the conditions to which the measured quantity of
+        liquid is converted (example: base temperature and base pressure of the liquid)'
+      sources: []
     notes:
     - Note:Metering and base conditions (which refer only to the volume of liquid
       to be measured or indicated) should not be confused with the "rated operating
       conditions" and "reference conditions" which apply to influence quantities.
+    note_paragraphs:
+    - text: Note:Metering and base conditions (which refer only to the volume of liquid
+        to be measured or indicated) should not be confused with the "rated operating
+        conditions" and "reference conditions" which apply to influence quantities.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -148,11 +213,21 @@ data:
     g18_entry: '02675'
     definition: 'conditions to which the measured volume of gas is converted (examples:
       base temperature and base pressure)'
+    definition_paragraphs:
+    - text: 'conditions to which the measured volume of gas is converted (examples:
+        base temperature and base pressure)'
+      sources: []
     notes:
     - Note:Operating and base conditions relate to the volume of gas to be measured
       or indicated only and should not be confused with “rated operating conditions”
       and “reference conditions” (VIM 4.9 and 4.11) which refer to influence quantities.
+    note_paragraphs:
+    - text: Note:Operating and base conditions relate to the volume of gas to be measured
+        or indicated only and should not be confused with “rated operating conditions”
+        and “reference conditions” (VIM 4.9 and 4.11) which refer to influence quantities.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -166,8 +241,14 @@ data:
     g18_entry: '02280-R080-1'
     definition: 'specified conditions under which the measured volume of liquid is
       converted (example: temperature, density, pressure).'
+    definition_paragraphs:
+    - text: 'specified conditions under which the measured volume of liquid is converted
+        (example: temperature, density, pressure).'
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -181,10 +262,19 @@ data:
     g18_entry: '01651'
     definition: the specified conditions to which a measured quantity is converted,
       e.g. base temperature and base pressure
+    definition_paragraphs:
+    - text: the specified conditions to which a measured quantity is converted, e.g.
+        base temperature and base pressure
+      sources: []
     notes:
     - Note:The values chosen as base conditions should preferably be 15 °C or 20 °C
       and 101 325 Pa.
+    note_paragraphs:
+    - text: Note:The values chosen as base conditions should preferably be 15 °C or
+        20 °C and 101 325 Pa.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -197,9 +287,17 @@ data:
     link:
     g18_entry: '02057'
     definition: specified conditions to which the measured quantities of gas are converted
+    definition_paragraphs:
+    - text: specified conditions to which the measured quantities of gas are converted
+      sources: []
     notes:
     - Note:The terms “reference conditions” are frequently used instead of “base conditions”.
+    note_paragraphs:
+    - text: Note:The terms “reference conditions” are frequently used instead of “base
+        conditions”.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

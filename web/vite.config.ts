@@ -26,7 +26,9 @@ export default defineConfig({
         try {
           const list = JSON.parse(fs.readFileSync(`${dataDir}/${sub}.json`, "utf-8"));
           for (const item of list) {
-            dynamic.push(`/${sub}/${item.slug}/`);
+            // publications.json uses `id`; terms/tc use `slug`.
+            const slug = item.slug || item.id;
+            if (slug) dynamic.push(`/${sub}/${slug}/`);
           }
         } catch (_) { /* data file may not exist yet */ }
       }

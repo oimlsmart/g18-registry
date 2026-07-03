@@ -27,8 +27,22 @@ data:
       e.g. to testify in a court of law, the condition of a measuring instrument and
       to determine its metrological properties, amongst others by reference to the
       relevant statutory requirements
+    definition_paragraphs:
+    - text: all the operations for the purpose of examining and demonstrating, e.g.
+        to testify in a court of law, the condition of a measuring instrument and
+        to determine its metrological properties, amongst others by reference to the
+        relevant statutory requirements
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2000
+        ref_id: '2.4'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical

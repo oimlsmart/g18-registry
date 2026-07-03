@@ -26,10 +26,19 @@ data:
     g18_entry: '00099'
     definition: report which accompanies an OIML Certificate of Conformity under the
       OIML Certificate System
+    definition_paragraphs:
+    - text: report which accompanies an OIML Certificate of Conformity under the OIML
+        Certificate System
+      sources: []
     notes:
     - The OIML Test Report shall always be accompanied by the OIML Certificate of
       Conformity which validates it.
+    note_paragraphs:
+    - text: The OIML Test Report shall always be accompanied by the OIML Certificate
+        of Conformity which validates it.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -45,11 +54,23 @@ data:
       tests and egsaminations it carried out on the basis of relevant OIML Recommendation
       during OIML type evaluation on identified sample(s) of given type of measuring
       instrument or module (OIML B 18, 3.29)
+    definition_paragraphs:
+    - text: report issued by a test laboratory that includes the results of the tests
+        and egsaminations it carried out on the basis of relevant OIML Recommendation
+        during OIML type evaluation on identified sample(s) of given type of measuring
+        instrument or module (OIML B 18, 3.29)
+      sources: []
     notes:
     - 'Note: Unless the OIML Recommendation states otherwise, several test reports
       may be issued if several test laboratories are involved in covering all of the
       tests and examinations specified in the relevant OIML Recommenadtion.'
+    note_paragraphs:
+    - text: 'Note: Unless the OIML Recommendation states otherwise, several test reports
+        may be issued if several test laboratories are involved in covering all of
+        the tests and examinations specified in the relevant OIML Recommenadtion.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

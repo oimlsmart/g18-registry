@@ -35,8 +35,20 @@ data:
     g18_entry: '00182'
     definition: document certifying that the verification of a measuring instrument
       was carried out with a satisfactory result
+    definition_paragraphs:
+    - text: document certifying that the verification of a measuring instrument was
+        carried out with a satisfactory result
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2000
+        ref_id: '3.3'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical
@@ -61,8 +73,20 @@ data:
     g18_entry: '00182'
     definition: document certifying that the verification of a measuring instrument
       was carried out with a satisfactory result
+    definition_paragraphs:
+    - text: document certifying that the verification of a measuring instrument was
+        carried out with a satisfactory result
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2000
+        ref_id: '3.3'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical

@@ -37,8 +37,14 @@ data:
     g18_entry: '01965'
     definition: mean difference between the pressures at the inlet and outlet of the
       gas meter while the gas is flowing
+    definition_paragraphs:
+    - text: mean difference between the pressures at the inlet and outlet of the gas
+        meter while the gas is flowing
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

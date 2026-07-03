@@ -32,8 +32,14 @@ data:
     g18_entry: '01220'
     definition: the highest flow rate at which the measuring system is required to
       meet the applicable maximum permissible errors
+    definition_paragraphs:
+    - text: the highest flow rate at which the measuring system is required to meet
+        the applicable maximum permissible errors
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -48,8 +54,15 @@ data:
     definition: highest flow rate at which a gas meter is required to operate within
       the limits of its maximum permissible error, whilst operated within its rated
       operating conditions
+    definition_paragraphs:
+    - text: highest flow rate at which a gas meter is required to operate within the
+        limits of its maximum permissible error, whilst operated within its rated
+        operating conditions
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

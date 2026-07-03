@@ -25,8 +25,14 @@ data:
     g18_entry: '00760'
     definition: automatic gravimetric filling instrument for which the fill is determined
       by controlling the output feed from the weigh hopper
+    definition_paragraphs:
+    - text: automatic gravimetric filling instrument for which the fill is determined
+        by controlling the output feed from the weigh hopper
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

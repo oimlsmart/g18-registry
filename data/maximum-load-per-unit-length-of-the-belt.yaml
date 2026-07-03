@@ -26,8 +26,14 @@ data:
     g18_entry: '00522'
     definition: the quotient of the maximum capacity of the weighing unit and the
       weigh length
+    definition_paragraphs:
+    - text: the quotient of the maximum capacity of the weighing unit and the weigh
+        length
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '03227'
     definition: quotient of the maximum capacity of the weighing module and the weigh
       length
+    definition_paragraphs:
+    - text: quotient of the maximum capacity of the weighing module and the weigh
+        length
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

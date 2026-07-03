@@ -26,8 +26,15 @@ data:
     definition: a measuring instrument that determines the mass of a quantity of flowing
       liquid without the use of any auxiliary device or data on the physical properties
       of the liquid
+    definition_paragraphs:
+    - text: a measuring instrument that determines the mass of a quantity of flowing
+        liquid without the use of any auxiliary device or data on the physical properties
+        of the liquid
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

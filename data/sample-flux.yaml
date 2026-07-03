@@ -33,9 +33,18 @@ data:
     definition: radiant luminous flux of monochromatic radiation transmitted by 1.
       ISO 6286, Table 2, No. 17. an optical cell containing the solution on which
       the measurement 2. is made and reaching the detector
+    definition_paragraphs:
+    - text: radiant luminous flux of monochromatic radiation transmitted by 1. ISO
+        6286, Table 2, No. 17. an optical cell containing the solution on which the
+        measurement 2. is made and reaching the detector
+      sources: []
     notes:
     - The coherent SI unit is the watt (W).
+    note_paragraphs:
+    - text: The coherent SI unit is the watt (W).
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -50,9 +59,18 @@ data:
     definition: radiant luminous flux of monochromatic radiation transmitted by an
       optical cell containing the solution on which the measurement is made and reaching
       the detector
+    definition_paragraphs:
+    - text: radiant luminous flux of monochromatic radiation transmitted by an optical
+        cell containing the solution on which the measurement is made and reaching
+        the detector
+      sources: []
     notes:
     - ISO 6286, Table 2, No. 17. The coherent SI unit is the watt (W).
+    note_paragraphs:
+    - text: ISO 6286, Table 2, No. 17. The coherent SI unit is the watt (W).
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

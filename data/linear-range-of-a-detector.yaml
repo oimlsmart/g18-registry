@@ -28,8 +28,16 @@ data:
       of interest over which the sensitivity of the detector is constant to within
       5 %. Its value is the ratio of the upper limit of linearity to the detection
       limit
+    definition_paragraphs:
+    - text: the range of concentrations or mass flow rates of a sample component of
+        interest over which the sensitivity of the detector is constant to within
+        5 %. Its value is the ratio of the upper limit of linearity to the detection
+        limit
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -45,8 +53,16 @@ data:
       of interest over which the sensitivity of the detector is constant to within
       5 %. Its value is the ratio of the upper limit of linearity to the detection
       limit
+    definition_paragraphs:
+    - text: the range of concentrations or mass flow rates of a sample component of
+        interest over which the sensitivity of the detector is constant to within
+        5 %. Its value is the ratio of the upper limit of linearity to the detection
+        limit
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

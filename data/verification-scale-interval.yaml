@@ -32,8 +32,13 @@ data:
     g18_entry: '00436'
     definition: lowest value scale division of the first element of an indicating
       device
+    definition_paragraphs:
+    - text: lowest value scale division of the first element of an indicating device
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -47,8 +52,14 @@ data:
     g18_entry: '00637'
     definition: value, expressed in units of mass, used for the classification and
       verification of an instrument
+    definition_paragraphs:
+    - text: value, expressed in units of mass, used for the classification and verification
+        of an instrument
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -62,8 +73,14 @@ data:
     g18_entry: '00949'
     definition: value, expressed in units of mass, used for the classification and
       verification of an instrument
+    definition_paragraphs:
+    - text: value, expressed in units of mass, used for the classification and verification
+        of an instrument
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -77,8 +94,14 @@ data:
     g18_entry: '02405'
     definition: lowest value scale division of the first element of an indicating
       device (3.2.12)
+    definition_paragraphs:
+    - text: lowest value scale division of the first element of an indicating device
+        (3.2.12)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

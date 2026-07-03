@@ -25,13 +25,27 @@ data:
     g18_entry: '01864'
     definition: catalytic activity of a component divided by the volume of the original
       system
+    definition_paragraphs:
+    - text: catalytic activity of a component divided by the volume of the original
+        system
+      sources: []
     notes:
     - The derived coherent SI unit is the mole per second per cubic metre (mol/(s
       · m3)), also called kat/m3. In laboratory medicine the mole per second per litre
       (mol/(s · L)) is also frequently used.
     - Throughout this Recommendation the component" is an enzyme and the "original
       system" can be, e.g., the plasma of a blood sample. [ISO/DIS 18153, clause 3.3]
+    note_paragraphs:
+    - text: The derived coherent SI unit is the mole per second per cubic metre (mol/(s
+        · m3)), also called kat/m3. In laboratory medicine the mole per second per
+        litre (mol/(s · L)) is also frequently used.
+      sources: []
+    - text: Throughout this Recommendation the component" is an enzyme and the "original
+        system" can be, e.g., the plasma of a blood sample. [ISO/DIS 18153, clause
+        3.3]
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

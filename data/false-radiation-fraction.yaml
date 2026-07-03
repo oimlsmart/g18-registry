@@ -28,12 +28,27 @@ data:
       1. The false radiation fraction has the wavelengths outside the 1.01-fold of
       the one-hundredth value width out of the total signal at a particular wavelength
       setting
+    definition_paragraphs:
+    - text: fraction of the signal recorded by the detector for radiation of all 1.
+        The false radiation fraction has the wavelengths outside the 1.01-fold of
+        the one-hundredth value width out of the total signal at a particular wavelength
+        setting
+      sources: []
     notes:
     - dimension one and is expressed with the derived coherent SI unit one (1).
     - 2. Radiation entering the spectrophotometer from the outside through leaks is
       not include by this concept.
     - 3. Adapted from [5], clause 5.3.
+    note_paragraphs:
+    - text: dimension one and is expressed with the derived coherent SI unit one (1).
+      sources: []
+    - text: 2. Radiation entering the spectrophotometer from the outside through leaks
+        is not include by this concept.
+      sources: []
+    - text: 3. Adapted from [5], clause 5.3.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -48,12 +63,24 @@ data:
     definition: fraction of the signal recorded by the detector for radiation of all
       wavelengths outside the 1.01-fold of the one-hundredth value width out of the
       total signal at a particular wavelength setting
+    definition_paragraphs:
+    - text: fraction of the signal recorded by the detector for radiation of all wavelengths
+        outside the 1.01-fold of the one-hundredth value width out of the total signal
+        at a particular wavelength setting
+      sources: []
     notes:
     - 'Note: The false radiation fraction has the dimension one and is expressed with
       the derived coherent SI unit one (1). Radiation entering the spectrophotometer
       from the outside through leaks is not included by this concept. Adapted from
       [5], clause 5.3.'
+    note_paragraphs:
+    - text: 'Note: The false radiation fraction has the dimension one and is expressed
+        with the derived coherent SI unit one (1). Radiation entering the spectrophotometer
+        from the outside through leaks is not included by this concept. Adapted from
+        [5], clause 5.3.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -33,8 +33,15 @@ data:
     definition: value of the smallest bulk load that can be totalized without exceeding
       the maximum permissible error when the automatic operation is comprised of discrete
       loads, each within the automatic weighing range
+    definition_paragraphs:
+    - text: value of the smallest bulk load that can be totalized without exceeding
+        the maximum permissible error when the automatic operation is comprised of
+        discrete loads, each within the automatic weighing range
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -48,8 +55,14 @@ data:
     g18_entry: '00521'
     definition: the quantity, in units of mass, below which a totalization may be
       subject to excessive relative errors
+    definition_paragraphs:
+    - text: the quantity, in units of mass, below which a totalization may be subject
+        to excessive relative errors
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -63,8 +76,14 @@ data:
     g18_entry: '03317'
     definition: totalized quantity, in units of mass, below which a totalization may
       be subject to excessive relative errors
+    definition_paragraphs:
+    - text: totalized quantity, in units of mass, below which a totalization may be
+        subject to excessive relative errors
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -79,8 +98,15 @@ data:
     definition: value of the smallest bulk load that can be totalized without exceeding
       the maximum permissible error when the automatic operation is comprised of discrete
       loads, each within the automatic weighing range
+    definition_paragraphs:
+    - text: value of the smallest bulk load that can be totalized without exceeding
+        the maximum permissible error when the automatic operation is comprised of
+        discrete loads, each within the automatic weighing range
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -26,8 +26,14 @@ data:
     g18_entry: '01153'
     definition: the algebraic difference between the nominal value of the length of
       the line measure and its conventional true value
+    definition_paragraphs:
+    - text: the algebraic difference between the nominal value of the length of the
+        line measure and its conventional true value
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '01153'
     definition: the algebraic difference between the nominal value of the length of
       the line measure and its conventional true value
+    definition_paragraphs:
+    - text: the algebraic difference between the nominal value of the length of the
+        line measure and its conventional true value
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

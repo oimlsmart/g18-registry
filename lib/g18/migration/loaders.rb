@@ -87,27 +87,86 @@ module G18
       end
 
       def definition_text(concept)
-        loc = eng_localization(concept)
-        return "" unless loc
-        defs = loc.data.definition
-        return "" unless defs
-        defs.map { |d| d.respond_to?(:content) ? d.content : nil }.compact.join("\n")
+        paragraphs(concept, :definition).map { |p| p["text"] }.join("\n")
+      end
+
+      # Each definition paragraph with its own source attribution.
+      # Vocab v3 attaches sources[] to each definition[] paragraph, not
+      # just to the concept — a single concept can have one paragraph
+      # quoted verbatim from VIM 4.11 and another adapted from VIML 5.2.
+      # Flattening loses that structure.
+      def definition_paragraphs(concept, raw: nil)
+        paragraphs(concept, :definition, raw: raw)
       end
 
       def notes_text(concept)
-        loc = eng_localization(concept)
-        return [] unless loc
-        notes = loc.data.notes
-        return [] unless notes
-        notes.map { |n| n.respond_to?(:content) ? n.content : nil }.compact
+        paragraphs(concept, :notes).map { |p| p["text"] }
+      end
+
+      def note_paragraphs(concept, raw: nil)
+        paragraphs(concept, :notes, raw: raw)
       end
 
       def examples_text(concept)
+        paragraphs(concept, :examples).map { |p| p["text"] }
+      end
+
+      def example_paragraphs(concept, raw: nil)
+        paragraphs(concept, :examples, raw: raw)
+      end
+
+      # Generic extractor for any of definition/notes/examples. Each
+      # DetailedDefinition in vocab v3 is `{content:, sources:[]}`.
+      # Returns `[{text:, sources:[]}]` where each source is the same
+      # shape produced by `adoption_info` (kind/relationship/modification/...).
+      def paragraphs(concept, field, raw: nil)
         loc = eng_localization(concept)
         return [] unless loc
-        examples = loc.data.examples
-        return [] unless examples
-        examples.map { |x| x.respond_to?(:content) ? x.content : nil }.compact
+        items = loc.data.send(field)
+        items = items.to_a if items.respond_to?(:to_a)
+        return [] unless items.is_a?(Array)
+        items.map do |item|
+          text = item.respond_to?(:content) ? item.content : nil
+          srcs = item.respond_to?(:sources) ? item.sources : nil
+          # String keys — YAML round-trip with safe_load (no Symbol class).
+          { "text" => text, "sources" => source_summaries(srcs || []) }
+        end.reject { |p| p["text"].nil? || p["text"].to_s.strip.empty? }
+      rescue NoMethodError
+        # Glossarist V3 sometimes drops nested fields; fall back to raw YAML.
+        raw_paragraphs(raw, field)
+      end
+
+      # Raw-YAML fallback for the per-paragraph extraction. Glossarist V3
+      # drops localized sources and some DetailedDefinition fields on parse.
+      def raw_paragraphs(raw, field)
+        return [] unless raw.is_a?(Array)
+        loc_doc = raw.find { |d| d.is_a?(Hash) && d.dig("data", "definition") }
+        return [] unless loc_doc
+        items = Array(loc_doc.dig("data", field.to_s))
+        items.map do |item|
+          next nil unless item.is_a?(Hash)
+          text = item["content"]
+          next nil if text.nil? || text.to_s.strip.empty?
+          { "text" => text, "sources" => source_summaries(item["sources"] || []) }
+        end.compact
+      end
+
+      # Convert a list of raw or typed ConceptSource objects into the same
+      # adoption-summary shape used by `adoption_info`. Tolerates both
+      # Hash (raw YAML) and Glossarist::ConceptSource inputs.
+      def source_summaries(srcs)
+        srcs.map do |s|
+          ref_src = source_origin_source(s)
+          next nil unless ref_src
+          {
+            "kind"         => adoption_kind(ref_src),
+            "relationship" => adoption_relationship(s),
+            "modification" => source_modification(s),
+            "ref_source"   => ref_src,
+            "ref_id"       => source_origin_id(s),
+            "is_vimline"   => vimline_source?(ref_src),
+          }
+        end.compact
       end
 
       # Related concepts of type "see" (VIM/VIML authoritative citations).

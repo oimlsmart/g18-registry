@@ -27,8 +27,22 @@ data:
       their names and symbols, including a series of prefixes and their names and
       symbols, together with rules for their use, adopted by the General Conference
       on Weights and Measures (CGPM)
+    definition_paragraphs:
+    - text: System of units, based on the International System of Quantities, their
+        names and symbols, including a series of prefixes and their names and symbols,
+        together with rules for their use, adopted by the General Conference on Weights
+        and Measures (CGPM)
+      sources:
+      - kind: vim
+        relationship: identical
+        modification:
+        ref_source: OIML V 2-200:2012
+        ref_id: '1.16'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: vim
       relationship: identical

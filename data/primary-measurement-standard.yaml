@@ -31,9 +31,23 @@ data:
     g18_entry: '03385'
     definition: measurement standard established using a primary reference measurement
       procedure, or crated as an artifact, chosen by convention
+    definition_paragraphs:
+    - text: measurement standard established using a primary reference measurement
+        procedure, or crated as an artifact, chosen by convention
+      sources:
+      - kind: vim
+        relationship: identical
+        modification:
+        ref_source: OIML V 2-200:2012
+        ref_id: '5.4'
+        is_vimline: true
     notes:
     - For examples see [VIM, 5.4]
+    note_paragraphs:
+    - text: For examples see [VIM, 5.4]
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: vim
       relationship: identical

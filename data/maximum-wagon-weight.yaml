@@ -25,8 +25,14 @@ data:
     g18_entry: '01282'
     definition: the largest in-motion load that the installation is approved to weigh
       for a particular site
+    definition_paragraphs:
+    - text: the largest in-motion load that the installation is approved to weigh
+        for a particular site
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

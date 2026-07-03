@@ -25,12 +25,23 @@ data:
     g18_entry: '03746'
     definition: measurement error due to a measurement angle which differs from the
       configured value, the nominal value or the value measured by the instrument
+    definition_paragraphs:
+    - text: measurement error due to a measurement angle which differs from the configured
+        value, the nominal value or the value measured by the instrument
+      sources: []
     notes:
     - 'Note: The name of this term comes from the fact that the component of the velocity
       vector parallel to the line connecting the speed meter and the vehicle is given
       by vm = v ∙ cos(α), where the measurement angle α has in general a horizontal
       and a vertical component.'
+    note_paragraphs:
+    - text: 'Note: The name of this term comes from the fact that the component of
+        the velocity vector parallel to the line connecting the speed meter and the
+        vehicle is given by vm = v ∙ cos(α), where the measurement angle α has in
+        general a horizontal and a vertical component.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

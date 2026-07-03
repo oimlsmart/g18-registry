@@ -26,8 +26,14 @@ data:
     g18_entry: '00308'
     definition: component of the sphygmomanometer, comprising a bladder and asleeve,
       which is wrapped around the limb of the patient
+    definition_paragraphs:
+    - text: component of the sphygmomanometer, comprising a bladder and asleeve, which
+        is wrapped around the limb of the patient
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '00323'
     definition: component of the sphygmomanometer, comprising a bladder and asleeve,
       which is wrapped around the limb of the patient
+    definition_paragraphs:
+    - text: component of the sphygmomanometer, comprising a bladder and asleeve, which
+        is wrapped around the limb of the patient
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -56,11 +68,21 @@ data:
     g18_entry: '02967'
     definition: component of the non-invasive non-automated sphygmomanometer, comprising
       a bladder and a sleeve, which is wrapped around the limb of the patient
+    definition_paragraphs:
+    - text: component of the non-invasive non-automated sphygmomanometer, comprising
+        a bladder and a sleeve, which is wrapped around the limb of the patient
+      sources: []
     notes:
     - 'Note: A cuff might comprise a bladder and inelastic part that encloses the
       bladder, or have an integral bladder (i.e. the cuff including the bladder are
       fixed together or are one piece).'
+    note_paragraphs:
+    - text: 'Note: A cuff might comprise a bladder and inelastic part that encloses
+        the bladder, or have an integral bladder (i.e. the cuff including the bladder
+        are fixed together or are one piece).'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -74,11 +96,21 @@ data:
     g18_entry: '02968'
     definition: component of the non-invasive non-automated sphygmomanometer, comprising
       a bladder and a sleeve, which is wrapped around the limb of the patient
+    definition_paragraphs:
+    - text: component of the non-invasive non-automated sphygmomanometer, comprising
+        a bladder and a sleeve, which is wrapped around the limb of the patient
+      sources: []
     notes:
     - 'Note: A cuff might comprise a bladder and inelastic part that encloses the
       bladder, or have an integral bladder (i.e. the cuff including the bladder are
       fixed together or are one piece).'
+    note_paragraphs:
+    - text: 'Note: A cuff might comprise a bladder and inelastic part that encloses
+        the bladder, or have an integral bladder (i.e. the cuff including the bladder
+        are fixed together or are one piece).'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -92,8 +124,14 @@ data:
     g18_entry: '00308'
     definition: component of the sphygmomanometer, comprising a bladder and a sleeve,
       which is wrapped around the limb of the patient
+    definition_paragraphs:
+    - text: component of the sphygmomanometer, comprising a bladder and a sleeve,
+        which is wrapped around the limb of the patient
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -107,8 +145,14 @@ data:
     g18_entry: '00323'
     definition: component of the sphygmomanometer, comprising a bladder and a sleeve,
       which is wrapped around the limb of the patient
+    definition_paragraphs:
+    - text: component of the sphygmomanometer, comprising a bladder and a sleeve,
+        which is wrapped around the limb of the patient
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

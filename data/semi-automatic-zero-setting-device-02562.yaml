@@ -26,8 +26,14 @@ data:
     g18_entry: '01335'
     definition: device for setting the indication to zero automatically following
       amanual command
+    definition_paragraphs:
+    - text: device for setting the indication to zero automatically following amanual
+        command
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '00921'
     definition: device for setting the indication to zero automatically following
       amanual command
+    definition_paragraphs:
+    - text: device for setting the indication to zero automatically following amanual
+        command
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -56,8 +68,14 @@ data:
     g18_entry: '00778'
     definition: device for automatically setting the indication to zero following
       amanual command
+    definition_paragraphs:
+    - text: device for automatically setting the indication to zero following amanual
+        command
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -71,8 +89,14 @@ data:
     g18_entry: '01897'
     definition: device for setting the indication to zero automatically following
       amanual command
+    definition_paragraphs:
+    - text: device for setting the indication to zero automatically following amanual
+        command
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -86,8 +110,13 @@ data:
     g18_entry: '01799'
     definition: zero-setting device that operates automatically following a manual
       command
+    definition_paragraphs:
+    - text: zero-setting device that operates automatically following a manual command
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -101,8 +130,13 @@ data:
     g18_entry: '01270'
     definition: a zero-setting device that operates automatically following a manual
       command
+    definition_paragraphs:
+    - text: a zero-setting device that operates automatically following a manual command
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -116,8 +150,14 @@ data:
     g18_entry: '03486'
     definition: zero-setting device that operates automatically following a manual
       command or indicates the value of adjustment required
+    definition_paragraphs:
+    - text: zero-setting device that operates automatically following a manual command
+        or indicates the value of adjustment required
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -131,8 +171,13 @@ data:
     g18_entry: '02562'
     definition: zero-setting device that operates automatically following a manual
       command
+    definition_paragraphs:
+    - text: zero-setting device that operates automatically following a manual command
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

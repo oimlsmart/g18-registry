@@ -28,8 +28,16 @@ data:
       levels (zero reference). It is the intersection of the vertical measurement
       axis with the upper surface of the datum plate, or with the bottom, inside surface
       of the tank if a datum plate is not provided
+    definition_paragraphs:
+    - text: the datum point constitutes the origin for the measurement of liquid levels
+        (zero reference). It is the intersection of the vertical measurement axis
+        with the upper surface of the datum plate, or with the bottom, inside surface
+        of the tank if a datum plate is not provided
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -45,8 +53,16 @@ data:
       levels (zero reference). It is the intersection of the vertical measurement
       axis with the upper surface of the datum plate, or with the bottom, inside surface
       of the tank if a datum plate is not provided
+    definition_paragraphs:
+    - text: the datum point constitutes the origin for the measurement of liquid levels
+        (zero reference). It is the intersection of the vertical measurement axis
+        with the upper surface of the datum plate, or with the bottom, inside surface
+        of the tank if a datum plate is not provided
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -33,8 +33,14 @@ data:
     g18_entry: '01940'
     definition: value consistent with the definition of a given particular quantity
       [VIM:1993, 1.19 + notes]
+    definition_paragraphs:
+    - text: value consistent with the definition of a given particular quantity [VIM:1993,
+        1.19 + notes]
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

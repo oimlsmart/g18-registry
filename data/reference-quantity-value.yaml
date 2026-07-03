@@ -26,9 +26,17 @@ data:
     g18_entry: '02349'
     definition: quantity value used as a basis for comparison with values of quantities
       of the same kind
+    definition_paragraphs:
+    - text: quantity value used as a basis for comparison with values of quantities
+        of the same kind
+      sources: []
     notes:
     - "(VIM:2007, 5.18)"
+    note_paragraphs:
+    - text: "(VIM:2007, 5.18)"
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -42,8 +50,14 @@ data:
     g18_entry: '02350'
     definition: quantity value used as a basis for comparison with values of quantities
       of the same kind [VIM:2007, 5.18]
+    definition_paragraphs:
+    - text: quantity value used as a basis for comparison with values of quantities
+        of the same kind [VIM:2007, 5.18]
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

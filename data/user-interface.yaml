@@ -28,8 +28,16 @@ data:
       and the measuring instrument or its hardware or software components, e.g. switches,
       keyboard, mouse, display, monitor, printer, touch-screen, software window on
       a screen including the software that generates it
+    definition_paragraphs:
+    - text: interface that enables information to be interchanged between a human
+        and the measuring instrument or its hardware or software components, e.g.
+        switches, keyboard, mouse, display, monitor, printer, touch-screen, software
+        window on a screen including the software that generates it
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -45,8 +53,16 @@ data:
       user and the measuring instrument or its hardware or software components, e.g.
       switches, keyboard, mouse, display, monitor, printer, touch-screen, or a window
       on a screen including the software that generates it
+    definition_paragraphs:
+    - text: interface that enables information to be interchanged between a human
+        user and the measuring instrument or its hardware or software components,
+        e.g. switches, keyboard, mouse, display, monitor, printer, touch-screen, or
+        a window on a screen including the software that generates it
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -61,8 +77,15 @@ data:
     definition: e. interface that enables information to be passed between a user
       and the instrument or its hardware or software components, as, g. switch, keyboard,
       mouse, display, monitor, printer, touch- screen
+    definition_paragraphs:
+    - text: e. interface that enables information to be passed between a user and
+        the instrument or its hardware or software components, as, g. switch, keyboard,
+        mouse, display, monitor, printer, touch- screen
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -77,10 +100,19 @@ data:
     definition: interface that enables information to be interchanged between the
       user/operator and the measuring instrument or its (hardware) components or (software)
       modules
+    definition_paragraphs:
+    - text: interface that enables information to be interchanged between the user/operator
+        and the measuring instrument or its (hardware) components or (software) modules
+      sources: []
     notes:
     - 'Note: Typical examples of user interfaces are switches, keyboard, mouse, display,
       monitor, printer, touchscreen, etc.'
+    note_paragraphs:
+    - text: 'Note: Typical examples of user interfaces are switches, keyboard, mouse,
+        display, monitor, printer, touchscreen, etc.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -95,11 +127,21 @@ data:
     definition: interface that enables information to be interchanged between the
       user/operator and the measuring instrument or its (hardware) components or (software)
       modules
+    definition_paragraphs:
+    - text: interface that enables information to be interchanged between the user/operator
+        and the measuring instrument or its (hardware) components or (software) modules
+      sources: []
     notes:
     - Note:Typical examples of user interfaces are switches, keyboard, mouse, display,
       monitor, printer, touchscreen, software window on a screen including the software
       that generates it.
+    note_paragraphs:
+    - text: Note:Typical examples of user interfaces are switches, keyboard, mouse,
+        display, monitor, printer, touchscreen, software window on a screen including
+        the software that generates it.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -114,10 +156,21 @@ data:
     definition: interface that enables information to be interchanged between the
       operator and the measuring instrument or its hardware components or software
       modules (OIML D 31, 3.1.60)
+    definition_paragraphs:
+    - text: interface that enables information to be interchanged between the operator
+        and the measuring instrument or its hardware components or software modules
+        (OIML D 31, 3.1.60)
+      sources: []
     notes:
     - Note:Examples are switches, keyboard, mouse, display, monitor, printer, touch-screen,
       software window on a screen including the software that generates it.
+    note_paragraphs:
+    - text: Note:Examples are switches, keyboard, mouse, display, monitor, printer,
+        touch-screen, software window on a screen including the software that generates
+        it.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -133,8 +186,16 @@ data:
       operator and the measuring instrument or its hardware or software components,
       e.g. switches, keyboard, mouse, display, monitor, printer, touch-screen, or
       a window on a screen including the software that generates it [VIML:2013, 6.08]
+    definition_paragraphs:
+    - text: interface that enables information to be interchanged between the operator
+        and the measuring instrument or its hardware or software components, e.g.
+        switches, keyboard, mouse, display, monitor, printer, touch-screen, or a window
+        on a screen including the software that generates it [VIML:2013, 6.08]
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -150,9 +211,19 @@ data:
       operator and the measuring instrument or its hardware or software components,
       e.g. switches, keyboard, mouse, display, monitor, printer, touch-screen, software
       window on a screen including the software that generates it
+    definition_paragraphs:
+    - text: interface that enables information to be interchanged between the operator
+        and the measuring instrument or its hardware or software components, e.g.
+        switches, keyboard, mouse, display, monitor, printer, touch-screen, software
+        window on a screen including the software that generates it
+      sources: []
     notes:
     - 'Note: Often referred to as “HMI” (human machine interface).'
+    note_paragraphs:
+    - text: 'Note: Often referred to as “HMI” (human machine interface).'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -167,8 +238,15 @@ data:
     definition: interface that enables information to be passed between a human user
       and the instrument or its hardware or software components, e.g. switch, keyboard,
       mouse, display, monitor, printer, touchscreen
+    definition_paragraphs:
+    - text: interface that enables information to be passed between a human user and
+        the instrument or its hardware or software components, e.g. switch, keyboard,
+        mouse, display, monitor, printer, touchscreen
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -184,8 +262,16 @@ data:
       user and the measuring instrument or its hardware or software components, e.g.
       switches, keyboard, mouse, display, monitor, printer, touch-screen, or a window
       on a screen including the software that generates it
+    definition_paragraphs:
+    - text: interface that enables information to be interchanged between a human
+        user and the measuring instrument or its hardware or software components,
+        e.g. switches, keyboard, mouse, display, monitor, printer, touch-screen, or
+        a window on a screen including the software that generates it
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -200,8 +286,15 @@ data:
     definition: interface that enables information to be passed between a user and
       the instrument or its hardware or software components, as, e.g. switch, keyboard,
       mouse, display, monitor, printer, touch- screen
+    definition_paragraphs:
+    - text: interface that enables information to be passed between a user and the
+        instrument or its hardware or software components, as, e.g. switch, keyboard,
+        mouse, display, monitor, printer, touch- screen
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -25,8 +25,14 @@ data:
     g18_entry: '03645'
     definition: limits of concentration of an element in a sample over which the instrument
       operates within the performance requirements of this Recommendation.
+    definition_paragraphs:
+    - text: limits of concentration of an element in a sample over which the instrument
+        operates within the performance requirements of this Recommendation.
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

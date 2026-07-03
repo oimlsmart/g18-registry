@@ -26,8 +26,14 @@ data:
     g18_entry: '01838'
     definition: loaded or unloaded vehicle that is recognized by the instrument as
       a vehicle to be weighed
+    definition_paragraphs:
+    - text: loaded or unloaded vehicle that is recognized by the instrument as a vehicle
+        to be weighed
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '03617'
     definition: loaded or unloaded vehicle that is recognized by the instrument as
       a road vehicle to be weighed
+    definition_paragraphs:
+    - text: loaded or unloaded vehicle that is recognized by the instrument as a road
+        vehicle to be weighed
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -26,8 +26,14 @@ data:
     g18_entry: '00883'
     definition: instrument that calculates the price to pay on the basis of the indicated
       weight value and the unit price
+    definition_paragraphs:
+    - text: instrument that calculates the price to pay on the basis of the indicated
+        weight value and the unit price
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '00883'
     definition: instrument that calculates the price to pay on the basis of the indicated
       weight value and the unit price
+    definition_paragraphs:
+    - text: instrument that calculates the price to pay on the basis of the indicated
+        weight value and the unit price
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

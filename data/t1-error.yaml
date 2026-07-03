@@ -27,9 +27,19 @@ data:
       (T) (see 2.1.17) but not greater than twice the applicable tolerable deficiency
       (2T) for the given nominal quantity T1 error: (Qnom – 2T) ≤ Qi < (Qnom – T)
       where Qnom is the nominal quantity'
+    definition_paragraphs:
+    - text: 'deficiency that is greater than the applicable tolerable deficiency (T)
+        (see 2.1.17) but not greater than twice the applicable tolerable deficiency
+        (2T) for the given nominal quantity T1 error: (Qnom – 2T) ≤ Qi < (Qnom – T)
+        where Qnom is the nominal quantity'
+      sources: []
     notes:
     - 'Note : See Annex G for an example of the application of errors.'
+    note_paragraphs:
+    - text: 'Note : See Annex G for an example of the application of errors.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

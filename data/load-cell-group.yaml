@@ -25,9 +25,17 @@ data:
     g18_entry: '00711'
     definition: all load cells within a family possessing identical metrological characteristics
       (for example, class, stem:[n_max], temperature rating, etc.)
+    definition_paragraphs:
+    - text: all load cells within a family possessing identical metrological characteristics
+        (for example, class, stem:[n_max], temperature rating, etc.)
+      sources: []
     notes:
     - The examples provided are not intended to be imiting.
+    note_paragraphs:
+    - text: The examples provided are not intended to be imiting.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

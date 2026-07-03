@@ -25,8 +25,14 @@ data:
     g18_entry: '03085'
     definition: part of the force receptor, that converts the measured induced force
       into a different measurement quantity (output)
+    definition_paragraphs:
+    - text: part of the force receptor, that converts the measured induced force into
+        a different measurement quantity (output)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

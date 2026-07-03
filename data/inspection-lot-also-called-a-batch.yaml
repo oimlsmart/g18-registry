@@ -27,8 +27,16 @@ data:
       that are presumed to be uniform and from which a sample is drawn and inspected
       to determine conformance with specified criteria for acceptance or rejection
       of the inspection lot as a whole
+    definition_paragraphs:
+    - text: definite quantity of prepackages produced at one time under conditions
+        that are presumed to be uniform and from which a sample is drawn and inspected
+        to determine conformance with specified criteria for acceptance or rejection
+        of the inspection lot as a whole
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

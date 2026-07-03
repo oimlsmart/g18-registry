@@ -27,8 +27,16 @@ data:
       measuring instrument which interferes with properties regulated by legal metrology,
       e.g. the accuracy of the measurement or the correct functioning of the measuring
       instrument
+    definition_paragraphs:
+    - text: software/hardware/data or part of the software/hardware/data of a measuring
+        instrument which interferes with properties regulated by legal metrology,
+        e.g. the accuracy of the measurement or the correct functioning of the measuring
+        instrument
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

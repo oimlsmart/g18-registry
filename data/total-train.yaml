@@ -24,8 +24,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r106-1-e97.pdf
     g18_entry: 01213b
     definition: a number of coupled wagons whose totalized weight is to be obtained
+    definition_paragraphs:
+    - text: a number of coupled wagons whose totalized weight is to be obtained
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -25,13 +25,26 @@ data:
     g18_entry: '03773'
     definition: a straight or curved section of the road, where the measured vehicle
       was driving during the measurement
+    definition_paragraphs:
+    - text: a straight or curved section of the road, where the measured vehicle was
+        driving during the measurement
+      sources: []
     notes:
     - Its starting and end points are defined such that the measured speed value refers
       to the average speed on the measurement section.
     - In a manual measurement, the measured vehicle drives on the measurement section
       after the measurement is triggered. In an automatic measurement, the measured
       vehicle exits the measurement section at the trigger line.
+    note_paragraphs:
+    - text: Its starting and end points are defined such that the measured speed value
+        refers to the average speed on the measurement section.
+      sources: []
+    - text: In a manual measurement, the measured vehicle drives on the measurement
+        section after the measurement is triggered. In an automatic measurement, the
+        measured vehicle exits the measurement section at the trigger line.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -26,9 +26,17 @@ data:
     g18_entry: '02041'
     definition: element of a measuring instrument or measuring chain that is directly
       affected by the measurand
+    definition_paragraphs:
+    - text: element of a measuring instrument or measuring chain that is directly
+        affected by the measurand
+      sources: []
     notes:
     - "(VIM:2007, 3.8)"
+    note_paragraphs:
+    - text: "(VIM:2007, 3.8)"
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -42,9 +50,17 @@ data:
     g18_entry: '01926'
     definition: element of a measuring instrument or measuring chain that is directly
       affected by the measurand
+    definition_paragraphs:
+    - text: element of a measuring instrument or measuring chain that is directly
+        affected by the measurand
+      sources: []
     notes:
     - "[VIM:1993, 4.14]"
+    note_paragraphs:
+    - text: "[VIM:1993, 4.14]"
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -60,12 +76,25 @@ data:
       or substance carrying a quantity to be measured [SOURCE: ISO/IEC Guide 99:2007/OIML
       V 2-200:2012 (VIM) 3.8, [1], modified — “meter” replaces “measuring system”;original
       note removed; original examples removed, “Note” added]'
+    definition_paragraphs:
+    - text: 'element of a meter that is directly affected by a phenomenon, body or
+        substance carrying a quantity to be measured [SOURCE: ISO/IEC Guide 99:2007/OIML
+        V 2-200:2012 (VIM) 3.8, [1], modified — “meter” replaces “measuring system”;original
+        note removed; original examples removed, “Note” added]'
+      sources: []
     notes:
     - 'Note: For a water meter, the sensor may be a disc, piston, wheel or turbine
       element, the electrodes on an electromagnetic meter, or another element. The
       element senses the flow rate or volume of water passing through the meter and
       is referred to as a “flow sensor” or “volume sensor”.'
+    note_paragraphs:
+    - text: 'Note: For a water meter, the sensor may be a disc, piston, wheel or turbine
+        element, the electrodes on an electromagnetic meter, or another element. The
+        element senses the flow rate or volume of water passing through the meter
+        and is referred to as a “flow sensor” or “volume sensor”.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -79,8 +108,20 @@ data:
     g18_entry: '02648'
     definition: element of a measuring system that is directly affected by a phenomenon,
       body, or substance carrying a quantity to be measured
+    definition_paragraphs:
+    - text: element of a measuring system that is directly affected by a phenomenon,
+        body, or substance carrying a quantity to be measured
+      sources:
+      - kind: vim
+        relationship: identical
+        modification:
+        ref_source: OIML V 2-200:2012
+        ref_id: '3.8'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: vim
       relationship: identical
@@ -100,8 +141,14 @@ data:
     g18_entry: '02041'
     definition: element of a measuring instrument or measuring chain that is directly
       affected by the measurand [VIM:2007, 3.8]
+    definition_paragraphs:
+    - text: element of a measuring instrument or measuring chain that is directly
+        affected by the measurand [VIM:2007, 3.8]
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

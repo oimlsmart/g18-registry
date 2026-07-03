@@ -26,8 +26,15 @@ data:
     definition: "- G.3-1 report, issued by an Issuing Authority, that includes the
       Partial Test Reports or the Test Report and assesses the conformity of the measuring
       instrument to the stated requirements"
+    definition_paragraphs:
+    - text: "- G.3-1 report, issued by an Issuing Authority, that includes the Partial
+        Test Reports or the Test Report and assesses the conformity of the measuring
+        instrument to the stated requirements"
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

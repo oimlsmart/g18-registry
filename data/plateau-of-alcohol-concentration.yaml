@@ -25,9 +25,18 @@ data:
     g18_entry: '03369'
     definition: time period during exhalation when the alcohol content is considered
       to reach a nearly stable value
+    definition_paragraphs:
+    - text: time period during exhalation when the alcohol content is considered to
+        reach a nearly stable value
+      sources: []
     notes:
     - 'Note: Plateau of alcohol concentration is described in R 126-2, Annex A.4.'
+    note_paragraphs:
+    - text: 'Note: Plateau of alcohol concentration is described in R 126-2, Annex
+        A.4.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -25,8 +25,20 @@ data:
     g18_entry: '03593'
     definition: mark applied to a measuring instrument certifying its conformity to
       the approved type
+    definition_paragraphs:
+    - text: mark applied to a measuring instrument certifying its conformity to the
+        approved type
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2013
+        ref_id: '3.07'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical

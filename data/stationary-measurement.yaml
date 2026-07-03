@@ -25,10 +25,19 @@ data:
     g18_entry: '03785'
     definition: speed measurement at zero ego speed, i.e. the speed meter is not moving
       during the measurement
+    definition_paragraphs:
+    - text: speed measurement at zero ego speed, i.e. the speed meter is not moving
+        during the measurement
+      sources: []
     notes:
     - 'Note: In other documents, stationary measurements are sometimes called static
       measurements or measurements from a static point.'
+    note_paragraphs:
+    - text: 'Note: In other documents, stationary measurements are sometimes called
+        static measurements or measurements from a static point.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

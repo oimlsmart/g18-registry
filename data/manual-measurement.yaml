@@ -24,8 +24,13 @@ data:
     link:
     g18_entry: '03774'
     definition: speed measurement triggered by user interaction
+    definition_paragraphs:
+    - text: speed measurement triggered by user interaction
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

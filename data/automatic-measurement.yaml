@@ -25,8 +25,13 @@ data:
     g18_entry: '03740'
     definition: speed measurement triggered by the traffic situation without user
       interaction
+    definition_paragraphs:
+    - text: speed measurement triggered by the traffic situation without user interaction
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

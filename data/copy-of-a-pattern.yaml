@@ -26,6 +26,10 @@ data:
     g18_entry: '00127'
     definition: an individual instrument which conforms, within specified limits,
       to a given pattern in all respects
+    definition_paragraphs:
+    - text: an individual instrument which conforms, within specified limits, to a
+        given pattern in all respects
+      sources: []
     notes:
     - The word « pattern » has been commonly used to refer to the definitive model
       of a measuring instrument as well as to the class of instruments that conform
@@ -36,7 +40,19 @@ data:
       to requirements but, generally, also relates to th instruments of the class
       produced by the manufacturer; it usually conveys that these may be sold as legal
       for use and submitted for initial verification.
+    note_paragraphs:
+    - text: The word « pattern » has been commonly used to refer to the definitive
+        model of a measuring instrument as well as to the class of instruments that
+        conform to it. The instruments produced by the manufacturer to replicate the
+        pattern constitute a different class. The question of whether an instrument
+        of this class conforms to the pattern is normally the subject of initial verification.
+        Pattern approval not only implies the recognition that the pattern conforms
+        to requirements but, generally, also relates to th instruments of the class
+        produced by the manufacturer; it usually conveys that these may be sold as
+        legal for use and submitted for initial verification.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -50,6 +66,10 @@ data:
     g18_entry: '00135'
     definition: an individual instrument which conforms, within specified limits,
       to a given pattern in all respects.
+    definition_paragraphs:
+    - text: an individual instrument which conforms, within specified limits, to a
+        given pattern in all respects.
+      sources: []
     notes:
     - The word « pattern » has been commonly used to refer to the definitive model
       of a measuring instrument as well as to the class of instruments that conform
@@ -60,7 +80,19 @@ data:
       but, generally, also relates to th instruments of the class produced by the
       manufacturer ; it usually conveys that these may be sold as legal for use and
       submitted for initial verification
+    note_paragraphs:
+    - text: The word « pattern » has been commonly used to refer to the definitive
+        model of a measuring instrument as well as to the class of instruments that
+        conform to it. The instruments produced by the manufacturer to replicate the
+        pattern constitute a different class. The question of whether an instrument
+        of the class conforms to the pattern is normally the subject of initial verification.
+        Pattern approval not only implies the recognition that the pattern conforms
+        to requirements but, generally, also relates to th instruments of the class
+        produced by the manufacturer ; it usually conveys that these may be sold as
+        legal for use and submitted for initial verification
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -74,6 +106,10 @@ data:
     g18_entry: '00127'
     definition: an individual instrument which conforms, within specified limits,
       to a given pattern in all respects
+    definition_paragraphs:
+    - text: an individual instrument which conforms, within specified limits, to a
+        given pattern in all respects
+      sources: []
     notes:
     - 'Note: The word « pattern » has been commonly used to refer to the definitive
       model of a measuring instrument as well as to the class of instruments that
@@ -84,7 +120,19 @@ data:
       to requirements but, generally, also relates to the  instruments of the class
       produced by the manufacturer; it usually conveys that these may be sold as legal
       for use and submitted for initial verification.'
+    note_paragraphs:
+    - text: 'Note: The word « pattern » has been commonly used to refer to the definitive
+        model of a measuring instrument as well as to the class of instruments that
+        conform to it. The instruments produced by the manufacturer to replicate the
+        pattern constitute a different class. The question of whether an instrument
+        of this class conforms to the pattern is normally the subject of initial verification.
+        Pattern approval not only implies the recognition that the pattern conforms
+        to requirements but, generally, also relates to the  instruments of the class
+        produced by the manufacturer; it usually conveys that these may be sold as
+        legal for use and submitted for initial verification.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -98,6 +146,10 @@ data:
     g18_entry: '00135'
     definition: an individual instrument which conforms, within specified limits,
       to a given pattern in all respects.
+    definition_paragraphs:
+    - text: an individual instrument which conforms, within specified limits, to a
+        given pattern in all respects.
+      sources: []
     notes:
     - 'Note: The word « pattern » has been commonly used to refer to the definitive
       model of a   measuring instrument as well as to the class of instruments that
@@ -108,7 +160,19 @@ data:
       to requirements but, generally, also relates to the instruments of the class
       produced by the manufacturer; it usually conveys that these may be sold as legal
       for use and submitted for initial verification'
+    note_paragraphs:
+    - text: 'Note: The word « pattern » has been commonly used to refer to the definitive
+        model of a   measuring instrument as well as to the class of instruments that
+        conform to it. The instruments produced by the manufacturer to replicate the
+        pattern constitute a different class. The question of whether an instrument
+        of the class conforms to the pattern is normally the subject of initial verification.
+        Pattern approval not only implies the recognition that the pattern conforms
+        to requirements but, generally, also relates to the instruments of the class
+        produced by the manufacturer; it usually conveys that these may be sold as
+        legal for use and submitted for initial verification'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -33,8 +33,15 @@ data:
     definition: smallest value of a quantity (mass) which is applied to a load cell
       during test or use. This value shall not be less than Emin (see 2.3.8). For
       the limits on Dmin during testing, see A.3.2.4
+    definition_paragraphs:
+    - text: smallest value of a quantity (mass) which is applied to a load cell during
+        test or use. This value shall not be less than Emin (see 2.3.8). For the limits
+        on Dmin during testing, see A.3.2.4
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -48,8 +55,14 @@ data:
     g18_entry: '03308'
     definition: smallest value of a quantity expressed in units of mass, applied to
       a load cell under test
+    definition_paragraphs:
+    - text: smallest value of a quantity expressed in units of mass, applied to a
+        load cell under test
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -28,8 +28,16 @@ data:
       and time string denoting the date and/or time at which a certain event or fault
       occurred. This data is presented in a consistent format, allowing for easy comparison
       of two different records and tracking progress over time
+    definition_paragraphs:
+    - text: unique monotonically increasing time value, e.g. in seconds or a date
+        and time string denoting the date and/or time at which a certain event or
+        fault occurred. This data is presented in a consistent format, allowing for
+        easy comparison of two different records and tracking progress over time
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -43,8 +51,14 @@ data:
     g18_entry: '03567'
     definition: unique value, e.g. in seconds or a date and time string denoting the
       date and/or time at which a certain incident (e.g. measurement or event) occurred.
+    definition_paragraphs:
+    - text: unique value, e.g. in seconds or a date and time string denoting the date
+        and/or time at which a certain incident (e.g. measurement or event) occurred.
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

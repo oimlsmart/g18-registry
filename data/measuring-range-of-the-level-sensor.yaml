@@ -29,8 +29,17 @@ data:
       less than the liquid level corresponding tothe minimum measured quantity of
       the tank or compartment. The upper limit depends on the tank height and shall
       be above the maximum permissible filling height of the tank or compartment
+    definition_paragraphs:
+    - text: range between the minimum and maximum possible indications ofthe level
+        sensor. The lower limit is type and system dependent and shall be significantly
+        less than the liquid level corresponding tothe minimum measured quantity of
+        the tank or compartment. The upper limit depends on the tank height and shall
+        be above the maximum permissible filling height of the tank or compartment
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -47,8 +56,17 @@ data:
       less than the liquid level corresponding to the minimum measured quantity of
       the tank or compartment. The upper limit depends on the tank height and shall
       be above the maximum permissible filling height of the tank or compartment
+    definition_paragraphs:
+    - text: range between the minimum and maximum possible indications of the level
+        sensor. The lower limit is type and system dependent and shall be significantly
+        less than the liquid level corresponding to the minimum measured quantity
+        of the tank or compartment. The upper limit depends on the tank height and
+        shall be above the maximum permissible filling height of the tank or compartment
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -65,8 +83,17 @@ data:
       less than the liquid level corresponding to the minimum measured quantity of
       the tank or compartment. The upper limit depends on the tank height and shall
       be above the maximum permissible filling height of the tank or compartment
+    definition_paragraphs:
+    - text: range between the minimum and maximum possible indications of the level
+        sensor. The lower limit is type and system dependent and shall be significantly
+        less than the liquid level corresponding to the minimum measured quantity
+        of the tank or compartment. The upper limit depends on the tank height and
+        shall be above the maximum permissible filling height of the tank or compartment
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

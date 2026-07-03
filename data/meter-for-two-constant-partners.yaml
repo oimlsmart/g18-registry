@@ -26,8 +26,14 @@ data:
     g18_entry: '00422'
     definition: meter permanently installed and only used for deliveries from one
       supplier to one customer
+    definition_paragraphs:
+    - text: meter permanently installed and only used for deliveries from one supplier
+        to one customer
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '02380'
     definition: meter that is permanently installed and only used for deliveries from
       one supplier to one customer
+    definition_paragraphs:
+    - text: meter that is permanently installed and only used for deliveries from
+        one supplier to one customer
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

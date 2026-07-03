@@ -25,11 +25,22 @@ data:
     g18_entry: '03335'
     definition: cumulative measuring process with no definite and that cannot be stopped
       and continued again by a user/operator without falsifying the result of measurement
+    definition_paragraphs:
+    - text: cumulative measuring process with no definite and that cannot be stopped
+        and continued again by a user/operator without falsifying the result of measurement
+      sources: []
     notes:
     - 'Examples include: a) continuous totalising automatic weighing instrument, b)
       heat meter.'
     - See also interruptible cumulative measurement (3.2.27)
+    note_paragraphs:
+    - text: 'Examples include: a) continuous totalising automatic weighing instrument,
+        b) heat meter.'
+      sources: []
+    - text: See also interruptible cumulative measurement (3.2.27)
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

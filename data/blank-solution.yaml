@@ -31,9 +31,17 @@ data:
     g18_entry: '01852'
     definition: solution similar to the sample solution but which does not contain
       the analyte
+    definition_paragraphs:
+    - text: solution similar to the sample solution but which does not contain the
+        analyte
+      sources: []
     notes: []
+    note_paragraphs: []
     examples:
     - Solvent.
+    example_paragraphs:
+    - text: Solvent.
+      sources: []
     source:
     consistency: pending
     consistency_reason: ''

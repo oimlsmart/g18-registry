@@ -26,8 +26,14 @@ data:
     g18_entry: '01052'
     definition: device that can respond to eluted sample components in the carrier
       gas emerging from the column
+    definition_paragraphs:
+    - text: device that can respond to eluted sample components in the carrier gas
+        emerging from the column
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -42,8 +48,15 @@ data:
     definition: device that can respond to eluted sample components in the carrier
       gas emerging from the gas chromatographic column and that is contained within
       the mass spectrometer in a GC/MS system
+    definition_paragraphs:
+    - text: device that can respond to eluted sample components in the carrier gas
+        emerging from the gas chromatographic column and that is contained within
+        the mass spectrometer in a GC/MS system
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -57,8 +70,14 @@ data:
     g18_entry: '01523'
     definition: device that responds to light signals passing through the exit slit
       of the polychromator or scanning monochromator of the ICP system
+    definition_paragraphs:
+    - text: device that responds to light signals passing through the exit slit of
+        the polychromator or scanning monochromator of the ICP system
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -72,8 +91,14 @@ data:
     g18_entry: '01607'
     definition: device that converts the energy absorbed from the X-rays emitted by
       a sample into electric signals
+    definition_paragraphs:
+    - text: device that converts the energy absorbed from the X-rays emitted by a
+        sample into electric signals
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -87,8 +112,14 @@ data:
     g18_entry: '01479'
     definition: the device that responds to the presence of sample components eluting
       from the column
+    definition_paragraphs:
+    - text: the device that responds to the presence of sample components eluting
+        from the column
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -101,8 +132,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r113-e94.pdf
     g18_entry: '01494'
     definition: a device that responds to sample components in the eluate of the column
+    definition_paragraphs:
+    - text: a device that responds to sample components in the eluate of the column
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -116,13 +152,25 @@ data:
     g18_entry: '02977'
     definition: contact sensor or non-contact (optical or mechanical) sensor that
       is used to detect the position of the displacer
+    definition_paragraphs:
+    - text: contact sensor or non-contact (optical or mechanical) sensor that is used
+        to detect the position of the displacer
+      sources: []
     notes:
     - 'Note: A mechanical detector using a cantilever is often employed in certain
       pipe provers. The lever is pushed by the displacer and actuates an electrical
       switch installed outside the pipe wall. A linear encoder is used for a piston
       prover to transmit a pulse signal that is proportional to the displacement of
       the displacer.'
+    note_paragraphs:
+    - text: 'Note: A mechanical detector using a cantilever is often employed in certain
+        pipe provers. The lever is pushed by the displacer and actuates an electrical
+        switch installed outside the pipe wall. A linear encoder is used for a piston
+        prover to transmit a pulse signal that is proportional to the displacement
+        of the displacer.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -136,8 +184,14 @@ data:
     g18_entry: '01052'
     definition: device that can respond to eluted sample components in the carrier
       gas emerging from the column
+    definition_paragraphs:
+    - text: device that can respond to eluted sample components in the carrier gas
+        emerging from the column
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -152,8 +206,15 @@ data:
     definition: device that can respond to eluted sample components in the carrier
       gas emerging from the gas chromatographic column and that is contained within
       the mass spectrometer in a GC/MS system
+    definition_paragraphs:
+    - text: device that can respond to eluted sample components in the carrier gas
+        emerging from the gas chromatographic column and that is contained within
+        the mass spectrometer in a GC/MS system
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -167,8 +228,14 @@ data:
     g18_entry: '01523'
     definition: device that responds to light signals passing through the exit slit
       of the polychromator or scanning monochromator of the ICP system
+    definition_paragraphs:
+    - text: device that responds to light signals passing through the exit slit of
+        the polychromator or scanning monochromator of the ICP system
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -182,8 +249,14 @@ data:
     g18_entry: '01607'
     definition: device that converts the energy absorbed from the X-rays emitted by
       a sample into electric signals
+    definition_paragraphs:
+    - text: device that converts the energy absorbed from the X-rays emitted by a
+        sample into electric signals
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -197,8 +270,14 @@ data:
     g18_entry: '01479'
     definition: the device that responds to the presence of sample components eluting
       from the column
+    definition_paragraphs:
+    - text: the device that responds to the presence of sample components eluting
+        from the column
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -211,8 +290,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r113-e94.pdf
     g18_entry: '01494'
     definition: a device that responds to sample components in the eluate of the column
+    definition_paragraphs:
+    - text: a device that responds to sample components in the eluate of the column
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

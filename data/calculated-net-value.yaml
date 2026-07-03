@@ -26,8 +26,14 @@ data:
     g18_entry: '00632'
     definition: value of the difference between a gross or net weight value and a
       preset tare value
+    definition_paragraphs:
+    - text: value of the difference between a gross or net weight value and a preset
+        tare value
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '00971'
     definition: value of the difference between a measured weight value (gross ornet)
       and a preset tare value
+    definition_paragraphs:
+    - text: value of the difference between a measured weight value (gross ornet)
+        and a preset tare value
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -56,8 +68,14 @@ data:
     g18_entry: '00632'
     definition: value of the difference between a gross or net weight value and a
       preset tare value
+    definition_paragraphs:
+    - text: value of the difference between a gross or net weight value and a preset
+        tare value
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -71,8 +89,14 @@ data:
     g18_entry: '00971'
     definition: value of the difference between a measured weight value (gross or
       net) and a preset tare value
+    definition_paragraphs:
+    - text: value of the difference between a measured weight value (gross or net)
+        and a preset tare value
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

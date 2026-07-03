@@ -25,10 +25,19 @@ data:
     g18_entry: '03794'
     definition: measurement error due to changing target area on the measured vehicle
       during the measurement
+    definition_paragraphs:
+    - text: measurement error due to changing target area on the measured vehicle
+        during the measurement
+      sources: []
     notes:
     - 'Note: The change can be manifold, e.g. a single step, multiple steps, or a
       gradual sliding.'
+    note_paragraphs:
+    - text: 'Note: The change can be manifold, e.g. a single step, multiple steps,
+        or a gradual sliding.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

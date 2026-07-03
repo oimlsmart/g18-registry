@@ -27,8 +27,16 @@ data:
       s(qk) characterising the dispersion of the results and given by the formula:
       with: qk being the result of the kth measurement and  beeing the arithmetic
       mean of the n results considered.'
+    definition_paragraphs:
+    - text: 'for a series of n measurements of the same measurand, the quantity s(qk)
+        characterising the dispersion of the results and given by the formula: with:
+        qk being the result of the kth measurement and  beeing the arithmetic mean
+        of the n results considered.'
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

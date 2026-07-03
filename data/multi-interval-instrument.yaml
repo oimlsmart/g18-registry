@@ -28,8 +28,16 @@ data:
       weighing ranges each with different scale intervals, with the weighing range
       determined automatically according to the load applied, both on increasing and
       decreasing loads
+    definition_paragraphs:
+    - text: instrument having one weighing range which is divided into partial weighing
+        ranges each with different scale intervals, with the weighing range determined
+        automatically according to the load applied, both on increasing and decreasing
+        loads
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -45,8 +53,16 @@ data:
       weighing ranges each with different scale intervals, with the partial weighing
       range determined automatically according tothe load applied, both on increasing
       and decreasing loads
+    definition_paragraphs:
+    - text: instrument having one weighing range which is divided into partial weighing
+        ranges each with different scale intervals, with the partial weighing range
+        determined automatically according tothe load applied, both on increasing
+        and decreasing loads
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -62,8 +78,16 @@ data:
       is divided into partial measuring ranges each with different scale intervals,
       with the measuring range determined automatically according to the dimension
       being measured
+    definition_paragraphs:
+    - text: instruments having one dimensional measuring range for each axis which
+        is divided into partial measuring ranges each with different scale intervals,
+        with the measuring range determined automatically according to the dimension
+        being measured
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -79,8 +103,16 @@ data:
       axis which is divided into partial measuring ranges each with different scale
       intervals, with the measuring range determined automatically according to the
       dimension being measured
+    definition_paragraphs:
+    - text: measuring instruments having one dimensional measuring range for each
+        axis which is divided into partial measuring ranges each with different scale
+        intervals, with the measuring range determined automatically according to
+        the dimension being measured
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -96,8 +128,16 @@ data:
       weighing ranges each with different scale intervals, with the weighing range
       determined automatically according to the load applied, both on increasing and
       decreasing loads
+    definition_paragraphs:
+    - text: instrument having one weighing range which is divided into partial weighing
+        ranges each with different scale intervals, with the weighing range determined
+        automatically according to the load applied, both on increasing and decreasing
+        loads
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -113,8 +153,16 @@ data:
       weighing ranges each with different scale intervals, with the partial weighing
       range determined automatically according to the load applied, both on increasing
       and decreasing loads
+    definition_paragraphs:
+    - text: instrument having one weighing range which is divided into partial weighing
+        ranges each with different scale intervals, with the partial weighing range
+        determined automatically according to the load applied, both on increasing
+        and decreasing loads
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

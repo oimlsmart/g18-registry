@@ -27,9 +27,18 @@ data:
     definition: prepackages taken from an inspection lot and used to provide information
       that will serve as the basis for a decision on the conformance of the inspection
       lot
+    definition_paragraphs:
+    - text: prepackages taken from an inspection lot and used to provide information
+        that will serve as the basis for a decision on the conformance of the inspection
+        lot
+      sources: []
     notes:
     - The symbol 'n' means sample size.
+    note_paragraphs:
+    - text: The symbol 'n' means sample size.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -43,9 +52,16 @@ data:
     g18_entry: '02509'
     definition: number of prepackages taken from an inspection lot and included in
       a sample
+    definition_paragraphs:
+    - text: number of prepackages taken from an inspection lot and included in a sample
+      sources: []
     notes:
     - 'Note:  The symbol “n” is used to designate the sample size.'
+    note_paragraphs:
+    - text: 'Note:  The symbol “n” is used to designate the sample size.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -25,8 +25,14 @@ data:
     g18_entry: '03461'
     definition: liquid content of the compartment including pipework at the cut-off
       point level
+    definition_paragraphs:
+    - text: liquid content of the compartment including pipework at the cut-off point
+        level
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

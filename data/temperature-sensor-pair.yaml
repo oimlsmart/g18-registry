@@ -27,8 +27,15 @@ data:
     definition: a sub-assembly (for mounting with or without pockets), which senses
       the temperatures of the heatconveying liquid at the flow and return of a heatexchange
       circuit
+    definition_paragraphs:
+    - text: a sub-assembly (for mounting with or without pockets), which senses the
+        temperatures of the heatconveying liquid at the flow and return of a heatexchange
+        circuit
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -43,8 +50,15 @@ data:
     definition: a sub-assembly (for mounting with or without pockets), which senses
       the temperatures of the heat conveying liquid at the flow and return of a heat
       exchange circuit
+    definition_paragraphs:
+    - text: a sub-assembly (for mounting with or without pockets), which senses the
+        temperatures of the heat conveying liquid at the flow and return of a heat
+        exchange circuit
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

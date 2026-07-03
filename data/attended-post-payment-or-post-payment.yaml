@@ -27,8 +27,15 @@ data:
     definition: type of payment in attended service mode requiring payment for the
       delivered quantity after the delivery but before the customer leaves the site
       of the delivery
+    definition_paragraphs:
+    - text: type of payment in attended service mode requiring payment for the delivered
+        quantity after the delivery but before the customer leaves the site of the
+        delivery
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -43,8 +50,15 @@ data:
     definition: type of payment in attended service mode requiring payment for the
       delivered quantity after the delivery but before the customer leaves the site
       of the delivery
+    definition_paragraphs:
+    - text: type of payment in attended service mode requiring payment for the delivered
+        quantity after the delivery but before the customer leaves the site of the
+        delivery
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

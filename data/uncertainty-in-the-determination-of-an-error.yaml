@@ -27,10 +27,20 @@ data:
     definition: an estimate characterizing the range of values within which the true
       value of an error lies, including components due to the standard and its use,
       and components due to the verified or calibrated instrument itself
+    definition_paragraphs:
+    - text: an estimate characterizing the range of values within which the true value
+        of an error lies, including components due to the standard and its use, and
+        components due to the verified or calibrated instrument itself
+      sources: []
     notes:
     - the components due to a meter verified or calibrated are notably linked to the
       resolution of its indicating device and to the periodic variation.
+    note_paragraphs:
+    - text: the components due to a meter verified or calibrated are notably linked
+        to the resolution of its indicating device and to the periodic variation.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -45,10 +55,20 @@ data:
     definition: an estimate characterizing the range of values within which the true
       value of an error lies, including components due to the standard and its use,
       and components due to the verified or calibrated instrument itself
+    definition_paragraphs:
+    - text: an estimate characterizing the range of values within which the true value
+        of an error lies, including components due to the standard and its use, and
+        components due to the verified or calibrated instrument itself
+      sources: []
     notes:
     - 'Note: the components due to a meter verified or calibrated are notably linked
       to the resolution  of its indicating device and to the periodic variation.'
+    note_paragraphs:
+    - text: 'Note: the components due to a meter verified or calibrated are notably
+        linked to the resolution  of its indicating device and to the periodic variation.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

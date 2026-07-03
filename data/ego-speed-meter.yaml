@@ -25,8 +25,14 @@ data:
     g18_entry: '03753'
     definition: instrument measuring the speed of the vehicle in which the moving
       speed meter is installed
+    definition_paragraphs:
+    - text: instrument measuring the speed of the vehicle in which the moving speed
+        meter is installed
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

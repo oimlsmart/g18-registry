@@ -26,8 +26,14 @@ data:
     g18_entry: '01551'
     definition: absolute value of the maximum permissible error for the minimum measured
       quantity
+    definition_paragraphs:
+    - text: absolute value of the maximum permissible error for the minimum measured
+        quantity
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '02078'
     definition: positive maximum permissible error for a minimum measured quantity
       of a measuring system or a metering module
+    definition_paragraphs:
+    - text: positive maximum permissible error for a minimum measured quantity of
+        a measuring system or a metering module
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -56,8 +68,14 @@ data:
     g18_entry: '03315'
     definition: absolute value of the maximum permissible error for the minimum measured
       quantity
+    definition_paragraphs:
+    - text: absolute value of the maximum permissible error for the minimum measured
+        quantity
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -71,8 +89,14 @@ data:
     g18_entry: '02078'
     definition: positive maximum permissible error for a minimum measured quantity
       of a measuring system or a metering module
+    definition_paragraphs:
+    - text: positive maximum permissible error for a minimum measured quantity of
+        a measuring system or a metering module
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

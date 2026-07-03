@@ -25,8 +25,14 @@ data:
     g18_entry: '02284-R046-1'
     definition: meter intended for use by direct connection to the circuit(s) being
       measured, without the use of external device(s) such as instrument transformer(s)
+    definition_paragraphs:
+    - text: meter intended for use by direct connection to the circuit(s) being measured,
+        without the use of external device(s) such as instrument transformer(s)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

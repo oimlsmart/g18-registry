@@ -26,8 +26,14 @@ data:
     g18_entry: '01816'
     definition: set of values between the minimum and maximum operating speeds at
       which a vehicle may be weighed in motion
+    definition_paragraphs:
+    - text: set of values between the minimum and maximum operating speeds at which
+        a vehicle may be weighed in motion
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '01288'
     definition: the difference between the minimum and maximum operating speeds at
       which a wagon may be weighed-in-motion
+    definition_paragraphs:
+    - text: the difference between the minimum and maximum operating speeds at which
+        a wagon may be weighed-in-motion
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -56,8 +68,14 @@ data:
     g18_entry: '02591'
     definition: any speed in the range from the minimum and maximum operating speeds
       at which a wagon may be weighed-in-motion
+    definition_paragraphs:
+    - text: any speed in the range from the minimum and maximum operating speeds at
+        which a wagon may be weighed-in-motion
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

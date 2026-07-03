@@ -31,8 +31,14 @@ data:
     g18_entry: '03175'
     definition: automatic checking facility that operates at certain time intervals
       or per fixed number of measurement cycles (OIML D 11, 3.19.1.2)
+    definition_paragraphs:
+    - text: automatic checking facility that operates at certain time intervals or
+        per fixed number of measurement cycles (OIML D 11, 3.19.1.2)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -46,8 +52,14 @@ data:
     g18_entry: '03154'
     definition: automatic checking facility operating at least once, either at the
       beginning or at the end of each measurement operation
+    definition_paragraphs:
+    - text: automatic checking facility operating at least once, either at the beginning
+        or at the end of each measurement operation
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -61,8 +73,14 @@ data:
     g18_entry: '03153'
     definition: automatic checking facility that operates at certain time intervals
       or per fixed number of measurement cycles
+    definition_paragraphs:
+    - text: automatic checking facility that operates at certain time intervals or
+        per fixed number of measurement cycles
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -76,8 +94,14 @@ data:
     g18_entry: '02238-D011'
     definition: automatic checking facility that operates at certain time intervals
       or per fixed number of measurement cycles
+    definition_paragraphs:
+    - text: automatic checking facility that operates at certain time intervals or
+        per fixed number of measurement cycles
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -91,8 +115,14 @@ data:
     g18_entry: '02298-R080-1'
     definition: automatic checking facility that operates at certain time intervals
       or per fixed number of measurement cycles
+    definition_paragraphs:
+    - text: automatic checking facility that operates at certain time intervals or
+        per fixed number of measurement cycles
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -106,8 +136,13 @@ data:
     g18_entry: '02103'
     definition: automatic checking facility intervening at certain time or quantity
       intervals
+    definition_paragraphs:
+    - text: automatic checking facility intervening at certain time or quantity intervals
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -121,8 +156,14 @@ data:
     g18_entry: '01656'
     definition: an automatic checking facility operating at certain time intervals
       or over a fixed number of measurement cycles
+    definition_paragraphs:
+    - text: an automatic checking facility operating at certain time intervals or
+        over a fixed number of measurement cycles
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

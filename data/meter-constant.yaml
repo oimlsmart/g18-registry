@@ -25,8 +25,14 @@ data:
     g18_entry: '02295-R046-1'
     definition: value expressing the relation between the energy registered by the
       meter and the corresponding value of the test output
+    definition_paragraphs:
+    - text: value expressing the relation between the energy registered by the meter
+        and the corresponding value of the test output
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

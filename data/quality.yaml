@@ -26,11 +26,21 @@ data:
     g18_entry: '00170'
     definition: degree to which a set of inherent characteristics fulfils requirements
       [ISO 9000:2000, 3.1.1]
+    definition_paragraphs:
+    - text: degree to which a set of inherent characteristics fulfils requirements
+        [ISO 9000:2000, 3.1.1]
+      sources: []
     notes:
     - (1) The term "quality" can be used with adjectives such as poor, good or excellent.
       (2) "Inherent" as opposed to "assigned" means existing in something, especially
       as a permanent characteristic.
+    note_paragraphs:
+    - text: (1) The term "quality" can be used with adjectives such as poor, good
+        or excellent. (2) "Inherent" as opposed to "assigned" means existing in something,
+        especially as a permanent characteristic.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -44,11 +54,22 @@ data:
     g18_entry: '00170'
     definition: degree to which a set of inherent characteristics fulfils requirements
       [ISO 9000:2000, 3.1.1]
+    definition_paragraphs:
+    - text: degree to which a set of inherent characteristics fulfils requirements
+        [ISO 9000:2000, 3.1.1]
+      sources: []
     notes:
     - The term "quality" can be used with adjectives such as poor, good or excellent.
     - '"Inherent" as opposed to "assigned" means existing in something, especially
       as a permanent characteristic.'
+    note_paragraphs:
+    - text: The term "quality" can be used with adjectives such as poor, good or excellent.
+      sources: []
+    - text: '"Inherent" as opposed to "assigned" means existing in something, especially
+        as a permanent characteristic.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

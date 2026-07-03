@@ -25,10 +25,20 @@ data:
     g18_entry: '03792'
     definition: physical or virtual line segment on one or several lanes of the road
       at which automatic speed measurements are carried out
+    definition_paragraphs:
+    - text: physical or virtual line segment on one or several lanes of the road at
+        which automatic speed measurements are carried out
+      sources: []
     notes:
     - The trigger line is typically perpendicular to the direction of the road.
     - The trigger line is not necessarily in the same position for every measurement.
+    note_paragraphs:
+    - text: The trigger line is typically perpendicular to the direction of the road.
+      sources: []
+    - text: The trigger line is not necessarily in the same position for every measurement.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

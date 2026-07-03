@@ -24,10 +24,18 @@ data:
     link:
     g18_entry: 02305-R046-1
     definition: value of the electrical voltage supplied to the meter
+    definition_paragraphs:
+    - text: value of the electrical voltage supplied to the meter
+      sources: []
     notes:
     - 'Note: The term “voltage” in this Recommendation indicates r.m.s. (root mean
       square) values unless otherwise specified.'
+    note_paragraphs:
+    - text: 'Note: The term “voltage” in this Recommendation indicates r.m.s. (root
+        mean square) values unless otherwise specified.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

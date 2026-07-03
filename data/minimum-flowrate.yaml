@@ -37,8 +37,14 @@ data:
     g18_entry: '00442'
     definition: lowest flowrate at which the water meter is required to operate within
       the maximum permissible error
+    definition_paragraphs:
+    - text: lowest flowrate at which the water meter is required to operate within
+        the maximum permissible error
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -53,8 +59,15 @@ data:
     definition: lowest flowrate at which a gas meter is required to operate within
       the limits of its maximum permissible error, whilst operated within its rated
       operating conditions
+    definition_paragraphs:
+    - text: lowest flowrate at which a gas meter is required to operate within the
+        limits of its maximum permissible error, whilst operated within its rated
+        operating conditions
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -68,8 +81,14 @@ data:
     g18_entry: '00520'
     definition: the flowrate above which the weighing results comply with the requirements
       of this Recommendation
+    definition_paragraphs:
+    - text: the flowrate above which the weighing results comply with the requirements
+        of this Recommendation
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

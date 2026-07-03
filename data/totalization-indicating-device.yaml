@@ -26,8 +26,14 @@ data:
     g18_entry: '01380'
     definition: device that indicates the sum of the weight values of consecutive
       loads weighed and discharged to bulk
+    definition_paragraphs:
+    - text: device that indicates the sum of the weight values of consecutive loads
+        weighed and discharged to bulk
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '00499'
     definition: a device that receives information from the totalization device and
       indicates the mass of the loads conveyed
+    definition_paragraphs:
+    - text: a device that receives information from the totalization device and indicates
+        the mass of the loads conveyed
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -56,8 +68,14 @@ data:
     g18_entry: '03603'
     definition: device that receives information from the totalization device and
       indicates the mass of the loads conveyed
+    definition_paragraphs:
+    - text: device that receives information from the totalization device and indicates
+        the mass of the loads conveyed
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -71,8 +89,14 @@ data:
     g18_entry: '03573'
     definition: device that receives information from the totalization device and
       indicates the mass of the loads conveyed
+    definition_paragraphs:
+    - text: device that receives information from the totalization device and indicates
+        the mass of the loads conveyed
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -86,8 +110,14 @@ data:
     g18_entry: '01380'
     definition: device that indicates the sum of the weight values of consecutive
       loads weighed and discharged to bulk
+    definition_paragraphs:
+    - text: device that indicates the sum of the weight values of consecutive loads
+        weighed and discharged to bulk
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

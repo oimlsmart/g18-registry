@@ -33,8 +33,15 @@ data:
     definition: Largest value of a quantity (mass) which is applied to a load cell
       during test or use. This value shall not be greater than Emax (see 2.3.5). For
       the limits on Dmax during testing, see A.3.2.4
+    definition_paragraphs:
+    - text: Largest value of a quantity (mass) which is applied to a load cell during
+        test or use. This value shall not be greater than Emax (see 2.3.5). For the
+        limits on Dmax during testing, see A.3.2.4
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -48,8 +55,14 @@ data:
     g18_entry: '03226'
     definition: largest value of a quantity expressed in the units of mass which can
       be introdused to a load cell under test
+    definition_paragraphs:
+    - text: largest value of a quantity expressed in the units of mass which can be
+        introdused to a load cell under test
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

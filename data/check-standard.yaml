@@ -27,8 +27,15 @@ data:
     definition: '"c standard that is used in a statistical control process to provide
       a heck" to ensure that standards, measurement processes and results are within
       acceptable statistical limits'
+    definition_paragraphs:
+    - text: '"c standard that is used in a statistical control process to provide
+        a heck" to ensure that standards, measurement processes and results are within
+        acceptable statistical limits'
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -43,8 +50,15 @@ data:
     definition: standard that is used in a statistical control process to provide
       a “check” to ensure that standards, measurement processes and results are within
       acceptable statistical limits
+    definition_paragraphs:
+    - text: standard that is used in a statistical control process to provide a “check”
+        to ensure that standards, measurement processes and results are within acceptable
+        statistical limits
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

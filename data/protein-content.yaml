@@ -31,10 +31,19 @@ data:
     g18_entry: '02811'
     definition: concentration of protein in a grain sample, expressed as a percentage
       by mass, calculated at the basis moisture content (MB)
+    definition_paragraphs:
+    - text: concentration of protein in a grain sample, expressed as a percentage
+        by mass, calculated at the basis moisture content (MB)
+      sources: []
     notes:
     - 'Note: When the specified MB is 0 %, the reported protein content is at ‘dry
       basis’ (i.e. P0 %).'
+    note_paragraphs:
+    - text: 'Note: When the specified MB is 0 %, the reported protein content is at
+        ‘dry basis’ (i.e. P0 %).'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

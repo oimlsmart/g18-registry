@@ -28,10 +28,21 @@ data:
       of the acceleration of gravity and air buoyancy at the location of its use,
       measures mass by converting the measured quantity (mass) into another measured
       quantity (output) IML R 60: 2000]"
+    definition_paragraphs:
+    - text: "[O force transducer, which after taking into account the effects of the
+        acceleration of gravity and air buoyancy at the location of its use, measures
+        mass by converting the measured quantity (mass) into another measured quantity
+        (output) IML R 60: 2000]"
+      sources: []
     notes:
     - Load cells equipped with electronics including amplifier, analog-to-digital
       converter and dat processing device (optionally) are called digital load cells.
+    note_paragraphs:
+    - text: Load cells equipped with electronics including amplifier, analog-to-digital
+        converter and dat processing device (optionally) are called digital load cells.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -47,8 +58,16 @@ data:
       of the acceleration of gravity and air buoyancy at the location of its use,
       measures mass by converting the measured quantity (mass) into another measured
       quantity (output) IML R 60:2000]"
+    definition_paragraphs:
+    - text: "[O force transducer which, after taking into account the effects of the
+        acceleration of gravity and air buoyancy at the location of its use, measures
+        mass by converting the measured quantity (mass) into another measured quantity
+        (output) IML R 60:2000]"
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -64,11 +83,23 @@ data:
       of the acceleration of gravity and air buoyancy at the location of its use,
       measures mass by converting the measured quantity (mass) into another measured
       quantity (output) IML R 60: 2000, 2.1.2]"
+    definition_paragraphs:
+    - text: "[O force transducer which, after taking into account the effects of the
+        acceleration of gravity and air buoyancy at the location of its use, measures
+        mass by converting the measured quantity (mass) into another measured quantity
+        (output) IML R 60: 2000, 2.1.2]"
+      sources: []
     notes:
     - Load cells equipped with electronics including amplifier, analog-to-digital
       converter (ADC), and data processing device (optionally) are called digital
       load cells (see Figure 1).
+    note_paragraphs:
+    - text: Load cells equipped with electronics including amplifier, analog-to-digital
+        converter (ADC), and data processing device (optionally) are called digital
+        load cells (see Figure 1).
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -84,8 +115,15 @@ data:
       acceleration of gravity and air buoyancy at the location of its use, measures
       mass by converting the measured quantity (mass) into another measured quantity
       (output)
+    definition_paragraphs:
+    - text: force transducer which, after taking into account the effects of the acceleration
+        of gravity and air buoyancy at the location of its use, measures mass by converting
+        the measured quantity (mass) into another measured quantity (output)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -100,8 +138,15 @@ data:
     definition: measuring transducer that will produce an output in response to an
       applied load. This output may be converted by another device into measurment
       units such as mass
+    definition_paragraphs:
+    - text: measuring transducer that will produce an output in response to an applied
+        load. This output may be converted by another device into measurment units
+        such as mass
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -116,8 +161,15 @@ data:
     definition: measuring transducer that will produce an output in response to an
       applied load. This output may be converted by another device into measurment
       units such as mass (OIML R 60, 3.1.3)
+    definition_paragraphs:
+    - text: measuring transducer that will produce an output in response to an applied
+        load. This output may be converted by another device into measurment units
+        such as mass (OIML R 60, 3.1.3)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -133,10 +185,27 @@ data:
       acceleration of gravity and air buoyancy at the location of its use, measures
       mass by converting the measured quantity (mass) into another measured quantity
       (output)
+    definition_paragraphs:
+    - text: force transducer which, after taking into account the effects of the acceleration
+        of gravity and air buoyancy at the location of its use, measures mass by converting
+        the measured quantity (mass) into another measured quantity (output)
+      sources:
+      - kind: other
+        relationship: identical
+        modification:
+        ref_source: OIML R060:2000
+        ref_id:
+        is_vimline: false
     notes:
     - Load cells equipped with electronics containing amplifier and analogue-to-digital
       conversion (ADC) and data processing (optionally) are called digital load cells.
+    note_paragraphs:
+    - text: Load cells equipped with electronics containing amplifier and analogue-to-digital
+        conversion (ADC) and data processing (optionally) are called digital load
+        cells.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -152,10 +221,27 @@ data:
       acceleration of gravity and air buoyancy at the location of its use, measures
       mass by converting the measured quantity (mass) into another measured quantity
       (output)
+    definition_paragraphs:
+    - text: force transducer, which after taking into account the effects of the acceleration
+        of gravity and air buoyancy at the location of its use, measures mass by converting
+        the measured quantity (mass) into another measured quantity (output)
+      sources:
+      - kind: other
+        relationship: identical
+        modification:
+        ref_source: OIML R060:2000
+        ref_id:
+        is_vimline: false
     notes:
     - 'Note:  Load cells equipped with electronics including amplifier, analog-to-digital
       converter and data processing device (optionally) are called digital load cells.'
+    note_paragraphs:
+    - text: 'Note:  Load cells equipped with electronics including amplifier, analog-to-digital
+        converter and data processing device (optionally) are called digital load
+        cells.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -171,8 +257,21 @@ data:
       acceleration of gravity and air buoyancy at the location of its use, measures
       mass by converting the measured quantity (mass) into another measured quantity
       (output)
+    definition_paragraphs:
+    - text: force transducer which, after taking into account the effects of the acceleration
+        of gravity and air buoyancy at the location of its use, measures mass by converting
+        the measured quantity (mass) into another measured quantity (output)
+      sources:
+      - kind: other
+        relationship: identical
+        modification:
+        ref_source: OIML R060:2000
+        ref_id:
+        is_vimline: false
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -188,11 +287,28 @@ data:
       acceleration of gravity and air buoyancy at the location of its use, measures
       mass by converting the measured quantity (mass) into another measured quantity
       (output)
+    definition_paragraphs:
+    - text: force transducer which, after taking into account the effects of the acceleration
+        of gravity and air buoyancy at the location of its use, measures mass by converting
+        the measured quantity (mass) into another measured quantity (output)
+      sources:
+      - kind: other
+        relationship: identical
+        modification:
+        ref_source: OIML R060:2000
+        ref_id: 2.1.2
+        is_vimline: false
     notes:
     - 'Note:  Load cells equipped with electronics including amplifier, analog-to-digital
       converter (ADC), and data processing device (optionally) are called digital
       load cells (see Figure 1).'
+    note_paragraphs:
+    - text: 'Note:  Load cells equipped with electronics including amplifier, analog-to-digital
+        converter (ADC), and data processing device (optionally) are called digital
+        load cells (see Figure 1).'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

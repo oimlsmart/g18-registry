@@ -32,9 +32,17 @@ data:
     g18_entry: '02256'
     definition: distance, measured along the vertical measurement axis, between the
       reference point top and the reference point bottom
+    definition_paragraphs:
+    - text: distance, measured along the vertical measurement axis, between the reference
+        point top and the reference point bottom
+      sources: []
     notes:
     - "(see figure 1)"
+    note_paragraphs:
+    - text: "(see figure 1)"
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -47,8 +55,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r071-e08.pdf
     g18_entry: '02232'
     definition: distance between the dipping datum point and the upper reference point
+    definition_paragraphs:
+    - text: distance between the dipping datum point and the upper reference point
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -62,8 +75,14 @@ data:
     g18_entry: 02256-R080-1
     definition: distance, measured along the vertical measurement axis, between the
       reference point top and the reference point bottom (see figure 1)
+    definition_paragraphs:
+    - text: distance, measured along the vertical measurement axis, between the reference
+        point top and the reference point bottom (see figure 1)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -76,8 +95,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r071-e08.pdf
     g18_entry: 02232-R071
     definition: distance between the dipping datum point and the upper reference point
+    definition_paragraphs:
+    - text: distance between the dipping datum point and the upper reference point
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

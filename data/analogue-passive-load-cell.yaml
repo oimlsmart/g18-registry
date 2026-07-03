@@ -25,11 +25,21 @@ data:
     g18_entry: '02855'
     definition: load cell from which the output provides either measurable data or
       direct information representing the measurand value
+    definition_paragraphs:
+    - text: load cell from which the output provides either measurable data or direct
+        information representing the measurand value
+      sources: []
     notes:
     - 'Note: The ratio between output and input may be adjustable and this type of
       load cell may utilise passive electronics (e.g. strain gauges), and passive
       temperature compensation elements.'
+    note_paragraphs:
+    - text: 'Note: The ratio between output and input may be adjustable and this type
+        of load cell may utilise passive electronics (e.g. strain gauges), and passive
+        temperature compensation elements.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

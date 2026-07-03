@@ -31,8 +31,19 @@ data:
       marked area relative to the position determined by the index and the center
       of the ribbon after the field of view has been displaced within the specified
       limits
+    definition_paragraphs:
+    - text: difference between the radiance temperature values obtained across the
+        surface of the tungsten ribbon in the field of view. The temperature inhomogeneity
+        is characterized by a maximum variation in temperature values obtained as
+        a result of measurements when observing along and across the ribbon within
+        the marked area relative to the position determined by the index and the center
+        of the ribbon after the field of view has been displaced within the specified
+        limits
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -48,8 +59,16 @@ data:
       is applied to a body cavity or tissue with which it establishes thermal equilibrium.
       It comprises a temperature sensor with associated parts including coverings,
       seals, inner leads, and connecting plug, where appropriate
+    definition_paragraphs:
+    - text: a temperature probe is the component of a thermometer of which part is
+        applied to a body cavity or tissue with which it establishes thermal equilibrium.
+        It comprises a temperature sensor with associated parts including coverings,
+        seals, inner leads, and connecting plug, where appropriate
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

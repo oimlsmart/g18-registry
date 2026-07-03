@@ -26,8 +26,14 @@ data:
     g18_entry: '01278'
     definition: weighing-in-motion of a number of coupled wagons to obtain a totalized
       weight of all the wagon weights
+    definition_paragraphs:
+    - text: weighing-in-motion of a number of coupled wagons to obtain a totalized
+        weight of all the wagon weights
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -40,8 +46,13 @@ data:
     link:
     g18_entry: '02572'
     definition: determining the totalized mass of a number of wagons coupled together
+    definition_paragraphs:
+    - text: determining the totalized mass of a number of wagons coupled together
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

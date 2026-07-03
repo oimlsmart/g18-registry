@@ -26,8 +26,16 @@ data:
     definition: internal connections of the meter, part of the measuring element and,
       in the case of static meters, part of the power supply, supplied with the voltage
       of the circuit to which the meter is connected [IEC 62052-11:2003, 3.2.7]
+    definition_paragraphs:
+    - text: internal connections of the meter, part of the measuring element and,
+        in the case of static meters, part of the power supply, supplied with the
+        voltage of the circuit to which the meter is connected [IEC 62052-11:2003,
+        3.2.7]
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

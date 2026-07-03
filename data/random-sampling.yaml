@@ -26,8 +26,14 @@ data:
     g18_entry: '01121'
     definition: sample prepackages are chosen randomly (i.e. they all have the same
       probability to be included in the sample).
+    definition_paragraphs:
+    - text: sample prepackages are chosen randomly (i.e. they all have the same probability
+        to be included in the sample).
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -42,9 +48,18 @@ data:
     definition: sampling procedure where prepackages to be included in a sample are
       chosen randomly from the inspection lot (i.e. each prepackage in the inspection
       lot has an equal probability of being selected to be included in the sample)
+    definition_paragraphs:
+    - text: sampling procedure where prepackages to be included in a sample are chosen
+        randomly from the inspection lot (i.e. each prepackage in the inspection lot
+        has an equal probability of being selected to be included in the sample)
+      sources: []
     notes:
     - Note:This is also referred to as “sampling without replacement”.
+    note_paragraphs:
+    - text: Note:This is also referred to as “sampling without replacement”.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

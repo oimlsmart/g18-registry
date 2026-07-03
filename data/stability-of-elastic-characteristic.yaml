@@ -26,8 +26,13 @@ data:
     g18_entry: '00689'
     definition: aptitude of the elastic sensing element to retain a constant elastic
       characteristic
+    definition_paragraphs:
+    - text: aptitude of the elastic sensing element to retain a constant elastic characteristic
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -40,8 +45,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r053-e82.pdf
     g18_entry: '00689'
     definition: aptitude of the elastic sensing element to retain a constant
+    definition_paragraphs:
+    - text: aptitude of the elastic sensing element to retain a constant
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

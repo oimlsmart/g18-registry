@@ -27,12 +27,24 @@ data:
     definition: numerical value, representing a weight value, that is introduced into
       the instrument. It is a predetermined tare value that is used for one or several
       weighings
+    definition_paragraphs:
+    - text: numerical value, representing a weight value, that is introduced into
+        the instrument. It is a predetermined tare value that is used for one or several
+        weighings
+      sources: []
     notes:
     - '(1) "Introduced" includes procedures such as: keying in, recalling from a data
       storage, or inserting via an interface. (2) "Predetermined" means that a tare
       value is determined once and is applied to other weighings without determining
       the individual tare values.'
+    note_paragraphs:
+    - text: '(1) "Introduced" includes procedures such as: keying in, recalling from
+        a data storage, or inserting via an interface. (2) "Predetermined" means that
+        a tare value is determined once and is applied to other weighings without
+        determining the individual tare values.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -47,10 +59,20 @@ data:
     definition: numerical value, representing a weight, that is introduced into the
       instrument and is intended to be applied to other weighings without determining
       individual tares
+    definition_paragraphs:
+    - text: numerical value, representing a weight, that is introduced into the instrument
+        and is intended to be applied to other weighings without determining individual
+        tares
+      sources: []
     notes:
     - 'Note : “introduced” includes procedures such as keying in, recalling from a
       data storage device, or inserting via an interface.'
+    note_paragraphs:
+    - text: 'Note : “introduced” includes procedures such as keying in, recalling
+        from a data storage device, or inserting via an interface.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -65,12 +87,25 @@ data:
     definition: numerical value, representing a weight value, that is introduced into
       the instrument. It is a predetermined tare value that is used for one or several
       weighings
+    definition_paragraphs:
+    - text: numerical value, representing a weight value, that is introduced into
+        the instrument. It is a predetermined tare value that is used for one or several
+        weighings
+      sources: []
     notes:
     - '"Introduced" includes procedures such as: keying in, recalling from a data
       storage, or inserting via an interface.'
     - '"Predetermined" means that a tare value is determined once and is applied to
       other weighings without determining the individual tare values.'
+    note_paragraphs:
+    - text: '"Introduced" includes procedures such as: keying in, recalling from a
+        data storage, or inserting via an interface.'
+      sources: []
+    - text: '"Predetermined" means that a tare value is determined once and is applied
+        to other weighings without determining the individual tare values.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

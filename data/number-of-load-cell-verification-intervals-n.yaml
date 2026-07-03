@@ -25,8 +25,14 @@ data:
     g18_entry: '03341'
     definition: total of load cell verification intervals into which the maximum measuring
       range is divided
+    definition_paragraphs:
+    - text: total of load cell verification intervals into which the maximum measuring
+        range is divided
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

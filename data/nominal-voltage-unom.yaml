@@ -25,10 +25,18 @@ data:
     g18_entry: 02306-R046-1
     definition: voltage specified by the manufacturer for normal operation of the
       meter
+    definition_paragraphs:
+    - text: voltage specified by the manufacturer for normal operation of the meter
+      sources: []
     notes:
     - 'Note: Meters designed for operation across a range of voltages may have several
       nominal voltage values.'
+    note_paragraphs:
+    - text: 'Note: Meters designed for operation across a range of voltages may have
+        several nominal voltage values.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

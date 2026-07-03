@@ -26,8 +26,14 @@ data:
     g18_entry: '00500'
     definition: a device that indicates the overall total of the mass of all the loads
       conveyed
+    definition_paragraphs:
+    - text: a device that indicates the overall total of the mass of all the loads
+        conveyed
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,13 @@ data:
     g18_entry: '03398'
     definition: device that indicates the overall total of the mass of all the loads
       conveyed
+    definition_paragraphs:
+    - text: device that indicates the overall total of the mass of all the loads conveyed
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -56,8 +67,14 @@ data:
     g18_entry: '03093'
     definition: a device that indicates the overall total of the mass of all the loads
       conveyed
+    definition_paragraphs:
+    - text: a device that indicates the overall total of the mass of all the loads
+        conveyed
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -26,8 +26,14 @@ data:
     g18_entry: '01402'
     definition: test carried out on a complete instrument using the type of material
       that it is intended to weigh
+    definition_paragraphs:
+    - text: test carried out on a complete instrument using the type of material that
+        it is intended to weigh
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '00814'
     definition: test carried out on a complete filling instrument using the type of
       material which it is intended to weigh
+    definition_paragraphs:
+    - text: test carried out on a complete filling instrument using the type of material
+        which it is intended to weigh
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -56,8 +68,14 @@ data:
     g18_entry: '01921'
     definition: test carried out on a complete leather-measuring instrument using
       the type of leather material which it is intended to measure
+    definition_paragraphs:
+    - text: test carried out on a complete leather-measuring instrument using the
+        type of leather material which it is intended to measure
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -71,8 +89,14 @@ data:
     g18_entry: '00535'
     definition: a test carried out on a complete belt weigher using the type of material
       that it is intended to weigh
+    definition_paragraphs:
+    - text: a test carried out on a complete belt weigher using the type of material
+        that it is intended to weigh
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -86,8 +110,14 @@ data:
     g18_entry: '03220'
     definition: test carried out on a complete AGFI using the type of material which
       it is intended to weigh
+    definition_paragraphs:
+    - text: test carried out on a complete AGFI using the type of material which it
+        is intended to weigh
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -101,8 +131,14 @@ data:
     g18_entry: '01402'
     definition: test carried out on a complete instrument using the type of material
       that it is intended to weigh
+    definition_paragraphs:
+    - text: test carried out on a complete instrument using the type of material that
+        it is intended to weigh
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -116,8 +152,14 @@ data:
     g18_entry: '01921'
     definition: test carried out on a complete leather-measuring instrument using
       the type of leather material which it is intended to measure
+    definition_paragraphs:
+    - text: test carried out on a complete leather-measuring instrument using the
+        type of leather material which it is intended to measure
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

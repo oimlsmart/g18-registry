@@ -32,8 +32,15 @@ data:
     definition: The word “product” shall be understood as meaning the measuring instrument
       type (including families of measuring instruments, modules, or families of modules)
       subject to inspection/evaluation for the issuance of OIML certificates.
+    definition_paragraphs:
+    - text: The word “product” shall be understood as meaning the measuring instrument
+        type (including families of measuring instruments, modules, or families of
+        modules) subject to inspection/evaluation for the issuance of OIML certificates.
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -46,6 +53,9 @@ data:
     link:
     g18_entry: '02505'
     definition: all of the prepackage that is not packing material
+    definition_paragraphs:
+    - text: all of the prepackage that is not packing material
+      sources: []
     notes:
     - Product includes liquids or gasses that were put in the prepackage together
       with the product and that are not intended to be left over after use of the
@@ -56,7 +66,21 @@ data:
     - Product includes liquids or gasses that were not put in the prepackage with
       the product and that are not intended to be left over after use of the product
       (e.g. curdling of yoghurt or honey).
+    note_paragraphs:
+    - text: Product includes liquids or gasses that were put in the prepackage together
+        with the product and that are not intended to be left over after use of the
+        product (e.g. air in chocolate mousse).
+      sources: []
+    - text: Product includes liquids or gasses that were not put in the prepackage
+        with the product and that are intended to be left over after use of the product
+        (e.g. liquid in mozzarella cheese, air in hair gel).
+      sources: []
+    - text: Product includes liquids or gasses that were not put in the prepackage
+        with the product and that are not intended to be left over after use of the
+        product (e.g. curdling of yoghurt or honey).
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -69,6 +93,9 @@ data:
     link:
     g18_entry: '02490'
     definition: all of the prepackage that is not packing material
+    definition_paragraphs:
+    - text: all of the prepackage that is not packing material
+      sources: []
     notes:
     - Product includes liquids or gasses that were put in the prepackage together
       with the product and that are not intended to be left over after use of the
@@ -79,7 +106,21 @@ data:
     - Product includes liquids or gasses that were not put in the prepackage with
       the product and that are not intended to be left over after use of the product
       (e.g. curdling of yoghurt or honey).
+    note_paragraphs:
+    - text: Product includes liquids or gasses that were put in the prepackage together
+        with the product and that are not intended to be left over after use of the
+        product (e.g. air in chocolate mousse).
+      sources: []
+    - text: Product includes liquids or gasses that were not put in the prepackage
+        with the product and that are intended to be left over after use of the product
+        (e.g. liquid in mozzarella cheese, air in hair gel).
+      sources: []
+    - text: Product includes liquids or gasses that were not put in the prepackage
+        with the product and that are not intended to be left over after use of the
+        product (e.g. curdling of yoghurt or honey).
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

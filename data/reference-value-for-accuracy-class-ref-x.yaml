@@ -27,8 +27,16 @@ data:
       of static testing of the weighing module during influence quantity testing at
       type evaluation stage. Ref(x) is equal to the best accuracy class for which
       the AGFI may be verified for operational use
+    definition_paragraphs:
+    - text: value for accuracy class specified by the manufacturer for the purpose
+        of static testing of the weighing module during influence quantity testing
+        at type evaluation stage. Ref(x) is equal to the best accuracy class for which
+        the AGFI may be verified for operational use
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

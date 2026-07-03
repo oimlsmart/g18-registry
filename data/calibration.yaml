@@ -27,8 +27,15 @@ data:
     definition: set of operations carried out to establish, under specified conditions,
       the relationship between the liquid level in the tank and the volume of that
       liquid
+    definition_paragraphs:
+    - text: set of operations carried out to establish, under specified conditions,
+        the relationship between the liquid level in the tank and the volume of that
+        liquid
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -44,13 +51,28 @@ data:
       relationship between values of quantities indicated by a measuring instrument
       or measuring system, or values represented by a material measure or a reference
       material, and the corresponding values realized by standards
+    definition_paragraphs:
+    - text: set of operations that establish, under specified conditions, the relationship
+        between values of quantities indicated by a measuring instrument or measuring
+        system, or values represented by a material measure or a reference material,
+        and the corresponding values realized by standards
+      sources: []
     notes:
     - '1: The result of a calibration permits either assignment of values of measurands
       to the indications or the determination of corrections with respect to indications.
       2: A calibration may also determine other metrological properties such as the
       effect of influence quantities. 3: The result of a calibration may be recorded
       in a document, sometimes called calibration certificate or calibration report'
+    note_paragraphs:
+    - text: '1: The result of a calibration permits either assignment of values of
+        measurands to the indications or the determination of corrections with respect
+        to indications. 2: A calibration may also determine other metrological properties
+        such as the effect of influence quantities. 3: The result of a calibration
+        may be recorded in a document, sometimes called calibration certificate or
+        calibration report'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -66,6 +88,18 @@ data:
       relationship between values of quantities indicated by a measuring instrument
       or measuring system, or values represented by a material measure or a reference
       material, and the corresponding values realized by standards
+    definition_paragraphs:
+    - text: set of operations that establish, under specified conditions, the relationship
+        between values of quantities indicated by a measuring instrument or measuring
+        system, or values represented by a material measure or a reference material,
+        and the corresponding values realized by standards
+      sources:
+      - kind: other
+        relationship: identical
+        modification:
+        ref_source: OIML V 2:1993
+        ref_id: '6.11'
+        is_vimline: true
     notes:
     - The result of a calibration permits either the assignment of values of measurands
       to the indications or the determination of corrections with respect to indications.
@@ -73,7 +107,19 @@ data:
       of influence quantities.
     - The result of a calibration may be recorded in a document, sometimes called
       a calibration certificate or a calibration report.
+    note_paragraphs:
+    - text: The result of a calibration permits either the assignment of values of
+        measurands to the indications or the determination of corrections with respect
+        to indications.
+      sources: []
+    - text: A calibration may also determine other metrological properties such as
+        the effect of influence quantities.
+      sources: []
+    - text: The result of a calibration may be recorded in a document, sometimes called
+        a calibration certificate or a calibration report.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: other
       relationship: identical
@@ -94,8 +140,15 @@ data:
     definition: the set of operations which establishes, under specified conditions,
       the relationship between the values of pressure indicated by a pressure balance
       and the corresponding values of pressure realized by a reference standard
+    definition_paragraphs:
+    - text: the set of operations which establishes, under specified conditions, the
+        relationship between the values of pressure indicated by a pressure balance
+        and the corresponding values of pressure realized by a reference standard
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -110,8 +163,15 @@ data:
     definition: the set of operations that establishes, under specified conditions,
       the relationship between values indicated by a measuring system and the corresponding
       known values of the measurand
+    definition_paragraphs:
+    - text: the set of operations that establishes, under specified conditions, the
+        relationship between values indicated by a measuring system and the corresponding
+        known values of the measurand
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -126,8 +186,15 @@ data:
     definition: the set of operations which establish, under specified conditions,
       the relationship between values indicated by a measuring instrument or measuring
       system and the corresponding known values of a measurand
+    definition_paragraphs:
+    - text: the set of operations which establish, under specified conditions, the
+        relationship between values indicated by a measuring instrument or measuring
+        system and the corresponding known values of a measurand
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -141,8 +208,14 @@ data:
     g18_entry: '01147'
     definition: a set of operations to determine the capacities of a tank at various
       filling levels
+    definition_paragraphs:
+    - text: a set of operations to determine the capacities of a tank at various filling
+        levels
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -159,6 +232,13 @@ data:
       by measurement standards and corresponding indications with associated measurement
       uncertainties and, in a second step, uses this information to establish a relation
       for obtaining a measurement result from an indication
+    definition_paragraphs:
+    - text: operation that, under specified conditions, in a first step, establishes
+        a relation between the quantity values with measurement uncertainties provided
+        by measurement standards and corresponding indications with associated measurement
+        uncertainties and, in a second step, uses this information to establish a
+        relation for obtaining a measurement result from an indication
+      sources: []
     notes:
     - A calibration may be expressed by a statement, calibration function, calibration
       diagram, calibration curve, or calibration table. In some cases, it may consist
@@ -167,7 +247,20 @@ data:
     - Calibration should not be confused with adjustment of a measuring system, often
       mistakenly called "self-calibration", nor with verification of calibration.
     - Often, the first step alone in the above definition is perceived as being calibration.
+    note_paragraphs:
+    - text: A calibration may be expressed by a statement, calibration function, calibration
+        diagram, calibration curve, or calibration table. In some cases, it may consist
+        of an additive or multiplicative correction of the indication with associated
+        measurement uncertainty.
+      sources: []
+    - text: Calibration should not be confused with adjustment of a measuring system,
+        often mistakenly called "self-calibration", nor with verification of calibration.
+      sources: []
+    - text: Often, the first step alone in the above definition is perceived as being
+        calibration.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: vim
       relationship: identical
@@ -190,8 +283,23 @@ data:
       by measurement standards and corresponding indications with associated measurement
       uncertainties and, in a second step, uses this information to establish a relation
       for obtaining a measurement result from an indication
+    definition_paragraphs:
+    - text: operation that, under specified conditions, in a first step, establishes
+        a relation between the quantity values with measurement uncertainties provided
+        by measurement standards and corresponding indications with associated measurement
+        uncertainties and, in a second step, uses this information to establish a
+        relation for obtaining a measurement result from an indication
+      sources:
+      - kind: vim
+        relationship: identical
+        modification:
+        ref_source: OIML V 2-200:2012
+        ref_id: '2.39'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: vim
       relationship: identical
@@ -214,6 +322,13 @@ data:
       by measurement standards and corresponding indications with associated measurement
       uncertainties and, in a second step, uses this information to establish a relation
       for obtaining a measurement result from an indication
+    definition_paragraphs:
+    - text: operation that, under specified conditions, in a first step, establishes
+        a relation between the quantity values with measurement uncertainties provided
+        by measurement standards and corresponding indications with associated measurement
+        uncertainties and, in a second step, uses this information to establish a
+        relation for obtaining a measurement result from an indication
+      sources: []
     notes:
     - A calibration may be expressed by a statement, calibration function, calibration
       diagram, calibration curve, or calibration table. In some cases, it may consist
@@ -222,7 +337,20 @@ data:
     - Calibration should not be confused with adjustment of a measuring system, often
       mistakenly called "self-calibration", nor with verification of calibration.
     - Often, the first step alone in the above definition is perceived as being calibration.
+    note_paragraphs:
+    - text: A calibration may be expressed by a statement, calibration function, calibration
+        diagram, calibration curve, or calibration table. In some cases, it may consist
+        of an additive or multiplicative correction of the indication with associated
+        measurement uncertainty.
+      sources: []
+    - text: Calibration should not be confused with adjustment of a measuring system,
+        often mistakenly called "self-calibration", nor with verification of calibration.
+      sources: []
+    - text: Often, the first step alone in the above definition is perceived as being
+        calibration.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -239,8 +367,18 @@ data:
       by measurement standards and corresponding indications with associated measurement
       uncertainties and, in a second step, uses this information to establish a relation
       for obtaining a measurement result from an indication (OIML V 2-200, 2.39)
+    definition_paragraphs:
+    - text: operation that, under specified conditions, in a first step, establishes
+        a relation between the quantity values with measurement uncertainties provided
+        by measurement standards and corresponding indications with associated measurement
+        uncertainties and, in a second step, uses this information to establish a
+        relation for obtaining a measurement result from an indication (OIML V 2-200,
+        2.39)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -257,6 +395,19 @@ data:
       by measurement standards and corresponding indications with associated measurement
       uncertainties and, in a second step, uses this information to establish a relation
       for obtaining a measurement result from an indication
+    definition_paragraphs:
+    - text: operation that, under specified conditions, in a first step, establishes
+        a relation between the quantity values with measurement uncertainties provided
+        by measurement standards and corresponding indications with associated measurement
+        uncertainties and, in a second step, uses this information to establish a
+        relation for obtaining a measurement result from an indication
+      sources:
+      - kind: vim
+        relationship: identical
+        modification:
+        ref_source: OIML V 2-200:2012
+        ref_id: '2.39'
+        is_vimline: true
     notes:
     - A calibration may be expressed by a statement, calibration function, calibration
       diagram, calibration curve, or calibration table. In some cases, it may consist
@@ -265,7 +416,20 @@ data:
     - Calibration should not be confused with adjustment of a measuring system, often
       mistakenly called "self-calibration", nor with verification of calibration.
     - Often, the first step alone in the above definition is perceived as being calibration.
+    note_paragraphs:
+    - text: A calibration may be expressed by a statement, calibration function, calibration
+        diagram, calibration curve, or calibration table. In some cases, it may consist
+        of an additive or multiplicative correction of the indication with associated
+        measurement uncertainty.
+      sources: []
+    - text: Calibration should not be confused with adjustment of a measuring system,
+        often mistakenly called "self-calibration", nor with verification of calibration.
+      sources: []
+    - text: Often, the first step alone in the above definition is perceived as being
+        calibration.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: vim
       relationship: identical
@@ -288,8 +452,23 @@ data:
       by measurement standards and corresponding indications with associated measurement
       uncertainties and, in a second step, uses this information to establish a relation
       for obtaining a measurement result from an indication
+    definition_paragraphs:
+    - text: operation that, under specified conditions, in a first step, establishes
+        a relation between the quantity values with measurement uncertainties provided
+        by measurement standards and corresponding indications with associated measurement
+        uncertainties and, in a second step, uses this information to establish a
+        relation for obtaining a measurement result from an indication
+      sources:
+      - kind: vim
+        relationship: identical
+        modification:
+        ref_source: OIML V 2-200:2012
+        ref_id: '2.39'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: vim
       relationship: identical
@@ -312,8 +491,23 @@ data:
       by measurement standards and corresponding indications with associated measurement
       uncertainties and, in a second step, uses this information to establish a relation
       for obtaining a measurement result from an indication
+    definition_paragraphs:
+    - text: operation that, under specified conditions, in a first step establishes
+        a relation between the quantity values with measurement uncertainties provided
+        by measurement standards and corresponding indications with associated measurement
+        uncertainties and, in a second step, uses this information to establish a
+        relation for obtaining a measurement result from an indication
+      sources:
+      - kind: vim
+        relationship: identical
+        modification:
+        ref_source: OIML V 2-200:2012
+        ref_id: '2.39'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: vim
       relationship: identical
@@ -334,8 +528,15 @@ data:
     definition: set of operations carried out to establish, under specified conditions,
       the relationship between the liquid level in the tank and the volume of that
       liquid
+    definition_paragraphs:
+    - text: set of operations carried out to establish, under specified conditions,
+        the relationship between the liquid level in the tank and the volume of that
+        liquid
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -351,6 +552,12 @@ data:
       relationship between values of quantities indicated by a measuring instrument
       or measuring system, or values represented by a material measure or a reference
       material, and the corresponding values realized by standards
+    definition_paragraphs:
+    - text: set of operations that establish, under specified conditions, the relationship
+        between values of quantities indicated by a measuring instrument or measuring
+        system, or values represented by a material measure or a reference material,
+        and the corresponding values realized by standards
+      sources: []
     notes:
     - The result of a calibration permits either assignment of values of measurands
       to the indications or the determination of corrections with respect to indications.
@@ -358,7 +565,18 @@ data:
       of influence quantities.
     - The result of a calibration may be recorded in a document, sometimes called
       calibration certificate or calibration report.
+    note_paragraphs:
+    - text: The result of a calibration permits either assignment of values of measurands
+        to the indications or the determination of corrections with respect to indications.
+      sources: []
+    - text: A calibration may also determine other metrological properties such as
+        the effect of influence quantities.
+      sources: []
+    - text: The result of a calibration may be recorded in a document, sometimes called
+        calibration certificate or calibration report.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -374,6 +592,18 @@ data:
       relationship between values of quantities indicated by a measuring instrument
       or measuring system, or values represented by a material measure or a reference
       material, and the corresponding values realized by standards
+    definition_paragraphs:
+    - text: set of operations that establish, under specified conditions, the relationship
+        between values of quantities indicated by a measuring instrument or measuring
+        system, or values represented by a material measure or a reference material,
+        and the corresponding values realized by standards
+      sources:
+      - kind: other
+        relationship: identical
+        modification:
+        ref_source: OIML V 2:1993
+        ref_id: '6.11'
+        is_vimline: true
     notes:
     - The result of a calibration permits either the assignment of values of measurands
       to the indications or the determination of corrections with respect to indications.
@@ -381,7 +611,19 @@ data:
       of influence quantities.
     - The result of a calibration may be recorded in a document, sometimes called
       a calibration certificate or a calibration report.
+    note_paragraphs:
+    - text: The result of a calibration permits either the assignment of values of
+        measurands to the indications or the determination of corrections with respect
+        to indications.
+      sources: []
+    - text: A calibration may also determine other metrological properties such as
+        the effect of influence quantities.
+      sources: []
+    - text: The result of a calibration may be recorded in a document, sometimes called
+        a calibration certificate or a calibration report.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: other
       relationship: identical
@@ -402,8 +644,15 @@ data:
     definition: set of operations that establish, under specified conditions, the
       relationship between the values of pressure indicated by a pressure balance
       and the corresponding values of pressure realized by a reference standard
+    definition_paragraphs:
+    - text: set of operations that establish, under specified conditions, the relationship
+        between the values of pressure indicated by a pressure balance and the corresponding
+        values of pressure realized by a reference standard
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -418,8 +667,15 @@ data:
     definition: the set of operations that establishes, under specified conditions,
       the relationship between values indicated by a measuring system and the corresponding
       known values of the measurand
+    definition_paragraphs:
+    - text: the set of operations that establishes, under specified conditions, the
+        relationship between values indicated by a measuring system and the corresponding
+        known values of the measurand
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -434,8 +690,15 @@ data:
     definition: the set of operations which establish, under specified conditions,
       the relationship between values indicated by a measuring instrument or measuring
       system and the corresponding known values of a measurand
+    definition_paragraphs:
+    - text: the set of operations which establish, under specified conditions, the
+        relationship between values indicated by a measuring instrument or measuring
+        system and the corresponding known values of a measurand
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -449,8 +712,14 @@ data:
     g18_entry: '01147'
     definition: a set of operations to determine the capacities of a tank at various
       filling level
+    definition_paragraphs:
+    - text: a set of operations to determine the capacities of a tank at various filling
+        level
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

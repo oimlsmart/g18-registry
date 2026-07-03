@@ -28,8 +28,16 @@ data:
       of events, e.g. changes in the values of the parameters of a device or software
       updates, or other activities that are legally relevant and which may influence
       the metrological characteristics
+    definition_paragraphs:
+    - text: continuous data file containing a time stamped information record of events,
+        e.g. changes in the values of the parameters of a device or software updates,
+        or other activities that are legally relevant and which may influence the
+        metrological characteristics
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -45,8 +53,16 @@ data:
       adjustments and weighing operations. Checks can be made to ensure that adjustments
       and weighings have been carried out in accordance with the appropriate parts
       of this Recommendation. Every log entry has a unique time and date stamp
+    definition_paragraphs:
+    - text: historical record (or continuous data file) of the instrument data, adjustments
+        and weighing operations. Checks can be made to ensure that adjustments and
+        weighings have been carried out in accordance with the appropriate parts of
+        this Recommendation. Every log entry has a unique time and date stamp
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -62,11 +78,23 @@ data:
       The required records may include volumes at examination of measured variables,
       parameter settings and met calculation results to check the accuracy of a measurement
       and and cal any necessary corrections spe ene and
+    definition_paragraphs:
+    - text: set of electronic and/or paper records that provide for a complete The
+        required records may include volumes at examination of measured variables,
+        parameter settings and met calculation results to check the accuracy of a
+        measurement and and cal any necessary corrections spe ene and
+      sources: []
     notes:
     - ering conditions, pressures, temperatures orific values, conversion equation
       cification and parameters, volumes and rgy at base conditions, calibration datum,
       alarm logs.
+    note_paragraphs:
+    - text: ering conditions, pressures, temperatures orific values, conversion equation
+        cification and parameters, volumes and rgy at base conditions, calibration
+        datum, alarm logs.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -82,8 +110,16 @@ data:
       of events, e.g. changes in the values of the parameters of a measuring instrument
       or software updates, or other activities that are legally relevant and which
       may influence the mettrological
+    definition_paragraphs:
+    - text: continuous data file containing a time stamped information record of events,
+        e.g. changes in the values of the parameters of a measuring instrument or
+        software updates, or other activities that are legally relevant and which
+        may influence the mettrological
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -99,9 +135,25 @@ data:
       of events, e.g. changes in the values of the parameters of a measuring instrument
       or software updates, or other activities that are legally relevant and which
       are critical forthe metrological characteristics
+    definition_paragraphs:
+    - text: continuous data file containing a time stamped information record of events,
+        e.g. changes in the values of the parameters of a measuring instrument or
+        software updates, or other activities that are legally relevant and which
+        are critical forthe metrological characteristics
+      sources:
+      - kind: viml
+        relationship: modified
+        modification:
+        ref_source: OIML V 1:2022
+        ref_id: '6.05'
+        is_vimline: true
     notes:
     - 'Note: Regarding examples for events logged in an audit trial, see 3.2.20'
+    note_paragraphs:
+    - text: 'Note: Regarding examples for events logged in an audit trial, see 3.2.20'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: modified
@@ -123,8 +175,16 @@ data:
       of events, e.g. changes in the values of the parameters of a device or software
       updates, or other activities that are legally relevant and which may influence
       the metrological characteristics [VIML:2013, 6.05] [2]
+    definition_paragraphs:
+    - text: continuous data file containing a time stamped information record of events,
+        e.g. changes in the values of the parameters of a device or software updates,
+        or other activities that are legally relevant and which may influence the
+        metrological characteristics [VIML:2013, 6.05] [2]
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -140,8 +200,16 @@ data:
       of events, e.g. changes in the values of parameters of a device or software
       updates, or other activities that are legally relevant and which may influence
       the metrological characteristics (OIML D 31)
+    definition_paragraphs:
+    - text: continuous data file containing a time stamped information record of events,
+        e.g. changes in the values of parameters of a device or software updates,
+        or other activities that are legally relevant and which may influence the
+        metrological characteristics (OIML D 31)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -157,8 +225,22 @@ data:
       of events, e.g. changes in the values of parameters of a device or software
       updates, or other activities that are legally relevant and which may influence
       the metrological characteristics
+    definition_paragraphs:
+    - text: continuous data file containing a time stamped information record of events,
+        e.g. changes in the values of parameters of a device or software updates,
+        or other activities that are legally relevant and which may influence the
+        metrological characteristics
+      sources:
+      - kind: other
+        relationship: identical
+        modification:
+        ref_source: OIML D031:2008
+        ref_id: 3.1.2
+        is_vimline: false
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -172,8 +254,14 @@ data:
     g18_entry: '02599'
     definition: electronic count and/or information record of the changes to the values
       of the legally relevant parameters of a device
+    definition_paragraphs:
+    - text: electronic count and/or information record of the changes to the values
+        of the legally relevant parameters of a device
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -189,8 +277,16 @@ data:
       adjustments and weighing operations. Checks can be made to ensure that adjustments
       and weighings have been carried out in accordance with the appropriate parts
       of this Recommendation. Every log entry has a unique time and date stamp
+    definition_paragraphs:
+    - text: historical record (or continuous data file) of the instrument data, adjustments
+        and weighing operations. Checks can be made to ensure that adjustments and
+        weighings have been carried out in accordance with the appropriate parts of
+        this Recommendation. Every log entry has a unique time and date stamp
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -205,11 +301,23 @@ data:
     definition: set of electronic and/or paper records that provide for a complete
       examination of measured variables, parameter settings and calculation results
       to check the accuracy of a measurement and any necessary corrections
+    definition_paragraphs:
+    - text: set of electronic and/or paper records that provide for a complete examination
+        of measured variables, parameter settings and calculation results to check
+        the accuracy of a measurement and any necessary corrections
+      sources: []
     notes:
     - 'Note: The required records may include volumes at metering conditions, pressures,
       temperatures and calorific values, conversion equation specification and parameters,
       volumes and energy at base conditions, calibration datum, and alarm logs.'
+    note_paragraphs:
+    - text: 'Note: The required records may include volumes at metering conditions,
+        pressures, temperatures and calorific values, conversion equation specification
+        and parameters, volumes and energy at base conditions, calibration datum,
+        and alarm logs.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

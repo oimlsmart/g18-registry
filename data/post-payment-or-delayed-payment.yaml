@@ -26,8 +26,14 @@ data:
     g18_entry: '01585'
     definition: "(d type of payment requiring payment after the delivery, either before
       leaving the site (post-payment) or after leaving the site elayed payment)"
+    definition_paragraphs:
+    - text: "(d type of payment requiring payment after the delivery, either before
+        leaving the site (post-payment) or after leaving the site elayed payment)"
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '03373'
     definition: type of payment requiring payment after the delivery, either before
       leaving the site (post-payment) or after leaving the site (delayed payment)
+    definition_paragraphs:
+    - text: type of payment requiring payment after the delivery, either before leaving
+        the site (post-payment) or after leaving the site (delayed payment)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

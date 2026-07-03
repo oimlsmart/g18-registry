@@ -39,12 +39,32 @@ data:
 
       * mandatory periodic verification
       * verification after repair
+    definition_paragraphs:
+    - text: |-
+        any verification of a measuring instrument after a previous verification and including:
+
+        * mandatory periodic verification
+        * verification after repair
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2000
+        ref_id: '2.16'
+        is_vimline: true
     notes:
     - Subsequent verification of a measuring instrument may be carried out before
       expiry of the period of validity of a previous verification either at the request
       of the user (owner) or when its verification mark is declared to be no longer
       valid.
+    note_paragraphs:
+    - text: Subsequent verification of a measuring instrument may be carried out before
+        expiry of the period of validity of a previous verification either at the
+        request of the user (owner) or when its verification mark is declared to be
+        no longer valid.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical
@@ -69,12 +89,29 @@ data:
     g18_entry: '00168'
     definition: 'any verification of a measuring instrument after a previous verification
       and including: mandatory periodic verification; verification after repair.'
+    definition_paragraphs:
+    - text: 'any verification of a measuring instrument after a previous verification
+        and including: mandatory periodic verification; verification after repair.'
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2000
+        ref_id: '2.16'
+        is_vimline: true
     notes:
     - 'Note: Subsequent verification of a measuring instrument may be carried out
       before expiry of the period of validity of a previous  verification either at
       the request of the user (owner) or when its verification mark is declared to
       be no longer valid.'
+    note_paragraphs:
+    - text: 'Note: Subsequent verification of a measuring instrument may be carried
+        out before expiry of the period of validity of a previous  verification either
+        at the request of the user (owner) or when its verification mark is declared
+        to be no longer valid.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical

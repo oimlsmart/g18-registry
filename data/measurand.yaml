@@ -25,9 +25,16 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r137-1-e06.pdf
     g18_entry: '01925'
     definition: particular quantity subject to measurement
+    definition_paragraphs:
+    - text: particular quantity subject to measurement
+      sources: []
     notes:
     - "[VIM:1993, 2.6]"
+    note_paragraphs:
+    - text: "[VIM:1993, 2.6]"
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -40,8 +47,19 @@ data:
     link:
     g18_entry: '02647'
     definition: quantity intended to be measured
+    definition_paragraphs:
+    - text: quantity intended to be measured
+      sources:
+      - kind: vim
+        relationship: identical
+        modification:
+        ref_source: OIML V 2-200:2012
+        ref_id: '2.3'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: vim
       relationship: identical

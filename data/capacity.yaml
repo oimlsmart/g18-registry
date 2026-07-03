@@ -30,11 +30,25 @@ data:
       outflow being unrestricted until the sca meniscus is set on this scale mark,
       no period being allowed for the m drainage of liquid adhering to the walls before
       making the final setting
+    definition_paragraphs:
+    - text: the capacity corresponding to any scale mark is equal to the volume of
+        water, at the reference temperature, delivered by the buret burette at this
+        temperature when it is emptied from the zero mark pla to this scale mark,
+        the outflow being unrestricted until the sca meniscus is set on this scale
+        mark, no period being allowed for the m drainage of liquid adhering to the
+        walls before making the final setting
+      sources: []
     notes:
     - The meniscus formed by the water in the te, must be so adjusted that the horizontal
       ne passing through the upper edge of the le mark, is tangential to the lowest
       point of eniscus when viewed in this plane.
+    note_paragraphs:
+    - text: The meniscus formed by the water in the te, must be so adjusted that the
+        horizontal ne passing through the upper edge of the le mark, is tangential
+        to the lowest point of eniscus when viewed in this plane.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -51,11 +65,25 @@ data:
       when it is emptied from the zero mark to this scale mark, the outflow being
       unrestricted until the meniscus is set on this scale mark, no period being allowed
       for drainage of liquid adhering to the walls before making the final setting
+    definition_paragraphs:
+    - text: the capacity corresponding to any scale mark is equal to the volume of
+        water, at the reference temperature, delivered by the burette at this temperature
+        when it is emptied from the zero mark to this scale mark, the outflow being
+        unrestricted until the meniscus is set on this scale mark, no period being
+        allowed for drainage of liquid adhering to the walls before making the final
+        setting
+      sources: []
     notes:
     - 'Note: The meniscus formed by the water in the burette, must be so adjusted
       that the horizontal plane passing through the upper edge of the scale mark,
       is tangential to the lowest point of the meniscus when viewed in this plane.'
+    note_paragraphs:
+    - text: 'Note: The meniscus formed by the water in the burette, must be so adjusted
+        that the horizontal plane passing through the upper edge of the scale mark,
+        is tangential to the lowest point of the meniscus when viewed in this plane.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

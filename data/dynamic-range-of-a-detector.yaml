@@ -28,8 +28,16 @@ data:
       over which a change in sample amount produces a measurable change in the detector
       signal output. Its value is the ratio of the upper limit of detection to the
       detection limit
+    definition_paragraphs:
+    - text: the range of concentrations or mass flow rates of a sample component over
+        which a change in sample amount produces a measurable change in the detector
+        signal output. Its value is the ratio of the upper limit of detection to the
+        detection limit
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -47,8 +55,18 @@ data:
       at the point of detector saturation. The value of the dynamic range is expressed
       by the ratio of the upper to the lower limit and is larger than or equal to
       the linear range
+    definition_paragraphs:
+    - text: the range of concentrations over which a detectable change in output signal
+        is produced by an incremental change in concentration of a substance. The
+        lower limit is given by the detection limit, and the upper limit occurs at
+        the point of detector saturation. The value of the dynamic range is expressed
+        by the ratio of the upper to the lower limit and is larger than or equal to
+        the linear range
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -64,8 +82,16 @@ data:
       over which a change in sample amount produces a measurable change in the detector
       signal output. Its value is the ratio of the upper limit of detection to the
       detection limit
+    definition_paragraphs:
+    - text: the range of concentrations or mass flow rates of a sample component over
+        which a change in sample amount produces a measurable change in the detector
+        signal output. Its value is the ratio of the upper limit of detection to the
+        detection limit
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -83,8 +109,18 @@ data:
       at the point of detector saturation. The value of the dynamic range is expressed
       by the ratio of the upper to the lower limit and is larger than or equal to
       the linear range
+    definition_paragraphs:
+    - text: the range of concentrations over which a detectable change in output signal
+        is produced by an incremental change in concentration of a substance. The
+        lower limit is given by the detection limit, and the upper limit occurs at
+        the point of detector saturation. The value of the dynamic range is expressed
+        by the ratio of the upper to the lower limit and is larger than or equal to
+        the linear range
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

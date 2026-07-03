@@ -40,14 +40,27 @@ data:
     g18_entry: '03728'
     definition: quantity value used as a basis for comparison with values of quantities
       of the same kind
+    definition_paragraphs:
+    - text: quantity value used as a basis for comparison with values of quantities
+        of the same kind
+      sources: []
     notes:
-    - A reference quantity value can be a true quantity value of a measurand, in which
-      case it is unknown, or a conventional quantity value, in which case it is known.
-    - A reference quantity value with associated measurement uncertainty is usually
-      provided with reference to a) a material, e.g. a certified reference material,
-      b) a device, e.g. a stabilized laser, c) a reference measurement procedure,
-      or d) a comparison of measurement standards.
+    - 'Note 1: A reference quantity value can be a true quantity value of a measurand,
+      in which case it is unknown, or a conventional quantity value, in which case
+      it is known. Note 2: A reference quantity value with associated measurement
+      uncertainty is usually provided with reference to a) a material, e.g. a certified
+      reference material, b) a device, e.g. a stabilized laser, c) a reference measurement
+      procedure, or d) a comparison of measurement standards.'
+    note_paragraphs:
+    - text: 'Note 1: A reference quantity value can be a true quantity value of a
+        measurand, in which case it is unknown, or a conventional quantity value,
+        in which case it is known. Note 2: A reference quantity value with associated
+        measurement uncertainty is usually provided with reference to a) a material,
+        e.g. a certified reference material, b) a device, e.g. a stabilized laser,
+        c) a reference measurement procedure, or d) a comparison of measurement standards.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -66,6 +79,16 @@ data:
     g18_entry: '03446'
     definition: quantity value used as a basis for comparison with values of quantities
       of the same kind
+    definition_paragraphs:
+    - text: quantity value used as a basis for comparison with values of quantities
+        of the same kind
+      sources:
+      - kind: vim
+        relationship: identical
+        modification:
+        ref_source: OIML V 2-200:2012
+        ref_id: '5.18'
+        is_vimline: true
     notes:
     - A reference quantity value can be a true quantity value of a measurand, in which
       case it is unknown, or a conventional quantity value, in which case it is known.
@@ -73,7 +96,18 @@ data:
       provided with reference to a) a material, e.g. a certified reference material,
       b) a device, e.g. a stabilized laser, c) a reference measurement procedure,
       or d) a comparison of measurement standards.
+    note_paragraphs:
+    - text: A reference quantity value can be a true quantity value of a measurand,
+        in which case it is unknown, or a conventional quantity value, in which case
+        it is known.
+      sources: []
+    - text: A reference quantity value with associated measurement uncertainty is
+        usually provided with reference to a) a material, e.g. a certified reference
+        material, b) a device, e.g. a stabilized laser, c) a reference measurement
+        procedure, or d) a comparison of measurement standards.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: vim
       relationship: identical
@@ -93,8 +127,20 @@ data:
     g18_entry: '02452'
     definition: quantity value used as a basis for comparison with values of quantities
       of the same kind
+    definition_paragraphs:
+    - text: quantity value used as a basis for comparison with values of quantities
+        of the same kind
+      sources:
+      - kind: vim
+        relationship: identical
+        modification:
+        ref_source: OIML V 2-200:2007
+        ref_id: '5.18'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: vim
       relationship: identical
@@ -114,6 +160,16 @@ data:
     g18_entry: '02791'
     definition: quantity value used as a basis for comparison with values of quantities
       of the same kind
+    definition_paragraphs:
+    - text: quantity value used as a basis for comparison with values of quantities
+        of the same kind
+      sources:
+      - kind: vim
+        relationship: identical
+        modification:
+        ref_source: OIML V 2-200:2007
+        ref_id: '5.18'
+        is_vimline: true
     notes:
     - A reference quantity value can be a true quantity value of a measurand, in which
       case it is unknown, or a conventional quantity value, in which case it is known.
@@ -125,7 +181,22 @@ data:
       accuracy at verification and to assess the accuracy of calibrations at type
       evaluation. Where a CRM is not used, the reference quantity value is the mean
       PMB at reference conditions prior to a test.
+    note_paragraphs:
+    - text: A reference quantity value can be a true quantity value of a measurand,
+        in which case it is unknown, or a conventional quantity value, in which case
+        it is known.
+      sources: []
+    - text: A reference quantity value with associated measurement uncertainty is
+        usually provided with reference to a) a material, e.g. a certified reference
+        material, b) a device, e.g. a stabilized laser, c) a reference measurement
+        procedure, d) a comparison of measurement standards. In this Recommendation,
+        the PMB of the whole-grain CRM is the reference quantity value used to assess
+        the measurement accuracy at verification and to assess the accuracy of calibrations
+        at type evaluation. Where a CRM is not used, the reference quantity value
+        is the mean PMB at reference conditions prior to a test.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: vim
       relationship: identical

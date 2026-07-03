@@ -26,8 +26,14 @@ data:
     g18_entry: '00111'
     definition: "(I any activity concerned with determining directly or indirectly
       that relevant requirements are fulfilled. SO/IEC Guide 2, 12.2)"
+    definition_paragraphs:
+    - text: "(I any activity concerned with determining directly or indirectly that
+        relevant requirements are fulfilled. SO/IEC Guide 2, 12.2)"
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -42,8 +48,15 @@ data:
     definition: demonstration that specified requirements relating to a product, process,
       system, person or body are fulfilled (from ISO/IEC 17000:2004, 2.1 and VIML,
       A.1)
+    definition_paragraphs:
+    - text: demonstration that specified requirements relating to a product, process,
+        system, person or body are fulfilled (from ISO/IEC 17000:2004, 2.1 and VIML,
+        A.1)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

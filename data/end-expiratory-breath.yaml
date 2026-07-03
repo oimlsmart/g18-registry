@@ -25,8 +25,14 @@ data:
     g18_entry: '03037'
     definition: air considered sufficiently representative of alveolar air (as opposed
       to anatomical dead  space)
+    definition_paragraphs:
+    - text: air considered sufficiently representative of alveolar air (as opposed
+        to anatomical dead  space)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

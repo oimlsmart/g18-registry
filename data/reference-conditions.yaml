@@ -47,10 +47,19 @@ data:
     g18_entry: '02290'
     definition: conditions of use prescribed for testing the performance of a measuring
       instrument or for intercomparison of results of measurements
+    definition_paragraphs:
+    - text: conditions of use prescribed for testing the performance of a measuring
+        instrument or for intercomparison of results of measurements
+      sources: []
     notes:
     - The reference conditions generally include reference values or reference ranges
       for the influence quantities affecting the measuring instrument.
+    note_paragraphs:
+    - text: The reference conditions generally include reference values or reference
+        ranges for the influence quantities affecting the measuring instrument.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -65,8 +74,15 @@ data:
     definition: operating condition prescribed for evaluating the performance of (VIM:2007,
       4.11) a measuring instrument or measuring system or for comparison of measurement
       results
+    definition_paragraphs:
+    - text: operating condition prescribed for evaluating the performance of (VIM:2007,
+        4.11) a measuring instrument or measuring system or for comparison of measurement
+        results
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -84,8 +100,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r071-e08.pdf
     g18_entry: '02234'
     definition: reference conditions applicable for the calibration certificate
+    definition_paragraphs:
+    - text: reference conditions applicable for the calibration certificate
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -99,10 +120,19 @@ data:
     g18_entry: '02320'
     definition: set of specified values of influence factors fixed to ensure valid
       intercomparisons of the results of measurements
+    definition_paragraphs:
+    - text: set of specified values of influence factors fixed to ensure valid intercomparisons
+        of the results of measurements
+      sources: []
     notes:
     - Reference conditions generally specify intervals of values for any influence
       quantity.
+    note_paragraphs:
+    - text: Reference conditions generally specify intervals of values for any influence
+        quantity.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -117,8 +147,15 @@ data:
     definition: operating condition prescribed for evaluating the performance of (VIM:2007,
       4.11) ameasuring instrument or measuring system or for comparison ofmeasurement
       results
+    definition_paragraphs:
+    - text: operating condition prescribed for evaluating the performance of (VIM:2007,
+        4.11) ameasuring instrument or measuring system or for comparison ofmeasurement
+        results
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -137,8 +174,14 @@ data:
     g18_entry: '00378'
     definition: set of specified values of influence factors fixed to ensure valid
       intercomparison of the results of measurements
+    definition_paragraphs:
+    - text: set of specified values of influence factors fixed to ensure valid intercomparison
+        of the results of measurements
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -152,8 +195,14 @@ data:
     g18_entry: '01400'
     definition: "[V conditions of use prescribed for testing the performance of an
       instrument or for intercomparison of results of measurements IM: 1993, 5.7]"
+    definition_paragraphs:
+    - text: "[V conditions of use prescribed for testing the performance of an instrument
+        or for intercomparison of results of measurements IM: 1993, 5.7]"
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -167,8 +216,14 @@ data:
     g18_entry: '01548'
     definition: set of specified values of influence factors fixed to ensure valid
       intercomparison of results of measurements
+    definition_paragraphs:
+    - text: set of specified values of influence factors fixed to ensure valid intercomparison
+        of results of measurements
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -182,8 +237,14 @@ data:
     g18_entry: '02026'
     definition: set of specified values for influence factors that are fixed to ensure
       valid intercomparison of results of measurements
+    definition_paragraphs:
+    - text: set of specified values for influence factors that are fixed to ensure
+        valid intercomparison of results of measurements
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -198,8 +259,15 @@ data:
     definition: set of reference values or reference ranges of influence factors (adapted
       from VIM:2007, 4.11) prescribed for testing the performance of a measuring system
       or a device or for intercomparisons of the results of measurements
+    definition_paragraphs:
+    - text: set of reference values or reference ranges of influence factors (adapted
+        from VIM:2007, 4.11) prescribed for testing the performance of a measuring
+        system or a device or for intercomparisons of the results of measurements
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -219,8 +287,15 @@ data:
     definition: "[a set of reference values, or reference ranges of influence quantities,
       prescribed for testing the performance of a water meter, or for the intercomparison
       of the results of measurements dapted from VIM:1993, 5.7]."
+    definition_paragraphs:
+    - text: "[a set of reference values, or reference ranges of influence quantities,
+        prescribed for testing the performance of a water meter, or for the intercomparison
+        of the results of measurements dapted from VIM:1993, 5.7]."
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -239,8 +314,20 @@ data:
     g18_entry: '00668'
     definition: set of specified values of influence factors fixed to ensure valid
       inter-comparison of the results of measurements
+    definition_paragraphs:
+    - text: set of specified values of influence factors fixed to ensure valid inter-comparison
+        of the results of measurements
+      sources:
+      - kind: vim
+        relationship: identical
+        modification:
+        ref_source: OIML V 2-200:1993
+        ref_id: '5.7'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: vim
       relationship: identical
@@ -260,8 +347,14 @@ data:
     g18_entry: '00990'
     definition: set of specified values of influence factors fixed to ensure valid
       inter-comparison of the results of measurements
+    definition_paragraphs:
+    - text: set of specified values of influence factors fixed to ensure valid inter-comparison
+        of the results of measurements
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -276,9 +369,18 @@ data:
     definition: set of reference values, or reference ranges of influence quantities,
       prescribed for testing the performance of a gas meter, orfor the intercomparison
       of the results of measurements
+    definition_paragraphs:
+    - text: set of reference values, or reference ranges of influence quantities,
+        prescribed for testing the performance of a gas meter, orfor the intercomparison
+        of the results of measurements
+      sources: []
     notes:
     - "(adapted from VIM:1993, 5.7)"
+    note_paragraphs:
+    - text: "(adapted from VIM:1993, 5.7)"
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -292,10 +394,19 @@ data:
     g18_entry: '00240'
     definition: conditions of use prescribed for testing the performance of a measuring
       instrument or for intercomparison of results of measurements [VIM:1993, 5.7]
+    definition_paragraphs:
+    - text: conditions of use prescribed for testing the performance of a measuring
+        instrument or for intercomparison of results of measurements [VIM:1993, 5.7]
+      sources: []
     notes:
     - The reference conditions generally include reference values or reference ranges
       for the influence quantities affecting a measuring instrument.
+    note_paragraphs:
+    - text: The reference conditions generally include reference values or reference
+        ranges for the influence quantities affecting a measuring instrument.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -314,8 +425,14 @@ data:
     g18_entry: '00813'
     definition: "[b set of specified values of influence factors fixed to ensure valid
       intercomparison of the results of measurements ased on VIM:1993, 5.7]"
+    definition_paragraphs:
+    - text: "[b set of specified values of influence factors fixed to ensure valid
+        intercomparison of the results of measurements ased on VIM:1993, 5.7]"
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -334,8 +451,14 @@ data:
     g18_entry: '01919'
     definition: set of specified values of influence factors fixed to ensure valid
       [VIM:1993, 5.7] intercomparison of the results of measurements
+    definition_paragraphs:
+    - text: set of specified values of influence factors fixed to ensure valid [VIM:1993,
+        5.7] intercomparison of the results of measurements
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -354,10 +477,20 @@ data:
     g18_entry: '01832'
     definition: conditions of use prescribed for testing the performance of a measuring
       instrument or for intercomparison of results of measurements.
+    definition_paragraphs:
+    - text: conditions of use prescribed for testing the performance of a measuring
+        instrument or for intercomparison of results of measurements.
+      sources: []
     notes:
     - The reference conditions generally include reference values or reference ranges
       for influence quantities affecting the measuring instrument. [VIM:1993, 5.7]
+    note_paragraphs:
+    - text: The reference conditions generally include reference values or reference
+        ranges for influence quantities affecting the measuring instrument. [VIM:1993,
+        5.7]
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -372,8 +505,14 @@ data:
     definition: "[V conditions of use prescribed for testing the performance of a
       measuring instrument or for intercomparison of results of measurements IM:1993,
       5.7]."
+    definition_paragraphs:
+    - text: "[V conditions of use prescribed for testing the performance of a measuring
+        instrument or for intercomparison of results of measurements IM:1993, 5.7]."
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -387,11 +526,21 @@ data:
     g18_entry: '00749'
     definition: conditions of use prescribed for testing the performance of a load
       cell or for the intercomparison of results of measurements
+    definition_paragraphs:
+    - text: conditions of use prescribed for testing the performance of a load cell
+        or for the intercomparison of results of measurements
+      sources: []
     notes:
     - The reference conditions generally include reference values or reference ranges
       for the influence quantities affecting the load cell. [Adapted from VIM:1993,
       5.7]
+    note_paragraphs:
+    - text: The reference conditions generally include reference values or reference
+        ranges for the influence quantities affecting the load cell. [Adapted from
+        VIM:1993, 5.7]
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -405,8 +554,14 @@ data:
     g18_entry: '01732'
     definition: a set of specified values of influence factors fixed to ensure valid
       Adapted from VIM:1993, 5.7. intercomparison of results of measurements
+    definition_paragraphs:
+    - text: a set of specified values of influence factors fixed to ensure valid Adapted
+        from VIM:1993, 5.7. intercomparison of results of measurements
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -425,8 +580,14 @@ data:
     g18_entry: '01041'
     definition: a set of specified values of influence factors to ensure valid inter-comparisons
       of the results of a measurement
+    definition_paragraphs:
+    - text: a set of specified values of influence factors to ensure valid inter-comparisons
+        of the results of a measurement
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -440,8 +601,14 @@ data:
     g18_entry: '01650'
     definition: a set of specified values of influence factors fixed to ensure valid
       intercomparisons of results of measurements (adapted from VIM:1993, 5.7)
+    definition_paragraphs:
+    - text: a set of specified values of influence factors fixed to ensure valid intercomparisons
+        of results of measurements (adapted from VIM:1993, 5.7)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -460,8 +627,14 @@ data:
     g18_entry: '00534'
     definition: "[A a set of specified values of influence factors fixed to ensure
       a valid intercomparison of measurement results dapted from VIM:1993, 5.7]"
+    definition_paragraphs:
+    - text: "[A a set of specified values of influence factors fixed to ensure a valid
+        intercomparison of measurement results dapted from VIM:1993, 5.7]"
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -480,8 +653,14 @@ data:
     g18_entry: '01305'
     definition: a set of specified values of influence factors fixed to ensure valid
       intercomparison of the results of measurements
+    definition_paragraphs:
+    - text: a set of specified values of influence factors fixed to ensure valid intercomparison
+        of the results of measurements
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -496,8 +675,15 @@ data:
     definition: "(a a set of specified values of influence factors fixed to ensure
       valid inter-comparison of results dapted from VIM:1993, clause 5.7 in D 11 clause
       T.14)"
+    definition_paragraphs:
+    - text: "(a a set of specified values of influence factors fixed to ensure valid
+        inter-comparison of results dapted from VIM:1993, clause 5.7 in D 11 clause
+        T.14)"
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -511,8 +697,14 @@ data:
     g18_entry: '01438'
     definition: the conditions of use prescribed for testing the performance of a
       pressure balance or for intercomparison of measurement results
+    definition_paragraphs:
+    - text: the conditions of use prescribed for testing the performance of a pressure
+        balance or for intercomparison of measurement results
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -526,8 +718,14 @@ data:
     g18_entry: '01243'
     definition: a set of specified values of influence factors fixed to ensure valid
       intercomparison of results of measurements [adapted from VIM:1993, 5.07]
+    definition_paragraphs:
+    - text: a set of specified values of influence factors fixed to ensure valid intercomparison
+        of results of measurements [adapted from VIM:1993, 5.07]
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -546,13 +744,26 @@ data:
     g18_entry: '03727'
     definition: operating condition prescribed for evaluating the performance of a
       measuring instrument or measuring system or for comparison of measurement results
+    definition_paragraphs:
+    - text: operating condition prescribed for evaluating the performance of a measuring
+        instrument or measuring system or for comparison of measurement results
+      sources: []
     notes:
-    - Reference conditions specify intervals of values of the measurand and influence
-      quantities.
-    - In IEC 60050-300, item 311-06-02, the term "reference condition" refers to an
-      operating condition under which the specified instrumental measurement uncertainty
-      is the smallest possible.
+    - 'Note 1: Reference conditions specify intervals of values of the measurand and
+      influence quantities.'
+    - 'Note 2: In IEC 60050-300, item 311-06-02, the term "reference condition" refers
+      to an operating condition under which the specified instrumental measurement
+      uncertainty is the smallest possible.'
+    note_paragraphs:
+    - text: 'Note 1: Reference conditions specify intervals of values of the measurand
+        and influence quantities.'
+      sources: []
+    - text: 'Note 2: In IEC 60050-300, item 311-06-02, the term "reference condition"
+        refers to an operating condition under which the specified instrumental measurement
+        uncertainty is the smallest possible.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -573,8 +784,16 @@ data:
       a meter or for comparison of measurement results [SOURCE: ISO/IEC Guide 99:2007/OIML
       V 2-200:2012 (VIM) 4.11, [1], modified — “meter” replaces “measuring instrument
       or measuring system”; original notes removed]'
+    definition_paragraphs:
+    - text: 'operating condition prescribed for evaluating the performance of a meter
+        or for comparison of measurement results [SOURCE: ISO/IEC Guide 99:2007/OIML
+        V 2-200:2012 (VIM) 4.11, [1], modified — “meter” replaces “measuring instrument
+        or measuring system”; original notes removed]'
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -588,8 +807,26 @@ data:
     g18_entry: '03427'
     definition: operating condition prescribed for evaluating the performance of a
       measuring instrument or measuring system or for comparison of measurement results
+    definition_paragraphs:
+    - text: operating condition prescribed for evaluating the performance of a measuring
+        instrument or measuring system or for comparison of measurement results
+      sources:
+      - kind: vim
+        relationship: identical
+        modification:
+        ref_source: OIML V 2-200:2012
+        ref_id: '4.11'
+        is_vimline: true
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2013
+        ref_id: '0.09'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: vim
       relationship: identical
@@ -609,8 +846,20 @@ data:
     g18_entry: '03429'
     definition: a set of specified values of influence factors fixed to ensure valid.
       intercomparison of results of measurements
+    definition_paragraphs:
+    - text: a set of specified values of influence factors fixed to ensure valid.
+        intercomparison of results of measurements
+      sources:
+      - kind: vim
+        relationship: identical
+        modification:
+        ref_source: OIML V 2-200:2012
+        ref_id: '4.11'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: vim
       relationship: identical
@@ -630,10 +879,19 @@ data:
     g18_entry: '03428'
     definition: operating condition prescribed for evaluating the performance of a
       measuring instrument or measuring system or for comparison of measurement results
+    definition_paragraphs:
+    - text: operating condition prescribed for evaluating the performance of a measuring
+        instrument or measuring system or for comparison of measurement results
+      sources: []
     notes:
     - 'Note:  Reference conditions specify intervals of values of the measurand and
       influence quantities. [Adapted from VIML:2013, 0.09 – part of note omitted]'
+    note_paragraphs:
+    - text: 'Note:  Reference conditions specify intervals of values of the measurand
+        and influence quantities. [Adapted from VIML:2013, 0.09 – part of note omitted]'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -647,8 +905,14 @@ data:
     g18_entry: '03435'
     definition: set of specified values of influence factors fixed to ensure valid  intercomparison
       of results of measurements
+    definition_paragraphs:
+    - text: set of specified values of influence factors fixed to ensure valid  intercomparison
+        of results of measurements
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -663,10 +927,20 @@ data:
     definition: operating condition prescribed for evaluating the performance of a
       measuring instrument or measuring system or for comparison of measurement results
       (VIM 4.11)
+    definition_paragraphs:
+    - text: operating condition prescribed for evaluating the performance of a measuring
+        instrument or measuring system or for comparison of measurement results (VIM
+        4.11)
+      sources: []
     notes:
     - 'Note:  Reference operating conditions specify intervals of values of the measurand
       and of the influence quantities.'
+    note_paragraphs:
+    - text: 'Note:  Reference operating conditions specify intervals of values of
+        the measurand and of the influence quantities.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -680,10 +954,19 @@ data:
     g18_entry: '03430'
     definition: conditions of use prescribed for testing the performance of a measuring
       instrument or for intercomparison of results of measurements
+    definition_paragraphs:
+    - text: conditions of use prescribed for testing the performance of a measuring
+        instrument or for intercomparison of results of measurements
+      sources: []
     notes:
     - 'Note:  The reference conditions generally include reference values or reference
       ranges for the influence quantities affecting the measuring instrument.'
+    note_paragraphs:
+    - text: 'Note:  The reference conditions generally include reference values or
+        reference ranges for the influence quantities affecting the measuring instrument.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -697,13 +980,32 @@ data:
     g18_entry: '02451'
     definition: operating condition prescribed for evaluating the performance of a
       measuring instrument or measuring system or for comparison of measurement results
+    definition_paragraphs:
+    - text: operating condition prescribed for evaluating the performance of a measuring
+        instrument or measuring system or for comparison of measurement results
+      sources:
+      - kind: vim
+        relationship: identical
+        modification:
+        ref_source: OIML V 2-200:2012
+        ref_id: '4.11'
+        is_vimline: true
     notes:
     - Reference conditions specify intervals of values of the measurand and influence
       quantities.
     - In IEC 60050-300, item 311-06-02, the term "reference condition" refers to an
       operating condition under which the specified instrumental measurement uncertainty
       is the smallest possible.
+    note_paragraphs:
+    - text: Reference conditions specify intervals of values of the measurand and
+        influence quantities.
+      sources: []
+    - text: In IEC 60050-300, item 311-06-02, the term "reference condition" refers
+        to an operating condition under which the specified instrumental measurement
+        uncertainty is the smallest possible.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: vim
       relationship: identical
@@ -723,13 +1025,32 @@ data:
     g18_entry: '02789'
     definition: operating condition prescribed for evaluating the performance of a
       measuring instrument or measuring system or for comparison of measurement results
+    definition_paragraphs:
+    - text: operating condition prescribed for evaluating the performance of a measuring
+        instrument or measuring system or for comparison of measurement results
+      sources:
+      - kind: vim
+        relationship: identical
+        modification:
+        ref_source: OIML V 2-200:2007
+        ref_id: '4.11'
+        is_vimline: true
     notes:
     - Reference operating conditions specify intervals of values of the measurand
       and of the influence quantities.
     - In IEC 60050-300, item 311-06-02, the term "reference condition" refers to an
       operating condition under which the specified instrumental measurement uncertainty
       is the smallest possible.
+    note_paragraphs:
+    - text: Reference operating conditions specify intervals of values of the measurand
+        and of the influence quantities.
+      sources: []
+    - text: In IEC 60050-300, item 311-06-02, the term "reference condition" refers
+        to an operating condition under which the specified instrumental measurement
+        uncertainty is the smallest possible.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: vim
       relationship: identical
@@ -750,10 +1071,25 @@ data:
     definition: operating conditions prescribed for evaluating the performance of
       a measuring instrument or measuring system or for comparison of measurement
       results
+    definition_paragraphs:
+    - text: operating conditions prescribed for evaluating the performance of a measuring
+        instrument or measuring system or for comparison of measurement results
+      sources:
+      - kind: vim
+        relationship: identical
+        modification:
+        ref_source: OIML V 2-200:2012
+        ref_id: '4.11'
+        is_vimline: true
     notes:
     - 'Note:  Reference operating conditions specify intervals of values of the measurand
       and of the influence quantities.'
+    note_paragraphs:
+    - text: 'Note:  Reference operating conditions specify intervals of values of
+        the measurand and of the influence quantities.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: vim
       relationship: identical
@@ -773,8 +1109,20 @@ data:
     g18_entry: '02775'
     definition: operating condition prescribed for evaluating the performance of a
       measuring instrument or measuring system or for comparison of measurement results
+    definition_paragraphs:
+    - text: operating condition prescribed for evaluating the performance of a measuring
+        instrument or measuring system or for comparison of measurement results
+      sources:
+      - kind: vim
+        relationship: identical
+        modification:
+        ref_source: OIML V 2-200:2012
+        ref_id: '4.11'
+        is_vimline: true
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
       kind: vim
       relationship: identical
@@ -794,6 +1142,10 @@ data:
     g18_entry: 02326-R046-1
     definition: operating condition prescribed for evaluating the performance of a
       measuring instrument or measuring system or for comparison of measurement results
+    definition_paragraphs:
+    - text: operating condition prescribed for evaluating the performance of a measuring
+        instrument or measuring system or for comparison of measurement results
+      sources: []
     notes:
     - Reference operating conditions specify intervals of values of the measurand
       and of the influence quantities.
@@ -802,7 +1154,19 @@ data:
       is the smallest possible. [OIML V2-200:2012, 4.11]
     - 'For the application of this Recommendation, the terms "measuring instrument"
       and "measuring system" mean: electricity meter.'
+    note_paragraphs:
+    - text: Reference operating conditions specify intervals of values of the measurand
+        and of the influence quantities.
+      sources: []
+    - text: In IEC 60050-300, item 311-06-02, the term "reference condition" refers
+        to an operating condition under which the specified instrumental measurement
+        uncertainty is the smallest possible. [OIML V2-200:2012, 4.11]
+      sources: []
+    - text: 'For the application of this Recommendation, the terms "measuring instrument"
+        and "measuring system" mean: electricity meter.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -817,8 +1181,15 @@ data:
     definition: set of reference values, or reference ranges of influence quantities,
       prescribed for testing the performance of a gas meter, or for the intercomparison
       of the results of measurements
+    definition_paragraphs:
+    - text: set of reference values, or reference ranges of influence quantities,
+        prescribed for testing the performance of a gas meter, or for the intercomparison
+        of the results of measurements
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -832,10 +1203,26 @@ data:
     g18_entry: '02620'
     definition: conditions of use prescribed for testing the performance of a measuring
       instrument or for inter-comparison of results of measurements
+    definition_paragraphs:
+    - text: conditions of use prescribed for testing the performance of a measuring
+        instrument or for inter-comparison of results of measurements
+      sources:
+      - kind: vim
+        relationship: identical
+        modification:
+        ref_source: OIML V 2-200:2007
+        ref_id: '5.7'
+        is_vimline: true
     notes:
     - 'Note:  The reference conditions generally include reference values or reference
       ranges for influence quantities affecting the measuring instrument. [VIM 5.7]'
+    note_paragraphs:
+    - text: 'Note:  The reference conditions generally include reference values or
+        reference ranges for influence quantities affecting the measuring instrument.
+        [VIM 5.7]'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: vim
       relationship: identical
@@ -855,10 +1242,19 @@ data:
     g18_entry: '02290-R080-1'
     definition: conditions of use prescribed for testing the performance of a measuring
       instrument or for intercomparison of results of measurements
+    definition_paragraphs:
+    - text: conditions of use prescribed for testing the performance of a measuring
+        instrument or for intercomparison of results of measurements
+      sources: []
     notes:
     - 'Note:  The reference conditions generally include reference values or reference
       ranges for the influence quantities affecting the measuring instrument.'
+    note_paragraphs:
+    - text: 'Note:  The reference conditions generally include reference values or
+        reference ranges for the influence quantities affecting the measuring instrument.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -873,8 +1269,15 @@ data:
     definition: operating condition prescribed for evaluating the performance of a
       measuring instrument or measuring system or for comparison of measurement results
       [VIM:2007, 4.11]
+    definition_paragraphs:
+    - text: operating condition prescribed for evaluating the performance of a measuring
+        instrument or measuring system or for comparison of measurement results [VIM:2007,
+        4.11]
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -887,8 +1290,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r071-e08.pdf
     g18_entry: 02234-R071
     definition: reference conditions applicable for the calibration certificate
+    definition_paragraphs:
+    - text: reference conditions applicable for the calibration certificate
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -902,10 +1310,19 @@ data:
     g18_entry: 02320-R085-1
     definition: set of specified values of influence factors fixed to ensure valid
       intercomparisons of the results of measurements
+    definition_paragraphs:
+    - text: set of specified values of influence factors fixed to ensure valid intercomparisons
+        of the results of measurements
+      sources: []
     notes:
     - 'Note:  Reference conditions generally specify intervals of values for any influence
       quantity.'
+    note_paragraphs:
+    - text: 'Note:  Reference conditions generally specify intervals of values for
+        any influence quantity.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -920,8 +1337,15 @@ data:
     definition: operating condition prescribed for evaluating the performance of a
       measuring instrument or measuring system or for comparison of measurement results
       [VIM:2007, 4.11]
+    definition_paragraphs:
+    - text: operating condition prescribed for evaluating the performance of a measuring
+        instrument or measuring system or for comparison of measurement results [VIM:2007,
+        4.11]
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -935,8 +1359,14 @@ data:
     g18_entry: '00378'
     definition: set of specified values of influence factors fixed to ensure valid
       intercomparison of the results of measurements
+    definition_paragraphs:
+    - text: set of specified values of influence factors fixed to ensure valid intercomparison
+        of the results of measurements
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -950,8 +1380,14 @@ data:
     g18_entry: '01400'
     definition: 'conditions of use prescribed for testing the performance of an instrument
       or for intercomparison of results of measurements [VIM: 1993, 5.7]'
+    definition_paragraphs:
+    - text: 'conditions of use prescribed for testing the performance of an instrument
+        or for intercomparison of results of measurements [VIM: 1993, 5.7]'
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -966,8 +1402,15 @@ data:
     definition: set of reference values or reference ranges of influence factors prescribed
       for testing the performance of a measuring system or a device or for intercomparisons
       of the results of measurements [adapted from VIM:2007, 4.11]
+    definition_paragraphs:
+    - text: set of reference values or reference ranges of influence factors prescribed
+        for testing the performance of a measuring system or a device or for intercomparisons
+        of the results of measurements [adapted from VIM:2007, 4.11]
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -981,8 +1424,14 @@ data:
     g18_entry: '00668'
     definition: set of specified values of influence factors fixed to ensure valid
       intercomparison of the results of measurements [based on VIM:1993, 5.7]
+    definition_paragraphs:
+    - text: set of specified values of influence factors fixed to ensure valid intercomparison
+        of the results of measurements [based on VIM:1993, 5.7]
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -996,8 +1445,14 @@ data:
     g18_entry: '00990'
     definition: set of specified values of influence factors fixed to ensure valid
       inter-comparison of the results of measurements
+    definition_paragraphs:
+    - text: set of specified values of influence factors fixed to ensure valid inter-comparison
+        of the results of measurements
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -1011,11 +1466,21 @@ data:
     g18_entry: '03432'
     definition: conditions of use prescribed for testing the performance of a measuring
       instrument or for intercomparison of results of measurements.
+    definition_paragraphs:
+    - text: conditions of use prescribed for testing the performance of a measuring
+        instrument or for intercomparison of results of measurements.
+      sources: []
     notes:
     - 'Note:  The reference conditions generally include reference values or reference
       ranges for influence quantities affecting the measuring instrument. [VIM:1993,
       5.7]'
+    note_paragraphs:
+    - text: 'Note:  The reference conditions generally include reference values or
+        reference ranges for influence quantities affecting the measuring instrument.
+        [VIM:1993, 5.7]'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -1029,8 +1494,14 @@ data:
     g18_entry: '01919'
     definition: set of specified values of influence factors fixed to ensure valid
       intercomparison of the results of measurements [VIM:1993, 5.7]
+    definition_paragraphs:
+    - text: set of specified values of influence factors fixed to ensure valid intercomparison
+        of the results of measurements [VIM:1993, 5.7]
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -1044,8 +1515,14 @@ data:
     g18_entry: '00855'
     definition: conditions of use prescribed for testing the performance of a measuring
       instrument or for intercomparison of results of measurements [VIM:1993, 5.7].
+    definition_paragraphs:
+    - text: conditions of use prescribed for testing the performance of a measuring
+        instrument or for intercomparison of results of measurements [VIM:1993, 5.7].
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -1059,8 +1536,14 @@ data:
     g18_entry: '01041'
     definition: a set of specified values of influence factors to ensure valid inter-comparisons
       of the results of a measurement
+    definition_paragraphs:
+    - text: a set of specified values of influence factors to ensure valid inter-comparisons
+        of the results of a measurement
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -1074,8 +1557,14 @@ data:
     g18_entry: '01650'
     definition: a set of specified values of influence factors fixed to ensure valid
       intercomparisons of results of measurements (adapted from VIM:1993, 5.7)
+    definition_paragraphs:
+    - text: a set of specified values of influence factors fixed to ensure valid intercomparisons
+        of results of measurements (adapted from VIM:1993, 5.7)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -1090,8 +1579,14 @@ data:
     definition: a set of specified values of influence factors fixed to ensure valid
       inter-comparison of results (adapted from VIM:1993, clause 5.7 in D 11 clause
       T.14)
+    definition_paragraphs:
+    - text: a set of specified values of influence factors fixed to ensure valid inter-comparison
+        of results (adapted from VIM:1993, clause 5.7 in D 11 clause T.14)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -1105,8 +1600,14 @@ data:
     g18_entry: '01438'
     definition: the conditions of use prescribed for testing the performance of a
       pressure balance or for intercomparison of measurement results
+    definition_paragraphs:
+    - text: the conditions of use prescribed for testing the performance of a pressure
+        balance or for intercomparison of measurement results
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

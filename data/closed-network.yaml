@@ -25,8 +25,14 @@ data:
     g18_entry: '02173'
     definition: network of a fixed number of participants with a known identity, functionality
       and location (see also "open network").
+    definition_paragraphs:
+    - text: network of a fixed number of participants with a known identity, functionality
+        and location (see also "open network").
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

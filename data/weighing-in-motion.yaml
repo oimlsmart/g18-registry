@@ -32,8 +32,14 @@ data:
     g18_entry: '01806'
     definition: process of determining the total mass of a moving vehicle by measurement
       and analysis of the dynamic vehicle tyre forces
+    definition_paragraphs:
+    - text: process of determining the total mass of a moving vehicle by measurement
+        and analysis of the dynamic vehicle tyre forces
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -46,8 +52,13 @@ data:
     link: https://www.oiml.org/en/files/pdf_R/r106-1-e97.pdf
     g18_entry: '01275'
     definition: weighing objects that are in motion
+    definition_paragraphs:
+    - text: weighing objects that are in motion
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -60,8 +71,13 @@ data:
     link:
     g18_entry: '02569'
     definition: determining the mass of railway vehicles that are in motion
+    definition_paragraphs:
+    - text: determining the mass of railway vehicles that are in motion
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -77,8 +93,16 @@ data:
       the axle-group load of a moving vehicle (i.e. a vehicle crossing over the load
       receptor of the weighing instrument) by measurement and analysis of the dynamic
       vehicle tyre forces
+    definition_paragraphs:
+    - text: process of determining the vehicle mass, the axle load, and if applicable,
+        the axle-group load of a moving vehicle (i.e. a vehicle crossing over the
+        load receptor of the weighing instrument) by measurement and analysis of the
+        dynamic vehicle tyre forces
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

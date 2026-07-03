@@ -35,6 +35,16 @@ data:
     g18_entry: '00186'
     definition: the whole of legal metrology activities which contribute to metrological
       assurance
+    definition_paragraphs:
+    - text: the whole of legal metrology activities which contribute to metrological
+        assurance
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2000
+        ref_id: '2.1'
+        is_vimline: true
     notes:
     - |-
       Legal metrological control includes:
@@ -42,7 +52,16 @@ data:
       * legal control of measuring instruments
       * metrological supervision
       * metrological expertise
+    note_paragraphs:
+    - text: |-
+        Legal metrological control includes:
+
+        * legal control of measuring instruments
+        * metrological supervision
+        * metrological expertise
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical
@@ -67,10 +86,24 @@ data:
     g18_entry: '00164'
     definition: whole of legal metrology activities which contribute to metrological
       assurance
+    definition_paragraphs:
+    - text: whole of legal metrology activities which contribute to metrological assurance
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2000
+        ref_id: '2.1'
+        is_vimline: true
     notes:
     - 'Legal metrological control includes: legal control of measuring instruments,
       metrological supervision, metrological assessment.'
+    note_paragraphs:
+    - text: 'Legal metrological control includes: legal control of measuring instruments,
+        metrological supervision, metrological assessment.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical
@@ -94,13 +127,24 @@ data:
     link:
     g18_entry: '03178'
     definition: the whole of legal metrology activities (from VIML, 2.01)
+    definition_paragraphs:
+    - text: the whole of legal metrology activities (from VIML, 2.01)
+      sources: []
     notes:
     - 'Note:Legal metrological control includes: legal control of measuring instruments,
       metrological supervision, and all the operations for the purpose of examining
       and demonstrating, e.g. to testify in a court of law, the conditio of measuring
       instrument and to determine itd. metrological properties, amongst others by
       reference to the relevant astatutoey requirements'
+    note_paragraphs:
+    - text: 'Note:Legal metrological control includes: legal control of measuring
+        instruments, metrological supervision, and all the operations for the purpose
+        of examining and demonstrating, e.g. to testify in a court of law, the conditio
+        of measuring instrument and to determine itd. metrological properties, amongst
+        others by reference to the relevant astatutoey requirements'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -113,13 +157,30 @@ data:
     link:
     g18_entry: '03179'
     definition: the whole of legal metrology activities
+    definition_paragraphs:
+    - text: the whole of legal metrology activities
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2013
+        ref_id: '2.01'
+        is_vimline: true
     notes:
     - 'Note:Legal metrological control includes: legal control of measuring instruments,
       metrological supervision, all the operations for the purpose of examining and
       demonstrating, e.g. to testify in a court of law, the conditio of measuring
       instrument and to determine itd. metrological properties, amongst others by
       reference to the relevant astatutoey requirements.'
+    note_paragraphs:
+    - text: 'Note:Legal metrological control includes: legal control of measuring
+        instruments, metrological supervision, all the operations for the purpose
+        of examining and demonstrating, e.g. to testify in a court of law, the conditio
+        of measuring instrument and to determine itd. metrological properties, amongst
+        others by reference to the relevant astatutoey requirements.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical
@@ -138,10 +199,24 @@ data:
     link:
     g18_entry: '02209'
     definition: the whole of legal metrology activities
+    definition_paragraphs:
+    - text: the whole of legal metrology activities
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2000
+        ref_id: '2.01'
+        is_vimline: true
     notes:
     - 'Note: Legal metrological control includes legal control of measuring instruments,
       legal metrological supervision, and legal metrological expertise.'
+    note_paragraphs:
+    - text: 'Note: Legal metrological control includes legal control of measuring
+        instruments, legal metrological supervision, and legal metrological expertise.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical
@@ -161,10 +236,25 @@ data:
     g18_entry: 02255-D016
     definition: the whole of legal metrology activities which contribute to metrological
       assurance
+    definition_paragraphs:
+    - text: the whole of legal metrology activities which contribute to metrological
+        assurance
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2000
+        ref_id: '2.1'
+        is_vimline: true
     notes:
     - 'Note:Legal metrological control includes: legal control of measuring instruments;
       metrological supervision; metrological expertise.'
+    note_paragraphs:
+    - text: 'Note:Legal metrological control includes: legal control of measuring
+        instruments; metrological supervision; metrological expertise.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical
@@ -184,10 +274,25 @@ data:
     g18_entry: '00186'
     definition: the whole of legal metrology activities which contribute to metrological
       assurance
+    definition_paragraphs:
+    - text: the whole of legal metrology activities which contribute to metrological
+        assurance
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2000
+        ref_id: '2.1'
+        is_vimline: true
     notes:
     - 'Note:Legal metrological control includes: - legal control of measuring instruments;
       -  metrological supervision; -  metrological expertise.'
+    note_paragraphs:
+    - text: 'Note:Legal metrological control includes: - legal control of measuring
+        instruments; -  metrological supervision; -  metrological expertise.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical
@@ -206,10 +311,24 @@ data:
     link: https://www.oiml.org/en/files/pdf_D/d027-e01.pdf
     g18_entry: '00164'
     definition: whole of legal metrology activities which contribute to metrological  assurance
+    definition_paragraphs:
+    - text: whole of legal metrology activities which contribute to metrological  assurance
+      sources:
+      - kind: viml
+        relationship: identical
+        modification:
+        ref_source: OIML V 1:2000
+        ref_id: '2.1'
+        is_vimline: true
     notes:
     - 'Note:Legal metrological control includes: legal control of measuring instruments,
       metrological supervision, metrological assessment.'
+    note_paragraphs:
+    - text: 'Note:Legal metrological control includes: legal control of measuring
+        instruments, metrological supervision, metrological assessment.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
       kind: viml
       relationship: identical

@@ -25,8 +25,14 @@ data:
     g18_entry: 02252-D011
     definition: instrument, device or module subjected to testing, examination or
       study and representing a population
+    definition_paragraphs:
+    - text: instrument, device or module subjected to testing, examination or study
+        and representing a population
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

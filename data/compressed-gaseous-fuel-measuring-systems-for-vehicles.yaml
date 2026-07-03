@@ -27,8 +27,14 @@ data:
     definition: measuring system intended for the refueling of motor vehicles with
       compressed gaseous fuel. Such an instrument is hereafter called a "measuring
       system".
+    definition_paragraphs:
+    - text: measuring system intended for the refueling of motor vehicles with compressed
+        gaseous fuel. Such an instrument is hereafter called a "measuring system".
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -42,9 +48,17 @@ data:
     g18_entry: '02936'
     definition: measuring system intended for the refueling of motor vehicles with
       compressed gaseous fuel
+    definition_paragraphs:
+    - text: measuring system intended for the refueling of motor vehicles with compressed
+        gaseous fuel
+      sources: []
     notes:
     - 'Note: Hereafter such a system is referred to as a “measuring system”.'
+    note_paragraphs:
+    - text: 'Note: Hereafter such a system is referred to as a “measuring system”.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

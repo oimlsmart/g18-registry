@@ -26,6 +26,10 @@ data:
     g18_entry: '02369'
     definition: gas mixture of sufficient stability and homogeneity whose composition
       is properly established for use in various performance tests
+    definition_paragraphs:
+    - text: gas mixture of sufficient stability and homogeneity whose composition
+        is properly established for use in various performance tests
+      sources: []
     notes:
     - 1. Adapted from ISO 7504, 4.1 (calibration gas mixture) and 4.1.1 (reference
       gas mixture) and "VIM", 5.13 (reference material) and 5.14 (certified reference
@@ -33,7 +37,18 @@ data:
     - 2. In the referent ISO Standards, the expression "calibration gas" is generally
       used;
     - 3. See also Annex B.
+    note_paragraphs:
+    - text: 1. Adapted from ISO 7504, 4.1 (calibration gas mixture) and 4.1.1 (reference
+        gas mixture) and "VIM", 5.13 (reference material) and 5.14 (certified reference
+        material);
+      sources: []
+    - text: 2. In the referent ISO Standards, the expression "calibration gas" is
+        generally used;
+      sources: []
+    - text: 3. See also Annex B.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -47,6 +62,10 @@ data:
     g18_entry: '02370'
     definition: gas mixture of sufficient stability and homogeneity whose composition
       is properly established for use in various performance tests
+    definition_paragraphs:
+    - text: gas mixture of sufficient stability and homogeneity whose composition
+        is properly established for use in various performance tests
+      sources: []
     notes:
     - Adapted from ISO 7504, 4.1 (calibration gas mixture) and 4.1.1 (reference gas
       mixture) and "VIM", 5.13 (reference material) and 5.14 (certified reference
@@ -54,7 +73,18 @@ data:
     - In the referent ISO Standards, the expression "calibration gas" is generally
       used.
     - See also Annex B.
+    note_paragraphs:
+    - text: Adapted from ISO 7504, 4.1 (calibration gas mixture) and 4.1.1 (reference
+        gas mixture) and "VIM", 5.13 (reference material) and 5.14 (certified reference
+        material).
+      sources: []
+    - text: In the referent ISO Standards, the expression "calibration gas" is generally
+        used.
+      sources: []
+    - text: See also Annex B.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

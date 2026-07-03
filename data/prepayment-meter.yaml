@@ -25,11 +25,23 @@ data:
     g18_entry: '02282-R046-1'
     definition: electricity meter intended to allow electrical energy to be delivered
       up to a predetermined amount
+    definition_paragraphs:
+    - text: electricity meter intended to allow electrical energy to be delivered
+        up to a predetermined amount
+      sources: []
     notes:
     - Such a meter measures energy continuously and stores and displays the measured
       energy.
     - National authorities may specify requirements in relation to prepayment meters.
+    note_paragraphs:
+    - text: Such a meter measures energy continuously and stores and displays the
+        measured energy.
+      sources: []
+    - text: National authorities may specify requirements in relation to prepayment
+        meters.
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

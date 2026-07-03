@@ -25,8 +25,14 @@ data:
     g18_entry: '03083'
     definition: part of the arched chut weigher intended to sense the force induced
       by the mass flow
+    definition_paragraphs:
+    - text: part of the arched chut weigher intended to sense the force induced by
+        the mass flow
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

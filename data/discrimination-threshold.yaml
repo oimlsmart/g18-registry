@@ -26,8 +26,14 @@ data:
     g18_entry: '01425'
     definition: the smallest change in the measured pressure that produces a perceptible
       change in the response of the pressure balance
+    definition_paragraphs:
+    - text: the smallest change in the measured pressure that produces a perceptible
+        change in the response of the pressure balance
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '01425'
     definition: the smallest change in the measured pressure that produces a perceptible
       change in the response of the pressure balance
+    definition_paragraphs:
+    - text: the smallest change in the measured pressure that produces a perceptible
+        change in the response of the pressure balance
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

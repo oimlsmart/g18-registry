@@ -25,9 +25,17 @@ data:
     g18_entry: '03770'
     definition: visual aid to magnify a target by a specified factor and to aim the
       measurement beam at the target
+    definition_paragraphs:
+    - text: visual aid to magnify a target by a specified factor and to aim the measurement
+        beam at the target
+      sources: []
     notes:
     - 'Note: It is to be used with handheld speed meters.'
+    note_paragraphs:
+    - text: 'Note: It is to be used with handheld speed meters.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

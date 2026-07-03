@@ -32,11 +32,23 @@ data:
     g18_entry: '01841'
     definition: radiant luminous flux of the radiation striking an external surface
       of the medium
+    definition_paragraphs:
+    - text: radiant luminous flux of the radiation striking an external surface of
+        the medium
+      sources: []
     notes:
     - 1. ISO 6286, Table 1, No.
     - '1.'
     - 2. The coherent SI unit is the watt (W).
+    note_paragraphs:
+    - text: 1. ISO 6286, Table 1, No.
+      sources: []
+    - text: '1.'
+      sources: []
+    - text: 2. The coherent SI unit is the watt (W).
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -50,10 +62,20 @@ data:
     g18_entry: '01841'
     definition: radiant luminous flux of the radiation striking an external surface
       of the medium
+    definition_paragraphs:
+    - text: radiant luminous flux of the radiation striking an external surface of
+        the medium
+      sources: []
     notes:
     - ISO 6286, Table 1, No. 1.
     - The coherent SI unit is the watt (W).
+    note_paragraphs:
+    - text: ISO 6286, Table 1, No. 1.
+      sources: []
+    - text: The coherent SI unit is the watt (W).
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

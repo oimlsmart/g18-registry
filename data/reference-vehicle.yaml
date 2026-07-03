@@ -27,8 +27,15 @@ data:
     definition: vehicle of known weight that is typical of those to be used for weighing
       on the instrument and which has been selected for the purposes of in-motion
       testing
+    definition_paragraphs:
+    - text: vehicle of known weight that is typical of those to be used for weighing
+        on the instrument and which has been selected for the purposes of in-motion
+        testing
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -43,8 +50,15 @@ data:
     definition: 'vehicles having a known conventional true value (T.1.9) of: - mass,
       and single-axle load of a two-axle rigid vehicle; and - mass of other vehicles
       used for in-motion tests (6.5), determined on a control instrument (T.1.8)'
+    definition_paragraphs:
+    - text: 'vehicles having a known conventional true value (T.1.9) of: - mass, and
+        single-axle load of a two-axle rigid vehicle; and - mass of other vehicles
+        used for in-motion tests (6.5), determined on a control instrument (T.1.8)'
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

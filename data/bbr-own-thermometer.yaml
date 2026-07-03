@@ -27,8 +27,16 @@ data:
       an output signal (showing the device or the interface or the transmitter transforming
       a signal of the sensor into a normal electric signal) correlated with the temperature
       of the BBR radiation
+    definition_paragraphs:
+    - text: built-in sensor connected to an internal or external device having an
+        output signal (showing the device or the interface or the transmitter transforming
+        a signal of the sensor into a normal electric signal) correlated with the
+        temperature of the BBR radiation
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

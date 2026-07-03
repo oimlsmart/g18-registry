@@ -30,10 +30,18 @@ data:
     link:
     g18_entry: '03318'
     definition: minimum speed at which the instrument will measure correctly
+    definition_paragraphs:
+    - text: minimum speed at which the instrument will measure correctly
+      sources: []
     notes:
     - 'Note: Only applicable to instruments where measurements are affected by means
       of relative movement between the object and the instrument.'
+    note_paragraphs:
+    - text: 'Note: Only applicable to instruments where measurements are affected
+        by means of relative movement between the object and the instrument.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -26,8 +26,14 @@ data:
     g18_entry: '01840'
     definition: transformation of radiant energy to a different form of energy by
       [ISO 6286, Table 1, No. 7] interaction with matter.
+    definition_paragraphs:
+    - text: transformation of radiant energy to a different form of energy by [ISO
+        6286, Table 1, No. 7] interaction with matter.
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '01840'
     definition: transformation of radiant energy to a different form of energy by
       interaction with matter [ISO 6286, Table 1, No. 7]
+    definition_paragraphs:
+    - text: transformation of radiant energy to a different form of energy by interaction
+        with matter [ISO 6286, Table 1, No. 7]
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

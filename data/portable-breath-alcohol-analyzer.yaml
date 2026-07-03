@@ -31,10 +31,19 @@ data:
     g18_entry: '03372'
     definition: evidential breath alcohol analyzer intended for use in outdoor conditions
       (e.g. handheld devices generally powered by a battery)
+    definition_paragraphs:
+    - text: evidential breath alcohol analyzer intended for use in outdoor conditions
+        (e.g. handheld devices generally powered by a battery)
+      sources: []
     notes:
     - 'Note: In the scope of this Recommendation, portable EBAs are designated as
       use-case 3.'
+    note_paragraphs:
+    - text: 'Note: In the scope of this Recommendation, portable EBAs are designated
+        as use-case 3.'
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

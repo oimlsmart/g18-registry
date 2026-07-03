@@ -26,8 +26,14 @@ data:
     g18_entry: '00690'
     definition: instrument designed to indicate to the driver, the instantaneous speed
       of his vehicle
+    definition_paragraphs:
+    - text: instrument designed to indicate to the driver, the instantaneous speed
+        of his vehicle
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '00690'
     definition: instrument designed to indicate to the driver, the instantaneous speed
       of his vehicle
+    definition_paragraphs:
+    - text: instrument designed to indicate to the driver, the instantaneous speed
+        of his vehicle
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

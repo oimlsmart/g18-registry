@@ -26,8 +26,14 @@ data:
     g18_entry: '02030'
     definition: device which allows switching from one bank to another. This device
       may be included in a measuring system or may be part of the refueling station
+    definition_paragraphs:
+    - text: device which allows switching from one bank to another. This device may
+        be included in a measuring system or may be part of the refueling station
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '03491'
     definition: device which allows switching from a bank to another one. This device
       may be included in a measuring system or may be part of the refueling station
+    definition_paragraphs:
+    - text: device which allows switching from a bank to another one. This device
+        may be included in a measuring system or may be part of the refueling station
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

@@ -25,8 +25,14 @@ data:
     g18_entry: '02537'
     definition: place specified for the operation of an instrument for weighing railway
       vehicles in motion which is in conformity with the requirements of this Recommendation
+    definition_paragraphs:
+    - text: place specified for the operation of an instrument for weighing railway
+        vehicles in motion which is in conformity with the requirements of this Recommendation
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

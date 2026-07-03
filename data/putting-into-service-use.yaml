@@ -26,8 +26,14 @@ data:
     g18_entry: '00205'
     definition: moment of the first use by the end-user of a measuring instrument
       for the purposes for which it was designed
+    definition_paragraphs:
+    - text: moment of the first use by the end-user of a measuring instrument for
+        the purposes for which it was designed
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -41,8 +47,14 @@ data:
     g18_entry: '03397'
     definition: moment of the first use by the end-user of a measuring instrument
       for the purposes for which it was designed (OIML D 9, 2.23)
+    definition_paragraphs:
+    - text: moment of the first use by the end-user of a measuring instrument for
+        the purposes for which it was designed (OIML D 9, 2.23)
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -56,8 +68,14 @@ data:
     g18_entry: 02274-D016
     definition: first use of an instrument, intended for the end user, for the purposes
       for which it was intended, the use being defined by the manufacturer
+    definition_paragraphs:
+    - text: first use of an instrument, intended for the end user, for the purposes
+        for which it was intended, the use being defined by the manufacturer
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
@@ -71,8 +89,14 @@ data:
     g18_entry: '00205'
     definition: moment of the first use by the end-user of a measuring instrument
       for the purposes for which it was designed
+    definition_paragraphs:
+    - text: moment of the first use by the end-user of a measuring instrument for
+        the purposes for which it was designed
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

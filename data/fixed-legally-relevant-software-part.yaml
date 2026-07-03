@@ -26,10 +26,20 @@ data:
     definition: part of the legally relevant software that is and remains identical
       This part is responsible for monitoring the in the executable code to that of
       the approved type so au an
+    definition_paragraphs:
+    - text: part of the legally relevant software that is and remains identical This
+        part is responsible for monitoring the in the executable code to that of the
+        approved type so au an
+      sources: []
     notes:
     - ftware update (loading software, thentication, integrity checking, installation
       d activation).
+    note_paragraphs:
+    - text: ftware update (loading software, thentication, integrity checking, installation
+        d activation).
+      sources: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

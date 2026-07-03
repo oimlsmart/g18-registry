@@ -25,8 +25,14 @@ data:
     g18_entry: '03412'
     definition: set of values specified by the manufacturer between the minimum and
       maximum operating speeds at which a vehicle may be weighed-in-motion
+    definition_paragraphs:
+    - text: set of values specified by the manufacturer between the minimum and maximum
+        operating speeds at which a vehicle may be weighed-in-motion
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

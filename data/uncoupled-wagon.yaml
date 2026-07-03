@@ -24,8 +24,13 @@ data:
     link:
     g18_entry: '02529'
     definition: single wagon not joined with other wagons
+    definition_paragraphs:
+    - text: single wagon not joined with other wagons
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''

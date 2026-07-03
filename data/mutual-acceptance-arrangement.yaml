@@ -33,8 +33,16 @@ data:
       Test Reports issued by other Participants under a particular DoMC, after having
       established mutual confidence among them through assessment of competence, and
       to assume any legal responsibility once such reports have been accepted
+    definition_paragraphs:
+    - text: framework agreement that commits Participants to accepting and utilizing
+        Test Reports issued by other Participants under a particular DoMC, after having
+        established mutual confidence among them through assessment of competence,
+        and to assume any legal responsibility once such reports have been accepted
+      sources: []
     notes: []
+    note_paragraphs: []
     examples: []
+    example_paragraphs: []
     source:
     consistency: pending
     consistency_reason: ''
