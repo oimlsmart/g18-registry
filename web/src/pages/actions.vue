@@ -4,20 +4,10 @@ import termsData from "@/data/terms.json";
 import { useSuggestedActions } from "@/composables/useSuggestedActions";
 
 const terms = termsData as any[];
-const { allActions, counts } = useSuggestedActions(terms);
+const { byTerm, counts, allActions } = useSuggestedActions(terms);
 
 const filterType = ref("");
 const search = ref("");
-
-const filtered = computed(() => {
-  let a = allActions.value;
-  if (filterType.value) a = a.filter(x => x.type === filterType.value);
-  if (search.value) {
-    const q = search.value.toLowerCase();
-    a = a.filter(x => x.name?.toLowerCase().includes(q));
-  }
-  return a;
-});
 
 const typeLabels: Record<string, string> = {
   upgrade_vim: "Upgrade VIM",
@@ -30,10 +20,31 @@ const typeLabels: Record<string, string> = {
   adopt_viml: "Adopt VIML",
 };
 
-const totalCount = computed(() => allActions.value.length);
+const priorityLabel = (rank: number) =>
+  rank === 0 ? "High" : rank === 1 ? "Medium" : rank === 2 ? "Info" : "Low";
+
+const priorityBadge = (rank: number) =>
+  rank === 0 ? "badge-ko" : rank === 1 ? "badge-partial" : "badge-pending";
+
+const filtered = computed(() => {
+  let groups = byTerm.value;
+  if (filterType.value) {
+    groups = groups
+      .map(g => ({ ...g, actions: g.actions.filter(a => a.type === filterType.value) }))
+      .filter(g => g.actions.length > 0);
+  }
+  if (search.value) {
+    const q = search.value.toLowerCase();
+    groups = groups.filter(g => g.name?.toLowerCase().includes(q));
+  }
+  return groups;
+});
+
+const totalActions = computed(() => allActions.value.length);
+const totalTerms = computed(() => byTerm.value.length);
 
 const filterButtons = computed(() => [
-  { val: "", label: `All (${totalCount.value})` },
+  { val: "", label: `All (${totalTerms.value})` },
   ...Object.entries(counts.value)
     .sort(([, a], [, b]) => b - a)
     .map(([type, count]) => ({ val: type, label: `${typeLabels[type] || type} (${count})` })),
@@ -44,7 +55,7 @@ const filterButtons = computed(() => [
   <div class="page-head">
     <div class="breadcrumb"><SLink to="/">Registry</SLink> / <span>Actions</span></div>
     <h1>Suggested actions for TC 1</h1>
-    <p class="lede">{{ totalCount }} actions across {{ terms.length }} terms, computed from citation currency, definition divergence, and vocabulary alignment.</p>
+    <p class="lede">{{ totalActions }} actions across {{ totalTerms }} terms, computed from citation currency, definition divergence, and vocabulary alignment.</p>
   </div>
 
   <section class="card">
@@ -56,27 +67,67 @@ const filterButtons = computed(() => [
       >{{ b.label }}</button>
     </form>
 
+    <p class="muted" style="margin-top:0.6em;font-size:0.85rem">
+      Showing {{ filtered.length }} terms · each row groups every action that applies to that term.
+    </p>
+
     <div class="table-scroll">
       <table>
         <thead>
           <tr>
-            <th>Action</th>
-            <th>Priority</th>
+            <th style="width:6em">Priority</th>
             <th>Term</th>
-            <th>Description</th>
-            <th>Affected pubs</th>
+            <th>Actions needed</th>
+            <th class="num">Affected pubs</th>
           </tr>
         </thead>
         <tbody>
-          <tr v-for="(a, i) in filtered" :key="i">
-            <td><span class="action-pill" :class="`action-pill-${a.priority}`">{{ typeLabels[a.type] || a.type }}</span></td>
-            <td><span class="badge" :class="`badge-${a.priority === 'high' ? 'ko' : a.priority === 'medium' ? 'partial' : 'pending'}`">{{ a.priority }}</span></td>
-            <td><SLink :to="`/terms/${a.slug}/`">{{ a.name }}</SLink></td>
-            <td>{{ a.description }}</td>
-            <td class="num">{{ (a.publication_ids || []).length }}</td>
+          <tr v-for="g in filtered" :key="g.slug">
+            <td>
+              <span class="badge" :class="priorityBadge(g.priorityRank)">{{ priorityLabel(g.priorityRank) }}</span>
+            </td>
+            <td><SLink :to="`/terms/${g.slug}/`">{{ g.name }}</SLink></td>
+            <td>
+              <ul class="action-group-list">
+                <li v-for="a in g.actions" :key="a.type">
+                  <span class="action-pill" :class="`action-pill-${a.priority}`">{{ typeLabels[a.type] || a.type }}</span>
+                  <span class="action-group-text">{{ a.description }}</span>
+                </li>
+              </ul>
+            </td>
+            <td class="num">{{ g.pubCount }}</td>
           </tr>
         </tbody>
       </table>
     </div>
   </section>
 </template>
+
+<style scoped>
+.action-group-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.45em;
+}
+.action-group-list li {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6em;
+  margin: 0;
+}
+.action-group-text {
+  font-size: 0.92em;
+  color: var(--color-ink-soft);
+  line-height: 1.45;
+}
+@media (max-width: 720px) {
+  .action-group-list li {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.2em;
+  }
+}
+</style>

@@ -22,6 +22,21 @@ export interface SuggestedAction {
   name: string;
 }
 
+export interface TermActionGroup {
+  slug: string;
+  name: string;
+  actions: SuggestedAction[];
+  priorityRank: number;
+  pubCount: number;
+}
+
+const PRIORITY_RANK: Record<string, number> = {
+  high: 0,
+  medium: 1,
+  info: 2,
+  low: 3,
+};
+
 // Normalize publication IDs so spaced ("OIML R 76-1:2006") and compact
 // ("OIML R076-1:2006") formats compare equal.
 export function normalizePubId(id: string): string {
@@ -50,6 +65,29 @@ export function useSuggestedActions(terms: any[]) {
       (map[a.type] ||= []).push(a);
     }
     return map;
+  });
+
+  // Group actions by term slug. Each group carries the highest-priority rank
+  // across its actions (so a term with both a `removed:high` and a
+  // `harmonize:low` action sorts as `high`). The publication count is the
+  // union of publication_ids across all actions in the group.
+  const byTerm: ComputedRef<TermActionGroup[]> = computed(() => {
+    const map: Record<string, TermActionGroup> = {};
+    for (const a of allActions.value) {
+      let g = map[a.slug];
+      if (!g) {
+        g = { slug: a.slug, name: a.name, actions: [], priorityRank: 9, pubCount: 0 };
+        map[a.slug] = g;
+      }
+      g.actions.push(a);
+      g.priorityRank = Math.min(g.priorityRank, PRIORITY_RANK[a.priority] ?? 9);
+      const ids = new Set(a.publication_ids || []);
+      g.pubCount += ids.size;
+    }
+    return Object.values(map).sort((a, b) => {
+      if (a.priorityRank !== b.priorityRank) return a.priorityRank - b.priorityRank;
+      return a.name.localeCompare(b.name);
+    });
   });
 
   const counts = computed(() => {
@@ -81,5 +119,5 @@ export function useSuggestedActions(terms: any[]) {
     return allActions.value.filter(a => a.slug === slug);
   }
 
-  return { allActions, byType, counts, forPublication, forTCSC, forTerm };
+  return { allActions, byType, byTerm, counts, forPublication, forTCSC, forTerm };
 }
