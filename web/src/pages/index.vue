@@ -45,6 +45,13 @@ const priorityActions = computed<Action[]>(() => {
 });
 
 const divergentCount = terms.filter(t => distinctDefs(t) > 1).length;
+
+// Always show 202X first — TC 1 edits 202X, 2010 is historic.
+const sortedEditionStats = computed(() =>
+  [...(editionStats.stats || [])].sort((a, b) =>
+    (b.edition === "202X" ? 1 : 0) - (a.edition === "202X" ? 1 : 0)
+  )
+);
 const rawConflictCount = Object.values(conflictsData.raw || {}).flat().length;
 const collisionCount = Object.values(conflictsData.designation_collisions || {}).flat().length;
 
@@ -135,7 +142,7 @@ const topDivergent = computed(() =>
       <table>
       <thead><tr><th>Edition</th><th>Concepts</th><th>Terms</th><th>Only here</th><th>Harmonise</th></tr></thead>
       <tbody>
-        <tr v-for="s in editionStats.stats" :key="s.edition">
+        <tr v-for="s in sortedEditionStats" :key="s.edition">
           <td><strong>{{ s.edition }}</strong> <span v-if="s.primary" class="match-status match-status-full">primary</span></td>
           <td class="num">{{ s.instances }}</td><td class="num">{{ s.terms }}</td>
           <td class="num">{{ s.only_in_edition }}</td><td class="num">{{ s.harmonization_candidates }}</td>
