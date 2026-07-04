@@ -10,6 +10,10 @@ const search = ref("");
 function kindLabel(k: string) { return k === "defined_in_vim" ? "VIM" : k === "defined_in_viml" ? "VIML" : "—"; }
 function distinctDefs(pubs: any[]) { return new Set(pubs.map(p => (p.definition || "").trim()).filter(Boolean)).size; }
 function slugify(s: string) { return s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, ""); }
+function tcscList(pubs: any[]): string {
+  const set = new Set(pubs.map(p => p.tc_sc).filter(Boolean));
+  return Array.from(set).sort().join(", ");
+}
 
 const rows = computed(() => {
   let list = (harmonization as any[])
@@ -31,6 +35,14 @@ const rows = computed(() => {
 });
 
 const topDivergent = computed(() => [...rows.value].sort((a, b) => b._defs - a._defs || b._pubs - a._pubs).slice(0, 20));
+
+// Terms ready to standardize: cited by ≥ 2 pubs, all definitions identical.
+const standardizeTerms = computed(() =>
+  (harmonization as any[])
+    .map(t => ({ ...t, _defs: distinctDefs(t.publications), _pubs: t.publications.length }))
+    .filter(t => t._pubs >= 2 && t._defs === 1)
+    .sort((a, b) => (a.name || "").localeCompare(b.name || ""))
+);
 
 // Designation-collision analysis (same concept cited under multiple G 18 IDs)
 const collisionEditions = Object.keys((conflictsData as any).designation_collisions || {}).sort();
@@ -139,7 +151,7 @@ function collisionSummary(ed: string) {
     <div class="table-wrap">
       <div class="table-scroll">
       <table>
-        <thead><tr><th>#</th><th>Term</th><th>VIM</th><th>Inst.</th><th>Distinct defs</th></tr></thead>
+        <thead><tr><th>#</th><th>Term</th><th>VIM</th><th>Inst.</th><th>Distinct defs</th><th>TC/SCs responsible</th></tr></thead>
         <tbody>
           <tr v-for="(t, i) in rows" :key="t.slug">
             <td class="num">{{ i + 1 }}</td>
@@ -147,6 +159,7 @@ function collisionSummary(ed: string) {
             <td><span :class="['kind', `kind-${t.kind}`]">{{ kindLabel(t.kind) }}</span></td>
             <td class="num">{{ t._pubs }}</td>
             <td class="num"><span class="divergence-count">{{ t._defs }}</span></td>
+            <td class="muted" style="font-size:0.85em">{{ tcscList(t.publications) }}</td>
           </tr>
         </tbody>
       </table>
@@ -162,5 +175,27 @@ function collisionSummary(ed: string) {
       <li>Use the <strong>designation collisions</strong> table above to understand the structural scope: many terms exist under 5–28 different G 18 IDs across OIML publications.</li>
       <li>For numbering errors (one ID → two unrelated concepts), see <SLink to="/conflicts/">ID conflicts</SLink>.</li>
     </ol>
+  </section>
+
+  <!-- Ready to standardize (TODO 6) -->
+  <section v-if="standardizeTerms.length" class="card">
+    <h2>Ready to standardize ({{ standardizeTerms.length }})</h2>
+    <p class="lede">
+      Terms cited by ≥ 2 publications where <strong>all definitions are identical</strong>.
+      No editorial work needed — TC 1 can batch-confirm these as canonical for G 18:202X.
+    </p>
+    <div class="table-scroll">
+      <table>
+        <thead><tr><th>Term</th><th>VIM</th><th>Pubs</th><th>TC/SCs</th></tr></thead>
+        <tbody>
+          <tr v-for="t in standardizeTerms" :key="t.slug">
+            <td><SLink :to="`/terms/${t.slug}/`">{{ t.name }}</SLink></td>
+            <td><span :class="['kind', `kind-${t.kind}`]">{{ kindLabel(t.kind) }}</span></td>
+            <td class="num">{{ t._pubs }}</td>
+            <td class="muted" style="font-size:0.85em">{{ tcscList(t.publications) }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
   </section>
 </template>

@@ -14,12 +14,16 @@ function slugify(s: string): string {
   <div class="page-head">
     <div class="breadcrumb"><SLink to="/">Registry</SLink> / <span>ID Conflicts</span></div>
     <h1>ID conflicts in G 18</h1>
+    <div class="admonition warn" style="margin:0.8em 0">
+      <strong>TC 1 internal use.</strong> ID conflicts are numbering errors that TC 1
+      must resolve by formally reallocating G 18 numbers in the 202X revision.
+      Other audiences do not need to act on these.
+    </div>
     <p class="lede">
-      Numbering errors in the source publication: a single G 18 identifier
-      was assigned to two semantically <em>different</em> concepts.
+      A single G 18 identifier assigned to two semantically <em>different</em> concepts.
       These are distinct from
-      <SLink to="/harmonization/">designation collisions</SLink>,
-      where the <em>same</em> concept is cited under multiple IDs.
+      <SLink to="/harmonization/">definition conflicts</SLink>,
+      where the <em>same</em> concept has divergent definitions across publications.
     </p>
   </div>
 

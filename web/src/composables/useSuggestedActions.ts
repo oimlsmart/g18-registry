@@ -22,6 +22,15 @@ export interface SuggestedAction {
   name: string;
 }
 
+// Normalize publication IDs so spaced ("OIML R 76-1:2006") and compact
+// ("OIML R076-1:2006") formats compare equal.
+export function normalizePubId(id: string): string {
+  return (id || "")
+    .replace(/OIML\s+([RDGB])\s*/i, "OIML $1")  // "OIML R 76" → "OIML R76"
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
 export function useSuggestedActions(terms: any[]) {
   const allActions: ComputedRef<SuggestedAction[]> = computed(() => {
     const out: SuggestedAction[] = [];
@@ -50,18 +59,21 @@ export function useSuggestedActions(terms: any[]) {
   });
 
   function forPublication(pubId: string): SuggestedAction[] {
-    return allActions.value.filter(a => a.publication_ids?.includes(pubId));
+    const norm = normalizePubId(pubId);
+    return allActions.value.filter(a =>
+      (a.publication_ids || []).some(id => normalizePubId(id) === norm)
+    );
   }
 
   function forTCSC(tcSc: string): SuggestedAction[] {
     const pubIds = new Set<string>();
     for (const t of terms) {
       for (const p of t.publications || []) {
-        if (p.tc_sc === tcSc) pubIds.add(p.publication_id);
+        if (p.tc_sc === tcSc) pubIds.add(normalizePubId(p.publication_id));
       }
     }
     return allActions.value.filter(a =>
-      a.publication_ids?.some((id: string) => pubIds.has(id))
+      (a.publication_ids || []).some(id => pubIds.has(normalizePubId(id)))
     );
   }
 

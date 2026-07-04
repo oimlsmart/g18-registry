@@ -1,130 +1,82 @@
 <script setup lang="ts">
 import { computed, ref } from "vue";
 import termsData from "@/data/terms.json";
+import { useSuggestedActions } from "@/composables/useSuggestedActions";
 
 const terms = termsData as any[];
-const filterPriority = ref<"" | "high" | "medium" | "info">("");
+const { allActions, counts } = useSuggestedActions(terms);
+
+const filterType = ref("");
 const search = ref("");
-
-function distinctDefs(t: any): number {
-  return new Set(t.publications.map((p: any) => (p.definition || "").trim()).filter(Boolean)).size;
-}
-
-type Action = {
-  priority: "high" | "medium" | "info";
-  term: string;
-  slug: string;
-  reason: string;
-  detail: string;
-  count: number;
-  kind: string;
-  pubs: number;
-};
-
-const allActions = computed<Action[]>(() => {
-  const actions: Action[] = [];
-  for (const t of terms) {
-    const dd = distinctDefs(t);
-    const lc = t.latest_check;
-    const oc = t.official_concept;
-
-    // HIGH: cites superseded VIM AND not in latest
-    if (lc && !lc.found) {
-      actions.push({ priority: "high", term: t.name, slug: t.slug, reason: `Cites ${oc?.edition_label}, NOT in ${lc.latest_label}`, detail: lc.latest_label, count: t.publications.length, kind: t.kind, pubs: t.publications.length });
-    }
-    // HIGH: cites superseded VIM AND IS in latest (needs comparison)
-    if (lc && lc.found && oc && lc.concept_id !== oc.id) {
-      actions.push({ priority: "high", term: t.name, slug: t.slug, reason: `In ${lc.latest_label} as #${lc.concept_id} (different from cited #${oc.id})`, detail: lc.latest_label, count: t.publications.length, kind: t.kind, pubs: t.publications.length });
-    }
-    // HIGH: 5+ divergent definitions
-    if (dd >= 5) {
-      actions.push({ priority: "high", term: t.name, slug: t.slug, reason: `${dd} distinct definitions across ${t.publications.length} publications`, detail: `${dd} defs`, count: dd, kind: t.kind, pubs: t.publications.length });
-    }
-    // MEDIUM: 3-4 divergent definitions
-    else if (dd >= 3) {
-      actions.push({ priority: "medium", term: t.name, slug: t.slug, reason: `${dd} distinct definitions`, detail: `${dd} defs`, count: dd, kind: t.kind, pubs: t.publications.length });
-    }
-    // INFO: high harmonisation value
-    if (t.publications.length >= 10 && dd < 3) {
-      actions.push({ priority: "info", term: t.name, slug: t.slug, reason: `Cited by ${t.publications.length} publications`, detail: `${t.publications.length} pubs`, count: t.publications.length, kind: t.kind, pubs: t.publications.length });
-    }
-  }
-
-  const order = { high: 0, medium: 1, info: 2 };
-  return actions.sort((a, b) => {
-    const po = (order[a.priority] ?? 9) - (order[b.priority] ?? 9);
-    if (po !== 0) return po;
-    return (b.count || 0) - (a.count || 0);
-  });
-});
 
 const filtered = computed(() => {
   let a = allActions.value;
-  if (filterPriority.value) a = a.filter(x => x.priority === filterPriority.value);
+  if (filterType.value) a = a.filter(x => x.type === filterType.value);
   if (search.value) {
     const q = search.value.toLowerCase();
-    a = a.filter(x => x.term?.toLowerCase().includes(q));
+    a = a.filter(x => x.name?.toLowerCase().includes(q));
   }
   return a;
 });
 
-const counts = computed(() => ({
-  all: allActions.value.length,
-  high: allActions.value.filter(a => a.priority === "high").length,
-  medium: allActions.value.filter(a => a.priority === "medium").length,
-  info: allActions.value.filter(a => a.priority === "info").length,
-}));
+const typeLabels: Record<string, string> = {
+  upgrade_vim: "Upgrade VIM",
+  upgrade_viml: "Upgrade VIML",
+  removed: "Removed",
+  harmonize: "Harmonize",
+  standardize: "Standardize",
+  unique: "Unique",
+  adopt_vim: "Adopt VIM",
+  adopt_viml: "Adopt VIML",
+};
 
-function kindLabel(k: string) { return k === "defined_in_vim" ? "VIM" : k === "defined_in_viml" ? "VIML" : "—"; }
+const totalCount = computed(() => allActions.value.length);
+
+const filterButtons = computed(() => [
+  { val: "", label: `All (${totalCount.value})` },
+  ...Object.entries(counts.value)
+    .sort(([, a], [, b]) => b - a)
+    .map(([type, count]) => ({ val: type, label: `${typeLabels[type] || type} (${count})` })),
+]);
 </script>
 
 <template>
   <div class="page-head">
-    <div class="breadcrumb"><SLink to="/">Registry</SLink> / <span>Priority actions</span></div>
-    <h1>Priority actions for TC 1</h1>
-    <p class="lede">{{ allActions.length }} total actions across {{ terms.length }} terms.</p>
+    <div class="breadcrumb"><SLink to="/">Registry</SLink> / <span>Actions</span></div>
+    <h1>Suggested actions for TC 1</h1>
+    <p class="lede">{{ totalCount }} actions across {{ terms.length }} terms, computed from citation currency, definition divergence, and vocabulary alignment.</p>
   </div>
 
   <section class="card">
     <form class="filter-form" @submit.prevent>
-      <input v-model="search" type="search" placeholder="Search term…" style="padding:0.3em 0.5em;min-width:14em;border:1px solid var(--rule);border-radius:3px" />
-      <button v-for="p in [
-        { val: '', label: `All (${counts.all})` },
-        { val: 'high', label: `HIGH (${counts.high})` },
-        { val: 'medium', label: `MEDIUM (${counts.medium})` },
-        { val: 'info', label: `INFO (${counts.info})` },
-      ]" :key="p.val"
-        @click.prevent="filterPriority = p.val as any"
-        :style="{
-          padding: '0.2em 0.6em', borderRadius: '3px', cursor: 'pointer', border: '1px solid var(--rule)',
-          background: filterPriority === p.val ? 'var(--accent)' : '#fff',
-          color: filterPriority === p.val ? '#fff' : 'var(--ink-soft)',
-          fontWeight: filterPriority === p.val ? '600' : '400',
-        }"
-      >{{ p.label }}</button>
+      <input v-model="search" type="search" placeholder="Search term…" />
+      <button v-for="b in filterButtons" :key="b.val"
+        :class="['sort-btn', { 'sort-btn-active': filterType === b.val }]"
+        @click.prevent="filterType = b.val"
+      >{{ b.label }}</button>
     </form>
 
     <div class="table-scroll">
       <table>
-      <thead>
-        <tr>
-          <th style="width:5em">Priority</th>
-          <th>Term</th>
-          <th>VIM</th>
-          <th>Issue</th>
-          <th>Pubs</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr v-for="(a, i) in filtered" :key="i">
-          <td><span :class="['action-pill', `action-pill-${a.priority}`]">{{ a.priority.toUpperCase() }}</span></td>
-          <td><SLink :to="`/terms/${a.slug}/`">{{ a.term }}</SLink></td>
-          <td><span :class="['kind', `kind-${a.kind}`]">{{ kindLabel(a.kind) }}</span></td>
-          <td>{{ a.reason }}</td>
-          <td class="num">{{ a.pubs }}</td>
-        </tr>
-      </tbody>
-    </table>
+        <thead>
+          <tr>
+            <th>Action</th>
+            <th>Priority</th>
+            <th>Term</th>
+            <th>Description</th>
+            <th>Affected pubs</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr v-for="(a, i) in filtered" :key="i">
+            <td><span class="action-pill" :class="`action-pill-${a.priority}`">{{ typeLabels[a.type] || a.type }}</span></td>
+            <td><span class="badge" :class="`badge-${a.priority === 'high' ? 'ko' : a.priority === 'medium' ? 'partial' : 'pending'}`">{{ a.priority }}</span></td>
+            <td><SLink :to="`/terms/${a.slug}/`">{{ a.name }}</SLink></td>
+            <td>{{ a.description }}</td>
+            <td class="num">{{ (a.publication_ids || []).length }}</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   </section>
 </template>
