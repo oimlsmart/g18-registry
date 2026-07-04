@@ -30,3 +30,4 @@ web/.vite-ssg-temp/
 # Keep the LLM consistency cache committed (no API key in CI).
 !cache/
 !cache/consistency.jsonl
+scripts/*.bak

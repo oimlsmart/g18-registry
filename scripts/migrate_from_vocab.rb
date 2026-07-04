@@ -21,15 +21,16 @@ require_relative "../lib/g18/migration_report"
 
 repo_root = File.expand_path("..", __dir__)
 default_vocab_root = File.expand_path("vocab/datasets", File.join(repo_root, ".."))
+vocab_root = ENV.fetch("VOCAB_ROOT", default_vocab_root)
 options = {
-  vocab_root: ENV.fetch("VOCAB_ROOT", default_vocab_root),
+  vocab_root: vocab_root,
   bib_path: ENV.fetch("TC_SC_PATH", File.join(repo_root, "tc-sc", "publications.yaml")),
   aliases_path: ENV.fetch("ALIASES_PATH", File.join(repo_root, "tc-sc", "term-aliases.yaml")),
   output_dir: ENV.fetch("OUTPUT_DIR", File.join(repo_root, "data")),
   report_path: ENV.fetch("REPORT_PATH", File.join(repo_root, "migration-report.md")),
   editions: [
-    { name: "202X", path: File.join(default_vocab_root, "g18-202X"), primary: true },
-    { name: "2010", path: File.join(default_vocab_root, "g18-2010"), primary: false },
+    { name: "202X", path: File.join(vocab_root, "g18-202X"), primary: true },
+    { name: "2010", path: File.join(vocab_root, "g18-2010"), primary: false },
   ],
 }
 
