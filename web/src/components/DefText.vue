@@ -1,45 +1,47 @@
 <script setup lang="ts">
-// Renders definition text that may contain VIM cross-reference markup
-// like {{3.1,measuring instrument}}. Converts each reference to a link
-// to the matching term in this registry. Falls back to plain text if
-// no matching term slug is found.
+// Renders definition/designation text that may contain:
+//   1. VIM cross-references: {{3.1,measuring instrument}} → clickable link
+//   2. Pre-rendered MathML: <math>...</math> → displayed as-is (v-html)
+//
+// MathML is pre-rendered by Plurimath (Ruby) at export time; the frontend
+// just renders it via v-html. Cross-references are converted client-side
+// because the slug depends on the frontend's slugify convention.
 import { computed } from "vue";
 
 const props = defineProps<{ text: string }>();
+const base = import.meta.env.BASE_URL;
 
-const segments = computed(() => {
-  if (!props.text) return [{ kind: "text", value: "" }];
-  const out: { kind: "text" | "xref"; value: string; slug?: string }[] = [];
-  const re = /\{\{([^,}]+),([^}]+)\}\}/g;
-  let last = 0;
-  let m: RegExpExecArray | null;
-  while ((m = re.exec(props.text)) !== null) {
-    if (m.index > last) out.push({ kind: "text", value: props.text.slice(last, m.index) });
-    const refId = m[1].trim();
-    const refText = m[2].trim();
-    const slug = refText.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
-    out.push({ kind: "xref", value: refText, slug });
-    last = m.index + m[0].length;
-  }
-  if (last < props.text.length) out.push({ kind: "text", value: props.text.slice(last) });
-  return out;
+const rendered = computed(() => {
+  if (!props.text) return "";
+  let html = props.text;
+  // Convert {{id,text}} → <a href="<base>/terms/<slug>/">text</a>
+  html = html.replace(
+    /\{\{([^,}]+),([^}]+)\}\}/g,
+    (_match: string, _id: string, text: string) => {
+      const slug = text.trim().toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
+      return `<a href="${base}terms/${slug}/" class="xref">${text.trim()}</a>`;
+    }
+  );
+  return html;
 });
 </script>
 
 <template>
-  <span class="def-text">
-    <template v-for="(seg, i) in segments" :key="i">
-      <span v-if="seg.kind === 'text'">{{ seg.value }}</span>
-      <SLink v-else :to="`/terms/${seg.slug}/`" class="xref">{{ seg.value }}</SLink>
-    </template>
-  </span>
+  <!-- eslint-disable-next-line vue/no-v-html -- pre-rendered MathML + linkified cross-refs. No user input. -->
+  <span class="def-text" v-html="rendered" />
 </template>
 
 <style scoped>
 .def-text { white-space: pre-wrap; }
-.xref {
+.def-text :deep(math) { font-size: 1.05em; }
+.def-text :deep(.xref) {
   border-bottom: 1px dotted currentColor;
   font-weight: 500;
+  color: var(--color-accent);
+  text-decoration: none;
 }
-.xref:hover { border-bottom-style: solid; }
+.def-text :deep(.xref:hover) {
+  border-bottom-style: solid;
+  text-decoration: none;
+}
 </style>

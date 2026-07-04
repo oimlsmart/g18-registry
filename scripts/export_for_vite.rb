@@ -22,6 +22,47 @@ require "json"
 require "fileutils"
 require_relative "../lib/g18/vocabulary"
 
+# Plurimath for AsciiMath → MathML pre-rendering of stem:[...] content.
+# The JS package (@plurimath/plurimath) has broken dist; the Ruby gem
+# produces identical MathML at export time.
+begin
+  require "plurimath"
+  PLURIMATH_AVAILABLE = true
+rescue LoadError
+  PLURIMATH_AVAILABLE = false
+  warn "WARNING: plurimath gem not loaded — stem:[] will render as <code>."
+end
+
+# Convert stem:[<asciimath>] → inline MathML in any text string.
+# Falls back to <code>stem:[...]</code> if Plurimath fails on an expression.
+def render_stem(text)
+  return text unless text.is_a?(String) && text.include?("stem:[")
+  text.gsub(/stem:\[([^\]]+)\]/) do
+    expr = $1
+    if PLURIMATH_AVAILABLE
+      begin
+        mathml = Plurimath::Math.parse(expr, :asciimath).to_mathml
+        # Force inline display mode (default is block).
+        mathml.sub('display="block"', 'display="inline"')
+      rescue StandardError => e
+        "<code>stem:[#{expr}]</code>"
+      end
+    else
+      "<code>stem:[#{expr}]</code>"
+    end
+  end
+end
+
+# Recursively render stem:[] in any hash/array/string structure.
+def render_stem_deep(obj)
+  case obj
+  when String then render_stem(obj)
+  when Hash   then obj.transform_values { |v| render_stem_deep(v) }
+  when Array  then obj.map { |v| render_stem_deep(v) }
+  else obj
+  end
+end
+
 repo_root = File.expand_path("..", __dir__)
 default_vocab_root = File.expand_path("vocab/datasets", File.join(repo_root, ".."))
 options = {
@@ -135,20 +176,20 @@ Dir.glob(File.join(options[:data_dir], "*.yaml")).sort.each do |path|
     "slug" => File.basename(path, ".yaml"),
     "identifier" => data["identifier"],
     "name" => data["term"],
-    "designations" => data["designations"] || [],
+    "designations" => render_stem_deep(data["designations"] || []),
     "kind" => data["kind"],
-    "official_concept" => data["official_concept"],
+    "official_concept" => render_stem_deep(data["official_concept"]),
     "editions_present" => data["editions_present"],
     "primary_edition" => data["primary_edition"],
     "latest_check" => oc_urn ? check_latest_edition(data["term"], oc_urn, latest_indices) : nil,
     "publications" => (data["publications"] || []).map do |p|
-      p.merge(
+      render_stem_deep(p).merge(
         "defined" => data["kind"] == "defined_in_vim" || data["kind"] == "defined_in_viml",
-        "official_concept" => data["official_concept"],
+        "official_concept" => render_stem_deep(data["official_concept"]),
         "primary_edition" => data["primary_edition"],
       )
     end,
-    "related" => hash["related"] || [],
+    "related" => render_stem_deep(hash["related"] || []),
   }
   terms << term
 end

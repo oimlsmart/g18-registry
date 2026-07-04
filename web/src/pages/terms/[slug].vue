@@ -376,7 +376,7 @@ const filteredPublications = computed(() => {
         <template v-for="(sym, i) in symbolDesignations" :key="'sym-'+i">
           <div class="designations-row">
             <dt>Symbol<span v-if="sym.international" class="intl-pill" title="Internationally recognised">intl</span></dt>
-            <dd><MathSymbol :text="sym.text" /></dd>
+            <dd><DefText :text="sym.text" /></dd>
           </div>
         </template>
         <div v-if="abbreviations.length" class="designations-row" v-for="abbr in abbreviations" :key="'abbr-'+abbr">

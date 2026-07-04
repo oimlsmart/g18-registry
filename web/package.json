@@ -19,7 +19,7 @@
     "vue": "^3.5.39"
   },
   "dependencies": {
-    "temml": "^0.13.3",
+    "@plurimath/plurimath": "github:plurimath/plurimath-js",
     "vue-router": "^5.1.0",
     "yaml": "^2.9.0"
   }

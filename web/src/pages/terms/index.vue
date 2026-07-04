@@ -107,7 +107,7 @@ const pageTitle = computed(() => {
             <span v-for="ad in admittedOf(t)" :key="ad" class="alt-term">{{ ad }}</span>
           </td>
           <td class="sym-cell">
-            <MathSymbol v-for="s in symbolsOf(t)" :key="s" :text="s" />
+            <DefText v-for="s in symbolsOf(t)" :key="s" :text="s" />
           </td>
           <td><span :class="['kind', `kind-${t.kind}`]">{{ kindLabel(t.kind) }}</span></td>
           <td><span v-for="e in t.editions_present" :key="e" :class="['edition-pill', `edition-${e.toLowerCase()}`]">{{ e }}</span></td>
