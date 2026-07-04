@@ -60,56 +60,60 @@
 }
 
 /* ── Base element styles ────────────────────────────────────────────────
-   Tailwind preflight handles most resets; we add OIML-specific defaults. */
-
-html, body {
-  max-width: 100%;
-  overflow-x: hidden;
+   Wrapped in @layer base so Tailwind utilities (h-6, text-accent, etc.)
+   can override these. Unlayered CSS would have higher cascade priority
+   than @layer utilities, which was silently breaking utility overrides
+   on body/a/img/h1 etc. */
+@layer base {
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  body {
+    font-family: var(--font-base);
+    background: var(--color-paper);
+    color: var(--color-ink);
+    line-height: 1.6;
+    font-size: 15px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+  }
+  a {
+    color: var(--color-accent);
+    text-decoration: none;
+    overflow-wrap: anywhere;
+  }
+  a:hover { color: var(--color-accent-hover); text-decoration: underline; }
+  code {
+    font-family: var(--font-mono);
+    background: var(--color-rule-soft);
+    padding: 0.1em 0.4em;
+    border-radius: 3px;
+    font-size: 0.88em;
+    overflow-wrap: anywhere;
+    color: var(--color-ink);
+  }
+  pre {
+    font-family: var(--font-mono);
+    background: #f3f5f7;
+    padding: 0.7em 1em;
+    border-radius: 4px;
+    overflow-x: auto;
+    font-size: 0.88em;
+  }
+  img, svg, video { max-width: 100%; height: auto; }
+  h1, h2, h3, h4 { color: var(--color-ink); line-height: 1.3; }
+  h1 { font-size: 1.875rem; font-weight: 700; letter-spacing: -0.01em; }
+  h2 { font-size: 1.25rem; font-weight: 600; }
+  h3 { font-size: 1.0625rem; font-weight: 600; }
+  h4 { font-size: 1rem; font-weight: 600; }
+  p  { margin: 0.5em 0; }
+  ul, ol { margin: 0.5em 0; padding-left: 1.4em; }
+  li { margin: 0.2em 0; }
+  hr { border: 0; border-top: 1px solid var(--color-rule); margin: 1.5em 0; }
 }
-body {
-  font-family: var(--font-base);
-  background: var(--color-paper);
-  color: var(--color-ink);
-  line-height: 1.6;
-  font-size: 15px;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-  text-rendering: optimizeLegibility;
-}
-a {
-  color: var(--color-accent);
-  text-decoration: none;
-  overflow-wrap: anywhere;
-}
-a:hover { color: var(--color-accent-hover); text-decoration: underline; }
-code {
-  font-family: var(--font-mono);
-  background: var(--color-rule-soft);
-  padding: 0.1em 0.4em;
-  border-radius: 3px;
-  font-size: 0.88em;
-  overflow-wrap: anywhere;
-  color: var(--color-ink);
-}
-pre {
-  font-family: var(--font-mono);
-  background: #f3f5f7;
-  padding: 0.7em 1em;
-  border-radius: 4px;
-  overflow-x: auto;
-  font-size: 0.88em;
-}
-img, svg, video { max-width: 100%; height: auto; }
-h1, h2, h3, h4 { color: var(--color-ink); line-height: 1.3; }
-h1 { font-size: 1.875rem; font-weight: 700; letter-spacing: -0.01em; }
-h2 { font-size: 1.25rem; font-weight: 600; }
-h3 { font-size: 1.0625rem; font-weight: 600; }
-h4 { font-size: 1rem; font-weight: 600; }
-p  { margin: 0.5em 0; }
-ul, ol { margin: 0.5em 0; padding-left: 1.4em; }
-li { margin: 0.2em 0; }
-hr { border: 0; border-top: 1px solid var(--color-rule); margin: 1.5em 0; }
 
 /* ── Backwards-compat aliases ──────────────────────────────────────────
    Tailwind v4's @theme names tokens `--color-X`, but existing scoped
