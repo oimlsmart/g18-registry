@@ -31,3 +31,4 @@ web/.vite-ssg-temp/
 !cache/
 !cache/consistency.jsonl
 scripts/*.bak
+*.bak

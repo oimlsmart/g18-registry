@@ -288,23 +288,86 @@ module G18
       # on parse (similar to the locality bug), so fall back to the raw
       # YAML for those.
       def adoption_info(concept, raw: nil)
-        candidate_sources = managed_sources(concept)
-        candidate_sources += localized_sources_raw(raw) if raw
-
-        adopt = candidate_sources.find do |s|
-          src = source_origin_source(s)
-          src && (src.to_s.match?(/\AVIM|OIML V [12]/) || urn?(src))
+        lin = source_lineage(concept, raw: raw)
+        # Backwards-compat: return the first VIM/VIML adoption source found
+        # across the three tiers, for code that still expects a flat shape.
+        all = lin["concept_sources"] + lin["localized_sources"] +
+              lin["paragraph_sources"].flat_map { |p| p["sources"] }
+        adopt = all.find do |s|
+          s["is_vimline"]
         end
-
         return nil unless adopt
+        adopt
+      end
+
+      # Three-tier source lineage — the core lineage primitive for TC1.
+      # Vocab v3 distinguishes:
+      #   1. Concept-level sources     (where the G18 concept was published)
+      #   2. Localized-level sources   (where the English text comes from)
+      #   3. Definition-paragraph sources (per-paragraph provenance)
+      #
+      # Each tier can independently cite VIM/VIML/OIML with identical/modified
+      # status. The hierarchy answers "where did THIS wording come from?" at
+      # any granularity. A paragraph modified from VIM 4.11 lives inside a
+      # concept published in OIML R 76-1 — both facts matter.
+      def source_lineage(concept, raw: nil)
+        loc_doc = raw_loc_doc(raw)
+
+        concept_srcs    = source_summaries(managed_sources(concept))
+        localized_srcs  = source_summaries(localized_level_sources_raw(loc_doc))
+        para_srcs       = raw_paragraphs_with_sources(loc_doc)
+        note_srcs       = raw_paragraphs_with_sources(loc_doc, "notes")
+        example_srcs    = raw_paragraphs_with_sources(loc_doc, "examples")
+        annotations     = raw_annotations(loc_doc) + raw_annotations(raw_managed_doc(raw))
+
         {
-          "kind"          => adoption_kind(source_origin_source(adopt)),
-          "relationship"  => adoption_relationship(adopt),
-          "modification"  => source_modification(adopt),
-          "ref_source"    => source_origin_source(adopt),
-          "ref_id"        => source_origin_id(adopt),
-          "is_vimline"    => vimline_source?(source_origin_source(adopt)),
+          "concept_sources"    => concept_srcs,
+          "localized_sources"  => localized_srcs,
+          "paragraph_sources"  => para_srcs,
+          "note_sources"       => note_srcs,
+          "example_sources"    => example_srcs,
+          "annotations"        => annotations,
         }
+      end
+
+      def raw_loc_doc(raw)
+        return nil unless raw.is_a?(Array)
+        raw.find { |d| d.is_a?(Hash) && d.dig("data", "definition") }
+      end
+
+      def raw_managed_doc(raw)
+        return nil unless raw.is_a?(Array)
+        raw.find { |d| d.is_a?(Hash) && d.dig("data", "localized_concepts") }
+      end
+
+      # Localized-level sources only (data.sources on the localized concept).
+      # Does NOT include per-paragraph sources.
+      def localized_level_sources_raw(loc_doc)
+        return [] unless loc_doc
+        Array(loc_doc.dig("data", "sources"))
+      end
+
+      def raw_paragraphs_with_sources(loc_doc, field = "definition")
+        return [] unless loc_doc
+        items = Array(loc_doc.dig("data", field))
+        items.map do |item|
+          next nil unless item.is_a?(Hash)
+          text = item["content"]
+          next nil if text.nil? || text.to_s.strip.empty?
+          { "text" => text, "sources" => source_summaries(item["sources"] || []) }
+        end.compact
+      end
+
+      def raw_annotations(doc)
+        return [] unless doc
+        anns = doc.dig("data", "annotations")
+        return [] unless anns.is_a?(Array)
+        anns.map do |a|
+          next nil unless a.is_a?(Hash)
+          text = a["content"] || a["text"]
+          next nil unless text
+          { "text" => text, "type" => a["type"] || "note" }
+        end.compact
       end
 
       def managed_sources(concept)

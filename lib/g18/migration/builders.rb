@@ -41,6 +41,7 @@ module G18
         bib_e  = bib[src_id]
         edges  = Loaders.see_edges(concept)
         adoption = Loaders.adoption_info(concept, raw: raw)
+        lineage  = Loaders.source_lineage(concept, raw: raw)
         pub = {
           "edition"            => entry[:edition],
           "publication"        => (bib_e && bib_e["reference"]) || src_id,
@@ -57,6 +58,7 @@ module G18
           "examples"           => Loaders.examples_text(concept),
           "example_paragraphs" => Loaders.example_paragraphs(concept, raw: raw),
           "source"             => adoption,
+          "source_lineage"     => lineage,
           "consistency"        => "pending",
           "consistency_reason" => "",
         }

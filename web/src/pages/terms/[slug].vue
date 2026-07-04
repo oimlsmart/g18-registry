@@ -237,15 +237,44 @@ const authoritativeText = computed(() => {
   return oc?.definition_text ? (oc.definition_text as string).trim() : "";
 });
 
+// Normalize VIM cross-reference markup ({{id,text}} → text) so VIM 2007
+// (plain) and VIM 2012 (with refs) definitions compare as identical.
+function normalizeDef(s: string): string {
+  return (s || "").replace(/\{\{[^,}]+,([^}]+)\}\}/g, "$1").trim();
+}
+
 // Per-publication match status vs authoritative: matches / modified / differs / no-baseline.
 function pubMatchStatus(p: any): { key: string; label: string } {
   if (!authoritativeText.value) return { key: "nobaseline", label: "no baseline" };
-  const def = (p.definition || "").trim();
+  const def = normalizeDef(p.definition || "");
   if (!def) return { key: "empty", label: "—" };
-  if (def === authoritativeText.value) return { key: "match", label: "matches VIM" };
+  if (def === normalizeDef(authoritativeText.value)) return { key: "match", label: "matches VIM" };
   if (p.source?.relationship === "modified") return { key: "modified", label: "modified" };
   return { key: "differs", label: "differs" };
 }
+
+// All annotations across all publication instances (deduped).
+const allAnnotations = computed(() => {
+  const seen = new Set<string>();
+  const out: { text: string; type: string }[] = [];
+  for (const p of term.value?.publications || []) {
+    for (const ann of (p as any).source_lineage?.annotations || []) {
+      const text = (ann.text || "").trim();
+      if (!text || seen.has(text)) continue;
+      seen.add(text);
+      out.push({ text, type: ann.type || "note" });
+    }
+  }
+  return out;
+});
+
+// Check if any publication has multi-source paragraphs (where one
+// paragraph cites 2+ sources — complex lineage).
+const hasMultiSourceParagraphs = computed(() =>
+  (term.value?.publications || []).some((p: any) =>
+    (p.source_lineage?.paragraph_sources || []).some((ps: any) => (ps.sources || []).length > 1)
+  )
+);
 
 // TC/SC filter for the publication instances table.
 const allTCs = computed(() => {
@@ -284,7 +313,7 @@ const filteredPublications = computed(() => {
         </span>
         · concept <strong>#{{ term.official_concept.id }}</strong>
         <a v-if="term.official_concept.url" class="external" :href="term.official_concept.url">view ↗</a>
-        <p v-if="term.official_concept.definition_text" class="authority-defn-body">{{ term.official_concept.definition_text }}</p>
+        <p v-if="term.official_concept.definition_text" class="authority-defn-body"><DefText :text="term.official_concept.definition_text" /></p>
       </div>
       <div v-if="isSuperseded(term.official_concept.source)" class="admonition warn">
         <strong>Outdated:</strong> Cites {{ label(term.official_concept.source) }}. Latest: {{ latestLabel(term.official_concept.source) }}.
@@ -296,6 +325,18 @@ const filteredPublications = computed(() => {
           <div v-if="edge.ref?.definition_text" class="authority-defn-body" style="font-size:0.92em">{{ edge.ref.definition_text }}</div>
         </li>
       </ul>
+    </section>
+
+    <section v-if="allAnnotations.length" class="card admonition warn">
+      <h2 style="margin-top:0">Annotations</h2>
+      <ul style="margin:0;padding-left:1.2em">
+        <li v-for="(ann, i) in allAnnotations" :key="i" style="margin-bottom:0.4em">{{ ann.text }}</li>
+      </ul>
+    </section>
+
+    <section v-if="hasMultiSourceParagraphs" class="card admonition warn">
+      <h2 style="margin-top:0">Multi-source paragraphs detected</h2>
+      <p style="margin:0">Some definition paragraphs cite <strong>multiple sources</strong> (e.g. adapted from VIM with additions from VIML). Review the Source column in Publication instances below for the full citation chain.</p>
     </section>
 
     <section v-if="crossEditionDrift" class="card admonition warn" style="background:#fffbeb">

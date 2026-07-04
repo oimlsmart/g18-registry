@@ -56,7 +56,11 @@ def load_latest_designation_index(vocab_root, dataset_dir)
   concepts_dir = File.join(vocab_root, dataset_dir, "concepts")
   return idx unless Dir.exist?(concepts_dir)
   Dir.glob(File.join(concepts_dir, "*.yaml")).each do |path|
-    docs = YAML.safe_load_stream(File.read(path), aliases: true)
+    docs = begin
+      YAML.safe_load_stream(File.read(path), aliases: true)
+    rescue Psych::SyntaxError
+      next
+    end
     loc = docs.find { |d| d && d.is_a?(Hash) && d.dig("data", "definition") }
     next unless loc
     terms = loc.dig("data", "terms") || []

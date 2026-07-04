@@ -30,7 +30,12 @@ module G18
         return nil unless dataset && concept_id && vocab_dir
         path = File.join(vocab_dir, dataset, "concepts", "#{concept_id}.yaml")
         return nil unless File.exist?(path)
-        docs = YAML.safe_load_stream(File.read(path), filename: path, aliases: true)
+        docs = begin
+          YAML.safe_load_stream(File.read(path), filename: path, aliases: true)
+        rescue Psych::SyntaxError
+          nil
+        end
+        return nil unless docs
         loc = docs.find { |d| d && d.is_a?(Hash) && d.dig("data", "definition") }
         return nil unless loc
         defs = loc.dig("data", "definition") || []

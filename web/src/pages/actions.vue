@@ -112,7 +112,6 @@ function kindLabel(k: string) { return k === "defined_in_vim" ? "VIM" : k === "d
           <th>VIM</th>
           <th>Issue</th>
           <th>Pubs</th>
-          <th></th>
         </tr>
       </thead>
       <tbody>
@@ -122,7 +121,6 @@ function kindLabel(k: string) { return k === "defined_in_vim" ? "VIM" : k === "d
           <td><span :class="['kind', `kind-${a.kind}`]">{{ kindLabel(a.kind) }}</span></td>
           <td>{{ a.reason }}</td>
           <td class="num">{{ a.pubs }}</td>
-          <td><SLink :to="`/terms/${a.slug}/`">Open →</SLink></td>
         </tr>
       </tbody>
     </table>
