@@ -48,13 +48,16 @@ onMounted(() => {
 </script>
 
 <template>
-  <header class="sticky top-0 z-30 bg-white/95 backdrop-blur-sm border-b border-rule">
-    <div class="mx-auto max-w-[1080px] flex items-center justify-between gap-4 px-6 max-sm:px-4 h-14">
-      <a class="flex items-center gap-2.5 no-underline text-ink hover:no-underline" :href="base" @click="closeMenu">
-        <img :src="logoSrc" alt="OIML" class="block h-6 w-auto shrink-0" width="24" height="21" />
+  <header class="sticky top-0 z-30 bg-paper-soft/95 backdrop-blur-sm border-b border-rule">
+    <div class="mx-auto max-w-[1080px] flex items-center justify-between gap-4 px-6 max-sm:px-4 h-16">
+      <a class="flex items-center gap-3 no-underline text-ink hover:no-underline group" :href="base" @click="closeMenu">
+        <img :src="logoSrc" alt="OIML" class="block h-7 w-auto shrink-0 transition-transform group-hover:scale-[1.03]" width="28" height="24" />
         <span class="flex flex-col leading-none">
-          <span class="text-[15px] font-semibold tracking-tight text-accent">G 18 Registry</span>
-          <span class="text-[11px] text-ink-muted mt-0.5 max-sm:hidden">OIML Term-Usage Registry</span>
+          <span class="flex items-baseline gap-1.5">
+            <span style="font-family: var(--font-display); font-weight: 500; font-size: 1.25rem; letter-spacing: -0.02em; color: var(--color-ink); font-variation-settings: 'opsz' 60, 'SOFT' var(--display-soft, 30), 'WONK' var(--display-wonk, 0);">G&nbsp;18</span>
+            <span class="text-[13px] tracking-tight text-ink-soft">Registry</span>
+          </span>
+          <span class="text-[10.5px] text-ink-muted mt-1 max-sm:hidden uppercase tracking-[0.12em] font-semibold">OIML Term-Usage</span>
         </span>
       </a>
 
@@ -72,11 +75,11 @@ onMounted(() => {
               :style="menuOpen ? 'transform: translateY(-4.5px) rotate(-45deg)' : ''" />
       </button>
 
-      <nav class="hidden md:flex items-center gap-3 text-[14px]" aria-label="Primary">
+      <nav class="hidden md:flex items-center gap-2 text-[13.5px]" aria-label="Primary">
         <template v-for="(group, gi) in navGroups" :key="gi">
-          <span v-if="gi > 0" class="h-5 w-px bg-rule" aria-hidden="true" />
+          <span v-if="gi > 0" class="h-4 w-px bg-rule mx-1" aria-hidden="true" />
           <a v-for="n in group.items" :key="n.href"
-             class="px-2 py-1.5 rounded text-ink-soft hover:text-accent hover:bg-oiml-brand-50 transition-colors no-underline"
+             class="px-2.5 py-1.5 rounded text-ink-soft hover:text-accent hover:bg-accent-tint transition-colors no-underline font-medium"
              :href="base + n.href"
              @click="closeMenu">{{ n.label }}</a>
         </template>
@@ -85,26 +88,26 @@ onMounted(() => {
 
     <!-- Mobile dropdown -->
     <nav v-if="menuOpen"
-         class="md:hidden absolute left-0 right-0 top-full bg-white border-b border-rule shadow-lg px-4 py-2 z-40 max-h-[calc(100vh-56px)] overflow-y-auto"
+         class="md:hidden absolute left-0 right-0 top-full bg-paper-soft border-b border-rule shadow-lg px-4 py-3 z-40 max-h-[calc(100vh-64px)] overflow-y-auto"
          aria-label="Primary mobile">
       <template v-for="(group, gi) in navGroups" :key="gi">
-        <div v-if="gi > 0" class="h-px bg-rule-soft my-1.5 mx-2" />
+        <div v-if="gi > 0" class="h-px bg-rule-soft my-2 mx-1" />
         <a v-for="n in group.items" :key="n.href"
-           class="block px-3 py-2.5 text-[15px] text-ink rounded hover:bg-oiml-brand-50 hover:text-accent hover:no-underline"
+           class="block px-3 py-2.5 text-[15px] text-ink rounded hover:bg-accent-tint hover:text-accent hover:no-underline font-medium"
            :href="base + n.href"
            @click="closeMenu">{{ n.label }}</a>
       </template>
     </nav>
   </header>
 
-  <main class="mx-auto max-w-[1080px] px-6 max-sm:px-4 py-8 max-sm:py-5 min-h-[70vh]">
+  <main class="mx-auto max-w-[1080px] px-6 max-sm:px-4 py-10 max-sm:py-6 min-h-[70vh]">
     <RouterView />
   </main>
 
-  <footer class="bg-oiml-brand-900 text-oiml-brand-200 mt-16 py-8 text-[13px]">
+  <footer class="bg-oiml-brand-900 text-oiml-brand-200 mt-20 py-10 text-[13px]">
     <div class="mx-auto max-w-[1080px] px-6 max-sm:px-4 grid grid-cols-1 md:grid-cols-[1fr_auto] gap-6 items-end">
-      <div class="space-y-1">
-        <div class="text-white font-semibold">G 18 — OIML Term-Usage Registry</div>
+      <div class="space-y-1.5">
+        <div class="text-white" style="font-family: var(--font-display); font-weight: 500; font-size: 1.05rem; letter-spacing: -0.015em;">G 18 — OIML Term-Usage Registry</div>
         <div>
           Source: <a class="text-oiml-brand-300 hover:text-white underline" href="https://github.com/oimlsmart/vocab/tree/main/datasets/g18-2010">oimlsmart/vocab</a>
           · VIM/VIML: <a class="text-oiml-brand-300 hover:text-white underline" href="https://oimlsmart.github.io/vocab/">oimlsmart.github.io/vocab</a>

@@ -70,13 +70,13 @@ const topDivergent = computed(() =>
 </script>
 
 <template>
-  <div class="page-head">
+  <div class="page-head reveal">
     <h1>G 18 — OIML Term-Usage Registry</h1>
     <p class="lede">Dashboard for <strong>TC 1 / Vocabularies</strong> validating <a href="https://github.com/oimlsmart/vocab/tree/main/datasets/g18-202X">OIML G 18:202X</a>.</p>
   </div>
 
   <!-- Getting started guide for TC 1 -->
-  <section class="card" style="background: var(--oiml-cream-soft); border-color: var(--oiml-brand-200);">
+  <section class="card reveal reveal-1" style="background: var(--oiml-cream-soft); border-color: var(--oiml-brand-200);">
     <h2 style="color: var(--oiml-brand-700);">How to use this registry</h2>
     <ol style="margin: 0; padding-left: 1.4em; line-height: 1.7;">
       <li><strong>Review priority actions below</strong> — terms needing immediate attention (outdated VIM refs, divergent definitions).</li>
@@ -88,14 +88,14 @@ const topDivergent = computed(() =>
     </ol>
   </section>
 
-  <section class="grid grid-4">
+  <section class="grid grid-4 reveal reveal-2">
     <SLink class="stat-card" to="/terms/"><div class="stat-value">{{ terms.length }}</div><div class="stat-label">unique terms</div></SLink>
     <SLink class="stat-card" to="/harmonization/"><div class="stat-value">{{ divergentCount }}</div><div class="stat-label">divergent terms</div></SLink>
     <SLink class="stat-card" to="/harmonization/"><div class="stat-value">{{ collisionCount }}</div><div class="stat-label">designation collisions</div></SLink>
     <SLink class="stat-card" to="/conflicts/"><div class="stat-value">{{ rawConflictCount }}</div><div class="stat-label">ID conflicts</div></SLink>
   </section>
 
-  <section class="card">
+  <section class="card reveal reveal-3">
     <h2>Priority actions for TC 1</h2>
     <p class="lede">Top 15 items needing attention, sorted by urgency.</p>
     <div class="table-scroll">
@@ -114,7 +114,7 @@ const topDivergent = computed(() =>
     </div>
   </section>
 
-  <section class="card">
+  <section class="card reveal reveal-4">
     <div class="card-head">
       <h2>Most divergent terms</h2>
       <SLink to="/harmonization/" class="muted">Full worklist →</SLink>
