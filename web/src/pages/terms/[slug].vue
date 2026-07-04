@@ -26,7 +26,7 @@ function kindLabel(k: string) { return k === "defined_in_vim" ? "VIM" : k === "d
 
 const distinctDefs = computed(() => {
   if (!term.value) return [];
-  return Array.from(new Set(term.value.publications.map((p: any) => (p.definition || "").trim()).filter(Boolean)));
+  return Array.from(new Set(term.value.publications.map((p: any) => normalizeDef(p.definition || "")).filter(Boolean)));
 });
 
 const consistencyCounts = computed(() => {
@@ -82,7 +82,7 @@ const definitionGroups = computed<DefGroup[]>(() => {
   const groups = new Map<string, any[]>();
   for (const p of term.value.publications) {
     if (!enabledEditions.value.has(p.edition)) continue;
-    const defn = (p.definition || "").trim().replace(/\s+/g, " ");
+    const defn = normalizeDef(p.definition || "").replace(/\s+/g, " ");
     const key = defn || "(no definition recorded)";
     if (!groups.has(key)) groups.set(key, []);
     groups.get(key)!.push(p);
@@ -212,8 +212,8 @@ const crossEditionDrift = computed(() => {
   if (!(editions.has("2010") && editions.has("202X"))) return null;
   const e2010 = pubs.filter(p => p.edition === "2010");
   const e202X = pubs.filter(p => p.edition === "202X");
-  const d2010 = new Set(e2010.map(p => (p.definition || "").trim()).filter(Boolean));
-  const d202X = new Set(e202X.map(p => (p.definition || "").trim()).filter(Boolean));
+  const d2010 = new Set(e2010.map(p => normalizeDef(p.definition || "")).filter(Boolean));
+  const d202X = new Set(e202X.map(p => normalizeDef(p.definition || "")).filter(Boolean));
   // Identical if every 2010 def appears in 202X and vice versa.
   const same = d2010.size === d202X.size && [...d2010].every(d => d202X.has(d));
   if (same) return null;
@@ -322,7 +322,7 @@ const filteredPublications = computed(() => {
         <li v-for="(edge, i) in term.related" :key="i" style="margin-bottom:0.3em">
           <span :class="confidenceClass(edge.ref?.source)">{{ edge.ref?.edition_label || edge.ref?.source }}</span>
           · #{{ edge.ref?.id }}
-          <div v-if="edge.ref?.definition_text" class="authority-defn-body" style="font-size:0.92em">{{ edge.ref.definition_text }}</div>
+          <div v-if="edge.ref?.definition_text" class="authority-defn-body" style="font-size:0.92em"><DefText :text="edge.ref.definition_text" /></div>
         </li>
       </ul>
     </section>
@@ -346,6 +346,7 @@ const filteredPublications = computed(() => {
         <span v-if="crossEditionDrift.srcChanged"> and cite <strong>different sources</strong></span>.
         TC 1 must decide: is this an intentional update, or should 202X be re-aligned with 2010?
       </p>
+      <div class="table-scroll">
       <table style="margin-top:0.5em;font-size:0.9em">
         <thead><tr><th>Edition</th><th>Source</th><th>Relationship</th></tr></thead>
         <tbody>
@@ -353,6 +354,7 @@ const filteredPublications = computed(() => {
           <tr><td>202X</td><td>{{ crossEditionDrift.src202X || '—' }}</td><td>{{ crossEditionDrift.rel202X || '—' }}</td></tr>
         </tbody>
       </table>
+    </div>
     </section>
 
     <section class="card" v-if="designations.length">
@@ -392,6 +394,7 @@ const filteredPublications = computed(() => {
     <section class="card" v-if="provenanceGroups.length">
       <h2>Provenance analysis</h2>
       <p class="lede">Where this term's definitions come from. Identical adoptions from the same source can be auto-merged; modified adoptions need TC1 review.</p>
+      <div class="table-scroll">
       <table>
         <thead><tr><th>Source</th><th>Relationship</th><th>Publications</th><th>Where</th></tr></thead>
         <tbody>
@@ -409,6 +412,7 @@ const filteredPublications = computed(() => {
           </tr>
         </tbody>
       </table>
+    </div>
       <details v-if="modifications.length" style="margin-top:0.7em">
         <summary>Modification notes ({{ modifications.length }})</summary>
         <ul style="margin:0.5em 0 0;padding-left:1.2em;font-size:0.9em">
@@ -468,8 +472,9 @@ const filteredPublications = computed(() => {
             <span class="def-group-badge">{{ g.count }} identical</span>
             <span v-for="ed in g.editions" :key="ed" :class="['edition-pill', `edition-${ed.toLowerCase()}`]">{{ ed }}</span>
           </div>
-          <div class="def-group-text">{{ g.definition }}</div>
-          <table class="def-group-pubs">
+          <div class="def-group-text"><DefText :text="g.definition" /></div>
+          <div class="table-scroll">
+      <table class="def-group-pubs">
             <thead><tr><th>Ed.</th><th>Year</th><th>Publication</th><th>Clause</th><th>G 18 #</th><th>Consistency</th></tr></thead>
             <tbody>
               <tr v-for="p in g.publications" :key="p.g18_entry">
@@ -482,12 +487,14 @@ const filteredPublications = computed(() => {
               </tr>
             </tbody>
           </table>
+    </div>
         </div>
 
         <!-- Unique definitions (count === 1) -->
         <div v-if="uniqueGroups.length" class="def-group-unique-section">
           <h3>{{ uniqueGroups.length }} unique definition{{ uniqueGroups.length === 1 ? '' : 's' }} (each used by only one publication)</h3>
-          <table>
+          <div class="table-scroll">
+      <table>
             <thead><tr><th>Ed.</th><th>Year</th><th>Publication</th><th>Clause</th><th>G 18 #</th><th>Definition</th><th></th></tr></thead>
             <tbody>
               <tr v-for="g in uniqueGroups" :key="g.publications[0].g18_entry" class="row-divergent">
@@ -496,17 +503,19 @@ const filteredPublications = computed(() => {
                 <td><SLink :to="`/publications/${g.publications[0].publication_id}/`">{{ g.publications[0].publication }}</SLink></td>
                 <td class="num">{{ g.publications[0].clause }}</td>
                 <td class="num">{{ g.publications[0].g18_entry }}</td>
-                <td style="max-width:400px"><div style="white-space:pre-wrap;font-size:0.9em">{{ g.definition }}</div></td>
+                <td style="max-width:400px"><div style="white-space:pre-wrap;font-size:0.9em"><DefText :text="g.definition" /></div></td>
                 <td><span :class="['badge', `badge-${g.publications[0].consistency || 'pending'}`]">{{ g.publications[0].consistency || "pending" }}</span></td>
               </tr>
             </tbody>
           </table>
+    </div>
         </div>
       </template>
 
       <!-- Flat mode: original table -->
       <template v-else>
-        <table>
+        <div class="table-scroll">
+      <table>
           <thead><tr><th>Ed.</th><th>Year</th><th>Publication</th><th>Clause</th><th>G 18 #</th><th>Definition</th><th>Match</th><th>Notes</th><th>Source</th><th>Consistency</th></tr></thead>
           <tbody>
             <tr v-for="p in filteredPublications" :key="p.g18_entry" v-show="rowVisible(p)" :class="{ 'row-divergent': distinctDefs.length > 1 && p.definition?.trim() !== distinctDefs[0], 'row-modified': p.source?.relationship === 'modified', 'row-differs': pubMatchStatus(p).key === 'differs' }">
@@ -517,7 +526,7 @@ const filteredPublications = computed(() => {
               <td class="num"><code>{{ p.g18_entry }}</code></td>
               <td style="max-width:540px">
                 <div v-for="(para, pi) in (p.definition_paragraphs && p.definition_paragraphs.length ? p.definition_paragraphs : [{text: p.definition, sources: []}])" :key="pi" class="def-para">
-                  <div style="white-space:pre-wrap">{{ para.text }}</div>
+                  <div style="white-space:pre-wrap"><DefText :text="para.text" /></div>
                   <div v-if="para.sources && para.sources.length" class="para-sources">
                     <span v-for="(s, si) in para.sources" :key="si" :class="['rel-pill', `rel-${s.relationship}`]">
                       {{ s.ref_source }}{{ s.ref_id ? ' §' + s.ref_id : '' }} ({{ s.relationship }})
@@ -541,6 +550,7 @@ const filteredPublications = computed(() => {
             </tr>
           </tbody>
         </table>
+    </div>
       </template>
     </section>
   </template>

@@ -86,7 +86,8 @@ const pageTitle = computed(() => {
       </select>
       <span class="muted">{{ filtered.length }} shown</span>
     </form>
-    <table>
+    <div class="table-scroll">
+      <table>
       <thead>
         <tr>
           <th>Term</th>
@@ -116,5 +117,6 @@ const pageTitle = computed(() => {
         </tr>
       </tbody>
     </table>
+    </div>
   </section>
 </template>

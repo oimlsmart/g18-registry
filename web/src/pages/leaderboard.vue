@@ -19,7 +19,8 @@ const top = computed(() => (terms as any[])
     <h1>Divergence leaderboard</h1>
   </div>
   <section class="card">
-    <table>
+    <div class="table-scroll">
+      <table>
       <thead><tr><th>#</th><th>Term</th><th>VIM</th><th>Instances</th><th>Distinct defs</th></tr></thead>
       <tbody>
         <tr v-for="(t, i) in top" :key="t.slug">
@@ -31,5 +32,6 @@ const top = computed(() => (terms as any[])
         </tr>
       </tbody>
     </table>
+    </div>
   </section>
 </template>

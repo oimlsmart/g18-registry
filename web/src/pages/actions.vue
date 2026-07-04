@@ -104,7 +104,8 @@ function kindLabel(k: string) { return k === "defined_in_vim" ? "VIM" : k === "d
       >{{ p.label }}</button>
     </form>
 
-    <table>
+    <div class="table-scroll">
+      <table>
       <thead>
         <tr>
           <th style="width:5em">Priority</th>
@@ -124,5 +125,6 @@ function kindLabel(k: string) { return k === "defined_in_vim" ? "VIM" : k === "d
         </tr>
       </tbody>
     </table>
+    </div>
   </section>
 </template>

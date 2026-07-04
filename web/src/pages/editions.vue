@@ -8,7 +8,8 @@ import editionStats from "@/data/edition-stats.json";
     <p class="lede">Side-by-side view of OIML G 18:2010 (published) and G 18:202X (draft, being validated by TC 1).</p>
   </div>
   <section class="card">
-    <table>
+    <div class="table-scroll">
+      <table>
       <thead><tr><th>Edition</th><th v-for="e in editionStats.editions" :key="e">{{ e }}</th></tr></thead>
       <tbody>
         <tr><td>Source concepts</td><td v-for="s in editionStats.stats" :key="s.edition" class="num">{{ s.instances }}</td></tr>
@@ -17,6 +18,7 @@ import editionStats from "@/data/edition-stats.json";
         <tr><td>Harmonisation candidates</td><td v-for="s in editionStats.stats" :key="s.edition" class="num">{{ s.harmonization_candidates }}</td></tr>
       </tbody>
     </table>
+    </div>
   </section>
   <section class="card">
     <h2>What changed between editions</h2>

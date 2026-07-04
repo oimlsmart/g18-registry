@@ -17,6 +17,7 @@ function kindLabel(k: string) { return k === "defined_in_vim" ? "VIM" : k === "d
       <h1>{{ tcName }}</h1>
     </div>
     <section class="card">
+      <div class="table-scroll">
       <table>
         <thead><tr><th>Term</th><th>VIM</th><th>Instances</th></tr></thead>
         <tbody>
@@ -27,6 +28,7 @@ function kindLabel(k: string) { return k === "defined_in_vim" ? "VIM" : k === "d
           </tr>
         </tbody>
       </table>
+    </div>
     </section>
   </template>
 </template>

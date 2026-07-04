@@ -72,6 +72,7 @@ const provenanceSummary = computed(() => {
 
     <section class="card">
       <h2>Terms ({{ pubTerms.length }})</h2>
+      <div class="table-scroll">
       <table>
         <thead><tr><th>Term</th><th>VIM</th><th>Source</th><th>Definition</th></tr></thead>
         <tbody>
@@ -90,6 +91,7 @@ const provenanceSummary = computed(() => {
           </tr>
         </tbody>
       </table>
+    </div>
     </section>
   </template>
 </template>

@@ -11,7 +11,8 @@ function slug(name: string) { return name.toLowerCase().replace(/[^a-z0-9]+/g, "
     <h1>Technical Committees</h1>
   </div>
   <section class="card">
-    <table>
+    <div class="table-scroll">
+      <table>
       <thead><tr><th>TC / SC</th><th>Publications</th><th>Terms</th></tr></thead>
       <tbody>
         <tr v-for="t in (tcData as string[])" :key="t">
@@ -21,5 +22,6 @@ function slug(name: string) { return name.toLowerCase().replace(/[^a-z0-9]+/g, "
         </tr>
       </tbody>
     </table>
+    </div>
   </section>
 </template>

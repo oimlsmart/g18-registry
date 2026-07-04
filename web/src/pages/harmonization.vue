@@ -75,6 +75,7 @@ function collisionSummary(ed: string) {
 
     <h3>Summary by edition</h3>
     <div class="table-wrap">
+      <div class="table-scroll">
       <table>
         <thead>
           <tr>
@@ -92,12 +93,14 @@ function collisionSummary(ed: string) {
         </tbody>
       </table>
     </div>
+    </div>
 
     <h3>Top 30 most-duplicated designations per edition</h3>
     <div v-for="ed in collisionEditions" :key="ed">
       <h4>{{ ed }}</h4>
       <div class="table-wrap">
-        <table>
+        <div class="table-scroll">
+      <table>
           <thead><tr><th>Designation</th><th>Distinct IDs</th><th>Total pubs</th><th>IDs</th></tr></thead>
           <tbody>
             <tr v-for="c in (((conflictsData as any).designation_collisions || {})[ed] || []).slice(0, 30)" :key="c.designation">
@@ -108,6 +111,7 @@ function collisionSummary(ed: string) {
             </tr>
           </tbody>
         </table>
+    </div>
       </div>
     </div>
   </section>
@@ -133,6 +137,7 @@ function collisionSummary(ed: string) {
     </div>
     <p class="muted">{{ rows.length }} terms shown of {{ (harmonization as any[]).length }} cited by ≥ 2 publications.</p>
     <div class="table-wrap">
+      <div class="table-scroll">
       <table>
         <thead><tr><th>#</th><th>Term</th><th>VIM</th><th>Inst.</th><th>Distinct defs</th></tr></thead>
         <tbody>
@@ -145,6 +150,7 @@ function collisionSummary(ed: string) {
           </tr>
         </tbody>
       </table>
+    </div>
     </div>
   </section>
 

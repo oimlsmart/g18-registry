@@ -91,7 +91,8 @@ const topDivergent = computed(() =>
   <section class="card">
     <h2>Priority actions for TC 1</h2>
     <p class="lede">Top 15 items needing attention, sorted by urgency.</p>
-    <table>
+    <div class="table-scroll">
+      <table>
       <thead><tr><th style="width:5em">Priority</th><th>Term</th><th>Issue</th><th>Impact</th><th></th></tr></thead>
       <tbody>
         <tr v-for="(a, i) in priorityActions" :key="i">
@@ -103,6 +104,7 @@ const topDivergent = computed(() =>
         </tr>
       </tbody>
     </table>
+    </div>
   </section>
 
   <section class="card">
@@ -110,7 +112,8 @@ const topDivergent = computed(() =>
       <h2>Most divergent terms</h2>
       <SLink to="/harmonization/" class="muted">Full worklist →</SLink>
     </div>
-    <table>
+    <div class="table-scroll">
+      <table>
       <thead><tr><th>#</th><th>Term</th><th>VIM</th><th>Ed.</th><th>Inst.</th><th>Distinct</th></tr></thead>
       <tbody>
         <tr v-for="(t, i) in topDivergent" :key="t.slug">
@@ -123,11 +126,13 @@ const topDivergent = computed(() =>
         </tr>
       </tbody>
     </table>
+    </div>
   </section>
 
   <section class="card">
     <h2>Edition comparison</h2>
-    <table>
+    <div class="table-scroll">
+      <table>
       <thead><tr><th>Edition</th><th>Concepts</th><th>Terms</th><th>Only here</th><th>Harmonise</th></tr></thead>
       <tbody>
         <tr v-for="s in editionStats.stats" :key="s.edition">
@@ -137,6 +142,7 @@ const topDivergent = computed(() =>
         </tr>
       </tbody>
     </table>
+    </div>
     <p style="margin-top:0.7em"><SLink to="/editions/">Full comparison →</SLink></p>
   </section>
 

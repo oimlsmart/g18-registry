@@ -40,7 +40,8 @@ function slugify(s: string): string {
 
   <section v-for="ed in editions" :key="ed" class="card">
     <h2>{{ ed }} <span class="muted">({{ rawByEdition[ed].length }} conflicting IDs)</span></h2>
-    <table>
+    <div class="table-scroll">
+      <table>
       <thead><tr><th style="width:7em">ID</th><th>Distinct concepts sharing the ID</th></tr></thead>
       <tbody>
         <tr v-for="c in rawByEdition[ed]" :key="c.id">
@@ -54,6 +55,7 @@ function slugify(s: string): string {
         </tr>
       </tbody>
     </table>
+    </div>
   </section>
 
   <section class="card" style="background: var(--oiml-cream-soft); border-color: var(--oiml-amber-soft);">

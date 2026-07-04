@@ -66,7 +66,8 @@ function problemCount(pubId: string): number {
       </label>
       <span class="muted">{{ filtered.length }} shown</span>
     </form>
-    <table>
+    <div class="table-scroll">
+      <table>
       <thead><tr><th>ID</th><th>Reference</th><th>Year</th><th>TC/SC</th><th>Terms</th><th v-if="sortByProblems">Problematic</th><th>PDF</th></tr></thead>
       <tbody>
         <tr v-for="p in filtered" :key="p.id">
@@ -83,6 +84,7 @@ function problemCount(pubId: string): number {
         </tr>
       </tbody>
     </table>
+    </div>
 
     <section v-if="sortByProblems" class="pub-problem-detail">
       <h2>Problematic terms per publication</h2>
