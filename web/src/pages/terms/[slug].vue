@@ -237,12 +237,18 @@ const authoritativeText = computed(() => {
   return oc?.definition_text ? (oc.definition_text as string).trim() : "";
 });
 
+// Normalize VIM cross-reference markup ({{id,text}} → text) so VIM 2007
+// (plain) and VIM 2012 (with refs) definitions compare as identical.
+function normalizeDef(s: string): string {
+  return (s || "").replace(/\{\{[^,}]+,([^}]+)\}\}/g, "$1").trim();
+}
+
 // Per-publication match status vs authoritative: matches / modified / differs / no-baseline.
 function pubMatchStatus(p: any): { key: string; label: string } {
   if (!authoritativeText.value) return { key: "nobaseline", label: "no baseline" };
-  const def = (p.definition || "").trim();
+  const def = normalizeDef(p.definition || "");
   if (!def) return { key: "empty", label: "—" };
-  if (def === authoritativeText.value) return { key: "match", label: "matches VIM" };
+  if (def === normalizeDef(authoritativeText.value)) return { key: "match", label: "matches VIM" };
   if (p.source?.relationship === "modified") return { key: "modified", label: "modified" };
   return { key: "differs", label: "differs" };
 }
@@ -307,7 +313,7 @@ const filteredPublications = computed(() => {
         </span>
         · concept <strong>#{{ term.official_concept.id }}</strong>
         <a v-if="term.official_concept.url" class="external" :href="term.official_concept.url">view ↗</a>
-        <p v-if="term.official_concept.definition_text" class="authority-defn-body">{{ term.official_concept.definition_text }}</p>
+        <p v-if="term.official_concept.definition_text" class="authority-defn-body"><DefText :text="term.official_concept.definition_text" /></p>
       </div>
       <div v-if="isSuperseded(term.official_concept.source)" class="admonition warn">
         <strong>Outdated:</strong> Cites {{ label(term.official_concept.source) }}. Latest: {{ latestLabel(term.official_concept.source) }}.

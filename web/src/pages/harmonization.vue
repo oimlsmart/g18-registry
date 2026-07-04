@@ -50,12 +50,15 @@ function collisionSummary(ed: string) {
 
 <template>
   <div class="page-head">
-    <div class="breadcrumb"><SLink to="/">Registry</SLink> / <span>Harmonisation</span></div>
-    <h1>Harmonisation worklist</h1>
+    <div class="breadcrumb"><SLink to="/">Registry</SLink> / <span>Definition Conflicts</span></div>
+    <h1>Definition conflicts</h1>
     <p class="lede">
-      Every term cited by ≥ 2 OIML publications — the core TC 1 worklist for
-      validating G 18:202X. Each row shows divergence (distinct definitions)
-      and citation count (publications referencing the term).
+      Terms cited by ≥ 2 OIML publications with <strong>divergent definitions</strong>.
+      Each row shows the number of distinct definition texts across the publications
+      that cite the term. Sort by divergence to find the worst offenders — these are
+      TC 1's harmonisation targets. Open a term to see definitions grouped (identical
+      wording collapsed) and decide: merge into one, or document why divergence is
+      intentional.
     </p>
   </div>
 

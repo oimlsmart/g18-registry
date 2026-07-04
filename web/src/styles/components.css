@@ -99,7 +99,16 @@ tbody td {
 }
 tbody tr:hover { background: var(--color-accent-tint); }
 .num { text-align: right; font-variant-numeric: tabular-nums; }
-.table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+
+/* Table scroll wrapper — keeps thead/tbody column alignment intact.
+   The div scrolls; the table stays as display:table so the browser
+   computes column widths across thead+tbody together. */
+.table-scroll {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin: 0.5rem 0;
+}
+.table-scroll table { margin: 0; }
 
 /* ── Badges & pills ──────────────────────────────────────────────────── */
 .badge {
@@ -458,15 +467,20 @@ tbody tr:hover { background: var(--color-accent-tint); }
 @media (max-width: 720px) {
   .grid-4 { grid-template-columns: repeat(2, 1fr); }
   .quality-grid { grid-template-columns: 1fr; }
-  /* tables scroll inside cards */
+  /* Tables wrapped in .table-scroll scroll correctly (thead/tbody stay
+     aligned). Tables NOT wrapped fall back to card-level scroll. */
   .card { overflow-x: auto; }
-  table {
+  .card > table {
     display: block;
     overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
     max-width: 100%;
   }
-  thead, tbody { display: table; width: 100%; min-width: max-content; }
+  .card > table > thead,
+  .card > table > tbody {
+    display: table;
+    width: 100%;
+    min-width: max-content;
+  }
   td[style*="max-width"], th[style*="max-width"] { max-width: none !important; }
   .filter-form,
   .card-head form,

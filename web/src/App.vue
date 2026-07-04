@@ -12,7 +12,12 @@ const navGroups: { items: { href: string; label: string }[] }[] = [
   {
     items: [
       { href: "actions/", label: "Actions" },
-      { href: "harmonization/", label: "Harmonise" },
+    ],
+  },
+  {
+    items: [
+      { href: "conflicts/", label: "ID Conflicts" },
+      { href: "harmonization/", label: "Defn Conflicts" },
     ],
   },
   {
@@ -24,7 +29,6 @@ const navGroups: { items: { href: string; label: string }[] }[] = [
   },
   {
     items: [
-      { href: "conflicts/", label: "ID Conflicts" },
       { href: "editions/", label: "Editions" },
     ],
   },
