@@ -224,6 +224,16 @@ module G18
         G18::Model::Identifier.deterministic_uuid(name)
       end
 
+      # Normalize publication IDs to the canonical spaced format:
+      # "OIML R076-1:2006" → "OIML R 76-1:2006" (space after letter, no zero-pad).
+      def normalize_pub_id(id)
+        return "" unless id
+        id.to_s
+          .gsub(/OIML\s*([RDGB])\s*0*(\d)/i) { "OIML #{$1} #{$2}" }
+          .gsub(/\s+/, " ")
+          .strip
+      end
+
       # ── helpers ────────────────────────────────────────────────────────
 
       def preferred?(term)
