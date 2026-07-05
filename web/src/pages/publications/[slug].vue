@@ -34,27 +34,40 @@ function termMatchesEdition(term: any): boolean {
 }
 const filteredPubTerms = computed(() => pubTerms.value.filter(termMatchesEdition));
 
-// All actions where this pub is in publication_ids — but only count those
-// where the term has a pub instance in the selected edition. Without this
-// scoping, a 2010-only instance of this pub would surface 202X-targeted
-// actions for terms where the action actually applies to a different pub.
+// All actions where this pub is in publication_ids — filtered by whether
+// the term has a pub instance in the selected edition AND the action
+// actually applies to that edition. Without this scoping, a 2010-only
+// instance of this pub would surface 202X-targeted actions for terms
+// where the action really applies to a different pub, AND 2010-only
+// harmonize actions would leak into the 202X view.
+function actionAppliesToEdition(a: any, edition: string): boolean {
+  if (edition === "all") return true;
+  const meta = actionMeta(a.type);
+  if (meta.applies_to === "all editions") return true;
+  // Action is edition-specific (most are 202X-only).
+  // harmonize is scoped to a worst-edition during compile, so respect
+  // the selected edition filter as a proxy.
+  return meta.applies_to === edition || a.type === "harmonize";
+}
+
 const pubActions = computed(() => {
   const all = forPublication(pubId.value);
   return all.filter(a => {
     if (editionFilter.value === "all") return true;
     const t = terms.find(t => t.slug === a.slug);
-    return t && editionsForTerm(t).has(editionFilter.value);
+    if (!t) return false;
+    return editionsForTerm(t).has(editionFilter.value) &&
+           actionAppliesToEdition(a, editionFilter.value);
   });
 });
 
-const actionTerms = computed(() => {
-  const slugs = new Set(pubActions.value.map(a => a.slug));
-  return terms.filter(t => slugs.has(t.slug));
-});
-const cleanTerms = computed(() => {
-  const actionSlugs = new Set(pubActions.value.map(a => a.slug));
-  return filteredPubTerms.value.filter(t => !actionSlugs.has(t.slug));
-});
+// Unique terms with at least one action — what the tile count reflects.
+// pubActions.length over-counts because a term can have multiple actions.
+const pubActionTermSlugs = computed(() => new Set(pubActions.value.map(a => a.slug)));
+const pubActionTermCount = computed(() => pubActionTermSlugs.value.size);
+
+const actionTerms = computed(() => terms.filter(t => pubActionTermSlugs.value.has(t.slug)));
+const cleanTerms = computed(() => filteredPubTerms.value.filter(t => !pubActionTermSlugs.value.has(t.slug)));
 
 // Edition counts for the toggle UI (so users see "202X: 7 · 2010: 119 · All: 126")
 const editionCounts = computed(() => {
@@ -191,7 +204,7 @@ const actionTypesPresent = computed(() => {
       <h2>Action summary</h2>
       <div class="prov-grid">
         <div class="prov-tile prov-tile-warn">
-          <div class="prov-tile-num">{{ pubActions.length }}</div>
+          <div class="prov-tile-num">{{ pubActionTermCount }}</div>
           <div class="prov-tile-label">Terms needing action ({{ editionFilter === "all" ? "all editions" : editionFilter }})</div>
         </div>
         <div class="prov-tile">
@@ -199,8 +212,8 @@ const actionTypesPresent = computed(() => {
           <div class="prov-tile-label">Terms clean (no action)</div>
         </div>
         <div class="prov-tile">
-          <div class="prov-tile-num">{{ pubTerms.length }}</div>
-          <div class="prov-tile-label">Total terms cited</div>
+          <div class="prov-tile-num">{{ filteredPubTerms.length }}</div>
+          <div class="prov-tile-label">Total terms cited ({{ editionFilter === "all" ? "all editions" : editionFilter }})</div>
         </div>
       </div>
 

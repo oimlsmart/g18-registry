@@ -113,7 +113,7 @@ const legendTypes = computed(() => Object.keys(ACTION_META).filter(t => counts.v
         </tbody>
       </table>
     </div>
-    <PaginationControls :pagination="pagination" />
+    <PaginationControls :pagination="pagination" noun="terms" />
   </section>
 </template>
 

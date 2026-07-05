@@ -151,6 +151,6 @@ const pageTitle = computed(() => {
       </tbody>
     </table>
     </div>
-    <PaginationControls :pagination="pagination" />
+    <PaginationControls :pagination="pagination" noun="terms" />
   </section>
 </template>

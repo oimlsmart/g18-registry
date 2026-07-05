@@ -221,7 +221,7 @@ function collisionSummary(ed: string) {
       </table>
     </div>
     </div>
-    <PaginationControls :pagination="pagination" />
+    <PaginationControls :pagination="pagination" noun="terms" />
   </section>
 
   <section id="how-to" class="card" style="background: var(--oiml-cream-soft); border-color: var(--oiml-amber-soft);">
