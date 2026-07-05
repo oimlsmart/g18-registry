@@ -22,24 +22,24 @@ jobs:
       # layout that the migrate script expects).
       VOCAB_ROOT: ${{ github.workspace }}/vocab/datasets
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       # Check out the vocab repo alongside so the migration can read
       # g18-2010 + g18-202X concept files at build time. Public repo, no
       # token needed. Derived data (data/*.yaml, web/src/data/*.json) is
       # regenerated in CI from this + the committed LLM consistency cache.
       - name: Checkout vocab repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           repository: oimlsmart/vocab
           path: vocab
           ref: main
 
-      - uses: pnpm/action-setup@v4
+      - uses: pnpm/action-setup@v6
         with:
           version: 11
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v6
         with:
           node-version: "24"
           cache: pnpm
@@ -72,7 +72,7 @@ jobs:
         run: pnpm run build
 
       - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
         with:
           path: web/dist
 
@@ -84,4 +84,4 @@ jobs:
     needs: build
     steps:
       - id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
