@@ -83,11 +83,14 @@ const legendTypes = computed(() => Object.keys(ACTION_META).filter(t => counts.v
           </tr>
         </thead>
         <tbody>
-          <tr v-for="g in filtered" :key="g.slug">
+          <tr v-for="g in filtered" :key="g.slug" :class="{ 'row-historic': g.isHistoric }">
             <td>
               <span class="badge" :class="priorityBadge(g.priorityRank)">{{ priorityLabel(g.priorityRank) }}</span>
             </td>
-            <td><SLink :to="`/terms/${g.slug}/`">{{ g.name }}</SLink></td>
+            <td class="term-cell">
+              <SLink :to="`/terms/${g.slug}/`">{{ g.name }}</SLink>
+              <span v-if="g.isHistoric" class="badge badge-historic" title="This term exists only in the 2010 edition. TC 1 cannot act — 2010 is historic.">2010 only</span>
+            </td>
             <td>
               <ul class="action-group-list">
                 <li v-for="a in g.actions" :key="a.type">

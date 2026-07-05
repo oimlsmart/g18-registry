@@ -12,32 +12,35 @@ function distinctDefs(t: any): number {
 function kindLabel(k: string) { return k === "defined_in_vim" ? "VIM" : k === "defined_in_viml" ? "VIML" : "—"; }
 
 // ── Priority worklist ───────────────────────────────────────────────────
-type Action = { priority: string; term: string; slug: string; reason: string; count?: number; };
+type Action = { priority: string; term: string; slug: string; reason: string; count?: number; isHistoric?: boolean; };
 
 const priorityActions = computed<Action[]>(() => {
   const actions: Action[] = [];
   for (const t of terms) {
     const dd = distinctDefs(t);
     const lc = t.latest_check;
+    const isHistoric = (t.editions_present || []).length > 0 && (t.editions_present || []).every((e: string) => e === "2010");
     // HIGH: cites superseded VIM AND not in latest edition
     if (lc && !lc.found) {
-      actions.push({ priority: "high", term: t.name, slug: t.slug, reason: `Cites superseded edition, NOT in ${lc.latest_label}`, count: t.publications.length });
+      actions.push({ priority: "high", term: t.name, slug: t.slug, reason: `Cites superseded edition, NOT in ${lc.latest_label}`, count: t.publications.length, isHistoric });
     }
     // HIGH: many divergent definitions
     if (dd >= 5) {
-      actions.push({ priority: "high", term: t.name, slug: t.slug, reason: `${dd} distinct definitions`, count: dd });
+      actions.push({ priority: "high", term: t.name, slug: t.slug, reason: `${dd} distinct definitions`, count: dd, isHistoric });
     }
     // MEDIUM: moderate divergence
     else if (dd >= 3) {
-      actions.push({ priority: "medium", term: t.name, slug: t.slug, reason: `${dd} distinct definitions`, count: dd });
+      actions.push({ priority: "medium", term: t.name, slug: t.slug, reason: `${dd} distinct definitions`, count: dd, isHistoric });
     }
     // INFO: high harmonisation value
     if (t.publications.length >= 10 && dd < 3) {
-      actions.push({ priority: "info", term: t.name, slug: t.slug, reason: `Cited by ${t.publications.length} publications` });
+      actions.push({ priority: "info", term: t.name, slug: t.slug, reason: `Cited by ${t.publications.length} publications`, isHistoric });
     }
   }
   const order: Record<string, number> = { high: 0, medium: 1, info: 2, low: 3 };
   return actions.sort((a, b) => {
+    // Historic (2010-only) items sink below actionable ones at same priority.
+    if ((a.isHistoric ? 1 : 0) !== (b.isHistoric ? 1 : 0)) return a.isHistoric ? 1 : -1;
     const po = (order[a.priority] ?? 9) - (order[b.priority] ?? 9);
     if (po !== 0) return po;
     return (b.count || 0) - (a.count || 0);
@@ -148,9 +151,12 @@ const topDivergent = computed(() =>
       <table>
       <thead><tr><th style="width:5em">Priority</th><th>Term</th><th>Issue</th><th>Impact</th><th></th></tr></thead>
       <tbody>
-        <tr v-for="(a, i) in priorityActions" :key="i">
+        <tr v-for="(a, i) in priorityActions" :key="i" :class="{ 'row-historic': a.isHistoric }">
           <td><span :class="['action-pill', `action-pill-${a.priority}`]">{{ a.priority.toUpperCase() }}</span></td>
-          <td><SLink :to="`/terms/${a.slug}/`">{{ a.term }}</SLink></td>
+          <td>
+            <SLink :to="`/terms/${a.slug}/`">{{ a.term }}</SLink>
+            <span v-if="a.isHistoric" class="badge badge-historic" title="This term exists only in the 2010 edition. TC 1 cannot act — 2010 is historic.">2010 only</span>
+          </td>
           <td>{{ a.reason }}</td>
           <td class="num">{{ a.count || '' }}</td>
           <td><SLink :to="`/terms/${a.slug}/`">Open →</SLink></td>

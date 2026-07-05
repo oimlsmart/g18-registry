@@ -150,6 +150,12 @@ const hasConsistencyData = computed(() => {
   return (term.value.publications || []).some((p: any) => p.consistency && p.consistency !== "pending");
 });
 
+// Historic-only: term exists only in the 2010 edition. TC 1 cannot act.
+const isHistoricTerm = computed(() => {
+  const eds = term.value?.editions_present || [];
+  return eds.length > 0 && eds.every(e => e === "2010");
+});
+
 // Designations: split by type/status for the UI. Falls back to the legacy
 // `term.name` as preferred expression when the new field is absent.
 const designations = computed(() => (term.value?.designations || []) as any[]);
@@ -378,6 +384,14 @@ const filteredPublications = computed(() => {
         G 18 #{{ term.identifier }} · {{ term.publications.length }} instances
       </p>
     </div>
+
+    <!-- Historic-only callout: term exists only in 2010. TC 1 cannot act. -->
+    <section v-if="isHistoricTerm" class="card admonition" style="background: var(--color-paper-tint); border-color: var(--color-rule);">
+      <strong>Historic (2010 only).</strong>
+      This term appears only in the published G 18:2010 edition. TC 1 cannot
+      take action on it — 2010 is frozen. Shown in worklists for completeness,
+      visually deprioritized.
+    </section>
 
     <section class="card" v-if="term.official_concept && term.kind !== 'undefined'">
       <h2>Authoritative definition</h2>

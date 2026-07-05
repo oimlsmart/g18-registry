@@ -164,6 +164,14 @@ tbody tr:hover { background: var(--color-accent-tint); }
 .badge-partial { background: #fef3c7; color: var(--color-oiml-amber-deep); border-color: #fde68a; }
 .badge-ko      { background: var(--color-red); color: #fff; border-color: var(--color-red); }
 .badge-pending { background: transparent; color: var(--color-ink-muted); border-color: var(--color-rule); }
+.badge-historic { background: transparent; color: var(--color-ink-muted); border-color: var(--color-rule); font-style: italic; text-transform: none; letter-spacing: 0; font-weight: 500; }
+
+/* Historic (2010-only) rows: keep visible but visually deprioritized.
+   TC 1 cannot act on these — 2010 is published. */
+.row-historic { color: var(--color-ink-muted); }
+.row-historic td { opacity: 0.78; }
+.row-historic:hover td { opacity: 1; }
+.row-historic .term-cell a { color: var(--color-ink-soft); font-style: italic; }
 
 /* kind (VIM / VIML / undefined) */
 .kind {

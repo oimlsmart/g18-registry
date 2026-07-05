@@ -18,6 +18,10 @@ const sort = ref<SortKey>("divergence");
 const search = ref("");
 
 function kindLabel(k: string) { return k === "defined_in_vim" ? "VIM" : k === "defined_in_viml" ? "VIML" : "—"; }
+function isHistoricTerm(t: any): boolean {
+  const eds = t.editions_present || [];
+  return eds.length > 0 && eds.every((e: string) => e === "2010");
+}
 function distinctDefs(pubs: any[]): number {
   // Max distinct definitions WITHIN A SINGLE EDITION. Cross-edition
   // definition changes (e.g. 2010 vs 202X wording differ) are intentional
@@ -196,9 +200,12 @@ function collisionSummary(ed: string) {
       <table>
         <thead><tr><th>#</th><th>Term</th><th>VIM</th><th>Inst.</th><th>Distinct defs</th><th>TC/SCs responsible</th></tr></thead>
         <tbody>
-          <tr v-for="(t, i) in rows" :key="t.slug">
+          <tr v-for="(t, i) in rows" :key="t.slug" :class="{ 'row-historic': isHistoricTerm(t) }">
             <td class="num">{{ i + 1 }}</td>
-            <td><SLink :to="`/terms/${t.slug}/`">{{ t.name }}</SLink></td>
+            <td class="term-cell">
+              <SLink :to="`/terms/${t.slug}/`">{{ t.name }}</SLink>
+              <span v-if="isHistoricTerm(t)" class="badge badge-historic" title="This term exists only in the 2010 edition. TC 1 cannot act — 2010 is historic.">2010 only</span>
+            </td>
             <td><span :class="['kind', `kind-${t.kind}`]">{{ kindLabel(t.kind) }}</span></td>
             <td class="num">{{ t._pubs }}</td>
             <td class="num"><span class="divergence-count">{{ t._defs }}</span></td>

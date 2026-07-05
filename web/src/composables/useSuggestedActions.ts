@@ -20,6 +20,7 @@ export interface SuggestedAction {
   vocab_ref?: Record<string, string>;
   slug: string;
   name: string;
+  editionsPresent?: string[];
 }
 
 export interface TermActionGroup {
@@ -28,6 +29,8 @@ export interface TermActionGroup {
   actions: SuggestedAction[];
   priorityRank: number;
   pubCount: number;
+  isHistoric: boolean;
+  editionsPresent: string[];
 }
 
 const PRIORITY_RANK: Record<string, number> = {
@@ -61,6 +64,14 @@ export function actionMeta(type: string): ActionMeta {
   return ACTION_META[type] || { label: type, icon: "•", hint: "", applies_to: "" };
 }
 
+// A term is "historic" when it appears only in the 2010 edition — TC 1
+// cannot act on these (2010 is published). We keep them visible in
+// worklists for completeness but visually deprioritize them.
+export function isHistoric(term: { editions_present?: string[] }): boolean {
+  const eds = term?.editions_present || [];
+  return eds.length > 0 && eds.every(e => e === "2010");
+}
+
 // Normalize publication IDs so spaced ("OIML R 76-1:2006") and compact
 // ("OIML R076-1:2006") formats compare equal.
 export function normalizePubId(id: string): string {
@@ -76,8 +87,9 @@ export function useSuggestedActions(terms: any[]) {
     for (const t of terms) {
       const slug = t.slug;
       const name = t.name;
+      const editionsPresent = t.editions_present;
       for (const a of t.suggested_actions || []) {
-        out.push({ ...a, slug, name });
+        out.push({ ...a, slug, name, editionsPresent });
       }
     }
     return out;
@@ -94,13 +106,23 @@ export function useSuggestedActions(terms: any[]) {
   // Group actions by term slug. Each group carries the highest-priority rank
   // across its actions (so a term with both a `removed:high` and a
   // `harmonize:low` action sorts as `high`). The publication count is the
-  // union of publication_ids across all actions in the group.
+  // union of publication_ids across all actions in the group. Historic
+  // (2010-only) terms are flagged so pages can deprioritize their rows.
   const byTerm: ComputedRef<TermActionGroup[]> = computed(() => {
     const map: Record<string, TermActionGroup> = {};
     for (const a of allActions.value) {
       let g = map[a.slug];
       if (!g) {
-        g = { slug: a.slug, name: a.name, actions: [], priorityRank: 9, pubCount: 0 };
+        const eds = a.editionsPresent || [];
+        g = {
+          slug: a.slug,
+          name: a.name,
+          actions: [],
+          priorityRank: 9,
+          pubCount: 0,
+          isHistoric: eds.length > 0 && eds.every(e => e === "2010"),
+          editionsPresent: eds,
+        };
         map[a.slug] = g;
       }
       g.actions.push(a);
@@ -109,6 +131,8 @@ export function useSuggestedActions(terms: any[]) {
       g.pubCount += ids.size;
     }
     return Object.values(map).sort((a, b) => {
+      // Historic terms sink below non-historic at same priority.
+      if (a.isHistoric !== b.isHistoric) return a.isHistoric ? 1 : -1;
       if (a.priorityRank !== b.priorityRank) return a.priorityRank - b.priorityRank;
       return a.name.localeCompare(b.name);
     });
