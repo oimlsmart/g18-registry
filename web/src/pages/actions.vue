@@ -2,6 +2,7 @@
 import { computed, ref } from "vue";
 import termsData from "@/data/terms.json";
 import { useSuggestedActions, ACTION_META, actionMeta } from "@/composables/useSuggestedActions";
+import { usePagination } from "@/composables/usePagination";
 
 const terms = termsData as any[];
 const { byTerm, counts, allActions } = useSuggestedActions(terms);
@@ -21,6 +22,12 @@ const filtered = computed(() => {
     groups = groups.filter(g => g.name?.toLowerCase().includes(q));
   }
   return groups;
+});
+
+// Reset to page 1 when filter or search changes.
+const pagination = usePagination(filtered, {
+  pageSize: 50,
+  dep: () => `${filterType.value}|${search.value}`,
 });
 
 const totalActions = computed(() => allActions.value.length);
@@ -83,7 +90,7 @@ const legendTypes = computed(() => Object.keys(ACTION_META).filter(t => counts.v
           </tr>
         </thead>
         <tbody>
-          <tr v-for="g in filtered" :key="g.slug" :class="{ 'row-historic': g.isHistoric }">
+          <tr v-for="g in pagination.visible.value" :key="g.slug" :class="{ 'row-historic': g.isHistoric }">
             <td>
               <span class="badge" :class="priorityBadge(g.priorityRank)">{{ priorityLabel(g.priorityRank) }}</span>
             </td>
@@ -106,6 +113,7 @@ const legendTypes = computed(() => Object.keys(ACTION_META).filter(t => counts.v
         </tbody>
       </table>
     </div>
+    <PaginationControls :pagination="pagination" />
   </section>
 </template>
 

@@ -14,15 +14,57 @@ const { forPublication } = useSuggestedActions(terms);
 const pubTerms = computed(() => terms.filter(t => t.publications.some((p: any) => p.publication_id === pubId.value)));
 function kindLabel(k: string) { return k === "defined_in_vim" ? "VIM" : k === "defined_in_viml" ? "VIML" : "—"; }
 
-// Suggested actions for THIS publication, grouped by type
-const pubActions = computed(() => forPublication(pubId.value));
+// Edition toggle. Default: 202X — TC 1 can only act on the draft edition.
+type EditionFilter = "202X" | "2010" | "all";
+const editionFilter = ref<EditionFilter>("202X");
+
+// Which editions does this pub appear in for the given term?
+function editionsForTerm(term: any): Set<string> {
+  const eds = new Set<string>();
+  for (const p of (term.publications || [])) {
+    if (p.publication_id === pubId.value && p.edition) eds.add(p.edition);
+  }
+  return eds;
+}
+
+// Filter terms by whether this pub has an instance in the selected edition.
+function termMatchesEdition(term: any): boolean {
+  if (editionFilter.value === "all") return true;
+  return editionsForTerm(term).has(editionFilter.value);
+}
+const filteredPubTerms = computed(() => pubTerms.value.filter(termMatchesEdition));
+
+// All actions where this pub is in publication_ids — but only count those
+// where the term has a pub instance in the selected edition. Without this
+// scoping, a 2010-only instance of this pub would surface 202X-targeted
+// actions for terms where the action actually applies to a different pub.
+const pubActions = computed(() => {
+  const all = forPublication(pubId.value);
+  return all.filter(a => {
+    if (editionFilter.value === "all") return true;
+    const t = terms.find(t => t.slug === a.slug);
+    return t && editionsForTerm(t).has(editionFilter.value);
+  });
+});
+
 const actionTerms = computed(() => {
   const slugs = new Set(pubActions.value.map(a => a.slug));
   return terms.filter(t => slugs.has(t.slug));
 });
 const cleanTerms = computed(() => {
   const actionSlugs = new Set(pubActions.value.map(a => a.slug));
-  return pubTerms.value.filter(t => !actionSlugs.has(t.slug));
+  return filteredPubTerms.value.filter(t => !actionSlugs.has(t.slug));
+});
+
+// Edition counts for the toggle UI (so users see "202X: 7 · 2010: 119 · All: 126")
+const editionCounts = computed(() => {
+  const c = { "202X": 0, "2010": 0 };
+  for (const t of pubTerms.value) {
+    const eds = editionsForTerm(t);
+    if (eds.has("202X")) c["202X"]++;
+    if (eds.has("2010")) c["2010"]++;
+  }
+  return c;
 });
 
 type ViewMode = "by-action" | "by-clause" | "alphabetical";
@@ -116,11 +158,32 @@ const actionTypesPresent = computed(() => {
       </p>
     </div>
 
-    <!-- 202X-only callout: makes the scope unambiguous -->
-    <section class="card admonition warn" style="margin-top:1rem">
-      <strong>Scope:</strong> Suggested actions below apply only to terms cited in the
-      <strong>G 18:202X draft</strong>. The 2010 edition is historic and cannot be edited —
-      if a term appears here only via 2010, no action is required.
+    <!-- Edition filter: TC 1 acts on 202X; 2010 is historic but visible for context -->
+    <section class="card" style="margin-top:1rem">
+      <div class="card-head" style="margin-bottom:0">
+        <h2 style="margin:0;border:none;padding:0">Scope</h2>
+        <div class="sort-toggle" role="group" aria-label="Edition filter">
+          <button type="button"
+                  :class="['sort-btn', { 'sort-btn-active': editionFilter === '202X' }]"
+                  @click="editionFilter = '202X'">
+            202X ({{ editionCounts["202X"] }})
+          </button>
+          <button type="button"
+                  :class="['sort-btn', { 'sort-btn-active': editionFilter === '2010' }]"
+                  @click="editionFilter = '2010'">
+            2010 ({{ editionCounts["2010"] }})
+          </button>
+          <button type="button"
+                  :class="['sort-btn', { 'sort-btn-active': editionFilter === 'all' }]"
+                  @click="editionFilter = 'all'">
+            All ({{ pubTerms.length }})
+          </button>
+        </div>
+      </div>
+      <p class="muted" style="margin-top:0.6em;font-size:0.88rem">
+        Default: <strong>202X</strong> — TC 1 can only act on the draft edition.
+        Switch to 2010 to see historic data; switch to All for the full picture.
+      </p>
     </section>
 
     <!-- Summary tiles -->
@@ -129,7 +192,7 @@ const actionTypesPresent = computed(() => {
       <div class="prov-grid">
         <div class="prov-tile prov-tile-warn">
           <div class="prov-tile-num">{{ pubActions.length }}</div>
-          <div class="prov-tile-label">Terms needing action (202X)</div>
+          <div class="prov-tile-label">Terms needing action ({{ editionFilter === "all" ? "all editions" : editionFilter }})</div>
         </div>
         <div class="prov-tile">
           <div class="prov-tile-num">{{ cleanTerms.length }}</div>

@@ -3,6 +3,7 @@ import { ref, computed } from "vue";
 import harmonization from "@/data/harmonization.json";
 import conflictsData from "@/data/conflicts.json";
 import termsData from "@/data/terms.json";
+import { usePagination } from "@/composables/usePagination";
 
 // Build a name → kind lookup for VIM/VIML column in collision table.
 const termKindMap: Record<string, string> = {};
@@ -69,6 +70,11 @@ const rows = computed(() => {
     name:       (a, b) => (a.name || "").localeCompare(b.name || ""),
   };
   return [...list].sort(sortFn[sort.value]);
+});
+
+const pagination = usePagination(rows, {
+  pageSize: 50,
+  dep: () => `${sort.value}|${search.value}`,
 });
 
 const topDivergent = computed(() => [...rows.value].sort((a, b) => b._defs - a._defs || b._pubs - a._pubs).slice(0, 20));
@@ -200,8 +206,8 @@ function collisionSummary(ed: string) {
       <table>
         <thead><tr><th>#</th><th>Term</th><th>VIM</th><th>Inst.</th><th>Distinct defs</th><th>TC/SCs responsible</th></tr></thead>
         <tbody>
-          <tr v-for="(t, i) in rows" :key="t.slug" :class="{ 'row-historic': isHistoricTerm(t) }">
-            <td class="num">{{ i + 1 }}</td>
+          <tr v-for="(t, i) in pagination.visible.value" :key="t.slug" :class="{ 'row-historic': isHistoricTerm(t) }">
+            <td class="num">{{ (pagination.page.value - 1) * pagination.pageSize.value + i + 1 }}</td>
             <td class="term-cell">
               <SLink :to="`/terms/${t.slug}/`">{{ t.name }}</SLink>
               <span v-if="isHistoricTerm(t)" class="badge badge-historic" title="This term exists only in the 2010 edition. TC 1 cannot act — 2010 is historic.">2010 only</span>
@@ -215,6 +221,7 @@ function collisionSummary(ed: string) {
       </table>
     </div>
     </div>
+    <PaginationControls :pagination="pagination" />
   </section>
 
   <section id="how-to" class="card" style="background: var(--oiml-cream-soft); border-color: var(--oiml-amber-soft);">

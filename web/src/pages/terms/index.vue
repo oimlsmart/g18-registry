@@ -2,6 +2,7 @@
 import { ref, computed, watch } from "vue";
 import { useRoute } from "vue-router";
 import terms from "@/data/terms.json";
+import { usePagination } from "@/composables/usePagination";
 
 const route = useRoute();
 const search = ref("");
@@ -54,6 +55,11 @@ const filtered = computed(() => {
   };
   const dir = sortDir.value;
   return [...t].sort((a, b) => sorters[sortKey.value](a, b) * dir);
+});
+
+const pagination = usePagination(filtered, {
+  pageSize: 50,
+  dep: () => `${onlyEdition.value}|${onlyTC.value}|${onlyKind.value}|${search.value}|${sortKey.value}|${sortDir.value}`,
 });
 
 function toggleSort(key: "name" | "pubs" | "defs") {
@@ -128,7 +134,7 @@ const pageTitle = computed(() => {
         </tr>
       </thead>
       <tbody>
-        <tr v-for="t in filtered" :key="t.slug">
+        <tr v-for="t in pagination.visible.value" :key="t.slug">
           <td class="term-cell"><SLink :to="`/terms/${t.slug}/`">{{ t.name }}</SLink></td>
           <td class="alt-cell">
             <span v-for="ad in admittedOf(t)" :key="ad" class="alt-term">{{ ad }}</span>
@@ -145,5 +151,6 @@ const pageTitle = computed(() => {
       </tbody>
     </table>
     </div>
+    <PaginationControls :pagination="pagination" />
   </section>
 </template>
