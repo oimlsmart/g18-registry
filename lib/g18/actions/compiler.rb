@@ -98,16 +98,23 @@ module G18
         []
       end
 
-      # Terms with ≥ 2 distinct definitions across publications.
+      # Terms with ≥ 2 distinct definitions WITHIN A SINGLE EDITION.
+      # Cross-edition definition changes (e.g. 2010 vs 202X wording
+      # differs) are NOT flagged — that's an intentional editorial change
+      # between published editions, not a harmonisation failure. TC 1
+      # harmonises WITHIN the 202X draft.
       def harmonize_action
         return [] if @pubs.size < 2
-        defs = distinct_definitions
-        return [] if defs.size < 2
+        per_edition = distinct_definitions_per_edition
+        worst_edition, worst_count = per_edition.max_by { |_, d| d.size }
+        return [] unless worst_count && worst_count.size >= 2
+        pubs_in_edition = @pubs.count { |p| p["edition"] == worst_edition }
         [Action.new(
           type: :harmonize,
-          priority: defs.size >= 5 ? :high : (defs.size >= 3 ? :medium : :low),
-          description: "#{defs.size} distinct definitions across #{@pubs.size} publications.",
-          publication_ids: @pubs.map { |p| p["publication_id"] }.uniq,
+          priority: worst_count.size >= 5 ? :high : (worst_count.size >= 3 ? :medium : :low),
+          description: "#{worst_count.size} distinct definitions within #{worst_edition} across #{pubs_in_edition} publications.",
+          publication_ids: @pubs.select { |p| p["edition"] == worst_edition }
+                                 .map { |p| p["publication_id"] }.uniq,
         )]
       end
 
@@ -143,6 +150,18 @@ module G18
           .map { |p| self.class.normalize_definition(p["definition"]) }
           .reject(&:empty?)
           .uniq
+      end
+
+      # Per-edition distinct definition counts. Cross-edition definition
+      # changes are legitimate editorial evolution, not harmonisation
+      # targets — only WITHIN-edition divergence counts.
+      def distinct_definitions_per_edition
+        @pubs.group_by { |p| p["edition"] }.transform_values do |ed_pubs|
+          ed_pubs
+            .map { |p| self.class.normalize_definition(p["definition"]) }
+            .reject(&:empty?)
+            .uniq
+        end
       end
 
       VIM_CURRENT = "urn:oiml:pub:v:2:2012"

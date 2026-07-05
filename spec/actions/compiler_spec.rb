@@ -41,16 +41,27 @@ RSpec.describe G18::Actions::Compiler do
       expect(removed.description).to include("removed from VIM 2012")
     end
 
-    it "returns harmonize action when definitions diverge" do
+    it "returns harmonize action when definitions diverge within an edition" do
       term = base_term.dup
       term["data"]["publications"] = [
-        { "publication_id" => "OIML R076-1:2009", "definition" => "definition A" },
-        { "publication_id" => "OIML R050-1:2014", "definition" => "definition B" },
+        { "publication_id" => "OIML R076-1:2009", "definition" => "definition A", "edition" => "202X" },
+        { "publication_id" => "OIML R050-1:2014", "definition" => "definition B", "edition" => "202X" },
       ]
       actions = described_class.for_term(term)
       harm = actions.find { |a| a.type == :harmonize }
       expect(harm).not_to be_nil
-      expect(harm.description).to include("2 distinct definitions")
+      expect(harm.description).to include("2 distinct definitions within 202X")
+    end
+
+    it "does NOT flag harmonize when defs differ only across editions" do
+      term = base_term.dup
+      term["data"]["publications"] = [
+        { "publication_id" => "OIML R049-2:2006", "definition" => "2010 wording", "edition" => "2010" },
+        { "publication_id" => "OIML R049-1:2024", "definition" => "202X wording", "edition" => "202X" },
+      ]
+      actions = described_class.for_term(term)
+      harm = actions.find { |a| a.type == :harmonize }
+      expect(harm).to be_nil
     end
 
     it "returns standardize action when all definitions match" do

@@ -29,6 +29,38 @@ const distinctDefs = computed(() => {
   return Array.from(new Set(term.value.publications.map((p: any) => normalizeDef(p.definition || "")).filter(Boolean)));
 });
 
+// Per-edition distinct-definition counts. Cross-edition definition changes
+// are intentional editorial evolution (TC 1 rewords between 2010 and 202X)
+// and are NOT conflicts. True harmonisation divergence is WITHIN an edition.
+const distinctDefsByEdition = computed<Record<string, string[]>>(() => {
+  if (!term.value) return {};
+  const byEd: Record<string, Set<string>> = {};
+  for (const p of term.value.publications) {
+    const ed = p.edition || "(unspecified)";
+    const d = normalizeDef(p.definition || "");
+    if (!d) continue;
+    if (!byEd[ed]) byEd[ed] = new Set();
+    byEd[ed].add(d);
+  }
+  const out: Record<string, string[]> = {};
+  for (const [ed, set] of Object.entries(byEd)) out[ed] = Array.from(set);
+  return out;
+});
+
+// The "harmonise problem" magnitude: max distinct-defs count within any
+// single edition. 1 = consistent within each edition.
+const worstEditionDistinctCount = computed(() =>
+  Math.max(0, ...Object.values(distinctDefsByEdition.value).map(s => s.length))
+);
+const worstEdition = computed(() => {
+  let worst = "";
+  let max = 0;
+  for (const [ed, defs] of Object.entries(distinctDefsByEdition.value)) {
+    if (defs.length > max) { max = defs.length; worst = ed; }
+  }
+  return worst;
+});
+
 const consistencyCounts = computed(() => {
   if (!term.value) return { ok: 0, partial: 0, ko: 0, pending: 0 } as Record<string, number>;
   const c: Record<string, number> = { ok: 0, partial: 0, ko: 0, pending: 0 };
@@ -62,8 +94,11 @@ const actions = computed(() => {
   if (term.value.kind === "undefined") {
     a.push({ priority: "high", text: "No authoritative definition in VIM or VIML." });
   }
-  if (distinctDefs.value.length > 1) {
-    a.push({ priority: "medium", text: `${distinctDefs.value.length} distinct definitions — harmonise.` });
+  if (worstEditionDistinctCount.value > 1) {
+    a.push({
+      priority: "medium",
+      text: `${worstEditionDistinctCount.value} distinct definitions WITHIN ${worstEdition.value} — harmonise within that edition.`,
+    });
   }
   const cc = consistencyCounts.value;
   if (cc.ko > 0) a.push({ priority: "high", text: `${cc.ko} diverge (ko).` });
@@ -106,6 +141,14 @@ const uniqueGroups = computed(() => definitionGroups.value.filter(g => g.count =
 function rowVisible(p: any) {
   return enabledEditions.value.has(p.edition);
 }
+
+// Are consistency badges actually meaningful here? When every instance is
+// "pending" (LLM classification not yet cached), showing the column is
+// pure noise. Hide it in that case.
+const hasConsistencyData = computed(() => {
+  if (!term.value) return false;
+  return (term.value.publications || []).some((p: any) => p.consistency && p.consistency !== "pending");
+});
 
 // Designations: split by type/status for the UI. Falls back to the legacy
 // `term.name` as preferred expression when the new field is absent.
@@ -461,9 +504,15 @@ const filteredPublications = computed(() => {
       <!-- Grouped mode: show definition groups -->
       <template v-if="groupMode">
         <p class="lede" style="margin-bottom:0.5em">
-          <strong>{{ definitionGroups.length }}</strong> distinct definitions across
-          <strong>{{ definitionGroups.reduce((s, g) => s + g.count, 0) }}</strong> publications.
-          <span v-if="sharedGroups.length">{{ sharedGroups.length }} definitions are shared by multiple publications (merge candidates).</span>
+          <span v-if="worstEditionDistinctCount <= 1 && Object.keys(distinctDefsByEdition).length > 1">
+            <strong>Consistent within each edition</strong> — different wording across editions is intentional editorial evolution, not a conflict.
+            <span v-for="(defs, ed) in distinctDefsByEdition" :key="ed">{{ ed }}: {{ defs.length }} definition{{ defs.length === 1 ? '' : 's' }}. </span>
+          </span>
+          <span v-else>
+            <strong>{{ definitionGroups.length }}</strong> distinct definitions across
+            <strong>{{ definitionGroups.reduce((s, g) => s + g.count, 0) }}</strong> publications.
+            <span v-if="sharedGroups.length">{{ sharedGroups.length }} definitions are shared by multiple publications (merge candidates).</span>
+          </span>
         </p>
 
         <!-- Shared definition groups (count > 1) -->
@@ -475,7 +524,7 @@ const filteredPublications = computed(() => {
           <div class="def-group-text"><DefText :text="g.definition" /></div>
           <div class="table-scroll">
       <table class="def-group-pubs">
-            <thead><tr><th>Ed.</th><th>Year</th><th>Publication</th><th>Clause</th><th>G 18 #</th><th>Consistency</th></tr></thead>
+            <thead><tr><th>Ed.</th><th>Year</th><th>Publication</th><th>Clause</th><th>G 18 #</th><th v-if="hasConsistencyData">Consistency</th></tr></thead>
             <tbody>
               <tr v-for="p in g.publications" :key="p.g18_entry">
                 <td><span :class="['edition-pill', `edition-${p.edition?.toLowerCase()}`]">{{ p.edition }}</span></td>
@@ -483,7 +532,7 @@ const filteredPublications = computed(() => {
                 <td><SLink :to="`/publications/${p.publication_id}/`">{{ p.publication }}</SLink></td>
                 <td class="num">{{ p.clause }}</td>
                 <td class="num">{{ p.g18_entry }}</td>
-                <td><span :class="['badge', `badge-${p.consistency || 'pending'}`]">{{ p.consistency || "pending" }}</span></td>
+                <td v-if="hasConsistencyData"><span :class="['badge', `badge-${p.consistency || 'pending'}`]">{{ p.consistency || "pending" }}</span></td>
               </tr>
             </tbody>
           </table>
@@ -495,7 +544,7 @@ const filteredPublications = computed(() => {
           <h3>{{ uniqueGroups.length }} unique definition{{ uniqueGroups.length === 1 ? '' : 's' }} (each used by only one publication)</h3>
           <div class="table-scroll">
       <table>
-            <thead><tr><th>Ed.</th><th>Year</th><th>Publication</th><th>Clause</th><th>G 18 #</th><th>Definition</th><th></th></tr></thead>
+            <thead><tr><th>Ed.</th><th>Year</th><th>Publication</th><th>Clause</th><th>G 18 #</th><th>Definition</th><th v-if="hasConsistencyData"></th></tr></thead>
             <tbody>
               <tr v-for="g in uniqueGroups" :key="g.publications[0].g18_entry" class="row-divergent">
                 <td><span :class="['edition-pill', `edition-${g.publications[0].edition?.toLowerCase()}`]">{{ g.publications[0].edition }}</span></td>
@@ -504,7 +553,7 @@ const filteredPublications = computed(() => {
                 <td class="num">{{ g.publications[0].clause }}</td>
                 <td class="num">{{ g.publications[0].g18_entry }}</td>
                 <td style="max-width:400px"><div style="white-space:pre-wrap;font-size:0.9em"><DefText :text="g.definition" /></div></td>
-                <td><span :class="['badge', `badge-${g.publications[0].consistency || 'pending'}`]">{{ g.publications[0].consistency || "pending" }}</span></td>
+                <td v-if="hasConsistencyData"><span :class="['badge', `badge-${g.publications[0].consistency || 'pending'}`]">{{ g.publications[0].consistency || "pending" }}</span></td>
               </tr>
             </tbody>
           </table>
@@ -516,7 +565,7 @@ const filteredPublications = computed(() => {
       <template v-else>
         <div class="table-scroll">
       <table>
-          <thead><tr><th>Ed.</th><th>Year</th><th>Publication</th><th>Clause</th><th>G 18 #</th><th>Definition</th><th>Match</th><th>Notes</th><th>Source</th><th>Consistency</th></tr></thead>
+          <thead><tr><th>Ed.</th><th>Year</th><th>Publication</th><th>Clause</th><th>G 18 #</th><th>Definition</th><th>Match</th><th>Notes</th><th>Source</th><th v-if="hasConsistencyData">Consistency</th></tr></thead>
           <tbody>
             <tr v-for="p in filteredPublications" :key="p.g18_entry" v-show="rowVisible(p)" :class="{ 'row-divergent': distinctDefs.length > 1 && p.definition?.trim() !== distinctDefs[0], 'row-modified': p.source?.relationship === 'modified', 'row-differs': pubMatchStatus(p).key === 'differs' }">
               <td><span :class="['edition-pill', `edition-${p.edition?.toLowerCase()}`]">{{ p.edition }}</span></td>
@@ -546,7 +595,7 @@ const filteredPublications = computed(() => {
                 </span>
                 <span v-else class="muted">OIML</span>
               </td>
-              <td><span :class="['badge', `badge-${p.consistency || 'pending'}`]">{{ p.consistency || "pending" }}</span></td>
+              <td v-if="hasConsistencyData"><span :class="['badge', `badge-${p.consistency || 'pending'}`]">{{ p.consistency || "pending" }}</span></td>
             </tr>
           </tbody>
         </table>
