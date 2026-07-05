@@ -75,8 +75,61 @@ const topDivergent = computed(() =>
     <p class="lede">Dashboard for <strong>TC 1 / Vocabularies</strong> validating <a href="https://github.com/oimlsmart/vocab/tree/main/datasets/g18-202X">OIML G 18:202X</a>.</p>
   </div>
 
-  <!-- Getting started guide for TC 1 -->
-  <section class="card reveal reveal-1" style="background: var(--oiml-cream-soft); border-color: var(--oiml-brand-200);">
+  <!-- Audience funnel: who is this for? -->
+  <section class="audience-grid reveal reveal-1">
+    <article class="audience-card">
+      <div class="audience-index">01</div>
+      <h2 class="audience-name">TC 1 / Vocabularies</h2>
+      <p class="audience-blurb">Validating and harmonising the draft G 18:202X edition.</p>
+      <ul class="audience-links">
+        <li><SLink to="/actions/">Priority actions</SLink> <span class="muted">— worklist by urgency</span></li>
+        <li><SLink to="/harmonization/">Definition conflicts</SLink> <span class="muted">— divergent wording</span></li>
+        <li><SLink to="/conflicts/">ID conflicts</SLink> <span class="muted">— numbering errors</span></li>
+        <li><SLink to="/editions/">Edition comparison</SLink> <span class="muted">— 2010 → 202X</span></li>
+      </ul>
+    </article>
+
+    <article class="audience-card">
+      <div class="audience-index">02</div>
+      <h2 class="audience-name">TC/SC secretaries</h2>
+      <p class="audience-blurb">Reviewing term usage within their subcommittee's publications.</p>
+      <ul class="audience-links">
+        <li><SLink to="/tc/">TC/SC directory</SLink> <span class="muted">— your subcommittee</span></li>
+        <li><SLink to="/publications/">Publications</SLink> <span class="muted">— find yours</span></li>
+      </ul>
+    </article>
+
+    <article class="audience-card">
+      <div class="audience-index">03</div>
+      <h2 class="audience-name">Publication authors</h2>
+      <p class="audience-blurb">Looking up authoritative term definitions for OIML work.</p>
+      <ul class="audience-links">
+        <li><SLink to="/terms/">Terms</SLink> <span class="muted">— {{ terms.length }} entries with VIM/VIML status</span></li>
+        <li><SLink to="/editions/">Editions</SLink> <span class="muted">— current vs historic</span></li>
+      </ul>
+    </article>
+
+    <article class="audience-card">
+      <div class="audience-index">04</div>
+      <h2 class="audience-name">VIM / VIML maintainers</h2>
+      <p class="audience-blurb">Checking how OIML publications cite your vocabulary.</p>
+      <ul class="audience-links">
+        <li><SLink to="/terms/?only=defined_in_vim">VIM terms</SLink> <span class="muted">— citations from OIML pubs</span></li>
+        <li><SLink to="/terms/?only=defined_in_viml">VIML terms</SLink> <span class="muted">— citations from OIML pubs</span></li>
+        <li><SLink to="/actions/">Upgrade actions</SLink> <span class="muted">— superseded edition citations</span></li>
+      </ul>
+    </article>
+  </section>
+
+  <section class="grid grid-4 reveal reveal-2">
+    <SLink class="stat-card" to="/terms/"><div class="stat-value">{{ terms.length }}</div><div class="stat-label">unique terms</div></SLink>
+    <SLink class="stat-card" to="/harmonization/"><div class="stat-value">{{ divergentCount }}</div><div class="stat-label">divergent terms</div></SLink>
+    <SLink class="stat-card" to="/harmonization/"><div class="stat-value">{{ collisionCount }}</div><div class="stat-label">designation collisions</div></SLink>
+    <SLink class="stat-card" to="/conflicts/"><div class="stat-value">{{ rawConflictCount }}</div><div class="stat-label">ID conflicts</div></SLink>
+  </section>
+
+  <!-- General fallback: how to use the registry -->
+  <section class="card reveal reveal-3" style="background: var(--oiml-cream-soft); border-color: var(--oiml-brand-200);">
     <h2 style="color: var(--oiml-brand-700);">How to use this registry</h2>
     <ol style="margin: 0; padding-left: 1.4em; line-height: 1.7;">
       <li><strong>Review priority actions below</strong> — terms needing immediate attention (outdated VIM refs, divergent definitions).</li>
@@ -88,14 +141,7 @@ const topDivergent = computed(() =>
     </ol>
   </section>
 
-  <section class="grid grid-4 reveal reveal-2">
-    <SLink class="stat-card" to="/terms/"><div class="stat-value">{{ terms.length }}</div><div class="stat-label">unique terms</div></SLink>
-    <SLink class="stat-card" to="/harmonization/"><div class="stat-value">{{ divergentCount }}</div><div class="stat-label">divergent terms</div></SLink>
-    <SLink class="stat-card" to="/harmonization/"><div class="stat-value">{{ collisionCount }}</div><div class="stat-label">designation collisions</div></SLink>
-    <SLink class="stat-card" to="/conflicts/"><div class="stat-value">{{ rawConflictCount }}</div><div class="stat-label">ID conflicts</div></SLink>
-  </section>
-
-  <section class="card reveal reveal-3">
+  <section class="card reveal reveal-4">
     <h2>Priority actions for TC 1</h2>
     <p class="lede">Top 15 items needing attention, sorted by urgency.</p>
     <div class="table-scroll">

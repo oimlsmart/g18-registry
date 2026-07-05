@@ -306,6 +306,77 @@ tbody tr:hover { background: var(--color-accent-tint); }
 /* stats grid */
 .grid { display: grid; gap: 1rem; }
 .grid-4 { grid-template-columns: repeat(4, 1fr); }
+.grid-3 { grid-template-columns: repeat(3, 1fr); }
+
+/* ── Audience funnel (home page) ─────────────────────────────────────── */
+.audience-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+.audience-card {
+  background: var(--color-paper-soft);
+  border: 1px solid var(--color-rule);
+  border-radius: var(--radius-card);
+  padding: 1.5rem 1.6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  position: relative;
+  transition: border-color 0.18s, transform 0.18s, box-shadow 0.18s;
+}
+.audience-card:hover {
+  border-color: var(--color-accent);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px -10px rgba(10, 22, 40, 0.10);
+}
+.audience-index {
+  font-family: var(--font-display);
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--color-accent);
+  letter-spacing: 0.05em;
+  margin-bottom: 0.2rem;
+  font-variation-settings: "opsz" 14, "SOFT" var(--display-soft, 30), "WONK" var(--display-wonk, 0);
+}
+.audience-name {
+  font-family: var(--font-display);
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: var(--color-ink);
+  margin: 0;
+  letter-spacing: -0.02em;
+  font-variation-settings: "opsz" 60, "SOFT" var(--display-soft, 30), "WONK" var(--display-wonk, 0);
+  border: none;
+  padding: 0;
+}
+.audience-blurb {
+  font-style: italic;
+  color: var(--color-ink-soft);
+  margin: 0 0 0.6rem;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+.audience-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4em;
+}
+.audience-links li {
+  margin: 0;
+  font-size: 0.92rem;
+  line-height: 1.4;
+}
+.audience-links li .muted { font-size: 0.85em; }
+@media (max-width: 880px) {
+  .audience-grid { grid-template-columns: 1fr; }
+  .audience-name { font-size: 1.25rem; }
+}
+
 .stat-card {
   display: block;
   background: var(--color-paper-soft);
