@@ -9,18 +9,25 @@ const route = useRoute();
 const { label, confidenceClass, isCurrent, isSuperseded, latestLabel, role } = useVocabularyEdition();
 
 const term = computed(() => (termBySlug as any)[route.params.slug as string]);
-const enabledEditions = ref<Set<string>>(new Set());
+
+// Edition filter (single-select, mirrors the publication/TC pages).
+// Drives the `enabledEditions` Set used downstream by the definition-group
+// and Publication instances tables.
+type EditionFilter = "202X" | "2010" | "all";
+const editionFilter = ref<EditionFilter>("all");
+const enabledEditions = computed(() => {
+  const eds = term.value?.editions_present || [];
+  if (editionFilter.value === "all") return new Set(eds);
+  return new Set(eds.filter(e => e === editionFilter.value));
+});
 const groupMode = ref(true);
 
-function initEditions() {
-  if (term.value?.editions_present) enabledEditions.value = new Set(term.value.editions_present);
+function editionCount(ed: string): number {
+  return (term.value?.publications || []).filter(p => p.edition === ed).length;
 }
-initEditions();
 
-function toggleEdition(ed: string) {
-  if (enabledEditions.value.has(ed)) enabledEditions.value.delete(ed);
-  else enabledEditions.value.add(ed);
-  enabledEditions.value = new Set(enabledEditions.value);
+function setEditionFilter(f: EditionFilter) {
+  editionFilter.value = f;
 }
 
 function kindLabel(k: string) { return k === "defined_in_vim" ? "VIM" : k === "defined_in_viml" ? "VIML" : "—"; }
@@ -394,6 +401,31 @@ const filteredPublications = computed(() => {
       visually deprioritized.
     </section>
 
+    <!-- Sticky page-level edition filter (same pattern as publication/TC pages) -->
+    <div v-if="!isHistoricTerm && (term.editions_present || []).length > 1" class="page-filter" role="region" aria-label="Edition filter">
+      <span class="page-filter-label">Edition scope</span>
+      <div class="page-filter-controls">
+        <button v-if="(term.editions_present || []).includes('202X')" type="button"
+                :class="['page-filter-btn', { 'page-filter-btn-active': editionFilter === '202X' }]"
+                @click="setEditionFilter('202X')">
+          <span class="page-filter-btn-title">202X</span>
+          <span class="page-filter-btn-meta">{{ editionCount('202X') }} instances · draft, TC 1 acts here</span>
+        </button>
+        <button v-if="(term.editions_present || []).includes('2010')" type="button"
+                :class="['page-filter-btn', { 'page-filter-btn-active': editionFilter === '2010' }]"
+                @click="setEditionFilter('2010')">
+          <span class="page-filter-btn-title">2010</span>
+          <span class="page-filter-btn-meta">{{ editionCount('2010') }} instances · historic, read-only</span>
+        </button>
+        <button type="button"
+                :class="['page-filter-btn', { 'page-filter-btn-active': editionFilter === 'all' }]"
+                @click="setEditionFilter('all')">
+          <span class="page-filter-btn-title">All</span>
+          <span class="page-filter-btn-meta">{{ term.publications.length }} instances · both editions</span>
+        </button>
+      </div>
+    </div>
+
     <section class="card" v-if="term.official_concept && term.kind !== 'undefined'">
       <h2>Authoritative definition</h2>
       <div :class="['authority-defn', confidenceClass(term.official_concept.source)]">
@@ -550,11 +582,6 @@ const filteredPublications = computed(() => {
         <h2>Publication instances</h2>
         <div style="display:flex;gap:1em;align-items:center;flex-wrap:wrap">
           <label><input type="checkbox" v-model="groupMode" /> Group identical</label>
-          <span v-for="ed in term.editions_present" :key="ed">
-            <label><input type="checkbox" :checked="enabledEditions.has(ed)" @change="toggleEdition(ed)" />
-              <span :class="['edition-pill', `edition-${ed.toLowerCase()}`]">{{ ed }}</span>
-            </label>
-          </span>
           <select v-model="onlyTC" v-if="allTCs.length > 1" aria-label="Filter by TC/SC">
             <option value="">All TC/SCs</option>
             <option v-for="tc in allTCs" :key="tc" :value="tc">{{ tc }}</option>

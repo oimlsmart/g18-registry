@@ -48,18 +48,40 @@ function tcscList(pubs: any[]): string {
   return Array.from(set).sort().join(", ");
 }
 
+// Per-edition distinct def count for a single edition (used by edition filter).
+function distinctDefsInEdition(pubs: any[], edition: string): number {
+  return new Set(
+    pubs.filter(p => (p.edition || "(unspecified)") === edition)
+        .map(p => (p.definition || "").trim())
+        .filter(Boolean)
+  ).size;
+}
+
+// Edition filter: scope worklist to a single edition. 202X = TC 1's work;
+// 2010 = historic conflicts (can't fix, only document); All = both.
+type EditionFilter = "202X" | "2010" | "all";
+const editionFilter = ref<EditionFilter>("202X");
+
 const rows = computed(() => {
   let list = (harmonization as any[])
-    .map(t => ({
-      ...t,
-      _defs: distinctDefs(t.publications),
-      _pubs: t.publications.length,
-    }))
-    // Only show terms with WITHIN-EDITION divergence — these are the real
-    // harmonisation conflicts. Cross-edition-only differences are intentional
-    // editorial evolution, and identical-across-all-pubs is "ready to
-    // standardize" (handled in its own section below).
-    .filter(t => t._defs >= 2);
+    .map(t => {
+      const d202X = distinctDefsInEdition(t.publications, "202X");
+      const d2010 = distinctDefsInEdition(t.publications, "2010");
+      return {
+        ...t,
+        _defs: editionFilter.value === "2010" ? d2010 : d202X,  // drives display
+        _defs202X: d202X,
+        _defs2010: d2010,
+        _pubs: t.publications.length,
+      };
+    })
+    // Show only terms that have within-edition divergence IN the selected
+    // edition. (All view shows terms divergent in either edition.)
+    .filter(t => {
+      if (editionFilter.value === "202X") return t._defs202X >= 2;
+      if (editionFilter.value === "2010") return t._defs2010 >= 2;
+      return t._defs202X >= 2 || t._defs2010 >= 2;
+    });
   if (search.value) {
     const q = search.value.toLowerCase();
     list = list.filter(t => t.name?.toLowerCase().includes(q));
@@ -72,9 +94,19 @@ const rows = computed(() => {
   return [...list].sort(sortFn[sort.value]);
 });
 
+// Total per-edition counts for the filter button meta text.
+const editionCounts = computed(() => {
+  const c = { "202X": 0, "2010": 0 };
+  for (const t of (harmonization as any[])) {
+    if (distinctDefsInEdition(t.publications, "202X") >= 2) c["202X"]++;
+    if (distinctDefsInEdition(t.publications, "2010") >= 2) c["2010"]++;
+  }
+  return c;
+});
+
 const pagination = usePagination(rows, {
   pageSize: 50,
-  dep: () => `${sort.value}|${search.value}`,
+  dep: () => `${sort.value}|${search.value}|${editionFilter.value}`,
 });
 
 const topDivergent = computed(() => [...rows.value].sort((a, b) => b._defs - a._defs || b._pubs - a._pubs).slice(0, 20));
@@ -182,6 +214,31 @@ function collisionSummary(ed: string) {
       </div>
     </div>
   </section>
+
+  <!-- Sticky page-level edition filter -->
+  <div class="page-filter" role="region" aria-label="Edition filter">
+    <span class="page-filter-label">Edition scope</span>
+    <div class="page-filter-controls">
+      <button type="button"
+              :class="['page-filter-btn', { 'page-filter-btn-active': editionFilter === '202X' }]"
+              @click="editionFilter = '202X'">
+        <span class="page-filter-btn-title">202X</span>
+        <span class="page-filter-btn-meta">{{ editionCounts["202X"] }} divergent terms · draft, TC 1 acts here</span>
+      </button>
+      <button type="button"
+              :class="['page-filter-btn', { 'page-filter-btn-active': editionFilter === '2010' }]"
+              @click="editionFilter = '2010'">
+        <span class="page-filter-btn-title">2010</span>
+        <span class="page-filter-btn-meta">{{ editionCounts["2010"] }} divergent terms · historic, read-only</span>
+      </button>
+      <button type="button"
+              :class="['page-filter-btn', { 'page-filter-btn-active': editionFilter === 'all' }]"
+              @click="editionFilter = 'all'">
+        <span class="page-filter-btn-title">All</span>
+        <span class="page-filter-btn-meta">divergent in either edition</span>
+      </button>
+    </div>
+  </div>
 
   <!-- Worklist with sort -->
   <section id="worklist" class="card">

@@ -108,11 +108,20 @@ interface Row {
   kind: string;
 }
 
+// Find the publication instance matching the active edition filter.
+// A term may have both 2010 and 202X instances of this pub — picking the
+// first match would leak 2010 data into the 202X view (and vice versa).
+function pubInstanceForEdition(term: any): any {
+  const pubs = (term?.publications || []).filter((p: any) => p.publication_id === pubId.value);
+  if (editionFilter.value === "all") return pubs[0];
+  return pubs.find((p: any) => p.edition === editionFilter.value) || pubs[0];
+}
+
 const actionRows = computed<Row[]>(() => {
   const rows: Row[] = [];
   for (const a of pubActions.value) {
     const t = terms.find(x => x.slug === a.slug);
-    const pub = t?.publications.find((p: any) => p.publication_id === pubId.value);
+    const pub = pubInstanceForEdition(t);
     rows.push({
       slug: a.slug, name: a.name, type: a.type, priority: a.priority,
       description: a.description,
@@ -293,13 +302,14 @@ const actionTypesPresent = computed(() => {
       <p class="lede">No action needed — these terms match the authoritative baseline.</p>
       <div class="table-scroll">
         <table>
-          <thead><tr><th>Term</th><th>VIM</th><th>Clause</th><th>Definition</th></tr></thead>
+          <thead><tr><th>Term</th><th>VIM</th><th>Ed.</th><th>Clause</th><th>Definition</th></tr></thead>
           <tbody>
             <tr v-for="t in cleanTerms" :key="t.slug">
               <td class="term-cell"><SLink :to="`/terms/${t.slug}/`">{{ t.name }}</SLink></td>
               <td><span :class="['kind', `kind-${t.kind}`]">{{ kindLabel(t.kind) }}</span></td>
-              <td><code>{{ t.publications.find((p: any) => p.publication_id === pubId)?.clause || '—' }}</code></td>
-              <td style="max-width:540px">{{ t.publications.find((p: any) => p.publication_id === pubId)?.definition }}</td>
+              <td><span :class="['edition-pill', `edition-${pubInstanceForEdition(t)?.edition?.toLowerCase() || ''}`]">{{ pubInstanceForEdition(t)?.edition || '—' }}</span></td>
+              <td><code>{{ pubInstanceForEdition(t)?.clause || '—' }}</code></td>
+              <td style="max-width:540px">{{ pubInstanceForEdition(t)?.definition }}</td>
             </tr>
           </tbody>
         </table>
