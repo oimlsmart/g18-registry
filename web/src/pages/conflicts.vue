@@ -1,10 +1,29 @@
 <script setup lang="ts">
+import { computed, ref } from "vue";
 import conflictsData from "@/data/conflicts.json";
 import { slugifyPubId } from "@/composables/useSuggestedActions";
 
-const rawByEdition = (conflictsData as any).raw || {};
-const editions = Object.keys(rawByEdition).sort();
-const totalCount = Object.values(rawByEdition).flat().length;
+type EditionFilter = "202X" | "2010" | "all";
+const editionFilter = ref<EditionFilter>("202X");
+
+const rawByEditionAll = (conflictsData as any).raw || {};
+const allEditions = Object.keys(rawByEditionAll).sort((a, b) =>
+  (b === "202X" ? 1 : 0) - (a === "202X" ? 1 : 0)
+);
+// Editions shown in the current view (respecting the filter).
+const editions = computed(() =>
+  editionFilter.value === "all" ? allEditions : allEditions.filter(e => e === editionFilter.value)
+);
+const totalCount = computed(() =>
+  editions.value.reduce((s, ed) => s + (rawByEditionAll[ed] || []).length, 0)
+);
+
+// Per-edition counts for the filter button meta text.
+const editionCounts = computed(() => {
+  const c: Record<string, number> = { "202X": 0, "2010": 0 };
+  for (const ed of allEditions) c[ed] = (rawByEditionAll[ed] || []).length;
+  return c;
+});
 
 function slugify(s: string): string {
   return s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
@@ -28,6 +47,31 @@ function slugify(s: string): string {
     </p>
   </div>
 
+  <!-- Sticky page-level edition filter — same pattern as other registry pages -->
+  <div class="page-filter" role="region" aria-label="Edition filter">
+    <span class="page-filter-label">Edition scope</span>
+    <div class="page-filter-controls">
+      <button type="button"
+              :class="['page-filter-btn', { 'page-filter-btn-active': editionFilter === '202X' }]"
+              @click="editionFilter = '202X'">
+        <span class="page-filter-btn-title">202X</span>
+        <span class="page-filter-btn-meta">{{ editionCounts["202X"] }} conflicting IDs · draft, TC 1 acts here</span>
+      </button>
+      <button type="button"
+              :class="['page-filter-btn', { 'page-filter-btn-active': editionFilter === '2010' }]"
+              @click="editionFilter = '2010'">
+        <span class="page-filter-btn-title">2010</span>
+        <span class="page-filter-btn-meta">{{ editionCounts["2010"] }} conflicting IDs · historic, read-only</span>
+      </button>
+      <button type="button"
+              :class="['page-filter-btn', { 'page-filter-btn-active': editionFilter === 'all' }]"
+              @click="editionFilter = 'all'">
+        <span class="page-filter-btn-title">All</span>
+        <span class="page-filter-btn-meta">{{ allEditions.reduce((s, e) => s + editionCounts[e], 0) }} conflicting IDs · both editions</span>
+      </button>
+    </div>
+  </div>
+
   <section class="card">
     <h2>What is an ID conflict?</h2>
     <p>
@@ -39,17 +83,17 @@ function slugify(s: string): string {
       in the 202X revision.
     </p>
     <p v-if="!totalCount" class="muted">
-      No ID conflicts detected in any edition. ✓
+      No ID conflicts detected in the selected edition. ✓
     </p>
   </section>
 
   <section v-for="ed in editions" :key="ed" class="card">
-    <h2>{{ ed }} <span class="muted">({{ rawByEdition[ed].length }} conflicting IDs)</span></h2>
+    <h2>{{ ed }} <span class="muted">({{ rawByEditionAll[ed].length }} conflicting IDs)</span></h2>
     <div class="table-scroll">
       <table>
       <thead><tr><th style="width:7em">ID</th><th>Distinct concepts sharing the ID</th></tr></thead>
       <tbody>
-        <tr v-for="c in rawByEdition[ed]" :key="c.id">
+        <tr v-for="c in rawByEditionAll[ed]" :key="c.id">
           <td><code>{{ c.id }}</code></td>
           <td>
             <div v-for="con in c.concepts" :key="con.designation + con.source" class="conflict-concept">

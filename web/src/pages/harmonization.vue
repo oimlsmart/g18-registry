@@ -122,7 +122,12 @@ const standardizeTerms = computed(() =>
 );
 
 // Designation-collision analysis (same concept cited under multiple G 18 IDs)
-const collisionEditions = Object.keys((conflictsData as any).designation_collisions || {}).sort((a: string, b: string) => (b === "202X" ? 1 : 0) - (a === "202X" ? 1 : 0));
+const collisionEditions = computed(() => {
+  const all = Object.keys((conflictsData as any).designation_collisions || {})
+    .sort((a: string, b: string) => (b === "202X" ? 1 : 0) - (a === "202X" ? 1 : 0));
+  if (editionFilter.value === "all") return all;
+  return all.filter(e => e === editionFilter.value);
+});
 function collisionSummary(ed: string) {
   const list = ((conflictsData as any).designation_collisions || {})[ed] || [];
   const totalIds = list.reduce((s: number, c: any) => s + c.ids.length, 0);
@@ -150,6 +155,31 @@ function collisionSummary(ed: string) {
       collapsed) and decide: merge into one, or document why divergence is
       intentional.
     </p>
+  </div>
+
+  <!-- Sticky page-level edition filter — at top so users see scope immediately -->
+  <div class="page-filter" role="region" aria-label="Edition filter">
+    <span class="page-filter-label">Edition scope</span>
+    <div class="page-filter-controls">
+      <button type="button"
+              :class="['page-filter-btn', { 'page-filter-btn-active': editionFilter === '202X' }]"
+              @click="editionFilter = '202X'">
+        <span class="page-filter-btn-title">202X</span>
+        <span class="page-filter-btn-meta">{{ editionCounts["202X"] }} divergent terms · draft, TC 1 acts here</span>
+      </button>
+      <button type="button"
+              :class="['page-filter-btn', { 'page-filter-btn-active': editionFilter === '2010' }]"
+              @click="editionFilter = '2010'">
+        <span class="page-filter-btn-title">2010</span>
+        <span class="page-filter-btn-meta">{{ editionCounts["2010"] }} divergent terms · historic, read-only</span>
+      </button>
+      <button type="button"
+              :class="['page-filter-btn', { 'page-filter-btn-active': editionFilter === 'all' }]"
+              @click="editionFilter = 'all'">
+        <span class="page-filter-btn-title">All</span>
+        <span class="page-filter-btn-meta">divergent in either edition</span>
+      </button>
+    </div>
   </div>
 
   <!-- Subnav for quick jumping between sections -->
@@ -214,31 +244,6 @@ function collisionSummary(ed: string) {
       </div>
     </div>
   </section>
-
-  <!-- Sticky page-level edition filter -->
-  <div class="page-filter" role="region" aria-label="Edition filter">
-    <span class="page-filter-label">Edition scope</span>
-    <div class="page-filter-controls">
-      <button type="button"
-              :class="['page-filter-btn', { 'page-filter-btn-active': editionFilter === '202X' }]"
-              @click="editionFilter = '202X'">
-        <span class="page-filter-btn-title">202X</span>
-        <span class="page-filter-btn-meta">{{ editionCounts["202X"] }} divergent terms · draft, TC 1 acts here</span>
-      </button>
-      <button type="button"
-              :class="['page-filter-btn', { 'page-filter-btn-active': editionFilter === '2010' }]"
-              @click="editionFilter = '2010'">
-        <span class="page-filter-btn-title">2010</span>
-        <span class="page-filter-btn-meta">{{ editionCounts["2010"] }} divergent terms · historic, read-only</span>
-      </button>
-      <button type="button"
-              :class="['page-filter-btn', { 'page-filter-btn-active': editionFilter === 'all' }]"
-              @click="editionFilter = 'all'">
-        <span class="page-filter-btn-title">All</span>
-        <span class="page-filter-btn-meta">divergent in either edition</span>
-      </button>
-    </div>
-  </div>
 
   <!-- Worklist with sort -->
   <section id="worklist" class="card">
