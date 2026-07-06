@@ -47,6 +47,15 @@ function termMatchesEdition(term: any): boolean {
 }
 const filteredPubTerms = computed(() => pubTerms.value.filter(termMatchesEdition));
 
+// "Needs action" = a real defect (citation outdated, divergent definitions,
+// adoption gap). Pure-information actions (OIML-original, ready-to-
+// standardize) do NOT count as defects — a term that is OIML-original and
+// cited consistently across all pubs is clean, not action-required.
+const DEFECT_ACTION_TYPES = new Set([
+  "upgrade_vim", "upgrade_viml", "removed",
+  "harmonize", "adopt_vim", "adopt_viml",
+]);
+
 // All actions where this pub is in publication_ids — filtered by whether
 // the term has a pub instance in the selected edition AND the action
 // actually applies to that edition. Without this scoping, a 2010-only
@@ -65,7 +74,11 @@ function actionAppliesToEdition(a: any, edition: string): boolean {
 
 const pubActions = computed(() => {
   const all = forPublication(pubId.value);
+  // For the publication detail page we only surface DEFECT actions in the
+  // "needs action" list. Info actions (unique, standardize) are positive
+  // or neutral — they don't belong in a worklist of problems to fix.
   return all.filter(a => {
+    if (!DEFECT_ACTION_TYPES.has(a.type)) return false;
     if (editionFilter.value === "all") return true;
     const t = terms.find(t => t.slug === a.slug);
     if (!t) return false;
@@ -226,7 +239,7 @@ const actionTypesPresent = computed(() => {
       <div class="prov-grid">
         <div class="prov-tile prov-tile-warn">
           <div class="prov-tile-num">{{ pubActionTermCount }}</div>
-          <div class="prov-tile-label">Terms needing action ({{ editionFilter === "all" ? "all editions" : editionFilter }})</div>
+          <div class="prov-tile-label">Terms in G 18 needing action ({{ editionFilter === "all" ? "all editions" : editionFilter }})</div>
         </div>
         <div class="prov-tile">
           <div class="prov-tile-num">{{ cleanTerms.length }}</div>
@@ -252,7 +265,7 @@ const actionTypesPresent = computed(() => {
     <!-- Action list with view modes -->
     <section v-if="pubActions.length" class="card">
       <div class="card-head">
-        <h2>Terms needing action</h2>
+        <h2>Terms in G 18 needing action</h2>
         <div class="sort-toggle" role="group" aria-label="View mode">
           <button v-for="m in viewModes" :key="m.val"
             type="button"
@@ -298,7 +311,7 @@ const actionTypesPresent = computed(() => {
 
     <!-- Clean terms -->
     <section v-if="cleanTerms.length" class="card">
-      <h2>Clean terms ({{ cleanTerms.length }})</h2>
+      <h2>Clean terms in G 18 ({{ cleanTerms.length }})</h2>
       <p class="lede">No action needed — these terms match the authoritative baseline.</p>
       <div class="table-scroll">
         <table>

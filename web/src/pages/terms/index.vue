@@ -6,13 +6,36 @@ import { usePagination } from "@/composables/usePagination";
 
 const route = useRoute();
 const search = ref("");
-const onlyEdition = ref((route.query.only as string) || "");
+// Edition filter — 3-button sticky pattern. URL `?only=` params from old
+// dashboard links still work: "202X" / "2010" map directly; "202X-only" /
+// "2010-only" map to the closest scope + a banner explaining the cross-
+// edition filter that's active.
+type EditionFilter = "202X" | "2010" | "all";
+const initialOnly = (route.query.only as string) || "";
+const editionFilter = ref<EditionFilter>(
+  initialOnly === "2010" ? "2010" :
+  initialOnly === "202X" || initialOnly === "202X-only" ? "202X" :
+  initialOnly === "2010-only" ? "all" : "202X"
+);
+// Cross-edition filter (set by `?only=` URL params from dashboard links).
+const crossEdition = ref<"added" | "removed" | null>(
+  initialOnly === "202X-only" ? "added" :
+  initialOnly === "2010-only" ? "removed" : null
+);
+watch(() => route.query.only, (val) => {
+  const v = (val as string) || "";
+  if (v === "202X" || v === "202X-only") editionFilter.value = "202X";
+  else if (v === "2010") editionFilter.value = "2010";
+  else if (v === "2010-only") editionFilter.value = "all";
+  crossEdition.value =
+    v === "202X-only" ? "added" :
+    v === "2010-only" ? "removed" : null;
+});
+
 const onlyTC = ref("");
 const onlyKind = ref("");
 const sortKey = ref<"name" | "pubs" | "defs">("name");
 const sortDir = ref<1 | -1>(1);
-
-watch(() => route.query.only, (val) => { onlyEdition.value = (val as string) || ""; });
 
 const allTCs = computed(() => {
   const set = new Set<string>();
@@ -30,12 +53,15 @@ function distinctDefs(pubs: any[]) {
 
 const filtered = computed(() => {
   let t = terms as any[];
-  if (onlyEdition.value === "2010-only") {
-    t = t.filter(x => (x.editions_present || []).includes("2010") && !(x.editions_present || []).includes("202X"));
-  } else if (onlyEdition.value === "202X-only") {
+  // Edition scope (sticky filter)
+  if (editionFilter.value !== "all") {
+    t = t.filter(x => (x.editions_present || []).includes(editionFilter.value));
+  }
+  // Cross-edition overlay (?only=...-only from dashboard links)
+  if (crossEdition.value === "added") {
     t = t.filter(x => (x.editions_present || []).includes("202X") && !(x.editions_present || []).includes("2010"));
-  } else if (onlyEdition.value) {
-    t = t.filter(x => x.editions_present?.includes(onlyEdition.value));
+  } else if (crossEdition.value === "removed") {
+    t = t.filter(x => (x.editions_present || []).includes("2010") && !(x.editions_present || []).includes("202X"));
   }
   if (onlyTC.value) {
     t = t.filter(x => x.publications?.some((p: any) => p.tc_sc === onlyTC.value));
@@ -59,7 +85,7 @@ const filtered = computed(() => {
 
 const pagination = usePagination(filtered, {
   pageSize: 50,
-  dep: () => `${onlyEdition.value}|${onlyTC.value}|${onlyKind.value}|${search.value}|${sortKey.value}|${sortDir.value}`,
+  dep: () => `${editionFilter.value}|${crossEdition.value}|${onlyTC.value}|${onlyKind.value}|${search.value}|${sortKey.value}|${sortDir.value}`,
 });
 
 function toggleSort(key: "name" | "pubs" | "defs") {
@@ -83,10 +109,10 @@ function admittedOf(t: any): string[] {
 }
 
 const pageTitle = computed(() => {
-  if (onlyEdition.value === "2010-only") return "Terms removed in 202X (2010 only)";
-  if (onlyEdition.value === "202X-only") return "Terms added in 202X (not in 2010)";
-  if (onlyEdition.value === "2010") return "Terms in 2010";
-  if (onlyEdition.value === "202X") return "Terms in 202X";
+  if (crossEdition.value === "removed") return "Terms removed in 202X (2010 only)";
+  if (crossEdition.value === "added") return "Terms added in 202X (not in 2010)";
+  if (editionFilter.value === "2010") return "Terms in 2010";
+  if (editionFilter.value === "202X") return "Terms in 202X";
   return "All terms";
 });
 </script>
@@ -97,6 +123,40 @@ const pageTitle = computed(() => {
     <h1>{{ pageTitle }}</h1>
     <p class="lede">{{ filtered.length }} of {{ terms.length }} terms, {{ (terms as any[]).reduce((s, t) => s + t.publications.length, 0) }} instances.</p>
   </div>
+
+  <!-- Sticky page-level edition filter (3-button pattern, same as other pages) -->
+  <div class="page-filter" role="region" aria-label="Edition filter">
+    <span class="page-filter-label">Edition scope</span>
+    <div class="page-filter-controls">
+      <button type="button"
+              :class="['page-filter-btn', { 'page-filter-btn-active': editionFilter === '202X' && !crossEdition }]"
+              @click="editionFilter = '202X'; crossEdition = null">
+        <span class="page-filter-btn-title">202X</span>
+        <span class="page-filter-btn-meta">draft, TC 1 acts here</span>
+      </button>
+      <button type="button"
+              :class="['page-filter-btn', { 'page-filter-btn-active': editionFilter === '2010' && !crossEdition }]"
+              @click="editionFilter = '2010'; crossEdition = null">
+        <span class="page-filter-btn-title">2010</span>
+        <span class="page-filter-btn-meta">historic, read-only</span>
+      </button>
+      <button type="button"
+              :class="['page-filter-btn', { 'page-filter-btn-active': editionFilter === 'all' && !crossEdition }]"
+              @click="editionFilter = 'all'; crossEdition = null">
+        <span class="page-filter-btn-title">All</span>
+        <span class="page-filter-btn-meta">both editions</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Cross-edition banner: shown when ?only=202X-only or ?only=2010-only
+       brings the user here from the dashboard "Terms added/removed" links. -->
+  <div v-if="crossEdition" class="cross-edition-banner">
+    <strong>{{ crossEdition === "added" ? "Added in 202X" : "Removed from 202X" }}.</strong>
+    Showing terms {{ crossEdition === "added" ? "present in 202X but not in 2010" : "present in 2010 but not in 202X" }}.
+    <button type="button" class="link-button" @click="crossEdition = null">Clear</button>
+  </div>
+
   <section class="card">
     <form class="filter-form" @submit.prevent>
       <input v-model="search" type="search" placeholder="Search…" />
@@ -105,13 +165,6 @@ const pageTitle = computed(() => {
         <option value="defined_in_vim">VIM only</option>
         <option value="defined_in_viml">VIML only</option>
         <option value="undefined">Neither (OIML-original)</option>
-      </select>
-      <select v-model="onlyEdition">
-        <option value="">All editions</option>
-        <option value="202X">202X (draft)</option>
-        <option value="2010">2010 (historic)</option>
-        <option value="202X-only">Added: 202X only</option>
-        <option value="2010-only">Removed: 2010 only</option>
       </select>
       <select v-model="onlyTC">
         <option value="">All TC/SCs</option>
