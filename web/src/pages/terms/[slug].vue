@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed, ref } from "vue";
+import { computed, ref, watchEffect } from "vue";
 import { useRoute } from "vue-router";
 import termBySlug from "@/data/term-by-slug.json";
 import { useVocabularyEdition } from "@/composables/useVocabularyEdition";
@@ -15,6 +15,16 @@ const term = computed(() => (termBySlug as any)[route.params.slug as string]);
 // and Publication instances tables.
 type EditionFilter = "202X" | "2010" | "all";
 const editionFilter = ref<EditionFilter>("all");
+
+// Default to 202X when the term is in the draft edition — TC 1 acts there.
+// 2010-only terms default to "all" (the historic callout above handles them).
+watchEffect(() => {
+  if (!term.value) return;
+  const eds = term.value.editions_present || [];
+  if (eds.includes("202X")) editionFilter.value = "202X";
+  else editionFilter.value = "all";
+});
+
 const enabledEditions = computed(() => {
   const eds = term.value?.editions_present || [];
   if (editionFilter.value === "all") return new Set(eds);
@@ -385,7 +395,7 @@ const filteredPublications = computed(() => {
   <template v-else>
     <div class="page-head">
       <div class="breadcrumb"><SLink to="/">Registry</SLink> / <SLink to="/terms/">Terms</SLink> / <span>{{ term.name }}</span></div>
-      <h1>{{ term.name }}</h1>
+      <h1><DefText :text="term.name" /></h1>
       <p class="lede">
         <span :class="['kind', `kind-${term.kind}`]">{{ kindLabel(term.kind) }}</span>
         <span v-if="matchStatus" :class="['match-status', `match-status-${matchStatus.key}`]">{{ matchStatus.label }}</span>

@@ -829,6 +829,83 @@ tbody tr:hover { background: var(--color-accent-tint); }
   }
 }
 
+/* Desktop / mobile toggle: show wide table on desktop, cards on mobile. */
+.table-only-mobile { display: none; }
+@media (max-width: 720px) {
+  .table-only-desktop { display: none; }
+  .table-only-mobile { display: block; }
+}
+
+/* Term cards (mobile replacement for the terms list table). */
+.term-cards {
+  list-style: none;
+  margin: 0.5rem 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+.term-card {
+  background: var(--color-paper-soft);
+  border: 1px solid var(--color-rule);
+  border-radius: var(--radius-card);
+  padding: 0.85rem 1rem;
+  margin: 0;
+}
+.term-card-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0.6em;
+  margin-bottom: 0.4em;
+}
+.term-card-name {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: 1.0625rem;
+  color: var(--color-ink);
+  letter-spacing: -0.005em;
+  line-height: 1.25;
+  font-variation-settings: "opsz" 24, "SOFT" var(--display-soft, 30), "WONK" var(--display-wonk, 0);
+  text-decoration: none;
+}
+.term-card-name:hover { color: var(--color-accent); text-decoration: underline; }
+.term-card-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25em;
+  margin: 0.3em 0 0.5em;
+  font-size: 0.88rem;
+}
+.term-card-meta .muted {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 600;
+  margin-right: 0.4em;
+}
+.term-card-alt .alt-term {
+  font-style: italic;
+  color: var(--color-ink-soft);
+}
+.term-card-alt .alt-term:not(:last-child)::after { content: "; "; }
+.term-card-sym { display: inline-flex; align-items: baseline; flex-wrap: wrap; gap: 0.3em; }
+.term-card-stats {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  margin-top: 0.3em;
+}
+.term-card-stat {
+  font-size: 0.82rem;
+  color: var(--color-ink-soft);
+}
+.term-card-stat strong {
+  font-variant-numeric: tabular-nums;
+  color: var(--color-ink);
+}
+
 /* responsive grids */
 @media (max-width: 880px) {
   .card { padding: 1.25rem 1.3rem; margin: 1.1rem 0; }

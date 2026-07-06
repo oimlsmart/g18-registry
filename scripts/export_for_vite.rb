@@ -176,7 +176,7 @@ Dir.glob(File.join(options[:data_dir], "*.yaml")).sort.each do |path|
   term = {
     "slug" => File.basename(path, ".yaml"),
     "identifier" => data["identifier"],
-    "name" => data["term"],
+    "name" => render_stem(data["term"]),
     "designations" => render_stem_deep(data["designations"] || []),
     "kind" => data["kind"],
     "official_concept" => render_stem_deep(data["official_concept"]),

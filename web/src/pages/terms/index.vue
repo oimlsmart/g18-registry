@@ -119,7 +119,7 @@ const pageTitle = computed(() => {
       </select>
       <span class="muted">{{ filtered.length }} shown</span>
     </form>
-    <div class="table-scroll">
+    <div class="table-scroll table-only-desktop">
       <table>
       <thead>
         <tr>
@@ -151,6 +151,33 @@ const pageTitle = computed(() => {
       </tbody>
     </table>
     </div>
+
+    <!-- Mobile card view: replaces the wide table on narrow screens so users
+         don't need to scroll horizontally to see every column. -->
+    <ul class="term-cards table-only-mobile">
+      <li v-for="t in pagination.visible.value" :key="t.slug" class="term-card">
+        <div class="term-card-head">
+          <SLink :to="`/terms/${t.slug}/`" class="term-card-name"><DefText :text="t.name" /></SLink>
+          <span :class="['kind', `kind-${t.kind}`]">{{ kindLabel(t.kind) }}</span>
+        </div>
+        <div v-if="admittedOf(t).length || symbolsOf(t).length" class="term-card-meta">
+          <span v-if="admittedOf(t).length" class="term-card-alt">
+            <span class="muted">alt:</span>
+            <span v-for="ad in admittedOf(t)" :key="ad" class="alt-term">{{ ad }}</span>
+          </span>
+          <span v-if="symbolsOf(t).length" class="term-card-sym">
+            <span class="muted">sym:</span>
+            <DefText v-for="s in symbolsOf(t)" :key="s" :text="s" />
+          </span>
+        </div>
+        <div class="term-card-stats">
+          <span v-for="e in [...(t.editions_present || [])].sort((a:string,b:string) => (b==='202X'?1:0)-(a==='202X'?1:0))" :key="e" :class="['edition-pill', `edition-${e.toLowerCase()}`]">{{ e }}</span>
+          <span class="term-card-stat"><strong>{{ t.publications.length }}</strong> inst.</span>
+          <span v-if="onlyTC" class="term-card-stat"><strong>{{ tcCount(t) }}</strong> TC pubs</span>
+          <span class="term-card-stat"><strong>{{ distinctDefs(t.publications) }}</strong> defs</span>
+        </div>
+      </li>
+    </ul>
     <PaginationControls :pagination="pagination" noun="terms" />
   </section>
 </template>
