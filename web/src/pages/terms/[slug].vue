@@ -3,6 +3,7 @@ import { computed, ref } from "vue";
 import { useRoute } from "vue-router";
 import termBySlug from "@/data/term-by-slug.json";
 import { useVocabularyEdition } from "@/composables/useVocabularyEdition";
+import { slugifyPubId } from "@/composables/useSuggestedActions";
 
 const route = useRoute();
 const { label, confidenceClass, isCurrent, isSuperseded, latestLabel, role } = useVocabularyEdition();
@@ -507,7 +508,7 @@ const filteredPublications = computed(() => {
             <td class="num">{{ g.pubs.length }}</td>
             <td>
               <span v-for="(p, pi) in g.pubs.slice(0, 5)" :key="pi" class="prov-pub">
-                <SLink :to="`/publications/${p.publication_id}/`">{{ p.publication }}</SLink>
+                <SLink :to="`/publications/${slugifyPubId(p.publication_id)}/`">{{ p.publication }}</SLink>
                 <span class="muted"> ({{ p.edition }})</span>
               </span>
               <span v-if="g.pubs.length > 5" class="muted"> +{{ g.pubs.length - 5 }} more</span>
@@ -589,7 +590,7 @@ const filteredPublications = computed(() => {
               <tr v-for="p in g.publications" :key="p.g18_entry">
                 <td><span :class="['edition-pill', `edition-${p.edition?.toLowerCase()}`]">{{ p.edition }}</span></td>
                 <td class="num">{{ p.year }}</td>
-                <td><SLink :to="`/publications/${p.publication_id}/`">{{ p.publication }}</SLink></td>
+                <td><SLink :to="`/publications/${slugifyPubId(p.publication_id)}/`">{{ p.publication }}</SLink></td>
                 <td class="num">{{ p.clause }}</td>
                 <td class="num">{{ p.g18_entry }}</td>
                 <td v-if="hasConsistencyData"><span :class="['badge', `badge-${p.consistency || 'pending'}`]">{{ p.consistency || "pending" }}</span></td>
@@ -609,7 +610,7 @@ const filteredPublications = computed(() => {
               <tr v-for="g in uniqueGroups" :key="g.publications[0].g18_entry" class="row-divergent">
                 <td><span :class="['edition-pill', `edition-${g.publications[0].edition?.toLowerCase()}`]">{{ g.publications[0].edition }}</span></td>
                 <td class="num">{{ g.publications[0].year }}</td>
-                <td><SLink :to="`/publications/${g.publications[0].publication_id}/`">{{ g.publications[0].publication }}</SLink></td>
+                <td><SLink :to="`/publications/${slugifyPubId(g.publications[0].publication_id)}/`">{{ g.publications[0].publication }}</SLink></td>
                 <td class="num">{{ g.publications[0].clause }}</td>
                 <td class="num">{{ g.publications[0].g18_entry }}</td>
                 <td style="max-width:400px"><div style="white-space:pre-wrap;font-size:0.9em"><DefText :text="g.definition" /></div></td>
@@ -630,7 +631,7 @@ const filteredPublications = computed(() => {
             <tr v-for="p in filteredPublications" :key="p.g18_entry" v-show="rowVisible(p)" :class="{ 'row-divergent': distinctDefs.length > 1 && p.definition?.trim() !== distinctDefs[0], 'row-modified': p.source?.relationship === 'modified', 'row-differs': pubMatchStatus(p).key === 'differs' }">
               <td><span :class="['edition-pill', `edition-${p.edition?.toLowerCase()}`]">{{ p.edition }}</span></td>
               <td class="num">{{ p.year }}</td>
-              <td><SLink :to="`/publications/${p.publication_id}/`">{{ p.publication }}</SLink><br /><span class="muted" style="font-size:0.8em">{{ p.tc_sc || '—' }}</span></td>
+              <td><SLink :to="`/publications/${slugifyPubId(p.publication_id)}/`">{{ p.publication }}</SLink><br /><span class="muted" style="font-size:0.8em">{{ p.tc_sc || '—' }}</span></td>
               <td class="num">{{ p.clause }}</td>
               <td class="num"><code>{{ p.g18_entry }}</code></td>
               <td style="max-width:540px">

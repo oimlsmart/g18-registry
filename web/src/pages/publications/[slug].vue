@@ -3,10 +3,23 @@ import { computed, ref } from "vue";
 import { useRoute } from "vue-router";
 import publications from "@/data/publications.json";
 import termsData from "@/data/terms.json";
-import { useSuggestedActions, ACTION_META, actionMeta } from "@/composables/useSuggestedActions";
+import { useSuggestedActions, ACTION_META, actionMeta, slugifyPubId } from "@/composables/useSuggestedActions";
 
 const route = useRoute();
-const pubId = computed(() => route.params.slug as string);
+const slugParam = computed(() => route.params.slug as string);
+// Resolve the publication: accept either the slugified id (preferred) or
+// the raw id (backwards compat with old links). The slug map is built once.
+const pubBySlug = computed(() => {
+  const map: Record<string, string> = {};
+  for (const p of (publications as any[])) map[slugifyPubId(p.id)] = p.id;
+  return map;
+});
+const pubId = computed(() => {
+  const param = slugParam.value;
+  // Try direct ID match first (backwards compat), then slug lookup.
+  if ((publications as any[]).some(p => p.id === param)) return param;
+  return pubBySlug.value[param] || param;
+});
 const pub = computed(() => (publications as any[]).find(p => p.id === pubId.value));
 const terms = termsData as any[];
 const { forPublication } = useSuggestedActions(terms);
@@ -171,33 +184,32 @@ const actionTypesPresent = computed(() => {
       </p>
     </div>
 
-    <!-- Edition filter: TC 1 acts on 202X; 2010 is historic but visible for context -->
-    <section class="card" style="margin-top:1rem">
-      <div class="card-head" style="margin-bottom:0">
-        <h2 style="margin:0;border:none;padding:0">Scope</h2>
-        <div class="sort-toggle" role="group" aria-label="Edition filter">
-          <button type="button"
-                  :class="['sort-btn', { 'sort-btn-active': editionFilter === '202X' }]"
-                  @click="editionFilter = '202X'">
-            202X ({{ editionCounts["202X"] }})
-          </button>
-          <button type="button"
-                  :class="['sort-btn', { 'sort-btn-active': editionFilter === '2010' }]"
-                  @click="editionFilter = '2010'">
-            2010 ({{ editionCounts["2010"] }})
-          </button>
-          <button type="button"
-                  :class="['sort-btn', { 'sort-btn-active': editionFilter === 'all' }]"
-                  @click="editionFilter = 'all'">
-            All ({{ pubTerms.length }})
-          </button>
-        </div>
+    <!-- Sticky page-level edition filter. TC 1 acts on 202X; 2010 is historic.
+         The bar is sticky so users always see which edition scope is active
+         as they scroll through the action list and tables below. -->
+    <div class="page-filter" role="region" aria-label="Edition filter">
+      <span class="page-filter-label">Edition scope</span>
+      <div class="page-filter-controls">
+        <button type="button"
+                :class="['page-filter-btn', { 'page-filter-btn-active': editionFilter === '202X' }]"
+                @click="editionFilter = '202X'">
+          <span class="page-filter-btn-title">202X</span>
+          <span class="page-filter-btn-meta">{{ editionCounts["202X"] }} terms · draft, TC 1 acts here</span>
+        </button>
+        <button type="button"
+                :class="['page-filter-btn', { 'page-filter-btn-active': editionFilter === '2010' }]"
+                @click="editionFilter = '2010'">
+          <span class="page-filter-btn-title">2010</span>
+          <span class="page-filter-btn-meta">{{ editionCounts["2010"] }} terms · historic, read-only</span>
+        </button>
+        <button type="button"
+                :class="['page-filter-btn', { 'page-filter-btn-active': editionFilter === 'all' }]"
+                @click="editionFilter = 'all'">
+          <span class="page-filter-btn-title">All</span>
+          <span class="page-filter-btn-meta">{{ pubTerms.length }} terms · both editions</span>
+        </button>
       </div>
-      <p class="muted" style="margin-top:0.6em;font-size:0.88rem">
-        Default: <strong>202X</strong> — TC 1 can only act on the draft edition.
-        Switch to 2010 to see historic data; switch to All for the full picture.
-      </p>
-    </section>
+    </div>
 
     <!-- Summary tiles -->
     <section class="card">

@@ -81,6 +81,18 @@ export function normalizePubId(id: string): string {
     .trim();
 }
 
+// Deterministic URL-safe slug for publication IDs.
+// "OIML R 76-1:2006" → "oiml-r-76-1-2006"
+// Lowercase, replace any non-alphanumeric run with a single dash, trim.
+// Stable and reversible (we keep a reverse map in the publication detail
+// page so old raw-ID links still resolve).
+export function slugifyPubId(id: string): string {
+  return (id || "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
 export function useSuggestedActions(terms: any[]) {
   const allActions: ComputedRef<SuggestedAction[]> = computed(() => {
     const out: SuggestedAction[] = [];

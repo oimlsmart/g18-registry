@@ -29,13 +29,17 @@ export default defineConfig({
           for (const item of list) {
             // Handle three shapes:
             //   - terms/tc-by-slug objects: { slug: "..." }
-            //   - publications: { id: "..." } (no slug)
+            //   - publications: { id: "..." } (no slug) → slugify the id
             //   - tc.json as a flat array of display-name strings: "CEEMS"
             let slug: string | undefined;
             if (typeof item === "string") {
               slug = item.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
-            } else {
-              slug = item.slug || item.id;
+            } else if (item.slug) {
+              slug = item.slug;
+            } else if (item.id) {
+              // Publications: slugify the id so URLs don't contain spaces
+              // or special characters (e.g. "OIML R 76-1:2006" → "oiml-r-76-1-2006").
+              slug = item.id.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
             }
             if (slug) dynamic.push(`/${sub}/${slug}/`);
           }

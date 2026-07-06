@@ -734,6 +734,101 @@ tbody tr:hover { background: var(--color-accent-tint); }
   color: var(--color-ink-muted);
 }
 
+/* Page-level sticky filter — used for edition scope on publication / TC
+   pages. Sticky so users always know which edition scope is active as
+   they scroll. Layout: horizontal bar with label on the left, controls
+   on the right; stacks gracefully on mobile. */
+.page-filter {
+  position: sticky;
+  top: 64px; /* header height */
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.8em;
+  flex-wrap: wrap;
+  margin: 0 0 1.2rem;
+  padding: 0.7em 1em;
+  background: var(--color-paper-soft);
+  border: 1px solid var(--color-rule);
+  border-radius: var(--radius-card);
+  box-shadow: 0 4px 12px -8px rgba(10, 22, 40, 0.08);
+}
+.page-filter-label {
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--color-ink-muted);
+  white-space: nowrap;
+}
+.page-filter-controls {
+  display: inline-flex;
+  gap: 0.4em;
+  flex-wrap: wrap;
+}
+.page-filter-btn {
+  appearance: none;
+  background: transparent;
+  border: 1px solid var(--color-rule);
+  border-radius: 4px;
+  padding: 0.5em 0.9em;
+  font: inherit;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s, color 0.15s;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.1em;
+  min-width: 9em;
+  text-align: left;
+}
+.page-filter-btn:hover {
+  background: var(--color-paper-tint);
+  border-color: var(--color-ink-muted);
+}
+.page-filter-btn-active {
+  background: var(--color-ink);
+  border-color: var(--color-ink);
+  color: #fff;
+}
+.page-filter-btn-active:hover {
+  background: var(--color-ink);
+  border-color: var(--color-ink);
+}
+.page-filter-btn-title {
+  font-family: var(--font-display);
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: -0.005em;
+  font-variation-settings: "opsz" 24, "SOFT" var(--display-soft, 30), "WONK" var(--display-wonk, 0);
+}
+.page-filter-btn-meta {
+  font-size: 0.74rem;
+  opacity: 0.8;
+  white-space: nowrap;
+}
+@media (max-width: 720px) {
+  .page-filter {
+    top: 56px;
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .page-filter-controls {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.4em;
+  }
+  .page-filter-btn {
+    min-width: 0;
+  }
+}
+@media (max-width: 480px) {
+  .page-filter-controls {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* responsive grids */
 @media (max-width: 880px) {
   .card { padding: 1.25rem 1.3rem; margin: 1.1rem 0; }

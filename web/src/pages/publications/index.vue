@@ -2,6 +2,7 @@
 import { ref, computed } from "vue";
 import publications from "@/data/publications.json";
 import terms from "@/data/terms.json";
+import { slugifyPubId } from "@/composables/useSuggestedActions";
 
 const onlyEdition = ref("");
 const sortByProblems = ref(false);
@@ -71,7 +72,7 @@ function problemCount(pubId: string): number {
       <thead><tr><th>Reference</th><th>Year</th><th>TC/SC</th><th>Terms</th><th v-if="sortByProblems">Problematic</th></tr></thead>
       <tbody>
         <tr v-for="p in filtered" :key="p.id">
-          <td><SLink :to="`/publications/${p.id}/`">{{ p.reference || p.id }}</SLink></td>
+          <td><SLink :to="`/publications/${slugifyPubId(p.id)}/`">{{ p.reference || p.id }}</SLink></td>
           <td class="num">{{ (p.id || '').match(/(\d{4})/)?.[1] || "—" }}</td>
           <td><SLink :to="`/tc/${(p.tc_sc || '').toLowerCase().replace('/', '-').toLowerCase()}/`">{{ p.tc_sc || "—" }}</SLink></td>
           <td class="num">{{ termCount(p.id, onlyEdition) }}</td>
