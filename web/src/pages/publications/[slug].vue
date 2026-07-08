@@ -65,7 +65,7 @@ const DEFECT_ACTION_TYPES = new Set([
 function actionAppliesToEdition(a: any, edition: string): boolean {
   if (edition === "all") return true;
   const meta = actionMeta(a.type);
-  if (meta.applies_to === "all editions") return true;
+  if (meta.applies_to === "all") return true;
   // Action is edition-specific (most are 202X-only).
   // harmonize is scoped to a worst-edition during compile, so respect
   // the selected edition filter as a proxy.
