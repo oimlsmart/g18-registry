@@ -239,7 +239,7 @@ const actionTypesPresent = computed(() => {
       <div class="prov-grid">
         <div class="prov-tile prov-tile-warn">
           <div class="prov-tile-num">{{ pubActionTermCount }}</div>
-          <div class="prov-tile-label">Terms in G 18 needing action ({{ editionFilter === "all" ? "all editions" : editionFilter }})</div>
+          <div class="prov-tile-label">Terms in {{ pub.reference || pub.id }} needing action ({{ editionFilter === "all" ? "all editions" : editionFilter }})</div>
         </div>
         <div class="prov-tile">
           <div class="prov-tile-num">{{ cleanTerms.length }}</div>
@@ -265,7 +265,7 @@ const actionTypesPresent = computed(() => {
     <!-- Action list with view modes -->
     <section v-if="pubActions.length" class="card">
       <div class="card-head">
-        <h2>Terms in G 18 needing action</h2>
+        <h2>Terms in {{ pub.reference || pub.id }} needing action</h2>
         <div class="sort-toggle" role="group" aria-label="View mode">
           <button v-for="m in viewModes" :key="m.val"
             type="button"
@@ -291,7 +291,6 @@ const actionTypesPresent = computed(() => {
             <th>Term</th>
             <th v-if="viewMode !== 'by-clause'">Clause</th>
             <th v-if="viewMode === 'by-clause'">Clause</th>
-            <th>Ed.</th>
             <th>What to decide</th>
           </tr></thead>
           <tbody>
@@ -301,8 +300,7 @@ const actionTypesPresent = computed(() => {
               </td>
               <td class="term-cell"><SLink :to="`/terms/${r.slug}/`">{{ r.name }}</SLink></td>
               <td><code v-if="r.clause !== '—'">{{ r.clause }}</code><span v-else class="muted">—</span></td>
-              <td><span class="edition-pill" :class="`edition-${r.edition.toLowerCase()}`">{{ r.edition }}</span></td>
-              <td><span class="muted" style="font-size:0.88em">{{ actionMeta(r.type).hint }}</span></td>
+              <td><span class="muted" style="font-size:0.88em">{{ r.description }}</span></td>
             </tr>
           </tbody>
         </table>
@@ -311,16 +309,15 @@ const actionTypesPresent = computed(() => {
 
     <!-- Clean terms -->
     <section v-if="cleanTerms.length" class="card">
-      <h2>Clean terms in G 18 ({{ cleanTerms.length }})</h2>
+      <h2>Clean terms in {{ pub.reference || pub.id }} ({{ cleanTerms.length }})</h2>
       <p class="lede">No action needed — these terms match the authoritative baseline.</p>
       <div class="table-scroll">
         <table>
-          <thead><tr><th>Term</th><th>VIM</th><th>Ed.</th><th>Clause</th><th>Definition</th></tr></thead>
+          <thead><tr><th>Term</th><th>VIM</th><th>Clause</th><th>Definition</th></tr></thead>
           <tbody>
             <tr v-for="t in cleanTerms" :key="t.slug">
               <td class="term-cell"><SLink :to="`/terms/${t.slug}/`">{{ t.name }}</SLink></td>
               <td><span :class="['kind', `kind-${t.kind}`]">{{ kindLabel(t.kind) }}</span></td>
-              <td><span :class="['edition-pill', `edition-${pubInstanceForEdition(t)?.edition?.toLowerCase() || ''}`]">{{ pubInstanceForEdition(t)?.edition || '—' }}</span></td>
               <td><code>{{ pubInstanceForEdition(t)?.clause || '—' }}</code></td>
               <td style="max-width:540px">{{ pubInstanceForEdition(t)?.definition }}</td>
             </tr>
