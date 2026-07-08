@@ -159,6 +159,84 @@ def check_latest_edition(term_name, official_urn, latest_indices)
   end
 end
 
+# Token-overlap similarity (Jaccard) for fuzzy term-name matching.
+# Used to surface near-misses when a G 18 term isn't an exact match for
+# any VIM/VIML designation but probably should be (e.g. "repeatability"
+# vs VIM "measurement repeatability"). Threshold ~0.34 (1/3 token overlap)
+# balances recall vs precision on the OIML dataset.
+def tokenize(s)
+  s.to_s.downcase.gsub(/[^a-z0-9\s]/i, " ").split.reject { |t| t.length < 2 }
+end
+
+def jaccard(a, b)
+  return 0.0 if a.empty? || b.empty?
+  inter = (a & b).size.to_f
+  union = (a | b).size.to_f
+  union.positive? ? inter / union : 0.0
+end
+
+FUZZY_THRESHOLD = 0.34
+
+# Find the best fuzzy match for `term_name` in a designation index.
+# Returns nil if no candidate clears the threshold.
+def fuzzy_match(term_name, idx)
+  return nil unless idx&.any? && term_name
+  term_tokens = tokenize(term_name)
+  return nil if term_tokens.empty?
+  best = nil
+  best_score = 0.0
+  idx.each do |designation, entry|
+    score = jaccard(term_tokens, tokenize(designation))
+    next if score <= best_score
+    best_score = score
+    best = { designation: designation, entry: entry, similarity: score }
+  end
+  return nil unless best && best_score >= FUZZY_THRESHOLD
+  best
+end
+
+# Check term presence across BOTH vocab indices (used for `undefined`
+# terms that don't have an `official_concept` URN). Returns near-miss
+# candidates for both vocabularies so the gap-analysis page can suggest
+# Propose-for-VIM / Propose-for-VIML / Propose-for-V3.
+def check_vocab_presence(term_name, latest_indices)
+  result = { vim: nil, viml: nil }
+  return result unless term_name
+  %i[vim viml].each do |vocab|
+    idx = latest_indices[vocab]
+    next unless idx&.any?
+    lookup = term_name.to_s.downcase.strip
+    if idx.key?(lookup)
+      info = LATEST_DATASETS[vocab]
+      entry = idx[lookup]
+      result[vocab] = {
+        found: true,
+        match_type: "exact",
+        designation: term_name,
+        concept_id: entry[:id],
+        definition: entry[:definition],
+        latest_label: info[:label],
+        url: "https://oimlsmart.github.io/vocab/#{info[:dir]}/concept/#{entry[:id]}",
+      }
+    else
+      m = fuzzy_match(term_name, idx)
+      next unless m
+      info = LATEST_DATASETS[vocab]
+      result[vocab] = {
+        found: false,
+        match_type: "fuzzy",
+        designation: m[:designation],
+        concept_id: m[:entry][:id],
+        definition: m[:entry][:definition],
+        similarity: m[:similarity].round(3),
+        latest_label: info[:label],
+        url: "https://oimlsmart.github.io/vocab/#{info[:dir]}/concept/#{m[:entry][:id]}",
+      }
+    end
+  end
+  result
+end
+
 # ── Publications ──────────────────────────────────────────────────────────
 publications = File.exist?(options[:bib_path]) ?
   YAML.safe_load(File.read(options[:bib_path]), aliases: true) : []
@@ -173,6 +251,11 @@ Dir.glob(File.join(options[:data_dir], "*.yaml")).sort.each do |path|
   hash = docs.find { |d| d.is_a?(Hash) && d["data"] && d["data"]["term"] } || docs.first
   data = hash["data"] || {}
   oc_urn = data["official_concept"]&.dig("source")
+  # Compute vocab_presence (exact + fuzzy match) for undefined terms so
+  # the compiler can enrich action descriptions with near-miss guidance.
+  vocab_presence = data["kind"] == "undefined" ?
+    check_vocab_presence(data["term"], latest_indices) : nil
+  latest = oc_urn ? check_latest_edition(data["term"], oc_urn, latest_indices) : nil
   term = {
     "slug" => File.basename(path, ".yaml"),
     "identifier" => data["identifier"],
@@ -182,9 +265,9 @@ Dir.glob(File.join(options[:data_dir], "*.yaml")).sort.each do |path|
     "official_concept" => render_stem_deep(data["official_concept"]),
     "editions_present" => data["editions_present"],
     "primary_edition" => data["primary_edition"],
-    "latest_check" => oc_urn ? check_latest_edition(data["term"], oc_urn, latest_indices) : nil,
+    "latest_check" => latest,
     "suggested_actions" => G18::Actions::Compiler.for_term(
-      "data" => data, "latest_check" => oc_urn ? check_latest_edition(data["term"], oc_urn, latest_indices) : nil
+      "data" => data, "latest_check" => latest, "vocab_presence" => vocab_presence
     ).map(&:to_h),
     "publications" => (data["publications"] || []).map do |p|
       render_stem_deep(p).merge(
@@ -325,6 +408,45 @@ File.write(File.join(options[:out_dir], "conflicts.json"),
            JSON.generate("raw" => raw_conflicts,
                          "designation_collisions" => collisions))
 
+# ── Vocabulary gap analysis ──────────────────────────────────────────────
+# Terms with kind == "undefined" (no VIM/VIML reference) are candidates
+# for inclusion in a future vocabulary — either VIM (general metrology),
+# VIML (legal metrology), or a proposed V 3 (specific terms like
+# "load cell", "set of weights"). For each, check both vocab indices
+# (exact + fuzzy) so TC 1 can see whether a near-miss already exists.
+vocab_gaps = []
+Dir.glob(File.join(options[:data_dir], "*.yaml")).sort.each do |path|
+  docs = YAML.safe_load_stream(File.read(path), aliases: true)
+  next unless docs.first.is_a?(Hash)
+  hash = docs.find { |d| d.is_a?(Hash) && d["data"] && d["data"]["term"] } || docs.first
+  data = hash["data"] || {}
+  next unless data["kind"] == "undefined"
+  term_name = data["term"]
+  next unless term_name
+  presence = check_vocab_presence(term_name, latest_indices)
+  pubs = (data["publications"] || []).map do |p|
+    { "publication_id" => p["publication_id"], "tc_sc" => p["tc_sc"], "edition" => p["edition"] }
+  end
+  defs = (data["publications"] || []).map { |p| p["definition"] }.compact.uniq
+  vocab_gaps << {
+    "slug" => File.basename(path, ".yaml"),
+    "name" => render_stem(term_name),
+    "identifier" => data["identifier"],
+    "definitions" => defs,
+    "publications" => pubs,
+    "editions_present" => data["editions_present"],
+    "near_misses" => presence,
+  }
+end
+# Sort: terms with NO near-miss in either vocab first (most likely V 3
+# candidates), then by descending publication count for impact.
+vocab_gaps.sort_by! do |t|
+  has_match = t["near_misses"][:vim] || t["near_misses"][:viml]
+  [has_match ? 1 : 0, -(t["publications"].size)]
+end
+File.write(File.join(options[:out_dir], "vocab-gaps.json"),
+           JSON.generate(vocab_gaps))
+
 puts "Exported for Vite:"
 puts "  Publications:        #{publications.size}"
 puts "  Terms:               #{terms.size}"
@@ -333,4 +455,5 @@ puts "  Editions:            #{edition_names.join(', ')}"
 puts "  Harmonisation cands: #{candidates.size}"
 puts "  Raw conflicts:       #{raw_conflicts.values.sum(&:size)}"
 puts "  Designation coll:    #{collisions.values.sum(&:size)}"
+puts "  Vocabulary gaps:     #{vocab_gaps.size}"
 puts "  Output: #{options[:out_dir]}/"

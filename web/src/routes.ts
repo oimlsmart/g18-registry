@@ -12,5 +12,6 @@ export const routes: RouteRecordRaw[] = [
   { path: "/editions/", component: () => import("./pages/editions.vue") },
   { path: "/harmonization/", component: () => import("./pages/harmonization.vue") },
   { path: "/conflicts/", component: () => import("./pages/conflicts.vue") },
+  { path: "/vocab-gaps/", component: () => import("./pages/vocab-gaps.vue") },
   { path: "/leaderboard/", component: () => import("./pages/leaderboard.vue") },
 ];

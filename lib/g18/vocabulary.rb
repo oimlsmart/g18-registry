@@ -26,6 +26,13 @@ module G18
     LATEST_VIM_URN  = "urn:oiml:pub:v:2:2012"
     LATEST_VIML_URN = "urn:oiml:pub:v:1:2022"
 
+    # Proposed V 3 — a new vocabulary for "specific terms" that don't fit
+    # VIM (general metrology) or VIML (legal metrology). Draft-only URN;
+    # not yet a published edition. Used by the vocabulary-gap analysis
+    # workflow so TC 1 can propose terms for V 3 candidacy.
+    V3_DRAFT_URN = "urn:oiml:pub:v:3:draft"
+    V3_LABEL = "V 3 (draft)"
+
     def self.all_editions
       VIM_EDITIONS.merge(VIML_EDITIONS)
     end

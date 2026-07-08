@@ -1,0 +1,373 @@
+<script setup lang="ts">
+import { ref, computed } from "vue";
+import { useVocabGaps, vocabGaps, type VocabGap } from "@/composables/useVocabGaps";
+import { usePagination } from "@/composables/usePagination";
+import {
+  composeIssueBody,
+  composeIssueUrl,
+  composeIssueTitle,
+  targetLabel,
+  type ProposalTarget,
+  type ProposalDraft,
+} from "@/composables/useGapProposal";
+
+const { search, scope, tcFilter, allTCs, filtered } = useVocabGaps();
+const pagination = usePagination(filtered, {
+  pageSize: 50,
+  dep: () => `${scope.value}|${tcFilter.value}|${search.value}`,
+});
+
+// Currently-open proposal form (one at a time).
+const openGap = ref<VocabGap | null>(null);
+const proposalTarget = ref<ProposalTarget>("V3");
+const proposalRationale = ref("");
+const proposalAuthor = ref("");
+const generating = ref(false);
+const issueUrl = ref<string | null>(null);
+
+function openProposal(g: VocabGap) {
+  openGap.value = g;
+  // Default target: if any near-miss exists, lean toward reconcile (V1/V2).
+  // Otherwise default to V 3 (specific term).
+  const nm = g.near_misses.viml || g.near_misses.vim;
+  proposalTarget.value = nm ? (g.near_misses.viml ? "V1" : "V2") : "V3";
+  proposalRationale.value = nm
+    ? `The G 18 term "${g.name}" appears related to ${nm.latest_label} "${nm.designation}" (concept ${nm.concept_id}). Decide: re-link to ${nm.latest_label}, document as a deliberate OIML-specific variant (candidate for V 3), or confirm OIML as authoritative.`
+    : `The G 18 term "${g.name}" has no VIM/VIML equivalent. It appears to be a specific term used across ${g.publications.length} OIML publication(s). Propose for inclusion in V 3 (specific terms).`;
+  issueUrl.value = null;
+}
+
+function closeProposal() {
+  openGap.value = null;
+  issueUrl.value = null;
+}
+
+async function submitProposal() {
+  if (!openGap.value) return;
+  generating.value = true;
+  try {
+    const draft: ProposalDraft = {
+      gap: openGap.value,
+      target: proposalTarget.value,
+      rationale: proposalRationale.value,
+      author: proposalAuthor.value || undefined,
+    };
+    const body = await composeIssueBody(draft);
+    issueUrl.value = composeIssueUrl(draft, body);
+    if (typeof window !== "undefined") {
+      window.open(issueUrl.value, "_blank", "noopener");
+    }
+  } finally {
+    generating.value = false;
+  }
+}
+
+const scopeButtons: { val: typeof scope.value; label: string; count: number }[] = [
+  { val: "no-match", label: "No match", count: vocabGaps.filter(g => !g.near_misses.vim && !g.near_misses.viml).length },
+  { val: "any-match", label: "Has near-miss", count: vocabGaps.filter(g => g.near_misses.vim || g.near_misses.viml).length },
+  { val: "all", label: "All", count: vocabGaps.length },
+];
+
+const issueTitlePreview = computed(() =>
+  openGap.value ? composeIssueTitle({ gap: openGap.value, target: proposalTarget.value, rationale: "" }) : ""
+);
+
+function nearMissBadgeClass(nm: any): string {
+  if (!nm) return "muted";
+  return nm.match_type === "exact" ? "badge badge-ok" : "badge badge-partial";
+}
+function nearMissText(nm: any): string {
+  if (!nm) return "—";
+  return nm.match_type === "exact" ? nm.designation : `${nm.designation} (${nm.similarity})`;
+}
+</script>
+
+<template>
+  <div class="page-head">
+    <div class="breadcrumb"><SLink to="/">Registry</SLink> / <span>Vocabulary gaps</span></div>
+    <h1>Vocabulary gap analysis</h1>
+    <p class="lede">
+      G 18 terms with no authoritative VIM/VIML source. For each, decide:
+      propose for <strong>VIM (V 2)</strong> (general metrology concept),
+      <strong>VIML (V 1)</strong> (legal metrology concept), or
+      <strong>V 3</strong> (specific terms like "load cell" — proposed new vocabulary).
+      Each proposal opens a structured GitHub issue with a YAML payload and checksum.
+    </p>
+  </div>
+
+  <!-- Sticky scope filter -->
+  <div class="page-filter" role="region" aria-label="Scope filter">
+    <span class="page-filter-label">Scope</span>
+    <div class="page-filter-controls">
+      <button v-for="b in scopeButtons" :key="b.val"
+              type="button"
+              :class="['page-filter-btn', { 'page-filter-btn-active': scope === b.val }]"
+              @click="scope = b.val">
+        <span class="page-filter-btn-title">{{ b.label }}</span>
+        <span class="page-filter-btn-meta">{{ b.count }} terms</span>
+      </button>
+    </div>
+  </div>
+
+  <section class="card">
+    <form class="filter-form" @submit.prevent>
+      <input v-model="search" type="search" placeholder="Search term…" />
+      <select v-model="tcFilter">
+        <option value="">All TC/SCs</option>
+        <option v-for="tc in allTCs" :key="tc" :value="tc">{{ tc }}</option>
+      </select>
+      <span class="muted">{{ filtered.length }} shown</span>
+    </form>
+
+    <!-- Desktop table -->
+    <div class="table-scroll table-only-desktop">
+      <table>
+        <thead>
+          <tr>
+            <th>Term</th>
+            <th>Near-miss in VIM?</th>
+            <th>Near-miss in VIML?</th>
+            <th class="num">Pubs</th>
+            <th>Definition (first)</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr v-for="g in pagination.visible.value" :key="g.slug">
+            <td class="term-cell"><SLink :to="`/terms/${g.slug}/`">{{ g.name }}</SLink></td>
+            <td>
+              <span :class="nearMissBadgeClass(g.near_misses.vim)" :title="g.near_misses.vim?.definition?.slice(0,200)">{{ nearMissText(g.near_misses.vim) }}</span>
+            </td>
+            <td>
+              <span :class="nearMissBadgeClass(g.near_misses.viml)" :title="g.near_misses.viml?.definition?.slice(0,200)">{{ nearMissText(g.near_misses.viml) }}</span>
+            </td>
+            <td class="num">{{ g.publications.length }}</td>
+            <td style="max-width:360px"><span class="muted" style="font-size:0.88em">{{ (g.definitions[0] || '—').slice(0, 100) }}{{ (g.definitions[0] || '').length > 100 ? '…' : '' }}</span></td>
+            <td><button type="button" class="sort-btn sort-btn-active" @click="openProposal(g)">Propose</button></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Mobile cards -->
+    <ul class="gap-cards table-only-mobile">
+      <li v-for="g in pagination.visible.value" :key="g.slug" class="gap-card">
+        <div class="gap-card-head">
+          <SLink :to="`/terms/${g.slug}/`" class="term-card-name">{{ g.name }}</SLink>
+          <span class="muted">{{ g.publications.length }} pubs</span>
+        </div>
+        <div class="gap-card-meta">
+          <div><span class="muted">VIM:</span> <span :class="nearMissBadgeClass(g.near_misses.vim)">{{ nearMissText(g.near_misses.vim) }}</span></div>
+          <div><span class="muted">VIML:</span> <span :class="nearMissBadgeClass(g.near_misses.viml)">{{ nearMissText(g.near_misses.viml) }}</span></div>
+        </div>
+        <div class="gap-card-def" v-if="g.definitions[0]">{{ g.definitions[0].slice(0, 140) }}{{ g.definitions[0].length > 140 ? '…' : '' }}</div>
+        <button type="button" class="sort-btn sort-btn-active" @click="openProposal(g)">Propose</button>
+      </li>
+    </ul>
+
+    <PaginationControls :pagination="pagination" noun="terms" />
+  </section>
+
+  <!-- Proposal modal -->
+  <div v-if="openGap" class="modal-backdrop" @click.self="closeProposal">
+    <div class="modal">
+      <div class="modal-head">
+        <h2>Propose vocabulary placement</h2>
+        <button type="button" class="modal-close" @click="closeProposal" aria-label="Close">×</button>
+      </div>
+      <div class="modal-body">
+        <p class="modal-term">
+          <strong>{{ openGap.name }}</strong>
+          <span class="muted"> · {{ openGap.publications.length }} pubs</span>
+        </p>
+
+        <fieldset class="proposal-target">
+          <legend>Propose for</legend>
+          <label v-for="t in (['V1','V2','V3'] as ProposalTarget[])" :key="t">
+            <input type="radio" name="proposal-target" :value="t" v-model="proposalTarget" />
+            <span><strong>{{ t }}</strong> — {{ targetLabel(t) }}</span>
+          </label>
+        </fieldset>
+
+        <label class="proposal-field">
+          <span>Rationale</span>
+          <textarea v-model="proposalRationale" rows="6"></textarea>
+        </label>
+
+        <label class="proposal-field">
+          <span>Your name (optional, for the proposed_by field)</span>
+          <input v-model="proposalAuthor" type="text" placeholder="e.g. Jane Doe" />
+        </label>
+
+        <p class="modal-issue-preview">
+          <strong>Issue title:</strong> {{ issueTitlePreview }}
+        </p>
+
+        <p v-if="issueUrl" class="modal-success">
+          Opened in a new tab. If it didn't open,
+          <a :href="issueUrl" target="_blank" rel="noopener">click here</a>.
+        </p>
+      </div>
+      <div class="modal-foot">
+        <button type="button" class="sort-btn" @click="closeProposal">Cancel</button>
+        <button type="button" class="sort-btn sort-btn-active" :disabled="generating" @click="submitProposal">
+          {{ generating ? "Composing…" : "Open GitHub issue" }}
+        </button>
+      </div>
+    </div>
+  </div>
+</template>
+
+<style scoped>
+.gap-cards {
+  list-style: none;
+  margin: 0.5rem 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+.gap-card {
+  background: var(--color-paper-soft);
+  border: 1px solid var(--color-rule);
+  border-radius: var(--radius-card);
+  padding: 0.85rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4em;
+}
+.gap-card-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0.6em;
+}
+.gap-card-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25em;
+  font-size: 0.88rem;
+}
+.gap-card-meta .muted {
+  margin-right: 0.3em;
+}
+.gap-card-def {
+  font-size: 0.88em;
+  color: var(--color-ink-soft);
+  line-height: 1.4;
+}
+
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(10, 22, 40, 0.55);
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+.modal {
+  background: var(--color-paper-soft);
+  border-radius: var(--radius-card);
+  max-width: 600px;
+  width: 100%;
+  max-height: 90vh;
+  overflow-y: auto;
+  border: 1px solid var(--color-rule);
+}
+.modal-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.25rem;
+  border-bottom: 1px solid var(--color-rule-soft);
+}
+.modal-head h2 {
+  margin: 0;
+  font-size: 1.15rem;
+  border: none;
+  padding: 0;
+}
+.modal-close {
+  appearance: none;
+  background: transparent;
+  border: 0;
+  font-size: 1.5rem;
+  line-height: 1;
+  cursor: pointer;
+  color: var(--color-ink-muted);
+  padding: 0.25em 0.5em;
+}
+.modal-body { padding: 1rem 1.25rem; display: flex; flex-direction: column; gap: 0.9rem; }
+.modal-term { margin: 0 0 0.4em; }
+.modal-issue-preview {
+  font-size: 0.88em;
+  background: var(--color-paper-tint);
+  padding: 0.5em 0.75em;
+  border-radius: 4px;
+  margin: 0;
+}
+.modal-success {
+  font-size: 0.88em;
+  color: var(--color-green);
+  margin: 0;
+}
+.modal-foot {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5em;
+  padding: 0.8rem 1.25rem;
+  border-top: 1px solid var(--color-rule-soft);
+}
+.proposal-target {
+  border: 1px solid var(--color-rule);
+  border-radius: 4px;
+  padding: 0.6em 0.9em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4em;
+}
+.proposal-target legend {
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 700;
+  color: var(--color-ink-muted);
+  padding: 0 0.4em;
+}
+.proposal-target label {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5em;
+  font-size: 0.92rem;
+}
+.proposal-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3em;
+  font-size: 0.88rem;
+}
+.proposal-field span {
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 600;
+  color: var(--color-ink-muted);
+}
+.proposal-field textarea,
+.proposal-field input {
+  padding: 0.5em 0.7em;
+  border: 1px solid var(--color-rule);
+  border-radius: 3px;
+  font: inherit;
+  font-size: 0.92rem;
+  background: var(--color-paper-soft);
+  color: var(--color-ink);
+}
+.proposal-field textarea:focus,
+.proposal-field input:focus {
+  outline: none;
+  border-color: var(--color-ink);
+}
+</style>

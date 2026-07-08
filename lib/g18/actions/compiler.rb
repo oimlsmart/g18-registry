@@ -37,6 +37,11 @@ module G18
         @oc = @data["official_concept"]
         @lc = @term["latest_check"] || @data["latest_check"]
         @kind = @data["kind"] || "undefined"
+        # vocab_presence is computed at export time for undefined terms
+        # (kind == "undefined"). Shape: { vim: {found, match_type, designation, ...} | nil,
+        # viml: { ... } | nil }. Used to enrich action descriptions with
+        # near-miss guidance so TC 1 sees "VIML term is X" inline.
+        @presence = @term["vocab_presence"] || {}
       end
 
       def call
@@ -142,15 +147,46 @@ module G18
         )]
       end
 
-      # Fallback: OIML-original term with no VIM/VIML reference.
+      # Fallback: OIML-original term with no VIM/VIML reference. The
+      # description carries near-miss guidance when the export pipeline
+      # found a similar VIM/VIML designation via fuzzy match — TC 1 then
+      # sees concrete options (reconcile vs declare as specific V 3 term).
       def unique_action
         return [] if @oc && @kind != "undefined"
+        pub_ids = @pubs.map { |p| p["publication_id"] }.uniq
+        description = compose_unique_description
         [Action.new(
           type: :unique,
           priority: :info,
-          description: "OIML-original term — no VIM/VIML reference.",
-          publication_ids: @pubs.map { |p| p["publication_id"] }.uniq,
+          description: description,
+          publication_ids: pub_ids,
         )]
+      end
+
+      def compose_unique_description
+        # Pick the strongest near-miss candidate (VIML > VIM for legal-
+        # metrology context, exact > fuzzy for confidence).
+        vim = @presence[:vim] || @presence["vim"]
+        viml = @presence[:viml] || @presence["viml"]
+        candidate = select_near_miss(viml, vim)
+        if candidate.nil?
+          "OIML-original term — no VIM/VIML reference. Candidate for V 1/V 2/V 3? Check divergent definitions and confirm authoritative source."
+        elsif candidate[:match_type] == "exact" || candidate["match_type"] == "exact"
+          desig = candidate[:designation] || candidate["designation"]
+          vocab_label = candidate[:latest_label] || candidate["latest_label"]
+          "OIML-original term, but #{vocab_label} has an exact match: '#{desig}'. Re-link to #{vocab_label} or document why this term should remain OIML-specific."
+        else
+          desig = candidate[:designation] || candidate["designation"]
+          vocab_label = candidate[:latest_label] || candidate["latest_label"]
+          "OIML-original term. #{vocab_label} has a similar term: '#{desig}'. Reconcile with #{vocab_label}, document as a specific term (candidate for V 3), or confirm OIML as authoritative."
+        end
+      end
+
+      def select_near_miss(*candidates)
+        # Prefer exact over fuzzy; among same match_type, prefer non-nil.
+        exact = candidates.find { |c| c && (c[:match_type] || c["match_type"]) == "exact" }
+        return exact if exact
+        candidates.compact.first
       end
 
       # ── helpers ──

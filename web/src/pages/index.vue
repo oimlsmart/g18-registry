@@ -77,6 +77,7 @@ const topDivergent = computed(() =>
         <li><SLink to="/actions/">Priority actions</SLink> <span class="muted">— worklist by urgency</span></li>
         <li><SLink to="/harmonization/">Definition conflicts</SLink> <span class="muted">— divergent wording</span></li>
         <li><SLink to="/conflicts/">ID conflicts</SLink> <span class="muted">— numbering errors</span></li>
+        <li><SLink to="/vocab-gaps/">Vocabulary gaps</SLink> <span class="muted">— terms not in VIM/VIML; propose V 1/V 2/V 3</span></li>
         <li><SLink to="/editions/">Edition comparison</SLink> <span class="muted">— 2010 → 202X</span></li>
       </ul>
     </article>
