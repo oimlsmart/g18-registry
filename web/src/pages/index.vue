@@ -3,51 +3,40 @@ import { computed } from "vue";
 import termsData from "@/data/terms.json";
 import editionStats from "@/data/edition-stats.json";
 import conflictsData from "@/data/conflicts.json";
+import {
+  useSuggestedActions,
+  actionMeta,
+  maxWithinEditionDistinctDefs,
+  isHistoric,
+} from "@/composables/useSuggestedActions";
 
 const terms = termsData as any[];
+const { byTerm } = useSuggestedActions(terms);
 
-function distinctDefs(t: any): number {
-  return new Set(t.publications.map((p: any) => (p.definition || "").trim()).filter(Boolean)).size;
-}
 function kindLabel(k: string) { return k === "defined_in_vim" ? "VIM" : k === "defined_in_viml" ? "VIML" : "—"; }
 
 // ── Priority worklist ───────────────────────────────────────────────────
-type Action = { priority: string; term: string; slug: string; reason: string; count?: number; isHistoric?: boolean; };
+// Single source of truth: the composable's `byTerm` already groups every
+// suggested action by term (one row per term), sorts historic items below
+// actionable ones at the same priority, and computes pubCount as the union
+// of publication_ids across actions. Previously the dashboard re-derived
+// actions from raw fields, which produced duplicate rows per term and
+// counted divergent definitions across all editions (inflating numbers
+// and ignoring the within-edition-only fix from PR #38).
+//
+// Top 15 non-historic groups — TC 1 cannot act on 2010-only terms.
+const priorityActions = computed(() =>
+  byTerm.value.filter(g => !g.isHistoric).slice(0, 15)
+);
 
-const priorityActions = computed<Action[]>(() => {
-  const actions: Action[] = [];
-  for (const t of terms) {
-    const dd = distinctDefs(t);
-    const lc = t.latest_check;
-    const isHistoric = (t.editions_present || []).length > 0 && (t.editions_present || []).every((e: string) => e === "2010");
-    // HIGH: cites superseded VIM AND not in latest edition
-    if (lc && !lc.found) {
-      actions.push({ priority: "high", term: t.name, slug: t.slug, reason: `Cites superseded edition, NOT in ${lc.latest_label}`, count: t.publications.length, isHistoric });
-    }
-    // HIGH: many divergent definitions
-    if (dd >= 5) {
-      actions.push({ priority: "high", term: t.name, slug: t.slug, reason: `${dd} distinct definitions`, count: dd, isHistoric });
-    }
-    // MEDIUM: moderate divergence
-    else if (dd >= 3) {
-      actions.push({ priority: "medium", term: t.name, slug: t.slug, reason: `${dd} distinct definitions`, count: dd, isHistoric });
-    }
-    // INFO: high harmonisation value
-    if (t.publications.length >= 10 && dd < 3) {
-      actions.push({ priority: "info", term: t.name, slug: t.slug, reason: `Cited by ${t.publications.length} publications`, isHistoric });
-    }
-  }
-  const order: Record<string, number> = { high: 0, medium: 1, info: 2, low: 3 };
-  return actions.sort((a, b) => {
-    // Historic (2010-only) items sink below actionable ones at same priority.
-    if ((a.isHistoric ? 1 : 0) !== (b.isHistoric ? 1 : 0)) return a.isHistoric ? 1 : -1;
-    const po = (order[a.priority] ?? 9) - (order[b.priority] ?? 9);
-    if (po !== 0) return po;
-    return (b.count || 0) - (a.count || 0);
-  }).slice(0, 15);
-});
+const priorityLabel = (rank: number) =>
+  rank === 0 ? "High" : rank === 1 ? "Medium" : rank === 2 ? "Info" : "Low";
+const priorityBadge = (rank: number) =>
+  rank === 0 ? "badge-ko" : rank === 1 ? "badge-partial" : "badge-pending";
 
-const divergentCount = terms.filter(t => distinctDefs(t) > 1).length;
+// Divergent term count — uses within-edition max so cross-edition wording
+// changes don't count as divergence (mirrors the compiler's logic).
+const divergentCount = terms.filter(t => maxWithinEditionDistinctDefs(t.publications) > 1).length;
 
 // Always show 202X first — TC 1 edits 202X, 2010 is historic.
 const sortedEditionStats = computed(() =>
@@ -58,11 +47,11 @@ const sortedEditionStats = computed(() =>
 const rawConflictCount = Object.values(conflictsData.raw || {}).flat().length;
 const collisionCount = Object.values(conflictsData.designation_collisions || {}).flat().length;
 
-// ── Top divergent (proper numeric sort, NOT array comparison) ───────────
+// ── Top divergent — within-edition max, historic excluded ───────────────
 const topDivergent = computed(() =>
   terms
-    .map(t => ({ ...t, _dd: distinctDefs(t) }))
-    .filter(t => t._dd > 1)
+    .map(t => ({ ...t, _dd: maxWithinEditionDistinctDefs(t.publications) }))
+    .filter(t => t._dd > 1 && !isHistoric(t))
     .sort((a, b) => {
       if (b._dd !== a._dd) return b._dd - a._dd;
       if (b.publications.length !== a.publications.length) return b.publications.length - a.publications.length;
@@ -149,17 +138,23 @@ const topDivergent = computed(() =>
     <p class="lede">Top 15 items needing attention, sorted by urgency.</p>
     <div class="table-scroll">
       <table>
-      <thead><tr><th style="width:5em">Priority</th><th>Term</th><th>Issue</th><th>Impact</th><th></th></tr></thead>
+      <thead><tr><th style="width:5em">Priority</th><th>Term</th><th>Actions needed</th><th class="num">Affected pubs</th><th></th></tr></thead>
       <tbody>
-        <tr v-for="(a, i) in priorityActions" :key="i" :class="{ 'row-historic': a.isHistoric }">
-          <td><span :class="['action-pill', `action-pill-${a.priority}`]">{{ a.priority.toUpperCase() }}</span></td>
+        <tr v-for="g in priorityActions" :key="g.slug">
+          <td><span class="badge" :class="priorityBadge(g.priorityRank)">{{ priorityLabel(g.priorityRank) }}</span></td>
+          <td class="term-cell"><SLink :to="`/terms/${g.slug}/`">{{ g.name }}</SLink></td>
           <td>
-            <SLink :to="`/terms/${a.slug}/`">{{ a.term }}</SLink>
-            <span v-if="a.isHistoric" class="badge badge-historic" title="This term exists only in the 2010 edition. TC 1 cannot act — 2010 is historic.">2010 only</span>
+            <ul class="action-mini-list">
+              <li v-for="a in g.actions" :key="a.type">
+                <span class="action-icon" :class="`action-icon-${a.type}`" :title="actionMeta(a.type).label">{{ actionMeta(a.type).icon }}</span>
+                <span class="action-mini-text">
+                  <strong>{{ actionMeta(a.type).label }}</strong> — {{ a.description }}
+                </span>
+              </li>
+            </ul>
           </td>
-          <td>{{ a.reason }}</td>
-          <td class="num">{{ a.count || '' }}</td>
-          <td><SLink :to="`/terms/${a.slug}/`">Open →</SLink></td>
+          <td class="num">{{ g.pubCount }}</td>
+          <td><SLink :to="`/terms/${g.slug}/`">Open →</SLink></td>
         </tr>
       </tbody>
     </table>
@@ -219,3 +214,32 @@ const topDivergent = computed(() =>
     </div>
   </section>
 </template>
+
+<style scoped>
+.action-mini-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35em;
+}
+.action-mini-list li {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5em;
+  margin: 0;
+}
+.action-mini-text {
+  font-size: 0.88em;
+  color: var(--color-ink-soft);
+  line-height: 1.4;
+}
+@media (max-width: 720px) {
+  .action-mini-list li {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.15em;
+  }
+}
+</style>

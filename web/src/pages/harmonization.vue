@@ -4,6 +4,7 @@ import harmonization from "@/data/harmonization.json";
 import conflictsData from "@/data/conflicts.json";
 import termsData from "@/data/terms.json";
 import { usePagination } from "@/composables/usePagination";
+import { maxWithinEditionDistinctDefs } from "@/composables/useSuggestedActions";
 
 // Build a name → kind lookup for VIM/VIML column in collision table.
 const termKindMap: Record<string, string> = {};
@@ -23,19 +24,11 @@ function isHistoricTerm(t: any): boolean {
   const eds = t.editions_present || [];
   return eds.length > 0 && eds.every((e: string) => e === "2010");
 }
+// Use the shared per-edition max helper from useSuggestedActions. The local
+// `distinctDefs` is now a thin alias so existing call sites stay readable
+// (the worklist column header reads "Distinct defs").
 function distinctDefs(pubs: any[]): number {
-  // Max distinct definitions WITHIN A SINGLE EDITION. Cross-edition
-  // definition changes (e.g. 2010 vs 202X wording differ) are intentional
-  // editorial evolution and NOT a harmonisation conflict.
-  const byEd: Record<string, Set<string>> = {};
-  for (const p of pubs) {
-    const d = (p.definition || "").trim();
-    if (!d) continue;
-    const ed = p.edition || "(unspecified)";
-    if (!byEd[ed]) byEd[ed] = new Set();
-    byEd[ed].add(d);
-  }
-  return Math.max(0, ...Object.values(byEd).map(s => s.size));
+  return maxWithinEditionDistinctDefs(pubs);
 }
 function distinctDefsAll(pubs: any[]): number {
   // Cross-edition count — used by the "Ready to standardize" check, where

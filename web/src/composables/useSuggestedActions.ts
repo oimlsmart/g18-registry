@@ -72,6 +72,23 @@ export function isHistoric(term: { editions_present?: string[] }): boolean {
   return eds.length > 0 && eds.every(e => e === "2010");
 }
 
+// Max distinct definitions WITHIN A SINGLE EDITION. Cross-edition wording
+// changes (e.g. 2010 vs 202X) are intentional editorial evolution and are
+// NOT harmonisation targets — only within-edition divergence counts.
+// This is the canonical helper; pages should import it instead of rolling
+// their own.
+export function maxWithinEditionDistinctDefs(pubs: any[]): number {
+  const byEd: Record<string, Set<string>> = {};
+  for (const p of pubs) {
+    const d = (p?.definition || "").trim();
+    if (!d) continue;
+    const ed = p.edition || "(unspecified)";
+    if (!byEd[ed]) byEd[ed] = new Set();
+    byEd[ed].add(d);
+  }
+  return Math.max(0, ...Object.values(byEd).map(s => s.size));
+}
+
 // Normalize publication IDs so spaced ("OIML R 76-1:2006") and compact
 // ("OIML R076-1:2006") formats compare equal.
 export function normalizePubId(id: string): string {
@@ -117,11 +134,12 @@ export function useSuggestedActions(terms: any[]) {
 
   // Group actions by term slug. Each group carries the highest-priority rank
   // across its actions (so a term with both a `removed:high` and a
-  // `harmonize:low` action sorts as `high`). The publication count is the
-  // union of publication_ids across all actions in the group. Historic
-  // (2010-only) terms are flagged so pages can deprioritize their rows.
+  // `harmonize:low` action sorts as `high`). pubCount is the UNION of
+  // publication_ids across actions (a pub cited by both `removed` and
+  // `harmonize` counts once, not twice). Historic (2010-only) terms are
+  // flagged so pages can deprioritize their rows.
   const byTerm: ComputedRef<TermActionGroup[]> = computed(() => {
-    const map: Record<string, TermActionGroup> = {};
+    const map: Record<string, TermActionGroup & { _allPubIds: Set<string> }> = {};
     for (const a of allActions.value) {
       let g = map[a.slug];
       if (!g) {
@@ -134,15 +152,18 @@ export function useSuggestedActions(terms: any[]) {
           pubCount: 0,
           isHistoric: eds.length > 0 && eds.every(e => e === "2010"),
           editionsPresent: eds,
+          _allPubIds: new Set<string>(),
         };
         map[a.slug] = g;
       }
       g.actions.push(a);
       g.priorityRank = Math.min(g.priorityRank, PRIORITY_RANK[a.priority] ?? 9);
-      const ids = new Set(a.publication_ids || []);
-      g.pubCount += ids.size;
+      for (const id of (a.publication_ids || [])) g._allPubIds.add(id);
     }
-    return Object.values(map).sort((a, b) => {
+    return Object.values(map).map(({ _allPubIds, ...rest }) => ({
+      ...rest,
+      pubCount: _allPubIds.size,
+    })).sort((a, b) => {
       // Historic terms sink below non-historic at same priority.
       if (a.isHistoric !== b.isHistoric) return a.isHistoric ? 1 : -1;
       if (a.priorityRank !== b.priorityRank) return a.priorityRank - b.priorityRank;
