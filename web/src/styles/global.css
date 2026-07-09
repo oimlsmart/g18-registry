@@ -147,6 +147,8 @@
   h4 { font-size: 1rem; font-weight: 600; }
   p  { margin: 0.5em 0; }
   ul, ol { margin: 0.5em 0; padding-left: 1.4em; }
+  ol { list-style: decimal; }
+  ul { list-style: disc; }
   li { margin: 0.2em 0; }
   hr { border: 0; border-top: 1px solid var(--color-rule); margin: 1.5em 0; }
 
