@@ -1,7 +1,9 @@
 <script setup lang="ts">
-import { ref, onMounted, onUnmounted } from "vue";
+import { ref, onMounted, onUnmounted, computed } from "vue";
+import { useRoute } from "vue-router";
 import { useTheme } from "@/composables/useTheme";
 
+const route = useRoute();
 const base = import.meta.env.BASE_URL;
 const { theme, toggleTheme } = useTheme();
 const logoSrc = `${base}oiml-logo.svg`;
@@ -11,7 +13,7 @@ const logoDarkSrc = `${base}oiml-logo-dark.svg`;
 // reaches for every session.
 const primaryNav = [
   { href: "actions/", label: "Actions" },
-  { href: "vocab-gaps/", label: "V 3 candidates" },
+  { href: "proposals/", label: "Proposals" },
   { href: "terms/", label: "Terms" },
   { href: "publications/", label: "Publications" },
 ];
@@ -39,6 +41,18 @@ function onDocClick(e: MouseEvent) {
   }
 }
 function onKey(e: KeyboardEvent) { if (e.key === "Escape") moreOpen.value = false; }
+
+// Check if a nav item matches the current page. `href` is relative
+// (e.g. "actions/"); the current path is the router's path minus
+// the base.
+function isActive(href: string): boolean {
+  const current = route.path.replace(base, "").replace(/\/$/, "");
+  const target = href.replace(/\/$/, "");
+  if (target === "") return current === "";
+  return current === target || current.startsWith(target + "/");
+}
+const activePrimary = computed(() => primaryNav.find(n => isActive(n.href)));
+const activeMore = computed(() => moreNav.find(n => isActive(n.href)));
 
 // Close the menu if the viewport grows back to desktop size.
 onMounted(() => {
@@ -81,7 +95,8 @@ onUnmounted(() => {
         <!-- Desktop primary nav + "More" dropdown -->
         <nav class="hidden md:flex items-center text-[13px]" aria-label="Primary">
           <a v-for="n in primaryNav" :key="n.href"
-             class="px-2.5 py-1.5 rounded text-ink-soft hover:text-accent hover:bg-accent-tint transition-colors no-underline font-medium whitespace-nowrap"
+             :class="['px-2.5 py-1.5 rounded transition-colors no-underline font-medium whitespace-nowrap',
+                       isActive(n.href) ? 'bg-accent-tint text-accent' : 'text-ink-soft hover:text-accent hover:bg-accent-tint']"
              :href="base + n.href"
              @click="closeMenu">{{ n.label }}</a>
 
@@ -89,7 +104,8 @@ onUnmounted(() => {
           <div ref="moreRef" class="relative">
             <button
               type="button"
-              class="px-2.5 py-1.5 rounded text-ink-soft hover:text-accent hover:bg-accent-tint transition-colors font-medium flex items-center gap-1"
+              :class="['px-2.5 py-1.5 rounded transition-colors font-medium flex items-center gap-1',
+                        activeMore ? 'bg-accent-tint text-accent' : 'text-ink-soft hover:text-accent hover:bg-accent-tint']"
               :aria-expanded="moreOpen"
               aria-haspopup="true"
               @click="moreOpen = !moreOpen">
@@ -100,7 +116,7 @@ onUnmounted(() => {
             </button>
             <div v-if="moreOpen" class="more-dropdown" role="menu">
               <a v-for="n in moreNav" :key="n.href"
-                 class="more-dropdown-item"
+                 :class="['more-dropdown-item', { 'more-dropdown-item-active': isActive(n.href) }]"
                  role="menuitem"
                  :href="base + n.href"
                  @click="moreOpen = false">{{ n.label }}</a>
@@ -219,5 +235,10 @@ onUnmounted(() => {
   background: var(--color-accent-tint);
   color: var(--color-accent);
   text-decoration: none;
+}
+.more-dropdown-item-active {
+  background: var(--color-accent-tint);
+  color: var(--color-accent);
+  font-weight: 600;
 }
 </style>
