@@ -58,13 +58,7 @@ onUnmounted(() => {
     <div class="mx-auto max-w-[1080px] flex items-center justify-between gap-4 px-6 max-sm:px-4 h-16">
       <a class="flex items-center gap-3 no-underline text-ink hover:no-underline group" :href="base" @click="closeMenu">
         <img :src="logoSrc" alt="OIML" class="block h-7 w-auto shrink-0 transition-transform group-hover:scale-[1.03]" width="28" height="24" />
-        <span class="flex flex-col leading-none">
-          <span class="flex items-baseline gap-1.5">
-            <span style="font-family: var(--font-display); font-weight: 500; font-size: 1.25rem; letter-spacing: -0.02em; color: var(--color-ink); font-variation-settings: 'opsz' 60, 'SOFT' var(--display-soft, 30), 'WONK' var(--display-wonk, 0);">G&nbsp;18</span>
-            <span class="text-[13px] tracking-tight text-ink-soft">Registry</span>
-          </span>
-          <span class="text-[10.5px] text-ink-muted mt-1 max-md:hidden uppercase tracking-[0.12em] font-semibold">OIML Term-Usage</span>
-        </span>
+        <span style="font-family: var(--font-display); font-weight: 500; font-size: 1.125rem; letter-spacing: -0.02em; color: var(--color-ink); line-height: 1.2; font-variation-settings: 'opsz' 48, 'SOFT' var(--display-soft, 30), 'WONK' var(--display-wonk, 0);">OIML G 18 Action Portal</span>
       </a>
 
       <div class="flex items-center gap-2">
@@ -156,7 +150,7 @@ onUnmounted(() => {
   <footer class="bg-oiml-brand-900 text-oiml-brand-200 mt-20 py-10 text-[13px]">
     <div class="mx-auto max-w-[1080px] px-6 max-sm:px-4 grid grid-cols-1 md:grid-cols-[1fr_auto] gap-6 items-end">
       <div class="space-y-1.5">
-        <div class="text-white" style="font-family: var(--font-display); font-weight: 500; font-size: 1.05rem; letter-spacing: -0.015em;">G 18 — OIML Term-Usage Registry</div>
+        <div class="text-white" style="font-family: var(--font-display); font-weight: 500; font-size: 1.05rem; letter-spacing: -0.015em;">OIML G 18 Action Portal</div>
         <div>
           Source: <a class="text-oiml-brand-300 hover:text-white underline" href="https://github.com/oimlsmart/vocab/tree/main/datasets/g18-2010">oimlsmart/vocab</a>
           · VIM/VIML: <a class="text-oiml-brand-300 hover:text-white underline" href="https://oimlsmart.github.io/vocab/">oimlsmart.github.io/vocab</a>
