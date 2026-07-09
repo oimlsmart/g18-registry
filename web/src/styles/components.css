@@ -954,6 +954,30 @@ tbody tr:hover { background: var(--color-accent-tint); }
   padding: 0;
 }
 
+/* Cross-edition comparison filter — secondary chip row below the main
+   edition filter on /terms/. Lets users click directly into the
+   "Added in 202X" / "Removed from 202X" views without navigating from
+   /editions/. */
+.cross-edition-filter {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  flex-wrap: wrap;
+  margin: 0 0 1rem;
+  padding: 0.5em 0.8em;
+  background: var(--color-paper);
+  border-radius: var(--radius-card);
+  font-size: 0.88rem;
+}
+.cross-edition-label {
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--color-ink-muted);
+  white-space: nowrap;
+}
+
 /* responsive grids */
 @media (max-width: 880px) {
   .card { padding: 1.25rem 1.3rem; margin: 1.1rem 0; }

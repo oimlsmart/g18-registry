@@ -149,12 +149,25 @@ const pageTitle = computed(() => {
     </div>
   </div>
 
-  <!-- Cross-edition banner: shown when ?only=202X-only or ?only=2010-only
-       brings the user here from the dashboard "Terms added/removed" links. -->
-  <div v-if="crossEdition" class="cross-edition-banner">
-    <strong>{{ crossEdition === "added" ? "Added in 202X" : "Removed from 202X" }}.</strong>
-    Showing terms {{ crossEdition === "added" ? "present in 202X but not in 2010" : "present in 2010 but not in 202X" }}.
-    <button type="button" class="link-button" @click="crossEdition = null">Clear</button>
+  <!-- Cross-edition comparison: terms added/removed between editions.
+       Reachable from /editions/ links (?only=202X-only / 2010-only)
+       OR directly from this page. On a static site the URL param is
+       read client-side by Vue Router on initial load and on navigation. -->
+  <div class="cross-edition-filter">
+    <span class="cross-edition-label">Cross-edition:</span>
+    <button type="button"
+            :class="['sort-btn', { 'sort-btn-active': crossEdition === 'added' }]"
+            @click="crossEdition = crossEdition === 'added' ? null : 'added'; editionFilter = '202X'">
+      Added in 202X
+    </button>
+    <button type="button"
+            :class="['sort-btn', { 'sort-btn-active': crossEdition === 'removed' }]"
+            @click="crossEdition = crossEdition === 'removed' ? null : 'removed'; editionFilter = 'all'">
+      Removed from 202X
+    </button>
+    <button v-if="crossEdition" type="button" class="sort-btn" @click="crossEdition = null">
+      Clear
+    </button>
   </div>
 
   <section class="card">
