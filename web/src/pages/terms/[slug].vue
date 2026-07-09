@@ -472,7 +472,7 @@ const filteredPublications = computed(() => {
       <p style="margin:0">Some definition paragraphs cite <strong>multiple sources</strong> (e.g. adapted from VIM with additions from VIML). Review the Source column in Publication instances below for the full citation chain.</p>
     </section>
 
-    <section v-if="crossEditionDrift" class="card admonition warn" style="background:#fffbeb">
+    <section v-if="crossEditionDrift" class="card admonition warn">
       <h2 style="margin-top:0">Cross-edition drift</h2>
       <p style="margin:0.3em 0">
         The 2010 and 202X editions use <strong>different definition text</strong>
@@ -716,7 +716,7 @@ const filteredPublications = computed(() => {
   align-items: center;
   gap: 0.5em;
   padding: 0.5em 0.8em;
-  background: #f0f7ff;
+  background: var(--color-accent-tint);
   border-bottom: 1px solid var(--rule);
 }
 .def-group-badge {
@@ -733,7 +733,7 @@ const filteredPublications = computed(() => {
   font-size: 0.92em;
   line-height: 1.4;
   white-space: pre-wrap;
-  background: #fafbfc;
+  background: var(--color-paper-tint);
   border-bottom: 1px solid var(--rule);
 }
 .def-group-pubs {
@@ -745,7 +745,7 @@ const filteredPublications = computed(() => {
 }
 .def-group-unique-section h3 {
   font-size: 0.95em;
-  color: var(--oiml-amber-deep);
+  color: var(--status-warn-text);
   margin-bottom: 0.4em;
 }
 .designations {
@@ -779,8 +779,8 @@ const filteredPublications = computed(() => {
   display: inline-block;
   margin-left: 0.4em;
   padding: 0.05em 0.45em;
-  background: #fef3c7;
-  color: var(--oiml-amber-deep);
+  background: var(--status-warn-bg);
+  color: var(--status-warn-text);
   border-radius: 3px;
   font-size: 0.78em;
   font-style: italic;
@@ -789,8 +789,8 @@ const filteredPublications = computed(() => {
   display: inline-block;
   margin-left: 0.4em;
   padding: 0.05em 0.4em;
-  background: #dcfce7;
-  color: var(--green);
+  background: var(--status-ok-bg);
+  color: var(--status-ok-text);
   border-radius: 3px;
   font-size: 0.7em;
   font-weight: 700;
@@ -806,14 +806,14 @@ const filteredPublications = computed(() => {
   text-transform: uppercase;
   letter-spacing: 0.04em;
 }
-.rel-identical { background: #dcfce7; color: var(--green); }
-.rel-modified  { background: #fef3c7; color: var(--oiml-amber-deep); }
-.rel-authoritative { background: #dbeafe; color: #1e3a8a; }
-.rel-derived   { background: #fef3c7; color: var(--oiml-amber-deep); }
-.rel-similar   { background: #eef0f3; color: var(--ink-muted); }
+.rel-identical { background: var(--status-ok-bg); color: var(--status-ok-text); }
+.rel-modified  { background: var(--status-warn-bg); color: var(--status-warn-text); }
+.rel-authoritative { background: var(--status-info-bg); color: var(--status-info-text); }
+.rel-derived   { background: var(--status-warn-bg); color: var(--status-warn-text); }
+.rel-similar   { background: var(--status-neutral-bg); color: var(--status-neutral-text); }
 .prov-pub { display: inline-block; margin-right: 0.6em; }
-.row-modified { background: #fffbeb !important; }
-.row-differs { background: #fef2f2 !important; }
+.row-modified { background: var(--status-warn-bg) !important; }
+.row-differs { background: var(--status-error-bg) !important; }
 
 .def-para {
   padding: 0.3em 0;
@@ -829,7 +829,7 @@ const filteredPublications = computed(() => {
 .para-mod {
   margin-top: 0.3em;
   padding: 0.3em 0.5em;
-  background: #fef3c7;
+  background: var(--status-warn-bg);
   border-left: 3px solid var(--oiml-amber-deep);
   font-size: 0.85em;
   line-height: 1.4;
@@ -845,8 +845,8 @@ const filteredPublications = computed(() => {
   letter-spacing: 0.04em;
   white-space: nowrap;
 }
-.match-match { background: #dcfce7; color: var(--green); }
-.match-modified { background: #fef3c7; color: var(--oiml-amber-deep); }
-.match-differs { background: #fee2e2; color: var(--red); }
-.match-empty, .match-nobaseline { background: #eef0f3; color: var(--ink-muted); }
+.match-match { background: var(--status-ok-bg); color: var(--status-ok-text); }
+.match-modified { background: var(--status-warn-bg); color: var(--status-warn-text); }
+.match-differs { background: var(--status-error-bg); color: var(--status-error-text); }
+.match-empty, .match-nobaseline { background: var(--status-neutral-bg); color: var(--status-neutral-text); }
 </style>
