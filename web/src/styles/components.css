@@ -830,11 +830,14 @@ tbody tr:hover { background: var(--color-accent-tint); }
   }
 }
 
-/* Desktop / mobile toggle: show wide table on desktop, cards on mobile. */
-.table-only-mobile { display: none; }
+/* Desktop / mobile toggle: show wide table on desktop, cards on mobile.
+   `!important` is intentional here — these are explicit visibility-control
+   utilities that must win against scoped component styles (e.g.
+   `.gap-cards { display: flex }` has higher specificity when scoped). */
+.table-only-mobile { display: none !important; }
 @media (max-width: 720px) {
-  .table-only-desktop { display: none; }
-  .table-only-mobile { display: block; }
+  .table-only-desktop { display: none !important; }
+  .table-only-mobile { display: block !important; }
 }
 
 /* Term cards (mobile replacement for the terms list table). */

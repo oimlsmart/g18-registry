@@ -196,4 +196,56 @@
   --red:   var(--color-red);
 }
 
+/* ── Dark theme overrides ───────────────────────────────────────────────
+   Applied via `data-theme="dark"` on <html>. Default is light (no
+   attribute needed). The token names don't change — only their values
+   — so all components and Tailwind utilities pick up dark variants
+   automatically without code changes. */
+:root[data-theme="dark"] {
+  --color-paper:       #0e1620;
+  --color-paper-soft:  #131c28;
+  --color-paper-tint:  #1a2634;
+
+  --color-ink:         #e8eef5;
+  --color-ink-soft:    #b8c4d4;
+  --color-ink-muted:   #7d8b9e;
+
+  --color-rule:        #2a3848;
+  --color-rule-soft:   #1f2a38;
+
+  --color-accent:      #5fa4f5;
+  --color-accent-hover: #89bcf8;
+  --color-accent-soft:  #1e3a5c;
+  --color-accent-tint:  #15233a;
+
+  --color-oiml-brand-50:  #1a2634;
+  --color-oiml-brand-100: #1e3050;
+  --color-oiml-brand-200: #284a72;
+  --color-oiml-brand-300: #356290;
+  --color-oiml-brand-400: #4d8fe0;
+  --color-oiml-brand-500: #5fa4f5;
+  --color-oiml-brand-600: #79b5f7;
+  --color-oiml-brand-700: #a0c8f9;
+  --color-oiml-brand-800: #c3dbfb;
+  --color-oiml-brand-900: #e8eef5;
+
+  --color-oiml-cream:       #0e1620;
+  --color-oiml-cream-soft:  #1a2634;
+  --color-oiml-cream-deep:  #284a72;
+
+  --color-oiml-amber:       #f59e0b;
+  --color-oiml-amber-soft:  #fbbf24;
+  --color-oiml-amber-deep:  #fcd34d;
+
+  --color-green: #34d399;
+  --color-red:   #f87171;
+
+  color-scheme: dark;
+}
+
+/* Smooth transition when switching themes. */
+html {
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
 @import "./components.css";

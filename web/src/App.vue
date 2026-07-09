@@ -1,50 +1,55 @@
 <script setup lang="ts">
-import { ref, onMounted } from "vue";
+import { ref, onMounted, onUnmounted } from "vue";
+import { useTheme } from "@/composables/useTheme";
 
 const base = import.meta.env.BASE_URL;
 const logoSrc = `${base}oiml-logo.svg`;
+const { theme, toggleTheme } = useTheme();
 
-// Three groups, ordered by user task:
-//   Triage  — what TC 1 needs to work on
-//   Browse  — explore the registry
-//   Dataset — structural issues / edition diff
-const navGroups: { items: { href: string; label: string }[] }[] = [
-  {
-    items: [
-      { href: "actions/", label: "Actions" },
-      { href: "vocab-gaps/", label: "V 3 candidates" },
-    ],
-  },
-  {
-    items: [
-      { href: "conflicts/", label: "ID Conflicts" },
-      { href: "harmonization/", label: "Defn Conflicts" },
-    ],
-  },
-  {
-    items: [
-      { href: "terms/", label: "Terms" },
-      { href: "publications/", label: "Publications" },
-      { href: "tc/", label: "TC / SC" },
-    ],
-  },
-  {
-    items: [
-      { href: "editions/", label: "Editions" },
-    ],
-  },
+// Primary nav (always visible at desktop). Items here are what TC 1
+// reaches for every session.
+const primaryNav = [
+  { href: "actions/", label: "Actions" },
+  { href: "vocab-gaps/", label: "V 3 candidates" },
+  { href: "terms/", label: "Terms" },
+  { href: "publications/", label: "Publications" },
+];
+
+// "More" dropdown — less-frequently-visited pages. Kept out of the
+// primary nav so the bar stays scannable.
+const moreNav = [
+  { href: "harmonization/", label: "Defn conflicts" },
+  { href: "conflicts/", label: "ID conflicts" },
+  { href: "tc/", label: "TC / SC" },
+  { href: "editions/", label: "Editions" },
 ];
 
 // Mobile hamburger state. Defaults to `false` so SSR and client agree.
 const menuOpen = ref(false);
-
 function closeMenu() { menuOpen.value = false; }
+
+// Desktop "More" dropdown state. Closes on outside click or Escape.
+const moreOpen = ref(false);
+const moreRef = ref<HTMLElement | null>(null);
+
+function onDocClick(e: MouseEvent) {
+  if (moreRef.value && !moreRef.value.contains(e.target as Node)) {
+    moreOpen.value = false;
+  }
+}
+function onKey(e: KeyboardEvent) { if (e.key === "Escape") moreOpen.value = false; }
 
 // Close the menu if the viewport grows back to desktop size.
 onMounted(() => {
   const mq = window.matchMedia("(min-width: 880px)");
   const handler = (e: MediaQueryListEvent) => { if (e.matches) closeMenu(); };
   mq.addEventListener("change", handler);
+  document.addEventListener("click", onDocClick);
+  document.addEventListener("keydown", onKey);
+});
+onUnmounted(() => {
+  document.removeEventListener("click", onDocClick);
+  document.removeEventListener("keydown", onKey);
 });
 </script>
 
@@ -62,42 +67,85 @@ onMounted(() => {
         </span>
       </a>
 
-      <button
-        class="md:hidden flex flex-col justify-center items-center gap-[3px] bg-transparent border-0 p-2 w-9 h-9 cursor-pointer rounded hover:bg-rule-soft"
-        :aria-expanded="menuOpen"
-        aria-label="Toggle navigation menu"
-        @click="menuOpen = !menuOpen"
-      >
-        <span class="block h-[1.5px] w-5 bg-ink rounded-full transition-all duration-200"
-              :style="menuOpen ? 'transform: translateY(4.5px) rotate(45deg)' : ''" />
-        <span class="block h-[1.5px] w-5 bg-ink rounded-full transition-all duration-200"
-              :style="menuOpen ? 'opacity: 0; transform: scaleX(0)' : ''" />
-        <span class="block h-[1.5px] w-5 bg-ink rounded-full transition-all duration-200"
-              :style="menuOpen ? 'transform: translateY(-4.5px) rotate(-45deg)' : ''" />
-      </button>
+      <div class="flex items-center gap-2">
+        <!-- Theme toggle (sun/moon) -->
+        <button
+          type="button"
+          class="theme-toggle"
+          :aria-label="theme === 'dark' ? 'Switch to light theme' : 'Switch to dark theme'"
+          :title="theme === 'dark' ? 'Switch to light theme' : 'Switch to dark theme'"
+          @click="toggleTheme">
+          <!-- Sun (shown in dark mode — click to go to light) -->
+          <svg v-if="theme === 'dark'" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="4" /><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41" />
+          </svg>
+          <!-- Moon (shown in light mode — click to go to dark) -->
+          <svg v-else width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+          </svg>
+        </button>
 
-      <nav class="hidden md:flex items-center gap-0.5 text-[13px]" aria-label="Primary">
-        <template v-for="(group, gi) in navGroups" :key="gi">
-          <span v-if="gi > 0" class="h-4 w-px bg-rule mx-0.5" aria-hidden="true" />
-          <a v-for="n in group.items" :key="n.href"
-             class="px-2 py-1.5 rounded text-ink-soft hover:text-accent hover:bg-accent-tint transition-colors no-underline font-medium whitespace-nowrap"
+        <!-- Mobile hamburger -->
+        <button
+          class="md:hidden flex flex-col justify-center items-center gap-[3px] bg-transparent border-0 p-2 w-9 h-9 cursor-pointer rounded hover:bg-rule-soft"
+          :aria-expanded="menuOpen"
+          aria-label="Toggle navigation menu"
+          @click="menuOpen = !menuOpen"
+        >
+          <span class="block h-[1.5px] w-5 bg-ink rounded-full transition-all duration-200"
+                :style="menuOpen ? 'transform: translateY(4.5px) rotate(45deg)' : ''" />
+          <span class="block h-[1.5px] w-5 bg-ink rounded-full transition-all duration-200"
+                :style="menuOpen ? 'opacity: 0; transform: scaleX(0)' : ''" />
+          <span class="block h-[1.5px] w-5 bg-ink rounded-full transition-all duration-200"
+                :style="menuOpen ? 'transform: translateY(-4.5px) rotate(-45deg)' : ''" />
+        </button>
+
+        <!-- Desktop primary nav + "More" dropdown -->
+        <nav class="hidden md:flex items-center text-[13px]" aria-label="Primary">
+          <a v-for="n in primaryNav" :key="n.href"
+             class="px-2.5 py-1.5 rounded text-ink-soft hover:text-accent hover:bg-accent-tint transition-colors no-underline font-medium whitespace-nowrap"
              :href="base + n.href"
              @click="closeMenu">{{ n.label }}</a>
-        </template>
-      </nav>
+
+          <!-- "More" dropdown -->
+          <div ref="moreRef" class="relative">
+            <button
+              type="button"
+              class="px-2.5 py-1.5 rounded text-ink-soft hover:text-accent hover:bg-accent-tint transition-colors font-medium flex items-center gap-1"
+              :aria-expanded="moreOpen"
+              aria-haspopup="true"
+              @click="moreOpen = !moreOpen">
+              More
+              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <polyline points="6 9 12 15 18 9" />
+              </svg>
+            </button>
+            <div v-if="moreOpen" class="more-dropdown" role="menu">
+              <a v-for="n in moreNav" :key="n.href"
+                 class="more-dropdown-item"
+                 role="menuitem"
+                 :href="base + n.href"
+                 @click="moreOpen = false">{{ n.label }}</a>
+            </div>
+          </div>
+        </nav>
+      </div>
     </div>
 
     <!-- Mobile dropdown -->
     <nav v-if="menuOpen"
          class="md:hidden absolute left-0 right-0 top-full bg-paper-soft border-b border-rule shadow-lg px-4 py-3 z-40 max-h-[calc(100vh-64px)] overflow-y-auto"
          aria-label="Primary mobile">
-      <template v-for="(group, gi) in navGroups" :key="gi">
-        <div v-if="gi > 0" class="h-px bg-rule-soft my-2 mx-1" />
-        <a v-for="n in group.items" :key="n.href"
-           class="block px-3 py-2.5 text-[15px] text-ink rounded hover:bg-accent-tint hover:text-accent hover:no-underline font-medium"
-           :href="base + n.href"
-           @click="closeMenu">{{ n.label }}</a>
-      </template>
+      <a v-for="n in primaryNav" :key="n.href"
+         class="block px-3 py-2.5 text-[15px] text-ink rounded hover:bg-accent-tint hover:text-accent hover:no-underline font-medium"
+         :href="base + n.href"
+         @click="closeMenu">{{ n.label }}</a>
+      <div class="h-px bg-rule-soft my-2 mx-1" />
+      <span class="block px-3 py-1 text-[10.5px] uppercase tracking-[0.12em] font-semibold text-ink-muted">More</span>
+      <a v-for="n in moreNav" :key="n.href"
+         class="block px-3 py-2.5 text-[14px] text-ink-soft rounded hover:bg-accent-tint hover:text-accent hover:no-underline font-medium"
+         :href="base + n.href"
+         @click="closeMenu">{{ n.label }}</a>
     </nav>
   </header>
 
@@ -124,4 +172,56 @@ onMounted(() => {
 
 <style>
 @import "./styles/global.css";
+
+/* Theme toggle button — sun/moon icon */
+.theme-toggle {
+  appearance: none;
+  background: transparent;
+  border: 1px solid var(--color-rule);
+  color: var(--color-ink-soft);
+  width: 36px;
+  height: 36px;
+  border-radius: 4px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+}
+.theme-toggle:hover {
+  background: var(--color-paper-tint);
+  color: var(--color-accent);
+  border-color: var(--color-ink-muted);
+}
+
+/* "More" dropdown */
+.more-dropdown {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  min-width: 12em;
+  margin-top: 0.3em;
+  background: var(--color-paper-soft);
+  border: 1px solid var(--color-rule);
+  border-radius: 4px;
+  box-shadow: 0 4px 12px -4px rgba(10, 22, 40, 0.12);
+  padding: 0.4em 0;
+  z-index: 50;
+  display: flex;
+  flex-direction: column;
+}
+.more-dropdown-item {
+  display: block;
+  padding: 0.5em 0.9em;
+  color: var(--color-ink-soft);
+  font-size: 0.92rem;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background 0.1s, color 0.1s;
+}
+.more-dropdown-item:hover {
+  background: var(--color-accent-tint);
+  color: var(--color-accent);
+  text-decoration: none;
+}
 </style>
