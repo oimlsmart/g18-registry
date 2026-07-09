@@ -580,11 +580,11 @@ tbody tr:hover { background: var(--color-accent-tint); }
 .sort-btn:last-child { border-right: 0; }
 .sort-btn:hover { background: var(--color-paper-tint); color: var(--color-ink); }
 .sort-btn-active {
-  background: var(--color-ink);
+  background: var(--color-accent);
   color: #fff;
   font-weight: 600;
 }
-.sort-btn-active:hover { background: var(--color-ink); color: #fff; }
+.sort-btn-active:hover { background: var(--color-accent-hover); color: #fff; }
 
 /* conflict concept list */
 .conflict-concept { padding: 0.3em 0; }
@@ -721,13 +721,13 @@ tbody tr:hover { background: var(--color-accent-tint); }
   cursor: not-allowed;
 }
 .pagination-btn-active {
-  background: var(--color-ink);
+  background: var(--color-accent);
   color: #fff;
-  border-color: var(--color-ink);
+  border-color: var(--color-accent);
   font-weight: 600;
 }
 .pagination-btn-active:hover {
-  background: var(--color-ink);
+  background: var(--color-accent-hover);
   color: #fff;
 }
 .pagination-ellipsis {
@@ -789,13 +789,13 @@ tbody tr:hover { background: var(--color-accent-tint); }
   border-color: var(--color-ink-muted);
 }
 .page-filter-btn-active {
-  background: var(--color-ink);
-  border-color: var(--color-ink);
+  background: var(--color-accent);
+  border-color: var(--color-accent);
   color: #fff;
 }
 .page-filter-btn-active:hover {
-  background: var(--color-ink);
-  border-color: var(--color-ink);
+  background: var(--color-accent-hover);
+  border-color: var(--color-accent-hover);
 }
 .page-filter-btn-title {
   font-family: var(--font-display);

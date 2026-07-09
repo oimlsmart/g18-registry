@@ -3,8 +3,9 @@ import { ref, onMounted, onUnmounted } from "vue";
 import { useTheme } from "@/composables/useTheme";
 
 const base = import.meta.env.BASE_URL;
-const logoSrc = `${base}oiml-logo.svg`;
 const { theme, toggleTheme } = useTheme();
+const logoSrc = `${base}oiml-logo.svg`;
+const logoDarkSrc = `${base}oiml-logo-dark.svg`;
 
 // Primary nav (always visible at desktop). Items here are what TC 1
 // reaches for every session.
@@ -61,24 +62,12 @@ onUnmounted(() => {
         <span style="font-family: var(--font-display); font-weight: 500; font-size: 1.125rem; letter-spacing: -0.02em; color: var(--color-ink); line-height: 1.2; font-variation-settings: 'opsz' 48, 'SOFT' var(--display-soft, 30), 'WONK' var(--display-wonk, 0);">OIML G 18 Action Portal</span>
       </a>
 
-      <div class="flex items-center gap-2">
-        <!-- Theme toggle (sun/moon) -->
-        <button
-          type="button"
-          class="theme-toggle"
-          :aria-label="theme === 'dark' ? 'Switch to light theme' : 'Switch to dark theme'"
-          :title="theme === 'dark' ? 'Switch to light theme' : 'Switch to dark theme'"
-          @click="toggleTheme">
-          <!-- Sun (shown in dark mode — click to go to light) -->
-          <svg v-if="theme === 'dark'" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-            <circle cx="12" cy="12" r="4" /><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41" />
-          </svg>
-          <!-- Moon (shown in light mode — click to go to dark) -->
-          <svg v-else width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
-          </svg>
-        </button>
+      <a class="flex items-center gap-3 no-underline text-ink hover:no-underline group" :href="base" @click="closeMenu">
+        <img :src="theme === 'dark' ? logoDarkSrc : logoSrc" alt="OIML" class="block h-7 w-auto shrink-0 transition-transform group-hover:scale-[1.03]" width="28" height="24" />
+        <span style="font-family: var(--font-display); font-weight: 500; font-size: 1.125rem; letter-spacing: -0.02em; color: var(--color-ink); line-height: 1.2; font-variation-settings: 'opsz' 48, 'SOFT' var(--display-soft, 30), 'WONK' var(--display-wonk, 0);">OIML G 18 Action Portal</span>
+      </a>
 
+      <div class="flex items-center gap-2">
         <!-- Mobile hamburger -->
         <button
           class="md:hidden flex flex-col justify-center items-center gap-[3px] bg-transparent border-0 p-2 w-9 h-9 cursor-pointer rounded hover:bg-rule-soft"
@@ -123,6 +112,21 @@ onUnmounted(() => {
             </div>
           </div>
         </nav>
+
+        <!-- Theme toggle (rightmost) -->
+        <button
+          type="button"
+          class="theme-toggle"
+          :aria-label="theme === 'dark' ? 'Switch to light theme' : 'Switch to dark theme'"
+          :title="theme === 'dark' ? 'Switch to light theme' : 'Switch to dark theme'"
+          @click="toggleTheme">
+          <svg v-if="theme === 'dark'" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="4" /><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41" />
+          </svg>
+          <svg v-else width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+          </svg>
+        </button>
       </div>
     </div>
 
