@@ -307,9 +307,9 @@ function pubRef(id: string): string {
 <style scoped>
 .prov-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0.7em; margin: 0.5em 0; }
 .prov-tile { padding: 0.8em 1em; background: var(--accent-tint); border-radius: 5px; border-left: 3px solid var(--accent); }
-.prov-tile-warn { background: #fffbeb; border-left-color: var(--oiml-amber-deep); }
+.prov-tile-warn { background: var(--status-warn-bg); border-left-color: var(--status-warn-text); }
 .prov-tile-num { font-size: 1.8em; font-weight: 700; color: var(--accent); line-height: 1; }
-.prov-tile-warn .prov-tile-num { color: var(--oiml-amber-deep); }
+.prov-tile-warn .prov-tile-num { color: var(--status-warn-text); }
 .prov-tile-label { font-size: 0.85em; color: var(--ink-soft); margin-top: 0.2em; }
 .src-pub-link {
   display: inline-block;

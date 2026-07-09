@@ -91,8 +91,8 @@
   border-color: var(--color-oiml-cream-deep);
 }
 .card.card-warn {
-  background: #fffbeb;
-  border-color: #fde68a;
+  background: var(--status-warn-bg);
+  border-color: var(--status-warn-border);
 }
 
 /* ── Tables ──────────────────────────────────────────────────────────── */
@@ -160,9 +160,9 @@ tbody tr:hover { background: var(--color-accent-tint); }
   line-height: 1.4;
   letter-spacing: 0.02em;
 }
-.badge-ok      { background: var(--color-green); color: #fff; border-color: var(--color-green); }
-.badge-partial { background: #fef3c7; color: var(--color-oiml-amber-deep); border-color: #fde68a; }
-.badge-ko      { background: var(--color-red); color: #fff; border-color: var(--color-red); }
+.badge-ok      { background: var(--status-ok-bg); color: var(--status-ok-text); border-color: var(--status-ok-border); }
+.badge-partial { background: var(--status-warn-bg); color: var(--status-warn-text); border-color: var(--status-warn-border); }
+.badge-ko      { background: var(--status-error-bg); color: var(--status-error-text); border-color: var(--status-error-border); }
 .badge-pending { background: transparent; color: var(--color-ink-muted); border-color: var(--color-rule); }
 .badge-historic { background: transparent; color: var(--color-ink-muted); border-color: var(--color-rule); font-style: italic; text-transform: none; letter-spacing: 0; font-weight: 500; }
 
@@ -233,12 +233,12 @@ tbody tr:hover { background: var(--color-accent-tint); }
   font-weight: 500;
   border: 1px solid transparent;
 }
-.viml-ref.vim-current  { background: #dbeafe; color: #1e3a8a; border-color: #93c5fd; font-weight: 600; }
-.viml-ref.vim-prior    { background: #eff6ff; color: #2563eb; border-color: #bfdbfe; }
-.viml-ref.vim-legacy   { background: #f8fafc; color: #64748b; border-color: #e2e8f0; font-style: italic; }
-.viml-ref.viml-current { background: #d1fae5; color: #064e3b; border-color: #6ee7b7; font-weight: 600; }
-.viml-ref.viml-prior   { background: #ecfdf5; color: #047857; border-color: #a7f3d0; }
-.viml-ref.viml-legacy  { background: #f0fdf4; color: #6b7280; border-color: #d1d5db; font-style: italic; }
+.viml-ref.vim-current  { background: var(--status-info-bg); color: var(--status-info-text); border-color: var(--status-info-border); font-weight: 600; }
+.viml-ref.vim-prior    { background: var(--status-info-bg); color: var(--status-info-text); border-color: var(--status-info-border); opacity: 0.85; }
+.viml-ref.vim-legacy   { background: var(--status-neutral-bg); color: var(--status-neutral-text); border-color: var(--status-neutral-border); font-style: italic; }
+.viml-ref.viml-current { background: var(--status-ok-bg); color: var(--status-ok-text); border-color: var(--status-ok-border); font-weight: 600; }
+.viml-ref.viml-prior   { background: var(--status-ok-bg); color: var(--status-ok-text); border-color: var(--status-ok-border); opacity: 0.85; }
+.viml-ref.viml-legacy  { background: var(--status-neutral-bg); color: var(--status-neutral-text); border-color: var(--status-neutral-border); font-style: italic; }
 
 /* match status */
 .match-status {
@@ -250,9 +250,9 @@ tbody tr:hover { background: var(--color-accent-tint); }
   font-size: 0.72rem;
   font-weight: 600;
 }
-.match-status-full        { background: #dcfce7; color: var(--color-green); }
-.match-status-outdated    { background: #fef3c7; color: var(--color-oiml-amber-deep); }
-.match-status-notinviml   { background: #fee2e2; color: var(--color-red); }
+.match-status-full        { background: var(--status-ok-bg); color: var(--status-ok-text); }
+.match-status-outdated    { background: var(--status-warn-bg); color: var(--status-warn-text); }
+.match-status-notinviml   { background: var(--status-error-bg); color: var(--status-error-text); }
 
 /* authority definition block */
 .authority-defn {
@@ -276,8 +276,8 @@ tbody tr:hover { background: var(--color-accent-tint); }
   display: inline-block;
   padding: 0.05em 0.45em;
   margin-left: 0.3em;
-  background: #fde68a;
-  color: #78350f;
+  background: var(--status-warn-bg);
+  color: var(--status-warn-text);
   border-radius: 3px;
   font-size: 0.65rem;
   font-weight: 700;
@@ -294,8 +294,8 @@ tbody tr:hover { background: var(--color-accent-tint); }
   border: 1px solid var(--color-rule);
   background: var(--color-paper-soft);
 }
-.admonition.warn   { background: #fffbeb; border-color: #fde68a; color: var(--color-oiml-amber-deep); }
-.admonition.danger { background: #fef2f2; border-color: #fecaca; color: var(--color-red); }
+.admonition.warn   { background: var(--status-warn-bg); border-color: var(--status-warn-border); color: var(--status-warn-text); }
+.admonition.danger { background: var(--status-error-bg); border-color: var(--status-error-border); color: var(--status-error-text); }
 
 /* actions list */
 .actions-list { list-style: none; padding: 0; margin: 0; }
@@ -319,7 +319,7 @@ tbody tr:hover { background: var(--color-accent-tint); }
   border: 1px solid transparent;
 }
 .action-pill-high    { background: var(--color-oiml-amber-deep); color: #fff; border-color: var(--color-oiml-amber-deep); }
-.action-pill-medium  { background: #fef3c7; color: var(--color-oiml-amber-deep); border-color: #fde68a; }
+.action-pill-medium  { background: var(--status-warn-bg); color: var(--status-warn-text); border-color: var(--status-warn-border); }
 .action-pill-low     { background: transparent; color: var(--color-ink-soft); border-color: var(--color-rule); }
 .action-pill-info    { background: var(--color-accent-tint); color: var(--color-accent); border-color: var(--color-accent-soft); }
 
@@ -619,8 +619,8 @@ tbody tr:hover { background: var(--color-accent-tint); }
 .problem-count {
   display: inline-block;
   padding: 0.1em 0.55em;
-  background: #fef3c7;
-  color: var(--color-oiml-amber-deep);
+  background: var(--status-warn-bg);
+  color: var(--status-warn-text);
   border-radius: 3px;
   font-weight: 600;
   font-size: 0.82rem;
@@ -657,7 +657,7 @@ tbody tr:hover { background: var(--color-accent-tint); }
 /* misc utility */
 .muted { color: var(--color-ink-muted); }
 .warn  { color: var(--color-oiml-amber-deep); }
-.row-divergent { background: #fffbeb; }
+.row-divergent { background: var(--status-warn-bg); }
 .divergence-count {
   color: var(--color-oiml-amber-deep);
   font-weight: 700;
@@ -808,25 +808,45 @@ tbody tr:hover { background: var(--color-accent-tint); }
   font-size: 0.74rem;
   opacity: 0.8;
   white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
 }
-@media (max-width: 720px) {
+/* At narrow viewports, the card-style buttons wrap awkwardly and balloon
+   in height. Switch to a compact horizontal segmented control instead —
+   title + meta inline, smaller padding, no min-width. */
+@media (max-width: 820px) {
   .page-filter {
-    top: 56px;
     flex-direction: column;
     align-items: stretch;
+    gap: 0.4em;
   }
   .page-filter-controls {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 0.4em;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3em;
   }
   .page-filter-btn {
     min-width: 0;
+    flex: 1 1 auto;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.4em;
+    padding: 0.4em 0.7em;
+  }
+  .page-filter-btn-title { font-size: 0.88rem; }
+  .page-filter-btn-meta {
+    font-size: 0.7rem;
+    white-space: normal;
+    max-width: none;
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 720px) {
+  .page-filter { top: 56px; }
   .page-filter-controls {
+    display: grid;
     grid-template-columns: 1fr;
+    gap: 0.3em;
   }
 }
 
