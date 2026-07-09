@@ -118,6 +118,41 @@ def load_latest_designation_index(vocab_root, dataset_dir)
   idx
 end
 
+# Load the full concept details (designations, definitions, notes,
+# examples) for a given concept ID from the vocab repo. Returns a
+# hash with eng/fra localizations so the term detail page can show
+# the complete VIM/VIML concept as TC 1's harmonisation target.
+def load_concept_details(vocab_root, dataset_dir, concept_id)
+  path = File.join(vocab_root, dataset_dir, "concepts", "#{concept_id}.yaml")
+  return nil unless File.exist?(path)
+  docs = begin
+    YAML.safe_load_stream(File.read(path), aliases: true)
+  rescue Psych::SyntaxError
+    return nil
+  end
+  # First doc is the managed concept (metadata); remaining docs are
+  # localized concepts keyed by language_code.
+  loc_docs = docs.select { |d| d.is_a?(Hash) && d.dig("data", "language_code") }
+  out = {}
+  loc_docs.each do |doc|
+    data = doc["data"] || {}
+    lang = data["language_code"]
+    next unless lang
+    out[lang] = {
+      "designations" => (data["terms"] || []).map do |t|
+        {
+          "type" => t["type"],
+          "status" => t["normative_status"] || "preferred",
+          "text" => t["designation"],
+        }
+      end,
+      "definitions" => Array(data["definition"]).map { |d| d.is_a?(Hash) ? d["content"] : nil }.compact,
+      "notes" => Array(data["notes"]).map { |n| n.is_a?(Hash) ? n["content"] : nil }.compact,
+      "examples" => Array(data["examples"]).map { |e| e.is_a?(Hash) ? e["content"] : nil }.compact,
+    }
+  end
+  out.empty? ? nil : out
+end
 latest_indices = {}
 LATEST_DATASETS.each do |vocab, info|
   path = File.join(options[:vocab_root], info[:dir], "concepts")
@@ -278,13 +313,39 @@ Dir.glob(File.join(options[:data_dir], "*.yaml")).sort.each do |path|
       end
     end
   end
+  # Load full VIM/VIML concept details (designations, definitions,
+  # notes, examples) for terms with an official_concept. Shows TC 1
+  # the complete authoritative target on the term detail page.
+  # Try the latest edition first (best harmonisation target); fall
+  # back to the cited edition (terms removed from latest still have
+  # their original concept file).
+  full_concept = nil
+  if data["official_concept"] && (oc_id = data["official_concept"]["id"])
+    v = G18::Vocabulary.vocab(oc_urn)
+    if v && (info = LATEST_DATASETS[v])
+      full_concept = load_concept_details(options[:vocab_root], info[:dir], oc_id)
+    end
+    # Fallback: try the cited edition's directory derived from the URN.
+    if !full_concept && oc_urn
+      cited_dir = oc_urn.match(/v:[12]:(\d{4})/) do |m|
+        year = m[1]
+        vocab_prefix = oc_urn.include?("v:2") ? "vim" : "viml"
+        "#{vocab_prefix}-#{year}"
+      end
+      if cited_dir
+        full_concept = load_concept_details(options[:vocab_root], cited_dir, oc_id)
+      end
+    end
+  end
   term = {
     "slug" => File.basename(path, ".yaml"),
     "identifier" => data["identifier"],
     "name" => render_stem(data["term"]),
     "designations" => render_stem_deep(data["designations"] || []),
     "kind" => data["kind"],
-    "official_concept" => render_stem_deep(data["official_concept"]),
+    "official_concept" => render_stem_deep(data["official_concept"])&.merge(
+      "full_concept" => render_stem_deep(full_concept)
+    ),
     "editions_present" => data["editions_present"],
     "primary_edition" => data["primary_edition"],
     "latest_check" => latest,

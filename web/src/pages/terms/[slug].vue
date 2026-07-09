@@ -175,6 +175,18 @@ const isHistoricTerm = computed(() => {
   return eds.length > 0 && eds.every(e => e === "2010");
 });
 
+// Full VIM/VIML concept content (designations, definitions, notes,
+// examples) loaded from the vocab repo at export time. Shows TC 1
+// the complete authoritative target on the term detail page.
+const fullConcept = computed(() => term.value?.official_concept?.full_concept || null);
+const fullConceptLangs = computed(() => fullConcept.value ? Object.keys(fullConcept.value) : []);
+const fullConceptLang = ref("eng");
+const fullConceptData = computed(() => {
+  const fc = fullConcept.value;
+  if (!fc) return null;
+  return fc[fullConceptLang.value] || fc["eng"] || Object.values(fc)[0] || null;
+});
+
 // Designations: split by type/status for the UI. Falls back to the legacy
 // `term.name` as preferred expression when the new field is absent.
 const designations = computed(() => (term.value?.designations || []) as any[]);
@@ -437,17 +449,76 @@ const filteredPublications = computed(() => {
       </div>
     </div>
 
-    <section class="card" v-if="term.official_concept && term.kind !== 'undefined'">
-      <h2>Authoritative definition</h2>
+    <section class="card" v-if="term.official_concept && !isOimlOriginal(term)">
+      <div class="card-head">
+        <h2>Authoritative concept</h2>
+        <a v-if="term.official_concept.url" class="external" :href="term.official_concept.url" style="font-size:0.85em">view on vocab site ↗</a>
+      </div>
       <div :class="['authority-defn', confidenceClass(term.official_concept.source)]">
         <span :class="confidenceClass(term.official_concept.source)">
           {{ term.official_concept.edition_label || term.official_concept.source }}
           <span v-if="isCurrent(term.official_concept.source)" class="viml-latest-badge">Latest</span>
         </span>
         · concept <strong>#{{ term.official_concept.id }}</strong>
-        <a v-if="term.official_concept.url" class="external" :href="term.official_concept.url">view ↗</a>
-        <p v-if="term.official_concept.definition_text" class="authority-defn-body"><DefText :text="term.official_concept.definition_text" /></p>
       </div>
+
+      <!-- Full concept content from vocab repo (eng + fra) -->
+      <template v-if="fullConceptData">
+        <!-- Language toggle -->
+        <div v-if="fullConceptLangs.length > 1" class="sort-toggle" style="margin:0.6em 0">
+          <button v-for="lang in fullConceptLangs" :key="lang"
+                  type="button"
+                  :class="['sort-btn', { 'sort-btn-active': fullConceptLang === lang }]"
+                  @click="fullConceptLang = lang">
+            {{ lang === 'eng' ? 'English' : lang === 'fra' ? 'Français' : lang }}
+          </button>
+        </div>
+
+        <!-- Designations -->
+        <div v-if="fullConceptData.designations?.length" class="full-concept-section">
+          <span class="full-concept-label">Designations:</span>
+          <ul class="full-concept-designations">
+            <li v-for="(d, i) in fullConceptData.designations" :key="i">
+              <span :class="['kind', `kind-${d.status}`]" style="margin-right:0.4em">{{ d.status }}</span>
+              <DefText v-if="d.type === 'expression'" :text="d.text" />
+              <code v-else>{{ d.text }}</code>
+              <span v-if="d.type !== 'expression'" class="muted" style="margin-left:0.3em;font-size:0.8em">({{ d.type }})</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Definitions -->
+        <div v-if="fullConceptData.definitions?.length" class="full-concept-section">
+          <span class="full-concept-label">Definition:</span>
+          <p v-for="(def, i) in fullConceptData.definitions" :key="i" class="authority-defn-body">
+            <DefText :text="def" />
+          </p>
+        </div>
+
+        <!-- Notes -->
+        <div v-if="fullConceptData.notes?.length" class="full-concept-section">
+          <span class="full-concept-label">Notes:</span>
+          <ol class="full-concept-list">
+            <li v-for="(note, i) in fullConceptData.notes" :key="i">
+              <DefText :text="note" />
+            </li>
+          </ol>
+        </div>
+
+        <!-- Examples -->
+        <div v-if="fullConceptData.examples?.length" class="full-concept-section">
+          <span class="full-concept-label">Examples:</span>
+          <ol class="full-concept-list">
+            <li v-for="(ex, i) in fullConceptData.examples" :key="i">
+              <DefText :text="ex" />
+            </li>
+          </ol>
+        </div>
+      </template>
+
+      <!-- Fallback: basic definition text when full concept not loaded -->
+      <p v-else-if="term.official_concept.definition_text" class="authority-defn-body"><DefText :text="term.official_concept.definition_text" /></p>
+
       <div v-if="isSuperseded(term.official_concept.source)" class="admonition warn">
         <strong>Outdated:</strong> Cites {{ label(term.official_concept.source) }}. Latest: {{ latestLabel(term.official_concept.source) }}.
       </div>
@@ -849,4 +920,39 @@ const filteredPublications = computed(() => {
 .match-modified { background: var(--status-warn-bg); color: var(--status-warn-text); }
 .match-differs { background: var(--status-error-bg); color: var(--status-error-text); }
 .match-empty, .match-nobaseline { background: var(--status-neutral-bg); color: var(--status-neutral-text); }
+
+/* Full VIM/VIML concept rendering */
+.full-concept-section {
+  margin: 0.8em 0;
+}
+.full-concept-label {
+  display: block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--color-ink-muted);
+  margin-bottom: 0.3em;
+}
+.full-concept-designations {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25em;
+}
+.full-concept-designations li {
+  display: flex;
+  align-items: baseline;
+  gap: 0.3em;
+}
+.full-concept-list {
+  margin: 0;
+  padding-left: 1.4em;
+}
+.full-concept-list li {
+  margin: 0.3em 0;
+  line-height: 1.5;
+}
 </style>
