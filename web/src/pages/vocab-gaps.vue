@@ -158,8 +158,8 @@ function nearMissText(nm: any): string {
             <td>
               <div class="vocab-gaps-nm">
                 <span v-if="g.near_misses.vim || g.near_misses.viml" class="vocab-gaps-nm-badges">
-                  <span v-if="g.near_misses.viml" :class="nearMissBadgeClass(g.near_misses.viml)" :title="(g.near_misses.viml.designation || '') + (g.near_misses.viml.match_type === 'exact' ? ' (exact)' : ` (sim ${g.near_misses.viml.similarity})`)">VIML: {{ nearMissText(g.near_misses.viml) }}</span>
-                  <span v-if="g.near_misses.vim" :class="nearMissBadgeClass(g.near_misses.vim)" :title="(g.near_misses.vim.designation || '') + (g.near_misses.vim.match_type === 'exact' ? ' (exact)' : ` (sim ${g.near_misses.vim.similarity})`)">VIM: {{ nearMissText(g.near_misses.vim) }}</span>
+                  <a v-if="g.near_misses.viml" :href="g.near_misses.viml.url" target="_blank" rel="noopener" :class="nearMissBadgeClass(g.near_misses.viml)" :title="(g.near_misses.viml.designation || '') + (g.near_misses.viml.match_type === 'exact' ? ' (exact)' : ` (sim ${g.near_misses.viml.similarity})`) + ' — click to view full definition on vocab site'">VIML: {{ nearMissText(g.near_misses.viml) }}</a>
+                  <a v-if="g.near_misses.vim" :href="g.near_misses.vim.url" target="_blank" rel="noopener" :class="nearMissBadgeClass(g.near_misses.vim)" :title="(g.near_misses.vim.designation || '') + (g.near_misses.vim.match_type === 'exact' ? ' (exact)' : ` (sim ${g.near_misses.vim.similarity})`) + ' — click to view full definition on vocab site'">VIM: {{ nearMissText(g.near_misses.vim) }}</a>
                 </span>
                 <span v-else class="muted">no near-miss</span>
               </div>
@@ -180,8 +180,8 @@ function nearMissText(nm: any): string {
           <span class="muted">{{ g.publications.length }} pubs</span>
         </div>
         <div class="gap-card-meta">
-          <div><span class="muted">VIM:</span> <span :class="nearMissBadgeClass(g.near_misses.vim)">{{ nearMissText(g.near_misses.vim) }}</span></div>
-          <div><span class="muted">VIML:</span> <span :class="nearMissBadgeClass(g.near_misses.viml)">{{ nearMissText(g.near_misses.viml) }}</span></div>
+          <div><span class="muted">VIM:</span> <a v-if="g.near_misses.vim" :href="g.near_misses.vim.url" target="_blank" rel="noopener" :class="nearMissBadgeClass(g.near_misses.vim)">{{ nearMissText(g.near_misses.vim) }}</a><span v-else class="muted">—</span></div>
+          <div><span class="muted">VIML:</span> <a v-if="g.near_misses.viml" :href="g.near_misses.viml.url" target="_blank" rel="noopener" :class="nearMissBadgeClass(g.near_misses.viml)">{{ nearMissText(g.near_misses.viml) }}</a><span v-else class="muted">—</span></div>
         </div>
         <div class="gap-card-def" v-if="g.definitions[0]">{{ g.definitions[0].slice(0, 140) }}{{ g.definitions[0].length > 140 ? '…' : '' }}</div>
         <button type="button" class="sort-btn sort-btn-active" @click="openProposal(g)">Propose</button>
@@ -265,7 +265,11 @@ function nearMissText(nm: any): string {
   text-overflow: ellipsis;
   white-space: nowrap;
   text-align: left;
+  text-decoration: none;
+  cursor: pointer;
+  transition: opacity 0.15s;
 }
+.vocab-gaps-nm-badges .badge:hover { opacity: 0.85; }
 .vocab-gaps-def {
   max-width: 220px;
 }

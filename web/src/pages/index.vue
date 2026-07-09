@@ -63,8 +63,13 @@ const topDivergent = computed(() =>
 
 <template>
   <div class="page-head reveal">
-    <h1>G 18 — OIML Term-Usage Registry</h1>
-    <p class="lede">Dashboard for <strong>TC 1 / Vocabularies</strong> validating <a href="https://github.com/oimlsmart/vocab/tree/main/datasets/g18-202X">OIML G 18:202X</a>.</p>
+    <h1>OIML Terminology Harmonization</h1>
+    <p class="lede">
+      Harmonise, validate, and align terminology across OIML publications — for
+      <strong>TC 1 / Vocabularies</strong> (G 18:202X draft validation),
+      <strong>publication editors</strong> (citation currency), and
+      <strong>TC / SC project teams</strong> (terminology under your scope).
+    </p>
   </div>
 
   <!-- Audience funnel: who is this for? -->
@@ -123,7 +128,7 @@ const topDivergent = computed(() =>
 
   <!-- General fallback: how to use the registry -->
   <section class="card reveal reveal-3" style="background: var(--oiml-cream-soft); border-color: var(--oiml-brand-200);">
-    <h2 style="color: var(--oiml-brand-700);">How to use this registry</h2>
+    <h2>How to use this portal</h2>
     <ol style="margin: 0; padding-left: 1.4em; line-height: 1.7;">
       <li><strong>Review priority actions below</strong> — terms needing immediate attention (outdated VIM refs, divergent definitions).</li>
       <li><strong>Open the <SLink to="/harmonization/">harmonisation worklist</SLink></strong> — every term cited by multiple OIML publications, sorted by divergence.</li>

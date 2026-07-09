@@ -59,7 +59,7 @@ onUnmounted(() => {
     <div class="mx-auto max-w-[1080px] flex items-center justify-between gap-4 px-6 max-sm:px-4 h-16">
       <a class="flex items-center gap-3 no-underline text-ink hover:no-underline group" :href="base" @click="closeMenu">
         <img :src="theme === 'dark' ? logoDarkSrc : logoSrc" alt="OIML" class="block h-7 w-auto shrink-0 transition-transform group-hover:scale-[1.03]" width="28" height="24" />
-        <span style="font-family: var(--font-display); font-weight: 500; font-size: 1.125rem; letter-spacing: -0.02em; color: var(--color-ink); line-height: 1.2; font-variation-settings: 'opsz' 48, 'SOFT' var(--display-soft, 30), 'WONK' var(--display-wonk, 0);">OIML G 18 Action Portal</span>
+        <span style="font-family: var(--font-display); font-weight: 500; font-size: 1.125rem; letter-spacing: -0.02em; color: var(--color-ink); line-height: 1.2; font-variation-settings: 'opsz' 48, 'SOFT' var(--display-soft, 30), 'WONK' var(--display-wonk, 0);">OIML Terminology Harmonization</span>
       </a>
 
       <div class="flex items-center gap-2">
@@ -152,7 +152,7 @@ onUnmounted(() => {
         <img :src="theme === 'dark' ? logoDarkSrc : logoSrc" alt="OIML" class="block h-8 w-auto shrink-0" width="32" height="28" />
       </div>
       <div class="space-y-1.5">
-        <div class="text-white" style="font-family: var(--font-display); font-weight: 500; font-size: 1.05rem; letter-spacing: -0.015em;">OIML G 18 Action Portal</div>
+        <div class="text-white" style="font-family: var(--font-display); font-weight: 500; font-size: 1.05rem; letter-spacing: -0.015em;">OIML Terminology Harmonization</div>
         <div>
           Source: <a class="text-oiml-brand-300 hover:text-white underline" href="https://github.com/oimlsmart/vocab/tree/main/datasets/g18-2010">oimlsmart/vocab</a>
           · VIM/VIML: <a class="text-oiml-brand-300 hover:text-white underline" href="https://oimlsmart.github.io/vocab/">oimlsmart.github.io/vocab</a>
