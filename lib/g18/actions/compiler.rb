@@ -110,13 +110,18 @@ module G18
               vocab_ref: { "latest_label" => @mismatch["latest_label"], "cited_label" => cited_label },
             )
           else
+            # Removed without a rename candidate. Use the user's preferred
+            # "Update or document why divergence is intentional" pattern
+            # when divergence is also present; otherwise "Verify or
+            # reallocate" remains the right guidance (no divergence to
+            # document).
             tail = @has_divergence ?
-              " Update or document why divergence is intentional." :
-              ""
+              " Update the G 18 citation, or document why divergence is intentional." :
+              " Verify or reallocate."
             out << Action.new(
               type: :removed,
               priority: :high,
-              description: "In #{cited_label}; removed from #{latest}. Verify or reallocate.#{tail}",
+              description: "In #{cited_label}; removed from #{latest}.#{tail}",
               publication_ids: @pubs.map { |p| p["publication_id"] }.uniq,
               vocab_ref: { "latest_label" => latest, "cited_label" => cited_label },
             )

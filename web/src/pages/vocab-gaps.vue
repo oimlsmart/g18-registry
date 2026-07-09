@@ -7,6 +7,8 @@ import {
   composeIssueUrl,
   composeIssueTitle,
   targetLabel,
+  TARGET_CATEGORIES,
+  categoryForTarget,
   type ProposalTarget,
   type ProposalDraft,
 } from "@/composables/useGapProposal";
@@ -62,10 +64,27 @@ async function submitProposal() {
   }
 }
 
-const scopeButtons: { val: typeof scope.value; label: string; count: number }[] = [
-  { val: "no-match", label: "No match", count: vocabGaps.filter(g => !g.near_misses.vim && !g.near_misses.viml).length },
-  { val: "any-match", label: "Has near-miss", count: vocabGaps.filter(g => g.near_misses.vim || g.near_misses.viml).length },
-  { val: "all", label: "All", count: vocabGaps.length },
+// Scope filter now leads with conceptual categories (V 3 candidates /
+// V 1/V 2 candidates / All) instead of abstract near-miss labels.
+const scopeButtons: { val: typeof scope.value; concept: string; target: string; count: number }[] = [
+  {
+    val: "no-match",
+    concept: "V 3 candidates",
+    target: "no near-miss — likely specific terms",
+    count: vocabGaps.filter(g => !g.near_misses.vim && !g.near_misses.viml).length,
+  },
+  {
+    val: "any-match",
+    concept: "V 1/V 2 candidates",
+    target: "has near-miss — likely reconcilable",
+    count: vocabGaps.filter(g => g.near_misses.vim || g.near_misses.viml).length,
+  },
+  {
+    val: "all",
+    concept: "All",
+    target: "every undefined term",
+    count: vocabGaps.length,
+  },
 ];
 
 const issueTitlePreview = computed(() =>
@@ -95,7 +114,7 @@ function nearMissText(nm: any): string {
     </p>
   </div>
 
-  <!-- Sticky scope filter -->
+  <!-- Sticky scope filter — leads with conceptual categories -->
   <div class="page-filter" role="region" aria-label="Scope filter">
     <span class="page-filter-label">Scope</span>
     <div class="page-filter-controls">
@@ -103,8 +122,8 @@ function nearMissText(nm: any): string {
               type="button"
               :class="['page-filter-btn', { 'page-filter-btn-active': scope === b.val }]"
               @click="scope = b.val">
-        <span class="page-filter-btn-title">{{ b.label }}</span>
-        <span class="page-filter-btn-meta">{{ b.count }} terms</span>
+        <span class="page-filter-btn-title">{{ b.concept }}</span>
+        <span class="page-filter-btn-meta">{{ b.count }} terms · {{ b.target }}</span>
       </button>
     </div>
   </div>
@@ -182,10 +201,15 @@ function nearMissText(nm: any): string {
         </p>
 
         <fieldset class="proposal-target">
-          <legend>Propose for</legend>
-          <label v-for="t in (['V1','V2','V3'] as ProposalTarget[])" :key="t">
-            <input type="radio" name="proposal-target" :value="t" v-model="proposalTarget" />
-            <span><strong>{{ t }}</strong> — {{ targetLabel(t) }}</span>
+          <legend>Classify this term</legend>
+          <label v-for="cat in TARGET_CATEGORIES" :key="cat.code" :class="['proposal-target-option', { 'proposal-target-selected': proposalTarget === cat.code }]">
+            <input type="radio" name="proposal-target" :value="cat.code" v-model="proposalTarget" />
+            <span class="proposal-target-text">
+              <span class="proposal-target-concept">{{ cat.concept }}</span>
+              <span class="proposal-target-arrow">→</span>
+              <span class="proposal-target-vocab">{{ cat.target }}</span>
+              <span class="proposal-target-examples">{{ cat.examples }}</span>
+            </span>
           </label>
         </fieldset>
 
@@ -336,11 +360,52 @@ function nearMissText(nm: any): string {
   color: var(--color-ink-muted);
   padding: 0 0.4em;
 }
-.proposal-target label {
+.proposal-target-option {
   display: flex;
-  align-items: baseline;
+  align-items: flex-start;
   gap: 0.5em;
-  font-size: 0.92rem;
+  padding: 0.55em 0.7em;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+}
+.proposal-target-option:hover {
+  background: var(--color-paper-tint);
+}
+.proposal-target-selected {
+  background: var(--color-accent-tint);
+  border-color: var(--color-accent-soft);
+}
+.proposal-target-option input[type="radio"] {
+  margin-top: 0.35em;
+}
+.proposal-target-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1em;
+  flex: 1;
+}
+.proposal-target-concept {
+  font-family: var(--font-display);
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--color-ink);
+  letter-spacing: -0.005em;
+  font-variation-settings: "opsz" 24, "SOFT" var(--display-soft, 30), "WONK" var(--display-wonk, 0);
+}
+.proposal-target-arrow {
+  display: none; /* the layout flows naturally without an arrow glyph */
+}
+.proposal-target-vocab {
+  font-size: 0.88rem;
+  color: var(--color-accent);
+  font-weight: 500;
+}
+.proposal-target-examples {
+  font-size: 0.8rem;
+  color: var(--color-ink-muted);
+  font-style: italic;
 }
 .proposal-field {
   display: flex;

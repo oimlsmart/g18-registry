@@ -112,6 +112,42 @@ export function targetLabel(t: ProposalTarget): string {
   return t === "V1" ? "VIML (V 1)" : t === "V2" ? "VIM (V 2)" : "V 3 (specific terms, draft)";
 }
 
+// Conceptual category metadata — leads with the user's mental model
+// ("General concept in metrology") instead of the abstract V 1/V 2/V 3
+// code. The code is kept as the canonical stored value (in YAML payload)
+// but the UI surfaces the concept first.
+export interface TargetCategory {
+  code: ProposalTarget;
+  concept: string;       // primary label, e.g. "General concept in metrology"
+  target: string;        // secondary label, e.g. "Propose for VIM (V 2)"
+  examples: string;      // helper text, e.g. "quantity, measuring instrument"
+}
+
+export const TARGET_CATEGORIES: TargetCategory[] = [
+  {
+    code: "V2",
+    concept: "General concept in metrology",
+    target: "Propose for VIM (V 2)",
+    examples: "e.g. quantity, measuring instrument, accuracy",
+  },
+  {
+    code: "V1",
+    concept: "General concept in legal metrology",
+    target: "Propose for VIML (V 1)",
+    examples: "e.g. legal unit of measurement, type approval, verification",
+  },
+  {
+    code: "V3",
+    concept: "Specific term",
+    target: "Propose for V 3 (new vocabulary)",
+    examples: "e.g. load cell, set of weights, dosimeter, pressure gauge",
+  },
+];
+
+export function categoryForTarget(t: ProposalTarget): TargetCategory {
+  return TARGET_CATEGORIES.find(c => c.code === t) || TARGET_CATEGORIES[2];
+}
+
 export function composeIssueTitle(draft: ProposalDraft): string {
   const t = draft.target;
   const tgt = t === "V1" ? "VIML" : t === "V2" ? "VIM" : "V 3";
