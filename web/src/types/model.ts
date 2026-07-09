@@ -1,7 +1,10 @@
 // Domain types matching the Ruby model. Single source of truth for the
 // data shape consumed by Vue components and composables.
 
-export type TermKind = "defined_in_vim" | "defined_in_viml" | "undefined";
+// "oiml_original" is the canonical kind for terms with no VIM/VIML
+// citation. "undefined" is the legacy value, kept for backward compat
+// with data files written before the rename.
+export type TermKind = "defined_in_vim" | "defined_in_viml" | "oiml_original" | "undefined";
 export type ConsistencyLevel = "ok" | "partial" | "ko" | "pending";
 export type EditionName = string;
 export type VocabRole = "current" | "prior" | "legacy";

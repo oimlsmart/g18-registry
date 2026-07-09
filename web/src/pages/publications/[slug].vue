@@ -140,7 +140,7 @@ const actionRows = computed<Row[]>(() => {
       description: a.description,
       clause: pub?.clause || "—",
       edition: pub?.edition || "—",
-      kind: t?.kind || "undefined",
+      kind: t?.kind || "oiml_original",
     });
   }
   return rows;

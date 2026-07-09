@@ -96,7 +96,7 @@ const actionRows = computed<Row[]>(() => {
     out.push({
       slug: a.slug, name: a.name, type: a.type, priority: a.priority,
       description: a.description,
-      kind: t?.kind || "undefined",
+      kind: t?.kind || "oiml_original",
       sourcePubIds: [...new Set(sourcePubIds)],
     });
   }

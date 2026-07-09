@@ -164,7 +164,7 @@ const pageTitle = computed(() => {
         <option value="">All (VIM/VIML/other)</option>
         <option value="defined_in_vim">VIM only</option>
         <option value="defined_in_viml">VIML only</option>
-        <option value="undefined">Neither (OIML-original)</option>
+        <option value="oiml_original">Neither (OIML-original)</option>
       </select>
       <select v-model="onlyTC">
         <option value="">All TC/SCs</option>

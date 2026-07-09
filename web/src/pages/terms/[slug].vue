@@ -3,6 +3,7 @@ import { computed, ref, watchEffect } from "vue";
 import { useRoute } from "vue-router";
 import termBySlug from "@/data/term-by-slug.json";
 import { useVocabularyEdition } from "@/composables/useVocabularyEdition";
+import { isOimlOriginal } from "@/composables/useSuggestedActions";
 import { slugifyPubId } from "@/composables/useSuggestedActions";
 
 const route = useRoute();
@@ -88,7 +89,7 @@ const consistencyCounts = computed(() => {
 
 const matchStatus = computed(() => {
   if (!term.value) return null;
-  if (term.value.kind === "undefined") return { key: "notinviml", label: "Not in VIM/VIML" };
+  if (isOimlOriginal(term.value)) return { key: "notinviml", label: "Not in VIM/VIML" };
   const urn = term.value.official_concept?.source;
   if (!urn) return { key: "notinviml", label: "Not in VIM/VIML" };
   const r = role(urn);
@@ -109,7 +110,7 @@ const actions = computed(() => {
       a.push({ priority: "high", text: `✗ This term is NOT in ${lc.latest_label}.` });
     }
   }
-  if (term.value.kind === "undefined") {
+  if (isOimlOriginal(term.value)) {
     a.push({ priority: "high", text: "No authoritative definition in VIM or VIML." });
   }
   if (worstEditionDistinctCount.value > 1) {
@@ -210,7 +211,7 @@ const abbreviations = computed(() =>
 // by lexicographic order for stability.
 const operativeDefinition = computed<{ text: string; pubCount: number; distinctCount: number; editions: string[] } | null>(() => {
   if (!term.value) return null;
-  if (term.value.official_concept && term.value.kind !== "undefined") return null;
+  if (term.value.official_concept && !isOimlOriginal(term.value)) return null;
   const counts = new Map<string, { pubs: any[]; editions: Set<string> }>();
   for (const p of term.value.publications || []) {
     const d = normalizeDef(p.definition || "");
