@@ -12,6 +12,7 @@ const navGroups: { items: { href: string; label: string }[] }[] = [
   {
     items: [
       { href: "actions/", label: "Actions" },
+      { href: "vocab-gaps/", label: "V 3 candidates" },
     ],
   },
   {

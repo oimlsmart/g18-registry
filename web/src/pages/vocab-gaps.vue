@@ -138,16 +138,17 @@ function nearMissText(nm: any): string {
       <span class="muted">{{ filtered.length }} shown</span>
     </form>
 
-    <!-- Desktop table -->
+    <!-- Desktop table — only the Propose action + minimal context columns
+         are always shown. Definition is a hint column (hidden on narrow
+         viewports) so the Propose button is always reachable. -->
     <div class="table-scroll table-only-desktop">
       <table>
         <thead>
           <tr>
             <th>Term</th>
-            <th>Near-miss in VIM?</th>
-            <th>Near-miss in VIML?</th>
+            <th>Near-miss</th>
             <th class="num">Pubs</th>
-            <th>Definition (first)</th>
+            <th class="vocab-gaps-def">Definition (first)</th>
             <th></th>
           </tr>
         </thead>
@@ -155,13 +156,16 @@ function nearMissText(nm: any): string {
           <tr v-for="g in pagination.visible.value" :key="g.slug">
             <td class="term-cell"><SLink :to="`/terms/${g.slug}/`">{{ g.name }}</SLink></td>
             <td>
-              <span :class="nearMissBadgeClass(g.near_misses.vim)" :title="g.near_misses.vim?.definition?.slice(0,200)">{{ nearMissText(g.near_misses.vim) }}</span>
-            </td>
-            <td>
-              <span :class="nearMissBadgeClass(g.near_misses.viml)" :title="g.near_misses.viml?.definition?.slice(0,200)">{{ nearMissText(g.near_misses.viml) }}</span>
+              <div class="vocab-gaps-nm">
+                <span v-if="g.near_misses.vim || g.near_misses.viml" class="vocab-gaps-nm-badges">
+                  <span v-if="g.near_misses.viml" :class="nearMissBadgeClass(g.near_misses.viml)" :title="(g.near_misses.viml.designation || '') + (g.near_misses.viml.match_type === 'exact' ? ' (exact)' : ` (sim ${g.near_misses.viml.similarity})`)">VIML: {{ nearMissText(g.near_misses.viml) }}</span>
+                  <span v-if="g.near_misses.vim" :class="nearMissBadgeClass(g.near_misses.vim)" :title="(g.near_misses.vim.designation || '') + (g.near_misses.vim.match_type === 'exact' ? ' (exact)' : ` (sim ${g.near_misses.vim.similarity})`)">VIM: {{ nearMissText(g.near_misses.vim) }}</span>
+                </span>
+                <span v-else class="muted">no near-miss</span>
+              </div>
             </td>
             <td class="num">{{ g.publications.length }}</td>
-            <td style="max-width:360px"><span class="muted" style="font-size:0.88em">{{ (g.definitions[0] || '—').slice(0, 100) }}{{ (g.definitions[0] || '').length > 100 ? '…' : '' }}</span></td>
+            <td class="vocab-gaps-def"><span class="muted" style="font-size:0.88em">{{ (g.definitions[0] || '—').slice(0, 80) }}{{ (g.definitions[0] || '').length > 80 ? '…' : '' }}</span></td>
             <td><button type="button" class="sort-btn sort-btn-active" @click="openProposal(g)">Propose</button></td>
           </tr>
         </tbody>
@@ -243,6 +247,37 @@ function nearMissText(nm: any): string {
 </template>
 
 <style scoped>
+.vocab-gaps-nm {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2em;
+  font-size: 0.78rem;
+}
+.vocab-gaps-nm-badges {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2em;
+}
+.vocab-gaps-nm-badges .badge {
+  font-size: 0.72rem;
+  max-width: 24ch;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: left;
+}
+.vocab-gaps-def {
+  max-width: 220px;
+}
+@media (max-width: 1100px) {
+  .vocab-gaps-def { display: none; }
+}
+@media (max-width: 820px) {
+  /* The page-filter buttons become cards on narrow viewports too; they
+     can be mistaken for term content. Tighten to look like controls. */
+  .page-filter-btn { min-width: 0; padding: 0.4em 0.7em; }
+  .page-filter-btn-meta { font-size: 0.7rem; }
+}
 .gap-cards {
   list-style: none;
   margin: 0.5rem 0;
