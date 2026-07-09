@@ -72,6 +72,14 @@ export function isHistoric(term: { editions_present?: string[] }): boolean {
   return eds.length > 0 && eds.every(e => e === "2010");
 }
 
+// True if the term has no VIM/VIML citation (an OIML-original term).
+// Accepts both the canonical "oiml_original" and the legacy "undefined"
+// value so we don't break during the rename transition.
+export function isOimlOriginal(term: { kind?: string }): boolean {
+  const k = term?.kind;
+  return k === "oiml_original" || k === "undefined";
+}
+
 // Max distinct definitions WITHIN A SINGLE EDITION. Cross-edition wording
 // changes (e.g. 2010 vs 202X) are intentional editorial evolution and are
 // NOT harmonisation targets — only within-edition divergence counts.

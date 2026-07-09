@@ -19,7 +19,7 @@ module G18
         case urn
         when /\Aurn:oiml:pub:v:1:/ then "defined_in_viml"
         when /\Aurn:oiml:pub:v:2:/ then "defined_in_vim"
-        else "undefined"
+        else "oiml_original"
         end
       end
 

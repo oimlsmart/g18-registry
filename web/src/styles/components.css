@@ -193,7 +193,8 @@ tbody tr:hover { background: var(--color-accent-tint); }
   color: var(--color-accent);
   border-color: var(--color-accent-soft);
 }
-.kind-undefined {
+.kind-undefined,
+.kind-oiml_original {
   background: transparent;
   color: var(--color-ink-muted);
   border-color: var(--color-rule);

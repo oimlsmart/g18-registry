@@ -36,9 +36,9 @@ module G18
         @pubs = @data["publications"] || []
         @oc = @data["official_concept"]
         @lc = @term["latest_check"] || @data["latest_check"]
-        @kind = @data["kind"] || "undefined"
-        # vocab_presence is computed at export time for undefined terms
-        # (kind == "undefined"). Shape: { vim: {found, match_type, designation, ...} | nil,
+        @kind = @data["kind"] || "oiml_original"
+        # vocab_presence is computed at export time for OIML-original terms
+        # (no VIM/VIML citation). Shape: { vim: {found, match_type, designation, ...} | nil,
         # viml: { ... } | nil }. Used to enrich action descriptions with
         # near-miss guidance so TC 1 sees "VIML term is X" inline.
         @presence = @term["vocab_presence"] || {}
@@ -59,10 +59,11 @@ module G18
         actions.concat(vocab_actions)
         actions.concat(harmonize_action)
         actions.concat(standardize_action)
-        # Fire `unique` for any undefined term (OIML-original), even when
+        # Fire `unique` for any OIML-original term, even when
         # other actions also apply — the "candidate for V 1/V 2/V 3"
         # guidance is independent of citation currency / divergence.
-        actions.concat(unique_action) if @kind == "undefined" || actions.empty?
+        # Backward compat: accept legacy "undefined" value too.
+        actions.concat(unique_action) if @kind == "oiml_original" || @kind == "undefined" || actions.empty?
         actions.sort_by(&:priority_rank)
       end
 
@@ -192,7 +193,7 @@ module G18
       # found a similar VIM/VIML designation via fuzzy match — TC 1 then
       # sees concrete options (reconcile vs declare as specific V 3 term).
       def unique_action
-        return [] if @oc && @kind != "undefined"
+        return [] if @oc && @kind != "oiml_original" && @kind != "undefined"
         pub_ids = @pubs.map { |p| p["publication_id"] }.uniq
         description = compose_unique_description
         [Action.new(

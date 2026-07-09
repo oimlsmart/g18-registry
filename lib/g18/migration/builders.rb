@@ -78,7 +78,7 @@ module G18
       end
 
       def pick_official(edges)
-        return ["undefined", nil] if edges.empty?
+        return ["oiml_original", nil] if edges.empty?
         edge = edges.first
         ref = edge["ref"] || {}
         urn = ref["source"]

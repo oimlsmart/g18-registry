@@ -35,7 +35,7 @@ module G18
       end
 
       def undefined?
-        kind == "undefined"
+        kind == "oiml_original" || kind == "undefined"
       end
 
       def vocabulary_label

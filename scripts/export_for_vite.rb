@@ -195,7 +195,7 @@ def fuzzy_match(term_name, idx)
   best
 end
 
-# Check term presence across BOTH vocab indices (used for `undefined`
+# Check term presence across BOTH vocab indices (used for OIML-original
 # terms that don't have an `official_concept` URN). Returns near-miss
 # candidates for both vocabularies so the gap-analysis page can suggest
 # Propose-for-VIM / Propose-for-VIML / Propose-for-V3.
@@ -251,9 +251,11 @@ Dir.glob(File.join(options[:data_dir], "*.yaml")).sort.each do |path|
   hash = docs.find { |d| d.is_a?(Hash) && d["data"] && d["data"]["term"] } || docs.first
   data = hash["data"] || {}
   oc_urn = data["official_concept"]&.dig("source")
-  # Compute vocab_presence (exact + fuzzy match) for undefined terms so
-  # the compiler can enrich action descriptions with near-miss guidance.
-  vocab_presence = data["kind"] == "undefined" ?
+  # Compute vocab_presence (exact + fuzzy match) for OIML-original terms
+  # so the compiler can enrich action descriptions with near-miss guidance.
+  # Backward compat: accept legacy "undefined" value too.
+  is_oiml_original = data["kind"] == "oiml_original" || data["kind"] == "undefined"
+  vocab_presence = is_oiml_original ?
     check_vocab_presence(data["term"], latest_indices) : nil
   latest = oc_urn ? check_latest_edition(data["term"], oc_urn, latest_indices) : nil
   # For defined terms whose latest_check found nothing, run a fuzzy match
@@ -431,8 +433,8 @@ File.write(File.join(options[:out_dir], "conflicts.json"),
                          "designation_collisions" => collisions))
 
 # ── Vocabulary gap analysis ──────────────────────────────────────────────
-# Terms with kind == "undefined" (no VIM/VIML reference) are candidates
-# for inclusion in a future vocabulary — either VIM (general metrology),
+# Terms with no VIM/VIML reference (kind == "oiml_original" or legacy
+# "undefined") are candidates for inclusion in a future vocabulary — either VIM (general metrology),
 # VIML (legal metrology), or a proposed V 3 (specific terms like
 # "load cell", "set of weights"). For each, check both vocab indices
 # (exact + fuzzy) so TC 1 can see whether a near-miss already exists.
@@ -442,7 +444,7 @@ Dir.glob(File.join(options[:data_dir], "*.yaml")).sort.each do |path|
   next unless docs.first.is_a?(Hash)
   hash = docs.find { |d| d.is_a?(Hash) && d["data"] && d["data"]["term"] } || docs.first
   data = hash["data"] || {}
-  next unless data["kind"] == "undefined"
+  next unless data["kind"] == "oiml_original" || data["kind"] == "undefined"
   term_name = data["term"]
   next unless term_name
   presence = check_vocab_presence(term_name, latest_indices)
