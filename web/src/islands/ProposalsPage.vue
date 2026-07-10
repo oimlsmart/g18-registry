@@ -436,9 +436,12 @@ function nearMissText(nm: any): string {
   cursor: pointer;
   text-align: center;
   align-self: flex-start;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
 }
 .gap-card-cta:hover {
-  background: var(--color-accent-tint);
+  background: var(--color-accent);
+  color: #fff;
+  border-color: var(--color-accent);
 }
 
 .modal-backdrop {
