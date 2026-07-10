@@ -984,19 +984,19 @@ const filteredPublications = computed(() => {
   margin: 0.6em 0;
 }
 
-/* Connector between version cards — left-aligned timeline line */
+/* Connector between version cards — left-aligned rail bridging cards */
 .concept-version-connector {
   display: flex;
   align-items: center;
-  gap: 0.6em;
-  padding-left: 0;
-  margin-left: 1px;
+  gap: 0.5em;
+  margin-left: 0;
 }
 .concept-version-connector-line {
-  width: 2px;
-  height: 28px;
-  background: var(--color-rule);
-  border-radius: 1px;
+  width: 4px;
+  height: 36px;
+  background: var(--color-accent);
+  opacity: 0.35;
+  border-radius: 2px;
   flex-shrink: 0;
 }
 .concept-version-connector-label {
@@ -1102,39 +1102,5 @@ const filteredPublications = computed(() => {
   height: 1px;
   background: var(--color-rule-soft);
   margin: 0.6em 0 0.4em;
-}
-
-.full-concept-section {
-  margin: 0.8em 0;
-}
-.full-concept-label {
-  display: block;
-  font-size: 0.72rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  color: var(--color-ink-muted);
-  margin-bottom: 0.3em;
-}
-.full-concept-designations {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 0.25em;
-}
-.full-concept-designations li {
-  display: flex;
-  align-items: baseline;
-  gap: 0.3em;
-}
-.full-concept-list {
-  margin: 0;
-  padding-left: 1.4em;
-}
-.full-concept-list li {
-  margin: 0.3em 0;
-  line-height: 1.5;
 }
 </style>

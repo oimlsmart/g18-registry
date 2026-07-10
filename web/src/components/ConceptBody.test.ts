@@ -8,43 +8,54 @@ describe("ConceptBody", () => {
     expect(wrapper.find(".concept-body").exists()).toBe(false);
   });
 
-  it("renders designations with status badges", () => {
+  it("renders preferred designation as display term", () => {
     const wrapper = mount(ConceptBody, {
       props: {
         data: {
           designations: [
             { type: "expression", status: "preferred", text: "calibration" },
-            { type: "abbreviation", status: "admitted", text: "cal" },
           ],
         },
       },
     });
-    expect(wrapper.findAll(".full-concept-designations li")).toHaveLength(2);
-    expect(wrapper.find(".kind-preferred").text()).toBe("preferred");
-    expect(wrapper.find(".kind-admitted").text()).toBe("admitted");
+    expect(wrapper.find(".concept-term").text()).toContain("calibration");
   });
 
-  it("renders expression designations as DefText, others as code", () => {
+  it("renders admitted expressions as synonyms", () => {
     const wrapper = mount(ConceptBody, {
       props: {
         data: {
           designations: [
-            { type: "expression", status: "preferred", text: "measuring instrument" },
-            { type: "symbol", status: "preferred", text: "M" },
+            { type: "expression", status: "preferred", text: "rated operating conditions" },
+            { type: "expression", status: "admitted", text: "secondary standard" },
           ],
         },
       },
     });
-    const items = wrapper.findAll(".full-concept-designations li");
-    expect(items[0].find(".def-text").exists()).toBe(true);
-    expect(items[1].find("code").exists()).toBe(true);
+    expect(wrapper.find(".concept-term").text()).toContain("rated operating conditions");
+    expect(wrapper.find(".concept-synonyms").text()).toContain("secondary standard");
+    expect(wrapper.find(".concept-syn-label").text()).toBe("Also");
+  });
+
+  it("renders abbreviations as pills", () => {
+    const wrapper = mount(ConceptBody, {
+      props: {
+        data: {
+          designations: [
+            { type: "expression", status: "preferred", text: "test" },
+            { type: "abbreviation", status: "preferred", text: "ROC" },
+          ],
+        },
+      },
+    });
+    expect(wrapper.find(".concept-abbrev").text()).toBe("ROC");
   });
 
   it("renders definitions section", () => {
     const wrapper = mount(ConceptBody, {
       props: {
         data: {
-          definitions: ["operation establishing the relation between the indication and the quantity"],
+          definitions: ["operation establishing the relation between indication and quantity"],
         },
       },
     });
@@ -52,7 +63,7 @@ describe("ConceptBody", () => {
     expect(wrapper.text()).toContain("establishing the relation");
   });
 
-  it("renders notes as ordered list", () => {
+  it("renders notes as numbered list", () => {
     const wrapper = mount(ConceptBody, {
       props: {
         data: {
@@ -60,11 +71,10 @@ describe("ConceptBody", () => {
         },
       },
     });
-    expect(wrapper.findAll(".full-concept-list li")).toHaveLength(2);
-    expect(wrapper.find("ol.full-concept-list").exists()).toBe(true);
+    expect(wrapper.findAll(".concept-numbered-list li")).toHaveLength(2);
   });
 
-  it("renders examples as ordered list", () => {
+  it("renders examples as numbered list", () => {
     const wrapper = mount(ConceptBody, {
       props: {
         data: {
@@ -72,7 +82,7 @@ describe("ConceptBody", () => {
         },
       },
     });
-    expect(wrapper.findAll(".full-concept-list li")).toHaveLength(2);
+    expect(wrapper.findAll(".concept-numbered-list li")).toHaveLength(2);
   });
 
   it("only renders sections that have data", () => {
@@ -83,13 +93,12 @@ describe("ConceptBody", () => {
         },
       },
     });
-    expect(wrapper.findAll(".full-concept-section")).toHaveLength(1);
-    expect(wrapper.text()).toContain("Definition");
-    expect(wrapper.text()).not.toContain("Notes");
-    expect(wrapper.text()).not.toContain("Examples");
+    expect(wrapper.find(".concept-defn").exists()).toBe(true);
+    expect(wrapper.find(".concept-section").exists()).toBe(false);
+    expect(wrapper.find(".concept-synonyms").exists()).toBe(false);
   });
 
-  it("renders all four sections when all present", () => {
+  it("renders all sections when all present", () => {
     const wrapper = mount(ConceptBody, {
       props: {
         data: {
@@ -100,12 +109,14 @@ describe("ConceptBody", () => {
         },
       },
     });
-    expect(wrapper.findAll(".full-concept-section")).toHaveLength(4);
+    expect(wrapper.find(".concept-term").exists()).toBe(true);
+    expect(wrapper.find(".concept-defn").exists()).toBe(true);
+    expect(wrapper.findAll(".concept-section")).toHaveLength(2);
   });
 
-  it("renders empty object gracefully (no sections)", () => {
+  it("renders empty object gracefully", () => {
     const wrapper = mount(ConceptBody, { props: { data: {} } });
     expect(wrapper.find(".concept-body").exists()).toBe(true);
-    expect(wrapper.findAll(".full-concept-section")).toHaveLength(0);
+    expect(wrapper.find(".concept-term").exists()).toBe(false);
   });
 });
