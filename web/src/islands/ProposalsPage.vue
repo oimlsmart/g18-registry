@@ -112,8 +112,35 @@ function nearMissText(nm: any): string {
       propose for <strong>VIM (V 2)</strong> (general metrology concept),
       <strong>VIML (V 1)</strong> (legal metrology concept), or
       <strong>V 3</strong> (specific terms like "load cell" — proposed new vocabulary).
-      Each proposal opens a structured GitHub issue with a YAML payload and checksum.
     </p>
+  </div>
+
+  <!-- How to propose: prerequisites and steps -->
+  <div class="proposal-howto">
+    <div class="proposal-howto-head">How to propose</div>
+    <ol class="proposal-howto-steps">
+      <li>
+        <strong>Prerequisite.</strong>
+        You need a GitHub account and TC 1 (Vocabulary) member access to the
+        <a href="https://github.com/oimlsmart" target="_blank" rel="noopener">OIML GitHub organization</a>.
+        No access? Contact the TC 1 secretariat.
+      </li>
+      <li>
+        <strong>Find</strong> a term below that lacks a VIM/VIML definition.
+        Use the scope filter to focus on V 3 candidates (no near-miss) or
+        V 1/V 2 candidates (has a near-miss).
+      </li>
+      <li>
+        <strong>Propose</strong> by clicking the "Propose" button on a term.
+        Choose its target: VIM (general metrology), VIML (legal metrology),
+        or V 3 (specific terms). Add your rationale.
+      </li>
+      <li>
+        <strong>Submit.</strong>
+        A pre-filled GitHub issue opens with a structured YAML payload and
+        checksum. Review and submit it for TC 1 consideration.
+      </li>
+    </ol>
   </div>
 
   <!-- Sticky scope filter — leads with conceptual categories -->
@@ -249,6 +276,37 @@ function nearMissText(nm: any): string {
 </template>
 
 <style scoped>
+.proposal-howto {
+  background: var(--color-accent-tint);
+  border: 1px solid var(--color-accent-soft);
+  border-radius: 6px;
+  padding: 1em 1.2em;
+  margin-bottom: 1.2em;
+}
+.proposal-howto-head {
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--color-accent);
+  margin-bottom: 0.5em;
+}
+.proposal-howto-steps {
+  margin: 0;
+  padding-left: 1.5em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4em;
+}
+.proposal-howto-steps li {
+  font-size: 0.86rem;
+  line-height: 1.5;
+  color: var(--color-ink-soft);
+}
+.proposal-howto-steps li strong {
+  color: var(--color-ink);
+}
+
 .vocab-gaps-nm {
   display: flex;
   flex-direction: column;
