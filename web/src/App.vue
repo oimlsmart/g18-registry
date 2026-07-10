@@ -171,7 +171,7 @@ onUnmounted(() => {
         <div class="text-white" style="font-family: var(--font-display); font-weight: 500; font-size: 1.05rem; letter-spacing: -0.015em;">OIML Terminology Harmonization</div>
         <div>
           Source: <a class="text-oiml-brand-300 hover:text-white underline" href="https://github.com/oimlsmart/vocab/tree/main/datasets/g18-2010">oimlsmart/vocab</a>
-          · VIM/VIML: <a class="text-oiml-brand-300 hover:text-white underline" href="https://oimlsmart.github.io/vocab/">oimlsmart.github.io/vocab</a>
+          · VIM/VIML: <a class="text-oiml-brand-300 hover:text-white underline" href="https://www.oimlsmart.org/vocab/">www.oimlsmart.org/vocab</a>
         </div>
       </div>
       <div class="md:text-right md:border-l md:border-oiml-brand-700 md:pl-6">

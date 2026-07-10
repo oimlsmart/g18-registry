@@ -42,7 +42,7 @@ module G18
       "urn:oiml:pub:v:2:2012" => "vim-2012",
     }.freeze
 
-    VOCAB_BASE_URL = "https://oimlsmart.github.io/vocab"
+    VOCAB_BASE_URL = "https://www.oimlsmart.org/vocab/dataset"
 
     # Absolute paths so autoload works regardless of $LOAD_PATH.
     DIR = File.expand_path("migration", __dir__).freeze

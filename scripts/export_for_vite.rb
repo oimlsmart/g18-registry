@@ -182,7 +182,7 @@ def check_latest_edition(term_name, official_urn, latest_indices)
       "latest_urn" => info[:urn],
       "concept_id" => entry[:id],
       "definition" => entry[:definition],
-      "url" => "https://oimlsmart.github.io/vocab/#{info[:dir]}/concept/#{entry[:id]}",
+      "url" => "https://www.oimlsmart.org/vocab/dataset/#{info[:dir]}/concept/#{entry[:id]}",
     }
   else
     {
@@ -251,7 +251,7 @@ def check_vocab_presence(term_name, latest_indices)
         concept_id: entry[:id],
         definition: entry[:definition],
         latest_label: info[:label],
-        url: "https://oimlsmart.github.io/vocab/#{info[:dir]}/concept/#{entry[:id]}",
+        url: "https://www.oimlsmart.org/vocab/dataset/#{info[:dir]}/concept/#{entry[:id]}",
       }
     else
       m = fuzzy_match(term_name, idx)
@@ -265,7 +265,7 @@ def check_vocab_presence(term_name, latest_indices)
         definition: m[:entry][:definition],
         similarity: m[:similarity].round(3),
         latest_label: info[:label],
-        url: "https://oimlsmart.github.io/vocab/#{info[:dir]}/concept/#{m[:entry][:id]}",
+        url: "https://www.oimlsmart.org/vocab/dataset/#{info[:dir]}/concept/#{m[:entry][:id]}",
       }
     end
   end
