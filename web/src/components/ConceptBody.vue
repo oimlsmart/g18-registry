@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import DefText from "./DefText.vue";
+
 defineProps<{
   data: {
     designations?: { type: string; status: string; text: string }[];

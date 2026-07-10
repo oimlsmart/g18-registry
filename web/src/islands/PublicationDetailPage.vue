@@ -1,12 +1,11 @@
 <script setup lang="ts">
 import { computed, ref } from "vue";
-import { useRoute } from "vue-router";
 import publications from "@/data/publications.json";
 import termsData from "@/data/terms.json";
 import { useSuggestedActions, ACTION_META, actionMeta, slugifyPubId } from "@/composables/useSuggestedActions";
 
-const route = useRoute();
-const slugParam = computed(() => route.params.slug as string);
+const props = defineProps<{ slug: string }>();
+const slugParam = computed(() => props.slug);
 // Resolve the publication: accept either the slugified id (preferred) or
 // the raw id (backwards compat with old links). The slug map is built once.
 const pubBySlug = computed(() => {

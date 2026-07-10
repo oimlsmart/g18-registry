@@ -1,0 +1,17 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import TermDetailPage from "@/islands/TermDetailPage.vue";
+import termBySlug from "@/data/term-by-slug.json";
+
+export function getStaticPaths() {
+  return Object.keys(termBySlug).map(slug => ({
+    params: { slug },
+    props: { slug },
+  }));
+}
+
+const { slug } = Astro.props;
+---
+<Layout>
+  <TermDetailPage client:load slug={slug} />
+</Layout>

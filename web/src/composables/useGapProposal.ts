@@ -18,7 +18,7 @@ export interface ProposalDraft {
 async function sha256Hex(text: string): Promise<string> {
   if (typeof crypto === "undefined" || !crypto.subtle) {
     // SSR / non-secure context fallback: deterministic non-crypto hash.
-    // (Only used during vite-ssg build; the live site uses crypto.subtle.)
+    // (Only used during Astro SSG build; the live site uses crypto.subtle.)
     let h = 0;
     for (let i = 0; i < text.length; i++) {
       h = ((h << 5) - h) + text.charCodeAt(i);

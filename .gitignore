@@ -10,6 +10,7 @@ _site/
 node_modules/
 web/dist/
 web/node_modules/
+web/.astro/
 web/.vite-ssg-temp/
 
 # Ruby bundler local config (we commit Gemfile + Gemfile.lock)
@@ -25,7 +26,7 @@ web/.vite-ssg-temp/
 /data/
 
 # Frontend JSON, exported from data/
-/web/src/data/
+/web/src/data/*.json
 
 # Keep the LLM consistency cache committed (no API key in CI).
 !cache/

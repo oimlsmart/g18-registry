@@ -64,10 +64,10 @@ jobs:
       - name: Apply cached consistency classifications
         run: bundle exec ruby scripts/check_consistency.rb
 
-      - name: Export JSON for Vite
+      - name: Export JSON data
         run: bundle exec ruby scripts/export_for_vite.rb
 
-      - name: Build static site (vite-ssg)
+      - name: Build static site (Astro)
         working-directory: web
         run: pnpm run build
 
