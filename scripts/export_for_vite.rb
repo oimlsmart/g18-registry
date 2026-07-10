@@ -22,6 +22,8 @@ require "json"
 require "fileutils"
 require_relative "../lib/g18/vocabulary"
 require_relative "../lib/g18/actions"
+require_relative "../lib/g18/fuzzy_match"
+require_relative "../lib/g18/migration/conflicts"
 
 # Plurimath for AsciiMath → MathML pre-rendering of stem:[...] content.
 # The JS package (@plurimath/plurimath) has broken dist; the Ruby gem
@@ -195,41 +197,6 @@ def check_latest_edition(term_name, official_urn, latest_indices)
 end
 
 # Token-overlap similarity (Jaccard) for fuzzy term-name matching.
-# Used to surface near-misses when a G 18 term isn't an exact match for
-# any VIM/VIML designation but probably should be (e.g. "repeatability"
-# vs VIM "measurement repeatability"). Threshold ~0.34 (1/3 token overlap)
-# balances recall vs precision on the OIML dataset.
-def tokenize(s)
-  s.to_s.downcase.gsub(/[^a-z0-9\s]/i, " ").split.reject { |t| t.length < 2 }
-end
-
-def jaccard(a, b)
-  return 0.0 if a.empty? || b.empty?
-  inter = (a & b).size.to_f
-  union = (a | b).size.to_f
-  union.positive? ? inter / union : 0.0
-end
-
-FUZZY_THRESHOLD = 0.34
-
-# Find the best fuzzy match for `term_name` in a designation index.
-# Returns nil if no candidate clears the threshold.
-def fuzzy_match(term_name, idx)
-  return nil unless idx&.any? && term_name
-  term_tokens = tokenize(term_name)
-  return nil if term_tokens.empty?
-  best = nil
-  best_score = 0.0
-  idx.each do |designation, entry|
-    score = jaccard(term_tokens, tokenize(designation))
-    next if score <= best_score
-    best_score = score
-    best = { designation: designation, entry: entry, similarity: score }
-  end
-  return nil unless best && best_score >= FUZZY_THRESHOLD
-  best
-end
-
 # Check term presence across BOTH vocab indices (used for OIML-original
 # terms that don't have an `official_concept` URN). Returns near-miss
 # candidates for both vocabularies so the gap-analysis page can suggest
@@ -254,7 +221,7 @@ def check_vocab_presence(term_name, latest_indices)
         url: "https://www.oimlsmart.org/vocab/dataset/#{info[:dir]}/concept/#{entry[:id]}",
       }
     else
-      m = fuzzy_match(term_name, idx)
+      m = G18::FuzzyMatch.match(term_name, idx)
       next unless m
       info = LATEST_DATASETS[vocab]
       result[vocab] = {
@@ -300,7 +267,7 @@ Dir.glob(File.join(options[:data_dir], "*.yaml")).sort.each do |path|
   if latest && !latest["found"]
     v = G18::Vocabulary.vocab(oc_urn)
     if v && latest_indices[v]&.any?
-      m = fuzzy_match(data["term"], latest_indices[v])
+      m = G18::FuzzyMatch.match(data["term"], latest_indices[v])
       if m
         info = LATEST_DATASETS[v]
         canonical_mismatch = {
@@ -449,7 +416,7 @@ terms.each do |t|
     # disambiguation suffix this entry carries. Only entries that were
     # suffixed are conflict candidates; canonical IDs (no suffix) don't
     # participate (they're the "winner" of any implicit split).
-    base = id.to_s.sub(/-[A-Z][0-9]+(-\d+)?\z/, "").sub(/[a-z]\z/, "")
+    base = G18::Migration::Conflicts.base_identifier(id)
     if base != id
       global_by_base[base] << {
         designation: designation, source: source, raw_id: id, edition: ed,

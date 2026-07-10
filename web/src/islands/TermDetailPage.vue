@@ -109,33 +109,6 @@ const matchStatus = computed(() => {
   return null;
 });
 
-const actions = computed(() => {
-  if (!term.value) return [];
-  const a: any[] = [];
-  const oc = term.value.official_concept;
-  const lc = term.value.latest_check;
-  if (oc && oc.source && isSuperseded(oc.source) && lc) {
-    if (lc.found) {
-      a.push({ priority: "info", text: `✓ This term IS in ${lc.latest_label} (concept #${lc.concept_id}).`, link: lc.url, label: `View ${lc.latest_label} entry` });
-    } else {
-      a.push({ priority: "high", text: `✗ This term is NOT in ${lc.latest_label}.` });
-    }
-  }
-  if (isOimlOriginal(term.value)) {
-    a.push({ priority: "high", text: "No authoritative definition in VIM or VIML." });
-  }
-  if (worstEditionDistinctCount.value > 1) {
-    a.push({
-      priority: "medium",
-      text: `${worstEditionDistinctCount.value} distinct definitions WITHIN ${worstEdition.value} — harmonise within that edition.`,
-    });
-  }
-  const cc = consistencyCounts.value;
-  if (cc.ko > 0) a.push({ priority: "high", text: `${cc.ko} diverge (ko).` });
-  if (cc.partial > 0) a.push({ priority: "low", text: `${cc.partial} partially diverge.` });
-  return a;
-});
-
 // ── Definition grouping ─────────────────────────────────────────────────
 // Group publications by identical definition text so the user can see which
 // publications share the same wording (merge candidates) vs which are truly
@@ -664,17 +637,6 @@ const filteredPublications = computed(() => {
       <ul class="examples-list">
         <li v-for="(ex, i) in allExamples" :key="i">{{ ex.text }}<span class="muted" v-if="ex.citation"> — {{ ex.citation }}</span></li>
       </ul>
-    </section>
-
-    <section v-if="actions.length" class="card">
-      <h2>Suggested actions</h2>
-      <ol class="actions-list">
-        <li v-for="(a, i) in actions" :key="i">
-          <span :class="['action-pill', `action-pill-${a.priority}`]">{{ a.priority.toUpperCase() }}</span>
-          {{ a.text }}
-          <a v-if="a.link" :href="a.link"> {{ a.label }}</a>
-        </li>
-      </ol>
     </section>
 
     <section class="card" id="pub-instances">
