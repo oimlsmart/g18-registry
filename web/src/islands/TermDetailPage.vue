@@ -9,6 +9,7 @@ import DefText from "@/components/DefText.vue";
 import ConceptBody from "@/components/ConceptBody.vue";
 
 const props = defineProps<{ slug: string }>();
+const base = import.meta.env.BASE_URL;
 const { label, confidenceClass, isCurrent, isSuperseded, latestLabel, role, vocabUrl } = useVocabularyEdition();
 
 const term = computed(() => (termBySlug as any)[props.slug]);
@@ -214,6 +215,10 @@ const conceptState = computed(() => {
   return "current";
 });
 const showConceptCard = computed(() => conceptState.value !== "none");
+
+const canPropose = computed(() =>
+  term.value && (term.value.kind === "oiml_original" || !term.value.official_concept)
+);
 
 interface ConceptVersion {
   label: string;
@@ -584,6 +589,15 @@ const filteredPublications = computed(() => {
         <span v-if="matchStatus" :class="['match-status', `match-status-${matchStatus.key}`]">{{ matchStatus.label }}</span>
         G 18 #{{ term.identifier }} · {{ term.publications.length }} instances
       </p>
+    </div>
+
+    <!-- Proposal CTA: shown for OIML-original terms (no VIM/VIML definition) -->
+    <div v-if="canPropose" class="proposal-cta">
+      <div class="proposal-cta-body">
+        <div class="proposal-cta-label">Vocabulary gap</div>
+        <p>"<strong>{{ term.name }}</strong>" has no authoritative VIM/VIML definition. Should it go in <strong>VIM</strong> (general metrology), <strong>VIML</strong> (legal metrology), or <strong>V 3</strong> (specific terms)?</p>
+      </div>
+      <a class="proposal-cta-btn" :href="`${base}proposals/?term=${term.slug}`">Propose →</a>
     </div>
 
     <!-- Historic-only callout: term exists only in 2010. TC 1 cannot act. -->
@@ -1109,6 +1123,49 @@ const filteredPublications = computed(() => {
 .match-modified { background: var(--status-warn-bg); color: var(--status-warn-text); }
 .match-differs { background: var(--status-error-bg); color: var(--status-error-text); }
 .match-empty, .match-nobaseline { background: var(--status-neutral-bg); color: var(--status-neutral-text); }
+
+/* Proposal CTA for OIML-original terms */
+.proposal-cta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1em;
+  flex-wrap: wrap;
+  padding: 0.8em 1.1em;
+  margin-bottom: 1.2em;
+  border-radius: 6px;
+  background: var(--color-accent-tint);
+  border: 1px solid var(--color-accent-soft);
+}
+.proposal-cta-label {
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-accent);
+  margin-bottom: 0.2em;
+}
+.proposal-cta-body p {
+  margin: 0;
+  font-size: 0.88rem;
+  line-height: 1.45;
+  color: var(--color-ink-soft);
+}
+.proposal-cta-btn {
+  flex-shrink: 0;
+  padding: 0.5em 1.1em;
+  border-radius: 4px;
+  background: var(--color-accent);
+  color: #fff !important;
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.proposal-cta-btn:hover {
+  background: var(--color-accent-hover);
+  text-decoration: none;
+}
 
 /* ── Action-first box: what TC 1 should do ─────────────────────── */
 .concept-action-box {

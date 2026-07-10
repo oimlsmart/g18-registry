@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, computed } from "vue";
+import { ref, computed, nextTick } from "vue";
 import { useVocabGaps, vocabGaps, type VocabGap } from "@/composables/useVocabGaps";
 import { usePagination } from "@/composables/usePagination";
 import {
@@ -20,6 +20,18 @@ const pagination = usePagination(filtered, {
   pageSize: 50,
   dep: () => `${scope.value}|${tcFilter.value}|${search.value}`,
 });
+
+// Auto-open proposal modal when arriving via ?term=<slug> link
+if (typeof window !== "undefined") {
+  const params = new URLSearchParams(window.location.search);
+  const termSlug = params.get("term");
+  if (termSlug) {
+    const gap = vocabGaps.find(g => g.slug === termSlug);
+    if (gap) {
+      nextTick(() => openProposal(gap));
+    }
+  }
+}
 
 // Currently-open proposal form (one at a time).
 const openGap = ref<VocabGap | null>(null);
