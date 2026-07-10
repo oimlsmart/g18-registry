@@ -212,7 +212,7 @@ function nearMissText(nm: any): string {
             </td>
             <td class="num">{{ g.publications.length }}</td>
             <td class="vocab-gaps-def"><span class="muted" style="font-size:0.88em">{{ (g.definitions[0] || '—').slice(0, 80) }}{{ (g.definitions[0] || '').length > 80 ? '…' : '' }}</span></td>
-            <td><button type="button" class="sort-btn sort-btn-active" @click="openProposal(g)">Propose</button></td>
+            <td><button type="button" class="gap-card-cta" @click="openProposal(g)">Propose</button></td>
           </tr>
         </tbody>
       </table>
