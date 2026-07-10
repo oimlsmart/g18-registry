@@ -595,7 +595,7 @@ const filteredPublications = computed(() => {
     <div v-if="canPropose" class="proposal-cta">
       <div class="proposal-cta-body">
         <div class="proposal-cta-label">Vocabulary gap</div>
-        <p>"<strong>{{ term.name }}</strong>" has no authoritative VIM/VIML definition. Should it go in <strong>VIM</strong> (general metrology), <strong>VIML</strong> (legal metrology), or <strong>V 3</strong> (specific terms)?</p>
+        <p>"<strong>{{ term.name }}</strong>" has no authoritative VIM/VIML definition. You can propose it for the <strong>next edition</strong> of VIM (V 2) or VIML (V 1), or for a brand-new <strong>V 3</strong> vocabulary of specific terms.</p>
       </div>
       <a class="proposal-cta-btn" :href="`${base}proposals/?term=${term.slug}`">Propose →</a>
     </div>

@@ -84,19 +84,19 @@ const scopeButtons: { val: typeof scope.value; concept: string; target: string; 
   {
     val: "no-match",
     concept: "V 3 candidates",
-    target: "no near-miss — likely specific terms",
+    target: "no VIM/VIML near-miss — likely specific terms",
     count: vocabGaps.filter(g => !g.near_misses.vim && !g.near_misses.viml).length,
   },
   {
     val: "any-match",
-    concept: "V 1/V 2 candidates",
-    target: "has near-miss — likely reconcilable",
+    concept: "V 1 / V 2 candidates",
+    target: "has VIM/VIML near-miss — reconcile or relink",
     count: vocabGaps.filter(g => g.near_misses.vim || g.near_misses.viml).length,
   },
   {
     val: "all",
     concept: "All",
-    target: "every undefined term",
+    target: "every OIML-original term",
     count: vocabGaps.length,
   },
 ];
@@ -144,8 +144,10 @@ function nearMissText(nm: any): string {
       </li>
       <li>
         <strong>Propose</strong> by clicking the "Propose" button on a term.
-        Choose its target: VIM (general metrology), VIML (legal metrology),
-        or V 3 (specific terms). Add your rationale.
+        Choose its target — <strong>V 1 / V 2</strong> adds the term to the
+        next edition of an existing vocabulary (VIM or VIML); <strong>V 3</strong>
+        proposes a brand-new vocabulary for specific terms.
+        Add your rationale.
       </li>
       <li>
         <strong>Submit.</strong>

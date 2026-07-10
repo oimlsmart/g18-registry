@@ -127,19 +127,19 @@ export const TARGET_CATEGORIES: TargetCategory[] = [
   {
     code: "V2",
     concept: "General concept in metrology",
-    target: "Propose for VIM (V 2)",
+    target: "Propose for next VIM edition (V 2)",
     examples: "e.g. quantity, measuring instrument, accuracy",
   },
   {
     code: "V1",
     concept: "General concept in legal metrology",
-    target: "Propose for VIML (V 1)",
+    target: "Propose for next VIML edition (V 1)",
     examples: "e.g. legal unit of measurement, type approval, verification",
   },
   {
     code: "V3",
     concept: "Specific term",
-    target: "Propose for V 3 (new vocabulary)",
+    target: "Propose for new V 3 vocabulary",
     examples: "e.g. load cell, set of weights, dosimeter, pressure gauge",
   },
 ];
