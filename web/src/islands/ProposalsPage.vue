@@ -12,6 +12,8 @@ import {
   type ProposalTarget,
   type ProposalDraft,
 } from "@/composables/useGapProposal";
+import SLink from "@/components/SLink.vue";
+import PaginationControls from "@/components/PaginationControls.vue";
 
 const { search, scope, tcFilter, allTCs, filtered } = useVocabGaps();
 const pagination = usePagination(filtered, {

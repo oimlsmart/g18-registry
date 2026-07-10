@@ -2,6 +2,7 @@
 import { computed, ref } from "vue";
 import tcData from "@/data/tc.json";
 import terms from "@/data/terms.json";
+import SLink from "@/components/SLink.vue";
 
 type EditionFilter = "202X" | "2010" | "all";
 const editionFilter = ref<EditionFilter>("202X");

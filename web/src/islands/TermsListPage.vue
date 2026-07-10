@@ -2,6 +2,9 @@
 import { ref, computed, watch } from "vue";
 import terms from "@/data/terms.json";
 import { usePagination } from "@/composables/usePagination";
+import SLink from "@/components/SLink.vue";
+import DefText from "@/components/DefText.vue";
+import PaginationControls from "@/components/PaginationControls.vue";
 
 const search = ref("");
 // Edition filter — 3-button sticky pattern. URL `?only=` params from old

@@ -3,6 +3,8 @@ import { computed, ref } from "vue";
 import termsData from "@/data/terms.json";
 import { useSuggestedActions, ACTION_META, actionMeta } from "@/composables/useSuggestedActions";
 import { usePagination } from "@/composables/usePagination";
+import SLink from "@/components/SLink.vue";
+import PaginationControls from "@/components/PaginationControls.vue";
 
 const terms = termsData as any[];
 const { byTerm, counts, allActions } = useSuggestedActions(terms);

@@ -4,6 +4,9 @@ import termBySlug from "@/data/term-by-slug.json";
 import { useVocabularyEdition } from "@/composables/useVocabularyEdition";
 import { isOimlOriginal } from "@/composables/useSuggestedActions";
 import { slugifyPubId } from "@/composables/useSuggestedActions";
+import SLink from "@/components/SLink.vue";
+import DefText from "@/components/DefText.vue";
+import ConceptBody from "@/components/ConceptBody.vue";
 
 const props = defineProps<{ slug: string }>();
 const { label, confidenceClass, isCurrent, isSuperseded, latestLabel, role } = useVocabularyEdition();

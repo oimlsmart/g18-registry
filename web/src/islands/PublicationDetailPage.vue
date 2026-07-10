@@ -3,6 +3,7 @@ import { computed, ref } from "vue";
 import publications from "@/data/publications.json";
 import termsData from "@/data/terms.json";
 import { useSuggestedActions, ACTION_META, actionMeta, slugifyPubId } from "@/composables/useSuggestedActions";
+import SLink from "@/components/SLink.vue";
 
 const props = defineProps<{ slug: string }>();
 const slugParam = computed(() => props.slug);
