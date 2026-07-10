@@ -120,7 +120,7 @@ const pageTitle = computed(() => {
   <div class="page-head">
     <div class="breadcrumb"><SLink to="/">Registry</SLink> / <span>Terms</span></div>
     <h1>{{ pageTitle }}</h1>
-    <p class="lede">{{ filtered.length }} terms · {{ filtered.reduce((s: number, t: any) => s + t.publications.length, 0) }} instances</p>
+    <p class="lede">{{ filtered.length }} terms</p>
   </div>
 
   <!-- Edition overview: explains the set relationship once, clearly -->
