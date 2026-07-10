@@ -9,7 +9,7 @@ import DefText from "@/components/DefText.vue";
 import ConceptBody from "@/components/ConceptBody.vue";
 
 const props = defineProps<{ slug: string }>();
-const { label, confidenceClass, isCurrent, isSuperseded, latestLabel, role } = useVocabularyEdition();
+const { label, confidenceClass, isCurrent, isSuperseded, latestLabel, role, vocabUrl } = useVocabularyEdition();
 
 const term = computed(() => (termBySlug as any)[props.slug]);
 
@@ -214,47 +214,97 @@ interface ConceptVersion {
   status: "current" | "superseded" | "removed";
   url?: string;
   fallbackDef?: string;
+  vocab: string;
+}
+function refVocabOf(ref: any): string {
+  return ref.vocab || (ref.source?.includes("v:1:") ? "viml" : "vim");
 }
 const conceptVersions = computed<ConceptVersion[]>(() => {
   if (!showConceptCard.value || !term.value?.official_concept) return [];
   const oc = term.value.official_concept;
   const versions: ConceptVersion[] = [];
+  const seen = new Set<string>();
+  function addVersion(v: ConceptVersion) {
+    const key = `${v.label}#${v.conceptId}`;
+    if (seen.has(key)) return;
+    seen.add(key);
+    versions.push(v);
+  }
 
   if (conceptState.value === "upgrade") {
-    versions.push({
+    addVersion({
       label: oc.edition_label || label(oc.source),
       conceptId: oc.id,
       data: conceptData(citedConcept.value),
       status: "superseded",
       fallbackDef: !conceptData(citedConcept.value) ? oc.definition_text : undefined,
+      vocab: refVocabOf(oc),
     });
-    versions.push({
+    addVersion({
       label: term.value.latest_check?.latest_label || latestLabel(oc.source),
       conceptId: term.value.latest_check?.concept_id || "?",
       data: conceptData(latestConcept.value),
       status: "current",
       url: term.value.latest_check?.url,
+      vocab: refVocabOf(oc),
     });
   } else if (conceptState.value === "removed") {
-    versions.push({
+    addVersion({
       label: oc.edition_label || label(oc.source),
       conceptId: oc.id,
       data: conceptData(citedConcept.value),
       status: "removed",
       fallbackDef: !conceptData(citedConcept.value) ? oc.definition_text : undefined,
+      vocab: refVocabOf(oc),
     });
   } else {
     const data = conceptData(latestConcept.value) || conceptData(citedConcept.value);
-    versions.push({
+    addVersion({
       label: oc.edition_label || label(oc.source),
       conceptId: oc.id,
       data,
       status: "current",
       url: oc.url,
       fallbackDef: !data ? oc.definition_text : undefined,
+      vocab: refVocabOf(oc),
+    });
+  }
+
+  // Cross-vocabulary related concepts become version cards.
+  const ocVocab = refVocabOf(oc);
+  for (const edge of term.value.related || []) {
+    const ref = edge.ref;
+    if (!ref) continue;
+    if (ref.source === oc.source && ref.id === oc.id) continue;
+    if (refVocabOf(ref) === ocVocab) continue;
+    const refData = ref.definition_text
+      ? { designations: [], definitions: [ref.definition_text], notes: [], examples: [] }
+      : null;
+    addVersion({
+      label: ref.edition_label || label(ref.source),
+      conceptId: ref.id,
+      data: refData,
+      status: ref.role === "current" ? "current" : "superseded",
+      url: vocabUrl(ref.source, ref.id) || undefined,
+      fallbackDef: !refData ? ref.definition_text : undefined,
+      vocab: refVocabOf(ref),
     });
   }
   return versions;
+});
+
+const seeAlso = computed(() => {
+  if (!term.value?.related || !term.value?.official_concept) return [];
+  const oc = term.value.official_concept;
+  const ocVocab = refVocabOf(oc);
+  return (term.value.related as any[])
+    .filter(e => {
+      const ref = e.ref;
+      if (!ref) return false;
+      if (ref.source === oc.source && ref.id === oc.id) return false;
+      return refVocabOf(ref) === ocVocab;
+    })
+    .map(e => ({ ref: e.ref, url: vocabUrl(e.ref.source, e.ref.id) }));
 });
 
 // Designations: split by type/status for the UI. Falls back to the legacy
@@ -535,13 +585,21 @@ const filteredPublications = computed(() => {
         </button>
       </div>
 
-      <!-- Concept version series: superseded → current (or removed) -->
+      <p class="concept-series-intro">
+        Authoritative definitions from VIM (International Vocabulary of Metrology)
+        and VIML (International Vocabulary of Legal Metrology). Each card shows
+        one edition's full concept. <strong>Cite the current version.</strong>
+      </p>
+
+      <!-- Concept version series: superseded → current (or removed → cross-vocab) -->
       <div class="concept-series">
         <template v-for="(v, i) in conceptVersions" :key="i">
           <!-- Connector between versions -->
           <div v-if="i > 0" class="concept-version-connector">
             <div class="concept-version-connector-line"></div>
-            <span class="concept-version-connector-label">superseded by</span>
+            <span class="concept-version-connector-label">
+              {{ conceptVersions[i - 1].vocab === v.vocab ? "superseded by" : "also defined in" }}
+            </span>
           </div>
 
           <!-- Version card -->
@@ -573,18 +631,22 @@ const filteredPublications = computed(() => {
         </template>
       </div>
 
-      <!-- Removal warning -->
-      <div v-if="conceptState === 'removed'" class="admonition warn" style="margin-top:0.6em">
+      <!-- Removal warning (only when no cross-vocab current version exists) -->
+      <div v-if="conceptState === 'removed' && !conceptVersions.some(v => v.status === 'current')" class="admonition warn" style="margin-top:0.6em">
         <strong>Removed from {{ term.latest_check?.latest_label }}.</strong>
         <template v-if="term.canonical_mismatch"> A similar term exists: <strong>{{ term.canonical_mismatch.designation }}</strong> (#{{ term.canonical_mismatch.concept_id }}).</template>
       </div>
-      <ul v-if="term.related?.length" style="list-style:none;padding:0;margin-top:0.5em">
-        <li v-for="(edge, i) in term.related" :key="i" style="margin-bottom:0.3em">
-          <span :class="confidenceClass(edge.ref?.source)">{{ edge.ref?.edition_label || edge.ref?.source }}</span>
-          · #{{ edge.ref?.id }}
-          <div v-if="edge.ref?.definition_text" class="authority-defn-body" style="font-size:0.92em"><DefText :text="edge.ref.definition_text" /></div>
-        </li>
-      </ul>
+
+      <!-- See also: same-vocabulary cross-references to other concepts -->
+      <div v-if="seeAlso.length" class="concept-see-also">
+        <span class="concept-see-also-label">Cross-referenced in {{ seeAlso[0].ref.edition_label || label(seeAlso[0].ref.source) }}</span>
+        <div class="concept-see-also-items">
+          <a v-for="(item, i) in seeAlso" :key="i" class="concept-see-also-link" :href="item.url || '#'">
+            #{{ item.ref.id }} ↗
+          </a>
+        </div>
+        <p class="concept-see-also-hint">These are different concepts that the source vocabulary points to as related.</p>
+      </div>
     </section>
 
     <section v-if="allAnnotations.length" class="card admonition warn">
@@ -1102,5 +1164,55 @@ const filteredPublications = computed(() => {
   height: 1px;
   background: var(--color-rule-soft);
   margin: 0.6em 0 0.4em;
+}
+
+/* Series intro text */
+.concept-series-intro {
+  font-size: 0.85rem;
+  color: var(--color-ink-soft);
+  margin: 0.5em 0 0.8em;
+  line-height: 1.5;
+}
+
+/* See Also: cross-references within the same vocabulary */
+.concept-see-also {
+  margin-top: 0.8em;
+  padding: 0.6em 0.8em;
+  border-radius: 4px;
+  background: var(--color-paper-tint);
+  border: 1px solid var(--color-rule-soft);
+}
+.concept-see-also-label {
+  display: block;
+  font-size: 0.66rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--color-ink-muted);
+  margin-bottom: 0.3em;
+}
+.concept-see-also-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4em;
+}
+.concept-see-also-link {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  padding: 0.1em 0.5em;
+  border-radius: 3px;
+  background: var(--color-paper-soft);
+  border: 1px solid var(--color-rule-soft);
+  text-decoration: none;
+}
+.concept-see-also-link:hover {
+  background: var(--color-accent-tint);
+  border-color: var(--color-accent);
+}
+.concept-see-also-hint {
+  font-size: 0.78rem;
+  color: var(--color-ink-muted);
+  margin: 0.4em 0 0;
+  font-style: italic;
 }
 </style>
