@@ -2,9 +2,9 @@
 import Layout from "@/layouts/Layout.astro";
 import TcDetailPage from "@/islands/TcDetailPage.vue";
 import tc from "@/data/tc.json";
+import { slugify } from "@/utils/term-utils";
 
 export function getStaticPaths() {
-  const slugify = (s: string) => s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
   return (tc as string[]).map(name => ({
     params: { slug: slugify(name) },
     props: { slug: slugify(name) },

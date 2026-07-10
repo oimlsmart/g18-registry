@@ -132,18 +132,6 @@ module G18
         out
       end
 
-      # Cross-vocabulary adoption suggestion: term is in VIM but could
-      # also be in VIML (or vice versa).
-      def adopt_action
-        return [] unless @oc
-        # If defined_in_vim and latest_check in viml found → suggest adopt_viml
-        # (and vice versa). This requires the latest_check to cover BOTH
-        # vocabularies. Currently latest_check only checks the SAME vocab
-        # as the citation. Skip for now — the vocab repo would need to
-        # populate cross-vocab latest_check data.
-        []
-      end
-
       # Terms with ≥ 2 distinct definitions WITHIN A SINGLE EDITION.
       # Cross-edition definition changes (e.g. 2010 vs 202X wording
       # differs) are NOT flagged — that's an intentional editorial change
@@ -207,8 +195,8 @@ module G18
       def compose_unique_description
         # Pick the strongest near-miss candidate (VIML > VIM for legal-
         # metrology context, exact > fuzzy for confidence).
-        vim = @presence[:vim] || @presence["vim"]
-        viml = @presence[:viml] || @presence["viml"]
+        vim = @presence["vim"]
+        viml = @presence["viml"]
         candidate = select_near_miss(viml, vim)
         divergence_tail = @has_divergence ?
           " Check divergent definitions and update, or document why divergence is intentional." :

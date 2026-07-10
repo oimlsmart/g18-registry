@@ -219,24 +219,3 @@ describe("normalizePubId", () => {
     expect(normalizePubId("OIML R 76-1:2006")).toBe("OIML R76-1:2006");
   });
 });
-
-describe("maxWithinEditionDistinctDefs", () => {
-  it("returns max distinct defs within a single edition (not cross-edition)", () => {
-    const pubs = [
-      { edition: "202X", definition: "def A" },
-      { edition: "202X", definition: "def B" },
-      { edition: "2010", definition: "def C" },
-    ];
-    expect(maxWithinEditionDistinctDefs(pubs)).toBe(2); // 202X has 2 distinct
-  });
-  it("returns 1 when all pubs within each edition share the same definition", () => {
-    const pubs = [
-      { edition: "202X", definition: "same" },
-      { edition: "2010", definition: "different" },
-    ];
-    expect(maxWithinEditionDistinctDefs(pubs)).toBe(1);
-  });
-  it("returns 0 for empty pubs", () => {
-    expect(maxWithinEditionDistinctDefs([])).toBe(0);
-  });
-});

@@ -235,14 +235,14 @@ end
 # candidates for both vocabularies so the gap-analysis page can suggest
 # Propose-for-VIM / Propose-for-VIML / Propose-for-V3.
 def check_vocab_presence(term_name, latest_indices)
-  result = { vim: nil, viml: nil }
+  result = { "vim" => nil, "viml" => nil }
   return result unless term_name
-  %i[vim viml].each do |vocab|
-    idx = latest_indices[vocab]
+  %w[vim viml].each do |vocab|
+    idx = latest_indices[vocab.to_sym] || latest_indices[vocab]
     next unless idx&.any?
     lookup = term_name.to_s.downcase.strip
     if idx.key?(lookup)
-      info = LATEST_DATASETS[vocab]
+      info = LATEST_DATASETS[vocab.to_sym]
       entry = idx[lookup]
       result[vocab] = {
         found: true,

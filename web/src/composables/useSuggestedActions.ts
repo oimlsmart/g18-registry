@@ -11,6 +11,7 @@
 //   unique                     — OIML-original, no VIM/VIML ref
 
 import { computed, type ComputedRef } from "vue";
+import { slugify, isHistoricTerm, normalizeDef } from "@/utils/term-utils";
 
 export interface SuggestedAction {
   type: string;
@@ -74,27 +75,22 @@ export function actionMeta(type: string): ActionMeta {
 // cannot act on these (2010 is published). We keep them visible in
 // worklists for completeness but visually deprioritize them.
 export function isHistoric(term: { editions_present?: string[] }): boolean {
-  const eds = term?.editions_present || [];
-  return eds.length > 0 && eds.every(e => e === "2010");
+  return isHistoricTerm(term);
 }
 
 // True if the term has no VIM/VIML citation (an OIML-original term).
-// Accepts both the canonical "oiml_original" and the legacy "undefined"
-// value so we don't break during the rename transition.
 export function isOimlOriginal(term: { kind?: string }): boolean {
   const k = term?.kind;
   return k === "oiml_original" || k === "undefined";
 }
 
-// Max distinct definitions WITHIN A SINGLE EDITION. Cross-edition wording
-// changes (e.g. 2010 vs 202X) are intentional editorial evolution and are
-// NOT harmonisation targets — only within-edition divergence counts.
-// This is the canonical helper; pages should import it instead of rolling
-// their own.
+// Max distinct normalized definitions WITHIN A SINGLE EDITION.
+// Uses normalizeDef to strip {{id,text}} cross-reference markup so
+// "see {{3.1,measuring instrument}}" compares equal to "see measuring instrument".
 export function maxWithinEditionDistinctDefs(pubs: any[]): number {
   const byEd: Record<string, Set<string>> = {};
   for (const p of pubs) {
-    const d = (p?.definition || "").trim();
+    const d = normalizeDef(p?.definition || "");
     if (!d) continue;
     const ed = p.edition || "(unspecified)";
     if (!byEd[ed]) byEd[ed] = new Set();
@@ -103,25 +99,15 @@ export function maxWithinEditionDistinctDefs(pubs: any[]): number {
   return Math.max(0, ...Object.values(byEd).map(s => s.size));
 }
 
-// Normalize publication IDs so spaced ("OIML R 76-1:2006") and compact
-// ("OIML R076-1:2006") formats compare equal.
 export function normalizePubId(id: string): string {
   return (id || "")
-    .replace(/OIML\s+([RDGB])\s*/i, "OIML $1")  // "OIML R 76" → "OIML R76"
+    .replace(/OIML\s+([RDGB])\s*/i, "OIML $1")
     .replace(/\s+/g, " ")
     .trim();
 }
 
-// Deterministic URL-safe slug for publication IDs.
-// "OIML R 76-1:2006" → "oiml-r-76-1-2006"
-// Lowercase, replace any non-alphanumeric run with a single dash, trim.
-// Stable and reversible (we keep a reverse map in the publication detail
-// page so old raw-ID links still resolve).
 export function slugifyPubId(id: string): string {
-  return (id || "")
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, "-")
-    .replace(/^-+|-+$/g, "");
+  return slugify(id);
 }
 
 export function useSuggestedActions(terms: any[]) {

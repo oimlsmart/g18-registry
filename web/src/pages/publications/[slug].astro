@@ -2,9 +2,9 @@
 import Layout from "@/layouts/Layout.astro";
 import PublicationDetailPage from "@/islands/PublicationDetailPage.vue";
 import publications from "@/data/publications.json";
+import { slugify } from "@/utils/term-utils";
 
 export function getStaticPaths() {
-  const slugify = (s: string) => s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
   return (publications as any[]).map(p => ({
     params: { slug: slugify(p.id) },
     props: { slug: slugify(p.id) },

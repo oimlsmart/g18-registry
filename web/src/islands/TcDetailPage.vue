@@ -5,10 +5,9 @@ import publicationsData from "@/data/publications.json";
 import termsData from "@/data/terms.json";
 import { useSuggestedActions, ACTION_META, actionMeta, slugifyPubId } from "@/composables/useSuggestedActions";
 import SLink from "@/components/SLink.vue";
-import { kindLabel } from "@/utils/term-utils";
+import { kindLabel, slugify } from "@/utils/term-utils";
 
 const props = defineProps<{ slug: string }>();
-function slugify(name: string) { return name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, ""); }
 
 const tcName = computed(() => (tcData as string[]).find(t => slugify(t) === props.slug));
 const terms = termsData as any[];

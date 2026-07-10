@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { computed, ref } from "vue";
+import { slugify } from "@/utils/term-utils";
 import conflictsData from "@/data/conflicts.json";
 import { slugifyPubId } from "@/composables/useSuggestedActions";
 import SLink from "@/components/SLink.vue";
@@ -25,10 +26,6 @@ const editionCounts = computed(() => {
   for (const ed of allEditions) c[ed] = (rawByEditionAll[ed] || []).length;
   return c;
 });
-
-function slugify(s: string): string {
-  return s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
-}
 </script>
 
 <template>

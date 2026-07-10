@@ -7,7 +7,7 @@ import { slugifyPubId, isOimlOriginal } from "@/composables/useSuggestedActions"
 import SLink from "@/components/SLink.vue";
 import DefText from "@/components/DefText.vue";
 import ConceptBody from "@/components/ConceptBody.vue";
-import { kindLabel } from "@/utils/term-utils";
+import { kindLabel, normalizeDef, isHistoricTerm } from "@/utils/term-utils";
 
 const props = defineProps<{ slug: string }>();
 const base = import.meta.env.BASE_URL;
@@ -181,10 +181,7 @@ const hasConsistencyData = computed(() => {
 });
 
 // Historic-only: term exists only in the 2010 edition. TC 1 cannot act.
-const isHistoricTerm = computed(() => {
-  const eds = term.value?.editions_present || [];
-  return eds.length > 0 && eds.every(e => e === "2010");
-});
+const isHistoricTermComputed = computed(() => isHistoricTerm(term.value));
 
 // Concept version engine: state, versions, actions, see-also — all
 // extracted to useConceptVersions for testability and locality.
@@ -356,12 +353,6 @@ const authoritativeText = computed(() => {
   return oc?.definition_text ? (oc.definition_text as string).trim() : "";
 });
 
-// Normalize VIM cross-reference markup ({{id,text}} → text) so VIM 2007
-// (plain) and VIM 2012 (with refs) definitions compare as identical.
-function normalizeDef(s: string): string {
-  return (s || "").replace(/\{\{[^,}]+,([^}]+)\}\}/g, "$1").trim();
-}
-
 // Per-publication match status vs authoritative: matches / modified / differs / no-baseline.
 function pubMatchStatus(p: any): { key: string; label: string } {
   if (!authoritativeText.value) return { key: "nobaseline", label: "no baseline" };
@@ -433,7 +424,7 @@ const filteredPublications = computed(() => {
     </div>
 
     <!-- Historic-only callout: term exists only in 2010. TC 1 cannot act. -->
-    <section v-if="isHistoricTerm" class="card admonition" style="background: var(--color-paper-tint); border-color: var(--color-rule);">
+    <section v-if="isHistoricTermComputed" class="card admonition" style="background: var(--color-paper-tint); border-color: var(--color-rule);">
       <strong>Historic (2010 only).</strong>
       This term appears only in the published G 18:2010 edition. TC 1 cannot
       take action on it — 2010 is frozen. Shown in worklists for completeness,
@@ -441,7 +432,7 @@ const filteredPublications = computed(() => {
     </section>
 
     <!-- Sticky page-level edition filter (same pattern as publication/TC pages) -->
-    <div v-if="!isHistoricTerm && (term.editions_present || []).length > 1" class="page-filter" role="region" aria-label="Edition filter">
+    <div v-if="!isHistoricTermComputed && (term.editions_present || []).length > 1" class="page-filter" role="region" aria-label="Edition filter">
       <span class="page-filter-label">Edition scope</span>
       <div class="page-filter-controls">
         <button v-if="(term.editions_present || []).includes('202X')" type="button"

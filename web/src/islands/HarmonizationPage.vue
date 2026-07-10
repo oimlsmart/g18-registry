@@ -7,7 +7,7 @@ import { usePagination } from "@/composables/usePagination";
 import { maxWithinEditionDistinctDefs } from "@/composables/useSuggestedActions";
 import SLink from "@/components/SLink.vue";
 import PaginationControls from "@/components/PaginationControls.vue";
-import { kindLabel } from "@/utils/term-utils";
+import { kindLabel, slugify, isHistoricTerm } from "@/utils/term-utils";
 
 // Build a name → kind lookup for VIM/VIML column in collision table.
 const termKindMap: Record<string, string> = {};
@@ -22,10 +22,6 @@ type SortKey = "divergence" | "citations" | "name";
 const sort = ref<SortKey>("divergence");
 const search = ref("");
 
-function isHistoricTerm(t: any): boolean {
-  const eds = t.editions_present || [];
-  return eds.length > 0 && eds.every((e: string) => e === "2010");
-}
 // Use the shared per-edition max helper from useSuggestedActions. The local
 // `distinctDefs` is now a thin alias so existing call sites stay readable
 // (the worklist column header reads "Distinct defs").

@@ -1,4 +1,5 @@
 import termBySlug from "@/data/term-by-slug.json";
+import { slugify as slugifyText } from "@/utils/term-utils";
 
 let conceptIdLookup: Record<string, string> | null = null;
 let nameLookup: Record<string, string> | null = null;
@@ -23,9 +24,6 @@ function singularize(s: string): string {
   return s;
 }
 
-function slugifyText(s: string): string {
-  return s.trim().toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
-}
 
 export function resolveXrefSlug(conceptId: string, text: string): string | null {
   ensureLookups();
