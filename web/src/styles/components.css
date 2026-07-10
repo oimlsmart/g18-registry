@@ -904,11 +904,13 @@ tbody tr:hover { background: var(--color-accent-tint); }
     flex-direction: row;
     align-items: center;
     gap: 0.4em;
+    line-height: 1.2;
     padding: 0.4em 0.7em;
   }
-  .page-filter-btn-title { font-size: 0.88rem; }
+  .page-filter-btn-title { font-size: 0.88rem; line-height: 1.2; }
   .page-filter-btn-meta {
     font-size: 0.7rem;
+    line-height: 1.2;
     white-space: normal;
     max-width: none;
   }
@@ -919,6 +921,30 @@ tbody tr:hover { background: var(--color-accent-tint); }
     display: grid;
     grid-template-columns: 1fr;
     gap: 0.3em;
+  }
+  .page-filter-btn {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5em;
+    /* Reset body-inherited line-height:1.6 — each text line was getting
+       1.6x font-size, making a single-line button ~40px tall. */
+    line-height: 1.2;
+    padding: 0.35em 0.7em;
+    min-height: 0;
+  }
+  .page-filter-btn-title {
+    font-size: 0.85rem;
+    line-height: 1.2;
+  }
+  .page-filter-btn-meta {
+    font-size: 0.72rem;
+    line-height: 1.2;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .page-filter-btn-meta .btn-meta-desc {
+    display: none;
   }
 }
 

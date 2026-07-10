@@ -166,7 +166,10 @@ function nearMissText(nm: any): string {
               :class="['page-filter-btn', { 'page-filter-btn-active': scope === b.val }]"
               @click="scope = b.val">
         <span class="page-filter-btn-title">{{ b.concept }}</span>
-        <span class="page-filter-btn-meta">{{ b.count }} terms · {{ b.target }}</span>
+        <span class="page-filter-btn-meta">
+          <span>{{ b.count }}</span>
+          <span class="btn-meta-desc"> · {{ b.target }}</span>
+        </span>
       </button>
     </div>
   </div>
@@ -215,19 +218,21 @@ function nearMissText(nm: any): string {
       </table>
     </div>
 
-    <!-- Mobile cards -->
+    <!-- Mobile cards: redesigned for thumb-friendly scanning.
+         Hero = term name. Single-line summary. Propose as primary CTA. -->
     <ul class="gap-cards table-only-mobile">
       <li v-for="g in pagination.visible.value" :key="g.slug" class="gap-card">
-        <div class="gap-card-head">
-          <SLink :to="`/terms/${g.slug}/`" class="term-card-name">{{ g.name }}</SLink>
-          <span class="muted">{{ g.publications.length }} pubs</span>
+        <div class="gap-card-top">
+          <SLink :to="`/terms/${g.slug}/`" class="gap-card-name">{{ g.name }}</SLink>
+          <span class="gap-card-pubs">{{ g.publications.length }} pub{{ g.publications.length === 1 ? '' : 's' }}</span>
         </div>
-        <div class="gap-card-meta">
-          <div><span class="muted">VIM:</span> <a v-if="g.near_misses.vim" :href="g.near_misses.vim.url" target="_blank" rel="noopener" :class="nearMissBadgeClass(g.near_misses.vim)">{{ nearMissText(g.near_misses.vim) }}</a><span v-else class="muted">—</span></div>
-          <div><span class="muted">VIML:</span> <a v-if="g.near_misses.viml" :href="g.near_misses.viml.url" target="_blank" rel="noopener" :class="nearMissBadgeClass(g.near_misses.viml)">{{ nearMissText(g.near_misses.viml) }}</a><span v-else class="muted">—</span></div>
+        <div class="gap-card-status">
+          <span v-if="g.near_misses.viml" class="gap-card-chip gap-card-chip-viml">VIML match</span>
+          <span v-else class="gap-card-chip gap-card-chip-empty">no VIML</span>
+          <span v-if="g.near_misses.vim" class="gap-card-chip gap-card-chip-vim">VIM match</span>
+          <span v-else class="gap-card-chip gap-card-chip-empty">no VIM</span>
         </div>
-        <div class="gap-card-def" v-if="g.definitions[0]">{{ g.definitions[0].slice(0, 140) }}{{ g.definitions[0].length > 140 ? '…' : '' }}</div>
-        <button type="button" class="sort-btn sort-btn-active" @click="openProposal(g)">Propose</button>
+        <button type="button" class="gap-card-cta" @click="openProposal(g)">Propose</button>
       </li>
     </ul>
 
@@ -362,7 +367,7 @@ function nearMissText(nm: any): string {
   padding: 0;
   display: flex;
   flex-direction: column;
-  gap: 0.6rem;
+  gap: 0.5rem;
 }
 .gap-card {
   background: var(--color-paper-soft);
@@ -371,28 +376,68 @@ function nearMissText(nm: any): string {
   padding: 0.85rem 1rem;
   display: flex;
   flex-direction: column;
-  gap: 0.4em;
+  gap: 0.6rem;
 }
-.gap-card-head {
+.gap-card-top {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  gap: 0.6em;
+  gap: 0.5em;
 }
-.gap-card-meta {
+.gap-card-name {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: 1.05rem;
+  color: var(--color-ink);
+  letter-spacing: -0.01em;
+  line-height: 1.2;
+}
+.gap-card-pubs {
+  font-size: 0.78rem;
+  color: var(--color-ink-muted);
+  white-space: nowrap;
+  flex-shrink: 0;
+  font-variant-numeric: tabular-nums;
+}
+.gap-card-status {
   display: flex;
-  flex-direction: column;
-  gap: 0.25em;
+  gap: 0.4em;
+  flex-wrap: wrap;
+}
+.gap-card-chip {
+  font-size: 0.7rem;
+  padding: 0.15em 0.55em;
+  border-radius: 9999px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+.gap-card-chip-viml {
+  background: var(--status-ok-bg);
+  color: var(--status-ok-text);
+}
+.gap-card-chip-vim {
+  background: var(--status-info-bg);
+  color: var(--status-info-text);
+}
+.gap-card-chip-empty {
+  background: var(--color-rule-soft);
+  color: var(--color-ink-muted);
+  font-weight: 500;
+}
+.gap-card-cta {
+  appearance: none;
+  border: 0;
+  background: var(--color-accent);
+  color: #fff;
+  padding: 0.6em 1em;
+  border-radius: 4px;
   font-size: 0.88rem;
+  font-weight: 600;
+  cursor: pointer;
+  text-align: center;
+  width: 100%;
 }
-.gap-card-meta .muted {
-  margin-right: 0.3em;
-}
-.gap-card-def {
-  font-size: 0.88em;
-  color: var(--color-ink-soft);
-  line-height: 1.4;
-}
+.gap-card-cta:hover { background: var(--color-accent-hover); }
 
 .modal-backdrop {
   position: fixed;
