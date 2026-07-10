@@ -33,7 +33,6 @@ function distinctDefsAll(pubs: any[]): number {
   // we want to know if every pub (anywhere) uses identical wording.
   return new Set(pubs.map(p => (p.definition || "").trim()).filter(Boolean)).size;
 }
-function slugify(s: string) { return s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, ""); }
 function tcscList(pubs: any[]): string {
   const set = new Set(pubs.map(p => p.tc_sc).filter(Boolean));
   return Array.from(set).sort().join(", ");

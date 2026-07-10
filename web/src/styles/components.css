@@ -85,16 +85,6 @@
 }
 .card-head h2 { margin: 0; border: none; padding: 0; }
 
-/* soft / warm variants */
-.card.card-warm {
-  background: var(--color-oiml-cream-soft);
-  border-color: var(--color-oiml-cream-deep);
-}
-.card.card-warn {
-  background: var(--status-warn-bg);
-  border-color: var(--status-warn-border);
-}
-
 /* ── Tables ──────────────────────────────────────────────────────────── */
 table {
   width: 100%;
@@ -225,21 +215,6 @@ tbody tr:hover { background: var(--color-accent-tint); }
 }
 
 /* VIM/VIML confidence indicators */
-.viml-ref {
-  display: inline-block;
-  padding: 0.1em 0.5em;
-  border-radius: 3px;
-  font-size: 0.78em;
-  font-weight: 500;
-  border: 1px solid transparent;
-}
-.viml-ref.vim-current  { background: var(--status-info-bg); color: var(--status-info-text); border-color: var(--status-info-border); font-weight: 600; }
-.viml-ref.vim-prior    { background: var(--status-info-bg); color: var(--status-info-text); border-color: var(--status-info-border); opacity: 0.85; }
-.viml-ref.vim-legacy   { background: var(--status-neutral-bg); color: var(--status-neutral-text); border-color: var(--status-neutral-border); font-style: italic; }
-.viml-ref.viml-current { background: var(--status-ok-bg); color: var(--status-ok-text); border-color: var(--status-ok-border); font-weight: 600; }
-.viml-ref.viml-prior   { background: var(--status-ok-bg); color: var(--status-ok-text); border-color: var(--status-ok-border); opacity: 0.85; }
-.viml-ref.viml-legacy  { background: var(--status-neutral-bg); color: var(--status-neutral-text); border-color: var(--status-neutral-border); font-style: italic; }
-
 /* match status */
 .match-status {
   display: inline-flex;
@@ -295,33 +270,6 @@ tbody tr:hover { background: var(--color-accent-tint); }
   background: var(--color-paper-soft);
 }
 .admonition.warn   { background: var(--status-warn-bg); border-color: var(--status-warn-border); color: var(--status-warn-text); }
-.admonition.danger { background: var(--status-error-bg); border-color: var(--status-error-border); color: var(--status-error-text); }
-
-/* actions list */
-.actions-list { list-style: none; padding: 0; margin: 0; }
-.actions-list li {
-  display: flex;
-  align-items: flex-start;
-  gap: 0.7em;
-  padding: 0.65em 0;
-  border-bottom: 1px dashed var(--color-rule-soft);
-  font-size: 0.93em;
-}
-.actions-list li:last-child { border-bottom: 0; }
-.action-pill {
-  flex-shrink: 0;
-  padding: 0.2em 0.65em;
-  border-radius: 2px;
-  font-size: 0.66rem;
-  font-weight: 700;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  border: 1px solid transparent;
-}
-.action-pill-high    { background: var(--color-oiml-amber-deep); color: #fff; border-color: var(--color-oiml-amber-deep); }
-.action-pill-medium  { background: var(--status-warn-bg); color: var(--status-warn-text); border-color: var(--status-warn-border); }
-.action-pill-low     { background: transparent; color: var(--color-ink-soft); border-color: var(--color-rule); }
-.action-pill-info    { background: var(--color-accent-tint); color: var(--color-accent); border-color: var(--color-accent-soft); }
 
 /* ── Action icons (compact glyph badges) ───────────────────────────────
    Use these in dense tables where the long-form action-pill text would
@@ -383,7 +331,6 @@ tbody tr:hover { background: var(--color-accent-tint); }
 /* stats grid */
 .grid { display: grid; gap: 1rem; }
 .grid-4 { grid-template-columns: repeat(4, 1fr); }
-.grid-3 { grid-template-columns: repeat(3, 1fr); }
 
 /* ── Audience funnel (home page) ─────────────────────────────────────── */
 .audience-grid {
@@ -1029,29 +976,6 @@ tbody tr:hover { background: var(--color-accent-tint); }
   color: var(--color-ink);
 }
 
-/* Cross-edition banner: shown on /terms/ when the user lands via a
-   ?only=202X-only / ?only=2010-only dashboard link. Explains the overlay
-   filter that's active and offers a Clear button. */
-.cross-edition-banner {
-  margin: 0 0 1rem;
-  padding: 0.7em 1em;
-  background: var(--color-accent-tint);
-  border: 1px solid var(--color-accent-soft);
-  border-radius: var(--radius-card);
-  font-size: 0.92rem;
-  color: var(--color-ink);
-}
-.cross-edition-banner .link-button {
-  appearance: none;
-  background: transparent;
-  border: 0;
-  color: var(--color-accent);
-  font: inherit;
-  cursor: pointer;
-  margin-left: 0.5em;
-  text-decoration: underline;
-  padding: 0;
-}
 
 /* Cross-edition comparison filter — secondary chip row below the main
    edition filter on /terms/. Lets users click directly into the
