@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { computed } from "vue";
 import editionStats from "@/data/edition-stats.json";
+import SLink from "@/components/SLink.vue";
 
 // Always show 202X first — TC 1 edits 202X; 2010 is historic.
 const sortedEditions = computed(() =>

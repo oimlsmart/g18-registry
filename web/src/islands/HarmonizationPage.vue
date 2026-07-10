@@ -5,6 +5,8 @@ import conflictsData from "@/data/conflicts.json";
 import termsData from "@/data/terms.json";
 import { usePagination } from "@/composables/usePagination";
 import { maxWithinEditionDistinctDefs } from "@/composables/useSuggestedActions";
+import SLink from "@/components/SLink.vue";
+import PaginationControls from "@/components/PaginationControls.vue";
 
 // Build a name → kind lookup for VIM/VIML column in collision table.
 const termKindMap: Record<string, string> = {};

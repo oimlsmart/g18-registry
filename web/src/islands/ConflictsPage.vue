@@ -2,6 +2,7 @@
 import { computed, ref } from "vue";
 import conflictsData from "@/data/conflicts.json";
 import { slugifyPubId } from "@/composables/useSuggestedActions";
+import SLink from "@/components/SLink.vue";
 
 type EditionFilter = "202X" | "2010" | "all";
 const editionFilter = ref<EditionFilter>("202X");

@@ -9,6 +9,7 @@ import {
   maxWithinEditionDistinctDefs,
   isHistoric,
 } from "@/composables/useSuggestedActions";
+import SLink from "@/components/SLink.vue";
 
 const terms = termsData as any[];
 const { byTerm } = useSuggestedActions(terms);

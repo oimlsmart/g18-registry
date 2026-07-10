@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { computed } from "vue";
 import terms from "@/data/terms.json";
+import SLink from "@/components/SLink.vue";
 function kindLabel(k: string) { return k === "defined_in_vim" ? "VIM" : k === "defined_in_viml" ? "VIML" : "—"; }
 const top = computed(() => (terms as any[])
   .map(t => ({ ...t, distinct: new Set(t.publications.map((p: any) => (p.definition || '').trim()).filter(Boolean)).size }))

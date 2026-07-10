@@ -3,6 +3,7 @@ import { ref, computed } from "vue";
 import publications from "@/data/publications.json";
 import terms from "@/data/terms.json";
 import { slugifyPubId } from "@/composables/useSuggestedActions";
+import SLink from "@/components/SLink.vue";
 
 type EditionFilter = "202X" | "2010" | "all";
 const editionFilter = ref<EditionFilter>("202X");
