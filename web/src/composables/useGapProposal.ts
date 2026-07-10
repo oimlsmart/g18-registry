@@ -125,16 +125,16 @@ export interface TargetCategory {
 
 export const TARGET_CATEGORIES: TargetCategory[] = [
   {
-    code: "V2",
-    concept: "General concept in metrology",
-    target: "Propose for next VIM edition (V 2)",
-    examples: "e.g. quantity, measuring instrument, accuracy",
-  },
-  {
     code: "V1",
     concept: "General concept in legal metrology",
     target: "Propose for next VIML edition (V 1)",
     examples: "e.g. legal unit of measurement, type approval, verification",
+  },
+  {
+    code: "V2",
+    concept: "General concept in metrology",
+    target: "Propose for next VIM edition (V 2)",
+    examples: "e.g. quantity, measuring instrument, accuracy",
   },
   {
     code: "V3",

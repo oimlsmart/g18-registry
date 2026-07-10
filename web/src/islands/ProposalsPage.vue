@@ -121,8 +121,8 @@ function nearMissText(nm: any): string {
     <h1>Vocabulary gap analysis</h1>
     <p class="lede">
       G 18 terms with no authoritative VIM/VIML source. For each, decide:
-      propose for <strong>VIM (V 2)</strong> (general metrology concept),
-      <strong>VIML (V 1)</strong> (legal metrology concept), or
+      propose for <strong>VIML (V 1)</strong> (legal metrology concept),
+      <strong>VIM (V 2)</strong> (general metrology concept), or
       <strong>V 3</strong> (specific terms like "load cell" — proposed new vocabulary).
     </p>
   </div>
