@@ -776,6 +776,37 @@ tbody tr:hover { background: var(--color-accent-tint); }
   color: var(--color-ink-muted);
 }
 
+/* Edition overview — explains the set relationship between editions.
+   Placed above the filter so the reader understands the numbers before
+   choosing which scope to view. */
+.edition-overview {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.3em 1em;
+  padding: 0.6em 0.9em;
+  margin-bottom: 0.6em;
+  border-radius: 4px;
+  background: var(--color-paper-tint);
+  border: 1px solid var(--color-rule-soft);
+  font-size: 0.85rem;
+  color: var(--color-ink-soft);
+  line-height: 1.5;
+}
+.edition-overview-total {
+  font-weight: 600;
+  color: var(--color-ink);
+  font-size: 0.9rem;
+}
+.edition-overview-detail strong {
+  color: var(--color-ink);
+  font-variant-numeric: tabular-nums;
+}
+.edition-overview-delta {
+  color: var(--color-ink-muted);
+  font-size: 0.8rem;
+}
+
 /* Page-level sticky filter — used for edition scope on publication / TC
    pages. Sticky so users always know which edition scope is active as
    they scroll. Layout: horizontal bar with label on the left, controls
