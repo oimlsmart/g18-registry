@@ -426,18 +426,20 @@ function nearMissText(nm: any): string {
 }
 .gap-card-cta {
   appearance: none;
-  border: 0;
-  background: var(--color-accent);
-  color: #fff;
-  padding: 0.6em 1em;
+  border: 1px solid var(--color-accent);
+  background: transparent;
+  color: var(--color-accent);
+  padding: 0.35em 0.9em;
   border-radius: 4px;
-  font-size: 0.88rem;
+  font-size: 0.82rem;
   font-weight: 600;
   cursor: pointer;
   text-align: center;
-  width: 100%;
+  align-self: flex-start;
 }
-.gap-card-cta:hover { background: var(--color-accent-hover); }
+.gap-card-cta:hover {
+  background: var(--color-accent-tint);
+}
 
 .modal-backdrop {
   position: fixed;
