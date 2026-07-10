@@ -3,29 +3,28 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite-ssg build",
-    "preview": "vite preview",
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
     "test": "vitest run",
     "test:watch": "vitest"
   },
   "devDependencies": {
+    "@astrojs/vue": "^7.0.1",
     "@tailwindcss/postcss": "^4.3.2",
     "@tailwindcss/vite": "^4.3.2",
     "@vitejs/plugin-vue": "^6.0.7",
     "@vue/test-utils": "^2.4.11",
+    "astro": "^7.0.7",
     "happy-dom": "^20.10.6",
     "postcss": "^8.5.16",
     "tailwindcss": "^4.3.2",
     "typescript": "^6.0.3",
     "vite": "^8.1.2",
-    "vite-ssg": "^28.3.0",
     "vitest": "^4.1.10",
     "vue": "^3.5.39"
   },
   "dependencies": {
-    "@plurimath/plurimath": "github:plurimath/plurimath-js",
-    "vue-router": "^5.1.0",
     "yaml": "^2.9.0"
   }
 }

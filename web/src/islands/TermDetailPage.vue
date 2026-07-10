@@ -1,15 +1,14 @@
 <script setup lang="ts">
 import { computed, ref, watchEffect } from "vue";
-import { useRoute } from "vue-router";
 import termBySlug from "@/data/term-by-slug.json";
 import { useVocabularyEdition } from "@/composables/useVocabularyEdition";
 import { isOimlOriginal } from "@/composables/useSuggestedActions";
 import { slugifyPubId } from "@/composables/useSuggestedActions";
 
-const route = useRoute();
+const props = defineProps<{ slug: string }>();
 const { label, confidenceClass, isCurrent, isSuperseded, latestLabel, role } = useVocabularyEdition();
 
-const term = computed(() => (termBySlug as any)[route.params.slug as string]);
+const term = computed(() => (termBySlug as any)[props.slug]);
 
 // Edition filter (single-select, mirrors the publication/TC pages).
 // Drives the `enabledEditions` Set used downstream by the definition-group

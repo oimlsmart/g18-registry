@@ -1,17 +1,16 @@
 <script setup lang="ts">
 import { ref, computed, watch } from "vue";
-import { useRoute } from "vue-router";
 import terms from "@/data/terms.json";
 import { usePagination } from "@/composables/usePagination";
 
-const route = useRoute();
 const search = ref("");
 // Edition filter — 3-button sticky pattern. URL `?only=` params from old
 // dashboard links still work: "202X" / "2010" map directly; "202X-only" /
 // "2010-only" map to the closest scope + a banner explaining the cross-
 // edition filter that's active.
 type EditionFilter = "202X" | "2010" | "all";
-const initialOnly = (route.query.only as string) || "";
+const urlParams = new URLSearchParams(typeof window !== "undefined" ? window.location.search : "");
+const initialOnly = urlParams.get("only") || "";
 const editionFilter = ref<EditionFilter>(
   initialOnly === "2010" ? "2010" :
   initialOnly === "202X" || initialOnly === "202X-only" ? "202X" :
@@ -22,15 +21,6 @@ const crossEdition = ref<"added" | "removed" | null>(
   initialOnly === "202X-only" ? "added" :
   initialOnly === "2010-only" ? "removed" : null
 );
-watch(() => route.query.only, (val) => {
-  const v = (val as string) || "";
-  if (v === "202X" || v === "202X-only") editionFilter.value = "202X";
-  else if (v === "2010") editionFilter.value = "2010";
-  else if (v === "2010-only") editionFilter.value = "all";
-  crossEdition.value =
-    v === "202X-only" ? "added" :
-    v === "2010-only" ? "removed" : null;
-});
 
 const onlyTC = ref("");
 const onlyKind = ref("");
