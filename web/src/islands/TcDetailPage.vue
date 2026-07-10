@@ -5,6 +5,7 @@ import publicationsData from "@/data/publications.json";
 import termsData from "@/data/terms.json";
 import { useSuggestedActions, ACTION_META, actionMeta, slugifyPubId } from "@/composables/useSuggestedActions";
 import SLink from "@/components/SLink.vue";
+import { kindLabel } from "@/utils/term-utils";
 
 const props = defineProps<{ slug: string }>();
 function slugify(name: string) { return name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, ""); }
@@ -66,7 +67,6 @@ const pubStatus = computed(() => tcPubs.value.map(pub => {
 const cleanCount = computed(() => pubStatus.value.filter(s => s.status === "clean").length);
 const attentionCount = computed(() => pubStatus.value.filter(s => s.status === "attention").length);
 
-function kindLabel(k: string) { return k === "defined_in_vim" ? "VIM" : k === "defined_in_viml" ? "VIML" : "—"; }
 
 // ── Action list view modes ────────────────────────────────────────────
 type ViewMode = "by-action" | "by-pub" | "alphabetical";

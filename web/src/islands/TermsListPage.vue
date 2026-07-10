@@ -5,6 +5,7 @@ import { usePagination } from "@/composables/usePagination";
 import SLink from "@/components/SLink.vue";
 import DefText from "@/components/DefText.vue";
 import PaginationControls from "@/components/PaginationControls.vue";
+import { kindLabel } from "@/utils/term-utils";
 
 const search = ref("");
 // Edition filter — 3-button sticky pattern. URL `?only=` params from old
@@ -96,7 +97,6 @@ function toggleSort(key: "name" | "pubs" | "defs") {
   }
 }
 
-function kindLabel(k: string) { return k === "defined_in_vim" ? "VIM" : k === "defined_in_viml" ? "VIML" : "—"; }
 function tcCount(t: any): number { return t.publications?.filter((p: any) => p.tc_sc === onlyTC.value).length || 0; }
 function symbolsOf(t: any): string[] {
   if (!t.designations) return [];

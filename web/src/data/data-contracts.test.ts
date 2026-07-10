@@ -7,23 +7,25 @@ import conflicts from "@/data/conflicts.json";
 import harmonization from "@/data/harmonization.json";
 import editionStats from "@/data/edition-stats.json";
 import tc from "@/data/tc.json";
+import { ACTION_TYPES, ACTION_PRIORITIES } from "@/composables/useSuggestedActions";
+import {
+  termSchema, publicationSchema, vocabGapSchema, editionStatsSchema,
+} from "@/data/schemas";
 
-describe("data contract: terms.json", () => {
+describe("data contract: terms.json (full schema validation)", () => {
   it("is a non-empty array", () => {
     expect(Array.isArray(terms)).toBe(true);
     expect(terms.length).toBeGreaterThan(0);
   });
 
-  it("each term has required top-level fields", () => {
-    for (const t of terms.slice(0, 50)) {
-      expect(typeof t.slug).toBe("string");
-      expect(t.slug.length).toBeGreaterThan(0);
-      expect(typeof t.identifier).toBe("string");
-      expect(typeof t.name).toBe("string");
-      expect(Array.isArray(t.designations)).toBe(true);
-      expect(Array.isArray(t.editions_present)).toBe(true);
-      expect(Array.isArray(t.suggested_actions)).toBe(true);
-      expect(Array.isArray(t.publications)).toBe(true);
+  it("every term passes Zod schema validation (not just first 50)", () => {
+    for (const t of terms) {
+      const result = termSchema.safeParse(t);
+      if (!result.success) {
+        throw new Error(
+          `Term "${t.slug}" failed validation: ${JSON.stringify(result.error.issues[0], null, 2)}`
+        );
+      }
     }
   });
 
@@ -44,8 +46,8 @@ describe("data contract: terms.json", () => {
   });
 
   it("suggested_actions have type, priority, description, publication_ids", () => {
-    const validTypes = ["upgrade_vim", "upgrade_viml", "removed", "adopt_vim", "adopt_viml", "harmonize", "standardize", "unique"];
-    const validPriorities = ["high", "medium", "low", "info"];
+    const validTypes = ACTION_TYPES;
+    const validPriorities = ACTION_PRIORITIES;
     for (const t of terms.slice(0, 50)) {
       for (const a of t.suggested_actions) {
         expect(validTypes).toContain(a.type);
@@ -95,18 +97,18 @@ describe("data contract: term-by-slug.json", () => {
   });
 });
 
-describe("data contract: publications.json", () => {
+describe("data contract: publications.json (full schema validation)", () => {
   it("is a non-empty array", () => {
     expect(Array.isArray(publications)).toBe(true);
     expect(publications.length).toBeGreaterThan(0);
   });
 
-  it("each publication has id, reference, link, tc_sc", () => {
-    for (const p of publications.slice(0, 50)) {
-      expect(typeof p.id).toBe("string");
-      expect(p.id.length).toBeGreaterThan(0);
-      expect(typeof p.reference).toBe("string");
-      expect(typeof p.link).toBe("string");
+  it("every publication passes Zod schema validation", () => {
+    for (const p of publications) {
+      const result = publicationSchema.safeParse(p);
+      if (!result.success) {
+        throw new Error(`Publication "${p.id}" failed: ${JSON.stringify(result.error.issues[0])}`);
+      }
     }
   });
 
@@ -117,19 +119,18 @@ describe("data contract: publications.json", () => {
   });
 });
 
-describe("data contract: vocab-gaps.json", () => {
+describe("data contract: vocab-gaps.json (full schema validation)", () => {
   it("is a non-empty array", () => {
     expect(Array.isArray(vocabGaps)).toBe(true);
     expect(vocabGaps.length).toBeGreaterThan(0);
   });
 
-  it("each gap has slug, name, definitions, publications, near_misses", () => {
-    for (const g of vocabGaps.slice(0, 20)) {
-      expect(typeof g.slug).toBe("string");
-      expect(typeof g.name).toBe("string");
-      expect(Array.isArray(g.definitions)).toBe(true);
-      expect(g.near_misses).toBeDefined();
-      expect(typeof g.near_misses).toBe("object");
+  it("every gap passes Zod schema validation", () => {
+    for (const g of vocabGaps) {
+      const result = vocabGapSchema.safeParse(g);
+      if (!result.success) {
+        throw new Error(`Vocab gap "${g.slug}" failed: ${JSON.stringify(result.error.issues[0])}`);
+      }
     }
   });
 
@@ -192,22 +193,10 @@ describe("data contract: harmonization.json", () => {
   });
 });
 
-describe("data contract: edition-stats.json", () => {
-  it("has editions array, stats array, terms_in_both", () => {
-    expect(Array.isArray(editionStats.editions)).toBe(true);
-    expect(editionStats.editions.length).toBeGreaterThanOrEqual(2);
-    expect(Array.isArray(editionStats.stats)).toBe(true);
-    expect(typeof editionStats.terms_in_both).toBe("number");
-  });
-
-  it("stats entries have required numeric fields", () => {
-    for (const s of editionStats.stats) {
-      expect(typeof s.edition).toBe("string");
-      expect(typeof s.terms).toBe("number");
-      expect(typeof s.instances).toBe("number");
-      expect(typeof s.only_in_edition).toBe("number");
-      expect(typeof s.harmonization_candidates).toBe("number");
-    }
+describe("data contract: edition-stats.json (full schema validation)", () => {
+  it("passes Zod schema validation", () => {
+    const result = editionStatsSchema.safeParse(editionStats);
+    expect(result.success).toBe(true);
   });
 });
 

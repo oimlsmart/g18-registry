@@ -10,11 +10,11 @@ import {
   isHistoric,
 } from "@/composables/useSuggestedActions";
 import SLink from "@/components/SLink.vue";
+import { kindLabel } from "@/utils/term-utils";
 
 const terms = termsData as any[];
 const { byTerm } = useSuggestedActions(terms);
 
-function kindLabel(k: string) { return k === "defined_in_vim" ? "VIM" : k === "defined_in_viml" ? "VIML" : "—"; }
 
 // ── Priority worklist ───────────────────────────────────────────────────
 // Single source of truth: the composable's `byTerm` already groups every

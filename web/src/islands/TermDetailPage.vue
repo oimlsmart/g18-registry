@@ -2,11 +2,12 @@
 import { computed, ref, watchEffect } from "vue";
 import termBySlug from "@/data/term-by-slug.json";
 import { useVocabularyEdition } from "@/composables/useVocabularyEdition";
-import { isOimlOriginal } from "@/composables/useSuggestedActions";
-import { slugifyPubId } from "@/composables/useSuggestedActions";
+import { useConceptVersions } from "@/composables/useConceptVersions";
+import { slugifyPubId, isOimlOriginal } from "@/composables/useSuggestedActions";
 import SLink from "@/components/SLink.vue";
 import DefText from "@/components/DefText.vue";
 import ConceptBody from "@/components/ConceptBody.vue";
+import { kindLabel } from "@/utils/term-utils";
 
 const props = defineProps<{ slug: string }>();
 const base = import.meta.env.BASE_URL;
@@ -44,7 +45,6 @@ function setEditionFilter(f: EditionFilter) {
   editionFilter.value = f;
 }
 
-function kindLabel(k: string) { return k === "defined_in_vim" ? "VIM" : k === "defined_in_viml" ? "VIML" : "—"; }
 
 const distinctDefs = computed(() => {
   if (!term.value) return [];
@@ -186,181 +186,13 @@ const isHistoricTerm = computed(() => {
   return eds.length > 0 && eds.every(e => e === "2010");
 });
 
-// Full VIM/VIML concept content (designations, definitions, notes,
-// examples) loaded from the vocab repo at export time. Shows TC 1
-// the complete authoritative target on the term detail page.
-const citedConcept = computed(() => term.value?.official_concept?.cited_concept || null);
-const latestConcept = computed(() => term.value?.official_concept?.latest_concept || null);
-const fullConceptLangs = computed(() => {
-  const fc = latestConcept.value || citedConcept.value;
-  return fc ? Object.keys(fc) : [];
-});
-const fullConceptLang = ref("eng");
-function conceptData(source: any) {
-  if (!source) return null;
-  return source[fullConceptLang.value] || source["eng"] || Object.values(source)[0] || null;
-}
-// Determine the VIM/VIML relationship state for UI rendering:
-// - 'none': OIML-original, no concept card
-// - 'current': term cites the latest edition, content matches
-// - 'upgrade': term cites old edition, available in latest (may have different content/id)
-// - 'removed': term not found in latest edition
-const conceptState = computed(() => {
-  const oc = term.value?.official_concept;
-  if (!oc || isOimlOriginal(term.value)) return "none";
-  const lc = term.value?.latest_check;
-  if (lc && !lc.found) return "removed";
-  if (citedConcept.value && latestConcept.value && lc && lc.found &&
-      oc.id !== lc.concept_id) return "upgrade";
-  return "current";
-});
-const showConceptCard = computed(() => conceptState.value !== "none");
-
-const canPropose = computed(() =>
-  term.value && (term.value.kind === "oiml_original" || !term.value.official_concept)
-);
-
-interface ConceptVersion {
-  label: string;
-  conceptId: string;
-  data: any;
-  status: "current" | "superseded" | "removed";
-  url?: string;
-  fallbackDef?: string;
-  vocab: string;
-  crossVocab: boolean;
-}
-function refVocabOf(ref: any): string {
-  return ref.vocab || (ref.source?.includes("v:1:") ? "viml" : "vim");
-}
-const conceptVersions = computed<ConceptVersion[]>(() => {
-  if (!showConceptCard.value || !term.value?.official_concept) return [];
-  const oc = term.value.official_concept;
-  const versions: ConceptVersion[] = [];
-  const seen = new Set<string>();
-  function addVersion(v: ConceptVersion) {
-    const key = `${v.label}#${v.conceptId}`;
-    if (seen.has(key)) return;
-    seen.add(key);
-    versions.push(v);
-  }
-
-  if (conceptState.value === "upgrade") {
-    addVersion({
-      label: oc.edition_label || label(oc.source),
-      conceptId: oc.id,
-      data: conceptData(citedConcept.value),
-      status: "superseded",
-      fallbackDef: !conceptData(citedConcept.value) ? oc.definition_text : undefined,
-      vocab: refVocabOf(oc),
-      crossVocab: false,
-    });
-    addVersion({
-      label: term.value.latest_check?.latest_label || latestLabel(oc.source),
-      conceptId: term.value.latest_check?.concept_id || "?",
-      data: conceptData(latestConcept.value),
-      status: "current",
-      url: term.value.latest_check?.url,
-      vocab: refVocabOf(oc),
-      crossVocab: false,
-    });
-  } else if (conceptState.value === "removed") {
-    addVersion({
-      label: oc.edition_label || label(oc.source),
-      conceptId: oc.id,
-      data: conceptData(citedConcept.value),
-      status: "removed",
-      fallbackDef: !conceptData(citedConcept.value) ? oc.definition_text : undefined,
-      vocab: refVocabOf(oc),
-      crossVocab: false,
-    });
-  } else {
-    const data = conceptData(latestConcept.value) || conceptData(citedConcept.value);
-    addVersion({
-      label: oc.edition_label || label(oc.source),
-      conceptId: oc.id,
-      data,
-      status: "current",
-      url: oc.url,
-      fallbackDef: !data ? oc.definition_text : undefined,
-      vocab: refVocabOf(oc),
-      crossVocab: false,
-    });
-  }
-
-  // Cross-vocabulary related concepts become version cards.
-  const ocVocab = refVocabOf(oc);
-  for (const edge of term.value.related || []) {
-    const ref = edge.ref;
-    if (!ref) continue;
-    if (ref.source === oc.source && ref.id === oc.id) continue;
-    if (refVocabOf(ref) === ocVocab) continue;
-    const refData = ref.definition_text
-      ? { designations: [], definitions: [ref.definition_text], notes: [], examples: [] }
-      : null;
-    addVersion({
-      label: ref.edition_label || label(ref.source),
-      conceptId: ref.id,
-      data: refData,
-      status: ref.role === "current" ? "current" : "superseded",
-      url: vocabUrl(ref.source, ref.id) || undefined,
-      fallbackDef: !refData ? ref.definition_text : undefined,
-      vocab: refVocabOf(ref),
-      crossVocab: true,
-    });
-  }
-  return versions;
-});
-
-// Action-first summary: what TC 1 should do, derived from suggested_actions
-// and concept state. Shown prominently ABOVE the evidence cards.
-const conceptActions = computed(() => {
-  if (!term.value?.suggested_actions) return [];
-  const items: { priority: string; title: string; detail: string; link?: string; label?: string }[] = [];
-  for (const a of term.value.suggested_actions) {
-    if (a.type === "removed" || a.type === "upgrade_vim" || a.type === "upgrade_viml") {
-      const cv = conceptVersions.value.find(v => v.status === "current");
-      if (cv) {
-        items.push({
-          priority: a.priority,
-          title: `Cite ${cv.label} #${cv.conceptId} instead`,
-          detail: a.description,
-          link: cv.url,
-          label: `View ${cv.label} concept ↗`,
-        });
-      } else {
-        items.push({ priority: a.priority, title: "Update the G 18 citation", detail: a.description });
-      }
-    } else if (a.type === "harmonize") {
-      items.push({
-        priority: a.priority,
-        title: `Harmonise ${worstEditionDistinctCount.value} distinct definition${worstEditionDistinctCount.value === 1 ? "" : "s"}`,
-        detail: a.description,
-      });
-    } else if (a.type === "unique") {
-      items.push({
-        priority: a.priority,
-        title: "Determine if this is a V 1/V 2/V 3 candidate",
-        detail: a.description,
-      });
-    }
-  }
-  return items;
-});
-
-const seeAlso = computed(() => {
-  if (!term.value?.related || !term.value?.official_concept) return [];
-  const oc = term.value.official_concept;
-  const ocVocab = refVocabOf(oc);
-  return (term.value.related as any[])
-    .filter(e => {
-      const ref = e.ref;
-      if (!ref) return false;
-      if (ref.source === oc.source && ref.id === oc.id) return false;
-      return refVocabOf(ref) === ocVocab;
-    })
-    .map(e => ({ ref: e.ref, url: vocabUrl(e.ref.source, e.ref.id) }));
-});
+// Concept version engine: state, versions, actions, see-also — all
+// extracted to useConceptVersions for testability and locality.
+const {
+  fullConceptLang, fullConceptLangs, conceptData,
+  conceptState, showConceptCard, canPropose,
+  conceptVersions, conceptActions, seeAlso,
+} = useConceptVersions(term, worstEditionDistinctCount);
 
 // Designations: split by type/status for the UI. Falls back to the legacy
 // `term.name` as preferred expression when the new field is absent.

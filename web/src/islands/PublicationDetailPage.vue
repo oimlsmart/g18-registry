@@ -4,6 +4,7 @@ import publications from "@/data/publications.json";
 import termsData from "@/data/terms.json";
 import { useSuggestedActions, ACTION_META, actionMeta, slugifyPubId } from "@/composables/useSuggestedActions";
 import SLink from "@/components/SLink.vue";
+import { kindLabel } from "@/utils/term-utils";
 
 const props = defineProps<{ slug: string }>();
 const slugParam = computed(() => props.slug);
@@ -25,7 +26,6 @@ const terms = termsData as any[];
 const { forPublication } = useSuggestedActions(terms);
 
 const pubTerms = computed(() => terms.filter(t => t.publications.some((p: any) => p.publication_id === pubId.value)));
-function kindLabel(k: string) { return k === "defined_in_vim" ? "VIM" : k === "defined_in_viml" ? "VIML" : "—"; }
 
 // Edition toggle. Default: 202X — TC 1 can only act on the draft edition.
 type EditionFilter = "202X" | "2010" | "all";

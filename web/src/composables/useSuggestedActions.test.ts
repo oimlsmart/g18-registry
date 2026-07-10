@@ -2,6 +2,7 @@ import { describe, it, expect } from "vitest";
 import {
   useSuggestedActions,
   ACTION_META,
+  ACTION_TYPES,
   actionMeta,
   isHistoric,
   isOimlOriginal,
@@ -155,8 +156,7 @@ describe("useSuggestedActions", () => {
 
 describe("ACTION_META", () => {
   it("has metadata for all known action types", () => {
-    const types = ["upgrade_vim", "upgrade_viml", "removed", "adopt_vim", "adopt_viml", "harmonize", "standardize", "unique"];
-    for (const t of types) {
+    for (const t of ACTION_TYPES) {
       expect(ACTION_META[t]).toBeDefined();
       expect(ACTION_META[t].label).toBeTruthy();
       expect(ACTION_META[t].icon).toBeTruthy();

@@ -43,6 +43,8 @@ const PRIORITY_RANK: Record<string, number> = {
 // Canonical action metadata — used by every page that renders actions.
 // Pages should NOT hard-code type labels; import from here so a rename
 // (or icon swap) propagates everywhere.
+// This is the single source of truth for action types in the frontend.
+// Ruby side: lib/g18/actions/action.rb TYPES must match these keys.
 export interface ActionMeta {
   label: string;       // short name for filter buttons, e.g. "Update VIM"
   icon: string;        // single Unicode glyph
@@ -59,6 +61,10 @@ export const ACTION_META: Record<string, ActionMeta> = {
   standardize:  { label: "Standardize",     icon: "≡", hint: "All citing publications already use identical wording. Batch-confirm as canonical for G 18:202X.", applies_to: "202X" },
   unique:       { label: "OIML-original",   icon: "★", hint: "Term has no VIM/VIML reference. Confirm OIML is the authoritative source.", applies_to: "all" },
 };
+
+// Derive the type list from ACTION_META keys — no second enumeration.
+export const ACTION_TYPES = Object.keys(ACTION_META);
+export const ACTION_PRIORITIES = Object.keys(PRIORITY_RANK);
 
 export function actionMeta(type: string): ActionMeta {
   return ACTION_META[type] || { label: type, icon: "•", hint: "", applies_to: "" };
