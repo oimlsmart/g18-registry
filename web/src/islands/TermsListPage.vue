@@ -33,6 +33,8 @@ const sortDir = ref<1 | -1>(1);
 const termsIn202X = computed(() => (terms as any[]).filter(t => (t.editions_present || []).includes("202X")).length);
 const termsIn2010 = computed(() => (terms as any[]).filter(t => (t.editions_present || []).includes("2010")).length);
 const termsInBoth = computed(() => (terms as any[]).filter(t => (t.editions_present || []).includes("202X") && (t.editions_present || []).includes("2010")).length);
+const onlyIn202X = computed(() => termsIn202X.value - termsInBoth.value);
+const onlyIn2010 = computed(() => termsIn2010.value - termsInBoth.value);
 
 const allTCs = computed(() => {
   const set = new Set<string>();
@@ -118,10 +120,19 @@ const pageTitle = computed(() => {
   <div class="page-head">
     <div class="breadcrumb"><SLink to="/">Registry</SLink> / <span>Terms</span></div>
     <h1>{{ pageTitle }}</h1>
-    <p class="lede">{{ filtered.length }} terms, {{ filtered.reduce((s: number, t: any) => s + t.publications.length, 0) }} instances.</p>
+    <p class="lede">{{ filtered.length }} terms · {{ filtered.reduce((s: number, t: any) => s + t.publications.length, 0) }} instances</p>
   </div>
 
-  <!-- Sticky page-level edition filter (3-button pattern, same as other pages) -->
+  <!-- Edition overview: explains the set relationship once, clearly -->
+  <div class="edition-overview">
+    <span class="edition-overview-total">{{ terms.length }} unique terms</span>
+    <span class="edition-overview-detail">
+      <strong>{{ termsIn202X }}</strong> in 202X draft · <strong>{{ termsIn2010 }}</strong> in 2010 published · <strong>{{ termsInBoth }}</strong> in both
+    </span>
+    <span class="edition-overview-delta">{{ onlyIn202X }} new in 202X · {{ onlyIn2010 }} dropped since 2010</span>
+  </div>
+
+  <!-- Sticky page-level edition filter — clean controls, no numbers -->
   <div class="page-filter" role="region" aria-label="Edition filter">
     <span class="page-filter-label">Edition scope</span>
     <div class="page-filter-controls">
@@ -129,19 +140,19 @@ const pageTitle = computed(() => {
               :class="['page-filter-btn', { 'page-filter-btn-active': editionFilter === '202X' && !crossEdition }]"
               @click="editionFilter = '202X'; crossEdition = null">
         <span class="page-filter-btn-title">202X</span>
-        <span class="page-filter-btn-meta">{{ termsIn202X }} terms · draft, TC 1 acts here</span>
+        <span class="page-filter-btn-meta">draft · TC 1 acts here</span>
       </button>
       <button type="button"
               :class="['page-filter-btn', { 'page-filter-btn-active': editionFilter === '2010' && !crossEdition }]"
               @click="editionFilter = '2010'; crossEdition = null">
         <span class="page-filter-btn-title">2010</span>
-        <span class="page-filter-btn-meta">{{ termsIn2010 }} terms · historic, read-only</span>
+        <span class="page-filter-btn-meta">published · read-only</span>
       </button>
       <button type="button"
               :class="['page-filter-btn', { 'page-filter-btn-active': editionFilter === 'all' && !crossEdition }]"
               @click="editionFilter = 'all'; crossEdition = null">
         <span class="page-filter-btn-title">All</span>
-        <span class="page-filter-btn-meta">{{ terms.length }} total ({{ termsInBoth }} in both)</span>
+        <span class="page-filter-btn-meta">both editions</span>
       </button>
     </div>
   </div>
