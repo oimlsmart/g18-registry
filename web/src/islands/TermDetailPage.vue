@@ -215,6 +215,7 @@ interface ConceptVersion {
   url?: string;
   fallbackDef?: string;
   vocab: string;
+  crossVocab: boolean;
 }
 function refVocabOf(ref: any): string {
   return ref.vocab || (ref.source?.includes("v:1:") ? "viml" : "vim");
@@ -239,6 +240,7 @@ const conceptVersions = computed<ConceptVersion[]>(() => {
       status: "superseded",
       fallbackDef: !conceptData(citedConcept.value) ? oc.definition_text : undefined,
       vocab: refVocabOf(oc),
+      crossVocab: false,
     });
     addVersion({
       label: term.value.latest_check?.latest_label || latestLabel(oc.source),
@@ -247,6 +249,7 @@ const conceptVersions = computed<ConceptVersion[]>(() => {
       status: "current",
       url: term.value.latest_check?.url,
       vocab: refVocabOf(oc),
+      crossVocab: false,
     });
   } else if (conceptState.value === "removed") {
     addVersion({
@@ -256,6 +259,7 @@ const conceptVersions = computed<ConceptVersion[]>(() => {
       status: "removed",
       fallbackDef: !conceptData(citedConcept.value) ? oc.definition_text : undefined,
       vocab: refVocabOf(oc),
+      crossVocab: false,
     });
   } else {
     const data = conceptData(latestConcept.value) || conceptData(citedConcept.value);
@@ -267,6 +271,7 @@ const conceptVersions = computed<ConceptVersion[]>(() => {
       url: oc.url,
       fallbackDef: !data ? oc.definition_text : undefined,
       vocab: refVocabOf(oc),
+      crossVocab: false,
     });
   }
 
@@ -288,9 +293,46 @@ const conceptVersions = computed<ConceptVersion[]>(() => {
       url: vocabUrl(ref.source, ref.id) || undefined,
       fallbackDef: !refData ? ref.definition_text : undefined,
       vocab: refVocabOf(ref),
+      crossVocab: true,
     });
   }
   return versions;
+});
+
+// Action-first summary: what TC 1 should do, derived from suggested_actions
+// and concept state. Shown prominently ABOVE the evidence cards.
+const conceptActions = computed(() => {
+  if (!term.value?.suggested_actions) return [];
+  const items: { priority: string; title: string; detail: string; link?: string; label?: string }[] = [];
+  for (const a of term.value.suggested_actions) {
+    if (a.type === "removed" || a.type === "upgrade_vim" || a.type === "upgrade_viml") {
+      const cv = conceptVersions.value.find(v => v.status === "current");
+      if (cv) {
+        items.push({
+          priority: a.priority,
+          title: `Cite ${cv.label} #${cv.conceptId} instead`,
+          detail: a.description,
+          link: cv.url,
+          label: `View ${cv.label} concept ↗`,
+        });
+      } else {
+        items.push({ priority: a.priority, title: "Update the G 18 citation", detail: a.description });
+      }
+    } else if (a.type === "harmonize") {
+      items.push({
+        priority: a.priority,
+        title: `Harmonise ${worstEditionDistinctCount.value} distinct definition${worstEditionDistinctCount.value === 1 ? "" : "s"}`,
+        detail: a.description,
+      });
+    } else if (a.type === "unique") {
+      items.push({
+        priority: a.priority,
+        title: "Determine if this is a V 1/V 2/V 3 candidate",
+        detail: a.description,
+      });
+    }
+  }
+  return items;
 });
 
 const seeAlso = computed(() => {
@@ -570,82 +612,95 @@ const filteredPublications = computed(() => {
     </div>
 
     <section class="card" v-if="showConceptCard">
-      <div class="card-head">
-        <h2>VIM / VIML concept</h2>
-        <a v-if="term.official_concept.url" class="external" :href="term.official_concept.url" style="font-size:0.85em">view on vocab site ↗</a>
-      </div>
-
-      <!-- Language toggle (shown when eng + fra both available) -->
-      <div v-if="fullConceptLangs.length > 1" class="sort-toggle" style="margin:0.6em 0">
-        <button v-for="lang in fullConceptLangs" :key="lang"
-                type="button"
-                :class="['sort-btn', { 'sort-btn-active': fullConceptLang === lang }]"
-                @click="fullConceptLang = lang">
-          {{ lang === 'eng' ? 'English' : lang === 'fra' ? 'Français' : lang }}
-        </button>
-      </div>
-
-      <p class="concept-series-intro">
-        Authoritative definitions from VIM (International Vocabulary of Metrology)
-        and VIML (International Vocabulary of Legal Metrology). Each card shows
-        one edition's full concept. <strong>Cite the current version.</strong>
-      </p>
-
-      <!-- Concept version series: superseded → current (or removed → cross-vocab) -->
-      <div class="concept-series">
-        <template v-for="(v, i) in conceptVersions" :key="i">
-          <!-- Connector between versions -->
-          <div v-if="i > 0" class="concept-version-connector">
-            <div class="concept-version-connector-line"></div>
-            <span class="concept-version-connector-label">
-              {{ conceptVersions[i - 1].vocab === v.vocab ? "superseded by" : "also defined in" }}
-            </span>
-          </div>
-
-          <!-- Version card -->
-          <div :class="['concept-version-card', `concept-version-card-${v.status}`]">
-            <div class="concept-version-bar"></div>
-            <div class="concept-version-body">
-              <div class="concept-version-head">
-                <span :class="['concept-version-badge', `concept-version-badge-${v.status}`]">
-                  {{ v.status === "current" ? "Current" : v.status === "superseded" ? "Superseded" : "Removed" }}
-                </span>
-                <span class="concept-version-source">{{ v.label }}</span>
-                <span class="concept-version-id">#{{ v.conceptId }}</span>
-                <a v-if="v.url" class="concept-version-link" :href="v.url">view on vocab site ↗</a>
-              </div>
-
-              <div v-if="v.status === 'current'" class="concept-version-use-this">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                  <polyline points="20 6 9 17 4 12" />
-                </svg>
-                TC 1 should cite this version
-              </div>
-
-              <div class="concept-version-divider"></div>
-
-              <ConceptBody v-if="v.data" :data="v.data" />
-              <p v-else-if="v.fallbackDef" class="concept-defn-body"><DefText :text="v.fallbackDef" /></p>
+      <!-- ACTION FIRST: what TC 1 should do -->
+      <div v-if="conceptActions.length" class="concept-action-box">
+        <h2>What TC 1 should do</h2>
+        <div class="concept-action-items">
+          <div v-for="(a, i) in conceptActions" :key="i" :class="['concept-action-item', `concept-action-priority-${a.priority}`]">
+            <span class="concept-action-number">{{ i + 1 }}</span>
+            <div class="concept-action-content">
+              <div class="concept-action-title">{{ a.title }}</div>
+              <div class="concept-action-detail">{{ a.detail }}</div>
+              <a v-if="a.link" class="concept-action-link" :href="a.link">{{ a.label }}</a>
             </div>
           </div>
-        </template>
-      </div>
-
-      <!-- Removal warning (only when no cross-vocab current version exists) -->
-      <div v-if="conceptState === 'removed' && !conceptVersions.some(v => v.status === 'current')" class="admonition warn" style="margin-top:0.6em">
-        <strong>Removed from {{ term.latest_check?.latest_label }}.</strong>
-        <template v-if="term.canonical_mismatch"> A similar term exists: <strong>{{ term.canonical_mismatch.designation }}</strong> (#{{ term.canonical_mismatch.concept_id }}).</template>
-      </div>
-
-      <!-- See also: same-vocabulary cross-references to other concepts -->
-      <div v-if="seeAlso.length" class="concept-see-also">
-        <span class="concept-see-also-label">Cross-referenced in {{ seeAlso[0].ref.edition_label || label(seeAlso[0].ref.source) }}</span>
-        <div class="concept-see-also-items">
-          <a v-for="(item, i) in seeAlso" :key="i" class="concept-see-also-link" :href="item.url || '#'">
-            #{{ item.ref.id }} ↗
-          </a>
         </div>
-        <p class="concept-see-also-hint">These are different concepts that the source vocabulary points to as related.</p>
+      </div>
+
+      <!-- EVIDENCE: concept version cards below the action -->
+      <div class="concept-evidence">
+        <div class="concept-evidence-head">
+          <h3>Evidence — VIM / VIML concept</h3>
+          <a v-if="term.official_concept.url" class="external" :href="term.official_concept.url" style="font-size:0.85em">view on vocab site ↗</a>
+        </div>
+
+        <!-- Language toggle (shown when eng + fra both available) -->
+        <div v-if="fullConceptLangs.length > 1" class="sort-toggle" style="margin:0.6em 0">
+          <button v-for="lang in fullConceptLangs" :key="lang"
+                  type="button"
+                  :class="['sort-btn', { 'sort-btn-active': fullConceptLang === lang }]"
+                  @click="fullConceptLang = lang">
+            {{ lang === 'eng' ? 'English' : lang === 'fra' ? 'Français' : lang }}
+          </button>
+        </div>
+
+        <!-- Concept version series -->
+        <div class="concept-series">
+          <template v-for="(v, i) in conceptVersions" :key="i">
+            <!-- Connector between versions -->
+            <div v-if="i > 0" :class="['concept-version-connector', { 'concept-version-connector-cross': v.crossVocab }]">
+              <div class="concept-version-connector-line"></div>
+              <span class="concept-version-connector-label">
+                {{ conceptVersions[i - 1].vocab === v.vocab ? "superseded by" : "also defined in" }}
+              </span>
+            </div>
+
+            <!-- Version card -->
+            <div :class="['concept-version-card', `concept-version-card-${v.status}`, { 'concept-version-card-cross': v.crossVocab }]">
+              <div class="concept-version-bar"></div>
+              <div class="concept-version-body">
+                <div class="concept-version-head">
+                  <span v-if="v.crossVocab" class="concept-version-badge concept-version-badge-cross-vocab">Cross-vocab</span>
+                  <span :class="['concept-version-badge', `concept-version-badge-${v.status}`]">
+                    {{ v.status === "current" ? "Current" : v.status === "superseded" ? "Superseded" : "Removed" }}
+                  </span>
+                  <span class="concept-version-source">{{ v.label }}</span>
+                  <span class="concept-version-id">#{{ v.conceptId }}</span>
+                  <a v-if="v.url" class="concept-version-link" :href="v.url">view ↗</a>
+                </div>
+
+                <div v-if="v.status === 'current'" class="concept-version-use-this">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg>
+                  TC 1 should cite this version
+                </div>
+
+                <div class="concept-version-divider"></div>
+
+                <ConceptBody v-if="v.data" :data="v.data" />
+                <p v-else-if="v.fallbackDef" class="concept-defn-body"><DefText :text="v.fallbackDef" /></p>
+              </div>
+            </div>
+          </template>
+        </div>
+
+        <!-- Removal warning (only when no cross-vocab current version exists) -->
+        <div v-if="conceptState === 'removed' && !conceptVersions.some(v => v.status === 'current')" class="admonition warn" style="margin-top:0.6em">
+          <strong>Removed from {{ term.latest_check?.latest_label }}.</strong>
+          <template v-if="term.canonical_mismatch"> A similar term exists: <strong>{{ term.canonical_mismatch.designation }}</strong> (#{{ term.canonical_mismatch.concept_id }}).</template>
+        </div>
+
+        <!-- See also: same-vocabulary cross-references to other concepts -->
+        <div v-if="seeAlso.length" class="concept-see-also">
+          <span class="concept-see-also-label">Cross-referenced in {{ seeAlso[0].ref.edition_label || label(seeAlso[0].ref.source) }}</span>
+          <div class="concept-see-also-items">
+            <a v-for="(item, i) in seeAlso" :key="i" class="concept-see-also-link" :href="item.url || '#'">
+              #{{ item.ref.id }} ↗
+            </a>
+          </div>
+          <p class="concept-see-also-hint">These are different concepts that the source vocabulary points to as related.</p>
+        </div>
       </div>
     </section>
 
@@ -1039,6 +1094,89 @@ const filteredPublications = computed(() => {
 .match-differs { background: var(--status-error-bg); color: var(--status-error-text); }
 .match-empty, .match-nobaseline { background: var(--status-neutral-bg); color: var(--status-neutral-text); }
 
+/* ── Action-first box: what TC 1 should do ─────────────────────── */
+.concept-action-box {
+  background: var(--color-accent-tint);
+  border: 1px solid var(--color-accent);
+  border-radius: 6px;
+  padding: 1em 1.2em;
+  margin-bottom: 1.2em;
+}
+.concept-action-box h2 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0 0 0.6em;
+  color: var(--color-accent);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.concept-action-items {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7em;
+}
+.concept-action-item {
+  display: flex;
+  gap: 0.7em;
+  align-items: flex-start;
+}
+.concept-action-number {
+  flex-shrink: 0;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: var(--color-accent);
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.1em;
+}
+.concept-action-priority-high .concept-action-number { background: var(--color-red); }
+.concept-action-priority-medium .concept-action-number { background: var(--color-oiml-amber); }
+.concept-action-priority-low .concept-action-number { background: var(--color-accent); }
+.concept-action-priority-info .concept-action-number { background: var(--color-ink-muted); }
+.concept-action-content {
+  flex: 1;
+  min-width: 0;
+}
+.concept-action-title {
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--color-ink);
+  line-height: 1.3;
+}
+.concept-action-detail {
+  font-size: 0.85rem;
+  color: var(--color-ink-soft);
+  line-height: 1.45;
+  margin-top: 0.15em;
+}
+.concept-action-link {
+  display: inline-block;
+  margin-top: 0.3em;
+  font-size: 0.82rem;
+  font-weight: 600;
+}
+
+/* ── Evidence section ──────────────────────────────────────────── */
+.concept-evidence-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.4em;
+}
+.concept-evidence-head h3 {
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-ink-muted);
+  margin: 0;
+}
+
 /* Concept version series — vertical timeline of superseding cards */
 .concept-series {
   display: flex;
@@ -1093,6 +1231,36 @@ const filteredPublications = computed(() => {
 .concept-version-card-current {
   border-color: var(--color-accent);
   box-shadow: 0 2px 8px -4px rgba(0, 73, 150, 0.2);
+}
+
+/* Cross-vocabulary cards: dashed teal border + bar to clearly differentiate
+   from same-vocabulary version progression. */
+.concept-version-card-cross {
+  border-style: dashed;
+  border-color: var(--oiml-teal, #024873);
+}
+.concept-version-card-cross .concept-version-bar {
+  background: var(--oiml-teal, #024873);
+}
+.concept-version-card-cross.concept-version-card-current {
+  border-style: dashed;
+  border-color: var(--oiml-teal, #024873);
+  box-shadow: 0 2px 8px -4px rgba(2, 72, 115, 0.25);
+}
+
+/* Cross-vocab badge */
+.concept-version-badge-cross-vocab {
+  background: var(--oiml-teal, #024873);
+  color: #fff;
+}
+
+/* Cross-vocab connector: dashed teal line */
+.concept-version-connector-cross .concept-version-connector-line {
+  background: var(--oiml-teal, #024873);
+  opacity: 0.5;
+  border-left: 2px dashed var(--oiml-teal, #024873);
+  background: transparent;
+  width: 0;
 }
 
 /* Card body */
