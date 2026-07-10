@@ -144,9 +144,9 @@ function nearMissText(nm: any): string {
       </li>
       <li>
         <strong>Propose</strong> by clicking the "Propose" button on a term.
-        Choose its target — <strong>V 1 / V 2</strong> adds the term to the
-        next edition of an existing vocabulary (VIM or VIML); <strong>V 3</strong>
-        proposes a brand-new vocabulary for specific terms.
+        Choose its target — <strong>V 1</strong> (VIML) or <strong>V 2</strong> (VIM)
+        adds the term to the next edition of an existing vocabulary;
+        <strong>V 3</strong> proposes a brand-new vocabulary for specific terms.
         Add your rationale.
       </li>
       <li>
