@@ -7,7 +7,7 @@ import { slugifyPubId, isOimlOriginal } from "@/composables/useSuggestedActions"
 import SLink from "@/components/SLink.vue";
 import DefText from "@/components/DefText.vue";
 import ConceptBody from "@/components/ConceptBody.vue";
-import { kindLabel, normalizeDef, isHistoricTerm } from "@/utils/term-utils";
+import { kindLabel, normalizeDef, isHistoricTerm, groupProvenance, provenanceLabel as provLabel, computeCrossEditionDrift } from "@/utils/term-utils";
 
 const props = defineProps<{ slug: string }>();
 const base = import.meta.env.BASE_URL;
@@ -231,50 +231,14 @@ const hasHomonymRisk = computed(() =>
   designations.value.some(d => d.usage_info && (d.usage_info as string).trim().length > 0)
 );
 
-// Provenance analysis: group publication instances by adoption source +
-// relationship (identical / modified / authoritative). This answers
-// "how many quote VIM verbatim vs modify it vs are OIML-original".
-const provenanceGroups = computed(() => {
-  const groups = new Map<string, { kind: string; relationship: string; ref: string; label: string; pubs: any[] }>();
-  for (const p of term.value?.publications || []) {
-    const s = p.source;
-    if (!s) {
-      const key = `oiml-original|authoritative`;
-      const g = groups.get(key) || { kind: "oiml-original", relationship: "authoritative", ref: "", label: "OIML-original", pubs: [] };
-      g.pubs.push(p);
-      groups.set(key, g);
-      continue;
-    }
-    const label = provenanceLabel(s);
-    const key = `${s.kind}|${s.relationship}|${s.ref_source || ""}`;
-    const g = groups.get(key) || {
-      kind: s.kind,
-      relationship: s.relationship,
-      ref: s.ref_source ? `${s.ref_source}${s.ref_id ? " §" + s.ref_id : ""}` : "",
-      label,
-      pubs: [],
-    };
-    g.pubs.push(p);
-    groups.set(key, g);
-  }
-  // Sort: identical-first (most-convergent first), then by group size desc.
-  const rank: Record<string, number> = { identical: 0, modified: 1, authoritative: 2, derived: 3, similar: 4 };
-  return Array.from(groups.values()).sort(
-    (a, b) => (rank[a.relationship] ?? 9) - (rank[b.relationship] ?? 9) || b.pubs.length - a.pubs.length
-  );
-});
+// Provenance analysis: group publication instances by adoption source.
+const provenanceGroups = computed(() => groupProvenance(term.value?.publications || []));
 
 const modifications = computed(() =>
   (term.value?.publications || [])
     .filter(p => p.source?.modification)
     .map(p => ({ publication: p.publication, edition: p.edition, modification: p.source.modification }))
 );
-
-function provenanceLabel(s: any): string {
-  if (!s) return "OIML-original";
-  const kindLabel = { vim: "VIM", viml: "VIML", oiml_pub: "OIML document", other: "Other" }[s.kind as string] || s.kind;
-  return `${kindLabel}${s.ref_source ? ` — ${s.ref_source}` : ""}`;
-}
 
 // Examples: merged across all publication instances (deduped by text).
 const allExamples = computed(() => {
@@ -295,29 +259,7 @@ const allExamples = computed(() => {
 // authoritative sources or different definition text. The most important
 // signal for TC1 reviewing 202X — did 202X intentionally diverge from
 // 2010, or just refresh the source citation?
-const crossEditionDrift = computed(() => {
-  const pubs = term.value?.publications || [];
-  const editions = new Set(pubs.map(p => p.edition));
-  if (!(editions.has("2010") && editions.has("202X"))) return null;
-  const e2010 = pubs.filter(p => p.edition === "2010");
-  const e202X = pubs.filter(p => p.edition === "202X");
-  const d2010 = new Set(e2010.map(p => normalizeDef(p.definition || "")).filter(Boolean));
-  const d202X = new Set(e202X.map(p => normalizeDef(p.definition || "")).filter(Boolean));
-  // Identical if every 2010 def appears in 202X and vice versa.
-  const same = d2010.size === d202X.size && [...d2010].every(d => d202X.has(d));
-  if (same) return null;
-  const src2010 = e2010.map(p => p.source?.ref_source).filter(Boolean);
-  const src202X = e202X.map(p => p.source?.ref_source).filter(Boolean);
-  const srcChanged = JSON.stringify(src2010.sort()) !== JSON.stringify(src202X.sort());
-  return {
-    sameText: false,
-    srcChanged,
-    src2010: src2010[0] || null,
-    src202X: src202X[0] || null,
-    rel2010: e2010[0]?.source?.relationship || null,
-    rel202X: e202X[0]?.source?.relationship || null,
-  };
-});
+const crossEditionDrift = computed(() => computeCrossEditionDrift(term.value?.publications || []));
 
 // Authoritative baseline text for match comparison. From the official
 // concept (VIM/VIML citation).
