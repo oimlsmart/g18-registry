@@ -114,7 +114,7 @@ const pageTitle = computed(() => {
   <div class="page-head">
     <div class="breadcrumb"><SLink to="/">Registry</SLink> / <span>Terms</span></div>
     <h1>{{ pageTitle }}</h1>
-    <p class="lede">{{ filtered.length }} of {{ terms.length }} terms, {{ (terms as any[]).reduce((s, t) => s + t.publications.length, 0) }} instances.</p>
+    <p class="lede">{{ filtered.length }} of {{ terms.length }} terms, {{ filtered.reduce((s: number, t: any) => s + t.publications.length, 0) }} instances.</p>
   </div>
 
   <!-- Sticky page-level edition filter (3-button pattern, same as other pages) -->
