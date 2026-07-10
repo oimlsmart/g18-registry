@@ -48,7 +48,7 @@ describe("ConceptBody", () => {
         },
       },
     });
-    expect(wrapper.findAll(".authority-defn-body")).toHaveLength(1);
+    expect(wrapper.findAll(".concept-defn-body")).toHaveLength(1);
     expect(wrapper.text()).toContain("establishing the relation");
   });
 

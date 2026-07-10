@@ -26,7 +26,7 @@ defineProps<{
     </div>
     <div v-if="data.definitions?.length" class="full-concept-section">
       <span class="full-concept-label">Definition</span>
-      <p v-for="(def, i) in data.definitions" :key="i" class="authority-defn-body">
+      <p v-for="(def, i) in data.definitions" :key="i" class="concept-defn-body">
         <DefText :text="def" />
       </p>
     </div>
@@ -48,3 +48,12 @@ defineProps<{
     </div>
   </div>
 </template>
+
+<style>
+.concept-defn-body {
+  font-size: 0.95rem;
+  line-height: 1.55;
+  margin: 0.3em 0;
+  color: var(--color-ink);
+}
+</style>

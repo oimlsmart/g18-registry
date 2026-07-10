@@ -540,11 +540,8 @@ const filteredPublications = computed(() => {
         <template v-for="(v, i) in conceptVersions" :key="i">
           <!-- Connector between versions -->
           <div v-if="i > 0" class="concept-version-connector">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-              <line x1="12" y1="5" x2="12" y2="19" />
-              <polyline points="19 12 12 19 5 12" />
-            </svg>
-            <span>superseded by</span>
+            <div class="concept-version-connector-line"></div>
+            <span class="concept-version-connector-label">superseded by</span>
           </div>
 
           <!-- Version card -->
@@ -570,7 +567,7 @@ const filteredPublications = computed(() => {
               <div class="concept-version-divider"></div>
 
               <ConceptBody v-if="v.data" :data="v.data" />
-              <p v-else-if="v.fallbackDef" class="authority-defn-body"><DefText :text="v.fallbackDef" /></p>
+              <p v-else-if="v.fallbackDef" class="concept-defn-body"><DefText :text="v.fallbackDef" /></p>
             </div>
           </div>
         </template>
@@ -987,20 +984,28 @@ const filteredPublications = computed(() => {
   margin: 0.6em 0;
 }
 
-/* Connector between version cards */
+/* Connector between version cards — left-aligned timeline line */
 .concept-version-connector {
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 0.4em;
-  padding: 0.45em 0;
-  color: var(--color-ink-muted);
+  gap: 0.6em;
+  padding-left: 0;
+  margin-left: 1px;
 }
-.concept-version-connector span {
+.concept-version-connector-line {
+  width: 2px;
+  height: 28px;
+  background: var(--color-rule);
+  border-radius: 1px;
+  flex-shrink: 0;
+}
+.concept-version-connector-label {
   font-size: 0.68rem;
   text-transform: uppercase;
   letter-spacing: 0.08em;
   font-weight: 600;
+  color: var(--color-ink-muted);
+  white-space: nowrap;
 }
 
 /* Individual version card */
