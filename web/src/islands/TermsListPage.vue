@@ -30,6 +30,10 @@ const onlyKind = ref("");
 const sortKey = ref<"name" | "pubs" | "defs">("name");
 const sortDir = ref<1 | -1>(1);
 
+const termsIn202X = computed(() => (terms as any[]).filter(t => (t.editions_present || []).includes("202X")).length);
+const termsIn2010 = computed(() => (terms as any[]).filter(t => (t.editions_present || []).includes("2010")).length);
+const termsInBoth = computed(() => (terms as any[]).filter(t => (t.editions_present || []).includes("202X") && (t.editions_present || []).includes("2010")).length);
+
 const allTCs = computed(() => {
   const set = new Set<string>();
   for (const t of terms as any[]) {
@@ -114,7 +118,7 @@ const pageTitle = computed(() => {
   <div class="page-head">
     <div class="breadcrumb"><SLink to="/">Registry</SLink> / <span>Terms</span></div>
     <h1>{{ pageTitle }}</h1>
-    <p class="lede">{{ filtered.length }} of {{ terms.length }} terms, {{ filtered.reduce((s: number, t: any) => s + t.publications.length, 0) }} instances.</p>
+    <p class="lede">{{ filtered.length }} terms, {{ filtered.reduce((s: number, t: any) => s + t.publications.length, 0) }} instances.</p>
   </div>
 
   <!-- Sticky page-level edition filter (3-button pattern, same as other pages) -->
@@ -125,19 +129,19 @@ const pageTitle = computed(() => {
               :class="['page-filter-btn', { 'page-filter-btn-active': editionFilter === '202X' && !crossEdition }]"
               @click="editionFilter = '202X'; crossEdition = null">
         <span class="page-filter-btn-title">202X</span>
-        <span class="page-filter-btn-meta">draft, TC 1 acts here</span>
+        <span class="page-filter-btn-meta">{{ termsIn202X }} terms · draft, TC 1 acts here</span>
       </button>
       <button type="button"
               :class="['page-filter-btn', { 'page-filter-btn-active': editionFilter === '2010' && !crossEdition }]"
               @click="editionFilter = '2010'; crossEdition = null">
         <span class="page-filter-btn-title">2010</span>
-        <span class="page-filter-btn-meta">historic, read-only</span>
+        <span class="page-filter-btn-meta">{{ termsIn2010 }} terms · historic, read-only</span>
       </button>
       <button type="button"
               :class="['page-filter-btn', { 'page-filter-btn-active': editionFilter === 'all' && !crossEdition }]"
               @click="editionFilter = 'all'; crossEdition = null">
         <span class="page-filter-btn-title">All</span>
-        <span class="page-filter-btn-meta">both editions</span>
+        <span class="page-filter-btn-meta">{{ terms.length }} total ({{ termsInBoth }} in both)</span>
       </button>
     </div>
   </div>
@@ -194,7 +198,7 @@ const pageTitle = computed(() => {
       </thead>
       <tbody>
         <tr v-for="t in pagination.visible.value" :key="t.slug">
-          <td class="term-cell"><SLink :to="`/terms/${t.slug}/`">{{ t.name }}</SLink></td>
+          <td class="term-cell"><SLink :to="`/terms/${t.slug}/`"><DefText :text="t.name" /></SLink></td>
           <td class="alt-cell">
             <span v-for="ad in admittedOf(t)" :key="ad" class="alt-term">{{ ad }}</span>
           </td>

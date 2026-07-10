@@ -577,7 +577,7 @@ const filteredPublications = computed(() => {
   <div v-if="!term" class="card"><p>Term not found.</p></div>
   <template v-else>
     <div class="page-head">
-      <div class="breadcrumb"><SLink to="/">Registry</SLink> / <SLink to="/terms/">Terms</SLink> / <span>{{ term.name }}</span></div>
+      <div class="breadcrumb"><SLink to="/">Registry</SLink> / <SLink to="/terms/">Terms</SLink> / <span><DefText :text="term.name" /></span></div>
       <h1><DefText :text="term.name" /></h1>
       <p class="lede">
         <span :class="['kind', `kind-${term.kind}`]">{{ kindLabel(term.kind) }}</span>
@@ -762,14 +762,14 @@ const filteredPublications = computed(() => {
         <div v-if="preferredExpression" class="designations-row">
           <dt>Term (preferred)</dt>
           <dd>
-            {{ preferredExpression }}
+            <DefText :text="preferredExpression" />
             <span v-if="preferredUsage" class="usage-info">[{{ preferredUsage }}]</span>
           </dd>
         </div>
         <template v-for="(ad, i) in admittedExpressions" :key="'ad-'+i">
           <div class="designations-row">
             <dt>Term (admitted)</dt>
-            <dd>{{ ad.text }}<span v-if="ad.usage" class="usage-info">[{{ ad.usage }}]</span></dd>
+            <dd><DefText :text="ad.text" /><span v-if="ad.usage" class="usage-info">[{{ ad.usage }}]</span></dd>
           </div>
         </template>
         <template v-for="(sym, i) in symbolDesignations" :key="'sym-'+i">
