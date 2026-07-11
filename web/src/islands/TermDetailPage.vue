@@ -7,6 +7,7 @@ import { slugifyPubId, isOimlOriginal } from "@/composables/useSuggestedActions"
 import SLink from "@/components/SLink.vue";
 import DefText from "@/components/DefText.vue";
 import ConceptBody from "@/components/ConceptBody.vue";
+import ConceptDiffView from "@/components/ConceptDiffView.vue";
 import { kindLabel, normalizeDef, isHistoricTerm, groupProvenance, provenanceLabel as provLabel } from "@/utils/term-utils";
 
 const props = defineProps<{ slug: string }>();
@@ -380,6 +381,9 @@ const filteredPublications = computed(() => {
           </div>
         </div>
       </div>
+
+      <!-- Concept diff: what changed between cited and latest editions -->
+      <ConceptDiffView v-if="term.official_concept?.concept_diff" :diff="term.official_concept.concept_diff" />
 
       <!-- EVIDENCE: concept version cards below the action -->
       <div class="concept-evidence">

@@ -153,6 +153,31 @@ LATEST_DATASETS.each do |vocab, info|
   end
 end
 
+# ── Pre-compute concept diffs between editions (via glossarist-js) ────────
+# For each vocabulary, diff each historical edition against the latest so
+# the term detail page can show "what changed" in the concept version series.
+concept_diffs = {}
+diff_script = File.expand_path("../web/scripts/compute-concept-diffs.mjs", __dir__)
+DIFF_PAIRS = {
+  vim: [["vim-1993", "vim-2012"], ["vim-2007", "vim-2012"], ["vim-2010", "vim-2012"]],
+  viml: [["viml-2000", "viml-2022"], ["viml-2013", "viml-2022"]],
+}.freeze
+DIFF_PAIRS.each do |_vocab, pairs|
+  pairs.each do |old_dir, new_dir|
+    old_path = File.join(options[:vocab_root], old_dir, "concepts")
+    new_path = File.join(options[:vocab_root], new_dir, "concepts")
+    next unless Dir.exist?(old_path) && Dir.exist?(new_path)
+    diff_key = "#{old_dir}->#{new_dir}"
+    stdout, status = Open3.capture2("node", diff_script, old_path, new_path)
+    if status.success?
+      concept_diffs[diff_key] = JSON.parse(stdout)
+      warn "  Concept diffs #{old_dir} → #{new_dir}: #{concept_diffs[diff_key].size} concepts changed"
+    end
+  rescue StandardError => e
+    warn "  WARNING: concept diff #{diff_key} failed: #{e.message}"
+  end
+end
+
 def check_latest_edition(term_name, official_urn, concept_id, latest_indices)
   return nil unless official_urn && term_name
   vocab = G18::Vocabulary.vocab(official_urn)
@@ -344,6 +369,14 @@ Dir.glob(File.join(options[:data_dir], "*.yaml")).sort.each do |path|
     end
   end
   full_concept = latest_concept || cited_concept
+
+  # Look up pre-computed concept diff (if cited and latest editions differ)
+  concept_diff = nil
+  if cited_dir && v && (info = LATEST_DATASETS[v])
+    diff_key = "#{cited_dir}->#{info[:dir]}"
+    concept_diff = concept_diffs[diff_key]&.dig(oc_id.to_s)
+  end
+
   term = {
     "slug" => File.basename(path, ".yaml"),
     "identifier" => data["identifier"],
@@ -354,6 +387,7 @@ Dir.glob(File.join(options[:data_dir], "*.yaml")).sort.each do |path|
       "full_concept" => render_stem_deep(full_concept),
       "cited_concept" => render_stem_deep(cited_concept),
       "latest_concept" => render_stem_deep(latest_concept),
+      "concept_diff" => concept_diff,
     ),
     "editions_present" => data["editions_present"],
     "primary_edition" => data["primary_edition"],

@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       glossarist:
-        specifier: ^0.4.15
-        version: 0.4.15
+        specifier: ^0.4.17
+        version: 0.4.17
       yaml:
         specifier: ^2.9.0
         version: 2.9.0
@@ -1558,8 +1558,8 @@ packages:
     deprecated: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
     hasBin: true
 
-  glossarist@0.4.15:
-    resolution: {integrity: sha512-0n7EZxZL28/9smJa3jZvB+gbuRfyeQgz+ClAYW/ewgDBs05nQe6OxzM8JyLqdPv+i0kww8RdlzKiki37l10rdg==}
+  glossarist@0.4.17:
+    resolution: {integrity: sha512-KknQLkMHfoZjc2IybRlJdkYSr6bGt/NC+Dw2BM8jZuWBDP91ZA8Qhe3erK3tXmT3ptgjMjieDSWKTZbjEiWREA==}
     engines: {node: '>=20'}
 
   graceful-fs@4.2.11:
@@ -3991,7 +3991,7 @@ snapshots:
       package-json-from-dist: 1.0.1
       path-scurry: 1.11.1
 
-  glossarist@0.4.15:
+  glossarist@0.4.17:
     dependencies:
       '@rdfjs/data-model': 2.1.2
       '@rdfjs/dataset': 2.0.3
