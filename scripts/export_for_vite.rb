@@ -20,6 +20,7 @@ require "optparse"
 require "yaml"
 require "json"
 require "fileutils"
+require "open3"
 require_relative "../lib/g18/vocabulary"
 require_relative "../lib/g18/actions"
 require_relative "../lib/g18/fuzzy_match"
@@ -85,84 +86,70 @@ end.parse!
 
 FileUtils.mkdir_p(options[:out_dir])
 
-# ── Build latest-edition designation index ────────────────────────────────
-# For each vocabulary (VIM/VIML), load the LATEST edition's concepts and
-# build a { designation_downcase => { id:, definition: } } index. Used to
-# definitively check whether a term still exists in the latest edition.
+# ── Build latest-edition designation index (via glossarist-js) ───────────
+# Uses glossarist-js to parse concept YAML files properly, instead of
+# hand-rolling YAML parsing. Loads ALL concept data once per dataset and
+# caches it for both the designation index and concept detail lookups.
 
 LATEST_DATASETS = {
   vim:  { urn: G18::Vocabulary::LATEST_VIM_URN,  dir: "vim-2012",  label: "VIM 2012" },
   viml: { urn: G18::Vocabulary::LATEST_VIML_URN, dir: "viml-2022", label: "VIML 2022" },
 }.freeze
 
-def load_latest_designation_index(vocab_root, dataset_dir)
+glossarist_script = File.expand_path("../web/scripts", __dir__)
+
+def load_concept_index_via_glossarist(script_dir, concepts_dir)
+  return [{}, {}] unless Dir.exist?(concepts_dir)
+  stdout, status = Open3.capture2("node", "#{script_dir}/load-vocab-concepts.mjs", concepts_dir, "full")
+  return [{}, {}] unless status.success?
+  full = JSON.parse(stdout)
+  # Build designation index from full data
   idx = {}
-  concepts_dir = File.join(vocab_root, dataset_dir, "concepts")
-  return idx unless Dir.exist?(concepts_dir)
-  Dir.glob(File.join(concepts_dir, "*.yaml")).each do |path|
-    docs = begin
-      YAML.safe_load_stream(File.read(path), aliases: true)
-    rescue Psych::SyntaxError
-      next
-    end
-    loc = docs.find { |d| d && d.is_a?(Hash) && d.dig("data", "definition") }
-    next unless loc
-    terms = loc.dig("data", "terms") || []
-    pref = terms.find { |t| t["normative_status"] == "preferred" } || terms.first
-    next unless pref && pref["designation"]
-    designation = pref["designation"].to_s.downcase.strip
-    defs = loc.dig("data", "definition") || []
-    defn_text = defs.map { |d| d["content"] if d.is_a?(Hash) }.compact.join("\n").strip
-    meta = docs.find { |d| d && d.is_a?(Hash) && d.dig("data", "identifier") }
-    id = meta&.dig("data", "identifier")
-    idx[designation] = { id: id, definition: defn_text } if id && !defn_text.empty?
+  full.each do |id, langs|
+    eng = langs["eng"] || langs.values&.first
+    next unless eng
+    pref = (eng["designations"] || []).find { |d| d["status"] == "preferred" } || (eng["designations"] || [])&.first
+    next unless pref&.dig("text")
+    defn = (eng["definitions"] || []).join("\n").strip
+    idx[pref["text"].downcase.strip] = { id: id, definition: defn }
   end
-  idx
+  [idx, full]
+rescue JSON::ParserError, StandardError
+  [{}, {}]
 end
 
-# Load the full concept details (designations, definitions, notes,
-# examples) for a given concept ID from the vocab repo. Returns a
-# hash with eng/fra localizations so the term detail page can show
-# the complete VIM/VIML concept as TC 1's harmonisation target.
-def load_concept_details(vocab_root, dataset_dir, concept_id)
-  path = File.join(vocab_root, dataset_dir, "concepts", "#{concept_id}.yaml")
-  return nil unless File.exist?(path)
-  docs = begin
-    YAML.safe_load_stream(File.read(path), aliases: true)
-  rescue Psych::SyntaxError
-    return nil
+# Cache for cited-edition concept data (loaded lazily per dataset dir).
+$cited_concept_cache = {}
+
+def cached_concept_lookup(script_dir, vocab_root, dataset_dir, concept_id)
+  cache_key = dataset_dir
+  unless $cited_concept_cache.key?(cache_key)
+    concepts_dir = File.join(vocab_root, dataset_dir, "concepts")
+    if Dir.exist?(concepts_dir)
+      stdout, status = Open3.capture2("node", "#{script_dir}/load-vocab-concepts.mjs", concepts_dir, "full")
+      $cited_concept_cache[cache_key] = status.success? ? JSON.parse(stdout) : {}
+    else
+      $cited_concept_cache[cache_key] = {}
+    end
   end
-  # First doc is the managed concept (metadata); remaining docs are
-  # localized concepts keyed by language_code.
-  loc_docs = docs.select { |d| d.is_a?(Hash) && d.dig("data", "language_code") }
-  out = {}
-  loc_docs.each do |doc|
-    data = doc["data"] || {}
-    lang = data["language_code"]
-    next unless lang
-    out[lang] = {
-      "designations" => (data["terms"] || []).map do |t|
-        {
-          "type" => t["type"],
-          "status" => t["normative_status"] || "preferred",
-          "text" => t["designation"],
-        }
-      end,
-      "definitions" => Array(data["definition"]).map { |d| d.is_a?(Hash) ? d["content"] : nil }.compact,
-      "notes" => Array(data["notes"]).map { |n| n.is_a?(Hash) ? n["content"] : nil }.compact,
-      "examples" => Array(data["examples"]).map { |e| e.is_a?(Hash) ? e["content"] : nil }.compact,
-    }
-  end
-  out.empty? ? nil : out
+  $cited_concept_cache[cache_key][concept_id]
+rescue StandardError
+  nil
 end
+
+require "open3"
+
 latest_indices = {}
+latest_full_concepts = {}
 LATEST_DATASETS.each do |vocab, info|
-  path = File.join(options[:vocab_root], info[:dir], "concepts")
-  if Dir.exist?(path)
-    latest_indices[vocab] = load_latest_designation_index(options[:vocab_root], info[:dir])
-    warn "  Latest #{info[:label]}: #{latest_indices[vocab].size} designations indexed"
+  concepts_dir = File.join(options[:vocab_root], info[:dir], "concepts")
+  if Dir.exist?(concepts_dir)
+    idx, full = load_concept_index_via_glossarist(glossarist_script, concepts_dir)
+    latest_indices[vocab] = idx
+    latest_full_concepts[vocab] = full
+    warn "  Latest #{info[:label]}: #{idx.size} designations indexed (via glossarist-js)"
   else
-    warn "  Latest #{info[:label]}: concepts dir not found at #{path} — latest_check will be skipped"
+    warn "  Latest #{info[:label]}: concepts dir not found at #{concepts_dir} — latest_check will be skipped"
   end
 end
 
@@ -317,7 +304,6 @@ Dir.glob(File.join(options[:data_dir], "*.yaml")).sort.each do |path|
   latest_concept = nil
   if data["official_concept"] && (oc_id = data["official_concept"]["id"])
     v = G18::Vocabulary.vocab(oc_urn)
-    # Cited edition: derive directory from the URN year.
     if oc_urn
       cited_dir = oc_urn.match(/v:[12]:(\d{4})/) do |m|
         year = m[1]
@@ -325,14 +311,12 @@ Dir.glob(File.join(options[:data_dir], "*.yaml")).sort.each do |path|
         "#{vocab_prefix}-#{year}"
       end
       if cited_dir
-        cited_concept = load_concept_details(options[:vocab_root], cited_dir, oc_id)
+        cited_concept = cached_concept_lookup(glossarist_script, options[:vocab_root], cited_dir, oc_id)
       end
     end
-    # Latest edition: load using latest_check concept_id (may differ
-    # from cited id due to renumbering between editions).
     if v && (info = LATEST_DATASETS[v])
       latest_id = latest && latest["found"] ? latest["concept_id"] : oc_id
-      latest_concept = load_concept_details(options[:vocab_root], info[:dir], latest_id)
+      latest_concept = (latest_full_concepts[v] || {})[latest_id]
     end
   end
   full_concept = latest_concept || cited_concept
