@@ -83,6 +83,50 @@ const citationSummary = computed(() => {
   return { current, outdated, noCite, total: cs.length };
 });
 
+// Top-level recommendation banner — summarizes what TC 1 should do
+const recommendation = computed(() => {
+  const t = term.value;
+  if (!t) return { level: "none", icon: "", text: "", link: null, action: "" };
+
+  if (canPropose.value) {
+    if (vocabGap.value?.near_misses?.vim || vocabGap.value?.near_misses?.viml) {
+      return {
+        level: "info", icon: "📋",
+        text: `Not in V 1/V 2. Resembles a VIM/VIML term — consider adopting it or proposing for V 3.`,
+        link: `${base}proposals/?term=${t.slug}`, action: "Propose",
+      };
+    }
+    return {
+      level: "info", icon: "📝",
+      text: `Not in V 1/V 2. No near-miss found — consider proposing for V 3.`,
+      link: `${base}proposals/?term=${t.slug}`, action: "Propose",
+    };
+  }
+
+  const oc = t.official_concept;
+  if (oc?.source && isCurrent(oc.source)) {
+    return { level: "ok", icon: "✅", text: "Citation is up to date. No actions needed.", link: null, action: "" };
+  }
+
+  if (t.latest_check?.found) {
+    return {
+      level: "warn", icon: "⚠️",
+      text: `Citation is outdated. Update to ${t.latest_check.latest_label}.`,
+      link: t.latest_check.url || null, action: "View concept",
+    };
+  }
+
+  if (t.latest_check && !t.latest_check.found) {
+    return {
+      level: "warn", icon: "📝",
+      text: `Removed from ${t.latest_check.latest_label}. Propose for V 1, V 2, or V 3.`,
+      link: `${base}proposals/?term=${t.slug}`, action: "Propose",
+    };
+  }
+
+  return { level: "none", icon: "", text: "", link: null, action: "" };
+});
+
 
 const g18Definition = computed(() => operativeDefinition.value?.text || "");
 const vimDefinition = computed(() => term.value?.official_concept?.definition_text || "");
@@ -407,6 +451,16 @@ const filteredPublications = computed(() => {
           +{{ sourcingPublicationsCount - 6 }} more
         </span>
       </div>
+    </div>
+
+    <!-- Recommendations banner: appears at the top, summarizes what TC 1 should do -->
+    <div :class="['recommendations-banner', `rec-${recommendation.level}`]">
+      <span class="rec-icon">{{ recommendation.icon }}</span>
+      <div class="rec-body">
+        <div class="rec-label">Recommendation</div>
+        <div class="rec-text">{{ recommendation.text }}</div>
+      </div>
+      <a v-if="recommendation.link" class="rec-action" :href="recommendation.link">{{ recommendation.action }} →</a>
     </div>
 
     <!-- Publication citation status: per-publication VIM/VIML citation analysis -->
@@ -1130,6 +1184,44 @@ const filteredPublications = computed(() => {
   margin: 0.5em 0 0;
   font-style: italic;
 }
+
+/* Recommendations banner */
+.recommendations-banner {
+  display: flex;
+  align-items: center;
+  gap: 0.8em;
+  padding: 0.7em 1em;
+  margin-bottom: 1.2em;
+  border-radius: 6px;
+  border-left: 4px solid;
+}
+.rec-ok { background: var(--status-ok-bg); border-color: var(--status-ok-border); }
+.rec-warn { background: var(--status-warn-bg); border-color: var(--status-warn-border); }
+.rec-info { background: var(--status-info-bg); border-color: var(--status-info-border); }
+.rec-none { display: none; }
+.rec-icon { font-size: 1.3rem; flex-shrink: 0; }
+.rec-body { flex: 1; }
+.rec-label {
+  font-size: 0.64rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  opacity: 0.7;
+  margin-bottom: 0.1em;
+}
+.rec-text { font-size: 0.88rem; line-height: 1.4; }
+.rec-action {
+  flex-shrink: 0;
+  padding: 0.35em 0.8em;
+  border-radius: 4px;
+  background: var(--color-accent);
+  color: #fff !important;
+  font-size: 0.82rem;
+  font-weight: 600;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.rec-action:hover { background: var(--color-accent-hover); text-decoration: none; }
 
 /* Publication citation status */
 .citation-status-card { margin-bottom: 1.2em; }
