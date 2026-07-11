@@ -32,7 +32,58 @@ const vocabGap = computed(() =>
   (vocabGaps as any[]).find(g => g.slug === term.value?.slug)
 );
 
-// Definition comparison: G 18 usage vs VIM/VIML authoritative
+// Publication citation status: for each publication instance, what VIM/VIML
+// edition does it cite? This directly answers the user's Step 1 question:
+// "Is this recommendation term adopting it from VIM/VIML?"
+interface PubCitation {
+  pubId: string;
+  edition: string;
+  refSource: string | null;
+  refId: string | null;
+  status: "current" | "outdated" | "no-citation";
+  formattedRef: string;
+}
+const pubCitations = computed<PubCitation[]>(() => {
+  const pubs = (term.value?.publications || []);
+  const seen = new Set<string>();
+  const out: PubCitation[] = [];
+  for (const p of pubs) {
+    const key = `${p.publication_id}-${p.edition}`;
+    if (seen.has(key)) continue;
+    seen.add(key);
+    const src = p.source;
+    const refSource = src?.ref_source || null;
+    const refId = src?.ref_id || null;
+    let status: PubCitation["status"] = "no-citation";
+    let formattedRef = "No VIM/VIML citation";
+    if (refSource) {
+      const m = refSource.match(/V\s*(\d)-\d+:(\d{4})/);
+      if (m) {
+        const vocabName = m[1] === "1" ? "VIML" : "VIM";
+        formattedRef = `${vocabName} ${m[2]}${refId ? ` §${refId}` : ""}`;
+        const urn = vocabName === "VIM" ? "urn:oiml:pub:v:2:" : "urn:oiml:pub:v:1:";
+        status = isCurrent(urn + m[2]) ? "current" : "outdated";
+      } else {
+        formattedRef = refSource;
+        status = "outdated";
+      }
+    }
+    out.push({ pubId: p.publication_id, edition: p.edition, refSource, refId, status, formattedRef });
+  }
+  return out.sort((a, b) => {
+    const rank = { current: 0, outdated: 1, "no-citation": 2 };
+    return (rank[a.status] - rank[b.status]) || (a.pubId || "").localeCompare(b.pubId || "");
+  });
+});
+const citationSummary = computed(() => {
+  const cs = pubCitations.value;
+  const current = cs.filter(c => c.status === "current").length;
+  const outdated = cs.filter(c => c.status === "outdated").length;
+  const noCite = cs.filter(c => c.status === "no-citation").length;
+  return { current, outdated, noCite, total: cs.length };
+});
+
+
 const g18Definition = computed(() => operativeDefinition.value?.text || "");
 const vimDefinition = computed(() => term.value?.official_concept?.definition_text || "");
 const hasDefDivergence = computed(() => {
@@ -358,14 +409,28 @@ const filteredPublications = computed(() => {
       </div>
     </div>
 
-    <!-- Proposal CTA: shown for OIML-original terms (no VIM/VIML definition) -->
-    <div v-if="canPropose" class="proposal-cta">
-      <div class="proposal-cta-body">
-        <div class="proposal-cta-label">Vocabulary gap</div>
-        <p>"<strong>{{ term.name }}</strong>" has no authoritative VIM/VIML definition. You can propose it for the <strong>next edition</strong> of VIM (V 2) or VIML (V 1), or for a brand-new <strong>V 3</strong> vocabulary of specific terms.</p>
+    <!-- Publication citation status: per-publication VIM/VIML citation analysis -->
+    <section class="card citation-status-card" v-if="pubCitations.length">
+      <div class="card-head">
+        <h2>Publication citations</h2>
+        <span class="citation-summary">
+          <span class="citation-count citation-count-current">{{ citationSummary.current }} current</span>
+          <span v-if="citationSummary.outdated" class="citation-count citation-count-outdated">{{ citationSummary.outdated }} outdated</span>
+          <span v-if="citationSummary.noCite" class="citation-count citation-count-nocite">{{ citationSummary.noCite }} no citation</span>
+        </span>
       </div>
-      <a class="proposal-cta-btn" :href="`${base}proposals/?term=${term.slug}`">Propose →</a>
-    </div>
+      <div class="citation-list">
+        <div v-for="c in pubCitations" :key="c.pubId + '-' + c.edition" :class="['citation-row', `citation-row-${c.status}`]">
+          <SLink :to="`/publications/${slugifyPubId(c.pubId)}/`" class="citation-pub">{{ c.pubId }}</SLink>
+          <span class="citation-pub-edition">{{ c.edition }}</span>
+          <span class="citation-arrow">→</span>
+          <span :class="['citation-ref', `citation-ref-${c.status}`]">{{ c.formattedRef }}</span>
+          <span v-if="c.status === 'current'" class="citation-action citation-action-ok">up to date</span>
+          <span v-else-if="c.status === 'outdated'" class="citation-action citation-action-warn">update citation</span>
+          <span v-else class="citation-action citation-action-info">OIML-original</span>
+        </div>
+      </div>
+    </section>
 
     <!-- Historic-only callout: term exists only in 2010. TC 1 cannot act. -->
     <section v-if="isHistoricTermComputed" class="card admonition" style="background: var(--color-paper-tint); border-color: var(--color-rule);">
@@ -428,11 +493,17 @@ const filteredPublications = computed(() => {
                   <span v-if="vocabGap.near_misses.vim.similarity" class="near-miss-sim">{{ vocabGap.near_misses.vim.similarity }}</span>
                 </a>
               </div>
+              <div class="decision-options">
+                <a class="decision-option" :href="`${base}proposals/?term=${term.slug}`">Adopt the V 1/V 2 term →</a>
+                <a class="decision-option" :href="`${base}proposals/?term=${term.slug}`">Propose V 3 based on V 1/V 2 term →</a>
+              </div>
             </template>
-            <template v-else>No VIM/VIML near-miss found — this appears to be a unique OIML term.</template>
-            <div class="decision-options">
-              <a class="decision-option" :href="`${base}proposals/?term=${term.slug}`">Propose for V 1/V 2/V 3 →</a>
-            </div>
+            <template v-else>
+              No VIM/VIML near-miss found — this appears to be a unique OIML term.
+              <div class="decision-options">
+                <a class="decision-option" :href="`${base}proposals/?term=${term.slug}`">Propose for V 3 →</a>
+              </div>
+            </template>
           </div>
           <div v-else-if="term.official_concept?.source && isCurrent(term.official_concept.source)" class="decision-path decision-path-ok">
             <strong>Citation is up to date.</strong> Nothing to do — this term cites the latest VIM/VIML edition.
@@ -1059,6 +1130,71 @@ const filteredPublications = computed(() => {
   margin: 0.5em 0 0;
   font-style: italic;
 }
+
+/* Publication citation status */
+.citation-status-card { margin-bottom: 1.2em; }
+.citation-summary {
+  display: flex;
+  gap: 0.6em;
+  font-size: 0.78rem;
+  font-weight: 600;
+}
+.citation-count { padding: 0.1em 0.45em; border-radius: 3px; }
+.citation-count-current { background: var(--status-ok-bg); color: var(--status-ok-text); }
+.citation-count-outdated { background: var(--status-warn-bg); color: var(--status-warn-text); }
+.citation-count-nocite { background: var(--color-rule-soft); color: var(--color-ink-muted); }
+
+.citation-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+.citation-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  padding: 0.5em 0;
+  border-bottom: 1px solid var(--color-rule-soft);
+}
+.citation-row:last-child { border-bottom: 0; }
+.citation-pub {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--color-ink);
+  text-decoration: none;
+  min-width: 12em;
+}
+.citation-pub:hover { color: var(--color-accent); }
+.citation-pub-edition {
+  font-size: 0.68rem;
+  color: var(--color-ink-muted);
+  padding: 0.05em 0.3em;
+  border-radius: 2px;
+  background: var(--color-rule-soft);
+}
+.citation-arrow {
+  color: var(--color-ink-muted);
+  font-size: 0.8rem;
+}
+.citation-ref {
+  font-size: 0.82rem;
+  font-weight: 500;
+  flex: 1;
+}
+.citation-ref-current { color: var(--status-ok-text); }
+.citation-ref-outdated { color: var(--status-warn-text); }
+.citation-ref-no-citation { color: var(--color-ink-muted); }
+.citation-action {
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 0.15em 0.5em;
+  border-radius: 3px;
+  white-space: nowrap;
+}
+.citation-action-ok { background: var(--status-ok-bg); color: var(--status-ok-text); }
+.citation-action-warn { background: var(--status-warn-bg); color: var(--status-warn-text); }
+.citation-action-info { background: var(--color-rule-soft); color: var(--color-ink-muted); }
 
 /* Decision flow box */
 .decision-box {

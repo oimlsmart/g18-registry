@@ -16,7 +16,6 @@ const primaryNav = [
   { href: "proposals/", label: "Proposals" },
   { href: "terms/", label: "Terms" },
   { href: "publications/", label: "Publications" },
-  { href: "how-to-use/", label: "How to use" },
 ];
 
 const moreNav = [
@@ -107,7 +106,12 @@ const activeMore = moreNav.find(n => isActive(n.href));
             </div>
           </nav>
 
-          <!-- Theme toggle (rightmost) -->
+          <!-- Help (?) + Theme toggle (rightmost) -->
+          <a href={`${base}how-to-use/`} class="help-link" aria-label="How to use" title="How to use">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="10" /><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3" /><line x1="12" y1="17" x2="12.01" y2="17" />
+            </svg>
+          </a>
           <button
             type="button"
             class="theme-toggle"
@@ -166,7 +170,7 @@ const activeMore = moreNav.find(n => isActive(n.href));
       .theme-toggle {
         appearance: none;
         background: transparent;
-        border: 1px solid var(--color-rule);
+        border: 0;
         color: var(--color-ink-soft);
         width: 36px;
         height: 36px;
@@ -175,12 +179,25 @@ const activeMore = moreNav.find(n => isActive(n.href));
         align-items: center;
         justify-content: center;
         cursor: pointer;
-        transition: background 0.15s, color 0.15s, border-color 0.15s;
+        transition: background 0.15s, color 0.15s;
       }
       .theme-toggle:hover {
         background: var(--color-paper-tint);
         color: var(--color-accent);
-        border-color: var(--color-ink-muted);
+      }
+      .help-link {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 36px;
+        height: 36px;
+        border-radius: 4px;
+        color: var(--color-ink-soft);
+        transition: background 0.15s, color 0.15s;
+      }
+      .help-link:hover {
+        background: var(--color-paper-tint);
+        color: var(--color-accent);
       }
       /* Logo swap via CSS — no JS needed */
       .logo-dark { display: none; }
