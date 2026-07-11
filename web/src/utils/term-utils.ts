@@ -26,10 +26,22 @@ export interface ProvenanceGroup {
 const PROVENANCE_RANK: Record<string, number> = {
   identical: 0, modified: 1, authoritative: 2, derived: 3, similar: 4, uncited: 5,
 };
+function formatRefSource(refSource: string, refId?: string): string {
+  // Parse "OIML V 2-200:2012" → "VIM 2012", "OIML V 1-200:2022" → "VIML 2022"
+  const m = refSource?.match(/V\s*(\d)-\d+:(\d{4})/);
+  if (m) {
+    const vocab = m[1] === "1" ? "VIML" : "VIM";
+    return `${vocab} ${m[2]}${refId ? ` §${refId}` : ""}`;
+  }
+  return refSource || "";
+}
+
 export function provenanceLabel(s: any): string {
-  if (!s) return "OIML-original";
+  if (!s) return "No VIM/VIML citation";
+  const formatted = s.ref_source ? formatRefSource(s.ref_source, s.ref_id) : "";
+  if (formatted) return formatted;
   const kl = ({ vim: "VIM", viml: "VIML", oiml_pub: "OIML document", other: "Other" } as Record<string, string>)[s.kind] || s.kind;
-  return `${kl}${s.ref_source ? ` — ${s.ref_source}` : ""}`;
+  return kl;
 }
 
 export function groupProvenance(publications: any[]): ProvenanceGroup[] {
@@ -47,7 +59,7 @@ export function groupProvenance(publications: any[]): ProvenanceGroup[] {
     const g = groups.get(key) || {
       kind: s.kind,
       relationship: s.relationship,
-      ref: s.ref_source ? `${s.ref_source}${s.ref_id ? " §" + s.ref_id : ""}` : "",
+      ref: s.modification || "",
       label: provenanceLabel(s),
       pubs: [],
     };

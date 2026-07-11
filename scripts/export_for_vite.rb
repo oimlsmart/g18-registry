@@ -243,6 +243,19 @@ publications = File.exist?(options[:bib_path]) ?
 File.write(File.join(options[:out_dir], "publications.json"),
            JSON.generate(publications))
 
+# ── Data fixups ──────────────────────────────────────────────────────────
+# Known source-data issues corrected before export so the UI shows accurate
+# provenance and definition-grouping. Each fixup is documented so it can be
+# removed once the source YAML in the vocab repo is corrected.
+DATA_FIXUPS = {
+  # R 142-1:2025 cites V 2-200:2007 but the PDF actually references VIM 3.11
+  # which is the 2012 edition. Confirmed by user review of the PDF.
+  "OIML R 142-1:2025" => { ref_source: "OIML V 2-200:2012" },
+  # R 99-1:2008 definition has "aquantity" (missing space) — fix to match
+  # the correct "a quantity" used by the other publications.
+  "OIML R 99-1:2008" => { def_fix: /aquantity/, def_replacement: "a quantity" },
+}.freeze
+
 # ── Terms ─────────────────────────────────────────────────────────────────
 terms = []
 vocab_gaps = []
@@ -251,6 +264,17 @@ Dir.glob(File.join(options[:data_dir], "*.yaml")).sort.each do |path|
   next unless docs.first.is_a?(Hash)
   hash = docs.find { |d| d.is_a?(Hash) && d["data"] && d["data"]["term"] } || docs.first
   data = hash["data"] || {}
+  # Apply data fixups (corrects known source-data errors before export)
+  (data["publications"] || []).each do |p|
+    fixup = DATA_FIXUPS[p["publication_id"]]
+    next unless fixup
+    if fixup[:ref_source] && p["source"]&.is_a?(Hash)
+      p["source"]["ref_source"] = fixup[:ref_source]
+    end
+    if fixup[:def_fix] && p["definition"]
+      p["definition"] = p["definition"].gsub(fixup[:def_fix], fixup[:def_replacement])
+    end
+  end
   oc_urn = data["official_concept"]&.dig("source")
   # Compute vocab_presence (exact + fuzzy match) for OIML-original terms
   # so the compiler can enrich action descriptions with near-miss guidance.
