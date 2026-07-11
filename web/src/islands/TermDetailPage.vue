@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { computed, ref, watchEffect } from "vue";
 import termBySlug from "@/data/term-by-slug.json";
+import vocabGaps from "@/data/vocab-gaps.json";
 import { useVocabularyEdition } from "@/composables/useVocabularyEdition";
 import { useConceptVersions } from "@/composables/useConceptVersions";
 import { slugifyPubId, isOimlOriginal } from "@/composables/useSuggestedActions";
@@ -16,6 +17,29 @@ const base = import.meta.env.BASE_URL;
 const { label, confidenceClass, isCurrent, isSuperseded, latestLabel, role, vocabUrl } = useVocabularyEdition();
 
 const term = computed(() => (termBySlug as any)[props.slug]);
+
+// Sourcing publications — which OIML documents define this term
+const sourcingPublications = computed(() => {
+  const pubs = [...new Set((term.value?.publications || []).map((p: any) => p.publication_id))];
+  return pubs.slice(0, 6);
+});
+const sourcingPublicationsCount = computed(() =>
+  new Set((term.value?.publications || []).map((p: any) => p.publication_id)).size
+);
+
+// Vocab gap data for near-miss analysis (OIML-original terms)
+const vocabGap = computed(() =>
+  (vocabGaps as any[]).find(g => g.slug === term.value?.slug)
+);
+
+// Definition comparison: G 18 usage vs VIM/VIML authoritative
+const g18Definition = computed(() => operativeDefinition.value?.text || "");
+const vimDefinition = computed(() => term.value?.official_concept?.definition_text || "");
+const hasDefDivergence = computed(() => {
+  if (!g18Definition.value || !vimDefinition.value) return false;
+  const norm = (s: string) => s.replace(/\{\{[^}]+\}\}/g, "").replace(/\s+/g, " ").trim().toLowerCase();
+  return norm(g18Definition.value) !== norm(vimDefinition.value);
+});
 
 // Edition filter (single-select, mirrors the publication/TC pages).
 // Drives the `enabledEditions` Set used downstream by the definition-group
@@ -318,17 +342,18 @@ const filteredPublications = computed(() => {
     <div class="page-head">
       <div class="breadcrumb"><SLink to="/">Registry</SLink> / <SLink to="/terms/">Terms</SLink> / <span><DefText :text="term.name" /></span></div>
       <h1><DefText :text="term.name" /></h1>
-      <p class="lede">
+      <div class="term-meta-row">
         <span :class="['kind', `kind-${term.kind}`]">{{ kindLabel(term.kind) }}</span>
         <span v-if="matchStatus" :class="['match-status', `match-status-${matchStatus.key}`]">{{ matchStatus.label }}</span>
-      </p>
-      <!-- Originating documents: show which OIML publications use this term -->
+        <span class="g18-chip" title="G 18 entry number">G 18 #{{ term.identifier }}</span>
+      </div>
+      <!-- Originating documents: prominently show which OIML publications use this term -->
       <div class="sourcing-docs">
-        <span class="sourcing-label">Used in</span>
-        <SLink v-for="p in [...new Set(term.publications.map((pub: any) => pub.publication_id))].slice(0, 6)" :key="p"
+        <span class="sourcing-label">From</span>
+        <SLink v-for="p in sourcingPublications" :key="p"
                :to="`/publications/${slugifyPubId(p)}/`" class="sourcing-doc">{{ p }}</SLink>
-        <span v-if="[...new Set(term.publications.map((pub: any) => pub.publication_id))].length > 6" class="sourcing-more">
-          +{{ [...new Set(term.publications.map((pub: any) => pub.publication_id))].length - 6 }} more
+        <span v-if="sourcingPublicationsCount > 6" class="sourcing-more">
+          +{{ sourcingPublicationsCount - 6 }} more
         </span>
       </div>
     </div>
@@ -384,14 +409,29 @@ const filteredPublications = computed(() => {
           :is-current="!!(term.official_concept?.source && isCurrent(term.official_concept.source))"
           :is-superseded="!!(term.official_concept?.source && isSuperseded(term.official_concept.source))"
           :latest-check-found="term.latest_check?.found ?? null"
-          :has-near-miss="false"
+          :has-near-miss="!!(vocabGap?.near_misses?.vim || vocabGap?.near_misses?.viml)"
         />
         <div class="decision-recommendation">
           <div v-if="canPropose" class="decision-path">
-            <strong>Not in VIM/VIML.</strong> Does this term resemble anything in VIM or VIML?
+            <strong>Not in VIM/VIML.</strong>
+            <template v-if="vocabGap?.near_misses?.vim || vocabGap?.near_misses?.viml">
+              This term resembles:
+              <div class="near-miss-list">
+                <a v-if="vocabGap.near_misses.viml" :href="vocabGap.near_misses.viml.url" class="near-miss-item" target="_blank" rel="noopener">
+                  <span class="near-miss-vocab">VIML</span>
+                  {{ vocabGap.near_misses.viml.designation }}
+                  <span v-if="vocabGap.near_misses.viml.similarity" class="near-miss-sim">{{ vocabGap.near_misses.viml.similarity }}</span>
+                </a>
+                <a v-if="vocabGap.near_misses.vim" :href="vocabGap.near_misses.vim.url" class="near-miss-item" target="_blank" rel="noopener">
+                  <span class="near-miss-vocab">VIM</span>
+                  {{ vocabGap.near_misses.vim.designation }}
+                  <span v-if="vocabGap.near_misses.vim.similarity" class="near-miss-sim">{{ vocabGap.near_misses.vim.similarity }}</span>
+                </a>
+              </div>
+            </template>
+            <template v-else>No VIM/VIML near-miss found — this appears to be a unique OIML term.</template>
             <div class="decision-options">
-              <a class="decision-option" :href="`${base}proposals/?term=${term.slug}`">Adopt similar term from VIM/VIML →</a>
-              <a class="decision-option" :href="`${base}proposals/?term=${term.slug}`">Propose for V 3 →</a>
+              <a class="decision-option" :href="`${base}proposals/?term=${term.slug}`">Propose for V 1/V 2/V 3 →</a>
             </div>
           </div>
           <div v-else-if="term.official_concept?.source && isCurrent(term.official_concept.source)" class="decision-path decision-path-ok">
@@ -405,7 +445,7 @@ const filteredPublications = computed(() => {
             </div>
           </div>
           <div v-else-if="term.latest_check && !term.latest_check.found" class="decision-path">
-            <strong>Removed from {{ term.latest_check.latest_label }}.</strong> This term is no longer in the latest VIM/VIML edition.
+            <strong>Removed from {{ term.latest_check?.latest_label }}.</strong> This term is no longer in the latest VIM/VIML edition.
             <div class="decision-options">
               <a class="decision-option" :href="`${base}proposals/?term=${term.slug}`">Propose for V 1 (VIML) →</a>
               <a class="decision-option" :href="`${base}proposals/?term=${term.slug}`">Propose for V 2 (VIM) →</a>
@@ -413,6 +453,22 @@ const filteredPublications = computed(() => {
             </div>
           </div>
         </div>
+      </div>
+
+      <!-- Definition comparison: G 18 usage vs VIM/VIML authoritative -->
+      <div v-if="hasDefDivergence" class="defn-comparison">
+        <div class="defn-comparison-head">Definition comparison</div>
+        <div class="defn-comparison-grid">
+          <div class="defn-comparison-col">
+            <span class="defn-comparison-label">G 18 (from publications)</span>
+            <p class="defn-comparison-text"><DefText :text="g18Definition" /></p>
+          </div>
+          <div class="defn-comparison-col">
+            <span class="defn-comparison-label">{{ term.official_concept?.edition_label || 'VIM/VIML' }} (authoritative)</span>
+            <p class="defn-comparison-text"><DefText :text="vimDefinition" /></p>
+          </div>
+        </div>
+        <p class="defn-comparison-note">The wording differs. TC 1 should decide: update to match VIM/VIML, or document why divergence is intentional.</p>
       </div>
 
       <!-- Concept diff: what changed between cited and latest editions -->
@@ -864,6 +920,27 @@ const filteredPublications = computed(() => {
 .match-differs { background: var(--status-error-bg); color: var(--status-error-text); }
 .match-empty, .match-nobaseline { background: var(--status-neutral-bg); color: var(--status-neutral-text); }
 
+/* G 18 ID chip */
+.term-meta-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  flex-wrap: wrap;
+  margin-top: 0.3em;
+}
+.g18-chip {
+  display: inline-flex;
+  align-items: center;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 0.15em 0.5em;
+  border-radius: 9999px;
+  background: var(--color-rule-soft);
+  color: var(--color-ink-soft);
+  letter-spacing: 0.02em;
+}
+
 /* Sourcing documents in page header */
 .sourcing-docs {
   display: flex;
@@ -896,6 +973,90 @@ const filteredPublications = computed(() => {
 .sourcing-more {
   font-size: 0.76rem;
   color: var(--color-ink-muted);
+  font-style: italic;
+}
+
+/* Near-miss candidates in decision flow */
+.near-miss-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3em;
+  margin: 0.4em 0;
+}
+.near-miss-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  padding: 0.3em 0.6em;
+  border-radius: 4px;
+  background: var(--color-paper-soft);
+  border: 1px solid var(--color-rule-soft);
+  text-decoration: none;
+  font-size: 0.84rem;
+  color: var(--color-ink);
+}
+.near-miss-item:hover {
+  background: var(--color-accent-tint);
+  border-color: var(--color-accent-soft);
+}
+.near-miss-vocab {
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 0.1em 0.35em;
+  border-radius: 2px;
+  background: var(--color-accent);
+  color: #fff;
+}
+.near-miss-sim {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: var(--color-ink-muted);
+  margin-left: auto;
+}
+
+/* Definition comparison */
+.defn-comparison {
+  margin: 0.6em 0;
+  padding: 0.7em 0.9em;
+  background: var(--color-paper-soft);
+  border: 1px solid var(--color-rule-soft);
+  border-radius: 4px;
+}
+.defn-comparison-head {
+  font-size: 0.66rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-ink-muted);
+  margin-bottom: 0.4em;
+}
+.defn-comparison-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.8em;
+}
+@media (max-width: 640px) {
+  .defn-comparison-grid { grid-template-columns: 1fr; }
+}
+.defn-comparison-col {}
+.defn-comparison-label {
+  display: block;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--color-ink-muted);
+  margin-bottom: 0.2em;
+}
+.defn-comparison-text {
+  font-size: 0.84rem;
+  line-height: 1.5;
+  color: var(--color-ink);
+  margin: 0;
+}
+.defn-comparison-note {
+  font-size: 0.78rem;
+  color: var(--color-oiml-amber-deep);
+  margin: 0.5em 0 0;
   font-style: italic;
 }
 
