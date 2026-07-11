@@ -1,114 +1,28 @@
-// Single source of truth for suggested-action data across all pages.
-// Each page calls useSuggestedActions(terms) with the terms array and
-// gets back filtered views for its audience.
-//
-// Action types (from Ruby G18::Actions::Compiler):
-//   upgrade_vim / upgrade_viml — cite superseded edition (label: "Update")
-//   removed                    — not in latest edition (label: "Removed from VIM/VIML")
-//   adopt_vim / adopt_viml     — could adopt from other vocabulary
-//   harmonize                  — ≥ 2 distinct definitions
-//   standardize                — all pubs identical, ready to confirm
-//   unique                     — OIML-original, no VIM/VIML ref
-
 import { computed, type ComputedRef } from "vue";
-import { slugify, isHistoricTerm, normalizeDef } from "@/utils/term-utils";
+import {
+  type SuggestedAction,
+  type TermActionGroup,
+  PRIORITY_RANK,
+  normalizePubId,
+} from "@/composables/action-utils";
 
-export interface SuggestedAction {
-  type: string;
-  priority: string;
-  description: string;
-  publication_ids: string[];
-  vocab_ref?: Record<string, string>;
-  slug: string;
-  name: string;
-  editionsPresent?: string[];
-}
-
-export interface TermActionGroup {
-  slug: string;
-  name: string;
-  actions: SuggestedAction[];
-  priorityRank: number;
-  pubCount: number;
-  isHistoric: boolean;
-  editionsPresent: string[];
-}
-
-const PRIORITY_RANK: Record<string, number> = {
-  high: 0,
-  medium: 1,
-  info: 2,
-  low: 3,
-};
-
-// Canonical action metadata — used by every page that renders actions.
-// Pages should NOT hard-code type labels; import from here so a rename
-// (or icon swap) propagates everywhere.
-// This is the single source of truth for action types in the frontend.
-// Ruby side: lib/g18/actions/action.rb TYPES must match these keys.
-export interface ActionMeta {
-  label: string;       // short name for filter buttons, e.g. "Update VIM"
-  icon: string;        // single Unicode glyph
-  hint: string;        // one-line "what decision does TC 1 need to make?"
-  applies_to: string;  // "202X" / "2010" / "all" — MUST match EditionFilter values
-}
-export const ACTION_META: Record<string, ActionMeta> = {
-  upgrade_vim:  { label: "Update VIM ref",  icon: "↑", hint: "Cited VIM is superseded; the term exists in VIM 2012. Re-cite to current, or keep older citation with justification.", applies_to: "202X" },
-  upgrade_viml: { label: "Update VIML ref", icon: "↑", hint: "Cited VIML is superseded; the term exists in VIML 2022. Re-cite to current, or keep older citation with justification.", applies_to: "202X" },
-  removed:      { label: "Removed from VIM/VIML", icon: "⊘", hint: "Term is in the cited older edition but no longer in VIM 2012 / VIML 2022. Verify rename, reallocate, or justify retention.", applies_to: "202X" },
-  adopt_vim:    { label: "Adopt from VIM",  icon: "←", hint: "OIML-original term that VIM also defines. Consider citing VIM as authoritative source.", applies_to: "202X" },
-  adopt_viml:   { label: "Adopt from VIML", icon: "←", hint: "OIML-original term that VIML also defines. Consider citing VIML as authoritative source.", applies_to: "202X" },
-  harmonize:    { label: "Harmonize",       icon: "⇄", hint: "≥ 2 publications under this TC/SC use different definitions for the same term. Decide: merge into one, or document why divergence is intentional.", applies_to: "all" },
-  standardize:  { label: "Standardize",     icon: "≡", hint: "All citing publications already use identical wording. Batch-confirm as canonical for G 18:202X.", applies_to: "202X" },
-  unique:       { label: "OIML-original",   icon: "★", hint: "Term has no VIM/VIML reference. Confirm OIML is the authoritative source.", applies_to: "all" },
-};
-
-// Derive the type list from ACTION_META keys — no second enumeration.
-export const ACTION_TYPES = Object.keys(ACTION_META);
-export const ACTION_PRIORITIES = Object.keys(PRIORITY_RANK);
-
-export function actionMeta(type: string): ActionMeta {
-  return ACTION_META[type] || { label: type, icon: "•", hint: "", applies_to: "" };
-}
-
-// A term is "historic" when it appears only in the 2010 edition — TC 1
-// cannot act on these (2010 is published). We keep them visible in
-// worklists for completeness but visually deprioritize them.
-export function isHistoric(term: { editions_present?: string[] }): boolean {
-  return isHistoricTerm(term);
-}
-
-// True if the term has no VIM/VIML citation (an OIML-original term).
-export function isOimlOriginal(term: { kind?: string }): boolean {
-  const k = term?.kind;
-  return k === "oiml_original" || k === "undefined";
-}
-
-// Max distinct normalized definitions WITHIN A SINGLE EDITION.
-// Uses normalizeDef to strip {{id,text}} cross-reference markup so
-// "see {{3.1,measuring instrument}}" compares equal to "see measuring instrument".
-export function maxWithinEditionDistinctDefs(pubs: any[]): number {
-  const byEd: Record<string, Set<string>> = {};
-  for (const p of pubs) {
-    const d = normalizeDef(p?.definition || "");
-    if (!d) continue;
-    const ed = p.edition || "(unspecified)";
-    if (!byEd[ed]) byEd[ed] = new Set();
-    byEd[ed].add(d);
-  }
-  return Math.max(0, ...Object.values(byEd).map(s => s.size));
-}
-
-export function normalizePubId(id: string): string {
-  return (id || "")
-    .replace(/OIML\s+([RDGB])\s*/i, "OIML $1")
-    .replace(/\s+/g, " ")
-    .trim();
-}
-
-export function slugifyPubId(id: string): string {
-  return slugify(id);
-}
+// Re-export for backward compatibility — existing imports from
+// useSuggestedActions continue to work.
+export {
+  type SuggestedAction,
+  type TermActionGroup,
+  type ActionMeta,
+  ACTION_META,
+  ACTION_TYPES,
+  ACTION_PRIORITIES,
+  PRIORITY_RANK,
+  actionMeta,
+  isHistoric,
+  isOimlOriginal,
+  maxWithinEditionDistinctDefs,
+  normalizePubId,
+  slugifyPubId,
+} from "@/composables/action-utils";
 
 export function useSuggestedActions(terms: any[]) {
   const allActions: ComputedRef<SuggestedAction[]> = computed(() => {
@@ -132,12 +46,6 @@ export function useSuggestedActions(terms: any[]) {
     return map;
   });
 
-  // Group actions by term slug. Each group carries the highest-priority rank
-  // across its actions (so a term with both a `removed:high` and a
-  // `harmonize:low` action sorts as `high`). pubCount is the UNION of
-  // publication_ids across actions (a pub cited by both `removed` and
-  // `harmonize` counts once, not twice). Historic (2010-only) terms are
-  // flagged so pages can deprioritize their rows.
   const byTerm: ComputedRef<TermActionGroup[]> = computed(() => {
     const map: Record<string, TermActionGroup & { _allPubIds: Set<string> }> = {};
     for (const a of allActions.value) {
@@ -164,7 +72,6 @@ export function useSuggestedActions(terms: any[]) {
       ...rest,
       pubCount: _allPubIds.size,
     })).sort((a, b) => {
-      // Historic terms sink below non-historic at same priority.
       if (a.isHistoric !== b.isHistoric) return a.isHistoric ? 1 : -1;
       if (a.priorityRank !== b.priorityRank) return a.priorityRank - b.priorityRank;
       return a.name.localeCompare(b.name);
