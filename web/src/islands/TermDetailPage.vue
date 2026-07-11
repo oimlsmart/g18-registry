@@ -8,6 +8,7 @@ import SLink from "@/components/SLink.vue";
 import DefText from "@/components/DefText.vue";
 import ConceptBody from "@/components/ConceptBody.vue";
 import ConceptDiffView from "@/components/ConceptDiffView.vue";
+import DecisionFlowSVG from "@/components/DecisionFlowSVG.vue";
 import { kindLabel, normalizeDef, isHistoricTerm, groupProvenance, provenanceLabel as provLabel } from "@/utils/term-utils";
 
 const props = defineProps<{ slug: string }>();
@@ -320,8 +321,16 @@ const filteredPublications = computed(() => {
       <p class="lede">
         <span :class="['kind', `kind-${term.kind}`]">{{ kindLabel(term.kind) }}</span>
         <span v-if="matchStatus" :class="['match-status', `match-status-${matchStatus.key}`]">{{ matchStatus.label }}</span>
-        G 18 #{{ term.identifier }} · {{ term.publications.length }} instances
       </p>
+      <!-- Originating documents: show which OIML publications use this term -->
+      <div class="sourcing-docs">
+        <span class="sourcing-label">Used in</span>
+        <SLink v-for="p in [...new Set(term.publications.map((pub: any) => pub.publication_id))].slice(0, 6)" :key="p"
+               :to="`/publications/${slugifyPubId(p)}/`" class="sourcing-doc">{{ p }}</SLink>
+        <span v-if="[...new Set(term.publications.map((pub: any) => pub.publication_id))].length > 6" class="sourcing-more">
+          +{{ [...new Set(term.publications.map((pub: any) => pub.publication_id))].length - 6 }} more
+        </span>
+      </div>
     </div>
 
     <!-- Proposal CTA: shown for OIML-original terms (no VIM/VIML definition) -->
@@ -366,17 +375,41 @@ const filteredPublications = computed(() => {
       </div>
     </div>
 
-    <section class="card" v-if="showConceptCard">
-      <!-- ACTION FIRST: what TC 1 should do -->
-      <div v-if="conceptActions.length" class="concept-action-box">
-        <h2>What TC 1 should do</h2>
-        <div class="concept-action-items">
-          <div v-for="(a, i) in conceptActions" :key="i" :class="['concept-action-item', `concept-action-priority-${a.priority}`]">
-            <span class="concept-action-number">{{ i + 1 }}</span>
-            <div class="concept-action-content">
-              <div class="concept-action-title">{{ a.title }}</div>
-              <div class="concept-action-detail">{{ a.detail }}</div>
-              <a v-if="a.link" class="concept-action-link" :href="a.link">{{ a.label }}</a>
+    <section class="card" v-if="showConceptCard || canPropose">
+      <!-- DECISION FLOW: visual tree + recommendation -->
+      <div class="decision-box">
+        <h2>Decision flow</h2>
+        <DecisionFlowSVG
+          :kind="term.kind"
+          :is-current="!!(term.official_concept?.source && isCurrent(term.official_concept.source))"
+          :is-superseded="!!(term.official_concept?.source && isSuperseded(term.official_concept.source))"
+          :latest-check-found="term.latest_check?.found ?? null"
+          :has-near-miss="false"
+        />
+        <div class="decision-recommendation">
+          <div v-if="canPropose" class="decision-path">
+            <strong>Not in VIM/VIML.</strong> Does this term resemble anything in VIM or VIML?
+            <div class="decision-options">
+              <a class="decision-option" :href="`${base}proposals/?term=${term.slug}`">Adopt similar term from VIM/VIML →</a>
+              <a class="decision-option" :href="`${base}proposals/?term=${term.slug}`">Propose for V 3 →</a>
+            </div>
+          </div>
+          <div v-else-if="term.official_concept?.source && isCurrent(term.official_concept.source)" class="decision-path decision-path-ok">
+            <strong>Citation is up to date.</strong> Nothing to do — this term cites the latest VIM/VIML edition.
+          </div>
+          <div v-else-if="term.latest_check?.found" class="decision-path">
+            <strong>Citation is outdated.</strong> The term exists in {{ term.latest_check?.latest_label }} but publications cite an older edition.
+            <div class="decision-options">
+              <a v-if="term.latest_check?.url" class="decision-option" :href="term.latest_check.url">View {{ term.latest_check?.latest_label }} concept ↗</a>
+              <a class="decision-option" :href="`${base}proposals/?term=${term.slug}`">Propose →</a>
+            </div>
+          </div>
+          <div v-else-if="term.latest_check && !term.latest_check.found" class="decision-path">
+            <strong>Removed from {{ term.latest_check.latest_label }}.</strong> This term is no longer in the latest VIM/VIML edition.
+            <div class="decision-options">
+              <a class="decision-option" :href="`${base}proposals/?term=${term.slug}`">Propose for V 1 (VIML) →</a>
+              <a class="decision-option" :href="`${base}proposals/?term=${term.slug}`">Propose for V 2 (VIM) →</a>
+              <a class="decision-option" :href="`${base}proposals/?term=${term.slug}`">Propose for V 3 →</a>
             </div>
           </div>
         </div>
@@ -389,7 +422,7 @@ const filteredPublications = computed(() => {
       <div class="concept-evidence">
         <div class="concept-evidence-head">
           <h3>Evidence — VIM / VIML concept</h3>
-          <a v-if="term.official_concept.url" class="external" :href="term.official_concept.url" style="font-size:0.85em">view on vocab site ↗</a>
+          <a v-if="term.official_concept?.url" class="external" :href="term.official_concept.url" style="font-size:0.85em">view on vocab site ↗</a>
         </div>
 
         <!-- Language toggle (shown when eng + fra both available) -->
@@ -563,7 +596,7 @@ const filteredPublications = computed(() => {
 
     <section class="card" id="pub-instances">
       <div class="card-head">
-        <h2>Publication instances</h2>
+        <h2>Reference — definitions used across publications</h2>
         <div style="display:flex;gap:1em;align-items:center;flex-wrap:wrap">
           <label><input type="checkbox" v-model="groupMode" /> Group identical</label>
           <select v-model="onlyTC" v-if="allTCs.length > 1" aria-label="Filter by TC/SC">
@@ -830,6 +863,90 @@ const filteredPublications = computed(() => {
 .match-modified { background: var(--status-warn-bg); color: var(--status-warn-text); }
 .match-differs { background: var(--status-error-bg); color: var(--status-error-text); }
 .match-empty, .match-nobaseline { background: var(--status-neutral-bg); color: var(--status-neutral-text); }
+
+/* Sourcing documents in page header */
+.sourcing-docs {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.3em 0.4em;
+  margin-top: 0.4em;
+}
+.sourcing-label {
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-ink-muted);
+  margin-right: 0.2em;
+}
+.sourcing-doc {
+  font-family: var(--font-mono);
+  font-size: 0.76rem;
+  padding: 0.1em 0.45em;
+  border-radius: 3px;
+  background: var(--color-rule-soft);
+  text-decoration: none;
+  color: var(--color-ink-soft);
+}
+.sourcing-doc:hover {
+  background: var(--color-accent-tint);
+  color: var(--color-accent);
+}
+.sourcing-more {
+  font-size: 0.76rem;
+  color: var(--color-ink-muted);
+  font-style: italic;
+}
+
+/* Decision flow box */
+.decision-box {
+  background: var(--color-accent-tint);
+  border: 1px solid var(--color-accent-soft);
+  border-radius: 6px;
+  padding: 1em 1.2em;
+  margin-bottom: 1.2em;
+}
+.decision-box h2 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0 0 0.5em;
+  color: var(--color-accent);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.decision-recommendation {
+  margin-top: 0.5em;
+}
+.decision-path {
+  font-size: 0.88rem;
+  color: var(--color-ink);
+  line-height: 1.5;
+}
+.decision-path-ok {
+  color: var(--color-green);
+}
+.decision-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  margin-top: 0.5em;
+}
+.decision-option {
+  display: inline-block;
+  padding: 0.3em 0.8em;
+  border-radius: 4px;
+  background: var(--color-accent);
+  color: #fff !important;
+  font-size: 0.82rem;
+  font-weight: 600;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.decision-option:hover {
+  background: var(--color-accent-hover);
+  text-decoration: none;
+}
 
 /* Proposal CTA for OIML-original terms */
 .proposal-cta {

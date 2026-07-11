@@ -1,27 +1,44 @@
-# TODO.user — Concept Diff Integration + How to Use Pages
+# TODO.user — Decision Flow Redesign
 
-## What the user really wants
+## The user's mental model
 
-G 18 is a **working tool** for TC 1, not a reference. The user wants:
+G 18 is NOT a vocabulary — it's a REGISTRY of how terms are used across OIML publications. Each term comes FROM specific OIML Recommendations/Documents. The VIM/VIML are the AUTHORITATIVE vocabularies. The decision flow is: "Given this term as used in these publications, what should we do about its alignment with VIM/VIML?"
 
-1. **Surfaces problems** — "Here are terms that need your attention"
-2. **Shows evidence** — concept diffs showing WHAT changed between VIM editions
-3. **Enables action** — propose, harmonize, upgrade citation
-4. **Explains itself** — "How to use" pages with SVG flow diagrams per audience
+## Decision flow (user's 3 steps)
 
-## Audiences
+```
+                    [Term used in OIML publications]
+                              |
+                    Does it cite VIM/VIML?
+                     /                    \
+                   YES (defined_in_vim/viml)    NO (oiml_original)
+                    |                            |
+              Is citation                 Resembles VIM/VIML?
+              up to date?                 /              \
+              /         \               YES               NO
+            YES          NO              |                 |
+             |            |        [Adopt similar       [Propose
+        [Nothing      [Update       term from VIM/VIML   for V 3]
+         to do]       citation      OR propose for V 3
+                      to latest     OR update to use
+                      VIM/VIML]     another term]
+                    |
+              Still in VIM/VIML?
+              /              \
+            YES               NO
+             |                 |
+        [Update will      [Propose for
+         fix it]           V 1/V 2/V 3]
+```
 
-| Audience | Goal | Primary page |
-|---|---|---|
-| TC 1 member | Audit terms, decide actions | /actions/ → term detail |
-| Publication editor | Check TC/SC publications | /publications/{slug}/ |
-| TC/SC project team | Review terms in their scope | /tc/{slug}/ |
-| General user | Look up terms, understand status | /terms/{slug}/ |
+## Step 3: Divergent definitions
+
+When multiple publications use different definitions for the same term, these serve as REFERENCE material to help the user make the Step 1/2 decisions. They are NOT the primary action target.
 
 ## Work items
 
-- [ ] 01-upgrade-glossarist-js.md — upgrade to 0.4.17 for concept diff API
-- [ ] 02-concept-diff-view.md — render diffs in concept version series (designation changes, word-level definition diffs, note/example changes)
-- [ ] 03-export-concept-diffs.md — pre-compute concept diffs in export pipeline so the frontend has structured diff data
-- [ ] 04-how-to-use-page.md — create /how-to-use/ with SVG flow diagrams for each audience
-- [ ] 05-audience-homepage.md — add audience cards to homepage linking to How to Use
+- [ ] 01-decision-flow-svg.md — SVG decision tree component for the term action box
+- [ ] 02-term-header-sourcing.md — prominently display originating documents in the page header
+- [ ] 03-action-box-restructure.md — restructure the action box to follow the decision flow
+- [ ] 04-concept-diff-comparison.md — use concept diff to compare G 18 def with VIM/VIML def
+- [ ] 05-publication-instances-as-reference.md — reframe publication instances section as reference material
