@@ -223,42 +223,48 @@ end
 # terms that don't have an `official_concept` URN). Returns near-miss
 # candidates for both vocabularies so the gap-analysis page can suggest
 # Propose-for-VIM / Propose-for-VIML / Propose-for-V3.
-def check_vocab_presence(term_name, latest_indices)
+def check_vocab_presence(term_name, latest_indices, latest_full_concepts = {})
   result = { "vim" => nil, "viml" => nil }
   return result unless term_name
   %w[vim viml].each do |vocab|
     idx = latest_indices[vocab.to_sym] || latest_indices[vocab]
     next unless idx&.any?
+    full = latest_full_concepts[vocab.to_sym] || latest_full_concepts[vocab] || {}
     lookup = term_name.to_s.downcase.strip
     if idx.key?(lookup)
       info = LATEST_DATASETS[vocab.to_sym]
       entry = idx[lookup]
-      result[vocab] = {
-        found: true,
-        match_type: "exact",
-        designation: term_name,
-        concept_id: entry[:id],
-        definition: entry[:definition],
-        latest_label: info[:label],
-        url: "https://www.oimlsmart.org/vocab/dataset/#{info[:dir]}/concept/#{entry[:id]}",
-      }
+      full_concept = full[entry[:id]]
+      result[vocab] = build_vocab_match(entry, full_concept, info, term_name, "exact")
     else
       m = G18::FuzzyMatch.match(term_name, idx)
       next unless m
       info = LATEST_DATASETS[vocab.to_sym]
-      result[vocab] = {
-        found: false,
-        match_type: "fuzzy",
-        designation: m[:designation],
-        concept_id: m[:entry][:id],
-        definition: m[:entry][:definition],
-        similarity: m[:similarity].round(3),
-        latest_label: info[:label],
-        url: "https://www.oimlsmart.org/vocab/dataset/#{info[:dir]}/concept/#{m[:entry][:id]}",
-      }
+      full_concept = full[m[:entry][:id]]
+      result[vocab] = build_vocab_match(m[:entry], full_concept, info, m[:designation], "fuzzy", m[:similarity])
     end
   end
   result
+end
+
+def build_vocab_match(entry, full_concept, info, designation, match_type, similarity = nil)
+  eng = full_concept&.dig("eng") || full_concept&.values&.first
+  match = {
+    "found" => match_type == "exact",
+    "match_type" => match_type,
+    "designation" => designation,
+    "concept_id" => entry[:id],
+    "definition" => entry[:definition],
+    "latest_label" => info[:label],
+    "url" => "https://www.oimlsmart.org/vocab/dataset/#{info[:dir]}/concept/#{entry[:id]}",
+  }
+  match["similarity"] = similarity.round(3) if similarity
+  if eng
+    match["notes"] = eng["notes"] || []
+    match["examples"] = eng["examples"] || []
+    match["designations"] = eng["designations"] || []
+  end
+  match
 end
 
 # ── Publications ──────────────────────────────────────────────────────────
@@ -399,7 +405,7 @@ Dir.glob(File.join(options[:data_dir], "*.yaml")).sort.each do |path|
   # Backward compat: accept legacy "undefined" value too.
   is_oiml_original = data["kind"] == "oiml_original" || data["kind"] == "undefined"
   vocab_presence = is_oiml_original ?
-    check_vocab_presence(data["term"], latest_indices) : nil
+    check_vocab_presence(data["term"], latest_indices, latest_full_concepts) : nil
   # Collect vocab gap data during the main scan (avoids a second pass).
   if is_oiml_original && data["term"]
     gap_pubs = (data["publications"] || []).map do |p|
@@ -498,6 +504,7 @@ Dir.glob(File.join(options[:data_dir], "*.yaml")).sort.each do |path|
       )
     end,
     "related" => render_stem_deep(hash["related"] || []),
+    "vocab_presence" => vocab_presence,
   }
   terms << term
 end

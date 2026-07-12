@@ -580,6 +580,37 @@ const filteredPublications = computed(() => {
         </div>
       </div>
 
+      <!-- VIM/VIML concept comparison: full concept content for OIML-original terms with near-miss -->
+      <div v-if="term.vocab_presence?.viml || term.vocab_presence?.vim" class="vocab-concept-comparison">
+        <div class="vocab-concept-comparison-head">V 1/V 2 concept — compare before proposing</div>
+        <div class="vocab-concept-grid">
+          <div v-if="term.vocab_presence?.viml" class="vocab-concept-card vocab-concept-viml">
+            <div class="vocab-concept-badge">V 1 — {{ term.vocab_presence.viml.latest_label }}</div>
+            <div class="vocab-concept-designation">{{ term.vocab_presence.viml.designation }}</div>
+            <DefText v-if="term.vocab_presence.viml.definition" :text="term.vocab_presence.viml.definition" class="vocab-concept-def" />
+            <ul v-if="term.vocab_presence.viml.notes?.length" class="vocab-concept-notes">
+              <li v-for="(n, i) in term.vocab_presence.viml.notes" :key="i"><DefText :text="n" /></li>
+            </ul>
+            <ul v-if="term.vocab_presence.viml.examples?.length" class="vocab-concept-examples">
+              <li v-for="(e, i) in term.vocab_presence.viml.examples" :key="i"><em>EXAMPLE:</em> <DefText :text="e" /></li>
+            </ul>
+            <a :href="term.vocab_presence.viml.url" class="vocab-concept-link" target="_blank" rel="noopener">View full concept ↗</a>
+          </div>
+          <div v-if="term.vocab_presence?.vim" class="vocab-concept-card vocab-concept-vim">
+            <div class="vocab-concept-badge">V 2 — {{ term.vocab_presence.vim.latest_label }}</div>
+            <div class="vocab-concept-designation">{{ term.vocab_presence.vim.designation }}</div>
+            <DefText v-if="term.vocab_presence.vim.definition" :text="term.vocab_presence.vim.definition" class="vocab-concept-def" />
+            <ul v-if="term.vocab_presence.vim.notes?.length" class="vocab-concept-notes">
+              <li v-for="(n, i) in term.vocab_presence.vim.notes" :key="i"><DefText :text="n" /></li>
+            </ul>
+            <ul v-if="term.vocab_presence.vim.examples?.length" class="vocab-concept-examples">
+              <li v-for="(e, i) in term.vocab_presence.vim.examples" :key="i"><em>EXAMPLE:</em> <DefText :text="e" /></li>
+            </ul>
+            <a :href="term.vocab_presence.vim.url" class="vocab-concept-link" target="_blank" rel="noopener">View full concept ↗</a>
+          </div>
+        </div>
+      </div>
+
       <!-- Definition comparison: G 18 usage vs VIM/VIML authoritative -->
       <div v-if="hasDefDivergence" class="defn-comparison">
         <div class="defn-comparison-head">Definition comparison</div>
@@ -1688,5 +1719,90 @@ const filteredPublications = computed(() => {
 }
 .legend-item .badge {
   font-size: 0.72rem;
+}
+
+.vocab-concept-comparison {
+  margin: 1em 0;
+  padding: 0;
+}
+.vocab-concept-comparison-head {
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--color-ink-muted);
+  margin-bottom: 0.6em;
+}
+.vocab-concept-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 0.8em;
+}
+.vocab-concept-card {
+  padding: 1em 1.2em;
+  border-radius: var(--radius-card);
+  border: 1px solid var(--color-rule);
+  border-left: 4px solid;
+  background: var(--color-paper);
+}
+.vocab-concept-viml { border-left-color: var(--status-ok-border); }
+.vocab-concept-vim { border-left-color: var(--status-info-border); }
+.vocab-concept-badge {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  opacity: 0.7;
+  margin-bottom: 0.3em;
+}
+.vocab-concept-viml .vocab-concept-badge { color: var(--status-ok-text); }
+.vocab-concept-vim .vocab-concept-badge { color: var(--status-info-text); }
+.vocab-concept-designation {
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  font-weight: 500;
+  color: var(--color-ink);
+  margin-bottom: 0.5em;
+  font-style: italic;
+  letter-spacing: -0.01em;
+}
+.vocab-concept-def {
+  font-size: 0.9rem;
+  line-height: 1.55;
+  color: var(--color-ink-soft);
+  margin: 0 0 0.5em;
+}
+.vocab-concept-notes {
+  margin: 0.3em 0 0.5em;
+  padding-left: 1.2em;
+  list-style: disc;
+}
+.vocab-concept-notes li,
+.vocab-concept-examples li {
+  font-size: 0.84rem;
+  line-height: 1.45;
+  color: var(--color-ink-soft);
+  margin-bottom: 0.3em;
+}
+.vocab-concept-examples {
+  margin: 0.3em 0 0.5em;
+  padding-left: 1.2em;
+  list-style: none;
+}
+.vocab-concept-examples li em {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--color-ink-muted);
+  margin-right: 0.3em;
+}
+.vocab-concept-link {
+  display: inline-block;
+  margin-top: 0.4em;
+  font-size: 0.82rem;
+  font-weight: 600;
 }
 </style>
