@@ -117,10 +117,14 @@ module G18
       end
 
       def build_term_record(term_key, instances, bib, aliases:, vocab_dir: nil, primary_edition: nil)
-        # Sort: primary edition first, then by edition name, then by identifier.
+        # Sort: primary edition first, then prefer pure-numeric G 18 entry
+        # numbers (like "02900") over compound IDs derived from vocabulary
+        # sources (like "02251-D011"), then by identifier value.
         sorted = instances.sort_by do |e|
           edition_rank = e[:edition] == primary_edition ? 0 : 1
-          [edition_rank, e[:edition].to_s, Loaders.identifier(e[:concept]).to_s]
+          id = Loaders.identifier(e[:concept]).to_s
+          id_is_numeric = id.match?(/\A\d+\z/) ? 0 : 1
+          [edition_rank, id_is_numeric, id]
         end
         first = sorted.first
         edges = merged_edges(sorted)
