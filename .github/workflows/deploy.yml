@@ -21,6 +21,9 @@ jobs:
       # Vocab repo is checked out at $github_workspace/vocab (sibling-style
       # layout that the migrate script expects).
       VOCAB_ROOT: ${{ github.workspace }}/vocab/datasets
+      # relaton-data-oiml is checked out at $github_workspace/relaton-data-oiml.
+      # The export script reads its index-v2.yaml for TC/SC enrichment.
+      RELATON_ROOT: ${{ github.workspace }}/relaton-data-oiml
     steps:
       - uses: actions/checkout@v7
 
@@ -33,6 +36,16 @@ jobs:
         with:
           repository: oimlsmart/vocab
           path: vocab
+          ref: main
+
+      # Check out relaton-data-oiml for TC/SC committee assignments.
+      # The export script enriches each publication with its TC/SC from
+      # the relaton bibliographic data.
+      - name: Checkout relaton-data-oiml
+        uses: actions/checkout@v7
+        with:
+          repository: relaton/relaton-data-oiml
+          path: relaton-data-oiml
           ref: main
 
       - uses: pnpm/action-setup@v6
