@@ -168,19 +168,19 @@ import SLink from "@/components/SLink.vue";
         <div class="tv-label">V 1</div>
         <div class="tv-name">Future VIML</div>
         <p>Legal metrology concepts: verification, type approval, legal control of measuring instruments.</p>
-        <SLink to="/analysis/gaps/?scope=viml-match" class="tv-link">V 1 candidates →</SLink>
+        <SLink to="/analysis/gaps/?scope=v1-match" class="tv-link">V 1 candidates →</SLink>
       </div>
       <div class="target-vocab-card tv-v2">
         <div class="tv-label">V 2</div>
         <div class="tv-name">Future VIM</div>
         <p>General metrology concepts: quantity, measurement, accuracy, uncertainty. Suggestions go to JCGM.</p>
-        <SLink to="/analysis/gaps/?scope=vim-match" class="tv-link">V 2 candidates →</SLink>
+        <SLink to="/analysis/gaps/?scope=v2-match" class="tv-link">V 2 candidates →</SLink>
       </div>
       <div class="target-vocab-card tv-v3">
         <div class="tv-label">V 3</div>
         <div class="tv-name">OIML-specific</div>
         <p>A new vocabulary for terms unique to OIML publications — not in VIM or VIML. Load cell, dosimeter, pressure gauge.</p>
-        <SLink to="/analysis/gaps/?scope=no-match" class="tv-link">V 3 candidates →</SLink>
+        <SLink to="/analysis/gaps/?scope=v3-match" class="tv-link">V 3 candidates →</SLink>
       </div>
     </div>
   </section>

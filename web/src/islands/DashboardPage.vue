@@ -60,19 +60,19 @@ const divergentCount = terms.filter(t => maxWithinEditionDistinctDefs(t.publicat
         <div class="target-label">V 1</div>
         <div class="target-title">Future VIML</div>
         <p>Concepts proposed for the next edition of the International Vocabulary of Legal Metrology.</p>
-        <SLink to="/analysis/gaps/?scope=viml-match" class="target-link">{{ gapsVimlNearMiss }} candidates with VIML near-miss →</SLink>
+        <SLink to="/analysis/gaps/?scope=v1-match" class="target-link">{{ gapsVimlNearMiss }} candidates with VIML near-miss →</SLink>
       </div>
       <div class="target-card target-v2">
         <div class="target-label">V 2</div>
         <div class="target-title">Future VIM</div>
         <p>Concepts proposed for the next edition of the International Vocabulary of Metrology. Suggestions go to JCGM.</p>
-        <SLink to="/analysis/gaps/?scope=vim-match" class="target-link">{{ gapsVimNearMiss }} candidates with VIM near-miss →</SLink>
+        <SLink to="/analysis/gaps/?scope=v2-match" class="target-link">{{ gapsVimNearMiss }} candidates with VIM near-miss →</SLink>
       </div>
       <div class="target-card target-v3">
         <div class="target-label">V 3</div>
         <div class="target-title">OIML-specific terminology</div>
         <p>A new concept dataset for terms unique to OIML publications — not in VIM or VIML. Terms like "load cell", "dosimeter", "pressure gauge".</p>
-        <SLink to="/analysis/gaps/?scope=no-match" class="target-link">{{ gapsNoMatch }} candidates →</SLink>
+        <SLink to="/analysis/gaps/?scope=v3-match" class="target-link">{{ gapsNoMatch }} candidates →</SLink>
       </div>
     </div>
   </section>
