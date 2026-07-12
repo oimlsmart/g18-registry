@@ -54,18 +54,19 @@ const withDefinition = terms.filter(t => {
 
 <template>
   <div class="page-head">
-    <div class="breadcrumb"><SLink to="/">Registry</SLink> / <SLink to="/g18/editions/">G 18</SLink> / <span>Digital</span></div>
-    <h1>G 18:digital preview</h1>
+    <div class="breadcrumb"><SLink to="/">Registry</SLink> / <SLink to="/g18/editions/">G 18</SLink> / <span>Dynamic</span></div>
+    <h1>G 18:dynamic</h1>
     <p class="lede">
-      Auto-generated from the concept data. When published, G 18:digital will be a
-      live artifact — no manual compilation needed.
+      A live document, auto-generated from the concept registry. Unlike the
+      statically published editions, G 18:dynamic reflects the current state of
+      harmonized terminology at all times — no manual compilation cycle.
     </p>
   </div>
 
   <div class="admonition" style="background: var(--status-info-bg); border-color: var(--status-info-border); color: var(--status-info-text); margin-bottom: 1.2em;">
     <strong>Vision:</strong> When developing a future SMART Recommendation, specification
     of a term in Part 1 would retrieve the agreed definition from the agreed vocabulary.
-    G 18:digital makes this possible by maintaining a live concept registry.
+    G 18:dynamic makes this possible by maintaining a live concept registry.
   </div>
 
   <section class="grid grid-4">
