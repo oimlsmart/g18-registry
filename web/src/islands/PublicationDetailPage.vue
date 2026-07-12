@@ -93,7 +93,16 @@ const pubActionTermSlugs = computed(() => new Set(pubActions.value.map(a => a.sl
 const pubActionTermCount = computed(() => pubActionTermSlugs.value.size);
 
 const actionTerms = computed(() => terms.filter(t => pubActionTermSlugs.value.has(t.slug)));
-const cleanTerms = computed(() => filteredPubTerms.value.filter(t => !pubActionTermSlugs.value.has(t.slug)));
+
+const isOimlSpecific = (t: any) => t.kind === "oiml_original" || t.kind === "undefined";
+
+const alignedTerms = computed(() =>
+  filteredPubTerms.value.filter(t => !pubActionTermSlugs.value.has(t.slug) && !isOimlSpecific(t))
+);
+
+const v3CandidateTerms = computed(() =>
+  filteredPubTerms.value.filter(t => !pubActionTermSlugs.value.has(t.slug) && isOimlSpecific(t))
+);
 
 // Edition counts for the toggle UI (so users see "202X: 7 · 2010: 119 · All: 126")
 const editionCounts = computed(() => {
@@ -239,15 +248,15 @@ const actionTypesPresent = computed(() => {
       <div class="prov-grid">
         <div class="prov-tile prov-tile-warn">
           <div class="prov-tile-num">{{ pubActionTermCount }}</div>
-          <div class="prov-tile-label">Terms in {{ pub.reference || pub.id }} needing action ({{ editionFilter === "all" ? "all editions" : editionFilter }})</div>
+          <div class="prov-tile-label">Terms needing action ({{ editionFilter === "all" ? "all editions" : editionFilter }})</div>
+        </div>
+        <div class="prov-tile prov-tile-v3">
+          <div class="prov-tile-num">{{ v3CandidateTerms.length }}</div>
+          <div class="prov-tile-label">OIML-specific — V 3 candidates</div>
         </div>
         <div class="prov-tile">
-          <div class="prov-tile-num">{{ cleanTerms.length }}</div>
-          <div class="prov-tile-label">Terms clean (no action)</div>
-        </div>
-        <div class="prov-tile">
-          <div class="prov-tile-num">{{ filteredPubTerms.length }}</div>
-          <div class="prov-tile-label">Total terms cited ({{ editionFilter === "all" ? "all editions" : editionFilter }})</div>
+          <div class="prov-tile-num">{{ alignedTerms.length }}</div>
+          <div class="prov-tile-label">Aligned with V 1/V 2</div>
         </div>
       </div>
 
@@ -307,19 +316,41 @@ const actionTypesPresent = computed(() => {
       </div>
     </section>
 
-    <!-- Clean terms -->
-    <section v-if="cleanTerms.length" class="card">
-      <h2>Clean terms in {{ pub.reference || pub.id }} ({{ cleanTerms.length }})</h2>
-      <p class="lede">No action needed — these terms match the authoritative baseline.</p>
+    <!-- Aligned with V 1/V 2 -->
+    <section v-if="alignedTerms.length" class="card">
+      <h2>Aligned with V 1/V 2 ({{ alignedTerms.length }})</h2>
+      <p class="lede">These terms cite VIM or VIML and have no citation defects.</p>
       <div class="table-scroll">
         <table>
-          <thead><tr><th>Term</th><th>VIM</th><th>Clause</th><th>Definition</th></tr></thead>
+          <thead><tr><th>Term</th><th>Source</th><th>Clause</th><th>Definition</th></tr></thead>
           <tbody>
-            <tr v-for="t in cleanTerms" :key="t.slug">
+            <tr v-for="t in alignedTerms" :key="t.slug">
               <td class="term-cell"><SLink :to="`/concepts/${t.slug}/`">{{ t.name }}</SLink></td>
               <td><span :class="['kind', `kind-${t.kind}`]">{{ kindLabel(t.kind) }}</span></td>
               <td><code>{{ pubInstanceForEdition(t)?.clause || '—' }}</code></td>
               <td style="max-width:540px">{{ pubInstanceForEdition(t)?.definition }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- OIML-specific: V 3 candidates -->
+    <section v-if="v3CandidateTerms.length" class="card">
+      <h2>OIML-specific — V 3 candidates ({{ v3CandidateTerms.length }})</h2>
+      <p class="lede">
+        These terms are not in VIM or VIML. They are candidates for the future
+        V 3 vocabulary (OIML-specific terminology).
+      </p>
+      <div class="table-scroll">
+        <table>
+          <thead><tr><th>Term</th><th>Clause</th><th>Definition</th><th></th></tr></thead>
+          <tbody>
+            <tr v-for="t in v3CandidateTerms" :key="t.slug">
+              <td class="term-cell"><SLink :to="`/concepts/${t.slug}/`">{{ t.name }}</SLink></td>
+              <td><code>{{ pubInstanceForEdition(t)?.clause || '—' }}</code></td>
+              <td style="max-width:400px">{{ pubInstanceForEdition(t)?.definition }}</td>
+              <td><SLink :to="`/analysis/gaps/?scope=v3-match&term=${t.slug}`" class="pub-propose-link">Propose →</SLink></td>
             </tr>
           </tbody>
         </table>
@@ -351,5 +382,11 @@ const actionTypesPresent = computed(() => {
 @media (max-width: 600px) {
   .action-type-list li { grid-template-columns: auto 1fr; }
   .action-type-list li .muted:last-child { grid-column: 1 / -1; }
+}
+
+.pub-propose-link {
+  font-size: 0.82rem;
+  font-weight: 600;
+  white-space: nowrap;
 }
 </style>

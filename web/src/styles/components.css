@@ -497,6 +497,7 @@ tbody tr:hover { background: var(--color-accent-tint); }
   border-left: 3px solid var(--color-accent);
 }
 .prov-tile-warn { border-left-color: var(--status-warn-border); }
+.prov-tile-v3 { border-left-color: var(--status-info-border); }
 .prov-tile-num {
   font-family: var(--font-display);
   font-size: 1.75rem;
@@ -508,6 +509,7 @@ tbody tr:hover { background: var(--color-accent-tint); }
   font-variation-settings: "opsz" 96, "SOFT" var(--display-soft, 30), "WONK" var(--display-wonk, 0);
 }
 .prov-tile-warn .prov-tile-num { color: var(--status-warn-text); }
+.prov-tile-v3 .prov-tile-num { color: var(--status-info-text); }
 .prov-tile-label {
   font-size: 0.72rem;
   color: var(--color-ink-muted);
