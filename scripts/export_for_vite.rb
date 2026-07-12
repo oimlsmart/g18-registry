@@ -246,7 +246,7 @@ def check_vocab_presence(term_name, latest_indices)
     else
       m = G18::FuzzyMatch.match(term_name, idx)
       next unless m
-      info = LATEST_DATASETS[vocab]
+      info = LATEST_DATASETS[vocab.to_sym]
       result[vocab] = {
         found: false,
         match_type: "fuzzy",
