@@ -34,8 +34,6 @@ const filtered = computed(() => {
   return [...t].sort((a, b) => (a.name || "").localeCompare(b.name || ""));
 });
 
-import { ref } from "vue";
-
 const pagination = usePagination(filtered, {
   pageSize: 50,
   dep: () => `${search.value}|${vocabFilter.value}`,
