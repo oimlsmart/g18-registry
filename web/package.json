@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
+    "data:export": "cd .. && ruby scripts/export_for_vite.rb",
     "dev": "astro dev",
+    "prebuild": "pnpm data:export",
     "build": "astro build",
     "preview": "astro preview",
     "test": "vitest run",
