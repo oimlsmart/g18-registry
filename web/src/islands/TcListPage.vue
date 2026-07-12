@@ -3,6 +3,7 @@ import { computed, ref } from "vue";
 import tcData from "@/data/tc.json";
 import terms from "@/data/terms.json";
 import publicationsData from "@/data/publications.json";
+import { slugifyPubId } from "@/composables/useSuggestedActions";
 import SLink from "@/components/SLink.vue";
 
 type EditionFilter = "202X" | "2010" | "all";
@@ -122,7 +123,7 @@ function slug(name: string) {
   <div v-if="showUnassigned && unassignedPubs.length" class="unassigned-list">
     <ul class="unassigned-pubs">
       <li v-for="pid in unassignedPubs" :key="pid">
-        <SLink :to="`/publications/${pid.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '')}/`">{{ pid }}</SLink>
+        <SLink :to="`/publications/${slugifyPubId(pid)}/`">{{ pid }}</SLink>
       </li>
     </ul>
   </div>

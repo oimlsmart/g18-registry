@@ -1,0 +1,76 @@
+name: Link check (lychee)
+
+on:
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  link-check:
+    runs-on: ubuntu-latest
+    env:
+      VOCAB_ROOT: ${{ github.workspace }}/vocab/datasets
+      RELATON_ROOT: ${{ github.workspace }}/relaton-data-oiml
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Checkout vocab repo
+        uses: actions/checkout@v7
+        with:
+          repository: oimlsmart/vocab
+          path: vocab
+          ref: main
+
+      - name: Checkout relaton-data-oiml
+        uses: actions/checkout@v7
+        with:
+          repository: relaton/relaton-data-oiml
+          path: relaton-data-oiml
+          ref: main
+
+      - uses: pnpm/action-setup@v6
+        with:
+          version: 11
+
+      - uses: actions/setup-node@v6
+        with:
+          node-version: "24"
+          cache: pnpm
+          cache-dependency-path: web/pnpm-lock.yaml
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.4"
+          bundler-cache: true
+
+      - name: Install web dependencies
+        working-directory: web
+        run: pnpm install --frozen-lockfile
+
+      - name: Migrate concepts from vocab
+        run: bundle exec ruby scripts/migrate_from_vocab.rb
+
+      - name: Apply cached consistency classifications
+        run: bundle exec ruby scripts/check_consistency.rb
+
+      - name: Export JSON data
+        run: bundle exec ruby scripts/export_for_vite.rb
+
+      - name: Build static site
+        working-directory: web
+        run: pnpm run build
+
+      - name: Check links with lychee
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: >-
+            --no-progress
+            --only-anchors
+            --base
+            ${{ github.workspace }}/web/dist
+            '${{ github.workspace }}/web/dist/**/*.html'
+          fail: true
