@@ -21,7 +21,7 @@ module G18
 
       # Deterministic UUID v5-style identifier from a stable name.
       # Same name always produces the same UUID; migration is reproducible.
-      def deterministic_uuid(name, namespace: "g18-registry-term")
+      def deterministic_uuid(name, namespace: "concepts-management-term")
         sha1 = Digest::SHA1.digest("#{namespace}:#{name}")
         sha1 = sha1.dup
         sha1.setbyte(6, (sha1.getbyte(6) & 0x0F) | 0x50)

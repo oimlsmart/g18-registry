@@ -162,5 +162,5 @@ export function composeIssueUrl(draft: ProposalDraft, body: string): string {
     "title": title,
     "body": body,
   });
-  return `https://github.com/oimlsmart/g18-registry/issues/new?${params.toString()}`;
+  return `https://github.com/oimlsmart/concepts-management/issues/new?${params.toString()}`;
 }

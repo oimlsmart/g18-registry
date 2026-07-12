@@ -13,7 +13,7 @@ oimlsmart/vocab (read-only)
               │
               │ Ruby migration (scripts/migrate_from_vocab.rb)
               ▼
-g18-registry (this repo)
+concepts-management (this repo)
   ├─ data/                  ← per-term YAML (committed; migration output)
   ├─ web/                   ← Vue 3 + vite-ssg frontend
   │   ├─ src/

@@ -113,7 +113,7 @@ describe("useGapProposal", () => {
       const draft: ProposalDraft = { gap: mockGap, target: "V3", rationale: "test" };
       const body = await composeIssueBody(draft);
       const url = composeIssueUrl(draft, body);
-      expect(url).toContain("github.com/oimlsmart/g18-registry/issues/new");
+      expect(url).toContain("github.com/oimlsmart/concepts-management/issues/new");
       expect(url).toContain("title=");
       expect(url).toContain("body=");
     });

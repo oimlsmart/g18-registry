@@ -5,7 +5,7 @@ import { fileURLToPath, URL } from "node:url";
 
 export default defineConfig({
   site: "https://www.oimlsmart.org",
-  base: "/g18-registry/",
+  base: "/concepts-management/",
   integrations: [vue()],
   redirects: {
     "/vocab-gaps": "/proposals",
