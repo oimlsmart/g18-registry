@@ -9,6 +9,7 @@ export default defineConfig({
   integrations: [vue()],
   redirects: {
     "/vocab-gaps": "/analysis/gaps",
+    "/leaderboard": "/analysis/divergence",
     "/proposals": "/analysis/gaps",
     "/actions": "/analysis/actions",
     "/harmonization": "/analysis/designations",
