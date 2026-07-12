@@ -40,7 +40,7 @@ const editionCounts = computed(() => {
     <p class="lede">
       A single G 18 identifier assigned to two semantically <em>different</em> concepts.
       These are distinct from
-      <SLink to="/harmonization/">definition conflicts</SLink>,
+      <SLink to="/analysis/designations/">definition conflicts</SLink>,
       where the <em>same</em> concept has divergent definitions across publications.
     </p>
   </div>
@@ -95,7 +95,7 @@ const editionCounts = computed(() => {
           <td><code>{{ c.id }}</code></td>
           <td>
             <div v-for="con in c.concepts" :key="con.designation + con.source" class="conflict-concept">
-              <SLink :to="`/terms/${slugify(con.designation)}/`"><strong>{{ con.designation }}</strong></SLink>
+              <SLink :to="`/concepts/${slugify(con.designation)}/`"><strong>{{ con.designation }}</strong></SLink>
               <span class="muted"> — <SLink v-if="con.source" :to="`/publications/${slugifyPubId(con.source)}/`">{{ con.source }}</SLink> <code>{{ con.raw_id }}</code></span>
             </div>
           </td>
@@ -113,7 +113,7 @@ const editionCounts = computed(() => {
       <li>The 2010 dataset uses the <code>&lt;id&gt;a</code>/<code>&lt;id&gt;b</code> suffix convention (e.g. <code>00474a</code> / <code>00474b</code>) to disambiguate.</li>
       <li>The 202X dataset uses a publication-derived suffix (<code>&lt;id&gt;-RXXX-N</code>, e.g. <code>02344-R049-1</code> / <code>02344-R099-1</code>) — the underlying G 18 number is still shared and needs editorial reallocation.</li>
       <li>Both styles are dataset workarounds, not published conventions.</li>
-      <li>For the related problem of one concept cited under many IDs, see the <SLink to="/harmonization/">harmonisation worklist</SLink>.</li>
+      <li>For the related problem of one concept cited under many IDs, see the <SLink to="/analysis/designations/">harmonisation worklist</SLink>.</li>
     </ul>
   </section>
 </template>

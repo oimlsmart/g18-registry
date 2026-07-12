@@ -26,7 +26,7 @@ const top = computed(() => (terms as any[])
       <tbody>
         <tr v-for="(t, i) in top" :key="t.slug">
           <td class="num">{{ i + 1 }}</td>
-          <td><SLink :to="`/terms/${t.slug}/`">{{ t.name }}</SLink></td>
+          <td><SLink :to="`/concepts/${t.slug}/`">{{ t.name }}</SLink></td>
           <td><span :class="['kind', `kind-${t.kind}`]">{{ kindLabel(t.kind) }}</span></td>
           <td class="num">{{ t.publications.length }}</td>
           <td class="num"><span class="divergence-count">{{ t.distinct }}</span></td>

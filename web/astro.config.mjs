@@ -8,7 +8,12 @@ export default defineConfig({
   base: "/concepts-management/",
   integrations: [vue()],
   redirects: {
-    "/vocab-gaps": "/proposals",
+    "/vocab-gaps": "/analysis/gaps",
+    "/proposals": "/analysis/gaps",
+    "/actions": "/analysis/actions",
+    "/harmonization": "/analysis/designations",
+    "/conflicts": "/g18/conflicts",
+    "/editions": "/g18/editions",
   },
   vite: {
     plugins: [tailwindcss()],

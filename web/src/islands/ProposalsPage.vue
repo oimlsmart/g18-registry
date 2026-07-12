@@ -200,7 +200,7 @@ function nearMissText(nm: any): string {
         </thead>
         <tbody>
           <tr v-for="g in pagination.visible.value" :key="g.slug">
-            <td class="term-cell"><SLink :to="`/terms/${g.slug}/`">{{ g.name }}</SLink></td>
+            <td class="term-cell"><SLink :to="`/concepts/${g.slug}/`">{{ g.name }}</SLink></td>
             <td>
               <div class="vocab-gaps-nm">
                 <span v-if="g.near_misses.vim || g.near_misses.viml" class="vocab-gaps-nm-badges">
@@ -223,7 +223,7 @@ function nearMissText(nm: any): string {
     <ul class="gap-cards table-only-mobile">
       <li v-for="g in pagination.visible.value" :key="g.slug" class="gap-card">
         <div class="gap-card-top">
-          <SLink :to="`/terms/${g.slug}/`" class="gap-card-name">{{ g.name }}</SLink>
+          <SLink :to="`/concepts/${g.slug}/`" class="gap-card-name">{{ g.name }}</SLink>
           <span class="gap-card-pubs">{{ g.publications.length }} pub{{ g.publications.length === 1 ? '' : 's' }}</span>
         </div>
         <div class="gap-card-status">

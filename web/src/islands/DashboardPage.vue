@@ -80,11 +80,11 @@ const topDivergent = computed(() =>
       <h2 class="audience-name">TC 1 / Vocabularies</h2>
       <p class="audience-blurb">Validating and harmonising the draft G 18:202X edition.</p>
       <ul class="audience-links">
-        <li><SLink to="/actions/">Priority actions</SLink> <span class="muted">— worklist by urgency</span></li>
-        <li><SLink to="/harmonization/">Definition conflicts</SLink> <span class="muted">— divergent wording</span></li>
-        <li><SLink to="/conflicts/">ID conflicts</SLink> <span class="muted">— numbering errors</span></li>
-        <li><SLink to="/proposals/">Vocabulary gaps</SLink> <span class="muted">— terms not in VIM/VIML; propose V 1/V 2/V 3</span></li>
-        <li><SLink to="/editions/">Edition comparison</SLink> <span class="muted">— 2010 → 202X</span></li>
+        <li><SLink to="/analysis/actions/">Priority actions</SLink> <span class="muted">— worklist by urgency</span></li>
+        <li><SLink to="/analysis/designations/">Definition conflicts</SLink> <span class="muted">— divergent wording</span></li>
+        <li><SLink to="/g18/conflicts/">ID conflicts</SLink> <span class="muted">— numbering errors</span></li>
+        <li><SLink to="/analysis/gaps/">Vocabulary gaps</SLink> <span class="muted">— terms not in VIM/VIML; propose V 1/V 2/V 3</span></li>
+        <li><SLink to="/g18/editions/">Edition comparison</SLink> <span class="muted">— 2010 → 202X</span></li>
       </ul>
     </article>
 
@@ -103,8 +103,8 @@ const topDivergent = computed(() =>
       <h2 class="audience-name">Publication authors</h2>
       <p class="audience-blurb">Looking up authoritative term definitions for OIML work.</p>
       <ul class="audience-links">
-        <li><SLink to="/terms/">Terms</SLink> <span class="muted">— {{ terms.length }} entries with VIM/VIML status</span></li>
-        <li><SLink to="/editions/">Editions</SLink> <span class="muted">— current vs historic</span></li>
+        <li><SLink to="/concepts/">Terms</SLink> <span class="muted">— {{ terms.length }} entries with VIM/VIML status</span></li>
+        <li><SLink to="/g18/editions/">Editions</SLink> <span class="muted">— current vs historic</span></li>
       </ul>
     </article>
 
@@ -113,18 +113,18 @@ const topDivergent = computed(() =>
       <h2 class="audience-name">VIM / VIML maintainers</h2>
       <p class="audience-blurb">Checking how OIML publications cite your vocabulary.</p>
       <ul class="audience-links">
-        <li><SLink to="/terms/?only=defined_in_vim">VIM terms</SLink> <span class="muted">— citations from OIML pubs</span></li>
-        <li><SLink to="/terms/?only=defined_in_viml">VIML terms</SLink> <span class="muted">— citations from OIML pubs</span></li>
-        <li><SLink to="/actions/">Upgrade actions</SLink> <span class="muted">— superseded edition citations</span></li>
+        <li><SLink to="/concepts/?only=defined_in_vim">VIM terms</SLink> <span class="muted">— citations from OIML pubs</span></li>
+        <li><SLink to="/concepts/?only=defined_in_viml">VIML terms</SLink> <span class="muted">— citations from OIML pubs</span></li>
+        <li><SLink to="/analysis/actions/">Upgrade actions</SLink> <span class="muted">— superseded edition citations</span></li>
       </ul>
     </article>
   </section>
 
   <section class="grid grid-4 reveal reveal-2">
-    <SLink class="stat-card" to="/terms/"><div class="stat-value">{{ terms.length }}</div><div class="stat-label">unique terms</div></SLink>
-    <SLink class="stat-card" to="/harmonization/"><div class="stat-value">{{ divergentCount }}</div><div class="stat-label">divergent terms</div></SLink>
-    <SLink class="stat-card" to="/harmonization/"><div class="stat-value">{{ collisionCount }}</div><div class="stat-label">designation collisions</div></SLink>
-    <SLink class="stat-card" to="/conflicts/"><div class="stat-value">{{ rawConflictCount }}</div><div class="stat-label">ID conflicts</div></SLink>
+    <SLink class="stat-card" to="/concepts/"><div class="stat-value">{{ terms.length }}</div><div class="stat-label">unique terms</div></SLink>
+    <SLink class="stat-card" to="/analysis/designations/"><div class="stat-value">{{ divergentCount }}</div><div class="stat-label">divergent terms</div></SLink>
+    <SLink class="stat-card" to="/analysis/designations/"><div class="stat-value">{{ collisionCount }}</div><div class="stat-label">designation collisions</div></SLink>
+    <SLink class="stat-card" to="/g18/conflicts/"><div class="stat-value">{{ rawConflictCount }}</div><div class="stat-label">ID conflicts</div></SLink>
   </section>
 
   <!-- General fallback: how to use the registry -->
@@ -132,10 +132,10 @@ const topDivergent = computed(() =>
     <h2>How to use this portal</h2>
     <ol style="margin: 0; padding-left: 1.4em; line-height: 1.7;">
       <li><strong>Review priority actions below</strong> — terms needing immediate attention (outdated VIM refs, divergent definitions).</li>
-      <li><strong>Open the <SLink to="/harmonization/">harmonisation worklist</SLink></strong> — every term cited by multiple OIML publications, sorted by divergence.</li>
+      <li><strong>Open the <SLink to="/analysis/designations/">harmonisation worklist</SLink></strong> — every term cited by multiple OIML publications, sorted by divergence.</li>
       <li><strong>For each term</strong>, review the grouped definitions (identical wording is collapsed) and decide: merge into one definition, or document why divergence is intentional.</li>
       <li><strong>Check the latest edition</strong> — the registry automatically verifies whether each term still exists in VIM 2012 / VIML 2022.</li>
-      <li><strong>Filter by your TC/SC</strong> on the <SLink to="/terms/">terms page</SLink> to review only the publications your committee is responsible for.</li>
+      <li><strong>Filter by your TC/SC</strong> on the <SLink to="/concepts/">terms page</SLink> to review only the publications your committee is responsible for.</li>
       <li><strong>Submit changes</strong> to <a href="https://github.com/oimlsmart/vocab/tree/main/datasets/g18-202X"><code>oimlsmart/vocab datasets/g18-202X/</code></a>.</li>
     </ol>
   </section>
@@ -149,7 +149,7 @@ const topDivergent = computed(() =>
       <tbody>
         <tr v-for="g in priorityActions" :key="g.slug">
           <td><span class="badge" :class="priorityBadge(g.priorityRank)">{{ priorityLabel(g.priorityRank) }}</span></td>
-          <td class="term-cell"><SLink :to="`/terms/${g.slug}/`">{{ g.name }}</SLink></td>
+          <td class="term-cell"><SLink :to="`/concepts/${g.slug}/`">{{ g.name }}</SLink></td>
           <td>
             <ul class="action-mini-list">
               <li v-for="a in g.actions" :key="a.type">
@@ -161,7 +161,7 @@ const topDivergent = computed(() =>
             </ul>
           </td>
           <td class="num">{{ g.pubCount }}</td>
-          <td><SLink :to="`/terms/${g.slug}/`">Open →</SLink></td>
+          <td><SLink :to="`/concepts/${g.slug}/`">Open →</SLink></td>
         </tr>
       </tbody>
     </table>
@@ -171,7 +171,7 @@ const topDivergent = computed(() =>
   <section class="card reveal reveal-4">
     <div class="card-head">
       <h2>Most divergent terms</h2>
-      <SLink to="/harmonization/" class="muted">Full worklist →</SLink>
+      <SLink to="/analysis/designations/" class="muted">Full worklist →</SLink>
     </div>
     <div class="table-scroll">
       <table>
@@ -179,7 +179,7 @@ const topDivergent = computed(() =>
       <tbody>
         <tr v-for="(t, i) in topDivergent" :key="t.slug">
           <td class="num">{{ i + 1 }}</td>
-          <td><SLink :to="`/terms/${t.slug}/`">{{ t.name }}</SLink></td>
+          <td><SLink :to="`/concepts/${t.slug}/`">{{ t.name }}</SLink></td>
           <td><span :class="['kind', `kind-${t.kind}`]">{{ kindLabel(t.kind) }}</span></td>
           <td><span v-for="e in t.editions_present" :key="e" :class="['edition-pill', `edition-${e.toLowerCase()}`]">{{ e }}</span></td>
           <td class="num">{{ t.publications.length }}</td>
@@ -204,17 +204,17 @@ const topDivergent = computed(() =>
       </tbody>
     </table>
     </div>
-    <p style="margin-top:0.7em"><SLink to="/editions/">Full comparison →</SLink></p>
+    <p style="margin-top:0.7em"><SLink to="/g18/editions/">Full comparison →</SLink></p>
   </section>
 
   <section class="card">
     <h2>Dataset quality</h2>
     <div class="quality-grid">
-      <SLink class="quality-card" to="/conflicts/">
+      <SLink class="quality-card" to="/g18/conflicts/">
         <div class="stat-value">{{ rawConflictCount }}</div>
         <div class="quality-label"><strong>ID conflicts</strong><br /><span class="muted">Same ID → different concepts (numbering errors)</span></div>
       </SLink>
-      <SLink class="quality-card" to="/harmonization/">
+      <SLink class="quality-card" to="/analysis/designations/">
         <div class="stat-value">{{ collisionCount }}</div>
         <div class="quality-label"><strong>Designation collisions</strong><br /><span class="muted">Same concept → multiple IDs (harmonise)</span></div>
       </SLink>

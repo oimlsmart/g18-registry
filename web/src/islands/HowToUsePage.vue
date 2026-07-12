@@ -7,10 +7,10 @@ const audiences = [
     title: "TC 1 — Vocabularies committee",
     summary: "Audit G 18 terms against VIM/VIML, decide which need action, and propose changes.",
     steps: [
-      { icon: "📋", label: "Review the Actions worklist", desc: "Terms sorted by priority — start with HIGH.", page: "/actions/" },
-      { icon: "🔍", label: "Open a term", desc: "Check the action box: what TC 1 should do.", page: "/terms/adjustment/" },
+      { icon: "📋", label: "Review the Actions worklist", desc: "Terms sorted by priority — start with HIGH.", page: "/analysis/actions/" },
+      { icon: "🔍", label: "Open a term", desc: "Check the action box: what TC 1 should do.", page: "/concepts/adjustment/" },
       { icon: "📊", label: "Review the evidence", desc: "Concept diff shows what changed between VIM editions.", page: null },
-      { icon: "✅", label: "Take action", desc: "Upgrade citation, harmonize definitions, or propose for V 1/V 2/V 3.", page: "/proposals/" },
+      { icon: "✅", label: "Take action", desc: "Upgrade citation, harmonize definitions, or propose for V 1/V 2/V 3.", page: "/analysis/gaps/" },
     ],
   },
   {
@@ -29,7 +29,7 @@ const audiences = [
     title: "General users",
     summary: "Look up OIML terms and understand their relationship to VIM/VIML.",
     steps: [
-      { icon: "🔎", label: "Search for a term", desc: "Use the Terms list with search and filters.", page: "/terms/" },
+      { icon: "🔎", label: "Search for a term", desc: "Use the Terms list with search and filters.", page: "/concepts/" },
       { icon: "📖", label: "Read the concept", desc: "The concept card shows the authoritative VIM/VIML definition.", page: null },
       { icon: "🏷️", label: "Check the status", desc: "Current, superseded, or removed from VIM/VIML.", page: null },
     ],

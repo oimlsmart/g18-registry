@@ -298,7 +298,7 @@ const actionTypesPresent = computed(() => {
               <td v-if="viewMode === 'by-action'">
                 <span class="action-icon" :class="`action-icon-${r.type}`" :title="actionMeta(r.type).label">{{ actionMeta(r.type).icon }}</span>
               </td>
-              <td class="term-cell"><SLink :to="`/terms/${r.slug}/`">{{ r.name }}</SLink></td>
+              <td class="term-cell"><SLink :to="`/concepts/${r.slug}/`">{{ r.name }}</SLink></td>
               <td><code v-if="r.clause !== '—'">{{ r.clause }}</code><span v-else class="muted">—</span></td>
               <td><span class="muted" style="font-size:0.88em">{{ r.description }}</span></td>
             </tr>
@@ -316,7 +316,7 @@ const actionTypesPresent = computed(() => {
           <thead><tr><th>Term</th><th>VIM</th><th>Clause</th><th>Definition</th></tr></thead>
           <tbody>
             <tr v-for="t in cleanTerms" :key="t.slug">
-              <td class="term-cell"><SLink :to="`/terms/${t.slug}/`">{{ t.name }}</SLink></td>
+              <td class="term-cell"><SLink :to="`/concepts/${t.slug}/`">{{ t.name }}</SLink></td>
               <td><span :class="['kind', `kind-${t.kind}`]">{{ kindLabel(t.kind) }}</span></td>
               <td><code>{{ pubInstanceForEdition(t)?.clause || '—' }}</code></td>
               <td style="max-width:540px">{{ pubInstanceForEdition(t)?.definition }}</td>

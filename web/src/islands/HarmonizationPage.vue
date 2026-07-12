@@ -231,7 +231,7 @@ function collisionSummary(ed: string) {
           <thead><tr><th>Designation</th><th>VIM/VIML</th><th>Distinct IDs</th><th>Total pubs</th><th>IDs</th></tr></thead>
           <tbody>
             <tr v-for="c in (((conflictsData as any).designation_collisions || {})[ed] || []).slice(0, 30)" :key="c.designation">
-              <td><SLink :to="`/terms/${slugify(c.designation)}/`">{{ c.designation }}</SLink></td>
+              <td><SLink :to="`/concepts/${slugify(c.designation)}/`">{{ c.designation }}</SLink></td>
               <td><span v-if="termKind(c.designation)" :class="['kind', `kind-${termKind(c.designation)}`]">{{ termKind(c.designation) === 'defined_in_vim' ? 'VIM' : termKind(c.designation) === 'defined_in_viml' ? 'VIML' : '—' }}</span><span v-else class="muted">—</span></td>
               <td class="num"><strong>{{ c.ids.length }}</strong></td>
               <td class="num">{{ c.count }}</td>
@@ -270,7 +270,7 @@ function collisionSummary(ed: string) {
           <tr v-for="(t, i) in pagination.visible.value" :key="t.slug" :class="{ 'row-historic': isHistoricTerm(t) }">
             <td class="num">{{ (pagination.page.value - 1) * pagination.pageSize.value + i + 1 }}</td>
             <td class="term-cell">
-              <SLink :to="`/terms/${t.slug}/`">{{ t.name }}</SLink>
+              <SLink :to="`/concepts/${t.slug}/`">{{ t.name }}</SLink>
               <span v-if="isHistoricTerm(t)" class="badge badge-historic" title="This term exists only in the 2010 edition. TC 1 cannot act — 2010 is historic.">2010 only</span>
             </td>
             <td><span :class="['kind', `kind-${t.kind}`]">{{ kindLabel(t.kind) }}</span></td>
@@ -291,7 +291,7 @@ function collisionSummary(ed: string) {
       <li>Sort by <strong>Divergence</strong> to find terms with the most distinct definitions across publications — the highest-priority harmonisation targets.</li>
       <li>Open a term to see its definitions grouped (identical wording collapsed into one card) and decide: merge or document the divergence.</li>
       <li>Use the <strong>designation collisions</strong> table above to understand the structural scope: many terms exist under 5–28 different G 18 IDs across OIML publications.</li>
-      <li>For numbering errors (one ID → two unrelated concepts), see <SLink to="/conflicts/">ID conflicts</SLink>.</li>
+      <li>For numbering errors (one ID → two unrelated concepts), see <SLink to="/g18/conflicts/">ID conflicts</SLink>.</li>
     </ol>
   </section>
 
@@ -309,7 +309,7 @@ function collisionSummary(ed: string) {
         <thead><tr><th>Term</th><th>VIM</th><th>Unique pubs</th><th>Instances</th><th>TC/SCs</th></tr></thead>
         <tbody>
           <tr v-for="t in standardizeTerms" :key="t.slug">
-            <td><SLink :to="`/terms/${t.slug}/`">{{ t.name }}</SLink></td>
+            <td><SLink :to="`/concepts/${t.slug}/`">{{ t.name }}</SLink></td>
             <td><span :class="['kind', `kind-${t.kind}`]">{{ kindLabel(t.kind) }}</span></td>
             <td class="num">{{ t._uniquePubs }}</td>
             <td class="num">{{ t._pubs }}</td>

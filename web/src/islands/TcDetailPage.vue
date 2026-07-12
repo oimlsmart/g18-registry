@@ -265,7 +265,7 @@ function pubRef(id: string): string {
               <td v-if="viewMode !== 'alphabetical'">
                 <span class="action-icon" :class="`action-icon-${r.type}`" :title="actionMeta(r.type).label">{{ actionMeta(r.type).icon }}</span>
               </td>
-              <td class="term-cell"><SLink :to="`/terms/${r.slug}/`">{{ r.name }}</SLink></td>
+              <td class="term-cell"><SLink :to="`/concepts/${r.slug}/`">{{ r.name }}</SLink></td>
               <td v-if="viewMode === 'by-pub'">
                 <SLink v-if="r.sourcePubIds[0]" :to="`/publications/${slugifyPubId(r.sourcePubIds[0])}/`">{{ pubRef(r.sourcePubIds[0]) }}</SLink>
                 <span v-if="r.sourcePubIds.length > 1" class="muted"> +{{ r.sourcePubIds.length - 1 }}</span>
@@ -288,7 +288,7 @@ function pubRef(id: string): string {
           <thead><tr><th>Term</th><th>VIM</th><th>Instances</th><th>Action?</th></tr></thead>
           <tbody>
             <tr v-for="t in tcTerms" :key="t.slug">
-              <td class="term-cell"><SLink :to="`/terms/${t.slug}/`">{{ t.name }}</SLink></td>
+              <td class="term-cell"><SLink :to="`/concepts/${t.slug}/`">{{ t.name }}</SLink></td>
               <td><span :class="['kind', `kind-${t.kind}`]">{{ kindLabel(t.kind) }}</span></td>
               <td class="num">{{ t.publications.filter((p: any) => p.tc_sc === tcName).length }}</td>
               <td>

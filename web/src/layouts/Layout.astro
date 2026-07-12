@@ -12,20 +12,26 @@ function isActive(href: string): boolean {
 }
 
 const primaryNav = [
-  { href: "actions/", label: "Actions" },
-  { href: "proposals/", label: "Proposals" },
-  { href: "terms/", label: "Terms" },
+  { href: "concepts/", label: "Concepts" },
   { href: "publications/", label: "Publications" },
-];
-
-const moreNav = [
-  { href: "harmonization/", label: "Defn conflicts" },
-  { href: "conflicts/", label: "ID conflicts" },
   { href: "tc/", label: "TC / SC" },
-  { href: "editions/", label: "Editions" },
 ];
 
-const activeMore = moreNav.find(n => isActive(n.href));
+const analysisNav = [
+  { href: "analysis/actions/", label: "Suggested actions" },
+  { href: "analysis/gaps/", label: "Gaps" },
+  { href: "tc/", label: "By TC / SC" },
+  { href: "publications/", label: "By Publication" },
+  { href: "analysis/designations/", label: "By Designation" },
+];
+
+const g18Nav = [
+  { href: "g18/conflicts/", label: "Conflicts" },
+  { href: "g18/editions/", label: "Editions" },
+];
+
+const activeAnalysis = analysisNav.find(n => isActive(n.href));
+const activeG18 = g18Nav.find(n => isActive(n.href));
 ---
 
 <!doctype html>
@@ -81,21 +87,49 @@ const activeMore = moreNav.find(n => isActive(n.href));
               >{n.label}</a>
             ))}
 
-            <div class="relative" id="more-dropdown">
+            <!-- Analysis dropdown -->
+            <div class="relative" id="analysis-dropdown">
               <button
                 type="button"
                 class:list={["px-2.5 py-1.5 rounded transition-colors font-medium flex items-center gap-1",
-                  activeMore ? "bg-accent-tint text-accent" : "text-ink-soft hover:text-accent hover:bg-accent-tint"]}
+                  activeAnalysis ? "bg-accent-tint text-accent" : "text-ink-soft hover:text-accent hover:bg-accent-tint"]}
                 aria-haspopup="true"
-                id="more-toggle"
+                id="analysis-toggle"
               >
-                More
+                Analysis
+                {activeAnalysis && <span class="nav-subactive">{activeAnalysis.label}</span>}
                 <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                   <polyline points="6 9 12 15 18 9" />
                 </svg>
               </button>
-              <div class="more-dropdown" id="more-menu" style="display:none" role="menu">
-                {moreNav.map((n) => (
+              <div class="more-dropdown" id="analysis-menu" style="display:none" role="menu">
+                {analysisNav.map((n) => (
+                  <a
+                    class:list={["more-dropdown-item", { "more-dropdown-item-active": isActive(n.href) }]}
+                    role="menuitem"
+                    href={`${base}${n.href}`}
+                  >{n.label}</a>
+                ))}
+              </div>
+            </div>
+
+            <!-- G18 dropdown -->
+            <div class="relative" id="g18-dropdown">
+              <button
+                type="button"
+                class:list={["px-2.5 py-1.5 rounded transition-colors font-medium flex items-center gap-1",
+                  activeG18 ? "bg-accent-tint text-accent" : "text-ink-soft hover:text-accent hover:bg-accent-tint"]}
+                aria-haspopup="true"
+                id="g18-toggle"
+              >
+                G18
+                {activeG18 && <span class="nav-subactive">{activeG18.label}</span>}
+                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <polyline points="6 9 12 15 18 9" />
+                </svg>
+              </button>
+              <div class="more-dropdown" id="g18-menu" style="display:none" role="menu">
+                {g18Nav.map((n) => (
                   <a
                     class:list={["more-dropdown-item", { "more-dropdown-item-active": isActive(n.href) }]}
                     role="menuitem"
@@ -134,8 +168,13 @@ const activeMore = moreNav.find(n => isActive(n.href));
           <a class="block px-3 py-2.5 text-[15px] text-ink rounded hover:bg-accent-tint hover:text-accent hover:no-underline font-medium" href={`${base}${n.href}`}>{n.label}</a>
         ))}
         <div class="h-px bg-rule-soft my-2 mx-1"></div>
-        <span class="block px-3 py-1 text-[10.5px] uppercase tracking-[0.12em] font-semibold text-ink-muted">More</span>
-        {moreNav.map((n) => (
+        <span class="block px-3 py-1 text-[10.5px] uppercase tracking-[0.12em] font-semibold text-ink-muted">Analysis</span>
+        {analysisNav.map((n) => (
+          <a class="block px-3 py-2.5 text-[14px] text-ink-soft rounded hover:bg-accent-tint hover:text-accent hover:no-underline font-medium" href={`${base}${n.href}`}>{n.label}</a>
+        ))}
+        <div class="h-px bg-rule-soft my-2 mx-1"></div>
+        <span class="block px-3 py-1 text-[10.5px] uppercase tracking-[0.12em] font-semibold text-ink-muted">G18</span>
+        {g18Nav.map((n) => (
           <a class="block px-3 py-2.5 text-[14px] text-ink-soft rounded hover:bg-accent-tint hover:text-accent hover:no-underline font-medium" href={`${base}${n.href}`}>{n.label}</a>
         ))}
       </nav>
@@ -208,6 +247,14 @@ const activeMore = moreNav.find(n => isActive(n.href));
       [data-theme="dark"] .icon-dark { display: none; }
       [data-theme="dark"] .icon-light { display: block; }
 
+      /* Subnav active indicator — shows current page in dropdown */
+      .nav-subactive {
+        font-size: 0.68rem;
+        font-weight: 500;
+        opacity: 0.7;
+        margin-left: 0.2em;
+      }
+
       .more-dropdown {
         position: absolute;
         top: 100%;
@@ -264,23 +311,28 @@ const activeMore = moreNav.find(n => isActive(n.href));
         a.addEventListener("click", () => mobileNav.classList.add("hidden"));
       });
 
-      // More dropdown
-      const moreToggle = document.getElementById("more-toggle");
-      const moreMenu = document.getElementById("more-menu");
-      const moreDropdown = document.getElementById("more-dropdown");
-      moreToggle?.addEventListener("click", (e) => {
-        e.stopPropagation();
-        const isHidden = moreMenu?.style.display === "none";
-        if (moreMenu) moreMenu.style.display = isHidden ? "flex" : "none";
-      });
-      document.addEventListener("click", (e) => {
-        if (moreDropdown && !moreDropdown.contains(e.target as Node)) {
-          if (moreMenu) moreMenu.style.display = "none";
-        }
-      });
-      document.addEventListener("keydown", (e) => {
-        if (e.key === "Escape" && moreMenu) moreMenu.style.display = "none";
-      });
+      // Dropdown helper: handles click-toggle, outside-click, escape-key
+      function setupDropdown(toggleId, menuId, dropdownId) {
+        const toggle = document.getElementById(toggleId);
+        const menu = document.getElementById(menuId);
+        const dropdown = document.getElementById(dropdownId);
+        if (!toggle || !menu) return;
+        toggle.addEventListener("click", (e) => {
+          e.stopPropagation();
+          // Close other dropdowns
+          document.querySelectorAll(".more-dropdown").forEach(d => { if (d.id !== menuId) d.style.display = "none"; });
+          const isHidden = menu.style.display === "none";
+          menu.style.display = isHidden ? "flex" : "none";
+        });
+        document.addEventListener("click", (e) => {
+          if (dropdown && !dropdown.contains(e.target)) menu.style.display = "none";
+        });
+        document.addEventListener("keydown", (e) => {
+          if (e.key === "Escape") menu.style.display = "none";
+        });
+      }
+      setupDropdown("analysis-toggle", "analysis-menu", "analysis-dropdown");
+      setupDropdown("g18-toggle", "g18-menu", "g18-dropdown");
     </script>
   </body>
 </html>
