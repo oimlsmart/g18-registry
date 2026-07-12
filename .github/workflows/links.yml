@@ -67,16 +67,15 @@ jobs:
       # Symlink so root-absolute links (/concepts-management/...) resolve
       # correctly: web/concepts-management → web/dist
       - name: Prepare link-check structure
-        run: ln -sf web/dist web/concepts-management
+        run: ln -sf dist web/concepts-management
 
       - name: Check links with lychee
         uses: lycheeverse/lychee-action@v2
         with:
+          workingDirectory: web
           args: >-
             --no-progress
-            --base
-            ${{ github.workspace }}/web
-            --exclude
-            '^https?:'
-            '${{ github.workspace }}/web/dist/**/*.html'
+            --root-dir .
+            --exclude '^https?:'
+            'dist/**/*.html'
           fail: true
