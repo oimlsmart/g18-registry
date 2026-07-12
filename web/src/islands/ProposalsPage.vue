@@ -88,10 +88,16 @@ const scopeButtons: { val: typeof scope.value; concept: string; target: string; 
     count: vocabGaps.filter(g => !g.near_misses.vim && !g.near_misses.viml).length,
   },
   {
-    val: "any-match",
-    concept: "V 1 / V 2 candidates",
-    target: "has VIM/VIML near-miss — reconcile or relink",
-    count: vocabGaps.filter(g => g.near_misses.vim || g.near_misses.viml).length,
+    val: "viml-match",
+    concept: "V 1 candidates",
+    target: "VIML near-miss — legal metrology concept",
+    count: vocabGaps.filter(g => g.near_misses.viml).length,
+  },
+  {
+    val: "vim-match",
+    concept: "V 2 candidates",
+    target: "VIM near-miss — general metrology concept",
+    count: vocabGaps.filter(g => g.near_misses.vim).length,
   },
   {
     val: "all",
@@ -139,8 +145,8 @@ function nearMissText(nm: any): string {
       </li>
       <li>
         <strong>Find</strong> a term below that lacks a VIM/VIML definition.
-        Use the scope filter to focus on V 3 candidates (no near-miss) or
-        V 1/V 2 candidates (has a near-miss).
+        Use the scope filter to focus on V 3 candidates (no near-miss),
+        V 1 candidates (VIML near-miss), or V 2 candidates (VIM near-miss).
       </li>
       <li>
         <strong>Propose</strong> by clicking the "Propose" button on a term.

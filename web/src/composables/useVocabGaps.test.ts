@@ -52,11 +52,19 @@ describe("useVocabGaps", () => {
       }
     });
 
-    it("filters by scope = any-match (V 1/V 2 candidates)", () => {
+    it("filters by scope = viml-match (V 1 candidates)", () => {
       const { scope, filtered } = useVocabGaps();
-      scope.value = "any-match";
+      scope.value = "viml-match";
       for (const g of filtered.value.slice(0, 10)) {
-        expect(g.near_misses.vim || g.near_misses.viml).toBeTruthy();
+        expect(g.near_misses.viml).toBeTruthy();
+      }
+    });
+
+    it("filters by scope = vim-match (V 2 candidates)", () => {
+      const { scope, filtered } = useVocabGaps();
+      scope.value = "vim-match";
+      for (const g of filtered.value.slice(0, 10)) {
+        expect(g.near_misses.vim).toBeTruthy();
       }
     });
 

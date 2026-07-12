@@ -31,7 +31,7 @@ export interface VocabGap {
 
 export const vocabGaps = gapsData as unknown as VocabGap[];
 
-export type GapScope = "no-match" | "any-match" | "all";
+export type GapScope = "no-match" | "viml-match" | "vim-match" | "all";
 
 export function useVocabGaps() {
   const search = ref("");
@@ -50,8 +50,10 @@ export function useVocabGaps() {
     let list: VocabGap[] = vocabGaps;
     if (scope.value === "no-match") {
       list = list.filter(g => !g.near_misses.vim && !g.near_misses.viml);
-    } else if (scope.value === "any-match") {
-      list = list.filter(g => g.near_misses.vim || g.near_misses.viml);
+    } else if (scope.value === "viml-match") {
+      list = list.filter(g => g.near_misses.viml);
+    } else if (scope.value === "vim-match") {
+      list = list.filter(g => g.near_misses.vim);
     }
     if (tcFilter.value) {
       list = list.filter(g => g.publications.some(p => p.tc_sc === tcFilter.value));
