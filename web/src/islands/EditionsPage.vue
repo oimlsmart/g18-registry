@@ -37,10 +37,10 @@ const sortedStats = computed(() =>
   <section class="card">
     <h2>What changed between editions</h2>
     <ul>
-      <li><SLink to="/harmonization/">Definition conflicts worklist →</SLink></li>
-      <li><SLink to="/terms/?only=2010-only">Terms removed: in 2010 but deleted in 202X →</SLink></li>
-      <li><SLink to="/terms/?only=202X-only">Terms added: new in 202X, not in 2010 →</SLink></li>
-      <li><SLink to="/conflicts/">ID conflicts (numbering errors) →</SLink></li>
+      <li><SLink to="/analysis/designations/">Definition conflicts worklist →</SLink></li>
+      <li><SLink to="/concepts/?only=2010-only">Terms removed: in 2010 but deleted in 202X →</SLink></li>
+      <li><SLink to="/concepts/?only=202X-only">Terms added: new in 202X, not in 2010 →</SLink></li>
+      <li><SLink to="/g18/conflicts/">ID conflicts (numbering errors) →</SLink></li>
     </ul>
   </section>
 </template>

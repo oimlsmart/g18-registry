@@ -435,7 +435,7 @@ const filteredPublications = computed(() => {
   <div v-if="!term" class="card"><p>Term not found.</p></div>
   <template v-else>
     <div class="page-head">
-      <div class="breadcrumb"><SLink to="/">Registry</SLink> / <SLink to="/terms/">Terms</SLink> / <span><DefText :text="term.name" /></span></div>
+      <div class="breadcrumb"><SLink to="/">Registry</SLink> / <SLink to="/concepts/">Terms</SLink> / <span><DefText :text="term.name" /></span></div>
       <h1><DefText :text="term.name" /></h1>
       <div class="term-meta-row">
         <span :class="['kind', `kind-${term.kind}`]">{{ kindLabel(term.kind) }}</span>

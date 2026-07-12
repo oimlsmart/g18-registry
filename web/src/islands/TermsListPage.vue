@@ -158,7 +158,7 @@ const pageTitle = computed(() => {
   </div>
 
   <!-- Cross-edition comparison: terms added/removed between editions.
-       Reachable from /editions/ links (?only=202X-only / 2010-only)
+       Reachable from /g18/editions/ links (?only=202X-only / 2010-only)
        OR directly from this page. On a static site the URL param is
        read client-side by Vue Router on initial load and on navigation. -->
   <div class="cross-edition-filter">
@@ -209,7 +209,7 @@ const pageTitle = computed(() => {
       </thead>
       <tbody>
         <tr v-for="t in pagination.visible.value" :key="t.slug">
-          <td class="term-cell"><SLink :to="`/terms/${t.slug}/`"><DefText :text="t.name" /></SLink></td>
+          <td class="term-cell"><SLink :to="`/concepts/${t.slug}/`"><DefText :text="t.name" /></SLink></td>
           <td class="alt-cell">
             <span v-for="ad in admittedOf(t)" :key="ad" class="alt-term">{{ ad }}</span>
           </td>
@@ -231,7 +231,7 @@ const pageTitle = computed(() => {
     <ul class="term-cards table-only-mobile">
       <li v-for="t in pagination.visible.value" :key="t.slug" class="term-card">
         <div class="term-card-head">
-          <SLink :to="`/terms/${t.slug}/`" class="term-card-name"><DefText :text="t.name" /></SLink>
+          <SLink :to="`/concepts/${t.slug}/`" class="term-card-name"><DefText :text="t.name" /></SLink>
           <span :class="['kind', `kind-${t.kind}`]">{{ kindLabel(t.kind) }}</span>
         </div>
         <div v-if="admittedOf(t).length || symbolsOf(t).length" class="term-card-meta">

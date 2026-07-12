@@ -153,7 +153,7 @@ const editionPubCounts = computed(() => {
         </summary>
         <ul>
           <li v-for="pt in problemTerms(p.id, editionForFilter)" :key="pt.slug">
-            <SLink :to="`/terms/${pt.slug}/`">{{ pt.name }}</SLink>
+            <SLink :to="`/concepts/${pt.slug}/`">{{ pt.name }}</SLink>
             <span class="muted"> — {{ pt.reasons.join('; ') }}</span>
           </li>
         </ul>

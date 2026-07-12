@@ -135,7 +135,7 @@ const legendTypes = computed(() => Object.keys(ACTION_META).filter(t => counts.v
               <span class="badge" :class="priorityBadge(g.priorityRank)">{{ priorityLabel(g.priorityRank) }}</span>
             </td>
             <td class="term-cell">
-              <SLink :to="`/terms/${g.slug}/`">{{ g.name }}</SLink>
+              <SLink :to="`/concepts/${g.slug}/`">{{ g.name }}</SLink>
               <span v-if="g.isHistoric" class="badge badge-historic" title="This term exists only in the 2010 edition. TC 1 cannot act — 2010 is historic.">2010 only</span>
             </td>
             <td>
