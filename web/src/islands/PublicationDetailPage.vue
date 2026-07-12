@@ -209,19 +209,19 @@ const actionTypesPresent = computed(() => {
     <!-- Sticky page-level edition filter. TC 1 acts on 202X; 2010 is historic.
          The bar is sticky so users always see which edition scope is active
          as they scroll through the action list and tables below. -->
-    <div class="page-filter" role="region" aria-label="Edition filter">
-      <span class="page-filter-label">Edition scope</span>
+    <div class="page-filter" role="region" aria-label="G 18 edition filter">
+      <span class="page-filter-label">G 18 edition</span>
       <div class="page-filter-controls">
         <button type="button"
                 :class="['page-filter-btn', { 'page-filter-btn-active': editionFilter === '202X' }]"
                 @click="editionFilter = '202X'">
-          <span class="page-filter-btn-title">202X</span>
+          <span class="page-filter-btn-title">G 18:202X</span>
           <span class="page-filter-btn-meta">{{ editionCounts["202X"] }} terms · draft, TC 1 acts here</span>
         </button>
         <button type="button"
                 :class="['page-filter-btn', { 'page-filter-btn-active': editionFilter === '2010' }]"
                 @click="editionFilter = '2010'">
-          <span class="page-filter-btn-title">2010</span>
+          <span class="page-filter-btn-title">G 18:2010</span>
           <span class="page-filter-btn-meta">{{ editionCounts["2010"] }} terms · historic, read-only</span>
         </button>
         <button type="button"

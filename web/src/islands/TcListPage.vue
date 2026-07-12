@@ -40,23 +40,23 @@ function slug(name: string) {
   <div class="page-head">
     <div class="breadcrumb"><SLink to="/">Registry</SLink> / <span>TC / SC</span></div>
     <h1>Technical Committees</h1>
-    <p class="lede">{{ (tcData as string[]).length }} subcommittees. Default scope: 202X (draft, TC 1 acts here).</p>
+    <p class="lede">{{ (tcData as string[]).length }} subcommittees. Default scope: G 18:202X (draft, TC 1 acts here).</p>
   </div>
 
   <!-- Sticky page-level edition filter -->
-  <div class="page-filter" role="region" aria-label="Edition filter">
-    <span class="page-filter-label">Edition scope</span>
+  <div class="page-filter" role="region" aria-label="G 18 edition filter">
+    <span class="page-filter-label">G 18 edition</span>
     <div class="page-filter-controls">
       <button type="button"
               :class="['page-filter-btn', { 'page-filter-btn-active': editionFilter === '202X' }]"
               @click="editionFilter = '202X'">
-        <span class="page-filter-btn-title">202X</span>
+        <span class="page-filter-btn-title">G 18:202X</span>
         <span class="page-filter-btn-meta">draft, TC 1 acts here</span>
       </button>
       <button type="button"
               :class="['page-filter-btn', { 'page-filter-btn-active': editionFilter === '2010' }]"
               @click="editionFilter = '2010'">
-        <span class="page-filter-btn-title">2010</span>
+        <span class="page-filter-btn-title">G 18:2010</span>
         <span class="page-filter-btn-meta">historic, read-only</span>
       </button>
       <button type="button"

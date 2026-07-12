@@ -108,44 +108,44 @@ function admittedOf(t: any): string[] {
 }
 
 const pageTitle = computed(() => {
-  if (crossEdition.value === "removed") return "Terms removed in 202X (2010 only)";
-  if (crossEdition.value === "added") return "Terms added in 202X (not in 2010)";
-  if (editionFilter.value === "2010") return "Terms in 2010";
-  if (editionFilter.value === "202X") return "Terms in 202X";
-  return "All terms";
+  if (crossEdition.value === "removed") return "Concepts removed in G 18:202X (2010 only)";
+  if (crossEdition.value === "added") return "Concepts added in G 18:202X (not in 2010)";
+  if (editionFilter.value === "2010") return "Concepts in G 18:2010";
+  if (editionFilter.value === "202X") return "Concepts in G 18:202X";
+  return "Concepts defined in OIML publications";
 });
 </script>
 
 <template>
   <div class="page-head">
-    <div class="breadcrumb"><SLink to="/">Registry</SLink> / <span>Terms</span></div>
+    <div class="breadcrumb"><SLink to="/">Registry</SLink> / <span>Concepts</span></div>
     <h1>{{ pageTitle }}</h1>
-    <p class="lede">{{ filtered.length }} terms</p>
+    <p class="lede">{{ filtered.length }} concepts</p>
   </div>
 
   <!-- Edition overview: explains the set relationship once, clearly -->
   <div class="edition-overview">
     <span class="edition-overview-total">{{ terms.length }} unique terms</span>
     <span class="edition-overview-detail">
-      <strong>{{ termsIn202X }}</strong> in 202X draft · <strong>{{ termsIn2010 }}</strong> in 2010 published · <strong>{{ termsInBoth }}</strong> in both
+      <strong>{{ termsIn202X }}</strong> in G 18:202X draft · <strong>{{ termsIn2010 }}</strong> in G 18:2010 published · <strong>{{ termsInBoth }}</strong> in both
     </span>
     <span class="edition-overview-delta">{{ onlyIn202X }} new in 202X · {{ onlyIn2010 }} dropped since 2010</span>
   </div>
 
   <!-- Sticky page-level edition filter — clean controls, no numbers -->
-  <div class="page-filter" role="region" aria-label="Edition filter">
-    <span class="page-filter-label">Edition scope</span>
+  <div class="page-filter" role="region" aria-label="G 18 edition filter">
+    <span class="page-filter-label">G 18 edition</span>
     <div class="page-filter-controls">
       <button type="button"
               :class="['page-filter-btn', { 'page-filter-btn-active': editionFilter === '202X' && !crossEdition }]"
               @click="editionFilter = '202X'; crossEdition = null">
-        <span class="page-filter-btn-title">202X</span>
+        <span class="page-filter-btn-title">G 18:202X</span>
         <span class="page-filter-btn-meta">draft · TC 1 acts here</span>
       </button>
       <button type="button"
               :class="['page-filter-btn', { 'page-filter-btn-active': editionFilter === '2010' && !crossEdition }]"
               @click="editionFilter = '2010'; crossEdition = null">
-        <span class="page-filter-btn-title">2010</span>
+        <span class="page-filter-btn-title">G 18:2010</span>
         <span class="page-filter-btn-meta">published · read-only</span>
       </button>
       <button type="button"

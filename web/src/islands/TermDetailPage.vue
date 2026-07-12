@@ -495,19 +495,19 @@ const filteredPublications = computed(() => {
     </section>
 
     <!-- Sticky page-level edition filter (same pattern as publication/TC pages) -->
-    <div v-if="!isHistoricTermComputed && (term.editions_present || []).length > 1" class="page-filter" role="region" aria-label="Edition filter">
-      <span class="page-filter-label">Edition scope</span>
+    <div v-if="!isHistoricTermComputed && (term.editions_present || []).length > 1" class="page-filter" role="region" aria-label="G 18 edition filter">
+      <span class="page-filter-label">G 18 edition</span>
       <div class="page-filter-controls">
         <button v-if="(term.editions_present || []).includes('202X')" type="button"
                 :class="['page-filter-btn', { 'page-filter-btn-active': editionFilter === '202X' }]"
                 @click="setEditionFilter('202X')">
-          <span class="page-filter-btn-title">202X</span>
+          <span class="page-filter-btn-title">G 18:202X</span>
           <span class="page-filter-btn-meta">{{ editionCount('202X') }} instances · draft, TC 1 acts here</span>
         </button>
         <button v-if="(term.editions_present || []).includes('2010')" type="button"
                 :class="['page-filter-btn', { 'page-filter-btn-active': editionFilter === '2010' }]"
                 @click="setEditionFilter('2010')">
-          <span class="page-filter-btn-title">2010</span>
+          <span class="page-filter-btn-title">G 18:2010</span>
           <span class="page-filter-btn-meta">{{ editionCount('2010') }} instances · historic, read-only</span>
         </button>
         <button type="button"

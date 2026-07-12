@@ -14,8 +14,8 @@ const buttons: { val: EditionFilter; title: string; meta: string }[] = [
 </script>
 
 <template>
-  <div class="page-filter" role="region" aria-label="Edition filter">
-    <span class="page-filter-label">Edition scope</span>
+  <div class="page-filter" role="region" aria-label="G 18 edition filter">
+    <span class="page-filter-label">G 18 edition</span>
     <div class="page-filter-controls">
       <button v-for="b in buttons" :key="b.val"
               type="button"
