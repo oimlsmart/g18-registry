@@ -31,11 +31,11 @@ export interface VocabGap {
 
 export const vocabGaps = gapsData as unknown as VocabGap[];
 
-export type GapScope = "no-match" | "viml-match" | "vim-match" | "all";
+export type GapScope = "v3-match" | "v1-match" | "v2-match" | "all";
 
 export function useVocabGaps() {
   const search = ref("");
-  const scope = ref<GapScope>("no-match");
+  const scope = ref<GapScope>("v3-match");
   const tcFilter = ref("");
 
   const allTCs = computed(() => {
@@ -48,11 +48,11 @@ export function useVocabGaps() {
 
   const filtered = computed(() => {
     let list: VocabGap[] = vocabGaps;
-    if (scope.value === "no-match") {
+    if (scope.value === "v3-match") {
       list = list.filter(g => !g.near_misses.vim && !g.near_misses.viml);
-    } else if (scope.value === "viml-match") {
+    } else if (scope.value === "v1-match") {
       list = list.filter(g => g.near_misses.viml);
-    } else if (scope.value === "vim-match") {
+    } else if (scope.value === "v2-match") {
       list = list.filter(g => g.near_misses.vim);
     }
     if (tcFilter.value) {

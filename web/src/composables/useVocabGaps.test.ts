@@ -43,26 +43,26 @@ describe("useVocabGaps", () => {
       search.value = "";
     });
 
-    it("filters by scope = no-match (V 3 candidates)", () => {
+    it("filters by scope = v3-match (V 3 candidates)", () => {
       const { scope, filtered } = useVocabGaps();
-      scope.value = "no-match";
+      scope.value = "v3-match";
       for (const g of filtered.value) {
         expect(g.near_misses.vim).toBeNull();
         expect(g.near_misses.viml).toBeNull();
       }
     });
 
-    it("filters by scope = viml-match (V 1 candidates)", () => {
+    it("filters by scope = v1-match (V 1 candidates)", () => {
       const { scope, filtered } = useVocabGaps();
-      scope.value = "viml-match";
+      scope.value = "v1-match";
       for (const g of filtered.value.slice(0, 10)) {
         expect(g.near_misses.viml).toBeTruthy();
       }
     });
 
-    it("filters by scope = vim-match (V 2 candidates)", () => {
+    it("filters by scope = v2-match (V 2 candidates)", () => {
       const { scope, filtered } = useVocabGaps();
-      scope.value = "vim-match";
+      scope.value = "v2-match";
       for (const g of filtered.value.slice(0, 10)) {
         expect(g.near_misses.vim).toBeTruthy();
       }

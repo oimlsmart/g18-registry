@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, computed, nextTick } from "vue";
+import { ref, computed, nextTick, onMounted } from "vue";
 import { useVocabGaps, vocabGaps, type VocabGap, type GapScope } from "@/composables/useVocabGaps";
 import { usePagination } from "@/composables/usePagination";
 import {
@@ -21,11 +21,14 @@ const pagination = usePagination(filtered, {
   dep: () => `${scope.value}|${tcFilter.value}|${search.value}`,
 });
 
-// Read initial scope and auto-open from URL params
-if (typeof window !== "undefined") {
+// Read initial scope and auto-open proposal from URL params.
+// Must run client-side only (onMounted) — on a static site the
+// pre-rendered HTML has the default scope; we patch it after hydration.
+const VALID_SCOPES: GapScope[] = ["v3-match", "v1-match", "v2-match", "all"];
+onMounted(() => {
   const params = new URLSearchParams(window.location.search);
   const scopeParam = params.get("scope");
-  if (scopeParam && ["no-match", "viml-match", "vim-match", "all"].includes(scopeParam)) {
+  if (scopeParam && (VALID_SCOPES as string[]).includes(scopeParam)) {
     scope.value = scopeParam as GapScope;
   }
   const termSlug = params.get("term");
@@ -35,7 +38,7 @@ if (typeof window !== "undefined") {
       nextTick(() => openProposal(gap));
     }
   }
-}
+});
 
 // Currently-open proposal form (one at a time).
 const openGap = ref<VocabGap | null>(null);
@@ -86,19 +89,19 @@ async function submitProposal() {
 // V 1/V 2 candidates / All) instead of abstract near-miss labels.
 const scopeButtons: { val: typeof scope.value; concept: string; target: string; count: number }[] = [
   {
-    val: "no-match",
+    val: "v3-match",
     concept: "V 3 candidates",
     target: "no VIM/VIML near-miss — likely specific terms",
     count: vocabGaps.filter(g => !g.near_misses.vim && !g.near_misses.viml).length,
   },
   {
-    val: "viml-match",
+    val: "v1-match",
     concept: "V 1 candidates",
     target: "VIML near-miss — legal metrology concept",
     count: vocabGaps.filter(g => g.near_misses.viml).length,
   },
   {
-    val: "vim-match",
+    val: "v2-match",
     concept: "V 2 candidates",
     target: "VIM near-miss — general metrology concept",
     count: vocabGaps.filter(g => g.near_misses.vim).length,
