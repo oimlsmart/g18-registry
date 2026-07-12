@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "data:export": "cd .. && ruby scripts/export_for_vite.rb",
+    "data:migrate": "cd .. && bundle exec ruby scripts/migrate_from_vocab.rb",
+    "data:export": "cd .. && bundle exec ruby scripts/export_for_vite.rb",
+    "data:refresh": "pnpm data:migrate && pnpm data:export",
     "dev": "astro dev",
-    "prebuild": "pnpm data:export",
+    "prebuild": "pnpm data:refresh",
     "build": "astro build",
     "preview": "astro preview",
     "test": "vitest run",

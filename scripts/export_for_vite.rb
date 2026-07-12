@@ -71,7 +71,6 @@ repo_root = File.expand_path("..", __dir__)
 default_vocab_root = File.expand_path("vocab/datasets", File.join(repo_root, ".."))
 options = {
   data_dir: File.join(repo_root, "data"),
-  bib_path: File.join(repo_root, "tc-sc", "publications.yaml"),
   out_dir: File.join(repo_root, "web", "src", "data"),
   vocab_root: ENV.fetch("VOCAB_ROOT", default_vocab_root),
 }
@@ -79,7 +78,6 @@ options = {
 OptionParser.new do |opts|
   opts.banner = "Usage: #{$PROGRAM_NAME} [options]"
   opts.on("--data-dir DIR", String) { |v| options[:data_dir] = v }
-  opts.on("--bib-path PATH", String) { |v| options[:bib_path] = v }
   opts.on("--out-dir DIR", String) { |v| options[:out_dir] = v }
   opts.on("--vocab-root DIR", String) { |v| options[:vocab_root] = v }
 end.parse!
@@ -263,8 +261,88 @@ def check_vocab_presence(term_name, latest_indices)
 end
 
 # ── Publications ──────────────────────────────────────────────────────────
-publications = File.exist?(options[:bib_path]) ?
-  YAML.safe_load(File.read(options[:bib_path]), aliases: true) : []
+# Read from the authoritative vocab repo bibliographies (no local copy).
+# Merge g18-202X + g18-2010, dedup by ID. Enrich TC/SC from relaton-data-oiml.
+vocab_bib_files = [
+  File.join(options[:vocab_root], "g18-202X", "bibliography.yaml"),
+  File.join(options[:vocab_root], "g18-2010", "bibliography.yaml"),
+].select { |f| File.exist?(f) }
+
+publications = []
+vocab_bib_files.each do |path|
+  docs = YAML.safe_load(File.read(path), aliases: true) || []
+  docs.each do |p|
+    publications << p unless publications.any? { |e| e["id"] == p["id"] }
+  end
+end
+
+# Enrich TC/SC from relaton-data-oiml (authoritative bibliographic source)
+relaton_root = ENV.fetch("RELATON_ROOT",
+  File.expand_path("../../relaton/relaton-data-oiml", repo_root))
+relaton_index_path = File.join(relaton_root, "index-v2.yaml")
+
+if File.exist?(relaton_index_path)
+  relaton_index = YAML.load_file(relaton_index_path, aliases: true) || []
+
+  # Convert v2 structured PubID to OIML string ID (e.g. "OIML R 60:2021")
+  pubid_type_prefix = {
+    "pubid:oiml:basic-publication" => "B",
+    "pubid:oiml:recommendation" => "R",
+    "pubid:oiml:document" => "D",
+    "pubid:oiml:international-document" => "D",
+  }
+  convert_pubid = lambda do |id|
+    if id.is_a?(String)
+      id
+    elsif id["_type"] == "pubid:oiml:amendment"
+      base = convert_pubid.call(id["base_identifier"])
+      "#{base}+Amendment:#{id['year']}"
+    else
+      letter = pubid_type_prefix[id["_type"]]
+      return nil unless letter
+      s = "#{id['publisher']} #{letter} #{id['number']}"
+      s += "-#{id['part']}" if id["part"]
+      s += ":#{id['year']}" if id["year"]
+      s += " (#{id['language']})" if id["language"]
+      s
+    end
+  end
+
+  # Build OIML ID → relaton file path map (skip language-suffixed entries)
+  relaton_file_map = {}
+  relaton_index.each do |entry|
+    raw_id = entry[:id] || entry["id"]
+    file = entry[:file] || entry["file"]
+    next if raw_id.nil? || file.nil?
+    id_str = convert_pubid.call(raw_id)
+    next if id_str.nil?
+    next if id_str =~ /\s\([EF]\)\s*$/
+    relaton_file_map[id_str] = File.join(relaton_root, file.to_s)
+  end
+
+  publications.each do |p|
+    relaton_file = relaton_file_map[p["id"]]
+    next unless relaton_file && File.exist?(relaton_file)
+    doc = YAML.load_file(relaton_file, aliases: true) rescue next
+    tc_part = nil
+    sc_part = nil
+    (doc["contributor"] || []).each do |c|
+      subdivisions = c.dig("organization", "subdivision") || []
+      subdivisions.each do |sub|
+        identifiers = sub["identifier"] || []
+        content = identifiers.map { |i| i["content"] }.compact.first
+        next unless content
+        case sub["type"]
+        when "technical-committee" then tc_part ||= content
+        when "subcommittee" then sc_part ||= content
+        end
+      end
+    end
+    parts = [tc_part, sc_part].compact
+    p["tc_sc"] = parts.join("/") if parts.any?
+  end
+end
+
 File.write(File.join(options[:out_dir], "publications.json"),
            JSON.generate(publications))
 
