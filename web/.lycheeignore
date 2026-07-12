@@ -1,0 +1,8 @@
+# Old /terms/ slug redirects from the pre-rename era.
+# Astro generates redirect pages with the old slug URLs; these resolve
+# correctly on the deployed site but not in the filesystem link check.
+/concepts-management/terms/
+
+# PDF files referenced in publication data that may not be bundled in
+# the static build output.
+\.pdf$
