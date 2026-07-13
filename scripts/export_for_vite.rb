@@ -521,6 +521,8 @@ by_slug = terms.each_with_object({}) { |t, h| h[t["slug"]] = t }
 # The full terms.json is ~30MB+; this slim version is ~500KB.
 terms_slim = terms.map do |t|
   pubs = t["publications"] || []
+  defs = pubs.map { |p| (p["definition"] || "").gsub(/\{\{[^}]+\}\}/, "").strip }.select { |d| !d.empty? }
+  tc_counts = pubs.each_with_object(Hash.new(0)) { |p, h| h[p["tc_sc"]] += 1 if p["tc_sc"] && !p["tc_sc"].to_s.strip.empty? }
   {
     "slug" => t["slug"],
     "name" => t["name"],
@@ -529,7 +531,9 @@ terms_slim = terms.map do |t|
     "editions_present" => t["editions_present"],
     "pub_count" => pubs.length,
     "pub_ids" => pubs.map { |p| p["publication_id"] }.compact.uniq,
-    "tc_scs" => pubs.map { |p| p["tc_sc"] }.compact.uniq,
+    "tc_scs" => tc_counts.keys.sort,
+    "tc_counts" => tc_counts,
+    "distinct_def_count" => defs.uniq.size,
     "action_types" => (t["suggested_actions"] || []).map { |a| a["type"] },
     "designations" => t["designations"] || [],
     "official_concept_id" => t["official_concept"]&.dig("id"),
@@ -538,15 +542,26 @@ end
 File.write(File.join(options[:out_dir], "terms-slim.json"),
            JSON.generate(terms_slim))
 
-# ── Per-term detail JSON (fetched on demand by concept pages) ─────────────
-# Strip heavy provenance fields that the UI doesn't need, reducing each
-# file from ~100KB to ~10-30KB.
+# ── Fields to strip from publication instances for lighter JSON files ─────
 STRIP_FROM_PUB = %w[
   source_lineage definition_paragraphs note_paragraphs example_paragraphs
   paragraph_sources note_sources example_sources annotations
   concept_sources localized_sources consistency consistency_reason
 ].freeze
 
+# ── Medium terms (with slimmed publication instances) ─────────────────────
+# Same as terms.json but with heavy provenance fields stripped from each
+# publication instance. Used by list/analysis pages that need publication
+# data (definitions, TC/SC, editions) but not source_lineage.
+terms_medium = terms.map do |t|
+  t.merge("publications" => (t["publications"] || []).map do |p|
+    p.is_a?(Hash) ? p.reject { |k, _| STRIP_FROM_PUB.include?(k) } : p
+  end)
+end
+File.write(File.join(options[:out_dir], "terms-medium.json"),
+           JSON.generate(terms_medium))
+
+# ── Per-term detail JSON (fetched on demand by concept pages) ─────────────
 terms_detail_dir = File.join(repo_root, "web", "public", "data", "terms")
 FileUtils.mkdir_p(terms_detail_dir)
 terms.each do |t|

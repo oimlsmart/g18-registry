@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { computed, ref } from "vue";
-import termsData from "@/data/terms.json";
+import termsData from "@/data/terms-medium.json";
 import SLink from "@/components/SLink.vue";
 import PaginationControls from "@/components/PaginationControls.vue";
 import { usePagination } from "@/composables/usePagination";

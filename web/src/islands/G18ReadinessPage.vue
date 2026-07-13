@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { computed } from "vue";
-import termsData from "@/data/terms.json";
+import termsData from "@/data/terms-medium.json";
 import editionStats from "@/data/edition-stats.json";
 import conflictsData from "@/data/conflicts.json";
 import SLink from "@/components/SLink.vue";

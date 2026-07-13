@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { computed } from "vue";
-import terms from "@/data/terms.json";
+import terms from "@/data/terms-medium.json";
 import SLink from "@/components/SLink.vue";
 import { kindLabel } from "@/utils/term-utils";
 const top = computed(() => (terms as any[])
