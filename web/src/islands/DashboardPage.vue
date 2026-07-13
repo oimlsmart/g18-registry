@@ -40,7 +40,7 @@ const divergentCount = terms.filter(t => maxWithinEditionDistinctDefs(t.publicat
 
 <template>
   <div class="page-head reveal">
-    <h1>OIML Terminology Management</h1>
+    <h1>OIML Concepts Management</h1>
     <p class="lede">
       Manage OIML terminology concepts, align them with authoritative vocabularies,
       and prepare future editions of V 1, V 2, V 3, and the generated G 18 Dynamic Edition.

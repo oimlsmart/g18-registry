@@ -5,7 +5,7 @@ import SLink from "@/components/SLink.vue";
 <template>
   <div class="page-head">
     <div class="breadcrumb"><SLink to="/">Registry</SLink> / <span>How to use</span></div>
-    <h1>How terminology harmonization works</h1>
+    <h1>How concepts management works</h1>
     <p class="lede">
       This platform helps TC 1 / Vocabularies align every term used across OIML
       publications with the authoritative vocabularies (VIM, VIML) and decide
