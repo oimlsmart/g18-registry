@@ -271,6 +271,8 @@ end
 # Read from the authoritative vocab repo bibliographies (no local copy).
 # Merge g18-202X + g18-2010, dedup by ID. Enrich TC/SC from relaton-data-oiml.
 vocab_bib_files = [
+  File.join(options[:vocab_root], "g18-current", "bibliography.yaml"),
+  File.join(options[:vocab_root], "g18-complete", "bibliography.yaml"),
   File.join(options[:vocab_root], "g18-202X", "bibliography.yaml"),
   File.join(options[:vocab_root], "g18-2010", "bibliography.yaml"),
 ].select { |f| File.exist?(f) }

@@ -26,7 +26,7 @@ module G18
       # clause reference).
       def load_concept_file(file, edition: nil)
         raw = File.read(file, encoding: "utf-8")
-        docs = YAML.safe_load_stream(raw, filename: file, aliases: true)
+        docs = YAML.safe_load_stream(raw, filename: file, aliases: true, permitted_classes: [Date, Time])
         doc = Glossarist::V3::ConceptDocument.from_yamls(raw)
         { file: file, concept: doc.to_managed_concept, raw: docs, edition: edition }
       end
