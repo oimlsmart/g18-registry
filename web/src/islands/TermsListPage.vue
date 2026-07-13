@@ -1,11 +1,13 @@
 <script setup lang="ts">
 import { ref, computed, watch } from "vue";
-import terms from "@/data/terms.json";
+import termsData from "@/data/terms-slim.json";
 import { usePagination } from "@/composables/usePagination";
 import SLink from "@/components/SLink.vue";
 import DefText from "@/components/DefText.vue";
 import PaginationControls from "@/components/PaginationControls.vue";
 import { kindLabel } from "@/utils/term-utils";
+
+const terms = termsData as any[];
 
 const search = ref("");
 // Edition filter — 3-button sticky pattern. URL `?only=` params from old
@@ -39,32 +41,24 @@ const onlyIn2010 = computed(() => termsIn2010.value - termsInBoth.value);
 
 const allTCs = computed(() => {
   const set = new Set<string>();
-  for (const t of terms as any[]) {
-    for (const p of t.publications || []) {
-      if (p.tc_sc?.trim()) set.add(p.tc_sc);
-    }
+  for (const t of terms) {
+    for (const tc of (t.tc_scs || [])) set.add(tc);
   }
   return Array.from(set).sort();
 });
 
-function distinctDefs(pubs: any[]) {
-  return new Set(pubs.map(p => (p.definition || "").replace(/\{\{[^,}]+,([^}]+)\}\}/g, "$1").trim()).filter(Boolean)).size;
-}
-
 const filtered = computed(() => {
-  let t = terms as any[];
-  // Edition scope (sticky filter)
+  let t = terms;
   if (editionFilter.value !== "all") {
     t = t.filter(x => (x.editions_present || []).includes(editionFilter.value));
   }
-  // Cross-edition overlay (?only=...-only from dashboard links)
   if (crossEdition.value === "added") {
     t = t.filter(x => (x.editions_present || []).includes("202X") && !(x.editions_present || []).includes("2010"));
   } else if (crossEdition.value === "removed") {
     t = t.filter(x => (x.editions_present || []).includes("2010") && !(x.editions_present || []).includes("202X"));
   }
   if (onlyTC.value) {
-    t = t.filter(x => x.publications?.some((p: any) => p.tc_sc === onlyTC.value));
+    t = t.filter(x => (x.tc_scs || []).includes(onlyTC.value));
   }
   if (onlyKind.value) {
     t = t.filter(x => x.kind === onlyKind.value);
@@ -76,8 +70,8 @@ const filtered = computed(() => {
 
   const sorters: Record<string, (a: any, b: any) => number> = {
     name: (a, b) => (a.name || "").localeCompare(b.name || ""),
-    pubs: (a, b) => (b.publications?.length || 0) - (a.publications?.length || 0),
-    defs: (a, b) => distinctDefs(b.publications || []) - distinctDefs(a.publications || []),
+    pubs: (a, b) => (b.pub_count || 0) - (a.pub_count || 0),
+    defs: (a, b) => (b.distinct_def_count || 0) - (a.distinct_def_count || 0),
   };
   const dir = sortDir.value;
   return [...t].sort((a, b) => sorters[sortKey.value](a, b) * dir);
@@ -97,7 +91,7 @@ function toggleSort(key: "name" | "pubs" | "defs") {
   }
 }
 
-function tcCount(t: any): number { return t.publications?.filter((p: any) => p.tc_sc === onlyTC.value).length || 0; }
+function tcCount(t: any): number { return t.tc_counts?.[onlyTC.value] || 0; }
 function symbolsOf(t: any): string[] {
   if (!t.designations) return [];
   return Array.from(new Set(t.designations.filter((d: any) => d.type === "symbol").map((d: any) => d.text as string)));
@@ -218,9 +212,9 @@ const pageTitle = computed(() => {
           </td>
           <td><span :class="['kind', `kind-${t.kind}`]">{{ kindLabel(t.kind) }}</span></td>
           <td><span v-for="e in [...(t.editions_present || [])].sort((a:string,b:string) => (b==='202X'?1:0)-(a==='202X'?1:0))" :key="e" :class="['edition-pill', `edition-${e.toLowerCase()}`]">{{ e }}</span></td>
-          <td class="num">{{ t.publications.length }}</td>
+          <td class="num">{{ t.pub_count }}</td>
           <td v-if="onlyTC" class="num">{{ tcCount(t) }}</td>
-          <td class="num">{{ distinctDefs(t.publications) }}</td>
+          <td class="num">{{ t.distinct_def_count }}</td>
         </tr>
       </tbody>
     </table>
@@ -246,9 +240,9 @@ const pageTitle = computed(() => {
         </div>
         <div class="term-card-stats">
           <span v-for="e in [...(t.editions_present || [])].sort((a:string,b:string) => (b==='202X'?1:0)-(a==='202X'?1:0))" :key="e" :class="['edition-pill', `edition-${e.toLowerCase()}`]">{{ e }}</span>
-          <span class="term-card-stat"><strong>{{ t.publications.length }}</strong> inst.</span>
+          <span class="term-card-stat"><strong>{{ t.pub_count }}</strong> inst.</span>
           <span v-if="onlyTC" class="term-card-stat"><strong>{{ tcCount(t) }}</strong> TC pubs</span>
-          <span class="term-card-stat"><strong>{{ distinctDefs(t.publications) }}</strong> defs</span>
+          <span class="term-card-stat"><strong>{{ t.distinct_def_count }}</strong> defs</span>
         </div>
       </li>
     </ul>

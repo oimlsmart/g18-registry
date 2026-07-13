@@ -2,7 +2,7 @@
 import { ref, computed } from "vue";
 import harmonization from "@/data/harmonization.json";
 import conflictsData from "@/data/conflicts.json";
-import termsData from "@/data/terms.json";
+import termsData from "@/data/terms-medium.json";
 import { usePagination } from "@/composables/usePagination";
 import { maxWithinEditionDistinctDefs } from "@/composables/useSuggestedActions";
 import SLink from "@/components/SLink.vue";

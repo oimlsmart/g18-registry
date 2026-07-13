@@ -2,7 +2,7 @@
 import { computed, ref } from "vue";
 import tcData from "@/data/tc.json";
 import publicationsData from "@/data/publications.json";
-import termsData from "@/data/terms.json";
+import termsData from "@/data/terms-medium.json";
 import { useSuggestedActions, ACTION_META, actionMeta, slugifyPubId } from "@/composables/useSuggestedActions";
 import SLink from "@/components/SLink.vue";
 import { kindLabel, slugify } from "@/utils/term-utils";

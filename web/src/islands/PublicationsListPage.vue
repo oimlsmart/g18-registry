@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref, computed } from "vue";
 import publications from "@/data/publications.json";
-import terms from "@/data/terms.json";
+import terms from "@/data/terms-medium.json";
 import { slugifyPubId } from "@/composables/useSuggestedActions";
 import SLink from "@/components/SLink.vue";
 
