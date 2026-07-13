@@ -65,7 +65,7 @@ export const termSchema = z.object({
 
 export const publicationSchema = z.object({
   id: z.string().min(1),
-  reference: z.string(),
+  reference: z.string().optional(),
   link: z.string().nullable().optional(),
   tc_sc: z.string().nullable().optional(),
   notes: z.string().nullable().optional(),
