@@ -1,13 +1,12 @@
 <script setup lang="ts">
 import { computed } from "vue";
-import termsData from "@/data/terms-medium.json";
+import readinessStats from "@/data/readiness-stats.json";
 import editionStats from "@/data/edition-stats.json";
-import conflictsData from "@/data/conflicts.json";
 import SLink from "@/components/SLink.vue";
 
-const terms = termsData as any[];
+const stats = readinessStats as any;
 const stats202X = (editionStats.stats || []).find((s: any) => s.edition === "202X");
-const rawConflicts = Object.values(conflictsData.raw || {}).flat() as any[];
+const rawConflicts = Object.values(stats.raw_conflicts || {}).flat() as any[];
 
 const readinessItems = computed(() => {
   const items: { label: string; status: "done" | "warn" | "todo"; detail: string; link?: string }[] = [];
@@ -37,12 +36,13 @@ const readinessItems = computed(() => {
   });
 
   // Definitions populated
-  const withDef = terms.filter(t => (t.publications || []).some(p => p.definition?.trim())).length;
-  const withoutDef = terms.length - withDef;
+  const withDef = stats.with_definition;
+  const total = stats.total;
+  const withoutDef = total - withDef;
   items.push({
     label: "Definitions populated",
     status: withoutDef > 10 ? "warn" : "done",
-    detail: `${withDef}/${terms.length} concepts have definitions${withoutDef > 0 ? ` (${withoutDef} missing)` : ""}`,
+    detail: `${withDef}/${total} concepts have definitions${withoutDef > 0 ? ` (${withoutDef} missing)` : ""}`,
   });
 
   return items;

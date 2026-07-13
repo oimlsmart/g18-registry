@@ -1,18 +1,29 @@
 <script setup lang="ts">
-import { computed, ref } from "vue";
+import { computed, ref, onMounted } from "vue";
 import tcData from "@/data/tc.json";
-import publicationsData from "@/data/publications.json";
-import termsData from "@/data/terms-medium.json";
-import { useSuggestedActions, ACTION_META, actionMeta, slugifyPubId } from "@/composables/useSuggestedActions";
+import { ACTION_META, actionMeta, slugifyPubId } from "@/composables/useSuggestedActions";
 import SLink from "@/components/SLink.vue";
 import { kindLabel, slugify } from "@/utils/term-utils";
 
 const props = defineProps<{ slug: string }>();
+const base = import.meta.env.BASE_URL;
 
 const tcName = computed(() => (tcData as string[]).find(t => slugify(t) === props.slug));
-const terms = termsData as any[];
-const publications = publicationsData as any[];
-const { forTCSC } = useSuggestedActions(terms);
+const terms = ref<any[]>([]);
+const publications = ref<any[]>([]);
+const loading = ref(true);
+
+onMounted(async () => {
+  try {
+    const res = await fetch(`${base}data/tcs/${props.slug}.json`);
+    if (res.ok) {
+      const data = await res.json();
+      terms.value = data.terms || [];
+      publications.value = data.publications || [];
+    }
+  } catch { /* fetch failed */ }
+  finally { loading.value = false; }
+});
 
 // Edition filter (sticky 3-button pattern, default 202X). Filters by which
 // edition this TC/SC's pubs have instances in.
@@ -45,7 +56,22 @@ const tcTerms = computed(() => {
 });
 
 // Actions for this TC/SC
-const tcActions = computed(() => !tcName.value ? [] : forTCSC(tcName.value));
+const tcActions = computed(() => {
+  if (!tcName.value) return [];
+  const out: any[] = [];
+  for (const t of terms.value) {
+    for (const a of (t.suggested_actions || [])) {
+      const pids = a["publication_ids"] || [];
+      const hasTCPub = (t.publications || []).some((p: any) =>
+        p.tc_sc === tcName.value && pids.includes(p.publication_id)
+      );
+      if (pids.length === 0 || hasTCPub) {
+        out.push({ ...a, slug: t.slug, name: t.name });
+      }
+    }
+  }
+  return out;
+});
 const actionTermSlugs = computed(() => new Set(tcActions.value.map(a => a.slug)));
 
 // Per-publication status
@@ -143,7 +169,8 @@ function pubRef(id: string): string {
 </script>
 
 <template>
-  <div v-if="!tcName" class="card"><p>Not found.</p></div>
+  <div v-if="loading" class="card"><p style="color: var(--color-ink-muted)">Loading…</p></div>
+  <div v-else-if="!tcName" class="card"><p>Not found.</p></div>
   <template v-else>
     <div class="page-head">
       <div class="breadcrumb"><SLink to="/">Registry</SLink> / <SLink to="/tc/">TC / SC</SLink> / <span>{{ tcName }}</span></div>

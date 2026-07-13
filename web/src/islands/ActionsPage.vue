@@ -1,13 +1,10 @@
 <script setup lang="ts">
 import { computed, ref } from "vue";
-import termsData from "@/data/terms-medium.json";
-import { useSuggestedActions, ACTION_META, actionMeta } from "@/composables/useSuggestedActions";
+import actionsData from "@/data/actions-data.json";
+import { ACTION_META, actionMeta, PRIORITY_RANK } from "@/composables/action-utils";
 import { usePagination } from "@/composables/usePagination";
 import SLink from "@/components/SLink.vue";
 import PaginationControls from "@/components/PaginationControls.vue";
-
-const terms = termsData as any[];
-const { byTerm, counts, allActions } = useSuggestedActions(terms);
 
 type EditionFilter = "202X" | "2010" | "all";
 const editionFilter = ref<EditionFilter>("202X");
@@ -15,19 +12,61 @@ const editionFilter = ref<EditionFilter>("202X");
 const filterType = ref("");
 const search = ref("");
 
-// Apply edition filter to groups: 202X = terms whose editions_present
-// includes 202X; 2010 = terms in 2010 (including 2010-only); All = both.
-function groupMatchesEdition(g: any): boolean {
+// Build action groups directly from pre-computed data.
+interface ActionGroup {
+  slug: string;
+  name: string;
+  kind: string;
+  actions: any[];
+  priorityRank: number;
+  pubCount: number;
+  isHistoric: boolean;
+  editionsPresent: string[];
+}
+
+const byTerm = computed<ActionGroup[]>(() => {
+  const groups: ActionGroup[] = (actionsData as any[]).map(t => {
+    const eds = t.editions_present || [];
+    const allPubIds = new Set<string>();
+    for (const a of t.actions || []) {
+      for (const id of a.publication_ids || []) allPubIds.add(id);
+    }
+    const priorityRank = Math.min(...(t.actions || []).map(a => PRIORITY_RANK[a.priority] ?? 9));
+    return {
+      slug: t.slug,
+      name: t.name,
+      kind: t.kind,
+      actions: t.actions || [],
+      priorityRank,
+      pubCount: allPubIds.size,
+      isHistoric: eds.length > 0 && eds.every(e => e === "2010"),
+      editionsPresent: eds,
+    };
+  }).sort((a, b) => {
+    if (a.isHistoric !== b.isHistoric) return a.isHistoric ? 1 : -1;
+    if (a.priorityRank !== b.priorityRank) return a.priorityRank - b.priorityRank;
+    return a.name.localeCompare(b.name);
+  });
+  return groups;
+});
+
+const counts = computed(() => {
+  const c: Record<string, number> = {};
+  for (const g of byTerm.value) {
+    for (const a of g.actions) {
+      c[a.type] = (c[a.type] || 0) + 1;
+    }
+  }
+  return c;
+});
+
+// Apply edition filter to groups.
+function groupMatchesEdition(g: ActionGroup): boolean {
   if (editionFilter.value === "all") return true;
   return (g.editionsPresent || []).includes(editionFilter.value);
 }
 
 const filtered = computed(() => {
-  // Filter determines WHICH TERMS appear (those having at least one action of
-  // the selected type), but every action for each matching term is rendered
-  // in the row. This way users see the full picture — e.g. a term with
-  // `removed:high` + `standardize:info` shows both when filtered to either,
-  // so the High badge is explained by the listed `removed` action.
   let groups = byTerm.value.filter(groupMatchesEdition);
   if (filterType.value) {
     groups = groups.filter(g => g.actions.some(a => a.type === filterType.value));
@@ -39,13 +78,16 @@ const filtered = computed(() => {
   return groups;
 });
 
-// Reset to page 1 when filter or search changes.
 const pagination = usePagination(filtered, {
   pageSize: 50,
   dep: () => `${filterType.value}|${search.value}|${editionFilter.value}`,
 });
 
-const totalActions = computed(() => allActions.value.length);
+const totalActions = computed(() => {
+  let n = 0;
+  for (const g of byTerm.value) n += g.actions.length;
+  return n;
+});
 const totalTerms = computed(() => byTerm.value.length);
 
 const priorityLabel = (rank: number) =>
@@ -61,7 +103,6 @@ const filterButtons = computed(() => [
     .map(([type, count]) => ({ val: type, label: `${actionMeta(type).label} (${count})` })),
 ]);
 
-// Show the legend above the table when filter is "All" or matches an action type
 const legendTypes = computed(() => Object.keys(ACTION_META).filter(t => counts.value[t] > 0));
 </script>
 

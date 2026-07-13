@@ -1,17 +1,12 @@
 <script setup lang="ts">
 import { computed, ref } from "vue";
-import termsData from "@/data/terms-medium.json";
+import termsData from "@/data/g18-dynamic.json";
 import SLink from "@/components/SLink.vue";
 import PaginationControls from "@/components/PaginationControls.vue";
 import { usePagination } from "@/composables/usePagination";
 import { kindLabel } from "@/utils/term-utils";
 
 const terms = termsData as any[];
-
-function firstDef(t: any): string {
-  const d = (t.publications || [])[0]?.definition || "—";
-  return d.length > 120 ? d.slice(0, 120) + "…" : d;
-}
 
 function vocabBadge(kind: string): string {
   if (kind === "defined_in_vim") return "badge-ok";
@@ -44,10 +39,7 @@ const total = terms.length;
 const fromVim = terms.filter(t => t.kind === "defined_in_vim").length;
 const fromViml = terms.filter(t => t.kind === "defined_in_viml").length;
 const oimlOriginal = terms.filter(t => t.kind === "oiml_original" || t.kind === "undefined").length;
-const withDefinition = terms.filter(t => {
-  const pubs = t.publications || [];
-  return pubs.some(p => p.definition && p.definition.trim());
-}).length;
+const withDefinition = terms.filter(t => t.definition && t.definition.trim()).length;
 </script>
 
 <template>
@@ -108,9 +100,9 @@ const withDefinition = terms.filter(t => {
               </span>
             </td>
             <td class="concept-def">
-              <span class="muted" style="font-size:0.85em">{{ firstDef(t) }}</span>
+              <span class="muted" style="font-size:0.85em">{{ t.definition || "—" }}</span>
             </td>
-            <td class="num">{{ (t.publications || []).length }}</td>
+            <td class="num">{{ t.pub_count }}</td>
           </tr>
         </tbody>
       </table>

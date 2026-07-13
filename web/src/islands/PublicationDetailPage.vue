@@ -1,31 +1,35 @@
 <script setup lang="ts">
-import { computed, ref } from "vue";
+import { computed, ref, onMounted } from "vue";
 import publications from "@/data/publications.json";
-import termsData from "@/data/terms-medium.json";
-import { useSuggestedActions, ACTION_META, actionMeta, slugifyPubId } from "@/composables/useSuggestedActions";
+import { ACTION_META, actionMeta, slugifyPubId } from "@/composables/useSuggestedActions";
 import SLink from "@/components/SLink.vue";
 import { kindLabel } from "@/utils/term-utils";
 
 const props = defineProps<{ slug: string }>();
-const slugParam = computed(() => props.slug);
-// Resolve the publication: accept either the slugified id (preferred) or
-// the raw id (backwards compat with old links). The slug map is built once.
-const pubBySlug = computed(() => {
+const base = import.meta.env.BASE_URL;
+
+const pubId = computed(() => {
   const map: Record<string, string> = {};
   for (const p of (publications as any[])) map[slugifyPubId(p.id)] = p.id;
-  return map;
-});
-const pubId = computed(() => {
-  const param = slugParam.value;
-  // Try direct ID match first (backwards compat), then slug lookup.
-  if ((publications as any[]).some(p => p.id === param)) return param;
-  return pubBySlug.value[param] || param;
+  return map[props.slug] || props.slug;
 });
 const pub = computed(() => (publications as any[]).find(p => p.id === pubId.value));
-const terms = termsData as any[];
-const { forPublication } = useSuggestedActions(terms);
 
-const pubTerms = computed(() => terms.filter(t => t.publications.some((p: any) => p.publication_id === pubId.value)));
+const terms = ref<any[]>([]);
+const loading = ref(true);
+
+onMounted(async () => {
+  try {
+    const res = await fetch(`${base}data/publications/${props.slug}.json`);
+    if (res.ok) {
+      const data = await res.json();
+      terms.value = data.terms || [];
+    }
+  } catch { /* fetch failed */ }
+  finally { loading.value = false; }
+});
+
+const pubTerms = computed(() => terms.value);
 
 // Edition toggle. Default: 202X — TC 1 can only act on the draft edition.
 type EditionFilter = "202X" | "2010" | "all";
@@ -73,10 +77,15 @@ function actionAppliesToEdition(a: any, edition: string): boolean {
 }
 
 const pubActions = computed(() => {
-  const all = forPublication(pubId.value);
-  // For the publication detail page we only surface DEFECT actions in the
-  // "needs action" list. Info actions (unique, standardize) are positive
-  // or neutral — they don't belong in a worklist of problems to fix.
+  const all: any[] = [];
+  for (const t of terms.value) {
+    for (const a of (t.suggested_actions || [])) {
+      const pids = a["publication_ids"] || [];
+      if (pids.length === 0 || pids.includes(pubId.value)) {
+        all.push({ ...a, slug: t.slug, name: t.name });
+      }
+    }
+  }
   return all.filter(a => {
     if (!DEFECT_ACTION_TYPES.has(a.type)) return false;
     if (editionFilter.value === "all") return true;
@@ -202,7 +211,8 @@ const actionTypesPresent = computed(() => {
 </script>
 
 <template>
-  <div v-if="!pub" class="card"><p>Not found.</p></div>
+  <div v-if="loading" class="card"><p style="color: var(--color-ink-muted)">Loading…</p></div>
+  <div v-else-if="!pub" class="card"><p>Not found.</p></div>
   <template v-else>
     <div class="page-head">
       <div class="breadcrumb"><SLink to="/">Registry</SLink> / <SLink to="/publications/">Publications</SLink> / <span>{{ pub.reference || pub.id }}</span></div>

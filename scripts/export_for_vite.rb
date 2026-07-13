@@ -742,6 +742,128 @@ File.write(File.join(options[:out_dir], "vocab-gaps.json"),
            JSON.generate(vocab_gaps))
 
 puts "Exported for Vite:"
+# ── Page-specific pre-computed data (lightweight JSON per page) ───────────
+
+# ActionsPage: terms with suggested actions
+actions_data = terms
+  .select { |t| (t["suggested_actions"] || []).any? }
+  .map { |t| { "slug" => t["slug"], "name" => t["name"], "kind" => t["kind"],
+               "actions" => t["suggested_actions"], "pub_count" => (t["publications"]||[]).length,
+               "editions_present" => t["editions_present"] } }
+File.write(File.join(options[:out_dir], "actions-data.json"), JSON.generate(actions_data))
+
+# G18DynamicPage: all concepts with first definition
+g18_dynamic = terms.map { |t|
+  pubs = t["publications"] || []
+  { "slug" => t["slug"], "name" => t["name"], "kind" => t["kind"],
+    "definition" => (pubs.first || {})["definition"] || "",
+    "pub_count" => pubs.length } }
+File.write(File.join(options[:out_dir], "g18-dynamic.json"), JSON.generate(g18_dynamic))
+
+# G18ReadinessPage: coverage stats
+total = terms.length
+with_def = terms.count { |t| (t["publications"]||[]).any? { |p| (p["definition"]||"").strip.size > 0 } }
+readiness = { "total" => total, "with_definition" => with_def,
+              "raw_conflicts" => raw_conflicts }
+File.write(File.join(options[:out_dir], "readiness-stats.json"), JSON.generate(readiness))
+
+# LeaderboardPage: terms sorted by pub count + distinct defs
+leaderboard = terms.map { |t|
+  pubs = t["publications"] || []
+  defs = pubs.map { |p| (p["definition"]||"").gsub(/\{\{[^}]+\}\}/, "").strip }.select { |d| !d.empty? }
+  { "slug" => t["slug"], "name" => t["name"],
+    "pub_count" => pubs.length, "distinct_defs" => defs.uniq.size,
+    "editions_present" => t["editions_present"] } }
+File.write(File.join(options[:out_dir], "leaderboard-data.json"), JSON.generate(leaderboard))
+
+# PublicationsListPage: pub → term/edition stats
+pub_stats = {}
+terms.each do |t|
+  (t["publications"] || []).each do |p|
+    pid = p["publication_id"]
+    next unless pid
+    ed = p["edition"] || "?"
+    pub_stats[pid] ||= { "editions" => Hash.new(0), "term_count" => 0, "slugs" => [] }
+    pub_stats[pid]["editions"][ed] += 1
+    pub_stats[pid]["term_count"] += 1
+    pub_stats[pid]["slugs"] << t["slug"]
+  end
+end
+pub_list = publications.map do |p|
+  stats = pub_stats[p["id"]] || { "editions" => {}, "term_count" => 0, "slugs" => [] }
+  p.merge("term_count" => stats["term_count"],
+          "edition_term_counts" => stats["editions"])
+end
+File.write(File.join(options[:out_dir], "pub-list.json"), JSON.generate(pub_list))
+
+# TcListPage: TC → term/pub counts per edition
+tc_data = {}
+terms.each do |t|
+  (t["publications"] || []).each do |p|
+    tc = p["tc_sc"]
+    next unless tc && !tc.to_s.strip.empty?
+    ed = p["edition"] || "?"
+    tc_data[tc] ||= { "terms" => Set.new, "pubs" => Set.new }
+    tc_data[tc]["terms"] << t["slug"]
+    tc_data[tc]["pubs"] << p["publication_id"] if p["publication_id"]
+    tc_data[tc]["ed_#{ed}_terms"] ||= Set.new
+    tc_data[tc]["ed_#{ed}_terms"] << t["slug"]
+    tc_data[tc]["ed_#{ed}_pubs"] ||= Set.new
+    tc_data[tc]["ed_#{ed}_pubs"] << p["publication_id"] if p["publication_id"]
+  end
+end
+tc_list_data = tc_data.map do |tc, d|
+  { "tc" => tc, "terms_total" => d["terms"].size, "pubs_total" => d["pubs"].size,
+    "terms_202X" => (d["ed_202X_terms"]||Set.new).size, "pubs_202X" => (d["ed_202X_pubs"]||Set.new).size,
+    "terms_2010" => (d["ed_2010_terms"]||Set.new).size, "pubs_2010" => (d["ed_2010_pubs"]||Set.new).size }
+end.sort_by { |x| x["tc"] }
+File.write(File.join(options[:out_dir], "tc-stats.json"), JSON.generate(tc_list_data))
+
+# HarmonizationPage: slim the harmonization data (designation collisions only)
+harmonization_slim = {
+  "designation_collisions" => collisions,
+}
+File.write(File.join(options[:out_dir], "harmonization-slim.json"), JSON.generate(harmonization_slim))
+
+# ── Per-publication detail JSON (fetched on demand) ───────────────────────
+pub_detail_dir = File.join(repo_root, "web", "public", "data", "publications")
+FileUtils.mkdir_p(pub_detail_dir)
+publications.each do |pub|
+  pid = pub["id"]
+  pub_terms = terms.select { |t| (t["publications"] || []).any? { |p| p["publication_id"] == pid } }
+  pub_terms_slim = pub_terms.map { |t|
+    instances = (t["publications"] || []).select { |p| p["publication_id"] == pid }
+      .map { |p| p.is_a?(Hash) ? p.reject { |k, _| STRIP_FROM_PUB.include?(k) } : p }
+    { "slug" => t["slug"], "name" => t["name"], "kind" => t["kind"],
+      "identifier" => t["identifier"],
+      "suggested_actions" => t["suggested_actions"],
+      "instances" => instances }
+  }
+  pub_slug = pid.to_s.downcase.gsub(/[^a-z0-9]+/, "-").gsub(/^-+|-+$/, "")
+  File.write(File.join(pub_detail_dir, "#{pub_slug}.json"), JSON.generate({
+    "publication" => pub, "terms" => pub_terms_slim
+  }))
+end
+
+# ── Per-TC detail JSON (fetched on demand) ────────────────────────────────
+tc_detail_dir = File.join(repo_root, "web", "public", "data", "tcs")
+FileUtils.mkdir_p(tc_detail_dir)
+tc_data.each do |tc, d|
+  tc_terms = terms.select { |t| (t["publications"] || []).any? { |p| p["tc_sc"] == tc } }
+  tc_terms_full = tc_terms.map { |t|
+    slim_pubs = (t["publications"] || []).map { |p| p.is_a?(Hash) ? p.reject { |k, _| STRIP_FROM_PUB.include?(k) } : p }
+    { "slug" => t["slug"], "name" => t["name"], "kind" => t["kind"],
+      "identifier" => t["identifier"], "editions_present" => t["editions_present"],
+      "suggested_actions" => t["suggested_actions"], "designations" => t["designations"],
+      "publications" => slim_pubs }
+  }
+  tc_pubs_full = publications.select { |p| d["pubs"].include?(p["id"]) }
+  tc_slug = tc.downcase.gsub(/[^a-z0-9]+/, "-").gsub(/^-+|-+$/, "")
+  File.write(File.join(tc_detail_dir, "#{tc_slug}.json"), JSON.generate({
+    "tc" => tc, "terms" => tc_terms_full, "publications" => tc_pubs_full
+  }))
+end
+
 puts "  Publications:        #{publications.size}"
 puts "  Terms:               #{terms.size}"
 puts "  TCs:                 #{tc_set.size}"
