@@ -574,7 +574,10 @@ by_slug = terms.each_with_object({}) { |t, h| h[t["slug"]] = t }
 # The full terms.json is ~30MB+; this slim version is ~500KB.
   terms_slim = terms.map do |t|
   pubs = t["publications"] || []
-  defs = pubs.map { |p| (p["definition"] || "").gsub(/\{\{[^}]+\}\}/, "").strip }.select { |d| !d.empty? }
+  # Deduplicate by (publication_id, clause) — same pub+clause across
+  # G18 editions should count as ONE instance, not multiple.
+  deduped = pubs.each_with_object({}) { |p, h| h["#{p['publication_id']}|#{p['clause']}"] ||= p }.values
+  defs = deduped.map { |p| (p["definition"] || "").gsub(/\{\{[^}]+\}\}/, "").strip }.select { |d| !d.empty? }
   tc_counts = pubs.each_with_object(Hash.new(0)) { |p, h| h[p["tc_sc"]] += 1 if p["tc_sc"] && !p["tc_sc"].to_s.strip.empty? }
   {
     "slug" => t["slug"],
@@ -834,9 +837,10 @@ File.write(File.join(options[:out_dir], "readiness-stats.json"), JSON.generate(r
 # LeaderboardPage: terms sorted by pub count + distinct defs
 leaderboard = terms.map { |t|
   pubs = t["publications"] || []
-  defs = pubs.map { |p| (p["definition"]||"").gsub(/\{\{[^}]+\}\}/, "").strip }.select { |d| !d.empty? }
+  deduped = pubs.each_with_object({}) { |p, h| h["#{p['publication_id']}|#{p['clause']}"] ||= p }.values
+  defs = deduped.map { |p| (p["definition"]||"").gsub(/\{\{[^}]+\}\}/, "").strip }.select { |d| !d.empty? }
   { "slug" => t["slug"], "name" => t["name"],
-    "pub_count" => pubs.length, "distinct_defs" => defs.uniq.size,
+    "pub_count" => deduped.length, "distinct_defs" => defs.uniq.size,
     "editions_present" => t["editions_present"] } }
 File.write(File.join(options[:out_dir], "leaderboard-data.json"), JSON.generate(leaderboard))
 
