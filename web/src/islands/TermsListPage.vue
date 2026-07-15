@@ -11,10 +11,6 @@ const terms = termsData as any[];
 
 const search = ref("");
 
-// Simple scope toggle: "current" (default, complete edition only) vs "all".
-type ScopeFilter = "current" | "all";
-const scopeFilter = ref<ScopeFilter>("current");
-
 const onlyTC = ref("");
 const onlyKind = ref("");
 const sortKey = ref<"name" | "pubs" | "defs">("name");
@@ -30,9 +26,6 @@ const allTCs = computed(() => {
 
 const filtered = computed(() => {
   let t = terms;
-  if (scopeFilter.value === "current") {
-    t = t.filter(x => (x.editions_present || []).includes("complete"));
-  }
   if (onlyTC.value) {
     t = t.filter(x => (x.tc_scs || []).includes(onlyTC.value));
   }
@@ -55,7 +48,7 @@ const filtered = computed(() => {
 
 const pagination = usePagination(filtered, {
   pageSize: 50,
-  dep: () => `${scopeFilter.value}|${onlyTC.value}|${onlyKind.value}|${search.value}|${sortKey.value}|${sortDir.value}`,
+  dep: () => `${onlyTC.value}|${onlyKind.value}|${search.value}|${sortKey.value}|${sortDir.value}`,
 });
 
 function toggleSort(key: "name" | "pubs" | "defs") {
@@ -120,26 +113,7 @@ const pageTitle = computed(() => "Concepts defined in OIML publications");
 
   <!-- Edition overview: simple counts per edition -->
   <div class="edition-overview">
-    <span class="edition-overview-total">{{ terms.length }} concepts total</span>
-  </div>
-
-  <!-- Simple scope toggle -->
-  <div class="page-filter" role="region" aria-label="Scope filter">
-    <span class="page-filter-label">Scope</span>
-    <div class="page-filter-controls">
-      <button type="button"
-              :class="['page-filter-btn', { 'page-filter-btn-active': scopeFilter === 'current' }]"
-              @click="scopeFilter = 'current'">
-        <span class="page-filter-btn-title">Current</span>
-        <span class="page-filter-btn-meta">G 18:Current edition only</span>
-      </button>
-      <button type="button"
-              :class="['page-filter-btn', { 'page-filter-btn-active': scopeFilter === 'all' }]"
-              @click="scopeFilter = 'all'">
-        <span class="page-filter-btn-title">All</span>
-        <span class="page-filter-btn-meta">all editions</span>
-      </button>
-    </div>
+    <span class="edition-overview-total">{{ terms.length }} concepts</span>
   </div>
 
   <section class="card">
