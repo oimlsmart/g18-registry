@@ -202,6 +202,12 @@ tbody tr:hover { background: var(--color-accent-tint); }
   border: 1px solid var(--color-rule);
   white-space: nowrap;
   letter-spacing: 0.04em;
+  margin-right: 0.2em;
+}
+.edition-pill.edition-complete {
+  background: var(--status-info-bg);
+  color: var(--status-info-text);
+  border-color: var(--status-info-border);
 }
 .edition-pill.edition-202x {
   background: var(--color-accent);
@@ -212,6 +218,11 @@ tbody tr:hover { background: var(--color-accent-tint); }
   background: transparent;
   color: var(--color-ink-muted);
   border-color: var(--color-rule);
+}
+.edition-pill.edition-202x-draft {
+  background: var(--status-warn-bg);
+  color: var(--status-warn-text);
+  border-color: var(--status-warn-border);
 }
 
 /* VIM/VIML confidence indicators */

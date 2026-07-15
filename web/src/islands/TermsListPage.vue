@@ -33,11 +33,9 @@ const onlyKind = ref("");
 const sortKey = ref<"name" | "pubs" | "defs">("name");
 const sortDir = ref<1 | -1>(1);
 
+const termsInCurrent = computed(() => (terms as any[]).filter(t => (t.editions_present || []).includes("complete")).length);
 const termsIn202X = computed(() => (terms as any[]).filter(t => (t.editions_present || []).includes("202X")).length);
 const termsIn2010 = computed(() => (terms as any[]).filter(t => (t.editions_present || []).includes("2010")).length);
-const termsInBoth = computed(() => (terms as any[]).filter(t => (t.editions_present || []).includes("202X") && (t.editions_present || []).includes("2010")).length);
-const onlyIn202X = computed(() => termsIn202X.value - termsInBoth.value);
-const onlyIn2010 = computed(() => termsIn2010.value - termsInBoth.value);
 
 const allTCs = computed(() => {
   const set = new Set<string>();
@@ -93,6 +91,15 @@ function toggleSort(key: "name" | "pubs" | "defs") {
 }
 
 function tcCount(t: any): number { return t.tc_counts?.[onlyTC.value] || 0; }
+function editionLabel(e: string): string {
+  if (e === "complete") return "Current";
+  if (e === "202X-draft") return "Draft";
+  return e;
+}
+function sortedEditions(eds: string[] | undefined): string[] {
+  const order: Record<string, number> = { "complete": 0, "202X": 1, "202X-draft": 2, "2010": 3 };
+  return [...(eds || [])].sort((a, b) => (order[a] ?? 9) - (order[b] ?? 9));
+}
 function symbolsOf(t: any): string[] {
   if (!t.designations) return [];
   return Array.from(new Set(t.designations.filter((d: any) => d.type === "symbol").map((d: any) => d.text as string)));
@@ -119,13 +126,12 @@ const pageTitle = computed(() => {
     <p class="lede">{{ filtered.length }} concepts</p>
   </div>
 
-  <!-- Edition overview: explains the set relationship once, clearly -->
+  <!-- Edition overview: simple counts per edition -->
   <div class="edition-overview">
-    <span class="edition-overview-total">{{ terms.length }} unique terms</span>
+    <span class="edition-overview-total">{{ terms.length }} concepts total</span>
     <span class="edition-overview-detail">
-      <strong>{{ termsIn202X }}</strong> in G 18:202X draft · <strong>{{ termsIn2010 }}</strong> in G 18:2010 published · <strong>{{ termsInBoth }}</strong> in both
+      <strong>{{ termsInCurrent }}</strong> in G 18:Current · <strong>{{ termsIn202X }}</strong> in G 18:202X · <strong>{{ termsIn2010 }}</strong> in G 18:2010
     </span>
-    <span class="edition-overview-delta">{{ onlyIn202X }} new in 202X · {{ onlyIn2010 }} dropped since 2010</span>
   </div>
 
   <!-- Sticky page-level edition filter — clean controls, no numbers -->
@@ -154,7 +160,7 @@ const pageTitle = computed(() => {
               :class="['page-filter-btn', { 'page-filter-btn-active': editionFilter === 'all' && !crossEdition }]"
               @click="editionFilter = 'all'; crossEdition = null">
         <span class="page-filter-btn-title">All</span>
-        <span class="page-filter-btn-meta">both editions</span>
+        <span class="page-filter-btn-meta">all editions</span>
       </button>
     </div>
   </div>
@@ -219,7 +225,7 @@ const pageTitle = computed(() => {
             <DefText v-for="s in symbolsOf(t)" :key="s" :text="s" />
           </td>
           <td><span :class="['kind', `kind-${t.kind}`]">{{ kindLabel(t.kind) }}</span></td>
-          <td><span v-for="e in [...(t.editions_present || [])].sort((a:string,b:string) => (b==='202X'?1:0)-(a==='202X'?1:0))" :key="e" :class="['edition-pill', `edition-${e.toLowerCase()}`]">{{ e }}</span></td>
+          <td><span v-for="e in sortedEditions(t.editions_present)" :key="e" :class="['edition-pill', `edition-${e.toLowerCase()}`]">{{ editionLabel(e) }}</span></td>
           <td class="num">{{ t.pub_count }}</td>
           <td v-if="onlyTC" class="num">{{ tcCount(t) }}</td>
           <td class="num">{{ t.distinct_def_count }}</td>
@@ -247,7 +253,7 @@ const pageTitle = computed(() => {
           </span>
         </div>
         <div class="term-card-stats">
-          <span v-for="e in [...(t.editions_present || [])].sort((a:string,b:string) => (b==='202X'?1:0)-(a==='202X'?1:0))" :key="e" :class="['edition-pill', `edition-${e.toLowerCase()}`]">{{ e }}</span>
+          <span v-for="e in sortedEditions(t.editions_present)" :key="e" :class="['edition-pill', `edition-${e.toLowerCase()}`]">{{ editionLabel(e) }}</span>
           <span class="term-card-stat"><strong>{{ t.pub_count }}</strong> inst.</span>
           <span v-if="onlyTC" class="term-card-stat"><strong>{{ tcCount(t) }}</strong> TC pubs</span>
           <span class="term-card-stat"><strong>{{ t.distinct_def_count }}</strong> defs</span>
