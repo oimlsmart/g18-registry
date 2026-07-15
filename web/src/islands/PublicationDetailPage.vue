@@ -256,7 +256,7 @@ const actionTypesPresent = computed(() => {
                 :class="['page-filter-btn', { 'page-filter-btn-active': editionFilter === 'all' }]"
                 @click="editionFilter = 'all'">
           <span class="page-filter-btn-title">All</span>
-          <span class="page-filter-btn-meta">{{ pubTerms.length }} terms · both editions</span>
+          <span class="page-filter-btn-meta">{{ pubTerms.length }} terms · all editions</span>
         </button>
       </div>
     </div>
@@ -338,16 +338,17 @@ const actionTypesPresent = computed(() => {
     <!-- Aligned with V 1/V 2 -->
     <section v-if="alignedTerms.length" class="card">
       <h2>Aligned with V 1/V 2 ({{ alignedTerms.length }})</h2>
-      <p class="lede">These terms cite VIM or VIML and have no citation defects.</p>
+      <p class="lede">These terms cite VIM or VIML. They can be sourced directly from the authoritative vocabulary — no separate OIML definition needed.</p>
       <div class="table-scroll">
         <table>
-          <thead><tr><th>Term</th><th>Source</th><th>Clause</th><th>Definition</th></tr></thead>
+          <thead><tr><th>Term</th><th>Source</th><th>Clause</th><th>Definition</th><th></th></tr></thead>
           <tbody>
             <tr v-for="t in alignedTerms" :key="t.slug">
               <td class="term-cell"><SLink :to="`/concepts/${t.slug}/`">{{ t.name }}</SLink></td>
               <td><span :class="['kind', `kind-${t.kind}`]">{{ kindLabel(t.kind) }}</span></td>
               <td><code>{{ pubInstanceForEdition(t)?.clause || '—' }}</code></td>
-              <td style="max-width:540px">{{ pubInstanceForEdition(t)?.definition }}</td>
+              <td style="max-width:400px">{{ pubInstanceForEdition(t)?.definition }}</td>
+              <td><SLink :to="`/analysis/gaps/?term=${t.slug}`" class="pub-propose-link">Source from V 1/V 2 →</SLink></td>
             </tr>
           </tbody>
         </table>

@@ -902,7 +902,7 @@ publications.each do |pub|
     { "slug" => t["slug"], "name" => t["name"], "kind" => t["kind"],
       "identifier" => t["identifier"],
       "suggested_actions" => t["suggested_actions"],
-      "instances" => instances }
+      "publications" => instances }
   }
   pub_slug = pid.to_s.downcase.gsub(/[^a-z0-9]+/, "-").gsub(/^-+|-+$/, "")
   File.write(File.join(pub_detail_dir, "#{pub_slug}.json"), JSON.generate({
