@@ -89,7 +89,7 @@ const pubActions = computed(() => {
   return all.filter(a => {
     if (!DEFECT_ACTION_TYPES.has(a.type)) return false;
     if (editionFilter.value === "all") return true;
-    const t = terms.find(t => t.slug === a.slug);
+    const t = terms.value.find(t => t.slug === a.slug);
     if (!t) return false;
     const ed = editionFilter.value === "current" ? "complete" : editionFilter.value;
     return editionsForTerm(t).has(ed) &&
@@ -102,7 +102,7 @@ const pubActions = computed(() => {
 const pubActionTermSlugs = computed(() => new Set(pubActions.value.map(a => a.slug)));
 const pubActionTermCount = computed(() => pubActionTermSlugs.value.size);
 
-const actionTerms = computed(() => terms.filter(t => pubActionTermSlugs.value.has(t.slug)));
+const actionTerms = computed(() => terms.value.filter(t => pubActionTermSlugs.value.has(t.slug)));
 
 const isOimlSpecific = (t: any) => t.kind === "oiml_original" || t.kind === "undefined";
 
@@ -154,7 +154,7 @@ function pubInstanceForEdition(term: any): any {
 const actionRows = computed<Row[]>(() => {
   const rows: Row[] = [];
   for (const a of pubActions.value) {
-    const t = terms.find(x => x.slug === a.slug);
+    const t = terms.value.find(x => x.slug === a.slug);
     const pub = pubInstanceForEdition(t);
     rows.push({
       slug: a.slug, name: a.name, type: a.type, priority: a.priority,

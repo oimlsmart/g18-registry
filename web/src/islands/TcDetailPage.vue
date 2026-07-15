@@ -51,7 +51,7 @@ const tcPubs = computed(() => {
 const tcTerms = computed(() => {
   if (!tcName.value) return [];
   const ed = editionForFilter.value;
-  return terms.filter(t => t.publications.some((p: any) =>
+  return terms.value.filter(t => t.publications.some((p: any) =>
     p.tc_sc === tcName.value && (ed === null || p.edition === ed)
   ));
 });
@@ -78,10 +78,10 @@ const actionTermSlugs = computed(() => new Set(tcActions.value.map(a => a.slug))
 // Per-publication status
 const pubStatus = computed(() => tcPubs.value.map(pub => {
   const pubTermSlugs = new Set(
-    terms.filter(t => t.publications.some((p: any) => p.publication_id === pub.id)).map(t => t.slug)
+    terms.value.filter(t => t.publications.some((p: any) => p.publication_id === pub.id)).map(t => t.slug)
   );
   const pubActionsForThis = tcActions.value.filter(a => pubTermSlugs.has(a.slug));
-  const totalTerms = terms.filter(t => t.publications.some((p: any) => p.publication_id === pub.id)).length;
+  const totalTerms = terms.value.filter(t => t.publications.some((p: any) => p.publication_id === pub.id)).length;
   return {
     pub,
     totalTerms,
@@ -112,7 +112,7 @@ interface Row {
 const actionRows = computed<Row[]>(() => {
   const out: Row[] = [];
   for (const a of tcActions.value) {
-    const t = terms.find(x => x.slug === a.slug);
+    const t = terms.value.find(x => x.slug === a.slug);
     if (!t) continue;
     // Only count publications under THIS tc/sc (actions come from across all pubs,
     // but the secretary only controls their own).
