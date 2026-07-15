@@ -42,6 +42,8 @@ module G18
         edges  = Loaders.see_edges(concept)
         adoption = Loaders.adoption_info(concept, raw: raw)
         lineage  = Loaders.source_lineage(concept, raw: raw)
+        # Use raw_sourced_from extracted directly from YAML (bypasses glossarist)
+        sourced_from = entry[:raw_sourced_from] || []
         pub = {
           "edition"            => entry[:edition],
           "publication"        => (bib_e && bib_e["reference"]) || src_id,
@@ -59,6 +61,7 @@ module G18
           "example_paragraphs" => Loaders.example_paragraphs(concept, raw: raw),
           "source"             => adoption,
           "source_lineage"     => lineage,
+          "sourced_from"       => sourced_from.empty? ? nil : sourced_from,
           "consistency"        => "pending",
           "consistency_reason" => "",
         }

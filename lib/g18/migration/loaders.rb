@@ -27,14 +27,58 @@ module G18
       def load_concept_file(file, edition: nil)
         raw = File.read(file, encoding: "utf-8")
         docs = YAML.safe_load_stream(raw, filename: file, aliases: true, permitted_classes: [Date, Time])
-        doc = Glossarist::V3::ConceptDocument.from_yamls(raw)
-        { file: file, concept: doc.to_managed_concept, raw: docs, edition: edition }
+        raw_sourced_from = extract_raw_sourced_from(docs)
+        # Remove sourced_from from docs so glossarist can parse without errors,
+        # then re-serialize to clean YAML.
+        clean_docs = Marshal.load(Marshal.dump(docs))
+        clean_docs.each do |d|
+          next unless d.is_a?(Hash) && d["data"].is_a?(Hash) && d["data"]["sources"].is_a?(Array)
+          # Keep only the first (authoritative) source. Remove lineage-type
+          # sources and sourced_from — glossarist's model rejects them.
+          d["data"]["sources"] = d["data"]["sources"].first(1)
+            .map { |s| s.is_a?(Hash) ? s.dup.tap { |ss| ss.delete("sourced_from") } : s }
+        end
+        clean_raw = clean_docs.map { |d| d.is_a?(Hash) ? YAML.dump(d) : "---" }.join
+        begin
+          doc = Glossarist::V3::ConceptDocument.from_yamls(clean_raw)
+          entry = { file: file, concept: doc.to_managed_concept, raw: docs, edition: edition }
+        rescue => e
+          warn "  WARN: skipping #{File.basename(file)}: #{e.class}"
+          return nil
+        end
+        entry[:raw_sourced_from] = raw_sourced_from
+        entry
+      end
+
+      # Extract sourced_from chain from raw YAML docs, independent of glossarist.
+      # Returns array of {"source" => "OIML D 11:2013"} or nil.
+      def extract_raw_sourced_from(docs)
+        return nil unless docs.is_a?(Array)
+        loc_doc = docs.find { |d| d.is_a?(Hash) && d.dig("data", "definition") }
+        return nil unless loc_doc
+        sources = Array(loc_doc.dig("data", "sources"))
+        result = []
+        sources.each do |s|
+          sf = s.is_a?(Hash) ? s["sourced_from"] : nil
+          next unless sf.is_a?(Array)
+          sf.each do |ref|
+            r = ref.is_a?(Hash) ? (ref["ref"] || ref) : ref
+            next unless r
+            src = r.is_a?(Hash) ? r["source"] : nil
+            next unless src
+            entry = { "source" => src }
+            rid = r.is_a?(Hash) ? r["id"] : nil
+            entry["id"] = rid if rid
+            result << entry
+          end
+        end
+        result.empty? ? nil : result
       end
 
       def load_concept_dir(dir, edition: nil)
         Dir.glob(File.join(dir, "*.yaml")).sort.map do |file|
           load_concept_file(file, edition: edition)
-        end
+        end.compact
       end
 
       def load_bibliography(path)
@@ -158,7 +202,7 @@ module G18
         srcs.map do |s|
           ref_src = source_origin_source(s)
           next nil unless ref_src
-          {
+          summary = {
             "kind"         => adoption_kind(ref_src),
             "relationship" => adoption_relationship(s),
             "modification" => source_modification(s),
@@ -166,6 +210,30 @@ module G18
             "ref_id"       => source_origin_id(s),
             "is_vimline"   => vimline_source?(ref_src),
           }
+          sf = extract_sourced_from(s)
+          summary["sourced_from"] = sf if sf && !sf.empty?
+          summary
+        end.compact
+      end
+
+      # Extract sourced_from chain from a lineage source entry.
+      # Returns array of {"source" => "OIML D 11:2013", "id" => "3.19.1.1"} or nil.
+      def extract_sourced_from(s)
+        sf = if s.is_a?(Hash)
+          s["sourced_from"]
+        elsif s.respond_to?(:sourced_from)
+          s.sourced_from
+        end
+        return nil unless sf.is_a?(Array)
+        sf.map do |ref|
+          r = ref.is_a?(Hash) ? (ref["ref"] || ref) : ref
+          next nil unless r
+          src = r.is_a?(Hash) ? r["source"] : (r.respond_to?(:source) ? r.source : nil)
+          next nil unless src
+          entry = { "source" => src }
+          rid = r.is_a?(Hash) ? r["id"] : (r.respond_to?(:id) ? r.id : nil)
+          entry["id"] = rid if rid
+          entry
         end.compact
       end
 

@@ -510,6 +510,49 @@ Dir.glob(File.join(options[:data_dir], "*.yaml")).sort.each do |path|
   }
   terms << term
 end
+
+# ── Enrich publication instances with sourced_from from raw vocab YAML ────
+# glossarist can't parse concept files with lineage sources, so we read
+# the raw YAML directly to extract the sourced_from chain.
+%w[g18-current g18-complete].each do |dataset|
+  concepts_dir = File.join(options[:vocab_root], dataset, "concepts")
+  next unless Dir.exist?(concepts_dir)
+  edition = dataset == "g18-current" ? "202X" : "complete"
+  term_by_slug = terms.each_with_object({}) { |t, h| h[t["slug"]] = t }
+  Dir.glob(File.join(concepts_dir, "*.yaml")).each do |vfile|
+    begin
+      vraw = File.read(vfile, encoding: "utf-8")
+      vdocs = YAML.safe_load_stream(vraw, aliases: true, permitted_classes: [Date, Time])
+    rescue StandardError
+      next
+    end
+    loc_doc = vdocs.find { |d| d.is_a?(Hash) && d.dig("data", "definition") }
+    next unless loc_doc
+    terms_data = loc_doc.dig("data", "terms") || []
+    pref = terms_data.find { |t| (t["normative_status"] || "").include?("preferred") } || terms_data.first
+    next unless pref && pref["designation"]
+    slug = pref["designation"].to_s.downcase.gsub(/[^a-z0-9]+/, "-").gsub(/^-+|-+$/, "")
+    t = term_by_slug[slug]
+    next unless t
+    sources = Array(loc_doc.dig("data", "sources"))
+    sf = []
+    sources.each do |s|
+      sfa = s.is_a?(Hash) ? s["sourced_from"] : nil
+      next unless sfa.is_a?(Array)
+      sfa.each do |ref|
+        r = ref.is_a?(Hash) ? (ref["ref"] || ref) : ref
+        src = r.is_a?(Hash) ? r["source"] : nil
+        next unless src
+        sf << { "source" => src }
+      end
+    end
+    next if sf.empty?
+    (t["publications"] || []).each do |p|
+      p["sourced_from"] = sf if p["edition"] == edition && !p["sourced_from"]
+    end
+  end
+end
+
 File.write(File.join(options[:out_dir], "terms.json"),
            JSON.generate(terms))
 
