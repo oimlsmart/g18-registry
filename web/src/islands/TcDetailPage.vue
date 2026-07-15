@@ -39,14 +39,14 @@ const editionForFilter = computed<string | null>(() => {
 const tcPubs = computed(() => {
   if (!tcName.value) return [];
   const ed = editionForFilter.value;
-  if (!ed) return publications.filter(p => p.tc_sc === tcName.value);
+  if (!ed) return publications.value.filter(p => p.tc_sc === tcName.value);
   const pubIds = new Set<string>();
-  for (const t of terms) {
+  for (const t of terms.value) {
     for (const p of (t.publications || [])) {
       if (p.tc_sc === tcName.value && p.edition === ed) pubIds.add(p.publication_id);
     }
   }
-  return publications.filter(p => p.tc_sc === tcName.value && pubIds.has(p.id));
+  return publications.value.filter(p => p.tc_sc === tcName.value && pubIds.has(p.id));
 });
 const tcTerms = computed(() => {
   if (!tcName.value) return [];
@@ -165,7 +165,7 @@ const legendTypes = computed(() => {
 
 // Lookup publication reference for display
 function pubRef(id: string): string {
-  return publications.find(p => p.id === id)?.reference || id;
+  return publications.value.find(p => p.id === id)?.reference || id;
 }
 </script>
 
