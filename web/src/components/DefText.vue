@@ -13,7 +13,7 @@ const rendered = computed(() => {
       const trimmedText = text.trim();
       const slug = resolveXrefSlug(id.trim(), trimmedText);
       if (slug) {
-        return `<a href="${base}terms/${slug}/" class="xref">${trimmedText}</a>`;
+        return `<a href="${base}concepts/${slug}/" class="xref">${trimmedText}</a>`;
       }
       return `<span class="xref-unresolved" title="Not in G 18 — see VIM/VIML vocab">${trimmedText}</span>`;
     }

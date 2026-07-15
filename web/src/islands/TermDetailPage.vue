@@ -66,7 +66,7 @@ function classifySource(src: string): { type: string; label: string } {
 // "Is this recommendation term adopting it from VIM/VIML?"
 interface PubCitation {
   pubId: string;
-  edition: string;
+  editions: string[];
   refSource: string | null;
   refId: string | null;
   status: "current" | "outdated" | "no-citation";
@@ -74,32 +74,33 @@ interface PubCitation {
 }
 const pubCitations = computed<PubCitation[]>(() => {
   const pubs = (term.value?.publications || []);
-  const seen = new Set<string>();
-  const out: PubCitation[] = [];
+  const byPub = new Map<string, PubCitation>();
   for (const p of pubs) {
-    const key = `${p.publication_id}-${p.edition}`;
-    if (seen.has(key)) continue;
-    seen.add(key);
-    const src = p.source;
-    const refSource = src?.ref_source || null;
-    const refId = src?.ref_id || null;
-    let status: PubCitation["status"] = "no-citation";
-    let formattedRef = "No VIM/VIML citation";
-    if (refSource) {
-      const m = refSource.match(/V\s*(\d)-\d+:(\d{4})/);
-      if (m) {
-        const vocabName = m[1] === "1" ? "VIML" : "VIM";
-        formattedRef = `${vocabName} ${m[2]}${refId ? ` §${refId}` : ""}`;
-        const urn = vocabName === "VIM" ? "urn:oiml:pub:v:2:" : "urn:oiml:pub:v:1:";
-        status = isCurrent(urn + m[2]) ? "current" : "outdated";
-      } else {
-        formattedRef = refSource;
-        status = "outdated";
+    const pid = p.publication_id;
+    if (!pid) continue;
+    if (!byPub.has(pid)) {
+      const src = p.source;
+      const refSource = src?.ref_source || null;
+      const refId = src?.ref_id || null;
+      let status: PubCitation["status"] = "no-citation";
+      let formattedRef = "No VIM/VIML citation";
+      if (refSource) {
+        const m = refSource.match(/V\s*(\d)-\d+:(\d{4})/);
+        if (m) {
+          const vocabName = m[1] === "1" ? "VIML" : "VIM";
+          formattedRef = `${vocabName} ${m[2]}${refId ? ` §${refId}` : ""}`;
+          const urn = vocabName === "VIM" ? "urn:oiml:pub:v:2:" : "urn:oiml:pub:v:1:";
+          status = isCurrent(urn + m[2]) ? "current" : "outdated";
+        } else {
+          formattedRef = refSource;
+          status = "outdated";
+        }
       }
+      byPub.set(pid, { pubId: pid, editions: [], refSource, refId, status, formattedRef });
     }
-    out.push({ pubId: p.publication_id, edition: p.edition, refSource, refId, status, formattedRef });
+    if (p.edition) byPub.get(pid)!.editions.push(p.edition);
   }
-  return out.sort((a, b) => {
+  return [...byPub.values()].sort((a, b) => {
     const rank = { current: 0, outdated: 1, "no-citation": 2 };
     return (rank[a.status] - rank[b.status]) || (a.pubId || "").localeCompare(b.pubId || "");
   });
@@ -529,9 +530,9 @@ const filteredPublications = computed(() => {
         </span>
       </div>
       <div class="citation-list">
-        <div v-for="c in pubCitations" :key="c.pubId + '-' + c.edition" :class="['citation-row', `citation-row-${c.status}`]">
+        <div v-for="c in pubCitations" :key="c.pubId" :class="['citation-row', `citation-row-${c.status}`]">
           <SLink :to="`/publications/${slugifyPubId(c.pubId)}/`" class="citation-pub">{{ c.pubId }}</SLink>
-          <span class="citation-pub-edition">{{ c.edition }}</span>
+          <span v-for="e in c.editions" :key="e" :class="['edition-pill', `edition-${e.toLowerCase()}`]">{{ e === 'complete' ? 'Cur' : e === '202X-draft' ? 'Draft' : e }}</span>
           <span class="citation-arrow">→</span>
           <span :class="['citation-ref', `citation-ref-${c.status}`]">{{ c.formattedRef }}</span>
           <span v-if="c.status === 'current'" class="citation-action citation-action-ok">up to date</span>
