@@ -34,6 +34,24 @@ const sourcingPublicationsCount = computed(() =>
   new Set((term.value?.publications || []).map((p: any) => p.publication_id)).size
 );
 
+// Sourced from — where this concept was adopted from (V 1/V 2, OIML pub, ISO, etc.)
+const sourcedFromSources = computed(() => {
+  const sources = new Map<string, number>();
+  for (const p of (term.value?.publications || [])) {
+    for (const sf of (p.sourced_from || [])) {
+      const src = sf.source as string;
+      if (src) sources.set(src, (sources.get(src) || 0) + 1);
+    }
+  }
+  return [...sources.entries()].sort((a, b) => b[1] - a[1]).map(([src]) => src);
+});
+function classifySource(src: string): { type: string; label: string } {
+  if (src.match(/OIML V [12]/) || src.match(/^VIM/)) return { type: "vocab", label: "V 1/V 2" };
+  if (src.match(/^OIML [RDB]/)) return { type: "oiml", label: "OIML publication" };
+  if (src.match(/^ISO/) || src.match(/^IEC/)) return { type: "external", label: "external standard" };
+  return { type: "other", label: "other source" };
+}
+
 // Near-miss data now comes from term.vocab_presence (fetched per-term)
 
 // Publication citation status: for each publication instance, what VIM/VIML
@@ -455,6 +473,18 @@ const filteredPublications = computed(() => {
                :to="`/publications/${slugifyPubId(p)}/`" class="sourcing-doc">{{ p }}</SLink>
         <span v-if="sourcingPublicationsCount > 6" class="sourcing-more">
           +{{ sourcingPublicationsCount - 6 }} more
+        </span>
+      </div>
+      <!-- Sourced from: where this concept was adopted from -->
+      <div v-if="sourcedFromSources.length" class="sourced-from">
+        <span class="sourced-from-label">Sourced from</span>
+        <span v-for="src in sourcedFromSources.slice(0, 6)" :key="src"
+              :class="['sourced-from-chip', `sf-${classifySource(src).type}`]"
+              :title="classifySource(src).label">
+          {{ src }}
+        </span>
+        <span v-if="sourcedFromSources.length > 6" class="sourcing-more">
+          +{{ sourcedFromSources.length - 6 }} more
         </span>
       </div>
     </div>
@@ -1151,6 +1181,32 @@ const filteredPublications = computed(() => {
   background: var(--color-accent-tint);
   color: var(--color-accent);
 }
+.sourced-from {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.3em;
+  margin-top: 0.4em;
+}
+.sourced-from-label {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-ink-muted);
+}
+.sourced-from-chip {
+  font-family: var(--font-mono);
+  font-size: 0.74rem;
+  padding: 0.1em 0.45em;
+  border-radius: 3px;
+  border-left: 3px solid;
+}
+.sf-vocab { background: var(--status-ok-bg); color: var(--status-ok-text); border-left-color: var(--status-ok-border); }
+.sf-oiml { background: var(--status-info-bg); color: var(--status-info-text); border-left-color: var(--status-info-border); }
+.sf-external { background: var(--status-warn-bg); color: var(--status-warn-text); border-left-color: var(--status-warn-border); }
+.sf-other { background: var(--color-rule-soft); color: var(--color-ink-soft); border-left-color: var(--color-rule); }
 .sourcing-more {
   font-size: 0.76rem;
   color: var(--color-ink-muted);
