@@ -1,5 +1,6 @@
 <script setup lang="ts">
-import { computed, ref, onMounted, watchEffect } from "vue";
+import { computed, ref, watchEffect } from "vue";
+import { useJsonFetch } from "@/composables/useJsonFetch";
 import { useVocabularyEdition } from "@/composables/useVocabularyEdition";
 import { useConceptVersions } from "@/composables/useConceptVersions";
 import { slugifyPubId, isOimlOriginal } from "@/composables/useSuggestedActions";
@@ -14,16 +15,7 @@ const props = defineProps<{ slug: string }>();
 const base = import.meta.env.BASE_URL;
 const { label, confidenceClass, isCurrent, isSuperseded, latestLabel, role, vocabUrl } = useVocabularyEdition();
 
-const term = ref<any>(null);
-const loading = ref(true);
-
-onMounted(async () => {
-  try {
-    const res = await fetch(`${base}data/terms/${props.slug}.json`);
-    if (res.ok) term.value = await res.json();
-  } catch { /* fetch failed */ }
-  finally { loading.value = false; }
-});
+const { data: term, loading } = useJsonFetch(() => `${base}data/terms/${props.slug}.json`);
 
 // Withdrawn publications: detect if any publication instance is withdrawn.
 // These concepts should be retired from G 18:current and G 18:202X.

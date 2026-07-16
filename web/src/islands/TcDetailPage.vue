@@ -1,5 +1,6 @@
 <script setup lang="ts">
-import { computed, ref, onMounted } from "vue";
+import { computed, ref } from "vue";
+import { useJsonFetch } from "@/composables/useJsonFetch";
 import tcData from "@/data/tc.json";
 import { ACTION_META, actionMeta, slugifyPubId } from "@/composables/useSuggestedActions";
 import SLink from "@/components/SLink.vue";
@@ -9,21 +10,9 @@ const props = defineProps<{ slug: string }>();
 const base = import.meta.env.BASE_URL;
 
 const tcName = computed(() => (tcData as string[]).find(t => slugify(t) === props.slug));
-const terms = ref<any[]>([]);
-const publications = ref<any[]>([]);
-const loading = ref(true);
-
-onMounted(async () => {
-  try {
-    const res = await fetch(`${base}data/tcs/${props.slug}.json`);
-    if (res.ok) {
-      const data = await res.json();
-      terms.value = data.terms || [];
-      publications.value = data.publications || [];
-    }
-  } catch { /* fetch failed */ }
-  finally { loading.value = false; }
-});
+const { data: tcData_response, loading } = useJsonFetch(() => `${base}data/tcs/${props.slug}.json`);
+const terms = computed(() => tcData_response.value?.terms || []);
+const publications = computed(() => tcData_response.value?.publications || []);
 
 // Edition filter (sticky 3-button pattern, default 202X). Filters by which
 // edition this TC/SC's pubs have instances in.

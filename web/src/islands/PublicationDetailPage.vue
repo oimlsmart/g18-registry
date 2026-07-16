@@ -1,5 +1,6 @@
 <script setup lang="ts">
-import { computed, ref, onMounted } from "vue";
+import { computed, ref } from "vue";
+import { useJsonFetch } from "@/composables/useJsonFetch";
 import publications from "@/data/publications.json";
 import { ACTION_META, actionMeta, slugifyPubId } from "@/composables/useSuggestedActions";
 import SLink from "@/components/SLink.vue";
@@ -15,19 +16,8 @@ const pubId = computed(() => {
 });
 const pub = computed(() => (publications as any[]).find(p => p.id === pubId.value));
 
-const terms = ref<any[]>([]);
-const loading = ref(true);
-
-onMounted(async () => {
-  try {
-    const res = await fetch(`${base}data/publications/${props.slug}.json`);
-    if (res.ok) {
-      const data = await res.json();
-      terms.value = data.terms || [];
-    }
-  } catch { /* fetch failed */ }
-  finally { loading.value = false; }
-});
+const { data: pubData, loading } = useJsonFetch(() => `${base}data/publications/${props.slug}.json`);
+const terms = computed(() => pubData.value?.terms || []);
 
 const pubTerms = computed(() => terms.value);
 
