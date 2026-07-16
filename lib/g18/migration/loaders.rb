@@ -280,8 +280,7 @@ module G18
       end
 
       def parse_year(s)
-        m = s.to_s.match(/:(\d{4})\z/)
-        m && m[1].to_i
+        G18::Model::PubId.parse_year(s)
       end
 
       def slugify(term)
@@ -292,14 +291,9 @@ module G18
         G18::Model::Identifier.deterministic_uuid(name)
       end
 
-      # Normalize publication IDs to the canonical spaced format:
-      # "OIML R076-1:2006" → "OIML R 76-1:2006" (space after letter, no zero-pad).
+      # Deprecated — use G18::Model::PubId.normalize directly.
       def normalize_pub_id(id)
-        return "" unless id
-        id.to_s
-          .gsub(/OIML\s*([RDGB])\s*0*(\d)/i) { "OIML #{$1} #{$2}" }
-          .gsub(/\s+/, " ")
-          .strip
+        G18::Model::PubId.normalize(id)
       end
 
       # ── helpers ────────────────────────────────────────────────────────

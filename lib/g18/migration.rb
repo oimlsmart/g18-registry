@@ -25,6 +25,7 @@ require "set"
 
 require_relative "vocabulary"
 require_relative "model/identifier"
+require_relative "model/pub_id"
 
 module G18
   module Migration
