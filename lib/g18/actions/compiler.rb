@@ -1,9 +1,5 @@
 # frozen_string_literal: true
 
-require_relative "action"
-require_relative "term_state"
-require_relative "rules"
-
 module G18
   module Actions
     # Computes suggested actions for a single term by delegating to a

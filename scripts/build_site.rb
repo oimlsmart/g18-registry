@@ -8,9 +8,7 @@
 # _site/ via lib/g18/site.rb.
 
 require "optparse"
-require_relative "../lib/g18/site"
-require_relative "../lib/g18/site/renderer"
-require_relative "../lib/g18/migration"  # for G18::Migration.vocab_concept_url used in templates
+require_relative "../lib/g18"
 
 repo_root = File.expand_path("..", __dir__)
 options = {

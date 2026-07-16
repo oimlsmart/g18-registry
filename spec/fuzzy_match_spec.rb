@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative "../lib/g18/fuzzy_match"
+require_relative "../lib/g18"
 
 RSpec.describe G18::FuzzyMatch do
   let(:idx) do
