@@ -92,12 +92,11 @@ function toggleSort(key: "name" | "pubs" | "defs") {
 
 function tcCount(t: any): number { return t.tc_counts?.[onlyTC.value] || 0; }
 function editionLabel(e: string): string {
-  if (e === "complete") return "Current";
-  if (e === "202X-draft") return "Draft";
+  if (e === "complete") return "OIML";
   return e;
 }
 function sortedEditions(eds: string[] | undefined): string[] {
-  const order: Record<string, number> = { "complete": 0, "202X": 1, "202X-draft": 2, "2010": 3 };
+  const order: Record<string, number> = { "complete": 0, "202X": 1, "2010": 2 };
   return [...(eds || [])].sort((a, b) => (order[a] ?? 9) - (order[b] ?? 9));
 }
 function symbolsOf(t: any): string[] {

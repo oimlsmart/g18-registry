@@ -532,7 +532,7 @@ const filteredPublications = computed(() => {
       <div class="citation-list">
         <div v-for="c in pubCitations" :key="c.pubId" :class="['citation-row', `citation-row-${c.status}`]">
           <SLink :to="`/publications/${slugifyPubId(c.pubId)}/`" class="citation-pub">{{ c.pubId }}</SLink>
-          <span v-for="e in c.editions" :key="e" :class="['edition-pill', `edition-${e.toLowerCase()}`]">{{ e === 'complete' ? 'Cur' : e === '202X-draft' ? 'Draft' : e }}</span>
+          <span v-for="e in c.editions" :key="e" :class="['edition-pill', `edition-${e.toLowerCase()}`]">{{ e === 'complete' ? 'OIML' : e }}</span>
           <span class="citation-arrow">→</span>
           <span :class="['citation-ref', `citation-ref-${c.status}`]">{{ c.formattedRef }}</span>
           <span v-if="c.status === 'current'" class="citation-action citation-action-ok">up to date</span>
