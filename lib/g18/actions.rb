@@ -10,14 +10,16 @@
 # Action types (mutually exclusive — each term instance gets at most
 # one of these):
 #
-#   upgrade_vim    — cites superseded VIM; available in VIM 2012
-#   upgrade_viml   — cites superseded VIML; available in VIML 2022
-#   removed        — not found in latest edition (deleted or renamed)
-#   adopt_vim      — defined in VIML but VIM has it too; consider adopting VIM
-#   adopt_viml     — defined in VIM but VIML has it too; consider adopting VIML
-#   harmonize      — ≥ 2 distinct definitions across publications
-#   standardize    — cited by ≥ 2 pubs, all identical, ready to confirm canonical
-#   unique         — OIML-original, no VIM/VIML reference
+#   upgrade_vim           — cites superseded VIM; available in VIM 2012
+#   upgrade_viml          — cites superseded VIML; available in VIML 2022
+#   removed               — not found in latest edition (deleted or renamed)
+#   harmonize             — ≥ 2 distinct definitions across publications
+#   standardize           — cited by ≥ 2 pubs, all identical, ready to confirm canonical
+#   unique                — OIML-original, no VIM/VIML reference
+#   aligned               — Case 1: designation + definition match current V1/V2
+#   definition_diverges   — Case 3: designation matches, definition differs
+#   fuzzy_adopt           — Case 4: similar designation exists in V1/V2
+#   propose_v3            — Case 5: no V1/V2 match, OIML-specific
 #
 # Priorities: high / medium / low / info
 

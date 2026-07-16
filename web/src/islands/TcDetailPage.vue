@@ -132,7 +132,7 @@ const sortedRows = computed<Row[]>(() => {
     });
   }
   // by-action
-  const typeOrder = ["upgrade_vim", "upgrade_viml", "removed", "harmonize", "adopt_vim", "adopt_viml", "standardize", "unique"];
+  const typeOrder = ["upgrade_vim", "upgrade_viml", "removed", "harmonize", "standardize", "unique"];
   return [...r].sort((a, b) => {
     const ta = typeOrder.indexOf(a.type);
     const tb = typeOrder.indexOf(b.type);

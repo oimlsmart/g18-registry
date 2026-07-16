@@ -306,8 +306,6 @@ tbody tr:hover { background: var(--color-accent-tint); }
 .action-icon-removed      { background: var(--color-red); color: #fff; border-color: var(--color-red); }
 .action-icon-harmonize    { background: var(--color-oiml-amber-deep); color: #fff; border-color: var(--color-oiml-amber-deep); }
 .action-icon-standardize  { background: var(--color-green); color: #fff; border-color: var(--color-green); }
-.action-icon-adopt_vim,
-.action-icon-adopt_viml   { background: var(--color-accent-tint); color: var(--color-accent); border-color: var(--color-accent-soft); }
 .action-icon-unique       { background: transparent; color: var(--color-ink-muted); border-color: var(--color-rule); }
 
 /* Action icon legend */

@@ -726,7 +726,7 @@ gaps_no_match = vocab_gaps.count { |g| !g["near_misses"]&.dig("vim") && !g["near
 
 # Priority worklist: top 8 non-historic terms with actions
 ACTION_PRIORITY = { "upgrade_vim" => 0, "upgrade_viml" => 0, "removed" => 0,
-                    "harmonize" => 1, "adopt_vim" => 1, "adopt_viml" => 1,
+                    "harmonize" => 1,
                     "unique" => 2, "standardize" => 2 }.freeze
 priority_terms = terms
   .reject { |t| (t["editions_present"] || []) == ["2010"] }

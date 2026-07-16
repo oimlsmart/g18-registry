@@ -93,7 +93,7 @@ function vocabCandidate(t: any): { label: string; cls: string } | null {
 
 // Action priority indicator: find the highest-priority action type.
 const PRIORITY_ORDER: Record<string, number> = {
-  harmonize: 0, upgrade_vim: 1, upgrade_viml: 2, removed: 3, retire: 3, adopt_vim: 4, adopt_viml: 5, standardize: 6, unique: 7,
+  harmonize: 0, upgrade_vim: 1, upgrade_viml: 2, removed: 3, retire: 3, standardize: 6, unique: 7,
 };
 function actionPriority(t: any): { label: string; cls: string } | null {
   const types = t.action_types || [];
