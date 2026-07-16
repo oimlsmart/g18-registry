@@ -45,6 +45,11 @@ export const ACTION_META: Record<string, ActionMeta> = {
   harmonize:    { label: "Harmonize",       icon: "⇄", hint: "≥ 2 publications under this TC/SC use different definitions for the same term. Decide: merge into one, or document why divergence is intentional.", applies_to: "all" },
   standardize:  { label: "Standardize",     icon: "≡", hint: "All citing publications already use identical wording. Batch-confirm as canonical for G 18:202X.", applies_to: "202X" },
   unique:       { label: "OIML-original",   icon: "★", hint: "Term has no VIM/VIML reference. Confirm OIML is the authoritative source.", applies_to: "all" },
+  aligned:      { label: "Aligned",         icon: "✓", hint: "Designation and definition match current V1/V2. No action needed.", applies_to: "all" },
+  update_citation: { label: "Update citation", icon: "↻", hint: "Matches a historic V1/V2 edition. Update publication to cite current edition.", applies_to: "all" },
+  definition_diverges: { label: "Definition diverges", icon: "≠", hint: "Designation matches V1/V2 but definition differs. Adopt V1/V2 concept, or differentiate and propose to V3.", applies_to: "all" },
+  fuzzy_adopt:  { label: "Fuzzy match",     icon: "?", hint: "Designation is similar to a V1/V2 term. Decide: adopt the V1/V2 term, or propose to V3.", applies_to: "all" },
+  propose_v3:   { label: "Propose V3",      icon: "+", hint: "No V1/V2 match. This is an OIML-specific term. Propose for the future V3 vocabulary.", applies_to: "all" },
 };
 
 export const ACTION_TYPES = Object.keys(ACTION_META);
