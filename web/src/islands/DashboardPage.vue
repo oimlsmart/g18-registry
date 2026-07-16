@@ -139,23 +139,50 @@ const priorityBadge = (rank: number) =>
         <h2>Vocab alignment</h2>
         <div class="corpus-stat-main">
           <span class="corpus-num">{{ vimlCount + vimCount }}</span>
-          <span class="corpus-unit">aligned with V 1/V 2</span>
+          <span class="corpus-unit">defined in V 1/V 2</span>
         </div>
         <div class="corpus-breakdown">
-          <div class="corpus-row">
+          <SLink to="/analysis/gaps/?scope=v1-match" class="corpus-row">
             <span class="corpus-dot corpus-dot-v1"></span>
-            <strong>{{ vimlCount }}</strong> from VIML (V 1)
-          </div>
-          <div class="corpus-row">
+            <strong>{{ vimlCount }}</strong> VIML (V 1)
+          </SLink>
+          <SLink to="/analysis/gaps/?scope=v2-match" class="corpus-row">
             <span class="corpus-dot corpus-dot-v2"></span>
-            <strong>{{ vimCount }}</strong> from VIM (V 2)
-          </div>
+            <strong>{{ vimCount }}</strong> VIM (V 2)
+          </SLink>
           <SLink to="/analysis/gaps/?scope=v3-match" class="corpus-row">
             <span class="corpus-dot corpus-dot-v3"></span>
-            <strong>{{ oimlCount }}</strong> OIML-specific (V 3 candidates)
+            <strong>{{ oimlCount }}</strong> OIML-specific (V 3)
           </SLink>
         </div>
       </div>
+    </div>
+  </section>
+
+  <!-- Alignment status: 5-case distribution -->
+  <section class="card reveal reveal-3 alignment-overview" v-if="dashboard.alignment_counts">
+    <h2>Concept alignment status</h2>
+    <div class="alignment-grid">
+      <SLink to="/concepts/" class="alignment-stat alignment-aligned">
+        <div class="alignment-num">{{ dashboard.alignment_counts.aligned || 0 }}</div>
+        <div class="alignment-label">Aligned</div>
+        <div class="alignment-desc">Designation + definition match V1/V2</div>
+      </SLink>
+      <SLink to="/concepts/" class="alignment-stat alignment-diverges">
+        <div class="alignment-num">{{ dashboard.alignment_counts.diverges || 0 }}</div>
+        <div class="alignment-label">Definition diverges</div>
+        <div class="alignment-desc">Same designation, different definition</div>
+      </SLink>
+      <SLink to="/concepts/" class="alignment-stat alignment-fuzzy">
+        <div class="alignment-num">{{ dashboard.alignment_counts.fuzzy || 0 }}</div>
+        <div class="alignment-label">Fuzzy match</div>
+        <div class="alignment-desc">Similar designation exists in V1/V2</div>
+      </SLink>
+      <SLink to="/concepts/" class="alignment-stat alignment-none">
+        <div class="alignment-num">{{ dashboard.alignment_counts.none || 0 }}</div>
+        <div class="alignment-label">No match</div>
+        <div class="alignment-desc">OIML-specific — propose for V3</div>
+      </SLink>
     </div>
   </section>
 
@@ -347,4 +374,39 @@ const priorityBadge = (rank: number) =>
 .corpus-dot-v1 { background: var(--status-ok-border, #16a34a); }
 .corpus-dot-v2 { background: var(--status-info-border, #3b82f6); }
 .corpus-dot-v3 { background: var(--color-accent); }
+.alignment-overview { margin-bottom: 1.2em; }
+.alignment-overview h2 { margin-bottom: 0.6em; }
+.alignment-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.8em;
+}
+@media (max-width: 720px) { .alignment-grid { grid-template-columns: repeat(2, 1fr); } }
+.alignment-stat {
+  display: block;
+  padding: 1em;
+  border-radius: var(--radius-card);
+  border-left: 4px solid;
+  text-decoration: none;
+  transition: transform 0.15s;
+}
+.alignment-stat:hover { transform: translateY(-2px); }
+.alignment-num {
+  font-family: var(--font-display);
+  font-size: 1.8rem;
+  font-weight: 400;
+  letter-spacing: -0.03em;
+  line-height: 1.1;
+  font-variation-settings: "opsz" 96;
+}
+.alignment-label { font-weight: 600; font-size: 0.88rem; margin-top: 0.1em; }
+.alignment-desc { font-size: 0.76rem; color: var(--color-ink-muted); margin-top: 0.2em; line-height: 1.3; }
+.alignment-aligned { background: var(--status-ok-bg); border-color: var(--status-ok-border); }
+.alignment-aligned .alignment-num, .alignment-aligned .alignment-label { color: var(--status-ok-text); }
+.alignment-diverges { background: var(--status-warn-bg); border-color: var(--status-warn-border); }
+.alignment-diverges .alignment-num, .alignment-diverges .alignment-label { color: var(--status-warn-text); }
+.alignment-fuzzy { background: var(--status-info-bg); border-color: var(--status-info-border); }
+.alignment-fuzzy .alignment-num, .alignment-fuzzy .alignment-label { color: var(--status-info-text); }
+.alignment-none { background: var(--color-rule-soft); border-color: var(--color-rule); }
+.alignment-none .alignment-num, .alignment-none .alignment-label { color: var(--color-ink-muted); }
 </style>

@@ -12,6 +12,7 @@ const terms = termsData as any[];
 const search = ref("");
 const onlyTC = ref("");
 const onlyKind = ref("");
+const onlyAlignment = ref("");
 const sortKey = ref<"name" | "pubs" | "defs">("name");
 const sortDir = ref<1 | -1>(1);
 
@@ -30,6 +31,9 @@ const filtered = computed(() => {
   }
   if (onlyKind.value) {
     t = t.filter(x => x.kind === onlyKind.value);
+  }
+  if (onlyAlignment.value) {
+    t = t.filter(x => (x.alignment_status || "none") === onlyAlignment.value);
   }
   if (search.value) {
     const q = search.value.toLowerCase();
@@ -57,6 +61,13 @@ function toggleSort(key: "name" | "pubs" | "defs") {
     sortKey.value = key;
     sortDir.value = 1;
   }
+}
+
+function alignLabel(status: string | undefined): string {
+  if (status === "aligned") return "Aligned";
+  if (status === "diverges") return "Diverges";
+  if (status === "fuzzy") return "Fuzzy";
+  return "No match";
 }
 
 function tcCount(t: any): number { return t.tc_counts?.[onlyTC.value] || 0; }
@@ -111,6 +122,13 @@ function actionPriority(t: any): { label: string; cls: string } | null {
         <option value="defined_in_viml">From VIML (V 1)</option>
         <option value="oiml_original">OIML-specific</option>
       </select>
+      <select v-model="onlyAlignment">
+        <option value="">All alignment</option>
+        <option value="aligned">Aligned</option>
+        <option value="diverges">Definition diverges</option>
+        <option value="fuzzy">Fuzzy match</option>
+        <option value="none">No match (V3 candidates)</option>
+      </select>
       <select v-model="onlyTC">
         <option value="">All TC/SCs</option>
         <option v-for="tc in allTCs" :key="tc" :value="tc">{{ tc }}</option>
@@ -122,6 +140,7 @@ function actionPriority(t: any): { label: string; cls: string } | null {
         <tr>
           <th @click="toggleSort('name')" style="cursor:pointer">Concept {{ sortKey === 'name' ? (sortDir === 1 ? '↑' : '↓') : '' }}</th>
           <th>Source</th>
+          <th>Alignment</th>
           <th>G 18 #</th>
           <th>Div</th>
           <th>Vocab</th>
@@ -135,6 +154,7 @@ function actionPriority(t: any): { label: string; cls: string } | null {
         <tr v-for="t in pagination.visible.value" :key="t.slug">
           <td class="term-cell"><SLink :to="`/concepts/${t.slug}/`"><DefText :text="t.name" /></SLink></td>
           <td><span :class="['kind', `kind-${t.kind}`]">{{ kindLabel(t.kind) }}</span></td>
+          <td><span :class="['align-badge', `align-${t.alignment_status || 'none'}`]">{{ alignLabel(t.alignment_status) }}</span></td>
           <td class="g18-id">{{ g18Entry(t) || "—" }}</td>
           <td>
             <span v-if="(t.distinct_def_count || 0) > 1" class="div-warn" :title="`${t.distinct_def_count} distinct definitions`">{{ t.distinct_def_count }}</span>
@@ -198,4 +218,16 @@ function actionPriority(t: any): { label: string; cls: string } | null {
 .cand-v1 { background: var(--status-ok-bg); color: var(--status-ok-text); }
 .cand-v2 { background: var(--status-info-bg); color: var(--status-info-text); }
 .cand-v3 { background: var(--color-accent-tint); color: var(--color-accent); }
+.align-badge {
+  display: inline-block;
+  font-size: 0.68rem;
+  font-weight: 700;
+  padding: 0.1em 0.4em;
+  border-radius: 3px;
+  letter-spacing: 0.02em;
+}
+.align-aligned { background: var(--status-ok-bg); color: var(--status-ok-text); }
+.align-diverges { background: var(--status-warn-bg); color: var(--status-warn-text); }
+.align-fuzzy { background: var(--status-info-bg); color: var(--status-info-text); }
+.align-none { background: var(--color-rule-soft); color: var(--color-ink-muted); }
 </style>

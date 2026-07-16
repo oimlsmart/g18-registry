@@ -586,7 +586,8 @@ Dir.glob(File.join(options[:data_dir], "*.yaml")).sort.each do |path|
     "suggested_actions" => G18::Actions::Compiler.for_term(
       "data" => data, "latest_check" => latest,
       "vocab_presence" => vocab_presence,
-      "canonical_mismatch" => canonical_mismatch
+      "canonical_mismatch" => canonical_mismatch,
+      "alignment" => alignment
     ).map(&:to_h),
     "publications" => (data["publications"] || []).map do |p|
       render_stem_deep(p).merge(

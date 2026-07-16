@@ -37,6 +37,7 @@ module G18
         @oc = @data["official_concept"]
         @lc = @term["latest_check"] || @data["latest_check"]
         @kind = @data["kind"] || "oiml_original"
+        @alignment = @term["alignment"] || @data["alignment"]
         # vocab_presence is computed at export time for OIML-original terms
         # (no VIM/VIML citation). Shape: { vim: {found, match_type, designation, ...} | nil,
         # viml: { ... } | nil }. Used to enrich action descriptions with
@@ -51,23 +52,52 @@ module G18
       end
 
       def call
-        # Pre-compute whether harmonize will also fire for this term so the
-        # vocab_actions can append "...or document why divergence is
-        # intentional" guidance when both concerns apply at once.
         @has_divergence = distinct_definitions_per_edition.values.any? { |d| d.size >= 2 }
         actions = []
+        actions.concat(alignment_action)
         actions.concat(vocab_actions)
         actions.concat(harmonize_action)
         actions.concat(standardize_action)
-        # Fire `unique` for any OIML-original term, even when
-        # other actions also apply — the "candidate for V 1/V 2/V 3"
-        # guidance is independent of citation currency / divergence.
-        # Backward compat: accept legacy "undefined" value too.
         actions.concat(unique_action) if @kind == "oiml_original" || @kind == "undefined" || actions.empty?
         actions.sort_by(&:priority_rank)
       end
 
       private
+
+      # Alignment-based actions from the 5-case classification.
+      # These take priority over legacy vocab_actions when alignment
+      # data is available, providing clearer guidance per the decision tree.
+      def alignment_action
+        return [] unless @alignment
+        ac = @alignment["case"]
+        status = @alignment["alignment"]
+        vocab = @alignment["matched_vocab"]
+        label = vocab == "viml" ? "VIML 2022" : vocab == "vim" ? "VIM 2012" : "V1/V2"
+        term_name = @data["term"] || @data["name"] || "this term"
+
+        case ac
+        when 1
+          [Action.new(type: :aligned, priority: :info,
+            description: "Designation and definition match current #{label}. No action needed.")]
+        when 3
+          [Action.new(type: :definition_diverges, priority: :high,
+            description: "Designation matches #{label} but definition differs. " \
+                         "Adopt the #{label} concept, or differentiate the designation and propose to V3.")]
+        when 4
+          matched = @alignment.dig("matched_vocab") == "viml" ?
+            (@term.dig("data", "vocab_presence", "viml", "designation") rescue nil) : nil
+          matched ||= @term.dig("data", "vocab_presence", "vim", "designation") rescue nil
+          [Action.new(type: :fuzzy_adopt, priority: :medium,
+            description: "Designation is similar to a #{label} term#{matched ? " ('#{matched}')" : ''}. " \
+                         "Adopt the #{label} term, or propose to V3 as sufficiently different.")]
+        when 5
+          [Action.new(type: :propose_v3, priority: :low,
+            description: "No V1/V2 match. '#{term_name}' is OIML-specific. " \
+                         "Propose for the future V3 vocabulary.")]
+        else
+          []
+        end
+      end
 
       # Vocabulary-related actions: upgrade, removed, adopt.
       def vocab_actions
