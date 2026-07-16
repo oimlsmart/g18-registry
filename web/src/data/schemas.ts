@@ -97,3 +97,79 @@ export const editionStatsSchema = z.object({
   stats: z.array(editionStatSchema),
   terms_in_both: z.number(),
 });
+
+// ── Dashboard (homepage summary) ───────────────────────────────────────
+export const dashboardSchema = z.object({
+  total_terms: z.number(),
+  total_publications: z.number(),
+  kind_counts: z.record(z.string(), z.number()),
+  edition_counts: z.record(z.string(), z.number()).optional(),
+  gaps_viml_near_miss: z.number(),
+  gaps_vim_near_miss: z.number(),
+  gaps_no_match: z.number(),
+  priority_terms: z.array(z.object({
+    slug: z.string(),
+    name: z.string(),
+    actions: z.array(z.string()),
+    priority_rank: z.number(),
+    pub_count: z.number(),
+  })).optional(),
+  pub_current: z.number(),
+  pub_retired: z.number(),
+  pub_withdrawn: z.number(),
+  concepts_from_current: z.number().optional(),
+  concepts_from_historic: z.number().optional(),
+  alignment_counts: z.record(z.string(), z.number()),
+});
+
+// ── Conflicts (raw ID conflicts + designation collisions) ──────────────
+export const conflictsSchema = z.object({
+  raw: z.record(
+    z.string(), // edition name
+    z.array(z.object({
+      id: z.string(),
+      concepts: z.array(z.object({
+        designation: z.string(),
+        source: z.string().nullable().optional(),
+        raw_id: z.string().nullable().optional(),
+      })),
+    })),
+  ),
+  designation_collisions: z.record(
+    z.string(), // edition name
+    z.array(z.object({
+      designation: z.string(),
+      ids: z.array(z.string()),
+      count: z.number(),
+    })),
+  ),
+});
+
+// ── Harmonization candidates (terms with > 1 publication) ─────────────
+export const harmonizationSchema = z.object({
+  slug: z.string(),
+  name: z.string(),
+  kind: z.string(),
+  identifier: z.string().nullable().optional(),
+  publications: z.array(publicationInstanceSchema),
+}).passthrough();
+
+// ── Slim term (list / count pages — subset of term fields) ─────────────
+export const termSlimSchema = z.object({
+  slug: z.string(),
+  name: z.string(),
+  kind: z.string(),
+  identifier: z.string().nullable().optional(),
+  editions_present: z.array(z.string()),
+  pub_count: z.number(),
+  pub_ids: z.array(z.string()),
+  tc_scs: z.array(z.string()),
+  tc_counts: z.record(z.string(), z.number()),
+  distinct_def_count: z.number(),
+  action_types: z.array(z.string()),
+  designations: z.array(designationSchema),
+  official_concept_id: z.string().nullable().optional(),
+  has_withdrawn: z.boolean().optional(),
+  alignment_case: z.number().nullable().optional(),
+  alignment_status: z.string().nullable().optional(),
+});
