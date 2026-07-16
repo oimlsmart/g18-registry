@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { maxWithinEditionDistinctDefs } from "@/composables/useSuggestedActions";
+import { maxWithinEditionDistinctDefs } from "@/composables/action-utils";
 
 // Tests the per-edition divergence detection used by the dashboard,
 // harmonization worklist, and compiler logic. This is the CANONICAL

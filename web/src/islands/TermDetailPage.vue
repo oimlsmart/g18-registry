@@ -3,13 +3,13 @@ import { computed, ref, watchEffect } from "vue";
 import { useJsonFetch } from "@/composables/useJsonFetch";
 import { useVocabularyEdition } from "@/composables/useVocabularyEdition";
 import { useConceptVersions } from "@/composables/useConceptVersions";
-import { slugifyPubId, isOimlOriginal } from "@/composables/useSuggestedActions";
+import { isOimlSpecific } from "@/utils/edition-utils";
 import SLink from "@/components/SLink.vue";
 import DefText from "@/components/DefText.vue";
 import ConceptBody from "@/components/ConceptBody.vue";
 import ConceptDiffView from "@/components/ConceptDiffView.vue";
 import DecisionFlowSVG from "@/components/DecisionFlowSVG.vue";
-import { kindLabel, normalizeDef, isHistoricTerm, groupProvenance, provenanceLabel as provLabel } from "@/utils/term-utils";
+import { kindLabel, normalizeDef, isHistoricTerm, groupProvenance, provenanceLabel as provLabel, slugify } from "@/utils/term-utils";
 
 const props = defineProps<{ slug: string }>();
 const base = import.meta.env.BASE_URL;
@@ -244,7 +244,7 @@ const consistencyCounts = computed(() => {
 
 const matchStatus = computed(() => {
   if (!term.value) return null;
-  if (isOimlOriginal(term.value)) return { key: "notinviml", label: "Not in VIM/VIML" };
+  if (isOimlSpecific(term.value.kind)) return { key: "notinviml", label: "Not in VIM/VIML" };
   const urn = term.value.official_concept?.source;
   if (!urn) return { key: "notinviml", label: "Not in VIM/VIML" };
   const r = role(urn);
@@ -344,7 +344,7 @@ const abbreviations = computed(() =>
 // by lexicographic order for stability.
 const operativeDefinition = computed<{ text: string; pubCount: number; distinctCount: number; editions: string[] } | null>(() => {
   if (!term.value) return null;
-  if (term.value.official_concept && !isOimlOriginal(term.value)) return null;
+  if (term.value.official_concept && !isOimlSpecific(term.value.kind)) return null;
   const counts = new Map<string, { pubs: any[]; editions: Set<string> }>();
   for (const p of term.value.publications || []) {
     const d = normalizeDef(p.definition || "");
@@ -470,7 +470,7 @@ const filteredPublications = computed(() => {
       <div class="sourcing-docs">
         <span class="sourcing-label">From</span>
         <SLink v-for="p in sourcingPublications" :key="p"
-               :to="`/publications/${slugifyPubId(p)}/`" class="sourcing-doc">{{ p }}</SLink>
+               :to="`/publications/${slugify(p)}/`" class="sourcing-doc">{{ p }}</SLink>
         <span v-if="sourcingPublicationsCount > 6" class="sourcing-more">
           +{{ sourcingPublicationsCount - 6 }} more
         </span>
@@ -506,7 +506,7 @@ const filteredPublications = computed(() => {
         <div class="withdrawn-warning-text">
           Cited in withdrawn OIML publication(s):
           <span v-for="(p, i) in [...new Set(withdrawnPubs.map(p => p.publication_id))]" :key="p" class="withdrawn-pub-id">
-            <SLink :to="`/publications/${slugifyPubId(p)}/`">{{ p }}</SLink><span v-if="i < [...new Set(withdrawnPubs.map(pp => pp.publication_id))].length - 1">, </span>
+            <SLink :to="`/publications/${slugify(p)}/`">{{ p }}</SLink><span v-if="i < [...new Set(withdrawnPubs.map(pp => pp.publication_id))].length - 1">, </span>
           </span>
         </div>
         <div class="withdrawn-warning-action">Action: Retire from G 18:current and G 18:202X</div>
@@ -523,7 +523,7 @@ const filteredPublications = computed(() => {
       </div>
       <div class="citation-list">
         <div v-for="c in pubCitations" :key="c.pubId" :class="['citation-row', `citation-row-${c.status}`]">
-          <SLink :to="`/publications/${slugifyPubId(c.pubId)}/`" class="citation-pub">{{ c.pubId }}</SLink>
+          <SLink :to="`/publications/${slugify(c.pubId)}/`" class="citation-pub">{{ c.pubId }}</SLink>
           <span v-for="e in c.editions" :key="e" :class="['edition-pill', `edition-${e.toLowerCase()}`]">{{ e === 'complete' ? 'OIML' : e }}</span>
           <span class="citation-arrow">→</span>
           <span :class="['citation-ref', `citation-ref-${c.status}`]">{{ c.formattedRef }}</span>
@@ -848,7 +848,7 @@ const filteredPublications = computed(() => {
             <td class="num">{{ g.pubs.length }}</td>
             <td>
               <span v-for="(p, pi) in g.pubs.slice(0, 5)" :key="pi" class="prov-pub">
-                <SLink :to="`/publications/${slugifyPubId(p.publication_id)}/`">{{ p.publication }}</SLink>
+                <SLink :to="`/publications/${slugify(p.publication_id)}/`">{{ p.publication }}</SLink>
                 <span class="muted"> ({{ p.edition }})</span>
               </span>
               <span v-if="g.pubs.length > 5" class="muted"> +{{ g.pubs.length - 5 }} more</span>
@@ -922,7 +922,7 @@ const filteredPublications = computed(() => {
               <tr v-for="p in g.publications" :key="p.g18_entry">
                 <td><span :class="['edition-pill', `edition-${p.edition?.toLowerCase()}`]">{{ p.edition }}</span></td>
                 <td class="num">{{ p.year }}</td>
-                <td><SLink :to="`/publications/${slugifyPubId(p.publication_id)}/`">{{ p.publication }}</SLink></td>
+                <td><SLink :to="`/publications/${slugify(p.publication_id)}/`">{{ p.publication }}</SLink></td>
                 <td class="num">{{ p.clause }}</td>
                 <td class="num">{{ p.g18_entry }}</td>
                 <td v-if="hasConsistencyData"><span :class="['badge', `badge-${p.consistency || 'pending'}`]" :title="consistencyHint(p.consistency || 'pending')">{{ p.consistency || "pending" }}</span></td>
@@ -942,7 +942,7 @@ const filteredPublications = computed(() => {
               <tr v-for="g in uniqueGroups" :key="g.publications[0].g18_entry" class="row-divergent">
                 <td><span :class="['edition-pill', `edition-${g.publications[0].edition?.toLowerCase()}`]">{{ g.publications[0].edition }}</span></td>
                 <td class="num">{{ g.publications[0].year }}</td>
-                <td><SLink :to="`/publications/${slugifyPubId(g.publications[0].publication_id)}/`">{{ g.publications[0].publication }}</SLink></td>
+                <td><SLink :to="`/publications/${slugify(g.publications[0].publication_id)}/`">{{ g.publications[0].publication }}</SLink></td>
                 <td class="num">{{ g.publications[0].clause }}</td>
                 <td class="num">{{ g.publications[0].g18_entry }}</td>
                 <td style="max-width:400px"><div style="white-space:pre-wrap;font-size:0.9em"><DefText :text="g.definition" /></div></td>
@@ -963,7 +963,7 @@ const filteredPublications = computed(() => {
             <tr v-for="p in filteredPublications" :key="p.g18_entry" v-show="rowVisible(p)" :class="{ 'row-divergent': distinctDefs.length > 1 && p.definition?.trim() !== distinctDefs[0], 'row-modified': p.source?.relationship === 'modified', 'row-differs': pubMatchStatus(p).key === 'differs' }">
               <td><span :class="['edition-pill', `edition-${p.edition?.toLowerCase()}`]">{{ p.edition }}</span></td>
               <td class="num">{{ p.year }}</td>
-              <td><SLink :to="`/publications/${slugifyPubId(p.publication_id)}/`">{{ p.publication }}</SLink><br /><span class="muted" style="font-size:0.8em">{{ p.tc_sc || '—' }}</span></td>
+              <td><SLink :to="`/publications/${slugify(p.publication_id)}/`">{{ p.publication }}</SLink><br /><span class="muted" style="font-size:0.8em">{{ p.tc_sc || '—' }}</span></td>
               <td class="num">{{ p.clause }}</td>
               <td class="num"><code>{{ p.g18_entry }}</code></td>
               <td style="max-width:540px">

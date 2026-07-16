@@ -8,7 +8,7 @@ import harmonization from "@/data/harmonization.json";
 import editionStats from "@/data/edition-stats.json";
 import dashboardData from "@/data/dashboard.json";
 import tc from "@/data/tc.json";
-import { ACTION_TYPES, ACTION_PRIORITIES } from "@/composables/useSuggestedActions";
+import { ACTION_TYPES, ACTION_PRIORITIES } from "@/composables/action-utils";
 import {
   termSchema, publicationSchema, vocabGapSchema, editionStatsSchema,
   dashboardSchema, conflictsSchema, harmonizationSchema, termSlimSchema,

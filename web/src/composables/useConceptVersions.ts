@@ -1,6 +1,6 @@
 import { computed, ref, type ComputedRef, type Ref } from "vue";
 import { useVocabularyEdition } from "@/composables/useVocabularyEdition";
-import { isOimlOriginal } from "@/composables/useSuggestedActions";
+import { isOimlSpecific } from "@/utils/edition-utils";
 
 export interface ConceptVersion {
   label: string;
@@ -59,7 +59,7 @@ export function useConceptVersions(
   const conceptState = computed<ConceptState>(() => {
     const t = termVal.value;
     const oc = t?.official_concept;
-    if (!oc || isOimlOriginal(t)) return "none";
+    if (!oc || isOimlSpecific(t.kind)) return "none";
     const lc = t?.latest_check;
     if (lc && !lc.found) return "removed";
     if (citedConcept.value && latestConcept.value && lc && lc.found &&

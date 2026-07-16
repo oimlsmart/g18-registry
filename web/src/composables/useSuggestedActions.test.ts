@@ -1,15 +1,14 @@
 import { describe, it, expect } from "vitest";
+import { useSuggestedActions } from "@/composables/useSuggestedActions";
 import {
-  useSuggestedActions,
   ACTION_META,
   ACTION_TYPES,
   actionMeta,
-  isHistoric,
-  isOimlOriginal,
-  slugifyPubId,
   normalizePubId,
   maxWithinEditionDistinctDefs,
-} from "@/composables/useSuggestedActions";
+} from "@/composables/action-utils";
+import { isHistoricTerm, slugify } from "@/utils/term-utils";
+import { isOimlSpecific } from "@/utils/edition-utils";
 
 const makeTerm = (overrides: any = {}) => ({
   slug: "test-term",
@@ -180,37 +179,37 @@ describe("ACTION_META", () => {
 
 describe("isHistoric", () => {
   it("returns true for 2010-only terms", () => {
-    expect(isHistoric({ editions_present: ["2010"] })).toBe(true);
+    expect(isHistoricTerm({ editions_present: ["2010"] })).toBe(true);
   });
   it("returns false for terms in both editions", () => {
-    expect(isHistoric({ editions_present: ["2010", "202X"] })).toBe(false);
+    expect(isHistoricTerm({ editions_present: ["2010", "202X"] })).toBe(false);
   });
   it("returns false for 202X-only terms", () => {
-    expect(isHistoric({ editions_present: ["202X"] })).toBe(false);
+    expect(isHistoricTerm({ editions_present: ["202X"] })).toBe(false);
   });
   it("returns false for empty editions_present", () => {
-    expect(isHistoric({ editions_present: [] })).toBe(false);
+    expect(isHistoricTerm({ editions_present: [] })).toBe(false);
   });
 });
 
-describe("isOimlOriginal", () => {
+describe("isOimlSpecific", () => {
   it("returns true for kind=oiml_original", () => {
-    expect(isOimlOriginal({ kind: "oiml_original" })).toBe(true);
+    expect(isOimlSpecific("oiml_original")).toBe(true);
   });
   it("returns true for legacy kind=undefined", () => {
-    expect(isOimlOriginal({ kind: "undefined" })).toBe(true);
+    expect(isOimlSpecific("undefined")).toBe(true);
   });
   it("returns false for defined terms", () => {
-    expect(isOimlOriginal({ kind: "defined_in_vim" })).toBe(false);
-    expect(isOimlOriginal({ kind: "defined_in_viml" })).toBe(false);
+    expect(isOimlSpecific("defined_in_vim")).toBe(false);
+    expect(isOimlSpecific("defined_in_viml")).toBe(false);
   });
 });
 
-describe("slugifyPubId", () => {
+describe("slugify (for publication IDs)", () => {
   it("slugifies publication IDs correctly", () => {
-    expect(slugifyPubId("OIML R 76-1:2006")).toBe("oiml-r-76-1-2006");
-    expect(slugifyPubId("OIML D 11:2004")).toBe("oiml-d-11-2004");
-    expect(slugifyPubId("OIML B 3:2003")).toBe("oiml-b-3-2003");
+    expect(slugify("OIML R 76-1:2006")).toBe("oiml-r-76-1-2006");
+    expect(slugify("OIML D 11:2004")).toBe("oiml-d-11-2004");
+    expect(slugify("OIML B 3:2003")).toBe("oiml-b-3-2003");
   });
 });
 

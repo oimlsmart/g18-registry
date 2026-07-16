@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { computed, ref } from "vue";
 import publications from "@/data/pub-list.json";
-import { slugifyPubId } from "@/composables/useSuggestedActions";
+import { slugify } from "@/utils/term-utils";
 import SLink from "@/components/SLink.vue";
 
 const search = ref("");
@@ -60,7 +60,7 @@ function lifecycleBadge(lc: string): { label: string; cls: string } {
       <thead><tr><th>Reference</th><th>Status</th><th>Year</th><th>TC/SC</th><th>Terms</th></tr></thead>
       <tbody>
         <tr v-for="p in filtered" :key="p.id">
-          <td><SLink :to="`/publications/${slugifyPubId(p.id)}/`">{{ p.reference || p.id }}</SLink></td>
+          <td><SLink :to="`/publications/${slugify(p.id)}/`">{{ p.reference || p.id }}</SLink></td>
           <td><span :class="['lc-badge', lifecycleBadge(p.lifecycle || 'current').cls]">{{ lifecycleBadge(p.lifecycle || 'current').label }}</span></td>
           <td class="num">{{ (p.id || '').match(/(\d{4})/)?.[1] || "—" }}</td>
           <td><SLink v-if="p.tc_sc" :to="`/tc/${p.tc_sc.toLowerCase().replace('/', '-')}/`">{{ p.tc_sc }}</SLink><span v-else class="muted">—</span></td>

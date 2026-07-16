@@ -1,4 +1,4 @@
-import { slugify, isHistoricTerm, normalizeDef } from "@/utils/term-utils";
+import { isHistoricTerm, normalizeDef } from "@/utils/term-utils";
 
 export interface SuggestedAction {
   type: string;
@@ -60,11 +60,6 @@ export function isHistoric(term: { editions_present?: string[] }): boolean {
   return isHistoricTerm(term);
 }
 
-export function isOimlOriginal(term: { kind?: string }): boolean {
-  const k = term?.kind;
-  return k === "oiml_original" || k === "undefined";
-}
-
 export function maxWithinEditionDistinctDefs(pubs: any[]): number {
   const byEd: Record<string, Set<string>> = {};
   for (const p of pubs) {
@@ -82,8 +77,4 @@ export function normalizePubId(id: string): string {
     .replace(/OIML\s+([RDGB])\s*/i, "OIML $1")
     .replace(/\s+/g, " ")
     .trim();
-}
-
-export function slugifyPubId(id: string): string {
-  return slugify(id);
 }

@@ -2,8 +2,8 @@
 import { computed, ref } from "vue";
 import { useJsonFetch } from "@/composables/useJsonFetch";
 import publications from "@/data/publications.json";
-import { ACTION_META, actionMeta, slugifyPubId } from "@/composables/useSuggestedActions";
-import { editionDataName, isOimlSpecific as isOimlSpecificKind } from "@/utils/edition-utils";
+import { ACTION_META, actionMeta } from "@/composables/action-utils";
+import { slugify } from "@/utils/term-utils";
 import SLink from "@/components/SLink.vue";
 import { kindLabel } from "@/utils/term-utils";
 
@@ -12,7 +12,7 @@ const base = import.meta.env.BASE_URL;
 
 const pubId = computed(() => {
   const map: Record<string, string> = {};
-  for (const p of (publications as any[])) map[slugifyPubId(p.id)] = p.id;
+  for (const p of (publications as any[])) map[slugify(p.id)] = p.id;
   return map[props.slug] || props.slug;
 });
 const pub = computed(() => (publications as any[]).find(p => p.id === pubId.value));
@@ -38,7 +38,7 @@ function editionsForTerm(term: any): Set<string> {
 // Filter terms by whether this pub has an instance in the selected edition.
 function termMatchesEdition(term: any): boolean {
   if (editionFilter.value === "all") return true;
-  const ed = editionDataName(editionFilter.value);
+  const ed = editionFilter.value === "current" ? "complete" : editionFilter.value;
   return editionsForTerm(term).has(ed);
 }
 const filteredPubTerms = computed(() => pubTerms.value.filter(termMatchesEdition));
@@ -49,7 +49,7 @@ const filteredPubTerms = computed(() => pubTerms.value.filter(termMatchesEdition
 // cited consistently across all pubs is clean, not action-required.
 const DEFECT_ACTION_TYPES = new Set([
   "upgrade_vim", "upgrade_viml", "removed",
-  "harmonize",
+  "harmonize", "adopt_vim", "adopt_viml",
 ]);
 
 // All actions where this pub is in publication_ids — filtered by whether
@@ -60,7 +60,8 @@ const DEFECT_ACTION_TYPES = new Set([
 // harmonize actions would leak into the 202X view.
 function actionAppliesToEdition(a: any, edition: string): boolean {
   if (edition === "all") return true;
-  const dataEd = editionDataName(edition);
+  // Map "current" filter to "complete" edition in the data
+  const dataEd = edition === "current" ? "complete" : edition;
   const meta = actionMeta(a.type);
   if (meta.applies_to === "all") return true;
   return meta.applies_to === dataEd || a.type === "harmonize";
@@ -81,7 +82,7 @@ const pubActions = computed(() => {
     if (editionFilter.value === "all") return true;
     const t = terms.value.find(t => t.slug === a.slug);
     if (!t) return false;
-    const ed = editionDataName(editionFilter.value);
+    const ed = editionFilter.value === "current" ? "complete" : editionFilter.value;
     return editionsForTerm(t).has(ed) &&
            actionAppliesToEdition(a, editionFilter.value);
   });
@@ -94,7 +95,7 @@ const pubActionTermCount = computed(() => pubActionTermSlugs.value.size);
 
 const actionTerms = computed(() => terms.value.filter(t => pubActionTermSlugs.value.has(t.slug)));
 
-const isOimlSpecific = (t: any) => isOimlSpecificKind(t.kind);
+const isOimlSpecific = (t: any) => t.kind === "oiml_original" || t.kind === "undefined";
 
 const alignedTerms = computed(() =>
   filteredPubTerms.value.filter(t => !pubActionTermSlugs.value.has(t.slug) && !isOimlSpecific(t))
@@ -137,7 +138,7 @@ interface Row {
 function pubInstanceForEdition(term: any): any {
   const pubs = (term?.publications || []).filter((p: any) => p.publication_id === pubId.value);
   if (editionFilter.value === "all") return pubs[0];
-  const ed = editionDataName(editionFilter.value);
+  const ed = editionFilter.value === "current" ? "complete" : editionFilter.value;
   return pubs.find((p: any) => p.edition === ed) || pubs[0];
 }
 
@@ -175,7 +176,7 @@ const sortedRows = computed<Row[]>(() => {
     });
   }
   // by-action: group by action type, then alphabetical within group
-  const typeOrder = ["upgrade_vim", "upgrade_viml", "removed", "harmonize", "standardize", "unique"];
+  const typeOrder = ["upgrade_vim", "upgrade_viml", "removed", "harmonize", "adopt_vim", "adopt_viml", "standardize", "unique"];
   return [...r].sort((a, b) => {
     const ta = typeOrder.indexOf(a.type);
     const tb = typeOrder.indexOf(b.type);

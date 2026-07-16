@@ -6,24 +6,9 @@ import {
   normalizePubId,
 } from "@/composables/action-utils";
 
-// Re-export for backward compatibility — existing imports from
-// useSuggestedActions continue to work.
-export {
-  type SuggestedAction,
-  type TermActionGroup,
-  type ActionMeta,
-  ACTION_META,
-  ACTION_TYPES,
-  ACTION_PRIORITIES,
-  PRIORITY_RANK,
-  actionMeta,
-  isHistoric,
-  isOimlOriginal,
-  maxWithinEditionDistinctDefs,
-  normalizePubId,
-  slugifyPubId,
-} from "@/composables/action-utils";
-
+// Returns action views over a list of terms. Each action becomes a
+// SuggestedAction with the parent term's slug/name attached so UI rows
+// can render and link without joining back to the terms list.
 export function useSuggestedActions(terms: any[]) {
   const allActions: ComputedRef<SuggestedAction[]> = computed(() => {
     const out: SuggestedAction[] = [];

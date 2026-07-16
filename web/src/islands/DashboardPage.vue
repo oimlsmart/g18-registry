@@ -4,7 +4,6 @@ import conflictsData from "@/data/conflicts.json";
 import SLink from "@/components/SLink.vue";
 
 const dashboard = dashboardData as any;
-const vocabGaps = dashboard;
 const rawConflictCount = Object.values((conflictsData as any).raw || {}).flat().length;
 
 const vimCount = dashboard.kind_counts["defined_in_vim"] || 0;
@@ -13,7 +12,6 @@ const oimlCount = (dashboard.kind_counts["oiml_original"] || 0) + (dashboard.kin
 const gapsVimlNearMiss = dashboard.gaps_viml_near_miss;
 const gapsVimNearMiss = dashboard.gaps_vim_near_miss;
 const gapsNoMatch = dashboard.gaps_no_match;
-const terms = dashboard;
 
 const priorityActions = dashboard.priority_terms || [];
 const priorityLabel = (rank: number) =>
