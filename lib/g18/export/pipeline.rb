@@ -34,7 +34,7 @@ module G18
 
       def call
         FileUtils.mkdir_p(options[:out_dir])
-        script_dir = File.join(repo_root, "web", "scripts")
+        script_dir = options[:script_dir] || File.join(repo_root, "web", "scripts")
         vocab_root = options[:vocab_root]
         relaton_root = ENV.fetch("RELATON_ROOT",
           File.expand_path("../../relaton/relaton-data-oiml", repo_root))
@@ -71,7 +71,7 @@ module G18
 
       def repo_root
         # lib/g18/export/pipeline.rb → lib/g18/export → lib/g18 → lib → repo_root
-        @repo_root ||= File.expand_path("../../..", __dir__)
+        @repo_root ||= options[:repo_root] || File.expand_path("../../..", __dir__)
       end
 
       def load_latest_indices(bridge, vocab_root)
