@@ -38,6 +38,12 @@ module G18
         concept = entry[:concept]
         raw     = entry[:raw]
         src_id = Loaders.source_ref(concept)
+        # Fallback for V1/V2 concepts: construct publication_id from vocab type
+        if !src_id && entry[:vocab]
+          ed = entry[:edition].to_s
+          year = ed.gsub(/^(viml|vim)-/, "")
+          src_id = entry[:vocab] == :viml ? "OIML V 1:#{year}" : "OIML V 2-200:#{year}"
+        end
         bib_e  = bib[src_id]
         edges  = Loaders.see_edges(concept)
         adoption = Loaders.adoption_info(concept, raw: raw)
@@ -132,6 +138,14 @@ module G18
         first = sorted.first
         edges = merged_edges(sorted)
         kind, official = pick_official(edges)
+        # Fallback for V1/V2 concepts: they use supersedes/compare edges
+        # (not see), so pick_official returns oiml_original. Use :vocab.
+        if kind == "oiml_original"
+          vocab_entry = sorted.find { |e| e[:vocab] }
+          if vocab_entry
+            kind = vocab_entry[:vocab] == :viml ? "defined_in_viml" : "defined_in_vim"
+          end
+        end
         pubs = sorted
           .map { |e| build_publication_entry(e, bib) }
           .sort_by { |p| [p["edition"].to_s, -(p["year"] || 0), p["publication_id"].to_s, p["clause"].to_s] }

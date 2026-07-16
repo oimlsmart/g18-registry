@@ -32,6 +32,8 @@ module G18
         editions.each do |e|
           next unless Dir.exist?(File.join(e[:path], "concepts"))
           list = Loaders.load_concept_dir(File.join(e[:path], "concepts"), edition: e[:name])
+          # Thread vocab type (:viml, :vim, or nil) through to each entry
+          list.each { |entry| entry[:vocab] = e[:vocab] } if e[:vocab]
           entries_by_edition[e[:name]] = list
           all_entries.concat(list)
         end

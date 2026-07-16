@@ -32,6 +32,12 @@ options = {
     { name: "complete", path: File.join(vocab_root, "oiml-complete"), primary: true },
     { name: "202X", path: File.join(vocab_root, "g18-202X"), primary: false },
     { name: "2010", path: File.join(vocab_root, "g18-2010"), primary: false },
+    { name: "viml-2022", path: File.join(vocab_root, "viml-2022"), primary: false, vocab: :viml },
+    { name: "viml-2013", path: File.join(vocab_root, "viml-2013"), primary: false, vocab: :viml },
+    { name: "viml-2000", path: File.join(vocab_root, "viml-2000"), primary: false, vocab: :viml },
+    { name: "vim-2012", path: File.join(vocab_root, "vim-2012"), primary: false, vocab: :vim },
+    { name: "vim-2007", path: File.join(vocab_root, "vim-2007"), primary: false, vocab: :vim },
+    { name: "vim-1993", path: File.join(vocab_root, "vim-1993"), primary: false, vocab: :vim },
   ],
 }
 
@@ -43,6 +49,12 @@ OptionParser.new do |opts|
       { name: "complete", path: File.join(v, "oiml-complete"), primary: true },
       { name: "202X", path: File.join(v, "g18-202X"), primary: false },
       { name: "2010", path: File.join(v, "g18-2010"), primary: false },
+      { name: "viml-2022", path: File.join(v, "viml-2022"), primary: false, vocab: :viml },
+      { name: "viml-2013", path: File.join(v, "viml-2013"), primary: false, vocab: :viml },
+      { name: "viml-2000", path: File.join(v, "viml-2000"), primary: false, vocab: :viml },
+      { name: "vim-2012", path: File.join(v, "vim-2012"), primary: false, vocab: :vim },
+      { name: "vim-2007", path: File.join(v, "vim-2007"), primary: false, vocab: :vim },
+      { name: "vim-1993", path: File.join(v, "vim-1993"), primary: false, vocab: :vim },
     ]
   end
   opts.on("--bib-path PATH", String, "Bibliography YAML (defaults to vocab repo bibliographies)") { |v| options[:bib_path] = v }

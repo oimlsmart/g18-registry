@@ -37,7 +37,7 @@ describe("data contract: terms.json (full schema validation)", () => {
   });
 
   it("editions_present uses known values", () => {
-    const valid = ["202X", "2010", "complete"];
+    const valid = ["202X", "2010", "complete", "viml-2022", "viml-2013", "viml-2000", "vim-2012", "vim-2007", "vim-1993"];
     for (const t of terms.slice(0, 50)) {
       for (const e of t.editions_present) {
         expect(valid).toContain(e);
