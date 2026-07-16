@@ -223,28 +223,72 @@ end
 # terms that don't have an `official_concept` URN). Returns near-miss
 # candidates for both vocabularies so the gap-analysis page can suggest
 # Propose-for-VIM / Propose-for-VIML / Propose-for-V3.
-def check_vocab_presence(term_name, latest_indices, latest_full_concepts = {})
-  result = { "vim" => nil, "viml" => nil }
+def normalize_definition(text)
+  return "" unless text
+  text.to_s.gsub(/\{\{[^}]+\}\}/, "").gsub(/[^a-z0-9\s]/i, " ").split.join(" ").downcase.strip
+end
+
+def classify_alignment(term_name, term_definition, latest_indices, latest_full_concepts = {})
+  result = { "vim" => nil, "viml" => nil, "case" => 5, "alignment" => "none" }
   return result unless term_name
+  best_case = 5
+  best_match = nil
   %w[vim viml].each do |vocab|
     idx = latest_indices[vocab.to_sym] || latest_indices[vocab]
     next unless idx&.any?
     full = latest_full_concepts[vocab.to_sym] || latest_full_concepts[vocab] || {}
     lookup = term_name.to_s.downcase.strip
+    norm_def = normalize_definition(term_definition)
+
     if idx.key?(lookup)
       info = LATEST_DATASETS[vocab.to_sym]
       entry = idx[lookup]
       full_concept = full[entry[:id]]
-      result[vocab] = build_vocab_match(entry, full_concept, info, term_name, "exact")
+      match = build_vocab_match(entry, full_concept, info, term_name, "exact")
+      vocab_def = normalize_definition(entry[:definition])
+      if vocab_def == norm_def && !vocab_def.empty?
+        match["alignment"] = "aligned"
+        c = 1
+      else
+        match["alignment"] = "diverges"
+        match["oiml_definition"] = term_definition
+        c = 3
+      end
+      result[vocab] = match
+      if c < best_case
+        best_case = c
+        best_match = vocab
+      end
     else
       m = G18::FuzzyMatch.match(term_name, idx)
-      next unless m
-      info = LATEST_DATASETS[vocab.to_sym]
-      full_concept = full[m[:entry][:id]]
-      result[vocab] = build_vocab_match(m[:entry], full_concept, info, m[:designation], "fuzzy", m[:similarity])
+      if m
+        info = LATEST_DATASETS[vocab.to_sym]
+        full_concept = full[m[:entry][:id]]
+        match = build_vocab_match(m[:entry], full_concept, info, m[:designation], "fuzzy", m[:similarity])
+        match["alignment"] = "fuzzy"
+        if 4 < best_case
+          best_case = 4
+          best_match = vocab
+        end
+        result[vocab] = match
+      end
     end
   end
+  result["case"] = best_case
+  result["alignment"] = case best_case
+    when 1 then "aligned"
+    when 3 then "diverges"
+    when 4 then "fuzzy"
+    else "none"
+  end
+  result["matched_vocab"] = best_match
   result
+end
+
+# Legacy alias — kept for backward compat with existing call sites
+def check_vocab_presence(term_name, latest_indices, latest_full_concepts = {})
+  result = classify_alignment(term_name, nil, latest_indices, latest_full_concepts)
+  { "vim" => result["vim"], "viml" => result["viml"] }
 end
 
 def build_vocab_match(entry, full_concept, info, designation, match_type, similarity = nil)
@@ -447,8 +491,13 @@ Dir.glob(File.join(options[:data_dir], "*.yaml")).sort.each do |path|
   # so the compiler can enrich action descriptions with near-miss guidance.
   # Backward compat: accept legacy "undefined" value too.
   is_oiml_original = data["kind"] == "oiml_original" || data["kind"] == "undefined"
+  # Use classify_alignment for all terms — it compares designation AND definition
+  first_def = (data["publications"] || []).map { |p| p["definition"] }.compact.first
+  alignment_result = data["term"] ?
+    classify_alignment(data["term"], first_def, latest_indices, latest_full_concepts) : nil
   vocab_presence = is_oiml_original ?
-    check_vocab_presence(data["term"], latest_indices, latest_full_concepts) : nil
+    { "vim" => alignment_result&.dig("vim"), "viml" => alignment_result&.dig("viml") } : nil
+  alignment = alignment_result&.slice("case", "alignment", "matched_vocab") || nil
   # Collect vocab gap data during the main scan (avoids a second pass).
   if is_oiml_original && data["term"]
     gap_pubs = (data["publications"] || []).map do |p|
@@ -548,6 +597,7 @@ Dir.glob(File.join(options[:data_dir], "*.yaml")).sort.each do |path|
     end,
     "related" => render_stem_deep(hash["related"] || []),
     "vocab_presence" => vocab_presence,
+    "alignment" => alignment,
   }
   terms << term
 end
@@ -625,6 +675,8 @@ by_slug = terms.each_with_object({}) { |t, h| h[t["slug"]] = t }
     "designations" => t["designations"] || [],
     "official_concept_id" => t["official_concept"]&.dig("id"),
     "has_withdrawn" => pubs.any? { |p| p["withdrawn"] },
+    "alignment_case" => t["alignment"]&.dig("case"),
+    "alignment_status" => t["alignment"]&.dig("alignment"),
   }
 end
 File.write(File.join(options[:out_dir], "terms-slim.json"),
@@ -721,6 +773,10 @@ dashboard = {
   "pub_withdrawn" => pub_lc["withdrawn"] || 0,
   "concepts_from_current" => concepts_from_current,
   "concepts_from_historic" => concepts_from_historic,
+  "alignment_counts" => terms.each_with_object(Hash.new(0)) { |t, h|
+    status = t["alignment"]&.dig("alignment") || "none"
+    h[status] += 1
+  },
 }
 File.write(File.join(options[:out_dir], "dashboard.json"),
            JSON.generate(dashboard))
