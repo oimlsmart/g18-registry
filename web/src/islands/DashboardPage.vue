@@ -94,12 +94,69 @@ const priorityBadge = (rank: number) =>
     </div>
   </section>
 
-  <!-- Quick stats -->
-  <section class="grid grid-4 reveal reveal-2">
-    <SLink class="stat-card" to="/concepts/"><div class="stat-value">{{ dashboard.total_terms }}</div><div class="stat-label">concepts</div></SLink>
-    <SLink class="stat-card" to="/concepts/?only=defined_in_vim"><div class="stat-value">{{ vimCount }}</div><div class="stat-label">from VIM (V 2)</div></SLink>
-    <SLink class="stat-card" to="/concepts/?only=defined_in_viml"><div class="stat-value">{{ vimlCount }}</div><div class="stat-label">from VIML (V 1)</div></SLink>
-    <SLink class="stat-card" to="/concepts/?only=oiml_original"><div class="stat-value">{{ oimlCount }}</div><div class="stat-label">OIML-specific (V 3 candidates)</div></SLink>
+  <!-- Corpus overview: concepts and publications with lifecycle -->
+  <section class="card reveal reveal-2 corpus-overview">
+    <div class="corpus-grid">
+      <div class="corpus-block">
+        <h2>Concepts</h2>
+        <div class="corpus-stat-main">
+          <span class="corpus-num">{{ dashboard.total_terms }}</span>
+          <span class="corpus-unit">total concepts</span>
+        </div>
+        <div class="corpus-breakdown">
+          <div class="corpus-row">
+            <span class="corpus-dot corpus-dot-current"></span>
+            <strong>{{ dashboard.concepts_from_current || 0 }}</strong> from current publications
+          </div>
+          <div class="corpus-row">
+            <span class="corpus-dot corpus-dot-historic"></span>
+            <strong>{{ dashboard.concepts_from_historic || 0 }}</strong> only from historic publications
+          </div>
+        </div>
+      </div>
+      <div class="corpus-block">
+        <h2>Publications</h2>
+        <div class="corpus-stat-main">
+          <span class="corpus-num">{{ dashboard.total_publications }}</span>
+          <span class="corpus-unit">total publications</span>
+        </div>
+        <div class="corpus-breakdown">
+          <SLink to="/publications/" class="corpus-row">
+            <span class="corpus-dot corpus-dot-current"></span>
+            <strong>{{ dashboard.pub_current || 0 }}</strong> current
+          </SLink>
+          <SLink to="/publications/" class="corpus-row">
+            <span class="corpus-dot corpus-dot-historic"></span>
+            <strong>{{ dashboard.pub_retired || 0 }}</strong> retired
+          </SLink>
+          <SLink to="/publications/" class="corpus-row">
+            <span class="corpus-dot corpus-dot-withdrawn"></span>
+            <strong>{{ dashboard.pub_withdrawn || 0 }}</strong> withdrawn
+          </SLink>
+        </div>
+      </div>
+      <div class="corpus-block">
+        <h2>Vocab alignment</h2>
+        <div class="corpus-stat-main">
+          <span class="corpus-num">{{ vimlCount + vimCount }}</span>
+          <span class="corpus-unit">aligned with V 1/V 2</span>
+        </div>
+        <div class="corpus-breakdown">
+          <div class="corpus-row">
+            <span class="corpus-dot corpus-dot-v1"></span>
+            <strong>{{ vimlCount }}</strong> from VIML (V 1)
+          </div>
+          <div class="corpus-row">
+            <span class="corpus-dot corpus-dot-v2"></span>
+            <strong>{{ vimCount }}</strong> from VIM (V 2)
+          </div>
+          <SLink to="/analysis/gaps/?scope=v3-match" class="corpus-row">
+            <span class="corpus-dot corpus-dot-v3"></span>
+            <strong>{{ oimlCount }}</strong> OIML-specific (V 3 candidates)
+          </SLink>
+        </div>
+      </div>
+    </div>
   </section>
 
   <!-- Priority worklist -->
@@ -234,4 +291,60 @@ const priorityBadge = (rank: number) =>
   color: var(--color-ink-soft);
   margin-right: 0.3em;
 }
+.corpus-overview { margin-bottom: 1.2em; }
+.corpus-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5em;
+  margin-top: 0.8em;
+}
+@media (max-width: 720px) { .corpus-grid { grid-template-columns: 1fr; } }
+.corpus-block h2 {
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-ink-muted);
+  margin: 0 0 0.5em;
+}
+.corpus-stat-main {
+  display: flex;
+  align-items: baseline;
+  gap: 0.3em;
+  margin-bottom: 0.6em;
+}
+.corpus-num {
+  font-family: var(--font-display);
+  font-size: 2rem;
+  font-weight: 400;
+  letter-spacing: -0.03em;
+  color: var(--color-ink);
+  font-variation-settings: "opsz" 96, "SOFT" var(--display-soft, 30), "WONK" var(--display-wonk, 0);
+}
+.corpus-unit { font-size: 0.85rem; color: var(--color-ink-soft); }
+.corpus-breakdown { display: flex; flex-direction: column; gap: 0.35em; }
+.corpus-row {
+  display: flex;
+  align-items: center;
+  gap: 0.4em;
+  font-size: 0.86rem;
+  color: var(--color-ink-soft);
+  text-decoration: none;
+  transition: color 0.15s;
+}
+.corpus-row:hover { color: var(--color-accent); }
+.corpus-row strong { color: var(--color-ink); font-weight: 600; font-variant-numeric: tabular-nums; }
+.corpus-dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.corpus-dot-current { background: var(--status-ok-border, #16a34a); }
+.corpus-dot-historic { background: var(--color-ink-muted); opacity: 0.5; }
+.corpus-dot-withdrawn { background: var(--status-error-border, #dc2626); }
+.corpus-dot-v1 { background: var(--status-ok-border, #16a34a); }
+.corpus-dot-v2 { background: var(--status-info-border, #3b82f6); }
+.corpus-dot-v3 { background: var(--color-accent); }
 </style>

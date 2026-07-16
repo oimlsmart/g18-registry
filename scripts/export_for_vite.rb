@@ -689,6 +689,24 @@ priority_terms = terms
   .sort_by { |t| [t["priority_rank"], -t["pub_count"]] }
   .first(8)
 
+# Publication lifecycle stats
+pub_lc = pub_lifecycle.values.each_with_object(Hash.new(0)) { |v, h| h[v] += 1 }
+
+# Concept provenance: how many concepts come from current vs historic pubs
+concepts_from_current = 0
+concepts_from_historic = 0
+pub_current_ids = Set.new(pub_lifecycle.select { |_, lc| lc == "current" }.keys)
+pub_historic_ids = Set.new(pub_lifecycle.select { |_, lc| lc == "retired" }.keys)
+pub_withdrawn_ids = Set.new(pub_lifecycle.select { |_, lc| lc == "withdrawn" }.keys)
+terms.each do |t|
+  pub_ids = (t["publications"] || []).map { |p| p["publication_id"] }.compact
+  has_current = pub_ids.any? { |pid| pub_current_ids.include?(pid) }
+  has_historic = pub_ids.any? { |pid| pub_historic_ids.include?(pid) }
+  has_withdrawn = pub_ids.any? { |pid| pub_withdrawn_ids.include?(pid) }
+  concepts_from_current += 1 if has_current
+  concepts_from_historic += 1 if has_historic && !has_current
+end
+
 dashboard = {
   "total_terms" => terms.length,
   "total_publications" => publications.length,
@@ -698,6 +716,11 @@ dashboard = {
   "gaps_vim_near_miss" => gaps_vim_near_miss,
   "gaps_no_match" => gaps_no_match,
   "priority_terms" => priority_terms,
+  "pub_current" => pub_lc["current"] || 0,
+  "pub_retired" => pub_lc["retired"] || 0,
+  "pub_withdrawn" => pub_lc["withdrawn"] || 0,
+  "concepts_from_current" => concepts_from_current,
+  "concepts_from_historic" => concepts_from_historic,
 }
 File.write(File.join(options[:out_dir], "dashboard.json"),
            JSON.generate(dashboard))
