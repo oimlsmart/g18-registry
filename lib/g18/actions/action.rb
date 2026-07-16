@@ -7,9 +7,9 @@ module G18
     class Action
       attr_reader :type, :priority, :description, :publication_ids, :vocab_ref
 
-      TYPES = %i[upgrade_vim upgrade_viml removed adopt_vim adopt_viml
+      TYPES = %i[upgrade_vim upgrade_viml removed
                  harmonize standardize unique
-                 aligned update_citation definition_diverges
+                 aligned definition_diverges
                  fuzzy_adopt propose_v3].freeze
 
       PRIORITIES = { high: 0, medium: 1, low: 2, info: 3 }.freeze
