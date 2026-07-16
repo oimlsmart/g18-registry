@@ -5,11 +5,12 @@ require "set"
 require "digest"
 require "fileutils"
 require "cgi"
-require_relative "vocabulary"
-require_relative "model/identifier"
 
 module G18
   module Site
+    SITE_DIR = File.expand_path("site", __dir__).freeze
+    autoload :Renderer, File.join(SITE_DIR, "renderer")
+
     # Captures one term in the registry, with all its publication instances.
     class Term
       attr_reader :slug, :path, :identifier, :name, :kind, :official_concept,

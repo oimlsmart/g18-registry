@@ -23,10 +23,6 @@ require "digest"
 require "fileutils"
 require "set"
 
-require_relative "vocabulary"
-require_relative "model/identifier"
-require_relative "model/pub_id"
-
 module G18
   module Migration
     SOURCE_INSTANCE_COUNT = 2125

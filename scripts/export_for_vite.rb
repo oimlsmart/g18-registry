@@ -22,10 +22,7 @@ require "yaml"
 require "json"
 require "fileutils"
 require "open3"
-require_relative "../lib/g18/vocabulary"
-require_relative "../lib/g18/actions"
-require_relative "../lib/g18/fuzzy_match"
-require_relative "../lib/g18/migration/conflicts"
+require_relative "../lib/g18"
 
 # Plurimath for AsciiMath → MathML pre-rendering of stem:[...] content.
 # The JS package (@plurimath/plurimath) has broken dist; the Ruby gem

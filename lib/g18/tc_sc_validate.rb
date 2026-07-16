@@ -2,7 +2,6 @@
 
 require "yaml"
 require "set"
-require_relative "tc_sc"
 
 module G18
   module TcSc

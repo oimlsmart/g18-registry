@@ -6,7 +6,7 @@
 # when new TC/SC attributions are confirmed.
 
 require "optparse"
-require_relative "../lib/g18/tc_sc"
+require_relative "../lib/g18"
 
 repo_root = File.expand_path("..", __dir__)
 options = {

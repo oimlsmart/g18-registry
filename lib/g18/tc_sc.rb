@@ -9,6 +9,9 @@ module G18
   # canonical upstream source for id/reference/link; this file mirrors it
   # into the registry and adds the `tc_sc` field that OIML needs to provide.
   module TcSc
+    DIR = File.expand_path(".", __dir__).freeze
+    autoload :Validate, File.join(DIR, "tc_sc_validate")
+
     # Map of publication-id -> tc_sc string. Populated where OIML has publicly
     # confirmed attribution (B 10 series, D 11, etc.). Anything not in this
     # map stays blank for OIML to fill in. See tc-sc/README.md.

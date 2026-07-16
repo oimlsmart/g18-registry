@@ -26,7 +26,9 @@
 module G18
   module Actions
     DIR = File.expand_path("actions", __dir__).freeze
-    autoload :Action,   File.join(DIR, "action")
-    autoload :Compiler, File.join(DIR, "compiler")
+    autoload :Action,    File.join(DIR, "action")
+    autoload :Compiler,  File.join(DIR, "compiler")
+    autoload :TermState, File.join(DIR, "term_state")
+    autoload :Rules,     File.join(DIR, "rules")
   end
 end

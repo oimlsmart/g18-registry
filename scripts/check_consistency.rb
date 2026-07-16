@@ -19,8 +19,7 @@
 
 require "optparse"
 require "set"
-require_relative "../lib/g18/migration"
-require_relative "../lib/g18/consistency"
+require_relative "../lib/g18"
 
 repo_root = File.expand_path("..", __dir__)
 default_vocab_dir = File.expand_path("vocab/datasets", File.join(repo_root, ".."))

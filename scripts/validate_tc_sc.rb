@@ -5,7 +5,7 @@
 # and report TC/SC coverage. Exits non-zero if the local file is out of sync.
 
 require "optparse"
-require_relative "../lib/g18/tc_sc_validate"
+require_relative "../lib/g18"
 
 repo_root = File.expand_path("..", __dir__)
 options = {

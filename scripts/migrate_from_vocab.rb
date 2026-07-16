@@ -16,8 +16,7 @@
 #   2010 (prior published edition)
 
 require "optparse"
-require_relative "../lib/g18/migration"
-require_relative "../lib/g18/migration_report"
+require_relative "../lib/g18"
 
 repo_root = File.expand_path("..", __dir__)
 default_vocab_root = File.expand_path("vocab/datasets", File.join(repo_root, ".."))

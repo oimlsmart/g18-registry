@@ -1,7 +1,5 @@
 # frozen_string_literal: true
 
-require_relative "migration"
-
 module G18
   module Migration
     module Report
