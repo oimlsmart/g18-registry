@@ -38,144 +38,123 @@ import SLink from "@/components/SLink.vue";
 
   <!-- The decision tree -->
   <section class="card">
-    <h2>The harmonization decision tree</h2>
+    <h2>The 5-case alignment decision tree</h2>
     <p>
-      For each concept, the platform follows a decision tree. The recommended
-      action depends on whether the concept is sourced from V 1/V 2 or is OIML-original.
+      For each concept, the platform compares its designation <em>and</em>
+      definition against the current authoritative V 1 (VIML 2022) and
+      V 2 (VIM 2012) vocabularies. The result is one of five alignment
+      cases, each with a recommended action.
     </p>
 
-    <!-- Case 1: Sourced from V1/V2 -->
-    <div class="case-card case-sourced">
+    <!-- Case 1: Aligned -->
+    <div class="case-card case-aligned">
       <div class="case-header">
-        <span class="case-badge">Case 1</span>
-        <h3>Concept is sourced from V 1/V 2</h3>
+        <span class="case-badge badge-aligned">Case 1</span>
+        <h3>Aligned</h3>
+        <span class="case-tag">designation + definition match</span>
       </div>
       <p class="case-intro">
-        The OIML publication adopted this term from VIM or VIML. The question is
-        whether the citation is current.
+        Designation and normalized definition are identical to the current
+        V 1 or V 2 concept. The OIML publication is consistent with the
+        authoritative vocabulary.
       </p>
-      <ol class="case-steps">
-        <li>
-          <strong>Is the citation up to date?</strong>
-          <p>The publication cites the current edition of V 1/V 2 for this concept.</p>
-          <div class="case-outcome case-outcome-ok">
-            Yes — <strong>nothing to do.</strong> The publication is aligned with the authoritative vocabulary.
-          </div>
-        </li>
-        <li>
-          <strong>If not current — update the citation.</strong>
-          <p>
-            A newer edition of V 1/V 2 exists. The recommendation is to update
-            the publication to cite the latest edition in its next revision.
-          </p>
-          <div class="case-outcome case-outcome-warn">
-            Action: <strong>Update the recommendation</strong> to cite the latest V 1/V 2 edition.
-          </div>
-        </li>
-        <li>
-          <strong>If the term was deleted from V 1/V 2</strong>
-          <p>
-            The concept no longer exists in the authoritative vocabulary.
-            Decide where it should live now:
-          </p>
-          <div class="case-outcome case-outcome-action">
-            Options: <strong>Propose for re-inclusion in V 1</strong> (legal metrology),
-            <strong>V 2</strong> (general metrology), or <strong>V 3</strong> (OIML-specific).
-          </div>
-        </li>
-      </ol>
+      <div class="case-outcome case-outcome-ok">
+        Action: <strong>None.</strong> Concept is already aligned — show as info on the worklist.
+      </div>
     </div>
 
-    <!-- Case 2: OIML-original -->
-    <div class="case-card case-original">
+    <!-- Case 2: Historic match -->
+    <div class="case-card case-historic">
       <div class="case-header">
-        <span class="case-badge case-badge-original">Case 2</span>
-        <h3>Concept is OIML-original (not sourced from V 1/V 2)</h3>
+        <span class="case-badge badge-historic">Case 2</span>
+        <h3>Matches a historic edition only</h3>
+        <span class="case-tag">citation needs update</span>
       </div>
       <p class="case-intro">
-        The term was defined within OIML publications, not adopted from VIM/VIML.
-        The platform checks whether it resembles an existing V 1/V 2 concept.
+        The concept matches an older V 1/V 2 edition (e.g. VIM 2007, VIML
+        2013) but the citation is stale — the current edition has either
+        renumbered or refined the definition.
       </p>
-      <ol class="case-steps">
-        <li>
-          <strong>Does it resemble a VIM/VIML concept?</strong>
-          <p>
-            The platform runs a near-miss match against V 1/V 2. If a similar
-            designation or overlapping definition exists, these options apply:
-          </p>
-        </li>
-      </ol>
-      <div class="options-grid">
-        <div class="option-card">
-          <div class="option-letter">A</div>
-          <div class="option-body">
-            <strong>Adopt the V 1/V 2 term</strong>
-            <p>Re-link the publication to the existing authoritative concept instead of the OIML-original definition.</p>
-          </div>
-        </div>
-        <div class="option-card">
-          <div class="option-letter">B</div>
-          <div class="option-body">
-            <strong>Propose for V 3</strong>
-            <p>Use the V 1/V 2 term as a basis for a new OIML-specific entry in the future V 3 vocabulary.</p>
-          </div>
-        </div>
-        <div class="option-card">
-          <div class="option-letter">C</div>
-          <div class="option-body">
-            <strong>Update the recommendation</strong>
-            <p>Replace the term in the publication with a different, better-aligned concept.</p>
-          </div>
-        </div>
+      <div class="case-outcome case-outcome-warn">
+        Action: <strong>Update the citation.</strong> The publication should
+        cite the latest V 1/V 2 edition in its next revision.
       </div>
-      <ol class="case-steps" start="2">
-        <li>
-          <strong>No near-miss — propose for V 3.</strong>
-          <p>
-            If no similar V 1/V 2 concept exists, the term is genuinely OIML-specific
-            (e.g. "load cell", "dosimeter", "pressure gauge"). Propose it for inclusion
-            in V 3.
-          </p>
-        </li>
-      </ol>
     </div>
 
-    <!-- Case 3: Withdrawn publication -->
+    <!-- Case 3: Definition diverges -->
+    <div class="case-card case-diverges">
+      <div class="case-header">
+        <span class="case-badge badge-diverges">Case 3</span>
+        <h3>Definition diverges</h3>
+        <span class="case-tag">same designation, different definition</span>
+      </div>
+      <p class="case-intro">
+        The designation matches the current V 1/V 2, but the definition
+        differs meaningfully. Either the OIML publication intentionally
+        diverges, or it has drifted.
+      </p>
+      <div class="case-outcome case-outcome-action">
+        Options: <strong>Adopt the V 1/V 2 definition</strong> (update the
+        publication), or <strong>differentiate the designation</strong>
+        (rename the OIML term) and propose the new concept for V 3.
+      </div>
+    </div>
+
+    <!-- Case 4: Fuzzy match -->
+    <div class="case-card case-fuzzy">
+      <div class="case-header">
+        <span class="case-badge badge-fuzzy">Case 4</span>
+        <h3>Fuzzy designation match</h3>
+        <span class="case-tag">similar term exists in V 1/V 2</span>
+      </div>
+      <p class="case-intro">
+        No exact designation match, but the term closely resembles a V 1/V 2
+        concept (detected via token-overlap similarity). TC 1 must judge
+        whether the OIML term is a synonym, a specialization, or distinct.
+      </p>
+      <div class="case-outcome case-outcome-action">
+        Options: <strong>Adopt the V 1/V 2 term</strong> (reconcile the
+        near-miss), or <strong>Propose for V 3</strong> as sufficiently
+        distinct.
+      </div>
+    </div>
+
+    <!-- Case 5: No match -->
+    <div class="case-card case-none">
+      <div class="case-header">
+        <span class="case-badge badge-none">Case 5</span>
+        <h3>No match</h3>
+        <span class="case-tag">OIML-specific</span>
+      </div>
+      <p class="case-intro">
+        No V 1 or V 2 concept matches the designation, even with fuzzy
+        matching. The term is genuinely OIML-specific — examples include
+        "load cell", "dosimeter", "pressure gauge".
+      </p>
+      <div class="case-outcome case-outcome-ok">
+        Action: <strong>Propose for V 3.</strong> The future OIML-specific
+        vocabulary is the right home for these terms.
+      </div>
+    </div>
+
+    <!-- Auxiliary: Withdrawn publication -->
     <div class="case-card case-withdrawn">
       <div class="case-header">
-        <span class="case-badge case-badge-withdrawn">Case 3</span>
-        <h3>Concept cited in a withdrawn publication</h3>
+        <span class="case-badge badge-withdrawn">Auxiliary</span>
+        <h3>Withdrawn publication</h3>
+        <span class="case-tag">retire from G 18</span>
       </div>
       <p class="case-intro">
-        When an OIML publication is withdrawn, concepts that only appear in that
-        publication should be retired from G 18:current and G 18:202X. The
-        platform automatically detects withdrawn publications (from
-        relaton-data-oiml) and flags affected concepts with a "Retire from G 18"
+        Independent of the 5 alignment cases: when an OIML publication is
+        withdrawn (status from relaton-data-oiml), concepts that appear
+        only in that publication should be retired from G 18:current and
+        G 18:202X. The platform auto-detects this and flags a "Retire"
         action.
       </p>
       <div class="case-outcome case-outcome-action">
-        Action: <strong>Retire from G 18:current and G 18:202X.</strong> The
-        concept is no longer sourced from an active publication.
+        Action: <strong>Retire from G 18:current and G 18:202X.</strong>
+        The concept is no longer sourced from an active publication.
       </div>
-    </div>
-
-    <!-- Reference material -->
-    <div class="case-card case-reference">
-      <div class="case-header">
-        <span class="case-badge case-badge-ref">Reference</span>
-        <h3>Differentiated definitions</h3>
-      </div>
-      <p class="case-intro">
-        When multiple OIML publications use the same term with different definitions,
-        the platform surfaces these <strong>differentiated definitions</strong> as
-        reference material. They help you understand how the term is actually used
-        across the OIML corpus and inform the decisions above.
-      </p>
-      <p>
-        For example, if "calibration" appears with slightly different wording in
-        R 60, R 76, and R 117, all three definitions are shown side-by-side so you
-        can see the divergence and decide whether to unify them.
-      </p>
     </div>
   </section>
 
@@ -233,10 +212,12 @@ import SLink from "@/components/SLink.vue";
       <dd>International Vocabulary of Metrology — general metrology terms (quantity, measurement, accuracy). Maintained by JCGM; OIML proposes suggestions.</dd>
       <dt>V 3</dt>
       <dd>A proposed new vocabulary for OIML-specific terms not in V 1 or V 2 (e.g. "load cell", "dosimeter", "pressure gauge").</dd>
+      <dt>Alignment case</dt>
+      <dd>One of 5 classifications (1=aligned, 2=historic, 3=diverges, 4=fuzzy, 5=none) computed by comparing a term's designation and normalized definition against the current V 1/V 2 editions. Drives the recommended action.</dd>
       <dt>G 18</dt>
       <dd>The OIML guide that collates terminology used across OIML Recommendations and Documents. G 18 sources concepts from V 1, V 2, and OIML publications — it is not itself a vocabulary. G 18:2010 is published; G 18:202X is the draft under review.</dd>
-      <dt>Near-miss</dt>
-      <dd>An OIML term that closely resembles (but does not exactly match) a V 1/V 2 concept — detected by token overlap and fuzzy matching. Indicates the term may be adoptable from or based on the authoritative vocabulary.</dd>
+      <dt>Fuzzy match</dt>
+      <dd>An OIML term whose designation closely resembles (but does not exactly match) a V 1/V 2 concept — detected by Jaccard token-overlap similarity (threshold 0.34). Drives Case 4 alignment.</dd>
       <dt>Differentiated definitions</dt>
       <dd>When the same term appears with different definitions across OIML publications, the platform shows all variants as reference material to help decide harmonization.</dd>
       <dt>Concept diff</dt>
@@ -263,16 +244,19 @@ import SLink from "@/components/SLink.vue";
   margin-top: 1em;
   background: var(--color-paper);
 }
-.case-sourced { border-left: 4px solid var(--status-ok-border); }
-.case-original { border-left: 4px solid var(--status-warn-border); }
-.case-withdrawn { border-left: 4px solid var(--status-error-border); }
-.case-reference { border-left: 4px solid var(--status-info-border); }
+.case-aligned    { border-left: 4px solid var(--status-ok-border); }
+.case-historic   { border-left: 4px solid var(--status-info-border); }
+.case-diverges   { border-left: 4px solid var(--status-warn-border); }
+.case-fuzzy      { border-left: 4px solid var(--color-accent); }
+.case-none       { border-left: 4px solid var(--color-rule); }
+.case-withdrawn  { border-left: 4px solid var(--status-error-border); }
 
 .case-header {
   display: flex;
   align-items: center;
   gap: 0.6em;
   margin-bottom: 0.4em;
+  flex-wrap: wrap;
 }
 .case-badge {
   font-family: var(--font-mono);
@@ -282,20 +266,19 @@ import SLink from "@/components/SLink.vue";
   letter-spacing: 0.06em;
   padding: 0.15em 0.5em;
   border-radius: 3px;
-  background: var(--status-ok-bg);
-  color: var(--status-ok-text);
 }
-.case-badge-original {
-  background: var(--status-warn-bg);
-  color: var(--status-warn-text);
-}
-.case-badge-withdrawn {
-  background: var(--status-error-bg);
-  color: var(--status-error-text);
-}
-.case-badge-ref {
-  background: var(--status-info-bg);
-  color: var(--status-info-text);
+.badge-aligned   { background: var(--status-ok-bg);    color: var(--status-ok-text); }
+.badge-historic  { background: var(--status-info-bg);  color: var(--status-info-text); }
+.badge-diverges  { background: var(--status-warn-bg);  color: var(--status-warn-text); }
+.badge-fuzzy     { background: var(--color-accent-tint, var(--status-info-bg)); color: var(--color-accent); }
+.badge-none      { background: var(--color-rule-soft); color: var(--color-ink-muted); }
+.badge-withdrawn { background: var(--status-error-bg); color: var(--status-error-text); }
+
+.case-tag {
+  font-size: 0.74rem;
+  color: var(--color-ink-muted);
+  font-style: italic;
+  margin-left: auto;
 }
 .case-header h3 {
   margin: 0;
@@ -309,28 +292,6 @@ import SLink from "@/components/SLink.vue";
   color: var(--color-ink-soft);
   margin: 0.3em 0 0.8em;
   line-height: 1.5;
-}
-
-.case-steps {
-  margin: 0;
-  padding-left: 1.2em;
-  display: flex;
-  flex-direction: column;
-  gap: 0.8em;
-}
-.case-steps li {
-  font-size: 0.88rem;
-  color: var(--color-ink);
-  line-height: 1.5;
-}
-.case-steps li > strong {
-  display: block;
-  margin-bottom: 0.2em;
-}
-.case-steps li p {
-  margin: 0 0 0.4em;
-  font-size: 0.85rem;
-  color: var(--color-ink-soft);
 }
 
 .case-outcome {
