@@ -3,6 +3,7 @@ import { computed, ref } from "vue";
 import { useJsonFetch } from "@/composables/useJsonFetch";
 import publications from "@/data/publications.json";
 import { ACTION_META, actionMeta, slugifyPubId } from "@/composables/useSuggestedActions";
+import { editionDataName, isOimlSpecific as isOimlSpecificKind } from "@/utils/edition-utils";
 import SLink from "@/components/SLink.vue";
 import { kindLabel } from "@/utils/term-utils";
 
@@ -37,7 +38,7 @@ function editionsForTerm(term: any): Set<string> {
 // Filter terms by whether this pub has an instance in the selected edition.
 function termMatchesEdition(term: any): boolean {
   if (editionFilter.value === "all") return true;
-  const ed = editionFilter.value === "current" ? "complete" : editionFilter.value;
+  const ed = editionDataName(editionFilter.value);
   return editionsForTerm(term).has(ed);
 }
 const filteredPubTerms = computed(() => pubTerms.value.filter(termMatchesEdition));
@@ -59,8 +60,7 @@ const DEFECT_ACTION_TYPES = new Set([
 // harmonize actions would leak into the 202X view.
 function actionAppliesToEdition(a: any, edition: string): boolean {
   if (edition === "all") return true;
-  // Map "current" filter to "complete" edition in the data
-  const dataEd = edition === "current" ? "complete" : edition;
+  const dataEd = editionDataName(edition);
   const meta = actionMeta(a.type);
   if (meta.applies_to === "all") return true;
   return meta.applies_to === dataEd || a.type === "harmonize";
@@ -81,7 +81,7 @@ const pubActions = computed(() => {
     if (editionFilter.value === "all") return true;
     const t = terms.value.find(t => t.slug === a.slug);
     if (!t) return false;
-    const ed = editionFilter.value === "current" ? "complete" : editionFilter.value;
+    const ed = editionDataName(editionFilter.value);
     return editionsForTerm(t).has(ed) &&
            actionAppliesToEdition(a, editionFilter.value);
   });
@@ -94,7 +94,7 @@ const pubActionTermCount = computed(() => pubActionTermSlugs.value.size);
 
 const actionTerms = computed(() => terms.value.filter(t => pubActionTermSlugs.value.has(t.slug)));
 
-const isOimlSpecific = (t: any) => t.kind === "oiml_original" || t.kind === "undefined";
+const isOimlSpecific = (t: any) => isOimlSpecificKind(t.kind);
 
 const alignedTerms = computed(() =>
   filteredPubTerms.value.filter(t => !pubActionTermSlugs.value.has(t.slug) && !isOimlSpecific(t))
@@ -137,7 +137,7 @@ interface Row {
 function pubInstanceForEdition(term: any): any {
   const pubs = (term?.publications || []).filter((p: any) => p.publication_id === pubId.value);
   if (editionFilter.value === "all") return pubs[0];
-  const ed = editionFilter.value === "current" ? "complete" : editionFilter.value;
+  const ed = editionDataName(editionFilter.value);
   return pubs.find((p: any) => p.edition === ed) || pubs[0];
 }
 

@@ -3,6 +3,7 @@ import { computed, ref } from "vue";
 import { slugify } from "@/utils/term-utils";
 import conflictsData from "@/data/conflicts.json";
 import { slugifyPubId } from "@/composables/useSuggestedActions";
+import { editionDataName } from "@/utils/edition-utils";
 import SLink from "@/components/SLink.vue";
 
 type EditionFilter = "current" | "202X" | "2010" | "all";
@@ -15,7 +16,7 @@ const allEditions = Object.keys(rawByEditionAll).sort((a, b) =>
 // Editions shown in the current view (respecting the filter).
 const editions = computed(() => {
   if (editionFilter.value === "all") return allEditions;
-  const ed = editionFilter.value === "current" ? "complete" : editionFilter.value;
+  const ed = editionDataName(editionFilter.value);
   return allEditions.filter(e => e === ed);
 });
 const totalCount = computed(() =>

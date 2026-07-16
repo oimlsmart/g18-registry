@@ -3,6 +3,7 @@ import { ref, computed } from "vue";
 import harmonizationSlim from "@/data/harmonization-slim.json";
 import SLink from "@/components/SLink.vue";
 import { slugify } from "@/utils/term-utils";
+import { editionDataName } from "@/utils/edition-utils";
 
 type EditionFilter = "current" | "202X" | "2010" | "all";
 const editionFilter = ref<EditionFilter>("current");
@@ -13,7 +14,7 @@ const collisionEditions = computed(() => {
   const all = Object.keys(designationCollisions)
     .sort((a: string, b: string) => (b === "202X" ? 1 : 0) - (a === "202X" ? 1 : 0));
   if (editionFilter.value === "all") return all;
-  const ed = editionFilter.value === "current" ? "complete" : editionFilter.value;
+  const ed = editionDataName(editionFilter.value);
   return all.filter(e => e === ed);
 });
 
