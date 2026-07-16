@@ -5,6 +5,7 @@ import SLink from "@/components/SLink.vue";
 import PaginationControls from "@/components/PaginationControls.vue";
 import { usePagination } from "@/composables/usePagination";
 import { kindLabel } from "@/utils/term-utils";
+import { isOimlSpecific } from "@/utils/edition-utils";
 
 const terms = termsData as any[];
 
@@ -38,7 +39,7 @@ const pagination = usePagination(filtered, {
 const total = terms.length;
 const fromVim = terms.filter(t => t.kind === "defined_in_vim").length;
 const fromViml = terms.filter(t => t.kind === "defined_in_viml").length;
-const oimlOriginal = terms.filter(t => t.kind === "oiml_original" || t.kind === "undefined").length;
+const oimlOriginal = terms.filter(t => isOimlSpecific(t.kind)).length;
 const withDefinition = terms.filter(t => t.definition && t.definition.trim()).length;
 </script>
 

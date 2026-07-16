@@ -3,6 +3,7 @@ import { computed, ref } from "vue";
 import { useJsonFetch } from "@/composables/useJsonFetch";
 import tcData from "@/data/tc.json";
 import { ACTION_META, actionMeta, slugifyPubId } from "@/composables/useSuggestedActions";
+import { editionDataName } from "@/utils/edition-utils";
 import SLink from "@/components/SLink.vue";
 import { kindLabel, slugify } from "@/utils/term-utils";
 
@@ -20,7 +21,7 @@ type EditionFilter = "current" | "202X" | "2010" | "all";
 const editionFilter = ref<EditionFilter>("current");
 const editionForFilter = computed<string | null>(() => {
   if (editionFilter.value === "all") return null;
-  return editionFilter.value === "current" ? "complete" : editionFilter.value;
+  return editionDataName(editionFilter.value);
 });
 
 // This TC/SC's publications — filtered by whether they have any term

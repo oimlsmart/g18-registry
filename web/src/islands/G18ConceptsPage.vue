@@ -3,6 +3,7 @@ import { ref, computed } from "vue";
 import termsData from "@/data/terms-slim.json";
 import { usePagination } from "@/composables/usePagination";
 import SLink from "@/components/SLink.vue";
+import { editionDataName } from "@/utils/edition-utils";
 import DefText from "@/components/DefText.vue";
 import PaginationControls from "@/components/PaginationControls.vue";
 import { kindLabel } from "@/utils/term-utils";
@@ -48,7 +49,7 @@ const allTCs = computed(() => {
 const filtered = computed(() => {
   let t = terms;
   if (editionFilter.value !== "all") {
-    const ed = editionFilter.value === "current" ? "complete" : editionFilter.value;
+    const ed = editionDataName(editionFilter.value);
     t = t.filter(x => (x.editions_present || []).includes(ed));
   }
   if (crossEdition.value === "added") {
