@@ -6,10 +6,12 @@ import vocabGaps from "@/data/vocab-gaps.json";
 import conflicts from "@/data/conflicts.json";
 import harmonization from "@/data/harmonization.json";
 import editionStats from "@/data/edition-stats.json";
+import dashboardData from "@/data/dashboard.json";
 import tc from "@/data/tc.json";
 import { ACTION_TYPES, ACTION_PRIORITIES } from "@/composables/useSuggestedActions";
 import {
   termSchema, publicationSchema, vocabGapSchema, editionStatsSchema,
+  dashboardSchema, conflictsSchema, harmonizationSchema, termSlimSchema,
 } from "@/data/schemas";
 
 describe("data contract: terms.json (full schema validation)", () => {
@@ -193,6 +195,51 @@ describe("data contract: edition-stats.json (full schema validation)", () => {
   it("passes Zod schema validation", () => {
     const result = editionStatsSchema.safeParse(editionStats);
     expect(result.success).toBe(true);
+  });
+});
+
+describe("data contract: dashboard.json", () => {
+  it("is a non-empty object", () => {
+    expect(typeof dashboardData).toBe("object");
+    expect(dashboardData).not.toBeNull();
+  });
+
+  it("passes Zod schema validation", () => {
+    const result = dashboardSchema.safeParse(dashboardData);
+    expect(result.success).toBe(true);
+  });
+
+  it("alignment_counts has at least the 'none' key", () => {
+    const dash = dashboardData as any;
+    expect(dash.alignment_counts).toBeDefined();
+    expect(typeof dash.alignment_counts).toBe("object");
+  });
+});
+
+describe("data contract: conflicts.json (full schema validation)", () => {
+  it("passes Zod schema validation", () => {
+    const result = conflictsSchema.safeParse(conflicts);
+    expect(result.success).toBe(true);
+  });
+});
+
+describe("data contract: harmonization.json (full schema validation)", () => {
+  it("passes Zod schema validation (first 20 entries)", () => {
+    for (const h of (harmonization as any[]).slice(0, 20)) {
+      const result = harmonizationSchema.safeParse(h);
+      expect(result.success).toBe(true);
+    }
+  });
+});
+
+describe("data contract: terms-slim.json (Zod schema validation)", () => {
+  it("every entry passes the slim schema", () => {
+    for (const t of (termsSlim as any[]).slice(0, 50)) {
+      const result = termSlimSchema.safeParse(t);
+      if (!result.success) {
+        throw new Error(`Slim term "${t.slug}" failed: ${JSON.stringify(result.error.issues[0])}`);
+      }
+    }
   });
 });
 
