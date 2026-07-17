@@ -123,6 +123,32 @@ module G18
 
       def apply_data_fixups(data)
         (data["publications"] || []).each { |p| DataFixups.apply_to_publication!(p) }
+        dedupe_complete_edition!(data)
+      end
+
+      # The 'complete' edition comes from oiml-complete, the live concept
+      # registry. It's the superset of all G 18 concepts. When the same
+      # (term, publication) appears in BOTH 'complete' and a real G 18
+      # edition (202X / 2010), the 'complete' instance has wrong clause
+      # numbers (it uses the oiml-complete sequence number, not the real
+      # publication clause). Drop 'complete' instances that have a real
+      # G 18 counterpart; keep 'complete' when it's the only source.
+      #
+      # Edition preference (highest first): 202X, 2010, complete, vim*,
+      # viml*. Only 'complete' is dropped when a higher-pref edition
+      # covers the same publication_id.
+      def dedupe_complete_edition!(data)
+        pubs = data["publications"] || []
+        return if pubs.empty?
+        has_real_g18 = Hash.new { |h, k| h[k] = [] }
+        pubs.each do |p|
+          ed = p["edition"].to_s
+          next unless %w[202X 2010].include?(ed)
+          has_real_g18[p["publication_id"]] << ed
+        end
+        data["publications"] = pubs.reject do |p|
+          p["edition"].to_s == "complete" && has_real_g18[p["publication_id"]].any?
+        end
       end
 
       def collect_vocab_gap(slug, data, vocab_presence)

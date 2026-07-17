@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { computed, ref } from "vue";
+import publicationsData from "@/data/publications.json";
 import { useJsonFetch } from "@/composables/useJsonFetch";
 import { useVocabularyEdition } from "@/composables/useVocabularyEdition";
 import { useConceptVersions } from "@/composables/useConceptVersions";
@@ -71,6 +72,9 @@ const pubCitations = computed<PubCitation[]>(() => {
   for (const p of pubs) {
     const pid = p.publication_id;
     if (!pid) continue;
+    // Filter by lifecycle — only show pubs matching the active filter.
+    if (lifecycleFilter.value === "current" && knownHistoricPubIds.value.has(pid)) continue;
+    if (lifecycleFilter.value === "historic" && !knownHistoricPubIds.value.has(pid)) continue;
     if (!byPub.has(pid)) {
       const src = p.source;
       const refSource = src?.ref_source || null;
@@ -157,6 +161,45 @@ const hasDefDivergence = computed(() => {
   if (!g18Definition.value || !vimDefinition.value) return false;
   const norm = (s: string) => s.replace(/\{\{[^}]+\}\}/g, "").replace(/\s+/g, " ").trim().toLowerCase();
   return norm(g18Definition.value) !== norm(vimDefinition.value);
+});
+
+// Lifecycle filter for Publication citations + Reference sections.
+// Only current publications can have a new edition in the future — that's
+// the actionable set. Historic (retired/withdrawn) pubs are kept as opt-in
+// context. Defaults to current.
+type LifecycleFilter = "current" | "historic" | "all";
+const lifecycleFilter = ref<LifecycleFilter>("current");
+const pubLifecycleById = computed(() => {
+  const map = new Map<string, string>();
+  for (const p of (publicationsData as any[])) {
+    if (p?.id) map.set(p.id, p.lifecycle || "current");
+  }
+  return map;
+});
+function pubLifecycle(pubId: string): string {
+  return pubLifecycleById.value.get(pubId) || "current";
+}
+function matchesLifecycle(pubId: string): boolean {
+  if (lifecycleFilter.value === "all") return true;
+  const lc = pubLifecycle(pubId);
+  if (lifecycleFilter.value === "current") return lc === "current";
+  return lc !== "current"; // historic: retired or withdrawn
+}
+// Pubs whose lifecycle we know are filtered; pubs not in the index pass
+// through (e.g. OIML V 1:2022 which isn't in the bibliography).
+const knownCurrentPubIds = computed(() => {
+  const s = new Set<string>();
+  for (const [id, lc] of pubLifecycleById.value) {
+    if (lc === "current") s.add(id);
+  }
+  return s;
+});
+const knownHistoricPubIds = computed(() => {
+  const s = new Set<string>();
+  for (const [id, lc] of pubLifecycleById.value) {
+    if (lc !== "current") s.add(id);
+  }
+  return s;
 });
 
 // Edition filter removed — the concept detail page shows ALL publication
@@ -248,6 +291,7 @@ const definitionGroups = computed<DefGroup[]>(() => {
   const groups = new Map<string, any[]>();
   for (const p of term.value.publications) {
     if (!enabledEditions.value.has(p.edition)) continue;
+    if (!matchesLifecycle(p.publication_id)) continue;
     const defn = normalizeDef(p.definition || "").replace(/\s+/g, " ");
     const key = defn || "(no definition recorded)";
     if (!groups.has(key)) groups.set(key, []);
@@ -270,7 +314,7 @@ const sharedGroups = computed(() => definitionGroups.value.filter(g => g.count >
 const uniqueGroups = computed(() => definitionGroups.value.filter(g => g.count === 1));
 
 function rowVisible(p: any) {
-  return enabledEditions.value.has(p.edition);
+  return enabledEditions.value.has(p.edition) && matchesLifecycle(p.publication_id);
 }
 
 // Are consistency badges actually meaningful here? When every instance is
@@ -694,14 +738,36 @@ const filteredPublications = computed(() => {
         <div class="withdrawn-warning-action">Action: Retire from G 18:current and G 18:202X</div>
       </div>
     </div>
-    <section class="card citation-status-card" v-if="pubCitations.length">
+    <section class="card citation-status-card" v-if="pubCitations.length || lifecycleFilter !== 'current'">
       <div class="card-head">
         <h2>Publication citations</h2>
-        <span class="citation-summary">
-          <span class="citation-count citation-count-current">{{ citationSummary.current }} current</span>
-          <span v-if="citationSummary.outdated" class="citation-count citation-count-outdated">{{ citationSummary.outdated }} outdated</span>
-          <span v-if="citationSummary.noCite" class="citation-count citation-count-nocite">{{ citationSummary.noCite }} no citation</span>
-        </span>
+        <div class="citation-controls">
+          <div class="lifecycle-toggle" role="group" aria-label="Filter publications by lifecycle">
+            <button type="button"
+                    :class="['lc-btn', { 'lc-btn-active': lifecycleFilter === 'current' }]"
+                    @click="lifecycleFilter = 'current'">
+              Current
+            </button>
+            <button type="button"
+                    :class="['lc-btn', { 'lc-btn-active': lifecycleFilter === 'historic' }]"
+                    @click="lifecycleFilter = 'historic'">
+              Historic
+            </button>
+            <button type="button"
+                    :class="['lc-btn', { 'lc-btn-active': lifecycleFilter === 'all' }]"
+                    @click="lifecycleFilter = 'all'">
+              All
+            </button>
+          </div>
+          <span class="citation-summary" v-if="pubCitations.length">
+            <span class="citation-count citation-count-current">{{ citationSummary.current }} current</span>
+            <span v-if="citationSummary.outdated" class="citation-count citation-count-outdated">{{ citationSummary.outdated }} outdated</span>
+            <span v-if="citationSummary.noCite" class="citation-count citation-count-nocite">{{ citationSummary.noCite }} no citation</span>
+          </span>
+        </div>
+      </div>
+      <div v-if="!pubCitations.length" class="muted" style="padding:0.5em 0">
+        No {{ lifecycleFilter }} publications cite this concept.
       </div>
       <div class="citation-list">
         <div v-for="c in pubCitations" :key="c.pubId" :class="['citation-row', `citation-row-${c.status}`]">
@@ -828,6 +894,23 @@ const filteredPublications = computed(() => {
       <div class="card-head">
         <h2>Reference — definitions used across publications</h2>
         <div style="display:flex;gap:1em;align-items:center;flex-wrap:wrap">
+          <div class="lifecycle-toggle" role="group" aria-label="Filter by publication lifecycle">
+            <button type="button"
+                    :class="['lc-btn', { 'lc-btn-active': lifecycleFilter === 'current' }]"
+                    @click="lifecycleFilter = 'current'">
+              Current
+            </button>
+            <button type="button"
+                    :class="['lc-btn', { 'lc-btn-active': lifecycleFilter === 'historic' }]"
+                    @click="lifecycleFilter = 'historic'">
+              Historic
+            </button>
+            <button type="button"
+                    :class="['lc-btn', { 'lc-btn-active': lifecycleFilter === 'all' }]"
+                    @click="lifecycleFilter = 'all'">
+              All
+            </button>
+          </div>
           <label><input type="checkbox" v-model="groupMode" /> Group identical</label>
           <select v-model="onlyTC" v-if="allTCs.length > 1" aria-label="Filter by TC/SC">
             <option value="">All TC/SCs</option>
@@ -1305,6 +1388,27 @@ const filteredPublications = computed(() => {
 
 /* Publication citation status */
 .citation-status-card { margin-bottom: 1.2em; }
+.citation-controls { display: flex; gap: 1em; align-items: center; flex-wrap: wrap; }
+.lifecycle-toggle {
+  display: inline-flex;
+  border: 1px solid var(--color-rule);
+  border-radius: 4px;
+  overflow: hidden;
+}
+.lc-btn {
+  padding: 0.25em 0.7em;
+  font-size: 0.78rem;
+  font-weight: 600;
+  border: none;
+  background: transparent;
+  color: var(--color-ink-soft);
+  cursor: pointer;
+  border-right: 1px solid var(--color-rule);
+}
+.lc-btn:last-child { border-right: none; }
+.lc-btn:hover { background: var(--color-accent-tint); }
+.lc-btn-active { background: var(--color-accent); color: #fff; }
+.lc-btn-active:hover { background: var(--color-accent-hover); }
 .citation-summary {
   display: flex;
   gap: 0.6em;
