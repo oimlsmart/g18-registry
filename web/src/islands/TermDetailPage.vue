@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed, ref, watchEffect } from "vue";
+import { computed, ref } from "vue";
 import { useJsonFetch } from "@/composables/useJsonFetch";
 import { useVocabularyEdition } from "@/composables/useVocabularyEdition";
 import { useConceptVersions } from "@/composables/useConceptVersions";
@@ -158,35 +158,18 @@ const hasDefDivergence = computed(() => {
   return norm(g18Definition.value) !== norm(vimDefinition.value);
 });
 
-// Edition filter (single-select, mirrors the publication/TC pages).
-// Drives the `enabledEditions` Set used downstream by the definition-group
-// and Publication instances tables.
-type EditionFilter = "current" | "202X" | "2010" | "all";
-const editionFilter = ref<EditionFilter>("all");
-
-// Default to 202X when the term is in the draft edition — TC 1 acts there.
-// 2010-only terms default to "all" (the historic callout above handles them).
-watchEffect(() => {
-  if (!term.value) return;
-  const eds = term.value.editions_present || [];
-  if (eds.includes("202X")) editionFilter.value = "202X";
-  else editionFilter.value = "all";
-});
+// Edition filter removed — the concept detail page shows ALL publication
+// instances regardless of G 18 edition. G 18 entry IDs appear as
+// metadata chips on each instance, not as a top-level filter.
 
 const enabledEditions = computed(() => {
   const eds = term.value?.editions_present || [];
-  if (editionFilter.value === "all") return new Set(eds);
-  const targetEd = editionFilter.value === "current" ? "complete" : editionFilter.value;
-  return new Set(eds.filter(e => e === targetEd));
+  return new Set(eds);
 });
 const groupMode = ref(true);
 
 function editionCount(ed: string): number {
   return (term.value?.publications || []).filter(p => p.edition === ed).length;
-}
-
-function setEditionFilter(f: EditionFilter) {
-  editionFilter.value = f;
 }
 
 
@@ -542,36 +525,8 @@ const filteredPublications = computed(() => {
       visually deprioritized.
     </section>
 
-    <!-- Sticky page-level edition filter (same pattern as publication/TC pages) -->
-    <div v-if="!isHistoricTermComputed && (term.editions_present || []).length > 1" class="page-filter" role="region" aria-label="G 18 edition filter">
-      <span class="page-filter-label">G 18 edition</span>
-      <div class="page-filter-controls">
-        <button v-if="(term.editions_present || []).includes('complete')" type="button"
-                :class="['page-filter-btn', { 'page-filter-btn-active': editionFilter === 'current' }]"
-                @click="setEditionFilter('current')">
-          <span class="page-filter-btn-title">G 18:Current</span>
-          <span class="page-filter-btn-meta">{{ editionCount('complete') }} instances · live set from all publications</span>
-        </button>
-        <button v-if="(term.editions_present || []).includes('202X')" type="button"
-                :class="['page-filter-btn', { 'page-filter-btn-active': editionFilter === '202X' }]"
-                @click="setEditionFilter('202X')">
-          <span class="page-filter-btn-title">G 18:202X</span>
-          <span class="page-filter-btn-meta">{{ editionCount('202X') }} instances · draft, TC 1 acts here</span>
-        </button>
-        <button v-if="(term.editions_present || []).includes('2010')" type="button"
-                :class="['page-filter-btn', { 'page-filter-btn-active': editionFilter === '2010' }]"
-                @click="setEditionFilter('2010')">
-          <span class="page-filter-btn-title">G 18:2010</span>
-          <span class="page-filter-btn-meta">{{ editionCount('2010') }} instances · historic, read-only</span>
-        </button>
-        <button type="button"
-                :class="['page-filter-btn', { 'page-filter-btn-active': editionFilter === 'all' }]"
-                @click="setEditionFilter('all')">
-          <span class="page-filter-btn-title">All</span>
-          <span class="page-filter-btn-meta">{{ term.publications.length }} instances · both editions</span>
-        </button>
-      </div>
-    </div>
+    <!-- G 18 edition filter removed: concept detail shows all instances.
+         G 18 entry IDs appear as metadata chips on each publication row. -->
 
     <section class="card" v-if="showConceptCard || canPropose">
       <!-- DECISION FLOW: visual tree + recommendation -->
