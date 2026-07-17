@@ -123,32 +123,38 @@ module G18
 
       def apply_data_fixups(data)
         (data["publications"] || []).each { |p| DataFixups.apply_to_publication!(p) }
-        dedupe_complete_edition!(data)
+        drop_complete_edition!(data)
       end
 
-      # The 'complete' edition comes from oiml-complete, the live concept
-      # registry. It's the superset of all G 18 concepts. When the same
-      # (term, publication) appears in BOTH 'complete' and a real G 18
-      # edition (202X / 2010), the 'complete' instance has wrong clause
-      # numbers (it uses the oiml-complete sequence number, not the real
-      # publication clause). Drop 'complete' instances that have a real
-      # G 18 counterpart; keep 'complete' when it's the only source.
+      # Drop ALL publication instances sourced from oiml-complete (edition="complete").
       #
-      # Edition preference (highest first): 202X, 2010, complete, vim*,
-      # viml*. Only 'complete' is dropped when a higher-pref edition
-      # covers the same publication_id.
-      def dedupe_complete_edition!(data)
+      # oiml-complete is the live concept registry — a superset of all G 18
+      # concepts. Its concept identifiers encode a pub-slug-seq format
+      # (e.g. r99-1-2-2008-25) that produces garbage when decoded as a
+      # publication reference:
+      #
+      #   - publication_id: "OIML R 99-1-2:2008" (doesn't exist — real pub
+      #     is OIML R 99-1:2008, not R 99-1-2)
+      #   - clause: "25" (the sequence number, not a real clause)
+      #   - g18_entry: "r99-1-2-2008-25" (compound slug, not a G 18 entry)
+      #
+      # Real G 18 instances (202X / 2010) have correct publication IDs,
+      # clause references, and numeric G 18 entry numbers. Dropping all
+      # 'complete' instances ensures the concept detail page only shows
+      # real publication references.
+      #
+      # Terms that ONLY had complete instances (not yet in any G 18 edition)
+      # will show zero publication instances on their detail page — which is
+      # accurate: they exist in the concept registry but aren't cited by any
+      # G 18 edition yet.
+      def drop_complete_edition!(data)
         pubs = data["publications"] || []
         return if pubs.empty?
-        has_real_g18 = Hash.new { |h, k| h[k] = [] }
-        pubs.each do |p|
-          ed = p["edition"].to_s
-          next unless %w[202X 2010].include?(ed)
-          has_real_g18[p["publication_id"]] << ed
-        end
-        data["publications"] = pubs.reject do |p|
-          p["edition"].to_s == "complete" && has_real_g18[p["publication_id"]].any?
-        end
+        data["publications"] = pubs.reject { |p| p["edition"].to_s == "complete" }
+        # Also strip 'complete' from editions_present — it's no longer a
+        # real G 18 edition after dropping the instances.
+        eds = data["editions_present"]
+        data["editions_present"] = eds - ["complete"] if eds.is_a?(Array)
       end
 
       def collect_vocab_gap(slug, data, vocab_presence)
