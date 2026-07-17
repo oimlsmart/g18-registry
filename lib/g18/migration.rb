@@ -51,6 +51,7 @@ module G18
     autoload :VocabularyEnrichment, File.join(DIR, "vocabulary_enrichment")
     autoload :Conflicts,            File.join(DIR, "conflicts")
     autoload :Runner,               File.join(DIR, "runner")
+    autoload :Report,               File.join(DIR, "report")
 
     # Convenience delegator so existing call sites continue to work
     # (`G18::Migration.run(...)`).

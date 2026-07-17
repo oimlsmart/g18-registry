@@ -17,7 +17,6 @@ module G18
   autoload :FuzzyMatch,      File.join(LIB_DIR, "g18", "fuzzy_match")
   autoload :TcSc,            File.join(LIB_DIR, "g18", "tc_sc")
   autoload :Migration,       File.join(LIB_DIR, "g18", "migration")
-  autoload :MigrationReport, File.join(LIB_DIR, "g18", "migration_report")
   autoload :Actions,         File.join(LIB_DIR, "g18", "actions")
   autoload :Site,            File.join(LIB_DIR, "g18", "site")
   autoload :Consistency,     File.join(LIB_DIR, "g18", "consistency")

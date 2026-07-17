@@ -2,12 +2,8 @@
 import { computed, ref } from "vue";
 import { useJsonFetch } from "@/composables/useJsonFetch";
 import tcData from "@/data/tc.json";
-<<<<<<< HEAD
-import { ACTION_META, actionMeta, slugifyPubId } from "@/composables/useSuggestedActions";
-import { editionDataName } from "@/utils/edition-utils";
-=======
 import { ACTION_META, actionMeta } from "@/composables/action-utils";
->>>>>>> baf18fb (refactor: consolidate slugify/isOiml + remove useSuggestedActions re-exports)
+import { editionDataName } from "@/utils/edition-utils";
 import SLink from "@/components/SLink.vue";
 import { kindLabel, slugify } from "@/utils/term-utils";
 
