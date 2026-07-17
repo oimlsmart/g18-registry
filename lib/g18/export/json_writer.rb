@@ -40,7 +40,6 @@ module G18
         write_publications(publications)
         write_terms(terms)
         write_terms_slim(terms)
-        write_terms_medium(terms)
         write_per_term_detail(terms)
         write_dashboard(terms, publications, vocab_gaps)
         write_tc_list(publications)
@@ -127,12 +126,10 @@ module G18
         File.write(File.join(@out_dir, "terms-slim.json"), JSON.generate(slim))
       end
 
-      def write_terms_medium(terms)
-        medium = terms.map do |t|
-          t.merge("publications" => strip_pubs(t["publications"]))
-        end
-        File.write(File.join(@out_dir, "terms-medium.json"), JSON.generate(medium))
-      end
+      # terms-medium.json was removed — zero frontend consumers (verified
+      # via grep across islands + tests). Per-term detail JSON in
+      # web/public/data/terms/ provides the same shape on demand. Saves
+      # 12MB per build.
 
       def write_per_term_detail(terms)
         dir = File.join(@repo_root, "web", "public", "data", "terms")

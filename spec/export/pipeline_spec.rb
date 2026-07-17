@@ -52,7 +52,7 @@ RSpec.describe G18::Export::Pipeline, "#call" do
 
     it "writes every expected JSON output file" do
       expected = %w[
-        publications.json terms.json terms-slim.json terms-medium.json
+        publications.json terms.json terms-slim.json
         dashboard.json tc.json tc-stats.json edition-stats.json
         harmonization.json harmonization-slim.json conflicts.json
         vocab-gaps.json actions-data.json g18-dynamic.json
