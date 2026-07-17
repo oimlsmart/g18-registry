@@ -512,7 +512,10 @@ module G18
 
       def source_origin_source(src)
         if src.is_a?(Hash)
-          return src.dig("origin", "ref", "source")
+          ref = src.dig("origin", "ref")
+          return ref if ref.is_a?(String) # new vocab v3 shape: ref is the source string directly
+          return ref["source"] if ref.is_a?(Hash) # legacy shape: ref is {source:, id:}
+          nil
         end
         ref = src.respond_to?(:origin) ? src.origin&.ref : nil
         ref&.respond_to?(:source) ? ref.source : nil
@@ -520,7 +523,10 @@ module G18
 
       def source_origin_id(src)
         if src.is_a?(Hash)
-          return src.dig("origin", "ref", "id")
+          ref = src.dig("origin", "ref")
+          return nil if ref.is_a?(String) # new shape has no id
+          return ref["id"] if ref.is_a?(Hash) # legacy shape
+          nil
         end
         ref = src.respond_to?(:origin) ? src.origin&.ref : nil
         ref&.respond_to?(:id) ? ref.id : nil
