@@ -2,7 +2,7 @@
 import { computed, ref } from "vue";
 import { useJsonFetch } from "@/composables/useJsonFetch";
 import tcData from "@/data/tc.json";
-import { ACTION_META, actionMeta, actionTypeRank, slugifyPubId } from "@/composables/action-utils";
+import { ACTION_META, actionMeta, actionTypeRank } from "@/composables/action-utils";
 import SLink from "@/components/SLink.vue";
 import { kindLabel, slugify } from "@/utils/term-utils";
 
@@ -237,7 +237,7 @@ function pubRef(id: string): string {
           </thead>
           <tbody>
             <tr v-for="s in pubStatus" :key="s.pub.id">
-              <td><SLink :to="`/publications/${slugifyPubId(s.pub.id)}/`">{{ s.pub.reference || s.pub.id }}</SLink></td>
+              <td><SLink :to="`/publications/${slugify(s.pub.id)}/`">{{ s.pub.reference || s.pub.id }}</SLink></td>
               <td class="num">{{ (s.pub.id || '').match(/(\d{4})/)?.[1] || "—" }}</td>
               <td class="num">{{ s.totalTerms }}</td>
               <td class="num">{{ s.actionsNeeded }}</td>
@@ -289,11 +289,11 @@ function pubRef(id: string): string {
               </td>
               <td class="term-cell"><SLink :to="`/concepts/${r.slug}/`">{{ r.name }}</SLink></td>
               <td v-if="viewMode === 'by-pub'">
-                <SLink v-if="r.sourcePubIds[0]" :to="`/publications/${slugifyPubId(r.sourcePubIds[0])}/`">{{ pubRef(r.sourcePubIds[0]) }}</SLink>
+                <SLink v-if="r.sourcePubIds[0]" :to="`/publications/${slugify(r.sourcePubIds[0])}/`">{{ pubRef(r.sourcePubIds[0]) }}</SLink>
                 <span v-if="r.sourcePubIds.length > 1" class="muted"> +{{ r.sourcePubIds.length - 1 }}</span>
               </td>
               <td v-else>
-                <SLink v-for="pid in r.sourcePubIds" :key="pid" :to="`/publications/${slugifyPubId(pid)}/`" class="src-pub-link">{{ pubRef(pid) }}</SLink>
+                <SLink v-for="pid in r.sourcePubIds" :key="pid" :to="`/publications/${slugify(pid)}/`" class="src-pub-link">{{ pubRef(pid) }}</SLink>
               </td>
               <td><span class="muted" style="font-size:0.88em">{{ actionMeta(r.type).hint }}</span></td>
             </tr>

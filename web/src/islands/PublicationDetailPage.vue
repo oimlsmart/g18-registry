@@ -2,16 +2,16 @@
 import { computed, ref } from "vue";
 import { useJsonFetch } from "@/composables/useJsonFetch";
 import publications from "@/data/publications.json";
-import { ACTION_META, actionMeta, actionTypeRank, slugifyPubId } from "@/composables/action-utils";
+import { ACTION_META, actionMeta, actionTypeRank } from "@/composables/action-utils";
 import SLink from "@/components/SLink.vue";
-import { kindLabel } from "@/utils/term-utils";
+import { kindLabel, slugify } from "@/utils/term-utils";
 
 const props = defineProps<{ slug: string }>();
 const base = import.meta.env.BASE_URL;
 
 const pubId = computed(() => {
   const map: Record<string, string> = {};
-  for (const p of (publications as any[])) map[slugifyPubId(p.id)] = p.id;
+  for (const p of (publications as any[])) map[slugify(p.id)] = p.id;
   return map[props.slug] || props.slug;
 });
 const pub = computed(() => (publications as any[]).find(p => p.id === pubId.value));
