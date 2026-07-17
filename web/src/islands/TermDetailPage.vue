@@ -472,59 +472,6 @@ const filteredPublications = computed(() => {
       </div>
     </div>
 
-    <!-- Recommendations banner: appears at the top, summarizes what TC 1 should do -->
-    <div :class="['recommendations-banner', `rec-${recommendation.level}`]">
-      <span class="rec-icon">{{ recommendation.icon }}</span>
-      <div class="rec-body">
-        <div class="rec-label">Recommendation</div>
-        <div class="rec-text">{{ recommendation.text }}</div>
-      </div>
-      <a v-if="recommendation.link" class="rec-action" :href="recommendation.link">{{ recommendation.action }} →</a>
-    </div>
-
-    <!-- Withdrawn publication warning: concept cited in a withdrawn OIML pub -->
-    <div v-if="withdrawnPubs.length" class="withdrawn-warning">
-      <span class="withdrawn-warning-icon">⚠</span>
-      <div class="withdrawn-warning-body">
-        <div class="withdrawn-warning-text">
-          Cited in withdrawn OIML publication(s):
-          <span v-for="(p, i) in [...new Set(withdrawnPubs.map(p => p.publication_id))]" :key="p" class="withdrawn-pub-id">
-            <SLink :to="`/publications/${slugify(p)}/`">{{ p }}</SLink><span v-if="i < [...new Set(withdrawnPubs.map(pp => pp.publication_id))].length - 1">, </span>
-          </span>
-        </div>
-        <div class="withdrawn-warning-action">Action: Retire from G 18:current and G 18:202X</div>
-      </div>
-    </div>
-    <section class="card citation-status-card" v-if="pubCitations.length">
-      <div class="card-head">
-        <h2>Publication citations</h2>
-        <span class="citation-summary">
-          <span class="citation-count citation-count-current">{{ citationSummary.current }} current</span>
-          <span v-if="citationSummary.outdated" class="citation-count citation-count-outdated">{{ citationSummary.outdated }} outdated</span>
-          <span v-if="citationSummary.noCite" class="citation-count citation-count-nocite">{{ citationSummary.noCite }} no citation</span>
-        </span>
-      </div>
-      <div class="citation-list">
-        <div v-for="c in pubCitations" :key="c.pubId" :class="['citation-row', `citation-row-${c.status}`]">
-          <SLink :to="`/publications/${slugify(c.pubId)}/`" class="citation-pub">{{ c.pubId }}</SLink>
-          <span v-for="e in c.editions" :key="e" :class="['edition-pill', `edition-${e.toLowerCase()}`]">{{ e === 'complete' ? 'OIML' : e }}</span>
-          <span class="citation-arrow">→</span>
-          <span :class="['citation-ref', `citation-ref-${c.status}`]">{{ c.formattedRef }}</span>
-          <span v-if="c.status === 'current'" class="citation-action citation-action-ok">up to date</span>
-          <span v-else-if="c.status === 'outdated'" class="citation-action citation-action-warn">update citation</span>
-          <span v-else class="citation-action citation-action-info">OIML-original</span>
-        </div>
-      </div>
-    </section>
-
-    <!-- Historic-only callout: term exists only in 2010. TC 1 cannot act. -->
-    <section v-if="isHistoricTermComputed" class="card admonition" style="background: var(--color-paper-tint); border-color: var(--color-rule);">
-      <strong>Historic (2010 only).</strong>
-      This term appears only in the published G 18:2010 edition. TC 1 cannot
-      take action on it — 2010 is frozen. Shown in worklists for completeness,
-      visually deprioritized.
-    </section>
-
     <!-- G 18 edition filter removed: concept detail shows all instances.
          G 18 entry IDs appear as metadata chips on each publication row. -->
 
@@ -729,6 +676,60 @@ const filteredPublications = computed(() => {
         </div>
       </div>
     </section>
+
+    <!-- Recommendations banner: appears at the top, summarizes what TC 1 should do -->
+    <div :class="['recommendations-banner', `rec-${recommendation.level}`]">
+      <span class="rec-icon">{{ recommendation.icon }}</span>
+      <div class="rec-body">
+        <div class="rec-label">Recommendation</div>
+        <div class="rec-text">{{ recommendation.text }}</div>
+      </div>
+      <a v-if="recommendation.link" class="rec-action" :href="recommendation.link">{{ recommendation.action }} →</a>
+    </div>
+
+    <!-- Withdrawn publication warning: concept cited in a withdrawn OIML pub -->
+    <div v-if="withdrawnPubs.length" class="withdrawn-warning">
+      <span class="withdrawn-warning-icon">⚠</span>
+      <div class="withdrawn-warning-body">
+        <div class="withdrawn-warning-text">
+          Cited in withdrawn OIML publication(s):
+          <span v-for="(p, i) in [...new Set(withdrawnPubs.map(p => p.publication_id))]" :key="p" class="withdrawn-pub-id">
+            <SLink :to="`/publications/${slugify(p)}/`">{{ p }}</SLink><span v-if="i < [...new Set(withdrawnPubs.map(pp => pp.publication_id))].length - 1">, </span>
+          </span>
+        </div>
+        <div class="withdrawn-warning-action">Action: Retire from G 18:current and G 18:202X</div>
+      </div>
+    </div>
+    <section class="card citation-status-card" v-if="pubCitations.length">
+      <div class="card-head">
+        <h2>Publication citations</h2>
+        <span class="citation-summary">
+          <span class="citation-count citation-count-current">{{ citationSummary.current }} current</span>
+          <span v-if="citationSummary.outdated" class="citation-count citation-count-outdated">{{ citationSummary.outdated }} outdated</span>
+          <span v-if="citationSummary.noCite" class="citation-count citation-count-nocite">{{ citationSummary.noCite }} no citation</span>
+        </span>
+      </div>
+      <div class="citation-list">
+        <div v-for="c in pubCitations" :key="c.pubId" :class="['citation-row', `citation-row-${c.status}`]">
+          <SLink :to="`/publications/${slugify(c.pubId)}/`" class="citation-pub">{{ c.pubId }}</SLink>
+          <span v-for="e in c.editions" :key="e" :class="['edition-pill', `edition-${e.toLowerCase()}`]">{{ e === 'complete' ? 'OIML' : e }}</span>
+          <span class="citation-arrow">→</span>
+          <span :class="['citation-ref', `citation-ref-${c.status}`]">{{ c.formattedRef }}</span>
+          <span v-if="c.status === 'current'" class="citation-action citation-action-ok">up to date</span>
+          <span v-else-if="c.status === 'outdated'" class="citation-action citation-action-warn">update citation</span>
+          <span v-else class="citation-action citation-action-info">OIML-original</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Historic-only callout: term exists only in 2010. TC 1 cannot act. -->
+    <section v-if="isHistoricTermComputed" class="card admonition" style="background: var(--color-paper-tint); border-color: var(--color-rule);">
+      <strong>Historic (2010 only).</strong>
+      This term appears only in the published G 18:2010 edition. TC 1 cannot
+      take action on it — 2010 is frozen. Shown in worklists for completeness,
+      visually deprioritized.
+    </section>
+
 
     <section v-if="allAnnotations.length" class="card admonition warn">
       <h2 style="margin-top:0">Annotations</h2>
