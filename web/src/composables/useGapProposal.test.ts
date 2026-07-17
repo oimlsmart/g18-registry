@@ -82,20 +82,31 @@ describe("useGapProposal", () => {
   });
 
   describe("composeIssueBody", () => {
-    it("includes YAML front-matter with checksum", async () => {
+    it("includes proposal header with target label", async () => {
       const draft: ProposalDraft = { gap: mockGap, target: "V3", rationale: "Because reasons" };
       const body = await composeIssueBody(draft);
-      expect(body).toContain("---");
-      expect(body).toContain("kind: 'vocabulary_gap_proposal'");
-      expect(body).toContain("g18_term:");
-      expect(body).toContain("checksum:");
+      expect(body).toContain("## Proposal");
+      expect(body).toContain("**test term**");
+      expect(body).toContain("V 3");
       expect(body).toContain("Because reasons");
     });
 
-    it("includes near-miss data in YAML", async () => {
+    it("includes slug and identifier", async () => {
+      const draft: ProposalDraft = { gap: mockGap, target: "V3", rationale: "test" };
+      const body = await composeIssueBody(draft);
+      expect(body).toContain("**Slug**: `test-term`");
+      expect(body).toContain("**G 18 identifier**: 00100");
+    });
+
+    it("includes near-miss data inline (not as YAML)", async () => {
       const draft: ProposalDraft = { gap: mockGap, target: "V2", rationale: "test" };
       const body = await composeIssueBody(draft);
-      expect(body).toContain("near_misses:");
+      // No YAML front-matter anymore
+      expect(body).not.toContain("---");
+      expect(body).not.toContain("checksum:");
+      expect(body).not.toContain("kind: 'vocabulary_gap_proposal'");
+      // Near-miss data appears as Markdown
+      expect(body).toContain("**VIM**");
       expect(body).toContain("test term");
       expect(body).toContain("4.1");
     });
@@ -105,6 +116,34 @@ describe("useGapProposal", () => {
       const body = await composeIssueBody(draft);
       expect(body).toContain("OIML R 76-1:2006");
       expect(body).toContain("OIML R 50-1:2014");
+    });
+
+    it("caps publication list at 10 entries with overflow message", async () => {
+      const manyPubs = Array.from({ length: 25 }, (_, i) => ({
+        publication_id: `OIML R ${100 + i}:2000`,
+        tc_sc: "",
+        edition: "202X",
+      }));
+      const draft: ProposalDraft = {
+        gap: { ...mockGap, publications: manyPubs },
+        target: "V3",
+        rationale: "test",
+      };
+      const body = await composeIssueBody(draft);
+      expect(body).toContain("first 10 of 25");
+      expect(body).toContain("…and 15 more");
+    });
+
+    it("falls back to placeholder rationale when blank", async () => {
+      const draft: ProposalDraft = { gap: mockGap, target: "V3", rationale: "   " };
+      const body = await composeIssueBody(draft);
+      expect(body).toContain("_(rationale to be filled in by proposer)_");
+    });
+
+    it("includes author line when provided", async () => {
+      const draft: ProposalDraft = { gap: mockGap, target: "V3", rationale: "x", author: "Alice" };
+      const body = await composeIssueBody(draft);
+      expect(body).toContain("_Proposed by Alice._");
     });
   });
 

@@ -1,7 +1,14 @@
 // Composes a GitHub issue body for a vocabulary-gap proposal.
-// The body is YAML front-matter (machine-parseable) plus a human-readable
-// rationale section. A SHA-256 checksum over the front-matter guards
-// against silent edits — reviewers can verify integrity.
+//
+// IMPORTANT: GitHub's `issues/new?body=...` URL has a practical length
+// limit (~8K chars after URL encoding). Earlier versions embedded a
+// full YAML front-matter (all publication_ids + near-miss objects +
+// checksum) which easily blew past the limit for terms cited by 30+
+// publications, causing the POST to silently fail.
+//
+// The body is now plain Markdown — no YAML, no checksum, capped lists.
+// If machine-readable metadata is needed later, attach it via the GitHub
+// API after the issue is created (separate authenticated request).
 
 import type { VocabGap } from "./useVocabGaps";
 
@@ -14,98 +21,62 @@ export interface ProposalDraft {
   author?: string;
 }
 
-// SHA-256 via the Web Crypto API. Returns hex.
-async function sha256Hex(text: string): Promise<string> {
-  if (typeof crypto === "undefined" || !crypto.subtle) {
-    // SSR / non-secure context fallback: deterministic non-crypto hash.
-    // (Only used during Astro SSG build; the live site uses crypto.subtle.)
-    let h = 0;
-    for (let i = 0; i < text.length; i++) {
-      h = ((h << 5) - h) + text.charCodeAt(i);
-      h |= 0;
-    }
-    return `fallback-${(h >>> 0).toString(16).padStart(8, "0")}`;
-  }
-  const buf = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(text));
-  return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2, "0")).join("");
-}
-
-function yamlQuote(s: string): string {
-  // Single-quoted YAML. Escape single quotes by doubling them.
-  return `'${String(s ?? "").replace(/'/g, "''")}'`;
-}
+const MAX_PUBLICATIONS_IN_BODY = 10;
 
 export async function composeIssueBody(draft: ProposalDraft): Promise<string> {
   const { gap, target, rationale, author } = draft;
-  const front: Record<string, any> = {
-    kind: "vocabulary_gap_proposal",
-    g18_term: gap.name,
-    g18_identifier: gap.identifier,
-    g18_slug: gap.slug,
-    proposed_target: target,
-    editions_present: gap.editions_present || [],
-    publication_count: gap.publications.length,
-    publication_ids: gap.publications.map(p => p.publication_id).sort(),
-    near_misses: {
-      vim: gap.near_misses?.vim ? {
-        designation: gap.near_misses.vim.designation,
-        concept_id: gap.near_misses.vim.concept_id,
-        match_type: gap.near_misses.vim.match_type,
-        similarity: gap.near_misses.vim.similarity ?? null,
-      } : null,
-      viml: gap.near_misses?.viml ? {
-        designation: gap.near_misses.viml.designation,
-        concept_id: gap.near_misses.viml.concept_id,
-        match_type: gap.near_misses.viml.match_type,
-        similarity: gap.near_misses.viml.similarity ?? null,
-      } : null,
-    },
-    proposed_by: author || "",
-  };
-  // Render front-matter as YAML manually (the structure is flat enough).
-  const yamlLines = [
-    `kind: ${yamlQuote(front.kind)}`,
-    `g18_term: ${yamlQuote(front.g18_term)}`,
-    `g18_identifier: ${yamlQuote(front.g18_identifier)}`,
-    `g18_slug: ${yamlQuote(front.g18_slug)}`,
-    `proposed_target: ${yamlQuote(front.proposed_target)}`,
-    `editions_present:`,
-    ...front.editions_present.map((e: string) => `  - ${yamlQuote(e)}`),
-    `publication_count: ${front.publication_count}`,
-    `publication_ids:`,
-    ...front.publication_ids.map((id: string) => `  - ${yamlQuote(id)}`),
-    `near_misses:`,
-    `  vim: ${front.near_misses.vim ? `{ designation: ${yamlQuote(front.near_misses.vim.designation)}, concept_id: ${yamlQuote(front.near_misses.vim.concept_id)}, match_type: ${yamlQuote(front.near_misses.vim.match_type)}, similarity: ${front.near_misses.vim.similarity ?? "null"} }` : "null"}`,
-    `  viml: ${front.near_misses.viml ? `{ designation: ${yamlQuote(front.near_misses.viml.designation)}, concept_id: ${yamlQuote(front.near_misses.viml.concept_id)}, match_type: ${yamlQuote(front.near_misses.viml.match_type)}, similarity: ${front.near_misses.viml.similarity ?? "null"} }` : "null"}`,
-    `proposed_by: ${yamlQuote(front.proposed_by)}`,
-  ];
-  const yamlBlock = yamlLines.join("\n");
-  const checksum = await sha256Hex(yamlBlock);
-  const body =
-    `---\n${yamlBlock}\nchecksum: ${checksum}\n---\n\n` +
-    `## Proposal\n\n` +
-    `**${gap.name}** is proposed for inclusion in **${targetLabel(target)}**.\n\n` +
-    `### Rationale\n\n${rationale.trim() || "(rationale to be filled in by proposer)"}\n\n` +
-    `### G 18 definition(s)\n\n` +
-    (gap.definitions.length
-      ? gap.definitions.map((d, i) => `${i + 1}. ${d}`).join("\n")
-      : "(no definition recorded in G 18)") +
-    `\n\n### Near-miss candidates\n\n` +
-    formatNearMiss("VIM", gap.near_misses?.vim) +
-    formatNearMiss("VIML", gap.near_misses?.viml) +
-    `\n### Publications using this term (${gap.publications.length})\n\n` +
-    (gap.publications.length > 0
-      ? gap.publications.slice(0, 20).map(p => `- ${p.publication_id} (${p.tc_sc || "—"}, ${p.edition})`).join("\n") +
-        (gap.publications.length > 20 ? `\n- … and ${gap.publications.length - 20} more` : "")
-      : "(none)") +
-    `\n`;
-  return body;
+  const pubs = gap.publications || [];
+  const visiblePubs = pubs.slice(0, MAX_PUBLICATIONS_IN_BODY);
+  const hiddenCount = Math.max(0, pubs.length - visiblePubs.length);
+
+  const lines: string[] = [];
+  lines.push(`## Proposal`);
+  lines.push("");
+  lines.push(`**${gap.name}** is proposed for inclusion in **${targetLabel(target)}**.`);
+  if (author) lines.push(`_Proposed by ${author}._`);
+  lines.push("");
+  lines.push(`- **Slug**: \`${gap.slug}\``);
+  if (gap.identifier) lines.push(`- **G 18 identifier**: ${gap.identifier}`);
+  lines.push(`- **Cited in**: ${pubs.length} publication${pubs.length === 1 ? "" : "s"}`);
+  lines.push("");
+
+  lines.push(`### Rationale`);
+  lines.push("");
+  lines.push(rationale.trim() || "_(rationale to be filled in by proposer)_");
+  lines.push("");
+
+  if ((gap.definitions || []).length > 0) {
+    lines.push(`### G 18 definition(s)`);
+    lines.push("");
+    gap.definitions.forEach((d, i) => lines.push(`${i + 1}. ${d}`));
+    lines.push("");
+  }
+
+  lines.push(`### Near-miss candidates`);
+  lines.push("");
+  lines.push(formatNearMiss("VIM", gap.near_misses?.vim));
+  lines.push(formatNearMiss("VIML", gap.near_misses?.viml));
+  lines.push("");
+
+  if (visiblePubs.length > 0) {
+    lines.push(`### Publications using this term${hiddenCount > 0 ? ` (first ${MAX_PUBLICATIONS_IN_BODY} of ${pubs.length})` : ""}`);
+    lines.push("");
+    visiblePubs.forEach(p => {
+      const tc = p.tc_sc ? ` · ${p.tc_sc}` : "";
+      const ed = p.edition ? ` · ${p.edition}` : "";
+      lines.push(`- ${p.publication_id}${tc}${ed}`);
+    });
+    if (hiddenCount > 0) lines.push(`- _…and ${hiddenCount} more_`);
+    lines.push("");
+  }
+
+  return lines.join("\n");
 }
 
 function formatNearMiss(label: string, nm: any): string {
-  if (!nm) return `- **${label}**: no candidate match found\n`;
-  const conf = nm.match_type === "exact" ? "exact match" : `fuzzy match (similarity ${nm.similarity})`;
-  return `- **${label}**: ${nm.designation} (concept ${nm.concept_id}, ${conf})\n`;
+  if (!nm) return `- **${label}**: no candidate match found`;
+  const conf = nm.match_type === "exact" ? "exact match" : `fuzzy match (similarity ${nm.similarity ?? "?"})`;
+  return `- **${label}**: ${nm.designation} (concept ${nm.concept_id}, ${conf})`;
 }
 
 export function targetLabel(t: ProposalTarget): string {
