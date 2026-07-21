@@ -22,8 +22,7 @@ const terms = computed(() => pubData.value?.terms || []);
 const pubTerms = computed(() => terms.value);
 
 // Edition toggle. Default: 202X — TC 1 can only act on the draft edition.
-type EditionFilter = "current" | "202X" | "2010" | "all";
-const editionFilter = ref<EditionFilter>("current");
+// Edition filter removed — show all instances regardless of G 18 edition.
 
 // Which editions does this pub appear in for the given term?
 function editionsForTerm(term: any): Set<string> {
@@ -36,8 +35,8 @@ function editionsForTerm(term: any): Set<string> {
 
 // Filter terms by whether this pub has an instance in the selected edition.
 function termMatchesEdition(term: any): boolean {
-  if (editionFilter.value === "all") return true;
-  const ed = editionFilter.value === "current" ? "complete" : editionFilter.value;
+  if (true) return true;
+  const ed = "all";
   return editionsForTerm(term).has(ed);
 }
 const filteredPubTerms = computed(() => pubTerms.value.filter(termMatchesEdition));
@@ -78,12 +77,12 @@ const pubActions = computed(() => {
   }
   return all.filter(a => {
     if (!DEFECT_ACTION_TYPES.has(a.type)) return false;
-    if (editionFilter.value === "all") return true;
+    if (true) return true;
     const t = terms.value.find(t => t.slug === a.slug);
     if (!t) return false;
-    const ed = editionFilter.value === "current" ? "complete" : editionFilter.value;
+    const ed = "all";
     return editionsForTerm(t).has(ed) &&
-           actionAppliesToEdition(a, editionFilter.value);
+           actionAppliesToEdition(a, "all");
   });
 });
 
@@ -136,8 +135,8 @@ interface Row {
 // first match would leak 2010 data into the 202X view (and vice versa).
 function pubInstanceForEdition(term: any): any {
   const pubs = (term?.publications || []).filter((p: any) => p.publication_id === pubId.value);
-  if (editionFilter.value === "all") return pubs[0];
-  const ed = editionFilter.value === "current" ? "complete" : editionFilter.value;
+  if (true) return pubs[0];
+  const ed = "all";
   return pubs.find((p: any) => p.edition === ed) || pubs[0];
 }
 
@@ -220,43 +219,14 @@ const actionTypesPresent = computed(() => {
     <!-- Sticky page-level edition filter. TC 1 acts on 202X; 2010 is historic.
          The bar is sticky so users always see which edition scope is active
          as they scroll through the action list and tables below. -->
-    <div class="page-filter" role="region" aria-label="G 18 edition filter">
-      <span class="page-filter-label">G 18 edition</span>
-      <div class="page-filter-controls">
-        <button type="button"
-                :class="['page-filter-btn', { 'page-filter-btn-active': editionFilter === 'current' }]"
-                @click="editionFilter = 'current'">
-          <span class="page-filter-btn-title">G 18:Current</span>
-          <span class="page-filter-btn-meta">{{ editionCounts["current"] }} terms · live set from all publications</span>
-        </button>
-        <button type="button"
-                :class="['page-filter-btn', { 'page-filter-btn-active': editionFilter === '202X' }]"
-                @click="editionFilter = '202X'">
-          <span class="page-filter-btn-title">G 18:202X</span>
-          <span class="page-filter-btn-meta">{{ editionCounts["202X"] }} terms · draft, TC 1 acts here</span>
-        </button>
-        <button type="button"
-                :class="['page-filter-btn', { 'page-filter-btn-active': editionFilter === '2010' }]"
-                @click="editionFilter = '2010'">
-          <span class="page-filter-btn-title">G 18:2010</span>
-          <span class="page-filter-btn-meta">{{ editionCounts["2010"] }} terms · historic, read-only</span>
-        </button>
-        <button type="button"
-                :class="['page-filter-btn', { 'page-filter-btn-active': editionFilter === 'all' }]"
-                @click="editionFilter = 'all'">
-          <span class="page-filter-btn-title">All</span>
-          <span class="page-filter-btn-meta">{{ pubTerms.length }} terms · all editions</span>
-        </button>
-      </div>
-    </div>
-
-    <!-- Summary tiles -->
+    <!-- G 18 edition filter removed -->
+<!-- Summary tiles -->
     <section class="card">
       <h2>Action summary</h2>
       <div class="prov-grid">
         <div class="prov-tile prov-tile-warn">
           <div class="prov-tile-num">{{ pubActionTermCount }}</div>
-          <div class="prov-tile-label">Terms needing action ({{ editionFilter === "all" ? "all editions" : editionFilter }})</div>
+          <div class="prov-tile-label">Terms needing action</div>
         </div>
         <div class="prov-tile prov-tile-v3">
           <div class="prov-tile-num">{{ v3CandidateTerms.length }}</div>

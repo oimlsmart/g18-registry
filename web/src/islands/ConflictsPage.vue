@@ -1,32 +1,11 @@
 <script setup lang="ts">
-import { computed, ref } from "vue";
 import { slugify } from "@/utils/term-utils";
 import conflictsData from "@/data/conflicts.json";
 import SLink from "@/components/SLink.vue";
 
-type EditionFilter = "current" | "202X" | "2010" | "all";
-const editionFilter = ref<EditionFilter>("current");
-
 const rawByEditionAll = (conflictsData as any).raw || {};
-const allEditions = Object.keys(rawByEditionAll).sort((a, b) =>
-  (b === "202X" ? 1 : 0) - (a === "202X" ? 1 : 0)
-);
-// Editions shown in the current view (respecting the filter).
-const editions = computed(() => {
-  if (editionFilter.value === "all") return allEditions;
-  const ed = editionFilter.value === "current" ? "complete" : editionFilter.value;
-  return allEditions.filter(e => e === ed);
-});
-const totalCount = computed(() =>
-  editions.value.reduce((s, ed) => s + (rawByEditionAll[ed] || []).length, 0)
-);
-
-// Per-edition counts for the filter button meta text.
-const editionCounts = computed(() => {
-  const c: Record<string, number> = { "202X": 0, "2010": 0, "complete": 0 };
-  for (const ed of allEditions) c[ed] = (rawByEditionAll[ed] || []).length;
-  return c;
-});
+const allEditions = Object.keys(rawByEditionAll).sort();
+const totalCount = allEditions.reduce((s, ed) => s + (rawByEditionAll[ed] || []).length, 0);
 </script>
 
 <template>
@@ -36,7 +15,6 @@ const editionCounts = computed(() => {
     <div class="admonition warn" style="margin:0.8em 0">
       <strong>TC 1 internal use.</strong> ID conflicts are numbering errors that TC 1
       must resolve by formally reallocating G 18 numbers in the 202X revision.
-      Other audiences do not need to act on these.
     </div>
     <p class="lede">
       A single G 18 identifier assigned to two semantically <em>different</em> concepts.
@@ -44,37 +22,6 @@ const editionCounts = computed(() => {
       <SLink to="/analysis/designations/">definition conflicts</SLink>,
       where the <em>same</em> concept has divergent definitions across publications.
     </p>
-  </div>
-
-  <!-- Sticky page-level edition filter — same pattern as other registry pages -->
-  <div class="page-filter" role="region" aria-label="G 18 edition filter">
-    <span class="page-filter-label">G 18 edition</span>
-    <div class="page-filter-controls">
-      <button type="button"
-              :class="['page-filter-btn', { 'page-filter-btn-active': editionFilter === 'current' }]"
-              @click="editionFilter = 'current'">
-        <span class="page-filter-btn-title">G 18:Current</span>
-        <span class="page-filter-btn-meta">{{ editionCounts["complete"] }} conflicting IDs · live set from all publications</span>
-      </button>
-      <button type="button"
-              :class="['page-filter-btn', { 'page-filter-btn-active': editionFilter === '202X' }]"
-              @click="editionFilter = '202X'">
-        <span class="page-filter-btn-title">G 18:202X</span>
-        <span class="page-filter-btn-meta">{{ editionCounts["202X"] }} conflicting IDs · draft, TC 1 acts here</span>
-      </button>
-      <button type="button"
-              :class="['page-filter-btn', { 'page-filter-btn-active': editionFilter === '2010' }]"
-              @click="editionFilter = '2010'">
-        <span class="page-filter-btn-title">G 18:2010</span>
-        <span class="page-filter-btn-meta">{{ editionCounts["2010"] }} conflicting IDs · historic, read-only</span>
-      </button>
-      <button type="button"
-              :class="['page-filter-btn', { 'page-filter-btn-active': editionFilter === 'all' }]"
-              @click="editionFilter = 'all'">
-        <span class="page-filter-btn-title">All</span>
-        <span class="page-filter-btn-meta">{{ allEditions.reduce((s, e) => s + editionCounts[e], 0) }} conflicting IDs · both editions</span>
-      </button>
-    </div>
   </div>
 
   <section class="card">
@@ -88,11 +35,11 @@ const editionCounts = computed(() => {
       in the 202X revision.
     </p>
     <p v-if="!totalCount" class="muted">
-      No ID conflicts detected in the selected edition. ✓
+      No ID conflicts detected. ✓
     </p>
   </section>
 
-  <section v-for="ed in editions" :key="ed" class="card">
+  <section v-for="ed in allEditions" :key="ed" class="card">
     <h2>{{ ed }} <span class="muted">({{ rawByEditionAll[ed].length }} conflicting IDs)</span></h2>
     <div class="table-scroll">
       <table>
@@ -117,10 +64,6 @@ const editionCounts = computed(() => {
     <ul>
       <li>For each conflicting ID, decide which concept keeps the number and assign a new G 18 ID to the other.</li>
       <li>Update the <code>identifier</code> field on the displaced concept in <code>oimlsmart/vocab datasets/g18-202X/</code>.</li>
-      <li>The 2010 dataset uses the <code>&lt;id&gt;a</code>/<code>&lt;id&gt;b</code> suffix convention (e.g. <code>00474a</code> / <code>00474b</code>) to disambiguate.</li>
-      <li>The 202X dataset uses a publication-derived suffix (<code>&lt;id&gt;-RXXX-N</code>, e.g. <code>02344-R049-1</code> / <code>02344-R099-1</code>) — the underlying G 18 number is still shared and needs editorial reallocation.</li>
-      <li>Both styles are dataset workarounds, not published conventions.</li>
-      <li>For the related problem of one concept cited under many IDs, see the <SLink to="/analysis/designations/">harmonisation worklist</SLink>.</li>
     </ul>
   </section>
 </template>

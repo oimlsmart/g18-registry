@@ -14,34 +14,15 @@ const { data: tcData_response, loading } = useJsonFetch(() => `${base}data/tcs/$
 const terms = computed(() => tcData_response.value?.terms || []);
 const publications = computed(() => tcData_response.value?.publications || []);
 
-// Edition filter (sticky 3-button pattern, default 202X). Filters by which
-// edition this TC/SC's pubs have instances in.
-type EditionFilter = "current" | "202X" | "2010" | "all";
-const editionFilter = ref<EditionFilter>("current");
-const editionForFilter = computed<string | null>(() => {
-  if (editionFilter.value === "all") return null;
-  return editionFilter.value === "current" ? "complete" : editionFilter.value;
-});
-
-// This TC/SC's publications — filtered by whether they have any term
-// instance in the selected edition.
+// This TC/SC's publications — no edition filter, show all.
 const tcPubs = computed(() => {
   if (!tcName.value) return [];
-  const ed = editionForFilter.value;
-  if (!ed) return publications.value.filter(p => p.tc_sc === tcName.value);
-  const pubIds = new Set<string>();
-  for (const t of terms.value) {
-    for (const p of (t.publications || [])) {
-      if (p.tc_sc === tcName.value && p.edition === ed) pubIds.add(p.publication_id);
-    }
-  }
-  return publications.value.filter(p => p.tc_sc === tcName.value && pubIds.has(p.id));
+  return publications.value.filter(p => p.tc_sc === tcName.value);
 });
 const tcTerms = computed(() => {
   if (!tcName.value) return [];
-  const ed = editionForFilter.value;
   return terms.value.filter(t => t.publications.some((p: any) =>
-    p.tc_sc === tcName.value && (ed === null || p.edition === ed)
+    p.tc_sc === tcName.value
   ));
 });
 
@@ -167,36 +148,7 @@ function pubRef(id: string): string {
       <p class="lede">Aggregated view for the TC/SC secretary.</p>
     </div>
 
-    <!-- Sticky page-level edition filter -->
-    <div class="page-filter" role="region" aria-label="G 18 edition filter">
-      <span class="page-filter-label">G 18 edition</span>
-      <div class="page-filter-controls">
-        <button type="button"
-                :class="['page-filter-btn', { 'page-filter-btn-active': editionFilter === 'current' }]"
-                @click="editionFilter = 'current'">
-          <span class="page-filter-btn-title">G 18:Current</span>
-          <span class="page-filter-btn-meta">live set from all publications</span>
-        </button>
-        <button type="button"
-                :class="['page-filter-btn', { 'page-filter-btn-active': editionFilter === '202X' }]"
-                @click="editionFilter = '202X'">
-          <span class="page-filter-btn-title">G 18:202X</span>
-          <span class="page-filter-btn-meta">draft, TC 1 acts here</span>
-        </button>
-        <button type="button"
-                :class="['page-filter-btn', { 'page-filter-btn-active': editionFilter === '2010' }]"
-                @click="editionFilter = '2010'">
-          <span class="page-filter-btn-title">G 18:2010</span>
-          <span class="page-filter-btn-meta">historic, read-only</span>
-        </button>
-        <button type="button"
-                :class="['page-filter-btn', { 'page-filter-btn-active': editionFilter === 'all' }]"
-                @click="editionFilter = 'all'">
-          <span class="page-filter-btn-title">All</span>
-          <span class="page-filter-btn-meta">both editions</span>
-        </button>
-      </div>
-    </div>
+    <!-- G 18 edition filter removed — show all instances regardless of edition -->
 
     <!-- Dashboard tiles -->
     <section class="card">
