@@ -19,7 +19,7 @@ const totalCount = allEditions.reduce((s, ed) => s + (rawByEditionAll[ed] || [])
     <p class="lede">
       A single G 18 identifier assigned to two semantically <em>different</em> concepts.
       These are distinct from
-      <SLink to="/analysis/designations/">definition conflicts</SLink>,
+      <SLink to="/g18/designations/">definition conflicts</SLink>,
       where the <em>same</em> concept has divergent definitions across publications.
     </p>
   </div>
