@@ -48,6 +48,21 @@ module G18
           terms << record[:term]
           vocab_gaps << record[:gap] if record[:gap]
         end
+        # Filter out garbage terms: oiml_original concepts with zero pubs,
+        # zero definitions, and no editions. These are section headings,
+        # table fragments, and non-English text from oiml-complete that
+        # got parsed as "concept designations" but have no actual content.
+        # VIM/VIML concepts (defined_in_vim/viml) are kept even with 0 pubs
+        # — they're authoritative vocabulary entries.
+        terms.reject! do |t|
+          t["kind"] == "oiml_original" &&
+          (t["publications"] || []).empty? &&
+          (t["data"]&.[]("publications") || []).empty? &&
+          (t["editions_present"] || []).empty?
+        end
+        # Also clean vocab_gaps — drop entries for filtered terms
+        filtered_slugs = terms.map { |t| t["slug"] }.to_set
+        vocab_gaps.reject! { |g| !filtered_slugs.include?(g["slug"]) }
         Result.new(terms: terms, vocab_gaps: vocab_gaps)
       end
 
