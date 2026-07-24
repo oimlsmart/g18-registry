@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative "../../../lib/g18/actions"
+require_relative "../../../lib/g18"
 
 RSpec.describe G18::Actions::Rules::Vocab do
   def state(lc:, oc: { "source" => "urn:oiml:pub:v:2:2007", "id" => "2.9" }, mismatch: nil, pubs: [])

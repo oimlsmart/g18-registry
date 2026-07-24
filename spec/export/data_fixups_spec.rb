@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative "../../lib/g18/export"
+require_relative "../../lib/g18"
 
 RSpec.describe G18::Export::DataFixups do
   describe ".apply_to_publication!" do

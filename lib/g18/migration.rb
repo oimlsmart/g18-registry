@@ -52,6 +52,7 @@ module G18
     autoload :Conflicts,            File.join(DIR, "conflicts")
     autoload :Runner,               File.join(DIR, "runner")
     autoload :Report,               File.join(DIR, "report")
+    autoload :SourceClassification, File.join(DIR, "source_classification")
 
     # Convenience delegator so existing call sites continue to work
     # (`G18::Migration.run(...)`).

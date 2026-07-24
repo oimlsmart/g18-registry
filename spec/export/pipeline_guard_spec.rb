@@ -2,7 +2,7 @@
 
 require "tmpdir"
 require "fileutils"
-require_relative "../../lib/g18/export"
+require_relative "../../lib/g18"
 
 RSpec.describe G18::Export::Pipeline, "#verify_minimum_output!" do
   let(:vocab_root) { Dir.mktmpdir("vocab") }
