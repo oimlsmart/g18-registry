@@ -468,69 +468,17 @@ module G18
         out
       end
 
-      def source_modification(src)
-        if src.is_a?(Hash)
-          src["modification"]
-        elsif src.respond_to?(:modification)
-          src.modification
-        end
-      end
-
-      def urn?(s)
-        s.is_a?(String) && s.start_with?("urn:oiml:pub:v:")
-      end
-
-      def vimline_source?(s)
-        return false unless s.is_a?(String)
-        s.start_with?("urn:oiml:pub:v:") || s.match?(/\AOIML V [12]/) || s.match?(/\AVIM[L]?\b/)
-      end
-
-      def adoption_kind(s)
-        case s.to_s
-        when /\AVIM[L]?\b/, /\AOIML V 2-200\b/, /urn:oiml:pub:v:2:/ then "vim"
-        when /\AVIML\b/,    /\AOIML V 1\b/,    /urn:oiml:pub:v:1:/ then "viml"
-        when /\AOIML [RDG]\b/                                    then "oiml_pub"
-        else "other"
-        end
-      end
-
-      # ConceptSource#status carries the adoption relationship in vocab v3:
-      # "identical" = verbatim quote, "modified" = adapted with `modification`
-      # text describing the change. Fall back to the source `type` field
-      # ("authoritative"/"similar"/"derived") for older data without status.
-      def adoption_relationship(src)
-        if src.is_a?(Hash)
-          return src["status"] if src["status"]
-          return src["type"] if src["type"]
-          return "authoritative"
-        end
-        status = src.respond_to?(:status) ? Array(src.status).first : nil
-        return status if status
-        type = src.respond_to?(:type) ? Array(src.type).first : nil
-        type || "authoritative"
-      end
-
-      def source_origin_source(src)
-        if src.is_a?(Hash)
-          ref = src.dig("origin", "ref")
-          return ref if ref.is_a?(String) # new vocab v3 shape: ref is the source string directly
-          return ref["source"] if ref.is_a?(Hash) # legacy shape: ref is {source:, id:}
-          nil
-        end
-        ref = src.respond_to?(:origin) ? src.origin&.ref : nil
-        ref&.respond_to?(:source) ? ref.source : nil
-      end
-
-      def source_origin_id(src)
-        if src.is_a?(Hash)
-          ref = src.dig("origin", "ref")
-          return nil if ref.is_a?(String) # new shape has no id
-          return ref["id"] if ref.is_a?(Hash) # legacy shape
-          nil
-        end
-        ref = src.respond_to?(:origin) ? src.origin&.ref : nil
-        ref&.respond_to?(:id) ? ref.id : nil
-      end
+      # Source classification methods are extracted to
+      # G18::Migration::SourceClassification for MECE. These delegators
+      # preserve backward compat — existing callers using Loaders.foo
+      # continue to work.
+      def urn?(s); SourceClassification.urn?(s); end
+      def vimline_source?(s); SourceClassification.vimline_source?(s); end
+      def adoption_kind(s); SourceClassification.adoption_kind(s); end
+      def adoption_relationship(src); SourceClassification.adoption_relationship(src); end
+      def source_origin_source(src); SourceClassification.source_origin_source(src); end
+      def source_origin_id(src); SourceClassification.source_origin_id(src); end
+      def source_modification(src); SourceClassification.source_modification(src); end
     end
   end
 end

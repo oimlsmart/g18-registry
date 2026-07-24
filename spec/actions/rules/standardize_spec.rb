@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative "../../../lib/g18/actions"
+require_relative "../../../lib/g18"
 
 RSpec.describe G18::Actions::Rules::Standardize do
   def state(pubs:)

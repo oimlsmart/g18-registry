@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative "../../../lib/g18/actions"
+require_relative "../../../lib/g18"
 
 RSpec.describe G18::Actions::Rules::Unique do
   def state(kind: "oiml_original", vocab_presence: {}, pubs: [], official_concept: nil)

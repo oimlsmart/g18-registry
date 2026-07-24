@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative "../../lib/g18/migration"
+require_relative "../../lib/g18"
 
 RSpec.describe G18::Migration::Loaders, "source_origin_*" do
   describe ".source_origin_source" do

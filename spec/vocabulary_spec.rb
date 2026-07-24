@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative "../lib/g18/vocabulary"
+require_relative "../lib/g18"
 
 RSpec.describe G18::Vocabulary do
   describe ".vocab" do

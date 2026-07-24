@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative "../../lib/g18/migration"
+require_relative "../../lib/g18"
 
 RSpec.describe G18::Model::PubId do
   describe ".parse_year" do

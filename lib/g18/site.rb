@@ -1,5 +1,10 @@
 # frozen_string_literal: true
 
+# DEPRECATED: This module is legacy code from the pre-Astro static site
+# renderer. The Vue/Astro frontend (web/) has fully replaced it. The only
+# consumer is scripts/build_site.rb which is not used in CI. Do NOT add
+# new features here — all new rendering goes through the Vue pipeline.
+
 require "yaml"
 require "set"
 require "digest"

@@ -18,6 +18,7 @@ module G18
   autoload :TcSc,            File.join(LIB_DIR, "g18", "tc_sc")
   autoload :Migration,       File.join(LIB_DIR, "g18", "migration")
   autoload :Actions,         File.join(LIB_DIR, "g18", "actions")
+  autoload :Export,          File.join(LIB_DIR, "g18", "export")
   autoload :Site,            File.join(LIB_DIR, "g18", "site")
   autoload :Consistency,     File.join(LIB_DIR, "g18", "consistency")
 

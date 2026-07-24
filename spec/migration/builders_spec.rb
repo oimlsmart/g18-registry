@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 require "set"
-require_relative "../../lib/g18/migration"
+require_relative "../../lib/g18"
 
 RSpec.describe G18::Migration::Builders do
   # The Builders module delegates heavily to Loaders. These specs focus on

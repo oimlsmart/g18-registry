@@ -3,7 +3,7 @@
 require "tmpdir"
 require "fileutils"
 require "yaml"
-require_relative "../lib/g18/tc_sc_validate"
+require_relative "../lib/g18"
 
 RSpec.describe G18::TcSc::Validate do
   let(:vocab_dir) { Dir.mktmpdir("vocab") }

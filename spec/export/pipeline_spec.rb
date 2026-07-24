@@ -3,7 +3,7 @@
 require "tmpdir"
 require "fileutils"
 require "json"
-require_relative "../../lib/g18/export"
+require_relative "../../lib/g18"
 
 RSpec.describe G18::Export::Pipeline, "#call" do
   VOCAB_ROOT = File.expand_path("../../../vocab/datasets", __dir__)

@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 require "tempfile"
-require_relative "../../lib/g18/migration"
+require_relative "../../lib/g18"
 
 RSpec.describe G18::Migration::Loaders do
   describe ".parse_year" do
